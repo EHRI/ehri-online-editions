@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-DEGOB3538_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">A. K., male, on his labour service in the Hungarian army and his time as a POW of the Soviet Army</title>
+                <title xml:lang="fr">A. K., homme, sur son service de travail dans l'armée hongroise et son temps comme prisonnier de guerre de
+                    l'armée soviétique</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Zoltán Vági</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Gábor Kádár</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>Dohány u. 2</street>
+                                <postCode>1077</postCode>
+                                <settlement>Budapest</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+                            Deportees (interview project, DEGOB)</collection>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 3538. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1945-11-13">13. 11. 1945</date>, <orgName ref="#g004602">National Committee for Attending Deportees
+                    (DEGOB)</orgName>, <idno>EHRI-ET-DEGOB3538</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="hu">Hungarian</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Testimony of 31-year-old Dr. A.K. on his hardships as a labor serviceman in the Hungarian Army on the Eastern front in 1942/43,
+                    where he deserted along with 41 comrades and joined the partisans.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <p><pb facs="EHRI-ET-DEGOB3538_01.jpg" n="1"/></p>
+                <p>Fent nevezett előadja a következőket:</p>
+                <p><date when="1942-05-11">1942. május 11</date>-én vonultam be kötelező <term ref="#t560" type="subject">munkaszolgálat</term>ra
+                        <placeName ref="#suelysap" type="ehri">Tápiósüly</placeName>re, ahol csatornázást végeztünk mellig érő vízben állva, és munka
+                    után még <term ref="#t562" type="subject">testgyakorlás</term>t kellett csinálnunk.</p>
+                <p>A látogatás meg volt szigorítva, továbbá az is, hogy <term ref="#t820" type="subject">hozzátartozóink</term><term ref="#t832"
+                        type="subject">élelmet</term> juttassanak be hozzánk és ha ez mégis megtörtént, akkor <persName ref="#ehri_et_koszegi"
+                        type="ehri">Kőszegi</persName> nevezetű <term ref="#t886" type="subject">főhadnagy</term> a legkegyetlenebb bánásmódban
+                    részesített bennünket, csukló- és <term ref="#t562" type="subject">tornagyakorlatok</term>at végeztetett velünk és<term
+                        ref="#t562" type="subject">kikötötte</term> az embereket.</p>
+                <p><persName ref="#ehri_et_forgacs" type="ehri">Forgács</persName>
+                    <term ref="#t886" type="subject">őrmester</term> úgy serkentett a munkára, hogy a lábunk elé lövöldözött és puskatussal vert
+                    bennünket.</p>
+                <p>Innen kerültünk <placeName ref="#nagykata" type="ehri">Nagykátára</placeName>, ahol <persName ref="#ehri_et_muray" type="ehri"
+                        >Muray</persName>
+                    <term ref="#t886" type="subject">alezredes</term> rettenetes módon <term ref="#t562" type="subject">kínozta</term> az embereket,
+                    öklével az arcunkba <term ref="#t562" type="subject">vágott</term>, mert a <term ref="#t338" type="subject">sárga csillag</term>
+                    sohasem volt elég jól <term ref="#t836" type="subject">felvarrva</term>.</p>
+                <p>Egy egészen <term ref="#t837" type="subject">kis helyiség</term>ben 55-en voltunk összezsúfolva, ahol megmozdulni nem volt
+                    lehetséges. <term ref="#t831" type="subject">Tisztálkodni</term> csakis a levezető csatornában tudtunk, de ez is csak a legnagyobb
+                    nehézségek között ment végbe.</p>
+                <p>Volt egy <term ref="#t831" type="subject">szakaszvezetőnk</term> (nevét sajnos nem tudom, csupán annyit, hogy a <placeName
+                        ref="#budapest" type="ehri">budapest</placeName>i Pajor <term ref="#t282" type="subject">szanatórium</term> borbélya volt az
+                    illető), ez <term ref="#t562" type="subject">rugdosta, ütötte-verte</term> az embereket, és nem engedte meg a <term ref="#t292"
+                        type="subject">beteg</term>jelentkezést.</p>
+                <p><placeName ref="#nagykata" type="ehri">Nagykátáról</placeName> kivittek bennünket <placeName ref="#ukraine" type="ehri"
+                        >Ukrajnába</placeName>. Megérkezve, a <term ref="#t1077" type="subject">magyar katonaság</term> az állomáson - ezek indultak
+                    vissza az országba -, megjegyezték hogy <q>ezek sem jönnek már innen vissza...</q>
+                    <pb facs="EHRI-ET-DEGOB3538_02.jpg" n="2"/> A <term ref="#t886" type="subject">századparancsnok-helyettes</term>
+                    <persName ref="#ehri_et_leidl" type="ehri">Leidl</persName>
+                    <term ref="#t886" type="subject">tüzérzászlós</term>, a leggorombább hangnemben beszélt az emberekkel.</p>
+                <p><persName ref="#ehri_et_bajor" type="ehri">Bajor</persName>
+                    <term ref="#t886" type="subject">szakaszvezető</term> (<placeName ref="#budapest" type="ehri">pest</placeName>i tégla<term
+                        ref="#t929" type="subject">gyár</term>i munkás) <term ref="#t562" type="subject">ütötte-verte</term> az embereket és többször
+                    tett olyan kijelentést, hogy mindnyájan el fogunk pusztulni. Amikor este fáradtan jöttünk haza a <term ref="#t556" type="subject"
+                        >munkából</term>, akkor még <term ref="#t562" type="subject">tornagyakorlatokat</term> végeztetett velünk.</p>
+                <p><persName ref="#ehri_et_borza" type="ehri">Borza</persName>
+                    <term ref="#t886" type="subject">szakaszvezető</term> a 101/11-es <term ref="#t560" type="subject">század keretlegénye</term>,
+                    ennek a korbács nem állt meg a kezében. Egy alkalommal, amikor<term ref="#t556" type="subject">munkába</term> indultam reggel
+                    7-kor, futólépésben kellett megtennünk az utat a munkahelyig, mely 300 m-re volt a szállásunktól, a sötétség folytán megbotlottam
+                    és elestem. <persName ref="#ehri_et_borza" type="ehri">Borza</persName> odalépett hozzám azt ordítva, hogy szabotálok és <term
+                        ref="#t562" type="subject">véresre vert</term> engem.</p>
+                <p><persName ref="#ehri_et_bottka" type="ehri">Bottka</persName> és <persName ref="#ehri_et_botha" type="ehri">Bótha</persName>
+                    <term ref="#t1077" type="subject">honvédek</term>, szintén <term ref="#t562" type="subject">kegyetlenkedtek</term> a <term
+                        ref="#t560" type="subject">századdal</term>.</p>
+                <p><persName ref="#ehri_et_ligety" type="ehri">Ligety</persName>
+                    <term ref="#t886" type="subject">zászlós</term> (zsidó származású) lett később a <term ref="#t886" type="subject"
+                        >századparancsnokunk</term>, aki a <term ref="#t562" type="subject">kegyetlenkedések</term> egész sorozatát követte el.
+                    Direkte felszólította a legénységet, hogy <term ref="#t562" type="subject">kínozzanak</term> bennünket és gyakran hangoztatta,
+                    hogy először jön a <term ref="#t1077" type="subject">honvéd</term>, aztán senki, megint senki, csak aztán jön a zsidó, akikkel nem
+                    lehet másképp beszélni, mint korbáccsal.</p>
+                <p>Fritz <term ref="#t886" type="subject">hadapród-őrmester</term> (egy <term ref="#t886" type="subject">kémelhárító tiszt</term>)
+                    elszedett tőlünk minden <term ref="#t836" type="subject">ruhanemű</term>t, korbáccsal <term ref="#t562" type="subject"
+                        >verte</term> az embereket, állandóan kutyakorbáccsal járt közöttünk.</p>
+                <p><date when="1942-10-22">1942. október 22</date>-én, <term ref="#t1215" type="subject">partizán</term>támadás érte a falut ahol mi
+                    voltunk, ekkor én 41 társamml együtt a <term ref="#t1215" type="subject">partizánok</term>hoz csatlakoztunk és harcoltunk a <term
+                        ref="#ehri_et_nationalities_germans" type="subject">németek</term> ellen.</p>
+                <p><date when="1943-11-10">1943. november 10</date>-ig <term ref="#t1215" type="subject">partizán</term> voltam, utána 3 hónapon
+                    keresztül a Susemkai-rayonban működtem mint <term ref="#t287" type="subject">orvos</term>, ahol a legjobb dolgom volt. Onnan
+                    elkerülem egy másik civil<term ref="#t282" type="subject">kórház</term>ba. Később elküldtek <placeName ref="#orel" type="ehri"
+                        >Orel</placeName>ba, ahol egy hónapig továbbképzésen voltam. Onnan tértem vissza <placeName ref="#hungary" type="ehri">az
+                        országba</placeName>, vegyes transzporttal, <placeName ref="#hungary" type="ehri">Románián</placeName> keresztül.</p>
+            </div>
+            <div type="transcription">
+                <p><pb facs="EHRI-ET-DEGOB3538_01.jpg" n="1"/> The person in question has given us the following information: I started my <term
+                        ref="#t560" type="subject">labour service</term> on <date when="1942-05-11">May 11, 1942</date> in <placeName ref="#suelysap"
+                        type="ehri">Tápiósüly</placeName> where we dug sewers standing in the chest-high water. Moreover after work we had <q><term
+                            ref="#t562" type="subject">exercise</term></q> too. It was forbidden to have visiting <term ref="#t820" type="subject"
+                        >family members</term> and so was obtaining <term ref="#t832" type="subject">food</term> through them. If despite of this we
+                    managed to get some <term ref="#t832" type="subject">food</term> then <term ref="#t886" type="subject">Lieutenant</term>
+                    <persName ref="#ehri_et_koszegi" type="ehri">Kőszegi</persName> punished us in the cruellest way: he compelled us to do <term
+                        ref="#t562" type="subject">exercise</term> and <term ref="#t562" type="subject">trussed</term> people up. <term ref="#t886"
+                        type="subject">Sergeant</term>
+                    <persName ref="#ehri_et_forgacs" type="ehri">Forgács</persName> urged us to <term ref="#t556" type="subject">work</term> by
+                    shooting around our feet and hitting us with a rifle. butt. From here we were taken to <placeName ref="#nagykata" type="ehri"
+                        >Nagykáta</placeName> where <term ref="#t886" type="subject">Lieutenant Colonel</term>
+                    <persName ref="#ehri_et_muray" type="ehri">Muray</persName>
+                    <term ref="#t562" type="subject">tortured</term> people and <term ref="#t562" type="subject">hit</term> us in the face because the
+                        <term ref="#t338" type="subject">yellow star</term> was never sewn on our <term ref="#t836" type="subject">clothes</term> in a
+                    proper way. Fifty-five of us were crammed into a very <term ref="#t837" type="subject">small room</term>; it was impossible to
+                    even move. We could <term ref="#t831" type="subject">wash ourselves</term> only in the canal. We had a <term ref="#t831"
+                        type="subject">lance sergeant</term> (unfortunately I do not know his name, all I know is that he used to be a barber in the
+                    Pajor <term ref="#t282" type="subject">sanatorium</term> in <placeName ref="#budapest" type="ehri">Budapest</placeName>), who
+                        <term ref="#t562" type="subject">kicked and beat</term> people and did not allow us to report as <term ref="#t292"
+                        type="subject">sick</term>. From <placeName ref="#nagykata" type="ehri">Nagykáta</placeName> we were taken to <placeName
+                        ref="#ukraine" type="ehri">Ukraine</placeName>. When we arrived at the station, the <term ref="#t1077" type="subject"
+                        >Hungarian soldiers</term> who were leaving for home made the following remark: <q>They aren’t coming back for sure...</q></p>
+                <p><pb facs="EHRI-ET-DEGOB3538_02.jpg" n="2"/> The <term ref="#t886" type="subject">deputy commander</term> of the company was <term
+                        ref="#t886" type="subject">Warrant Officer</term>
+                    <persName ref="#ehri_et_leidl" type="ehri">Leidl</persName>, who talked to the men in the rudest tone. <term ref="#t886"
+                        type="subject">Lance Sergeant</term>
+                    <persName ref="#ehri_et_bajor" type="ehri">Bajor</persName> (a worker from a <placeName ref="#budapest" type="ehri"
+                        >Pest</placeName> brick <term ref="#t929" type="subject">factory</term>)<term ref="#t562" type="subject"> </term><term
+                        ref="#t562" type="subject">beat</term> the people all the time and told us many times that we were all going to perish. When
+                    we came home from <term ref="#t556" type="subject">work</term> in the evening, he even made us <term ref="#t562" type="subject"
+                        >exercise</term>. <term ref="#t886" type="subject">Lance Sergeant</term>
+                    <persName ref="#ehri_et_borza" type="ehri">Borza</persName> was a guard to <term ref="#t560" type="subject">labour service
+                        company</term> no. 101/11 and the whip never rested in his hands. Once we were leaving for <term ref="#t556" type="subject"
+                        >work</term> at 7 am in double quick pace and I tripped and fell in the darkness. <persName ref="#ehri_et_borza" type="ehri"
+                        >Borza</persName> stepped up to me and while shouting that I was a saboteur, he <term ref="#t562" type="subject">beat</term>
+                    me to a pulp. <term ref="#t1077" type="subject">Privates</term>
+                    <persName ref="#ehri_et_bottka" type="ehri">Bottka</persName> and <persName ref="#ehri_et_botha" type="ehri">Bótha</persName> were
+                    also very <term ref="#t562" type="subject">cruel</term> to the <term ref="#t560" type="subject">labour servicemen</term>. Later
+                        <term ref="#t886" type="subject">Warrant Officer</term>
+                    <persName ref="#ehri_et_ligety" type="ehri">Ligety</persName> (of Jewish descent) was <term ref="#t886" type="subject">appointed
+                        commander</term> of our <term ref="#t560" type="subject">company.</term> He also committed a series of <term ref="#t562"
+                        type="subject">cruel</term> acts. He called upon the guards to <term ref="#t562" type="subject">torture</term> us and every so
+                    often he declared that on his list of priority number one was the <term ref="#t1077" type="subject">Hungarian soldier</term>,
+                    number two was nobody, number three was nobody too and the Jew came only after these: he also said that there was no other way to
+                    talk to the Jews only by a whip. <term ref="#t886" type="subject">Cadet Sergeant</term> Fritz (a <term ref="#t886" type="subject"
+                        >counterintelligence officer</term>) took away all of our <term ref="#t836" type="subject">clothes</term>. He <term
+                        ref="#t562" type="subject">beat</term> people with a whip; he walked around with a whip in his hand. On <date
+                        when="1942-10-22">October 22, 1942</date>
+                    <term ref="#t1215" type="subject">partisans</term> attacked the village where we were accommodated. Forty-one brothers-in-arms and
+                    me joined the <term ref="#t1215" type="subject">partisans</term> and fought the <term ref="#ehri_et_nationalities_germans"
+                        type="subject">Germans</term>. I was a <term ref="#t1215" type="subject">partisan</term> until <date when="1943-11-10"
+                        >November 10, 1943</date>, then for three months I worked as a <term ref="#t287" type="subject">physician</term>. Later I was
+                    taken to another civilian <term ref="#t282" type="subject">hospital</term>. Later I was sent to a one-month-long further training
+                    to <placeName ref="#orel" type="ehri">Orel</placeName>. I came back to <placeName ref="#hungary" type="ehri">Hungary</placeName>
+                    with a mixed transport through <placeName ref="#hungary" type="ehri">Romania</placeName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

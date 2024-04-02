@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP014_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Ota Klinger (Klíma), the fate and death of a fellow prisoner in Schwarzheide</title>
+                <title xml:lang="fr">Ota Klinger (Klíma), le sort et la mort d'un codétenu à Schwarzheide</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Michal Frankl</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Magdalena Sedlická</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>U Staré školy 141/1</street>
+                                <postCode>110 00</postCode>
+                                <settlement>Prague</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+                        <idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1945-11-19">19. 11. 1945</date>, <term ref="#t657" type="subject">Dokumentační akce</term>, <persName
+                    ref="#ehri_et_klinger_ota">Ota Klinger</persName>, <placeName ref="#prague">Prague</placeName>
+                <idno>EHRI-ET-JMP014</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="cs">Czech</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Testimony of Ota Klinger, which became a part of the “documentation campaign” in Prague. Klinger describes the death of his fellow
+                    prisoner Jan Herrmann during an Allied air raid on the Schwarzheide labor camp.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-JMP014_01.jpg" n="1"/>
+                <p><term ref="#t657" type="subject">Dokumentační akci</term> dal k disposici p. <persName ref="#ehri_et_klinger_ota" type="ehri">Ota
+                            <hi rend="letter-spacing: +2px">Klinger</hi></persName>, <placeName ref="#prague" type="ehri">Praha I.</placeName>,
+                        <placeName ref="#prague" type="ehri">Betlémská</placeName> 8.</p>
+                <p>R. <date when="1945">1945</date>.</p>
+                <p>-----------------------------------------------------------------------------------------------------------------</p>
+                <p><term ref="#t825" type="subject">Mamince</term>, <term ref="#t825" type="subject">snoubence</term> a soudruhům, i těm, kteří v JPT
+                    cvičili s hrdinou těchto řádků, <persName ref="#hanus-herrmann" type="ehri">Honzou Hermannem</persName>.</p>
+                <p>Chci Vám popsati poslední chvíle Vašeho skutečného hrdiny, bohatýra v žití i <term ref="#t745" type="subject">umírání</term>.</p>
+                <p>Asi 31 letý sportovec tělem i duší, okupanty připraven o svého politicky činného <term ref="#t826" type="subject">bratra</term>, ač
+                    stavitel, prožíval dlouhé měsíce v <placeName ref="#l449" type="ghetto">terezínském ghettu</placeName> jako <term ref="#t102"
+                        type="subject">kuchař</term> a později pro svoji zdatnost jako vedoucí <term ref="#t556" type="subject">pracovní</term>
+                    skupiny. Oblíben všemi <term ref="#t483" type="subject">spoluvězni</term> pro svoji přímost, zdatnost v práci a neposledně pro
+                    svůj velký smysl pro spravedlnost, odchází <term ref="#t267" type="subject">transportem</term> do <placeName ref="#l2" type="camp"
+                        >Osvěčími</placeName>. Zde <term ref="#t411" type="subject">vybrán</term> mezi tisícem nejsilnějšími opouští <placeName
+                        ref="#l2" type="ehri">Osvěčín</placeName>, aby zanechal svou matku v nejistém osudu se zbytkem 11.000 <term ref="#t483"
+                        type="subject">vězni</term>, z nichž 10.500 končí hromadnou <term ref="#t698" type="subject">popravou v plynových
+                        komorách</term>.</p>
+                <p>V <term ref="#t508" type="subject">pracovním táboře</term>
+                    <placeName ref="#l851" type="camp">Schwarzheide</placeName> u <placeName ref="#l847" type="camp">Oranienburgu</placeName>
+                    <term ref="#t556" type="subject">pracuje</term> s pevnou vírou ve vítězství <term ref="#t1029" type="subject">spojenců</term> 12
+                    hodin denně, mimo hodiny trvajících <term ref="#t487" type="subject">apelů</term> a cest do <term ref="#t556" type="subject"
+                        >práce</term>. Jeho sportem utužilé tělo odolává nesnesitelným útrapám, <term ref="#t556" type="subject">dřině</term> a <term
+                        ref="#t569" type="subject">hladu</term> a přežívá mnoho kamarádů, kteří nás <term ref="#t745" type="subject">opouštějí</term>
+                    vlivem <term ref="#t569" type="subject">podvýživy</term> a týrání. Raduje se a trpí nesčetnými <term ref="#t1105" type="subject"
+                        >nálety</term>, které jsme prožívali v <term ref="#t929" type="subject">továrně</term> na umělý benzin. Ačkoliv jsme vystavěli
+                    mnoho poschoďových krytů s 3metrovými železobetonovými stropy, museli jsme prožívat <term ref="#t1105" type="subject"
+                        >bombardování</term> v bezprostřední blízkosti <term ref="#t929" type="subject">továrny</term> v dřevěných barácích, které
+                    byly vystaveny častým zásahům.</p>
+                <p>Sem dopadlé <term ref="#t1083" type="subject">bomby</term> zranily soudruha <persName ref="#hanus-herrmann" type="ehri"
+                        >Honzu</persName> tak lehce, že se za několik měsíců vykřesává ze zranění a je zase zařazen do <term ref="#t556"
+                        type="subject">pracovních</term> kolon, které jsou určeny k úplnému vyčerpání. Nepokrytě slibuje pomstu těm, kteří neberou
+                    ohled na jeho zranění a posílají ho tak přímo na zničení. Přicházejí další <term ref="#t1105" type="subject">nálety</term> a oběti
+                        <term ref="#t1159" type="subject">německé</term> bestiality jsou z našich řad. Při posledním <term ref="#t1105" type="subject"
+                        >náletu</term> odchází soudruh <persName ref="#hanus-herrmann" type="ehri">Honza</persName> z místnosti, kde se <term
+                        ref="#t832" type="subject">jedlo</term>, do místnosti ke spaní a chce uniknouti myšlence, že by ho mohl zase postihnouti
+                    zásah. <term ref="#t1083" type="subject">Bomba</term> dopadá několik metrů od našeho dřevěného baráku a spousta střepin se odráží
+                    od betonové desky rozprášené umyvárny a zasahuje desítky <term ref="#t483" type="subject">vězňů</term>, kteří leží na podlaze
+                    domku. Mezi nešťastníky je i náš <persName ref="#hanus-herrmann" type="ehri">Honza</persName>. Střepina mu utrhla nohu skoro až u
+                    třísla. V okolí samá těžká zranění. Proražené břicho, roztržená záda, uražená ruka a vše nejhorší. Přicházíme k <persName
+                        ref="#hanus-herrmann" type="ehri">Honzovi</persName>, chceme ho naložit do deky a odnést na <term ref="#t491" type="subject"
+                        >marodku</term>. <persName ref="#hanus-herrmann" type="ehri">Honza</persName> odmítá a káže nám, abychom odnesli lehčeji
+                    zraněné, kterým ještě lze pomoci. Poukazuje na velkou ztrátu krve, na beznadějný stav, na zmrzačení. Zde se ukazuje jeho velikost
+                    člověka. Nesobeckost, vlastnost, kterou by zde takřka nad <term ref="#t745" type="subject">hrobem</term> tisíců a milionů lidí, by
+                    člověk musel hledat špendlíčkem, zde člověka až zamrazilo, když slyšel slova bezmezného, nepochopitelně velkého kamarádství.
+                    Myslím, že nepřeháním, že takové bratrství je líčeno jen u osob biblických. Náš kamarád nás <term ref="#t745" type="subject"
+                        >opouští</term> za 3 dny, aby v nás zanechal nekonečnou věčnou vzpomínku – symbol lidskosti, ale i ostražitost, aby nezůstali
+                    ti, kteří byli příčinou těchto osudů, beztrestně mezi lidmi. Ač pomáhal stavěti sanitní kryty, vzdálené 5 minut od našeho <term
+                        ref="#t508" type="subject">tábora</term>, kde denně nechával kus svého já, je odnesen náš <persName ref="#hanus-herrmann"
+                        type="ehri">Honza</persName> pouze do nezpůsobilé dřevěné chaty. Zde ho operuje sanitní zřízenec, Němec, zatím <term
+                        ref="#t287" type="subject">chirurg</term>. <term ref="#t483" type="subject">Vězeň</term> smí pouze asistovat, zašít obyčejnou
+                    jehlou na pytle těžké rány. <term ref="#t286" type="subject">Sanitní zřízenec</term> operuje obyčejně pilou na dříví z truhlářské
+                    dílny <term ref="#t508" type="subject">tábora</term> a po nepopsatelných mukách <term ref="#t745" type="subject">umírají</term>
+                    desítky našich kamarádů <term ref="#t1083" type="subject">bombardovaných</term> a tisíce, desetitisíce vysílením a umučením.</p>
+                <p>Čest jejich památce.</p>
+                <pb facs="EHRI-ET-JMP014_02.jpg" n="2"/>
+                <p>Podpis: <persName ref="#ehri_et_klinger_ota" type="ehri">Ota Klinger</persName></p>
+                <p>Protokol přijala: <persName ref="#ehri_et_gerzonova_berta" type="ehri">B. Gerzonová</persName></p>
+                <p>Podpis svědků: Lebovič <note type="gloss">Lebovič - uncertain, unreadable</note></p>
+                <p>
+                    <persName ref="#ehri_et_alexander_simon" type="ehri">Simon Alexander</persName>
+                </p>
+                <p>
+                    <persName ref="#ehri_et_widder_max" type="ehri">Max Widder</persName>
+                </p>
+                <p>Za <term ref="#t657" type="subject">Dokumentační akci</term> převzal:</p>
+                <p>
+                    <date when="1945-11-19">19. XI. 1945</date>
+                </p>
+                <p>
+                    <persName ref="#ehri_et_shek_zeev" type="ehri">Scheck</persName>
+                </p>
+                <p>Za archiv: <persName ref="#ehri_et_schmiedt_alexander" type="ehri">Alex. Schmiedt</persName></p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-JMP014_01.jpg" n="1"/>
+                <p>Mr. <persName ref="#ehri_et_klinger_ota" type="ehri">Ota <hi rend="letter-spacing: +2px">Klinger</hi></persName>, <placeName
+                        ref="#prague" type="ehri">Prague I.</placeName>, <placeName ref="#prague" type="ehri">Betlémská</placeName> 8, made the
+                    following statement available to the <term ref="#t657" type="subject">Documentation Campaign</term>.</p>
+                <p><date>1945</date>.</p>
+                <p>-----------------------------------------------------------------------------------------------------------------</p>
+                <p>To my <term ref="#t825" type="subject">mother</term>, my <term ref="#t825" type="subject">fiancée</term>, my comrades, and to all
+                    of those who exercised in JPT (Union of Proletarian Sports) with the hero of these lines, <persName ref="#hanus-herrmann"
+                        type="ehri">Honza Hermann</persName>.</p>
+                <p>I would like to describe for you the final moments of your true hero in life and <term ref="#t745" type="subject">death</term>.</p>
+                <p>This roughly 31-year-old athlete in body and spirit, whose politically active <term ref="#t826" type="subject">brother</term> was
+                    killed by the occupiers, was originally a builder, but spent long months in the <placeName ref="#l449" type="ghetto"
+                        >Theresienstadt Ghetto</placeName> working as a <term ref="#t102" type="subject">cook</term> and, later, due to his
+                    skillfulness, as the leader of a <term ref="#t556" type="subject">work</term> group. Beloved by all of his <term ref="#t483"
+                        type="subject">fellow prisoners</term> for his honesty, skill as a worker, and, last but not least, for his great sense of
+                    fairness, he is departing on a <term ref="#t267" type="subject">transport</term> to <placeName ref="#l2" type="camp"
+                        >Auschwitz</placeName> now. Once there, he is <term ref="#t411" type="subject">selected</term> from the thousands of the
+                    strongest to leave <placeName ref="#l2" type="camp">Auschwitz</placeName>, leaving his mother to an uncertain fate along with the
+                    rest of the 11,000 <term ref="#t483" type="subject">prisoners</term>, 10,500 of whom will be <term ref="#t698" type="subject"
+                        >executed in the gas chambers</term>.</p>
+                <p>In the <placeName ref="#l851" type="camp">Schwarzheide</placeName><term ref="#t508" type="subject">labor camp</term> near
+                        <placeName ref="#l847" type="camp">Oranienburg</placeName>, firmly believing in the victory of the <term ref="#t1029"
+                        type="subject">allies</term>, he <term ref="#t556" type="subject">works</term> for 12 hours a day, except for the hours spent
+                    in attendance at <term ref="#t487" type="subject">roll calls</term> and on the way to <term ref="#t556" type="subject"
+                    >work</term>. His strong athlete’s body holds out against unbearable suffering, back-breaking <term ref="#t556" type="subject"
+                        >work</term>, and <term ref="#t569" type="subject">hunger</term>, and he outlives many of his friends who are <term
+                        ref="#t745" type="subject">dying</term> from <term ref="#t569" type="subject">starvation</term> and torture. He rejoices over,
+                    and suffers as a result of, the countless <term ref="#t1105" type="subject">airstrikes</term> that we experience in the synthetic
+                    gasoline <term ref="#t929" type="subject">factory</term>. Although we have built many multi-storeyed shelters with 3 meter
+                    reinforced concrete ceilings, we have to wait out the <term ref="#t1083" type="subject">bombings</term> close to the <term
+                        ref="#t929" type="subject">factory</term> inside wooden buildings that are subjected to frequent hits.</p>
+                <p>The <term ref="#t1083" type="subject">bombs</term> that strike here injure comrade <persName ref="#hanus-herrmann" type="ehri"
+                        >Honza</persName> so slightly that he recovers in several months and is once more sent off to become part of a <term
+                        ref="#t556" type="subject">work</term> group whose sole purpose is to completely exhaust the workers. He solemnly swears
+                    revenge upon those who ignored his injuries and sent him to be destroyed. More <term ref="#t1105" type="subject">air
+                        strikes</term> land and we are the victims of the <term ref="#t1159" type="subject">Germans</term>’ brutality. During the last
+                        <term ref="#t1105" type="subject">airstrike</term>, comrade <persName ref="#hanus-herrmann" type="ehri">Honza</persName>
+                    leaves the room in which we <term ref="#t832" type="subject">eat</term> and goes to the room where we sleep. He wants to escape
+                    the thought that he could be hit again. The <term ref="#t1083" type="subject">bomb</term> falls several meters from our wooden
+                    building, and many shards bounce off the concrete slabs of the washroom that has been reduced to dust and strike dozens of <term
+                        ref="#t483" type="subject">prisoners</term> who are lying on the floor of the house. Our <persName ref="#hanus-herrmann"
+                        type="ehri">Honza</persName> is among the unfortunate ones. Shrapnel has sliced his leg open close to the groin. Everyone is
+                    heavily wounded. A punctured stomach, a ripped up back, a sliced off hand, and much worse. We rush to <persName
+                        ref="#hanus-herrmann" type="ehri">Honza</persName>’s side. We want to wrap him in a blanket and carry him off to the <term
+                        ref="#t491" type="subject">sickroom</term>. <persName ref="#hanus-herrmann" type="ehri">Honza</persName> refuses, and tells us
+                    to take those with lighter injuries who can still be helped. He points our attention to his significant blood loss, hopeless
+                    condition, his maimed body. This shows what a great man he truly was. His selflessness is a quality one would be hard-pressed to
+                    find here above this <term ref="#t745" type="subject">tomb</term> of thousands and millions of people. It made us shiver to hear
+                    his words of eternal, incomprehensibly great friendship. I don’t think I exaggerate when I state that such brotherhood is
+                    described only in the Bible. Our friend <term ref="#t745" type="subject">passed away</term> 3 days later and left us with an
+                    everlasting memory – a symbol of humanity, as well as vigilance to make sure that those who caused these atrocities do not go
+                    unpunished. Although he helped build the medical shelters that were 5 minutes away from our <term ref="#t508" type="subject"
+                        >camp</term>, leaving a little bit of himself there every day, our <persName ref="#hanus-herrmann" type="ehri"
+                        >Honza</persName> is taken to a wholly unfit wooden hut. Here, a <term ref="#t286" type="subject">medical attendant</term>, a
+                    German <term ref="#t286" type="subject">surgeon</term>, operates on him. <term ref="#t483" type="subject">Prisoners</term> are
+                    only allowed to assist and stitch up heavy wounds using a plain needle used to sew bags. The <term ref="#t286" type="subject"
+                        >medical attendant</term> operates with a regular wood saw from the <term ref="#t508" type="subject">camp</term>’s joinery
+                    workshop, and dozens of our friends, victims of the <term ref="#t1083" type="subject">bombing</term>, <term ref="#t745"
+                        type="subject">die</term> after going through indescribable agony alongside tens of thousands of others worked and tortured to
+                    death.</p>
+                <p>May they rest in peace.</p>
+                <pb facs="EHRI-ET-JMP014_02.jpg" n="2"/>
+                <p>Signature: <persName ref="#ehri_et_klinger_ota" type="ehri">Ota Klinger</persName></p>
+                <p>Statement accepted by: <persName ref="#ehri_et_gerzonova_berta" type="ehri">B.Gerzonová</persName></p>
+                <p>Signature of witnesses: Lebovič <note type="gloss">Lebovič - uncertain, unreadable</note></p>
+                <p>
+                    <persName ref="#ehri_et_alexander_simon" type="ehri">Simon Alexander</persName>
+                </p>
+                <p>
+                    <persName ref="#ehri_et_widder_max" type="ehri">Max Widder</persName>
+                </p>
+                <p>Accepted on behalf of the <term ref="#t657" type="subject">Documentation Campaign</term> by:</p>
+                <p>
+                    <date when="1945-11-19">19. XI. 1945</date>
+                </p>
+                <p>
+                    <persName ref="#ehri_et_shek_zeev" type="ehri">Scheck</persName>
+                </p>
+                <p>On behalf of the archive: <persName ref="#ehri_et_schmiedt_alexander" type="ehri">Alex. Schmiedt</persName></p>
+            </div>
+        </body>
+    </text>
+</TEI>

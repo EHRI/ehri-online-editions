@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-ZIH3010005_YI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Karol Tajgman, deportation from Warsaw and imprisonment in the extermination camp in Treblinka</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michał Czajka</persName>
+				</author>
+				<author>
+					<persName>Marta Wojas</persName>
+				</author>
+				<author>
+					<persName>Dagmara Chełstowska</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</repository>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll.
+							301)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>JHI, 301, Relacja Karola Tajgmana (301/5) <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Warsaw</placeName>
+						<location>
+							<geo>52.22977 21.01178</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/756135/warsaw.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Warsaw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Treblinka extermination camp</placeName>
+						<location>
+							<geo>52.631111 22.053056</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2032"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Frankfurt am Main</placeName>
+						<location>
+							<geo>50.11552 8.68417</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2925533/frankfurt-am-main.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Frankfurt"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ukraine</placeName>
+						<location>
+							<geo>49 32</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/690791/ukraine.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ukraine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Warsaw Ghetto</placeName>
+						<location>
+							<geo>52.229666 21.012222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-1106"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Death camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-498"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Gas chambers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-499"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Victims</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Sexual abuses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-605"/>
+						</linkGrp></item>
+					<item><name>Gas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-534"/>
+						</linkGrp></item>
+					<item><name>Murder pits</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1321"/>
+						</linkGrp></item>
+					<item><name>Corpse burning</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-516"/>
+						</linkGrp></item>
+					<item><name>Uprisings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-254"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_teygman_karol">
+						<persName>Teygman, Karol</persName>
+					</person>
+					<person xml:id="ehri_et_hitreider_sepp">
+						<persName>Hitreider, Sepp</persName>
+					</person>
+					<person xml:id="ehri_et_franz_kurt">
+						<persName>Franz, Kurt</persName>
+					</person>
+					<person xml:id="ehri_et_biala_max">
+						<persName>Biala, Max</persName>
+						<note><p>05/08/1905 - 11/09/1942. SS-Rottenführer, concentration camp Oranienburg / Sachenhausen. Later sent to Brandenburg
+								and Bernburg as guard, afterwards to Treblinka. Stabbed to death on 11 September 1942 by a camp prisoner.</p></note>
+					</person>
+					<person>
+						<persName>Stangl Franz</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-002333"/>
+						</linkGrp>
+						<note><p>Participated in the Euthanasia programme (1940-1941). Commander of Sobibor and Treblinka extermination camp
+								(1942-43). Later in Italy responsible for the deportation of Italian Jews.</p></note>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1944-09-05">5. 9. 1944</date>, <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>,
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2032">Treblinka</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518">deportation</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-498">death camps</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">killing</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">gas chambers</term>
+				<idno>EHRI-ET-ZIH3010005</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="yi">Yiddish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Karol Tajgman regarding the liquidation action in the Warsaw Ghetto and his deportation to the Treblinka extermination
+					camp, from which he escaped during the revolt.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-ZIH3010005_01.jpg"/></p>
+			<p>אָנגעבער: <persName ref="#ehri_et_teygman_karol">[ט?]ייגמאַן קאַראָל</persName>, <placeName
+					ref="http://www.geonames.org/756135/warsaw.html">וואַרשע</placeName>, <placeName ref="http://www.geonames.org/756135/warsaw.html"
+					>טוואַרדע נ' 23</placeName></p>
+			<p>דאָס איז געווען דעם 9.3.1942. איך האָב געאַרבעט אין אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+					type="subject">דײַטשער</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-929">פֿאַבריק</term> אין ייִדישן <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1106">געטאָ</placeName> (אַסטראַ־ווערק כעמניץ). עס איז געווען אין דער
+				צײַט פֿון דער אַלגעמיינער אַ. ז. <q>אויפֿזידלונג</q>. צוויי מאָנאַטן האָט שוין געדויערט דאָס <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">אויספֿירן</term> ייִדן די פֿון <placeName
+					ref="http://www.geonames.org/756135/warsaw.html">וואַרשע</placeName>. אַרום האַלב פֿינף פֿאַרנאַכט איז אין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929">פֿאַבריק</term> אַרײַנגעקומען אַ גרופּע אָפֿיצירן פֿון <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">ס.ס.</term> און <term type="subject"
+					ref="#ehri_et_nationalities_ukrainians">אוקראַיִנער</term> און געהייסן אַלע אַרויסגיין אויפֿן הויף, און פֿון דאָרט אַוועקגעפֿירט אויפֿן
+				אומשלאַגפּלאַץ. מיר זײַנען געווען אַ גרופּע פֿון 200 מאַן, צווישן דעם אויך <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>. דער אומשלאַגפּלאַץ איז געווען פֿאַרפֿילט
+				מיט מענטשן. מיך האָט מען געהאַלטן אויפֿן פּלאַץ בײַ אַ שעה צײַט און גלײַך אַרײַנגעזעצט אין אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">וואַגאָ</term> אויף סחורה. אין אונדזער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">וואַגאָן</term> איז געווען 120 מאַן: <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>. די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">באַן</term> האָט גערעכנט בײַ 60 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">וואַגאָנען</term>. אַרום 6 אָוונט האָט די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">באַן</term> גערירט אין אַן אומבאַקאַנטער ריכטונג. מיר
+				זײַנען געפֿאָרן בײַ דער ענגשאַפֿט ביז 7 פֿרי. דער וועג איז געווען אַ שרעקלעכער ווײַל דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">דורשט</term> האָט דערפֿירט פּשוט ביז משוגעת, דער שווייס
+				האָט זיך געגאָסן פֿון אונדז פֿון דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">היץ</term>. אין
+				מיטן טאָג זײַנען צו אונדז אַרײַנגעקומען די היטער פֿון דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522"
+					type="subject">באַן</term>, [...], וועלכע האָבן געשלאָגן מכּות־רצח און געראַבירט אַלץ וואָס עס האָט זיך נאָר געלאָזט.</p>
+			<p>7 פֿרי זײַנען מיר אָנגעקומען אויף<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">באַן</term> ־סטאַנציע
+				מיטן נאָמען <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2032" type="camp">טרעבלינקע</placeName>. דאָרט, אויף דער
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">באַן</term>־סטאַנציע, איז דער <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">טראַנספּאָרט</term> צעטיילט געוואָרן אויף 3 טיילן צו 20 <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">וואַגאָנען</term>, און 20 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">וואַגאָן</term> האָט מען אָפּגעשיקט אויף אַ זײַטיקער
+				באַן־ליניע, וועלכע האָט געפֿירט צו אַן <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-508"
+					>אַרבעטס־לאַגער</term>, אַ שטיין־האַקערײַ, און פֿון דער ליניע צו <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508">אַרבעטס־לאַגער</term> האָט געפֿירט אַזאַ מין <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">בלינדער</term> זײַטיקער וועג צו <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2032">טויטן־לאַגער</placeName> אין אַ וואַלד, וועלכע די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן גערופֿן <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2032">ס.ס. זאָנדער־קאָמאַנדע טרעבלינקע</placeName>.</p>
+			<p><pb n="2" facs="EHRI-ET-ZIH3010005_02.jpg"/></p>
+			<p>די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">באַן</term> איז פֿאַרפֿאָרן אויף אַ פּעראָן און נעבן
+				פּעראָן זײַנען געווען 2 באַראַקן. נישט ווײַט פֿון די באַראַקן איז געווען אַרומגעצוימט אַ הויף, מיט שטעכנדיקן דראָט. דער גאַנצער פּעראָן און דער
+				גאַנצער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">לאַגער</term> איז געווען אַרומגעצוימט מיט
+				שטעכנדיקן דראָט, און נאָרמאַל אַרוםגעצוימט מיט קאָזלעס פֿון דראָט און אויף דעם אויך אַ דראָטענע שאַטקע. אויפֿן פּעראָן האָבן אונדז אָפּגעוואַרט אַ
+				גרופּע ייִדן פֿון פֿריערדיקע <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">טראַנספּאָרטן</term> אין
+				דער צאָל פֿון 80 <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-826">מאַן</term>. 40 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מאַן</term> האָבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">באַדינט</term> דעם פּעראָן, ד. ה., זיי האָבן געעפֿנט די
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">וואַגאָנען</term>, און געהייסן די מענטשן
+				אויסשטײַגן, די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">טויטע</term> פֿון די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">וואַגאָנען</term> אַרויסגענומען און בכּלל גערייניקט די
+				וועגן. די גרופּע האָט געטראָגן בלויע בענדער אויף דער לינקער האַנט און געהייסן <q>בלוי־קאָמאַנדאָ</q>. די איבעריקע 40 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מאַן</term> האָבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">באַדינט</term> דעם הויף, וווּהין דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">טראַנספּאָרט</term> איז איבערגעשיקט געוואָרן צום <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">אויסטאָן</term> זיך. זיי האָבן געטראָגן רויטע בענדער.
+				דורך דער גאַנצער צײַט זײַנען <term ref="#ehri_et_nationalities_germans">דײַטשן</term> און <term type="subject"
+					ref="#ehri_et_nationalities_ukrainians">אוקראַיִנער</term> אַרויסגעגאַנגען און מערדערלעך געשלאָגן מיט בײַטשן און שטעקענער. בײַם
+				אַרײַנקומען אין הויף האָט די גרופּע מיט די רויטע בענדער אויסגעשריגן, אַז <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> ווענדן זיך לינקס און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> רעכטס. די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> זײַנען דאַן אַוועק לינקס, וווּ עס איז געווען אַ באַראַק, און
+				די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> רעכטס אויך צו אַ באַראַק, וווּ מע האָט
+				אַלע אויסגעשטעלט אין רייען. די רויט־קאָמאַנדאָ האָט דאַן אויסגערופֿן צו די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> זיי זאָלן אויסטאָן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">שיך</term> און צוזאַמענבונדן פֿעסט מיט שטריק. ווער
+				ס'האָט קיין שטריק נישט געהאַט, האָט אַזעלכעס באַקומען. דאַן האָט מען די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> אַרײַנגעלאָזט אין דעם באַראַק: בײַ דער טיר זײַנען די שיך
+				צוגעבונדן געוואָרן און אַוועקגעלייגט אין דער זײַט. פֿאַרשטייט זיך, אַ אָן מערדערלעך שלאָגן איז דאָס נישט דורכגעגאַנגען. געווען איז דאָרט צווישן
+				די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> איינער אַ <placeName
+					ref="http://www.geonames.org/2925533/frankfurt-am-main.html">פֿראַנקפֿורטער</placeName>
+				<term ref="#ehri_et_nationalities_germans">דײַטש</term> מיטן נאָמען <persName ref="#ehri_et_hitreider_sepp">זעפּ היטרײַדער</persName>,
+				וועלכער האָט זיך ספּעציעל פֿאַרנומען מיט מאַלטרעטירן די <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					>פֿרויען</term> און <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>. צ. ב., ווען
+				ער האָט זיך געווענדט צו אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term> און דאָס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term> האָט אים נישט פֿאַרשטאַנען, האָט ער אָנגעכאַפּט
+				דאָס <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term> בײַ די פֿיסלעך און דאָס קינד אַ שלײַדער
+				געטאָן אין דער וואַנט, צעשמעטערנדיק דעם</p>
+			<p><pb n="3" facs="EHRI-ET-ZIH3010005_03.jpg"/></p>
+			<p>קאָפּ. אָדער אַ קאָפּע געטאָן אַ שוואַנגערע <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרוי</term> אין
+				בויך, אַז זי האָט גלײַך דערפֿילט אָדער פּשוט געפֿאַלן <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					>טויט</term> אַזוי, דאָס לעבן די באַראַקן זײַנען געווען פֿיל <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515"
+					type="subject">טויטע</term>. <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term>
+				זײַנען אַזוי שרעקלעך צעהרגעט געוואָרן, אומפֿעיִק צוצוגיין צו דער מכּלומרשטער באָד. אין באַראַק האָבן די ייִדן, די אַ. ג. <q>ראָט־בריגאַדע</q>,
+				געהייסן די <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">אויסטאָן</term> נאַקעט. בײַם <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">אויסטאָן</term> איז זיך ווײַטער נישט אָנגעגאַנגען אָן
+				מערדערלעך שלאָגן. ווען אַ געוויסער טייל <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term>
+				האָבן זיך אָריענטירט און ס'איז געוואָרן אַ יאָמערלעך געוויין. איז דאַן אַרײַנגעקומען אַ <term ref="#ehri_et_nationalities_germans">דײַטש</term>,
+				וועלכער האָט געהאַלטן אַ רעדע, מעלדנדיק, אַז מען זאָל זיך נישט שרעקן, עס וועט קיינעם קיין שלעכטס נישט געשען, די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> וועלן נאָר געבאָדן ווערן און דאַן באַקומען זיי נײַע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">קליידונג</term> און וועלן אַוועקפֿאָרן אויף <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term> נאָך <placeName
+					ref="http://www.geonames.org/690791/ukraine.html">אוקראַיִנע</placeName>. בײַ דער געלעגנהייט האָט ער אָנגעמאָלדן, דאָס אַלע דאָקומענטן און
+				גאָלדזאַכן זאָלן אַוועקגעגעבן ווערן אין דער קאַסע, וווּ זיי וועלן דאָס צוריק באַקומען. די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> זײַנען דאַן איבערגעשיקט געוואָרן צום פֿריזירער, וווּ די
+				האָר זײַנען זיי קורץ געשוירן געוואָרן. (אַגבֿ, זײַנען די האָר דערנאָך צונויפֿגעקליבן געוואָרן, דעזינפֿעקטירט און אין וואַגאָנען אַוועקגעשיקט
+				געוואָרן.)</p>
+			<p>אין דער זעלבער צײַט האָט מען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> געהייסן
+				זיך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">אויסטאָן</term> אין גאַנצן נאַקעט, נאָר פֿאַרהאַלטן
+				אין דער האַנט די שיך, דאָקומענטן און ווערטזאַכן. בײַם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>אויסטאָן</term> זײַנען די אומגליקלעכע מערדערלעך סאַדיסטיש געשלאָגן געוואָרן, ספּעציעל דורך אַ געוויסן <persName
+					ref="#ehri_et_franz_kurt">קורט פֿראַנץ</persName> פֿון <placeName ref="http://www.geonames.org/2950159/berlin.html"
+					>בערלין</placeName>, דער פֿאַרטרעטער פֿון <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+					>לאַגער</term>־קאָמענדאַנט, וואָס האָט אָנרײַצנדיק זײַן הונט "באַרי" ממש געשינדן די הויט פֿון די אומגליקלעכע.</p>
+			<p>נאָכן אַוועקלייגן די שיך אין דעם אָרט, זײַנען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>מענער</term> אַוועקגעפֿירט געוואָרן אין אַ זײַטיקער אַלעע, אָנגערופֿן דורך די <term ref="#ehri_et_nationalities_germans">דײַטשן</term>
+				<q>הימעל־גאַס</q>. דעם וועג, אַן ערך 300 מעטער, זײַנען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">מענער</term> געלאָפֿן. דער וועג האָט געפֿירט צו גי <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">גאַז־קאַמערן</term>. בײַם אַרײַנגיין צו דער אַלעע איז געשטאַנען אַ קאַסע, וווּ
+				מען</p>
+			<p><pb n="4" facs="EHRI-ET-ZIH3010005_04.jpg"/></p>
+			<p>האָט געמוזט אַלץ אַוועקגעבן. צווישן די לויפֿנדע מענער האָט אַ ייִד, אויך אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">קרבן</term>, געמוזט אויסקלײַבן בײַ אַ 20-30 געזונטסטע
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term>, וועלכע מען האָט פֿאַרהאַלטן צום
+				איבערטראָגן די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מלבושים</term> פֿון דעם אָנגעקומענעם
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">טראַנספּאָרט</term> אויף אַ ספּעציעלן פּלאַץ. די גרופּע
+				איז ספּעציעל מערדערלעך געשלאָגן געוואָרן. דער הונט האָט ממש געריסן לעבעדיקע שטיקער פֿלייש, געשלאָגן האָט מען מיט לאָפּעטעס, מיט אײַזנס. נאָכן
+				ענדיקן זייער צוגעטיילטע אַרבעט זײַנען זיי איבערגעשיקט געוואָרן אין דער אַלעע. כ'וויל נאָך צוגעבן די מאָמענטן פֿון די אומגליקלעכע, וועלכע
+				זײַנען געווען דורשטיק און מען האָט נישט דערלויבט טרינקען. וואַסער איז געווען, נאָר <term ref="#ehri_et_nationalities_germans">דײַטשן</term>
+				און <term type="subject" ref="#ehri_et_nationalities_ukrainians">אוקראַיִנער</term> האָבן די פּלומפּן געהיטן און נישט דערלויבט אַ טראָפּן
+				וואַסער אין מויל נעמען. די אומגליקלעכע האָבן זיך געבעטן: <q>אַ ביסל וואַסער און דערנאָך <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">שיסט</term> אונדז</q>.</p>
+			<p>נאָך די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> האָט מען גלײַך געפֿירט די <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term>. ווען די אַלעע האָט זיך געענדיקט, האָט זיך
+				פֿאַר די אויגן באַוויזן אַ הויז, טיילווײַז געמאַרמלט, טיילווײַז פֿון האָלץ, אין שיינעם סטיל, באַוואַקסן מיט בלומען און אויפֿן דאַך אַ גרויסער
+				מגן־דוד. אין דעם הויז האָט מען די מענטשן אַרײַנגעפֿירט וווּ מען האָט זיי מכּלומרשט געדאַרפֿט באָדן.</p>
+			<p>פֿאַרן אַרײַנגיין אין דעם הויז האָט געוויינטלעך זיי אָפּגעוואַרט אַ גרופּע <term type="subject" ref="#ehri_et_nationalities_ukrainians"
+					>אוקראַיִנער</term>, צווישן וועלכע ס'האָט זיך איינער אויסגעצייכנט. זײַן ספּעציאַליטעט איז געווען מאַלטרעטירן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term>, בײַ וועלכע ער האָט אָפּגעשניטן די ברוסטן, אויערן, און
+				גאַנץ אָפֿט <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-605">פֿאַרגוואַלדיקט</term> אין אַלעמענס אויגן. צו
+				די יאָמערלעכע געשרייען און געוויינען האָט קיין סוף נישט גענומען.</p>
+			<p>די טירן האָבן זיך געעפֿנט און מען האָט אַרײַנגעשטופּט אין דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499"
+					type="subject">קאַבינע</term> צו 800 מאַן, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>מענער</term> באַזונדער און <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term>
+				באַזונדער. אַרײַנגעשטופּט האָט מען מיט אויפֿגעהויבענע הענט, כּדי וואָס מער זאָל אַרײַן. די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">מערדערס</term> האָבן מיט באַגנעטן געשטאָכן אין די פּלייצעס, דאָס נאָכן
+				אָנפֿילן איז קיין שפּילקע</p>
+			<p><pb n="5" facs="EHRI-ET-ZIH3010005_05.jpg"/></p>
+			<p>אוממעגלעך געווען אַרײַנצושטעקן. מיט אַ ספּעציעלן אַפּאַראַט איז געווען אַרויסגעצויגן די לופֿט פֿון דעם הויז און דאַן הערמעטיש פֿאַרמאַכט, און ס'איז
+				געלאָזט געוואָרן אַ מאָטאָר פֿון אַ סאַמאָכאָד מיט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject"
+				>גאַז</term>. דער מאָטאָר האָט געאַרבעט אַ פּאָר מינוט. נאָך אַ 10 מינוט האָט אַ ספּעציעלע צו דעם גרופּע ייִדן געעפֿנט די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">קאַבינעס</term> – און ס'האָט זיך באַוויזן אַ מאַסע פֿון
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">טויטע</term>, וועלכע זײַנען געשטאַנען אין דער
+				זעלבער פּאָזיציע ווי מען האָט זיי אַרײַנגעשטופּט.</p>
+			<p>אַ גרופּע ייִדן האָט די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">טויטע</term> אַרויסגענומען און
+				אַוועקגעטראָגן אין צו דעם צוגעגרייטע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject">גריבער</term>,
+				די טיף פֿון 2 שטאָק און מער, און דאָרט האָט מען אין וואַרסטוועס איינע אויף די אַנדערע די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">מתים</term> אַרײַנגעלייגט. נאָך יעדן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">טראַנספּאָרט</term> האָט מען די וואַרסטווע פֿאַרשיט מיט
+				זאַמד, און ווען דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject">גרוב</term> איז געוואָרן פֿול,
+				האָט מען געשיט מיט כלאָרעק און דעם גרוב פֿאַרמאַכט.</p>
+			<p>אין אַ געוויסער צײַט אַרום, ענדע סעפּטעמבער, האָט מען אָנגעהויבן די מתים צו <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-516" type="subject">ברענען</term>. עס אז געוואָרן אײַנגעאָרדנט רישטען פֿון
+				באַן־שינעס, אונטער וועלכע מען האָט אונטערגעלייגט האָלץ און די טויטע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-516"
+					type="subject">געברענט</term>. די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject"
+				>גריבער</term>, וועלכע זײַנען פֿאַרפֿולט געווען פֿון לאַנג, זײַנען דורך ספּעציעלע מאַשינען אַרויסגעוואָרפֿן געוואָרן נעבן דעם <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject">גרוב</term>. דאַן האָבן ייִדן, צו דעם צוגעטיילטע,
+				געמוזט מיט די הענט דערקלײַבן דאָס זאַמד און אַרויסנעמען דאָס <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515">פֿלייש מיט די ביינער</term> באַזונדער און אַוועקטראָגן דאָס אויף טראַגעס
+				צום <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-516">פֿאַרברענען</term>. פֿאַר איבערלאָזן דאָס קלענסטע
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">ביינדעלע</term> אין זאַמד האָט געדראָט טויט.</p>
+			<p>דער אָנגעבער פֿון די פֿאַקטן דערציילט, דאָס ער האָט געהערט צו דער גרופּע אַרבעטער צו סאָרטירן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">קליידער</term> און צו פֿאַרשיידענע אַנדערע אַרבעטן. ער איז אין
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2032" type="camp">טרעבלינקע</placeName> געווען 11 מאָנאַט. די
+				גרופּע אַרבעטער האָט מען לאַנג געהאַלטן צוליב אַ געוויסער סיבה, נעמלעך, איין מאָל, ווען ס'איז אָנגעקומען</p>
+			<p><pb n="6" facs="EHRI-ET-ZIH3010005_06.jpg"/></p>
+			<p>אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">טראַנספּאָרט</term> מיט ייִדן פֿון <placeName
+					ref="http://www.geonames.org/756135/warsaw.html">וואַרשע</placeName>, און מען האָט אויסגעקליבן אַ גרופּע פֿון 200 מאַן, וועלכע מ'האָט
+				שרעקלעך געמאַטערט. אויסגעצייכנט האָט זיך אין דעם סאַדיזם אַ געוויסער <term type="subject" ref="#ehri_et_nationalities_germans">דײַטש</term>
+				<persName ref="#ehri_et_biala_max">מאַקס ביעלאַ</persName>. אַ ייִד פֿון דעם <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">טראַנספּאָרט</term> איז צוגעלאָפֿן צו דעם <term
+					ref="#ehri_et_nationalities_germans">דײַטש</term> און מיט אַ מעסער אַרײַנגעשטאָכן אין זײַנע פּלייצעס, לאָזנדיק אים <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">טויט</term>. אַלס סאַנקציע דערפֿאַר האָט מען פֿון דער
+				גרופּע אַרבעטער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">אויסגעשאָסן</term> בײַ 150 מאַן. צומאָרגנס
+				האָט דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">לאַגער</term>־קאָמענדאַנט פֿון טרעבלינקע
+					<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-002333">שטאַנגל</persName> באַשלאָסן, כּדי נישט איבערצוחזרן דאָס
+				געשעעניש בײַם קלײַבן נײַע אַרבעטער, אַז די גרופּע, וועלכע אַרבעט אין דער צאָל פֿון 1000-700, זאָל דערווײַל בלײַבן אויף אַ לענגערער צײַט.</p>
+			<p>אין מאָנאַט יולי 1943 האָט אַ גרופּע אַרבעטער אויף זיך גענומען צו אָרגאַניזירן אַן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254">אויפֿשטאַנד</term>, כּדי צו ליקווידירן דעם <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-498">טויטן־לאַגער</term> און דערנאָך <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַנטלויפֿן</term>. מען האָט אַרויסגעגנבֿעט געווער און אַמוניציע אין זעק,
+				און דאָס באַהאַלטן. אין דער צײַט, ווען מען האָט געטראָגן דאָס געווער, האָבן אַרבעטער ספּעציעל גערייניקט די וואַנעס קלאַפּנדיק שטאַרק, כּדי עס זאָל
+				אַרויס אַ גרויסער קורזש – די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן זיך אָפּגערוקט פֿון דעם באַראַק, און דאַן האָט מען
+				אויסגענוצט די געלעגנהייט. דעם 1943.8.2 אַזייגער 4 מיט 15 מינוט נ. מ. אויף אַ צייכן פֿון אַ שאָס פֿון פּיסטאָלעט איז דער <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254">אויפֿשטאַנד</term> אויסגעבראָכן. די גרופּע ייִדן האָט אונטערגעצונדן די
+				מאַגאַזינען פֿון בענזין מיט גראַנאַטן, דאַן פֿאַרברענט די באַראַקן און דעם פּאַרקאַן. אַ גרויסער טייל <term type="subject"
+					ref="#ehri_et_nationalities_ukrainians">אוקראַיִנער</term> האָבן זיך פֿאַרטיידיקט און צוליב דעם איז <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">דערשאָסן</term> געוואָרן עטלעכע הונדערט אויפֿשטענדלער.
+				עס איז אָבער <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-745">געפֿאַלן</term> אויך אַ מאַסע <term
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> און <term type="subject" ref="#ehri_et_nationalities_ukrainians"
+					>אוקראַיִנער</term>. נאָכן פֿאַרברענען די באַראַקן זײַנען מיר <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַנטלאָפֿן</term></p>
+			<p>פּראָטאָקאָלירט: דורך מ. אַש</p>
+			<p>44.9.5</p>
+		</body>
+	</text>
+</TEI>

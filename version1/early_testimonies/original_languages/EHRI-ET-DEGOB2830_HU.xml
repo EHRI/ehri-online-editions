@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB2830_HU">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>R. S., female, on her family’s deportation to Ukraine in 1941 and her deportation to Auschwitz-Birkenau and other Nazi camps in
+					1944–1945</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 2830. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Tab</placeName>
+						<location>
+							<geo>46.73135 18.03201</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3044221/tab.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Tab%2C_Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hessisch Lichtenau concentration camp</placeName>
+						<location>
+							<geo>51.2 9.716699</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-107"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Leipzig</placeName>
+						<location>
+							<geo>51.33962 12.37129</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2879139/leipzig.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Leipzig"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wurzen</placeName>
+						<location>
+							<geo>51.3707 12.73939</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2805597/wurzen.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Wurzen"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Yasinya</placeName>
+						<location>
+							<geo>48.27937 24.36042</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/688365/yasinya.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Yasinia"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_dniester">
+						<placeName>Dniester (river)</placeName>
+						<location>
+							<geo>46.35 30.233333</geo>
+						</location>
+					</place>
+					<place>
+						<placeName>Somogyvár</placeName>
+						<location>
+							<geo>46.5814 17.66289</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3045212/somogyvar.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Somogyv%C3%A1r"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaposvár</placeName>
+						<location>
+							<geo>46.36667 17.8</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3050616/kaposvar.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Kaposv%C3%A1r"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Košice</placeName>
+						<location>
+							<geo>48.71395 21.25808</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/724443/kosice.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ko%C5%A1ice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Náchod</placeName>
+						<location>
+							<geo>50.4167 16.16289</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3070122/nachod.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/N%C3%A1chod"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_palestine">
+						<placeName>Palestine (mandatory)</placeName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mandatory_Palestine"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-339"/>
+						</linkGrp></item>
+					<item><name>Looting</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-655"/>
+						</linkGrp></item>
+					<item><name>Sinti and Roma</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-670"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Ghettoisation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-552"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_jewish_police"><name>Jewish police</name></item>
+					<item><name>Gendarmes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1125"/>
+						</linkGrp></item>
+					<item><name>Ghetto life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-546"/>
+						</linkGrp></item>
+					<item><name>Jewish Community Council</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-873"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Local population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-637"/>
+						</linkGrp></item>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Concentration of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-614"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Female overseers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-478"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Starvation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-570"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_czechs"><name>Czechs (ascribed nationality)</name></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_weisz">
+						<persName>Weisz (member of the Jewish Council in the ghetto of Tab)</persName>
+					</person>
+					<person xml:id="ehri_et_szirmai">
+						<persName>Szirmai (member of the Jewish Council in the ghetto of Tab)</persName>
+					</person>
+					<person xml:id="ehri_et_gotzen_gusztav">
+						<persName>Gusztáv Götzen (used Jewish prisoners from the ghetto of Tab for forced labour on his estates)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>U.S. Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004289"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-07-27">27. 7. 1945</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="http://www.geonames.org/3044221/tab.html">Tab</placeName>,
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-107" type="camp">Lichtenau</placeName>, <placeName
+					ref="http://www.geonames.org/2879139/leipzig.html">Leipzig</placeName>, <placeName
+					ref="http://www.geonames.org/2805597/wurzen.html">Wurtzen</placeName>
+				<idno>EHRI-ET-DEGOB2830</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of 22-year-old R.S. on her family who were deported in the summer of 1941 from Subcarpathia, her experiences in the
+					ghetto of Tab (Western Hungary), slave labor outside the ghetto, deportation from Kaposvár, her experiences in Birkenau and forced
+					labor in an ammunition factory in Lichtenau, a transport to Leipzig and a death march at the end of the war, and liberation in
+					Wurtzen by US troops.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-DEGOB2830_01.jpg"/>
+			<p>Fent nevezett előadja a következőket:</p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Édesapám</term> asztalosmester volt, nyolc évvel
+				ezelőtt halt meg. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Édesanyámat</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bátyám</term>at, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">öcsém</term>et, valamint a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">nővérem</term> öt éves kisfiát még <date
+					when="1941-05-15">1941-ben / május 15.</date>-én/ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+					type="subject">eldeportálták</term>
+				<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Lengyelország</placeName>ba; akkor <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>en tartózkodtam, hogy az állampolgársághoz szükséges
+				iratokat megszerezzem és ezen idő alatt történt a deportálás. Bátyámnak és családjának sikerült három hónap mulva hosszu
+				viszontagságos ut után visszajönni. Az egész falu zsidóságának cca 70%-át <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">vitték el</term> akkor, csak a hadiözvegyek és a
+				munkaszolgálatosok hozzátartozói maradtak vissza, a többit mind áttették <placeName ref="http://www.geonames.org/688365/yasinya.html"
+					>Kőrösmező</placeName>n a határon. Hol a <term type="subject" ref="#ehri_et_nationalities_hungarians">magyar</term>, hol a <term
+					type="subject" ref="#ehri_et_nationalities_germans">német</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">katonák</term> ütötték-verték őket, az idősebbeket
+				mind <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">lelőtték</term> és bedobták a <placeName
+					ref="#ehri_et_dniester">Dnyeszterbe</placeName>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>Bátyám</term> szemeláttára <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">lőtték
+					agyon</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">édesanyám</term>at, neki azonban
+				sikerült a halál torkából megmenekülnie. Egy évig volt internálva, mig iratai megérkeztek, utána egy év mulva azonban sorsuk mégis
+				beteljesedett, mert a kkor a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">németek
+					megszállása</term> idején ujból kezdődött a zsidó sors. Én azután elkerültem <placeName
+					ref="http://www.geonames.org/3045212/somogyvar.html">Somogyvár</placeName>ra <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">nagynéném</term>hez. Természetesen itt is a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">sárgacsillag</term> viselésével kezdődött minden,
+					<date when="1941-05-18">Május 18.</date>-án egy nagy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655"
+					type="subject">motozás</term> után, amikor is aránylag elég sok holmit vihettünk magunkkal, kocsikkal beszállitottak, mint a
+				valóságos sátoros <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-670" type="subject">cigányok</term>at,egy egész
+				karavánt a <placeName ref="http://www.geonames.org/3044221/tab.html">tab</placeName>i <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">gettó</term>ba. Itt egyetlen utcát <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">jelöltek ki</term> erre a célra, ez körül volt
+				keritve, belül <term type="subject" ref="#ehri_et_jewish_police">zsidó rendőrök</term>, kivül pedig tábori <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">csendőrök</term> őrködtek. Cca 200 zsidó család volt
+				itt nagy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-546" type="subject">zsufoltság</term>ban, 20-30 laktak egy
+				szobában, alig tudtunk lefeküdni. Közkonyhánk is volt, de akinek volt élelmiszerkészlete, szivesebben főzött otthon. A <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-873" type="subject">zsidótanács</term> tajai: <persName
+					ref="#ehri_et_weisz">Weisz</persName>, <persName ref="#ehri_et_szirmai">Szirmai</persName>, stb. müködésük ellen nem volt
+				kifogásunk. 50 éves korig itt mindenkinek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>dolgozni</term>a kellett, mezőgazdasági munkára, épitkezési munkára is kivittek, mi épitettük a leventeotthont. A <placeName
+					ref="http://www.geonames.org/3044221/tab.html">tab</placeName>bi <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-637" type="subject">parasztság</term> nem akarta megengedni, <pb n="2"
+					facs="EHRI-ET-DEGOB2830_02.jpg"/> hogy a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>gettó</term> ott legyen. éppen ezért is huzódott el a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+					type="subject">gettó</term> ügye azonban az ottani jegyző, aki nagy <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">zsidófaló</term> volt és sok földdel rendelkezett,
+				érdekében állott, hogy ingyen munkaeráhöz jusson a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>gettó</term>beli zsifóság személyében, de meg büszkélkedni is akart a leventeotthon épitésével. Különböző környékbeli pusztákra
+				helyeztek ki munkára, hétfő reggeltől szombat estig <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>dolgoztunk</term> kint, szombat este jöttünk be kocsival. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">munka</term> nehéz volt, de nem volt rossz dolgunk, a gazdaságokban mindenütt nagyon jó volt az ellátás. A munka
+				végeztével azonban az uradalom tulajdonosa, dr. <persName ref="#ehri_et_gotzen_gusztav">Götzen Gusztáv</persName> nem fizette ki a
+				zsidó munkásokat. A<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">gettó</term>ból senki sem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">szökött meg</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">haláleset</term>re sem tudok visszaemlékezni. Julius
+				3.-án parancs érkezett, hogy csomagoljunk; a parancs délután érkezett és másnap reggel már indultunk is. 15 kg sulyu csomgaot
+				vihettünk magunkkal, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">motozás</term>nál egész
+				meztelenre vetkőztettek, <term type="subject" ref="#ehri_et_nationalities_hungarians">magyar</term> katonák és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">csendőrök</term> végezték a motozást. Barátnőm még
+				megakart menteni egy kis üveg baracklekvárt a kisleányának, a motozó <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">csendőr</term> azonban észrevette és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">elvette</term>, sőt egy labdát is azzal, hogy jó lesz
+				az az ő kisfiának. Motozás után <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject"
+					>bevaggoniroztak</term> és utána bevittek <placeName ref="http://www.geonames.org/3050616/kaposvar.html">Kaposvár</placeName>raa
+				kaszárnya udvarára, ahol cca 7000 embert <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-614" type="subject"
+					>koncentráltak</term>. Öt napon át tartózkodtunk itt, azután 90-ként <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">bevaggoniroztak</term>. Induláskor igen kevés vizet
+				kaptunk, német területen azután már alig jutottunk vizhez. WC vödrünk volt a vaggonban. Két öregasszony <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">halt meg</term> az uton, ezek <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">hulláit</term> egészen <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>ig vittük magunkkal. Valóságos csoda,
+				hogy csak két öregasszony <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">halt meg</term>, a
+				kánikuilai hőség a tárt vaggonokban szinte kibirhatatlan volt. <placeName ref="http://www.geonames.org/724443/kosice.html"
+					>Kassán</placeName> feljöttek a kocsikba a magyar <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125"
+					type="subject">csendőrök</term>, megmondták, hogy ne türelmetlenkedjünk, ne kövessünk el <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">öngyilkosság</term>ot, Németországba visznek, ott jó
+				sorsunk lesz, mozi,szinház is lesz ott, jól fogunk élni és csak dolgozni kell. Mikor harmadnap éjjel megérkeztünk <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Auschwitz-Birkenau</placeName>ba, dacára annak, hogy nem
+				tudtuk, mi lesz velünk,a következő percben,- valósággal fellélekzettünk a rettenetes utazás után. Feljöttek a kocsikba <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">csikosruhás häftlingek</term>, ránkszóltak, hogy
+				szálljunk ki, hagyjunk bent mindent a kocsikban, majd kiszállva ötös sorban felállitva, különválasztottak az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>-ek. Nem is tudtuk, miről van szó, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">néném</term>től el sem tudtam még bucsuzni, bevittek a
+				fürdőbe, ott lenyirták a hajunkat, szőrtelenitettek, hideg tuss következett. Annyira el voltunk csigázva, hogy a tuss után szinte jól
+				éreztem magam, nem is törődtem már a hajammal. Elvették a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+					type="subject">ruháinkat</term>, helyette egy<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>blous</term>t és egy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">földig érő szoknyát</term>
+				adtak, a hátára keresztet festtek piros festékkel. Akinek vékony volt a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blous</term>a, a festék átszivárgott a szöveten és az
+				illető hátán a festék kimarta a bőrt. A fürdőből a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>B. láger</term>ba kerültem, két blokkba 800-an, itt priccs sem volt, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">a földön egymás hegyén-hátán ültünk</term>, fekvésről
+				természetesen szó sem lehetett. Négy hétig voltam itt, ez volt a legrosszabb barak, az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">eső folyton beesett</term>. Zehl<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">appel</term>en kivül más munkánk nem volt, ez töltötte
+				ki napjainkat. Reggel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">feketekávé</term>t kaptunk, 8
+				órakor valami füszerü <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">leves</term>t, amit egész
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">asuchwitz</placeName>i tartózkodásom alatt nem
+				is kóstoltam meg,- este azután megkaptuk a kis szeletke kenyeret és a picike kis <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">zulag</term>ot. <pb n="3"
+					facs="EHRI-ET-DEGOB2830_03.jpg"/> Augusztus 7.-én <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411"
+					type="subject">beosztottak</term> munkára és elvittek <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-107"
+					type="camp">Lichteanu</placeName>ba. Három napig tartott az ut, az utra elegendő <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">kenyeret</term> és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">wurst</term>ot kaptunk. 60-an utaztunk egy vaggonban
+				és megérkezve <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-107" type="camp">Lichtenau</placeName>ba, nagyon
+				örültünk, hogy aránylag szép tiszta lágerbe kerültünk. Mindenkinek jutott külön fekvőhely, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">takaró</term>, sőt bögrét, kanalat is kaptunk, ugy
+				hogy ujból civilizált embereknek kezdtük magunkat érezni. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Munkánk</term> abból állott, hogy municiógyárban 18 kg-os gránátokat töltöttünk meg, továbbá a bevaggonirozásnál is
+				dolgoztunk. Cca 2000-2500 darabot kellett naponta megcsinálni, a mesterek hajszoltak a munkára. Naponta nyolc órát dolgoztunk, de
+				voltak szakmányok, amelyek 12 órát is <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>dolgoztak</term>. Minden három héten felváltva dolgoztunk délelőtti, délutáni és éjjeli schichtben. Voltak mesterek, akik vertek,
+				de általában mind hajszolt, " Los, los" kiáltással. <date when="1944-12">Decemberben</date> már kevesebb lett a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">munka</term>, nem volt gyártási anyag, akkor azután
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">erdei munkára</term> rendeltek ki. Ez még sokkal
+				rosszabb volt, térdig érő hóban jártunk ki a hegyekbe csákányozni, már este 10 óra is volt, mire beértünk a lágerbe. 15 km-re jártunk
+				ki fapapucsainkban, alig tudtunk a papucsokban járni. <date when="1945-01-05">Január 15.</date>-én ismét megkezdődött a gyári munka,
+				ennek nagyon örültünk, ha a munka nehéz is volt, de legalább nem fáztunk. <date when="1945-03">Március</date> végefelé az <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004289">amerikai csapatok</orgName> közeledtek, erre sietve <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">bevaggoniroztak</term>, 100-t egy vaggonba és egy
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">kenyér</term> utravalóval elinditottak. Hat nap
+				és hat éjjel voltunk a vaggonokban, a kisérő tiszt nem tusta, hol kössön ki velünk, mig végre <placeName
+					ref="http://www.geonames.org/2879139/leipzig.html">Leipzig</placeName>ben kivaggoniroztunk és itt egy lágerben töltöttünk három
+				hetet. Azután ismét közeledtek az <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004289">amerikaiak</orgName>,
+				elhagytuk <placeName ref="http://www.geonames.org/2879139/leipzig.html">Leipzig</placeName>et és három hétig gyalogoltunk
+				éjjel-nappal. A réten esőben, hidegben, szabad ég alatt aludtunk, minden második nap kaptunk csak néhány szem főtt <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">burgonyát</term>, aki ügyes volt, annak sikerült még
+				néhány nyers burgonyát organizálni, de főtáplálékunk a mezőn talált<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831"
+					type="subject"> </term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sóska</term> volt, de
+				azért is meg kellett szenvedni, mert az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-478" type="subject"
+					>SS-némber</term> megvert, ha ezt látta. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject"
+					>felszabadulás</term> előtt egy nappal történt, hogy egy kisleány bement egy parasztudvarra, le akart pihenni a disznóólban, ezért
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">lelőtték</term>. Kenyeret az egész három hét
+				alatt nem láttunk Az <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004289">amerikaiak szabaditottak fel</orgName>
+				<date when="1945-04-27">április 27.</date>-én <placeName ref="http://www.geonames.org/2805597/wurzen.html">Wurtzen</placeName>nél,
+				ahol azután még három hétig maradtunk, minden<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>jóban</term> volt itt részünk, ugy hogy itt az egész előbbi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570"
+					type="subject">éhezés</term>ünket kipótoltuk. Három hét után az <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">oroszok</orgName>, akik később jöttek be ide, bevagoniroztak és
+				elvittek Sagan<note place="bottom">Unidentified location.</note> ba. Itt megfigyelő lágerben voltunk hét hétig, aki <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">beteg</term> volt, azt <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">kórház</term>ban helyezték el, mi azután <term
+					type="subject" ref="#ehri_et_nationalities_czechs">cseh</term> transzporttal jöttünk haza <placeName
+					ref="http://www.geonames.org/3070122/nachod.html">Nachod</placeName>on át. Jövő terveim: <placeName ref="#ehri_et_palestine"
+					>Palesztinába</placeName> szándékozom <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+					>kivándorolni</term>.</p>
+		</body>
+	</text>
+</TEI>

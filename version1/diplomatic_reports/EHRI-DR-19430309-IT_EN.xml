@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2019-08-26T08:24:16+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19430309-IT_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Massimo Magistrati on the Deportation of Bulgarian Jews in 1943</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/it">Italy </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
+							Affari Esteri</repository>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, AG Uff IV. Posizione S.E. 27.869, busta A-B, fasc. Bulgaria.
+						<textLang mainLang="en">Original in Italian.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Sofia</placeName>
+						<location>
+							<geo>42.69751 23.32415</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/727011/sofia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Sofia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>United Kingdom</placeName>
+						<location>
+							<geo>54.75844 -2.69531</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/United_Kingdom"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Bulgaria</placeName>
+						<location>
+							<geo>42.66667 25.25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/732800/republic-of-bulgaria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bulgaria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Thrace</placeName>
+						<location>
+							<geo>41.33333 26.75</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/738770/thrace.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Thrace"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Makedonía</placeName>
+						<location>
+							<geo>40.5 23</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/735355/makedonia.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Palestine</placeName>
+						<location>
+							<geo>31.92157 35.20329</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6254930/palestine.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Palestine"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Press</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1068"/>
+						</linkGrp></item>
+					<item><name>Neutral countries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1026"/>
+						</linkGrp></item>
+					<item><name>German state</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1152"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_bulgarians"><name>Bulgarians (ascribed nationality)</name></item>
+					<item><name>Jewish Communities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-872"/>
+						</linkGrp></item>
+					<item><name>Resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-212"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_magistrati_massimo">
+						<persName>Magistrati, Massimo</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Bulgarian Government </orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004295"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Swiss government</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1373"/>
+						</linkGrp>
+						<note>
+							<p>At the start of the Second World War the Swiss government tried to maintain trade relations with all belligerents. In
+								order to safeguard vital supplies and channel them through the blockades and economic warfare restrictions applied by
+								both sides, it had to conduct complicated negotiations with its economic partners – not only Germany but also the
+								Allies.</p>
+						</note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1943-03-13">13.3.1943</date>
+				<placeName ref="http://www.geonames.org/727011/sofia.html">Sofia</placeName>
+				<persName ref="#ehri_dr_magistrati_massimo">Magistrati, Massimo</persName>
+				<idno>EHRI-DR-19430309-IT</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<!--<p>EHRI-DR-19430309-IT_EN</p>
+      <p/>
+      <p>Report of the envoy in Rome, Massimo Magistrati, of 9 March 1943 for the Ministry of
+        Foreign Affairs in Rome</p>
+      <p/>
+      <p>Incoming telegram, by courier, no. 1556 R.</p>
+      <p>Deciphered by: F.M. Cleartext</p>
+      <p/>
+      <p>Sender: R. Legation Sofia</p>
+      <p>Sofia, 9.3.43 (XXI)</p>
+      <p>Rome, 12/idem</p>
+      <p/>
+      <p>[One 1-line stamp reading: “13 Mar. 1943 Year XXI]</p>
+      <p/>
+      <p>Assigned: A.G.</p>
+      <p><space> </space>A.E.M.</p>
+      <p/>
+      <p>0135 – My telegram by courier no. 0121 of the 5th inst.</p>-->
+			<pb n="1" facs="EHRI-DR-19430309-IT_01.jpg"/>
+			<p>What has been reported in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1026" type="subject">neutral countries</term>, namely that the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004295">Bulgarian Government</orgName> is said to be negotiating at the
+				same time with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">Germany</term> and with <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">Great Britain</placeName>
+				concerning the removal from <placeName ref="http://www.geonames.org/732800/republic-of-bulgaria.html">Bulgaria</placeName> of
+				significant groups of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Israelites,</term> is true.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">Germany</term> has offered to transfer the Bulgarian
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish groups</term> to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettoes</term> in <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> and has asked the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004295">Bulgarian government</orgName> to pay the sum of five-hundred
+				marks per person for transport costs and in exchange for property seized locally. <term ref="#ehri_dr_nationalities_bulgarians"
+					>Bulgarians</term> have resisted this request <pb n="2" facs="EHRI-DR-19430309-IT_02.jpg"/> and for the time being nothing has
+				been decided as yet on the financial question. However, the departures of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> for <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> have already begun, albeit limited to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish groups</term> living in the new <placeName
+					ref="http://www.geonames.org/732800/republic-of-bulgaria.html">Bulgarian</placeName> territories, <placeName
+					ref="http://www.geonames.org/738770/thrace.html">Thrace</placeName> and <placeName
+					ref="http://www.geonames.org/735355/makedonia.html">Macedonia</placeName>, where there are <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish communities</term> that have been estimated at
+				approx. twenty-thousand individuals. As for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term> in the ancient <placeName ref="http://www.geonames.org/732800/republic-of-bulgaria.html">Bulgarian</placeName>
+				territory nothing definite has been decided, because reportedly the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004295">Bulgarian government</orgName> is opposing a marked <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject">resistance</term>.</p>
+			<p>With <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">Great
+					Britain</placeName> there have been negotiations through the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">Swiss Government</orgName> about dispatching to <placeName
+					ref="http://www.geonames.org/6254930/palestine.html">Palestine</placeName> four-thousand adult <term
+					ref="#ehri_dr_nationalities_bulgarians">Bulgarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> and four-thousand <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> children. But the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">Reich</term> has stepped in and in a certain sense
+				has “vetoed” this departure, judging, as usual, that it is dangerous to transfer to an enemy territory <pb n="3"
+					facs="EHRI-DR-19430309-IT_03"/> such decidedly anti-German elements. In the end, apparently, the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004295">Bulgarian Government</orgName> has resumed these negotiations
+				despite that “veto”, limiting them to the four-thousand children who would be accompanied by no more than five-hundred adults. This
+				negotiation as well, however, seems to encounter problems of a financial nature.</p>
+			<p><persName ref="#ehri_dr_magistrati_massimo">Magistrati</persName></p>
+		</body>
+	</text>
+</TEI>

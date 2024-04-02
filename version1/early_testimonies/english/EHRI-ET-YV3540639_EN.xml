@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-YV3540639_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Mrs. Mitzel, survival with her children in the forests of eastern Galicia</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Judith Levin</persName>
+				</author>
+				<author>
+					<persName>Daphna Sehayek</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/il">Israel</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn524432">The Central Historical Commission of the Central
+							Committee of Liberated Jews in the U.S. Zone (M.1.E).</collection>
+						<idno>file no. 3540639</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Yad Vashem Archives, The Central Historical Commission of the Central Committee of Liberated Jews in the U.S. Zone (M.1.E), file
+					no. 3540639. <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Chortkiv</placeName>
+						<location>
+							<geo>49.01709 25.79804</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/710400/chortkiv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Chortkiv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Zalishchyky</placeName>
+						<location>
+							<geo>48.64331 25.73794</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/687826/zalishchyky.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Zalishchyky"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tovste</placeName>
+						<location>
+							<geo>48.84663 25.72621</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/691444/tovste.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ternopil</placeName>
+						<location>
+							<geo>49.55342 25.58918</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/691650/ternopil.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ternopil"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ukraine</placeName>
+						<location>
+							<geo>49 32</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/690791/ukraine.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ukraine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Chernivtsi</placeName>
+						<location>
+							<geo>48.29149 25.94034</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/710719/chernivtsi.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Chernivtsi"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item xml:id="ehri_et_nationalities_russians"><name>Russians (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Mass murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-540"/>
+						</linkGrp></item>
+					<item><name>Victims</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Local population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-637"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Live burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-563"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Decrees and orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-951"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Judenrein</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-626"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Jewish holidays</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-754"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Hiding places</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-265"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Healthcare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-280"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Typhus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-493"/>
+						</linkGrp></item>
+					<item><name>Epidemics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-492"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Animals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-811"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_katshikovitsh_pinhas">
+						<persName>Katshikovitsh, Pinhas</persName>
+					</person>
+					<person xml:id="ehri_et_midl">
+						<persName>Midl (Mrs.)</persName>
+					</person>
+					<person xml:id="ehri_et_greenberg">
+						<persName>Greenberg (doctor)</persName>
+					</person>
+					<person>
+						<persName>Vlasov, Andrey Andreyevich</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000419"/>
+						</linkGrp>
+						<note><p>16/02/1901-02/08/1946.</p><p>Red-Army general, 1942- collaborated with Nazi Germany.</p></note>
+					</person>
+					<person xml:id="ehri_et_rozenstok_isaiah">
+						<persName>Rozenstok, Isaiah</persName>
+					</person>
+					<person xml:id="ehri_et_voltshe_malier">
+						<persName>Voltshe, Malier</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army.</p></note>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>Ukrainian police</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004745"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+						<note><p>Founded in 1935.</p><p>Wehrmacht was the Name for the German army after 1935. Often in competition for supplies and
+								authority with the Waffen-SS, the Wehrmacht also assisted the SS in carrying out the Final Solution. It was involved
+								in activities in Poland and the Soviet Union, which violated the Geneva Convention, such as mass killings of hostages,
+								innocent civilians, and prisoners of war. The Wehrmacht also kidnapped children in Ruthenia for Lebensborn.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><placeName ref="http://www.geonames.org/710400/chortkiv.html">Chortkiv</placeName>, <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">Zalishchyky</placeName>, <placeName
+					ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName>, <idno>EHRI-ET-YV3540639</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en" usage="100">English</language>
+			</langUsage>
+
+			<abstract>
+				<p>Testimony of Mitzel regarding her survival with her children in the forests of eastern Galicia.</p>
+			</abstract>
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-YV3540639_01.jpg"/>
+			<p>Protocol No. 4</p>
+			<p>Taken by – <persName ref="#ehri_et_katshikovitsh_pinhas">Katshikovitsh, Pinhas</persName></p>
+			<p>Related by <persName ref="#ehri_et_midl">Mrs. Midl</persName> – <placeName ref="http://www.geonames.org/710400/chortkiv.html"
+					>Chortkiv</placeName>, <placeName ref="http://www.geonames.org/691650/ternopil.html">Tarnopol region</placeName></p>
+			<p>Born <date when="1908-10">1908 (October)</date></p>
+			<p>In <date when="1941">1941</date>, when the <term ref="#ehri_et_nationalities_russians">Russian</term>-<term
+					ref="#ehri_et_nationalities_germans">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> broke out, my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term> was mobilized into the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Soviet military</orgName> and I, with my two <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term> – a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughter</term> aged seven and a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">boy</term> aged three years old – remained alone,
+				living at home in the shtetl of <placeName ref="http://www.geonames.org/710400/chortkiv.html">Chortkiv</placeName> – western
+					<placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName>. I survived innumerable <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">slaughters</term>.</p>
+			<p>The first Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term> in our shtetl fell
+				only a few days after the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">occupation</term> of our
+				region by the <term ref="#ehri_et_nationalities_germans">Germans</term>. They ordered a few hundred Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> to gather in a square – for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> gathered in the square, but instead of
+				taking them to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>, they took them to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">prison</term>, and later the <term
+					ref="#ehri_et_nationalities_germans">Germans</term>, together with the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-637" type="subject">local Ukrainians</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murdered</term> them in a brutal fashion. And they
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">buried some alive</term>. These were the best
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> from our city.</p>
+			<p>A few days later, we received news from my home town – <placeName ref="http://www.geonames.org/687826/zalishchyky.html"
+					>Zalishchyky</placeName> – five kilometers from us, where my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">parents</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sisters</term>
+				still lived, that the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">gestapo</orgName> there had issued an
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">order</term>: five hundred Jews should come to
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">clean the barracks</term>. If they would not
+				heed the command, they would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">kill</term> all the
+				Jews of the shtetl. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">order</term> was fulfilled
+				and all five hundred Jews were taken to a place outside the city. They lined them</p>
+			<p><pb n="2" facs="EHRI-ET-YV3540639_02.jpg"/></p>
+			<p>up ten in a row, one behind the other, and each row was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">shot</term> with one bullet – obviously, from such shooting most were only wounded, and some were not even touched,
+				but the <term ref="#ehri_et_nationalities_germans">Germans</term> ignored this and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">buried them all alive</term>. Among the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term> were my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> and my two younger <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sisters</term> – aged eighteen and twenty years
+				old.</p>
+			<p>In <date when="1942-03">March 1942</date>, they carried out among us in the shtetl the first formal <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">slaughter</term>. And immediately after this they
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">ordered</term> us to move into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. I went to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> with my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term> there were terrible, but they did
+				not allow us to stay for long in one place. After only six weeks they sent me (together with my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term>), along with a group of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, to <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">Zalischyky</placeName> .</p>
+			<p>After <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">laboring</term> three months in <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">Zalischyky</placeName>, in <date when="1942-09">September 1942</date> an
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">order</term> arrived that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567?dlid=eng" type="subject">camp</term> there must be <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-626" type="subject">free of Jews</term> [<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-626" type="subject">Judenrein</term>]. Then they sent us to <placeName
+					ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> (<placeName ref="http://www.geonames.org/691444/tovste.html"
+					>Toist</placeName>). <placeName ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> was an assembly point for the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murder</term> of Jews. And we arrived here
+				exactly as they were carrying out an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject"
+					>extermination</term>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">aktion</term>. I managed
+				to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hide</term>, together with my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term>. We did not rest for long: in a few
+				weeks’ time – it was exactly one day after <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Simchat
+					Torah</term> – there once again took place here a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540"
+					type="subject">slaughter</term>, during which over 2,000 Jews were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killed</term>. The panic in the city was terrible,
+				because no one had imagined that so quickly, after such a short breathing space, another <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">slaughter</term> would take pace. I <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hid</term> in a cellar, together with my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term> and another seven <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>, altogether there were ten of us.</p>
+			<p><pb n="3" facs="EHRI-ET-YV3540639_03.jpg"/></p>
+			<p>That winter we remained in <placeName ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName>. In the beginning of <date
+					when="1943-03">May 1943</date>, there again took place here a great <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">slaughter</term>. My <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term>, the three of us, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hid</term> in an attack and thus survived. Lying here
+				a few days, my younger <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">child</term> seemed to
+				understand the situation and did not even ask for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject"
+					>water</term>.</p>
+			<p>During the time in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">attic</term> we heard
+				heart-rending cries, screams, and calls for help. Many of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132"
+					type="subject">victims</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">fled</term>, but the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-637" type="subject">local population</term> – the <term
+					ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> – chased after them, beat them, and later <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murdered</term> them in a terrible fashion. Those few
+				Jews who remained alive, in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hiding</term>, were
+				later <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">sorted</term>: the older <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> [word missing] were sent to <placeName
+					ref="http://www.geonames.org/710400/chortkiv.html">Chortkiv</placeName> and the younger to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567?dlid=eng" type="subject">camps</term>. Together with my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term>, I <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">stole out</term> from the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567?dlid=eng" type="subject">camp</term> and night and alone we set out
+				for <placeName ref="http://www.geonames.org/687826/zalishchyky.html">Lysivtsi</placeName>, seven kilometers from <placeName
+					ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName>. For six weeks it was calm and then they again began a
+					Jewish-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">aktion</term>. We <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">fled</term> from the city with a group of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>, but we were noticed by the <term
+					ref="#ehri_et_nationalities_germans">Germans</term> and they immediately opened fire on us with machine guns. Straight away there
+				were 32 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term> from our group. Among them
+				was my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term>. My <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughter</term> was hit by a bullet in her foot, but
+				we were already in the field. We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hid</term> among
+				the crops until nightfall. At night, with great effort, we returned to <placeName ref="http://www.geonames.org/691444/tovste.html"
+					>Tovste</placeName>. The first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">medical
+					help</term> that my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughter</term> received was
+				from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Doctor</term>
+				<persName ref="#ehri_et_greenberg">Greenberg</persName>. And only thanks to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term>’s extraordinary efforts was it possible
+				to save the foot – she only lost her toes.</p>
+			<p><pb n="4" facs="EHRI-ET-YV3540639_04.jpg"/></p>
+			<p>Later, when the situation in <placeName ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> was again in a state of
+				tension – we once more left for <placeName ref="http://www.geonames.org/687826/zalishchyky.html">Lysivtsi</placeName>. In <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">Lysivtsi</placeName> there was still a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> of 200 Jews, who <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> at agricultural labor – the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> in the stables and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> in the fields. We received <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">food once per day</term>. The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004745">Ukrainian police</orgName> would very often fall upon our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murder</term> whoever fell into their hands. Likewise
+				due to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hunger</term> and terrible <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">living conditions</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhus</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-492" type="subject">epidemic</term> broke out – here the <term
+					ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> did not take care of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term><note place="bottom">Word missing.</note>
+				and anyone who became <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term> was immediately
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murdered</term>.</p>
+			<p>No one reacted to all of this, because the law was to beat the Jews. <date when="1944-03-01">March 1, 1944</date>, when the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Soviet Armies</orgName> advanced, the <term
+					ref="#ehri_et_nationalities_germans">Germans</term> and <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> together
+				with the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000419">Vlasovites</persName> became completely wild and
+				dealt out <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murder</term> right and left.</p>
+			<p>They caught a Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> from <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> – Mali – with her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term><note place="bottom">Should be
+					"slaughtered"</note> them. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> –
+				Shechter – from the shtetl – Igolnitz – they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">cut
+					off</term> her ears and nose and afterwards <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>murdered</term> her. A young <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> from
+					<placeName ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> – <persName ref="#ehri_et_rozenstok_isaiah">Isaiah
+					Rozenstok</persName> – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">they</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">cut off his head</term>; another young <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> from <placeName
+					ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> – <persName ref="#ehri_et_voltshe_malier">Voltshe
+					Malier</persName> – they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">tied him</term> to a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-811" type="subject">horse</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murdered</term> him together with the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-811" type="subject">horse</term>, they stabbed another middle aged Jew
+				from <placeName ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> with a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">bayonet</term>. A <term
+					ref="#ehri_et_nationalities_hungarians">Hungarian</term> Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287"
+					type="subject">doctor</term> managed to save the last of these.</p>
+			<p><pb n="5" facs="EHRI-ET-YV3540639_05.jpg"/></p>
+			<p>The few Jews who remained alive – around two hundred – they again gathered them in <placeName
+					ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>. For eight days we were watched over by a
+				group of old <term ref="#ehri_et_nationalities_germans">Germans</term> – <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmacht</orgName> – because the young one had been called to the
+				front.</p>
+			<p><date when="1944-03-23">March 23, 1944</date>, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583"
+					>Soviets</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberated</term> our region. We were barley eight
+				days with the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Soviets</orgName> when the <term
+					ref="#ehri_et_nationalities_germans">Germans</term> again renewed their attack and the shtetl once again passed to their
+				hands.</p>
+			<p>Then, in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">burning frost, starving, exhausted, naked,
+					and barefoot</term>, we <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">fled</term> for 60
+				kilometers to <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>. Many of us froze and were left
+				on the way.</p>
+			<p>We remained in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> until the end of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL16560176_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gertrud Karsten, flight from Prague with her mother in 1939</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 176. <textLang
+						mainLang="de">Original in German.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Prague</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Prague"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Slovakia</placeName>
+						<location>
+							<geo>48.66667 19.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3057568/slovak-republic.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Slovakia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>England</placeName>
+						<location>
+							<geo>52.16045 -0.70312</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6269131/england.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/England"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Munich</placeName>
+						<location>
+							<geo>48.13743 11.57549</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2867714/munich.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Munich"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Czech Republic</placeName>
+						<location>
+							<geo>49.75 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3077311/czechia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Czech_Republic"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_petschekbank">
+						<placeName>Petschekbank</placeName>
+						<location>
+							<geo>50.081389 14.431111</geo>
+						</location>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Petschek_Palace"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Karlovy Vary</placeName>
+						<location>
+							<geo>50.23271 12.87117</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3073803/karlovy-vary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Karlovy_Vary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nuremberg</placeName>
+						<location>
+							<geo>49.45421 11.07752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2861650/nuernberg.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Nuremberg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>France</placeName>
+						<location>
+							<geo>46 2</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3017382/republic-of-france.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/France"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Netherlands</placeName>
+						<location>
+							<geo>52.25 5.75</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Netherlands"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Brno</placeName>
+						<location>
+							<geo>49.19522 16.60796</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3078610/brno.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Brno"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>London</placeName>
+						<location>
+							<geo>51.50853 -0.12574</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2643743/london.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/London"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hodonín</placeName>
+						<location>
+							<geo>48.84893 17.13244</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3075654/hodonin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hodon%C3%ADn"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Luhačovice</placeName>
+						<location>
+							<geo>49.09982 17.75747</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3071407/luhacovice.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Luha%C4%8Dovice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bratislava</placeName>
+						<location>
+							<geo>48.33333 17.16667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3343955/bratislava.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bratislava_Region"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Holíč</placeName>
+						<location>
+							<geo>48.81105 17.16238</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3060077/holic.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hol%C3%AD%C4%8D"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Czechoslovakia</placeName>
+						<location>
+							<geo>50.08292 14.46672</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Czechoslovakia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bavaria</placeName>
+						<location>
+							<geo>49 11.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2951839/bavaria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bavaria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Danube River</placeName>
+						<location>
+							<geo>45.33333 29.66667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/791630/danube-river.html"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Illegal Border crossing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+						</linkGrp></item>
+					<item><name>Invasion</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1101"/>
+						</linkGrp></item>
+					<item><name>Military Officers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-886"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Work certificates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-578"/>
+						</linkGrp></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Education</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-842"/>
+						</linkGrp></item>
+					<item><name>Visas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+						</linkGrp></item>
+					<item><name>Occupation authorities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1032"/>
+						</linkGrp></item>
+					<item><name>Banks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-930"/>
+						</linkGrp></item>
+					<item><name>Finance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-934"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Medical personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-286"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Decrees and orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-951"/>
+						</linkGrp></item>
+					<item><name>Movement restrictions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-638"/>
+						</linkGrp></item>
+					<item><name>Racial laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-365"/>
+						</linkGrp></item>
+					<item><name>Baptism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-740"/>
+						</linkGrp></item>
+					<item><name>Priests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-734"/>
+						</linkGrp></item>
+					<item><name>Taxes and levies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1047"/>
+						</linkGrp></item>
+					<item><name>Journalists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-799"/>
+						</linkGrp></item>
+					<item><name>Passports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Jewish owned businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-889"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Personal documentation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1137"/>
+						</linkGrp></item>
+					<item><name>Newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1069"/>
+						</linkGrp></item>
+					<item><name>Music</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-691"/>
+						</linkGrp></item>
+					<item><name>Soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Embassies and consulates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Fear</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-829"/>
+						</linkGrp></item>
+					<item><name>Border smuggling</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-192"/>
+						</linkGrp></item>
+					<item><name>Property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-945"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish signs</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-340"/>
+						</linkGrp></item>
+					<item><name>Nationalism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1017"/>
+						</linkGrp></item>
+					<item><name>Businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-924"/>
+						</linkGrp></item>
+					<item><name>Books</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-683"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_karsten_gertrud">
+						<persName>Karsten, Gertrud (narrator)</persName>
+					</person>
+					<person>
+						<persName>Hitler, Adolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000185"/>
+						</linkGrp>
+						<note><p>20/04/1889-30/04/1945</p><p>Führer and Reichskanzler, since 04.02.1938 Oberbefehlshaber der Wehrmacht.</p></note>
+					</person>
+					<person xml:id="ehri_et_karsten_robert">
+						<persName>Karsten, Robert (father of narrator)</persName>
+					</person>
+					<person xml:id="ehri_et_smetana_fritz">
+						<persName>Smetana, Fritz</persName>
+					</person>
+					<person xml:id="ehri_et_schubert">
+						<persName>Schubert (Gestapo)</persName>
+					</person>
+					<person>
+						<persName>von Neurath, Constantin</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000293"/>
+						</linkGrp>
+						<note><p>02/02/1873-15/08/1956</p><p>German Foreign Minister (1932-1938). Reich Protector of Bohemia and Moravia
+								(1939-1943).</p></note>
+					</person>
+					<person xml:id="ehri_et_von_durren">
+						<persName>von Dürren (Gestapo)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Kindertransport</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-002891"/>
+						</linkGrp>
+						<note><p>The Kindertransport was a rescue mission of nearly 10 000 predominantly Jewish children from Germany, Czechoslovakia,
+								Austria and Poland. It started nine months before the outbreak of the Second World War. The children were taken to the
+								United Kingdom.</p></note>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, <placeName
+					ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-234">Illegal border crossing</term>
+				<idno>EHRI-ET-WL16560176</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Detailed report of a teenage girl describing her flight from Prague to Slovakia with her mother after her father committed suicide.
+					They escaped over the border in the summer of 1939 with help from members of the Gestapo (for payment). This is a very vivid,
+					adventurous account.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="2" facs="EHRI-ET-WL16560176_02.jpg"/>
+			<p><persName ref="#ehri_et_karsten_gertrud">Gertrud Karsten’s</persName> Report</p>
+			<p>Six days after <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Hitler’s</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1101" type="subject">invasion</term> of <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">merchant</term>
+				<persName ref="#ehri_et_karsten_robert">Robert K.</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">killed</term> himself by throwing himself down the
+				staircase of his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term>. <persName
+					ref="#ehri_et_karsten_robert">R. K.</persName> had been arranging his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigration</term> to <placeName
+					ref="http://www.geonames.org/6269131/england.html">England</placeName> since the <placeName
+					ref="http://www.geonames.org/2867714/munich.html">Munich</placeName> Agreement, but had not been able to carry it out quickly
+				enough.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-578" type="subject">work permit</term> from the Home Office had not
+				gone through in <date when="1939-02">February</date>, as was expected. As <persName ref="#ehri_et_karsten_robert">K.</persName> was
+				associated with the <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">government</term>, as well as with the <placeName
+					ref="#ehri_et_petschekbank">Petschekbank</placeName>,<note place="bottom">This likely refers to the Petschek Palace, though
+					uncertain of the context (e.g. why an association would make <persName ref="#ehri_et_karsten_robert">R.K</persName> a target of
+					the Nazis).</note> his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">suicide</term> was
+				pre-emptive; he would have met the same fate shortly after. Three days later, his 82-year-old mother <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> too.</p>
+			<p>The two older <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">children</orgName> were in <placeName
+					ref="http://www.geonames.org/6269131/england.html">England</placeName>. The youngest, <persName ref="#ehri_et_karsten_gertrud"
+					>Gertrud</persName>, went to the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school</term> that was taken over by the Nazis in
+					<date when="1939-03">March</date>, and had to do her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842"
+					type="subject">Abitur</term> there.</p>
+			<p>In the meantime, their mother had tried everything to arrange <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203"
+					type="subject">emigration</term> for her and <persName ref="#ehri_et_karsten_gertrud">Gertrud</persName>. The entry papers from
+					<placeName ref="http://www.geonames.org/6269131/england.html">England</placeName> arrived shortly after <persName
+					ref="#ehri_et_karsten_robert">K's.</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>. But the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigration</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term> from the <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term> could not be obtained. The
+				difficulties mounted up.</p>
+			<p>Finally, her friends gave her the address of a young secretary who had helped her boss to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigrate</term>, as she had connections with a
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> middle-man. This secretary, <q>Fritzi</q>,
+				introduced her to <persName ref="#ehri_et_smetana_fritz">Fritz Smetana</persName>. At the beginning of <date when="1939-07"
+					>July</date>, he assured her that she should not worry, and that he had spoken to the <q>Chief</q> at the <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Bank</term></q> (code word for <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>), with whom he had an understanding, and he had
+				promised him everything for the next morning. Fritzi added that she had spoken with Mr. <persName ref="#ehri_et_schubert"
+					>Schubert</persName>, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> boss; he wanted
+				a new car, but had not got the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> together
+				for it yet. <q>I said to him that he could have it, but first he had get the two <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ladies</term> out.</q></p>
+			<p>The attempts to leave had begun on the <date when="1939-06-09">9th June 1939</date>, when the <placeName
+					ref="http://www.geonames.org/6269131/england.html">English</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term> had arrived.</p>
+			<p>First, one needed a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">doctor’s</term> note for a stay
+				in <placeName ref="http://www.geonames.org/3073803/karlovy-vary.html">Karlsbad</placeName>, which the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">doctor</term> issued, with an objective reason. But,
+				on the next day, <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000293">Neurath’s</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">orders</term> were announced without warning. (<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-638" type="subject">Travel restrictions</term> etc., in accordance with
+				the <placeName ref="http://www.geonames.org/2861650/nuernberg.html">Nuremberg</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">Laws</term>). The former head of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>, <persName ref="#ehri_et_von_durren">Freiherr von
+					Dürren</persName>, had to travel to <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>, then came the
+				Bank Holidays, when all the offices were closed. In the meantime, it became <date when="1939-07">July</date>.</p>
+			<p>The promised <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigration</term> was delayed again,
+				because original copies of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-740" type="subject">baptism</term>
+				certificates had to be submitted. (The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-740" type="subject"
+					>baptism</term> had only recently been performed. It made it possible for us to get a <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">French</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term>). This <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">French</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term> expired on <date when="1939-07-15">15th
+					July</date>. The date of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-740" type="subject">baptism</term> was
+				written illegibly, so the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-734" type="subject">Priest</term> had to
+				re-write it. Then the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> caused some further
+				difficulties. Nobody, except for the mother’s parents, was allowed to know about the intended journey. On the <date when="1939-07-06"
+					>6th July</date>, <q><persName ref="#ehri_et_smetana_fritz">Fritz</persName></q> informed them that he had to produce another
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1047" type="subject">tax</term> exemption form, but this would take
+				a long time. Did they have any friends in <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"
+					>Holland</placeName>? Because the route through <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+					>Slovakia</placeName> would be <q>quite a challenge</q>.</p>
+			<pb n="3" facs="EHRI-ET-WL16560176_03.jpg"/>
+			<p>On <date when="1939-07-06">6th July</date>, <persName ref="#ehri_et_smetana_fritz">Fritz</persName> and Fritzi met them with <q>long
+					faces</q>: the journey through <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>Germany</placeName>, to <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName>,
+				would unfortunately not be possible, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1047" type="subject">tax</term>
+				exemption form was required and, although it was possible to buy these, that would certainly take too long as, in the meantime, the
+					<placeName ref="http://www.geonames.org/3017382/republic-of-france.html">French</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term> would expire. <q>Do not worry, we will
+					travel through <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName>. A friend, a <placeName
+						ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName>
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-799" type="subject">Journalist</term>, is coming to collect me.
+					Bring a small suitcase.</q> On the following Sunday evening, <persName ref="#ehri_et_smetana_fritz">Fritz</persName> came back –
+				everything was in order, they would travel to <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> tomorrow to
+				collect the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term>, they should meet in the evening in
+					<placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName>. We will give you addresses for where you can <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stay</term> privately overnight, then you need to
+				travel straight to <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>, in <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> your friends will lend you the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> for the flights to <placeName
+					ref="http://www.geonames.org/2643743/london.html">London</placeName>. (Which could obviously not be purchased in <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>). On Monday, <persName ref="#ehri_et_smetana_fritz"
+					>Smetana</persName> did not receive the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+					>passports</term> that he had been promised. <q>Herr <q><persName ref="#ehri_et_schubert">Schubert</persName></q> is of course
+					furious that I wasn’t sent the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+					>passports</term>, and is trying everything he can to get them.</q></p>
+			<p>Mother and daughter waited all day for the call to say when <persName ref="#ehri_et_smetana_fritz">Fritz</persName> could set off. On
+				Tuesday, they were told that they should leave the following morning, and go to <placeName
+					ref="http://www.geonames.org/3075654/hodonin.html">Hodonin</placeName>, a village on the <placeName
+					ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> border. There, they should meet <persName
+					ref="#ehri_et_smetana_fritz">Smetana</persName> in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">guesthouse</term> opposite the station. Fritzi, who delivered this message, went on to explain that <persName
+					ref="#ehri_et_smetana_fritz">Smetana</persName> had called her from her bed at 10pm, because he needed <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> in order to purchase the necessary <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Pengö</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Marks</term> from the waiter at <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hotel</term> Sroubek. After 11pm, he called again to
+				say that he was already over the town border. The day was spent saying farewells, packing a few things and trying to put the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term> in order as much as possible, without
+				making it known that they were planning to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject"
+					>escape</term>. In the evening, a long distance call from <placeName ref="http://www.geonames.org/3071407/luhacovice.html"
+					>Luhacovice</placeName> surprised them, which she didn’t want to take at first, <persName ref="#ehri_et_smetana_fritz"
+					>Fritz</persName> called, he had the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+					>emigration</term> papers, he just had to go to <placeName ref="http://www.geonames.org/3343955/bratislava.html"
+					>Bratislava</placeName> to get the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term>. Everything else was going as
+				planned.</p>
+			<p>Shortly after 5am, they left the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term>. The
+					(<placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName>) housekeeper, who they had wanted to avoid, came
+				out to wish them luck, her only son had also left, to Batavia. The journey to <placeName
+					ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> passed without further incident. Then they went on to <placeName
+					ref="http://www.geonames.org/3075654/hodonin.html">Hodonin</placeName> on a slow <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">train</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Guesthouse</term> opposite the station bore a large
+				sign saying: Attention! <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject">Jewish Business</term>. In
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">dining room</term>, old <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> sat around playing cards. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">mother</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">daughter</term> ordered <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">coffee</term> and waited. <persName
+					ref="#ehri_et_smetana_fritz">Fritz</persName> was supposed to come at four o’clock, five thirty came and went, then it was seven.
+				Suddenly, <persName ref="#ehri_et_smetana_fritz">Fritz</persName> came and sat himself down at their table.</p>
+			<p><q>Milady, I’ve got the tickets for the outward journey, but the <placeName ref="http://www.geonames.org/719819/hungary.html"
+						>Hungarian</placeName>
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term> was not put on the <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> that I have here (i.e. have
+					received the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1137" type="subject">identity documents</term>). I will
+					probably have to travel to <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> again – then you will
+					travel to <placeName ref="http://www.geonames.org/3071407/luhacovice.html">Luhacovice</placeName>, to meet my uncle, and wait
+					there for me. But now I have to meet the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+						>gentlemen</term> here, so I will come back in half an hour. In the meantime, a blonde <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> will come over to you, she’s the wife
+					of a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>, give her the <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> that you have with you. She is
+					completely trustworthy.</q></p>
+			<pb n="4" facs="EHRI-ET-WL16560176_04.jpg"/>
+			<p>Before we could ask any questions, he left. A few minutes later, along came a very blonde, plump <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>, who sat down at the table and began to
+				talk. Meanwhile, I slid the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> over to her
+				under the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">newspaper</term> that was lying on the
+				table, she took it and disappeared for a moment to hide it, then she explained to us that her husband was a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">musical</term> director who was now with the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>, and explained other things; she seemed fairly
+				well-informed. Then <q><persName ref="#ehri_et_smetana_fritz">Fritz</persName></q> returned. <q>Everything is organised. A friend of
+					mine owns a cinema, he has a cinema here, another in <placeName ref="http://www.geonames.org/3060077/holic.html"
+					>Holíč</placeName>, that is the next village, over the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+						>Slovakian</placeName> border. Due to this, he can travel back and forth over the border as he pleases. We’ll get a taxi to
+					the marketplace now and wait for him there, and he will take you over the border. My friend is bringing me your <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term>, I will take them to <placeName
+						ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> for the <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term>, and then bring them back for
+					you.</q></p>
+			<p>Then we sat in the taxi and waited. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> came
+				along and greeted <persName ref="#ehri_et_smetana_fritz">Fritz</persName>; that was the <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-799" type="subject">journalist</term>, he got into the car too and the
+				two <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> chatted, but they seemed to gradually
+				get nervous. Every second, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">soldiers</term> drove past on motorbikes. Lots of
+				other vehicles came past too. Finally, a small, grey Tatra (<placeName ref="http://www.geonames.org/3077311/czechia.html"
+					>Czech</placeName> car brand) came along and stopped a few metres away. A <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> got out, and <persName
+					ref="#ehri_et_smetana_fritz">Fritz</persName> and the <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html"
+					>Lithuanian</placeName> went over to him. Then, the three <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">men</term> appeared to negotiate for quite some time. <q><persName ref="#ehri_et_smetana_fritz"
+					>Fritz</persName></q> came back, got into the car and told the driver he should drive right up to the other car. Then he gave us
+				two exit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passes</term> (the pink tickets for
+				so-called ‘small border traffic’, which permitted the holders to travel back and forth between border areas, for work purposes, for
+				the day.) <q>Everything is organised. Now we will drive to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+						type="subject">hotel</term>, where we must swap the car as inconspicuously as possible.</q> In front of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term> entrance stood the other car, with its
+				bonnet facing us. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> – there were two of
+				them – went into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term>, the <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName> went too, then came a porter who took our
+				luggage out of the taxi and into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term>.
+				After a while, the Porter carried our suitcase out of the building and to the other car. Then, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Mother</term> and I got out<note place="bottom">This
+					sentence ends with <q><foreign xml:lang="de">…schaute und Geschafte an</foreign></q>, which doesn’t seem to have a clear meaning –
+					perhaps it is a mistake.</note>Once we had waited for long enough, we got into the Tatra car, into which they had put our
+				suitcases. It got dark. <persName ref="#ehri_et_smetana_fritz">Fritz Smetana</persName> said goodbye, giving us lots of assurance.</p>
+			<p>Then the <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName> came along and started
+				looking for something on the ground, turning every bit of paper lying on the street over with his foot, said <q>Everything is
+				fine</q>, and went back into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term>. Then
+				we waited. Finally, three <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> came out of the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term>: the cinema-owner, the <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName>, who, however, left straight away, and the
+				third <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>, who must have been the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>. He didn’t look that bad, quite a young
+				guy. The <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> produced our papers, he
+				already had the border ticket and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+					>passports</term>, and said that we shouldn’t worry and we should only speak if we were asked questions.</p>
+			<pb n="5" facs="EHRI-ET-WL16560176_05.jpg"/>
+			<p>So finally we set off.</p>
+			<p>After ten minutes, a barrier was laid down on the road, we were trapped at the border. The barrier was taken up, we drove through, and
+				it was laid down again directly after we had passed. Now there was no going back anymore. In front of us was a big, elegant car and
+				the passengers came out of the border office, and put individual pieces of their expensive <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term> back into the car. That implied a very
+				thorough border examination.</p>
+			<p><q>Your <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> please</q>, a <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> voice said, and suddenly a <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">soldier</term> was standing before us. Although we
+				were on the <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Czechoslovakian</placeName> border, there were no
+					<placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName> officials anywhere to be seen. Our <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> took the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> out of the car. <q>Today I have two
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ladies</term> with me too</q>, he said,
+				casually. <q>How much <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> do they have?</q>
+				<q>Thirty <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">koruna</term></q>, the two of us said.
+					<q>Check the handbags</q>, suggests a small, unsympathetic <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">man</term> to our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject"
+					>soldiers</term>. I took mine our first, he looked through all the pockets, finally he got to the small purse, in which I kept
+				both suitcase keys, and I told him that in a polite manner. He only asked whether I had these suitcases in the car, and gave the bag
+				back to me, then afterwards he searched Mutzi’s bag, checked our permits to travel across the border, and we drove over the bridge to
+				the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> border office. With the border
+				officials there, our two companions just made silly jokes, showed our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passes</term>, then the <placeName
+					ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> shone a bright torch at us, and we drove on into
+					<placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> land.</p>
+			<p><q>So, we are over the border</q> said our <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>. Mutzi let out a breath and I felt much
+				lighter. I wondered whether we were away from the Nazis forever now. We drove on for about another quarter of an hour, on a very
+				pretty road to <placeName ref="http://www.geonames.org/3060077/holic.html">Holíč</placeName>, the next village. There, we stopped
+				outside the only <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">guesthouse</term> in this tiny
+				village, and got out of the car.</p>
+			<p><q>So, you must stay here and wait for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+						>passports</term>, which I can hopefully bring back for you as early as tomorrow</q>, the cinema-owner said. The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> took my bracelet out of the bag and some
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term>, which he gave to us, then he
+				booked a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> for us and went into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">guesthouse</term> with us. I felt like I was dreaming.
+				Did that really all happen?</p>
+			<p>While we were waiting for our evening <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">meal</term>, we
+				chatted to our travelling companions. <q>I wanted to say one more thing to you</q>, the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> said. <q>Most importantly, you are very
+					near the border and border surveillance is patrolling constantly, so show yourselves in public as little as possible, otherwise
+					you might attract attention. The best thing would be to stay in your <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term>. As identification, you have the
+					permit to cross the border with you, and if anyone happens to ask, though I am quite sure that no one will, then say that you are
+					going to my sister’s wedding, but you have to wait here because there is a problem with the car.</q></p>
+			<pb n="6" facs="EHRI-ET-WL16560176_06.jpg"/>
+			<p><q>My sister’s name is Soundse, and she lives two villages on. You know, today I was really sweating, I felt like I was sitting on hot
+					coals, and when I feel like that, then it really means something.</q> And then he asked Mutzi: <q>What did you take out of your
+					bag while the official was searching your <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+						>daughter</term>? I did see you do it, lucky that the official didn’t see, because you know, if they get suspicious then
+					things really do get difficult.</q> Mutzi explained to him that it was only a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Franc</term>, which she had happened to find in her
+				bag, and that she had left it in the car. But, anyway, we had got through alright.</p>
+			<p>The <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> went on to explain to us that
+				he had driven through the whole previous night to get us the <placeName ref="http://www.geonames.org/719819/hungary.html"
+					>Hungarian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visa</term> in <placeName
+					ref="http://www.geonames.org/3343955/bratislava.html">Bratislava</placeName>. Then, he told us again not to repeat anything that
+				he had told us. <q>You see, we want to go on to help others too.</q> He came from <placeName
+					ref="http://www.geonames.org/2951839/bavaria.html">Bavaria</placeName>, and really was a nice <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>. The other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> promised us he would give the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> to <persName
+					ref="#ehri_et_smetana_fritz">Fritz</persName> straight away, so he could set off for <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> that evening and aim to be back by the following evening. And
+				then they said their goodbyes.</p>
+			<p>Then we were left sitting there, in the little <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+					>Slovakian</placeName> village, we ate a little something again and told the landlord that we would like to have tomorrow’s <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">meals</term> delivered to our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term>, and then we went upstairs. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> looked nice and clean, and, most
+				importantly, we hoped to only have to stay there for one night. It had become quite late and we went straight to bed. We had certainly
+				been through enough that day. Although we were tired, neither of us could sleep, but we did not tell each other this, as neither of us
+				wanted to disturb the other, but, as we lay there in the dark, the situation first began to sink in for me properly. Now, we were over
+				the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> border, without <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term>, with only a small amount of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term>, relying completely on the honesty of two
+				strange <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>; what would happen if <persName
+					ref="#ehri_et_smetana_fritz">Fritz</persName> didn’t get the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">visa</term>, if they didn’t bring us the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141"
+					type="subject">passports</term>, if someone here suspected, etc. etc… Mutzi was probably wondering about exactly the same things.
+				Nevertheless, we both got up cheerfully the next morning, and neither of us mentioned any of our worries, but instead reminded each
+				other how good it was that we were over the border, and that <persName ref="#ehri_et_smetana_fritz">Fritz</persName> would hopefully
+				take us over the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> border that evening, as he had
+				promised. In my head, I kept trying to calculate the distance between <placeName ref="http://www.geonames.org/3075654/hodonin.html"
+					>Hodonin</placeName> and <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, and had a shock when it
+				occurred to me what a huge distance it was. Maybe <persName ref="#ehri_et_smetana_fritz">Fritz</persName> had not been seen straight
+				away at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">embassy</term> – but there was no point
+				in thinking about that so much. After <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>breakfast</term> we sorted some things out, and then we had nothing left to do.</p>
+
+			<pb n="7" facs="EHRI-ET-WL16560176_07.jpg"/>
+			<p><q>Mutzi, we won’t decide anything now – we can see what to do with the <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> tomorrow, when we’re on the <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">train</term></q>, I said. So, we went downstairs
+				to see the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term> manager, to tell him that we
+				were leaving early and to ask whether we could be driven to the station. We paid our bill, and went to bed. Or, more accurately, we
+				laid down and began to try and decide what the best thing to do tomorrow would be. Of course, we did not tell each other of our
+				concerns, instead we both tried to convince ourselves that everything would be fine.</p>
+			<p>It was all quite ridiculous – Mutzi and I were really lying in a tiny <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term> in <placeName
+					ref="http://www.geonames.org/3060077/holic.html">Holíč</placeName>, (naturally, I had never heard the name of this place before in
+				my life) on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">run</term> from <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> – but on our way to Fietz and Lisinka
+				(brother and sister, as mentioned earlier in the report)<note place="bottom">Slightly unclear here, though it seems Fietz and Lisinka
+					are likely the friends in <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> mentioned on page
+					2</note>, I had to keep reminding myself of that, as it helped me to regain my courage. On top of that, there was no going back
+				for us anymore, as we had finally got over the border. Why shouldn’t we take the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> with us, anyway? It was our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-945" type="subject">property</term>, and we had had to leave everything
+				else behind, and why – just because one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>
+				had gone crazy and wanted to take over the world. and had cause more harm than you could even comprehend. When I thought about that;
+				that we had to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-192" type="subject">smuggle</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegally</term> across the border, I got quite
+				worked up – but it really was not that bad. Let’s worry about that later – it’s still a whole day away, and we can wait until then to
+				see what we’ll have to do.</p>
+			<p>In the morning, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term> manager drove us to
+				the station. We were very early for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject"
+				>train</term>, and so I watched the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>
+				who were there waiting for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">train</term> with us.
+				It was simple farm folk, who all looked so good-natured and chatted pleasantly to each other. Maybe, at that moment, I would gladly
+				have swapped places with them, I was a bit nervous that we would stand out there, and if a man happened to walk by us twice, I thought
+				he might be spying on us. Of course, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject"
+					>train</term> was delayed, it had certainly been stopped at the border.</p>
+			<p>Finally, it came, and we set off with three stops and no notable events or issues to <placeName
+					ref="http://www.geonames.org/3343955/bratislava.html">Bratislava</placeName>. There, we gave in our bag and went into the city.
+				The city itself is quite beautiful, especially the <placeName ref="http://www.geonames.org/791630/danube-river.html"
+					>Danube</placeName>, which is very wide there.</p>
+			<p>We arrived at about midday. First, we bought our tickets, actually, we booked them, as we couldn’t pick them up until the afternoon,
+				and then we went to go and have <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">lunch</term>. We
+				decided to go somewhere nice to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term>, using
+				the last of our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term>, as who knew whether we
+				would be able to do that again. So, we made our way to the Carlton, the best <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">hotel</term> in <placeName
+					ref="http://www.geonames.org/3343955/bratislava.html">Bratislava</placeName>. After wondering around for a bit, and asking some
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>, we finally got there. It was
+				really nice, the company was very mixed, partly good foreign <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207"
+					type="subject">people</term>, and partly Nazis. After the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">meal</term>, we went to pick up our tickets, and then we wanted to go and have a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">coffee</term>, we had to use up all our time
+				somewhere, so after we had walked around the square twice, backwards and forwards, we went into the first, best <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">café</term>. Of course, it was a Nazi <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">café</term>, which we noticed, to our shock. But we
+				stayed there anyway. We were happy to be rid of the Nazis but, there, we had to go into a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">café</term> that seemed to be a favourite
+				meeting-place for Nazis.</p>
+			<pb n="8" facs="EHRI-ET-WL16560176_08.jpg"/>
+			<p><placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069">newspapers</term> everywhere, the <q><foreign xml:lang="de"
+						>Völkischer Beobachter</foreign></q> etc. Suddenly, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">mother</term> said <q>You know, we should really still try and get some <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Pengö</term>, I think the Carlton would be the
+					most likely place to have them</q> So, we went back once again and asked the porter, naturally he did not have any <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Pengö</term>, but in the travel office there we could
+				get 30 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Pengö</term>, we weren’t allowed to take more
+				with us, apparently. When the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> there saw
+				our <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passes</term>, he could not understand how we had
+				managed to get out, and went on to tell us how he had tried hard to get his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> out, but that it had proved completely
+				impossible.</p>
+			<p>Then it was five o’clock in the afternoon, which meant we still had a huge amount of time. We definitely had to go and buy some black
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">cloth</term>, as <persName
+					ref="#ehri_et_smetana_fritz">Smetana</persName> had advised. So we went to the Jewish quarter. It looked terrible there, many of
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject">shops</term> were completely locked up, the
+				others were half empty and there was not a single <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject"
+					>shop</term> that was not damaged. On every single one, there was some kind of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-340" type="subject">anti-Jewish inscription</term>, and some were
+				wrecked.</p>
+			<p>We went inside one of them and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>
+				there were so unhappy and depressed and tried to offer us all their wares. After we had got the piece of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">cloth</term>, we went to a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">coffee house</term> again, this time a very <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1017" type="subject">nationalist</term>
+				<placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName> one, which was decidedly more comfortable. We still
+				had about a hundred <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Koruna</term> left over, which
+				we wanted to spent, as we could not take them with us. So we looked around the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject">shops</term> a bit more, but most of them were already
+				closed and so we did not buy anything more at all. We went straight to the station and had a larger dinner there, to get rid of some
+				more of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term>. Mutzi wanted simply to
+				throw the rest of it away, as we did not dare give it to the guard. We bought some cigarettes for Friedl, and a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">book</term>, then boarded the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">train</term>.</p>
+			<p>It was not as empty as we had predicted, there was only one empty <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940"
+					type="subject">compartment</term>, which we headed straight into, but what should we do with the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> now? Mutzi still had it in her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">jacket</term> and was going to throw it out of the
+				window, but a <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> border official suddenly
+				appeared before us and asked how much <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term>
+				we had with us. We had not expected <placeName ref="http://www.geonames.org/3343955/bratislava.html">Bratislava</placeName> to be so
+				near the border, what should we do now?</p>
+			<p><q><foreign xml:lang="cz">Ja' ale ješte mi 30 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject"
+							>korun</term> sebou</foreign></q> (I actually still have 30 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject"><foreign xml:lang="cz">Kč</foreign></term> on me) said
+				Mutzi, namely, the <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">money</term> that we still had with us. The
+				officials were particularly nice, one was a very young <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097"
+					type="subject">solider</term>, they wanted us to send the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934"
+					type="subject">money</term> back to a <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> address, but
+				we did not want to do that and offered it to them, which, naturally, they refused. After a long discussion, we agreed that we would
+				deposit it with them. <q><foreign xml:lang="cz">Až se vrátí mužete si pro to přijít</foreign></q> (When you return, you can collect
+				it)…</p>
+			<p>And then they left, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">train</term> travelled
+				onwards and nothing else happened, I had expected that the officials would come back again, but only the <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungarians</placeName> came along, and then we were in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>.</p>
+			<pb n="9" facs="EHRI-ET-WL16560176_09.jpg"/>
+			<p>What should we do now? We stood by the window, behind the curtains, of course, so nobody could see us, and watched the residents. It
+				was a long village road with very little traffic, every now and then a lorry or bicycle went by. Across from us was a small <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">house</term> where it seemed that countless <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207">people</term> lived, as every other blink of the eye
+				a different person appeared at the window. So, at least we had a little distraction. By the toilet in our <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">guesthouse</term> there was a small balcony that overlooked a little
+				garden, we went out there for some <q>fresh air</q>, because we mostly kept the window in our <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">room</term> closed… today is the 13th, in two days the <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">French</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146">visa</term> would run out, what then? We couldn’t
+				go back anymore. We <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-832">ate</term>, stood at the window
+				again and waited. After <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-832">tea</term>, we saw the small
+				car outside, it was really the cinema-owner, he got out and waved at us, came up, but he had not spoken to <persName
+					ref="#ehri_et_smetana_fritz">Fritz</persName> yet, he was on his way to see him. It was past 9 o’clock when he knocked on our
+				door. <q>Everything is in order,</q> said the Cinema-owner by way of greeting. Then he handed us the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">passports</term> and a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843">letter</term> from <persName ref="#ehri_et_smetana_fritz"
+					>Fritz</persName>, then he wished us luck and said goodbye. Yes, he also said that <persName ref="#ehri_et_smetana_fritz"
+					>Fritz</persName> could unfortunately not accompany us to the border, as he had to travel to <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> imminently. He also advised us to ask our host to drive to
+				our <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-940">train</term> early, so we wouldn’t have to drag
+				our case there ourselves, as it was quite a long way away. Then Mutz and I went back to our <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">room</term> and, first of all, read the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843">letter</term>.</p>
+
+			<p><q>Madams, I have enclosed the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName>
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146">visa</term> and some <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">money</term>. Unfortunately, I am no longer able to accompany you
+					any further, as I have important things to take care of, but do not worry, everything will go smoothly. I am sending you some 10
+						<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">Mark</term> notes, take them with you.
+					Tomorrow morning you will travel to <placeName ref="http://www.geonames.org/3343955/bratislava.html">Bratislava</placeName>,
+					unfortunately you will have to spend the day there in some way or another, as your <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-940">train</term> to <placeName
+						ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> does not depart until after midnight. Get
+					second-class tickets and, in <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, your friends
+					will provide further help. The best way to get the <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">money</term> over the border will be to put it in a piece of
+					dark-coloured cloth and hide it between the seats in an empty compartment, I do not think you will have any difficulty with this
+					as the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-940">train</term> will definitely be empty.
+					So, do not <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-829">worry</term>, everything will go
+					according to plan. You can retrieve the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-934"
+						>money</term> at the border and exchange it in <placeName ref="http://www.geonames.org/3054643/budapest.html"
+						>Budapest</placeName>. I think that is all. Please destroy this <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-843">letter</term> as soon as you have read it.</q></p>
+
+			<p><q>I can’t do this</q>, Mutz said, in despair, <q>he said he would get us safely across the border! I’ll try and get across, but I
+					won’t do that thing with the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">money</term>!</q>
+				Obviously, we had both envisioned it all quite differently, he had indeed promised us many times that he would take us over the border
+				himself, and now he had just written a <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-843">letter</term>
+				saying we should <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-192">smuggle</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">money</term> over the border – what were we paying
+				him so much <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">money</term> for; why had we given him
+				such a large <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-934">sum</term> the day before? But we had
+				to get away from there, at any price, and we could not go back anymore. So, we really did not have a choice.</p>
+		</body>
+	</text>
+</TEI>

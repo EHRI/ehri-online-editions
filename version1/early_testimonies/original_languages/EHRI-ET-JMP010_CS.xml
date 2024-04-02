@@ -1,0 +1,1861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP010_CS">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Šlomo Fuchs, Chaim Schwarzwald and Hermann Przewoznik, the killing machinery in Auschwitz-Birkenau</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Magdalena Sedlická</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Zeilsheim</placeName>
+						<location>
+							<geo>50.1 8.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2804979/zeilsheim.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Zeilsheim"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Frankfurt am Main</placeName>
+						<location>
+							<geo>50.11552 8.68417</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2925533/frankfurt-am-main.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Frankfurt"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Płońsko</placeName>
+						<location>
+							<geo>53.10681 15.14267</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3088802/plonsko.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/P%C5%82o%C5%84sko"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Oranienburg concentration camp</placeName>
+						<location>
+							<geo>52.75 13.2333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-847"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sachsenhausen concentration camp</placeName>
+						<location>
+							<geo>52.7662 13.2624</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-803"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaufering II concentration camp</placeName>
+						<location>
+							<geo>48.0833 10.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-225"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dachau concentration camp</placeName>
+						<location>
+							<geo>48.2699 11.4683</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Flossenbürg concentration camp</placeName>
+						<location>
+							<geo>49.735698 12.3569</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-341"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz I concentration camp</placeName>
+						<location>
+							<geo>50.026199 19.204099</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nowy Dwór Mazowiecki</placeName>
+						<location>
+							<geo>52.43022 20.71652</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/763556/nowy-dwor-mazowiecki.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Nowy_Dw%C3%B3r_Mazowiecki"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html "/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Palestine</placeName>
+						<location>
+							<geo>31.92157 35.20329</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6254930/palestine.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Palestine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hanover</placeName>
+						<location>
+							<geo>52.37052 9.73322</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2910831/hannover.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Hanover"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>United States of America</placeName>
+						<location>
+							<geo>39.76 -98.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6252001/united-states.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Vereinigte_Staaten"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Warsaw</placeName>
+						<location>
+							<geo>52.22977 21.01178</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/756135/warsaw.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Warsaw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hamburg</placeName>
+						<location>
+							<geo>53.57532 10.01534</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2911298/hamburg.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Hamburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Romania</placeName>
+						<location>
+							<geo>46 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798549/romania.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Romania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Slovakia</placeName>
+						<location>
+							<geo>48.66667 19.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3057568/slovak-republic.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Slovakia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Katowice</placeName>
+						<location>
+							<geo>50.25841 19.02754</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3096472/katowice.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Katowice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hrodna</placeName>
+						<location>
+							<geo>53.6884 23.8258</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/627904/hrodna.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Grodno"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Italy</placeName>
+						<location>
+							<geo>42.83333 12.83333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3175395/repubblica-italiana.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Italy"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Zakroczym</placeName>
+						<location>
+							<geo>52.43351 20.61207</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/754069/zakroczym.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Zakroczym"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz III Monowitz concentration camp</placeName>
+						<location>
+							<geo>50.031101 19.2915</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-3"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Krakow</placeName>
+						<location>
+							<geo>50.06143 19.93658</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3094802/krakow.html"/>
+							<link type="desc" target="http://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%BA%D0%BE%D0%B2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Greece</placeName>
+						<location>
+							<geo>39 22</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/390903/hellenic-republic.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Greece"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Łódź Ghetto</placeName>
+						<location>
+							<geo>51.75 19.466666666</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-513"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>France</placeName>
+						<location>
+							<geo>46 2</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3017382/republic-of-france.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/France"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sosnowiec</placeName>
+						<location>
+							<geo>50.28682 19.10385</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3085128/sosnowiec.html"/>
+							<link type="desc" target="http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D1%86"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Będzin</placeName>
+						<location>
+							<geo>50.32607 19.12565</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3103719/bedzin.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/B%C4%99dzin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz extermination camp</placeName>
+						<location>
+							<geo>50.0262 19.2041</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-0"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Terezin Ghetto</placeName>
+						<location>
+							<geo>50.51027778 14.14972222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Concentration camps</placeName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Heydebreck</placeName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-211"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Transylvania</placeName>
+						<location>
+							<geo>46.5 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/664661/transilvania.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Transylvania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lublin concentration camp</placeName>
+						<location>
+							<geo>51.2228 22.5985</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1763"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tunisian Republic</placeName>
+						<location>
+							<geo>34 9</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2464461/republic-of-tunisia.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Tunisia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Corfu</placeName>
+						<location>
+							<geo>39.59828 19.85231</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2463678/corfu.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Corfu"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rhodes</placeName>
+						<location>
+							<geo>36.44288 28.22654</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/400665/rhodes.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Rhodes"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Thessaloniki</placeName>
+						<location>
+							<geo>40.64361 22.93086</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/734077/thessaloniki.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Thessaloniki"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lüneburg</placeName>
+						<location>
+							<geo>53.2509 10.41409</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2875115/lueneburg.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/L%C3%BCneburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bardejov</placeName>
+						<location>
+							<geo>49.29175 21.27271</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/725168/bardejov.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Bardejov"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kingdom of Belgium</placeName>
+						<location>
+							<geo>50.75 4.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2802361/kingdom-of-belgium.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Belgium"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Spain</placeName>
+						<location>
+							<geo>40 -4</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2510769/kingdom-of-spain.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Spain"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Documentation Action (in Prague)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"/>
+						</linkGrp></item>
+					<item><name>Displaced persons camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-278"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Evacuation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-623"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Gas chambers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-499"/>
+						</linkGrp></item>
+					<item><name>Poles (ascribed nationality)</name><linkGrp>
+							<link type="normal" target="ehri_et_nationalities_poles"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Transports from Terezín</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267"/>
+						</linkGrp></item>
+					<item><name>Bialystok children in Terezín</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-546"/>
+						</linkGrp></item>
+					<item><name>Tutors</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-195"/>
+						</linkGrp></item>
+					<item><name>Medical personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-286"/>
+						</linkGrp></item>
+					<item><name>Visas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+						</linkGrp></item>
+					<item><name>Germans (ascribed nationality)</name><linkGrp>
+							<link type="normal" target="ehri_et_nationalities_germans"/>
+						</linkGrp></item>
+					<item><name>Prisoners of war</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-511"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Pregnancies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-140"/>
+						</linkGrp></item>
+					<item><name>Correspondence</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716"/>
+						</linkGrp></item>
+					<item><name>Zyklon B</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-500"/>
+						</linkGrp></item>
+					<item><name>Gas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-534"/>
+						</linkGrp></item>
+					<item><name>Russians (ascribed nationality)</name><linkGrp>
+							<link type="normal" target="ehri_et_nationalities_russians"/>
+						</linkGrp></item>
+					<item><name>Kapos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-485"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Sonderkommandos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1391"/>
+						</linkGrp><note><p>Jewish corps burning units in Death Camps see also Arbeitskommandos.</p></note></item>
+					<item><name>Murder pits</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1321"/>
+						</linkGrp></item>
+					<item><name>Crematoria</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-501"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Men camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-507"/>
+						</linkGrp></item>
+					<item><name>Women camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-506"/>
+						</linkGrp></item>
+					<item><name>Priests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-734"/>
+						</linkGrp></item>
+					<item><name>Military Officers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-886"/>
+						</linkGrp></item>
+					<item><name>Quarantine</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168"/>
+						</linkGrp></item>
+					<item><name>Terezín family camp at Auschwitz-Birkenau</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594"/>
+						</linkGrp></item>
+					<item><name>Purim</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-221"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Camp and ghetto personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-477"/>
+						</linkGrp></item>
+					<item><name>Female overseers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-478"/>
+						</linkGrp></item>
+					<item><name>Sinti and Roma in camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-514"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-212"/>
+						</linkGrp></item>
+					<item><name>Lice</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Uprisings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-254"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Antisemitism, Racism, Fascism, and National Socialism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-379"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Yom Kippur</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-217"/>
+						</linkGrp></item>
+					<item><name>Orphans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-327"/>
+						</linkGrp></item>
+					<item><name>Slovaks (ascribed nationality)</name><linkGrp>
+							<link type="normal" target="ehri_et_nationalities_slovaks"/>
+						</linkGrp></item>
+					<item><name>Passover</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-218"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+					<item><name>Disabled people</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-326"/>
+						</linkGrp></item>
+					<item><name>Medical experiments</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-495"/>
+						</linkGrp></item>
+					<item><name>Trials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1130"/>
+						</linkGrp></item>
+					<item><name>Underground</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-242"/>
+						</linkGrp></item>
+					<item><name>Prisoners from the Protectorate of Bohemia and Moravia</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Partisans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1215"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_przewoznik_hermann">
+						<persName>Przewoznik, Herman</persName>
+					</person>
+					<person xml:id="ehri_et_fuchs_slomo">
+						<persName>Fuchs, Šlomo</persName>
+					</person>
+					<person xml:id="ehri_et_schwarzwald_chaim">
+						<persName>Schwarzwald, Chaim</persName>
+					</person>
+					<person>
+						<persName>Mengele, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000569"/>
+						</linkGrp>
+						<note>
+							<p>German SS officer and physician. From 1943 he was one of the lead physicians at Auschwitz–Birkenau. In the summer of
+								1944 he supervised the selection process on the Birkenau ramp and he sent tens of thousands of Hungarian Jews to their
+								deaths. In Auschwitz he conducted pseudomedical experiments. After the war he fled to South America in 1949, where he
+								is believed to have died in 1979.</p>
+						</note>
+					</person>
+					<person>
+						<persName>Thilo, Heinz</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001165"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_horstmann_rudolf">
+						<persName>Horstmann, Rudolf</persName>
+					</person>
+					<person xml:id="ehri_et_konig_hans_wilhelm">
+						<persName>König, Hans Wilhelm</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hans_Wilhelm_König"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kramer, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000228"/>
+						</linkGrp>
+						<note>
+							<p>10/11/1906-13/12/1945</p>
+							<p>KZ-Kommandant and SS-Hauptsturmführer. Since 1934 in Dachau, 1937/1938 in Sachsenhausen, 1939 in Mauthausen, May 1940
+								in Auschwitz, April 1941 Schutzhaftlagerführer , Oct 1942 Kommandant in Natzweiler, since May 1944 Kommandant in
+								Auschwitz-Birkenau, since 1 Dec 1944 in Bergen-Belsen. Sentenced to death in Belsen Trial, executed.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_limannova_lola">
+						<persName>Lipmannová, Lola</persName>
+					</person>
+					<person>
+						<persName>Schillinger, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000954"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_schnider">
+						<persName>Schnider (SS, Auschwitz)</persName>
+					</person>
+					<person xml:id="ehri_et_haagen">
+						<persName>Haagen (SS, Auschwitz)</persName>
+					</person>
+					<person xml:id="ehri_et_graf">
+						<persName>Gräf (SS, Auschwitz)</persName>
+					</person>
+					<person xml:id="ehri_et_dobrovolski_josef">
+						<persName>Dobrovolski, Josef (SS, Auschwitz)</persName>
+					</person>
+					<person>
+						<persName>Moll, Otto</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001263"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_kaminsky">
+						<persName>Kaminsky (kapo in Auschwitz)</persName>
+					</person>
+					<person xml:id="ehri_et_silberberg_jankel">
+						<persName>Silberberg, Jankel (from Zakroczym, prisoner in Auschwitz)</persName>
+					</person>
+					<person xml:id="ehri_et_vladyk">
+						<persName>Vladyk (a priest, blockälteste in Auschwitz-Birkenau, camp D, block 15)</persName>
+					</person>
+					<person xml:id="ehri_et_cimbler_leon">
+						<persName>Cimbler, Leon</persName>
+					</person>
+					<person xml:id="ehri_et_pokrivnicky_janus">
+						<persName>Pokřivnicky, Januš (blockälteste in Auschwitz-Birkenau, camp D, block 21)</persName>
+					</person>
+					<person xml:id="ehri_et_hammerle_albert">
+						<persName>Hammerle, Albert (blockälteste in Auschwitz-Birkenau, camp D, block 5)</persName>
+					</person>
+					<person xml:id="ehri_et_schaffmann">
+						<persName>Schaffmann (blockälteste in Auschwitz-Birkenau, camp D, block 27)</persName>
+					</person>
+					<person xml:id="ehri_et_pinkus">
+						<persName>Pinkus (blockälteste in Auschwitz-Birkenau, camp D, block 22)</persName>
+					</person>
+					<person xml:id="ehri_et_stefan">
+						<persName>Štefan (in charge of the central sauna in Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_kleinmann_chaim">
+						<persName>Kleinmann, Chaim (kapo in Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_mandl_maria">
+						<persName>Mandl, Maria</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Maria_Mandl"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_dreschel_margot">
+						<persName>Dreschel, Margot</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Margot_Dreschel"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_grese_irma">
+						<persName>Grese, Irma</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Irma_Grese"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_hasse_elisabeth">
+						<persName>Hasse, Elisabeth</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Elisabeth_Hasse"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_brandl_therese">
+						<persName>Brandl, Therese</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Therese_Brandl"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_zarecka">
+						<persName>Zarecká (guard in Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_muller">
+						<persName>Müller (female guard in Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_perschel_richard">
+						<persName>Perschel, Richard</persName>
+					</person>
+					<person xml:id="ehri_et_teller">
+						<persName>Teller (SS man, Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_schulz">
+						<persName>Schulz (SS man, Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_hossler_franz">
+						<persName>Hössler, Franz</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Franz_Hössler"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_kuk">
+						<persName>Kuk (female guard in Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_zengfeller">
+						<persName>Zengfeller (a Polish physician, supervised krankenbau in Auschwitz-Birkenau) </persName>
+					</person>
+					<person xml:id="ehri_et_kratzer_theodor">
+						<persName>Kratzer, Theodor (director of the prisoner property office in Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_wagner">
+						<persName>Wagner (SS man, Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_roder">
+						<persName>Roder (SS man, Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_bedarf_waldemar">
+						<persName>Bedarf, Waldemar (SS man, Auschwitz-Birkenau)</persName>
+					</person>
+					<person>
+						<persName>Schwarzhuber, Johann</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001244"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_thumann_anton">
+						<persName>Thumann, Anton</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Anton_Thumann"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_kraus_franz">
+						<persName>Kraus, Franz</persName>
+					</person>
+					<person xml:id="ehri_et_starostka_stanisława">
+						<persName>Starostka, Stanisława (capo in Auschwitz)</persName>
+					</person>
+					<person xml:id="ehri_et_kleinova_ila">
+						<persName>Kleinová, Ila</persName>
+					</person>
+					<person xml:id="ehri_et_fuchs">
+						<persName>Fuchs (inmate in Auschwitz-Birkenau, involved in the resistance)</persName>
+					</person>
+					<person xml:id="ehri_et_stein_auschwitz">
+						<persName>Stein (inmate in Auschwitz-Birkenau, involved in the resistance)</persName>
+					</person>
+					<person xml:id="ehri_et_handelsman_jankiel">
+						<persName>Handelsman, Jankiel</persName>
+					</person>
+					<person xml:id="ehri_et_lazar_alexander">
+						<persName>Lazar, Alexander</persName>
+					</person>
+					<person xml:id="ehri_et_jagiello_konstanty">
+						<persName>Jagiełło, Konstanty (Kostek)</persName>
+					</person>
+					<person xml:id="ehri_et_hahn">
+						<persName>Hahn (SS man, Auschwitz-Birkenau)</persName>
+					</person>
+					<person xml:id="ehri_et_weinberger_robert">
+						<persName>Weinberger, Robert</persName>
+						<note>
+							<p>1913–1977</p>
+							<p>Born in Brno. Active in the Zionist movement. He was deported in 1941 to the Theresienstadt (Terezín) ghetto, where he
+								was imprisoned until the liberation. From autumn 1944 he became a member of the Jewish Council of the Elders. After
+								the war he was one of the co-workers of the Documentation campaign (Dokumentační akce). When Zeev (Vilém) Shek left to
+								Israel, Weiberger took over the leading role in the project. In 1949 he and his wife have also decided to emigrate to
+								Israel.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_nasch_erich">
+						<persName>Nasch, Erich</persName>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-11">November 1945</date>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">Dokumentační akce</term>, <persName
+					ref="#ehri_et_przewoznik_hermann">Hermann Przewoznik</persName>, <persName ref="#ehri_et_fuchs_slomo">Šlomo Fuchs</persName>,
+					<persName ref="#ehri_et_schwarzwald_chaim">Chaim Schwarzwald</persName>, <placeName
+					ref="http://www.geonames.org/2804979/zeilsheim.html">Zeilsheim</placeName>
+				<idno>EHRI-ET-JMP010</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Extensive testimony of Przewoznik, Fuchs, and Schwarzwald, three former Polish prisoners of the Auschwitz concentration camp, which
+					was written in the DP camp Zeilsheim near Frankfurt am Main by co-workers of the “documentation campaign” in Prague. They describe
+					in detail the killing machinery of Auschwitz-Birkenau, the extermination of prisoners in the gas chambers, and the cremation of
+					the corpses. They recall the selection process of incoming inmates and the fate of a few particular transports. They describe the
+					layout of individual camps that were part of Auschwitz-Birkenau.</p>
+			</abstract>
+
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-JMP010_01.jpg"/>
+
+			<p rend="letter-spacing: +2px">Protokol</p>
+
+			<p>sepsaný v <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-278">D.P.– táboře</term>
+				<placeName ref="http://www.geonames.org/2804979/zeilsheim.html">Zeilsheim</placeName> u <placeName
+					ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurtu</placeName> dne <date when="1945-11-03">3.</date> a <date
+					when="1945-11-04">4. 11. 1945</date> s <persName ref="#ehri_et_przewoznik_hermann">Hermannem Przewozníkem</persName>, <persName
+					ref="#ehri_et_fuchs_slomo">Šlomo Fuchsem</persName> a <persName ref="#ehri_et_schwarzwald_chaim">Chaim Schwarzwaldem</persName> o
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborech</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Osvětím II., Birkenau</placeName>.</p>
+			<p><persName ref="#ehri_et_przewoznik_hermann"><hi rend="letter-spacing: +2px">Przewoznik</hi></persName>, nar. <date when="1914-01-16"
+					>16. I. 1914</date> v <placeName ref="http://www.geonames.org/3088802/plonsko.html">Plonsku</placeName>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězeň</term> z <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračního tábora</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Osvětím II. Birkenau</placeName> / <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">věz.</term> číslo 84256 /, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-847">Oranienburg</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-803">Sachsenhausen</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-225">Kaufering</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName>.</p>
+			<p><persName ref="#ehri_et_fuchs_slomo"><hi rend="letter-spacing: +2px">Fuchs</hi></persName>, nar. <date when="1908-05-03">3. 5.
+					1908</date> byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněn</term> v <placeName
+					type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Osvětímě II. Birkenau</placeName> / <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Věz.</term> číslo 84033 / <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-847">Oranienburg</placeName>. <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-341">Flossenbürg</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName>,</p>
+			<p><persName ref="#ehri_et_schwarzwald_chaim"><hi rend="letter-spacing: +2px">Schwarzwald</hi></persName>, nar. <date when="1921-11-12"
+					>12. 11. 1921</date> v <placeName ref="http://www.geonames.org/3088802/plonsko.html">Plonsku</placeName>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněn</term> v <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1" type="camp">Osvětímě I</placeName> / 60.423 /, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-847">Oranienburg</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-803">Sachsenhausen</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName>. Všichni tři jsou toho času v <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-278">D. P. táboře</term>
+				<placeName ref="http://www.geonames.org/2804979/zeilsheim.html"><hi rend="letter-spacing: +2px">Zeilsheim</hi></placeName> u
+					<placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurtu</placeName>.</p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracovali</term> jsme v desinfekčním ústavě Sauna –
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName> od <date when="1943-01"
+					>ledna 1943</date> do <date when="1941-01">ledna 1945</date>, t.j. až do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuace</term>, a sice já, <persName
+					ref="#ehri_et_przewoznik_hermann">Herman Przewoznik</persName> jako <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">písař</term>, já <persName ref="#ehri_et_fuchs_slomo">Šlomo
+					Fuchs</persName> jako <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">dělník</term> na tzv.
+				nečisté straně a já <persName ref="#ehri_et_schwarzwald_chaim">Chaim Schwarzwald</persName> jako <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">dělník</term> na rampě.</p>
+
+			<p>Při přijíždějících <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportech</term> byli <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">účastníci</term> vytaženi z <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">vagonů</term>, byly jim odebrány všechny věci a pak byli předvedeni –
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term> zvlášť a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> zvlášť – k <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekci</term> u <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařů</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001165">Thilo</persName>, <persName ref="#ehri_et_horstmann_rudolf"
+					>Horstmann</persName>, <persName ref="#ehri_et_konig_hans_wilhelm">König</persName> a jiní, kteří v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> měli šarže <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Ober</term> – nebo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Hauptsturmführerů</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Muži</term> stáli vždy na pravé straně, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> na levé. Ony osoby, které byly určeny pro
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábor</term>, byly poslány na levou stranu,
+				ostatní, kteří byli určeni do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term>, napravo.
+				V letech <date when="1942">42</date> a <date when="1943">43</date> bylo průměrné procento <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">osob</term>, které byly poslány do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>, až 20 %. Byly však také <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term>, ze kterých přišlo do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> jen 5 nebo 10 %. Některé <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> byly poslány do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> také úplně bez <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term>. Jako příklad uvádíme <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> z <placeName
+					ref="http://www.geonames.org/3088802/plonsko.html">Plonsku</placeName> a <placeName
+					ref="http://www.geonames.org/763556/nowy-dwor-mazowiecki.html">Nového Dvoru</placeName> po 2.000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osobách</term> a jiné <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term>
+				<term ref="#ehri_et_nationalities_poles" type="subject">polských Židů</term>.</p>
+
+			<p>V roce <date when="1944">1944</date> byla poslána do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>tábora</term> větší část, až 40 %, ale nicméně šly i v této době celé <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term>, n. př. začátkem <date when="1944-10"
+					>října</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>
+				<placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html ">litevských</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Židů</term> / 1886 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> /, kteří byli posláni do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> ze sauny na přímý rozkaz <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengeleho</persName> a <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000228">Kramera</persName>. Asi v <date when="1943-10">říjnu 1943</date>
+				přijel <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">z Terezína transport</term>
+				asi 1.000 až 1200 <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-546" type="subject">dětí
+					z Bialystoku</term> s <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-195" type="subject"
+					>opatrovnickým</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">ošetřovatelským
+					personálem</term>, vykázali se <placeName ref="http://www.geonames.org/6254930/palestine.html">palestinským</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146">visem</term>, byl však celý <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynován</term>. A to v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriu</term> I. 4 neděle na to přijel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> z <placeName
+					ref="http://www.geonames.org/2910831/hannover.html">Hannoveru</placeName>, jehož účastníci se vykázali <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">americkým</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146">visem</term>, jako <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">američtí</placeName> státní občané a o kterých se proslýchalo, že mají
+				býti vyměněni za <term ref="#ehri_et_nationalities_germans" type="subject">německé</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-511">válečné zajatce</term>. Tímto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term> přijela také artistka <persName
+					ref="#ehri_et_limannova_lola">Lola Lipmannová</persName> z <placeName ref="http://www.geonames.org/756135/warsaw.html"
+					>Varšavy</placeName>. V sauně <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					>Rapportführer</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000954">Schillinger</persName>, který byl znám a obáván jako
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">birkenauský</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">kat</term>, ji chtěl popohnat, tu ho <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zastřelila</term> jeho vlastním revolverem a těžce
+				zranila <distinct xml:lang="de">Arbeitsdienstführera</distinct> z <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Osvětíma I</placeName>. Až do této příhody byli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynováváni</term> v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriu</term> II a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriu</term> I. Potom byli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> ihned od sebe odděleni a pomocí posily
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> byly <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> z části <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zastřeleny</term>, z části <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynovány</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynováni</term> v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriu</term> II.</p>
+
+			<p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Osoby</term> určené do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> přišly do sauny, kde byly ostříhány,
+				vykoupány a převlečeny. Tam jim byl odebrán také zbytek věcí, které mohly ev. vzít s sebou z nádraží. Každý dostával roztrhanou <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">košili</term>, někdy <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">spodky</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">jupku</term> a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">kalhoty</term> a tk. zv. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">holandské dřeváky</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Ženy</term> od roku <date when="1944">1944</date>
+				nedostávaly žádné <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">prádlo</term>, nýbrž jenom <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">šaty</term> nebo <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">sukni</term> a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">halenku</term> od <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">pyjama</term>. Od roku <note type="gloss">rok neuveden</note> byla
+				prováděna v sauně II <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term>, při níž <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-140" type="subject">těhotné</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> a jiné slabé nebo raněné <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">osoby</term> byly poslány do sauny <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term> nebo do <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkeru V</term>. Tato <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term> byla prováděna z rozkazu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařů</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">příslušníky SS</term>
+				<persName ref="#ehri_et_schnider">Schniderem</persName> a <persName ref="#ehri_et_haagen">Haagenem</persName>. <persName
+					ref="#ehri_et_haagen">Haagen</persName> obyčejně bil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">ženy</term> a sám je odváděl do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+					>krematoria</term>.</p>
+
+			<pb n="2" facs="EHRI-ET-JMP010_02.jpg"/>
+
+			<p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Osoby</term> určené do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> byly vedeny přímo z rampy do jednoho ze 4
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorií</term>, nebo do <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkru V</term>, který byl selským domečkem se slaměnou střechou s 4
+				malými pokoji. Všude byly nadpisy: <foreign xml:lang="de">Zum Bad</foreign>. Lidé se tam museli svléci. Některým <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportům</term> bylo přikázáno, aby napsali <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">dopisy</term> toho obsahu, že dobře
+				dojeli, našli známé a jsou na cestě do lázní.</p>
+
+
+			<p>V <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriích</term> I a II přišel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plyn</term> shora. Používalo se <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plynu</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">cyklon B</term>
+				<foreign xml:lang="de">Degesch / Deutsche Gesellschaft für Schädlingsbekämpfung</foreign>, <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> /. V <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriích</term> III a IV byl <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject">plyn</term> vpouštěn malými okny. Stejný postup byl
+					v <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkeru V</term>. V <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriu</term> I a II bylo uprostřed od stropu až
+				po podlahu po 4 čtyřhranných sloupech z drátěné spleti, do něhož byl <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plyn</term> vhazován shora / zelené nebo žluté kousky
+				lepenky, které vylučovaly v doteku s vlhkostí vzduchu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-500"
+					type="subject">plyn</term> kyanovodík/. V <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+					>krematoriích</term> III a IV a v <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkeru
+					V</term> byli tito nosiči <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plynu</term> sypány do
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">komor</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">příslušníky SS</term>, kteří měli k tomu <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-534">plynovou</term> masku, skrz postranní okna. Okna byla
+				pak hermeticky uzavřena. Kapacita <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorií</term>
+				I a II byla po 3.000 <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">osobách</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorium</term> III a IV a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunker V</term> měl kapacitu 1500 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">osob</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject">Zaplynování</term> prováděli: <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Rottenführer</term>
+				<persName ref="#ehri_et_schnider">Schniders</persName>, <persName ref="#ehri_et_haagen">Haagen</persName> / t.č. v <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName> / <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Sturmmann</term>
+				<persName ref="#ehri_et_graf">Gräf</persName> z <placeName ref="http://www.geonames.org/798549/romania.html">Rumunska</placeName>,
+					<persName ref="#ehri_et_dobrovolski_josef">Dobrovolský</persName> ze <placeName
+					ref="http://www.geonames.org/3057568/slovak-republic.html">Slovenska</placeName>, George z <placeName
+					ref="http://www.geonames.org/3096472/katowice.html">Katovic</placeName>. Vedoucím <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorií</term> byl <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001263">Moll</persName>. Ve všech <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriích</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovali</term> Židé, mimo ně 15 <term
+					ref="#ehri_et_nationalities_russians" type="subject">Rusů</term>, 3 <term ref="#ehri_et_nationalities_poles" type="subject"
+					>polští</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápové</term>, 2 <term
+					ref="#ehri_et_nationalities_germans" type="subject">němečtí</term> vrchní <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápové</term> a židovský <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápo</term>
+				<persName ref="#ehri_et_kaminsky">Kaminský</persName> z <placeName ref="http://www.geonames.org/627904/hrodna.html"
+				>Grodna</placeName>, kterého <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zastřelil</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001263">Moll</persName> v roce <date when="1944">1944</date>.
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">Zaplynování</term> trvalo u <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term> asi 3 minuty, u <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> 5 minut, u <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>, když se držely svých <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">matek</term>, asi 7 minut. Když byl <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkr</term> velký, trvalo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject">zaplynování</term> déle. Nutná dávka <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plynu</term> pro 3000 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">osob</term> obnášela 3 kg <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">Cyklonu</term>. <persName ref="#ehri_et_schnider"
+					>Schniders</persName> vpouštěl občas méně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject"
+					>plynu</term>, čímž prodlužoval <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrtelná</term>
+				muka.</p>
+
+			<p>Při jednom <placeName ref="http://www.geonames.org/3175395/repubblica-italiana.html">italském</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term>, přibližně v <date when="1944-01"
+					>lednu 44</date> asi o 1500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osobách</term>,
+				který byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynován</term> / <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynování</term> prováděl <persName
+					ref="#ehri_et_haagen">Haagen</persName> / podařilo se jednomu účastníkovi vyhodit z okna krabici s <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plynem</term>, tak, že do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">komory</term> přišlo jen malé množství <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plynu</term>. Na to byl <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunker</term> hermeticky uzavřen. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000228">Kramer</persName> a <persName ref="#ehri_et_haagen"
+					>Haagen</persName> poslouchali u dvěří. Slyšeli jsme ještě dlouho, asi ½ hodiny, zoufalý křik <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term>. U <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject">zaplynovaných</term> byl činný také <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Hauptschaarführer</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001263">Moll</persName>, který bil <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> 2 metry dlouhým bičem, anebo se cvičil na
+				nich ve střelbě. Tak se pokusil, aby <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>zastřelil</term> jednou ranou 5 vybraných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>žen</term>. Zvlášť si vybíral krásné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>ženy</term>, které – když ostatní byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject"
+					>zaplynovány</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zastřelil</term> ranou do
+				šíje. Pak si čistil s jejich krví holínky. To může dosvědčit náš kamarád <persName ref="#ehri_et_silberberg_jankel">Jankel
+					Silberberg</persName> ze <placeName ref="http://www.geonames.org/754069/zakroczym.html">Zákročímu</placeName>, dřívější bydliště
+					<placeName ref="http://www.geonames.org/3088802/plonsko.html">Plonsk</placeName>, t.č. v <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">polské</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">armádě</term>, který <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracoval</term> v t.zv. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1391" type="subject">Sonderkommandu</term>. Jsme informováni proto,
+				poněvadž jsme donášeli denně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plyn</term> do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term> pro odvšivování.</p>
+
+			<p>Před <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkerem V</term> byl malý březový lesík, který
+				jsme nazvali březinkou. V <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkeru V</term> bývaly
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynovávány</term> obyčejně <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>. Obsahoval – li <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> více než 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>, čekaly ostatní za <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">bunkrem</term>, až bylo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynováno</term> prvních 1500 a připraveno ke
+				spálení v <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321">příkopu</term>. U <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkeru V</term> nebylo totiž <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematorium</term>, nýbrž <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321">příkop</term>, ve kterém byly <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvoly</term> spalovány na hranicích, politých
+				benzinem. Tam bylo spáleno najednou asi 6.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+					>mrtvol</term>. Popelu bylo použito na hnojení školky, nebo k těsnění bramborových bunkrů proti vlhkosti, nebo k posypávání cest
+					v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-3" type="camp">Buně</placeName>. Zbytek byl házen do
+				vody.</p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">Krematoria</term> I a II začala svou práci v <date
+					when="1943-03">březnu 1943</date>. První <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transport</term> byl z <placeName ref="http://www.geonames.org/3094802/krakow.html">Krakova</placeName>. Jeho <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužští</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">příslušníci</term> přišli do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>, dostali čísla 108 tisíc a následující.
+				Následovaly pak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> z <placeName
+					ref="http://www.geonames.org/390903/hellenic-republic.html">Řecka</placeName>, číslo 109 až 117 tisíc. Asi 2 měsíce na to začala
+				pracovat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term> II a IV. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">Bunker 5</term> byl v činnosti až do vystavení <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term>, později zase až v <date
+					when="1944-05">květnu 1944</date>, když přijely <placeName ref="http://www.geonames.org/719819/hungary.html">maďarské</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> s 850.000 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židy</term>, 70.000 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židů</term> z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName> a 2 <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transporty z Terezína</term>.</p>
+
+			<pb n="3" facs="EHRI-ET-JMP010_03.jpg"/>
+
+
+			<p>V <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táboře</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName> bylo 27 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráků</term>, z nichž 12 dřevěných / bývalé koňské
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stáje</term> / a 15 kamenných. V každém dřevěném
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráku</term> bylo až 1000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term>, v každém kamenném až 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term>. To bylo v starém <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-507" type="subject">mužském táboře</term>, který později, v <date
+					when="1943-06">červnu 1943</date> byl přeměněn v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-506" type="subject"
+					>ženský tábor</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Muži</term> byli tehdy
+				posláni do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> D, Bauabschnitt II /
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II</placeName> d /. V bloku 15 byl až do <date
+					when="1943-03">března 1943</date>
+				<distinct type="camp_language">Blockältestrem</distinct>
+				<term ref="#ehri_et_nationalities_poles" type="subject">polský</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-734">kněz</term>
+				<persName ref="#ehri_et_vladyk">Vladyk</persName>, jeho zástupcem <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">francouzský</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Žid</term>
+				<persName ref="#ehri_et_cimbler_leon">Leon Cimbler</persName> zvaný boxer, který <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">zabil</term> denně až 50 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židů</term>. V bloku 21 byl <distinct type="camp_language"
+					>Blockältestrem</distinct>
+				<term ref="#ehri_et_nationalities_poles" type="subject">polský</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-886">důstojník</term>
+				<persName ref="#ehri_et_pokrivnicky_janus">Januš Pokřivnický</persName>, který <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězně</term> svého bloku bil a týral nelidským
+				způsobem.</p>
+
+
+			<p><distinct type="camp_language">Blockältesterem</distinct> bloku 5 byl <term ref="#ehri_et_nationalities_germans" type="subject"
+					>Němec</term> jménem <persName ref="#ehri_et_hammerle_albert">Albert Hammerle</persName>, který denně ztýral a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zavraždil</term> mnoho <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židů</term>. V bloku 27 podobně postupoval <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">francouzský</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Žid</term>
+				<persName ref="#ehri_et_schaffmann">Schaffmann</persName>. V bloku příchozích 22, do něhož byli dopravováni příslušníci nových <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term>, byl <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">francouzský</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Žid</term>
+				<persName ref="#ehri_et_pinkus">Pinkus</persName>, který přijímal <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">nováčky</term> ranami hole, kladivem a železem a který se snažil
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zabít</term> co největší počet a především jim
+				odebral, co jim snad zbylo na penězích, zlatu a cenných předmětech. Jeho slova na uvítanou byla: <q>U mne budete žít 1 nebo 2 hodiny,
+					Vy <foreign xml:lang="de">Hurensöhne</foreign></q>. Vedoucím sauny byl až do <date when="1943-03">března 43</date>
+				<term ref="#ehri_et_nationalities_poles" type="subject">Polák</term>
+				<persName ref="#ehri_et_stefan">Štefan</persName>, který se zachoval zejména vůči <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židům</term> jako nebezpečný sadista. Dalšími nebezpečnými sadisty
+				byli ještě <term ref="#ehri_et_nationalities_germans" type="subject">Němci</term> Alois a Martin, jistý Stefan – <term type="subject"
+					ref="#ehri_et_nationalities_germans">Volksdeutscher</term> z <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>, Schilfsmeer, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborový</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápo</term> Thin, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápo</term>
+				<persName ref="#ehri_et_kleinmann_chaim">Chaim Kleinmann</persName> z <placeName ref="http://www.geonames.org/3088802/plonsko.html"
+					>Plonsku</placeName>, vrchní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápo</term> Rudi
+				z komanda More / <term ref="#ehri_et_nationalities_germans" type="subject">Němec</term>, který byl také <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-485">katem</term>.</p>
+
+			<p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">Tábory</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B I</placeName> a <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B I</placeName> B byly <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-506" type="subject">F</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">KL</term> / <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-506" type="subject">ženské</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentrační tábory</term> /. Vedoucími <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">ženami SS</term> byly mimo jiné: <persName
+					ref="#ehri_et_mandl_maria">Mandlerová</persName>, <persName ref="#ehri_et_dreschel_margot">Drexlerová</persName>, <persName
+					ref="#ehri_et_grese_irma">Greiseová</persName>, <persName ref="#ehri_et_hasse_elisabeth">Hasseová</persName>, <persName
+					ref="#ehri_et_brandl_therese">Brandlová</persName>, <persName ref="#ehri_et_zarecka">Zarecká</persName>, <persName
+					ref="#ehri_et_muller">Müllerová</persName> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS
+					muži</term>
+				<persName ref="#ehri_et_perschel_richard">Perschel</persName> – <distinct xml:lang="de">Arbeitsdienstführer</distinct>, <persName
+					ref="#ehri_et_teller">Teller</persName> – <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					>Rapportführer</term>, <persName ref="#ehri_et_schulz">Schulz</persName> – <distinct xml:lang="de">Arbeitsdienstführer</distinct>.
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Lagerführerem</term> byl <persName
+					ref="#ehri_et_hossler_franz">Hössler</persName>. Tito všichni týrali <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězně</term> nepopsatelným způsobem. Tak <persName
+					ref="#ehri_et_schulz">Schulz</persName> jednou popadl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">ženu</term>, která <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>pracovala</term> při stavbě silnice, za nohy a tloukl kamení její hlavou. To jsem já, <persName ref="#ehri_et_schwarzwald_chaim"
+					>Chaim Schwarzwald</persName> viděl na vlastní oči.</p>
+
+			<p><placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II a</placeName>. <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">Karanténni</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábor</term> pro nové příchozí. <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">Karanténa</term> trvala 3 týdny až 3
+				měsíce. Sestával z 16 dřevěných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráků</term>. Občas
+				tam prováděl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekci</term> Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001165">Thilo</persName> a jiní. Větší část bývala při tom posílána do
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term>, zbytek převeden do <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora D</placeName> nebo do jiných <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>. Tento <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábor</placeName> byl dán do provozu při příjezdu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> ze <placeName
+					ref="http://www.geonames.org/3085128/sosnowiec.html">Sosnovic</placeName> a <placeName
+					ref="http://www.geonames.org/3103719/bedzin.html">Bendzdimu</placeName>. Začátkem <date when="1943-08">srpna 1943</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">účastníci</term> těchto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> dostali čísla 132.000 a
+				následující.</p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II b</term>. Tak zvaný <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">český tábor</term> zahájen při příjezdu
+					<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">terezínských transportů</term>
+					v <date when="1943-09">září 1943</date> čísly 146.000 a následující. V tomto <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">táboře</term> byli spolu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> i <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>. Při příjezdu těchto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> nebyla <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term> na dráze a účastníkům nebyly stříhány
+				vlasy. Dne <date when="1943-03-08">8. 3. 1944</date>, bylo to právě na <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-221">purim</term>, byl celý <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynován</term>, až na nepatrné výjimky. Později
+				byl tento <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">tábor</term> přeměněn
+					v <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-506">F</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">K L</term>. <distinct type="camp_language"
+					>Rapportführerkou</distinct> byla tam tehdy <persName ref="#ehri_et_grese_irma">Greiseová</persName>.</p>
+
+			<p><placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II C</placeName>. Zahájen až v <date when="1944-06"
+					>červnu 1944</date> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> z <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName> a z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName>. <distinct type="camp_language"
+					>Rapportführerkou</distinct> byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSačka</term>
+				<persName ref="#ehri_et_kuk">Kuková</persName>. Tento <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábor</placeName> byl likvidován v <date when="1944-10">říjnu
+					1944</date>. Největší část šla do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term>.
+				Ušetřeny zůstaly jen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>, <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-508">zaměstnané</term> ve tkalcovně. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Dozor</term> nad touto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekcí</term> měla zejména <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-478" type="subject">dozorkyně</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				<persName ref="#ehri_et_hasse_elisabeth">Hasseová</persName>.</p>
+
+			<pb n="4" facs="EHRI-ET-JMP010_04.jpg"/>
+
+
+			<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="subject">B III d</placeName>.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Pracovní tábor</term> pro <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muže</term>, 32 bloků. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Tábor</term> zahájen v <date when="1943-01">lednu
+					1943</date> a byl v provozu až do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject"
+					>evakuace</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Osvětíma</placeName>.</p>
+
+			<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">B II e</placeName>. takzvaný <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-514" type="subject">cikánský</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábor</placeName> byl otevřen na jaře <date
+					when="1943">1943</date>. Byli tam <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-514" type="subject">cikáni</term>
+				z celé Evropy, až do léta <date when="1944">1944</date>, pak byla část z nich zařazena do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term>, ostatní byli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynováni</term>. Do <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">tábora</term> přišli pak <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> z <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName> a <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. Tento <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">tábor</placeName> byl v provozu až do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuace</term>.</p>
+
+			<p><placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II f</placeName>.<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term>, pod <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">dozorem</term><term ref="#ehri_et_nationalities_poles"
+					type="subject">polského</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékaře</term>
+				<persName ref="#ehri_et_zengfeller">Zengfellera</persName>, hromadného <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">vraha</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">pomocníka lékařů</term> při <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekcích</term>.</p>
+
+			<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II g</placeName>. T. zv. <foreign xml:lang="de"
+					>Effektenlager</foreign> a sauna. Od začátku <date when="1944-05">května 1944</date> přišla tam veškerá zavazadla <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">účastníků</term> nových <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term>. Celkem tam bylo zaměstnáno 1200
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a 600 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term> a to v <foreign xml:lang="de"
+					>Effektenlágru</foreign> t. zv. <distinct type="camp_language">Kanada</distinct>. Vedoucím <foreign xml:lang="de"
+					>Effektenlágru</foreign> byl <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					>Oberstrumführer</term>
+				<persName ref="#ehri_et_kratzer_theodor">Kratzer</persName>, který se vyjádřil, že zavazadla jsou bezvýznamná, hlavní věcí je zničení
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židů</term>. Zavazadla byla tříděna <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženami</term> a dopravována do <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Německa</term>. Také lidské vlasy byly desinfikovány, sbaleny a
+				odesílány.</p>
+
+			<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">B III.</placeName>, tak zvané <distinct
+					type="camp_language">Mexiko</distinct>. Tento <placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2"
+					>tábor</placeName> byl zahájen v <date when="1944-05">květnu 1944</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> z <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName> a <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. I tam byly jen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>, z nichž a začátku <date when="1944-12"
+					>prosince 1944</date> aspoň 90 % bylo posláno do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+					>plynu</term>. Této <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term> se zúčastnili
+				osobně <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000228">Kramer</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName>, jakož i většina <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařů</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-478" type="subject">dozorkyň</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>.</p>
+
+			<p>Obyčejně noví příchozí nevěděli, co mají před sebou, jen někdy v noci viděli zář ohně a přenášení <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvol</term>. Tehdy docházelo někdy také k <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject">odporu</term>. Střílelo se, ale obyčejně byli lidé
+				uklidňováni <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáky</term>. Bylo jim ukázáno zařízení
+				sauny jako <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213" type="subject">odvšivovací</term>
+				stanice, a když rozčilení pominulo, byli lidé vedeni do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499"
+					type="subject">plynových komor</term>.</p>
+
+			<p>Já, <persName ref="#ehri_et_przewoznik_hermann">Herman Przewoznik</persName> jsem viděl sám případ, když <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">matka</term> s 3 malými <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětmi</term> v noci, zděšena tím, co viděla, se
+				pokusila o <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">útěk</term>. V <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">lágru D</placeName> se setkala se <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmannem</term>
+				<persName ref="#ehri_et_wagner">Wagnerem</persName>, který ji uklidnil a vedl do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynové komory</term>.</p>
+
+			<p>Při příjezdu jednoho <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportu
+					z Terezína</term> v <date when="1944-10">říjnu 1944</date> v noci, došlo prý také k <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254">odporu</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>. Slyšeli jsme křik a slyšeli hlas
+					<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001263">Mollův</persName>, který křičel: <q>Rychleji dovnitř,
+					jdete se jen vykoupat a zase vyjdete</q>, pak jsme slyšeli ještě rány holí a štěkot psů. Při<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekcích</term>, které se konaly v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborech</term>, viděli <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843">lidé</term>, oč se jedná, ale k <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254">odporu</term> nedošlo nikdy.</p>
+
+			<p>V roce <date when="1942">1942</date>, když <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+					>krematoria</term> nebyla ještě v provozu, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-499"
+					>bunker V</term> nikdy nestačil. Přihodilo se, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">děti</term> byly házeny do ohně. Zčásti byly již dříve <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zabity</term>, zčásti byly ještě na živu.</p>
+
+			<p>Do <date when="1943-03">března 1943</date> prováděla se v <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">táboře</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term> 2 až 3 krát týdně. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">Selekci</term> prováděli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékaři</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, pomocí <term
+					ref="#ehri_et_nationalities_poles" type="subject">polského</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékaře</term> Dr. <persName
+					ref="#ehri_et_zengfeller">Zenkfellera</persName>, který byl nebezpečným <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-379">antisemitou</term>. Při <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">apelech</term> byla poznamenána čísla vybraných a oni
+				byli posláni do bloku 7. Před tím bylo jim vtetováno L a to vedle čísla. Při každé <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekci</term> bylo určeno do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term> a 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>. Pak od <date when="1943-03">března</date>
+				až do <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-217" type="subject">Jom-kipur</term>
+				<date when="1943">1943</date> nebylo žádné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject"
+					>selekce</term>. Tehdy byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora B I a</placeName> a <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B I b</placeName> vedeny do sauny jejich <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Obersturmführer</term>
+				<persName ref="#ehri_et_roder">Roder</persName> provedl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411"
+					type="subject">selekci</term> a určil do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+					>plynu</term> 5.500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>. Současně bylo ze
+				všech <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>, pařících <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětímu</placeName> určeno do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> 6.500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů.</term> Těchto 12.000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Židů</term> bylo vedeno do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> v době, když se zpívalo Kol-Nidre. Nazí
+				byli vedeni <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term> za zpěvu Kol-Nidre a Hitikva. Pak
+				byly opět jen menší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term>, až dne <date
+					when="1944-01-01">1.1.1944</date> byla provedena velká <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411"
+					type="subject">selekce</term> Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengelem</persName>
+				a <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001165">Thilo</persName> v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-507" type="subject">mužském</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-506" type="subject">ženském táboře</term>. Totéž se opakovalo dne <date
+					when="1944-01-19">19.I.1944</date>. Po těchto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject"
+					>selekcích</term> zůstalo v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">táboře</placeName>
+				jen asi 800 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Židů</term>. Dne <date when="1944-03-07"
+					>7. 3. 1944</date> bylo provedeno <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+					>zaplynování</term>
+				<date when="1943-09">zářijového</date>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportu z Terezína</term> v počtu
+				5.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>.</p>
+
+			<pb n="5" facs="EHRI-ET-JMP010_05.jpg"/>
+
+			<p>Stalo se to následovně: Dne <date when="1944-03-07">7. března</date> byl převeden celý <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> do <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="subject">tábora B II a</placeName>. Večer dne <date
+					when="1944-03-08">8. března</date> / <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-221"
+					type="subject">Purim</term> / v 11 h v noci dostali občerstvující balíčky a příkaz, aby napsali <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">lístky</term> s datem <date
+					when="1944-03-27">27. března</date>. Bylo jim řečeno, že přijdou do jiného <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> v <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-211">Heidebrecku</placeName>. Aby byli zmateni, byli vedeni
+				napřed do <placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Osvětíma I</placeName> a odtud zpět do
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>.</p>
+
+			<p>Při příjezdu <date when="1943-12">prosincového</date>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportu z Terezína</term> se
+				přihodilo, když byly <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">lidem</term> odebírány šperky a
+				zlato, že si chtěla starší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žena</term> ponechat svůj
+				snubní prsten. <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Rottenführer</term>
+				<persName ref="#ehri_et_bedarf_waldemar">Waldemar Bedarf</persName>, <term type="subject" ref="#ehri_et_nationalities_germans"
+					>Volksdeutscher</term> z <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>, vytrhl jí
+				prsten násilím a bil ji. <persName ref="#ehri_et_bedarf_waldemar">Bedarf</persName> byl též jedním z největších <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">katů</term> v <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term>, o kterém jsme se právě zmínili,
+				přišel bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term> do <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného tábora B II b</term>. Z toho
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term> bylo posláno na <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-508">práci</term> 1625 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term> a asi 500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>, ostatní byli v <date when="1944-05">květnu
+					1944</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynováni</term>, s výjimkou asi 80 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> ve věku od 10 – 12 roků, které přišly do
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora d</placeName> a později odjeli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term>.</p>
+
+			<p>Počínaje <date when="1944-05">květnem 1944</date> přijížděly do <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term>
+				<placeName ref="http://www.geonames.org/719819/hungary.html">maďarských</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Židů</term>, nejprve ze <placeName
+					ref="http://www.geonames.org/664661/transilvania.html">Sedmihradska</placeName>, pak ze Zakarpatské Ukrajiny. Denně přijíždělo 8 –
+				10 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term>, z nichž každý čítal 2000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">Selekce</term> se prováděla na rampě. K likvidaci
+					<placeName ref="http://www.geonames.org/719819/hungary.html">maďarských</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> byl zvláště určen <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000228">J. Kramer</persName>. Celkem přijelo tehdy z <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName> 800.000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Židů</term>, z nichž přišlo do <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora</placeName> 115.000, z větší části <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>. Po <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportech</term> z <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName> přijelo v <date when="1944-08">srpnu</date> několik <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName> v celkovém počtu asi 70.000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>. Do <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">tábora</placeName> z nich přišlo asi 9.000. Asi ve stejné
+				době přijelo 7.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> z <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">polských</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">pracovních táborů</term> a z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1763">Lublína</placeName>. Z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1763">lublínského</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">pracovního tábora</term> přijel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> asi 5000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term> nežidovského původu, mezi nimi asi 300
+				mladých, zdravých židovských <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">dívek</term>. Tyto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> přišly do <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">karanténního</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora</placeName>, odkud byly převedeny po 3 dnech
+				do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term> k <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynování</term>. Bránily se, ale jejich odpor byl
+				rychle zdolán. Vyslovily pak přání, aby jim bylo dáno větší množství <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-500" type="subject">plynu</term>, kterému přání bylo vyhověno. Proč byly
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynovány</term> tyto mladé a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> schopné <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>, není známo.</p>
+
+			<p>Ještě před příjezdem <placeName ref="http://www.geonames.org/719819/hungary.html">maďarských</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> přijel v <date when="1944-05"
+					>květnu 1944</date>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transport z Terezína</term>, který
+				opět přišel bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term> do <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">českého rodinného tábora</term>.
+				Později byli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> schopní posláni pryč.</p>
+
+			<p>Na podzim <date when="1944">1944</date> přijela řada <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267"
+					type="subject">transportů z Terezína</term>, celkem na 20.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+					type="subject">osob</term>. Tyto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transporty</term> už nepřišly do <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject"
+					>rodinného tábora</term>, jako dřívější z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+					>Terezína</placeName>, nýbrž na rampě se prováděla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411"
+					type="subject">selekce</term>. Počet <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject"
+					>selektovaných</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term> není přesně znám, ale dá se říci, že
+				z jednotlivých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> nepřišlo do
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora</placeName> více než 25 %. Na <date
+					when="1945-01-24">24. ledna 1945</date> měla být připravená sauna pro zbytek <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">obyvatelstva</term>. Poněvadž u <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">terezínských transportů</term> – jako u
+				všech ostatních – byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynovány</term> všechny
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">matky</term>, které měly u sebe <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>, dostávaly <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">matky</term> někdy radu, aby daly své <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> k starším <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženám</term>. Stávaly se i případy, že <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> byly násilím odtrženy od <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">matek</term>. Jen zřídka se stalo, že <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">matka</term> věděla, co ji čeká, a že přesto odevzdala
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dítě</term>. V některých případech <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>, které měly již více rozumu a pochopily
+				situaci, prohlásily, že jsou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">sirotky</term>, a tím
+				způsobem zachránily svoje rodiče.</p>
+
+			<p>Přijel-li menší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>, pod 50 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">neplynovalo</term> se, nýbrž účastníci byli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">zabiti</term> ranou do týla, přičemž se používalo
+				pistole s hřebíkem a pak byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvoly</term>
+				spáleny. To se stalo také v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoriích</term>.
+				Tyto <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-541">popravy</term> prováděli mimo jiné <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáci</term>: <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001263">Moll</persName> a jistý <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Unterschaarführer</term> s přezdívkou Mojše Borek. K těmto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">popravám</term> byly <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osoby</term>, odsouzené k <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrti</term>, předvedeny jednotlivě, zvláštním
+				komandem 12 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term>, zvaným střelci. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Mrtvoly</term> pak byly odtaženy, tak, že příští
+				nevěděl, co se děje, ačkoliv bylo vidět krev.</p>
+
+			<pb n="6" facs="EHRI-ET-JMP010_06.jpg"/>
+
+			<p>Po <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportech z Terezína</term>
+				přijely <term ref="#ehri_et_nationalities_slovaks" type="subject">transporty ze Slovenska</term>, asi 10.000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>. Praktikoval se obvyklý postup <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekce</term>.</p>
+
+			<p>Dne <date when="1944-12-10">10. prosince 1944</date> začalo se se strháváním <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorií</term> I a II a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499">bunkru V</term>. Byl mobilisován celý <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">tábor</placeName> a zasazen k této <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">práci</term>, pod dohledem několika <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáků</term>. Po tomto dni přijely již jen úplně malé
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">Zaplynování</term> se už nekonalo žádné. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">Plynové komory</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematorií</term> byly vyhozeny do povětří dne <date
+					when="1945-01-07">7. ledna 1945</date>, několik hodin před <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623"
+					type="subject">evakuací</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora</placeName>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">Krematorium</term> IV zůstalo stát.</p>
+
+			<p>Během celé doby přijížděly menší a větší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transporty</term> ze všech evropských zemí. Jednou přiletěli letadlem 3 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">Židé</term> z <placeName
+					ref="http://www.geonames.org/2464461/republic-of-tunisia.html">Tunisu</placeName>, z <placeName
+					ref="http://www.geonames.org/2463678/corfu.html">Korfu</placeName> a z <placeName ref="http://www.geonames.org/400665/rhodes.html"
+					>Rhoda</placeName>, <placeName ref="http://www.geonames.org/6252001/united-states.html">americký</placeName> námořní <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">vojín</term> židovského původu, kteří byli posláni
+				později do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term> se skupinou <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-140" type="subject">těhotných</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>. Na <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-218" type="subject">pesach</term> 43 přijeli 2 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabíni</term> ze <placeName
+					ref="http://www.geonames.org/734077/thessaloniki.html">Soluně</placeName>, kteří měli výsadní postavení. Byly jim ponechány <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">šaty</term>, nebyly jim stříhány vlasy a vousy,
+				nemuseli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovat</term>, často byli fotografováni a
+				museli napsat <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">dopis</term>, že se jim
+				daří dobře, a že vykonávají své duchovní funkce. Tato komedie netrvala dlouho. Byli posláni do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynu</term>. Na podzim <date when="1944">1944</date>
+				byly <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-411">vybrány</term> z <placeName
+					ref="http://www.geonames.org/719819/hungary.html">maďarských</placeName>, <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">terezínských</term> a <term
+					ref="#ehri_et_nationalities_slovaks" type="subject">slovenských transportů</term> dvojčata, liliputáni a jinak <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-326">tělesně úchylné</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">osoby</term> a poslány do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term> za účelem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">pokusů</term>.</p>
+
+			<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenauští</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Lagerführeři</term> byli od r. <date when="1942"
+					>1942</date> do léta <date when="1944">44</date>: <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Obersturmführer</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001244">Schwarzhuber</persName>, kterého krátkou dobu zastupoval
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Obersturmführer</term>
+				<persName ref="#ehri_et_thumann_anton">Thumann</persName>, posléze <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Obersturmführer</term>
+				<persName ref="#ehri_et_kraus_franz">Krause</persName>. Z <distinct type="camp_language">Lagerältestrů</distinct> z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">B I a</placeName> a <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B I b</placeName> uvádíme ještě <term
+					ref="#ehri_et_nationalities_poles" type="subject">Polku</term>
+				<persName ref="#ehri_et_starostka_stanisława">Steniu</persName> / obžalovanou t.č. v <placeName
+					ref="http://www.geonames.org/2875115/lueneburg.html">lüneburském</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1130" type="subject">procesu</term> / a <term
+					ref="#ehri_et_nationalities_slovaks" type="subject">Slovenku</term>
+				<persName ref="#ehri_et_kleinova_ila">Ilu Kleinovou</persName> z <placeName ref="http://www.geonames.org/725168/bardejov.html"
+					>Bardejova</placeName>, které obě mají na svědomí nesčetné množství <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>.</p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">Podzemní hnutí</term> v <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">táboře</placeName> se začalo v <date when="1943-05">květnu
+					1943</date> v sauně ve starém <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-507" type="subject">mužském
+					táboře</term>. Jeden <term ref="#ehri_et_nationalities_poles" type="subject">polský</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-843">Žid</term> / <persName ref="#ehri_et_fuchs"
+					>Fuchs</persName> a 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">židé</term> z <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">Francie</placeName> / <persName ref="#ehri_et_stein_auschwitz"
+					>Stein</persName> a <persName ref="#ehri_et_handelsman_jankiel">Handelsmann</persName> / smluvili nejprve vzájemnou pomoc <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">ilegálních</term> pracovníků. Tato pomoc měla
+				pozůstávati v tom, že ti, kteří <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovali</term> na
+				t.zv. lepších komandech, měli podporovat svoje soudruhy. Podklad <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-242"
+					type="subject">hnutí</term> nebyl ideologicky jasný. Bylo to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-242"
+					type="subject">podzemní osvobozenecké hnutí</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-242"
+					type="subject">Organisace</term> byla umožněna tím, že v této době možnost pohybu v <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">táboře</placeName> byla větší než dříve. / <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Vězňové</term> mohli se po <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> scházeti, trest <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrti</term> byl zakázán atd./ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">Kruh</term> byl dosti malý, poněvadž byly přijaty jen
+				takové <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osoby</term>, které byly známé <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">ilegální prací</term> již před <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">táborem</placeName>. Později byly také <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>, hlavně <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">francouzské</placeName> a <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">polské</placeName> v <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242">organisaci</term>. Co se národnosti týče, byli to hlavně <term
+					ref="#ehri_et_nationalities_poles" type="subject">polští</term> a <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">francouzští</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">židé</term>, také několik <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">českých židů</term>, několik <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">židovek</term>, jeden <term
+					ref="#ehri_et_nationalities_germans" type="subject">Němec</term> nežidovského původu. Na začátku <placeName
+					ref="http://www.geonames.org/719819/hungary.html">maďarských</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> mělo býti ukončeno <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynování</term> a rozhodli jsme se opatřit výbušné
+				látky a zbraně. Dynamit opatřily <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracující</term> v komandu Union, <placeName
+					type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Osvěčím I</placeName> / muniční továrna / v malých dávkách.
+				Z dynamitu se vyráběly v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoriu</term> I malé
+				granáty vlastní konstrukce. S pomocí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject"
+					>uvězněných</term>
+				<term ref="#ehri_et_nationalities_russians" type="subject">Rusů</term> se podařilo opatřit 4 revolvery, jeden <placeName
+					ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">belgický</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Žid</term> opatřil pomocí <term
+					ref="#ehri_et_nationalities_russians" type="subject">Rusů</term> jednu strojní pušku. Komité, které připravovalo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">povstání</term>, sestávalo z <persName
+					ref="#ehri_et_lazar_alexander">Alexandra Lazara</persName> / <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">Francie</placeName> / a dvou <term
+					ref="#ehri_et_nationalities_poles" type="subject">polských Židů</term> Davida a Minka, kteří bojovali ve <placeName
+					ref="http://www.geonames.org/2510769/kingdom-of-spain.html">španělské</placeName> občanské <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080">válce</term>. Aby byl dosažen styk s vnějším světem, byl <term
+					ref="#ehri_et_nationalities_poles" type="subject">Polák</term>
+				<persName ref="#ehri_et_jagiello_konstanty">Kostek</persName> poslán k <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">partyzánům</term> v okolí. Po krátké době dostali
+				jsme zvenčí příkaz, abychom nezačli žádnou akci bez pomoci zvenčí. Přesto pokračovali jsme v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">organisaci</term> a vytvářeli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">buňky</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">Hnutí</term> bylo v této době již dosti silné. Ku
+				příkladu v Effektenlágru bylo v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">hnutí</term>
+				organisováno 110 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>. Případy zrady se
+				nestaly nikdy. Byl zahájen styk s <term ref="#ehri_et_nationalities_russians" type="subject">Rusy</term> a společně s nimi byly konány
+				příprav k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">povstání</term>. <term
+					ref="#ehri_et_nationalities_russians" type="subject">Rusové</term> stáli však také na stanovisku, že nemá býti podniknuto nic bez
+				po <pb n="7" facs="EHRI-ET-JMP010_07.jpg"/> moci zvenčí. Dne <date when="1944-10-07">7. 10. 1944</date> ve 13 hodin mělo býti <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">zaplynováno</term> 300 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term> ze <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1391" type="subject">zvláštního komanda</term>. Oni podnikli útok na <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorium</term> III, hodili do ohně dynamitové
+				granáty, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematorium</term> III se vzňalo a lehlo
+				popelem. Na místo se dostavila <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> pod
+				vedením <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Hauptsturmführera</term>
+				<persName ref="#ehri_et_hahn">Hahna</persName>, který byl sám ozbrojen strojní puškou. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Zabili</term> 378 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>. Půl hodiny na to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zabilo</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1391" type="subject">Sonderkommando</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">krematoria</term> I svého vrchního <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápo</term> a vrhlo ho do ohně. Pak přestřihli dráty a
+				volajíce: <q><term ref="#ehri_et_nationalities_russians" type="subject">Rusové</term> jsou tu</q> začali utíkat. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> obklíčila okolí, všichni byli <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zastřeleni</term>. Celkem bylo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zabito</term> v tento den 455 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>. Celé toto <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">povstání</term> bylo akcí <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1391" type="subject">zvláštního komanda</term>, jehož se <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">ilegální</term> organisace nezúčastnila, jelikož
+				neměla rozkaz zvenčí.</p>
+
+			<p>Dne <date when="1945-01-17">17. ledna 1945</date> byla zahájena konečná likvidace <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">tábora</placeName>, v němž bylo t.č. ještě asi 6.000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>. Dne <date when="1945-01-18">18.
+					ledna</date> likvidace byla zakončena. Zůstali tam jenom <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">nemocní</term> z <placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora B II
+					f</placeName>.</p>
+
+			<p>Dr. <persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName>
+			</p>
+			<p>Protokol sepsal: Dr. <persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName> a Dr. <persName ref="#ehri_et_nasch_erich"
+					>Erich Nasch</persName> u příležitosti své návštěvy v <placeName ref="http://www.geonames.org/2804979/zeilsheim.html"
+					>Zeilsheimu</placeName> u <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurtu</placeName>.</p>
+		</body>
+	</text>
+</TEI>

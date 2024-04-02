@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL05320171_YI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Pese R. about her flight from Suwałki to Lithuania</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Miriam Schulz</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_532#desc-eng">Persecution of Jews in Poland: reports and
+							statements (coll. 532)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Persecution of Jews in Poland: reports and statements (coll.
+					532), 171. <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Suwałki</placeName>
+						<location>
+							<geo>54.11175 22.93087</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/757718/suwalki.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Suwa%C5%82ki"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Warsaw</placeName>
+						<location>
+							<geo>52.22977 21.01178</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/756135/warsaw.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Warsaw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lublin Province</placeName>
+						<location>
+							<geo>51.23333 22.9</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/858785/wojewodztwo-lubelskie.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lublin_Voivodeship"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_madani">
+						<placeName>Madani (village)</placeName>
+						<note><p>In 1940 a village near the Lithuanian border.</p></note>
+					</place>
+					<place>
+						<placeName>Kalvarija</placeName>
+						<location>
+							<geo>54.417 23.223</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/598512/kalvarija.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Kalvarija%2C_Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vilnius</placeName>
+						<location>
+							<geo>54.68916 25.2798</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/593116/vilnius.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vilnius"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item xml:id="ehri_et_nationalities_soviets"><name>Soviets (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Occupation authority regulations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1033"/>
+						</linkGrp></item>
+					<item><name>Soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+						</linkGrp></item>
+					<item><name>Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-763"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Orphans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-327"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item><name>Illegal Border crossing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_lithuanians"><name>Lithuanians (ascribed nationality)</name></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-746"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_r_pese">
+						<persName>R., Pese(homeowner from Suwałki)</persName>
+					</person>
+					<person>
+						<persName>Winer, Genia</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=10962503"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_maryampolsky_dine">
+						<persName>Maryampolsky, Dine</persName>
+						<note><p>Inhabitant of Suwałki.</p></note>
+					</person>
+					<person xml:id="ehri_et_keltshinski">
+						<persName>Keltshinski (shipping clerk from Suwałki)</persName>
+					</person>
+					<person xml:id="ehri_et_kotlinska">
+						<persName>Kotlinska (elderly woman from Suwałki)</persName>
+					</person>
+					<person>
+						<persName>Blumberg, Mowsza Mordechel</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=10957658"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_shtern">
+						<persName>Shtern (dentist from Suwałki)</persName>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1940-02-08">8th February 1940</date>, <placeName ref="http://www.geonames.org/757718/suwalki.html"
+					>Suwałki</placeName>, <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>, <placeName
+					ref="http://www.geonames.org/858785/wojewodztwo-lubelskie.html">Lublin Reservation</placeName>, <placeName ref="#ehri_et_madani"
+					>Madani</placeName>, <placeName ref="http://www.geonames.org/598512/kalvarija.html">Kalvarija</placeName>,
+					<idno>EHRI-ET-WL05320171</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="yi">Yiddish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Suwałki resident and homeowner Pese R. on the transfer of power from the Soviets to the Germans, the subsequent German
+					occupation of Suwałki, and incipient persecution of Jews. She retells her flight from Suwałki with her children being stranded in
+					“no man's land” at the Lithuanian border for some time, threatened to be deported to the “Lublin Reservation” but finally making
+					it over the border to Lithuania.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-WL05320171_01.jpg"/>
+			<p>פּראָטאָקאָל נומער 171</p>
+			<p><date when="1940-02-08">8–2–1940</date></p>
+			<p><persName ref="#ehri_et_r_pese">פּעסע ר.</persName>
+				<placeName ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName></p>
+			<p>הויז־אײגנטימערין.</p>
+			<p>איצט: <placeName ref="http://www.geonames.org/593116/vilnius.html">װילנע</placeName>.</p>
+			<p>דעם <date when="1939-10-04">4־טן</date> אָדער <date when="1939-10-05">5־טן אָקטאָבער 1939</date> האָבן די <term type="subject"
+					ref="#ehri_et_nationalities_soviets">רוסן</term> פֿאַרלאָזט <placeName ref="http://www.geonames.org/757718/suwalki.html"
+					>סוּװאַלק</placeName>. פֿאַרן פֿאַרלאָזן די <placeName ref="http://www.geonames.org/757718/suwalki.html">שטאָט</placeName> האָבן
+				זײ אויפֿן <placeName ref="http://www.geonames.org/757718/suwalki.html">מאַגיסטראַט־פּלאַץ</placeName> פֿײערלעך איבערגעגעבן די שטאָט די
+				פֿאָרשטײער פֿון דער <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">אַרמײ</term>. דערנאָך זענען גרעסערע <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">אַרמײ־אָפּטײלונגען</term> אַרײַן קײן <placeName
+					ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName>.</p>
+			<p>די ערשטע צװײ־דרײַ טעג האָבן די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> זיך פֿאַרהאַלטן רויִק און קײנעם
+				נישט געטשעפּעט. זײ האָבן בלויז אַרויסגעגעבן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1033" type="subject"
+					>פֿאַראָרדענונגען</term>, אַז טרעפֿנדיק אַ <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">זעלנער</term> אויף דער גאַס, דאַרפֿן די ייִדן
+				אַראָפּגײן פֿון טראָטואַר און ציען דעם הוט. גלײַכצײַטיק האָבן זײ אויך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1033" type="subject">פֿאַראָרדענט</term> צו עפֿענען אַלע קראָמען.</p>
+			<p>די אײַנװוינער האָבן גלײַך געעפֿנט די קראָמען. די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> זענען דאַן
+				אַרײַן אין אַלע ייִדישע געשעפֿטן, צוגענומען פֿון דער קאַסע דאָס באַרע געלט, אַרויסגעטריבן די אײגנטימער און פֿאַרשלאָסן די געװעלבער,
+				צונעמענדיק צו זיך די שליסלען. די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטלעכע</term>
+				געשעפֿטן האָט מען נישט גערירט.</p>
+			<p>מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטער־קינד</term>
+				<persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=10962503" type="victim">געניע װינער</persName> האָט געהאַט אַ גרעסער
+				גאַלאַנטעריע־געשעפֿט אויף <placeName ref="http://www.geonames.org/757718/suwalki.html">קאַשטשיושקאַ־גאַס</placeName> 10 (איצט
+						<q><placeName ref="http://www.geonames.org/757718/suwalki.html">גענעראַל בראַנש־שטראַסע</placeName></q>). איר <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מאַן</term> איז אַװעק אין דער <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּוילישער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">אַרמײ</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אומגעקומען</term> בײַ <placeName
+					ref="http://www.geonames.org/756135/warsaw.html">װאַרשע</placeName>. און זי איז געבליבן אַן אַלמנה מיט צװײ קלײנע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>. די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> זענען, פּונקט װי צו אַנדערע, אַרײַן אויך צו איר אין געשעפֿט, צוגענומען פֿון דער
+				קאַסע אײניקע טויזנט זלאָטעס, װי אויך די גאַנצע סחורה. מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">קוזינע</term> איז אַװעק צום <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> הויפּטמאַן און
+				געבעטן איר כאָטש צוריקצוגעבן דאָס באַרע געלט, װײַל זי איז אַן עלנטע אַלמנה מיט צװײ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">יתומים</term>. דער הויפּטמאַן האָט איר געװאָלט
+				צוריקצאָלן 30 זלאָטעס. און װען זי האָט גענומען װײנען, טענהנדיק, אַז זי װעט מיט אַזאַ נישטיקער סומע גאָרנישט קענען אויפֿטאָן, האָט
+				יענער ציניש געענטפֿערט: <q>איר קאָנט פֿאַר דעם געלט קויפֿן אַ שטריק און זיך אויפֿהענגען</q>.</p>
+			<p><pb n="2" facs="EHRI-ET-WL05320171_02.jpg"/> איך אַלײן האָב אין מײַן הויז געהאַט אַ געשעפֿט פֿון <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">זיסװאַרג</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">פֿרוכטן</term> און װײַנען. די ערשטע טעג האָבן מיך די
+					<term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> נישט געטשעפּעט, מײנענדיק, אַז דאָס איז אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטלעך</term> געשעפֿט. שפּעטער אָבער זענען זײ אַרײַן
+				צו מיר אין געשעפֿט און צוגענומען בײַ מיר די גאַנצע סחורה. מ'האָט אויך דורכגעפֿירט רעװיזיעס בײַ מיר אין שטוב, זוכנדיק גאָלד און
+				סחורות.</p>
+			<p>די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן באַלד נאָך זײער אַרײַנקומען אין שטאָט אַרויסגעלײגט
+				אויף די ייִדישע אײגנטימער פֿון הײַזער קאָנטריבוציעס. פֿון מיר האָט מען געפֿאָדערט 20 טויזנט מאַרק, אויף װעלכע איך האָב געגעבן
+				אַקאָנטאָ 800 גילדן.</p>
+			<p>די ייִדן זענען גאַנצע טעג געװען פֿאַרשלאָסן בײַ זיך אין די װוינונגען, װײַל אויף דער גאַס האָט מען זײ געכאַפּט צו די שמוציקסטע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטן</term>. מען האָט אויך נישט געשוינט <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרויען</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>.</p>
+			<p>די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן אויך גענומען גײן איבער די רײַכע ייִדישע הײַזער און
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">אויסראַבירט</term> אַלץ, װאָס האָט זיך נאָר
+				געלאָזט. פֿיל ייִדן, נישט קאָנענדיק מער אויסהאַלטן, האָבן גענומען לויפֿן אין די <term type="subject"
+					ref="#ehri_et_nationalities_soviets">סאָװיעטישע</term> געביטן.</p>
+			<p>אין די ערשטע טעג פֿון חודש דעצעמבער האָבן די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> פּלוצים
+				אַרויסגעגעבן אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1033" type="subject">פֿאַראָרדענונג</term>, אַז די ייִדן
+				זאָלן זיך אָנגרײטן אויף 3 טעג שפּײַז. אין שטאָט איז געװאָרן אַ מהומה. מ'האָט נישט געװוּסט, װאָס דאָס זאָל באַטײַטן. איך בין אַרויס אין
+					<placeName ref="http://www.geonames.org/757718/suwalki.html">שטאָט</placeName>, כּדי צו מאַכן די אײַנקויפֿן, אָבער גײענדיק האָב
+				איך באַמערקט, װי <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term> פּאָליצײ פֿירט ייִדן, ייִדשע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרויען</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>. די מהומה איז געװאָרן נאָך גרעסער.
+				מ'האָט אָנגעהויבן צו שמועסן, אַז מ'װעט אַלע ייִדן אַרויסטרײַבן פֿון <placeName ref="http://www.geonames.org/757718/suwalki.html"
+					>שטאָט</placeName> און זײ אַװעקשיקן אין <placeName ref="http://www.geonames.org/858785/wojewodztwo-lubelskie.html">לובלינער
+					רעזערװאַט</placeName>. איך בין גלײַך אַװעק צו זיך אַהײם און גענומען זיך און די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> גרײטן צו דער רײַזע. באַלד איז צו מיר
+				אַרײַנגעלאָפֿן אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטלעכע</term> שכנטע און מיר
+				געזאָגט, אַז די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> גײען שוין צו מיר. דורך אַ הינטערטיר האָב איך
+				מיט די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> נאָך באַװיזן צו אַנטלויפֿן פֿון
+				שטוב און זיך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term> אין קעלער.</p>
+			<p>נישט אַלע האָבן אָבער געהאַט אַזאַ <q>גליק</q>. הונדערטער ייִדן מיט זײערע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">פֿאַמיליעס</term> זענען דורך די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> געטריבן געװאָרן אין <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">שול־הויף</term>. מ'האָט זײ נישט דערלויבט מיטצונעמען
+				קײן באַגאַזש, שלאָגנדיק מיט נאַהײַקעס די אַלטע און שװאַכע, אויב זײ האָבן נישט געקאָנט אַזוי שנעל גײן.</p>
+			<p>איך מיט די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> בין געלעגן אין קעלער ביז 3
+				בײַ נאַכט. דאַן האָט אַ <pb n="3" facs="EHRI-ET-WL05320171_03.jpg"/> באַקאַנטער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסט</term> מיך אַרויסגעפֿירט. אין מײַן װוינונג בין
+				איך שוין נישט אַרײַן. די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן אין דער צװישנצײַט זי געהאַט
+				פֿולשטענדיק <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">אויסראַבירט</term> און נאָכער פֿאַרחתמעט
+				די טירן.</p>
+			<p>דורך הינטערװעגן בין איך צוזאַמען מיט די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>
+				געלאָפֿן און אויפֿן װעג געטראָפֿן פֿיל באַקאַנטע, װאָס עס האָט זיך זײ אויך אײַנגעגעבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">אויסצובאַהאַלטן</term> זיך פֿון די <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>. מיר זענען אָנגעקומען אין אַ דאָרף 4 קילאָמעטער הינטער
+					<placeName ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName> און דאָרט זענען מיר געװען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term> 2 טעג.</p>
+			<p>אין דעם דאָרף האָבן מיר שפּעטער באַקומען אַ פֿור און צוגעפֿאָרן צו דער <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">ליטװישער</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term> אין דאָרף <placeName
+					ref="#ehri_et_madani">מײַדאַני</placeName>. מיר זענען געפֿאָרן 2 טעג, װײַל פֿאָרן האָט מען געקאָנט נאָר בײַ נאַכט. בײַ טאָג האָבן
+				די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term> פּאַטרולן פֿאַרהאַלטן און צוריקגעשיקט קײן <placeName
+					ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName>.</p>
+			<p>סך־הכּל זענען מיר געװען בײַ דער <term type="subject" ref="#ehri_et_nationalities_lithuanians">ליטװישער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term> אַן ערך 50 פּערזאָן. די איבעריקע
+					<placeName ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלקער</placeName> ייִדן – אַן ערך פֿון 3 טויזנט פּערזאָן, זענען
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">אַרעסטירט געװאָרן</term> דורך די <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> און אָפּגעשיקט אין <placeName
+					ref="http://www.geonames.org/858785/wojewodztwo-lubelskie.html">לובלינער קאַנט</placeName>. 10 פּערזאָן האָבן אין לעצטן טאָג זיך
+				געראַטעװעט, לויפֿנדיק צו דער <term type="subject" ref="#ehri_et_nationalities_soviets">סאָװיעטישער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term>. 2 פֿון זײ – <persName
+					ref="#ehri_et_maryampolsky_dine">דינה מאַריאַמפּאָלסקי</persName> און <persName ref="#ehri_et_keltshinski">קילטשינסקי</persName> –
+				אַן עקספּעדיטאָר – זענען טראַגיש <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אומגעקומען</term>.
+				דאָס שיפֿל מיט װעלכן זײ האָבן געװאָלט אַריבער דעם טײַך װאַרטאַ, האָט זיך איבערגעדרײט און זײ זענען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערטרונקען געװאָרן</term>.</p>
+			<p>מיר װידער, װאָס זענען געקומען צו דער <term type="subject" ref="#ehri_et_nationalities_lithuanians">ליטװישער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term>, האָבן זיך דרײַ װאָכן געװאַלגערט אין
+					<q>קײנעמס לאַנד</q>, בײַ שרעקלעכע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+					>באַדינגונגען</term>. <persName ref="#ehri_et_kotlinska">קאָטלינסקאַ</persName>, אַן עלטערע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term>, איז דאָרט <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנק</term> געװאָרן און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">געשטאָרבן</term>. מ'האָט זי אויך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">קובֿר</term> געװען אין <q>קײנעמס לאַנ</q>ד. <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=10957658" type="victim">בלומבערג</persName>, אײגנטימער פֿון אַ גרויס
+				גלאָז־געשעפֿט, איז באַגאַנגען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">זעלבסטמאָרד</term>,
+				און זײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term> איז פֿון צרות משוגע געװאָרן.
+				אויך דער דענטיסט <persName ref="#ehri_et_shtern">שטערן</persName> פֿון <placeName ref="http://www.geonames.org/757718/suwalki.html"
+					>סוּװאַלק</placeName> איז משוגע געװאָרן.</p>
+			<p>בײַ דער <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html">ליטװישער</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term> האָבן די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">אַרעסטירט</term> מיך מיט מײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאָכטער</term> און צוגענומען בײַ מיר דאָס גאָרע געלט,
+				װאָס איך האָב געהאַט, און נאַכער אונז אַװעקגעשיקט צוריק קײן <placeName ref="http://www.geonames.org/757718/suwalki.html"
+					>סוּװאַלק</placeName>.</p>
+			<p>װען כ'בין געקומען קײן <placeName ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName>, האָבן די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> מיך געװאָלט אָפּשיקן קײן <placeName
+					ref="http://www.geonames.org/858785/wojewodztwo-lubelskie.html">לובלין</placeName>. אָבער נאָך פֿיל תּחנונים און בקשות האָבן די
+					<term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> מיך און מײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאָכטער</term> צוריקגעפֿירט צו דער <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">ליטװישער</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term>. און דאָס מאָל האָט זיך מיר אײַנגעגעבן
+				אָנצוקומען קײן <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html">ליטע</placeName>.</p>
+			<p><pb n="4" facs="EHRI-ET-WL05320171_04.jpg"/> זײַענדיק צום צװײטן מאָל אין <placeName ref="http://www.geonames.org/757718/suwalki.html"
+					>סוּװאַלק</placeName>, האָב איך זיך דערװוּסט, אַז אין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758"
+					type="subject">שול</term> זיצן נאָך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject"
+					>אַרעסטירט</term> 60 ייִדן, װאָס דאַרפֿן אָפּגעשיקט װערן קײן <placeName
+					ref="http://www.geonames.org/858785/wojewodztwo-lubelskie.html">לובלין</placeName>. די ייִדן זענען דאָרט ממש <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אויסגעגאַנגען פֿון הונגער</term>. דערבײַ האָבן די
+				ייִדן פֿון <placeName ref="http://www.geonames.org/598512/kalvarija.html">קאַלװאַריע</placeName> (<placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">ליטע</placeName>) זײער פֿיל געטאָן. זײ האָבן געשיקט ספּעציעלע
+				שליחים קײן <placeName ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName>. און די לעצטע האָבן אײנציקװײַז
+				אַרויסגעראַטעװעט די ייִדן און זײ איבערגעפֿירט קײן <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html"
+					>ליטע</placeName>. בכּלל האָבן די ייִדן אין <placeName ref="http://www.geonames.org/598512/kalvarija.html">קאַלװאַריע</placeName>
+				זײער פֿיל געטאָן פֿאַר די ייִדישע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">פּליטים</term>
+				פֿון <placeName ref="http://www.geonames.org/757718/suwalki.html">סוּװאַלק</placeName>.</p>
+			<p>אונטערגעשריבן: <persName ref="#ehri_et_r_pese">פּ.ר.</persName></p>
+		</body>
+	</text>
+</TEI>

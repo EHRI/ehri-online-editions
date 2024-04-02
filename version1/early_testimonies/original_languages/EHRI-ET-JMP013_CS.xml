@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP013_CS">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ruth Morgensternová, description of harsh living conditions in Estonian labour camps</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Magdalena Sedlická</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Brno</placeName>
+						<location>
+							<geo>49.19522 16.60796</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3078610/brno.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Brno"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bergen-Belsen concentration camp</placeName>
+						<location>
+							<geo>52.758899 9.907099</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-42"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Estonia</placeName>
+						<location>
+							<geo>59 26</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/453733/republic-of-estonia.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Estonia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga Ghetto</placeName>
+						<location>
+							<geo>56.946527 24.104861</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tallinn</placeName>
+						<location>
+							<geo>59.43696 24.75353</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/588409/tallinn.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Tallinn"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Raasiku</placeName>
+						<location>
+							<geo>59.36639 25.18306</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/589223/raasiku.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Raasiku_Parish"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tartu</placeName>
+						<location>
+							<geo>58.38062 26.72509</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/588335/tartu.html"/>
+							<link type="desc" target="http://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%80%D1%82%D1%83"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html "/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Frankfurt am Main</placeName>
+						<location>
+							<geo>50.11552 8.68417</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2925533/frankfurt-am-main.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Frankfurt"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ereda</placeName>
+						<location>
+							<geo>59.31556 27.23611</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/592258/ereda.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Ereda"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Narva</placeName>
+						<location>
+							<geo>59.37722 28.19028</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/590031/narva.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Narva"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vilnius</placeName>
+						<location>
+							<geo>54.68916 25.2798</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/593116/vilnius.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Vilnius"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaunas</placeName>
+						<location>
+							<geo>54.90272 23.90961</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/598316/kaunas.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Kaunas"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Latvia</placeName>
+						<location>
+							<geo>57 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/458258/republic-of-latvia.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Latvia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz extermination camp</placeName>
+						<location>
+							<geo>50.0262 19.2041</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-0"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gdańsk</placeName>
+						<location>
+							<geo>54.35205 18.64637</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3099434/gdansk.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Danzig"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_vistula">
+						<placeName>Vistula (river)</placeName>
+						<location>
+							<geo>54.361667 18.951944</geo>
+						</location>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vistula"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Stutthof concentration camp</placeName>
+						<location>
+							<geo>54.3268 19.1691</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-857"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hamburg</placeName>
+						<location>
+							<geo>53.57532 10.01534</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2911298/hamburg.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Hamburg"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Documentation Action (in Prague)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Transports from Terezín</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Lagerkommandantur</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-482"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Elderly people</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274"/>
+						</linkGrp></item>
+					<item><name>Prisoners from the Protectorate of Bohemia and Moravia</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279"/>
+						</linkGrp></item>
+					<item><name>Schleusce</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-48312"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Lice</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213"/>
+						</linkGrp></item>
+					<item><name>Typhus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-493"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_morgensternova_ruth">
+						<persName>Morgensternová, Ruth</persName>
+					</person>
+					<person xml:id="ehri_et_schickova_helena">
+						<persName>Schicková, Helena</persName>
+						<note><p>1909–1992</p><p>She lived in Prague and worked as a clerk. In 1943 she was deported to the Theresienstadt (Terezín)
+								ghetto, where she has survived until the liberation. After the war she was involved in the Documentation campaign
+								(Dokumentační akce). In 1949, Schicková emigrated to Israel.</p></note>
+					</person>
+					<person xml:id="ehri_et_gerzonova_berta">
+						<persName>Gerzonová, Berta</persName>
+						<note><p>1914–?</p><p>Born in Mukachevo, from 1939 she lived in Prague. Gerzonová was deported to the Theresienstadt (Terezín)
+								ghetto in 1942, from which she was transported in autumn 1944 to Auschwitz-Birkenau. After the war she was one of the
+								co-workers of the Documentation campaign (Dokumentační akce). She got married and moved with her husband to
+								Slovakia.</p></note>
+					</person>
+					<person xml:id="ehri_et_shek_zeev">
+						<persName>Shek, Zeev</persName>
+						<note><p>1920–1978</p><p>Born in Olomouc. Active in the Zionist movement, member of Maccabi Hatzair. In 1943 he was deported
+								to the Theresienstadt (Terezín) ghetto, where he became one of the Hechalutz leaders. In autumn 1944 he was
+								transported to Auschwitz-Birkenau. After the war he became one of the main initiator of the Documentation campaign
+								(Dokumentační akce). In 1946 he emigrated to Palestine, where he worked for the Ministry of Foreign Affairs and in the
+								diplomatic services. In 1967 Sheck was appointed as the Israeli Ambassador in Vienna. In 1977 he was sent to serve as
+								the Israeli Ambassador in Rome, where he has died one year later.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Sicherheitsdienst</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-356"/>
+						</linkGrp>
+						<note><p>Founded in 1931</p><p>The Sicherheitsdienst, an intelligence and surveillance organization, was established in 1931
+								under Reinhard Heydrich. Among its major tasks were monitoring real or imagined enemies of national socialism and
+								reporting on the state of opinion among the German public. As chief of the Sicherheitsdienst as well as of the
+								Sicherheitspolizei, Reinhard Heydrich merged the two organizations, establishing the Reichssicherheitshauptamt in
+								September 1939.</p></note>
+					</org>
+					<org>
+						<orgName>Organization Todt</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-433"/>
+						</linkGrp>
+						<note><p>Organization Todt formed Nazi-sponsored, paramilitary labor battalions. This German military organization was
+								dedicated to heavy construction and utilized concentration camp labor. OT also operated in the rearguard of
+								Einsatzgruppen activity. It was headed by Dr. Fritz Todt until his death in 1942.</p></note>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><term type="subject" ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">Dokumentační akce</term>,
+					<persName ref="#ehri_et_morgensternova_ruth">Ruth Morgensternová</persName>, <placeName
+					ref="http://www.geonames.org/3078610/brno.html">Brno</placeName>
+				<idno>EHRI-ET-JMP013</idno></creation>
+
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Ruth Morgensternová, which became a part of the “documentation campaign” in Prague. She describes her fate from
+					November 1942 onwards, when she was deported from the Theresienstadt Ghetto, until the liberation of the Bergen-Belsen
+					concentration camp in April 1945. Morgensternová focuses on the living conditions in the Estonian labor camp Jägala, in which she
+					was imprisoned, and describes the harsh situation for the inmates of the Ereda labor camp.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-JMP013_01.jpg"/>
+			<p rend="center">
+				<hi rend="letter-spacing: +2px">Protokol</hi>
+			</p>
+			<p>který jest opsán dle původního, pí. <persName ref="#ehri_et_morgensternova_ruth">Ruth Morgensternovou</persName> podepsaného protokolu,
+				bytem <placeName ref="http://www.geonames.org/3078610/brno.html">Brno</placeName>, <placeName
+					ref="http://www.geonames.org/3078610/brno.html">Na ponávce</placeName> 10</p>
+
+			<p>bývalým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněm</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentr. tábora</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-42">Bergen-Belsen</placeName> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">prac. táb.</term> v <placeName
+					ref="http://www.geonames.org/453733/republic-of-estonia.html">Estonsku</placeName></p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">Transport Be Terezín</term> -
+					<placeName ref="http://www.geonames.org/453733/republic-of-estonia.html">Estonsko</placeName>.</p>
+
+			<p><date when="1942-09-01">I. IX. 1942</date>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">odjezd z Terezína</term>, směr
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032">Riga</placeName>. Cesta byla dobrá, doprovod slušný.
+					V <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032">Rize</placeName> stojíme den, pak odjíždíme dále, do
+					<placeName ref="http://www.geonames.org/453733/republic-of-estonia.html">Estonska</placeName>. Po pětidenní cestě <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">vlak</term> staví 25 km od <placeName
+					ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName> v <placeName
+					ref="http://www.geonames.org/589223/raasiku.html">Raasiku</placeName>. Tam nás čeká <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-356">SD</orgName> s modrými, krásnými autobusy. Stojíme před <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">vlakem</term> a jeden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> vybírá mladé lidi, kteří prý půjdou
+				pěšky. Ostatní jsou vyzváni odložit zavazadla a vstoupit do autobusu. Od té doby není od nich zpráv. My mladí (75 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a asi 150 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>) odjíždíme na nákladních autech se
+				zavazadly od celého <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transportu</term> do nedalekého
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábora</term>
+				<placeName ref="http://www.geonames.org/588409/tallinn.html">JAGALLA</placeName>. Je to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábor</term> uprostřed lesa, se starými, rozbitými
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">barákami</term>, ohraničený ostnatým drátem.
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-482">Lagerführer</term>
+				<placeName ref="http://www.geonames.org/453733/republic-of-estonia.html">estonský</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-356">SDman</orgName>, jeho adjutant baltický <term type="subject"
+					ref="#ehri_et_nationalities_germans">Němec</term>. Hlídka je <placeName
+					ref="http://www.geonames.org/453733/republic-of-estonia.html">estonská</placeName>. Prvý večer jsou nám odebrány cenné věci a
+				přebytečné <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">šaty</term>. (tělesná prohlídka). <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">Šaty</term> nám byly příští den navráceny. Po třech
+				dnech nás odvádí do velkých <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">baráků</term>, kde
+				třídíme a vybalujeme věci z našeho <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+				>transportu</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Muže</term>, které vidíme jen
+				zdaleka, posílají na lesní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">práce</term>, odkud se
+				k nám vracejí jen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocní</term>, kteří jsou zas
+				posíláni dál, prý do <placeName ref="http://www.geonames.org/588335/tartu.html">Dorpatu</placeName>, kde je <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">lazaret</term>. Tam prý je i zbytek <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transportu</term>, ale nikdy jsme od žádného
+					<placeName ref="http://www.geonames.org/588335/tartu.html">dorpatského</placeName> obyvatele neslyšeli, že jsou tam Židé.
+				Zacházení se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženami</term> dobré, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužům</term> se daří hůř, zvlášť venku na <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term>, kde je <placeName
+					ref="http://www.geonames.org/453733/republic-of-estonia.html">Estonci</placeName> oberou a nedávají jim <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jíst</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Jídlo</term> je poměrně dobré, možnost spojení se
+				světem není. V <date when="1942-10">říjnu</date> přichází další <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transport</term> z <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html ">Německa</placeName> (<placeName
+					ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> a <placeName
+					ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>). Opět zavazadla a část lidí do <placeName
+					ref="http://www.geonames.org/588409/tallinn.html">Jagälly</placeName>. V <date when="1942-12">prosinci</date> odjíždí velký <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transport</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> do <placeName
+					ref="http://www.geonames.org/588409/tallinn.html">Revalu (Tallin)</placeName> a prý do <placeName
+					ref="http://www.geonames.org/588335/tartu.html">Dorpatu</placeName> (tam jen <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">starší</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocní</term>). Zbytek <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> se <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">stěhuje</term> do velmi pěkných <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">baraků</term> (je jich 45 téměř samé <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Češky</term>). Po skončení <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> ve <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-48312" type="subject">Schleusce</term> chodí <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> do lesa <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">kácet</term> stromy a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">bourat</term> staré baráky. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Práce</term> jest velmi těžká. V <date when="1943-08"
+					>srpnu 1943</date> odjíždí zbytek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> do
+					<placeName ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábor</term> se likviduje. Před odjezdem je nám
+				většina věcí odebrána. V <placeName ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bydlíme</term> v centrálním <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">vězení</term>, kde se setkáváme s prvním <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transportem</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracujeme</term> společně na odklízecích <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracích</term> v přístavu pod dohledem <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">O.T.</orgName> Tam též vídáme <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muže</term> z našeho <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transportu</term>, kteří po skončených <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracích</term> přicházejí rovněž do <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">vězení</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Strava</term> ve <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">vězení</term> je hrozná, ale máme možnost si občas
+				něco zaopatřit.</p>
+
+			<p>V <date when="1943-12">prosinci 1943</date> odjíždějí všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">ženy</term> z <placeName ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName> do <placeName
+					ref="http://www.geonames.org/592258/ereda.html">EREDY</placeName> t. j. asi 30 km od <placeName
+					ref="http://www.geonames.org/590031/narva.html">Narvy</placeName>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Muži</term> zůstanou v <placeName
+					ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName>, odkud máme v <date when="1944-03">březnu 1944</date> od
+				nich poslední zprávu. <placeName ref="http://www.geonames.org/592258/ereda.html">Ereda</placeName> je malý <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábor</term>, kde už je asi 1 000 Židů z <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Litvy</placeName> (<placeName
+					ref="http://www.geonames.org/593116/vilnius.html">Vilno</placeName> a <placeName ref="http://www.geonames.org/598316/kaunas.html"
+					>Kovno</placeName>) a <placeName ref="http://www.geonames.org/458258/republic-of-latvia.html">Lotyšska</placeName>. Jsou <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213" type="subject">zavšivení</term> a bez věcí. V okolí je
+				ještě několik podobných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">táborů</term>. I několik
+					<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Čechů</term> je tam, kteří
+				přicházejí z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032">Rigy</placeName>. Vedení tu již má <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, dozor <placeName
+					ref="http://www.geonames.org/453733/republic-of-estonia.html">Est.</placeName> a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">O.T.</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Strava</term> špatná, ale možnost si něco zaopatřit,
+				ovšem pro odvážné. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracuje</term> se v lese a na
+				výstavbě nového <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábora</term>, který je několik km
+				vzdálen. Je tu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyfus</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocní</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">staří</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> jsou stále posíláni pryč (pravděpodobně do
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Osvěnčíma</placeName>). Když se <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Rusové</orgName> blíží, (v <date when="1944-07">červenci
+					1944</date>), odjíždíme do <placeName ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName>, kde má být pro nás
+				loď. Ta tu není, a proto vystupujeme v předměstí <placeName ref="http://www.geonames.org/588409/tallinn.html">Tallinu</placeName> na
+				velké louce, kde zůstáváme bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">přístřeší</term> tři
+				neděle. Chodíme <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">kopat zákopy</term>. V <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">táboře</term> je velký <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569">hlad</term>. V <date when="1944-08">srpnu</date> odjíždíme konečně
+				lodí do <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html ">Německa</placeName>. Jedeme pět dní bez
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídla</term>. Přijíždíme do <placeName
+					ref="http://www.geonames.org/3099434/gdansk.html">Danzigu</placeName> a odtud po <placeName ref="#ehri_et_vistula"
+					>Visle</placeName> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-857">Stutthofu</placeName>. Tam
+				procházíme koupelí, jsou nám odebrány věci a dány nové <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">šaty</term>. Ostříhány jsme už byly před odjezdem z <placeName
+					ref="http://www.geonames.org/453733/republic-of-estonia.html">Estonska</placeName>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Práce</term> schopné <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> odjíždějí po třech nedělích do <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburku</placeName> na <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> do muniční <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929">továrny</term>. Odtud jsme v <date when="1945-04">dubnu 1945</date>
+				evakuovány do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-42" type="camp">Bergen-Belsenu</placeName>, <pb n="2"
+					facs="EHRI-ET-JMP013_02.jpg"/> kde jsme byly až do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573"
+					type="subject">osvobození</term>.</p>
+
+			<p>Podpis:</p>
+
+			<p>
+				<persName ref="#ehri_et_schickova_helena">Schicková</persName>
+			</p>
+
+			<p>Protokol opsala:</p>
+
+			<p>
+				<persName ref="#ehri_et_schickova_helena">Helena Schicková</persName>
+			</p>
+
+			<p>opsáno podle původního protokolu</p>
+
+			<p>Popis svědků:</p>
+
+			<p>
+				<persName ref="#ehri_et_gerzonova_berta">B. Gerzonová</persName>
+			</p>
+
+			<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">dokumentační akci</term> přijal:
+					<persName ref="#ehri_et_shek_zeev">Scheck</persName></p>
+
+			<p>Za archiv:</p>
+		</body>
+	</text>
+</TEI>

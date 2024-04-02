@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2019-08-28T12:23:35+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19440419-DK_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lauritz Bolt Bolt-Jørgensen on anti-Jewish laws in Hungary in 1944</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/dk">Denmark </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </repository>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Rigsarkivet, 151. D. 2, Gruppeordnede sager. <textLang mainLang="en">Original in Danish.</textLang></bibl>
+				<list>
+					<item><name>Announcements</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-812"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Gender</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-858"/>
+						</linkGrp></item>
+					<item><name>Marking of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-338"/>
+						</linkGrp></item>
+					<item><name>Racial laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-365"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Military service</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1086"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_First_World_War"><name>First World War</name><linkGrp>
+							<link type="normal" target="#ehri_dr_First_World_War"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Disabled people</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-545"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_hungarian_revolution"><name>Hungarian Revolution</name><linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Revolutions_and_interventions_in_Hungary_(1918%E2%80%9320)"/>
+						</linkGrp><note><p>There was a period of revolutions and interventions in Hungary between 1918 and 1920. The First Hungarian
+								Republic was founded by Mihály Károlyi during the Aster Revolution in 1918. In March 1919, the republic was overturned
+								by another revolution, and the Hungarian Soviet Republic was created. The unresolved conflicts led to wars between
+								Hungary and its neighbor states in 1919. The Hungarian Soviet Republic ceased to exist after the Romanian occupation.
+								The Treaty of Trianon in Versailles chilled the conflicts and beneficiaries for this event were Romania, the newly
+								formed states of Czechoslovakia, and the Kingdom of Serbs, Croats and Slovenes.</p></note></item>
+					<item xml:id="ehri_dr_little_entente"><name>Little Entene</name><linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Little_Entente"/>
+						</linkGrp><note><p>The Little Entente was an alliance formed in 1920 and 1921 by Czechoslovakia, Romania and Yugoslavia with
+								the purpose of common defense against Hungarian revanchism and the prospect of a Habsburg restoration. France
+								supported the alliance by signing treaties with each member country. The rapid growth of German power caused its
+								collapse in 1938, and it never went into wartime operation.</p></note></item>
+					<item><name>Mixed marriages</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-375"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp></item>
+					<item><name>Foreign citizens</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1149"/>
+						</linkGrp></item>
+					<item><name>Citizenships</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1147"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-339"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish economic measures</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-333"/>
+						</linkGrp></item>
+					<item><name>Jewish public service workers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-897"/>
+						</linkGrp></item>
+					<item><name>Banks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-930"/>
+						</linkGrp></item>
+					<item><name>Jewish jurists and lawyers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-899"/>
+						</linkGrp></item>
+					<item><name>Dismissal from work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-665"/>
+						</linkGrp></item>
+					<item><name>Jewish journalists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-712"/>
+						</linkGrp></item>
+					<item><name>Press</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1068"/>
+						</linkGrp></item>
+					<item><name>Arts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-673"/>
+						</linkGrp></item>
+					<item><name>Radio and television</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-849"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Gendarmerie</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1124"/>
+						</linkGrp></item>
+					<item><name>Exclusions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-628"/>
+						</linkGrp></item>
+					<item><name>Economic life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-816"/>
+						</linkGrp></item>
+					<item><name>Jewish labourers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-902"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Jewish assets</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-888"/>
+						</linkGrp></item>
+					<item><name>Jewish property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-887"/>
+						</linkGrp></item>
+					<item><name>Finanzämter</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1153"/>
+						</linkGrp></item>
+					<item><name>Trade</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-933"/>
+						</linkGrp></item>
+					<item><name>Jewish owned factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-890"/>
+						</linkGrp></item>
+					<item><name>Jewish physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Ghettoisation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-552"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542"/>
+						</linkGrp></item>
+					<item><name>Marking of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-338"/>
+						</linkGrp><note><p>For non-Jews see "Armband (for non Jews)"</p></note></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+				</list>
+				<listPerson>
+					<person>
+						<persName>Sztójay, Döme</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000404"/>
+						</linkGrp>
+						<note>
+							<p>05.01.1883 - 22.08.1946</p>
+							<p>Hungary's military attaché in Berlin 1925-1933. After the German occupation of Hungary, Prime Minister and Foreign
+								Minister in the Hungarian collaborationist government responsible for segregation, ghettoization and deportation of
+								Hungarian Jews (Mar-Jul 1944). Found guilty of war crimes and executed.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_dr_bolt-joergensen_bolt_lauritz">
+						<persName>Bolt-Jørgensen, Lauritz Bolt </persName>
+						<linkGrp>
+							<link type="normal" target="#ehri_dr_bolt-joergensen_bolt_lauritz"/>
+						</linkGrp>
+						<note>
+							<p>Lauritz Bolt Bolt-Jørgensen (1882-1967), Danish Ambassador in Budapest 1941-1945.</p>
+						</note>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49835 19.04045</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1942-05-27">27.05.1942</date>
+				<placeName ref="https://www.geonames.org/3054643/budapest.html">Budapest</placeName>
+				<persName ref="#ehri_dr_bolt-joergensen_bolt_lauritz">Bolt-Jørgensen, Lauritz Bolt</persName>
+				<idno>EHRI-DR-19440419-DK</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="HUN1.jpg"/>
+			<p>Shortly after the appointment of the Cabinet <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000404"
+					>Sztojay</persName> they announced on the <date when="1944-03-31">31<hi rend="sup">st</hi></date> in the <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> Government <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-812" type="subject">Gazette</term> a couple of decrees containing stricter
+					<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">provisions</term> in the already
+				applicable provisions concerning the position of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term> in the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> Society, cf. legation
+				report No. 106 of <date when="1942-03-07">27.3.42</date> and later.</p>
+			<p>In accordance with the first decree (Appendix 1), every <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jew</term>, regardless of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-858" type="subject"
+					>gender</term>, from the age of 6, outside the home is instructed to wear a tailored canary <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">yellow star</term> of fabric with a diameter of l0 cm
+				on the left chest of the garment. The basis for who is qualified as a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term> is the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">racial protection law</term> of <date when="1941"
+					>1941</date>. This does not apply to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>
+				who received higher <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">military</term> decoration for
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1086" type="subject">participation</term> in the <term
+					ref="#ehri_dr_First_World_War" type="subject">First World War</term>, who are 75 percent <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-545" type="subject">invalids</term>, as well as <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who have been honoured for their actions
+				during the <term ref="#ehri_dr_hungarian_revolution" type="subject">Hungarian Revolution</term> of <date when="1919">1919</date> and
+				the relinquishment of state territory from the <term ref="#ehri_dr_little_entente" type="subject">Little Ententes States</term> after
+				the World War.</p>
+			<p>By a Decree of the <date when="1944-04-05">5<hi rend="sup">th</hi></date> of this month (Appendix 2), the exceptions were expanded to
+				include <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> living in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriages</term> with <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jews</term>, and widows of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jews</term>. The exemptions further include those
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">foreign Subjects</term> living in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> who are able to document their foreign <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">nationality</term> through the foreign authorities.
+				The necessary certificate is based on an application submitted by the relevant Foreign Representation.</p>
+			<pb n="2" facs="HUN2.jpg"/>
+			<p>In accordance with the Decrees of the <date when="1944-03-31">31<hi rend="sup">st</hi></date> (Appendix 1), <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">prohibited</term> from having <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jews</term> as housekeepers. The prohibition
+				includes service people of all kinds who perform a regular personal service for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-333" type="subject">money</term>.</p>
+			<p>Furthermore, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who are <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-897" type="subject">employees of the State and Municipal Service</term> as
+				well as the National <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Bank</term>, Credit Unions,
+				etc. are dismissed. The Authorizations for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jewish</term> Notaries, Interpreters, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">Jewish
+					Lawyers</term>, etc. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-665" type="subject">expire</term> on <date
+					when="1944-05-31">31 May</date> of this year and are excluded from the Attorneys Chambers.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, who are <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-712" type="subject">members</term> of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">Press</term> Chamber and the Chamber of Performing
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">Arts</term>, must resign before <date
+					when="1944-04-30">30 April</date> of this year.</p>
+			<p>At the same time, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who own Motor Vehicles
+				(Passenger Cars, Cargo Trucks, and Motorcycles, etc.) are required to report these to the Ministry of Commerce.</p>
+			<p>On the 29<hi rend="sup">th</hi> they announced a decree according to which <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> have to report their Telephones.</p>
+			<p>According to a Decree of the 8<hi rend="sup">th</hi> ds. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jews</term> are obliged to report their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849"
+					type="subject">Radio Devices</term>.</p>
+			<p>By Decree of the <date when="1944-04-06">6<hi rend="sup">th</hi></date> of this month, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who carry the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">yellow Star</term> are prohibited from using Motor
+				Vehicles, including Taxis. Nor has the before mentioned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jews</term> access to the use of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject"
+					>railways</term>, Passenger Ships, and Motor omnibus; special permits for an exemption for a specific time can be given by the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term> and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1124" type="subject">gendarmerie</term>.</p>
+			<p>The Government has taken precautions - which do not take the form of a Decree, but on the <date when="1944-04-06">6<hi rend="sup"
+						>th</hi></date> of this month, the <q>Budapester Nachrichten</q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">Press</term> Service referred to the complete <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-628" type="subject">exclusion</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> from the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-816" type="subject">business community</term>. It is anticipated that all
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-902" type="subject">Jewish employment</term> will cease by <date
+					when="1944-10-01">1 October</date>.</p>
+			<pb n="3" facs="HUN3.jpg"/>
+			<p>On the <date when="1944-04-16">16<hi rend="sup">th</hi></date> of this month, a Decree concerning the registration and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">blocking</term> of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-888" type="subject">Jews’ fortune</term> was announced (Appendix 3).
+				Hereafter, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> must report their total
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">assets</term> to the relevant <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1153" type="subject">financial authorities</term> with the exception of
+				their personal home, household items, and clothing, if their total value does not exceed 10,000 Pengö. What you are obligated to
+				notify includes Art objects, Blankets, Table silver, and other Luxury items. In addition to small change, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> must also report their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">land property</term>. Shares and Bonds must, before
+				the notification is made, be deposited in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject"
+					>bank</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term> boxes are blocked, and the Owner must
+				declare their contents. All <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> claims on
+				savings, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Bank</term> Books and Current Accounts are
+				reported and blocked; of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">blocked</term>
+				receivables, a total of 1,000 Pengö can be paid monthly to the Owner. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are responsible to transfer their whole
+				salary to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term> or savings <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term>; these amounts are blocked. The Minister
+				of Industry has the authority to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">block</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-933" type="subject">trading</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-890" type="subject">industrial companies’</term> raw material and
+				inventory as well as business inventory.</p>
+			<p>Enclosed is a cutting of <q>Pester Lloyd</q> of 18 of this month. (Appendix 4), containing the reproduction of some of the statements
+				made by the Secretary of State and the Ministry of the Interior, regarding further impending precautions, including the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">practice of Jewish doctors</term> and the future
+				conditions of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">Jewish Settlement</term> in <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>.</p>
+			<p><persName ref="#ehri_dr_bolt-joergensen_bolt_lauritz">Lauritz Bolt Bolt-Jørgensen </persName>(1882-1967)</p>
+		</body>
+	</text>
+</TEI>

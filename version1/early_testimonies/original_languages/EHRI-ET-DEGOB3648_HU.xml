@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB3648_HU">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>M. S., male, on the Zionist resistance in Budapest in 1944–1945</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 3648. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_palestine">
+						<placeName>Palestine (mandatory)</placeName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mandatory_Palestine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Romania</placeName>
+						<location>
+							<geo>46 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798549/romania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Romania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz concentration camp</placeName>
+						<location>
+							<geo>50.0262 19.2041</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-0"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Switzerland</placeName>
+						<location>
+							<geo>47.00016 8.01427</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Switzerland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nyíregyháza</placeName>
+						<location>
+							<geo>47.95539 21.71671</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/716935/nyiregyhaza.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ny%C3%ADregyh%C3%A1za"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.5 19.08333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054638/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_protection_documents"><name>Protection documents</name></item>
+					<item xml:id="ehri_et_protected_houses"><name>Protected houses</name></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Diplomats</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1007"/>
+						</linkGrp></item>
+					<item><name>Zionists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-907"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Rescue</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-214"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_slovaks"><name>Slovaks (ascribed nationality)</name></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>Press</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1068"/>
+						</linkGrp></item>
+					<item><name>Air-raids</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1105"/>
+						</linkGrp></item>
+					<item><name>Government ministries and offices</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1110"/>
+						</linkGrp></item>
+					<item><name>Ministers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-106"/>
+						</linkGrp></item>
+					<item><name>Emigration certificates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1142"/>
+						</linkGrp></item>
+					<item><name>Aliya</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-866"/>
+						</linkGrp><note><p>emigration to mandatory Palestine/Israel.</p></note></item>
+					<item><name>Labour battalions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-560"/>
+						</linkGrp><note><p>Hungarian and Romanian formations.</p></note></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Underground</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-242"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Gendarmes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1125"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Forgeries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-258"/>
+						</linkGrp><note><p>Refers mainly to forgeries of documents (including food stamps, vouchers etc.) as a means of
+							resistance</p></note></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person>
+						<persName>Lutz, Carl</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000260"/>
+						</linkGrp>
+						<note><p>30/03/1985 - 1975</p><p>Diplomat credited with saving over 65 000 Jews. Righteous Among the Nations (1965)</p></note>
+					</person>
+					<person>
+						<persName>Krausz, Miklós</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000229"/>
+						</linkGrp>
+						<note><p>01/01/1908 - 1985</p><p>Hungarian Jewish Zionist activist. In 1932 he was appointed as the general secretary of the
+								"Mizrahi" and “Hapoel Hamizrahi” organisations in Hungary. In 1934 he was the secretary of the Eretz-Israel Office in
+								Budapest and from 1938 to 1946 its manager. In April 1944, a few weeks after the German invasion of Hungary, all the
+								7,800 certificates that were not used by Jews, who were deported or exterminated by the Nazis all over Europe,
+								arrived. But after Romania switched alliance to the Russians (23.8.1944) the way to Palestine was blocked. The Swiss
+								consul, Carl Lutz obtained from the Hungarian government the authorization to issue Protection Documents for those in
+								possession of a certificate and thus the “Schutzpass” was born. In the summer of 1944 Krausz distributed the
+								“Auschwitz Report”, which was smuggled into Hungary and described the extermination of Jews in the camp, abroad. After
+								the liberation Krausz made aliya. In Israel he worked for the Ministry of Social Welfare until he retired.</p></note>
+					</person>
+					<person>
+						<persName>Kasztner, Rudolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000208"/>
+						</linkGrp>
+						<note><p>1906-1957</p><p>Rudolf Kasztner, lawyer, journalist, Zionist activist. Kasztner’s name is associated with several
+								rescue operations during the Holocaust. In 1942, he helped found the Relief and Rescue Committee (Budapesti Segélyező
+								és Mentőbizottság or Va‘adat ‘Ezrah ve-Hatsalah) of Budapest, a clandestine group that smuggled Jews from Slovakia and
+								Poland to Hungary. Kasztner brought copies of the so-called Auschwitz Protocols from Slovakia to Hungary at the end of
+								April 1944. In the summer of 1944 Kasztner attempted a rescue operation that became known as the Kasztner Train. After
+								Kasztner's immigration to Palestine in 1947, in 1952 Malkiel Grünwald accused Kasztner of collaborating with the
+								Nazis. In March 1957 Kasztner was assassinated in Tel Aviv by three men associated with the Israeli extreme
+							right.</p></note>
+					</person>
+					<person>
+						<persName>Pius XII. (pope)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000312"/>
+						</linkGrp>
+						<note><p>02/03/1876 - 09/10/1958</p><p>Head of the Roman Catholic Church (1939-58). Controversy around his and the Vatican's
+								"neutrality" during the Holocaust</p></note>
+					</person>
+					<person>
+						<persName>Roosevelt, Theodore</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-002449"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Churchill, Winston</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000081"/>
+						</linkGrp>
+						<note><p>1874 - 24/01/1965</p><p>Prime minister (1940-1945 and 1951-1955).</p></note>
+					</person>
+					<person>
+						<persName>Veesenmayer, Edmund</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000416"/>
+						</linkGrp>
+						<note><p>12/11/1904 - 24/12/1977</p><p>NS-politician and officer. Important role in the persecution and murder of Croatian and
+								Serbian Jews. 1944 representative of the Reich to Hungary.</p></note>
+					</person>
+					<person>
+						<persName>Ferenczy, László</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000114"/>
+						</linkGrp>
+						<note><p>09/03/1898 - 31/03/1946</p><p>Lieutenant colonel in the Hungarian Gendarmerie, in charge of establishing the ghettos
+								and deporting the Jews of Hungary in 1944. From May 3 - July 9, 1944, Ferenczy submitted reports every other day on
+								the progress of the ghettoisation and deportations. after the war, F. was sentenced to death by hanging in Hungary in
+								1946.</p></note>
+					</person>
+					<person xml:id="ehri_et_weiss_artur">
+						<persName>Weiss/Weisz, Artur (Budapest)</persName>
+					</person>
+					<person>
+						<persName>Szálasi, Ferenc</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000399"/>
+						</linkGrp>
+						<note><p>01/06/1897 - 12/03/1946</p><p>Founder and leader of the Arrow Cross Party, the most popular extreme right wing
+								movement in Hungary before and during WWII. Following Regent Horthy's failed attempt to leave war, Szálasi assumed
+								power with German support and became Prime Minister of Hungary (15 October, 1944-28 March 1945) as well as the head of
+								state ("Leader of the Nation"). He was found guilty of war crimes and executed in 1946.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Jewish Agency</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-400"/>
+						</linkGrp>
+						<note><p>Founded in 1921</p><p>The Jewish Agency is established in Yishuv to promote Jewish self-government as a part of the
+								British Mandate by the League of Nations. The Jewish Agency was reluctant to expends funds on rescue, arguing moneys
+								should be provided by international Jewish communities. However, some funding was spent on modest rescue efforts. This
+								group tried to rescue Jews in Transnistria, urged the Allies to save Jews from concentration camps, advocated the
+								bombing of railway hubs, and brought orphans to Palestine. However, the Jewish Agency refused to fund the Europa Plan
+								or ‘Blood for Trucks’.</p></note>
+					</org>
+					<org>
+						<orgName>Palestina Amt</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-611"/>
+						</linkGrp>
+						<note><p>Palestina Amt was a Zionist and a Palestine-based organization. This office was headed by Moshe Krausz, who was a
+								member of Mizrachi, the religious Zionist Party, and a representative of Hashomer Hatzair, the extreme-left Zionist
+								Group. Krausz distributed the valuable Palestine certificates, which enabled their bearers to enter
+							Palestine.</p></note>
+					</org>
+					<org>
+						<orgName>Swiss government</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1373"/>
+						</linkGrp>
+						<note><p>At the start of the Second World War the Swiss government tried to maintain trade relations with all belligerents. In
+								order to safeguard vital supplies and channel them through the blockades and economic warfare restrictions applied by
+								both sides, it had to conduct complicated negotiations with its economic partners – not only Germany but also the
+								Allies.</p></note>
+					</org>
+					<org>
+						<orgName>British government</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004509"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Government of the United States</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1331"/>
+						</linkGrp>
+						<note><p>In 1938/1939 the army of the United States was ill prepared even to defend the nation against attack; the public and
+								Congress were determined to avoid war and ignorant of military requirements. The foreign policy of the United States
+								was in debate, and the policies that the President followed in this period of doubt soon raised a conflict between the
+								request for aid and the demands of national rearmament. Amid this confusion the services had to prepare for the worst.
+								From 1938-09 to 1941-12-07 it became increasingly probable that the United States would have to fight in the Second
+								World War.</p></note>
+					</org>
+					<org>
+						<orgName>Nyilaskeresztes Párt - Hungarista Mozgalom</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-474"/>
+						</linkGrp>
+						<note><p>(1935) 1939-1945</p><p>Arrow Cross Party was the most popular right-wing extremist movement in Hungary before and
+								during WWII. The party was founded in 1935 under the name of Party of National Will. Its leader, former officer of the
+								General Staff, Ferenc Szálasi was imprisoned (1938-1940) and his party dissolved several times, however, managed to
+								return to political life. In the last pre-war elections in 1939 the Arrow Cross gained 29 seats, making it the second
+								largest party in Parliament. The party was re-named to Arrow Cross Party-Hungarist Movement in 1942. After Regent
+								Miklós Horthy’s attempt to extricate from war on October 15, 1944, the Arrow Cross Party assumed power with Nazi
+								support. From October 16, 1944, until March 28, 1945, Ferenc Szálasi was prime minister of Hungary as well as its
+								plenipotentiary head of state, bearing the title “Leader of the Nation.” Paramilitary forces of the Party, known as
+								Party Service (pártszolgálat) and Armed National Service (fegyveres nemzetszolgálat) committed several atrocities and
+								war crimes during their short reign, which claimed the lives of thousands of people, mostly Jews and Roma. Following
+								the war, Szálasi and several other Arrow Cross leaders were sentenced to death and executed.</p></note>
+					</org>
+					<org>
+						<orgName>Auschwitz Protocol </orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-003146"/>
+						</linkGrp>
+						<note><p>This report based on accounts by prisoners Walter Rosenberg and Alfréd Wetzler, who had escaped from Birkenau in
+								April 1944. It provided a precise description and map sketches of the camp’s layout, operation, selection and
+								extermination techniques. In Hungary the illegal Zionist organizations were the first to receive the information, but
+								the protocol soon reached the Central Jewish Council as well as members of the non-Jewish resistance and Regent Miklós
+								Horthy’s circles. Through Zionist channels, a copy of the protocol reached Switzerland and the British and U.S.
+								governments. </p></note>
+					</org>
+					<org>
+						<orgName>Swiss government</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1373"/>
+						</linkGrp>
+						<note><p>At the start of the Second World War the Swiss government tried to maintain trade relations with all belligerents. In
+								order to safeguard vital supplies and channel them through the blockades and economic warfare restrictions applied by
+								both sides, it had to conduct complicated negotiations with its economic partners – not only Germany but also the
+								Allies.</p></note>
+					</org>
+					<org>
+						<orgName>Reichsminister der auswärtigen Angelegenheiten</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1304"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Külföldieket Ellenőrző Országos Központi Hatóság</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-533"/>
+						</linkGrp>
+						<note><p>KEOKH was originally established in 1930 and started to operate in 1931. It exercised the rights of the Minister of
+								the Interior in relation to non-citizens residing in Hungary. In summer 1941 the KEOKH was one of the initiator and
+								executor of the Kamenets-Podolski deportation.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1946-02-12">12. 2. 1946</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="http://www.geonames.org/3054643/budapest.html"
+					>Budapest</placeName>, <idno>EHRI-ET-DEGOB3648</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of M. S., a conservative Zionist leader and a member of the Palestine Office on Zionist rescue activities in Budapest and
+					the history of the “Glass House”.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-DEGOB3648_01.jpg"/>
+
+			<p>Fentnevezett a következőket adja elő:</p>
+
+			<p>Mindenekelőtt szükségesnek tartom megjegyezni, hogy mindazon munkálatok, eljárások, tárgyalások, amelyek akár a <q><placeName
+						ref="http://www.geonames.org/3054643/budapest.html">Vadáaz-utcát</placeName></q> megelőző időkre, akár a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">kivándorlás</term>ra, <term type="subject"
+					ref="#ehri_et_protection_documents">vagy védlevelekre</term>, <term type="subject" ref="#ehri_et_protected_houses">védett
+					házakra</term>, stb. vonatkoznak, mindezek elejétől végig a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-400"
+					>Jewish Agency</orgName><placeName ref="http://www.geonames.org/3054643/budapest.html">budapest</placeName>i (<orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-611">Palesztina Hivatal</orgName>ának, illetve az akkori <placeName
+					ref="#ehri_et_palestine">Palesztina</placeName>-Bizottságnak közbenjöttével és kezdeményezése mellett jöttek létre. A sikeres
+				munkának előfeltételét és alapját az a jó viszony képezte és tette lehetővé, amely az akkori <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">svájci konzulátus</orgName>, illetve annak <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260">vezetője</persName> és a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-611">Palesztina-Hivatal</orgName> között fennállott. A <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">svájci konzulátus</orgName>, illetve annak <q>Idegen Érdekek
+					Képviselete</q> nevű különhivatala volt az, amely az <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004509"
+					>angol</orgName> és <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1331">amerikai</orgName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">had</term>üzenet után ezen államok képviselete
+				mellett a <placeName ref="#ehri_et_palestine">Palesztinába</placeName> irányuló <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">kivándorlás</term> ügyét és a kivándorolni
+				szándékozókérdekét képviselte és meg kell állapítanom - s ez különösen <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260">Charles Lutz</persName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007" type="subject">konzul</term> munkájára vonatkozik - a körülményekhez
+				képest tőle telhetőén derekasan képviselte. Nagy segítségére szolgált úgy a kezdeményezésnek, mint a sikeres végrehajtásnak az a
+				baráti jó viszony, amely az állandó érintkezés folytán <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260"
+					>Lutz</persName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007" type="subject">konzul</term> és a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-611">Palesztína-Hivatal</orgName> vezetője, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000229">Krausz Miklós</persName> között kialakult és amelynek jó hatása
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Vadász-utca</placeName>i munkánkkal szemben mindvégig
+				megmutatkozott. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000229">Krausz Miklós</persName> érdemének tudható
+				be különösen a <placeName ref="http://www.geonames.org/3054643/budapest.html">Vadasz-utca</placeName>i felállítása, amellyel, mint
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">cionista</term> és mint a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-400">Szochmut</orgName><placeName
+					ref="http://www.geonames.org/719819/hungary.html">magyarországi</placeName> megbízottja a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">cionista</term> ifjúság, és á <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">cháluci</term> elemek a zsidóságés <placeName
+					ref="#ehri_et_palestine">Palesztina</placeName> szempontjából oly fontos rétegét akarta megmenteni.</p>
+			<p><date when="1944-05">1944. május</date> vége felé mindannyiunk előtt nyilvánvalóvá lett, hogy az u. n.<persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000208"> Kasstner</persName>-féle csoport nem fog egyhamar elindulni, és
+				ha igen, nem <placeName ref="http://www.geonames.org/798549/romania.html">Románia</placeName> irányában és nem <placeName
+					ref="#ehri_et_palestine">palesztinai</placeName> rendeltetéssel. Nyilvánvalóvá vált előttünk az is, hogy ily módon nagyobb zsidó
+				tömegek kivándoroltatása és a <term type="subject" ref="#ehri_et_nationalities_germans">német</term> és <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">nyilas</orgName> karmokból való <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">kimentése</term> nem lesz lehetséges. Haladéktalanul
+				más irányú mentési munkálatokhoz kellett folyamodni. A <placeName ref="http://www.geonames.org/719819/hungary.html">vidék</placeName>i
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportálások</term> ekkor már nagyban folytak,
+				néhány szerencsésen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">megszökött</term>
+				<term type="subject" ref="#ehri_et_nationalities_poles">lengyel</term> és <term type="subject" ref="#ehri_et_nationalities_slovaks"
+					>szlovák</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">chaluc</term> jóvoltából az <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">auschwitz</placeName>i szörnyűségekről szóló jegyzőkönyvek
+				is már kezeink között <pb n="2" facs="EHRI-ET-DEGOB3648_02.jpg"/> voltak. Kézenfekvő volt tehát <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000229">Krausz</persName> azon gondolata, hogy a legelső és legsürgősebb
+				teendő a külföldi közvélemény felrázása. Összegyűjtötte tehát a <placeName ref="http://www.geonames.org/719819/hungary.html"
+					>magyar</placeName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportálásra</term> vonatkozó
+				adatokat a szörnyűségek leírásával együtt és azokat az <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0"
+					type="camp">auschwitz</placeName>i <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-003146"
+					>jegyzőkönyvek</orgName> csatolása mellett azzal küldte meg a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">svájci zsidó képviseletekhez</orgName>, hogy azokat<orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1331">Amerikába</orgName>, <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004509">Angliába</orgName> és a <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000312">pápához</persName> juttassák el, kérvén ezeket a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormányokat</term>, vessék latba minden befolyásukat a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">náci kormány</term>nál a szörnyűségek
+				abbahagyása, és illetve a <placeName ref="http://www.geonames.org/719819/hungary.html">magyar</placeName> zsidóság még itt lévő
+					tömegeinek<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">kivándoroltatása</term> érdekében. Az
+				értesítést <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260">Lutz</persName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007" type="subject">konzul</term> jóvoltából június elején egy <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">svájci</placeName> futár vitte ki s az eredmény meglepő gyorsasággal
+				következett be, Az adatok és közlések,- mint néhány héttel később a hozzánk eljuttatott svájci <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">lapok</term>ból megtudtuk,-/ néhány <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">újság</term> a kijuttatott anyagot szó szerint
+				közölte, pl. a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">Neue Züricher Zeitung</term> a
+					<placeName ref="http://www.geonames.org/716935/nyiregyhaza.html">nyíregyházai</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportálás</term> lö Írását/ <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">Svájc</placeName> útján <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-002449">Roosevelt</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000081">Churchill</persName> és a<persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000312">pápa</persName> elé jutottak. A három <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormány</term> erélyes intervenciója <date
+					when="1944-07-17">június 17.</date>-én a <placeName ref="http://www.geonames.org/719819/hungary.html">magyar</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormány</term>hoz meg is érkezett. Mikor a következő
+				hetek folyamán a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">svájciak</orgName> es a <placeName
+					ref="http://www.geonames.org/719819/hungary.html">magyar</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormány</term> közötti tárgyalások kézzelfogható
+				eredményre még mindig nem vezettek, ezen intervenciójuknak külön nyomatékot is adtak., / A <date when="1944-06">júniusi</date> és
+				főleg <date when="1944-07">júliusi</date> hatalmas <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject"
+					>bombázások</term>./</p>
+			<p>A <placeName ref="http://www.geonames.org/719819/hungary.html">magyar</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormány</term>nak szóló erélyes ultimátumot a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">svájci kormány</orgName> közvetítette.<persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260"> Lutz</persName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007" type="subject">konzul</term> kapta kézhez a terjedelmes sürgönyt,
+				amelyben <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormánya</term> az anyag vételét igazolta
+				és a nagyhatalmak mellékelt erélyes szövegű intervenciójának személyes utón való közlésére hívta fel. Többed jelen voltunk a
+				követségen, amikor Lutz konzul telefonon a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject"
+					>külügyminiszter</term>től azonnali sürgős audienciát kért, s amikor a külügy<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-106" type="subject">miniszter</term> helyettese valamit megkérdezett, amit
+				mi, a körülállók nem hallhattunk, erélyesen így válaszolt: <q>Nem, kivételesen nem a saját <orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">kormány</orgName>om, hanem az <orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-1331">amerikai kormány</orgName> nevébenóhajtok közléseket
+				tenni.</q></p>
+			<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260">Lutz</persName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007" type="subject">konzul</term> intervenciója, úgy látszott a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">külügyminisztérium</term>ban nem találkozott
+				különösebb ellenállással. Akadtak itt, mégis csak olyanok, akik a helyzetet józanul látták már ekkor és számoltak az
+				elkövetkezendőkkel. De történetesen hangsúlyozták, hogy végső fokon a dolog nem a <placeName
+					ref="http://www.geonames.org/719819/hungary.html">magyar</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormánytól</term>, hanem a <term type="subject"
+					ref="#ehri_et_nationalities_germans">németektől</term> függ.</p>
+			<p>Úgy látszik azonban, hogy a megfelelő lépések <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>ben is
+				megtették hatásukat és néhány napon belül magjött az ujabb <placeName ref="http://www.geonames.org/2658434/switzerland.html"
+					>svájci</placeName> sürgöny, amelyben a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">svájci
+					kormány</orgName> értesíti <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260">Lutz</persName>ot,
+				készüljön fel a tárgyalások megkötésére és a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+					>kivándorlás</term> előkészületeinek megtételére,miután az elvi hozzájárulás a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1304">német külügyminisztérium</orgName> részéről megtörtént..</p>
+			<p>Már másnap korán reggel a <placeName ref="http://www.geonames.org/719819/hungary.html">magyar</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormány</term> meghívása <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000260">Lutz</persName> konzulhoz meg is érkezett. A <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">belügyminisztérium</term>ban kora délelőtt értekezlet
+				kezdődött, amely késő délutánig tartott, s amelyre zsidó részről csak a <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-611">Palesztina Hivatal</orgName> képviselője, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000229">Krausz Miklós</persName> volt egyedül hivatalos. Részt vettek
+				ezen az értekezletén csaknem az összes <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject"
+					>minisztériumok</term> képviselői, a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-533">KEOKH</orgName>
+				<pb n="3" facs="EHRI-ET-DEGOB3648_03.jpg"/> képviselője és Veesenmayer <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000416">német követnek</persName> a helyettese. Megjelent továbbá az
+				értekezleten a hírhedt <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000114">Ferenczy csendőr
+					alezredes</persName> is, aki valószínűleg, mint ismert <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+					type="subject">transzport</term> szakértő volt hivatalos.</p>
+			<p>A <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1304">külügyminiszter</orgName> képviselője az értekezleten
+				hivatalosan bejelentette a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1304">német külügyminisztérium</orgName>
+				hozzájárulását és <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1142" type="subject">certifikát</term>tal rendelkezők
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-400">kivándorlás</orgName>ához. Közölte egyben a <placeName
+					ref="http://www.geonames.org/719819/hungary.html">magyar</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">kormány</term> oly értelmű intézkedését, hogy az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">alija</term> lebonyolításáig (<date when="1944-08-31"
+					>aug. 31.</date>) a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportálásokat</term>
+				felfüggeszti és ezen idő alatt a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-560" type="subject"
+					>munkatáborosok</term> behívása is szünetelni fog. Ezután az értekezlet áttért a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">kivándorlók</term> számának a megállapítására,
+				valamint az utazás részleteinek a megvitatására.</p>
+			<p>Ezen az értekezleten vetődött fel első ízben a <term type="subject" ref="#ehri_et_protected_houses">védett- házak</term> gondolata,
+				ahová az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">alijázók</term> elutazásuk előtt gyűjtendők
+				lettek volna.</p>
+			<p>Ezzel azután kezdetét vette a <q><placeName ref="http://www.geonames.org/3054643/budapest.html">Vadász-utca</placeName></q> története,
+				ahová <date when="1944-07">július</date> közepén bevonultunk. Itt a <q><term type="subject" ref="#ehri_et_protection_documents"
+						>kollektív útlevés</term></q> majd ebből folyó <q><term type="subject" ref="#ehri_et_protection_documents"
+					>Schutzpass</term></q> megszületett és itt a <term type="subject" ref="#ehri_et_protection_documents">Schutzpassok</term> által
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">megmentett</term> 60-80 ezer emberen kívül 2600
+				zsidó lélek menekült meg, köztük nagy tömegben az a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject"
+					>cionista</term> ifjúság, amely az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject"
+					>illegális</term>, földalatti mentő munka szervezője és irányítója volt.</p>
+			<p>A történeti hűség kedvéért le kell szögezni ez alkalommal, azt a még nem nagyon ismert tényt, hogy a<q>
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Vadász utca</placeName></q> védettjei között jó néhány baloldali
+				nem zsidó üldözött is fellelhető volt, valamint ezek jó néhány <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">hozzátartozó</term>ja is. Jelen voltam egy <date when="1944-12">decemberi</date> este annál a jelentenél, amikor
+				egyszerre három, kékre-zöldre fagyott <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">nő</term>
+				jelent meg a bejáratnál, mint üldözött bal oldaliak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>hozzátartozói</term> legalább egy éjszakára kértek menedéket. Miután többen a bal oldali frakcióból igazolták őket, engedélyt
+				kaptak a bejövetelre s csak természetes volt, hogy soha többé eltávozásra senki fel nem szólította.</p>
+			<p>Ezek után nem csodálkozhatunk azon, hogy a városi színházbeli <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474"
+					>nyilas</orgName> ünnepség elleni merényleteknek a szálai szerintük a <q><placeName
+						ref="http://www.geonames.org/3054643/budapest.html">Vadász utcához</placeName></q> vezettek. Ennek volt köszönhető a <date
+					when="1944-12-04">december 4.</date> hajnali <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject"
+					>csendőr</term>, melyet nagy utcai sortűz vezetett be, majd utána az udvari épület tetején megjelentek a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">kakastollasok</term>. Szerencsére az utcai főbejárat
+				jól el volt torlaszolva s így itten nem tudtak behatolni. Hosszú huzavona és tárgyalás kezdődött tehát a vezetőség, -főleg <persName
+					ref="#ehri_et_weiss_artur">Weisz Artúr</persName>- és a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125"
+					type="subject">csendőr</term>osztag parancsnoka között. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125"
+					type="subject">parancsnok</term> a <placeName ref="http://www.geonames.org/3054638/budapest.html">Városi Színház</placeName>
+				merénylőink és az összes feltalálható fegyvereknek kiadását követelte, ellenkező esetben a kutatást saját embereivel fogja megejteni.
+				A keresett személyeket ugyan nem ismertük, de a fegyverekről annál inkább tudtunk. Megindult tehát egy vég nélküli telefonálás <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">belügy</term>, -és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">külügyminisztérium</term>hoz, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">városparancsnokság</term>hoz és egyéb helyekre, míg
+				végre délfelé elértük azt, hogy a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject"
+					>csendőrosztag</term>egyenlőre elvonult, azonban nem tudhattuk, mikor lesz hozzájuk ismét szerencsénk. <pb n="4"
+					facs="EHRI-ET-DEGOB3648_04.jpg"/> A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject"
+					>csendőrök</term> ugyan többé nem jelentkeztek, azonban ekkor már nyilvánvalóvá vált előttünk, hogy simán megúszni a dolgot nem
+				fogjuk.</p>
+			<p>Erre vallott az u. n. <q><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Nemzeti Számonkérő Szék</orgName></q>
+				két nyomozójának egy egész délelőttre terjedő látogatása a <q><placeName ref="http://www.geonames.org/3054643/budapest.html">Vadász
+						utcában</placeName></q>, akinek látogatása ugyan csak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-258"
+					type="subject">hamisított</term>
+				<q><term type="subject" ref="#ehri_et_protection_documents">Schutzpasszokra</term></q> vonatkozott, de aki az épületben elhelyezett
+				tömegek száma és eredete iránt is meleg érdeklődést mutattak. Egyben nem titkolták abbéli véleményüket, hogy az egész <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">követség</orgName>i ház <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">bújtatás</term>i célokat szolgál és miután, mint
+				mondották, ők maguk közvetlenül a <q><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000399"> nemzetvezető
+						testvér</persName></q>- nek teszik meg a jelentésüket, remélhetjük, hogy néhány napon belül nagy tisztogatási akció indul meg
+				ellenünk.</p>
+			<p>Ugyanakkor egyéb megbízottaink is sűrűn jelentkeztek és jelentették, hogy az Albrecht- laktanya <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">nyilas</orgName>ai erősen készülődnek a <q><placeName
+						ref="http://www.geonames.org/3054643/budapest.html">Vadász utca</placeName></q> ellen. Az első jelentések egészen
+				fantasztikusak voltak. Ezek szerint a terv az volt, hogy átkísérve és beterelve bennünket a <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">pálvölgy</placeName>i barlangba, ott kézigránátokkal <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">végeznek</term> velünk. Később azonban ár csak a
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">kinyírás</term></q>- ról szóltak az
+				értesülések. Nagy meglepetés tehát nem érte a vezetőséget <date when="1944-12-31">december 31-én</date>, mikor egy <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">nyilas</orgName> különítmény géppisztolyok sortüze és kézigránátok
+				dobálása közben az épületbe behatolt. Ennek a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject"
+					>betörés</term>nek három <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">halott</term>a és 17
+				sebesült áldozata volt s nagy szerencsénk volt mondható, hogy az utcára lesorakoztatott tömeget az elhurcolástól a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">városparancsnokság</term> és a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">főkapitányság</term> megmozgatásával meg tudtuk
+				menteni. A <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">nyilas</orgName> különítmény dühét így külön is
+				magunkra vontuk és ennek volt köszönhető <persName ref="#ehri_et_weiss_artur">Weisz Artúr</persName> hősies kiálló elvbarátunknak
+				másnapi elhurcolása.</p>
+			<p>A <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">nyilas</orgName> brigantik betörései a házba ezek után úgy
+				szólván napirenden voltak s ha a <date when="1945-01">január 18.</date><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">felszabadulás</term> nem következik be, igazán nehéz
+				elképzelni, hogy az összegyűlt tömeg további <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject"
+					>mentés</term>e ilyen módon sikerülhetett volna.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP020_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Heinrich Klang, the court system in the Theresienstadt ghetto</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Magdalena Sedlická</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="de">Original in German.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Terezin Ghetto</placeName>
+						<location>
+							<geo>50.51027778 14.14972222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Documentation Action (in Prague)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"/>
+						</linkGrp></item>
+					<item><name>Courts of Law</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1127"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person>
+						<persName>Klang, Heinrich (* 15.4.1875)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1139009"/>
+						</linkGrp>
+						<note><p>Born 1875 in Vienna. Died 1954 in Vienna. Officer in the Austrian-Hungarian Army. Jurist. Professor for civil law.
+								Chief judge of the Ghetto Court in Terezín. Member of the Council of the Elders of the Jews in Terezín. Transported to
+								Terezín in September 1942. Survived.</p></note>
+					</person>
+					<person xml:id="ehri_et_shek_zeev">
+						<persName>Shek, Zeev</persName>
+						<note><p>1920–1978</p><p>Born in Olomouc. Active in the Zionist movement, member of Maccabi Hatzair. In 1943 he was deported
+								to the Theresienstadt (Terezín) ghetto, where he became one of the Hechalutz leaders. In autumn 1944 he was
+								transported to Auschwitz-Birkenau. After the war he became one of the main initiator of the Documentation campaign
+								(Dokumentační akce). In 1946 he emigrated to Palestine, where he worked for the Ministry of Foreign Affairs and in the
+								diplomatic services. In 1967 Sheck was appointed as the Israeli Ambassador in Vienna. In 1977 he was sent to serve as
+								the Israeli Ambassador in Rome, where he has died one year later.</p></note>
+					</person>
+					<person xml:id="ehri_et_tressler_harald">
+						<persName>Tressler, Harald</persName>
+						<note><p>1922–1998</p><p>Later name Harry Tarsi. Before his deportation in 1941 to the Theresiensatdt (Terezín) ghetto he
+								worked at the Jewish religious community in Prague. In autumn 1944 he was deported to Auschwitz-Birkenau. After the
+								war Tarsi was one of the co-workers of the Documentation campaign (Dokumentační akce). In 1949 he emigrated with his
+								wife to Israel.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Jewish Self-administration</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/vocabularies/terezin-jewishcouncil"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Court in criminal matters</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-314"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>SS</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+
+		</fileDesc>
+
+
+		<profileDesc>
+
+			<creation><term type="subject" ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">Dokumentační akce</term>,
+					<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1139009">Heinrich Klang</persName>,
+					<idno>EHRI-ET-JMP020</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Heinrich Klang, which became a part of the “documentation campaign” in Prague. Klang was a chief judge of the ghetto
+					court and a member of the Jewish Council in the Theresienstadt Ghetto. Klang describes the court system in Theresienstadt and
+					explains in detail the ghetto jurisdiction over custody, probate, and criminal matters.</p>
+			</abstract>
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-JMP020_01.jpg"/>
+
+			<p>Memorandum in the exercise of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> in
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt</placeName>.</p>
+
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> of the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127">court</term> of the <orgName
+					ref="https://portal.ehri-project.eu/vocabularies/terezin-jewishcouncil">Jewish Self-administration</orgName> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt</placeName> was derived from the authorisation of
+				the command of the security forces [<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">SS</term>]
+				there. It had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> over custody,
+				probate and <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-314">criminal
+					matters</orgName>. In matters of probate, the activities of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">court</term> were limited to the confiscation of
+				clothing and pieces of laundry, as the Jewish settlement couldn’t acquire the items required by the destitute <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">inhabitants</term> in any other way; any real
+				administration of estates was completely absent due to a lack of assets. The responsibility of the <orgName
+					ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-314">court in criminal matters</orgName> was
+				usually the same as that of a district <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127"
+				>court</term>. In special cases and through a special authorisation from the [<term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">SS</term>] command, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> could be extended and eventually
+				included full sentencing competency in matters of crimes and offences, whose sentencing – as with any transgression – was trusted to a
+				single judge.</p>
+			<p>As the legal basis for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> of
+				the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127">court</term> ended with the cessation of the
+					[<orgName ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">SS</orgName>] command, the activities of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">court</term> were largely discontinued and only
+				continued when it involved the determination of criminal offences in preliminary proceedings.</p>
+
+			<p>A special custodial <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> for
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt</placeName> is, in consideration of the
+				likely short-lived existence of the settlement, completely superfluous. In the same way, there is no need for a probate <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127">court</term>, as the only decision that could be made
+				by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">court</term> was that, due to a lack of
+				assets, no probate proceedings will take place.</p>
+			<p>However, what is essential is the maintenance a criminal justice system. Criminality in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt</placeName> had its own characteristics; aside from
+				a small number of cases such as insulting a public servant or minor assault (§ 411), nearly all of the property-related offences,
+				caused by the scarcity of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, were either
+				theft from the communal storehouses, or fraud at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>food</term> distribution points. These offences were alarming due to their frequency and the punishment was disproportionately
+				higher than the sentence would have been outside of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+					>Theresienstadt</placeName> for similar offences. These offences continue and seem unlikely to stop. The district <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127">court</term> responsible will hardly be in a position
+				to deal with sentencing these cases that deal with what are – in normal circumstances – small things. They can however not go
+				unpunished.</p>
+
+			<p>The makeup of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">population</term> shifted as a
+				result of the last <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> carried out by
+				the German authorities, which also led a to significant worsening of the situation in terms of criminality. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transports</term> arrived from <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>, bringing political rather
+				career criminals with them.</p>
+			<p>Is has also been difficult to make other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>concentration camp</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">prisoners</term> become accustomed to conforming to
+				the calm and regulations. As a result, there have been several crimes that have gone unpunished due to a lack of a law enforcement
+				system. The punishment for such cases will have to dealt with by the ordinary <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">courts</term>. These <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127">courts</term> will, however, hardly be in a position to make the
+				required institutions available to carry out the preliminary proceedings. In this instance, the continued activity of the Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">court</term> would be expedient.</p>
+			<p>Furthermore, the exercising of police penal power is indispensable. Until now it has been exercised by a judge.</p>
+
+			<pb n="2" facs="EHRI-ET-JMP020_02.jpg"/>
+
+			<p>In summary, a special <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">jurisdiction</term> for
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt</placeName> for violations, as well as in
+				matter of police powers is essential. The possibility must also be available, that crimes and offences can be determined. As long as
+				these activities cannot be carried out by the usual bodies and institutions, the continued existence of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">Theresienstadt Court</term> is to be recommended.</p>
+
+			<p>Signature illegible.</p>
+			<p>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1139009" type="victim">Dr. Klang</persName>
+			</p>
+			<p>Opsáno dle originálu</p>
+			<p>Za <term type="subject" ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">dokumentační akci</term> přijal
+					<persName type="victim" ref="#ehri_et_shek_zeev">Scheck</persName></p>
+
+			<p>Za archiv přijal <persName ref="#ehri_et_tressler_harald">Tressler</persName></p>
+		</body>
+	</text>
+</TEI>

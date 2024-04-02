@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP008_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Heda Grábová, the cultural life in the Theresienstadt ghetto</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Magdalena Sedlická</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Prague</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Prague"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Terezin Ghetto</placeName>
+						<location>
+							<geo>50.51027778 14.14972222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hamburger Kaserne/C III</placeName>
+						<location>
+							<geo>50.508433335 14.1495266489</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-16"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sudetenkaserne/E I</placeName>
+						<location>
+							<geo>50.5097126985 14.1453142389</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-12"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sokolovna/C I</placeName>
+						<location>
+							<geo>50.5084776855 14.1462328963</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-24"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bauhof/H II</placeName>
+						<location>
+							<geo>50.5124315568 14.1459800977</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-42"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Buchenwald concentration camp</placeName>
+						<location>
+							<geo>51.021198 11.248999</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-43"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Documentation Action (in Prague)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_czechs"><name>Czechs(ascribed nationality)</name></item>
+					<item><name>Operas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-256"/>
+						</linkGrp></item>
+					<item><name>Musicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-692"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Music</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-691"/>
+						</linkGrp></item>
+					<item><name>Theatre in ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-698"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+					<item><name>Culture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-672"/>
+						</linkGrp></item>
+					<item><name>Education</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-842"/>
+						</linkGrp></item>
+					<item><name>Beautification</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-298"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>SS command</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-294"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Children´s homes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190"/>
+						</linkGrp></item>
+					<item><name>Cabaret</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-136"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Arts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-673"/>
+						</linkGrp></item>
+					<item><name>Artists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-677"/>
+						</linkGrp></item>
+					<item><name>Air-raids</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1105"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Films</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-703"/>
+						</linkGrp></item>
+					<item><name>Theatre</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-695"/>
+						</linkGrp></item>
+					<item><name>Songs</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-694"/>
+						</linkGrp></item>
+					<item><name>Brundibár (children's opera at Terezín)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-164"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Gas chambers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-499"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Actors</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-696"/>
+						</linkGrp></item>
+					<item><name>actress</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-419"/>
+						</linkGrp></item>
+					<item><name>Mica</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-764"/>
+						</linkGrp></item>
+					<item><name>Transports to Terezín</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-268"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_grabova_heda">
+						<persName>Grabová, Heda</persName>
+					</person>
+					<person>
+						<persName>Edelstein, Jacob (* 25.7.1903)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855"/>
+						</linkGrp>
+						<note><p>Born 1903 in Horodenka in Galicia. Died 1944 in Auschwitz. Czech Zionist and Director of the Palestinian Office in
+								Prague which distributed immigration certificates for Palestine. Transported to Nisko in 1939, but allowed to return.
+								Edelstein was appointed the first "Elder of the Jews" in Terezín. Transported to Terezín in 1941 and in 1943 to the
+								"Terezín family camp" in Auschwitz-Birkenau in December 1943 where he was executed, together with his family, in
+								1944.</p></note>
+					</person>
+					<person>
+						<persName>Hirsch, Alfred (* 11.2.1916)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810"/>
+						</linkGrp>
+						<note><p>Born 1916 in Aachen. Died 1944 in Auschwitz. Worked in a leading position of the Youth Welfare Department in Terezín.
+								Organised sport and cultural events for children in Terezín. Transported to Terezín in December 1941. Transported to
+								the "family camp" in Auschwitz-Birkenau in September 1943.</p></note>
+					</person>
+					<person>
+						<persName>Weiner, Erich (* 4.2.1911)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1961428"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Adler</persName>
+						<linkGrp>
+							<link type="normal" target="ehri_et_adler_sisters"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_adler_friedrich">
+						<persName>Adler, Friedrich</persName>
+					</person>
+					<person>
+						<persName>Schächter, Rafael (* 27.5.1905)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1802542"/>
+						</linkGrp>
+						<note><p>Born 1905 in Brăila, RU. Died 1944 in Auschwitz. Czech pianist, composer and conductor. Schächter founded a choir and
+								performed several concerts and operas in Terezín. Transported to Terezín in November 1941. Transported to Auschwitz in
+								October 1944.</p></note>
+					</person>
+					<person xml:id="ehri_et_smetana_bedrich">
+						<persName>Smetana, Bedřich</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bedřich_Smetana"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_verdi_giussepe">
+						<persName>Verdi, Giussepe</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Giuseppe_Verdi"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Ančerl, Karel (* 11.4.1908)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2013987"/>
+						</linkGrp>
+						<note><p>Born 1908 in Tučapy. Died 1973 in Toronto. Conductor of the Czech Philharmonic. Transported to Terezín in 1942.
+								Features in the Terezín propaganda film as the conductor of the orchestra. After liberation he continued his career in
+								music.</p></note>
+					</person>
+					<person>
+						<persName>Zelenka, František (* 8.6.1904)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2004107"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_hofer_hans">
+						<persName>Hofer, Hans (Schulhof, Hanuš)</persName>
+						<linkGrp>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Hans_Hofer_(Schauspieler)"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Gerron, Kurt (* 11.5.1897)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2188603"/>
+						</linkGrp>
+						<note><p>Born 1897 in Berlin. Died 1944 in Auschwitz. German actor, singer and film director, starring in films like "The Blue
+								Angel" and singing in the premiere of the "Threepenny Opera". Gerron was forced to direct the propaganda film in
+								Terezín. Fled to the Netherlands. Transported from Westerbork to Terezín in February 1944. Transported to Auschwitz in
+								October 1944.</p></note>
+					</person>
+					<person>
+						<persName>Haas, Pavel (* 21.6.1899)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1427882"/>
+						</linkGrp>
+						<note><p>Born 1899 in Brno. Died 1944 in Auschwitz. Czech composer and scholar of Leoš Janáček. Composed in Terezín.
+								Transported to Terezín in December 1941. Transported to Auschwitz in October 1944.</p></note>
+					</person>
+					<person>
+						<persName>Krása, Jan (* 30.11.1899)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1568477"/>
+						</linkGrp>
+						<note><p>Born 1899 in Prague. Died 1944 in Auschwitz. Czech-German Composer, scholar of Alexander Zemlinsky. Krása composed
+								the children's opera "Brundibar" in 1938 that was performed 55 times in Terezín. Transported to Terezín in August
+								1942. Transported to Auschwitz in October 1944.</p></note>
+					</person>
+					<person>
+						<persName>Ullmann, Viktor (* 1.1.1898)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1935246"/>
+						</linkGrp>
+						<note><p>Born 1898 in Cieszyn. Died 1944 in Auschwitz. Composer, conductor and pianist. Ullmann composed various opuses in
+								Terezín like "The Emperor of Atlantis" or string quartetts. Ullmann also organised many performances of the musical
+								life in Terezín. Transported to Terezín in September 1942. Transported to Auschwitz in October 1944.</p></note>
+					</person>
+					<person>
+						<persName>Klein, Gideon (* 6.12.1919)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1521521"/>
+						</linkGrp>
+						<note><p>Born 1919 in Přerov. Died 1945 in Fürstengrube. Czech pianist and composer. Gideon Klein ist counted as one of the
+								most important and most influencial persons in the cultural life in Terezín. Klein held lectures, gave concerts and
+								composed in Terezín. Transported to Terezín in December 1941. Transported to Auschwitz in October 1944. Transported to
+								Fürstengrube.</p></note>
+					</person>
+					<person xml:id="ehri_et_schonova_vlasta">
+						<persName>Schönová, Vlasta (Váva)</persName>
+						<linkGrp>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Vlasta_Schönová"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_brock_robert">
+						<persName>Brock, Robert</persName>
+					</person>
+					<person xml:id="ehri_et_thein_hanus">
+						<persName>Thein, Hanuš</persName>
+					</person>
+					<person>
+						<persName>Murmelstein, Benjamin (* 9.6.1905)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1145704"/>
+						</linkGrp>
+						<note><p>Murmelstein was born in 1905 in Lemberg/Lwov (Galicia), studied in Vienna and became a rabbi. After the "Anschluss"
+								of Austria in 1938, he worked for the Viennese Jewish community subordinated to the Nazis and organised both
+								emigration and deportation of local Jews. In January 1943, he was deported to Terezín, where he was appointed to the
+								"Council of Elders". he catalogued Hebrew manuscripts and was charged with the "beautification" of Terezín in
+								preparation for the visit of the International Committee of the Red Cross (1944). From September 1944, he served as
+								the head of the "Council of Elders" and survived in Terezín until the liberation. In 1945-1946, he was investigated
+								for alleged collaboration with the Nazis, but was eventually released. Murmelstein settled in Italy and died in 1989
+								in Rome.</p></note>
+					</person>
+					<person>
+						<persName>Rahm, Karl</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000318"/>
+						</linkGrp>
+						<note>
+							<p>02/04/1907-30/04/1947</p>
+							<p>Born 1907 in Klosterneuburg. Died 1947 in Litoměřice. Austrian SS-Obersturmführer and commander in Terezín. Rahm worked
+								at the Central Office for Jewish Emigration in Vienna and Prague. Commandant of Terezín from February 1944 - May
+								1945.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_gerzonova_berta">
+						<persName>Gerzonová, Berta</persName>
+						<note><p>1914–?</p><p>Born in Mukachevo, from 1939 she lived in Prague. Gerzonová was deported to the Theresienstadt (Terezín)
+								ghetto in 1942, from which she was transported in autumn 1944 to Auschwitz-Birkenau. After the war she was one of the
+								co-workers of the Documentation campaign (Dokumentační akce). She got married and moved with her husband to
+								Slovakia.</p></note>
+					</person>
+					<person xml:id="ehri_et_saxlová_edita">
+						<persName>Saxlová, Edita</persName>
+					</person>
+					<person xml:id="ehri_et_shek_zeev">
+						<persName>Shek, Zeev</persName>
+						<note><p>1920–1978</p><p>Born in Olomouc. Active in the Zionist movement, member of Maccabi Hatzair. In 1943 he was deported
+								to the Theresienstadt (Terezín) ghetto, where he became one of the Hechalutz leaders. In autumn 1944 he was
+								transported to Auschwitz-Birkenau. After the war he became one of the main initiator of the Documentation campaign
+								(Dokumentační akce). In 1946 he emigrated to Palestine, where he worked for the Ministry of Foreign Affairs and in the
+								diplomatic services. In 1967 Sheck was appointed as the Israeli Ambassador in Vienna. In 1977 he was sent to serve as
+								the Israeli Ambassador in Rome, where he has died one year later.</p></note>
+					</person>
+					<person xml:id="ehri_et_schickova_helena">
+						<persName>Schicková, Helena</persName>
+						<note><p>1909–1992</p><p>She lived in Prague and worked as a clerk. In 1943 she was deported to the Theresienstadt (Terezín)
+								ghetto, where she has survived until the liberation. After the war she was involved in the Documentation campaign
+								(Dokumentační akce). In 1949, Schicková emigrated to Israel.</p></note>
+					</person>
+					<person xml:id="ehri_et_schmiedt_alexander">
+						<persName>Schmiedt, Alexander</persName>
+						<note><p>1921–?</p><p>Later name Shlomo Schmiedt. Before the war he lived in Prague. In 1942 he was deported to the
+								Theresienstadt (Terezín) ghetto, from which he was sent in autumn 1944 to Auschwitz-Birkenau. After the war he was one
+								of the important co-workers of the Documentation campaign (Dokumentační akce). Later Schmiedt emigrated to
+							Israel.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>International Committee of the Red Cross</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-419"/>
+						</linkGrp>
+						<note><p>1863/present</p><p>The International Committee of the Red Cross was founded in 1863 as a humanitarian organization to
+								moderate between belligerents and to monitor application of humanitarian international law. This body was charged to
+								oversee humane conditions in POW camps among civilian internees during wartime, but gained limited access to
+								concentration camps. With the exception of two visits to Dutch inmates interned at Buchenwald in 1940, and the
+								inspection of Theresienstadt at the behest of the Danish government (where they were fooled in by the SS in 1944), the
+								Red Cross was never able to enter concentration camps until late in the war. The ICRC did not take great initiatives
+								to intervene on behalf of the Jews for fear losing its credibility with the Axis Powers, thus losing its position to
+								work on behalf of POWs and civilian internees. In 1995, ICRC president, Cornelio Sommaruga, finally admitted his
+								agency’s inaction during the Holocaust.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-09-29">29. 9. 1945</date>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">Dokumentační akce</term>, <persName
+					ref="#ehri_et_grabova_heda">Heda Grabová</persName>, <placeName ref="http://www.geonames.org/3067696/prague.html"
+					>Prague</placeName>
+				<idno>EHRI-ET-JMP008</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Heda Grabová, which became a part of the “documentation campaign” in Prague. Grabová describes the cultural life in
+					the Theresienstadt Ghetto. As an opera singer she was involved in many operas and musical plays which took place in
+					Theresienstadt. She mentions her fellow singers, composers, and musicians who were imprisoned in the ghetto.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-JMP008_01.jpg"/>
+			<head>
+				<hi rend="letter-spacing: +2px">Statement</hi>
+			</head>
+			<p>Written with Mrs. <hi rend="letter-spacing: +2px"><persName ref="#ehri_et_grabova_heda">Heda Grabová</persName></hi>, born <date
+					when="1899-08-06">6. VIII. 1899</date>, residing in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague
+					I.</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Plátnéřská 7.</placeName>, <term type="subject"
+					ref="#ehri_et_nationalities_czechs">Czech</term> nationality, profession <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-256" type="subject">opera</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">singer</term>, former <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">prisoner</term> in the <hi rend="letter-spacing: +2px"><placeName
+						ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt – ghetto</placeName></hi> concentration
+				camp.</p>
+
+			<p>When I arrived in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on
+					<date when="1941-12-17">17. 12. 1941</date> as an N-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+					type="subject">transport</term>, we had no idea that it would be possible to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sing</term> or put on a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">theater</term> performance during our imprisonment. We
+				were simply ready for a life of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">working</term> in
+				factories etc., as we had been told. However, it’s well known that things looked and ended up differently. It can be said that in the
+				beginning all we had was our fear of more <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transports</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. We peeled
+				potatoes a little and were terrified of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject"
+					>executions</term> that were taking place at the time. But in two months, when some work was organized under <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein’s</persName>
+				leadership and when newer and newer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transports</term> continued to arrive, a need arose to give people some spiritual nourishment along with their bad food and, one
+				day, in the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-16">Hamburg barracks</placeName>, where
+				3,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> were <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">housed</term>, <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirsch</persName> and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Rabbi</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1961428" type="victim">Weiner</persName> appeared
+				and charged me, since I was known to them as an old <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject"
+					>singer</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">actress</term>, with the task
+				of creating something that was given the name <ref
+					target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-10">Freizeitgestaltung</ref> in the
+				Dienstelle. In short, I was to put together fun and educational <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672"
+					type="subject">programs</term>, and organize language <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672"
+					type="subject">courses</term> and <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject"
+					>lectures</term>. If possible, also a <ref target="https://portal.ehri-project.eu/terezin-jewishcouncil-organisation-jmp-70"
+					>library</ref> out of the books that individuals had brought with them to <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. Thus my work began. I
+				procured a room, a hall that had not yet been inhabited, I had benches brought in and carried some in myself, I looked for a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">musical</term> instrument, at least a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">harmonica</term>, which could only be played in
+				secret, however, because it was strictly forbidden to have <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">musical</term> instruments in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+					type="ghetto">ghetto</placeName>. We held a so-called audition of everyone who had engaged in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">recitation</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">singing</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">dancing</term>, and I put together the first vibrant
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">program</term>. On <date when="1942-03-21">March
+					21st, 1942</date>, the so-called staff and <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285"
+					type="subject">Judenältester</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> came
+				into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>, which was a small miracle since
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> weren’t allowed in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term> and vice versa. The so-called first
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">cultural</term> evening took place, but it
+				started at 3 o’clock in the afternoon. I made sure that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672"
+					type="subject">program</term> was stylish as well as educational. I <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sang</term>, a group of 6 young <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term> danced the Czech polka, and the <persName
+					ref="ehri_et_adler_sisters">Adler</persName> sisters, the daughters of <persName ref="#ehri_et_adler_friedrich">Friedrich
+					Adler</persName>, recited and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sang</term>
+				several short <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">operetta</term> soubrettes from days
+				of yore. I welcomed the audience myself and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+					>performed</term>, and the whole event was so successful that not only did we repeat the same <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">program</term> several times to allow as many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> as possible to be able to attend it, but
+				we received permission for the whole group to visit other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">barracks</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men’s</term>),
+				where we performed this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">show</term>. This is how we
+				began to share our art with the poor souls so that they could forget about the dire poverty in which they were living if only for a
+				moment. We also went to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">hospitals</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sang</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">recited</term> between the beds, generally with no
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">musical</term> accompaniment, which was very
+				difficult for the male <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">singer</term> or female <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">singer</term>, who was used to standing on a stage and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">singing</term> accompanied by an orchestra. But
+				we were happy to do it, because we brought the poor souls a little something from a better world. This was how it all began. In time,
+				more and more former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">singers</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">musicians</term>, and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">composers</term> arrived in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, and the administration
+				came to see the theater in a different light. It gave us a space and got the <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-294" type="subject">kommandantur</term> to approve musical
+				instruments, and so it happened that in the concentration camp, under the leadership of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">deceased</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">bandleader</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1802542" type="victim">Rafael
+					Schächter</persName>, we rehearsed and performed an entire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">opera</term>: The Bartered Bride by <persName ref="#ehri_et_smetana_bedrich">Bedřich Smetana</persName>. At night,
+				in the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-12">Sudeten barracks</placeName> where he
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">lived</term>, <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1802542" type="victim">Schächter</persName> began to
+				study Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">choir</term> pieces with the help of a
+				single tuning fork that I had lent him. He got the idea <pb n="2" facs="EHRI-ET-JMP008_02.jpg"/> to study the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">choruses</term> from The Bartered Bride and I put
+				together a group of <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">girls</term> from our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>. He practiced with the <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-826">men</term> in the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-12">Sudeten barracks</placeName> and gradually, when the
+				right soloists were found, we got the idea to do the whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">opera</term> as a concert. Somewhere in the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-24">Sokol gymnasium</placeName> was an old, battered piano
+				without legs and he managed to find a half-broken harmonium, and, somewhere in the cellar, a tiny room where he could regularly
+				practice with his group. During the coldest part of the winter, bundled up to our ears, we rehearsed The Bartered Bride. We were
+				finally ready and now needed to move the piano at night in secret into the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>, because the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-24">Sokol gymnasium</placeName> could no longer be used.
+				They let us use a gym in a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">boys
+					home</term> and we finally performed The Bartered Bride in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on <date when="1942-11-28"
+					>November 28th, 1942</date>. It was an unforgettable experience. When the first measures of <q>Proč bychom se netěšili</q> sounded
+				there wasn’t a dry eye in the house. We performed The Bartered Bride around 35 times. Then we started rehearsing something new, this
+				time <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">The Marriage of Figaro</term>, and in the rest
+				of the time we spent in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+					>Theresienstadt</placeName> we gradually performed the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">operas</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">The Bartered Bride</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">The Kiss</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">The Marriage of Figaro</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">The Magic Flute</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Rigoletto</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Tosca</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Carmen</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Bastien and Bastienne</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">La Serva Padrona</term>, <persName
+					ref="#ehri_et_verdi_giussepe">Verdi</persName>’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+					>Requiem</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Tvorstvo</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Elias</term>, and many choir <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">concerts</term>, many German and Czech <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">plays</term>, countless <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-136" type="subject">cabarets</term>, even a circus <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">performance</term> in the courtyard of the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-16">Hamburg barracks</placeName> and the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-42">Bauhof</placeName>, a hundred individual piano,
+				instrumental, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">vocal</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">concerts</term>, in time even orchestral concerts
+				conducted by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">bandleader</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2013987" type="victim">Ančerle</persName>,
+				several <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">operettas</term>, among them Die Fledermaus.
+				In the year <date>1943</date>-<date>1944</date>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+					type="ghetto">Theresienstadt</placeName>’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject"
+					>cultural</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">theatrical</term> life was
+				so full that a mid-sized city in peacetime hadn’t put on as many events as we had in our <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">theater</term> halls were small and limited; the
+				so-called <ref target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-26">Raumwirtschaft</ref> needed
+				everything when the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> arrived. And
+				so we had to establish small stages in the attics of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">barracks</term> and larger residential houses, where the acoustics were terrible, the heat in summer and the cold
+				in winter was unbearable, that was for sure. But the audience’s enthusiasm and the performers’ joy made us forget these things. The
+				performances were sold out even under these conditions. It seems strange that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> allowed Jews in the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> to cultivate <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">music</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">art</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">lectures</term> etc. in such a way, but the gentlemen
+				knew very well what they were doing. They wanted these things to help make <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Therezsienstadt</placeName> a model to present to
+				foreign countries, the so-called <distinct type="camp_language">Musterghetto</distinct>. They awaited the arrival of some sort of
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">commission</orgName>, and so they even let us use the
+					<placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-24">Sokol gymnasium</placeName> and ordered the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">operas</term> to be performed perfectly, in
+				costume and with wigs, basically a real <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject"
+					>theater</term> performance. And so real <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject"
+					>theater</term>, beautifully <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">theatrically</term>
+				staged, was played at the beginning of <date when="1944-05">May 1944</date>, at the height of the so-called <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-298" type="subject"><distinct type="camp_language"
+						>Verschönerung</distinct></term> of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+					>Theresienstadt</placeName>. Architects <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2004107" type="victim">Zelenka</persName>, Prof.
+				Lederer and other famous <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-677" type="subject">artists</term> worked
+				non-stop to prepare the various stages. All of the lighting equipment and light bulbs necessary for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">theater</term> had to be brought into <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. A pavilion was erected in
+				the square, where the town’s band, wonderful <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject"
+					>musicians</term> all of them and each individually a virtuoso, performed every day. The Trio played in the cafe and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-136" type="subject">cabarets</term> (<persName ref="#ehri_et_hofer_hans"
+					>Hans Hofer</persName>) were held, and, in the summer, performances took place outside in the courtyards. In the summer of <date
+					when="1944">1944</date>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+					>Theresienstadt</placeName> seemed like an El Dorado in Europe, a place where there are no <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject">air strikes</term>, no fronts, in short, no dangers
+				threatened it. The famous <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">commission</orgName> arrived and
+				apparently went around. An utter farce was performed, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term> had to run behind the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					type="subject">SS-komandant</term>, tug at his coat and cry: <q>Uncle, come play with us</q>, to which he replied: <q>Today I
+					cannot, but tomorrow I shall.</q> The famous film director <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2188603" type="victim">Kurt Geron</persName> had to
+				make a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-703" type="subject">film</term>.  Actors waited in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">theaters</term>, ready to start playing at the moment
+				when the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">commission</orgName> set foot inside, as if the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">opera</term> or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-695" type="subject">play</term> was already under way. After 5 minutes,
+				the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">commission</orgName> moved on and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">play</term> stopped. Everyone went home. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">composers</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1427882" type="victim">Haas</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1568477" type="victim">Krása</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1935246" type="victim">Ullmann</persName>, and
+					<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1521521" type="victim">Gideon
+					Klein</persName> were also urged to compose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+					>operas</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-694" type="subject">songs</term> that then had to
+				be played. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> itself ordered this.</p>
+
+
+			<pb n="3" facs="EHRI-ET-JMP008_03.jpg"/>
+			<p>Two <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">operas</term> were also performed: <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-164" type="subject">Brundibár</term>, composed by <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1568477" type="victim">Hans Krása</persName>, and <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-256" type="subject">Broučci</term>, a collection of Czech
+				folk <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-694" type="subject">songs</term>, directed by <persName
+					ref="#ehri_et_schonova_vlasta">Váva Schönová</persName>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">bandleader</term>
+				<persName ref="#ehri_et_brock_robert">Brok</persName>, and the director <persName ref="#ehri_et_thein_hanus">Thein</persName>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> up to age 14 played and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sang</term>.</p>
+			<p>It seemed unimaginable that things could continue thus. And the ax did indeed come down. As soon as the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">commission</orgName> left, the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> began to be liquidated. In
+				just 4 weeks, 18,600 Jews were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transported</term> to
+				the so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labor camp</term>. In reality, they
+				were taken to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName>, where a large part went
+				directly to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">gas chambers</term> and only a small
+				number, when it passed through the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selection
+					process</term>, was sent on to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration
+					camps</term>. Almost all of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> –
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-677" type="subject">artists</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-696" type="subject">actors</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">composers</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">singers</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">bandleaders</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">instrumentalists</term> – <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">lost their lives</term>. Only seven <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> out of the entire group remained
+					in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. They were
+				forgotten about and so they didn’t go to the same place as the other 18,600. When the last <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> left <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> for <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName> on <date when="1944-10-28">October 28th
+					1944</date>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject"><distinct
+						type="camp_language">Judenältester</distinct></term>
+				<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1145704" type="victim">Murmelstein</persName> had
+				to hand over to <distinct type="camp_language">Lagerhalter</distinct>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000318">Rahm</persName> the remaining people who were not parading
+				before him, and it was discovered that 7 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>women</term> – a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">singer</term>, a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">piano player</term>, i.e. a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">piano player</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-419" type="subject">actress</term> – were forgotten. When <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1145704" type="victim">Murmelstein</persName> asked
+				whether they should be put on the last <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transport</term>, <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000318">Rahm</persName>, smiling
+				condescendingly, said in his <placeName ref="http://www.geonames.org/2761369/vienna.html">Viennese</placeName> dialect: <foreign
+					xml:lang="de">Aber was, lassenses da. Sollens dann wieder <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-695"
+						type="subject">spielen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+						>singen</term>.</foreign> This saved our lives. We immediately had to join the so-called <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-764" type="subject"><distinct type="camp_language"
+						>Glimmerspalterei</distinct></term>, where we split <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-764" type="subject">mica</term> from 5:30 in the morning
+				until 2:00 in the afternoon, but about 3 days after the last <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+					type="subject">transport</term> departed, I received an order to put together a new <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">concert</term> program. And so we had to create an
+				evening program to be held in the unheated space of the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-24">Sokol gymnasium</placeName> and quickly rehearse the
+				pieces, and once again <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sing</term> for those who
+				remained in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. Four
+				months went by, until <date when="1943-03-07">March 7th, 1945</date>, when Mr. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000318">Rahm</persName> took us off <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-764" type="subject">mica</term> duty and ordered us to
+				quickly rehearse the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">opera</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">Broučci</term> and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">opera</term> The Tales of Hoffmann, because another
+				commission was soon to arrive. Our days and nights were spent writing out the music, making sure the orchestra had the material it
+				needed, rehearsing with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">musicians</term> who had
+					<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-268" type="subject">arrived</term> because they were
+				married to an Aryan. And so we played again in the <placeName
+					ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-24">Sokol gymnasium</placeName> in costume on a beautifully
+				decorated stage. The commission arrived and everything went well, and life in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> seemed to be as it had
+				been before the thousands had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">departed</term>. Then,
+				around <date when="1945-04-20">April 20th</date>, the 1st <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+					type="subject">transport</term> of the so-called <distinct type="camp_language">pajama wearers</distinct> from <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43">Buchenwald</placeName> arrived in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> and our eyes were opened.
+				We discovered the true reality and that day all of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">singing</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">playing</term>,
+				and distracting ourselves stopped. We were in no mood to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+					type="subject">sing</term>. We were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject"
+					>liberated</term> soon afterwards and our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+					>musical</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">artistic</term> career in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> came to an end. I <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">sang</term> almost every day, played in all of the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">operas</term>, and I can probably say that <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">singing</term> and my art was the one thing that saved
+				my life and spared me from the suffering that thousands of my brothers and sister must have experienced.</p>
+
+			<p>I can say that <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> was
+				the longest and worst-paid engagement in my entire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+					>musical</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-695" type="subject">theatrical</term>
+				career.</p>
+
+			<p>Signature:</p>
+			<p>
+				<persName ref="#ehri_et_grabova_heda">Heda Grabová</persName>
+			</p>
+			<p>Statement was accepted by:</p>
+			<p>
+				<persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName>
+			</p>
+
+			<p>Signatures of witnesses: Accepted on behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"
+					type="subject">Documentary campaign</term>:</p>
+			<p>
+				<persName ref="#ehri_et_saxlová_edita">Dita Saxlová</persName>
+				<persName ref="#ehri_et_shek_zeev">Scheck</persName>
+			</p>
+			<p>
+				<persName ref="#ehri_et_schickova_helena">Helena Schicková</persName>
+			</p>
+
+			<p>Accepted on behalf of the archive: <date when="1945-09-29">29. IX. 1945</date></p>
+			<p>
+				<persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName>
+			</p>
+		</body>
+	</text>
+</TEI>

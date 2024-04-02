@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:08+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380712_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Protokoll mit Felix Stiastny über seinen illegalen Grenzübertritt in die ČSR</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+                        <idno>Sign. 225-1186-16, Fol. 157</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16, Fol. 157. <textLang mainLang="cs">Original auf
+                        Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Olmütz (Olomouc)</placeName>
+                        <location>
+                            <geo>49.59552 17.25175</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3069011/olomouc.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Olomouc"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Leopoldstadt</placeName>
+                        <location>
+                            <geo>48.21667 16.4</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2772614/gemeindebezirk-leopoldstadt.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Leopoldstadt"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Italien</placeName>
+                        <location>
+                            <geo>42.83333 12.83333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3175395/repubblica-italiana.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Italien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Schweiz</placeName>
+                        <location>
+                            <geo>47.00016 8.01427</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Schweiz"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Znaim (Znojmo)</placeName>
+                        <location>
+                            <geo>48.8555 16.0488</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3061344/znojmo.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Znojmo"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Kleinhaugsdorf</placeName>
+                        <location>
+                            <geo>48.75 16.06667</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2774109/kleinhaugsdorf.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Kleinhaugsdorf"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Schattau (Šatov)</placeName>
+                        <location>
+                            <geo>48.79317 16.00992</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3066390/satov.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/%C5%A0atov"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Gnadlersdorf (Hnanice)</placeName>
+                        <location>
+                            <geo>48.79849 15.98668</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3075706/hnanice.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Hnanice"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>NS-Staat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item><name>Pass</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+                        </linkGrp></item>
+                    <item><name>Polizei</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+                        </linkGrp></item>
+                    <item><name>Visum</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+                        </linkGrp></item>
+                    <item><name>Zug</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+                        </linkGrp></item>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                    <item><name>Flüchtling</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+                        </linkGrp></item>
+                    <item><name>SS-Mann</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+                        </linkGrp></item>
+                    <item><name>Verhaftung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+                        </linkGrp></item>
+                    <item><name>Jüdische Gemeinde</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-872"/>
+                        </linkGrp></item>
+                    <item><name>Lebensmittel und Essen</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person>
+                        <persName>Pollaková, Jenny</persName>
+                        <note>
+                            <p>Geboren 03. 06. 1879</p>
+                            <p> Letzte Wohnadresse vor Deportation: Olomouc</p>
+                            <p> Transport AAm, Nr. 471 (04. 07. 1942, Olomouc -> Theresienstadt)</p>
+                            <p> Transport AAy, Nr. 265 (28. 07. 1942, Theresienstadt -> Baranoviči)</p>
+                            <p> Ermordet</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://www.holocaust.cz/databaze-obeti/obet/114938-jenny-pollakova/"/>
+                        </linkGrp>
+                    </person>
+                    <person>
+                        <persName>Stiastny, Felix</persName>
+                        <note>
+                            <p>Geboren 07. 03. 1891</p>
+                            <p> Letzte Wohnadresse vor Deportation: Lager Eibenschütz (Ivančice)</p>
+                            <p> Transport Ac, Nr. 775 (19. 03. 1942, Brno -> Theresienstadt)</p>
+                            <p> Transport Ag, Nr. 567 (01. 04. 1942, Theresienstadt -> Piaski)</p>
+                            <p> Ermordet</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://www.holocaust.cz/databaze-obeti/obet/127694-felix-stiassny/"/>
+                        </linkGrp>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="ehri_bf_liga_fuer_menschenrechte">
+                        <orgName>Liga für Menschenrechte</orgName>
+                    </org>
+                    <org>
+                        <orgName>Sturmabteilung</orgName>
+                        <note>
+                            <p>1921 - 1945</p>
+                            <p>Die Sturmabteilung, der paramilitärische Flügel der NSDAP, wurde 1921 gegründet. Zunächst setzte sie sich hauptsächlich
+                                aus deutschen Veteranen des Ersten Weltkriegs, Milizangehörigen und anderen Personen zusammen, die sowohl der Weimarer
+                                Republik als auch der kommunistische Partei ablehnend gegenüberstanden. Ihre terroristischen Aktionen gegen
+                                GegnerInnen erhöhte auch die öffentliche Wahrnehmung der NS-Bewegung, sowohl vor als auch nach Hitlers Machtaufstieg.
+                                Nachdem sich das NS-Regime etabliert hatte, begann das Regime die störende Vorgehensweise der SA zunehmend als
+                                Bedrohung wahrzunehmen. Hitler stimmte der Ermordung der höheren Führungsschicht der SA zu, die im Röhm Putsch oder
+                                der „Nacht der langen Messer“ vornehmlich durch die SS durchgeführt wurde.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-358"/>
+                        </linkGrp>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-07-12">12. Juli 1938</date>
+                <placeName>Olmütz (Olomouc)</placeName>
+                <orgName>Stadtrat Olmütz</orgName>
+                <idno>EHRI-BF-19380712</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="vertreibungspolitik"/>
+                <catRef target="fluchtberichte"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="u">Protokoll</hi>
+            </p>
+
+            <p>aufgenommen am <date when="1938-07-12">12. Juli 1938</date> im Stadtrat von <placeName
+                    ref="http://www.geonames.org/3069011/olomouc.html">Olmütz</placeName> mit dem früh. <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österr</placeName>. Staatsangehörigen, heute <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">r.deutschen</term>, <persName
+                    ref="https://www.holocaust.cz/databaze-obeti/obet/127694-felix-stiassny/">Felix Stiastny</persName> aus <placeName
+                    ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, der am <date when="1938-07-06">6. 7. 38</date>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegal die Grenze</term> der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> überquert hat.</p>
+
+            <p>Gegenstand: Verhör bezüglich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illeg.
+                    Grenzübertritts</term></p>
+
+            <p>Anwesend: die Unterzeichnenden</p>
+
+            <p>Ich heiße <persName ref="https://www.holocaust.cz/databaze-obeti/obet/127694-felix-stiassny/">Felix Stiastny</persName>, geboren am
+                    <date when="1891-03-07">7. 3. 1891</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>,
+                heimatber. in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, Handelsvertreter und ich wohnte in
+                    <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> und habe einen gültigen <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österr</placeName>. <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Reisepass</term>, ausgestellt von der <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Polizeidir.</term> in <placeName
+                    ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> am <date when="1937-01-04">4. 1. 1937</date> [...].</p>
+
+            <p>Weil die Umstände in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, wo ich in <placeName
+                    ref="http://www.geonames.org/2772614/gemeindebezirk-leopoldstadt.html">Wien II</placeName>, Glockeng. 1 gewohnt habe, unter dem
+                gegenwärtigen Regime derart sind, dass der Mensch täglich in Lebensgefahr ist, habe ich mich entschlossen <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> aus Gründen des Selbsterhalts zu verlassen.
+                In meinem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Reisepass</term> hatte ich zwar einen
+                Vermerk, der mich zur Ausreise nach <placeName ref="http://www.geonames.org/3175395/repubblica-italiana.html">Italien</placeName>, in
+                die <placeName ref="http://www.geonames.org/2658434/switzerland.html">Schweiz</placeName> und die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> und zur Reise zurück berechtigt, jedoch weiß jeder, dass
+                die verwaltenden Behörden der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> auf einen solchen
+                Vermerk in einem <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österr</placeName>. <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Pass</term> kein <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146">Visum</term> zur Reise in die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> erteilen und dass sie jeden von der Grenze
+                zurückschicken. Bereits bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Passausgabe</term>
+                und der Reiseerlaubnis nötigen die <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+                    >reichsdeutschen</term> Behörden den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+                    >Passinhaber</term> zur Unterzeichnung eines Revers, dass er niemals nach <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zurückkehren wird.</p>
+
+            <p>Ich konnte also, obwohl ich einen gültigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+                    >Pass</term> habe, nicht auf legalem Weg mit der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-940"
+                    >Eisenbahn</term> oder auf sonstige Weise in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+                    >ČSR</placeName> fahren, sondern muss dies auf eine andere Weise versuchen. So handelt übrigens eine große Zahl <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischer</term>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlinge</term>. Ich war gezwungen, meine ganzen
+                Ersparnisse in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zurückzulassen, denn niemand darf auch
+                nur einen Heller ausführen, jeden ziehen sie nackt aus und durchsuchen ihn gründlich.</p>
+
+            <p>Am <date when="1938-07-06">6. 7. 1938</date> verließ ich <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+                mit dem Autobus in Richtung Grenze zur <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> nach
+                    <placeName ref="http://www.geonames.org/3061344/znojmo.html">Znaim</placeName>. Im <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">öst.</placeName> Grenzort <placeName
+                    ref="http://www.geonames.org/2774109/kleinhaugsdorf.html">Kleinhaugsdorf</placeName> erwarteten uns bereits <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS Männer</term>, die uns sofort festnahmen und zu
+                ihren Wachmännern brachten, wo wir sehr gründlich einzeln bis auf den nackten Körper durchsucht wurden. Täglich treffen dort 4
+                Autobusse ein. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlinge</term> sind dort
+                versammelt und werden am Abend in Gruppen von einem eigenen Führer, einem <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischem</placeName> Staatsangehörigen-polit. <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtling</term>, über die Grenze in Richtung
+                Eisenbahnstation <placeName ref="http://www.geonames.org/3066390/satov.html">Schattau</placeName> überführt. In unserer Gruppe waren
+                insgesamt 17 Personen. Um zehn Uhr wurden wir zur Grenze geführt, wo uns der Führer auf einem Kleefeld den weiteren Weg über die
+                Grenze zur Eisenbahnstation <placeName ref="http://www.geonames.org/3066390/satov.html">Schattau</placeName> zeigte. Doch nur 3 gelang
+                es, die Grenze zu überqueren, ohne festgehalten zu werden. Die übrigen 14 wurden von der Grenzwache <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-598">festgenommen</term> und zur Ortschaft <placeName
+                    ref="http://www.geonames.org/3075706/hnanice.html">Gnadlersdorf</placeName> gebracht. Dort wurde ich wegen unberechtigtem
+                Grenzübertritt mit einer Geldstrafe von 10.- Kronen belegt [...] und noch am Morgen derselben Nacht wurden wir zurück zur Grenze
+                geführt, damit wir nach <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zurückkehren.
+                Sobald der Beauftragte, der uns zur Grenze gebracht hatte, fortgegangen war, kehrte ich zurück und gelangte zu Fuß bis nach <placeName
+                    ref="http://www.geonames.org/3061344/znojmo.html">Znaim</placeName>, wo ich Unterstützung von der <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">jüdischen Gemeinde</term> und eine Fahrkarte nach
+                    <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olmütz</placeName> erhielt. In <placeName
+                    ref="http://www.geonames.org/3069011/olomouc.html">Olmütz</placeName> haben wir eine Tante, Fr. <persName
+                    ref="https://www.holocaust.cz/databaze-obeti/obet/114938-jenny-pollakova/">Jenny Pollaková</persName>, Englova 6, die mich eine
+                Weile bei sich wohnen lässt. Sie hat zwar nicht viel, doch trotzdem versorgt sie mich bereits mit etwas <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term>.</p>
+
+            <p>In <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olmütz</placeName> habe ich mich sofort aus völlig freien Stücken bei
+                der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Polizei</term> und der Ausländerregistrierung
+                gemeldet und sofort ohne Zwang angegeben, dass ich die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234"
+                    type="subject">Grenze illegal überquert</term> hatte, und dass ich dafür bereits bestraft worden bin.</p>
+
+            <p>Es ist interessant, dass uns die Männer der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName>, die uns
+                in <placeName ref="http://www.geonames.org/2774109/kleinhaugsdorf.html">Kleinhaugsdorf</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-598">festnahmen</term>, sagten, dass wir ohne
+                Komplikationen in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> könnten, dass sie dort
+                schon auf uns warten und dass sie uns in deut. Gegenden ansiedeln würden, damit wir dort tschechisch wählen. Es handelt sich um
+                Propaganda, die gegen die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> verwendet wird.</p>
+
+            <p>Ich beabsichtige, in <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olmütz</placeName> einige Zeit abzuwarten, wie sich
+                die Verhältnisse entwickeln. Ich werde mich um die Unterstützung der <orgName>Liga für Menschenrechte</orgName> bemühen und später
+                entscheide ich mich, wohin ich mich wenden sollte, wenn ich keine Aufenthaltsgenehmigung in der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> erhalte.</p>
+
+            <p>Ich werde mich in keiner Weise ins öff. polit. Leben einmischen, denn ich schulde der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>. Dank dafür, dass sie mir Asylrecht gewährt.</p>
+
+            <p>Mehr kann ich nicht hinzufügen. Ich bin bereit, die Verhältnisse in <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> unter dem derzeitigen Regime ausführlich
+                darzulegen, und dies völlig wahrheitsgemäß und unparteiisch.</p>
+
+            <p><!-- C.m. <note type="gloss">Unterschrift:</note>
+        <persName ref="https://www.holocaust.cz/databaze-obeti/obet/127694-felix-stiassny/">Felix Stiasny</persName> --></p>
+        </body>
+    </text>
+</TEI>

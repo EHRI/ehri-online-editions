@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-WL16560540_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Julia (Maria) Abraham-Stern, experiences of the Lwów ghetto and her hiding in a convent</title>
+                <title xml:lang="fr">Julia (Maria) Abraham-Stern, expériences du ghetto de Lwów et sa cachette dans un couvent</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Christine Schmidt</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Daniela Bartáková</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Jessica Green</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>29 Russell Square</street>
+                                <postCode>WC1B 5DP</postCode>
+                                <settlement>London</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+                            Genocide</repository>
+                        <collection>Eyewitness testimony Collection (coll. 1656)</collection>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 540. <textLang
+                        mainLang="de">Original in German</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1957">1957</date>, <placeName ref="#lviv">Lviv</placeName>, <term ref="#t262" type="subject">Hiding</term>, <term
+                    ref="#t264" type="subject">Righteous among the Nations</term>, <idno>EHRI-ET-WL16560540</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="de">German</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Testimony of Julia (Maria) Abraham-Stern, a trained seamstress. Her husband and son were deported, while she and her daughter were
+                    sent to the Lwów Ghetto with her parents. Her mother committed suicide to allow her to go into hiding with her daughter with a
+                    German woman. Abraham-Stern describes the logistics of hiding in a two-bedroom flat, with visitor and a jealous boyfriend. They
+                    move to an orthodox convent in March 1944. After liberation they helped their rescuers in turn to emigrate to the US.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-WL16560540_01.jpg" n="1"/>
+                <p>EW 3 2816-2830</p>
+                <p>1. Index Number: P III d.No. 540</p>
+                <p>2. Title of Document: Experiences in <placeName ref="#lviv" type="ehri">Lemberg</placeName>.</p>
+                <p>3. Date: <date when="1941-06">June, 1941</date> - <date when="1955">1955</date>.</p>
+                <p>4. Number of Pages: 15.</p>
+                <p>Language: <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName>.</p>
+                <p>5. Author or Source: <persName ref="#ehri_et_stern_abraham_julia_maria" type="ehri">JULIA (MARIA) ABRAHAM - STERN</persName>,
+                        <placeName ref="#london" type="ehri">London</placeName></p>
+                <p>6. Recorded by: Mrs. <persName ref="#ehri_et_hakonsson" type="ehri">Håkonsson</persName>, <placeName ref="#london" type="ehri"
+                        >London</placeName></p>
+                <p>7. Received: <date when="1957-04">April, 1957</date>.</p>
+                <p>8. Form and Contents: Interview.</p>
+                <p><term ref="#t1036" type="subject">RUSSIAN occupation</term> army in <placeName ref="#lviv" type="ehri">LEMBERG</placeName> during
+                    the first two years of the war. They behaved irreproachably; likewise, when they returned to <placeName ref="#lviv" type="ehri"
+                        >Lemberg</placeName>, later. Reasons for sending <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> Jews to
+                        <placeName ref="#siberia" type="ehri">SIBERIA</placeName> (p.1).</p>
+                <p>When the <placeName ref="#federal-republic-of-germany" type="ehri">Germans</placeName>
+                    <term ref="#t1101" type="subject">arrived</term>, in <date when="1941-06">June, 1941</date>, persecutions began immediately with
+                    the help of <placeName ref="#ukraine" type="ehri">UKRAINIANS</placeName> and <placeName ref="#republic-of-poland" type="ehri"
+                        >POLES</placeName>. <term ref="#t556" type="subject">Forced labour</term>, no <term ref="#t934" type="subject">wages</term>,
+                    no <term ref="#t832" type="subject">food</term>, <term ref="#t292" type="subject">ill</term>-treatment (p.2). From Spring <date
+                        when="1942">1942</date>, constant <term ref="#t521" type="subject">transports</term> to the <term ref="#t499" type="subject"
+                        >gas-chambers</term> of <placeName ref="#l41" type="camp">BELZEC</placeName>; STAMPS on <term ref="#t1137" type="subject"
+                        >identity cards</term> (p.2,3). <term ref="#t550" type="subject">AKTIONEN</term> (p.2-6). - <term ref="#t536" type="subject"
+                        >MURDER</term> of 40.000 Jews (p.4).</p>
+                <p>The <term ref="#t545" type="subject">Ghetto</term> (p.4-9). - NON-JEWS HELPING JEWS: <persName ref="#p4018223" type="ehri">Irmgard
+                        Wieth</persName> from <placeName ref="#strasbourg" type="ehri">Strassburg</placeName> (p.4-15); manager of fur <term
+                        ref="#t929" type="subject">factory</term> bribed <orgName ref="#g350" type="ehri">Gestapo</orgName> - in vain- in order to
+                        <term ref="#t297" type="subject">rescue</term> his Jewish <term ref="#t1057" type="subject">workers</term> (p.6,7).</p>
+                <p>Gay <term ref="#t691" type="subject">MUSIC</term> for the morituri (p.6). - <term ref="#t217" type="subject">Suicide</term> of the
+                    author's mother (p.7,8). The <term ref="#t545" type="subject">Ghetto</term>
+                    <term ref="#t282" type="subject">hospital</term> a horror (p.8). <term ref="#t551" type="subject">Liquidation</term> of the <term
+                        ref="#t545" type="subject">Ghetto</term>; <q>voluntary</q> removal to the <term ref="#t496" type="subject">KZ</term>.</p>
+                <p>Mrs. <persName ref="#ehri_et_stern_abraham_julia_maria" type="ehri">Stern</persName> together with her <term ref="#t822"
+                        type="subject">little daughter</term> and a Jewish couple were <term ref="#t262" type="subject">hidden</term> by Mrs.
+                        <persName ref="#p4018223" type="ehri">Wieth</persName> in her small flat; great difficulties, dangers and agitations (p.9-13).
+                    - The <term ref="#t773" type="subject">GREEK-ORTHODOX</term>
+                    <term ref="#t111" type="subject">Metropolit</term>
+                    <persName ref="#p4017786" type="ehri">SZEPTYCKI</persName> - under his <term ref="#t251" type="subject">protection</term>
+                    <term ref="#t100" type="subject">lived sixty Jews</term> - and the Abbess of an <term ref="#t251" type="subject">UKRAINIAN
+                        CONVENT</term> came to the rescue, when Mrs. <persName ref="#p4018223" type="ehri">Wieth</persName> had to leave <placeName
+                        ref="#lviv" type="ehri">Lemberg</placeName> (p.13,14). - <term ref="#t740" type="subject">Christening</term> in the <term
+                        ref="#t251" type="subject">convent</term>.</p>
+                <p>After the <term ref="#t203" type="subject">war</term>, Mrs. <persName ref="#ehri_et_stern_abraham_julia_maria" type="ehri"
+                        >Stern</persName> and her <term ref="#t822" type="subject">daughter</term> went to <placeName ref="#england" type="ehri"
+                        >England</placeName>. Later, they helped Mrs. <persName ref="#p4018223" type="ehri">Wieth</persName> to get to <placeName
+                        ref="#united-states" type="ehri">U.S.A.</placeName></p>
+                <pb facs="EHRI-ET-WL16560540_02.jpg" n="2"/>
+                <p>Interview mit <term ref="#t825" type="subject">Frau</term><persName ref="#ehri_et_stern_abraham_julia_maria" type="ehri">Julia
+                        (Maria) Stern - Abraham </persName>, <placeName ref="#london" type="ehri">London</placeName></p>
+                <p>Erlebnisse in <placeName ref="#lviv" type="ehri">Lemberg</placeName> und im dortigen <term ref="#t545" type="subject">Ghetto</term>
+                    während der <term ref="#t633" type="subject">deutschen Okkupation</term> - Rettung durch eine <placeName
+                        ref="#federal-republic-of-germany" type="ehri">deutsche</placeName> Beamtin und ein<placeName ref="#ukraine" type="ehri"
+                        >ukrainisches</placeName><term ref="#t728" type="subject">Kloster</term>.</p>
+                <p>Vor dem <term ref="#t1080" type="subject">Kriege</term> lebte ich mit meinen <term ref="#t826" type="subject">Mann</term> und
+                    meinen beiden <term ref="#t824" type="subject">Kindern</term> in <placeName ref="#krakow" type="ehri">Krakau</placeName> in
+                        <placeName ref="#republic-of-poland" type="ehri">Polen</placeName>. Mein <term ref="#t826" type="subject">Mann</term> war
+                        <term ref="#t891" type="subject">Bankdirektor</term> und ich selber hatte in meiner Jugend schneidern <term ref="#t930"
+                        type="subject">gelernt</term> und hatte einen Modesalon, der sehr gut ging.</p>
+                <p>Ich hatte in meiner Jugend darauf bestanden, einen <term ref="#t943" type="subject">Beruf</term> zu <term ref="#t930"
+                        type="subject">erlernen</term> und hatte mich als Schneiderin ausgebildet. Ich war nämlich eifrige <term ref="#t907"
+                        type="subject">Zionistin</term> und wollte nach <placeName ref="#state-of-israel" type="ehri">Israel</placeName>
+                    <term ref="#t203" type="subject">auswandern</term>. Dazu brauchte ich aber einen praktischen <term ref="#t943" type="subject"
+                        >Beruf</term>. Meine Eltern waren aber sehr dagegen, Sie waren keine <term ref="#t907" type="subject">Zionisten</term>. Sie
+                    waren auch nicht übermässig <q><term ref="#t726" type="subject">fromme</term></q> Juden, sondern das, was ich als <q><term
+                            ref="#t726" type="subject">gute</term></q> Juden bezeichnen möchte. Ich hatte also eine <term ref="#t1134" type="subject"
+                        >Berufsfachschule</term> besucht und alles gelernt, was zum Schneidern gehört, und später war ich sogar einige Jahre als
+                    Lehrerin an eben dieser <term ref="#t1134" type="subject">Fachschule</term> tätig. - Dieser <term ref="#t943" type="subject"
+                        >Beruf</term> sollte mir dann während der <term ref="#t632" type="subject">Okkupation</term> sehr grosse Dienste leisten.</p>
+                <p>Einen Tag vor Ausbruch des <term ref="#t1080" type="subject">Krieges</term> hatten wir <placeName ref="#krakow" type="ehri"
+                        >Krakau</placeName> verlassen, um nach <placeName ref="#lviv" type="ehri">Lemberg</placeName> überzusiedeln, wo meine Eltern
+                    lebten. Dort blieb ich sodann bis Ende des <term ref="#t1080" type="subject">Krieges</term>.</p>
+                <p>Während der ersten zwei <term ref="#t1080" type="subject">Kriegsjahre</term> gehörte <placeName ref="#lviv" type="ehri"
+                        >Lemberg</placeName> in das <placeName ref="#union-of-soviet-socialist-republics" type="ehri">russische</placeName>
+                    <term ref="#t632" type="subject">Okkupationsgebiet</term>. D.h., wir waren von den <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName>
+                    <term ref="#t632" type="subject">okkupiert</term>. Es geschah uns in dieser Zeit nichts und ich muss ausdrücklich sagen, dass die
+                        <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName> sich tadellos benahmen. Wir konnten
+                    unsern <term ref="#t943" type="subject">Berufen</term> nachgehen, mein <term ref="#t826" type="subject">Mann</term> hatte wieder
+                    eine <term ref="#t943" type="subject">Arbeit</term> an einer <term ref="#t930" type="subject">Bank</term> und ich schneiderte.
+                    Unsere <term ref="#t824" type="subject">Kinder</term>, eine <term ref="#t824" type="subject">Tochter</term> von 9 Jahren und ein
+                        <term ref="#t824" type="subject">Sohn</term> von 5 besuchten die <term ref="#t842" type="subject">Schule</term>. Abgesehen
+                    davon, dass <term ref="#t1080" type="subject">Krieg</term> war, dass wir von einer <term ref="#t1077" type="subject">fremden
+                        Armee</term> besetzt waren, und dass wir die <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russen</placeName> als Eindringlinge und Feinde nicht liebten, störte nichts unsere Existenz.</p>
+                <p>Es sind seinerzeit in der <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russenzeit</placeName> sehr viele
+                        <placeName ref="#republic-of-poland" type="ehri">polnische</placeName> Juden von den <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName> nach <placeName ref="#siberia" type="ehri"
+                        >Sibirien</placeName>
+                    <term ref="#t636" type="subject">verschleppt</term> worden. Das waren aber solche Juden, die darum eingekommen waren, über die
+                    Grenze und nach der besetzen <placeName ref="#federal-republic-of-germany" type="ehri">deutschen</placeName> Zone gehen zu dürfen,
+                    oder versucht hatten, <term ref="#t234" type="subject">illegal</term> die Zonengrenze zu überschreiten. Sie wurden von den
+                        <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName> als unzuverlässig nach <placeName
+                        ref="#siberia" type="ehri">Sibirien</placeName>
+                    <term ref="#t518" type="subject">deportiert</term>. Da wir nicht darum eingekommen waren, nach dem <placeName
+                        ref="#federal-republic-of-germany" type="ehri">deutsch</placeName> besetzten <placeName ref="#republic-of-poland" type="ehri"
+                        >Polen</placeName> auswandern zu dürfen, wurden wir ganz unbehelligt gelassen. Man gab uns <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">russische</placeName>
+                    <term ref="#t1141" type="subject">Pässe</term>, das ist alles.</p>
+                <p>Wenn ich jetzt bedenke, was wir später unter den <placeName ref="#federal-republic-of-germany" type="ehri">Deutschen</placeName>
+                    erlebten und durchzumachen hatten, kann ich nur sagen, dass uns damals nicht klar war, dass die <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName> sich tatsächlich wie Engel benommen haben.</p>
+                <pb facs="EHRI-ET-WL16560540_03.jpg" n="3"/>
+                <p>Im <date when="1941-06">Juni 1941</date> kamen die <placeName ref="#federal-republic-of-germany" type="ehri">Deutschen</placeName>.
+                    Und die <term ref="#t642" type="subject">Judenverfolgungen</term> begannen sofort. Dies wäre nicht möglich gewesen, wenn die
+                        <placeName ref="#ukraine" type="ehri">ukrainische</placeName> und <placeName ref="#republic-of-poland" type="ehri"
+                        >polnische</placeName>
+                    <term ref="#t637" type="subject">Bevölkerung</term> nicht mit den <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >Deutschen</placeName> zusammengegangen wären. Hätten sie dies nicht getan, wären die <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutschen</placeName> gezwungen gewesen erstmal zu untersuchen, wer Jude war
+                    und wo sie wohnten. Die <placeName ref="#ukraine" type="ehri">Ukrainer</placeName> und <placeName ref="#republic-of-poland"
+                        type="ehri">Polen</placeName> wussten dies und informierten die <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >deutsche</placeName>
+                    <term ref="#t632" type="subject">Besatzung</term> sofort, sodass <term ref="#t532" type="subject">Morde</term> und <term
+                        ref="#t642" type="subject">Verfolgungen</term> gar nicht auf sich warten liessen.</p>
+                <p>Sofort nach <term ref="#t1101" type="subject">Einzug</term> der <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >Deutschen</placeName> wurden die Juden in sogenannte <term ref="#t508" type="subject">Arbeitslager</term> beordert, wo die
+                    Verteilung sogenannter <q><term ref="#t943" type="subject">Arbeit</term></q> begann. Dazu gehörte also z.B. für <term ref="#t825"
+                        type="subject">Frauen</term> das Reinemachen in den <term ref="#t837" type="subject">Kasernen</term>. <term ref="#t825"
+                        type="subject">Mütter</term> konnten damals ihre <term ref="#t824" type="subject">Töchter</term> zu dieser <q><term
+                            ref="#t943" type="subject">Arbeit</term></q> mitnehmen, und <term ref="#t826" type="subject">Väter</term> ihre <term
+                        ref="#t824" type="subject">Söhne</term>.Mein <term ref="#t826" type="subject">Mann</term> hatte sich als Tischler gemeldet,
+                    weil damals unter den Juden behauptet wurde, Juden mit praktischen <term ref="#t943" type="subject">Berufen</term> würden nicht
+                    deportiert werden. So nahm ich meine <term ref="#t824" type="subject">Tochter</term> und mein <term ref="#t826" type="subject"
+                        >Mann</term> unsern kleinen <term ref="#t824" type="subject">Sohn</term> zur <term ref="#t943" type="subject">Arbeit</term>
+                    mit. Das <term ref="#t943" type="subject">Arbeiten</term> ging nie ohne <term ref="#t345" type="subject">Verprügelung und
+                        Brutalitäten</term> ab. Wir bekamen keinen <term ref="#t934" type="subject">Lohn</term> und nichts zu <term ref="#t832"
+                        type="subject">essen</term>. Um uns am Leben zu erhalten, verkauften wir heimlich Schmucksachen und andere Sachen unserer
+                    Eltern. Dies war zwar strengstens verboten, aber <term ref="#t763" type="subject">christliche</term>
+                    <placeName ref="#republic-of-poland" type="ehri">Polinnen</placeName> riskierten die <term ref="#t653" type="subject"
+                        >Strafen</term>, weil sie auf diese Weise für ein Spottgeld die schönsten Dinge kaufen konnten. Für dieses <term ref="#t934"
+                        type="subject">Geld</term> kauften wir <term ref="#t1051" type="subject">schwarz</term>
+                    <term ref="#t832" type="subject">Lebensmittel</term>, auch das war natürlich strengstens verboten.</p>
+                <p>Im Frühjahr <date when="1942">1942</date> begannen die sogenannten <q><term ref="#t1173" type="subject">Umsiedelungen</term></q>,
+                    und niemand wusste, dass es sich dabei um <term ref="#t518" type="subject">Abtransporte</term> in die <term ref="#t499"
+                        type="subject">Gaskammern</term> von <placeName ref="#l41" type="camp">BELZEC</placeName> handelte. Dorthin kamen damals 15-20
+                    000 Juden mit <term ref="#t824" type="subject">Kindern</term>. Auch ich war mit meinem <term ref="#t826" type="subject"
+                        >Mann</term> und den <term ref="#t824" type="subject">Kindern</term> in die <term ref="#t842" type="subject">Schule</term>,
+                    die als <term ref="#t616" type="subject">Auffanglager</term> diente, eingesperr worden, und wir warteten auf den <term ref="#t518"
+                        type="subject">Abtransport</term>. Durch irgendeinen nie völlig aufgeklärten Zufall wurden wir aber durch den <q><orgName
+                            ref="#g512" type="ehri">Ältestenrat der Juden</orgName></q> wieder aus der <term ref="#t1134" type="subject">Schule</term>
+                    herausgeholt und in unsere von der <orgName ref="#g350" type="ehri">Gestapo</orgName> bereits abgesperrte <term ref="#t837"
+                        type="subject">Wohnung</term> zurückgeschickt. Wir waren einen Tag und eine Nacht im <term ref="#t616" type="subject"
+                        >Auffanglager</term> gewesen. Unsere Eltern, die in einem andern Teil von <placeName ref="#lviv" type="ehri"
+                        >Lemberg</placeName> wohnten, waren diesmal unbehelligt geblieben. Wir beschlossen, von nun an unsere <term ref="#t824"
+                        type="subject">Kinder</term> nie mehr allein auf die Strasse zu schicken.</p>
+                <p>Im <date when="1942-08">August 1942</date> fand die erste sehr grosse <q><term ref="#t550" type="subject">Aktion</term></q> statt.
+                    Damals brachte die <orgName ref="#g429" type="ehri">SS</orgName> auf den <term ref="#t635" type="subject">Legitimationskarten der
+                        Juden</term> besondere Stempel an. Es hiess, wer solche Stempel auf seiner <term ref="#t1144" type="subject">Karte</term> hat,
+                    soll nicht <q>umgesiedelt</q> werden. Mein <term ref="#t826" type="subject">Mann</term> hatte einen solchen Stempel erhalten und
+                    fühlte sich darum sehr sicher. Ich hatte keinen Stempel. Darum beschlossen wir, dass er die <term ref="#t824" type="subject"
+                        >Kinder</term> zu sich nahm, und ich ein <term ref="#t265" type="subject">Versteck</term> suchen sollte.</p>
+                <p>Wir glaubten an, und man sprach auch immer noch von <q><term ref="#t575" type="subject">Umsiedelung</term>,</q> nie von <term
+                        ref="#t532" type="subject">Töten</term>. Unaufhörlich, bei Tage und vor allem in der Nacht gingen <term ref="#t522"
+                        type="subject">Züge</term> mit <term ref="#t521" type="subject">Judentransporten</term>. - Ich kann seitdem das Geräusch <pb
+                        facs="EHRI-ET-WL16560540_04.jpg" n="4"/> von fahrenden <term ref="#t522" type="subject">Zügen</term> nicht ertragen. - Wir
+                    haben dann später erfahren, dass ein Teil der <term ref="#t522" type="subject">Transporte</term> direkt nach <placeName ref="#l41"
+                        type="camp">Belzec</placeName> ging. Nur die jüngeren <term ref="#t1207" type="subject">Leute</term> wurden erst in
+                    verschiedene <term ref="#t496" type="subject">KZ-Arbeitslager</term>
+                    <term ref="#t518" type="subject">deportiert</term>, wo sie langsam <term ref="#t532" type="subject">umgebracht</term> wurden.</p>
+                <p>Wir suchten nach einem <term ref="#t265" type="subject">Versteck</term> für mich und fanden eins im <term ref="#t837"
+                        type="subject">Nebenhaus</term>. Dort hatte eine Jüdin einen <term ref="#t836" type="subject">Hutladen</term>, der natürlich
+                    schon längst aufgehört hatte als Laden zu dienen, und in diesem abgeschlossenen Laden wohnte die Besitzerin mit ihrer Schwägerin
+                    und ihrer Nichte. Ich bat sie, mich auch in diesem Laden <term ref="#t262" type="subject">verstecken</term> zu dürfen. Ein
+                    besseres <term ref="#t265" type="subject">Versteck</term> konnten wir uns nicht denken. Die Besitzerin wollte nicht, dass ich die
+                        <term ref="#t824" type="subject">Kinder</term> mitnehme, und da wir nicht glaubten, dass meinem <term ref="#t826"
+                        type="subject">Mann</term> und den <term ref="#t824" type="subject">Kindern</term> etwas geschehen könnte, wurde vereinbart,
+                    dass ich in den Laden übersiedele, und dass mein <term ref="#t826" type="subject">Mann</term> jeden Morgen, bevor er zur <term
+                        ref="#t943" type="subject">Arbeit</term> ging, meine <term ref="#t824" type="subject">Tochter</term> mit dem <term ref="#t832"
+                        type="subject">Essen</term> für mich im Laden abgeben sollte. Abends holte er sie dann wieder ab.</p>
+                <p>Ich verbrachte damals die ganzen Tage am Schlüsselloch der verschlossenen Ladentür und beobachtete, was auf der Strasse passierte.
+                    Ich sah jeden Morgen wie mein <persName ref="http://yvng.yadvashem.org/nameDetails?language=en&amp;itemId=535705&amp;ind=23"
+                        type="ehri">Mann</persName> mit dem Jungen zur <term ref="#t943" type="subject">Arbeit</term> ging, und sah sie abends
+                    zurückkommen. Ich sah auch die <orgName ref="#g350" type="ehri">Gestapo</orgName> und die Fortführung von Juden.</p>
+                <p>Am Nachmittag des <date when="1942-08-05">5. August</date> - es war der fünfte Tag der <q><term ref="#t550" type="subject"
+                            >Aktion</term></q> - kam ein Bruder der <term ref="#t825" type="subject">Frau</term>, die mich <term ref="#t262"
+                        type="subject">versteckte</term>, und sagte : <q>Heute ist es schrecklich. Heute nimmt man die <term ref="#t824"
+                            type="subject">Kinder</term>.</q></p>
+                <p>Ich bekam einen furchtbaren Schrecken und flehte den Bruder an zu versuchen, meinem <term ref="#t824" type="subject">Mann</term>
+                    eine Nachricht von mir zu bringen, er sollte das <term ref="#t824" type="subject">Kind</term> verstecken. Aber es war schon zu
+                    spät.</p>
+                <p>Von meinem Schlüsselloch aus konnte ich nur sehen, was sich direkt vor dem <term ref="#t837" type="subject">Haus</term> ereignete.
+                    Und als ich die <orgName ref="#g350" type="ehri">Gestapo</orgName> hörte und sie Vorbeigehen sah, wusste ich nicht, dass sie ins
+                        <term ref="#t837" type="subject">Nebenhaus</term> ging. Wir hörten im Laden wie ein <term ref="#t1216" type="subject"
+                        >SS—Mann</term> die Hausmeisterin um den Schlüssel zum Laden bat. Die Hausmeisterin hatte den Schlüssel nicht, aber eine
+                    Nachbarin sagte, sie hätte einen und ging ihn holen. Der <term ref="#t1216" type="subject">SS-Mann</term> steckte ihn ins Schloss
+                    der Tür, die in unser <term ref="#t265" type="subject">Versteck</term> führte, aber das Schloss funktionierte nicht ordentlich.
+                    Wir standen alle wie gelähmt vor <term ref="#t829" type="subject">Angst</term>. Er rüttelte an der Tür und drückte die Klinke
+                    herauf und herunter, aber die Tür öffnete sich nicht. Ein Tritt mit dem <term ref="#t836" type="subject">Stiefel</term> hätte
+                    genügt, sie einzustossen. Aber das geschah nicht. Der <term ref="#t1216" type="subject">SS-Mann</term> machte kehrt und ging, ohne
+                    sie zu öffnen.</p>
+                <p>Wir waren noch alle wie benommen. Da hörte ich, wie vor dem Nebenhaus auf der Strasse ein kleines <term ref="#t824" type="subject"
+                        >Mädchen</term> laut zur Hausmeisterin sagte: <q>Aus unserm <term ref="#t837" type="subject">Haus</term> nahmen sie Herrn
+                            <persName ref="#ehri_et_stern" type="ehri">"Stern</persName> und den kleinen <persName ref="#ehri_et_stern_uri"
+                            type="ehri">Uri</persName></q>. Und da die Hausmeisterin schwerhörig war, wiederholte es noch einmal den Satz lauter.</p>
+                <p>So erfuhr ich, dass sie meinen <term ref="#t826" type="subject">Mann</term> und das <term ref="#t824" type="subject">Kind</term>
+                    genommen hatten.</p>
+                <pb facs="EHRI-ET-WL16560540_05.jpg" n="5"/>
+                <p>Ich habe nie wieder von ihnen gehört. - Als es dunkel wurde, wollte ich auf die Strasse hinaus, sie suchen. Die jüdische
+                    Ladenbesitzerin war sehr freundlich. Die Schwägerin und die Nichte waren während der Affäre mit dem <term ref="#t1216"
+                        type="subject">SS-Mann</term> an der Tür in Ohnmacht gefallen. Sie sind jetzt alle <term ref="#t745" type="subject"
+                    >tot</term>. Ich bin damals 14 Tage lang in den Strassen herumgelaufen, und habe versucht irgendetwas zu erfahren, aber es war
+                    umsonst.</p>
+                <p>Meine Eltern waren noch am Leben. Sie waren zusammen mit 120 Leuten, in einem Dachboden <term ref="#t262" type="subject"
+                        >versteckt</term>. In diesen Tagen haben die <placeName ref="#federal-republic-of-germany" type="ehri">Deutschen</placeName>
+                    40 000 Juden <term ref="#t532" type="subject">umgebracht</term>. Später wurde dann das <term ref="#t545" type="subject"
+                        >Ghetto</term> eröffnet. Dorthin mussten alle Juden <q>freiwillig</q> gehen. Es war ein sehr enges und kleines <term
+                        ref="#t545" type="subject">Ghetto</term>. Wir wohnten 8 <term ref="#t1207" type="subject">Menschen</term> in einem ehemaligen
+                    ganz kleinen <term ref="#t837" type="subject">Geschäftslokal.</term> Ich hatte dort meine Eltern bei mir, die erst dort von mir
+                    von dem Verschwinden meines Mannes und meines <term ref="#t824" type="subject">Kindes</term> erfuhren.</p>
+                <p>Wir mussten alle innerhalb des <placeName ref="#l562" type="camp">Ghettos</placeName> wohnen und ausserhalb des <placeName
+                        ref="#l562" type="camp">Ghettos</placeName>
+                    <term ref="#t943" type="subject">arbeiten</term>. Ungefähr 6 Wochen nach der <q><term ref="#t550" type="subject">Aktion</term></q>
+                    bekam ich beim <placeName ref="#federal-republic-of-germany" type="ehri">deutschen</placeName>
+                    <term ref="#t837" type="subject">Wohnungsamt</term>
+                    <term ref="#t943" type="subject">Arbeit</term> als Schneiderin für die beiden <term ref="#t477" type="subject"
+                        >Sekretärinnen</term>. Die erste Sekretärin hiess <persName ref="#p4018223" type="ehri">Irmgard Wieth</persName>. Sie war etwa
+                    30 Jahre alt und stammte aus <placeName ref="#strasbourg" type="ehri">Strassburg</placeName>, wo ihr Vater <term ref="#t842"
+                        type="subject">Gymnasialprofessor</term> war. Sie war ganz begeistert, eine gute Schneiderin gefunden zu haben und sprach oft
+                    mit mir. Sie erkundigte sich auch, warum ich so elend und verzweifelt aussähe. Ich erzählte ihr, was meinem <term ref="#t826"
+                        type="subject">Mann</term> und meinem <term ref="#t824" type="subject">Kind</term> passiert war. Darauf sagte sie : <q>Warum
+                        haben Sie das <term ref="#t824" type="subject">Kind</term> nicht <term ref="#t251" type="subject">versteckt</term>?</q>-
+                    Damals sagte ich mir zum erstenmal, dass sie ein gutmütiger Mensch sein müsste, der Mitleid fühlen konnte, und dachte bei mir, ich
+                    würde mich im Notfall vielleicht mal an sie wenden.</p>
+                <p>Wie alle <placeName ref="#federal-republic-of-germany" type="ehri">deutschen</placeName>
+                    <term ref="#t1111" type="subject">Beamten</term> hatte <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> es sehr gut im Generalgouvernement. Sie bewohnte eine hübsche und moderne
+                        <term ref="#t837" type="subject">Zwei-Zimmer-Wohnung</term>, mit <term ref="#t837" type="subject">Küche</term> und <term
+                        ref="#t837" type="subject">Bad</term>. Sie erhielt besonders reichlich <term ref="#t832" type="subject">Lebensmittel</term>
+                    und vor allem reichlich <term ref="#t836" type="subject">Kleidung</term>. Dies waren <term ref="#t836" type="subject"
+                        >Kleider</term>, die den Juden abgenommen worden waren. Es sind diese <term ref="#t836" type="subject">Kleider</term>, die ich
+                    dann für sie ändern musste.</p>
+                <p>Im <date when="1942-11">November 1942</date> begann eine zweite <q><term ref="#t550" type="subject">Aktion</term></q>. Ich befand
+                    mich in der allerersten Nacht zufällig nicht im <placeName ref="#l562" type="camp">Ghetto</placeName>, aber meine Eltern und meine
+                        <term ref="#t824" type="subject">Tochter</term> waren dort. Ich hatte den Tag über bei einer <placeName
+                        ref="#republic-of-poland" type="ehri">Polin</placeName>
+                    <term ref="#t943" type="subject">gearbeitet</term>, es war spät geworden, und als ich gehen wollte, hatte sie erklärt, ich sollte
+                    lieber bei ihr übernachten. Juden durften nachts nicht auf den Strassen sein. So blieb ich dort. Und ganz in der Frühe, es war
+                    noch dunkel, kam meine <term ref="#t824" type="subject">Tochter</term>. Sie war aus dem <placeName ref="#l562" type="camp"
+                        >Ghetto</placeName>
+                    <term ref="#t204" type="subject">weggelaufen</term>, da sie wusste wo ich war und wo ich <term ref="#t943" type="subject"
+                        >gearbeitet</term> hatte. Meine Eltern hatten sich im <placeName ref="#l562" type="camp">Ghetto</placeName> versteckt. So nahm
+                    ich das Kind mit zu meiner <term ref="#t943" type="subject">Arbeit</term> im <term ref="#t837" type="subject">Wohnungsamt</term>.
+                    In dieser Nacht und dem darauf folgenden Tag wurden sämtliche Juden, die nicht bei der <orgName ref="#g438" type="ehri"
+                        >Wehrmacht</orgName> angestellt waren, <term ref="#t598" type="subject">verhaftet</term>. Und als ich im <term ref="#t837"
+                        type="subject">Wohnungsamt</term> erschien, erklärte man mir dort: <q>Wir dürfen Sie nicht mehr beschäftigen.</q> Die meisten
+                    Juden, die im <term ref="#t837" type="subject">Wohnungsamt</term>
+                    <term ref="#t943" type="subject">gearbeitet</term> hatten, waren gar nicht gekommen, nur einige wenige, die von dem Ganzen nichts
+                    gewusst hatten, so wie ich, stellten <pb facs="EHRI-ET-WL16560540_06.jpg" n="6"/> sich an diesem Morgen zur <term ref="#t943"
+                        type="subject">Arbeit</term> im <term ref="#t837" type="subject">Wohnungsamt</term> ein.</p>
+                <p>Ich war vollkommen ratlos. Ich war mir ganz klar darüber: wenn ich jetzt mit dem <term ref="#t824" type="subject">Kind</term> ins
+                        <placeName ref="#l562" type="camp">Ghetto</placeName> zurückgehe, sind wir verloren. Und da ich gar keinen andern Ausweg sah,
+                    schlich ich mich zu <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> und fragte sie, ob ich nicht wenigstens meine <term ref="#t824"
+                        type="subject">Tochter</term> auf ein paar Tage zu ihr geben dürfte. Ihre erste Reaktion war grosses Erstaunen. <q>Wie kann
+                        ich das tun?</q>, fragte sie mich. - <q>Ich weiss, dass Sie allein (in) Ihrer <term ref="#t837" type="subject">Wohnung</term>
+                        sind</q> sagte ich. Ich wusste, warum sie zögerte; sie war unsicher, weil in ihrem Haus nur <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutsche</placeName> wohnten. Sie erklärte schliesslich, sie müsste es sich
+                    überlegen.</p>
+                <p>Ich sass den ganzen Tag im Flur im <term ref="#t837" type="subject">Wohnungsamt</term> und wartete. Man wollte dort auch einige
+                    Juden für <term ref="#t943" type="subject">Schwarzarbeit</term> behalten. Ab und zu kam <term ref="#t825" type="subject"
+                        >Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> heraus, um nachzusehen, ob ich noch da sei. Die andern Juden, die auch dort
+                    sassen, fragten mich was ich tun würde. Ich hatte Angst ihnen etwas zu sagen, ich konnte ihnen auch nichts sagen. Irgendwie hatte
+                    ich das Gefühl, dass <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> mir schliesslich doch helfen würde, aber das durfte auch niemand
+                    wissen.</p>
+                <p>Gegen Abend kam <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> wieder heraus in den Flur und holte mich. <q>Ich muss das mit meinen
+                        Kollegen besprechen,</q> sagte sie. <q>Warten Sie.</q> Die Kollegen waren die zweite Sekretärin, mit der sie sehr befreundet
+                    war, und für die ich auch <term ref="#t836" type="subject">Kleider</term> geändert hatte, und ein männlicher Vorgesetzter. Nach
+                    einer längeren Zeit erschien sie von neuem und sagte zu mir: <q>Es ist gut. Nehmen Sie ihre <term ref="#t338" type="subject"
+                            >Armbinde</term> (mit dem <term ref="#t338" type="subject">Stern</term>) ab und werfen Sie sie weg. Dann gehen sie langsam
+                        und ruhig auf die Strasse und in der Richtung zur Strassenbahnhaltestelle. Meine Freundin und der Stadtrat kommen nach und
+                        werden vor Ihnen gehen, und ich gehe hinter Ihnen.</q></p>
+                <p>Auf diese Weise wurden wir zu Fuss durch die ganze Stadt und in die <term ref="#t837" type="subject">Wohnung</term> von <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> gebracht. Sie hatte nur <term ref="#t832" type="subject">Kartoffeln</term>
+                    zum <term ref="#t832" type="subject">essen</term> im <term ref="#t837" type="subject">Hause</term>, weil sie selbst fast immer in
+                    der <term ref="#t832" type="subject">Kantine</term> ass. Uns war das gleich, wir waren auch mit den <term ref="#t832"
+                        type="subject">Kartoffeln</term> glücklich.</p>
+                <p>So blieb ich 2 Wochen mit meiner <term ref="#t824" type="subject">Tochter</term> bei <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>. Ich erkundigte mich immerfort, ob die <q><term ref="#t550" type="subject"
+                            >Aktion</term></q> schon vorüber sei. Ich war in grosser <term ref="#t829" type="subject">Angst</term> um meine Eltern,
+                    ich wusste nicht, ob sie noch lebten. Erst nach 2 Wochen liess <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> mich gehen, - ich musste ins <placeName ref="#l562" type="camp"
+                        >Ghetto</placeName>, um nach den Eltern zu suchen. Sie lebten beide, hatten aber geglaubt, dass meine <term ref="#t824"
+                        type="subject">Tochter</term> und ich nicht mehr am Leben seien. Ich begab mich zurück in die <term ref="#t837" type="subject"
+                        >Wohnung</term> von <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> und erklärte ihr, dass ich unbedingt ins <placeName ref="#l562" type="camp"
+                        >Ghetto</placeName> zurück müsste. Ich konnte meine Eltern nicht dort allein lassen.</p>
+                <p>In der Zwischenzeit hatte man für die Juden neuen <term ref="#t338" type="subject">Armbinden</term> mit dem <term ref="#t338"
+                        type="subject">Stern</term> herausgegeben, mit einer Aufschrift von der <orgName ref="#g438" type="ehri">Wehrmacht</orgName>,
+                    einem W. <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> kannte einen <term ref="#t1428" type="subject">jüdischen Arzt</term> und
+                    den bat sie, ihr so eine <term ref="#t338" type="subject">Armbinde</term> für mich zu verschaffen. Der <term ref="#t1428"
+                        type="subject">jüdische Arzt</term> war sehr erstaunt, als er hörte, dass <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> eine Jüdin bei sich <term ref="#t262" type="subject">versteckt</term>
+                    hielt, und er bat sie, doch auch eine Verwandte von ihm aufzunehmen. Er bot ihr dafür sehr viel <term ref="#t934" type="subject"
+                        >Geld</term> an.</p>
+                <pb facs="EHRI-ET-WL16560540_07.jpg" n="7"/>
+                <p><term ref="#t825" type="subject">Frau</term><term ref="#t825" type="subject"> </term><term ref="#t825" type="subject">Wieth</term>
+                    kam und erzählte es uns. Sie war sehr empört. <q>“Ich tue das nicht für <term ref="#t934" type="subject">Geld</term>,</q> erklärte
+                    sie mir. <q>Wenn ich sie und das <term ref="#t824" type="subject">Kind</term> bei mir habe, habe ich ein reines Gewissen, - aber
+                        für <term ref="#t934" type="subject">Geld</term>, nein.</q></p>
+                <p>Sie protestierte immer wieder, wenn ich ihr sagte, ich müsste zurück ins <placeName ref="#l562" type="camp">Ghetto</placeName> zu
+                    meinen Eltern. <q>Also gut,</q> sagte sie eines Tages. <q>Gehen Sie, wenn Sie müssen. Aber <persName
+                            ref="#ehri_et_stern_abraham_lilith" type="ehri">Lilith</persName> (das war meine <term ref="#t824" type="subject"
+                            >Tochter</term>) bleibt bei mir. Die ist zu schade für die <orgName ref="#g350" type="ehri">Gestapo</orgName>. - Man wird
+                        Sie doch eines Tages <term ref="#t532" type="subject">erschiessen</term>, dann adoptiere ich <persName
+                            ref="#ehri_et_stern_abraham_lilith" type="ehri">Lilith</persName>.</q></p>
+                <p>Ich bekam also die neue <term ref="#t338" type="subject">Armbinde</term> mit ihrer Hilfe und begab mich zurück ins <placeName
+                        ref="#l562" type="camp">Ghetto</placeName>, und meine <term ref="#t824" type="subject">Tochter</term> blieb bei ihr. Aber
+                    trotz der <term ref="#t338" type="subject">Armbinde</term> war meine Lage sehr kompliziert. Der Besitz der <term ref="#t338"
+                        type="subject">Armbinde</term> sollte doch beweisen, dass man bei der <orgName ref="#g438" type="ehri">Wehrmacht</orgName>
+                    <term ref="#t943" type="subject">Arbeit</term> hatte, und ich hatte keine solche <term ref="#t943" type="subject">Arbeit</term>.
+                    Ich musste sie mir erst illegal beschaffen. Das tat ich sobald ich wieder im <placeName ref="#l562" type="camp">Ghetto</placeName>
+                    angelangt war, und fand auch welche in einer <term ref="#t929" type="subject">Fabrik</term>, wo man Pelze für die <orgName
+                        ref="#g438" type="ehri">Wehrmacht</orgName> nähte. Der Direktor dieser <term ref="#t929" type="subject">Fabrik</term> hatte
+                    viel Verständnis für die Juden und war immer sehr gut zu ihnen. Ich durfte auch meinen Vater mit in die <term ref="#t929"
+                        type="subject">Fabrik</term> nehmen. Hätte ich das nicht tun können, wäre er damals schon <term ref="#t532" type="subject"
+                        >umgebracht</term> worden. Er war 63 Jahre alt, ich erklärte er sei 55 und so kam er mit mir zur <term ref="#t943"
+                        type="subject">Arbeit</term> in der <term ref="#t929" type="subject">Fabrik</term>. Jeden Morgen verliessen wir mit einer
+                    Gruppe von 35 Juden das <placeName ref="#l562" type="camp">Ghetto</placeName>, um in die <term ref="#t929" type="subject"
+                        >Fabrik</term> zu gehen. Die Gruppen, die zur <term ref="#t943" type="subject">Arbeit</term> gingen, wurden dabei immer von
+                    einer <term ref="#t691" type="subject">Musikkapelle</term> angeführt, die aus Juden bestand, und die vergnügte <term ref="#t691"
+                        type="subject">Melodien</term> spielen musste. Es war jeden Morgen für mich die gleiche Qual und ich hatte das Gefühl, jeden
+                    Morgen etwas mehr die Nerven zu verlieren. Aber das war ja die Absicht der Nazis, sie trieben uns ganz systematisch zum Wahnsinn.
+                    Sie wollten unsere <term ref="#t555" type="subject">Nerven kaputt</term> machen. Täglich wurden aus den Gruppen, die zur <term
+                        ref="#t943" type="subject">Arbeit</term> gingen, hunderte herausgeholt und <term ref="#t532" type="subject">ermordet</term>.
+                    Man wusste am Morgen, wenn man das <placeName ref="#l562" type="camp">Ghetto</placeName> verliess, nie, ob man abends lebendig
+                    zurückkommen würde. So verschwanden zahllose Juden ins Nichts. Im <date when="1943-03">März 1943</date> nahmen sie mir den Vater
+                    am Eingang zum <placeName ref="#l562" type="camp">Ghetto</placeName>. Wir haben nie wieder von ihm gehört.</p>
+                <p>Jeden Samstag Abend schloss ich mich vorsichtig einer Gruppe von Juden, die zur <term ref="#t943" type="subject">Nachtarbeit</term>
+                    gingen, an. Im Dunkel auf der Strasse nahm ich vorsichtig meine <term ref="#t338" type="subject">Armbinde</term> ab und schlich
+                    mich davon und durch die ganze Stadt zu <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>. Dann brachte ich ihr während des Sonntags ihre <term ref="#t836"
+                        type="subject">Kleider</term> in Ordnung, denn nur so konnte ich gutmachen, was sie an meiner <term ref="#t824" type="subject"
+                        >Tochter</term> tat. Aus irgendwelchem Grunde liebte <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> gerade meine Näharbeit, und da ihr einziges Interesse <term ref="#t836"
+                        type="subject">Kleider</term> waren, nahm die <term ref="#t943" type="subject">Arbeit</term> nie ein Ende. Eins ihrer <term
+                        ref="#t837" type="subject">Zimmer</term> war voll mit Schränken mit <term ref="#t836" type="subject">Kleidungsstücken</term>.
+                    So verbrachte ich die Sonntage bei ihr. Und jeden Montag morgen um ½4 Uhr schlich ich mich wieder weg von <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> und durch die Stadt zurück ins <placeName ref="#l562" type="camp"
+                        >Ghetto</placeName>,- und zwar so, dass ich mich unbeobachtet an eine Gruppe Juden anschloss, die von der <term ref="#t943"
+                        type="subject">Nachtarbeit</term> zurückging ins <placeName ref="#l562" type="camp">Ghetto</placeName>. Im <placeName
+                        ref="#l562" type="camp">Ghetto</placeName>
+                    <pb facs="EHRI-ET-WL16560540_08.jpg" n="8"/> machte ich Kehrt und ging mit einer andern Gruppe, die zur Tagesarbeit in die <term
+                        ref="#t929" type="subject">Fabrik</term> ging, wieder zum <placeName ref="#l562" type="camp">Ghetto</placeName> heraus. Das
+                    Ganze war natürlich sehr gefährlich und <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> sagte mir immer und immer wieder, ich würde bestimmt eines Tages von der
+                        <orgName ref="#g350" type="ehri">Gestapo</orgName> ertappt werden, die Strassen waren voll von <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutschen</placeName>, <placeName ref="#ukraine" type="ehri"
+                        >Ukrainern</placeName> und <placeName ref="#republic-of-poland" type="ehri">Polen</placeName>, die mich wiedererkennen
+                    konnten, wenn ich auch sonst nicht auffiel, konnte mir doch jeder ansehen, dass ich sehr heruntergekommen und <term ref="#t569"
+                        type="subject">verhungert</term> aussah, wie die Juden im Vergleich zu allen andern <term ref="#t1207" type="subject"
+                        >Leuten</term> auf der Strasse.</p>
+                <p>So habe ich von <date when="1942-12">Dezember 1942</date> bis Ende <date when="1943-05">Mai 1943</date> jedes Wochenende
+                    zugebracht, ohne dass mir etwas zustiess.</p>
+                <p>Am <date when="1943-05-31">31. Mai</date> wurde verkündet: <q>Das <term ref="#t551" type="subject">Ghetto</term> wird am <date
+                            when="1943-06-01">1.Juni</date>
+                        <term ref="#t551" type="subject">liquidiert</term>. Alle darin noch befindlichen Juden müssen sich freiwillig ins <term
+                            ref="#t496" type="subject">KZ</term> melden.</q></p>
+                <p>Der Besitzer unserer <term ref="#t929" type="subject">Fabrik</term> versuchte noch einmal uns Juden, die bei ihm <term ref="#t943"
+                        type="subject">gearbeitet</term> hatten, zu helfen, sodass wir nicht ins <term ref="#t496" type="subject">KZ</term> brauchten.
+                    Er <term ref="#t1073" type="subject">verhandelte</term> mit der <orgName ref="#g350" type="ehri">Gestapo</orgName> und erklärte,
+                    dass wir 35 Juden bei ihm in der <term ref="#t929" type="subject">Fabrik</term>
+                    <term ref="#t837" type="subject">wohnen</term> könnten. Er versprach den <orgName ref="#g350" type="ehri">Gestapoleuten</orgName>,
+                    dass er jedem von ihnen einen besonders guten <term ref="#t836" type="subject">Ledermantel</term> illegal anfertigen würde und die
+                        <orgName ref="#g350" type="ehri">Gestapo</orgName> ging auch darauf ein. Nachdem sie aber ihre <term ref="#t836"
+                        type="subject">Mäntel</term> erhalten hatten, bestanden sie dann doch darauf, die Juden müssten die <term ref="#t929"
+                        type="subject">Fabrik</term> verlassen und ins <term ref="#t496" type="subject">KZ</term>.</p>
+                <p>Als ich das <placeName ref="#l562" type="camp">Ghetto</placeName> verlassen hatte, um in die <term ref="#t929" type="subject"
+                        >Fabrik</term> überzusiedeln, hatte man mir nicht erlaubt meine Mutter mitzunehmen. Sie hatte <term ref="#t493" type="subject"
+                        >Typhus</term> gehabt und <term ref="#t292" type="subject">Lungenentzündung</term> und war sehr schwach, hatte aber doch
+                    beides überstanden. So hatte ich sie nachts aus dem <placeName ref="#l562" type="camp">Ghetto</placeName> in die <term ref="#t929"
+                        type="subject">Fabrik</term>
+                    <term ref="#t266" type="subject">geschmuggelt</term>. Und nun sollten wir plötzlich doch ins <term ref="#t496" type="subject"
+                        >KZ</term> und der Direktor wurde beordert uns alle selber ins <term ref="#t496" type="subject">KZ</term> zu expedieren.</p>
+                <p>Ich wusste weder ein noch aus. Ich wusste, wenn ich mich jetzt verstecke, kann ich mich vielleicht in der Nacht zu <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> retten. Aber das würde heissen, dass ich meine Mutter allein ins <term
+                        ref="#t496" type="subject">KZ</term> gehen liess, und das konnte ich nicht übers Herz bringen. Sie mit zu <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> zu nehmen, war unmöglich, der Weg war viel zu weit und sie viel zu schwach.
+                    Ich sprach mit dem Direktor der <term ref="#t929" type="subject">Fabrik</term> und flehte ihn an, uns doch irgendwie zu helfen.
+                    Ich befand mich in dem Büro des Direktors während dieser Unterhaltung, und meine Mutter war irgendwo in einem der <term
+                        ref="#t929" type="subject">Fabriksräume</term>. Sie muss aber gefühlt haben, was in mir vorging. Ich hörte plötzlich einen
+                    grossen Lärm und Unruhe im Hof, dann kam jemand zu mir gelaufen: <q>Deine Mutter hat sich aus dem <term ref="#t217" type="subject"
+                            >Fenster gestürzt</term>.</q> Erst habe ich es garnicht erfasst, ich redete weiter mit dem Direktor, bis man wieder
+                    gelaufen kam und mich rief. Diesmal begriff ich. Ich rannte die Treppe hinunter in den Hof. Ich fand meine Mutter in einem Meer
+                    von <term ref="#t292" type="subject">Blut</term>, das eine <term ref="#t292" type="subject">Auge ausgelaufen</term> und die <term
+                        ref="#t292" type="subject">Schädeldecke kaputt</term> - aber bei voller Besinnung.</p>
+                <pb facs="EHRI-ET-WL16560540_09.jpg" n="9"/>
+                <p>Ich rief wie verrückt nach der <term ref="#t280" type="subject">Rettungsgesellschaft</term>, ich hatte in meiner Aufregung ganz
+                    vergessen, dass die Juden <term ref="#t339" type="subject">kein Recht hatten</term>, die <term ref="#t280" type="subject"
+                        >Rettungsgesellschaft</term> in Anspruch zu nehmen. Ich rief also dort an und bat man sollte sofort kommen. Als die Zeit
+                    verging und niemand erschien, lief ich um zu fragen, warum denn Keiner kommt. Da sagte man mir: <q>Die <term ref="#t280"
+                            type="subject">Rettungsgesellschaft</term> ist hier gewesen, aber wieder abgefahren, als man sagte, dass es sich um eine
+                        Jüdin handelt.</q></p>
+                <p>Inzwischen hatte der Direktor den Wagen bereitgestellt, auf dem seine Gruppe von Juden ins <term ref="#t496" type="subject"
+                        >KZ</term> abtransportiert werden sollte. Auf meine Bitten liess er eine Bahre hineinstellen, auf die man meine Mutter gelegt
+                    hatte. Und der Direktor befahl, dass man uns erst zum <placeName ref="#l562" type="camp">Ghetto</placeName> bringen sollte, zum
+                        <term ref="#t491" type="subject">Ghetto-Hospital</term>, und dort abliefern. Dann sollten die übrigen weiter zum KZ gefahren
+                    werden. Dieser Umstand hat mir das Leben gerettet.</p>
+                <p>Ich wusste, dass das <placeName ref="#l562" type="camp">Ghetto</placeName> am folgenden Tag <term ref="#t551" type="subject"
+                        >angezündet</term> werden sollte. Und ich wusste auch, dass meine Mutter wie wir alle immer grosse <term ref="#t829"
+                        type="subject">Angst</term> vor dem <term ref="#t491" type="subject">Ghetto Hospital</term> hatten, weil man dort sehr brutal
+                    war, und man die Kranken, die nicht zu retten waren, <term ref="#t532" type="subject">aus dem Fenster zu werfen
+                    pflegte</term>.</p>
+                <p>So sass ich auf dem Wagen neben meiner Mutter, die auch weiter bei vollem Bewusstsein war, trotzdem das <term ref="#t292"
+                        type="subject">Blut</term> unaufhörlich aus ihren Wunden strömte. <q>Ich muss Dich ins <term ref="#t491" type="subject"
+                            >Ghetto-Hospital</term> bringen,</q> sagte ich zu ihr. <q>Hast Du Angst?</q> Sie antwortete: <q>Ich habe keine
+                        Angst...</q></p>
+                <p>Ich war mir vollkommen klar darüber: meine Mutter hat <term ref="#t217" type="subject">versucht sich umzubringen</term>, um mich
+                    von ihr zu befreien, sodass ich frei war zu meinem <term ref="#t824" type="subject">Kind</term> zu gehen, und zu versuchen, uns zu
+                    retten.</p>
+                <p>Als wir im <term ref="#t491" type="subject">Hospital</term> ankamen, trugen wir meine Mutter hinein und stellten die Bahre in einen
+                    Baderaum. Alle Juden, die noch zum <term ref="#t491" type="subject">Hospital</term> gehört hatten, waren dabei es zu verlassen.
+                    Alle fragten mich, ob ich wahnsinnig sei mit meiner Mutter dorthin zurückzukommen. Im <term ref="#t491" type="subject"
+                        >Hospital</term> fand ich noch einen <term ref="#t1428" type="subject">Arzt</term> und keine Kranken. Man hatte sie alle in
+                    den letzten Tagen <term ref="#t532" type="subject">ermordet</term>. Irgendjemand versuchte, meine Mutter aus dem immer strömenden
+                        <term ref="#t292" type="subject">Blut</term> herauszuheben. Ich bat den <term ref="#t1428" type="subject">Arzt</term> ihr zu
+                    helfen. Er fuhr mich an: er hatte keine <term ref="#t285" type="subject">Medikamente</term> und nichts mehr. Ich bat ihn trotzdem
+                    immer wieder. Juden liefen hin und her aus dem <term ref="#t496" type="subject">Lager</term> heraus. Ich sah noch einmal in den
+                    Raum, wo meine Mutter lag. Sie sagte: <q>Gehe mit Gott: - Ich bleibe mit Gott. -</q></p>
+                <p>Ich schloss die Tür und suchte noch einmal den <term ref="#t1428" type="subject">Arzt</term>. Ich besass noch 200 <term ref="#t934"
+                        type="subject">Zloty</term>, die ich auf mir versteckt hatte. Die gab ich ihm. <q>Hier haben Sie, <term ref="#t1428"
+                            type="subject">Doktor</term>,</q> und ich bat ihn ein letzten Mal meiner Mutter irgendetwas zu geben, irgendetwas, das
+                    schnell wirkte. Er <pb facs="EHRI-ET-WL16560540_10.jpg" n="10"/> versprach es schliesslich, - ob er es tat, werde ich niemals
+                    wissen.</p>
+                <p>Dann lief ich hinunter und aus dem <term ref="#t491" type="subject">Hospital</term> und schloss mich an eine Gruppe von Juden an,
+                    die das <term ref="#t1428" type="subject">Ghetto</term> verliessen um ins <term ref="#t496" type="subject">KZ</term> zu gehen. Ich
+                    lief wie ein Automat nebenher. Ich war ganz verrückt, dachte gar nicht und lief ganz benommen und verzweifelt. Ich dachte nicht
+                    einen Augenblick daran, meine <term ref="#t338" type="subject">Armbinde</term> abzunehmen und zu versuchen zu meinem <term
+                        ref="#t824" type="subject">Kind</term> zu kommen. Durch einen Zufall lief ich die ganze Zeit neben einer jungen Verwandten von
+                    mir, einer Kusine. Sie redete ununterbrochen auf mich ein aber ich hörte gar nicht hin und lief weiter. Aber sie gab nicht nach.
+                    Immer von neuem sagte: <q>Geh weg. Du musst zu deinem <term ref="#t824" type="subject">Kind</term>. Lauf rasch. Geh.</q> Immer
+                    noch reagierte ich nicht, und meine Kusine redete weiter auf mich ein: <q>Du musst gehen. Rasch, sonst ist es zu spät.</q></p>
+                <p>Ich kann es nicht erklären, wie es plötzlich kam, und wie ich, als wir uns ganz kurz vor dem Tor zum <term ref="#t496"
+                        type="subject">KZ</term> befanden, wieder ganz automatisch den Impuls hatte, vorsichtig meine <term ref="#t338" type="subject"
+                        >Armbinde</term> abzustreifen, und in der Lasche verschwinden zu lassen. Ebenso automatisch machte ich mich von der Gruppe
+                    los, die weiter ging. Vor dem Tor zum <term ref="#t496" type="subject">KZ</term> standen die <placeName ref="#republic-of-poland"
+                        type="ehri">Polen</placeName> und <placeName ref="#ukraine" type="ehri">Ukrainer</placeName> und sahen voller Interesse zu,
+                    wie die Juden allein, ohne irgendwelche Bewachung, <q>freiwillig</q> sich ins <term ref="#t496" type="subject">KZ</term> begaben,
+                    in den <term ref="#t745" type="subject">Tod</term>....</p>
+                <p>Ich weiss auch nicht, wie ich noch einmal unbehelligt in das Haus und die <term ref="#t837" type="subject">Wohnung</term> von <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> gelangte. - <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> hatte ein paar Wochen früher ein jüdisches Ehepaar bei sich aufgenommen.
+                    Und als ich nun bei ihr eintraf und sie bat, bei ihr bleiben zu dürfen, waren wir 4 <term ref="#t1207" type="subject"
+                        >Menschen</term>, die sie <term ref="#t262" type="subject">versteckt hielt</term>. Das war im <date when="1943-06">Juni
+                        1943</date>.</p>
+                <p>Die Situation war sehr kompliziert, sowohl für <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> wie für uns. Es war uns entsetzlich ausser unserer eigenen Not, uns klar
+                    sein zu müssen, was <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> riskierte, um uns zu retten. Auch mussten wir <term ref="#t832"
+                        type="subject">essen</term>, und wir wollten <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> auf gar keinen Fall auch noch mit solchen Problemen belasten. Darum
+                    verkleidete ich mich als Bäuerin vom Lande, barfuss, und schlich mich aus dem <term ref="#t837" type="subject">Haus</term> um
+                    etwas zum <term ref="#t832" type="subject">essen</term> zu beschaffen. Es war nur wenig, denn alles kam vom <term ref="#t1051"
+                        type="subject">schwarzen Markt</term>, da wir keine <term ref="#t834" type="subject">Lebensmittelkarten</term> hatten. - In
+                    dem <term ref="#t837" type="subject">Haus</term> wohnten nur <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >Deutsche</placeName>, die natürlich alle wussten, dass <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> den ganzen Tag im <term ref="#t837" type="subject">Wohnungsamt</term>
+                    <term ref="#t943" type="subject">arbeitete</term>, und dass also die <term ref="#t837" type="subject">Wohnung</term> den Tag über
+                    leer stand. Wir wagten kaum aufzutreten. So verging eine Zeit, während der <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> und wir immer nervöser wurden.</p>
+                <p>Und dann erhielt <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> plötzlich eines Tages ein Telegramm aus <placeName ref="#amsterdam"
+                        type="ehri">Amsterdam</placeName>, von einem alten Freund von ihr, der ihr mitteilte, er hätte 2 Wochen Urlaub und würde
+                    kommen und sie besuchen. <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> war ganz ausser sich und erklärte, wir müssten verschwinden. <q>Gut</q>,
+                    sagte ich. Ich sah ihre schreckliche Nervosität und wollte sie zunächst beruhigen. <q>Ich werde versuchen <pb
+                            facs="EHRI-ET-WL16560540_11.jpg" n="11"/> eine Unterkunft für uns zu finden.</q> Es war mir aber ganz unmöglich.</p>
+                <p>Das jüdische Ehepaar - der Mann war <term ref="#t1428" type="subject">Apotheker</term> - besass <term ref="#t291" type="subject"
+                        >Zyankali</term>. Er schlug mir vor, das Gift mit uns zu teilen, damit wir uns alle vergiften könnten. Und ich sagte <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>, sie sollte unbesorgt sein, wir würden ihre <term ref="#t837"
+                        type="subject">Wohnung</term> verlassen und uns irgendwohin begeben, um <term ref="#t217" type="subject">Selbstmord</term> zu
+                    begehen. <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> protestierte heftig. <q>Ihr wisst ja nicht, wohin.</q> Auch hatte sie <term
+                        ref="#t829" type="subject">Angst</term>.</p>
+                <p>Wir setzten uns zusammen und machten einen Plan. Die <term ref="#t837" type="subject">Speisekammer</term> neben der <term
+                        ref="#t837" type="subject">Küche</term> wurde ausgeräumt. Und von nun ab sperrten wir uns immer darin ein, wenn <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> Besuch hatte. Früher waren wir immer in der <term ref="#t837"
+                        type="subject">Küche</term> geblieben, wo doch niemand hinkam. Ausserdem wurde beschlossen, dass während des Besuches von
+                        <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> Freund aus <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName>,
+                    der <term ref="#t1428" type="subject">Apotheker</term> und meine <term ref="#t824" type="subject">Tochter</term> in die <term
+                        ref="#t837" type="subject">Speisekammer</term> eingesperrt werden würden. Die <term ref="#t825" type="subject">Frau</term> des
+                        <term ref="#t1428" type="subject">Apothekers</term> würde offen von <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> als ihre Köchin ausgegeben, die auch dort wohnte. Und ich würde als die
+                    Schneiderin gehen, die tagsüber zu <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> kam um zu <term ref="#t943" type="subject">arbeiten</term> und abends nach
+                        <term ref="#t837" type="subject">Hause</term> ging. Ich musste so tun, als ob ich wegginge. Diese Rollen haben wir dann auch
+                    gespielt. Die Köchin wohnte offiziell bei <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> und schlief in der <term ref="#t837" type="subject">Küche</term>. Auf diese
+                    Weise konnte der Freund dann nicht abends in die <term ref="#t837" type="subject">Küche</term> gehen. Und ich sagte jeden Abend
+                    laut <q>adieu</q>, <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> begleitete mich bis an die <term ref="#t837" type="subject"
+                        >Wohnungstür</term>, und während sie diese laut auf und zu machte und so tat als ob sie weiter mit mir redete, schlich ich auf
+                    Zehenspitzen zurück in die <term ref="#t837" type="subject">Küche</term>. Wir schliefen alle vier in der <term ref="#t837"
+                        type="subject">Küche</term> auf dem Fussboden. D.h. in Wirklichkeit schliefen wir nicht viel. Wir waren immer füreinander
+                    unruhig, dass einer von uns irgendeinen verdächtigen Lärm machen könnte, im Schlaf reden oder gar schnarchen, und darum passten
+                    wir immer während aufeinander auf.</p>
+                <p>Tagsüber ging <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> wie immer zu ihrer <term ref="#t943" type="subject">Arbeit</term> im <term
+                        ref="#t837" type="subject">Wohnungsamt</term>. Und der Freund blieb zuhause. Er kam dann immerfort in die <term ref="#t837"
+                        type="subject">Küche</term>, um sich mit uns zu unterhalten. Der <term ref="#t1428" type="subject">Apotheker</term> und mein
+                        <term ref="#t824" type="subject">Kind</term> sassen am Boden in der <term ref="#t837" type="subject">Speisekammer</term>, ich
+                    hatte einen grossen Tisch vor die Tür zur <term ref="#t837" type="subject">Speisekammer</term> gestellt und breitete dort meine
+                    Näharbeit aus. Ich sprach wenig und wenn ich sprach nur sehr wenig und schlechtes <placeName ref="#federal-republic-of-germany"
+                        type="ehri">Deutsch</placeName>. Ich tat immer, als ob ich nicht verstände, was der Freund redete. Er redete stundenlang und
+                    hielt uns lange Vorträge über den <term ref="#t1080" type="subject">Krieg</term> und die zunehmenden <term ref="#t1105"
+                        type="subject">Bombardements</term> der <placeName ref="#england" type="ehri">Engländer</placeName>. Manchmal verliess ich die
+                    Küche und tat, als ob ich irgendetwas in einem der <term ref="#t837" type="subject">Zimmer</term> zu tun hätte,- dann rief ich
+                    ihn, um mir bei irgendeiner rasch ausgedachten <term ref="#t943" type="subject">Arbeit</term> dort zu helfen, und um ihn so aus
+                    der <term ref="#t837" type="subject">Küche</term> heraus zu bringen.</p>
+                <p>Da wir alle uns immer nur im Flüsterton unterhielten, hatte auch <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> sich daran gewöhnt, immer nur zu flüstern, wenn sie <term ref="#t837"
+                        type="subject">zuhause</term> war. Das war dem Freund aufgefallen. Er konnte es nicht begreifen, oft fuhr er sie deswegen an.
+                    Oder er kam zu mir heraus in <pb facs="EHRI-ET-WL16560540_12.jpg" n="12"/> die <term ref="#t837" type="subject">Küche</term>, um
+                    mich zu fragen, ob ich verstehen könnte, warum <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> so komisch flüsterte. Und warum sie so entsetzlich nervös sei. Ich blieb
+                    immer dabei, dass ich ihn kaum verstehen konnte und gab ihm in meinem gebrochenen <placeName ref="#federal-republic-of-germany"
+                        type="ehri">Deutsch</placeName> alle möglichen Gründe. So gingen die 2 Wochen schliesslich zu Ende und er reiste wieder zurück
+                    nach <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName>. Und wir waren wieder allein.</p>
+                <p>Ein neues Problem tauchte auf, als <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> zwei Wochen auf <term ref="#t752" type="subject">Urlaub</term> zu ihrer
+                    Mutter fahren sollte. Diesmal musste sie uns allein in der <term ref="#t837" type="subject">Wohnung</term> zurücklassen. Es blieb
+                    nichts anderes übrig als uns einzuschliessen, solange sie fort war. Wir konnten uns so gut wie gar nicht rühren, denn die <term
+                        ref="#t837" type="subject">Wohnung</term> war ja offiziell leer. Das <term ref="#t824" type="subject">Kind</term> durfte nicht
+                    niesen, wir durften nicht die Kette in der Toilette ziehen... Aber auch diesmal ging alles gut und als <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> vom <term ref="#t752" type="subject">Urlaub</term> zurückkam, war alles in
+                    Ordnung.</p>
+                <p>Aber <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> wurde immer unruhiger und immer nervöser. Wir taten, was wir nur konnten,
+                    um sie zu beruhigen, aber viel war das schliesslich nicht, da ja gerade wir die Ursache ihrer Unruhe waren. Wir verwöhnten sie,
+                    lasen ihr jeden Wunsch von den Augen ab und benahmen uns fast wie Sklaven, um sie zu bedienen und ihr behilflich zu sein. -
+                    Inzwischen hatte sie sich mit einem <orgName ref="#g438" type="ehri">Wehrmachtsoffizier</orgName> angefreundet, der sie oft
+                    besuchte. Er blieb aber immer in den vorderen <term ref="#t837" type="subject">Zimmern</term> und kam nie in die <term ref="#t837"
+                        type="subject">Küchenräume</term>.</p>
+                <p>Auf irgendeine unerklärliche Weise hatte der Freund in <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName> von dieser
+                    Freundschaft mit dem <orgName ref="#g438" type="ehri">Wehrmachtsoffizier</orgName> erfahren. Und so kam er eines Tages in wilder
+                    Eifersucht aus <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName> angereist, ohne vorher seine Ankunft mitzuteilen. Er
+                    läutete Sturm an der <term ref="#t837" type="subject">Wohnungstür</term>, wir erstarrten alle vor Schreck, denn wir glaubten, es
+                    sei die <orgName ref="#g350" type="ehri">Gestapo</orgName>. Wir vier verschwanden rasch in der <term ref="#t837" type="subject"
+                        >Speisekammer</term>, die wir hinter uns abschlossen. <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> ging langsam an die Tür, um uns Zeit zum Verschwinden zu geben. Der <term
+                        ref="#t826" type="subject">Mann</term> stürzte herein und lief sofort wie ein Wilder in der <term ref="#t837" type="subject"
+                        >Wohnung</term> herum, aber nicht auf der Suche nach uns, wie wir gedacht hatten, sondern auf der Suche nach dem
+                    vermeintlichen Nebenbuhler. Er rüttelte an der Tür der <term ref="#t837" type="subject">Speisekammer</term> und sah sogar durchs
+                    Schlüsselloch, um zu sehen ob der Nebenbuhler sich etwa dort versteckt hatte und - sah uns nicht. Es gab einen schrecklichen
+                    Auftritt, aber schliesslich gelang es <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> doch ihn zu beruhigen. Er hatte ja auch wirklich niemand gefunden. Und so
+                    fuhr er wieder ab.</p>
+                <p>Diesmal waren nicht nur wir mehr tot als lebendig, als wir wieder allein waren. <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> war wie von Sinnen, sie war vollkommen ausser sich und wollte <term
+                        ref="#t217" type="subject">Selbstmord</term> begehen. Und wir waren verzweifelt, weil wir ja die Schuld hatten an ihrem
+                    Zustand und nicht nur um unser eignes Leben zitterten, sondern auch um <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>. Es wurde immer komplizierter für uns sie zu beruhigen. Jedesmal, wenn
+                    jemand an der Haustür läutete, glaubte sie, es sei die <orgName ref="#g350" type="ehri">Gestapo</orgName>, sie wollte die Tür
+                    überhaupt nicht mehr öffnen, und es wurde immer schwerer sie <pb facs="EHRI-ET-WL16560540_13.jpg" n="13"/> zu überreden, nicht den
+                    Kopf zu verlieren.</p>
+                <p>Der Freund aus <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName> gab aber keine Ruhe. Er hatte sich mit <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieths</persName> Freundin aus dem <term ref="#t837" type="subject">Wohnungsamt</term> in
+                    Verbindung gesetzt, der zweiten Sekretärin, für die ich anfangs auch genäht hatte, und die seinerzeit, zusammen mit dem Stadtrat,
+                    von <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> um Rat befragt worden war, ob sie meine <term ref="#t824" type="subject"
+                        >Tochter</term> und mich bei sich aufnehmen sollte; und die dann schliesslich auch behilflich gewesen war, meine <term
+                        ref="#t824" type="subject">Tochter</term> und mich in die <term ref="#t837" type="subject">Wohnung</term> der <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> zu begleiten.</p>
+                <p>Diese Kollegin und Freundin von <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> hatte ihm also unter anderm berichtet, dass <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> das <term ref="#t824" type="subject">Kind</term> und mich seinerzeit
+                    beherbergt hatte. Und so erschien er wieder eines Tages vollkommen überraschend, und kaum, dass sie die Tür geöffnet hatte, begann
+                    er sie zu schlagen und brüllte dabei: <q>Ich weiss Alles: - Du hast eine Jüdin und ihr <term ref="#t824" type="subject"
+                            >Kind</term> hier <term ref="#t251" type="subject">versteckt</term> gehabt. - Du wirst in 8 Tagen das <orgName ref="#g681"
+                            type="ehri">Generalgouvernement</orgName> verlassen, sonst zeige ich Dich an.....</q></p>
+                <p><term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> begann zu weinen und überredete ihn schliesslich, mit ihr ins <term
+                        ref="#t837" type="subject">Zimmer</term> zu kommen, und nicht im Flur zu bleiben, wo alle Mitbewohner hören konnten, was er
+                    sagte. Im <term ref="#t837" type="subject">Zimmer</term> ging die Auseinandersetzung dann stundenlang weiter, während wir
+                    angsterfüllt in der <term ref="#t837" type="subject">Speisekammer</term> hockten. Und schliesslich ging er wieder weg.</p>
+                <p>Von nun an, bis zum <date when="1944-03">März 1944</date> lebten wir vier fast ausschliesslich in der <term ref="#t837"
+                        type="subject">Speisekammer</term>. - Und dann bekam <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> Order <placeName ref="#lviv" type="ehri">Lemberg</placeName> zu verlassen.
+                    Die <placeName ref="#federal-republic-of-germany" type="ehri">Deutschen</placeName> lösten vor den herannahenden <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName> die Verwaltung des <orgName ref="#g681" type="ehri"
+                        >Generalgouvernements</orgName> auf und <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> sollte mit der übrigen <term ref="#t1111" type="subject"
+                        >Beamtenschaft</term> zurück nach <placeName ref="#federal-republic-of-germany" type="ehri">Deutschland</placeName>. Nun galt
+                    es also für uns alle vier definitiv ein anderes <term ref="#t265" type="subject">Versteck</term> ausfindig zu machen.</p>
+                <p>Das jüdische Ehepaar, das mit uns <term ref="#t262" type="subject">versteckt</term> war, hatte Beziehungen mit dem <term
+                        ref="#t773" type="subject">griechisch-orthodoxen</term>, also dem <placeName ref="#ukraine" type="ehri"
+                        >ukrainischen</placeName>
+                    <term ref="#t728" type="subject">Kloster</term> in <placeName ref="#lviv" type="ehri">Lemberg</placeName>, und mit dem <term
+                        ref="#t731" type="subject">Metropoliten</term>
+                    <persName ref="#p4017786" type="ehri">Szeptycki</persName>, der schon etwa 60 Juden bei sich und in andern <term ref="#t728"
+                        type="subject">Klöstern</term>
+                    <term ref="#t251" type="subject">versteckt</term> hielt. Dabei handelte es sich vor allem um <term ref="#t735" type="subject"
+                        >Rabbinerfamilien</term>. Der <term ref="#t1428" type="subject">Apotheker</term> kannte diese und hatte seinen <term
+                        ref="#t824" type="subject">Sohn</term> dort mit <term ref="#t251" type="subject">versteckt</term>. Er und seine <term
+                        ref="#t825" type="subject">Frau</term> wandten sich also nun an <persName ref="#p4017786" type="ehri">Szeptycki</persName> mit
+                    der Bitte um Hilfe. Und <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> hatte darauf bestanden, dass sie dem <term ref="#t731" type="subject"
+                        >Metropoliten</term> die volle Wahrheit sagen sollten: sie müssten ihm klar machen, dass sie zusammen mit uns bei <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>
+                    <term ref="#t262" type="subject">versteckt</term> gewesen wären, und dass <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> ihn sehr bitten liess, dass er uns alle vier zu sich nähme. Anfangs bat sie
+                    darum, später insistierte sie. Ich wusste aber von Anfang an, dass dies sehr schwierig sein würde. Um in ein <placeName
+                        ref="#ukraine" type="ehri">ukrainisches</placeName>
+                    <term ref="#t728" type="subject">Kloster</term> aufgenommen zu werden, musste man über sehr gute Beziehungen und Empfehlungen
+                    verfügen. Das Ehepaar besass solche, mit dem <term ref="#t731" type="subject">Metropoliten</term> sowohl als auch mit diversen
+                        <term ref="#t728" type="subject">Klöstern</term>, die ihm unterstellt waren. Sie hatten nicht nur Empfehlungen, sondern auch
+                        <term ref="#t1137" type="subject">Papiere</term>,- ich aber besass weder das eine noch das andere.</p>
+                <pb facs="EHRI-ET-WL16560540_14.jpg" n="14"/>
+                <p>Darum sagte ich dem <term ref="#t1428" type="subject">Apotheker</term>, er sollte zunächst Alles tun, um sich und seine <term
+                        ref="#t825" type="subject">Frau</term> zu retten. Ich glaubte nicht einen Augenblick daran, dass es für mich dort die
+                    geringste Chance gäbe. Ich bat ihn nur, er möge ganz am Schluss, wenn es ihm gelungen war für sich und seine <term ref="#t825"
+                        type="subject">Frau</term> ein <term ref="#t837" type="subject">Obdach</term> zu finden, auch von meiner <term ref="#t824"
+                        type="subject">Tochter</term> und mir reden.</p>
+                <p>Trotz seiner Verbindungen mit dem <term ref="#t728" type="subject">Kloster</term> hatte das Ehepaar die allergrössten
+                    Schwierigkeiten akzeptiert zu werden und die Verhandlungen gingen wochenlang hin und her. Ich hatte keine Ahnung, was aus mir und
+                    meinem <term ref="#t824" type="subject">Kind</term> werden sollte und es war sehr schlimm, denn <term ref="#t825" type="subject"
+                        >Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> musste inzwischen damit beginnen, ihre Sachen einzupacken. Ich dachte
+                    damals immer, was für ein Glück es doch war, dass wir das <term ref="#t291" type="subject">Zyankali</term> hatten. Und dann
+                    geschah wieder ein Wunder: das Ehepaar hatte schliesslich doch den <term ref="#t731" type="subject">Metropoliten</term> dazu
+                    überredet, sie aufzunehmen. Und 24 Stunden genau, bevor sie unser <term ref="#t837" type="subject">Haus</term> verlassen wollten,
+                    ging die <term ref="#t731" type="subject">Äbtissin</term> des <term ref="#t728" type="subject">Klosters</term>, in dem die <term
+                        ref="#t825" type="subject">Frau</term>
+                    <term ref="#t263" type="subject">aufgenommen werden</term> sollte, darauf ein, auch meine <term ref="#t824" type="subject"
+                        >Tochter</term> und mich zu nehmen. Allerdings bestand sie darauf, wir müssten ebenfalls innerhalb von 24 Stunden in das <term
+                        ref="#t728" type="subject">Kloster</term> übersiedeln. Das war schwierig für mich, da ich <term ref="#t825" type="subject"
+                        >Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> versprochen hatte, bis zu ihrer Abreise bei ihr zu bleiben und ihr zu
+                    helfen. So blieb mir nichts anderes übrig als am nächsten Tag vor 11 Uhr mittags mein <term ref="#t824" type="subject">Kind</term>
+                    ins <term ref="#t728" type="subject">Kloster</term> zu bringen. Dort erklärte ich der <term ref="#t731" type="subject"
+                        >Äbtissin</term>, warum ich wieder zu <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> müsste und begab mich dann zurück in die <term ref="#t837" type="subject"
+                        >Wohnung</term>. Ich half ihr packen und brachte sie sogar an den <term ref="#t940" type="subject">Zug</term>. Dann ging auch
+                    ich ins <term ref="#t728" type="subject">Kloster</term>.</p>
+                <p>Ich konnte zwar kein <placeName ref="#ukraine" type="ehri">ukrainisch</placeName> sprechen, aber man war doch sehr gut zu uns.
+                    Meine <term ref="#t824" type="subject">Tochter</term> kam in ein Waisenhaus, das dem <term ref="#t728" type="subject"
+                        >Kloster</term> angeschlossen war. Und wieder war man glücklich, dass ich nähen konnte. Ich bekam sofort eine Nähmaschine und
+                    einen Haufen mit Näharbeit. So habe ich bis zum Ende des <term ref="#t1080" type="subject">Krieges</term> für die <term
+                        ref="#t327" type="subject">Waisenkinder</term> genäht. Wir bekamen auch gut und reichlich zu <term ref="#t832" type="subject"
+                        >essen</term> und begannen tatsächlich uns körperlich etwas zu erholen.</p>
+                <p>So ging eine längere Zeit, bis ich anfing zu merken, dass die <term ref="#t731" type="subject">Äbtissin</term> plötzlich weniger
+                    freundlich zu mir war, als am Anfang. Schliesslich sagte mir einer Tages eine Jüdin, die auch <term ref="#t251" type="subject"
+                        >versteckt</term> im <term ref="#t728" type="subject">Kloster</term> lebte, so wie nebenbei: <q>Die <term ref="#t731"
+                            type="subject">Äbtissin</term> will Dich nicht länger bei sich behalten, weil Du Dich nicht <term ref="#t740"
+                            type="subject">taufen</term> lässt.</q> Ich war sehr erschrocken, daran hatte ich überhaupt nicht gedacht. Es wurde mir
+                    dann erklärt, dass das von den <term ref="#t728" type="subject">Klostervorstehern</term> immer erwartet wurde, ohne dass sie
+                    selber davon sprachen. Obwohl ich keineswegs das war, was man mit einer <term ref="#t726" type="subject">frommen</term> Jüdin
+                    bezeichnet, hing ich doch an meinem Glauben und der Gedanke einer <term ref="#t740" type="subject">Taufe</term> war mir
+                    schrecklich. Ich habe damals nächtelang nicht schlafen können, bis ich mich dazu entschlossen hatte, meine <term ref="#t824"
+                        type="subject">Tochter</term> und mich <term ref="#t740" type="subject">taufen</term> zu lassen. Aber die Haltung der <term
+                        ref="#t731" type="subject">Äbtissin</term> wurde immer unangenehmer und so ging ich denn eines Tages zu ihr und erklärte, ich
+                    würde gern mein Kind und mich <term ref="#t740" type="subject">taufen</term> lassen. Die <term ref="#t731" type="subject"
+                        >Äbtissin</term> war sofort voller Interesse <pb facs="EHRI-ET-WL16560540_15.jpg" n="15"/> und änderte ihre Haltung im Nu. Ein
+                    Priester bekam den Auftrag meine <term ref="#t824" type="subject">Tochter</term> und mich zu unterrichten. Meiner <term
+                        ref="#t824" type="subject">Tochter</term> gefiel das ganz ausserordentlich, sie fand es alles wunderbar und war vollkommen
+                    glücklich und zufrieden. Mich aber liessen die seelischen Qualen auch weiterhin nicht schlafen. Und doch hatte ich keinen andern
+                    Ausweg, wenn ich dem <term ref="#t824" type="subject">Kind</term> und mir das Leben retten wollte. Eines Nachts träumte mir von
+                    meinem Vater. Im Traum fragte ich ihn, was ich tun sollte. Er antwortete mir sehr ruhig: <q>Tu es nur. Es ist das Richtige. Es
+                        gibt ja doch nur ein und denselben <term ref="#t724" type="subject">Gott</term>.</q> Danach war mir sehr viel leichter.</p>
+                <p>Eines Tages kam eine Nachricht von <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>, sie sei zurück in <placeName ref="#lviv" type="ehri">Lemberg</placeName>
+                    und wollte, dass wir alle vier wieder zu ihr kämen. Die <term ref="#t731" type="subject">Äbtissin</term> widersetzte sich dem aber
+                    ganz energisch. Die <term ref="#t825" type="subject">Frau</term> des <term ref="#t286" type="subject">Apothekers</term>, die sie
+                    nicht so sehr mochte, wollte sie gehen lassen, aber weder meine <term ref="#t824" type="subject">Tochter</term> noch mich. So
+                    blieben wir im <term ref="#t728" type="subject">Kloster</term>.</p>
+                <p>Während der Vorbereitung zur <term ref="#t740" type="subject">Taufe</term> mussten wir jeden Sonntag in die Messe gehen und die
+                        <term ref="#t773" type="subject">Kirche</term> befand sich in dem Bezirk, in dem wir früher gewohnt hatten, als mein <term
+                        ref="#t826" type="subject">Mann</term> und der Junge noch lebten. Ich hatte immer auf dem Weg zur <term ref="#t773"
+                        type="subject">Kirche</term> und zurück <term ref="#t829" type="subject">Angst</term>, dass man mich erkennen würde. Ich war
+                    wieder ordentlich gekleidet und sah auch wieder gepflegt und gut ernährt aus, es war also leicht, mich wieder zu erkennen. Auch
+                    gingen viele Leute, die mich früher gekannt hatten, in diese <term ref="#t773" type="subject">Kirche</term>. Und so merkte ich
+                    auch, wie mich eine <term ref="#t825" type="subject">Frau</term> eines Tages erkannte, und mir nach dem Gottesdienst bis zum <term
+                        ref="#t728" type="subject">Kloster</term> folgte. Ich meldete es sofort der <term ref="#t731" type="subject">Äbtissin</term>
+                    und wurde noch am selben Tag ins <term ref="#t316" type="subject">Waisenhaus</term> umgesiedelt.</p>
+                <p>Zu gleicher Zeit erklärte die <term ref="#t731" type="subject">Äbtissin</term> der <term ref="#t825" type="subject">Frau</term> des
+                        <term ref="#t286" type="subject">Apothekers</term>, es sei besser, wenn sie zu <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> zurückginge, da sie sie nicht mehr im <term ref="#t728" type="subject"
+                        >Kloster</term> behalten könnte. Es blieb der <term ref="#t825" type="subject">Frau</term> nichts anderes übrig, ich aber
+                    wurde erst abgesandt, um <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> um den <term ref="#t837" type="subject">Wohnungsschlüssel</term> zu bitten.
+                    Die Ehefrau blieb später in der <term ref="#t837" type="subject">Wohnung</term> von <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> auch nachdem diese wieder nach <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutschland</placeName> zurückbeordert worden war, denn in dem Augenblick
+                    räumten sämtliche <placeName ref="#federal-republic-of-germany" type="ehri">Deutsche</placeName> das <term ref="#t837"
+                        type="subject">Haus</term> und <placeName ref="#lviv" type="ehri">Lemberg</placeName>.</p>
+                <p>Als dann die <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russen</placeName> kamen, benahmen sie sich genau
+                    wie am Anfang durchaus korrekt. Kein Mensch behelligte uns, wir konnten kommen und gehen, wie wir wollten. Diesmal hatten wir
+                    allerdings wirklich das Gefühl, dass sie Engel seien, die uns <term ref="#t573" type="subject">befreiten</term>.</p>
+                <p>Bei meiner <term ref="#t740" type="subject">Taufe</term> bekam ich den Namen Maria.</p>
+                <p>Einige Zeit nach Ende des <term ref="#t1080" type="subject">Krieges</term> konnte ich durch eine <term ref="#t309" type="subject"
+                        >internationale Hilfsorganisation</term> meine <term ref="#t824" type="subject">Tochter</term> nach <placeName ref="#england"
+                        type="ehri">England</placeName> schicken. Ich <pb facs="EHRI-ET-WL16560540_16.jpg" n="16"/> gab ihr damals den Auftrag, sofort
+                    zu versuchen sich mit <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> in Verbindung zu setzen. Ich hatte die Adresse ihrer Eltern in <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutschland</placeName> und wollte gern wissen, ob sie am Leben sei und wie es
+                    ihr ging. Es ist meiner <term ref="#t824" type="subject">Tochter</term> auch gelungen, die Verbindung mit <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> herzustellen. Sie lebte, es ging ihr aber natürlich sehr schlecht. Als ich
+                    dann 1 Jahr nach meiner <term ref="#t824" type="subject">Tochter</term> nach <placeName ref="#england" type="ehri"
+                        >England</placeName> kam, habe ich versucht <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>
+                    <term ref="#t832" type="subject">Lebensmittel</term> und <term ref="#t836" type="subject">Kleider</term> zu beschaffen. Dies
+                    geschah mit Hilfe einer <placeName ref="#united-states" type="ehri">amerikanischen</placeName>
+                    <term ref="#t303" type="subject">Hilfsorganisation</term>, der ich den Fall erklärte. Man begann sich für <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> zu interessieren und zunächst konnte sie uns dann eines Tages in <placeName
+                        ref="#england" type="ehri">England</placeName> besuchen. Es war ein sehr aufregendes Wiedersehen. Damals erklärte <term
+                        ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName>, sie wollte auf keinen Fall in <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutschland</placeName> bleiben. Und mit Hilfe der gleichen <placeName
+                        ref="#united-states" type="ehri">amerikanischen</placeName>
+                    <term ref="#t303" type="subject">Hilfsorganisation</term> habe ich es dann auch tatsächlich durchsetzen können, dass sie nach den
+                        <placeName ref="#united-states" type="ehri">USA</placeName> kam. Sie bekam dort eine Stellung und ist dortgeblieben. Nach
+                        <placeName ref="#federal-republic-of-germany" type="ehri">Deutschland</placeName> will sie nicht mehr zurück. Sie <term
+                        ref="#t943" type="subject">arbeitet</term> bei einer jüdischen <term ref="#t819" type="subject">Familie</term>, deren <term
+                        ref="#t837" type="subject">Haushalt</term> sie leitet. Ihre Liebe für meine <term ref="#t824" type="subject">Tochter</term>
+                    hat sich nicht geändert. Als meine <term ref="#t824" type="subject">Tochter</term> vor 2 Jahren heiratete und mit ihrem <placeName
+                        ref="#england" type="ehri">englischen</placeName> Mann nach <placeName ref="#new-york-city" type="ehri">New York</placeName>
+                    übersiedelte, war <term ref="#t825" type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> sofort bereit den beiden jungen Leuten zu helfen. Ich selber heiratete vor
+                    1½ Jahren meinen jetzigen Mann und muss in <placeName ref="#england" type="ehri">England</placeName> bleiben. <term ref="#t825"
+                        type="subject">Frau</term>
+                    <persName ref="#p4018223" type="ehri">Wieth</persName> hat die Absicht die <placeName ref="#united-states" type="ehri"
+                        >amerikanische</placeName>
+                    <term ref="#t1147" type="subject">Staatsbürgerschaft</term> zu erwerben und wird wohl in nächster Zeit die entsprechenden Papiere
+                    erhalten.</p>
+                <p><date when="1957-04">April 1957</date>, <placeName ref="#london" type="ehri">London</placeName> (gez.)<persName
+                        ref="#ehri_et_stern_abraham_julia_maria" type="ehri">Julia Stern-Abraham</persName></p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-WL16560540_02.jpg" n="2"/>
+                <p>Interview with <persName ref="#ehri_et_stern_abraham_julia_maria" type="ehri">Julia (Maria) Stern - Abraham</persName> - <placeName
+                        ref="#london" type="ehri">London</placeName></p>
+                <p>Experiences in <placeName ref="#lviv" type="ehri">Lemberg</placeName> and the <placeName ref="#l562" type="camp">ghetto</placeName>
+                    there and during the <term ref="#t633" type="subject">German occupation</term>.</p>
+                <p>Being <term ref="#t214" type="subject">saved</term> by a <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >German</placeName>
+                    <term ref="#t1111" type="subject">Civil Servant</term> and a <placeName ref="#ukraine" type="ehri">Ukranian</placeName>
+                    <term ref="#t728" type="subject">convent</term>.</p>
+                <p>Before the <term ref="#t1080" type="subject">war</term>, I lived with my husband and two <term ref="#t824" type="subject"
+                        >children</term> in <placeName ref="#krakow" type="ehri">Krakow</placeName>, <placeName ref="#republic-of-poland" type="ehri"
+                        >Poland</placeName>. My husband was a <term ref="#t930" type="subject">Bank</term> Manager and I, myself, <term ref="#t930"
+                        type="subject">studied</term> to be a tailor in my youth and had a fashion salon, which went very well.</p>
+                <p>In my youth, I insisted on <term ref="#t1134" type="subject">learning</term> a <term ref="#t933" type="subject">trade</term> and
+                        <term ref="#t1134" type="subject">studied</term> to be a tailor. I was actually a fervent <term ref="#t907" type="subject"
+                        >Zionist</term> and wanted to <term ref="#t203" type="subject">emigrate</term> to <placeName ref="#state-of-israel"
+                        type="ehri">Israel</placeName>. In order to do this, I needed a practical <term ref="#t933" type="subject">trade</term>. My
+                    parents, however, were very much against it. They were not <term ref="#t907" type="subject">Zionists</term>. They were also not
+                    overly <q><term ref="#t726" type="subject">pious</term></q> Jews, but were what I would describe as <q><term ref="#t726"
+                            type="subject">good</term></q> Jews. I, thus, visited a <term ref="#t1134" type="subject">technical college</term> and
+                    learned everything about tailoring and I was also a teacher for a few years at the same <term ref="#t1134" type="subject"
+                        >college</term> - This latter profession would prove very beneficial to me during the <term ref="#t632" type="subject"
+                        >occupation</term>.</p>
+                <p>A day before the outbreak of <term ref="#t1080" type="subject">war</term>, we left <placeName ref="#krakow" type="ehri"
+                        >Krakow</placeName> to resettle in <placeName ref="#lviv" type="ehri">Lemberg</placeName>, where my parents lived. I remained
+                    there until the end of the <term ref="#t1080" type="subject">war</term>.</p>
+                <p>During the first two years of the <term ref="#t1080" type="subject">war</term>, <placeName ref="#lviv" type="ehri"
+                        >Lemberg</placeName> formed part of the <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russian</placeName>
+                    zone of <term ref="#t632" type="subject">occupation</term>… that means: <term ref="#t632" type="subject">occupied</term> by the
+                        <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russians</placeName>. Nothing happened to us during this
+                    time and I may say explicitly that the <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russians</placeName>
+                    behaviour was beyond reproach. We could pursue our <term ref="#t933" type="subject">trades</term>. My husband <term ref="#t943"
+                        type="subject">worked</term> once a week at a <term ref="#t930" type="subject">bank</term> and I as a Tailor. Our <term
+                        ref="#t824" type="subject">children</term>, a <term ref="#t824" type="subject">daughter</term> of nine years and a <term
+                        ref="#t824" type="subject">son</term> of five attended <term ref="#t1134" type="subject">school</term>. Apart from that, even
+                    though a <term ref="#t1080" type="subject">war</term> was on, that we were <term ref="#t632" type="subject">occupied</term> by a
+                        <term ref="#t1077" type="subject">foreign army</term> and that we considered the <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">Russians</placeName> invaders and did not love our enemy…, nothing
+                    disturbed our existence.</p>
+                <p>During this time, many <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> Jews were <term ref="#t636"
+                        type="subject">kidnapped</term> and taken to <placeName ref="#siberia" type="ehri">Siberia</placeName>. These were those Jews
+                    who had decided to cross the border into the <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName> zone or
+                    had attempted to do so <term ref="#t234" type="subject">illegally</term>. They were classified as unreliable and <term ref="#t521"
+                        type="subject">transported</term> to <placeName ref="#siberia" type="ehri">Siberia</placeName>. As we were not of such a mind
+                    to <term ref="#t203" type="subject">emigrate</term> from the <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russian</placeName>
+                    <term ref="#t632" type="subject">occupied</term> zone into the <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >German</placeName>, we were left alone. We were given <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russian</placeName>
+                    <term ref="#t1141" type="subject">passports</term> and nothing more.</p>
+                <p>When I now think about it, what we later experienced and suffered at the hands of the <placeName ref="#federal-republic-of-germany"
+                        type="ehri">Germans</placeName>, I can only say that it was not clear to us at the time that relatively the <placeName
+                        ref="#union-of-soviet-socialist-republics" type="ehri">Russians</placeName> behaved like angels.</p>
+                <pb facs="EHRI-ET-WL16560540_03.jpg" n="3"/>
+                <p>In <date when="1941-06">June 1941</date>, the <placeName ref="#federal-republic-of-germany" type="ehri">Germans</placeName> came
+                    and the <term ref="#t642" type="subject">persecution of the Jews</term> began immediately. This would not have been possible had
+                    the <placeName ref="#ukraine" type="ehri">Ukranian</placeName> and <placeName ref="#republic-of-poland" type="ehri"
+                        >Polish</placeName> populations not gone along with it. Had they not done this, the <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Germans</placeName> would first of all have been forced to find out who was a
+                    Jew and where they lived. The <placeName ref="#ukraine" type="ehri">Ukranians</placeName> and <placeName ref="#republic-of-poland"
+                        type="ehri">Poles</placeName> knew this and immediately informed the <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >German</placeName>
+                    <term ref="#t632" type="subject">occupiers</term>, so that no-one needed to wait for <term ref="#t532" type="subject"
+                        >murder</term> and <term ref="#t642" type="subject">persecution</term>.</p>
+                <p>Immediately after the <term ref="#t1101" type="subject">invasion</term> of the <placeName ref="#federal-republic-of-germany"
+                        type="ehri">Germans</placeName>, the Jews were ordered into so-called <term ref="#t508" type="subject">labour camps</term>,
+                    where the distribution of so-called <q><term ref="#t943" type="subject">work</term></q> began. To this, belonged, for example,
+                    cleaning of the <term ref="#t837" type="subject">barracks</term> for <term ref="#t825" type="subject">women</term>. <term
+                        ref="#t824" type="subject">Mothers</term>’ were not permitted to take their <term ref="#t824" type="subject">daughters</term>
+                    to this <term ref="#t943" type="subject">work</term>, and <term ref="#t826" type="subject">fathers</term>’, their <term
+                        ref="#t824" type="subject">sons</term>. My husband <term ref="#t1136" type="subject">registered</term> himself as a carpenter
+                    as, at the time, it was assumed amongst the Jews, that Jews with practical <term ref="#t933" type="subject">trades</term> would
+                    not be <term ref="#t518" type="subject">deported</term>. It was in this way that I took my <term ref="#t824" type="subject"
+                        >daughter</term> and my husband our small son to <term ref="#t943" type="subject">work</term>. The <term ref="#t943"
+                        type="subject">work</term> never went by without <term ref="#t345" type="subject">beatings and brutality</term>. We received
+                    no <term ref="#t934" type="subject">pay</term> and nothing to <term ref="#t832" type="subject">eat</term>. In order to keep
+                    ourselves alive, we furtively sold jewellery and other items belonging to our parents. This was, of course, strictly forbidden,
+                    but gentile <placeName ref="#republic-of-poland" type="ehri">Poles</placeName> risked <term ref="#t653" type="subject"
+                        >punishment</term>, because they could buy the most beautiful objects for a song in this way. With this <term ref="#t934"
+                        type="subject">money</term>, we bought <term ref="#t1051" type="subject">black market</term>
+                    <term ref="#t832" type="subject">food</term>. Even this was, naturally, forbidden.</p>
+                <p>In spring <date when="1942">1942</date>, the so-called <term ref="#t1173" type="subject">resettlements</term> began and nobody knew
+                    that it concerned <term ref="#t623" type="subject">evacuation</term> into the <term ref="#t499" type="subject">gas chambers</term>
+                    of <placeName ref="#l41" type="camp">Belzec</placeName>. At the time, 15-20,000 Jews with <term ref="#t824" type="subject"
+                        >children</term> went there. Even I was trapped with my husband and <term ref="#t824" type="subject">children</term> in the
+                        <term ref="#t1134" type="subject">school</term> which served as a <term ref="#t616" type="subject">detention</term> centre and
+                    we waited for <term ref="#t518" type="subject">deportation</term>. As a result of a coincidence that was never really explained,
+                    we were brought out of the <term ref="#t1134" type="subject">school</term> by the <q><orgName ref="#g512" type="ehri">Council of
+                            Jewish Elders</orgName></q> and sent back to our already cordoned-off <term ref="#t837" type="subject">apartment</term> by
+                    the <orgName ref="#g350" type="ehri">Gestapo</orgName>. We had spent a day and a night in the <term ref="#t616" type="subject"
+                        >detention</term> centre. Our parents, who lived in another part of <placeName ref="#lviv" type="ehri">Lemberg</placeName>
+                    were, at this time, left alone. We decided from now on not to let our <term ref="#t824" type="subject">children</term> onto the
+                    streets alone.</p>
+                <p>In <date when="1942-08">August 1942</date>, the first large-scale <q><term ref="#t550" type="subject">operation</term></q> took
+                    place. At the time, the <orgName ref="#g429" type="ehri">SS</orgName> put a special stamp on the <term ref="#t635" type="subject"
+                        >Jewish permit</term>. It was said that, those who had a stamp on their <term ref="#t1144" type="subject">card</term>, would
+                    not be <q><term ref="#t575" type="subject">resettled</term></q>. My husband had such a stamp and felt very secure because of it. I
+                    did not have such a stamp. Therefore, we decided that he would take the <term ref="#t824" type="subject">children</term> and I
+                    would seek a <term ref="#t265" type="subject">hiding place</term>.</p>
+                <p>We did not believe in the <term ref="#t532" type="subject">killings</term> and <term ref="#t1207" type="subject">people</term>
+                    spoke constantly of <q><term ref="#t575" type="subject">resettlement</term></q>. Continuously during the day and particularly at
+                    night, <term ref="#t522" type="subject">trains</term> departed with Jews…, since that time, <pb facs="EHRI-ET-WL16560540_04.jpg"
+                        n="4"/> I cannot bear the sound of <term ref="#t940" type="subject">trains</term>.</p>
+                <p>We then later found out that some of the <term ref="#t521" type="subject">transports</term> went directly to <placeName ref="#l42"
+                        type="camp">Bergen-Belsen</placeName>. Only the younger people were initially <term ref="#t518" type="subject">deported</term>
+                    to the various <term ref="#t496" type="subject">concentration camps</term>, where they were slowly <term ref="#t532"
+                        type="subject">killed</term>.</p>
+                <p>We looked for a <term ref="#t265" type="subject">hiding place</term> for me and found one in the <term ref="#t837" type="subject"
+                        >house</term> next door. There, a Jewish <term ref="#t825" type="subject">woman</term> had a hat shop, which had, naturally,
+                    long since stopped <term ref="#t933" type="subject">trading</term> and within this closed shop the owner lived with her
+                    sister-in-law and niece. I asked her if she would allow me to <term ref="#t262" type="subject">hide</term> in this shop. We could
+                    not think of a better <term ref="#t265" type="subject">hiding place</term>. The owner did not want me to bring my <term
+                        ref="#t824" type="subject">children</term> with me and, as we did not believe that anything would happen to my husband and
+                        <term ref="#t824" type="subject">children</term>, it was agreed that I would move into the shop and that, each morning before
+                    going to <term ref="#t943" type="subject">work</term>, my husband would give my <term ref="#t832" type="subject">food</term> to my
+                        <term ref="#t824" type="subject">daughter</term> in the shop on my behalf. He would then collect her in the evening.</p>
+                <p>At the time, I spent the whole day at the keyhole of the locked shop door and observed what went on in the street. I saw how my
+                    husband went to <term ref="#t943" type="subject">work</term> every morning with our <term ref="#t824" type="subject">son</term>,
+                    and saw them return in the evening. I also saw the <orgName ref="#g350" type="ehri">Gestapo</orgName> and the leading away of the
+                    Jews.</p>
+                <p>On the afternoon of the <date when="1942-08-05">5th of August</date>, it was the fifth day of the <q><term ref="#t550"
+                            type="subject">operation</term></q>, one of the <term ref="#t825" type="subject">womens</term>’ brothers came, who had
+                        <term ref="#t262" type="subject">hidden</term> me and said <q>It’s terrible today! Today, they’re taking the <term ref="#t824"
+                            type="subject">children</term>!</q></p>
+                <p>I got a terrible shock and begged her brother to get a message to my husband from me that he should <term ref="#t262"
+                        type="subject">hide</term> our <term ref="#t824" type="subject">children</term>, but it was already too late!</p>
+                <p>From the keyhole, I could only see what happened directly in front of the <term ref="#t837" type="subject">house</term>. And, upon
+                    hearing the <orgName ref="#g350" type="ehri">Gestapo</orgName> and seeing them pass by, I did not know that they had gone into the
+                        <term ref="#t837" type="subject">house</term> next-door. We could hear how a member of the <orgName ref="#g429" type="ehri"
+                        >SS</orgName> asked the Landlady for the key to the shop. The landlady did not have the key, but a neighbour said that she had
+                    one and went to get it. The <orgName ref="#g429" type="ehri">SS</orgName>
+                    <term ref="#t826" type="subject">man</term> put it into the lock of the door leading to our <term ref="#t265" type="subject"
+                        >hiding place</term>, but the lock did not <term ref="#t943" type="subject">work</term> properly. We all stood paralysed with
+                        <term ref="#t829" type="subject">fear</term>. He shook the door and pulled the bell cord up and down, but the door did not
+                    open. One kick with his <term ref="#t836" type="subject">boot</term> would have sufficed to kick it in, but this did not happen.
+                    The <orgName ref="#g429" type="ehri">SS</orgName>
+                    <term ref="#t826" type="subject">man</term> turned around and left without having opened the door.</p>
+                <p>We were all still as if possessed. I heard a <term ref="#t824" type="subject">little girl</term> say loudly to the Landlady outside
+                    the <term ref="#t837" type="subject">house</term> next-door <q>They took Herr <persName ref="#ehri_et_stern" type="ehri"
+                            >Stern</persName> and little <persName ref="#ehri_et_stern_uri" type="ehri">Uri</persName> from our <term ref="#t837"
+                            type="subject">house</term>!</q> And, as the landlady was hard of hearing, she repeated the sentence once more even
+                    louder.</p>
+                <p>It was in this way that I learnt that they had taken my husband and <term ref="#t824" type="subject">child</term>.</p>
+                <pb facs="EHRI-ET-WL16560540_05.jpg" n="5"/>
+                <p>I never heard from them again. When it was dark, I wanted to go onto the street to look for them. The Jewish shopkeeper was very
+                    friendly. The sister-in-law and niece fainted after the affair with the <orgName ref="#g429" type="ehri">SS</orgName>
+                    <term ref="#t826" type="subject">man</term> at the door. They are now all <term ref="#t745" type="subject">dead</term>. I spent 14
+                    days wandering the streets at the time and tried to find out anything I could, but it was in vain.</p>
+                <p>My parents were still alive. They were, along with 120 others, in <term ref="#t262" type="subject">hiding</term> in an attic. At
+                    this time, the <placeName ref="#federal-republic-of-germany" type="ehri">Germans</placeName> had <term ref="#t532" type="subject"
+                        >killed</term> 40,000 Jews. Later, a <placeName ref="#l562" type="camp">ghetto</placeName> was opened. All Jews had to go
+                    there <q>voluntarily</q>. It was a very small and cramped <placeName ref="#l562" type="camp">ghetto</placeName>. We lived 8 <term
+                        ref="#t1207" type="subject">people</term> to a formerly very small <term ref="#t837" type="subject">commercial
+                    premises</term>. I had my parents with me there, who only there learned of the disappearance of my husband and <term ref="#t824"
+                        type="subject">son</term>.</p>
+                <p>We all had to live inside the <placeName ref="#l562" type="camp">ghetto</placeName> and <term ref="#t943" type="subject"
+                        >work</term> outside it. About six weeks after the <q><term ref="#t550" type="subject">operation</term></q> I found <term
+                        ref="#t943" type="subject">work</term> as a tailor for two secretaries from the <placeName ref="#federal-republic-of-germany"
+                        type="ehri">German</placeName>
+                    <term ref="#t837" type="subject">Housing Office</term>. The first secretary was called <persName ref="#p4018223" type="ehri"
+                        >Irmgard Wieth</persName>. She was about 30 years old and came from <placeName ref="#strasbourg" type="ehri"
+                        >Strasbourg</placeName> where her father was a <term ref="#t842" type="subject">teacher</term> at the <term ref="#t1134"
+                        type="subject">grammar school</term>. She was very enthusiastic to have found a good tailor and spoke to me often. She also
+                    enquired as to what had happened to my husband and <term ref="#t824" type="subject">child</term>, whereupon she said <q>Why did
+                        you not <term ref="#t262" type="subject">hide</term> the <term ref="#t824" type="subject">child</term>?</q> At the time, I
+                    said to myself that she had to be a kind-hearted person, who sympathised and thought that I would possibly turn to her in an
+                    emergency.</p>
+                <p>Like all <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName>
+                    <term ref="#t1111" type="subject">civil servants</term>, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was very good
+                    at general management. She lived in a very nice <term ref="#t837" type="subject">one-bedroom apartment</term> with a <term
+                        ref="#t837" type="subject">kitchen</term> and <term ref="#t837" type="subject">bath</term>. She was supplied with considerable
+                    quantities of <term ref="#t832" type="subject">food</term> and <term ref="#t836" type="subject">clothes</term> in particular.
+                    These were <term ref="#t836" type="subject">clothes</term> which had been taken from Jews. It was these <term ref="#t836"
+                        type="subject">clothes</term> which I had to alter for her.</p>
+                <p>In <date when="1942-11">November 1942</date>, a second <q><term ref="#t550" type="subject">operation</term></q> began. In the very
+                    first night, I coincidentally did not find myself in the <placeName ref="#l562" type="camp">ghetto</placeName>, but my parents and
+                    my <term ref="#t824" type="subject">daughter</term> were there. I had spent the whole day <term ref="#t943" type="subject"
+                        >working</term> at a <placeName ref="#republic-of-poland" type="ehri">Polish</placeName>
+                    <term ref="#t825" type="subject">lady’s</term>. It was late and I said I wanted to go. She said that I had better stay the night
+                    there. Jews were not allowed on the streets at night, so I stayed. Very early, it was still dark, my <term ref="#t824"
+                        type="subject">daughter</term> came. She had <term ref="#t204" type="subject">run away</term> from the <placeName ref="#l562"
+                        type="camp">ghetto</placeName>, so I took my <term ref="#t824" type="subject">daughter</term> to <term ref="#t943"
+                        type="subject">work</term> with me in the <term ref="#t837" type="subject">Housing Office</term>. During the night and the
+                    following day, many Jews were <term ref="#t598" type="subject">arrested</term>, who were not <term ref="#t943" type="subject"
+                        >employed</term> in the <foreign xml:lang="de"><orgName ref="#g438" type="ehri">Wehrmacht</orgName></foreign> and, as I turned
+                    up at the <term ref="#t837" type="subject">Housing Office</term>, I was told <q>We are no longer allowed to <term ref="#t943"
+                            type="subject">employ</term> you!</q></p>
+                <p>Most of the Jews, who had <term ref="#t943" type="subject">worked</term> at the <term ref="#t837" type="subject">Housing
+                        Office</term>, did not go, only a very few, who knew nothing of the matter, like me,</p>
+                <pb facs="EHRI-ET-WL16560540_06.jpg" n="6"/>
+                <p>went to <term ref="#t943" type="subject">work</term> at the <term ref="#t837" type="subject">Housing Office</term> that
+                    morning.</p>
+                <p>I was totally helpless. It was quite clear to me, if I returned to the <placeName ref="#l562" type="camp">ghetto</placeName> now
+                    with my <term ref="#t824" type="subject">daughter</term>, we would be <term ref="#t532" type="subject">killed</term>. And, as I
+                    saw no other way out, I crept to Frau <persName ref="#p4018223" type="ehri">Wieth</persName> and asked her if I could not, at
+                    least, give her my <term ref="#t824" type="subject">daughter</term> for a few days. Her first reaction was great surprise. <q>How
+                        can I do that?</q> She asked me. <q>I know that you are alone in your <term ref="#t837" type="subject">apartment</term>!</q> I
+                    said that I knew why she hesitated; she was uncertain, as only <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >Germans</placeName> lived in the block. Finally, she explained that she would have to think about it.</p>
+                <p>For the whole day, I sat in the corridor of the <term ref="#t837" type="subject">Housing Office</term> and waited. Some Jews were
+                    needed for <term ref="#t1051" type="subject">black market</term>
+                    <term ref="#t943" type="subject">work</term>. Now and again, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> appeared
+                    in order to see if I was still there. The other Jews, who were sitting there, asked me what I was going to do. I was scared to say
+                    anything to them. I could not say anything to them. Somehow, I had the feeling that Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName> would help me in the end, but nobody should know this.</p>
+                <p>Around about evening, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> appeared again in the corridor and collected me.
+                        <q>I must speak with my colleague</q> she said. <q>Please wait!</q> The colleague, the second secretary, with whom she was
+                    close friends, and for whom I had also altered <term ref="#t836" type="subject">clothes</term>, as well as for a male supervisor.
+                    After quite a long time, she appeared once more and said to me <q>It’s OK!</q> Take your <term ref="#t338" type="subject"
+                        >armband</term> off (with the <term ref="#t338" type="subject">yellow star of David</term>) and throw it away. Then, walk
+                    slowly and calmly along the street towards the tram stop. My friend and the Town Councillor will go before you and I will
+                    follow.</p>
+                <p>It was in this manner that we walked through the whole town and were brought into Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth’s</persName>
+                    <term ref="#t837" type="subject">apartment</term>. She only had <term ref="#t832" type="subject">potatoes</term> to <term
+                        ref="#t832" type="subject">eat</term> in her <term ref="#t837" type="subject">apartment</term>, as she almost always <term
+                        ref="#t832" type="subject">ate</term> in the <term ref="#t832" type="subject">canteen</term> at <term ref="#t943"
+                        type="subject">work</term>. This was all the same to us. We were happy with the <term ref="#t832" type="subject"
+                        >potatoes</term>.</p>
+                <p>I stayed at Frau <persName ref="#p4018223" type="ehri">Wieth’s</persName> for two weeks with my <term ref="#t824" type="subject"
+                        >daughter</term>. I made enquiries as to whether the <q><term ref="#t550" type="subject">operation</term></q> was over yet. I
+                    was very <term ref="#t829" type="subject">fearful</term> for my parents. I did not know whether they were still alive. It was only
+                    after two weeks that Frau <persName ref="#p4018223" type="ehri">Wieth</persName> let me go. I had to go into the <placeName
+                        ref="#l562" type="camp">ghetto</placeName> to find my parents. They were both alive, but they both believed that my <term
+                        ref="#t824" type="subject">daughter</term> and I were no longer alive. I returned to Frau <persName ref="#p4018223"
+                        type="ehri">Wieth’s</persName>
+                    <term ref="#t837" type="subject">apartment</term> and explained to her that I absolutely had to return to the <placeName
+                        ref="#l562" type="camp">ghetto</placeName>. I could not leave my parents alone there.</p>
+                <p>In the meantime, new <term ref="#t338" type="subject">armbands</term> had been distributed to the Jews, with the insignia of the
+                        <orgName ref="#g438" type="ehri"><foreign xml:lang="de">Wehrmacht</foreign></orgName>. Frau <persName ref="#p4018223"
+                        type="ehri">Wieth</persName> knew a <term ref="#t1428" type="subject">Jewish Doctor</term> and she asked where she could get
+                    an <term ref="#t338" type="subject">armband</term> for me. The <term ref="#t1428" type="subject">Jewish Doctor</term> was very
+                    surprised when he heard that Frau <persName ref="#p4018223" type="ehri">Wieth</persName> had kept a Jew in <term ref="#t262"
+                        type="subject">hiding</term> and he asked her to take a relative of his. He offered her a great deal of <term ref="#t934"
+                        type="subject">money</term> for this.</p>
+                <pb facs="EHRI-ET-WL16560540_07.jpg" n="7"/>
+                <p>Frau <persName ref="#p4018223" type="ehri">Wieth</persName> came and told us that she was utterly disgusted. <q>I’m not doing it
+                        for <term ref="#t934" type="subject">money</term>!</q> she explained. <q>If I have you and your <term ref="#t824"
+                            type="subject">child</term> at my <term ref="#t837" type="subject">home</term>, I have a clear conscience…, but for <term
+                            ref="#t934" type="subject">money</term>? No way!</q></p>
+                <p>Again and again she protested when I told her I must return to the <placeName ref="#l562" type="camp">ghetto</placeName> to my
+                    parents. <q>Alright!</q> she said one day. <q>Go, if you have to! But <persName ref="#ehri_et_stern_abraham_lilith" type="ehri"
+                            >Lilith</persName> (that was my <term ref="#t824" type="subject">daughter</term>) is staying with me! That’s a shame for
+                        the <orgName ref="#g350" type="ehri">Gestapo</orgName>. They’ll <term ref="#t532" type="subject">shoot</term> you one day and
+                        then I’ll adopt <persName ref="#ehri_et_stern_abraham_lilith" type="ehri">Lilith</persName>!</q></p>
+                <p>I then got my new <term ref="#t338" type="subject">armband</term> with her help, went back into the <placeName ref="#l562"
+                        type="camp">ghetto</placeName> and my <term ref="#t824" type="subject">daughter</term> remained with her. Despite the <term
+                        ref="#t338" type="subject">armband</term>, my position was very complicated. Possession of an <term ref="#t338" type="subject"
+                        >armband</term> ought to prove that the wearer had <term ref="#t943" type="subject">work</term> with the <foreign
+                        xml:lang="de"><orgName ref="#g438" type="ehri">Wehrmacht</orgName></foreign>, but I had no such <term ref="#t943"
+                        type="subject">work</term>. I had, first of all, to acquire it illegally. This, I did as soon as I had succeeded in getting
+                    back into the <placeName ref="#l562" type="camp">ghetto</placeName> and some <term ref="#t943" type="subject">work</term> in the
+                        <term ref="#t929" type="subject">factory</term>. The Director of this <term ref="#t929" type="subject">factory</term> was very
+                    understanding towards Jews and was very good to them. I was even allowed to take my father into the <term ref="#t929"
+                        type="subject">factory</term> with me. Had I not been able to do this, he would have been <term ref="#t532" type="subject"
+                        >killed</term> at that time. He was 63 years old; I said he was 55 and therefore he was allowed to come to <term ref="#t943"
+                        type="subject">work</term> with me in the <term ref="#t929" type="subject">factory</term>. Every morning, we always left the
+                        <placeName ref="#l562" type="camp">ghetto</placeName> with a group of 35 Jews, in order to go to the <term ref="#t929"
+                        type="subject">factory</term>. The groups, who went to <term ref="#t943" type="subject">work</term>, were always led by a
+                        <term ref="#t691" type="subject">band</term> of <term ref="#t691" type="subject">musicians</term> composed of Jews, who had to
+                    play pleasing <term ref="#t691" type="subject">melodies</term>. It was always the same torment for me each morning and I had the
+                    feeling that I was losing ever more nerves each morning. But, this was, of course, the intention of the Nazis. They were quite
+                    systematically driving us all mad! They wanted to <term ref="#t555" type="subject">ruin our nerves</term>.</p>
+                <p>From the groups of those going to <term ref="#t943" type="subject">work</term>, there were, daily, hundreds brought out and <term
+                        ref="#t532" type="subject">murdered</term>. You never knew, when leaving the <placeName ref="#l562" type="camp"
+                        >ghetto</placeName>, whether you would return alive. It was in this way that countless Jews disappeared into nothingness. In
+                        <date when="1943-03">March 1943</date>, they took my father from me at the entrance of the <placeName ref="#l562" type="camp"
+                        >ghetto</placeName> and I never saw him again.</p>
+                <p>Every Saturday evening, I furtively joined a group of Jews who were <term ref="#t943" type="subject">working</term> during the
+                    night. In the darkness of the street, I discreetly took off my <term ref="#t338" type="subject">armband</term> and crept away
+                    through the whole town to Frau <persName ref="#p4018223" type="ehri">Wieth</persName>. Then, during the following Sunday, I
+                    altered her <term ref="#t836" type="subject">clothes</term>, for it was only in this way that I could thank her for what she had
+                    done for my <term ref="#t824" type="subject">daughter</term>. For some reason, Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName> loved my needlework and, as her only interest was <term ref="#t836" type="subject">clothes</term>, the <term
+                        ref="#t943" type="subject">work</term> never came to an end. One of her <term ref="#t837" type="subject">rooms</term> was full
+                    of cupboards filled with <term ref="#t836" type="subject">clothes</term>. This is how I spent Sundays’ with her and every Monday,
+                    at 3.30am I crept from Frau <persName ref="#p4018223" type="ehri">Wieth's</persName>, through the town and back into the
+                        <placeName ref="#l562" type="camp">ghetto</placeName> in such a way that I joined a group of Jews unobserved returning from
+                        <term ref="#t943" type="subject">working</term> through the night.</p>
+                <p>In the <placeName ref="#l562" type="camp">ghetto</placeName>, <pb facs="EHRI-ET-WL16560540_08.jpg" n="8"/> I turned around and went
+                    with another group who were going to <term ref="#t943" type="subject">work</term> through the day in the <term ref="#t929"
+                        type="subject">factory</term>, outside of the <placeName ref="#l562" type="camp">ghetto</placeName>. The whole thing was,
+                    naturally, very dangerous and Frau <persName ref="#p4018223" type="ehri">Wieth</persName> said to me again and again that I would
+                    definitely be caught by the <orgName ref="#g350" type="ehri">Gestapo</orgName> one day. The streets were full of <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Germans</placeName>, <placeName ref="#ukraine" type="ehri"
+                        >Ukrainians</placeName> and <placeName ref="#republic-of-poland" type="ehri">Poles</placeName>, who might recognise me. Even
+                    if I was inconspicuous, anyone could see that I looked very rough and <term ref="#t569" type="subject">hungry</term>, as all Jews
+                    looked in comparison to other <term ref="#t1207" type="subject">people</term> on the streets. This is how I spent every weekend
+                    from <date when="1942-12">December 1942</date> until the end of <date when="1943-05">May 1943</date> without anything ever
+                    happening to me.</p>
+                <p>On the <date when="1943-05-31">31st of May</date>, it was proclaimed <q>The <term ref="#t551" type="subject">ghetto will be
+                            liquidated</term> on the <date when="1945-06-01">1st of June</date>. All Jews within it must voluntarily report to the
+                            <term ref="#t496" type="subject">concentration camp</term></q></p>
+                <p>The owner of our <term ref="#t929" type="subject">factory</term> tried once more to help all of the Jews who had <term ref="#t943"
+                        type="subject">worked</term> for him, so that we did not need to go into the <term ref="#t496" type="subject">camp</term>. He
+                        <term ref="#t1073" type="subject">negotiated</term> with the <orgName ref="#g350" type="ehri">Gestapo</orgName> and explained
+                    that our 35 strong group of Jews could live in the <term ref="#t929" type="subject">factory</term>. He promised the <orgName
+                        ref="#g350" type="ehri">Gestapo</orgName> that he would have a particularly good <term ref="#t836" type="subject">leather
+                        overcoat</term> illegally finished for each one of them and the <orgName ref="#g350" type="ehri">Gestapo</orgName> agreed.</p>
+                <p>However, after they had received their <term ref="#t836" type="subject">overcoats</term>, they insisted that the Jews would have to
+                    leave the <term ref="#t929" type="subject">factory</term> for the <term ref="#t496" type="subject">camp</term>.</p>
+                <p>As I left the <placeName ref="#l562" type="camp">ghetto</placeName>, in order to <term ref="#t575" type="subject">resettle</term>
+                    in the <term ref="#t929" type="subject">factory</term>, I was not allowed to take my mother with me. She had had <term ref="#t493"
+                        type="subject">typhus</term> and <term ref="#t292" type="subject">pneumonia</term> and was very weak, but had <term
+                        ref="#t561" type="subject">survived</term> both. I, thus, <term ref="#t266" type="subject">smuggled</term> her out of the
+                        <placeName ref="#l562" type="camp">ghetto</placeName> into the <term ref="#t929" type="subject">factory</term>. And now we
+                    were supposed to go into the <term ref="#t496" type="subject">camp</term> and the Director was ordered to hasten all of us into
+                    this <term ref="#t496" type="subject">camp</term>.</p>
+                <p>I did not know what to do! I knew that if I <term ref="#t262" type="subject">hid</term>, I could probably save myself by getting to
+                    Frau <persName ref="#p4018223" type="ehri">Wieth</persName> during the night, but this would mean that I would have to leave my
+                    mother to go into the <term ref="#t496" type="subject">concentration camp</term> alone, and I could not bring myself to do that.
+                    To take her with me to Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was impossible. It was also too far and she was
+                    too weak. I spoke to the Director of the <term ref="#t929" type="subject">factory</term> and begged him to help us in any way he
+                    could. I was in the Director’s office during this conversation and my mother was in one of the rooms of the <term ref="#t929"
+                        type="subject">factory</term>. She must have felt what was going on inside me. I suddenly heard a large noise and disquiet in
+                    the square. <q>Your mother has <term ref="#t217" type="subject">fallen out of the window</term>!</q> At first, I did not catch on
+                    at all and continued to talk to the Director, until someone came up to me again and called me. This time, I understood. I raced
+                    down the staircase into the square. I found my mother in a sea of <term ref="#t292" type="subject">blood</term>; one <term
+                        ref="#t292" type="subject">eye was missing</term> and the crown of her <term ref="#t292" type="subject">skull was
+                        broken</term>, but she was fully conscious.</p>
+                <pb facs="EHRI-ET-WL16560540_09.jpg" n="9"/>
+                <p>I called like mad for the <term ref="#t280" type="subject">medics</term>. I had totally forgotten in my excitement that Jews had
+                        <term ref="#t339" type="subject">no right</term> to <term ref="#t280" type="subject">medical assistance</term>. I phoned them
+                    and asked them to come immediately. As time passed and no-one arrived, I ran in order to ask why no-one was coming. I was then
+                    told that the <term ref="#t280" type="subject">medics</term> had turned up, but had left again upon being told the matter
+                    concerned a Jew.</p>
+                <p>In the meantime, the Director had readied a car in which his group of Jews would be conveyed to the <term ref="#t496"
+                        type="subject">concentration camp</term>. Upon my request, he had a stretcher brought upon which my mother was laid. The
+                    Director then ordered that we be brought to the <placeName ref="#l562" type="camp">ghetto</placeName>..., to the <placeName
+                        ref="#l562" type="camp">ghetto</placeName>
+                    <term ref="#t491" type="subject">hospital</term> and be dropped off there. Then, the remaining passengers would be taken to the
+                        <term ref="#t496" type="subject">camp</term>. This event saved my life.</p>
+                <p>I knew that the <placeName ref="#l562" type="camp">ghetto</placeName> was to be <term ref="#t551" type="subject">burned down</term>
+                    the following day and I knew that my mother, like everyone else, had an even greater <term ref="#t829" type="subject">fear</term>
+                    of the <placeName ref="#l562" type="camp">ghetto</placeName>
+                    <term ref="#t491" type="subject">hospital</term>, as it was very brutal there and that those patients to be treated, who could not
+                    be saved, were <term ref="#t532" type="subject">thrown out of the window</term>.</p>
+                <p>So, I sat in the car next to my mother, who was still fully conscious, and yet <term ref="#t292" type="subject">blood</term>
+                    nevertheless streamed incessantly from her wounds. <q>I must take you to the <placeName ref="#l562" type="camp">ghetto</placeName>
+                        <term ref="#t491" type="subject">hospital</term>!</q> I said to her. <q>Are you afraid?</q> To which she replied <q>I’m not
+                        afraid!</q></p>
+                <p>I was fully aware of the fact that my mother had <term ref="#t217" type="subject">attempted to kill herself</term>, in order to
+                    free me, so that I was free to go to my <term ref="#t824" type="subject">child</term> and try to save us both.</p>
+                <p>Upon arriving in the <term ref="#t491" type="subject">hospital</term>, we carried my mother in and placed the stretcher in the
+                    bathroom. All those Jews who had been in the <term ref="#t491" type="subject">hospital</term> were about to leave. They all asked
+                    me if I was crazy to have come back with my mother. Within the <term ref="#t491" type="subject">hospital</term>, I found a <term
+                        ref="#t1428" type="subject">doctor</term> and no patients. They had <term ref="#t532" type="subject">murdered</term> them all
+                    in the last few days. Some attempted to lift my mother out of the continually streaming <term ref="#t292" type="subject"
+                        >blood</term>. I asked the <term ref="#t1428" type="subject">Doctor</term> to help her. He said that he had no <term
+                        ref="#t285" type="subject">medication</term> or anything else. I, nevertheless, asked him again and again. Jews ran in and out
+                    of the <term ref="#t496" type="subject">camp</term>. I, once again, looked in the room where my mother lay. She said <q>Go with
+                        God! I am now with God!</q></p>
+                <p>I shut the door and looked once again for the <term ref="#t1428" type="subject">Doctor</term>. I still had 200 <term ref="#t934"
+                        type="subject">Zloty</term> which I had hidden on my person. This, I gave to him. <q>Here! Take this <term ref="#t1428"
+                            type="subject">Doctor</term>!</q> and I asked him one last time to give my mother something..., something which worked
+                    quickly.</p>
+                <pb facs="EHRI-ET-WL16560540_10.jpg" n="10"/>
+                <p>Finally, he promised! Whether he actually did it..., I’ll never know!</p>
+                <p>Then, I ran down and out of the <term ref="#t491" type="subject">hospital</term> and joined a group of Jews leaving the <placeName
+                        ref="#l562" type="camp">ghetto</placeName> for the <term ref="#t496" type="subject">concentration camp</term>. I ran like an
+                    automaton beside them. I ran totally possessed and desparately. I did not think for a minute about taking off my <term ref="#t338"
+                        type="subject">armband</term> and to try to get to my <term ref="#t824" type="subject">child</term>. Through pure coincidence,
+                    the whole time I ran next to a young relative of mine..., a cousin. She spoke incessantly to me, but I did not listen at all and
+                    ran on. But she did not give up. Again and again she said to me..., <q>Go away! You must go to your <term ref="#t824"
+                            type="subject">child</term>! Run! Quickly! Go!</q> Again, I did not react and my cousin spoke on <q>You must go! Quickly!
+                        Otherwise it’s too late!</q></p>
+                <p>I cannot explain it, how it suddenly happened and as I quite suddenly had the impulse to carefully take off my <term ref="#t338"
+                        type="subject">armband</term> and allow it to disappear into my pocket as we got quite close to the gates of the <term
+                        ref="#t496" type="subject">camp</term>. Just as automatically, I slipped away from the group, which carried on. <placeName
+                        ref="#republic-of-poland" type="ehri">Poles</placeName> and <placeName ref="#ukraine" type="ehri">Ukrainians</placeName> were
+                    standing at the gates of the <term ref="#t496" type="subject">camp</term> and looked on transfixed at how the Jews went
+                        <q>voluntarily</q> and without any supervision whatsoever into the <term ref="#t496" type="subject">camp</term> and to their
+                        <term ref="#t745" type="subject">deaths</term>.</p>
+                <p>I also do not know how I arrived totally unharmed into the block and Frau <persName ref="#p4018223" type="ehri">Wieth's</persName>
+                    <term ref="#t837" type="subject">apartment</term>. A few weeks earlier, Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName> had taken a Jewish couple in and as I now arrived and asked her to remain, four <term ref="#t1207"
+                        type="subject">people</term> were there, who she was <term ref="#t262" type="subject">hiding</term>. This was in <date
+                        when="1943-06">June 1943</date>.</p>
+                <p>The situation was very complicated for Frau <persName ref="#p4018223" type="ehri">Wieth</persName>, as it was for us. It was
+                    horrifying for us to consider what Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was risking in order to save us. We
+                    also had to <term ref="#t832" type="subject">eat</term>, but we did not want to burden Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName> at all with such matters, so I disguised myself as a country peasant, barefoot and crept out of the <term
+                        ref="#t837" type="subject">house</term> to get something to <term ref="#t832" type="subject">eat</term>. It was only a little,
+                    as everything came from the <term ref="#t1051" type="subject">black market</term>, as we had no other <term ref="#t832"
+                        type="subject">food</term>. Only <placeName ref="#federal-republic-of-germany" type="ehri">Germans</placeName> lived in the
+                    block, who naturally, knew that Frau <persName ref="#p4018223" type="ehri">Wieth</persName>
+                    <term ref="#t943" type="subject">worked</term> all day in the <term ref="#t837" type="subject">Housing Office</term> and that her
+                        <term ref="#t837" type="subject">apartment</term> was empty all day. We scarcely dare not appear. A period of time thus
+                    passed, during which we and Frau <persName ref="#p4018223" type="ehri">Wieth</persName> became ever more nervous.</p>
+                <p>Then, one day, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> suddenly received a telegram from <placeName
+                        ref="#amsterdam" type="ehri">Amsterdam</placeName> from an old friend of hers, who informed her that he had two weeks leave
+                    and was coming to visit. Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was totally beside herself and explained that
+                    we would have to make ourselves scarce. <q>Good!</q> I said. I saw her terrifying <term ref="#t829" type="subject">fear</term> and
+                    wanted, initially, to calm her. <pb facs="EHRI-ET-WL16560540_11.jpg" n="11"/>
+                    <q>I will try to find somewhere for us!</q> It was, however, totally impossible for me.</p>
+                <p>The married Jewish couple, the husband of whom was a <term ref="#t1428" type="subject">Pharmacist</term>, had <term ref="#t291"
+                        type="subject">zyankali</term>. He suggested that we share the poison, so that we could all poison ourselves. I told Frau
+                        <persName ref="#p4018223" type="ehri">Wieth</persName> that she should not worry, that we would leave her <term ref="#t837"
+                        type="subject">apartment</term> and find somewhere to commit <term ref="#t217" type="subject">suicide</term>. Frau <persName
+                        ref="#p4018223" type="ehri">Wieth</persName> protested vehemently. <q>You don’t know where to go!</q> Even she was afraid.</p>
+                <p>We gathered together and made a plan. The <term ref="#t837" type="subject">dining room</term> next to the <term ref="#t837"
+                        type="subject">kitchen</term> was emptied and, from now on, we always locked ourselves in when Frau <persName ref="#p4018223"
+                        type="ehri">Wieth</persName> had visitors. Beforehand, we stayed in the <term ref="#t837" type="subject">kitchen</term>, where
+                    nobody went. Moreover, it was decided that during the visit of Frau <persName ref="#p4018223" type="ehri">Wieth's</persName>
+                    friend from <term ref="#t837" type="subject">Amsterdam</term>, the <term ref="#t1428" type="subject">Pharmacist</term> and my
+                        <term ref="#t824" type="subject">daughter</term> would be locked in the <term ref="#t837" type="subject">dining room</term>.
+                    His wife would openly pose as Frau <persName ref="#p4018223" type="ehri">Wieth's</persName> cook, who also lived with her and I
+                    would pose a her Tailor, who would <term ref="#t943" type="subject">work</term> for her during the day and go home in the evening.
+                    I had to act as if I was leaving. These roles we then both played. The cook lived officially at Frau <persName ref="#p4018223"
+                        type="ehri">Wieth</persName> and slept in the <term ref="#t837" type="subject">kitchen</term>. It was in this way that her
+                    friend could not go into the <term ref="#t837" type="subject">kitchen</term> in the evening. Every evening I would loudly say
+                        <q>Adieu!</q>; Frau <persName ref="#p4018223" type="ehri">Wieth</persName> would accompany me to the door of her <term
+                        ref="#t837" type="subject">apartment</term> and whilst she opened and closed the door loudly and acted as though she was still
+                    talking to me, I crept back to the <term ref="#t837" type="subject">kitchen</term> on tiptoes. All four of us slept in the <term
+                        ref="#t837" type="subject">kitchen</term> on the floor, that is, in reality we did not sleep much. We constantly worried about
+                    one another, that one of us would make some kind of suspicious noise, talk whilst sleeping or even snore and so we all took care
+                    of each other.</p>
+                <p>During the day, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> always went to <term ref="#t943" type="subject"
+                        >work</term> in the <term ref="#t837" type="subject">Housing Office</term> and the friend stayed at the <term ref="#t837"
+                        type="subject">apartment</term>. He continually went into the <term ref="#t837" type="subject">kitchen</term> to talk to us.
+                    The <term ref="#t1428" type="subject">Pharmacist</term> and my <term ref="#t824" type="subject">daughter</term> sat on the floor
+                    of the <term ref="#t837" type="subject">dining room</term>. I placed a large table in front of the door to the <term ref="#t837"
+                        type="subject">dining room</term> and spread my sewing out there. I did not speak much and when I did speak, I did so only a
+                    very little and in bad <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName>. I always acted as though I
+                    did not understand what her friend said. He talked for hours on end and gave us long lectures about the <term ref="#t1080"
+                        type="subject">war</term> and the increasing <placeName ref="#england" type="ehri">English</placeName>
+                    <term ref="#t1105" type="subject">air raids</term>.</p>
+                <p>Sometimes, I left the <term ref="#t837" type="subject">kitchen</term> and acted as though I had something to do in one of the <term
+                        ref="#t837" type="subject">rooms</term>…, then I called him to help me with some hastily made-up chore, in order, in this way,
+                    to get him out of the <term ref="#t837" type="subject">kitchen</term>.</p>
+                <p>As we all spoke to each other in whispers, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> became acquainted with this
+                    when she was at <term ref="#t837" type="subject">home</term>. Her friend picked up upon this. He could not understand and would,
+                    therefore, ask her about it, or he would come out to me</p>
+                <pb facs="EHRI-ET-WL16560540_12.jpg" n="12"/>
+                <p>in the <term ref="#t837" type="subject">kitchen</term> to ask me whether I could understand why Frau <persName ref="#p4018223"
+                        type="ehri">Wieth</persName> whispered so strangely and why she was so terribly nervous. I always said I could not understand
+                    and gave all sorts of reasons in my broken <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName>. Two weeks
+                    finally came to an end and he went back to <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName> and we were all alone
+                    once more.</p>
+                <p>A new problem surfaced when Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was supposed to go on <term ref="#t752"
+                        type="subject">holiday</term> for two weeks to her mother’s. This time, she had to leave us all alone in the <term ref="#t837"
+                        type="subject">flat</term>. She had no other option but to lock us in for the whole time she was away. We could not even so
+                    much as move as the <term ref="#t837" type="subject">apartment</term> was, of course, officially empty. My <term ref="#t824"
+                        type="subject">daughter</term> wasn’t allowed to sneeze; we weren’t able to pull the chain on the toilet…, but, this time,
+                    everything went well and when Frau <persName ref="#p4018223" type="ehri">Wieth</persName> returned from <term ref="#t752"
+                        type="subject">holiday</term>, all was well.</p>
+                <p>Yet, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> became less calm and ever more nervous. We did what we could to
+                    calm her down, but there was really nothing we could do as we were, of course, the reason for her disquiet. We became accustomed
+                    to reading her every wish from her eyes and we behaved like slaves to serve her and to be helpful to her. In the meantime, she had
+                    formed a relationship with a <foreign xml:lang="de"><orgName ref="#g438" type="ehri">Wehrmacht</orgName></foreign>
+                    <term ref="#t886" type="subject">officer</term>, who often visited her. He would always stay in the front <term ref="#t837"
+                        type="subject">room</term> and never went into the <term ref="#t837" type="subject">kitchen</term>.</p>
+                <p>For some inexplicable reason, her friend in <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName> learned of her friendship
+                    with the <foreign xml:lang="de"><orgName ref="#g438" type="ehri">Wehrmacht</orgName></foreign>
+                    <term ref="#t886" type="subject">officer</term> and he, thus, appeared one day from <placeName ref="#amsterdam" type="ehri"
+                        >Amsterdam</placeName> out of sheer jealousy without announcing his arrival beforehand. He kicked up such a fuss at the front
+                    door that we all reeled in shock, as we all believed it was the <orgName ref="#g350" type="ehri">Gestapo</orgName>. All four of us
+                    hastily disappeared into the <term ref="#t837" type="subject">kitchen</term>, which we locked behind us. Frau <persName
+                        ref="#p4018223" type="ehri">Wieth</persName> went slowly to the door in order to give us time to disappear. The <term
+                        ref="#t826" type="subject">man</term> stormed in and began charging around like a wild animal, but not in search of us as we
+                    had thought, but after the supposed rival. He shook the <term ref="#t837" type="subject">kitchen</term> door and even looked
+                    through the keyhole in order to see whether his rival had, perhaps, hid himself there, but did not see us. He posed a terrible
+                    sight, but Frau <persName ref="#p4018223" type="ehri">Wieth</persName> finally succeeded in calming him down. He had, of course,
+                    found no-one, so he went away.</p>
+                <p>This time, not only were we more dead than alive when we were alone once more, Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName> was beside herself. It became ever more complicated for us to calm her down. Every time someone knocked on
+                    the door she believed it was the <orgName ref="#g350" type="ehri">Gestapo</orgName>; she no longer wanted to open the door and it
+                    became ever more difficult <pb facs="EHRI-ET-WL16560540_13.jpg" n="13"/> to persuade her not to lose her head.</p>
+                <p>Her friend from <placeName ref="#amsterdam" type="ehri">Amsterdam</placeName> did not allow any peace. He got in contact with Frau
+                        <persName ref="#p4018223" type="ehri">Wieth</persName> friend in the <term ref="#t837" type="subject">Housing Office</term>,
+                    the second Secretary, for whom I had sewn in the beginning and for whose part was asked for advice about Frau <persName
+                        ref="#p4018223" type="ehri">Wieth</persName> along with the Town Councillor, whether they should have taken on my <term
+                        ref="#t824" type="subject">daughter</term> and I and then, finally, whether they had helped my <term ref="#t824"
+                        type="subject">daughter</term> and I get into Frau <persName ref="#p4018223" type="ehri">Wieth's</persName>
+                    <term ref="#t837" type="subject">apartment</term>.</p>
+                <p>Both Frau <persName ref="#p4018223" type="ehri">Wieth's</persName> colleague and her friend advised him, among other things, that
+                    Frau <persName ref="#p4018223" type="ehri">Wieth</persName> had <term ref="#t837" type="subject">accommodated</term> my <term
+                        ref="#t824" type="subject">child</term> and I. He then turned up again one day totally surprisingly and barely after the door
+                    had opened, beginning to strike out and growled <q>I know everything! You’ve been keeping a Jew and her <term ref="#t824"
+                            type="subject">child</term> in here in <term ref="#t262" type="subject">hiding</term>! You’ll leave your <term ref="#t943"
+                            type="subject">job</term> in the <orgName ref="#g681" type="ehri">general government</orgName> in eight days otherwise
+                        I’ll report you!</q></p>
+                <p>Frau <persName ref="#p4018223" type="ehri">Wieth</persName> began to cry and eventually convinced him to go with her into a <term
+                        ref="#t837" type="subject">room</term> and not remain in the corridor, where all the other occupants could hear what he was
+                    saying. The argument then continued for hours, whilst we crouched down with <term ref="#t829" type="subject">fear</term> in the
+                        <term ref="#t837" type="subject">dining room</term>. He, then, eventually went away.</p>
+                <p>From now on…, from <date when="1944-03">March 1944</date>, all four of us lived almost exclusively in the <term ref="#t837"
+                        type="subject">dining room</term>. Frau <persName ref="#p4018223" type="ehri">Wieth</persName> then received orders to leave
+                        <placeName ref="#lviv" type="ehri">Lemberg</placeName>. The <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >Germans</placeName> dissolved the administration of the <orgName ref="#g681" type="ehri">general government</orgName> before
+                    the arrival of the approaching <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russians</placeName> and Frau
+                        <persName ref="#p4018223" type="ehri">Wieth</persName> was to travel with the remaining <term ref="#t1111" type="subject"
+                        >civil servants</term> back to <placeName ref="#federal-republic-of-germany" type="ehri">Germany</placeName>. Now, for all
+                    four of us, it became essential to find a new <term ref="#t265" type="subject">hiding place</term>.</p>
+                <p>The Jewish couple, who were <term ref="#t262" type="subject">hidden</term> with us, had contacts in the <term ref="#t773"
+                        type="subject">Greek-Orthodox</term> community, that is, the <placeName ref="#ukraine" type="ehri">Ukrainian</placeName>
+                    <term ref="#t728" type="subject">convent</term> in <placeName ref="#lviv" type="ehri">Lemberg</placeName> and with the <term
+                        ref="#t731" type="subject">Metropolite</term>
+                    <persName ref="#p4017786" type="ehri">Szepticki</persName>, who had already kept around 60 Jews in <term ref="#t262"
+                        type="subject">hiding</term> with him or in other <term ref="#t728" type="subject">convents</term>. This involved the <term
+                        ref="#t819" type="subject">families</term> of <term ref="#t735" type="subject">Rabbis</term>’ in particular. The <term
+                        ref="#t1428" type="subject">Pharmacist</term> knew these <term ref="#t1207" type="subject">people</term> and his <term
+                        ref="#t824" type="subject">son</term> was in <term ref="#t262" type="subject">hiding</term> there. He and his wife now turned
+                    to <persName ref="#p4017786" type="ehri">Szepticki</persName> asking for help. Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName> insisted that she would tell the entire truth to the <term ref="#t731" type="subject">Metropolite</term>.
+                    She would make it clear to him that they were <term ref="#t262" type="subject">hidden</term> at Frau <persName ref="#p4018223"
+                        type="ehri">Wieth's</persName> with my <term ref="#t824" type="subject">daughter</term> and me and that she would really ask
+                    him to take all four of us. In the beginning she asked, later, she insisted. I knew from the very beginning that this would be
+                    very difficult. In order to be taken into a <placeName ref="#ukraine" type="ehri">Ukrainian</placeName>
+                    <term ref="#t728" type="subject">convent</term> you had to have very good contacts and references. The married couple had such
+                    with the <term ref="#t731" type="subject">Metropolite</term> and with other diverse <term ref="#t728" type="subject"
+                        >convents</term>, who were subordinate to them. They not only had references, but also <term ref="#t1137" type="subject"
+                        >documents</term>. I, however, had neither one nor the other.</p>
+                <pb facs="EHRI-ET-WL16560540_14.jpg" n="14"/>
+                <p>In response to this, I told the <term ref="#t1428" type="subject">Pharmacist</term> that he should, in the first instance, do
+                    everything possible to save his wife and himself. I did not believe for a second that he would do the slightest thing for me. I
+                    asked him only at the very end that, should he be successful in finding <term ref="#t837" type="subject">shelter</term> for him
+                    and his wife, to put in a word for my <term ref="#t824" type="subject">daughter</term> and me.</p>
+                <p>Despite his contacts at the <term ref="#t728" type="subject">convent</term>, the couple had the greatest difficult being accepted
+                    and their discussions went back and forth for weeks. I had no idea what would become of me and my <term ref="#t824" type="subject"
+                        >child</term> and it was very bad, as Frau <persName ref="#p4018223" type="ehri">Wieth</persName> had, initially, to pack her
+                    things. At the time, I just thought constantly how lucky it was that we had the <term ref="#t291" type="subject">zyankali</term>.
+                    Then, a miracle happened! The couple had finally succeeded in persuading the <term ref="#t731" type="subject">Metropolite</term>
+                    to take us in. And, exactly 24 hours before they had to leave our <term ref="#t837" type="subject">house</term>, a <term
+                        ref="#t731" type="subject">nun</term> in the <term ref="#t728" type="subject">convent</term>, where the <term ref="#t825"
+                        type="subject">woman</term> was to be taken in, agreed to take in my <term ref="#t824" type="subject">daughter</term> and me.
+                    Of course, she insisted that we would have to move into the <term ref="#t728" type="subject">convent</term> within 24 hours. This
+                    was difficult for me, as I had promised Frau <persName ref="#p4018223" type="ehri">Wieth</persName> I would remain with her until
+                    her departure and help her. There was, thus, no option for me other than to take my <term ref="#t824" type="subject">child</term>
+                    to the <term ref="#t728" type="subject">convent</term> for 11 o’clock the next day. Once there, I explained to the <term
+                        ref="#t731" type="subject">nun</term> why I had to return to Frau <persName ref="#p4018223" type="ehri">Wieth</persName> and
+                    then returned to her <term ref="#t837" type="subject">apartment</term>. I helped her pack and took her to the <term ref="#t940"
+                        type="subject">train</term>; then I went to the <term ref="#t728" type="subject">convent</term> as well.</p>
+                <p>I could, of course, not speak <placeName ref="#ukraine" type="ehri">Ukrainian</placeName>, yet they were very good to us. My <term
+                        ref="#t824" type="subject">daughter</term> went into an <term ref="#t316" type="subject">orphanage</term> annexed to the <term
+                        ref="#t728" type="subject">convent</term>. And, again, I was lucky that I could sew. I was immediately given a sewing machine
+                    and a pile of sewing. It was in this way that I sewed for the <term ref="#t327" type="subject">orphans</term> until the end of the
+                        <term ref="#t1080" type="subject">war</term>. We were <term ref="#t832" type="subject">fed</term> well and amply and actually
+                    began to recover somewhat physically.</p>
+                <p>A fairly long while passed until I began to notice that the <term ref="#t731" type="subject">nun</term> was becoming rather a
+                    little less frien</p>
+                <p>dly with me than at the beginning. Finally, one day, a Jewish <term ref="#t825" type="subject">woman</term> said to me, who was
+                    also <term ref="#t262" type="subject">hiding</term> in the <term ref="#t728" type="subject">convent</term>, rather as if in
+                    passing, <q>the <term ref="#t731" type="subject">nun</term> no longer wants you here, because you won’t be <term ref="#t740"
+                            type="subject">baptised</term>!</q>I was absolutely horrified, as I had not given it any thought at all. It was then
+                    explained to me that those supervising the <term ref="#t728" type="subject">convent</term> always expected such things without
+                    having to speak of it. Although I was anything but that which could be described as a <term ref="#t724" type="subject"
+                        >pious</term> Jew, I stuck to my beliefs and the thought of <term ref="#t740" type="subject">baptism</term> to me was
+                    horrifying. At that time, I could not sleep for many nights until I decided to have my <term ref="#t824" type="subject"
+                        >daughter</term> and myself <term ref="#t740" type="subject">baptised</term>. But, the <term ref="#t731" type="subject"
+                        >nun’s</term> stance became ever more unpleasant and so I went to her one day and explained that I would like to have my <term
+                        ref="#t824" type="subject">daughter</term> and I <term ref="#t740" type="subject">baptised</term>. The <term ref="#t731"
+                        type="subject">nun</term> immediately became filled with interest</p>
+                <p>and changed her <pb facs="EHRI-ET-WL16560540_15.jpg" n="15"/> stance in an instant. A <term ref="#t731" type="subject"
+                        >priest</term> was assigned the task of instructing my <term ref="#t824" type="subject">daughter</term> and I. My <term
+                        ref="#t824" type="subject">daughter</term> was immensely pleased. She found everything great and was completely happy and
+                    content. And, with that, I had no way out, if I wanted to save my life and my <term ref="#t824" type="subject">child’s</term>
+                    life. One night, I dreamt of my father. In my dream, I asked him what I should do. He replied very calmly <q>Just do it! It is the
+                        right thing to do! There is, of course, only one <term ref="#t724" type="subject">God</term>!</q> Afterwards, it was much
+                    easier for me. One day, news arrived from Frau <persName ref="#p4018223" type="ehri">Wieth</persName>. She was back in <placeName
+                        ref="#lviv" type="ehri">Lemberg</placeName> and wanted all four of us to go back to her. The <term ref="#t731" type="subject"
+                        >nun</term> quite energetically denounced the idea. The <term ref="#t286" type="subject">Pharmacist’s</term> wife, whom she
+                    did not like very much, she wanted to leave, but neither my <term ref="#t824" type="subject">daughter</term> nor I could go. So,
+                    we stayed in the <term ref="#t728" type="subject">convent</term>.</p>
+                <p>During the preparations for the <term ref="#t740" type="subject">baptism</term>, we had to attend mass every Sunday and the <term
+                        ref="#t773" type="subject">church</term> was located in the district in which we had earlier lived when my husband and <term
+                        ref="#t824" type="subject">son</term> were still alive. I was always afraid when I was going to and from the <term ref="#t773"
+                        type="subject">church</term> that someone would recognise me. I was well <term ref="#t836" type="subject">dressed</term> again
+                    and looked well-kept and <term ref="#t832" type="subject">nourished</term> once more. It was easy to recognise me again.</p>
+                <p>Many <term ref="#t1207" type="subject">people</term>, who previously knew me, went to this <term ref="#t773" type="subject"
+                        >church</term> and followed me from the service to the <term ref="#t728" type="subject">convent</term>. I immediately reported
+                    it to the <term ref="#t731" type="subject">nun</term> and was immediately resettled into the <term ref="#t316" type="subject"
+                        >orphanage</term>.</p>
+                <p>At the same time, the <term ref="#t731" type="subject">nun</term> explained to the <term ref="#t286" type="subject"
+                        >Pharmacist’s</term> wife that it would be better if she returned to Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName>, as she could no longer keep her at the <term ref="#t728" type="subject">convent</term>. There was nothing
+                    else for the <term ref="#t825" type="subject">woman</term> to do but to go. I, however, was sent, first of all, to ask Frau
+                        <persName ref="#p4018223" type="ehri">Wieth</persName> for the key to her <term ref="#t837" type="subject">apartment</term>.
+                    The <term ref="#t286" type="subject">Pharmacist’s</term> wife later remained in Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth's</persName>
+                    <term ref="#t837" type="subject">apartment</term> and, after Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was
+                    ordered back to <placeName ref="#federal-republic-of-germany" type="ehri">Germany</placeName>, quite a few <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Germans</placeName> vacated this block and <placeName ref="#lviv" type="ehri"
+                        >Lemberg</placeName>.</p>
+                <p>When the <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russians</placeName> came, they behaved exactly as they
+                    had in the beginning…, thoroughly correctly. No-one harassed us; we could come and go as we pleased. This time, we really had the
+                    feeling that they were angels who had <term ref="#t573" type="subject">liberated</term> us.</p>
+                <p>At my <term ref="#t740" type="subject">baptism</term>, I was given the name Maria.</p>
+                <p>Sometime after the end of the <term ref="#t1080" type="subject">war</term>, I was able to send my <term ref="#t824" type="subject"
+                        >daughter</term> to <placeName ref="#england" type="ehri">England</placeName> through an <term ref="#t309" type="subject"
+                        >international aid organisation</term>.</p>
+                <p>I <pb facs="EHRI-ET-WL16560540_16.jpg" n="16"/> then gave her the task of immediately trying to get in contact with Frau <persName
+                        ref="#p4018223" type="ehri">Wieth</persName>. I had the address of her parents in <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Germany</placeName> and really wanted to know whether she was alive and how she
+                    was. My <term ref="#t824" type="subject">daughter</term> succeeded in contacting Frau <persName ref="#p4018223" type="ehri"
+                        >Wieth</persName>. She was alive, but was obviously not doing too well. When I arrived in <placeName ref="#england"
+                        type="ehri">England</placeName> a year after my <term ref="#t824" type="subject">daughter</term>, I tried to acquire <term
+                        ref="#t832" type="subject">food</term> and <term ref="#t836" type="subject">clothes</term> for Frau <persName ref="#p4018223"
+                        type="ehri">Wieth</persName>. This was made possible with the help of an <placeName ref="#united-states" type="ehri"
+                        >American</placeName>
+                    <term ref="#t303" type="subject">aid organisation</term>, which declared itself in the case. We began to become interested in Frau
+                        <persName ref="#p4018223" type="ehri">Wieth</persName> and, initially, began one day to visit us in <placeName ref="#england"
+                        type="ehri">England</placeName>. It was very exciting to see her again. At the time, she explained that she no longer wanted
+                    to remain in <placeName ref="#federal-republic-of-germany" type="ehri">Germany</placeName> and with the assistance of the same
+                        <placeName ref="#united-states" type="ehri">American</placeName>
+                    <term ref="#t303" type="subject">aid organisation</term>, I was actually able to make it possible, that she went to the <placeName
+                        ref="#united-states" type="ehri">USA</placeName>. There, she found <term ref="#t943" type="subject">employment</term> and
+                    remained there. She no longer wishes to return to <placeName ref="#federal-republic-of-germany" type="ehri">Germany</placeName>.
+                    She <term ref="#t943" type="subject">works</term> for a Jewish <term ref="#t819" type="subject">family</term>, whose <term
+                        ref="#t837" type="subject">household</term> she manages. Her love for my <term ref="#t824" type="subject">daughter</term>
+                    hasn’t changed. When my <term ref="#t824" type="subject">daughter</term> got married two years ago and resettled in <placeName
+                        ref="#new-york-city" type="ehri">New York</placeName> with her <placeName ref="#england" type="ehri">English</placeName>
+                    husband, Frau <persName ref="#p4018223" type="ehri">Wieth</persName> was ready to help both of them. I, myself, married my current
+                    husband one and a half years ago and had to remain in <placeName ref="#england" type="ehri">England</placeName>. Frau <persName
+                        ref="#p4018223" type="ehri">Wieth</persName> intends to acquire <placeName ref="#united-states" type="ehri"
+                        >American</placeName>
+                    <term ref="#t1147" type="subject">nationality</term> and will very soon receive the corresponding documents.</p>
+                <p><date when="195704">April 1957</date>, <placeName ref="#london" type="ehri">London</placeName> (gez.) <persName
+                        ref="#ehri_et_stern_abraham_lilith" type="ehri">Leoyliex Stern-Abraham</persName></p>
+            </div>
+        </body>
+    </text>
+</TEI>

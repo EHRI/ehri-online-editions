@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19630722_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Bericht von Elias Wasserhart über seine Deportation nach Nisko und seine Haft in der UdSSR</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</edition>
+				<author>
+					<persName>Winfried Garscha</persName>
+				</author>
+				<author>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+				<sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<publisher>
+					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/at-001982"> Dokumentationsarchiv des österreichischen
+							Widerstandes</repository>
+						<idno>Sign. 2528.</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl> Dokumentationsarchiv des österreichischen Widerstandes, Sign. 2528. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+				<list>
+					<item><name>Verhaftung</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Jüdischer Arzt / Jüdische Ärztin</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Polizei</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Transporte</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Deportation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Pass</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item><name>Beschlagnahme von Dokumenten</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-587"/>
+						</linkGrp></item>
+					<item><name>Lager</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Militär</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Lebensmittel und Essen</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item xml:id="ehri_nisko_nationalities_russians"><name>Russen (zugeschriebene Nationalität)</name></item>
+					<item><name>Illegaler Grenzübertritt</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+						</linkGrp></item>
+					<item><name>Juden und jüdisches Leben</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Arbeit</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item xml:id="ehri_nisko_nationalities_austrians"><name>Österreicher (zugeschriebene Nationalität)</name></item>
+					<item><name>Flüchtling</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item xml:id="ehri_nisko_nationalities_poles"><name>Polen (zugeschriebene Nationalität)</name></item>
+					<item><name>Zwangsarbeit</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>NS-Staat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Männer</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Frauen</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Kinder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Krankenhaus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+				</list>
+				<listOrg>
+					<org xml:id="ehri_nisko_kz_verband">
+						<orgName>KZ-Verband</orgName>
+						<note><p>1946 - 1948</p><p>Überparteilicher Dachverband und Interessenvertretung aller WiderstandskämpferInnen und vom
+								NS-Regime verfolgter ÖsterreicherInnen.</p><p>Der KZ-Verband wurde ursprünglich 1946 von WiderstandskämpferInnen und
+								Personen, die vom NS-Regime politisch verfolgt wurden, als Bund der politisch Verfolgten – Österreichischer
+								Bundesverband gegründet. Der KZ-Verband fungierte als Dachverband verschiedener Opferverbände und wurde bald zur
+								einzigen Interessengruppe aller WiderstandskämpferInnen und verfolgter ÖsterreicherInnen. Gemäß der proportionalen
+								Repräsentation des politischen Systems in Österreich der Nachkriegszeit wurde der KZ-Verband von allen drei
+								politischen Parteien – der Sozialistischen Partei (SPÖ), der Österreichischen Volkspartei (ÖVP) und der
+								Kommunistischen Partei (KPÖ) gemeinsam geleitet. Aufgrund von Konflikten zwischen den Parteien angesichts des Kalten
+								Krieges wurde der KZ-Verband 1948 aufgelöst.</p></note>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+					<org>
+						<orgName>Rote Armee</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>NKWD</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1186"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+				<listPlace>
+					<place>
+						<placeName>Dachau</placeName>
+						<location>
+							<geo>48.2699 11.4683</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wien</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_nisko_rothschildspital">
+						<placeName>Wien, Rothschildspital</placeName>
+						<location>
+							<geo>48.226971 16.349155</geo>
+						</location>
+						<linkGrp>
+							<link type="desc" target="https://www.memento.wien/address/21364/"/>
+						</linkGrp>
+						<note>
+							<p>Am Währinger Gürtel 95-97 befand sich das Rothschild-Spital. 1873 gründete Baron Anselm von Rothschild ein neues
+								Krankenhaus und übertrug es der Israelitischen Kultusgemeinde (IKG) Wien. Ab 1938 war das Rothschild-Spital das
+								einzige Krankenhaus, in dem Jüdinnen und Juden behandelt wurden. Die PatientInnen mussten für die Behandlungen selbst
+								aufkommen, die Kosten für Verarmte wurden von der IKG übernommen. Nach Abschluss der Massendeportationen aus Wien im
+								Herbst 1942 wurde das Rothschild-Spital geschlossen. Ein verkleinertes Spital wurde in der Malzgasse 16 eröffnet.
+								Zwischen 1943 und 1945 diente das Rothschild-Spital der SS als Lazarett. Nach dem Krieg wurde das Gebäude für die
+								Unterbringung jüdischer Displaced Persons verwendet.</p>
+						</note>
+					</place>
+					<place>
+						<placeName>Nisko</placeName>
+						<location>
+							<geo>50.51987 22.13968</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/763829/nisko.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Nisko"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Polen</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Deutschland</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Russland</placeName>
+						<location>
+							<geo>60 100</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2017370/russian-federation.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Russia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lemberg</placeName>
+						<location>
+							<geo>49.83826 24.02324</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702550/lviv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lviv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kiew</placeName>
+						<location>
+							<geo>50.45466 30.5238</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/703448/kyiv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Kyiv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nowosibirsk</placeName>
+						<location>
+							<geo>55.0415 82.9346</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/1496747/novosibirsk.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Novosibirsk"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sibirien</placeName>
+						<location>
+							<geo>60 100</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2016590/siberia.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tynda</placeName>
+						<location>
+							<geo>55.156 124.72479</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2014718/tynda.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Tynda"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Aldan</placeName>
+						<location>
+							<geo>58.61021 125.39613</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2027968/aldan.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Aldan%2C_Russia"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1963-07-22">22.7.1963</date>
+				<idno>EHRI-NISKO-19630722</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Berichte</term>
+				</keywords>
+				<catRef target="Berichte"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p>Elias Wasserhart legte diese Erinnerungen über seine Haft in Dachau, Nisko und Sibirien im Juli 1963 seinem Opferfürsorgeantrag
+					bei.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-NISKO-19630722_01.jpg"/>
+			<!--<p>Ich, der unterzeichnete <persName ref="#ehri_nisko_wasserhart_elias">Elias
+          WASSERHART</persName>, geboren am <date when="1885-07-06">6. Juli, 1885</date>, frueher
+        wohnhaft in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+        XX, Denisgasse 15, ehemaliger oesterreichischer Buerger, hatte von <date when="1909"
+          >1909</date> - <date when="1914">1914</date> aktiv beim Landwehr Ulanen Regiment No. 4
+        gedient. Vom <date when="1914-08-02">2. August 1914</date> bis <date when="1918-10">Oktober
+          1918</date> war ich mit meinem Regiment in <placeName
+          ref="http://www.geonames.org/798544/republic-of-poland.html">Polen</placeName>, Rumänien
+        und zuletzt an der Italienischen Front. Fuer gutes Verhalten wurde ich zum Zugsfuehrer
+        befoerdert und mit Auszeichnung belohnt.</p>
+      <p> </p>
+      <p>Jetzt wohne ich in New York, USA, natuerlich ohne Beschäftigung, krank und leidend.</p>
+      <p> </p>-->
+			<p>Nachstehend moechte ich in Kuerze die von mir persoenlich erlittenen Leiden und Erlebnisse berichten, um meinen Antrag zu begruenden
+				und zu unterstuetzen.</p>
+			<p> </p>
+			<p>Die naeheren Unterlagen wegen meiner <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject"
+					>Inhaftierung</term> und Folgen in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp"
+					>Dachau</placeName>, wo ich vom <date when="1938-11-10">10. November 1938</date> bis zum <date when="1939-03-15">15. Maerz
+					1939</date> war, liegen dem <orgName ref="#ehri_nisko_kz_verband">KZ Verband</orgName> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> vor. Die in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName> an mir vorgenommene Operation,
+				Entfernung der rechten Hode, war erforderlich nach Erfrieren des Unterleibes. Die Operation wurde schlecht ausgefuehrt.</p>
+			<p> </p>
+			<p>Nachdem ich dann am <date when="1939-03-15">15. Maerz 1939</date> nach <placeName ref="http://www.geonames.org/2761369/vienna.html"
+					>Wien</placeName> zurueckkam, musste ich in das <placeName ref="#ehri_nisko_rothschildspital">Rothschild Krankenhaus</placeName>
+				gehen, um eine zweite Operation zu haben. Ich verblieb dort als Patient etwa 7 Wochen. Zwecks Nachbehandlung hatte ich drei Mal
+				woechentlich zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">Arzt</term> zu gehen. Ausserdem
+				musste ich drei Mal woechentlich zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject"
+					>polizeilichen</term> Meldung gehen, das Revier war in der Floridsdorferbruecke. Trotz meiner Erklaerung, dass ich krank und
+				schwach sei, durfte ich nicht die Strassenbahn benutzen und musste die anstrengenden Wege zu Fuss machen. Natuerlich wurde mein
+				Krankheitszustand, verbunden mit schlechter Ernaehrung und Aufregungen nicht besser.</p>
+			<p> </p>
+			<p>Am <date when="1939-10-28">28. Oktober 1939</date> wurde ich mit dem zweiten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> von <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> nach <placeName ref="http://www.geonames.org/763829/nisko.html"
+					>Nisko am San</placeName>
+				<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polen</placeName> auf Befehl der Gestapo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">verschickt</term>. Als Handwerker hatten wir die
+				Werkzeuge mitzunehmen und die bewilligten DM 300.00 wurden in wertlose polnische Zloty umgetauscht. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Reisepass</term>, Ausweispapiere und die geringen
+				persoenlichen Habseligkeiten wurden uns <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-587" type="subject"
+					>abgenommen</term>. Dieselbe grausame Behandlung wie auf dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+					type="subject">Transport</term> nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp"
+					>Dachau</placeName> war noch schlimmer fuer mich wegen meines geschwaechten Krankheitszustandes. Nach Ankunft in <placeName
+					ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName> mussten wir in stroemendem Regen etwa 4-5 Stunden im Freien
+				warten und dann den Weg zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term>, etwa 5
+				Meilen, vollkommen durchnaesst, zu Fuss gehen. Im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+					>Lager</term> angekommen, wurden wir in eine Baracke eingeschlossen, in der das Wasser fast 10 cm hoch am Boden stand. Erst am
+				naechsten Morgen wurden wir eingeteilt. Ich als Sattler kam in die Sattlerwerkstaette, wo man fuer die gestohlenen Pferde Halfter und
+				Gurte zu machen hatte. Die Pferde wurden nach <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>Deutschland</placeName> verschickt, angeblich fuer das dortige <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">Militaer</term>. Nachdem wir vier Wochen dort waren,
+				waren weder Pferde noch Material mehr vorhanden.</p>
+			<p> </p>
+			<p>Mit einer Anzahl anderer Leute wurde auch ich auf Befehl der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429"
+					>S.S.</orgName>, die die Aufsicht des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+					>Lagers</term> war, ohne Werkzeug oder extra Kleidung verjagt. Als Begleitworte wurde uns gesagt "Wehe Euch Saujuden, wenn Ihr es
+				wagen werdet, ueber die San Bruecke zu gehen, Ihr kommt nicht lebendig auf die andere Seite."</p>
+			<pb n="2" facs="EHRI-NISKO-19630722_02.jpg"/>
+			<p>Wir wanderten also ziellos durch einen Wald und waren gluecklich, in ein Dorf zu gelangen; alle waren wir von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hunger</term> und Durst gepeinigt. Einige der
+				Dorf-Bewohner waren mitleidig genug, uns etwas <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Milch
+					und Kartoffeln</term> zu geben. Gegen Mittag erschien eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076"
+					type="subject">Militaer-Abteilung</term> unter Aufsicht eines Hauptmannes und wir erhielten den strengen Befehl, bis um 6 Uhr
+				abends aus dem Dorf zu verschwinden. Wir versuchten es drei Mal, den San zu ueberqueren, wurden aber immer von den <term
+					ref="#ehri_nisko_nationalities_russians">Russen</term>, die dort am Grenzdienst waren, erwischt. Endlich bei Nacht gelang es uns,
+				die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">Grenze zu ueberschreiten</term>. So kamen wir in
+				vollkommen durchnaessten Kleidern und beinahe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject"
+					>verhungert</term> im <placeName ref="http://www.geonames.org/2017370/russian-federation.html">russischen Gebiet</placeName> an.
+				Das <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">russische Militaer</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftete</term> uns, in unserem miserablen Zustand
+				mussten wir etwa 4 Meilen bis zur naechsten Ortschaft marschieren. Dort wurden wir natuerlich <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">in Haft</term> genommen. Man hielt uns in einer Zelle
+				drei Tage lang ohne jegliches Verhoer. Wir erhielten zwar <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">Verpflegung</term>, die aber so gering und ausserdem so schlecht war, dass nur der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hunger</term> uns zwang, etwas zu geniessen. Nach drei
+				Tagen, noch immer ohne Verhoer, entliess man uns und wir machten uns wieder auf den Weg, gelangten schliesslich in eine Stadt, deren
+				Namen ich vergessen habe. Die dortigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>juedischen</term> Einwohner halfen uns mit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>Essen</term>, Waesche, Schuhen und menschlicher Guete. Bei Schnee und Regen marschierten wir dann nach zwei Tagen zur naechsten
+				Bahnstation und waren gluecklich, dass um 5 Uhr morgens uns ein Zug nach <placeName ref="http://www.geonames.org/702550/lviv.html"
+					>Lemberg</placeName> nahm. Mittellos, hungrig, koerperlich und seelisch krank wurden wir dort von der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> in eine Militaerkaserne gebracht. Man
+				gab uns <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> und einen duennen Strohsack auf
+				dem Boden zu schlafen. Am naechsten Morgen wurden wir angewiesen, fuer die Kuechen Holz zu zerkleinern, hatten dann aber wenigstens
+				fuer die ersten Tage <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> und einen Platz
+				zum Schlafen. Wir konnten uns und unsere Waesche waschen. Damit verging der Monat <date when="1940-01">Januar 1940</date>. Freunde,
+				die schon mit dem ersten <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> kamen und sich im Ort besser
+				auskannten, halfen mir, in einer Schuhfabrik <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>Arbeit</term> zu finden und ich fand auch einen Schlafplatz in einer Tanzschule, auf dem Fussboden. Als Gegenleistung musste ich
+				den Saal und die Nebenraeume reinigen. Das hielt an durch <date when="1940-02">Februar</date> und <date when="1940-03">Maerz
+					1940</date>. Nachdem aber die <term ref="#ehri_nisko_nationalities_russians">Russen</term> herausfanden, dass ich <term
+					ref="#ehri_nisko_nationalities_austrians">oesterreichischer</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Fluechtling</term>, weder <term
+					ref="#ehri_nisko_nationalities_poles">Pole</term> noch <term ref="#ehri_nisko_nationalities_russians">Russen</term> war und mich
+				weigerte, einen <placeName ref="http://www.geonames.org/2017370/russian-federation.html">russischen</placeName> Arbeitspass
+				anzunehmen, wurde ich gezwungen, den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>Arbeitsplatz</term> sofort zu verlassen. Bezahlungsberechnung war nur auf dem Papier, denn der Verdienst wurde angerechnet fuer
+				Essen, etc. Nun kam fuer mich die schlechteste Zeit meines Lebens. Ich musste um ein Stueckchen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Brot</term> oder einen Loeffel warmen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essens</term> im wahrsten Sinne des Wortes betteln.
+				Taeglich musste ich mich bei der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1186">NKWD</orgName> melden, wo man
+				mich zwingen wollte, einen <placeName ref="http://www.geonames.org/2017370/russian-federation.html">russischen</placeName> Arbeitspass
+				zu nehmen, womit sie das Recht haetten, mich an irgendeinen beliebigen Platz in <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russland</placeName> zwecks <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> zu verschicken. Ich weigerte mich, da
+				ich hoffte, dass das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Nazi-Regime</term> eines Tages
+				zusammenbrechen musste, und dass ich dann von <placeName ref="http://www.geonames.org/702550/lviv.html">Lemberg</placeName> leichter
+				nach <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zurueckkommen koennte. Leider hatte ich die
+				Rechnung ohne die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1186">NKWD</orgName> gemacht. Ende <date
+					when="1940-06">Juni 1940</date>, nachts, wurde ich von der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1186"
+					>NKWD</orgName> geholt und wurde mit allen meinen geringen Habseligkeiten auf die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> genommen. Ich wurde einem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Gefangenentransport</term> zugeteilt und auf den
+				Bahnhof in <placeName ref="http://www.geonames.org/702550/lviv.html">Lemberg</placeName> geschafft; nach zwei Tage Warten fuhr der Zug
+				endlich ab, bestehend aus <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Maennern</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kindern</term>, Menschen jeden Alters, jeder Rasse, zu
+				einem uns unbekanntem Ziel. Wir hatten in dem Waggon weder Wasser noch <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term>.</p>
+			<pb n="3" facs="EHRI-NISKO-19630722_03.jpg"/>
+			<p>Gegend Abend oeffnete die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1186">NKWD</orgName> die fest verschlossenen
+				Waggontueren. Wir waren in <placeName ref="http://www.geonames.org/703448/kyiv.html">Kiew</placeName>. Man gab uns etwas warmes <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Brot</term>. Am naechsten Morgen wurden die Tueren
+				wieder fest verschlossen und der Zug hielt nur ab und zu, um den Insassen Gelegenheit zu geben, ihre Notdurft zu verrichten. Unter
+				solchen Umstaenden waren wir sechs Wochen unterwegs, bis wir <placeName ref="http://www.geonames.org/1496747/novosibirsk.html">Nowa
+					Sibirsk</placeName> erreichten. Damit wurde uns bewusst, dass man uns nach <placeName
+					ref="http://www.geonames.org/2016590/siberia.html">Sibirien</placeName> verschickt hatte. Nach weiteren 5 Tagen kamen wir nach
+					<placeName ref="http://www.geonames.org/2014718/tynda.html">Tinda</placeName>, wo man uns in einem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Barackenlager</term> unterbrachte. Dann wurden etwa
+				1200 Menschen mit Autokolonne nach Stalins Oblas <placeName ref="http://www.geonames.org/2027968/aldan.html">Aldan</placeName>,
+				Jakutska Republik gebracht und in einem Wald abgesetzt, in dem unfertige Baracken standen. Mit Hilfe von <term
+					ref="#ehri_nisko_nationalities_russians">Russen</term>, die auch nach dort verschickt waren, hatten wir zuerst 8 Baracken wohnbar
+				zu machen. Eine Kommission teilte uns in die Baracken ein, man gab uns <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term>, durften die Baracken aber nicht
+				verlassen, der Wald wurde staendig von <term ref="#ehri_nisko_nationalities_russians">Russen</term> bewacht. Auch ich wurde als
+				Arbeitsfeiger eingeteilt und dann fing Anfang <date when="1940-09">September 1940</date> der <placeName
+					ref="http://www.geonames.org/2016590/siberia.html">sibirische</placeName> Winter an. Da ich weder Winterkleidung hatte, noch sonst
+				den koerperlichen Anstrengungen gewachsen war, brach ich im <date when="1941-01">Januar 1941</date> vollkommen zusammen. Vorher hatte
+				ich unter anderem schwere koerperliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term>
+				wie Holzhacken, Baeume faellen etc. zu tun. Ich wurde in ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282"
+					type="subject">Hospital</term> in Stalins Oblast <placeName ref="http://www.geonames.org/2027968/aldan.html">Aldan</placeName>
+				gebracht. Dort wurde ich einer Invaliden-Kommission vorgestellt und man fand mich nur zu leichter <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> tauglich. Auf Befehl der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1186">NKWD</orgName> wurde ich als Helfer in das Invalidenhaus 2,
+				Grotschon Oblas <placeName ref="http://www.geonames.org/2027968/aldan.html">Aldan</placeName> verschickt. Hier hatte ich die
+				verschiedensten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeiten</term> auszufuehren bis
+				Ende <date when="1945">1945</date>, ohne jede Bezahlung, alles unter Aufsicht der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1186">NKWD</orgName>. Ich durfte den Ort nicht ohne Erlaubnis verlassen,
+				nur in Begleitung der Verwalterin, zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>Proviant</term> holen.</p>
+			<p>Nach 5 Jahre <placeName ref="http://www.geonames.org/2016590/siberia.html">Sibirien</placeName>, ohne Verhoer, war ich im Jahre <date
+					when="1945">1945</date> frei und es wurde mir angeboten, gegen Bezahlung als freier Mensch zu verbleiben. Natuerlich zog ich es
+				vor, nach <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zurueckzukehren. Nach einer grausig schweren
+				und ueberaus qualvollen Reise durch <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russland</placeName> und
+					<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polen</placeName> kam ich am <date when="1946-07-25">25.
+					Juli 1946</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> an, natuerlich ohne einen
+				Schilling in der Tasche. In <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> war es unter den
+				herrschenden Umstaenden natuerlich absolut unmoeglich, irgendeine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+					type="subject">Arbeit</term> zu finden, auch erlaubte mein Gesundheitszustand nicht schwere koerperliche <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term> auszufuehren. Ich ersuchte den
+				Sattler-Verband um Zuweisung einer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term>
+				ebenfalls. Dann entschloss ich mich, die mir gebotene Gelegenheit zu nehmen und auszuwandern.</p>
+			<!--
+      <p>Ich fuege auch drei kurze Anlagen bei, in denen ich die Zeiten, die ich in den verschiedenen
+        Plaetzen verbringen musste, naeher beschreibe.</p>
+      <p> </p>
+      <p> </p>
+      <p>31 North Street</p>
+      <p>Bronx 68, New York, USA</p>
+      <p><date when="1963-07-22">22. Juli, 1963</date></p>
+      <p>Unterschrift</p>
+      <p><signatures><persName ref="#ehri_nisko_wasserhart_elias">Elias
+          Wasserhart</persName></signatures></p>-->
+		</body>
+	</text>
+</TEI>

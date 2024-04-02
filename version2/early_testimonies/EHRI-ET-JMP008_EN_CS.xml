@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP008_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Heda Grábová, the cultural life in the Theresienstadt ghetto</title>
+                <title xml:lang="fr">Heda Grábová, la vie culturelle du ghetto de Theresienstadt</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Michal Frankl</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Magdalena Sedlická</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>U Staré školy 141/1</street>
+                                <postCode>110 00</postCode>
+                                <settlement>Prague</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+                        <idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1945-09-29">29. 9. 1945</date>, <term ref="#t657" type="subject">Dokumentační akce</term>, <persName
+                    ref="#ehri_et_grabova_heda">Heda Grabová</persName>, <placeName ref="#prague">Prague</placeName>
+                <idno>EHRI-ET-JMP008</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="cs">Czech</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Testimony of Heda Grabová, which became a part of the “documentation campaign” in Prague. Grabová describes the cultural life in
+                    the Theresienstadt Ghetto. As an opera singer she was involved in many operas and musical plays which took place in
+                    Theresienstadt. She mentions her fellow singers, composers, and musicians who were imprisoned in the ghetto.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-JMP008_01.jpg" n="1"/>
+                <head>
+                    <hi rend="letter-spacing: +2px">Protokol</hi>
+                </head>
+                <head>Sepsaný s paní <hi rend="letter-spacing: +2px"><persName ref="#ehri_et_grabova_heda" type="ehri">Hedou Grabovou</persName></hi>,
+                    nar. <date when="1899-08-06">6. VIII. 1899</date>, bytem v <placeName ref="#prague" type="ehri">Praze I.</placeName>, <placeName
+                        ref="#prague" type="ehri">Plátnéřská 7.</placeName>, národnosti <term ref="#ehri_et_nationalities_czechs" type="subject"
+                        >české</term>, povolání <term ref="#t256" type="subject">operní</term>
+                    <term ref="#t692" type="subject">pěvkyně</term>, bývalým <term ref="#t483" type="subject">vězněm</term> z koncentračního tábora
+                        <hi rend="letter-spacing: +2px"><placeName ref="#l449" type="ehri">Terezín– ghetto</placeName></hi>.</head>
+                <p>Když jsem <date when="1941-12-17">17. 12. 1941</date> jako N-<term ref="#t521" type="subject">transport</term> přijela do
+                        <placeName ref="#l449" type="ehri">Terezína</placeName>, tak se nám ani nezdálo, že by v tom zajetí bylo možno <term
+                        ref="#t691" type="subject">zpívat</term> nebo hrát <term ref="#t698" type="subject">divadlo</term>. Chystali jsme se prostě na
+                    život <term ref="#t556" type="subject">práce</term> v továrnách atd., jak nám bylo naznačeno. Ovšem, že věc docela jinak dopadla a
+                    vypadala, jak všeobecně známo. Může se říct, že ze začátku nebylo vůbec nic než strach před dalšími <term ref="#t521"
+                        type="subject">transporty</term> do <placeName ref="#republic-of-poland" type="ehri">Polska</placeName>. Trochu loupání
+                    brambor a hrůza z těch <term ref="#t541" type="subject">poprav</term>, které se tenkráte právě konaly. Ale za dva měsíce, když už
+                    pod vedením <persName ref="#p1296855" type="ehri">Edelsteina</persName> se trochu práce organisovala a když přijížděly stále nové
+                    a nové <term ref="#t521" type="subject">transporty</term>, ukázala se potřeba dát lidem k té špatné stravě aspoň trochu duševní
+                    stravy a tu se jednoho dne v <placeName ref="#l16" type="ehri">Hamburských kasárnách</placeName>, kde bylo <term ref="#t837"
+                        type="subject">ubytováno</term> 3000 <term ref="#t825" type="subject">žen</term>, objevil <persName
+                        ref="https://portal.ehri-project.eu/admin/authorities/terezin-victims-person-iti-1459810" type="ehri">Fredy Hirsch</persName>
+                    a <term ref="#t735" type="subject">rabín</term>
+                    <persName ref="#p1961428" type="ehri">Weiner</persName> a pověřili mně, která jim byla známá jako stará <term ref="#t692"
+                        type="subject">pěvkyně</term> a <term ref="#t698" type="subject">divadelnice</term>, s tím úkolem, utvořit něco, čemu se na
+                    Dienstelle dalo název <orgName ref="#g10" type="ehri">Freizeitgestaltung</orgName>. Prostě, měla jsem sestavit nějaké zábavné a
+                    poučné <term ref="#t672" type="subject">programy</term>, sestavit <term ref="#t672" type="subject">kursy</term> řečí a <term
+                        ref="#t194" type="subject">přednášky</term>. Pokud možno taky nějakou <orgName
+                        ref="https://portal.ehri-project.eu/admin/terezin-jewishcouncil-organisation-jmp-70" type="ehri">knihovnu</orgName> z knih,
+                    které si jednotlivci přivezli do <placeName ref="#l449" type="ehri">Terezína</placeName>. Tak moje práce začala. Sehnala jsem si
+                    místnost, sál, který právě nebyl obydlen, nechala jsem tam nanosit lavice a sama jsem je nosila, sháněla jsem nějaký <term
+                        ref="#t691" type="subject">nástroj</term>, aspoň <term ref="#t691" type="subject">harmoniku</term>, která se taky musela tajně
+                    používat, neboť mít <term ref="#t691" type="subject">nástroje</term> bylo v <term ref="#l449">ghettu</term> přísně zakázáno.
+                    Pořádali jsme tak zvanou zkoušku všech lidí, kteří se zabývali <term ref="#t672" type="subject">recitací</term>, se <term
+                        ref="#t691" type="subject">zpěvem</term> a <term ref="#t672" type="subject">tancem</term> a sestavila první pestrý <term
+                        ref="#t672" type="subject">pořad</term>. <date when="1942-03-21">21. března 1942</date> přišel tak zv. štáb a <term
+                        ref="#t285" type="subject">Judenältester</term><persName ref="#p1296855" type="ehri">Edelstein</persName> do <term ref="#t825"
+                        type="subject">ženských</term>
+                    <term ref="#t837" type="subject">kasáren</term>, což bylo jaksi malým zázrakem, neboť <term ref="#t826" type="subject">muži</term>
+                    nesměli do <term ref="#t825" type="subject">ženských</term>
+                    <term ref="#t837" type="subject">kasáren</term> a obráceně. Konal se t.zv. 1. <term ref="#t672" type="subject">kulturní</term>
+                    večírek, ovšem ve 3 hod. odpoledne. Dbala jsem na to, aby <term ref="#t672" type="subject">program</term> byl stylový a hodnotný.
+                    Sama jsem se zúčastnila <term ref="#t691" type="subject">zpěvem</term>, tančila skupina 6 mladých <term ref="#t825" type="subject"
+                        >děvčat</term> českou polku, recitovaly sestry <persName ref="#ehri_et_adler_sisters" type="ehri">Adlerovy</persName>, dcery
+                        <persName ref="#ehri_et_adler_friedrich" type="ehri">Friedricha Adlera</persName> a <term ref="#t691" type="subject"
+                        >zpívala</term> nějaká dobrá bývalá <term ref="#t691" type="subject">operetní</term> subreta. Sama jsem přivítala a <term
+                        ref="#t691" type="subject">koncertovala</term> a celá věc měla tak velký úspěch, že nejen, že jsme tento <term ref="#t672"
+                        type="subject">program</term> musely několikrát opakovat, aby co nejvíce <term ref="#t825" type="subject">žen</term> jej
+                    slyšelo, ale dostaly jsme povolení pro celou skupinu navštěvovat též jiná <term ref="#t837" type="subject">kasárna</term> /<term
+                        ref="#t826" type="subject">mužská</term>/, kde jsme toto <term ref="#t672" type="subject">představení</term> konaly a tak jsme
+                    začali rozdávat z našeho umění ubožákům, by na chvíli zapomněli v jaké se nacházejí bídě. Chodily jsme taky do <term ref="#t491"
+                        type="subject">nemocnic</term> a přímo mezi lůžkama jsme <term ref="#t691" type="subject">zpívaly</term> a <term ref="#t672"
+                        type="subject">recitovaly</term>. Obyčejně bez doprovodu nějakého <term ref="#t691" type="subject">nástroje</term> a nebylo to
+                    zajisté lehké pro <term ref="#t692" type="subject">zpěváka</term> nebo <term ref="#t692" type="subject">zpěvačku</term>, kteří
+                    byli zvyklí stát na jevišti a <term ref="#t691" type="subject">zpívat</term> s doprovodem orchestru. Dělali jsme to ale rádi,
+                    poněvadž jsme přinesli těm chudákům trochu něčeho jiného z lepšího světa. A to byly ty začátky. Časem se sjelo do <placeName
+                        ref="#l449" type="ehri">Terezína</placeName> více a více bývalých <term ref="#t692" type="subject">zpěváků</term>, <term
+                        ref="#t692" type="subject">hudebníků</term>, <term ref="#t692" type="subject">komponistů</term>, časem se vedení dívalo na
+                    tyto věci jinak, umožnilo místnosti, prosadilo na <term ref="#t294" type="subject">komandatuře</term> povolení nástrojů a tak se
+                    mohlo stát, že za řízení v koncentračním táboře <term ref="#t745" type="subject">zemřelého</term>
+                    <term ref="#t692" type="subject">kapelníka</term>
+                    <persName ref="#p1802542" type="ehri">Rafaela Schächtra</persName> se kráčelo k nastudování a provedení celé <term ref="#t691"
+                        type="subject">opery</term> a sice Prodané nevěsty od <persName ref="#ehri_et_smetana_bedrich" type="ehri">Bedřicha
+                        Smetany</persName>. <persName ref="#p1802542" type="ehri">Schächter</persName>, který po večerech v <placeName ref="#l12"
+                        type="ehri">Sudetských kasárnách</placeName>, kde <term ref="#t837" type="subject">bydlel</term>, pouze s pomocí jedné
+                    ladičky, kterou jsem mu zapůjčila, začínal studovat nějaké <term ref="#t691" type="subject">sbory</term> židovské, dostal nápad,
+                    že by se mohly <pb facs="EHRI-ET-JMP008_02.jpg" n="2"/> studovat <term ref="#t691" type="subject">sbory</term> z Prodané nevěsty a
+                    já jsem mu sehnala z našich <term ref="#t837" type="subject">kasáren</term>
+                    <term ref="#t825" type="subject">děvčata</term> a on v <placeName ref="#l12" type="ehri">Sudetských kasárnách</placeName> cvičil
+                        <term ref="#t826" type="subject">muže</term> a postupně, když se našli přijatelní solisté, přišel ten nápad, že by se mohla
+                    provést celá <term ref="#t691" type="subject">opera</term>, ovšem koncertantně. Někde v <placeName ref="#l24" type="ehri"
+                        >Sokolovně</placeName> stál starý, polorozbitý klavír bez noh a zatím dostal nějaké polorozbité harmonium a někde ve sklepě
+                    malinkou místnost, kde mohl pravidelně se svými lidmi studovat. A tak jsme za největší zimy, zabaleni až po uši, zkoušeli Prodanou
+                    nevěstu. Konečně jsme byli s tím hotovi a nyní se musel v noci stěhovat klavír tajně do <placeName ref="#l449" type="ehri"
+                        >ghetta</placeName>, neboť <placeName ref="#l24" type="ehri">Sokolovna</placeName> byla vlastně už mimo. V jednom <term
+                        ref="#t190" type="subject">chlapeckém domově</term> dali k disposici tělocvičnu a konečně jsme uváděli po prvé v <placeName
+                        ref="#l449" type="ehri">Terezíně</placeName>
+                    <date when="1942-11-28">28. listopadu 1942</date> Prodanou nevěstu. Dojem byl nezapomenutelný. Při prvních taktech <q>Proč bychom
+                        se netěšili</q> plakal kde kdo. Prodaná nevěsta se hrála asi 35 krát. A už se začlo studovat něco nového a sice <term
+                        ref="#t691" type="subject">Figarovu svatbu</term> a tak se za celou další dobu v <placeName ref="#l449" type="ehri"
+                        >Terezíně</placeName> postupně <term ref="#t691" type="subject">opery</term>: <term ref="#t691" type="subject">Prodaná
+                        nevěsta</term>, <term ref="#t691" type="subject">Hubička</term>, <term ref="#t691" type="subject">Figarova svatba</term>,
+                        <term ref="#t691" type="subject">Kouzelná flétna</term>, <term ref="#t691" type="subject">Rigoletto</term>, <term ref="#t691"
+                        type="subject">Tosca</term>, <term ref="#t691" type="subject">Carmen</term>, <term ref="#t691" type="subject">Bastien a
+                        Bastien</term>, <term ref="#t691" type="subject">La serva Padrona</term>,<persName ref="#ehri_et_verdi_giussepe" type="ehri"
+                        >Verdi</persName>-<term ref="#t691" type="subject">Reqiem</term>, <term ref="#t691" type="subject">Tvorstvo</term>, <term
+                        ref="#t691" type="subject">Elias</term> a spoustu sborových <term ref="#t691" type="subject">koncertů</term>, spousta
+                    německých a českých <term ref="#t698" type="subject">činoher</term>, nesčetné <term ref="#t136" type="subject">kabarety</term>,
+                    dokonce na dvoře <placeName ref="#l16" type="ehri">Hamburských kasáren</placeName> a <placeName ref="#l42" type="ehri"
+                        >Bauhofu</placeName> cirkusové <term ref="#t672" type="subject">představení</term>, na sta jednotlivých <term ref="#t691"
+                        type="subject">koncertů</term> klavírních, instrumentálních, <term ref="#t691" type="subject">pěveckých</term>, časem i
+                    orchestrálních, pod řízením <term ref="#t692" type="subject">kapelníka</term>
+                    <persName ref="#p2013987" type="ehri">Ančerle</persName>, některých <term ref="#t692" type="subject">operet</term>, mezi jinými
+                    Netopýr. <term ref="#t672" type="subject">Kulturní</term> a <term ref="#t698" type="subject">divadelní</term> život byl
+                        v <placeName ref="#l449" type="ehri">Terezíně</placeName> v roku <date when="1943">1943</date> : <date when="1944">44</date>
+                    tak bohatý, že ani za normálních mírových dob nebylo ve středně velkém městě tolik podniků, jako v našem <placeName ref="#l449"
+                        type="ehri">ghettě</placeName>. <term ref="#t698" type="subject">Divadelní</term> sály byly malé a omezené, neboť přijížděním
+                        <term ref="#t521" type="subject">transportů</term> všechno potřebovala t.zv <orgName
+                        ref="https://portal.ehri-project.eu/admin/keywords/terezin-jewishcouncil-organisation-jmp-26" type="ehri"
+                        >Raumwirtschaft</orgName>. A tak nám nic jiného nezbývalo, než zřizovat na půdách <term ref="#t837" type="subject"
+                        >kasáren</term> a větších obytných domů docela malá jeviště, kde akustika byla bídná, v létě to vedrem nebylo k vydržení a
+                    v zimě zase zimou, to bylo jasné. Ale nadšení posluchačů a nadšení účinkujících dalo všem na to zapomenout a tak bylo zde i za
+                    těchto okolností vyprodáno. Zdá se to divné, že Židům v <placeName ref="#l449" type="ehri">ghettu</placeName>
+                    <term ref="#t1216" type="subject">SS</term> povolovala takovým způsobem pěstovat <term ref="#t691" type="subject">hudbu</term>,
+                        <term ref="#t673" type="subject">umění</term>, <term ref="#t842" type="subject">přednášky</term> atd., ale páni věděli dobře,
+                    co dělají. Chtěli mít tím <placeName ref="#l449" type="ehri">Terezínem</placeName> tzv. visitku pro cizinu, t.zv. <distinct
+                        type="camp_language">Musterghetto</distinct>. Jelikož očekávali nějakou <orgName ref="#g419" type="ehri">komisi</orgName>, tak
+                    dali k disposici dokonce <placeName ref="#l24" type="ehri">Sokolovnu</placeName> a nařídili, aby byly <term ref="#t691"
+                        type="subject">opery</term> uváděny v bezvadné úpravě, v kostýmech a s parukama, prostě, aby se hrálo skutečné <term
+                        ref="#t698" type="subject">divadlo</term>. A tak se tedy počínaje <date when="1944-05">květnem 1944</date>, kdy vyvrcholila
+                    t.zv. <distinct type="camp_language"><term ref="#t298" type="subject">Verschönerung</term></distinct>. <placeName ref="#l449"
+                        type="ehri">Terezína</placeName>, hrálo skutečné <term ref="#t698" type="subject">divadlo</term> s překrásnou <term
+                        ref="#t698" type="subject">divadelní</term> jevištní úpravou. Arch. <persName ref="#p2004107" type="ehri">Zelenka</persName>,
+                    Prof. Lederer a jiní známí <term ref="#t677" type="subject">výtvarníci</term> pracovali neustále na úpravě těch různých jevišť,
+                    dokonce veškeré osvětlovací přístroje a žárovky pro <term ref="#t698" type="subject">divadelní</term> převoz nutné, museli se do
+                        <placeName ref="#l449" type="ehri">Terezína</placeName> dodávat. Na náměstí byl postaven pavilon, kde vyhrávala denně městská
+                    kapela, samí výborní <term ref="#t692" type="subject">muzikanti</term>, každý jednotlivý pro sebe virtuos. A v kavárně hrálo Trio
+                    a konaly se <term ref="#t136">kabarety</term> /<persName ref="#ehri_et_hofer_hans" type="ehri">Hans Hofer</persName>/ a v létě se
+                    konala představení na nádvořích pod širým nebem. Tak vlastně se zdál <placeName ref="#l449" type="ehri">Terezín</placeName> v létě
+                        <date when="1944">1944</date> úplným Eldorádem v Evropě, kde nebylo <term ref="#t1105" type="subject">náletů</term>, nebylo
+                    fronty, zkrátka, nehrozilo zdánlivě žádné nebezpečí. A slavná <term ref="#g419" type="subject">komise</term> přijela a zřejmě
+                    zašla. Byla sehraná úplná komedie, <term ref="#t824" type="subject">děti</term> musely běhat za <term ref="#t1216" type="subject"
+                        >SS-komandantem</term>, tahat ho za kabát a volat: <q>Strýčku, pojď si s námi hrát</q>, načež odpověděl: <q>Dnes nemohu, ale
+                        zítra.</q> Známý filmový režisér <persName ref="#p2188603" type="ehri">Kurt Geron</persName> musel natočit <term ref="#t703"
+                        type="subject">film</term>. V <term ref="#t698" type="subject">divadlech</term> byli připraveni herci a v okamžiku, když
+                    vkročila <orgName ref="#g419" type="ehri">komise</orgName> se jako uprostřed <term ref="#t691" type="subject">opery</term> nebo
+                        <term ref="#t695" type="subject">činohry</term> začalo hrát. Po 5 minutách se <orgName ref="#g419" type="ehri"
+                        >komise</orgName> odebrala dále a <term ref="#t698" type="subject">hra</term> byla přerušena. Šlo se domů. Byli taky nabádání
+                        <term ref="#t692" type="subject">komponisti</term>
+                    <persName ref="#p1427882" type="ehri">Haas</persName>, <persName ref="#p1568477" type="ehri">Krása</persName>, <persName
+                        ref="#p1935246" type="ehri">Ullmann</persName> a <persName
+                        ref="https://portal.ehri-project.eu/admin/authorities/terezin-victims-person-iti-1521521" type="ehri">Gideon Klein</persName>,
+                    aby složili <term ref="#t691" type="subject">opery</term> anebo <term ref="#t694" type="subject">písně</term>, které se potom
+                    musely hrát. To vše vlastně z rozkazu <term ref="#t1216" type="subject">SS</term>.</p>
+                <pb facs="EHRI-ET-JMP008_03.jpg" n="3"/>
+                <p>Byly provedeny též dvě <term ref="#t824" type="subject">dětské</term>
+                    <term ref="#t691" type="subject">opery</term>. <term ref="#t164" type="subject">Brundibár</term>, kterou složil <persName
+                        ref="#p1568477" type="ehri">Hans Krása</persName> a <term ref="#t642" type="subject">Broučci</term>, sestavená z českých
+                    národních <term ref="#t694" type="subject">písní</term>, pod vedením <persName ref="#ehri_et_schonova_vlasta" type="ehri">Vávy
+                        Schönové</persName> a <term ref="#t691" type="subject">kapelníka</term>
+                    <persName ref="#ehri_et_brock_robert" type="ehri">Broka</persName> a režiséra <persName ref="#ehri_et_thein_hanus" type="ehri"
+                        >Theina</persName>. Hrály a <term ref="#t691" type="subject">zpívaly</term>
+                    <term ref="#t824" type="subject">děti</term> do 14 let.</p>
+                <p>A zdálo se nemyslitelným, že by to takhle mohlo jít dále. A taky ta rána dopadla. Jakmile <orgName ref="#g419" type="ehri"
+                        >komise</orgName> odjela, začalo se s vyklizováním <placeName ref="#l449" type="ehri">ghetta</placeName> v <placeName
+                        ref="#l449" type="ehri">Terezíně</placeName>. Během 4 neděl <term ref="#t518" type="subject">odjelo</term> 18.600 Židů do tak
+                    zv. <term ref="#t508" type="subject">pracovního tábora</term>, ve skutečnosti do <placeName ref="#l2" type="ehri"
+                        >Osvětími</placeName>, kde velká část šla přímo do <term ref="#t499" type="subject">plynu</term> a jen nepatrná část, když
+                    byla prošla <term ref="#t411" type="subject">selekcí</term>, byla poslána dále do <term ref="#t496" type="subject">koncentračních
+                        táborů</term>. Skoro všichni <term ref="#t826" type="subject">muži</term> – <term ref="#t677" type="subject">umělci</term>,
+                        <term ref="#t696" type="subject">herci</term>, <term ref="#t692" type="subject">komponisti</term>, <term ref="#t692"
+                        type="subject">zpěváci</term>, <term ref="#t692" type="subject">kapelníci</term>, <term ref="#t696" type="subject"
+                        >instrumentalisti</term>, - <term ref="#t745" type="subject">přišli o život</term>. A v <placeName ref="#l449" type="ehri"
+                        >Terezíně</placeName> zůstalo z celého souboru 7 <term ref="#t825" type="subject">žen</term>, na které bylo zapomenuto, a tak
+                    nešly stejnou cestou, jako těch 18.600. Když byl vypraven poslední <term ref="#t521" type="subject">transport</term> z <placeName
+                        ref="#l449" type="ehri">Terezína</placeName> do <placeName ref="#l2" type="ehri">Osvětíma</placeName>, dne <date
+                        when="1944-10-28">28. října 44</date> a <distinct type="camp_language"><term ref="#t285" type="subject"
+                        >Judenältester</term></distinct>
+                    <persName ref="#p1145704" type="ehri">Murmelstein</persName> měl předložit <distinct type="camp_language"
+                        >Lagerhaltrovi</distinct><persName ref="#p000318" type="ehri">Rahmovi</persName> zbytek těch, kteří nedefilovali před ním,
+                    ukázalo se, že se zapomnělo na 7 <term ref="#t825" type="subject">žen</term>, <term ref="#t692" type="subject">zpěvačka</term>,
+                        <term ref="#t692" type="subject">klavíristky</term> čili <term ref="#t692" type="subject">pianistky</term> a <term ref="#t696"
+                        type="subject">herečky</term>. Když se <persName ref="#p1145704" type="ehri">Murmelstein</persName> zeptal, jestli se mají dát
+                    do toho posledního <term ref="#t521" type="subject">transportu</term>, tak <persName ref="#p000318" type="ehri">Rahm</persName>,
+                    blahovolně se usmívajíc řekl <placeName ref="#vienna" type="ehri">vídeňským</placeName> dialektem: <foreign xml:lang="de">Aber
+                        was, lassenses da. Sollens dann wieder <term ref="#t695" type="subject">spielen</term> und <term ref="#t691" type="subject"
+                            >singen</term></foreign>. A to nám vlastně zachránilo život. Musely jsme ale ihned nastoupit do t. zv. <term ref="#t764"
+                        type="subject"><distinct type="camp_language">Glimmerspalterei</distinct></term>, kde jsme od ½ 6 h ráno do 2 h odpoledne
+                    loupaly <term ref="#t764">slídu</term>, ale asi 3 dny po odjezdu posledního <term ref="#t521" type="subject">transportu</term>
+                    dostala jsem rozkaz sestavit nový <term ref="#t691" type="subject">koncertní</term> program, ta k jsme se musely postavit večer do
+                    nevytopeného sálu <placeName ref="#l24" type="ehri">Sokolovny</placeName> a narychlo nastudovat nějaký program a těm, kteří
+                        v <placeName ref="#l449" type="ehri">Terezíně</placeName> zůstali, znovu <term ref="#t691" type="subject">zpívat</term>. A tak
+                    prošly 4 měsíce, až do <date when="1945-03-07">7. března 1945</date>, když nás pan <persName ref="#p000318" type="ehri"
+                        >Rahm</persName> vyndal ze <term ref="#t764" type="subject"><distinct type="camp_language">slídy</distinct></term> a nařídil,
+                    abychom narychlo nastudovali <term ref="#t824" type="subject">dětskou</term>
+                    <term ref="#t691" type="subject">operu</term>
+                    <term ref="#t691" type="subject">Broučci</term> a <term ref="#t691" type="subject">operu</term> Hofmannovy povídky, neboť se zase
+                    očekávala nějaká komise. A tak se ve dne v noci psaly noty, dělal orchestrální materiál, zkoušelo s <term ref="#t692"
+                        type="subject">hudebníky</term>, kteří zatím byli <term ref="#t268" type="subject">přijeli</term> jako <distinct
+                        type="camp_language">arisch-versippt</distinct> a tak se zase v <placeName ref="#l24" type="ehri">Sokolovně</placeName> hrálo
+                    na překrásně vybaveném jevišti v kostýmech. Komise taky přijela a všechno dobře dopadlo a život v <placeName ref="#l449"
+                        type="ehri">Terezíně</placeName> se zdál býti jako před <term ref="#t521" type="subject">odjezdem</term> těch tisíců lidí. A
+                    tu kolem <date when="1945-04-20">20. dubna</date> přijel do <placeName ref="#l449" type="ehri">Terezína</placeName> 1. <term
+                        ref="#t521" type="subject">transport</term> t. zv. <distinct type="camp_language">Pyžamkářů</distinct> z <placeName ref="#l43"
+                        type="ehri">Buchenwaldu</placeName> a tu se nám otevřely oči. Tu jsme poznali skutečnost a od toho dne přestalo všechno <term
+                        ref="#t691" type="subject">zpívání</term>, <term ref="#t698" type="subject">hraní</term> a rozptylování se. Už nám nebylo do
+                        <term ref="#t691" type="subject">zpěvu</term>. Zanedlouho jsme byli <term ref="#t573" type="subject">vysvobození</term> a tím
+                    končila naše <term ref="#t691" type="subject">hudební</term>
+                    <term ref="#t673" type="subject">umělecká</term> kariera v <placeName ref="#l449" type="ehri">Terezíně</placeName>. Já osobně jsem
+                        <term ref="#t691" type="subject">zpívala</term> skoro denně, hrála ve všech <term ref="#t691" type="subject">operách</term> a
+                    snad bych mohla říci, že jsem si jedině <term ref="#t691" type="subject">zpěvem</term> a svým uměním zachránila život a ušetřila
+                    útrapy, které museli prodělat tisíce a tisíce mých bratrů a sester. </p>
+                <p>Mohu říci, že <placeName ref="#l449" type="ehri"> Terezín</placeName> byl můj nejdelší a nejhůř placený engagement v celé mé <term
+                        ref="#t691" type="subject">hudební</term> a <term ref="#t695" type="subject">divadelní</term> karieře.</p>
+                <p>Podpis:</p>
+                <p>
+                    <persName ref="#ehri_et_grabova_heda" type="ehri">Heda Grabová</persName>
+                </p>
+                <p>Protokol přijala:</p>
+                <p>
+                    <persName ref="#ehri_et_gerzonova_berta" type="ehri">Berta Gerzonová</persName>
+                </p>
+                <p>Podpis svědků: Za <term ref="#t657" type="subject">Dokumentační akci</term> přijal:</p>
+                <p>
+                    <persName ref="#ehri_et_saxlová_edita" type="ehri">Dita Saxlová</persName>
+                    <persName ref="#ehri_et_shek_zeev" type="ehri">Scheck</persName>
+                </p>
+                <p>
+                    <persName ref="#ehri_et_schickova_helena" type="ehri">Helena Schicková</persName>
+                </p>
+                <p>Za archiv přijal: <date when="1945-09-29">29. IX. 1945</date></p>
+                <p>
+                    <persName ref="#ehri_et_schmiedt_alexander" type="ehri">Alex. Schmiedt</persName>
+                </p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-JMP008_01.jpg" n="1"/>
+                <head>
+                    <hi rend="letter-spacing: +2px">Statement</hi>
+                </head>
+                <p>Written with Mrs. <hi rend="letter-spacing: +2px"><persName ref="#ehri_et_grabova_heda" type="ehri">Heda Grabová</persName></hi>,
+                    born <date when="1899-08-06">6. VIII. 1899</date>, residing in <placeName ref="#prague" type="ehri">Prague I.</placeName>,
+                        <placeName ref="#prague" type="ehri">Plátnéřská 7.</placeName>, <term ref="#ehri_et_nationalities_czechs" type="subject"
+                        >Czech</term> nationality, profession <term ref="#t256" type="subject">opera</term>
+                    <term ref="#t692" type="subject">singer</term>, former <term ref="#t483" type="subject">prisoner</term> in the <hi
+                        rend="letter-spacing: +2px"><placeName ref="#l449" type="ehri">Theresienstadt – ghetto</placeName></hi> concentration
+                    camp.</p>
+                <p>When I arrived in <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> on <date when="1941-12-17">17. 12. 1941</date> as
+                    an N-<term ref="#t521" type="subject">transport</term>, we had no idea that it would be possible to <term ref="#t691"
+                        type="subject">sing</term> or put on a <term ref="#t698" type="subject">theater</term> performance during our imprisonment. We
+                    were simply ready for a life of <term ref="#t556" type="subject">working</term> in factories etc., as we had been told. However,
+                    it’s well known that things looked and ended up differently. It can be said that in the beginning all we had was our fear of more
+                        <term ref="#t521" type="subject">transports</term> to <placeName ref="#republic-of-poland" type="ehri">Poland</placeName>. We
+                    peeled potatoes a little and were terrified of the <term ref="#t541" type="subject">executions</term> that were taking place at
+                    the time. But in two months, when some work was organized under <persName ref="#p1296855" type="ehri">Edelstein’s</persName>
+                    leadership and when newer and newer <term ref="#t521" type="subject">transports</term> continued to arrive, a need arose to give
+                    people some spiritual nourishment along with their bad food and, one day, in the <placeName ref="#l16" type="ehri">Hamburg
+                        barracks</placeName>, where 3,000 <term ref="#t825" type="subject">women</term> were <term ref="#t837" type="subject"
+                        >housed</term>, <persName ref="#p1459810" type="ehri">Fredy Hirsch</persName> and <term ref="#t735" type="subject"
+                        >Rabbi</term>
+                    <persName ref="#p1961428" type="ehri">Weiner</persName> appeared and charged me, since I was known to them as an old <term
+                        ref="#t692" type="subject">singer</term> and <term ref="#t698" type="subject">actress</term>, with the task of creating
+                    something that was given the name <ref target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-10"
+                        >Freizeitgestaltung</ref> in the Dienstelle. In short, I was to put together fun and educational <term ref="#t672"
+                        type="subject">programs</term>, and organize language <term ref="#t672" type="subject">courses</term> and <term ref="#t194"
+                        type="subject">lectures</term>. If possible, also a <ref
+                        target="https://portal.ehri-project.eu/terezin-jewishcouncil-organisation-jmp-70">library</ref> out of the books that
+                    individuals had brought with them to <placeName ref="#l449" type="ghetto">Theresienstadt</placeName>. Thus my work began. I
+                    procured a room, a hall that had not yet been inhabited, I had benches brought in and carried some in myself, I looked for a <term
+                        ref="#t691" type="subject">musical</term> instrument, at least a <term ref="#t691" type="subject">harmonica</term>, which
+                    could only be played in secret, however, because it was strictly forbidden to have <term ref="#t691" type="subject">musical</term>
+                    instruments in the <placeName ref="#l449" type="ghetto">ghetto</placeName>. We held a so-called audition of everyone who had
+                    engaged in <term ref="#t672" type="subject">recitation</term>, <term ref="#t691" type="subject">singing</term> and <term
+                        ref="#t672" type="subject">dancing</term>, and I put together the first vibrant <term ref="#t672" type="subject"
+                        >program</term>. On <date when="1942-03-21">March 21st, 1942</date>, the so-called staff and <term ref="#t285" type="subject"
+                        >Judenältester</term>
+                    <persName ref="#p1296855" type="ehri">Edelstein</persName> came into the <term ref="#t825" type="subject">women’s</term>
+                    <term ref="#t837" type="subject">barracks</term>, which was a small miracle since <term ref="#t826" type="subject">men</term>
+                    weren’t allowed in the <term ref="#t825" type="subject">women’s</term>
+                    <term ref="#t837" type="subject">barracks</term> and vice versa. The so-called first <term ref="#t672" type="subject"
+                        >cultural</term> evening took place, but it started at 3 o’clock in the afternoon. I made sure that the <term ref="#t672"
+                        type="subject">program</term> was stylish as well as educational. I <term ref="#t691" type="subject">sang</term>, a group of 6
+                    young <term ref="#t825" type="subject">girls</term> danced the Czech polka, and the <persName ref="ehri_et_adler_sisters"
+                        type="ehri">Adler</persName> sisters, the daughters of <persName ref="#ehri_et_adler_friedrich" type="ehri">Friedrich
+                        Adler</persName>, recited and <term ref="#t691" type="subject">sang</term> several short <term ref="#t691" type="subject"
+                        >operetta</term> soubrettes from days of yore. I welcomed the audience myself and <term ref="#t691" type="subject"
+                        >performed</term>, and the whole event was so successful that not only did we repeat the same <term ref="#t672" type="subject"
+                        >program</term> several times to allow as many <term ref="#t825" type="subject">women</term> as possible to be able to attend
+                    it, but we received permission for the whole group to visit other <term ref="#t837" type="subject">barracks</term> (<term
+                        ref="#t826" type="subject">men’s</term>), where we performed this <term ref="#t672" type="subject">show</term>. This is how we
+                    began to share our art with the poor souls so that they could forget about the dire poverty in which they were living if only for
+                    a moment. We also went to <term ref="#t491" type="subject">hospitals</term> and <term ref="#t691" type="subject">sang</term> and
+                        <term ref="#t672" type="subject">recited</term> between the beds, generally with no <term ref="#t691" type="subject"
+                        >musical</term> accompaniment, which was very difficult for the male <term ref="#t691" type="subject">singer</term> or female
+                        <term ref="#t691" type="subject">singer</term>, who was used to standing on a stage and <term ref="#t691" type="subject"
+                        >singing</term> accompanied by an orchestra. But we were happy to do it, because we brought the poor souls a little something
+                    from a better world. This was how it all began. In time, more and more former <term ref="#t692" type="subject">singers</term>,
+                        <term ref="#t692" type="subject">musicians</term>, and <term ref="#t692" type="subject">composers</term> arrived in <placeName
+                        ref="#l449" type="ghetto">Theresienstadt</placeName>, and the administration came to see the theater in a different light. It
+                    gave us a space and got the <term ref="#t294" type="subject">kommandantur</term> to approve musical instruments, and so it
+                    happened that in the concentration camp, under the leadership of the <term ref="#t745" type="subject">deceased</term>
+                    <term ref="#t692" type="subject">bandleader</term>
+                    <persName ref="#p1802542" type="ehri">Rafael Schächter</persName>, we rehearsed and performed an entire <term ref="#t691"
+                        type="subject">opera</term>: The Bartered Bride by <persName ref="#ehri_et_smetana_bedrich" type="ehri">Bedřich
+                        Smetana</persName>. At night, in the <placeName ref="#l12" type="ehri">Sudeten barracks</placeName> where he <term ref="#t837"
+                        type="subject">lived</term>, <persName ref="#p1802542" type="ehri">Schächter</persName> began to study Jewish <term
+                        ref="#t691" type="subject">choir</term> pieces with the help of a single tuning fork that I had lent him. He got the idea <pb
+                        facs="EHRI-ET-JMP008_02.jpg" n="2"/> to study the <term ref="#t691" type="subject">choruses</term> from The Bartered Bride and
+                    I put together a group of <term ref="#t825" type="subject">girls</term> from our <term ref="#t837" type="subject">barracks</term>.
+                    He practiced with the <term ref="#t826" type="subject">men</term> in the <placeName ref="#l12" type="ehri">Sudeten
+                        barracks</placeName> and gradually, when the right soloists were found, we got the idea to do the whole <term ref="#t691"
+                        type="subject">opera</term> as a concert. Somewhere in the <placeName ref="#l24" type="ehri">Sokol gymnasium</placeName> was
+                    an old, battered piano without legs and he managed to find a half-broken harmonium, and, somewhere in the cellar, a tiny room
+                    where he could regularly practice with his group. During the coldest part of the winter, bundled up to our ears, we rehearsed The
+                    Bartered Bride. We were finally ready and now needed to move the piano at night in secret into the <placeName ref="#l449"
+                        type="ghetto">ghetto</placeName>, because the <placeName ref="#l24" type="ehri">Sokol gymnasium</placeName> could no longer be
+                    used. They let us use a gym in a <term ref="#t190" type="subject">boys home</term> and we finally performed The Bartered Bride
+                        in <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> on <date when="1942-11-28">November 28th, 1942</date>. It
+                    was an unforgettable experience. When the first measures of <q>Proč bychom se netěšili</q> sounded there wasn’t a dry eye in the
+                    house. We performed The Bartered Bride around 35 times. Then we started rehearsing something new, this time <term ref="#t691"
+                        type="subject">The Marriage of Figaro</term>, and in the rest of the time we spent in <placeName ref="#l449" type="ghetto"
+                        >Theresienstadt</placeName> we gradually performed the <term ref="#t691" type="subject">operas</term>
+                    <term ref="#t691" type="subject">The Bartered Bride</term>, <term ref="#t691" type="subject">The Kiss</term>, <term ref="#t691"
+                        type="subject">The Marriage of Figaro</term>, <term ref="#t691" type="subject">The Magic Flute</term>, <term ref="#t691"
+                        type="subject">Rigoletto</term>, <term ref="#t691" type="subject">Tosca</term>, <term ref="#t691" type="subject"
+                    >Carmen</term>, <term ref="#t691" type="subject">Bastien and Bastienne</term>, <term ref="#t691" type="subject">La Serva
+                        Padrona</term>, <persName ref="#ehri_et_verdi_giussepe" type="ehri">Verdi</persName>’s <term ref="#t691" type="subject"
+                        >Requiem</term>, <term ref="#t691" type="subject">Tvorstvo</term>, <term ref="#t691" type="subject">Elias</term>, and many
+                    choir <term ref="#t691" type="subject">concerts</term>, many German and Czech <term ref="#t698" type="subject">plays</term>,
+                    countless <term ref="#t136" type="subject">cabarets</term>, even a circus <term ref="#t672" type="subject">performance</term> in
+                    the courtyard of the <placeName ref="#l16" type="ehri">Hamburg barracks</placeName> and the <placeName ref="#l42" type="ehri"
+                        >Bauhof</placeName>, a hundred individual piano, instrumental, and <term ref="#t691" type="subject">vocal</term><term
+                        ref="#t691" type="subject">concerts</term>, in time even orchestral concerts conducted by the <term ref="#t692" type="subject"
+                        >bandleader</term>
+                    <persName ref="#p2013987" type="ehri">Ančerle</persName>, several <term ref="#t692" type="subject">operettas</term>, among them
+                    Die Fledermaus. In the year <date>1943</date>-<date>1944</date>, <placeName ref="#l449" type="ghetto">Theresienstadt</placeName>’s
+                        <term ref="#t672" type="subject">cultural</term> and <term ref="#t698" type="subject">theatrical</term> life was so full that
+                    a mid-sized city in peacetime hadn’t put on as many events as we had in our <placeName ref="#l449" type="ghetto"
+                        >ghetto</placeName>. The <term ref="#t698" type="subject">theater</term> halls were small and limited; the so-called <ref
+                        target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-26">Raumwirtschaft</ref> needed
+                    everything when the <term ref="#t521" type="subject">transports</term> arrived. And so we had to establish small stages in the
+                    attics of the <term ref="#t837" type="subject">barracks</term> and larger residential houses, where the acoustics were terrible,
+                    the heat in summer and the cold in winter was unbearable, that was for sure. But the audience’s enthusiasm and the performers’ joy
+                    made us forget these things. The performances were sold out even under these conditions. It seems strange that the <term
+                        ref="#t1216" type="subject">SS</term> allowed Jews in the <placeName ref="#l449" type="ghetto">ghetto</placeName> to cultivate
+                        <term ref="#t691" type="subject">music</term>, <term ref="#t673" type="subject">art</term>, <term ref="#t842" type="subject"
+                        >lectures</term> etc. in such a way, but the gentlemen knew very well what they were doing. They wanted these things to help
+                    make <placeName ref="#l449" type="ghetto">Therezsienstadt</placeName> a model to present to foreign countries, the so-called
+                        <distinct type="camp_language">Musterghetto</distinct>. They awaited the arrival of some sort of <orgName ref="#g419"
+                        type="ehri">commission</orgName>, and so they even let us use the <placeName ref="#l24" type="ehri">Sokol
+                        gymnasium</placeName> and ordered the <term ref="#t691" type="subject">operas</term> to be performed perfectly, in costume and
+                    with wigs, basically a real <term ref="#t698" type="subject">theater</term> performance. And so real <term ref="#t698"
+                        type="subject">theater</term>, beautifully <term ref="#t698" type="subject">theatrically</term> staged, was played at the
+                    beginning of <date when="1944-05">May 1944</date>, at the height of the so-called <term ref="#t298" type="subject"><distinct
+                            type="camp_language">Verschönerung</distinct></term> of <placeName ref="#l449" type="ghetto">Theresienstadt</placeName>.
+                    Architects <persName ref="#p2004107" type="ehri">Zelenka</persName>, Prof. Lederer and other famous <term ref="#t677"
+                        type="subject">artists</term> worked non-stop to prepare the various stages. All of the lighting equipment and light bulbs
+                    necessary for the <term ref="#t698" type="subject">theater</term> had to be brought into <placeName ref="#l449" type="ghetto"
+                        >Theresienstadt</placeName>. A pavilion was erected in the square, where the town’s band, wonderful <term ref="#t692"
+                        type="subject">musicians</term> all of them and each individually a virtuoso, performed every day. The Trio played in the cafe
+                    and <term ref="#t136" type="subject">cabarets</term> (<persName ref="#ehri_et_hofer_hans" type="ehri">Hans Hofer</persName>) were
+                    held, and, in the summer, performances took place outside in the courtyards. In the summer of <date when="1944">1944</date>,
+                        <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> seemed like an El Dorado in Europe, a place where there are no
+                        <term ref="#t1105" type="subject">air strikes</term>, no fronts, in short, no dangers threatened it. The famous <orgName
+                        ref="#g419" type="ehri">commission</orgName> arrived and apparently went around. An utter farce was performed, <term
+                        ref="#t824" type="subject">children</term> had to run behind the <term ref="#t1216" type="subject">SS-komandant</term>, tug at
+                    his coat and cry: <q>Uncle, come play with us</q>, to which he replied: <q>Today I cannot, but tomorrow I shall.</q> The famous
+                    film director <persName ref="#p2188603" type="ehri">Kurt Geron</persName> had to make a <term ref="#t703" type="subject"
+                        >film</term>.  Actors waited in the <term ref="#t698" type="subject">theaters</term>, ready to start playing at the moment
+                    when the <orgName ref="#g419" type="ehri">commission</orgName> set foot inside, as if the <term ref="#t691" type="subject"
+                        >opera</term> or <term ref="#t695" type="subject">play</term> was already under way. After 5 minutes, the <orgName ref="#g419"
+                        type="ehri">commission</orgName> moved on and the <term ref="#t698" type="subject">play</term> stopped. Everyone went home.
+                    The <term ref="#t692" type="subject">composers</term>
+                    <persName ref="#p1427882" type="ehri">Haas</persName>, <persName ref="#p1568477" type="ehri">Krása</persName>, <persName
+                        ref="#p1935246" type="ehri">Ullmann</persName>, and <persName ref="#p1521521" type="ehri">Gideon Klein</persName> were also
+                    urged to compose <term ref="#t691" type="subject">operas</term> or <term ref="#t694" type="subject">songs</term> that then had to
+                    be played. The <term ref="#t1216" type="subject">SS</term> itself ordered this.</p>
+                <pb facs="EHRI-ET-JMP008_03.jpg" n="3"/>
+                <p>Two <term ref="#t824" type="subject">children’s</term>
+                    <term ref="#t691" type="subject">operas</term> were also performed: <term ref="#t164" type="subject">Brundibár</term>, composed by
+                        <persName ref="#p1568477" type="ehri">Hans Krása</persName>, and <term ref="#t256" type="subject">Broučci</term>, a collection
+                    of Czech folk <term ref="#t694" type="subject">songs</term>, directed by <persName ref="#ehri_et_schonova_vlasta" type="ehri">Váva
+                        Schönová</persName>, the <term ref="#t691" type="subject">bandleader</term>
+                    <persName ref="#ehri_et_brock_robert" type="ehri">Brok</persName>, and the director <persName ref="#ehri_et_thein_hanus"
+                        type="ehri">Thein</persName>. <term ref="#t824" type="subject">Children</term> up to age 14 played and <term ref="#t691"
+                        type="subject">sang</term>.</p>
+                <p>It seemed unimaginable that things could continue thus. And the ax did indeed come down. As soon as the <orgName ref="#g419"
+                        type="ehri">commission</orgName> left, the <placeName ref="#l449" type="ghetto">ghetto</placeName> in <placeName ref="#l449"
+                        type="ghetto">Theresienstadt</placeName> began to be liquidated. In just 4 weeks, 18,600 Jews were <term ref="#t518"
+                        type="subject">transported</term> to the so-called <term ref="#t508" type="subject">labor camp</term>. In reality, they were
+                    taken to <placeName ref="#l2" type="ehri">Auschwitz</placeName>, where a large part went directly to the <term ref="#t499"
+                        type="subject">gas chambers</term> and only a small number, when it passed through the <term ref="#t411" type="subject"
+                        >selection process</term>, was sent on to <term ref="#t496" type="subject">concentration camps</term>. Almost all of the <term
+                        ref="#t826" type="subject">men</term> – <term ref="#t677" type="subject">artists</term>, <term ref="#t696" type="subject"
+                        >actors</term>, <term ref="#t692" type="subject">composers</term>, <term ref="#t692" type="subject">singers</term>, <term
+                        ref="#t692" type="subject">bandleaders</term>, <term ref="#t692" type="subject">instrumentalists</term> – <term ref="#t745"
+                        type="subject">lost their lives</term>. Only seven <term ref="#t825" type="subject">women</term> out of the entire group
+                    remained in <placeName ref="#l449" type="ghetto">Theresienstadt</placeName>. They were forgotten about and so they didn’t go to
+                    the same place as the other 18,600. When the last <term ref="#t521" type="subject">transport</term> left <placeName ref="#l449"
+                        type="ghetto">Theresienstadt</placeName> for <placeName ref="#l2" type="ehri">Auschwitz</placeName> on <date when="1944-10-28"
+                        >October 28th 1944</date>, <term ref="#t285" type="subject"><distinct type="camp_language">Judenältester</distinct></term>
+                    <persName ref="#p1145704" type="ehri">Murmelstein</persName> had to hand over to <distinct type="camp_language"
+                        >Lagerhalter</distinct>
+                    <persName ref="#p000318" type="ehri">Rahm</persName> the remaining people who were not parading before him, and it was discovered
+                    that 7 <term ref="#t825" type="subject">women</term> – a <term ref="#t692" type="subject">singer</term>, a <term ref="#t692"
+                        type="subject">piano player</term>, i.e. a <term ref="#t692" type="subject">piano player</term> and <term ref="#t419"
+                        type="subject">actress</term> – were forgotten. When <persName ref="#p1145704" type="ehri">Murmelstein</persName> asked
+                    whether they should be put on the last <term ref="#t521" type="subject">transport</term>, <persName ref="#p000318" type="ehri"
+                        >Rahm</persName>, smiling condescendingly, said in his <placeName ref="#vienna" type="ehri">Viennese</placeName> dialect:
+                        <foreign xml:lang="de">Aber was, lassenses da. Sollens dann wieder <term ref="#t695" type="subject">spielen</term> und <term
+                            ref="#t691" type="subject">singen</term>.</foreign> This saved our lives. We immediately had to join the so-called <term
+                        ref="#t764" type="subject"><distinct type="camp_language">Glimmerspalterei</distinct></term>, where we split <term ref="#t764"
+                        type="subject">mica</term> from 5:30 in the morning until 2:00 in the afternoon, but about 3 days after the last <term
+                        ref="#t521" type="subject">transport</term> departed, I received an order to put together a new <term ref="#t691"
+                        type="subject">concert</term> program. And so we had to create an evening program to be held in the unheated space of the
+                        <placeName ref="#l24" type="ehri">Sokol gymnasium</placeName> and quickly rehearse the pieces, and once again <term
+                        ref="#t691" type="subject">sing</term> for those who remained in <placeName ref="#l449" type="ghetto"
+                        >Theresienstadt</placeName>. Four months went by, until <date when="1943-03-07">March 7th, 1945</date>, when Mr. <persName
+                        ref="#p000318" type="ehri">Rahm</persName> took us off <term ref="#t764" type="subject">mica</term> duty and ordered us to
+                    quickly rehearse the <term ref="#t824" type="subject">children’s</term>
+                    <term ref="#t691" type="subject">opera</term>
+                    <term ref="#t691" type="subject">Broučci</term> and the <term ref="#t691" type="subject">opera</term> The Tales of Hoffmann,
+                    because another commission was soon to arrive. Our days and nights were spent writing out the music, making sure the orchestra had
+                    the material it needed, rehearsing with the <term ref="#t692" type="subject">musicians</term> who had <term ref="#t268"
+                        type="subject">arrived</term> because they were married to an Aryan. And so we played again in the <placeName ref="#l24"
+                        type="ehri">Sokol gymnasium</placeName> in costume on a beautifully decorated stage. The commission arrived and everything
+                    went well, and life in <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> seemed to be as it had been before the
+                    thousands had <term ref="#t521" type="subject">departed</term>. Then, around <date when="1945-04-20">April 20th</date>, the 1st
+                        <term ref="#t521" type="subject">transport</term> of the so-called <distinct type="camp_language">pajama wearers</distinct>
+                        from <placeName ref="#l43" type="ehri">Buchenwald</placeName> arrived in <placeName ref="#l449" type="ghetto"
+                        >Theresienstadt</placeName> and our eyes were opened. We discovered the true reality and that day all of the <term ref="#t691"
+                        type="subject">singing</term>, <term ref="#t698" type="subject">playing</term>, and distracting ourselves stopped. We were in
+                    no mood to <term ref="#t691" type="subject">sing</term>. We were <term ref="#t573" type="subject">liberated</term> soon afterwards
+                    and our <term ref="#t691" type="subject">musical</term>
+                    <term ref="#t673" type="subject">artistic</term> career in <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> came to
+                    an end. I <term ref="#t691" type="subject">sang</term> almost every day, played in all of the <term ref="#t691" type="subject"
+                        >operas</term>, and I can probably say that <term ref="#t691" type="subject">singing</term> and my art was the one thing that
+                    saved my life and spared me from the suffering that thousands of my brothers and sister must have experienced.</p>
+                <p>I can say that <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> was the longest and worst-paid engagement in my
+                    entire <term ref="#t691" type="subject">musical</term> and <term ref="#t695" type="subject">theatrical</term> career.</p>
+                <p>Signature:</p>
+                <p>
+                    <persName ref="#ehri_et_grabova_heda" type="ehri">Heda Grabová</persName>
+                </p>
+                <p>Statement was accepted by:</p>
+                <p>
+                    <persName ref="#ehri_et_gerzonova_berta" type="ehri">Berta Gerzonová</persName>
+                </p>
+                <p>Signatures of witnesses: Accepted on behalf of the <term ref="#t657" type="subject">Documentary campaign</term>:</p>
+                <p>
+                    <persName ref="#ehri_et_saxlová_edita" type="ehri">Dita Saxlová</persName>
+                    <persName ref="#ehri_et_shek_zeev" type="ehri">Scheck</persName>
+                </p>
+                <p>
+                    <persName ref="#ehri_et_schickova_helena" type="ehri">Helena Schicková</persName>
+                </p>
+                <p>Accepted on behalf of the archive: <date when="1945-09-29">29. IX. 1945</date></p>
+                <p>
+                    <persName ref="#ehri_et_schmiedt_alexander" type="ehri">Alex. Schmiedt</persName>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

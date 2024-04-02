@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:07+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380319_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telefonische Nachrichten an die Landesbehörde Brünn über die Vorgänge an der österreichischen Grenze, 19. März 1938</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002230">Mährisches Landesarchiv</repository>
+                        <collection>B40 - Landesbehörde Brünn, Präsidium</collection>
+                        <idno>Nr. 17886/1938, K. 292</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Mährisches Landesarchiv, B40 - Landesbehörde Brünn, Präsidium, Nr. 17886/1938, K. 292. <textLang mainLang="cs">Original auf
+                        Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Polen</placeName>
+                        <location>
+                            <geo>52 20</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Polen"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Visum</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+                        </linkGrp></item>
+                </list>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-03-19">19. März 1938</date>
+                <placeName>Brünn (Brno)</placeName>
+                <orgName>Landesbehörde Brünn</orgName>
+                <idno>EHRI-BF-19380319</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="fluechtlingspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <pb n="1" facs="EHRI-BF-19380319_01.jpg"/>
+
+            <p>[...]</p>
+
+            <p>Insgesamt sind 105 Personen mit einem <placeName ref="https://portal.ehri-project.eu/countries/pl">polnischen</placeName>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Durchgangsvisum</term> durchgereist.</p>
+
+            <p>[...]</p>
+
+        </body>
+    </text>
+</TEI>

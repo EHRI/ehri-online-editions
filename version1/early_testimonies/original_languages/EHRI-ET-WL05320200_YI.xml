@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL05320200_YI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Yeshiva-bokher, on his internment in the prisoner camp Hohenstein [Olsztynek]</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Miriam Schulz</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_532#desc-eng">Persecution of Jews in Poland: reports and
+							statements (coll. 532)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Persecution of Jews in Poland: reports and statements (coll.
+					532), 200. <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Goworowo</placeName>
+						<location>
+							<geo>52.90083 21.55578</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/771683/goworowo.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Goworowo%2C_Ostro%C5%82%C4%99ka_County"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Myszyniec</placeName>
+						<location>
+							<geo>53.38055 21.34961</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/764204/myszyniec.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Myszyniec"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Różan</placeName>
+						<location>
+							<geo>52.88757 21.39105</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/760255/rozan.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/R%C3%B3%C5%BCan"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mława</placeName>
+						<location>
+							<geo>53.11278 20.3841</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/764634/mlawa.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/M%C5%82awa"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Maków Mazowiecki</placeName>
+						<location>
+							<geo>52.86493 21.10053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/765430/makow-mazowiecki.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mak%C3%B3w_Mazowiecki"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ostrołęka</placeName>
+						<location>
+							<geo>53.08621 21.57566</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/762909/ostroleka.html"/>
+							<link type="desc" target="https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Unterlüß concentration camp</placeName>
+						<location>
+							<geo>52.833301 10.2833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2056"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Śniadowo</placeName>
+						<location>
+							<geo>53.03874 21.99077</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/758746/sniadowo.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/%C5%9Aniadowo%2C_Podlaskie_Voivodeship"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Łomża</placeName>
+						<location>
+							<geo>53.17806 22.05935</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/766027/lomza.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/%C5%81om%C5%BCa"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Białystok</placeName>
+						<location>
+							<geo>53.13333 23.16433</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/776069/bialystok.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bia%C5%82ystok"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ostrów Mazowiecka</placeName>
+						<location>
+							<geo>52.80245 21.89507</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/762850/ostrow-mazowiecka.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ostr%C3%B3w_Mazowiecka"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Przasnysz</placeName>
+						<location>
+							<geo>53.01907 20.88029</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/761218/przasnysz.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Przasnysz"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ponikiew Duża</placeName>
+						<location>
+							<geo>52.86758 21.54728</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/761535/ponikiew-duza.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ponikiew_Du%C5%BCa"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Olsztynek</placeName>
+						<location>
+							<geo>53.58374 20.28471</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/763165/olsztynek.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Olsztynek"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Stawiski</placeName>
+						<location>
+							<geo>53.37987 22.15462</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/758238/stawiski.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Stawiski"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Yeshivas, religious study halls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-761"/>
+						</linkGrp><note><p>An Orthodox Jewish college or seminary; for studying Talmudic texts.</p></note></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-763"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Illegal Border crossing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_soviets"><name>Soviets (ascribed nationality)</name></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Roman Catholic Church (institution)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-767"/>
+						</linkGrp></item>
+					<item><name>Murder pits</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1321"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Photographs</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-701"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Victims </name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Looting</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-655"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Trade</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-933"/>
+						</linkGrp></item>
+					<item><name>Burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-746"/>
+						</linkGrp></item>
+					<item><name>Citizenships</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1147"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Shearing of beards</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-599"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_kon_nisn">
+						<persName>Kon, Nisn</persName>
+						<note><p>Mayor of Goworowo.</p></note>
+					</person>
+					<person xml:id="ehri_et_viroslav_leybish">
+						<persName>Viroslav, Leybish</persName>
+						<note><p>A wheelwright, inhabitant of Goworowo.</p></note>
+					</person>
+					<person>
+						<persName>Berliner, Leybl</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=7125853"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>von Hindenburg, Paul</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001041"/>
+						</linkGrp>
+						<note><p>Paul von Beneckendorff und von Hindenburg, German army commander and president of Germany, who appointed Hitler as
+								chancellor in 1933.</p></note>
+					</person>
+					<person xml:id="ehri_et_shamesh_mordkhe">
+						<persName>Shamesh, Mordkhe</persName>
+						<note><p>Around 70 years old, inhabitant of Goworowo.</p></note>
+					</person>
+					<person>
+						<persName>Yagodnik, Velvl</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=7126080"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Aronzon, Arn</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=1832489"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Karvat, Betsalel Yoysef</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=7126294"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kruk, Avroml</persName>
+						<linkGrp>
+							<link type="normal" target="ehri_et_kruk_avroml"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kruk, Clowa</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=1432496"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kruk, Esther</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=1433590"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kruk, Menakhem</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=511301"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kasher, Moyshe</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html;itemId=7126094"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_kasher_yitskhok">
+						<persName>Kasher, Yitskhok</persName>
+						<note><p>Inhabitant of Goworowo.</p></note>
+					</person>
+					<person xml:id="ehri_et_luzin_avrom_yoysef">
+						<persName>Luzin, Avrom-Yoysef</persName>
+						<note><p>A blacksmith, an old man of approximately 80 years of age, in Goworowo.</p></note>
+					</person>
+					<person xml:id="ehri_et_reytshik">
+						<persName>Reytshik</persName>
+						<note><p>Inhabitant of Różan and inmate in Tannenberg.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Bund (Poland)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1172"/>
+						</linkGrp>
+						<note><p>1897/1949</p><p>Bund was a Jewish socialist party, since 1918 an independent organization in Poland. The main task
+								was to create cultural-national autonomy for the Jews and to make the socialist transformation of society.</p></note>
+					</org>
+					<org>
+						<orgName>Polish police</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-005429"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1940-02-22">22nd February 1940</date>, <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>Goworowo</placeName>, <placeName ref="http://www.geonames.org/764204/myszyniec.html">Myszyniec</placeName>, <placeName
+					ref="http://www.geonames.org/760255/rozan.html">Różan</placeName>, <placeName ref="http://www.geonames.org/764634/mlawa.html"
+					>Mława-Przansysz</placeName>, <placeName ref="http://www.geonames.org/765430/makow-mazowiecki.html">Maków Mazowiecki</placeName>,
+					<placeName ref="http://www.geonames.org/762909/ostroleka.html">Ostrołęka</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056">Tannenberg/Hohenstein [Olsztynek]</placeName>, <placeName
+					ref="http://www.geonames.org/758746/sniadowo.html">Sniadowo</placeName>, <placeName
+					ref="http://www.geonames.org/766027/lomza.html">Łomża</placeName>, <placeName ref="http://www.geonames.org/776069/bialystok.html"
+					>Białystok</placeName>, <placeName ref="http://www.geonames.org/762850/ostrow-mazowiecka.html">Ostrów Mazowiecka</placeName>,
+					<idno>EHRI-ET-WL05320200</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="yi">Yiddish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of a 21-year-old yeshiva student, originally from Goworowo but studying at a yeshiva in Białystok and Ostrów Mazowiecka
+					at the outbreak of the war. Upon the German invasion of Poland, he returned to his hometown Goworowo and experienced the incipient
+					German occupation and persecution of Jews. He was deported to the Tannenstein prisoner camp in Hohenstein [Olsztynek]. He gives a
+					detailed account of the dire situation of Jews in the camp society and specifically relates the bad treatment of Jews by Polish
+					prisoners. He was released from the camp and escaped eastwards.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-WL05320200_01.jpg"/>
+			<p>ש.ל. פֿון <placeName ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName></p>
+			<p>געבוירן געװאָרן דעם 28־טן אַפּריל 1918</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-761" type="subject">ישיבֿה־בחור</term>,</p>
+			<p>געלערנט אין די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-761" type="subject">ישיבֿות</term> אין ביאַליסטאָק</p>
+			<p>און <placeName ref="http://www.geonames.org/762850/ostrow-mazowiecka.html">אָסטראָװ־מאַזאָװיעצק</placeName></p>
+			<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">געפֿאַנגענענלאַגער</placeName>!</p>
+			<p>פּראָטאָקאָל נומער 200</p>
+
+			<p>שוין אַכט יאָר, װי איך בין אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-761" type="subject">ישיבֿה־בחור</term> און
+				פֿאַרברענג נישט אין דער הײם. װען ס'האָט זיך געזאָלט אָנהײבן דער קריג – מיטװאָך דעם 29־טן אויגוסט – בין איך אַהײמגעפֿאָרן קײן
+					<placeName ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName>, כּדי צו זײַן צוזאַמען מיט די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">עלטערן</term>.</p>
+			<p>פֿרײַטאָג, דעם 1־טן סעפּטעמבער, זענען אָנגעקומען אין אונזער <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>שטעטל</placeName> בערך 20 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">פּליטים</term> פֿון
+					<placeName ref="http://www.geonames.org/764204/myszyniec.html">מישניץ</placeName>. זײ האָבן דערצײלט, אַז די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן שוין פֿאַרנומען <placeName
+					ref="http://www.geonames.org/764204/myszyniec.html">ס</placeName><placeName ref="http://www.geonames.org/764204/myszyniec.html"
+					>'</placeName><placeName ref="http://www.geonames.org/764204/myszyniec.html">שטעטל</placeName>. דער װויט פֿון יענעם <placeName
+					ref="http://www.geonames.org/764204/myszyniec.html">שטעטל</placeName> – אַזוי האָבן דערצײלט די <placeName
+					ref="http://www.geonames.org/764204/myszyniec.html">מישניצער</placeName> – האָט מיטגענומען מיט זיך ס'קעסטל קהלס געלט, און,
+				זעענדיק, אַז ער װעט זיך מיט דעם קעסטל נישט געבן קײן עצה, װײַל די <term type="subject" ref="#ehri_et_nationalities_germans"
+					>דײַטשן</term> זענען דאָ, האָט ער אַרײַנגעװאָרפֿן דאָס קעסטל געלט אין טײַך אַרײַן, און נאָכן אַריבערגײן די בריק, האָט ער זי
+				אויפֿגעריסן.</p>
+			<p>שבת איז דאָס שטעטל געװאָרן געפּאַקט מיט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject"
+					>פּליטים</term> פֿון <placeName ref="http://www.geonames.org/760255/rozan.html">רוזשאַן</placeName>. ס'זענען געקומען פֿיל
+				הונדערטער מענטשן. זײ האָבן דערצײלט, אַז די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> זענען אַרײַן קײן
+					<term type="subject" ref="#ehri_et_nationalities_poles">פּוילן</term> מיט אַלע שאָסײען: דורך <placeName
+					ref="http://www.geonames.org/764634/mlawa.html">מלאַװע</placeName>־<placeName ref="http://www.geonames.org/761218/przasnysz.html"
+					>פּראַטניץ</placeName>, דורך <placeName ref="http://www.geonames.org/765430/makow-mazowiecki.html">מאַקעװע</placeName> קײן
+					<placeName ref="http://www.geonames.org/760255/rozan.html">רוזשאַן</placeName> אאַ"װ. די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">פּליטים</term> האָבן פֿאַרנומען אַלע <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">שטיבלעך</placeName>, דאָס <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">בית־המדרש</placeName> און אויך פּריװאַטע װוינונגען. דער סאָלטיס <persName
+					ref="#ehri_et_kon_nisn">ניסן קאָן</persName> האָט געזען, אַז קײנער זאָל נישט בלײַבן אין גאַס. מען האָט אויך פֿאַר זײ געשאַפֿן
+				שפּײַז.</p>
+			<p><pb n="2" facs="EHRI-ET-WL05320200_02.jpg"/></p>
+			<p>דינסטאָג, דעם 5־טן סעפּטעמבער, אַרום האַלב נײַן אינדערפֿרי, װען איך בין געװען אין <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">בית־המדרש</placeName> בײַם דאַװענען, האָט דאַס <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName> אַ ציטער געטאָן פֿון אַ באָמבע־אויפֿרײַס – דאָס איז געװען די
+				ערשטע באָמבע בײַ אונדז אין <placeName ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName>. די באָמבע האָט אויפֿגעריסן
+				אַ שטאַל הינטערן <placeName ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName>, און ס'זענען פֿון דעם פֿאַרװוּנדט
+				געװאָרן 2 ייִנגלעך אין עלטער פֿון 4–5 יאָר. דאָס זענען געװען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">קינדער</term> פֿון <persName ref="#ehri_et_viroslav_leybish">לײביש װיראָסלאַװ</persName>, אַ סטעלמאַך, װעלכער װוינט
+				אויפֿן <placeName ref="http://www.geonames.org/771683/goworowo.html">נײַעם װעג</placeName>, װאָס פֿירט קײן <placeName
+					ref="http://www.geonames.org/762909/ostroleka.html">אָסטראָלענקע</placeName>.</p>
+			<p>אויסער דעם איך נאָך פֿאַרװוּנדט געװאָרן פֿון דער באָמבע דער בעקער־אַרבעטער <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=7125853" type="victim">לײבל בערלינער</persName>, אַ <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1172">בונדיסט</orgName>. ער האָט זיך געמאַטערט אַ װאָך צײַט און איז
+				סוף־כּל־סוף <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">געשטאָרבן</term>.</p>
+			<p>פֿון דערזעלבער באָמבע איז <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אומגעקומען</term> עפּעס אַ
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטלעכער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">בחור</term> פֿון אַ יאָר 16 – אַ שכן פֿון אַ צװײטן
+					<placeName ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװער</placeName> סטעלמאַך שמעון. אַ האַלבע שטאָט שויבן און
+				שטיקער װענט האָבן פֿון דער באָמבע געפּלאַצט.</p>
+			<p>אַ צװײטע באָמבע איז געפֿאַלן אין טײַכל, װאָס גײט פֿאַרבײַ אונדזער <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>שטעטל</placeName>.</p>
+			<p>זינט דעמאָלט איז אין <placeName ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName> געװען אַ כּסדרדיקע פּאַניק. די
+				באַפֿעלקערונג האָט גענומען לויפֿן אין די שכנותדיקע שטעטלעך. מיטװאָך איז אַנטלאָפֿן די <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-005429">פּאָליצײ</orgName>. מיטװאָך בײַ נאַכט איז אין <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName> געװען אַ שיסערײַ. װי מען האָט שפּעטער גערעדט, איז אין דער
+				פֿינסטערניש געקומען צו אַ טראַגישן שיסערײַ צװישן 2 <term type="subject" ref="#ehri_et_nationalities_poles">פּוילישע</term>
+				אָפּטרעטנדיקע אָפּטײלונגען, װעלכע זענען אַרײַן אין שטאָט פֿון 2 זײַטן. אין יענעם טאָג זענען די <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּוילישע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">זעלנער</term> געלאָפֿן פֿון 1 שטעטל צום צװײטן, נישט
+				װיסנדיק, װי אַז װי צו אַנטרונען פֿון די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>. מיר אַלע, ס'גאַנצע
+					<placeName ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName>, זענען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">געװען אויסבאַהאַלטן</term> אין קעלערס. די <term
+					type="subject" ref="#ehri_et_nationalities_poles">פּוילישע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">זעלנער</term>, װאָס זענען אַרײַן צו אונדז, זענען
+				געװען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">אויסגעהונגערט</term> אַזוי, אַז זײ זענען
+				געפֿאַלן פֿון די פֿיס. זײ האָבן געזאָגט, אַז זײ האָבן שוין דרײַ טעג נישט <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">געגעסן</term>.</p>
+			<p><pb n="3" facs="EHRI-ET-WL05320200_03.jpg"/></p>
+			<p>די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> זענען אַרײַן אין <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName> פֿרײַטאָג אינדערפֿרי. מײַסטנס זענען זײ געפֿאָרן אויף
+				מאָטאָציקלען.</p>
+			<p>לכתּחילה האָבן זײ זיך באַצויגן צו דער באַפֿעלקערונג זײער פֿרײַנטלעך. זײ האָבן אַפֿילו גענומען טײלן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">פֿרוכטן</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">פּאָמידאָרן</term> אאַ"װ.</p>
+			<p>אָבער באַלד נאָכדעם, האָבן זײ אָנגעהויבן שוין גײן פֿון שטוב צו שטוב און אַרויסציען פֿון דאָרטן מאַנסלײַט. כ'בין אַרײַן אין בעט, און די
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מאַמע</term> האָט מיך לכתּחילה אָפּגעראַטעװעט,
+				זאָגנדיק די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>, אַז כ'בין <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנק</term>. אָבער אַ צװײטע גרופּע האָט אַרויסגעװיזן
+				גרויס אַכזריות. מען האָט מיך פּשוט געװאָלט דורכשטעכן מיט באַגנעטן, אויב כ'װעל נישט אַרויס פֿון בעט. כ'האָב זיך טאַקע אײַליק אָנגעטאָן
+				און אַרויס אין גאַס, װוּ ס'זענען שוין געװען צוזאַמענגעטריבן אַ 500 יונגע לײַט – ייִדן און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטן</term>.</p>
+			<p>מען האָט אונדז אַזוי געהאַלטן אין גאַס פֿון 8 אינדערפֿרי ביז ליכטבענטשן. אַרום אונדז איז געשטאַנען אַ װאַך פֿון אַ 20 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">זעלנער</term>. פֿונדערװײַטנס האָבן מאַרשירט (אײגנטלעך
+				געפֿאָרן) זײער פֿיל <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">סאָלדאַטן</term> אויפֿן װעג קײן <placeName
+					ref="http://www.geonames.org/762909/ostroleka.html">אָסטראָלענקע</placeName> און קײן <placeName
+					ref="http://www.geonames.org/762850/ostrow-mazowiecka.html">אָסטראָװ־מאַזאָװיעצק</placeName> (<placeName
+					ref="http://www.geonames.org/762850/ostrow-mazowiecka.html">גרויס־אָסטראָװע</placeName>). אַרום 12 האָט זיך דערטראָגן אַן
+				האַרמאַטן־קאַנאָנאַדע פֿון דער <placeName ref="http://www.geonames.org/762909/ostroleka.html">אָסטראָלענקער</placeName> ריכטונג. די
+					<term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> זענען פֿון דאָרט צוריקגעלאָפֿן, לאָזנדיק זיך קײן
+					<placeName ref="http://www.geonames.org/762850/ostrow-mazowiecka.html">אָסטראָװ־מאַזאָװיעצק</placeName>.</p>
+			<p>אַרום 1 בײַ טאָג האָט מען אַרויסגעהאַנגען אין שטאָט פּלאַקאַטן אויף <term type="subject" ref="#ehri_et_nationalities_germans"
+					>דײַטש</term> און <term type="subject" ref="#ehri_et_nationalities_poles">פּויליש</term>, אַז מע װעט קײנעם נישט טשעפּען, און יעדער
+				זאָל זיך פֿרידלעך טאָן זײַן אַרבעט. אין די קרעמלעך פֿון שפּײַז, שרײַב־מאַטעריאַלן און טיטון האָט זיך אָבער אָנגעהויבן אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">רויבערײַ</term>. <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן אויפֿגעבראָכן די קראָמען און גענומען, װאָס ס'האָט זיך געלאָזן.</p>
+			<p>װען די עלטערע ייִדן זענען געגאַנגען צו קבלת־שבת, איז פּונקט אָנגעפֿאָרן אין שטאָט אַן אָפּטײלונג פֿון 60–80 <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשע</term> רײַטערס, און מ'האָט אונדז גענומען אַרויסטרײַבן פֿון שטאָט.</p>
+			<p><pb n="4" facs="EHRI-ET-WL05320200_04.jpg"/></p>
+			<p>אין <placeName ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName> איז אויסגעבראָכן אַ גרויסער יאַמער, אָבער דאָס האָט
+				נישט געהאָלפֿן. לעבן אונדז זענען כּסדר געפֿאָרן <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> אינ אויטאָס. 3
+				קילאָמעטער פֿון <placeName ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName>, אין דאָרף <placeName
+					ref="http://www.geonames.org/761535/ponikiew-duza.html">פּאָניקעװע</placeName>, האָט מען אונדז – אַן עולם פֿון 500–600 מענטשן –
+				פֿאַרשפּאַרט אין אַ פֿערד־שטאַל. ס'איז דאָרט געװען אַזוי דושנע, אַז עטלעכע מענטשן האָבן געחלשט.</p>
+			<p>שבת אַרום 3 פֿאַרטאָג האָבן זיך אָנגעהויבן װיזיטן פֿון אײנצלנע <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>,
+				װעלכע האָבן גענומען פֿון אונדז חוזקן, אונדז זידלען און סטראַשען. אַרום 12 בײַ טאָג האָט מען אונדז גענומען טײלן שטיקלעך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ברויט</term>. פֿון דושנעקײט האָט דער <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװער</placeName> משמש משה־חײם געחלשט. מיר האָבן גענומען קלאַפּן. האָבן
+				די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> אים ענדלעך אַרויסגעלאָזן פֿון שטאַל, און אים באַגאָסן מיט
+				אַ ביסל קאַלט װאַסער.</p>
+			<p>פֿאַרנאַכט האָבן די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> אונדז דערלויבט אַ ביסל אַרויסצוגײן פֿון דער
+				שטאַל. שפּעטער האָט מען אונדז געהײסן ברענגען פֿון די פֿעלדער אַ ביסל שטרוי און עס אויסלײגן אין שטאַל. נאָכדעם האָט מען געהײסן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> און גאָר אַלטע צוריקגײן אין <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">שטאָט</placeName>, און אונדז האָט מען צוריק אַרײַנגעטריבן אין שטאַל.</p>
+			<p>אַרום 2 בײַ נאַכט, אין דער נאַכט פֿון שבת אויף זונטאָג, האָט מען אונדז אַרויסגעזעצט אויף לאַסט־אויטאָס און גענומען פֿירן קײן <placeName
+					ref="http://www.geonames.org/760255/rozan.html">רוזשאַן</placeName> – צו דער <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">גרענעץ</term>. דאָס פֿאַרבײַפֿאָרנדיקע <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">מיליטער</term> האָט פֿון אונדז געחוזקט, געשריגן מיט
+				שפּאַס: <q><term type="subject" ref="#ehri_et_nationalities_poles">פּאָלסקאַ</term></q>, <q>יודען</q> אדג"ל; פֿיזיש האָבן זײ אונדז
+				נישט געטשעפּעט. צװישן די 500–600 מענטשן אונדזעריקע זענען געװען אויך אַ ביסל <term type="subject" ref="#ehri_et_nationalities_poles"
+					>פּאָליאַקן</term>, אָבער רובֿ איז געװען ייִדן פֿון <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>גאָװאָראָװע</placeName>, <placeName ref="http://www.geonames.org/760255/rozan.html">רוזשאַן</placeName>, <placeName
+					ref="http://www.geonames.org/764204/myszyniec.html">מישניץ</placeName> אאַז"װ.</p>
+			<p>דורך <placeName ref="http://www.geonames.org/760255/rozan.html">רוזשאַן</placeName> האָט מען אונדז געפֿירט קײן <placeName
+					ref="http://www.geonames.org/765430/makow-mazowiecki.html">מאַקעװע</placeName>, װוּהין מיר זענען אָנגעקומען זונטאָג אינדערפֿרי.
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרויען</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> האָבן אונדז געבראַכט <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term>. פֿאַרבײַגײענדיקע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">געפֿאַנגענע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">זעלנער</term>
+				<term type="subject" ref="#ehri_et_nationalities_poles">פּוילישע</term> האָבן פֿון די ייִדן <pb n="5" facs="EHRI-ET-WL05320200_05.jpg"
+				/> פֿון שטעטל באַקומען דערלאַנגט שיך אדג"ל. װען די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן אין
+				אַ געװיסן מאָמענט פֿאַרבאָטן צו ברענגען אונדז <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>עסן</term>, האָט מען אונדז אָנגעהויבן צוּװאַרפֿן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">ברויט</term> פֿון דערװײַטנס.</p>
+			<p>שפּעטער האָט מען אונדז װײַטער געפֿירט. זונטאָג פֿאַרנאַכט זענען מיר שוין געװען אין <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשלאַנד</term>. <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> האָבן גענומען אונדז זידלען: <q>שמוציקע
+					יודען</q> אדג"ל. אײנצלנע האָבן אונדז גענומען דראָען, אַז מ'װעט אונדז אויסשעכטן.</p>
+			<p>אין אַזאַ אַטמאָספֿער האָט מען אונדז געפֿירט ביז <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp"
+					>טאַנענבערג</placeName>. דאָרט, הינטער דער שטאָט, האָט זיך געפֿונען דער <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער פֿאַר געפֿאַנגענע</placeName>
+				<placeName ref="http://www.geonames.org/763165/olsztynek.html">האָהענשטײן</placeName>. קעגן איבער אונדזער <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName> האָט זיך געפֿונען דאָס באַקאַנטע
+				גרויסע דענקמאָל צום אָנדענק פֿון <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001041">הינדענבורגס</persName>
+				נצחון איבער די <term type="subject" ref="#ehri_et_nationalities_soviets">רוסן</term> אינעם גרויסן װעלט־<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">קריג</term>.</p>
+			<p>די ייִדן האָט מען אָפּגעטײלט פֿון די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטן</term>,
+				און מען האָט בײַ אַלעמען צוגענומען די מעסערלעך, צינדל־מאַשינדלעך, שװעלבעלעך אדג"ל. מע האָט געדראָט מיט דערשיסן יענעם, װער ס'װעט נישט
+				אָפּגעבן די אַלע זאַכן. שפּעטער האָט מען מיט אונדז געמאַכט אַ ביסל גימנאַסטיק.</p>
+			<p>אונדז, ייִדן, האָט מען אַרײַנגעפֿירט אין באַראַק נומער 33 – אין די אַנדערע באַראַקן זענען שוין געװען טויזנטער ציװילע און מיליטערישע
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">געפֿאַנגענע</term>. געשלאָפֿן זענען מיר אויף
+				שטרוי־זעק.</p>
+			<p>צומאָרגנס האָט מען אונדז געגעבן 13 שטיקלעך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>ברויט</term> און קאַװע. אַרײַנגעגאָסן האָט מען אונדז די קאַװע אין שאַכטלעך פֿון קאָנסערװן. די שאַכטלעך האָט מען אונדז צעטײלט
+				ברודיקערהײט. מיר האָבן זײ אויסגעװאַשן און געטרונקען אין דעם קאַװע.</p>
+			<p><pb n="6" facs="EHRI-ET-WL05320200_06.jpg"/></p>
+			<p>אונטערגעהעצט דורך די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>, האָבן די <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> פֿון אַנדערע באַראַקן גענומען באַפֿאַלן די ייִדן און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">צורויבן</term> בײַ זײ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מלבושים</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">שיך</term>, שטרוי־זעק אדג"ל. ס'איז געקומען צו גרויסע
+				געשלעגן און די געשרײַען זענען דערגאַנגען ביז אונטערן הימל. באַזונדערס האָבן אין דעם פּרט זיך אויסגעצײכנט אַ 6–7 חבֿרה־לײַט, װאָס זענען
+				געװען, און האָבן זיך מיט אונדז באַגאַנגען, װי אמתע באַנדיטן.</p>
+			<p>נאָך אַ װאָך צײַט האָבן זיך גענומען צו דער אַרבעט די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> אַלײן. מען
+				האָט גענומען רויבן בײַ די ייִדן געלט, זײגערלעך, פֿינגערלעך אאַז"װ. אויפֿן באַפֿעל פֿון די יונגע <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term>, װעלכע האָבן געהאַלטן בײַ אונדז װאַך, האָבן עטלעכע <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּוילישע</term> כוליגאַנעס זיך געװאָרפֿן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">באַרויבן</term> אויך די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-767" type="subject">קאַטוילישע גלחים</term>, װאָס זענען געװען אין
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName>.</p>
+			<p>– זײ האָבן ביז איצט זיך גענוג <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">אָנגעפֿרעסן</term> –
+				פֿלעגן שרײַען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">רויבער</term> אויף די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-767" type="subject">גלחים</term> – פֿאַר לװיות פֿלעגט מע נעמען 200 און 300
+				גילדן! ... איצט זאָלן זײ לײדן! …</p>
+			<p>מאָנטאָג, דעם 11־טן סעפּטעמבער, האָט מען פֿון אונדזער באַראַק, װאָס האָבן <q>לאָזשירט</q> 450 ייִדן, אויסגעקליבן די לאַנג־געקלײדטע, װי
+				אויך ייִדן מיט בערד, און געהײסן זײ גראָבן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject"
+					>גריבער</term> און אַרײַנזעצן קלעצער, כּדי צו בויען נײַע באַראַקן. די <term type="subject" ref="#ehri_et_nationalities_germans"
+					>דײַטשן</term> [ייִדן ?] האָבן שטאַרק געמאַטערט, איבערהויפּט די שװאַכערע פֿון אונדז. מיך האָט מען דאַן אויך גענומען צו דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>.</p>
+			<p>די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן 2 עלטערע ייִדן אַרײַנגעזעצט אין אַ שמאָלע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject">גראָבן</term> און געהײסן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטן</term>, אָפּגעחוזקט און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-701" type="subject">פֿאָטאָגראַפֿירט</term>.</p>
+			<p>אַ צװײטע קאָמפּאַניע פֿון אונדז האָבן די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> געהײסן טראָגן בעלקעס.
+				דערבײַ האָט מען יעדעס מאָל געהײסן, אַז אײן ייִד זאָל טראָגן אַ גרויסע בעלקע, װאָס געװײנטלעך מוזן זי טראָגן צװײ מענטשן.</p>
+			<p><pb n="7" facs="EHRI-ET-WL05320200_07.jpg"/></p>
+			<p>פֿאַרנאַכט, אַ זײגער פֿיר, זענען מיר צוריק אַרײַן אין באַראַק, און מען האָט אונדז געגעבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">קאָלאַציע</term>: פֿון 10 ביז 15 דעקאַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ברויט</term> און קאַװע.</p>
+			<p>בײַ נאַכט זענען כּסדר געקומען צו אונדז אין באַראַק <term type="subject" ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> און
+				אַרויסגעגנבֿעט שטרוי־זעק.</p>
+			<p>אויף מאָרגן, דינסטאָג דעם 12־טן סעפּטעמבער, האָבן אַלע אינטערנירטע פּונקט אַכט אינדערפֿרי געמוזט זײַן פֿאַרזאַמלט אויף אַ <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">זביורקע</term></q>. אַן אַלטער פּויער, װאָס האָט
+				זיך פֿאַרשפּעטיקט, איז <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערשאָסן געװאָרן</term>.</p>
+			<p>מיר זענען געשטאַנען אַזוי אַ האַלבע שעה און איבערגעביסן: 15 דעקאַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">ברויט</term> און קאַװע. דערבײַ האָט מען די ייִדן געגעבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term> באַזונדער און די <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> באַזונדער. װען אײנער איז נישט געשטאַנען גלײַך, האָט ער באַקומען געשלאָגן מיט
+				די ביקסן. אַ סך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">געפֿאַנגענע</term> זענען
+				צעקאַליעטשעט געװאָרן.</p>
+			<p>די ייִדן זענען געגאַנגען באָרװעס, װײַל די <term type="subject" ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> האָבן שוין געהאַט
+				אַלץ בײַ זײ צוגענומען – אַפֿילו די שיך. פֿיל פֿון אונדז האָט ספּעציעל געמאַכט בײַ זיך לעכער אין די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">שיך</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מלבושים</term>, כּדי אָפּצונעמען בײַ די כוליגאַנעס דעם
+				חשק אונדז אויסצוטאָן נאַקעט.</p>
+			<p>מיטװאָך, דעם 13־טן סעפּטעמבער, איז אָנגעקומען אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp"
+					>געפֿאַנגענעם־לאַגער</placeName> אַ צװײטע גרופּע ייִדן פֿון <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>גאָװאָראָװע</placeName>, אַן ערך 100 פערזאָן.</p>
+			<p>די ייִדן האָבן דערצײלט, אַז די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אַרײַנגעשאָסן</term> אין <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName> אין ייִדישע הײַזער, און עס זענען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערהרגעט געװאָרן</term> בײַ 80 ייִדן, דערונטער:</p>
+
+			<p>1) <persName ref="#ehri_et_shamesh_mordkhe">מרדכי שמש</persName>, אַן ערך 70 יאָר אַלט, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערשאָסן געװאָרן</term> אינמיטן גאַס;</p>
+			<p>2) <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=7126080" type="victim">װעלװל יאַגאָדניק</persName>, יאָר 60, אַ
+				מלמד;</p>
+			<p><pb n="8" facs="EHRI-ET-WL05320200_08.jpg"/></p>
+			<p>3) <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1832489" type="victim">אהרן אַראָנזאָן</persName>, אַ יאָר 60, אַ
+				מלמד;</p>
+			<p>4) <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">רבֿ</term><persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=7126294" type="victim">בצלאל יוסף קאַרװאַט</persName>, אַ יאָר 65, אַ
+				מלמד;</p>
+			<p>5) <persName ref="#ehri_et_kruk_avroml">אבֿרהמל קרוק</persName>, אַן ערך 60 יאָר, אײגנטימער פֿון אַ קאַשע־מיל;</p>
+			<p>6) זײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">פֿרוי</term>
+				<persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1432496" type="victim">צלאָװע</persName>;</p>
+
+			<p>7–8–9) זײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאָכטער</term>
+				<persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1433590" type="victim">אסתּר</persName> מיט אירע צװײ קלײנע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term>;</p>
+			<p>10–11) <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=511301" type="victim">מנחם קרוק</persName>, אַ קרובֿ פֿון
+					<persName ref="ehri_et_kruk_avroml">אבֿרהמל קרוק</persName>, 45 יאָר, שנײַדער, און זײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">פֿרוי</term>.</p>
+			<p>12–14)  שׂמחה (?) און זײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">פֿרוי</term> טשיפּע, ער
+				איז געװען אַ טאָקער, און זײער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">זון</term>, 15 יאָר
+				אַלט;</p>
+			<p>15) דער בעקער <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=7126094" type="victim">משה כּשרס</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ייִנגל</term>, <persName
+					ref="#ehri_et_kasher_yitskhok">יצחק</persName>, אַ ייִנגל פֿון אַ יאָר 14–15;</p>
+			<p>16)  <persName ref="#ehri_et_luzin_avrom_yoysef">אבֿרהם־יוסף לוזין</persName>, אַ שמיד, אַ זקן פֿון בערך 80 יאָר;</p>
+			<p>17) דעם בעקער <persName ref="https://yvng.yadvashem.org/nameDetails.html;itemId=7126094" type="victim">משה כּשרס</persName> אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעגערין</term> (דעם <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">װײַבס</term> אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטער</term>), אַ געקומענע פֿון אַ פֿרעמד שטעטל.</p>
+			<p>צװישן די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערשאָסענע</term> זענען אויך געװען פֿיל
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">פּליטים</term> פֿון <placeName
+					ref="http://www.geonames.org/760255/rozan.html">רוזשאַן</placeName> און אַנדערע אַרומיקע שטעטלעך.</p>
+			<p>אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName> האָבן מיר פֿאַרבראַכט 3
+				װאָכן – פֿון זונטאָג דעם 10־טן סעפּטעמבער ביז שבת חול־המועד סוכות (דעם 30־טן סעפּטעמבער). פֿאַר דער גאַנצער צײַט האָט מען אונדז
+				אומבאַשרײַבלעך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">געמאַטערט</term>. <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">זביורקעס</term></q> האָט מען גערופֿן צען מאָל אין
+				טאָג, און יעדעס מאָל פֿלעגט מען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-701" type="subject"
+					>פֿאָטאָגראַפֿירן</term> די בערדיקע, פֿאַרשטויבטע ייִדן, די אָפּגעריסענע פֿאַרמאַטערטע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">קרבנות</term>. בײַם אַרויסגײן פֿון באַראַק נאָכן פּיצל
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ברויט</term> פֿלעגט מען זײער אָפֿט ספּעציעל זיך
+				מיט אונדז פֿאַרװײַלן, טרײַבן, שלאָגן אאַז"װ. צום סוף פֿלעגט מען יעדעס מאָל נעמען דעם עולם צו <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>. צו די <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> האָט מען זיך באַצויגן נישט פֿיל בעסער, װי צו אונדז, אָבער זײ פֿלעגט מען נישט
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">פּײַניקן</term>.</p>
+			<p><pb n="9" facs="EHRI-ET-WL05320200_09.jpg"/></p>
+			<p>יעדער באַראַק האָט געהאַט זײַן אײגענעם קאַמענדאַנט פֿון צװישן די אינטערנירטע גופֿא. בײַ אונדז איז געװען אַ ייִד פֿון <placeName
+					ref="http://www.geonames.org/758238/stawiski.html">סטאַװיסק</placeName>. ער איז געװען פֿאַראַנטװאָרטלעך פֿאַר דער גאַנצער
+				אָרדענונג אין באַראַק. ער האָט אויך געדאַרפֿט פֿאַרמיטלען צװישן אונדז און דער קאָמענדאַנטור פֿון <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName>. אָבער װי לאַנג די יונגע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">סאָלדאַטן</term> האָבן געהאַלטן װאַך בײַ אונדז אין
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName>, איז אונדז געװען ביטער, װי
+				דער טויט. מיר פֿלעגן דורך אונדזער קאָמענדאַנט זיך קלאָגן, אַז מען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660"
+					type="subject">רויבט</term> אונדז אַלץ צו, און ס'פֿלעגט גאָרנישט העלפֿן. מיר זענען געגאַנגען בוכשטעבלעך באָרװעס און אין דער װעש.
+				די <term type="subject" ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> פֿון שכנותדיקן 32־טן באַראַק האָבן, װי געזאָגט, געהאַט
+				אונדז צוגענומען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מלבושים</term>, די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">שיך</term> און אַפֿילו די שטרוי־זעק. די געבליבענע
+				שטרוי־זעק האָבן מיר גענומען שנײַדן אויף לאַפּטשעס, מיט װעלכע מיר פֿלעגן אַרומבינדן די נאַקעטע פֿיס. אויך אויף די פּלײצעס פֿלעגן מיר
+				בײַ טאָג טראָגן שטרוי־זעק.</p>
+			<p>אַ װאָך נאָך אונדזער אָנקומען אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp"
+					>לאַגער</placeName> האָט מען געביטן אונדזער װאַך. ס'זענען אָנגעקומען אין <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName> אַנדערע <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> – עלטערע און געזעצטע, װעלכע האָבן זיך באַצויגן אַ ביסל מענטשלעכער. דער
+				הויפּט־אויפֿטו פֿון דער נײַער װאַך איז געװען דאָס, װאָס מען האָט אויפֿגעפֿאָדערט די באַנדיטן פֿון שכנותדיקן 32־טן באַראַק אָפּצוגעבן
+				די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">צוגערויבטע זאַכן</term>. אַ טײל <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מלבושים</term> האָט מען אונדז טאַקע צוריקגעברענגט:
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מאַרינאַרקעס</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">סװעטערס</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">שיך</term> אדג"ל. װער ס'האָט נישט אָפּגעברענגט אַלײן,
+				איז דורך דער װאַך געצװוּנגען געװען אָפּצוגעבן. אויב עמעץ האָט אָנגעװיזן אויף אַ צװײטן, אַז יענער טראָגט <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">צוגעגנבֿעטע</term> זאַכן אויף זיך, פֿלעגט דער
+				קאָמענדאַנט יענעם גלײַך אָפּשטעלן און אַראָפּציען פֿון אים די זאַכן. די שטאַרקסטע ייִנגלען פֿון 32־טן באַראַק האָבן דאָס מאָל נישט
+				געװאַגט זיך אַנטקעגנשטעלן. דערמונטערט דורך די יונגע <term type="subject" ref="#ehri_et_nationalities_germans">היטלעריסטן</term> צו
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">רויבן</term>, זענען זײ איצט דורך די אַלטע <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטשע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">סאָלדאַטן</term> געצװוּנגען געװאָרן אָפּצוגעבן דאָס
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">אָנגערויבטע</term> ביסל <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">מלבושים</term>. אומאָפּהענגיק פֿון דעם אַלץ זענען מיר
+				געװען ברודיק און פֿאַרלײזט, װײַל קײן באָד האָט מען אונדז נישט געמאַכט. און די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">העמדער</term> האָבן מיר געטראָגן אַרום 5 װאָכן
+				צײַט.</p>
+			<p><pb n="10" facs="EHRI-ET-WL05320200_10.jpg"/></p>
+			<p>ראָש־השנה האָט מען גענומען צוזאַמענשטעלן ליסטעס פֿון ייִנגערע אונטער 17 יאָר און עלטערע איבער 45 יאָר. ס'זענען אויך געקומען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">דאָקטוירים</term>, און באַטראַכט די מענטשן, װאָס האָבן
+				זיך אָנגעגעבן פֿאַר <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנקע</term>. פֿון די שװאַכע
+				און <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנקע</term> האָט מען צוזאַמענגעשטעלט
+				באַזונדערע ליסטעס. דאָס צוזאַמענשטעל די ליסטעס האָט געדויערט ביז יום־כּיפּור.</p>
+			<p>צװישן ראָש־השנה און יום־כּיפּור זענען אָנגעקומען צו אונדז אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056"
+					type="camp">לאַגער</placeName> זײער פֿיל <term type="subject" ref="#ehri_et_nationalities_poles">פּוילישע</term>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005429">פּאָליצײ</orgName>, באַן־באַאַמטע, אָפֿיצירן אאַז"װ. אין די
+				ימים־נוראָים האָבן מיר כּמעט נישט געדאַװנט. ראָש־השנה האָבן מיר זיך געשטעלט דאַװנען 6 פֿאַרטאָג, אָבער ביז שחרית האָט מען אונדז
+				אַװעקגענומען אויף אַ <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">זביורקע</term></q>. אין
+				יום־כּיפּור זענען די געװײנען בײַ אונדז געװען גרויס. אויף <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">אַרבעט</term> האָט מען אונדז דאַן נישט גענומען. אַ ביסל <term type="subject" ref="#ehri_et_nationalities_germans"
+					>דײַטשן</term> זענען אַרײַן צו אונדז אין באַראַק הערן ס'דאַװנען. געחוזקט האָבן זײ נישט. בערך 30 װעלטלעכע ייִדן האָבן זיך אַלײן
+				געמאָלדן צו דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>, כּדי אַזוי־אַרום צו
+				באַפֿרײַען פֿון דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term> יענע, װעלכע האָבן
+				נישט געװאָלט גײן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>.</p>
+			<p>נאָך יום־כּיפּור האָט מען די <term type="subject" ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> מאַסנװײַז גענומען שיקן אויף
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term> קײן <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשלאַנד</term>. פֿריער פֿלעגט מען זײ אויסבאָדן און שפּעטער – אַװעקשיקן.</p>
+			<p>קײן פּאַפּיראָסן האָבן מיר נישט געהאַט, און אין גיכן האָט זיך אַנטװיקלט אין <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName> אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-933" type="subject">האַנדל</term> מיט טאַבאַק. מענטשן, װאָס האָבן געהאַט
+				געלט, האָבן הינטן־אַרום געפֿלעגט קויפֿן בײַם װאַכמאַן טאַבאַק און מאַכן פּאַפּיראָסן. פֿאַר אַ פּאַפּיראָס פֿלעגט מען צאָלן 2 זלאָטעס.
+				ערשט שפּעטער האָט עס אָנגעהויבן ביליקער װערן און ס'איז געפֿאַלן ביז 30 גראָשן.</p>
+			<p>נאָך יום־כּיפּור האָט מען צוזאַמענגענומען די ייִדן, און ספּעציעלע רעדנער האָבן פֿאַר אונדז געהאַלטן רעדעס, אַז מען װעט אונדז שיקן "צום
+					<term type="subject" ref="#ehri_et_nationalities_soviets">רוס</term>" – די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> װילן אונדז נישט האָבן. צו די <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> פֿון די געביטן, װאָס זענען פֿאַרנומען געװאָרן דורך די <term type="subject"
+					ref="#ehri_et_nationalities_soviets">באָלשעװיקעס</term>, האָט מען געהאַלטן רעדעס, <pb n="11" facs="EHRI-ET-WL05320200_11.jpg"/>
+				אַז אויב זײ װילן אַהײמפֿאָרן, װעט מען זײ אָפּלאָזן – װער ס'װיל אָבער בלײַבן אין <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשלאַנד</term>, קאָן בלײַבן אַרבעטן פֿאַר 4 מאַרק אַ טאָג. דער רובֿ האָט אָבער געװאָלט
+				אַהײמפֿאָרן. 2 פּויערים זענען פֿאַר אַלץ אַלײן אַנטלאָפֿן, אָבער מען האָט זײ געכאַפּט און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערשאָסן</term>. מען האָט זײ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">מקבר</term> געװען צוזאַמען מיטן <placeName
+					ref="http://www.geonames.org/760255/rozan.html">רוזשאַנער</placeName> בחור <persName ref="#ehri_et_reytshik">רײטשיק</persName>,
+				װעלכער איז <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">געשטאָרבן</term> פֿון צו פֿיל <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term>...</p>
+			<p>די געשיכטע מיט אים איז געװען אַזאַ:</p>
+			<p>אײן מאָל איז אַרײַנגעקומען אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">לאַגער</placeName>
+				אַ פּריץ פֿון <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp">טאַנענבערג</placeName> און גענומען
+				אַ הונדערטער ייִדן אויף <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term> בײַ זיך. צו
+				מאָרגנס האָט ער װידער גענומען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטער</term>. דאָס
+				האָט זיך איבערגעחזרט עטלעכע מאָל. דערונטער זענען געװען עטלעכע פֿאַלן, װען מע האָט גענומען ייִדן. שפּעטער האָט מען אויפֿגעהערט צונעמען
+				ייִדן. די צוריקגעקומענע פֿון דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>
+				פֿלעגן זיך פֿילן גליקלעך, װײַל דער פּריץ פֿלעגט געבן גוט צו <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">עסן</term>. דעמאָלט טאַקע האָט <persName ref="#ehri_et_reytshik">רײטשיק</persName> זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">איבערגעגעסן</term> און באַקומען אַ פֿאַרדרײונג פֿון די
+				געדערעם.</p>
+			<p>די לעצטע װאָך פֿון אונדזער זײַן אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056" type="camp"
+					>לאַגער</placeName> האָט מען געבראַכט צו אונדז אין <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2056"
+					type="camp">לאַגער</placeName> עטלעכע הונדערט ייִדישע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097"
+					type="subject">סאָלדאַטן</term> פֿון דער <term type="subject" ref="#ehri_et_nationalities_poles">פּוילישער</term> אַרמײ. מע האָט
+				זײ אַרײַנגעזעצט אין אַ באַזונדערן באַראַק.</p>
+			<p>דאָנערשטאָג, דעם 28־טן סעפּטעמבער, האָט מען אָנגעהויבן אָפּצונעמען אונטערשריפֿטן בײַ אַלע אינטערנירטע ייִדן און <term type="subject"
+					ref="#ehri_et_nationalities_poles">פּאָליאַקן</term> פֿון די געביטן, װאָס זענען פֿאַרנומען געװאָרן דורך די <term type="subject"
+					ref="#ehri_et_nationalities_soviets">באָלשעװיקעס</term>, אַז מיר זאָגן זיך אָפּ פֿון די רעכט אויף <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">בירגערשאַפֿט</term> און אַז מיר װעלן באַלד
+				אָפּפֿאָרן אין די דערמאָנטע געביטן.</p>
+			<p>שבת, דעם 30־טן סעפּטעמבער, 7 פֿאַרטאָג, האָט מען אונדז פֿאַרזאַמלעט לויט די שטעט. אין מיטן טאָג האָט מען גענומען שיקן אײן קאָמפּאַניע
+				נאָך <pb n="12" facs="EHRI-ET-WL05320200_12.jpg"/> דער צװײטער צו דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">באַן</term>. דאָ האָט מען אונדז אַרײַנגעפּאַקט אין
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">פֿערד־װאַגאָנעס</term> און אָפּגעשיקט אָן אַ
+				ביסן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term>. שבת בײַ נאַכט האָט די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">באַן</term> זיך אָפּגעשטעלט, און מען האָט אונדז דאָרט
+				אַזוי געהאַלטן ביז זונטאָג אינדערפֿרי – אַלץ אָן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>עסן</term>. אונדזערע געװײנען האָבן נישט געהאָלפֿן. עמעץ האָט אויפֿגעזוכט אויפֿן פֿעלד אַ פּאָר הײפּטלעך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">קרויט</term>. האָט מען עס צעכאַפּט, און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">געגעסן</term> רויערהײט. זונטאָג 10 אינדערפֿרי האָט מען
+				אונדז ענדלעך געהײסן גײן. ס'האָט זיך אַרויסגעװיזן, אַז מיר זענען אין <placeName ref="http://www.geonames.org/762909/ostroleka.html"
+					>אָסטראָלענקע</placeName>. פֿאַרן אַרויסלאָזן אונדז אויף דער פֿרײַ האָבן עטלעכע מענטשן געחלשט פֿון <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">הונגער</term>, צװישן זײ – אויך מײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">קוזין</term> ש.ז. –ס'מײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטערקינדס</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מאַן</term>.</p>
+			<p>זונטאָג פֿאַרנאַכט בין איך געקומען קײן <placeName ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName>. די שטאָט
+				איז געװען נישט צו דערקענען. <placeName ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName> איז געװען אין גאַנצן
+				פֿאַרברענט. כ'האָב נישט געקענט אַרײַנטרעטן אין שטוב – אַרום זענען געװען בלויז קוימענס. מײַן פֿאַמיליע האָט פֿאַרבראַכט הינטער דער
+					<placeName ref="http://www.geonames.org/771683/goworowo.html">שטאָט</placeName>. זײ האָבן מיר דערצײלט, אַז צו מאָרגנס נאָכן
+				אַרויספֿירן אונדז פֿון <placeName ref="http://www.geonames.org/771683/goworowo.html">שטאָט</placeName>, האָבן די <term type="subject"
+					ref="#ehri_et_nationalities_germans">היטלעריסטן</term> גענומען אַרײַנשיסן אין די שטובן און דערנאָך האָבן זײ אונטערגעצונדן די שטאָט
+				מיט צינד־גראַנאַטן. ס'זענען דעמאָלט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject"
+					>אומגעקומען</term> בערך 80 ייִדן. קנאַפּע טויזנט ייִדן זענען דורך די <term type="subject" ref="#ehri_et_nationalities_germans"
+					>היטלעריסטן</term> אַרײַנגעטריבן געװאָרן אין <placeName ref="http://www.geonames.org/771683/goworowo.html">בית־המדרש</placeName>.
+				מע האָט זײ דאָרט געװאָלט אונטערצינדן, אָבער עפּעס אַן אָפֿיציר האָט די ייִדן אָפּגעראַטעװעט. צוליב דעם, װאָס דער <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">בית־המדרש</placeName> איז שוין געװען געפּאַקט, זענען פֿיל מענטשן געשטאַנען אין
+				דרויסן, אָבער די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">זעלנער</term> האָבן צו זײ געשאָסן
+				פֿון ביסקן, און פֿיל ייִדן זענען דאַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject"
+					>אומגעקומען</term>. נאָכן אָפּראַטעװען די ייִדן אין <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>בית־המדרש</placeName> פֿון <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">טויט</term> האָט מען
+				אַרויסגעטריבן די ייִנגע לײַט קײן <placeName ref="http://www.geonames.org/763165/olsztynek.html">האָהענשטײן</placeName>, װוּ איך בין
+				געװען, און אַלע איבעריקע מענטשן – אײַנשליסלעך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>פֿרויען</term> און <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> (אַפֿילו <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">זויג־קינדער</term>) – האָט מען געהאַלטן אויף אַ פֿעלד.
+				זײ האָבן זיך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">געשפּײַזט</term> מיט בוראַקעס, בריקעװ
+				אאַז"װ. די עלטערע ייִדן, װעלכע מען האָט – װי איך האָב פֿריער דערצײלט – אַהײמגעשיקט פֿון מיטן װעג באַלד נאָך אונדזער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">אַרעסט</term> אין <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװע</placeName>, האָט מען אויפֿן װעג אַהײם אַרײַנגעזעצט אין אַ שטאַל.
+				און די <term type="subject" ref="#ehri_et_nationalities_germans">היטלעריסטן</term> האָבן זײ געװאָלט דערשיסן.</p>
+			<p><pb n="13" facs="EHRI-ET-WL05320200_13.jpg"/></p>
+			<p>עפּעס אַ פֿויער האָט צום גליק זײ געעפֿנט די שטאַל אין אַ מאָמענט, װען די <term type="subject" ref="#ehri_et_nationalities_germans"
+					>דײַטשן</term> זענען נישט געװען. און אַזוי אַרום זענען זײ ניצול געװאָרן.</p>
+			<p>אײן מאָל האָט מען צוזאַמענגענומען פֿון די פֿעלדער בײַ <placeName ref="http://www.geonames.org/771683/goworowo.html"
+					>גאָװאָראָװע</placeName> בערך 50 ייִדן צוזאַמען מיטן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735"
+					type="subject">רבֿ</term> און זײ שרעקלעך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject"
+					>געפּײַניקט</term>. אײנעם האָט מען אַװעקגעלײגט מיטן קאָפּ אויף אַ קלאָץ און אויפֿגעהויבן איבער אים אַ האַק. אָפּגעהאַקט האָבן זײ
+				אים נישט דעם קאָפּ, נאָר די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-599" type="subject">באָרד</term>. שפּעטער
+				האָט מען בײַ אַלעמען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-599" type="subject">אָפּגעשאָרן די בערד</term>.
+				בלויז דעם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">רבֿ</term> האָט מען געלאָזט מיט דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-599" type="subject">באָרד</term>.</p>
+			<p>צװײ טעג נאָך מײַן אָנקומען אַהײם, בין איך <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject"
+					>אַנטלאָפֿן</term> פֿון <placeName ref="http://www.geonames.org/771683/goworowo.html">שטעטל</placeName>. כ'בין צוזאַמען מיט מײַן
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברודער</term> מ. אַװעק קײן <placeName
+					ref="http://www.geonames.org/758746/sniadowo.html">שניאַדעװע</placeName>. פֿון דאָרט זענען מיר דורך <placeName
+					ref="http://www.geonames.org/766027/lomza.html">לאָמזע</placeName> און <placeName
+					ref="http://www.geonames.org/776069/bialystok.html">ביאַליסטאָק</placeName> אַװעק קײן … װי <placeName
+					ref="http://www.geonames.org/771683/goworowo.html">גאָװאָראָװער</placeName> האָבן מיר איבערגעגעבן, זענען מײַנע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">עלטערן</term> אויך שפּעטער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">אַנטלאָפֿן</term>, איצט זענען זײ אין <term
+					type="subject" ref="#ehri_et_nationalities_soviets">רוסלאַנד</term>.</p>
+			<p>דער פּראָטאָקאָל איז צוזאַמענגעשטעלט געװאָרן אין די טעג</p>
+			<p>פֿון 19־טן און 21 פֿעברואַר 1940.</p>
+			<p>געלײענט און געחתמעט געװאָרן דאָנערשטאָג דעם 22־טן פֿעברואַר 1940.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-08T13:51:57+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19420505_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eidesstattliche Erklärung des Vorstandes der Jüdischen Gemeinde in Frauenkirchen betreffend Vertreibung der Jüdinnen und
+                    Juden</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die Österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="name"><title>Guttmann, Theodor</title>. <bibl type="monograph"><title><emph rend="italic">Dokumentenwerk über die Jüdische
+                                Geschichte in der Zeit des Nazismus: Teil 1. Ehrenbuch für das Volk Israel</emph></title>. (<bibl type="place"
+                            >Jerusalem</bibl>: <bibl type="publisher">Awir Jakob</bibl>
+                        <date when="1943">1943</date>), 70-71.</bibl>
+                    <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Frauenkirchen</placeName>
+                        <location>
+                            <geo>47.83678 16.92581</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/7871586/frauenkirchen.html"/>
+                        </linkGrp>
+                        <linkGrp>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Frauenkirchen"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Eisenstadt</placeName>
+                        <location>
+                            <geo>47.84565 16.52327</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2780190/eisenstadt.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Eisenstadt"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                    <item><name>Nationalsozialismus</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-381"/>
+                        </linkGrp></item>
+                    <item><name>Lebensmittel und Essen</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+                        </linkGrp></item>
+                    <item><name>Polizei</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+                        </linkGrp></item>
+                    <item><name>Frau</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item><name>Demütigung von Juden und Jüdinnen</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-555"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_scheuer_georg">
+                        <persName>Weisz, Ernst</persName>
+                        <note>
+                            <p>geb. <date when="1896-06-01">1.6.1896</date></p>
+                            <p>Dr. Ernst Weisz war Arzt und Gemeindevorstand der jüdischen Gemeinde in Frauenkirchen. Nach Misshandlungen durch die
+                                Gestapo gelang ihm gemeinsam mit seiner Familie die Flucht nach Palästina.</p>
+                        </note>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org>
+                        <orgName>Geheime Staatspolizei</orgName>
+                        <note><p>1933 - 1945 </p><p>Als hauptverantwortliche Behörde für die Bekämpfung innerer „Staatsfeinde“ war die Gestapo
+                                wichtigstes Überwachungs- und Terrorinstrument innerhalb Deutschlands und später in den von Deutschland besetzten
+                                Gebieten. Die Gestapo war Teil eines komplexen Apparates aus Staats- und Parteipolizeibehörden.</p></note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+                        </linkGrp>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1942-05-05">5. Mai 1942</date>
+                <placeName>Jerusalem</placeName><idno>EHRI-BF-19420505</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>Erinnerungen und Interviews</term>
+                </keywords>
+                <catRef target="Vertreibungspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p>Ausführlicher Bericht über antijüdische Schikanen direkt nach dem <q>Anschluss</q> und den Zwang durch die Gestapo, illegal das
+                    Land zu verlassen sowie über die Flucht vieler Familien in die Tschechoslowakei.</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Am <date when="1938-03-11">11.3.1938</date> in der Nacht von Freitag zu Schabbat aber wurden wir durch den Einzug der <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-381" type="subject">Nazis</term> eines anderen belehrt. Zunaechst
+                erschreckte man uns durch einwerfen saemtlicher Fensterscheiben in unseren Wohnungen und Geschaeften. Man raubte und pluenderte,
+                errichtete Volkskuechen, um von den gestohlenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+                    >Lebensmitteln</term> die arme Bevoelkerung umsonst zu speisen. Diese <q>Wohltaetigkeitseinrichtung</q> bestand aber nur durch
+                einige Tage. Das Juden-Eigentum war bald aufgegessen, weil einige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-381"
+                    type="subject">Nazi</term>-Wohltaeter auf Kosten der Armen ihre Taschen und Speisekammern gut fuellten.</p>
+            <p>Nach kurzer Zeit hatte die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> in <placeName
+                    ref="http://www.geonames.org/2780190/eisenstadt.html">Eisenstadt</placeName> ihren Sitz eroeffnet und ihre Hand sofort auf alle
+                Lebensadern gelegt. Verkehr zwischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>
+                und Nichtjuden wurde untersagt. Der Reiseverkehr war nur mit einem Passierschein der <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> gestattet. Die Geschaefte der <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> wurden abgeschlossen und versiegelt.</p>
+            <p>Am Schabbat Nachmittag, kurz nach der Machtuebernahme in <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+                    >Oesterreich</placeName>, wurden die 10 wohlhabendsten Familien, d. h. auch die <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>, verhaftet. Geld und Wertsachen hatte
+                die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> diesen Personen schon vor der Verhaftung
+                geraubt. Am folgenden Tag zwang man die Verhafteten durch Schlaege zur Unterschrift eines Revers, wonach ihr Hab und Gut zum
+                Staatseigentum erklaert wurde und sie sich verpflichteten, innerhalb 48 Stunden das Land zu verlassen. Die meisten dieser Familien
+                haben sich nach der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechei</placeName> gerettet. [...] Nach
+                kurzer Zeit hat man alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> der Gemeinde
+                versammelt, ihnen alles bewegliche Gut geraubt oder durch Schlaege erpresst und sie zur Verpflichtung gezwungen, innerhalb 14 Tagen
+                das Staatsgebiet zu verlassen. Da nach den damaligen Verhaeltnissen es undurchfuehrbar war, so schnell die Ausreisegenehmigung zu
+                erhalten – alle Laender hatten fuer die Einwanderung von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+                    type="subject">Juden</term> die Grenzen geschlossen – ist die <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> alle 14 Tage erschienen und hat den maennlichen
+                Mitgliedern der Gemeinde durch Faustschlaege, Knueppelhiebe und Fusstritte eine derartige Furcht ein eingefloesst, dass sie in alle
+                Wuensche einwilligten. Die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> trieb uns dazu, das
+                Land auf <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">ungesetzlichem Wege</term> zu verlassen.
+                Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-555" type="subject">Drangsalierungen</term> nahmen ein solches
+                Ausmass an, wie wir es uns nie vorgestellt haetten.</p>
+        </body>
+    </text>
+</TEI>

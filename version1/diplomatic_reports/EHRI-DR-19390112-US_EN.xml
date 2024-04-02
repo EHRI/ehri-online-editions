@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-12-02T23:04:40+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19390112-US_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>John F. Montgomery on the “Proposed Hungarian Jew Bill” in 1939</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
+							II</repository>
+						<collection>RG 59 - Records of the Department of State relating to the internal affairs of Hungary 1930-1944, Wilmington, Del.
+							1987</collection>
+						<idno>Doc. 864.4016/125</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>National Archives and Records Administration II, RG 59 - Records of the Department of State relating to the internal affairs of
+					Hungary 1930-1944, Wilmington, Del. 1987 (Microfilm), Doc. 864.4016/125.<textLang mainLang="en"/> Original in English.</bibl>
+				<listPlace>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Washington D.C.</placeName>
+						<location>
+							<geo>38.89511 -77.03637</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/4140963/washington-d-c.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Washington,_D.C."/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Anti-Jewish legislation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-335"/>
+						</linkGrp></item>
+					<item><name>Jewish newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-723"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_gentile"><name>Gentiles (ascribed origin)</name></item>
+					<item><name>Press</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1068"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-950"/>
+						</linkGrp></item>
+					<item><name>Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-763"/>
+						</linkGrp></item>
+					<item><name>Jewish population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-896"/>
+						</linkGrp></item>
+					<item><name>Sabotage</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-253"/>
+						</linkGrp></item>
+					<item><name>Protests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-984"/>
+						</linkGrp></item>
+					<item><name>Jewish Sermons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-885"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Persecution of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-642"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>German state</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1152"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_montgomery_john_f">
+						<persName>Montgomery, John F.</persName>
+						<note><p>John Flournoy Montgomery (September 20, 1878 – November 7, 1954) was an American businessman and diplomat.</p></note>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/John_Flournoy_Montgomery"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Imrédy, Béla</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000191"/>
+						</linkGrp>
+						<note><p>29/12/1891 - 28/02/1946</p><p>Hungarian economist and politician, the Minister of Finance under the Gömbös Cabinet
+								(1932-36), and the President of the Hungarian National Bank. Under Prime Minister Darányi he was Minister of
+								Economics. From May 14, 1938, to February 14, 1939, he was Prime Minister. He founded the Party of Hungarian Renewal
+								(Magyar Megújulás Pártja) in 1940. The first anti-Jewish law was passed under and the second was introduced by his
+								government. He resigned when it was suggested that he had Jewish ancestors; the main reason for his downfall, however,
+								was that his politics was incompatible with Horthy’s policy. After the war he was found guilty of war crimes and
+								executed.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>State Department of the US</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004301"/>
+						</linkGrp>
+					</org>
+					<org xml:id="ehri_dr_parliament_hungarian">
+						<orgName>Hungarian Parliament</orgName>
+					</org>
+					<org>
+						<orgName>Nyilaskeresztes Párt - Hungarista Mozgalom</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-474"/>
+						</linkGrp>
+						<note><p>(1935) 1939-1945</p><p>Arrow Cross Party was the most popular right-wing extremist movement in Hungary before and
+								during WWII. The party was founded in 1935 under the name of Party of National Will. Its leader, former officer of the
+								General Staff, Ferenc Szálasi was imprisoned (1938-1940) and his party dissolved several times, however, managed to
+								return to political life. In the last pre-war elections in 1939 the Arrow Cross gained 29 seats, making it the second
+								largest party in Parliament. The party was re-named to Arrow Cross Party-Hungarist Movement in 1942. After Regent
+								Miklós Horthy’s attempt to extricate from war on October 15, 1944, the Arrow Cross Party assumed power with Nazi
+								support. From October 16, 1944, until March 28, 1945, Ferenc Szálasi was prime minister of Hungary as well as its
+								plenipotentiary head of state, bearing the title “Leader of the Nation.” Paramilitary forces of the Party, known as
+								Party Service (pártszolgálat) and Armed National Service (fegyveres nemzetszolgálat) committed several atrocities and
+								war crimes during their short reign, which claimed the lives of thousands of people, mostly Jews and Roma. Following
+								the war, Szálasi and several other Arrow Cross leaders were sentenced to death and executed.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1939-01-12">January 12 1939</date>
+				<placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>
+				<persName ref="#ehri_dr_montgomery_john_f">Montgomery, John F.</persName>
+				<idno>EHRI-DR-19390112-US</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="0298.jpg"/>
+			<p><!--John F. Montgomery, Proposed New <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName>
+        <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">Jew</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject"> </term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">Bill</term>, <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, 12.1.1939, S. 1-5:</p>
+      <p>Records of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004301">Department of State</orgName> relating to internal affairs of <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> 1930-1944,
+          <placeName ref="http://www.geonames.org/4140963/washington-d-c.html">Washington</placeName> 1983 (Mikrofilm-Edition): Dokument 864.4016/125.--></p>
+			<p>“I have the honor to report that considerable controversy has followed the introduction into <orgName
+					ref="#ehri_dr_parliament_hungarian">Parliament</orgName> of the new <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">Jew</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">Bill</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">Jewish</term> and the <term ref="#ehri_dr_gentile"
+					type="subject">Gentile</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> came to grips over it. The former
+				printed articles by prominent <term ref="#ehri_dr_gentile" type="subject">Gentile</term>
+				<term ref="ehri_dr_nationalities_hungarians">Hungarians</term>, many of the aristocracy, advancing <pb n="2" facs="0299.jpg"/> the
+				argument that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">Bill</term> was contrary to the
+				principles of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">Christianity</term>, violated the
+				Constitution, and was inhumane. The <term ref="#ehri_dr_gentile" type="subject">Gentile</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> stressed the inability of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> to assimilate, their practicing a doctrine
+				of race defense, their inferior outlook on life, and their failure to accept the general principles of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">Christian</term> morals, and it was predicted that the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> would attempt <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-253" type="subject">sabotage</term> to vitiate the effects of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">Bill</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-984" type="subject">Protests</term> against the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">Bill</term> were expressed in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-885" type="subject">sermons</term> delivered in the <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term>. [...]</p>
+			<pb n="3" facs="0300.jpg"/>
+			<p>Many see in the presenting of this drastic <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject"
+					>bill</term> a clever move by <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000191">Imrédy</persName> to
+				steal the thunder of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Hungarian National
+				Socialists</orgName>, to produce per se a revulsion to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329"
+					type="subject">anti-Semitic</term> sentiment (because in wide circles it is considered un-<term
+					ref="ehri_dr_nationalities_hungarians">Hungarian</term> and unfair), and to make <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> unattractive to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> of neighboring countries who would <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">flee</term> to it as a haven from <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">persecution</term>. [...]</p>
+			<pb n="4" facs="0301.jpg"/>
+			<p>In the last analysis, many responsible <term ref="#ehri_dr_nationalities_hungarians">Hungarians</term> are wondering what will become
+				of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term>, especially the poorer ones, when
+				they are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">deprived </term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">of their means of livelihood</term>. They feel that
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> is making a huge problem for
+				itself by accelerating this problem without sufficient preparation. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">German Minister</term> told me that he did not think
+				it possible for the <term ref="ehri_dr_nationalities_hungarians">Hungarians</term> to carry on an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Semitic</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">policy</term> as they conceived it because, unlike
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germany</term>, there were no skilled <term
+					ref="#ehri_dr_gentile" type="subject">Gentiles</term> to replace the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term>.”</p>
+		</body>
+	</text>
+</TEI>

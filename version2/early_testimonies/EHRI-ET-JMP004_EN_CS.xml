@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP004_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Erich Nasch, description of the selection process in Auschwitz-Birkenau</title>
+                <title xml:lang="fr">Erich Nasch, description du processus de sélection à Auschwitz-Birkenau</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Michal Frankl</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Magdalena Sedlická</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>U Staré školy 141/1</street>
+                                <postCode>110 00</postCode>
+                                <settlement>Prague</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+                        <idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1945-07-21">21. 7. 1945</date>, <term ref="#t657" type="subject">Dokumentační akce</term>, <persName
+                    ref="#ehri_et_nasch_erich">Erich Nasch</persName>, <placeName ref="#prague">Prague</placeName>
+                <idno>EHRI-ET-JMP004</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="cs">Czech</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Brief report by Erich Nasch, which became a part of the “documentation campaign” in Prague. Nasch describes the selection process
+                    in the Auschwitz concentration camp and the specific case of three Czech prisoners who managed to leave the camp in a transport
+                    which was sent to a labor camp.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-JMP004_01.jpg" n="1"/>
+                <p>Dne <date when="1944-10-20">20.10.1944</date> byl v <placeName ref="#l0" type="ehri">Osvětímě</placeName> v lágru E sestaven <term
+                        ref="#t556" type="subject">pracovní</term>
+                    <term ref="#t518" type="subject">transport</term>. Při kontrolní prohlídce byli pro tělesnou slabost vyšetřujícím <term
+                        ref="#t287" type="subject">lékařem</term>
+                    <term ref="#t1216" type="subject">SS</term> vyňati: <persName ref="#ehri_et_shek_zeev" type="ehri">Zeev Scheck</persName>,
+                        <persName ref="#https://www.holocaust.cz/databaze-obeti/obet/91551-egon-haas" type="ehri">Egon Haas</persName> a <persName
+                        ref="#ehri_et_simonsohn_berthold" type="ehri">Bertl Simonsohn</persName>, protože vypadali velmi hubeně. Byli utišováni, že
+                    budou posláni jako <q><foreign xml:lang="de"><distinct type="camp_language">Stubendienst</distinct></foreign></q> na nějaký čas do
+                        <term ref="#t496" type="subject">lágru</term>, aby se zotavili a pak že budou posláni na <term ref="#t556" type="subject"
+                        >práci</term>. Přes to tušili, oč jde a hlavně <persName ref="#ehri_et_shek_zeev" type="ehri">Zeev</persName> snažil se dostat
+                        <term ref="#t518" type="subject">transportu</term> tím, že ukazoval svaly a ujišťoval, že je na těžkou práci zvyklý, že jenom
+                    tak hubeně vypadá a že je úplně zdráv. <persName ref="#https://www.holocaust.cz/databaze-obeti/obet/91551-egon-haas" type="ehri"
+                        >Egon Haas</persName> a <persName ref="#ehri_et_simonsohn_berthold" type="ehri">Bertl Simonsohn</persName> se k tomu přidali.
+                    Přes to nepochodili a jenom proto, že scházeli lidé do <term ref="#t518" type="subject">transportu</term>, byli na konec k <term
+                        ref="#t518" type="subject">transportu</term> připojení.</p>
+                <p>Je zajímavé, že z tohoto <term ref="#t518" type="subject">transportu</term> zůstali celkem 4 lidé na živu, mezi nimi <persName
+                        ref="#ehri_et_shek_zeev" type="ehri">Zeev</persName> a <persName ref="#ehri_et_simonsohn_berthold" type="ehri"
+                        >Bertl</persName>.</p>
+                <p>Protokol přijala: Vlastnoruční podpis svědka:</p>
+                <p>
+                    <persName ref="#ehri_et_kratkova_marta" type="ehri">Marta Kratková</persName>
+                    <persName ref="#ehri_et_nasch_erich" type="ehri">Dr. Nasch</persName>
+                </p>
+                <p>Za <term ref="#t657" type="subject">dokumentační akci</term>:</p>
+                <p>
+                    <persName ref="#ehri_et_shek_zeev" type="ehri">Zeev Scheck</persName>
+                </p>
+                <p>Za archiv:</p>
+                <p>
+                    <persName ref="#ehri_et_schmiedt_alexander" type="ehri">Alex. Schmiedt</persName>
+                </p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-JMP004_01.jpg" n="1"/>
+                <p>On <date when="1944-10-20">20.10.1944</date> a <term ref="#t556" type="subject">labor</term><term ref="#t518" type="subject"
+                        >transport</term> was put together in <placeName ref="#l0" type="ehri">Auschwitz</placeName> in camp E. During the medical
+                    check-up, the examining <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t287" type="subject">doctor</term>removed the following people due to physical weakness: <persName
+                        ref="#ehri_et_shek_zeev" type="ehri">Zeev Scheck</persName>, <persName ref="#egon-haas" type="ehri">Egon Haas</persName>, and
+                        <persName ref="#ehri_et_simonsohn_berthold" type="ehri">Bertl Simonsohn</persName>, because they looked very thin. They were
+                    assured that they would be sent as <q><foreign xml:lang="de"><distinct type="camp_language">Stubendienst</distinct></foreign></q>
+                    to the <term ref="#t496" type="subject">camp</term> for a short time so that they could get better and then be sent to <term
+                        ref="#t556" type="subject">work</term>. But they knew what was going on and <persName ref="#ehri_et_shek_zeev" type="ehri"
+                        >Zeev</persName> especially tried to get onto the <term ref="#t518" type="subject">transport</term> by showing his muscles and
+                    vowing that he was used to hard work, that he only appeared thin, but that he was completely healthy. <persName ref="#egon-haas"
+                        type="ehri">Egon Haas</persName> and <persName ref="#ehri_et_simonsohn_berthold" type="ehri">Bertl Simonsohn</persName> joined
+                    him. They weren’t successful, but were added to the <term ref="#t518" type="subject">transport</term> in the end only because some
+                    people were missing.</p>
+                <p>It’s interesting that only 4 people survived this <term ref="#t518" type="subject">transport</term>, and <persName
+                        ref="#ehri_et_shek_zeev" type="ehri">Zeev</persName> and <persName ref="#ehri_et_simonsohn_berthold" type="ehri"
+                        >Bertl</persName> are among them.</p>
+                <p>Statement was accepted by: <space> </space>Signature of the witness:</p>
+                <p><persName ref="#ehri_et_kratkova_marta" type="ehri">Marta Kratková</persName>
+                    <persName ref="#ehri_et_nasch_erich" type="ehri">Dr.Nasch</persName></p>
+                <p>On behalf of the <term ref="#t657" type="subject">documentary campaign</term>:</p>
+                <p><persName ref="#ehri_et_shek_zeev" type="ehri">Zeev Scheck</persName></p>
+                <p>On behalf of the archive:</p>
+                <p><persName ref="#ehri_et_schmiedt_alexander" type="ehri">Alex. Schmiedt</persName></p>
+            </div>
+        </body>
+    </text>
+</TEI>

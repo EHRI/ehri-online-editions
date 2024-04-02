@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19400317_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>„Nisko-Wiener“ in Lemberg an die IKG Wien betreffend Ausreisemöglichkeiten</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten
+					Juden.</edition>
+				<author>
+					<persName>Winfried Garscha</persName>
+				</author>
+				<author>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+				<sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<publisher>
+					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
+							Wien</repository>
+						<idno>A/W 2747</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+				<list>
+					<item><name>Emigrant / Emigrantin</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-302"/>
+						</linkGrp></item>
+					<item><name>Arbeit</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Hilfe und Rettung</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/ehri_terms-296"/>
+						</linkGrp></item>
+					<item><name>Tod</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Visum</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_nisko_gruenwald_alexander">
+						<persName>Grünwald, Alexander</persName>
+						<note><p>Alexander Grünwald wurde 1887 in Oberwart geboren. Er lebte 1938 in Wien. Am 27. Oktober 1939 wurde er nach Nisko
+								deportiert, von wo aus er nach Lemberg kam. 1940 wurde er in Lemberg inhaftiert. Alexander Grünwald kam im Holocaust
+								um.</p></note>
+					</person>
+					<person xml:id="ehri_nisko_jellinek_siegfried">
+						<persName>Jellinek, Siegfried</persName>
+						<note>
+							<p>Siegfried Jellinek wurde 1891 in Mistelbach geboren. Er arbeitete als Privatbeamter in Wien und lebte 1938 in der
+								Herbeckstraße 28, 1939 in der Rembrandtstraße 5. Am 27. Oktober 1939 wurde er nach Nisko deportiert, von wo aus er in
+								die UdSSR vertrieben wurde und nach Lemberg gelangte. Siegfried Jellinek kam im Holocaust um.</p>
+						</note>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place>
+						<placeName>Lemberg</placeName>
+						<location>
+							<geo>49.83826 24.02324</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702550/lviv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lviv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nisko</placeName>
+						<location>
+							<geo>50.51987 22.13968</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/763829/nisko.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Nisko"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wien</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1940-03-17">17. März 1940</date>
+				<persName ref="#ehri_nisko_gruenwald_alexander">Alexander Grünwald</persName>
+				<placeName ref="http://www.geonames.org/702550/lviv.html">Lemberg</placeName><idno>EHRI-NISKO-19400317</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>IKG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Wir beziehen uns auf unsere beiden Telegramme an Sie und hoffen, daß unserem heutigen Schreiben nicht dasselbe Schicksal zuteil wird
+				wie diesen und Sie eine Antwort geben werden.</p>
+			<p>Die hiesige Behörde erlaubt den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> in
+				anerkennungswerter Weise die Annahme von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>Arbeit</term>, doch kommt mangels Kenntnis der Sprache nur schwerste <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Hilfsarbeit</term> in Frage und diese können wir in
+				unserer heutigen Verfassung bei bestem Willen nicht leisten. Wir können es nicht unterlassen Ihnen mitzuteilen, daß unsere Lage derart
+				geworden ist, daß dringende <term ref="https://portal.ehri-project.eu/ehri_terms-296" type="subject">Hilfe</term> unbedingt geschaffen
+				werden muß. Wir haben schon so viele Verluste aus unseren Reihen zu beklagen und sehen mit Bangen der allernächsten Zeit entgegen, da
+				weitere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Verluste an Menschenleben</term> bereits
+				sicher geworden sind. Durch körperliche und seelische Strapazen vollkommen heruntergekommen – bar aller Mittel und Kleider – wissen
+				wir nicht wie wir die nächsten Tage überstehen sollen.</p>
+			<p>Wir wenden uns daher mit einem neuerlichen Appell an Sie, uns irgend eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Einreisemöglichkeit</term> zu schaffen, da nur auf
+				Grund einer solchen die hiesige Behörde eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+					>Ausreise</term> bewilligt. Ein Großteil unserer Leute hat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">Affidavits</term> und damit sofortige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203"
+					type="subject">Weiterreisemöglichkeit</term>, doch besteht hier keine Gelegenheit vor einem amerik. Konsulat wegen Erhalt eines
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visums</term> zu erscheinen.</p>
+			<p>Bei etwas gutem Willen wird und muß es Ihnen gelingen für uns Rettung zu schaffen, die nur dann Sinn hat, wenn sie sofort gefunden
+				wird.</p>
+			<p>Für die <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName>-<placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName></p>
+			<p><persName ref="#ehri_nisko_gruenwald_alexander">Grünwald</persName></p>
+			<p>Anschrift</p>
+			<p><persName ref="#ehri_nisko_jellinek_siegfried">Siegfried Jellinek</persName></p>
+			<p><placeName ref="http://www.geonames.org/702550/lviv.html">Lwow</placeName> Steczowskiego 3</p>
+		</body>
+	</text>
+</TEI>

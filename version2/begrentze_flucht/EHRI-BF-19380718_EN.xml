@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19380718_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Aufruf der Flüchtlinge auf dem Schiff Laortis an Marie Schmolka</title>
+				<title xml:lang="en">Call from the refugees on the ship Laortis to Marie Schmolka</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">Großbritanien</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_608">Council for German Jewry: correspondence (WL
+							608)</collection>
+						<idno>folder 2</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, coll. 608, folder 2. <textLang mainLang="en">Original auf
+						Englisch.</textLang></bibl>
+
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-07-18">18. Juli 1938</date>
+				<placeName>Rajka</placeName>
+				<idno>EHRI-BF-19380718</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Hilfsorganisationen</term>
+				</keywords>
+				<catRef target="hilfsorganisationen"/>
+			</textClass>
+			<langUsage>
+				<language ident="en">Englisch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<p>Translation</p>
+				<p><hi rend="u">COPY</hi>.</p>
+				<p><hi rend="u">Strictly Confidential</hi>.</p>
+				<p>To Mrs. <persName ref="#ehri_bf_schmolka_marie">Schmolka</persName>,</p>
+				<p>
+					<orgName ref="#g395">HICEM</orgName>
+				</p>
+				<p>Dear Madam,</p>
+				<p>In our great despair, we appeal to you [...] to help and secure our release from our unbearable situation. We already suffer gladly
+					in addition to rats every natural inconvenience, but what happened to us on Saturday, the <date when="1938-07-16">16th of
+						July</date>, is not only terrible but unendurable.</p>
+				<p>[...]</p>
+				<p>At 7.30 in the evening, four <term ref="#t826" type="subject">men</term> from <placeName ref="#republic-of-austria"
+						>German-Austria</placeName>, so called <orgName ref="#g350">Gestapo-men</orgName>, who by kicks and blows drove us out of our
+					own home, now rob us even of the little peace we now enjoy by coming on board and attacking us. For this reason, we appeal to you
+					with bursting hearts to come to our rescue quickly.</p>
+				<p>We cannot put on paper details of how these four <term ref="#t826" type="subject">men</term> behaved but suffice it to say that we
+					wait only to get away from here. We will all sign so that you will again see how many await their release.</p>
+				<p>May we ask you to send us some consolation quickly as to what will happen to us in the near future.</p>
+				<p>[...]</p>
+				<p>We remain,</p>
+				<p>The interned <term ref="#t864" type="subject">Jews</term> on board the tug <q>Laortis</q>.</p>
+				<p>Tug <q>Laortis</q> near <placeName ref="#rajka">Rajka</placeName>, <date when="1938-07-18">July 18, 1938</date>.</p>
+				<p><note type="gloss">15 Namen, in einem Fall mit Frau und Familie</note></p>
+				<p>P.S. Taking into consideration possible reprisals and our exposed and tolerated position, we urgently ask you to refrain from any
+					kind of publicity.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

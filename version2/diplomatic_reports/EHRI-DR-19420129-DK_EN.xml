@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DR-19420129-DK_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Vilhelm Voight Broch informs about the deportation of Anna Wimmer from Vienna to Poland in 1942</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/dk">Denmark </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </repository>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Rigsarkivet, 37.H1, Gestandtskab Østrig 1967, aflevering 1. <textLang mainLang="en">Original in Danish.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1942-01-29">29.01.1942</date>
+				<placeName ref="#vienna">Vienna</placeName>
+				<persName ref="#ehri_dr_broch_vilhelm_voight">Broch, Vilhelm Voight</persName>
+				<idno>EHRI-DR-19420129-DK</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<p>In response to your letter of 22 December, in which you request the Consulate General to search for your sister, Miss <persName
+						ref="#ehri_dr_wimmer_anna">Anna Wimmer</persName>, assuming that you are a <placeName ref="#kingdom-of-denmark"
+						>Danish</placeName> citizen, we hereby inform you that it is true that Miss Wimmer left for <placeName
+						ref="#republic-of-poland">Poland</placeName> together with a <persName ref="#ehri_dr_Stark_Family">Family Stark</persName> in
+						<date when="1941-10">October of 1941</date>.</p>
+				<p>At the <orgName ref="#ehri_dr_ikg_wien">Israeli Cultural Commemoration Centre</orgName>, <placeName ref="#vienna"
+						>Vienna</placeName>, I., Seitenstettengasse 2/4, the Consulate General has learned that you can contact 'An den <term
+						ref="#t554" type="subject">Aeltesten</term> der Juden, <placeName ref="#l513" type="ghetto">Lizmannstadt, Ghetto</placeName>,
+					Polen’, which then probably through the <term ref="#t868" type="subject">Jewish organizations</term> in question will be able to
+					provide information about your sister's present address.</p>
+				<p>The <term ref="#t1187" type="subject">Consulate General</term> shall add that no further action can be taken in this matter, unless
+					special instructions are received from the Royal Commission.</p>
+				<p>Ministry of Foreign Affairs in Copenhagen.</p>
+				<p>P. G. V. Vice Consul, signed <persName ref="#ehri_dr_broch_vilhelm_voight">V.V. Broch</persName></p>
+			</div>
+		</body>
+	</text>
+</TEI>

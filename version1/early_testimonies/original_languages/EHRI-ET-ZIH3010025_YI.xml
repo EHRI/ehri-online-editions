@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-ZIH3010025_YI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lida Braun, in the Hlyboke ghetto and in the Soviet partisan unit</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michał Czajka</persName>
+				</author>
+				<author>
+					<persName>Marta Wojas</persName>
+				</author>
+				<author>
+					<persName>Dagmara Chełstowska</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</repository>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll.
+							301)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>JHI, 301, Relacja Lidy Braun (301/25) <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Głębokie Ghetto</placeName>
+						<location>
+							<geo>55.14277778 27.68527778</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-197"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_wilno_voivodeship">
+						<placeName>Wilno Voivodeship</placeName>
+						<location>
+							<geo>54.6805 25.2699</geo>
+						</location>
+					</place>
+					<place>
+						<placeName>Orsha</placeName>
+						<location>
+							<geo>54.5081 30.4172</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/624079/orsha.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Orsha"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Borisov</placeName>
+						<location>
+							<geo>54.2279 28.505</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/630376/barysaw.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Barysaw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Smolensk</placeName>
+						<location>
+							<geo>54.7818 32.0401</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/491687/smolensk.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Smolensk"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dokshytsy</placeName>
+						<location>
+							<geo>54.8918 27.7667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/629002/dokshytsy.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Dokshytsy"/>
+						</linkGrp>
+					</place>
+					<place xml:id="ehri_et_krulieuscyna">
+						<placeName>Krulieŭščyna (Belarus)</placeName>
+						<location>
+							<geo>55.01 46.45</geo>
+						</location>
+					</place>
+					<place>
+						<placeName>Lublin</placeName>
+						<location>
+							<geo>51.25 22.56667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/765876/lublin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lublin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Orekhovno</placeName>
+						<location>
+							<geo>55.2036 28.685</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/624103/orekhovno.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Moscow</placeName>
+						<location>
+							<geo>55.75222 37.61556</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/524901/moscow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Moscow"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vilyeyka</placeName>
+						<location>
+							<geo>54.4914 26.9111</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/620181/vilyeyka.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vileyka"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Prozoroki</placeName>
+						<location>
+							<geo>55.2906 28.2198</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/623042/prazaroki.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Prazaroki"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Judenrat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-579"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Partisans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1215"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Education</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-842"/>
+						</linkGrp></item>
+					<item><name>Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-632"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_belarusians"><name>Belarusians (ascribed nationality)</name></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-746"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-339"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Marking of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-338"/>
+						</linkGrp><note><p>For non-Jews see "Armband (for non Jews)"</p></note></item>
+					<item><name>Judenrat members</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-554"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Bribery</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1053"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Cemeteries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-747"/>
+						</linkGrp></item>
+					<item><name>Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-763"/>
+						</linkGrp></item>
+					<item><name>Marriages</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-741"/>
+						</linkGrp></item>
+					<item><name>Prisoners of war</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-511"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_russians"><name>Russians (ascribed nationality)</name></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_braun_lida">
+						<persName>Braun, Lida</persName>
+						<note><p>Born 1933 in Hlyboke, Belarus. Author of the eye-witness account.</p></note>
+					</person>
+					<person xml:id="ehri_et_braun_dawid">
+						<persName>Braun, David</persName>
+						<note><p>Father of Lida Braun, husband of Cyrla Braun.</p></note>
+					</person>
+					<person xml:id="ehri_et_braun_cyrla">
+						<persName>Braun, Cyrla</persName>
+						<note><p>Neé Fiszer. Mother of Lida Braun, wife of Dawid Braun.</p></note>
+					</person>
+					<person xml:id="ehri_et_geler">
+						<persName>Geler (shot near Hlybokaïe, Belarus)</persName>
+					</person>
+					<person xml:id="ehri_et_bodov">
+						<persName>Bodov (shot near Hlybokaïe, Belarus)</persName>
+					</person>
+					<person xml:id="ehri_et_kozliner">
+						<persName>Kozliner (shot near Hlybokaïe, Belarus)</persName>
+					</person>
+					<person xml:id="ehri_et_lederman">
+						<persName>Lederman (chairman of Judenrat in the Hlybokaïe ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_libe_toybes_ike">
+						<persName>Libe-Toybes, Ike</persName>
+						<note><p>Trader from Hlybokaïe, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_blant_yude">
+						<persName>Blant, Yude</persName>
+						<note><p>Trader from Hlybokaïe, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_vaynshteyn_ayzik">
+						<persName>Vaynshteyn, Ayzik</persName>
+						<note><p>Trader from Hlybokaïe, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_blond_yudl">
+						<persName>Blond, Yudl</persName>
+						<note><p>Vice-chairman of the Judenrat in the Hlybokaïe ghetto.</p></note>
+					</person>
+					<person xml:id="ehri_et_konstantinov_vania">
+						<persName>Konstantinov, Vania</persName>
+						<note><p>From Moscow, commander of the 5th partisan unit near the Hlybokaïe ghetto, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_rodionov">
+						<persName>Rodionov</persName>
+						<note><p>Partisan in the 5th partisan unit near the Hlybokaïe ghetto, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_bik_leybl">
+						<persName>Bik, Leybl</persName>
+						<note><p>Partisan in the 5th partisan unit near the Hlybokaïe ghetto, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_krivitski_ziomke">
+						<persName>Krivitski, Ziomke</persName>
+						<note><p>Partisan in the 5th partisan unit near the Hlybokaïe ghetto, Belarus.</p></note>
+					</person>
+					<person xml:id="ehri_et_druboshovski">
+						<persName>Druboshovski</persName>
+						<note><p>After the death of Vania Konstantinov he became the commander of the 5th partisan unit near the Hlybokaïe ghetto,
+								Belarus.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925.</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945">1945</date>, <placeName ref="http://www.geonames.org/627908/hlybokaye.html">Głębokie/Hlyboke</placeName>,
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-541">executions</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-579">Judenrat</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">escapes</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215">partisans</term>
+				<idno>EHRI-ET-ZIH3010025</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="yi">Yiddish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Lida Brau on the establishment of two ghettos in Hlyboke, one for the younger and one for the older Jews, executions,
+					liquidation actions, Jewish self-defense, and transports to Lublin. After the loss of her family, she run away to the nearby
+					forests, where she joined a Soviet partisan unit. She describes the battle near the township Vileika.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-ZIH3010025_01.jpg"/></p>
+			<p>אַרכיוו פֿון ייִה''אָ</p>
+			<p>גבֿית־עדות פֿון <persName ref="#ehri_et_braun_lida">ברוין לידאַ</persName></p>
+			<p>אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאָכטער</term> פֿון <persName
+					ref="#ehri_et_braun_dawid">דוד</persName> און <persName ref="#ehri_et_braun_cyrla">צירל</persName>, פֿון דער היים <persName
+					ref="#ehri_et_braun_cyrla">פֿישער</persName>, געבוירן אין יאָר 1933 אין <placeName
+					ref="http://www.geonames.org/627908/hlybokaye.html">גלובאָקע</placeName>, <placeName ref="#ehri_et_wilno_voivodeship">ווילנער
+					וואָיעוו</placeName>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">בילדונג</term>: 3 קלאַסן
+				פֿון אַן <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-842">אַלגעמיינער שול</term>. ביז 1942 איז זי
+				געווען צוזאַמען מיט די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">עלטערן</term>, דער <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פֿאָטער</term> אַ שנײַדער. בעת דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-632" type="subject">אָקופּאַציע</term> האָט זי פֿאַרלוירן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">עלטערן</term> מיט צוויי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברידער</term> און אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שוועסטער</term>.</p>
+			<p>ווען די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> זײַנען אין יאָר 1941 אַרײַן אין אונדזער שטאָט, האָבן מיר געוווינט אויף
+					<placeName ref="http://www.geonames.org/627908/hlybokaye.html">ביאַליסטאָצקי־גאַס 48</placeName>. אויפֿן דריטן טאָג האָבן <term
+					ref="#ehri_et_nationalities_belarusians">ווײַסרוסן</term> אונטערגעהעצט די <term ref="#ehri_et_nationalities_germans">דײַטשן</term>
+				און זיי האָבן צוגענומען פֿון אונדזער שטוב אַלע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>קליידער</term> און <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">קיכגעשיר</term>.</p>
+			<p>אין אונדזער שטאָט האָבן געלעבט עטלעכע טויזנט ייִדן. ווי די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> זײַנען אַרײַן, זײַנען מער
+				ווי טויזנט <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַנטלאָפֿן</term> מיטן <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">רוסישן מיליטער</orgName>.</p>
+			<p>נאָך עטלעכע טעג האָבן די <term ref="#ehri_et_nationalities_germans">דײַטשן</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">גענומען</term> ד''ר <persName ref="#ehri_et_geler"
+					>געלער</persName>, <persName ref="#ehri_et_bodov">באָדאָוו</persName>, <persName ref="#ehri_et_kozliner">קאָזלינער</persName> א. אַ.,
+				אַרום 16 מאַן, זיי אַרויסגעפֿירט אויף אַ באַרג הינטער דער שטאָט <q><placeName ref="http://www.geonames.org/627908/hlybokaye.html"
+						>פּיאַסקאָוואַטקע</placeName></q> און דאָרט זיי <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>דערשאָסן</term>. <term type="subject" ref="#ehri_et_nationalities_belarusians">ווײַסרוסן</term> האָבן זיי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">באַגראָבן</term>.</p>
+			<p>ייִדן האָבן געמוזט אַלע סחורות פֿון זייערע געוועלבער אַוועקטראָגן צו דער <term type="subject" ref="#ehri_et_nationalities_germans"
+					>דײַטשער</term> מאַכט און געהאַנדלט אויפֿן מאַרק. אָבער די ווײַסרוסן האָבן געהעצט די <term ref="#ehri_et_nationalities_germans"
+					>דײַטשן</term>, אַז זיי ווילן נישט האָבן די ייִדן אויפֿן מאַרק און עס איז <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-339">פֿאַרווערט געוואָרן די ייִדן האַנדלען אויפֿן מאַרק</term>. גלײַכצײַטיק האָבן
+				די <term ref="#ehri_et_nationalities_germans">דײַטשישע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">זשאַנדאַרן</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-339">געפֿאָדערט ייִדן זאָלן ברענגען גאָלד און
+					פֿוטער־מאַנטלען</term>.</p>
+			<p>אין אַ צײַט אַרום זײַנען אַלע ייִדן געטריבן געוואָרן אין די גאַסן: <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197"
+					type="ghetto">ווילנער</placeName>, אַ האַלבע <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto"
+					>דראָיער</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto"
+					>קישאָלעיקער</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto"
+					>דאָבראָווע</placeName>, און געזאָגט, אַז ייִדן האָבן דאָס רעכט זיך צו באַוועגן נאָר אין תּחום פֿון די גאַסן. אָנטאָן ווײַסע <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-338">בענדער</term> אויף די הענט, דאָך האָט זיך נישט שלעכט
+				געלעבט, דער האַנדל האָט זיך נישט אָפּגעשטעלט.</p>
+			<p>עס איז געשאַפֿן געוואָרן אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">יודענראַט</term>. אלס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">פּרעזעס</term> איז באַשטימט געוואָרן <persName
+					ref="#ehri_et_lederman">לעדערמאַן</persName>, אַ געוו. שניט־סוחר. אַ מיליץ פֿון ייִדן געוו. סוחרים ווי: <persName
+					ref="#ehri_et_libe_toybes_ike">איקע ליבע־טויבעס</persName>, <persName ref="#ehri_et_blant_yude">יודע בלאַנט</persName>, חיים־בער
+				גאָרדאָן, <persName ref="#ehri_et_vaynshteyn_ayzik">אײַזיק ווײַנשטיין</persName> א. א.</p>
+			<p><pb n="2" facs="EHRI-ET-ZIH3010025_02.jpg"/></p>
+			<p>אַלע ייִדן האָבן געמוזט גיין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטן</term> צו די <term
+					ref="#ehri_et_nationalities_germans">דײַטשן</term>. דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554"
+					type="subject">פּרעזעס</term>
+				<persName ref="#ehri_et_lederman">לעדערמאַן</persName> פֿלעגט רעדן און וואָרענען די ייִדן, מען זאָל זײַן געהאָרכזאַם, נישט גיין וווּ עס איז
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-339">פֿאַרבאָטן</term> און ניטש אויסבאַהאַלטן פֿון <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>.</p>
+			<p>אַז די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן געפֿאָדערט געלט, גאָלד און ייִדן האָבן זיך נישט געאײַלט צו טראָגן אין
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">יודענראַט</term>, איז דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">פּרעזעס</term> מיט דער מיליץ געגאַנגען זוכן בײַ ייִדן אין
+				די שטובן.</p>
+			<p>די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">פּאָליציי</term> פֿלעגט די ייִדן יאָגן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטן</term>. אַז איינער פֿון זיי פֿלעגט זײַן בייז אויף
+				אַ ייִד, האָט ער אים איבערגעגעבן דער <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">עס־עס</orgName> און דער ייִד
+				איז שוין מער נישט צוריקגעקומען.</p>
+			<p>איין מאָל זײַנען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">זשאַנדאַרן</term> געקומען צום <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">פּרעזעס</term> און אים דערקלערט, אַז עס זײַנען דאָ צו פֿיל
+				ייִדן, זיי מוזן אַ ביסל <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">אויסשעכטן</term>. דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">פּרעזעס</term> האָט געבעטן, אַז עס זײַנען דאָ יונגע מענטשן,
+				גוטע אַרבעטער. די מאַכט האָט דאָך נוצן פֿון זיי און זיי וועלן דאָך אויך ווײַטער פֿיל נוצן ברענגען. און זיי האָבן געזאָגט, אַז אויב עס זײַנען דאָ
+				שוואַכע און שטאַרקע, וועלן זיי מאַכן צוויי <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+				>געטאָס</term>, פֿאַר יונגע, וואָס וועלן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטן</term>,
+				און אַלטע, שוואַכע, וואָס וועלן ביסלעכווײַז <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>געשאָסן</term> ווערן. דאָס צווייטע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>
+				איז געווען די <placeName type="ghetto" ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197">גאַס קישאָלעיק</placeName>.</p>
+			<p>די ייִדישע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">פּאָליציי</term> האָט יעדן ייִד געדראָט מיטן
+				אַרײַנוואַרפֿן אין צווייטן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>. ווען די <term
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053">געפֿאָדערט גאָלד</term>, קאָנטריבוציע און אַ ייִד האָט נישט געהאַט אײַנצאָלן
+				דעם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053" type="subject">שטײַער</term>, האָבן זיי אים איבערגעשיקט אין
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term> נר' 2.</p>
+			<p>אין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term> 2 האָבן געלעבט אַן ערך 1000 מענטשן,
+				אַלטע, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">שוואַכע</term> און עטלעכע צוואַנציק <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-819">פֿאַמיליעס</term>, וואָס האָבן נישט געהאַט <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053">צו געבן גאָלד</term>.</p>
+			<p>נאָך צוויי טעג זײַנען געקומען די <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">עס־עס</orgName> צום <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">יודענראַט</term>, ער זאָל זיי געבן 700 מענטשן צום <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">שיסן</term>. אַזוי ווי עס איז געווען דאָס צווייטע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>, האָט דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">פּרעזעס</term> זיי אָנגעוויזן צו גיין אויף <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto">קישאָלעיק</placeName>.</p>
+			<p>דעם אייגענעם טאָג זײַנען די <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto"
+					>קישאָלעיקעס</placeName> אַרומגערינגלט געוואָרן מיט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+					type="subject">זשאַנדאַרן</term> און פֿון די שטובן גענומען ייִדן. טייל האָבן זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term>, זײַנען געבליבן, ווײַל די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">זשאַנדאַרן</term> האָבן נישט אַזוי שטרענג געזוכט.</p>
+			<p>צו מאָרגנס באַגינען האָב איך געזען די מענטשן פֿון <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto"
+					>קישאָלעיקי</placeName> גיין איינער נעבן צווייטן מיט די הענט אויפֿן אַנדערנס אַקסל. זיי זײַנען געפֿירט געוואָרן אין אַ וואַלד</p>
+			<p><pb n="3" facs="EHRI-ET-ZIH3010025_03.jpg"/></p>
+			<p><q><placeName ref="http://www.geonames.org/627908/hlybokaye.html">באָראָק</placeName></q> און דאָרט זיי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">דערשאָסן</term>.</p>
+			<p>צוויי חדשים שפּעטער האָבן די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">זשאַנדאַרן</term> באַפֿוילן
+				אַלע ייִדן צוזאַמענקומען אויף איין פּלאַץ (פֿערד־מאַרק) און נעמען קאָנטראָלירן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>ס־קאַרטן. אויף טייל אויפֿגעשריבן –
+					<q>מײַסטער [קעכין]</q>, לויט דעם נאָמען האָט מען זיך גלײַך דערקלערט, אַז די מיט אַזעלכע קאַרטן זײַנען צום לעבן. די איבעריקע האָבן באַקומען
+				אָנגעהערעניש דורך פֿאַרשטעלטע נעמען: <placeName ref="http://www.geonames.org/624079/orsha.html">אָרשע</placeName>, <placeName
+					ref="http://www.geonames.org/630376/barysaw.html">באָריסאָוו</placeName>, <placeName
+					ref="http://www.geonames.org/491687/smolensk.html">סמאָלענסק</placeName>.</p>
+			<p>מיט דער קאַרטע מײַסטער [קערין] זײַנען גלײַך אַוועק אַהיים. די איבערגעליבענע האָבן זיך אויסגעטײַטשט, אַז <placeName
+					ref="http://www.geonames.org/630376/barysaw.html">באָריסאָוו</placeName> באַדײַט <placeName
+					ref="http://www.geonames.org/627908/hlybokaye.html">באָראָק</placeName>. דאָס איז דער וואַלד, וווּ מען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">טויטעט</term>. און טאַקע נאָך עטלעכע שעה זײַנען די ייִדן
+				אַוועקגעפֿירט געוואָרן אין וואַלד <placeName ref="http://www.geonames.org/627908/hlybokaye.html">באָראָק</placeName> און דאָרט דורך דער
+					<term ref="#ehri_et_nationalities_poles">פּוילישער</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">פּאָליציי</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">דערשאָסן</term> געוואָרן.</p>
+			<p>פֿון דעמאָלט אָן פֿלעגן די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> כאַפּן יעדן פֿאַרנאַכט, בעתן אַהיים גיין פֿון דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>, אַ ייִד און אים <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">שיסן</term>.</p>
+			<p>נאָך אַ האַלב יאָר <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>, ווען אויף צוויי
+				דערנעבנדיקע שטעטלעך, <placeName ref="http://www.geonames.org/629002/dokshytsy.html">דאָקשיץ</placeName> און <placeName
+					ref="#ehri_et_krulieuscyna">קרולעוושטשיזנאַ</placeName>, איז געווען אַן איבערפֿאַל פֿון <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">פּאַרטיזאַנער</term>, מיט וועלכע עס זײַנען מיט אַ סך פֿון
+				די <term ref="#ehri_et_nationalities_germans">דײַטשן</term>, האָבן די <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto">גלובאָקער</placeName>
+				<term ref="#ehri_et_nationalities_germans">דײַטשן</term> מורא געקראָגן, עס זאָל דאָס אייגענע נישט פֿאָרקומען אין <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-197" type="ghetto">גלובאָקע</placeName> און זיי האָבן באַפֿוילן דעם <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-554">וויצע־פּרעזעס</term> פֿון <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">יודענראַט</term>, <persName ref="#ehri_et_blond_yudl"
+					>יודל בלאָנד</persName>, ער זאָל צונויפֿנעמען די ייִדן און זיי וועלן אַוועקגעפֿירט ווערן קיין <placeName
+					ref="http://www.geonames.org/765876/lublin.html">לובלין</placeName>.</p>
+			<p>אין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term> איז מאָמענטאַל שטיל געוואָרן, קיין איין
+				ייִד האָט זיך נישט באַוויזן אויף דער גאַס. נאָך עטלעכע שעה, ווי עס וואָלט עפּעס געווען אָפּגעשמועסט, זײַנען אויפֿן גאַס אַרויס עטלעכע <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">פֿרויען</term> מיט קליינע פּעקלעך, און אַזוי ווי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> האָבן זיך אַלץ נאָך נישט באַוויזן, האָבן די
+					<term ref="#ehri_et_nationalities_germans">דײַטשן</term> אַרײַנגעשאָסן אין <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>. קיינער האָט זיי נישט געענטפֿערט מיט קיין
+				שאָס, זײַנען זיי אַרײַן אין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>. ווי זיי האָבן
+				זיך נאָר באַוויזן אין די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term> גאַסן, האָט זיך
+				אויף זיי געעפֿנט אַ העפֿטיק פֿײַער. זיי זײַנען באַוואָרפֿן געוואָרן מיט גראַנאַטן. פֿיל פֿון זיי זײַנען דורך די ערשטע שאָסן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">געפֿאַלן</term>. איך האָב געזען דרײַ <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">עס־עס</orgName>־<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">לײַט</term> ליגן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">טויט</term>. אָבער די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">זשאַנדאַרן</term> האָבן גענומען באַשיסן יעדעס הויז און
+				אין יעדן פֿענצטער געוואָרפֿן אַ גראַנאַט. ייִדן האָבן געזען, אַז די לאַגע איז אַ פֿאַרשפּילטע, האָט יעדער געכאַפּט זײַן פֿלעשל בענזין און
+				אונטערגעצונדן דאָס הויז וווּ ער האָט זיך געפֿונען. אין דעם רויך און פֿײַער זײַנען מענטשן געלאָפֿן</p>
+			<p><pb n="4" facs="EHRI-ET-ZIH3010025_04.jpg"/></p>
+			<p>וווּ איינער האָט געקענט.</p>
+			<p>די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן אויך אונטערגעצינדן הײַזער. פֿון דער פֿײַער־פֿלאַקער איז ליכטיק געווען
+				איבער דער גאַנצער שטאָט.</p>
+			<p>ווען עס האָט זיך אָנגעהויבן דאָס שיסערײַ, איז מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>מאַמע</term> אַרויס אויפֿן גאַס אַ קוק טאָן וואָס עס קומט פֿאָר, האָט איר געטראָפֿן אַ קויל אין האַלדז. איך, מײַן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פֿאָטער</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שוועסטער</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברודער</term> זײַנען אַרויס און אַוועקגעפֿירט די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מאַמען</term> פֿון גאַס און מיר זײַנען אַרויף אויף אַ
+				בוידעם. צוליב דעם שטיקעדיקן רויך איז מײַן פֿאָטער אַראָפּ. די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">מאַמע</term> האָט נישט געקאָנט גיין און איז פֿון בוידעם אַראָפּגעפֿאַלן. איך
+				בין אַראָפּ, האָב אויפֿגעהויבן די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מאַמע</term> און זיך
+				גענומען לויפֿן צום <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאַטן</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברודער</term>.</p>
+			<p>פֿון אונטן האָב איך געהערט קרייען:</p>
+			<p>– האַלט!</p>
+			<p>איך האָב זיך אומגעקוקט און מײַן <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פֿאָטער</term> נישט
+				געזען. האָבן מיר זיך אויסגעצויגן אויפֿן בויך. עס איז צוגעקומען אַ <term ref="#ehri_et_nationalities_germans">דײַטש</term> און געשאָסן אין
+				מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מוטער</term>. איך האָב געזען ווי ער פֿאַרלייגט
+				קוילן אין ביקס, האָב איך זיך אויפֿגעשטעלט און בין אַנטלאָפֿן און אין איין אויגנבליק האָב איך באַוויזן זיך צו <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term> אונטער אַ געמויערט הויז. עס איז שוין
+				געווען אָוונט, דער רויך האָט געביסן די אויגן, איך האָב נישט געזען וווּ איך גיי און בלאָנדזשענדיק זיך אַזוי אין <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term> האָב איך דערפֿילט, אַז מען גייט מיר נאָך און
+				איך האָב געפּרוּווט אַרויסזאָגן מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברודער</term>ס
+				נאָמען, האָט ער זיך טאַקע אָנגערופֿן. מיר האָבן שוין ביידע געשפּאַנט אויף די חורבֿות. מענטשן זײַנען געלאָפֿן, זײַנען מיר נאָך. פּולעמיאָטן האָבן אַלץ
+				געשאָסן. מיר האָבן איבער אַ קליין שטיקל וועג עטלעכע מאָל זיך געלייגט אויפֿן בויך.</p>
+			<p>ווען עס איז שוין פֿאַרברענט געוואָרן דער פּאַרקאַן אַרום <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>געטאָ</term>, בין איך און מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברודער</term>
+				אַרויס פֿון <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">געטאָ</term>־תּחום. מיר זײַנען אַרײַן אין אַ
+				גאָרטן און דאָרט געשלאָפֿן ביז טאָג ווערן.</p>
+			<p>ווי עס איז ליכטיק געוואָרן האָט מיר מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">ברודער</term>
+				געזאָגט, איך זאָל גיין אַ קוק טאָן וווּ די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> זײַנען. איך בין אַרויס פֿון גאָרטן. עס
+				זײַנען געשטאַנען צוויי <term ref="#ehri_et_nationalities_germans">דײַטשן</term> פּונקט פֿאַרקוקט. צוריק שוין נישט געקאָנט גיין און איך בין
+				אַוועק דורך פֿעלדער און וועלדער אין דערפֿער און געפֿרעגט, וווּ עס זײַנען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">פּאַרטיזאַנער</term>.</p>
+			<p><pb n="5" facs="EHRI-ET-ZIH3010025_05.jpg"/></p>
+			<p>בעת דער שׂרפֿה האָט אונדז דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאַטע</term> געזאָגט, דאָס
+				אויב עס וועט ווער פֿון אונדז בלײַבן לעבן, זאָל גיין אין דאָרף <placeName ref="http://www.geonames.org/624103/orekhovno.html"
+					>אַרעבאָוואַ</placeName> 5 קילאָמעטער פֿון <placeName ref="http://www.geonames.org/627908/hlybokaye.html">גלובאָקע</placeName>. אַ גאַנצן
+				טאָג האָב איך געוואַנדערט אין די וועלדער ביז איך בין געקומען אין דעם דאָרף.</p>
+			<p>איך האָב גערופֿן מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">טאַטן</term> בײַם נאָמען, קיינער האָט
+				זיך נישט אָנגערופֿן. נאָר פּויערים, וועלכע האָבן געקאָנט מײַן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פֿאָטער</term> און זיי האָבן געהערט ווי איך שרײַ, האָבן מיך געוואָרנט איך
+				זאָל שנעל אַוועק, ווײַל באַלד קומט אָן דער סאָלטיס. איך בין שנעל אַראָפּ פֿון באַרג און געלאָפֿן ביז איך בין אַרײַן אין אַ וואַלד. גייענדיק האָב איך
+				געהערט, עס קוויטשעט אַ חזיר. ריכטנדיק זיך לויטן קוויטש בין איך אַרויף אויף אַ סטעזשקע, וווּ עס זײַנען געווען באַקאַנטע פּויערים פֿון
+					<placeName ref="http://www.geonames.org/627908/hlybokaye.html">גלובאָקע</placeName> און בין נאָכגעגאַנגען די פֿור.</p>
+			<p>אויפֿן וועג האָב איך דערזען <term ref="#ehri_et_nationalities_germans">דײַטשן</term>, בין איך שנעל <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַנטלאָפֿן</term> און אַרויף אויף אַ <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-747">בית־עולם</term>. איך האָב געזען, דאָס זיי גייען מיך נאָך און זיי האָבן
+				מיך געכאַפּט. זיי האָבן מיך געפֿרעגט ווער איך בין. איך האָב געענטפֿערט, אַז איך בין אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסטין</term>. זיי האָבן געלאַכט, געזאָגט, איך זאָל נישט
+				קיין מורא האָבן, זיי ווייסן, דאָס איך בין אַ <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					>ייִדין</term> און מיך געפֿרעגט וווּ איך גיי.</p>
+			<p>– וווּ די אויגן טראָגן, האָב איך געענטפֿערט.</p>
+			<p>– זאָג, צי דו ווילסט גיין צו די פּאַרטיזאַנער? – האָט איינער ווידער מיך געפֿרעגט.</p>
+			<p>– איך ווייס נישט, איך האָב נישט וווּ צו נעכטיקן – האָב איך געענטפֿערט.</p>
+			<p>– גיי אַרײַן אין דער שטוב, וועסטו נעכטיקן – האָט איינער געזאָגט און מיר אָנגעוויזן, וווּ צו גיין.</p>
+			<p>איך בין אַרײַן אין דער שטוב און געבעטן אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">טרינק</term>.
+				האָב באַקומען. דער בעל־הבית האָט מיך אויסגעפֿרעגט ווער איך בין, האָב אים געזאָגט, אַז פֿון <placeName
+					ref="http://www.geonames.org/627908/hlybokaye.html">גלובאָקע</placeName>, אָבער איבערנעכטיקן מיר נישט געלאָזט. ער האָט מיר געהייסן
+				שנעל גיין.</p>
+			<p>אַרויסקומענדיק פֿון דער שטוב האָב איך געזען ווי אַ גוי אַקערט, בין איך צוגעגאַנגען און געפֿרעגט צו איך קאָן בײַ אים נעכטיקן. ניין – האָט ער
+				געזאָגט, אָבער מיך צוריקגערופֿן און מיר אָנגעוויזן, איך זאָל אַרײַן אין אַ שײַער, וועל איך קענען שלאָפֿן. אין דער פֿרי האָט ער מיר געברענגט
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term>. ער איז באַלד ווידער געקומען און מיר
+				געזאָגט:</p>
+			<p>– עס זײַנען פֿאַרבײַגעגאַנגען צוויי ייִדן, לויף שנעל !</p>
+			<p><pb n="6" facs="EHRI-ET-ZIH3010025_06.jpg"/></p>
+			<p>איך בין געלאָפֿן און געשריגן די ייִדן זאָלן אויפֿוואַרטן, אָבער זיי האָבן זיך נישט געשטעלט. איך בין דאָך ווײַטער געלאָפֿן און האָב זיי דעריאָגט.
+				זיי זײַנען געווען באַקאַנטע פֿון <placeName ref="http://www.geonames.org/627908/hlybokaye.html">גלובאָקע</placeName>, אַ <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-741">פּאָר פֿאָלק</term>. מיט זיי בין איך שוין געגאַנגען אין
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">פּאַרטיזאַנער</term> ראַיאָן. זיי האָבן מיך
+				איבערגעלאָזט בײַ אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">קריסט</term> און זײַנען אַוועק. איך
+				האָב זיך נאָכגעפֿרעגט אויף די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">פּאַרטיזאַנער</term>
+				אָפּטיילן. אין דרײַ אָפּטיילן האָט מען מיך נישט צוגענומען. עס זײַנען געזעסן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">יונגן</term> מיט געווער. זיי האָבן מיך אויסגעפֿרעגט,
+				ווער איך בין, פֿון וואַנען און מיר אָנגעוויזן אין אַ צווייט דאָרף 1,5 קילאָמעטער פֿון דעם דאָרף.</p>
+			<p>אויפֿן וועג האָב איך געפֿרעגט בײַ אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פּויערטע</term> וווּ
+				עס איז דער קאָמאַנדיר. פּונקט איז אָנגעפֿאָרן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>איינער</term> אויף אַ ראָווער און די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>קריסטין</term> האָט מיר אָנגעוויזן איך זאָל פֿרעגן בײַ אים.</p>
+			<p>איך האָב אים אָפּגעשטעלט, געוויזן אים דאָס צעטעלע פֿון פֿריערדיקן דאָרף־קאָמאַנדיר, אַז מיר זאָלן זיך ווענדן אין ראַיאָנאָוו־אָפּטייל.</p>
+			<p>ער האָט מיך גלײַך אַוועקגעפֿירט צו אַ שטוב אין דעם דאָרף. איך האָב געוואַרט אויפֿן גאַס. ער איז געווען דער קאָמאַנדיר פֿון 5טן אָפּטייל, אַ
+					<placeName ref="http://www.geonames.org/524901/moscow.html">מאָסקווער</placeName>, <persName ref="#ehri_et_konstantinov_vania"
+					>קאָסטאַנטינאָוו וואַניאַ</persName>.</p>
+			<p>איך האָב דאָ באַגעגנט באַקאַנטע ייִדן. דער קאָמאַנדיר האָט זיי געפֿרעגט צי זיי קענען מיך, זיי האָבן געענטפֿערט, אַז ניין, אָבער איך האָב זיי יאָ
+				געקענט.</p>
+			<p>איך בין אַרײַן אין דער שטוב. נאָך אָפּרו בין איך אַרײַן אין קיך און געהאָלפֿן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832">קאַרטאָפֿל</term> שיילן און אַנדערע אַרבעטן.</p>
+			<p>נאָך צוויי וואָכן זײַנען אַלע נײַן אָפּטיילן אַרויס אויף אַן אָנפֿאַל אויף <placeName ref="http://www.geonames.org/620181/vilyeyka.html"
+					>ווילייקע</placeName>.</p>
+			<p>איך האָב זיך דערוווּסט, אַז <persName ref="#ehri_et_konstantinov_vania">קאָנסטאַנטינאָוו</persName> און <persName ref="#ehri_et_rodionov"
+					>ראַדיאָנאָוו</persName> זײַנען געווען <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-511"
+					>געפֿאַנגענע</term> בײַ די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>. ווען דער <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטש</term> האָט געשאָסן די <term ref="#ehri_et_nationalities_russians">רוסישע</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-511">געפֿאַנגענע</term>, האָט <persName
+					ref="#ehri_et_rodionov">ראַדיאָנאָוו</persName> און <persName ref="#ehri_et_konstantinov_vania">קאָנסטאַנטינאָוו</persName> פֿאָרגעלייגט
+				די <term ref="#ehri_et_nationalities_germans">דײַטשן</term> צו שאַפֿן אַ בריגאַדע צו באַקעמפֿן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">פּאַרטיזאַנער</term>. די <term
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן דערלויבט און זיי האָבן זיך צוזאַמענגענומען אַ גרעסערע חבֿרה, באַזאָרגט מיט
+				געווער און פּולעמיאָטן. <persName ref="#ehri_et_konstantinov_vania">קאָנסטאַנטינאָוו</persName> און <persName ref="#ehri_et_rodionov"
+					>ראַדיאָנאָוו</persName> זײַנען איבערגעגאַנגען צו די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject"
+					>פּאַרטיזאַנער</term> און געבילדעט 9 אָפּטיילן.</p>
+			<p>איך בין געווען 5 קמ' פֿון <placeName ref="http://www.geonames.org/620181/vilyeyka.html">ווילייקע</placeName> און מען האָט מיר דערציילט,
+				אַז בעתן איבערפֿאַל איז <placeName ref="http://www.geonames.org/620181/vilyeyka.html">ווילייקע</placeName> פֿאַרברענט געוואָרן. די מענטשן
+				זײַנען אַנטלאָפֿן, אַ סך <term ref="#ehri_et_nationalities_germans">דײַטשן</term> זײַנען גענומען געוואָרן אין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-511">געפֿאַנגענשאַפֿט</term>. פֿון 12 בײַטאָג האָט זיך די שלאַכט</p>
+			<p><pb n="7" facs="EHRI-ET-ZIH3010025_07.jpg"/></p>
+			<p>געצויגן ביז צומאָרגנס פֿרי.</p>
+			<p>פֿון אונדזער 5טן אָפּטייל זײַנען געפֿאַלן 2 ייִדישע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>יונגעלײַט</term>: <persName ref="#ehri_et_bik_leybl">ביק לייבל</persName> פֿון <placeName
+					ref="http://www.geonames.org/623042/prazaroki.html">פּריזאָראָק</placeName> און <persName ref="#ehri_et_krivitski_ziomke">זיאָמקע
+					קריוויצקי</persName>, זיי זײַנען אין דער שֹרפֿה <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					>פֿאַרברענט</term> געוואָרן.</p>
+			<p>עס איז אויך געפֿאַלן <persName ref="#ehri_et_konstantinov_vania">קאָנסטאַנטינאָוו</persName>.</p>
+			<p>נאָך דעם זײַנען מיר צוריק אין וואַלד. אויף <persName ref="#ehri_et_konstantinov_vania">קאָנסטאַנטינאָוו</persName>ס אָרט איז באַשטימט געוואָרן
+					<persName ref="#ehri_et_druboshovski">דרובאָשאָווסקי</persName>. <persName ref="#ehri_et_rodionov">ראַדיאָנאָוו</persName> האָט באַשלאָסן
+				זיך צו פֿאַראייניקן מיטן פֿראָנט. ווען זיי זײַנען נאָר אַריבער די באַן־ליניע זײַנען זיי אַרומגערינגלט געוואָרן דורך די <term
+					ref="#ehri_et_nationalities_germans">דײַטשן</term>. מיר זײַנען געבליבן 15 מאַן. מיר האָבן געוואַרט <term
+					ref="#ehri_et_nationalities_germans">זיי</term> זאָלן קומען נאָך אונדז, אָבער זיי זײַנען נישט געקומען. איך האָב זיך דערוווּסט, אַז אויך
+					<persName ref="#ehri_et_rodionov">ראַדיאָנאָוו</persName> איז <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">געפֿאַלן</term> און די בריגאַדע איז זיך צעלאָפֿן. אויך אונדזער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">פּונקט</term> איז אַנטדעקט געוואָרן, 15 מענטשן זײַנען
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">דערשאָסן</term> געוואָרן. איך בין אַנטלאָפֿן און זיך
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term>.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-SOV005_YI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Maria Markovna Sokol, on her survival in occupied Kharkiv and surrounding villages</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Miriam Schulz</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier> </msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Ilya Ehrenburg (ed.), Merder fun felker (Moscow: Der emes, 1944), pp. 10–18. <textLang mainLang="yi">Original in
+						Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Kharkiv</placeName>
+						<location>
+							<geo>49.98081 36.25272</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/706483/kharkiv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Kharkiv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Moscow</placeName>
+						<location>
+							<geo>55.75222 37.61556</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/524901/moscow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Moscow"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poltava</placeName>
+						<location>
+							<geo>49.59373 34.54073</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/696643/poltava.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poltava"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lubny</placeName>
+						<location>
+							<geo>50.01625 32.99694</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702723/lubny.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lubny"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Romny</placeName>
+						<location>
+							<geo>50.75104 33.47471</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/695464/romny.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Romny"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Staryy Saltiv</placeName>
+						<location>
+							<geo>50.07619 36.78852</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/692703/staryy-saltiv.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Jędrzejów</placeName>
+						<location>
+							<geo>52.19256 21.72332</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/770155/jedrzejow.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lyubotyn</placeName>
+						<location>
+							<geo>49.94691 35.92907</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702417/lyubotyn.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Liubotyn"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Korotysh</placeName>
+						<location>
+							<geo>52.36772 37.45596</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/544572/korotysh.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Smorodyne</placeName>
+						<location>
+							<geo>47.9439 35.39229</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/11012866/smorodyne.html"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-632"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_soviets"><name>Soviets (ascribed nationality)</name></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Hanging</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-542"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Hostages</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-663"/>
+						</linkGrp></item>
+					<item><name>Victims</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Jewish owned factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-890"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Medical personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-286"/>
+						</linkGrp></item>
+					<item><name>Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-763"/>
+						</linkGrp></item>
+					<item><name>Passports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_russians"><name>Russians (ascribed nationality)</name></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Murder pits</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1321"/>
+						</linkGrp></item>
+					<item><name>Occupation authority regulations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1033"/>
+						</linkGrp></item>
+					<item><name>Mass murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-540"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Partisans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1215"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_ehrenburg_ilya">
+						<persName>Ehrenburg, Ilya</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ilya_Ehrenburg"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_redko_kyril_arsentyevitsh">
+						<persName>Redko, Kyril Arsentyevitsh</persName>
+						<note><p>Rescuer in Kharkiv.</p></note>
+					</person>
+					<person xml:id="ehri_et_mertshik">
+						<persName>Mertshik</persName>
+						<note><p>Place in Ukraine.</p></note>
+					</person>
+					<person xml:id="ehri_et_sokol_maria_markovna">
+						<persName>Sokol, Maria Markovna</persName>
+						<note><p>Author of testimony and a Holocaust survivor from Kharkiv.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1943-11">November 1943</date>, <placeName ref="http://www.geonames.org/706483/kharkiv.html">Kharkiv</placeName>,
+					<idno>EHRI-ET-SOV005</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="yi">Yiddish</language>
+			</langUsage>
+			<abstract>
+				<p>Report of Maria Markovna Sokol, an Ukrainian Jewish woman from Kharkiv, who recounts her survival under Nazi occupation in Kharkiv,
+					imprisonment with all the Jews from Kharkiv in barracks outside the city, massacres of Jews, and how she ran away and survived
+					with the help of Ukrainian rescuers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="10" facs="EHRI-ET-SOV005_10.jpg"/>
+			<p><placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName></p>
+
+			<p>אין: אין: מערדער פֿון פֿעלקער: מאַטעריאַלן װעגן די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject"
+					>רציחות</term> פֿון די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשישע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-632" type="subject">פֿאַרכאַפּער</term> אין די צײַטװײַליק <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-632" type="subject">אָקופּירטע</term>
+				<term type="subject" ref="#ehri_et_nationalities_soviets">סאָװעטישע</term> ראַיאָנען, געזאַמלעט און צונויפֿגעשטעלט פֿון <persName
+					ref="#ehri_et_ehrenburg_ilya">איליאַ ערענבורג</persName> (<placeName ref="http://www.geonames.org/524901/moscow.html"
+					>מאָסקװע</placeName>: דער עמעס), 10–18</p>
+			<p>דעם 24 אָקטאָבער 1941 יאָר זײַנען אין <placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName> אַרײַן די <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>. שװער איבערצוגעבן דעם גרויל, װאָס האָט מיך אַרומגעכאַפּט. נאָר
+				די אויסװעגלאָזע לאַגע האָט דאָך געצװוּנגען מיך, אַ ייִדיש־<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">קינד</term>, צו בלײַבן אין <placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName>.</p>
+			<p>די <term type="subject" ref="#ehri_et_nationalities_germans">פֿאַשיסטן</term> האָבן באַװיזן, װאָס זײ קאָנען, שוין דעם ערשטן טאָג. אויף
+				די <placeName ref="http://www.geonames.org/706483/kharkiv.html">פּלעצער</placeName> זײַנען <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-542" type="subject">געהאַנגען</term>
+				<term type="subject" ref="#ehri_et_nationalities_soviets">סאָװעטישע</term> מענטשן. אויף מאָרגן האָבן די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> אָנגעהויבן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660"
+					type="subject">ראַבעװען</term>. אין שטוב האָט מען ניט געקאָנט זיצן. יעדער רגע פֿלעגט זיך דערהערן אַ קלאַפּ אין טיר: <q>עפֿן!</q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">זײ פֿלעגן נעמען אַלץ</term> – <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">פּראָדוקטן</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">זאַכן</term>. דערנאָך האָבן זײ אָנגעהויבן כאַפּן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-663" type="subject">ערבֿניקעס</term>. דער <placeName
+					ref="http://www.geonames.org/706483/kharkiv.html">האָטעל</placeName>
+				<q><placeName ref="http://www.geonames.org/706483/kharkiv.html">אינטערנאַציאָנאַל</placeName></q> איז געװען געפּאַקט מיט די
+				אומגליקלעכע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">קרבנות</term>. די פֿענצטער זײַנען דאָרט
+				געװען אויסגעהאַקט, די צימערן געפּאַקט, – ניט לײגן זיך, ניט זעצן זיך. בעתן פֿאַרהער פֿלעגט מען די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">אַרעסטירטע</term> שלאָגן. מע האָט זײ געהאַלטן אַ טאָג
+				צען, און דערנאָך, שוין האַלב טויטע – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject"
+				>צעשאָסן</term>.</p>
+			<p>אײנמאָל האָט זיך <placeName ref="http://www.geonames.org/706483/kharkiv.html">אויפֿן פּלאַץ לעבן דער געבײַדע פֿונעם
+					געגנטקאָם</placeName> פֿאַרזאַמלט אַן עולם – דאָרט איז געװען אַ ראַדיאָ. איך בין פֿאַרבײַגעגאַנגען נאָך װאַסער. פּלוצעם זעען מיר,
+				װי פֿון העכסטן שטאָק לאָזט מען אַראָפּ אויף אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-542" type="subject"
+					>שטריק</term> אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">יונגנמאַן</term>. מיר האָבן
+				פֿון אָנהײב ניט פֿאַרשטאַנען, װאָס איז עס אַזוינס. עס האָט זיך דערהערט אַ האַרצרײַסנדיקער געשרײ: <q>ראַטעװעט!</q>. דער אומגליקלעכער
+				איז געבליבן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-542" type="subject">הענגען אויף אַ באַלקאָן</term>. אַן
+				איבערגעשראָקענער, איז זיך דער עולם פֿונאַנדערגעגאַנגען איבער די הײַזער.</p>
+			<p>דאָס איז געװען אינדערפֿרי נאָך אַ שװערן חלום, פּונקט װי כ'װאָלט אין חלום געהאַט אַ פֿאָרגעפֿיל װעגן דער צוקונפֿט. <pb n="11"
+					facs="EHRI-ET-SOV005_11.jpg"/> פֿון אונדזער <placeName ref="http://www.geonames.org/706483/kharkiv.html">הויז</placeName> האָט מען
+				אַרויסגעפֿאָדערט 10 ייִדן צו שיקן זײ אויף <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>אַרבעט</term>. איך בין צװישן זײ ניט געװען. נאָך דעם, װי די מענטשן האָבן געענדיקט די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעט</term>, האָט מען זײ אַװעקגעשיקט אין
+						<q><placeName ref="http://www.geonames.org/706483/kharkiv.html">אינטערנאַציאָנאַל</placeName></q> אַלס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-663" type="subject">ערבֿניקעס</term>. איך האָב גענומען װאַרטן אויף מײַן
+				רײ.</p>
+			<p>דעם 15־טן דעצעמבער האָט מען אַרויסגעפֿאָדערט אַלס <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-663" type="subject"
+					>ערבֿניקעס</term> אַלע ייִדן פֿון אונדזער <placeName ref="http://www.geonames.org/706483/kharkiv.html">הויז</placeName>. איך האָב
+				באַשלאָסן קײן לעבעדיקע ניט אַרײַנפֿאַלן צו די <term type="subject" ref="#ehri_et_nationalities_germans">מערדער</term> אין די הענט
+				אַרײַן און <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">באַגײן זעלבסטמאָרד</term>. קײן סם האָב
+				איך ניט געהאַט, נאָר איך האָב געפֿונען אַ גאָלמעסערל. אַ מאָל צען האָב איך אַרײַנגעשניטן דאָס מעסערל אין האַנט אַרײַן, נאָר אויס
+				אומדערפֿאַרנקײַט האָב איך זיך ניט געקענט דערקלײַבן צו דער װענע. פֿון בלוט־פֿאַרלוסט האָב איך געחלשט. געקומען צו־זיך בין איך פֿון אַ
+				קלאַפּ אין טיר. מע האָט מיר אָנגעזאָגט, אַז הײַנט איז דער 15־טער דעצעמבער 1941 יאָר: אַלע ייִדן זײַנען מחײבֿ פֿאַרלאָזן די <placeName
+					ref="http://www.geonames.org/706483/kharkiv.html">שטאָט</placeName> און אַװעקגײן אין די באַראַקעס, װאָס הינטער דעם <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-890" type="subject">טראַקטאָר־זאַװאָד</term> – דאָס איז 12 קילאָמעטער פֿון
+					<placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName>. בײַ מיר האָט גערונען בלוט פֿון די װוּנדן, איך
+				האָב שלעכט באַנומען, װאָס עס טוט זיך.</p>
+			<p>עס איז שװער צו באַשרײַבן דאָס בילד – 15 טויזנט, און אפֿשר מער, זײַנען געגאַנגען איבער דער <placeName
+					ref="http://www.geonames.org/706483/kharkiv.html">סטאַראָ־מאָסקאָװסקער גאַס</placeName> צום <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-890" type="subject">טראַקטאָר־זאַװאָד</term>. פֿיל פֿון זײ האָבן געשלעפּט
+				זאַכן. עס זײַנען געװען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנקע</term>, אַפֿילו
+				פּאַראַליזירטע. זײ האָט מען געטראָגן אויף די הענט. דער װעג פֿון <placeName ref="http://www.geonames.org/706483/kharkiv.html"
+					>סטאַראָ־מאָסקאָװסקאַיאַ</placeName> ביז דעם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-890" type="subject"
+					>טראַקטאָר־זאַװאָד</term> איז געװען פֿאַרזײט מיט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject"
+					>טויטע קערפּערס</term> פֿון אַלטע לײַט, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>קינדער</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנקע</term>.</p>
+			<p>אין אָװנט זײַנען מיר געקומען אין אונדזער נײַ <placeName ref="http://www.geonames.org/706483/kharkiv.html">װוינאָרט</placeName>. איך בין
+				אַרײַן אין אַ באַראַק. אַנשטאָט פֿענצטער זײַנען געװען גרויסע לעכער אָן שויבן. די טירן האָבן זיך ניט פֿאַרמאַכט. זיצן איז ניט געװען
+				אויף װאָס. עס האָט געבלאָזט אַן אײַז־קאַלטער װינט. איך בין אָפּגעשװאַכט געװאָרן פֿון בלוט־פֿאַרלוסט און בין געפֿאַלן אָן באַװוּסטזײַן.
+				געקומען צו־זיך בין איך פֿון אַ געשרײ: עס האָבן געשריִען אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">פֿרוי</term> מיט אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term>.
+				מענטשן איז געװאָרן אַלץ מערער, עס איס געװען זײער ענג, און אין דער פֿינצטער איז עמעצער געפֿאַלן אויף אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term> מיט אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">זויג־קינד</term>. דאָס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">עופֿעלע</term> האָט אַ געשרײ געטאָן. װען די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מוטער</term> האָט דערזען, אַז דאָס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term> האָט זיך אויפֿגעהערט צו רירן, האָט זי
+				אָנגעהויבן שרײַען: <pb n="12" facs="EHRI-ET-SOV005_12.jpg"/>
+				<q>ראַטעװעט! דאָס איז אַלץ, װאָס בײַ מיר איז געבליבן – דעם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+						type="subject">מאַן</term> און דעם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+						>זון</term> האָט מען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-542" type="subject"
+					>אויפֿגעהאַנגען</term></q>. װאָס האָט מען אָבער געקאָנט טאָן? אָנצינדן ליכט האָט מען פֿאַרװערט. דאָס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">עופֿעלע</term> איז אומגעקומען.</p>
+			<p>איך בין אַרײַנגעפֿאַלן אין אַ שלעכטן באַראַק. דאָרט זײַנען געװען פֿופֿציק מענטשן. אײניקע האָט אָפּגעגליקט – זײ האָבן געקויפֿט בעטלעך.
+				אויף יעדעם בעטל זײַנען געלעגן 5–6 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מאַן</term>. די
+				פֿרעסט זײַנען געװען זײער שטאַרקע. איך בין געשלאָפֿן אויפֿן דיל. די הענט און פֿיס האָבן געגליװערט פֿון קעלט.</p>
+			<p>מיך האָט דערװאַרט אַ נײַער אומגליק. איך האָב אײן אײנציקע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">שװעסטער</term>. שוין לאַנג, אַ יאָר דרײַסיק צוריק, האָט זי זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">געשמדט</term>, און אין <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">פּאַס</term> בײַ איר איז פֿאַרשריבן, אַז זי איז אַ
+					<term type="subject" ref="#ehri_et_nationalities_russians">רוסישע</term>. איך ליג אויפֿן דיל און דערמאָן זיך אָן דער
+				פֿאַרגאַנגענהײַט. פּלוצעם האָב איך זיך אומגעקוקט, אָט פּונקט װי עמעצער זאָל מיך אַ שטופּ טאָן, און איך זע מײַן אײנציקע, טײַערע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטער</term>. פֿיר טעג איז זי געזעסן מיט מיר אין
+				באַראַק. עס האָבן זיך געפֿונען גוטע מענטשן, װאָס האָבן איר געהאָלפֿן, און זי איז <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">אַנטלאָפֿן</term>. בײַ איר איז געװען אַ <q><term
+						type="subject" ref="#ehri_et_nationalities_russians">רוסישער</term>
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">פּאַס</term></q>, און איר איז לײַכטער געװען צו
+				העלפֿן, װי מיר. כּדי מע זאָל זיך ניט אַרומקוקן, האָבן מיר זיך ניט געזעגנט. איך האָב בלויז אַ קוק געטאָן אויף איר, געװאָלט מיטן קוק
+				איבערגעבן אַלץ.</p>
+			<p>די װוּנד אויף דער האַנט האָט זיך ניט פֿאַרמאַכט. איך האָב געליטן קעלט און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">הונגער</term>. די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> פֿלעגן אונדז לאָזן אויפֿן מאַרק אָדער נאָך װאַסער, אויב מע פֿלעגט זײ דערפֿאַר
+				געבן זאַכן. די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן געהאַלטן אין אײן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">הרגענען</term>. איך האָב געזען, װי ס'איז געגאַנגען אַ
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">ייִנגעלע</term>. די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> רופֿן אים צו: <q>אײ, יודע!</q> װען דאָס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">ייִנגעלע</term> איז צוגעגאַנגען, האָט אַ <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטש</term> אַ שלײַדער געטאָן אים אין אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321" type="subject">גרוב</term> און צוגעדריקט מיטן פֿוס, דערנאָך האָט ער
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אויסגעשאָסן</term>. אײדער ס'איז אַרויסגעגעבן
+				געװאָרן דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1033" type="subject">באַפֿעל</term> װעגן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">צעשיסן</term> אַלעמען, פֿלעגן זײ יעדן טאָג <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">הרגענען</term> אַ מענטש פֿופֿציק. אײנמאָל האָבן זײ
+				געמאָלדן: <q>אויב מע װעט באַנאַכט הערן װײנען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+						>קינדער</term>, װעלן מיר <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">צעשיסן</term>
+					עלעמען</q>. און װי קאָן מען פֿאָדערן פֿון די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>עופֿעלעך</term>, אַז זײ זאָלן ניט שרײַען? איבערװיקלען האָט מען זײ ניט געקאָנט, זײ זײַנען געלעגן נאַסע אויפֿן פֿראָסט. די מילך בײַ
+				די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מוטערס</term> האָט איבערגעברענט פֿון אַלע
+				איבערלעבונגען, מיט װאָס זײ צו קאָרמענען איז ניט געװען.</p>
+			<p><pb n="13" facs="EHRI-ET-SOV005_13.jpg"/> מיר האָט זיך אײַנגעגעבן אַריבערצוגײן אין אַן אַנדער באַראַק – נומ. 9. דעם באַראַק האָט
+				אָפּגעגליקט: ער איז אַװעק צו דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">שחיטה</term> דער
+				לעצטער.</p>
+			<p>די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן אונדז געװאָלט אַרויספֿירן צו דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">שחיטה</term> מיט אַ שװינדל. אויף דער דריטער װאָך האָבן
+				זײ געמאָלדן: די, װאָס װילן פֿאָרן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">אַרבעטן</term> אין
+					<placeName ref="http://www.geonames.org/696643/poltava.html">פּאָלטאַװע</placeName>, <placeName
+					ref="http://www.geonames.org/702723/lubny.html">לובני</placeName> און <placeName ref="http://www.geonames.org/695464/romny.html"
+					>ראָמני</placeName>, זאָלן אַרויסגײן פֿאַרויס. מיר האָט װי אַ נאָדל אַ שטאָך געטאָן אין האַרצן, און איך האָב זיך דערמאָנט אָן מײַן
+				בײזן חלום. עס האָבן זיך פֿאַרשריבן 800 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מאַן</term>.
+				איך האָב געזען, װי מע האָט זײ אַרײַנגעזעצט אין מאַשינעס, קײן זאַכן האָט מען ניט דערלויבט מיטנעמען. אין גיכן האָבן מיר דערהערט אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">שיסערײַ</term>. אויף מאָרגן האָט מען שוין ניט
+				געפֿרעגט, װער עס װיל פֿאָרן. מע האָט געכאַפּט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>פֿרויען</term>, אָפּגעריסן זײ פֿון די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>קינדער</term> און אַרײַנגעװאָרפֿן אין די מאַשינעס. די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">מאַנצבלען</term> האָט מען געטריבן צו פֿוס.</p>
+			<p>איך האָב צונויפֿגענומען דאָס לעצטע ביסל כּוחות און בין אַװעק אינעם שכנישן באַראַק. דאָס איז געװען אַ גיהנום: טויטע מענטשן, געשיר, פּוך
+				פֿון קישנס, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">קלײדער</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">פּראָדוקטן</term>, אַלץ איבערגעמישט. אין אײן װינקל איז
+				אויף אַ בעט געלעגן אַ טויטע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term> מיט אַן
+				אַראָפּגעלאָזענער האַנט, און אַ קלײן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term>
+				האָט געזויגן איר טויטע פֿינגער. אין דעם אַנדערן װינקל איז געלעגן אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+					type="subject">טויטער זקן</term>.</p>
+			<p>איך געדענק ניט, װי אַזוי איך בין דערלאָפֿן צו מײַן באַראַק. מיר האָט זיך דעמלט זײער געװאָלט לעבן. איך בין מקנא געװען אַ הונט, אַ קאַץ –
+				זײ האָבן געהאַט רעכט אויף לעבן, קײנער האָט זײ ניט פֿאַרפֿאָלגט, און איך, נאָר דערפֿאַר, װאָס איך בין אַ ייִדיש <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term>, דאַרף איך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">שטאַרבן</term>.</p>
+			<p>יעדן טאָג פֿלעגן מיר פֿון גאַנץ פֿרי אָן זיצן און װאַרטן אויפֿן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+					type="subject">טויט</term>. אײנמאָל האָבן מיר געהאַט אַ חײ־שעה. פֿון <placeName
+					ref="http://www.geonames.org/692703/staryy-saltiv.html">סאַלטאָװ</placeName> האָט זיך געהערט אַ האַרמאַטן־<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">שיסערײַ</term>. די פֿאַראורטײלטע האָבן געמײנט, אַז
+				דאָס גײט אונדזער מיליטער. זײ האָבן געזאָגט: <q>מע װעט אונדז ראַטעװען</q>, האָבן אַרומגענומען אײנער דעם צװײטן, געװײנט. װײַזט אויס, בײַ
+				מיר זײַנען שטאַרקע נערװן, אויב איך האָב עס אויסגעהאַלטן.</p>
+			<p>ענדלעך איז געקומען דער פֿאַרלעצטער טאָג. אין אָװנט האָט מען געבראַכט אַ יונגע מעוברתע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term> און מע האָט זי אַרײַנגעפֿירט צו אונדז אין
+				באַראַק. װען זי האָט זיך דערװוּסט, אַז <pb n="14" facs="EHRI-ET-SOV005_14.jpg"/> מאָרגן װעט מען זי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">הרגענען</term> צוזאַמען מיט אַלעמען, האָט זי
+				אָנגעהויבן גײן צו <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינד</term>. פֿון אירע געשרײען
+				האָב איך ניט געקאָנט אַנטשלאָפֿן װערן. יענע נאַכט האָב איך באַשלאָסן צו <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">אַנטלויפֿן</term>.</p>
+			<p>פֿאַרטאָג האָב איך זיך צוגעגרײט. כ'האָב אַרײַנגעלײגט אין קעשענע פֿון <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+					type="subject">מאַנטל</term> אַ לײַלעך אויף איבערצובינדן די װוּנד און זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">אַװעקגעלאָזט אין װעג</term>. אויף טריט און שריט זײַנען
+				געשטאַנען <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">געסטאַפּאָװצעס</orgName> מיט ביקסן. װאָס טוט מען,
+				װוּהין גײט מען? מע װעט דאָך סײַ װי <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">הרגענען…</term>
+				לאַנג טראַכטן איז קײן צײַט ניט געװען, עס איז טײַער געװען יעדע סעקונדע. גראָד אין דעם מאָמענט האָט אַן אָפֿיצער צוגערופֿן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">סאָלדאַטן</term> פֿאַנאַנדערצוקלײַבן די ייִדישע
+				זאַכן, װאָס זײַנען געלעגן אויף אַ מאַשין. איך האָב זיך געלײגט אויף דער ערד און צוגעפּויזעט צום יאַר. די <term type="subject"
+					ref="#ehri_et_nationalities_germans">דײַטשן</term> האָבן זיך אומגעקערט צוריק. איך בין אַרײַנגעקראָכן אין שנײ און האָב זיך צוגעדעקט
+				מיטן לײַלעך. אַזוי בין איך אָפּגעלעגן אויפֿן סמאַליענדיקן פֿערציק־גראַדיקן פֿראָסט ביז אינדערפֿרי. װי נאָר עס האָט אָנגעהויבן טאָגן,
+				האָב איך פּויזענדיק זיך דערקליבן ביז דער אַנדערער זײַט יאַר, מיט גרויס מי בין איך אַרומגעקראָכן. עס איז געװען אַן אומגעהײערער פֿראָסט,
+				און קײן פּאַטרולן זײַנען לעבן יאַר ניט געװען. מיט האַרץ־קלאַפּעניש בין איך געגאַנגען איבערן <placeName
+					ref="http://www.geonames.org/770155/jedrzejow.html">ייִשובֿ</placeName>. איך האָב מורא געהאַט פֿאַר יעדן בליק.</p>
+			<p>װוּהין גײט מען? מע װעט דאָך מיך מורא האָבן אַרײַנלאָזן, דערפֿאַר קומט <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">טויט</term>־שטראָף. מײַנע נאָענטסטע פֿרײַנט איז געװען
+				די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">משפּחה</term> פֿון <persName
+					ref="#ehri_et_redko_kyril_arsentyevitsh">קיריל אַרסענטיעװיטש רעדקאָ</persName>. ריסיקירנדיק מיטן לעבן, האָבן זײ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">אויסבאַהאַלטן</term> ייִדן. אויף זײ איז געװען אַ
+				מסירה, און זײ זײַנען שיִער ניט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אומגעקומען</term>.
+				איך האָב װעגן דעם געװוּסט און ניט געװאָלט זײ אונטערפֿירן.</p>
+			<p>װוּהין זשע גײט מען? ס'איז שוין באַלד נאַכט. פֿון <placeName ref="http://www.geonames.org/706483/kharkiv.html">שטאָט</placeName> װעל איך
+				ניט באַװײַזן אַרויסגײן. איך האָב געפֿונען אַ קלאָזעט, װאָס איז באַשטאַנען פֿון דרײַ אָפּטײלונגען. דאָרט בין איך אָפּגעזעסן דרײַ טעג
+				און פֿיר נעכט. שװער צו באַשרײַבן דעם שוידער. עס זײַנען געשטאַנען ביטערע פֿרעסט, דער װינט האָט דרוכגענומען אויף דורך און דורך. איך בין
+				געװען אַ צעקאַליעטע. כ'האָב ניט געהאַט קײן ביסן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>ברויט</term>, קײן טראָפּן װאַסער. יעדע מינוט האָט מען מיך געקאָנט געפֿינען. אויפֿן פֿערטן מעסלעס האָב איך אָנגעהויבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">פֿאַרפֿרוירן װערן</term>. פּלוצעם איז מיר געװאָרן
+				װאַרעם. איך הער, װי איך זאָג: "װאַסער! </p>
+			<p><pb n="15" facs="EHRI-ET-SOV005_15.jpg"/></p>
+			<p>אַ קאַפּל װאַסער!..." כ'װײס ניט, װי אַזוי איך האָב דערצויגן ביז אינדערפֿרי. איבער די כּוחות האָב איך זיך אויפֿגעהויבן פֿון דעם שמוציקן
+				דיל און בין אַרויסגעגאַנגען. איך בין אַװעק צו <persName ref="#ehri_et_redko_kyril_arsentyevitsh">קיריל אַרסענטיעװיטשן</persName>. אויף
+				טריט און שריט בין איך געפֿאַלן. גוט, װאָס זײ האָבן געװוינט נאָענט פֿון דעם אָרט, װוּ איך האָב זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">אויסגעבאַהאַלטן</term>. זײ האָבן מיך װאַרעם
+				אויפֿגענומען. איך בין בײַ זײ אָפּגעװען דרײַ טעג. בין אַ ביסל געקומען צו־זיך – דאָ האָב איך װידער דערפֿילט, אַז איך בין אַ מענטש מיט
+				מענטשן גלײַך. זײ האָבן מיר געגעבן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">פּראָדוקטן</term>
+				און מיט אַ צעבראָכן האַרץ זיך אָפּגעזעגנט מיט מיר.</p>
+			<p>די פֿיס האָבן מער ניט געװאָלט גײן. דאָס זײַנען געװען קלעצער. איך בין אַװעק אין דער ריכטונג צו <placeName
+					ref="http://www.geonames.org/702417/lyubotyn.html">ליובאָטין</placeName>. אַ שוידערלעכע זאַך גײן און ניט װיסן װוּהין. װער װעט מיך
+				אַרײַנלאָזן? װער דאַרף מיך האָבן?</p>
+			<p>מיט צרות האָב איך זיך דערקליבן ביז <placeName ref="http://www.geonames.org/544572/korotysh.html">קאָראָטיטש</placeName>. איך בין אַרײַן
+				אין עטלעכע כאַטעס, געבעטן, מע זאָל מיך לאָזן איבערנעכטיקן, נאָר מע האָט מיר אָפּגעזאָגט. איך האָב באַשלאָסן געפֿינען אַן אָרט, װוּ
+				קײנער װעט מיך ניט באַמערקן און דאָרט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">פֿאַרפֿרוירן
+					װערן</term>. פֿאַר דעם בין איך נאָכאַמאָל אַרײַן אין דער לעצטער כאַטע. עס האָט מיר אָפּגעגליקט, מע האָט מיך איבערגעלאָזן נעכטיקן.
+				אינדערפֿרי איז געװאָרן אַ גרויסע זאַװערוכע, און די בעל־הביתטע האָט רחמנות געהאַט און האָט מיך איבערגעלאָזן בײַ זיך. איך האָב געװוינט
+				בײַ זײ דרײַ װאָכן. אין כאַטע פֿלעגן אָפֿט אַרײַנקומען <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשן</term>. זײ
+				האָבן געזוכט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">פּאַרטיזאַנער</term>, נאָר על־פּי נס
+				האָבן זײ מיך ניט געפֿונען.</p>
+			<p>סוף־כּל־סוף האָב איך געמוזט אַװעקגײן אויך פֿון דאָרט. גײן האָב איך אָבער ניט געקאָנט. מײַנע פֿיס זײַנען פֿאַרװאַנדלט געװאָרן אין אַ
+				שװאַרצע, אײטערנדיקע מאַסע. אײדער איך בין אַװעקגעגאַנגען, האָט מיר דער בעל־הביתטעס <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװיגער</term> געזאָגט: <q>װאַרט צו</q>. זי האָט מיך
+				אַװעקגעפֿירט צום <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">דאָקטאָר</term> אין דער
+				כאַטע־לאַבאָראַטאָריע. ער האָט מיך באַטראַכט און געזאָגט: <q>אײַערע פֿיס זײַנען פֿאַרפֿאַלן</q>. דאָס איז געװען פֿאַר מיר אַ צװײטער
+				טויט־אורטײל. װאָס זאָל איך טאָן אין מײַן לאַגע אָן פֿיס?</p>
+			<p>איך װיל דערצײלן װעגן דעם <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">דאָקטאָר</term>. צום
+				באַדויערן, װײס איך ניט זײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">פֿאַמיליע</term>,
+				גערופֿן האָט מען אים פּעטראָ. ער האָט מיך אָפּגעשיקט אין <placeName ref="http://www.geonames.org/702417/lyubotyn.html"
+					>ליובאָטינער</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">שפּיטאָל</term>, פֿלעגט קומען <pb n="16"
+					facs="EHRI-ET-SOV005_16.jpg"/> מיר מאַכן קאָמפּרעסן. דאָס איז געװען אַ װוּנדערבאַרער <term type="subject"
+					ref="#ehri_et_nationalities_soviets">סאָװעטישער</term> מענטש. ער האָט זיך אָנגעשטויסן, װער איך בין. װען די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">שװעסטער</term> האָט, פֿאַרשרײַבנדיק מײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">פֿאַמיליע</term>, אים עפּעס אַ שעפּטשע געטאָן, האָט ער
+				געענטפֿערט: <q>צו אונדז האָט עס קײן שײַכות ניט. אונדזער זאַך איז העלפֿן דער דאָזיקער <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term></q>.</p>
+			<p>און אָט ליג איך אין דעם <placeName ref="http://www.geonames.org/702417/lyubotyn.html">ליובאָטינער</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">שפּיטאָל</term>. פֿאַר מיר איז עס געװען אַ גן־עדן.
+				איך בין געלעגן אויף אַ װײכער בעט, קײנער האָט מיך ניט געטריבן. צװײ מאָל אַ טאָג האָט מען מיר געגעבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term>. דאָס איז אַפֿילו געװען אַ ביסל שיטערוכע,
+				נאָר כאָטש אַ װאַרעמע. אַזוי בין איך אָפּגעלעגן זעקס חדשים – פֿון 7 פֿעברואַר 1942 יאָר ביז 2 יולי 1942 יאָר. מיר האָט אָפּגעגליקט:
+				װען מע האָט מיך צוגענומען אין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">שפּיטאָל</term>, האָט
+				מען ניט אַ קוק געטאָן אויף מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">פּאַס</term>. און
+				דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">פּאַס</term> איז די גאַנצע צײַט געװען מיט מיר.
+				איך האָב אים <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term> צװישן די
+				מאַטראַצן.</p>
+			<p>עס װערט מיר שרעקלעך, װען איך דערמאָן זיך, װי אַזוי מע האָט מיר אַמפּוטירט די פֿינגער אויף בײדע פֿיס. דערנאָך געזעגן די אינערלעכע בײנער.
+				בײַ אַ חודש איז בײַ מיר געװען היץ – 40 גראַד. איך האָב געקאָנט ליגן נאָר אויף דער פּלײצע. איך פֿלעג ניט קאָנען שלאָפֿן פֿאַר װײטעק.
+				איך האָב געװאָלט נאָר אײנס – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">שטאַרבן</term> אין
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">שפּיטאָל</term>. אָט װעט מען מיך אויסשרײַבן –
+				װוּהין װעל איך גײן? איך בין מקנא געװען יעדער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject"
+					>שטאַרבנדיקער</term>. דעמלט האָב איך פֿאַרשטאַנען, װאָס פֿאַר אַ גליק דאָס איז <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">שטאַרבן</term> מיט אַ נאַטירלעכן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">טויט</term>.</p>
+			<p>װען מען פֿלעגט ברענגען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנקע</term> פֿון <placeName
+					ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName>, פֿלעג איך זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term> מיטן קאָפּ אונטער דער קאָלדרע און
+				פֿלעג פֿון דאָרט אַרויסקוקן מיט אײן אויג – טאָמער דערזע איך אַ באַקאַנט פּנים? דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">פּערסאָנאַל</term> האָט זיך צו מיר באַצויגן
+				אויסגעצײכנט, געהאָלפֿן, מיט װאָס אײנער האָט געקאָנט. דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286"
+					type="subject">כירורג</term> האָט אויך אַרויסגעװיזן פֿיל אויפֿמערקזאַמקײַט. און דער עיקר – אין דעם <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">שפּיטאָל</term> האָב איך געפֿונען מײַן רעטונג. אײנמאָל
+				האָט מען געבראַכט פֿון <placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName> אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנקע</term>. זי איז געװען שװער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">קראַנק</term> און איז אין גיכן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">געשטאָרבן</term>. זי איז אַלט געװען 38 יאָר. מיר האָט
+				די גאַנצע צײַט געעקבערט אײן געדאַנק – איר <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+					>פּאַס</term> װאָלט מיך געקאָנט ראַטעװען. איך האָב באַקומען דעם דאָזיקן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">פּאַס</term>.</p>
+			<p><pb n="17" facs="EHRI-ET-SOV005_17.jpg"/> װען איך בין אַרויס פֿון <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282"
+					type="subject">שפּיטאָל</term>, האָב איך אָפּגעװוינט צװײ װאָכן בײַ אײנער אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">שפּיטאָל</term>־<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">שװעסטער</term>. דערנאָך האָב איך זיך געלאָזט אין װעג.
+				איך האָב באַשלאָסן פּרוּװן געפֿינען מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>שװעסטער</term>. איך האָב זיך אָנגעשטויסן, װוּהין זי האָט געקאָנט אַװעקפֿאָרן. דער װעג איז אָבער געװען ניט קײן לײַכטער. די װוּנדן
+				אויף די פֿיס האָבן זיך נאָך ניט פֿאַרהײלט, און גײן האָב איך געמוזט צו פֿוס, דערצו נאָך אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">הונגעריקע</term>. װען איך בין דערגאַנגען ביז <persName
+					ref="#ehri_et_mertshik">מערטשיק</persName>, האָב איך דערפֿילט, אַז װײַטער גײן קאָן איך ניט – כ'בין צו אָפּגעשװאַכט. איך האָב זיך
+				געװאָלט זעצן אין אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">צוג</term>, נאָר אַ <term
+					type="subject" ref="#ehri_et_nationalities_germans">דײַטש</term> האָט בײַ מיר געפֿרעגט, צי איז בײַ מיר פֿאַראַן אַ דורכלאָז־שײַן.
+				ער האָט מיך אַרויסגעװאָרפֿן פֿון װאַגאָן. אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject"
+					>פּאָליצײַ</term> האָט מיר אַן עצה געגעבן גײן נאָך אַ דורכלאָז־שײַן צום קאָמענדאַנט. עס האָט זיך אָבער אַרויסגעװיזן, אַז דער
+				קאָמענדאַנט איז אַ װילדע חיה, ניט קײן מענטש. ער האָט מיך אַפֿילו ניט אַויסגעהערט און גענומען שרײַען: <q>צום טײַװל! אַרויס
+					פֿונדאַנען</q>.</p>
+			<p>איך בין אָפּגעזעסן אויף דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">סטאַנציע</term> ביז אין
+				אָװנט. דערנאָך בין איך אַװעק אין דעם הויז, װוּ עס װוינען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940"
+					type="subject">אײַזנבאַן</term>־אַרבעטער. דאָרט האָב איך באַגעגנט אַ גוטהאַרציקע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term>. זי האָט מיך אָנגעקאָרמעט און
+				איבערגעלאָזן ביז אינדערפֿרי. זי האָט מיר אויך געהאָלפֿן צו באַקומען אַ דורכלאָז־שײַן.</p>
+			<p>איך האָב זיך ניט געקאָנט פֿאָרשטעלן דאָס גליק – ניט שוין זשע װעל איך טאַקע אין גיכן זען מײַן אײנציקע, מײַן טײַערע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטער</term>? און אפֿשר האָבן זי די דאָזיקע חיות
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">דערהרגעט</term>? דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">צוג</term> איז געגאַנגען פֿון <placeName
+					ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName>. איך האָב זיך <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">באַהאַלטן</term> אין אַ װינקל, אַז קײנער זאָל מיך ניט
+				דערזען. צװײ אַ זײגער בין איך געקומען צו פֿאָרן אינעם שטעטל <placeName ref="http://www.geonames.org/11012866/smorodyne.html"
+					>סמאָראָדינאָ</placeName>. איך בין געגאַנגען איבער דער גאַס און פּלוצעם האָב איך פֿאַרשטאַנען, אַז איך װעל די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטער</term> ניט געפֿינען – איך קאָן דאָך ניט
+				נאָכפֿרעגן זיך אויף איר, דאָס װעט אַרויסרופֿן אַ חשד.</p>
+			<p>אײנע אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term> האָט דערזען מײַן פֿאַרלוירנקײַט.
+				זי האָט געפֿרעגט: <q>װאָס איז מיט אײַך?</q> איך האָב געענטפֿערט, אַז איך בין מיד און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">הונגעריק</term>. זי האָט מיך געבראַכט צו פֿירן צו זיך
+				אַהײם. מע האָט פֿאַר מיר אַװעקגעשטעלט <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">עסן</term>,
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ברויט</term>. איך האָב זיך אויף דעם
+				אַרויפֿגעװאָרפֿן. ס'האָט מיר אַזש פֿאַר חרפּה דאָס פּנים געברענט. איך האָב געזאָגט: <q>אַנטשולדיקט מיך. איך װעל אײן מאָל אָפּעסן, און
+					מער ניט</q>. איך האָב דאָרט געװוינט <pb n="18" facs="EHRI-ET-SOV005_18.jpg"/>אָנדערהאַלבן חדשים, געקאָכט, געראַמט. די דאָזיקע
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פֿרוי</term> האָט געשפּילט אַ גרויסע ראָלע אין
+				מײַן לעבן. עס האָט זיך אַרויסגעװיזן, אַז זי איז באַקאַנט מיט מײַן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">שװעסטער</term>.</p>
+			<p>װי אַזוי זאָל איך איבערגעבן אונדזער באַגעגעניש? מיר האָט זיך געװאָלט װאַרפֿן זיך צו דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שװעסטער</term>, האַלדזן זי, קושן – איך האָב דאָך
+				געהאַלטן, אַז זי איז <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">אומגעקומען</term>, און זי – אַז
+				איך בין שוין לאַנג ניטאָ. נאָר דער שמועס איז געװען אַ קאַלטער. מיר האָבן געמאַכט דעם אָנשטעל, אַז מיר זײַנען קוים באַקאַנט. מע האָט
+				געדאַרפֿט האָבן אַן אײַזערן געדולד אויסצוהאַלטן דאָס.</p>
+			<p>אַ יאָר מיט דרײַ חדשים האָב איך אָפּגעװוינט אין <placeName ref="http://www.geonames.org/11012866/smorodyne.html"
+					>סמאָראָדינאָ</placeName>. געװען אי אַ קעכן, אי אַ ניאַנקע, אי אַ בעטלערן, אויפֿגעהאַלטן זיך אין פֿאַרשײדענע װינקלען.</p>
+			<p>איך האָב געזען, װי די <term type="subject" ref="#ehri_et_nationalities_germans">דײַטשישע באַרבאַרן</term> רעכענען זיך אָפּ מיט דער
+				יוגנט. גלײַך נאָכן באַטראַכטן זײ, פֿלעגט מען זײ פֿאַרשפּאַרן אין אַ באַזונדערער <placeName
+					ref="http://www.geonames.org/11012866/smorodyne.html">געבײַדע</placeName>, מע פֿלעגט ניט לאָזן אַפֿילו זיך געזעגענען מיט דער <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">משפּחה</term>. די קרובֿים פֿלעגן נאָכלויפֿן, און די
+				באַנדיטן פֿלעגן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">שיסן</term> אין זײ. עס זײַנען געװען
+				אַ סך פֿאַלן, װען די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">יוגנטלעכע</term> פֿלעגן זיך
+				קאַליעטשען אָדער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">באַגײן זעלבסטמאָרד</term>, אַבי ניט
+				פֿאָרן קײן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">דײַטשלאַנד</term>. אַ שרעקלעך בילד
+				פֿלעגט זײַן, װען עס פֿלעגן אַװעקגײן די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">צוגן</term>.
+				דער <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">װאָקזאַל</term> האָט געציטערט פֿון געװײן. די
+				אומגליקלעכע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">קינדער</term> האָבן געשריִען: <q>װוּהין
+					פֿירט איר אונדז, <term type="subject" ref="#ehri_et_nationalities_germans">מערדער</term>?</q> די קרובֿים פֿלעגט מען צו די
+				װאַגאָנעס ניט צולאָזן.</p>
+			<p>דער פֿראָנט האָט זיך דערנעענטערט. צװײ װאָכן זײַנען מיר אָפּגעזעסן אין אַ קעלער. אין אונדזער הויז האָבן געטראָפֿן צװײ סנאַריאַדן. ענדלעך
+				זײַנען אין <placeName ref="http://www.geonames.org/11012866/smorodyne.html">סמאָראָדינאָ</placeName> אַרײַן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">אונדזערע</term>. איך בין געװען אַזוי גליקלעך!
+				אונדזערע!</p>
+			<p>װידער בין איך אין דער הײם – אין <placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName>. איך קאָן פֿרײַ
+				אַרומגײן איבער די גאַסן, קוקן אַלעמען אין די אויגן… מיר דאַכט זיך, אַז נאָך דעם אַלעמען, װאָס איך האָב איבערגעלעבט, האָב איך נאָך מער
+				ליב באַקומען אונזער הײמלאַנד. דאָס איז אַ לאַנד, װוּ יעדער מענטש האָט רעכט אויף לעבן.</p>
+			<p><persName ref="#ehri_et_sokol_maria_markovna">מאַריאַ מאַרקאָװנאַ סאָקאָל</persName>.</p>
+			<p><placeName ref="http://www.geonames.org/706483/kharkiv.html">כאַרקאָװ</placeName>, נאָװעמבער 1943 יאָר.</p>
+		</body>
+	</text>
+</TEI>

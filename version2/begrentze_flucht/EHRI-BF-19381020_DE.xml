@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19381020_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Zentrale Erfassung aller aus dem Sudetengebiet in die ČSR geflohenen Personen</title>
+				<title xml:lang="en">Central registration of all people who fled from the Sudeten region to the Czech Republic</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/at-001965">Niederösterreichisches Landesarchiv</repository>
+						<collection>Bezirkshauptmannschaft BH-Waidhofen/T. 1938</collection>
+						<idno>Karton 56</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Niederösterreichisches Landesarchiv, BH-Waidhofen/T. 1938, Karton 56, B. Nr. G 50/38. <textLang mainLang="de">Original auf
+						Deutsch.</textLang></bibl>
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-10-20">20. Oktober 1938</date>
+				<placeName>Znaim (Znojmo)</placeName>
+				<orgName>Gestapo - Einsatzkommando Mistelbach</orgName>
+				<idno>EHRI-BF-19381020</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="vertreibungspolitik"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<p><pb facs="EHRI-BF-19381020_01.jpg" n="1"/>Geheim <note>Stempel</note></p>
+				<p><!--<orgName ref="https://portal.ehri-project.eu/authorities/ehri-cb-350">Geheime
+          Staatspolizei</orgName></p>
+      <p>Einsatzkommando <placeName ref="#mistelbach"
+          >Mistelbach</placeName>
+      </p>
+      <p>B. Nr. G 50/38 </p>
+      <p><placeName ref="#znojmo">Znaim</placeName>, den <date
+          when="1938-10-20">20.10.1938</date>--></p>
+				<p>EILT.</p>
+				<p>An den</p>
+				<p>Bezirkshauptmann in <placeName ref="#waidhofen-an-der-thaya">Waidhofen</placeName> o.V.i.A. <note place="bottom">oder Vertreter im
+						Amt</note></p>
+				<p><placeName ref="#waidhofen-an-der-thaya">Waidhofen</placeName> /<placeName ref="#slavonice">Zlabings</placeName>/.</p>
+				<p>Betr.: Zentrale Erfassung aller Personen, die aus dem besetzten Gebiet auf <placeName ref="#czechoslovakia">tschechoslowakisches
+						Staatsgebiet</placeName> geflohen sind.</p>
+				<p>Zur zentralen Erfassung sämtlicher Personen, die aus dem besetzten Gebiet auf <placeName ref="#czechoslovakia">tschechoslowakisches
+						Staatsgebiet</placeName> geflüchtet sind, ersuche ich um umgehende Feststellung <del rend="strikethrough">durch die
+						zuständigen Bürgermeister oder sonstigen Meldebehörden und um Mitteilung dieser Personen</del> [Personen und Bericht in
+					dreifacher Ausfertigung] <note place="bottom">handschriftliche Notiz</note> unter Angabe der Personalien, Volks- und <term
+						ref="#t1147" type="subject">Staatszugehörigkeit</term> und ihres letzten ordentlichen Wohnsitzes.</p>
+				<p>Die Erfassung der Personen hat sich jedoch nur auf <term ref="#t304" type="subject">Flüchtlinge</term> zu beschränken, die sich auf
+						<placeName ref="#czechoslovakia">tschechisches Staatsgebiet</placeName> begeben haben.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

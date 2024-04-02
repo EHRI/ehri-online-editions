@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB0884_HU">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>B. K., female, on her arrest in Budapest and deportation to Auschwitz-Birkenau in 1944 as well as her experiences in
+					Sachsenhausen and Ravensbrück</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 884. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kistarcsa</placeName>
+						<location>
+							<geo>47.54757 19.26247</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3050290/kistarcsa.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Kistarcsa"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Schönholz</placeName>
+						<location>
+							<geo>52.78008 13.75986</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2836554/schoenholz.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ravensbrück concentration camp</placeName>
+						<location>
+							<geo>53.189875 13.168809</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-760"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sachsenhausen concentration camp</placeName>
+						<location>
+							<geo>52.7662 13.2624</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-803"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Reinickendorf</placeName>
+						<location>
+							<geo>52.56667 13.33333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2848756/reinickendorf.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Reinickendorf_%28locality%29"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Neustrelitz</placeName>
+						<location>
+							<geo>53.3613 13.07292</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2864005/neustrelitz.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Neustrelitz"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Interrogations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-634"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish measures</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-337"/>
+						</linkGrp><note><p>Anti-Jewish acts performed with or without appropriate legislation.</p></note></item>
+					<item><name>Health</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-791"/>
+						</linkGrp></item>
+					<item><name>Internment camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-504"/>
+						</linkGrp></item>
+					<item><name>Jewish physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Gas chambers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-499"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Arbeitskommando</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-489"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Crematoria</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-501"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+				</list>
+				<listPerson>
+					<person>
+						<persName>Mengele, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000272"/>
+						</linkGrp>
+						<note><p>16/03/1911 - 07/02/1979</p><p>Nazi chief doctor at Auschwitz. Participated in selections and organised medical
+								experiments on prisoners. Escaped to Argentina, Paraguay and Brazil after the war.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-07-20">20. 7. 1945</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0"
+					>Auschwitz</placeName>, <placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri-camps-2">Birkenau</placeName>,
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Rökk Szilárd Street</placeName>, <placeName
+					ref="http://www.geonames.org/3050290/kistarcsa.html">Kistarcsa</placeName>, <placeName
+					ref="http://www.geonames.org/2836554/schoenholz.html">Schönholz</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-760">Ravensbrück</placeName>, <idno>EHRI-ET-DEGOB0884</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of 32-year-old Dr. B. K. on her arrest and interrogation by the State Security Surveillance in Budapest, her detention in
+					the Rökk Szilárd Street police detention house and the Kistarcsa internment camp, deportation to Birkenau, her experiences as camp
+					doctor in Lager C, witnessing selections by Josef Mengele, forced labor in an Außenkommando near Auschwitz and in Schönholz near
+					Berlin, her delivery to the infirmary in Ravensbrück, and her escape from a foot march and liberation by the Soviet Army.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-DEGOB0884_01.jpg"/></p>
+			<p>Fentnevezett előadja a következőket:</p>
+			<p><date when="1944-05-10">1944.05.10</date>-én detektív jelent meg a lakásomon, aki felszólított, hogy menjek ki a <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Svábhegy</placeName>re tanúvallomást tenni egy ügyben. Persze mosolyogva
+				nyugtatott meg az illető detektív, hogy semmi az egész még aznap otthon leszek. Két napig nem került sor <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">kihallgatás</term>ra. Mikor aztán sor került a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">kihallgatás</term>omra, megkérdezték, hogy
+				részvettem-e egy bizonyos kiránduláson? Ekkor tudtam meg, hogy a társaság egy pár tagját, akikkel tényleg kirándulni voltam, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">letartóztatták</term> és a szálak hozzám is
+				elvezettek. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">kihallgatás</term> után azzal, hogy
+				most hazavisznek.... Elvittek a <placeName ref="http://www.geonames.org/3054643/budapest.html">Rökk Szilárd</placeName> utcába. Haza
+				persze már nem kerültem, egy álló hónapig voltam a <placeName ref="http://www.geonames.org/3054643/budapest.html">Rökk
+					Szilárd</placeName> Utcában fogoly. Innen <date when="1944-06-12">június 12</date>.-e körül a <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Szabolcs utca</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">beteg</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-504" type="subject">tábor</term>ba vittek, ahol, mint <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvos</term> működhettem. Ezt a beteg-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-504" type="subject">tábort</term> nemsokára ezután kiürítették és engem
+				újból visszavittek a <placeName ref="http://www.geonames.org/3054643/budapest.html">Rökk Szilárd</placeName> utcába. Másnap a
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Keleti</placeName> pályaudvaron vagonba raktak, <placeName
+					ref="http://www.geonames.org/3050290/kistarcsa.html">Kistarcsán</placeName> kötöttem ki, ahonnan aztán három nap múlva <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Auschwitz</placeName>ba vittek. <date when="1944-07-17"
+					>1944.07.17</date>-én érkeztem <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp"
+					>Auschwitz</placeName>ba. Már az állomáson <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject"
+					>szortírozták</term> az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">emberek</term>et. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Férfiak</term>at, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">nők</term>et <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">külön</term>. Időseket, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">gyerekek</term>et <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">elválasztották</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">férfiak</term>tól. A fürdőben, amely egy óriási
+				épület, teljesen meztelenre kellett levetkőzni. Csak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>cipő</term>t és szemüveget volt szabad megtartani. Hajunkat leborotválták, úgyszintén minden szőrzetet. Órák hosszat ácsorogtunk
+				meztelenül, amíg keresztülestünk a fürdőn és fertőtlenítésen. Elszedett <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">ruhánk</term> helyett rongyokat kaptunk. Még csak azt
+				sem nézték, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">kinek</term> milyen nagyságú <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">ruha</term> felel meg. Vékony kis <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">alakok</term>ra bokáig érő bő <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">ruhák</term>at adtak és fordítva. Volt olyan , aki
+				flitteres <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">estélyi ruhában</term> pompázhatott....
+				Szappan, fogkefe, törülköző ? Hát minek az? A<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp"
+					>C-láger</placeName>be kerültem, amely a <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp"
+					>transzport láger</placeName> volt. Két és fél hónapig <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">dolgoztam</term> itt, mint <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject"
+					>orvos</term>, úgy, hogy a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">koszt</term>om
+				valamivel jobb volt, mintha csak egyszerű "kója-lakó" lettem volna. Ez magában véve már óriási dolog volt, hogy nem tizenketted, vagy
+				tizenharmad, de esetleg tizennegyed magammal kellett egy kb. 5 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207"
+					type="subject">személy</term> részére készült priccsen, a kóján <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831"
+					type="subject">feküdnöm</term>. A <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">C!
+					lágerben</placeName> sok, nagyon sok <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject"
+					>szelekció</term>t volt alkalmam látni. <pb n="2" facs="EHRI-ET-DEGOB0884_02.jpg"/> Rettenetes nehéz volt <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Auschwitz</placeName>ba <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvos</term>nak lenni. Nem a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Revier</term>en <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">dolgoztam</term>, hanem a Blokk-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvos</term> voltam. Milyen nehéz volt rejtegetni
+				például a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">fertőző betegek</term>et. Ha két testvér
+				közül az egyiket be kellett már végképp <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject"
+					>Revier</term>re vinni, ez azt is jelenthette, hogy a két testvér soha többé nem látja egymást. Főleg <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">egymáshoz tartozókat</term> szeretett az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. elszakítani egymástól. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000272">Dr. Mengelét</persName> nem egyszer láttam a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Revier</term>en. Naponként tartott a kontroll,
+				ellátja-e rendesen a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">betegek</term>et, kapnak-e
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">enni</term>. Másnap megtörténhetett, hogy
+				ugyanazt a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">beteget</term> akinek testi jóléte iránt
+				előtte való nap a legaggodalmasabban érdeklődött, egy intéssel a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499"
+					type="subject">gáz</term>ba <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">küldte</term>,
+				fütyörészgetve. Ilyenkor borzalmasabb volt, mint olyan alakmakkal, ha durván belerúgott valakibe, vagy a pisztolyát rántotta elő. A
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">revier</term>en dolgozó <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvosnők</term> mesélték, hogy egy alkalommal
+				sikerült egy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">beteg</term> fiatal <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">lány</term>nak <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">öngyilkosság</term>ot elkövetnie. Talán húsz éves sem
+				volt a szegény szerencsétlen. Amikor ezt <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000272"
+					>Mengelével</persName> közölték, akinek természetesen mindennap kellett jelenteni a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">betegek</term> létszámát, az megütközött, csodálkozó
+				arcot vágott és azt mondta: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">Selbstmord</term>? Warun
+				denn.... So jung....Két hónap után a <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">C!
+					Láger</placeName>ből az <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">F.K.L.-be
+					/A-Lager/</placeName> kerültem, mint verfügbar. Hét hétig <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">dolgoztam</term> aztán <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">külső
+					munkán</term>. Egy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">munkás</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transzport</term> indult <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-803" type="camp">Saxenhausen</placeName>ba, ahhoz osztottak be engem, mint
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvos</term>t.<placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-803" type="camp">Saxenhausen</placeName>ba mindössze csak egy napot
+				voltam, tovább mentünk <placeName ref="http://www.geonames.org/2848756/reinickendorf.html">Berlin-Reinickensdorf</placeName>ba,
+				illetve innen egy kis <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">arbeitskommandó</term>val a
+				közelben levő <placeName ref="http://www.geonames.org/2836554/schoenholz.html">Schönholz</placeName>ba. Két és fél hónapig voltam
+				ennek a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transzport</term>nak az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvos</term>a. <date when="1945-02-17"
+					>1945.02.17</date>-én , mint <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject"
+					>beteg</term><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-760" type="camp">Ravensbrück</placeName>be
+				kerültem. Itt is nagyon sok <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">szelekció</term>t
+				láttam. Sajnos, akkor már itt is volt <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">gáz</term>.
+				Ugyanis amikor <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Auschwitz</placeName> megszűnt
+				létezni, mint olyan az ottani <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematórium</term>
+				vezetője és szakértője <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-760" type="camp">Ravensbrück</placeName>be
+				jött, hogy ott vezesse be a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">gáz</term>rendszert. Úgy
+				tudom, hogy <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-760" type="camp">Ravensbrück</placeName> azelőtt
+				méreggel dolgozott. <date when="1945-04-29">1945.04.29</date>-én a közeledő <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">oroszok</orgName> elöl 2 napig hajtottak, kergettek bennünket.
+				Nekem Sikerült <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">megszöknöm</term> az úton, egy
+				redőben <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">rejtőzködtem</term> el, ahol aztán
+				megtaláltak a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">felszabadító orosz csapatok</term>.
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">Szabadulás</term>om után még egy ideig, mint
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">orvos</term> dolgoztam <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">korház</term>ban <placeName
+					ref="http://www.geonames.org/2864005/neustrelitz.html">Neustrelitz</placeName>ben. Mint érdekességet említeném meg, hogy a Berlin
+					<placeName ref="http://www.geonames.org/2848756/reinickendorf.html">Reinickensdorf</placeName>i <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Arbeitkommandó</term>nál, csak bizonyos százaléknak
+				volt szabad <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">beteg</term>nek lennie. Állandóan
+				hangoztatták, hogy hát miért <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">beteg</term>ednek meg
+				olyan tömegesen a zsidók, hiszen a <term ref="#ehri_et_nationalities_germans">németek</term> is csak olyan keveset <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">esznek</term>.</p>
+		</body>
+	</text>
+</TEI>

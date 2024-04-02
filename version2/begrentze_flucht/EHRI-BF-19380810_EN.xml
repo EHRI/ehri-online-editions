@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19380810_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Herbert Samuel an Marie Schmolka über die Auswanderung einer Gruppe burgenländischer Jüdinnen und Juden</title>
+				<title xml:lang="en">Herbert Samuel to Marie Schmolka about the emigration of a group of Jews from Burgenland</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">Vereinigtes Königreich</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_608">Council for German Jewry: correspondence
+							(microfilm)</collection>
+						<idno>Coll. 608, folder 2</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Council for German Jewry: correspondence, Sign. Coll. 608,
+					folder 2. <textLang mainLang="en">Original auf Englisch</textLang></bibl>
+
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-08-10">10. August 1938</date>
+				<placeName>London</placeName>
+				<orgName>Council for German Jewry</orgName>
+				<persName ref="#ehri_bf_samuel_herbert_louis">Samuel, Herbert Louis</persName>
+				<idno>EHRI-BF-19380810</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Hilfsorganisationen</term>
+				</keywords>
+				<catRef target="Hilfsorganisationen und Interventionen"/>
+			</textClass>
+			<langUsage>
+				<language ident="en">Englisch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<p><!--<date when="1938-08-10">10th August, 1938</date>.--></p>
+				<p>Dear Mrs. <persName ref="#ehri_bf_schmolka_marie">Schmolka</persName>,</p>
+				<p>I have received your letter of <date when="1938-08-02">August 2nd</date>, written on behalf of the <orgName ref="#g395"
+						>Hicem</orgName> of <placeName ref="#prague">Prague</placeName>, and relating to the tragic position of the <term ref="#t864"
+						type="subject">Jews</term> from the <placeName ref="#burgenland">Burgenland</placeName> on board of the <q>Laortis</q>. The
+					Committee of the <orgName ref="#g449">Council for German Jewry</orgName> carefully considered the matter, but could not accept the
+					proposal made to them that they should contribute £4,000 for the rescue of four <term ref="#t819" type="subject">families</term>.
+					This is far in excess of any grant that has been previously made, and we felt that we should not be justified, in view of the many
+					other claims that we must endeavour to meet, to expend so large a sum for the benefit of such a small number of persons. I much
+					regret that I do not feel able to ask the Committee to reconsider this decision.</p>
+				<p>Yourse sincerely,</p>
+				<p><persName ref="#ehri_bf_samuel_herbert_louis">SAMUEL.</persName></p>
+			</div>
+		</body>
+	</text>
+</TEI>

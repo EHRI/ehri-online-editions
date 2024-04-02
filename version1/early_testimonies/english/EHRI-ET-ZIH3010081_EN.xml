@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-ZIH3010081_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ela Wowsi, the experiences of the Latvian Jewess in the camps in Riga, Stutthof and Torun</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michał Czajka</persName>
+				</author>
+				<author>
+					<persName>Marta Wojas</persName>
+				</author>
+				<author>
+					<persName>Dagmara Chełstowska</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</repository>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll.
+							301)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Historical Institute in Warsaw, Holocaust Survivor Testimonies (coll. 301), Lila Wowsi Testimony (301/81). <textLang
+						mainLang="pl">Original in Polish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Daugavpils</placeName>
+						<location>
+							<geo>55.88139 26.53889</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/460414/daugavpils.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Daugavpils"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga</placeName>
+						<location>
+							<geo>56.946 24.10589</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/456172/riga.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Riga"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Toruń</placeName>
+						<location>
+							<geo>53.01449 18.60145</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7530813/torun.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Toru%C5%84_County"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Stutthof concentration camp</placeName>
+						<location>
+							<geo>54.3268 19.1691</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-857"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Latvia</placeName>
+						<location>
+							<geo>57 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/458258/republic-of-latvia.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Latvia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga concentration camp</placeName>
+						<location>
+							<geo>56.946527 24.104861</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2055"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Czech Republic</placeName>
+						<location>
+							<geo>49.75 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3077311/czechia.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Czech_Republic"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gdańsk</placeName>
+						<location>
+							<geo>54.36112 18.68976</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7531002/gdansk.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Gda%C5%84sk"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bydgoszcz</placeName>
+						<location>
+							<geo>53.12973 18.0383</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7530814/bydgoszcz.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lublin</placeName>
+						<location>
+							<geo>51.21819 22.56391</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7530970/lublin.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lublin_County"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Mass murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-540"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Jewish physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Release from prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-651"/>
+						</linkGrp></item>
+					<item><name>Camp life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-486"/>
+						</linkGrp></item>
+					<item><name>Sanitation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-295"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Ghetto liquidation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-551"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Crematoria</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-501"/>
+						</linkGrp></item>
+					<item><name>Prisoners</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-650"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Wachmaenner (Camp guards)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-480"/>
+						</linkGrp></item>
+					<item><name>Workshops</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-549"/>
+						</linkGrp><note><p>Workshops in Ghettos</p></note></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Death marches</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-517"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Health</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-791"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_wowsi_lila">
+						<persName>Wowsi, Lila</persName>
+						<note><p>Born 1898 in Subata, Latvia.</p></note>
+					</person>
+					<person xml:id="ehri_et_lewin_blanka">
+						<persName>Lewin, Blanka (recorded the testimony)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>AEG</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-005054"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945">1945</date>, <persName ref="#ehri_et_wowsi_lila">Lila Wowsi</persName>, <persName ref="#ehri_et_lewin_blanka"
+					>Blanka Lewin</persName>, <placeName ref="http://www.geonames.org/460414/daugavpils.html">Daugavpils</placeName>, <placeName
+					type="camp" ref="http://www.geonames.org/456172/riga.html">Riga</placeName>, <placeName
+					ref="http://www.geonames.org/7532549/torun.html">Toruń</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-857">Stutthof</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545">ghettos</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541">executions</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508">labour camps</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540">mass murders</term>
+				<idno>EHRI-ET-ZIH3010081</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Ela Wowsi regarding the establishment of the Daugavpils Ghetto in July 1941, the liquidation actions in 1942, the mass
+					executions during the final liquidation of the ghetto, and her imprisonment in the German concentration camps in Toruń and
+					Stutthof.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><persName ref="#ehri_et_wowsi_lila">Ela Wowsi</persName> Testimony (doc. 301/81)</p>
+
+			<p>Original, manuscript, 4 pages, 210 x 295 mm, Polish language <pb n="1" facs="EHRI-ET-ZIH3010081_01.jpg"/></p>
+
+			<p>The experiences of a Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> from
+					<placeName ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvia</placeName> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camps</term> in <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-857" type="camp">Stutthof</placeName> and <placeName
+					ref="http://www.geonames.org/7532549/torun.html">Toruń</placeName></p>
+
+			<p><persName ref="#ehri_et_wowsi_lila">Ela Wowsi</persName>, born in <date when="1898">1898</date> in Subala in <placeName
+					ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvia</placeName>, lived in <placeName
+					ref="http://www.geonames.org/460414/daugavpils.html">Dyneburg</placeName>, pharmacist.</p>
+
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> entered <placeName
+					ref="http://www.geonames.org/460414/daugavpils.html">Dyneburg</placeName> on <date when="1941-06-26">June 26, 1941</date>. On
+					<date when="1941-06-29">June 29</date>, they already announced that all <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> were to be taken. (The Jewish population in
+					<placeName ref="http://www.geonames.org/460414/daugavpils.html">Dyneburg</placeName> was from 10,000-14,000.) Those who were
+				assembled were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">liquidated</term> over the course of 2 weeks. This is
+				how the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> began their <q><foreign
+						xml:lang="de">Schreckensherrschaft</foreign></q>. <note type="gloss">Schreckensherrschaft (German) – reign of terror</note>.
+				Only <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">doctors</term> and pharmacists were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-651" type="subject">released</term>. The rest, about 6,000, were moved on
+					<date when="1941-07-26">July 26</date> to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>ghetto</term> outside of town. They lived in former artillery <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">barracks</term> in stables in terribly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-295"
+					type="subject">sanitary conditions</term>. After a while, Jews were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentrated</term> there from the entire area. The
+				total number was 7,200. They were caught and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject"
+					>shot</term> in groups of 5,000 and 1,000 from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+					type="subject">ghetto</term>. The approximately 1,200 who remained were put in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">prison</term>. On <date when="1941-11-09">November 9,
+					1941</date>, most of the working <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>
+				were taken, who up to that time had been protected, and on <date when="1942-05-01">May 1, 1942</date>, the final <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">liquidation</term> of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> began by means of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shooting</term> people on the spot. Those who were
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">working</term> for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> that day remained alive, about 380-400
+				people. They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> at various <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term> Einheits <note type="gloss">Einheit
+					(German) – unit (military)</note> in <placeName ref="http://www.geonames.org/460414/daugavpils.html">Dyneburg</placeName> until
+					<date when="1943-10">October 1943</date>. I was not faring badly. The Jews <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">cooked</term> for themselves, received 120 g of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>, from time to time <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">butter</term>, or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sugar</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">salt</term> etc. In <date when="1943-10"
+					>October</date>, they were taken to <placeName ref="http://www.geonames.org/456172/riga.html">Riga</placeName> to the
+				electrotechnical <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, [where] parts [were
+				made] for cables, radios, etc. at the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005054">AEG Allgemeine
+					Elektrotechnische Genossenschaft</orgName>. They were divided into sections, they <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> on 3 shifts. Others <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> for 11 hours from 6 a.m. to 5 p.m.
+				without any breaks (only ½ hour for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>lunch</term>).<pb n="2" facs="EHRI-ET-ZIH3010081_02.jpg"/> The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>
+				<foreign xml:lang="de">Oberscharführer</foreign> and <foreign xml:lang="de">Blitzmädel</foreign>
+				<note type="gloss">Blitzmädel (German) – <q>girl with the lighting emblem</q>, <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">female</term>
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmacht</orgName> auxiliary (<orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmacht</orgName>helferin), in <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">concentration camps</term> the <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">SS</term> auxiliary (<term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">SS</term>‑helferin).</note> did not treat them badly. Jewish
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> of all nationalities were
+				concentrated in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2055" type="camp">Riga camp</placeName>, from
+				the <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech lands</placeName>, <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>, <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>, <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuania</placeName>, <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>, etc. Only one <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> was in charge of all of them. They got
+				250 g of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">bread</term>, some <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">marmalade</term> or alternately a piece of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">fat</term>, a little <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sugar</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarine</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sausage</term>, or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">horse meat</term>. Once a day there was a some <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term>, and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">coffee</term> twice a day. The Jewish kitchen stole
+				from them, taking their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> for their own
+				needs, exchanging it with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term> for other
+				things, etc. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> site was across from
+				their room. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">sanitary conditions</term> were very
+				good, warm shower, often <foreign xml:lang="de">Entlausung</foreign>, <note type="gloss">Entlausung - delousing</note> light, warm, in
+				their free time they read, played cards. A couple times they had evenings of poetry readings, singing in Yiddish. The <q>Blitzerki</q>
+				<note type="gloss">„Blitzerki” - Blitzmädel</note> also attended them.</p>
+			<p>In <date when="1944-10">October 1944</date>, they were suddenly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+					type="subject">transported</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-857" type="camp"
+					>Stutthof</placeName> (Durchgangslager). <note type="gloss">Stutthof – at present Sztutowo. Durchgangslager (German) – transit
+					camp.</note> For a week, they traveled by truck in conditions that were lamentable. Near <placeName
+					ref="http://www.geonames.org/7531002/gdansk.html">Gdańsk</placeName>, the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapos</orgName> beat them when they were getting out of the
+				trucks. They were kept at <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-857" type="camp">Stutthof</placeName> for
+				1 month. The Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> from <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> and <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> - <foreign xml:lang="de">Blockälteste</foreign>
+				<note type="gloss">Blockälteste – block elder.</note> beat them, and the Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> from the <foreign xml:lang="de"
+					>Innendienst</foreign>
+				<note type="gloss">Innendienst – internal service</note> in the blocks beat them as well. In the narrow bunk <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">beds</term>, four <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> would sleep together, there was filth
+				everywhere. The harassment got to the point where they were not allowed to leave the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term> to take care of their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">physiological needs</term>. They were kept for hours
+				at <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll calls</term> for no reason. They did not
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> at all. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> had a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">crematorium</term> as well. Their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">food</term> consisted of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">coffee</term> twice a day, one liter of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">soup</term>, 300 g of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> (some <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarine</term> or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">marmalade</term> occasionally). There were Jews here
+				from all over the world. There were also <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+					>Aryans</term> there. The whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> had
+				about 40,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">prisoners</term>. There were 600 people
+				to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-486" type="subject">barracks</term>. Leaving the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term> was forbidden. Contact with the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> world was banned.</p>
+			<p><pb n="3" facs="EHRI-ET-ZIH3010081_03.jpg"/> After a month, they took 300 people to <placeName
+					ref="http://www.geonames.org/7530813/torun.html">Toruń</placeName> to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in the electrotechnical <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>. There were already about 200 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">camp inmates</term> there. In <placeName
+					ref="http://www.geonames.org/7530813/torun.html">Toruń</placeName> they had very bad <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Oberscharführer</term> beat them for no reason, they
+				were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">starving</term>. A beating with club (25 blows)
+				was an everyday occurrence. People’s hair was cut off for the smallest offence. Work in the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-005054">AEG</orgName> in <placeName
+					ref="http://www.geonames.org/7530813/torun.html">Toruń</placeName> was supervised by <placeName
+					ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvians</placeName>. They treated Jews very badly. They reported the
+				most minor infractions against <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>
+				<q>law</q> to the Oberscharführer.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Camp</term> authorities: <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> Oberscharführer<orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>
+				<foreign xml:lang="de">Unterscharführer</foreign> (administrator) normal <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS soldiers</term> as <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-480" type="subject">camp guards</term></p>
+			<p><q><foreign xml:lang="de">Blitzmädel</foreign></q> supervised during <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">work</term> a Jewish <foreign xml:lang="de">Lagerältester</foreign>
+				<note type="gloss">Lagerältester – camp elder Jewish Blockälteste</note>Jewish "Polizei" - 2-3 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> 12 people were employed in the
+				kitchen.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> consisted of an enormous square
+				surrounded by barbed wire which was made up of 5 blocks, and one that was not yet finished. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Women</term> lived in 4 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>, over 100 to a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barrack</term>. The kitchen and supply room was in the
+				fifth. A <foreign xml:lang="de">Waschraum</foreign>, <note type="gloss">Waschraum - washroom</note> shoemakers’ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-549" type="subject">workshop</term> and laundry were set up in the sixth.
+				The <q><foreign xml:lang="de"><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject"
+						>Häftlinge</term></foreign></q>
+				<note type="gloss">Häftlinge - prisoners</note> wore gray <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669"
+					type="subject">prison</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">underwear</term>, numbers that were assigned back in
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-857" type="camp">Stutthof</placeName>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term> were built of boards, one store high.
+				Triple bunk beds were put in them in rows, without any bed linens. One blanket and straw mattress were assigned to 4 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>. They <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> for 8 hours a day with the cables, and
+				then they shoveled snow and helped in the kitchen.</p>
+			<p>There were 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> halls. The first was in the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>, the second was in the <q><foreign
+						xml:lang="de">Stadthalle</foreign></q>
+				<note type="gloss">Stadthalle – hall in the town</note> in town. People <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> for 12 hours a day in the second hall.
+				Those who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> 8 hours a day <pb n="4"
+					facs="EHRI-ET-ZIH3010081_04.jpg"/> also had to work on Sundays. Part of the first <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-486" type="subject">barracks</term> was used for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">hospital</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> was a Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> had 3 Jewish cooks for their needs. They
+				treated them better than the others. In the morning, they were woken up with a shout of: <q>Aufstehen! <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject"><foreign xml:lang="de">Apell</foreign></term>!</q>
+				<note type="gloss">Aufstehen, Apell – stand up, roll call</note> They were counted, and if the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Oberscharführer</term> was in a good mood, they were
+				sent to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. If he was in a bad mood, he
+				kept them for hours in the field. It was the same with those who were returning from the <q><foreign xml:lang="de"
+						>Nachtschicht</foreign></q>. <note type="gloss">Nachtschicht – night shift</note> In the evening, 100 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> would return from the <q><foreign
+						xml:lang="de">Stadthalle</foreign></q> and 300 from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567"
+					type="subject">camp</term>. It was always terribly crowded in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-486" type="subject">barracks</term>. At nine, the lights were turned
+				off.</p>
+			<p>When the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Soviets</orgName> were approaching, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Oberscharführer</term> assembled them. They were
+				given <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> for the journey, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sausage</term> and half a package of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarine</term> and they left on foot. They <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">walked</term> for 50 kilometers to <placeName
+					ref="http://www.geonames.org/7530814/bydgoszcz.html">Bromberg</placeName>, <note type="gloss">Bromberg – Bydgoszcz.</note> on the
+				way many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term>, and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Oberscharführer</term> no longer paid any attention.
+				They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marched</term> to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germany</term> half-dead through the <date
+					when="1945-01">January</date> snows. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+					>Germans</term> and Blitzerki also <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject"
+					>escaped</term> on foot. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">sick</term> were
+				moved on sleds, which Jews pulled. In <placeName ref="http://www.geonames.org/7530814/bydgoszcz.html">Bromberg</placeName>, almost
+				everyone <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">ran away</term>, taking advantage of the
+				confusion was prevailing among the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+				>Germans</term>.</p>
+
+			<p><persName ref="#ehri_et_lewin_blanka">Lewinówna</persName> taking the record (<placeName
+					ref="http://www.geonames.org/7530970/lublin.html">Lublin</placeName>)</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-WL16560158_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Renate Lasker-Allais, experiences of Auschwitz-Birkenau from December 1943 with her sister, Anita Lasker</title>
+                <title xml:lang="fr">Renate Lasker-Allais, expériences d'Auschwitz-Birkenau à partir de décembre 1943 avec sa soeur, Anita Lasker</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Christine Schmidt</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Daniela Bartáková</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Jessica Green</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>29 Russell Square</street>
+                                <postCode>WC1B 5DP</postCode>
+                                <settlement>London</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+                            Genocide</repository>
+                        <collection>Eyewitness testimony Collection (coll. 1656)</collection>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 158. <textLang
+                        mainLang="de">Original in German.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1955">1955</date>, <placeName ref="#l0" type="camp">Auschwitz</placeName>, <term ref="#t556" type="subject">forced
+                    labour</term>, <term ref="#t212" type="subject">resistance</term>, <term ref="#t1391" type="subject">sonderkommando</term>
+                <idno>EHRI-ET-WL16560158</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="de">German</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Testimony of Renate Lasker-Allais, who was deported to Auschwitz in December 1943 after one and a half years in prison. She was
+                    arrested for helping French POWs escape. She describes in detail life and death in Auschwitz. Lasker-Allais had knowledge of the
+                    gas chamber process from a Sonderkommando inmate who once smuggled himself into the women’s camp. She mentions that her sister was
+                    able to save her once from selection.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-WL16560158_01.jpg" n="1"/>
+                <p>EW 5 4943-4953</p>
+                <p>MASTER-INDEX (P - SCHEME)</p>
+                <p>1. Index Number: P.III h(<placeName ref="#l0" type="camp">Auschwitz</placeName>) No. 158</p>
+                <p>2. Title of Document: <placeName ref="#l0" type="camp">Auschwitz</placeName></p>
+                <p>3. Time Covered: <date when="1940">1940</date> - <date when="1945">45</date></p>
+                <p>4. Number of Pages: 6</p>
+                <p>Language: <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName></p>
+                <p>5. Author or Sources: <persName ref="#ehri_et_allais_lasker_renate" type="ehri">Renate Lasker-Allais</persName>, <placeName
+                        ref="#london" type="ehri">London</placeName></p>
+                <p>6. Recorded by: dtto</p>
+                <p>7. Received from: dtto</p>
+                <p>on: <date when="1955-11">November 1955</date></p>
+                <p>8. Form and Contents: The author of the report, a Jewish <term ref="#t825" type="subject">woman</term> from <placeName
+                        ref="#wroclaw" type="ehri">Breslau</placeName>, was sent to <placeName ref="#l0" type="camp">Auschwitz</placeName> after
+                    having served a <term ref="#t669" type="subject">prison</term> term of one year and a half for having helped, together with her
+                    sister, to organise the <term ref="#t204" type="subject">escape</term> of <placeName ref="#republic-of-france" type="ehri"
+                        >French</placeName>
+                    <term ref="#t511" type="subject">prisoners of war</term>, with whom the two <term ref="#t825" type="subject">girls</term>
+                    <term ref="#t943" type="subject">worked</term> as <term ref="#t557" type="subject">forced labourers</term> in a paper <term
+                        ref="#t929" type="subject">factory</term> near <placeName ref="#wroclaw" type="ehri">Breslau</placeName>. She describes in
+                    detail the <term ref="#t832" type="subject">food</term> and <term ref="#t791" type="subject">health</term> conditions in
+                        <placeName ref="#l2" type="camp">Auschwitz-Birkenau</placeName>, the ill-treatment by <term ref="#t480" type="subject"
+                        >guards</term> and <term ref="#t485" type="subject">Kapos</term> and the <term ref="#t411" type="subject">selections</term>
+                    for the <term ref="#t499" type="subject">gas chambers</term>. She herself was spared because her sister was a <term ref="#t692"
+                        type="subject">musician</term> and a member of the <term ref="#t691" type="subject">camp orchestra</term> (cp. Report P.III
+                        h(<placeName ref="#l0" type="camp">Auschwitz</placeName>)No. 707). But she had to <term ref="#t943" type="subject">work</term>
+                    for a time in a <q>Leichekommando</q>, which had to take the <term ref="#t515" type="subject">corpses</term> to the <term
+                        ref="#t501" type="subject">crematorium</term>. Chiefly responsible for the <term ref="#t411" type="subject">selections</term>
+                    were the <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t140" type="subject">doctors</term>
+                    <persName ref="#p000272" type="ehri">Mengele</persName> who also used twins for <term ref="#t495" type="subject">medical
+                        experiments</term>, and <persName ref="#ehri_et_klein_fritz" type="ehri">Klein</persName> and the <term ref="#t482"
+                        type="subject">camp commander</term>
+                    <persName ref="#p000228" type="ehri">Cramer</persName> (prob. <persName ref="#p000228" type="ehri">Kramer</persName>)and the <term
+                        ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">women</term>
+                    <persName ref="#ehri_et_mandl_maria" type="ehri">Mandel</persName> and <persName ref="#ehri_et_dreschel_margot" type="ehri"
+                        >Drechsel</persName>. Allwork in the <term ref="#t499" type="subject">gas chambers</term> except the actual <term ref="#t534"
+                        type="subject">gassing</term> was done by the <term ref="#t483" type="subject">prisoners</term> of the <q><term ref="#t1391"
+                            type="subject">Sonderkommando</term></q>, who were in their turn <term ref="#t534" type="subject">gassed</term> every six
+                    months and replaced by others. The author</p>
+                <pb facs="EHRI-ET-WL16560158_02.jpg" n="2"/>
+                <p>mentions an unsuccessful <term ref="#t254" type="subject">revolt</term> of the <q><term ref="#t1391" type="subject"
+                            >Sonderkommando</term></q> in the late autumn of <date when="1944">1944</date>. In Summer <date when="1944">1944</date>,
+                    after the first Jews from <placeName ref="#hungary" type="ehri">Hungary</placeName> arrived, the <term ref="#t501" type="subject"
+                        >Crematorium</term> proved too small, and many <term ref="#t515" type="subject">corpses</term> were <term ref="#t516"
+                        type="subject">burned</term> in ditches At that time all the <term ref="#t670" type="subject">gypsies</term>, who were in a
+                    special <term ref="#t496" type="subject">camp</term> next to hers, were also <term ref="#t529" type="subject"
+                    >exterminated</term>.</p>
+                <p>The author and her sister were <term ref="#t518" type="subject">transferred</term> to <placeName ref="#l42" type="camp"
+                        >Belsen</placeName> on <date when="1944-10-10">October 10, 1944</date>, where they were <term ref="#t573" type="subject"
+                        >liberated</term> on <date when="1945-04-01">April 15, 1945</date>.</p>
+                <p>9. Remarks:- The following data were received from the <placeName ref="#l0" type="subject">Auschwitz</placeName> Museum on <date
+                        when="1957-11-22">November 22nd, 1957</date>:- <persName ref="#ehri_et_allais_lasker_renate" type="ehri">Renata
+                        Allais</persName> was brought to <placeName ref="#l0" type="camp">Auschwitz</placeName> on <date when="1943-12-06">6.
+                        12.1943</date> from <placeName ref="#wroclaw" type="ehri">Wroclaw</placeName> (<placeName ref="#wroclaw" type="ehri"
+                        >Breslau</placeName>); her <term ref="#t650" type="subject">prisoner’s</term> number was 70 159.</p>
+                <pb facs="EHRI-ET-WL16560158_03.jpg" n="3"/>
+                <p>P.III.h (<placeName ref="#l0" type="camp">Auschwitz</placeName>) No.158</p>
+                <p><placeName ref="#l0" type="camp">AUSCHWITZ</placeName></p>
+                <p>by <persName ref="#ehri_et_allais_lasker_renate" type="ehri">Renate Lasker-Allais</persName></p>
+                <p>Flat 2,</p>
+                <p>49 <placeName ref="#london" type="ehri">Ladbroke Grove</placeName>,</p>
+                <p><placeName ref="#london" type="ehri">London</placeName> W.11</p>
+                <p>TEL: PARK 4753</p>
+                <p>Mein Name ist <persName ref="#ehri_et_allais_lasker_renate" type="ehri">Renate Allais</persName> geb. <persName
+                        ref="#ehri_et_allais_lasker_renate" type="ehri">Lasker.</persName> Ich bin Juedin, gebuertige <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Deutsche</placeName> und komme aus <placeName ref="#wroclaw" type="ehri"
+                        >Breslau</placeName>, wo mein Vater als <term ref="#t899" type="subject">Rechtsanwalt</term> am <term ref="#t1127"
+                        type="subject">Oberlandesgericht</term> taetig war. Ich wurde bald nach Beginn des <term ref="#t1080" type="subject"
+                        >Krieges</term> von der <orgName ref="#g350" type="ehri">Gestapo</orgName>
+                    <term ref="#t598" type="subject">verhaftet</term> und nach einem <term ref="#t652" type="subject">Aufenthalt</term> von eineinhalb
+                    Jahren in <term ref="#t652" type="subject">Gefaengnis</term> und Zuchthaus in das <term ref="#t496" type="subject"
+                        >Konzentrationslager</term>
+                    <placeName ref="#l0" type="camp">Auschwitz</placeName> eingeliefert. Dem Teil des <term ref="#t496" type="subject">KZs</term>, der
+                            <q><placeName ref="#l2" type="camp">Birkenau</placeName></q> hiess.</p>
+                <p>Ich kam als <term ref="#t983" type="subject">politischer</term>
+                    <term ref="#t483" type="subject">Haeftling</term> mit einem kleinen <term ref="#t521" type="subject">Transport</term> spaet in der
+                    Nacht an. Das <term ref="#t498" type="subject">Lager</term>, das sich ueber viele Kilometer erstreckte, war trotz <term
+                        ref="#t1080" type="subject">Krieg</term> taghell erleuchtet. Eine <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">Frau</term> und ein <term ref="#t1216" type="subject">SS Mann</term> mit zwei grossen
+                    Schaeferhunden trieben uns mit Schlaegen in eine <term ref="#t837" type="subject">Baracke</term>, wo wir bis zum naechsten Morgen
+                    eingeschlossen wurden.</p>
+                <p>Am naechsten morgen wurden wir kahlgeschoren und ich bekam die Nummer 70159 auf den linken Unterarm taetowiert. Alles Gepaeck und
+                    Wertsachen wurden <term ref="#t660" type="subject">konfisziert</term> und, obwohl es Mitte Dezember und eiskalt war, gab man uns
+                    ein duennes <term ref="#t836" type="subject">Kleid</term>, eine Garnitur zerissener <term ref="#t836" type="subject"
+                        >Sommerunterwaesche</term> und ein paar <term ref="#t836" type="subject">Holzpantinen</term>. Keine <term ref="#t836"
+                        type="subject">Struempfe</term>, keinen <term ref="#t836" type="subject">Mantel</term> und keine <term ref="#t836"
+                        type="subject">Kopfbedeckung</term>. Meine Fuesse waren nach wenigen Schritten in den Holzpantinen <term ref="#t292"
+                        type="subject">blutig</term> gerieben.</p>
+                <p>Ich wurde wie alle Neuankoemmlinge in eine <term ref="#t837" type="subject">Quarantaenenbaracke</term> einquartiert, wo ich vier
+                    Wochen verblieb. Die <term ref="#t837" type="subject">Baracken</term> waren ungeheizt, statt Betten hatten wir sogenannte Kojen,
+                    i.e. eine Art Kiste, die zweistoeckig ueberainander lagen, und in der je acht <term ref="#t1207" type="subject">Personen</term>
+                    schliefen. Fuer acht <term ref="#t1207" type="subject">Personen</term> gab es zwei Decken.</p>
+                <pb facs="EHRI-ET-WL16560158_04.jpg" n="4"/>
+                <p>Jeden morgen um vier wurden durch schrilles Pfeiffen geweckt und mussten binnen zwei Minuten aufgestanden sein, sonst hagelte es
+                    Schlaege. Um Viertel nach vier wurde <term ref="#t832" type="subject">Tee</term> oder manchmal eine Art <term ref="#t832"
+                        type="subject">Kaffee</term> ausgeteilt. Diejenigen von uns, die versuchten, sich einigermassen sauberzuhalten, benutzten
+                    dieses <term ref="#t832" type="subject">Getraenk</term> zum <term ref="#t295" type="subject">Waschen</term>, da das wenige <term
+                        ref="#t832" type="subject">Wasser</term>, das vorhanden war, meist eingefroren war.- Um 4 Uhr 30 mussten wir uns zum <term
+                        ref="#t487" type="subject">Zaehlappell</term> anstellen und unbeweglich stehenbleiben, bis das ganze <term ref="#t498"
+                        type="subject">Lager</term> abgezaehlt war.</p>
+                <p>Um 6 Uhr marschierten die <term ref="#t560" type="subject">Arbeitskommandos</term> aus. Wir <term ref="#t483" type="subject"
+                        >Quarantaenenhaeftlinge</term> gingen nicht zur <term ref="#t556" type="subject">Arbeit</term> und versuchten, uns, so weit
+                    das moeglich war, warmzuhalten und in keiner Weise aufzufallen denn sobald die <term ref="#t560" type="subject"
+                        >Arbeitskommandos</term> ausmarschiert waren, fingen die <term ref="#t411" type="subject">Selektionen</term> im <term
+                        ref="#t498" type="subject">Lager</term> an. Der <term ref="#t477" type="subject">Lagerkommandant</term> mit dem <term
+                        ref="#t140" type="subject">Lagerarzt</term>, zu jener Zeit ein Dr. <persName ref="#p000272" type="ehri">Mengele</persName>,
+                    begleitet von zwei hochgestellten <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">Frauen</term>, besuchten jede <term ref="#t837" type="subject">Baracke</term> und liessen die
+                        <term ref="#t483" type="subject">Haeftlinge</term> antreten. Wir mussten uns nackt ausziehen und je nach Laune der <term
+                        ref="#t1216" type="subject">SS</term> wurde man aus folgenden Gruenden fuer die <term ref="#t534" type="subject"
+                        >Vergasung</term> aufgeschrieben: <term ref="#t292" type="subject">Hautausschlag</term>, der durch <term ref="#t295"
+                        type="subject">Ungeziefer</term> und <term ref="#t569" type="subject">Vitaminmangel</term> unvermeidlich war; zu duenn;
+                    verlaust; oder einfach eine Nase, die nicht gefiel. Diejenigen, deren Nummer aufgeschrieben wurde, mussten am gleichen abend von
+                    der Biockaeltesten, die selbst ein <term ref="#t483" type="subject">Haeftling</term> war, in den Block Nummer 25 abgeliefert
+                    werden. Dieser Block war staendig ueberfuellt, denn die <term ref="#t499" type="subject">Gaskammern</term> waren so ueberlastet,
+                    dass manche fuer die <term ref="#t534" type="subject">Vergasung</term> Ausgewaehlten, eine Woche warten mussten, bis sie
+                        <q>drankamen</q>. Die ausgesuchten <term ref="#t132" type="subject">Opfer</term> wurden</p>
+                <pb facs="EHRI-ET-WL16560158_05.jpg" n="5"/>
+                <p>in diese <term ref="#t837" type="subject">Baracke</term> 25 gesperrt, splitterfasernackt, ohne Betten, ohne <term ref="#t295"
+                        type="subject">Waschgelegenheit</term>. <term ref="#t295" type="subject">Toiletten</term> gab es in keiner <term ref="#t837"
+                        type="subject">Baracke</term>, sondern nur <term ref="#t295" type="subject">Massenlatrinen</term> in einem separaten Bau. Die
+                        <term ref="#t483" type="subject">Haeftlinge</term> von 25 wurden nicht auf die <term ref="#t295" type="subject">Latrine</term>
+                    gelassen, weil man wusste, sie wurden sonst in ihrer Panik versuchen, sich zu <term ref="#t262" type="subject">verstecken</term>.
+                    Man gab ihnen nichts zu <term ref="#t832" type="subject">trinken</term>, und einmal am Tag, um 6 Uhr abend, warf man in die <term
+                        ref="#t837" type="subject">Baracke</term>, einen Korb voll <term ref="#t832" type="subject">Brot</term>, um die sich die <term
+                        ref="#t483" type="subject">Insassen</term> dann <term ref="#t745" type="subject">halbtot</term> schlugen. Wenn immer ich an
+                    der <term ref="#t837" type="subject">Baracke</term> 25 vorueber ging, sah ich aus den vergitterten Fenstern sich Arme
+                    herausstrecken und hoerte wimmernde Stimmen, die um <term ref="#t832" type="subject">Wasser</term>
+                    <term ref="#t570" type="subject">flehten</term>.- Wohlgemerkt, alle diejenigen, die innerhalb des <term ref="#t498" type="subject"
+                        >Lagers</term> zur <term ref="#t534" type="subject">Vergasung</term> ausgewaehlt wurden, wussten ganz genau, was mit ihnen
+                    geschieht.</p>
+                <p>Im Gegensatz zu den grossen <term ref="#t521" type="subject">Transporten</term>, die tagtaeglich ins <term ref="#t498"
+                        type="subject">Lager</term> rollten, und denen, obwohl die meisten von ihnen auch in der <term ref="#t499" type="subject"
+                        >Gaskammer</term> endeten, wenigstens die Qual erspart war zu wissen, dass sie ihrem sicheren <term ref="#t745" type="subject"
+                        >Tod</term> entgegengehen.- In ihrem Fall ging es folgendermassen vor sich: Der <term ref="#t522" type="subject"
+                        >Trasportzug</term> mit <term ref="#t522" type="subject">Viehwagons</term> rollte bis ins <term ref="#t498" type="subject"
+                        >Lager</term>; die <term ref="#t522" type="subject">Wagons</term> wurden aufgemacht, die <term ref="#t745" type="subject"
+                        >Toten</term> herausgebracht, denn die meisten dieser <term ref="#t940" type="subject">Zuege</term> waren tagelang unterwegs
+                    und enthielten viele alte <term ref="#t1207" type="subject">Leute</term>. Der <term ref="#t477" type="subject">Lagerarzt</term>
+                    mit andern <term ref="#t1216" type="subject">SS Offizieren</term> und den <term ref="#t506" type="subject">weiblichen</term>
+                    <term ref="#t477" type="subject">Lagerkommandanten</term> liess dann alle Ankoemmlinge antreten und sortierte sie folgendermassen
+                    aus: Junge, <term ref="#t791" type="subject">gesundaussehende</term>
+                    <term ref="#t826" type="subject">Maenner</term> auf eine Seite, aeltere Leute und solche die <term ref="#t292" type="subject"
+                        >krank</term> oder blass aussahen, auf die andere. Bei den <term ref="#t825" type="subject">Frauen</term> wurden automatisch
+                    alle diejenigen, die mit <term ref="#t824" type="subject">Kindern</term> ankamen, auf die gleiche Seite wie die aelteren und <term
+                        ref="#t292" type="subject">krankaussehenden</term> gestellt.- Ein kleiner Trupp wurde dann unter <term ref="#t1216"
+                        type="subject">SS</term>
+                    <term ref="#t480" type="subject">Bewachung</term> ins <term ref="#t498" type="subject">Lager</term></p>
+                <pb facs="EHRI-ET-WL16560158_06.jpg" n="6"/>
+                <p>gefuehrt, wo sie geschoren, taetowiert und nackt <term ref="#t836" type="subject">ausgezogen</term> wurden und dann ins <term
+                        ref="#t498" type="subject">Lager</term> eingegliedert wurden. Alle andern wurden direkt ins <term ref="#t501" type="subject"
+                        >Krematorium</term> gefuehrt, Man sagte ihnen, sie gingen <term ref="#t295" type="subject">baden</term>; mahnte sie, alle ihre
+                        <term ref="#t836" type="subject">Kleider</term> gut zusammen zu binden, damit sie sie nach dem <term ref="#t295"
+                        type="subject">Bad</term> wiederfinden wuerden, und brachte sie dann, nach dem sie <term ref="#t836" type="subject"
+                        >ausgekleidet</term> waren, in einen Riesenraum, der, als er gedraengt voll war, abgeschlossen wurde. Dann wurde das <term
+                        ref="#t534" type="subject">Gas</term> hineingeleitet und nach fuerchterlichen Qualen trat nach ungefaehr 10 Minuten der <term
+                        ref="#t745" type="subject">Tod</term> ein. Ich berichte dies alles nach meinem besten Wissen und Gewissen, obwohl ich
+                    natuerlich niemals selbst im <term ref="#t501" type="subject">Krematorium</term> war, Ich kannte jedoch einen <term ref="#t483"
+                        type="subject">Haeftling</term>, der dem sogegannten <q><term ref="#t1391" type="subject">Sonderkoinmando</term></q>
+                    angehoerte, und der sich einmal unter einem Vorwand ins <term ref="#t506" type="subject">Frauenlager</term>
+                    <term ref="#t266" type="subject">einschmuggelte</term> und mir von seiner <term ref="#t943" type="subject">Arbeit</term>
+                    berichtete. Das <term ref="#t1391" type="subject">Sonderkommando</term> bestand ausschliesslich aus Juden, die zu dieser <term
+                        ref="#t943" type="subject">Arbeit</term> gezwungen waren. Sie taten alle <term ref="#t943" type="subject">Arbeit</term> im
+                        <term ref="#t501" type="subject">Krematorium</term> ausser des Handhabens des <term ref="#t534" type="subject">Gases</term>,
+                    das der <term ref="#t1216" type="subject">SS</term> ueberlassen war. Dem <term ref="#t1391" type="subject">Sonderkommando</term>
+                    war es Vorbehalten, nach der <term ref="#t534" type="subject">Vergasung</term> die <term ref="#t515" type="subject">Leichen</term>
+                    auszusortieren, die nach dem verzweifelten <term ref="#t745" type="subject">Todeskampf</term> in wilden Verschlingungen
+                    aneinanderklebten. Das <term ref="#t1391" type="subject">Sonderkommando</term> musste dann den <term ref="#t515" type="subject"
+                        >Leichen</term> alle Goldzaehne herausbrechen und war schliesslich damit aufgetragen, <term ref="#t516" type="subject">die
+                        Leichen zu verbrennen</term>. Mitglieder des <term ref="#t1391" type="subject">Sonderkommandos</term> waren streng von den
+                    uebrigen <term ref="#t483" type="subject">Haeftlingen</term> gesondert, Sie hatten eine eigene <term ref="#t837" type="subject"
+                        >Baracke</term> und wurden, fuer die Zeit ihrer <term ref="#t943" type="subject">Arbeit</term>, ausserordentlich gut
+                    behandelt. Sie bekamen soviel Zigaretten, <term ref="#t832" type="subject">Essen</term> und <term ref="#t832" type="subject"
+                        >Alkohol</term> wie sie wollten. Jedoch alle</p>
+                <pb facs="EHRI-ET-WL16560158_07.jpg" n="7"/>
+                <p>sechs Monate mussten sie den gleichen Weg gehen wie diejenigen, die sie <term ref="#t516" type="subject">verbrennen</term> mussten.
+                    Das <term ref="#t1391" type="subject">Sonderkommando</term> wurde alle sechs Monate umgewechselt, damit keine Gefahr bestand, dass
+                    es nach dem <term ref="#t1080" type="subject">Krieg</term> irgendwelche <term ref="#t904" type="subject">Ueberlebende</term>
+                    gaebe, die Augenzeugenberichte von ihrer <term ref="#t943" type="subject">Arbeit</term> geben konnten.- Im Spaetherbst <date
+                        when="1944">1944</date> brach unter dem <term ref="#t1391" type="subject">Sonderkommando</term>, das darauf gefasst war, in
+                    den naechsten Tagen <term ref="#t532" type="subject">umgebracht</term> zu werden, eine <term ref="#t254" type="subject"
+                        >Revolte</term> aus, die aber misslang. Das Resultat war, dass alle <term ref="#t532" type="subject">erschossen</term> wurden,
+                    als sie versuchten, aus dem <term ref="#t498" type="subject">Lager</term>
+                    <term ref="#t204" type="subject">auszubrechen</term>.</p>
+                <p>Ich erkrankte zwei Wochen nach meiner Ankunft in <placeName ref="#l0" type="camp">Auschwitz</placeName> an <term ref="#t492"
+                        type="subject">Flecktyphus</term>, einer <term ref="#t292" type="subject">Krankheit</term>, die jeden Winter im <term
+                        ref="#t498" type="subject">Lager</term> grassierte und nicht bekaempft werden konnte, da wir alle voellig verlaust waren, und
+                    der <term ref="#t492" type="subject">Flecktyphusbazillus</term> sich durch <term ref="#t295" type="subject">Laeuse</term>
+                    uebertragt. Ich wurde zweimal zur <term ref="#t534" type="subject">Vergasung</term> aufgeschrieben, wurde aber beide mal im
+                    letzten Moment gerettet; das erste mal, weil meine Schwester, die dem <term ref="#t691" type="subject">Lagerorchester</term>
+                    angehoerte, an die <term ref="#t477" type="subject">Lagerkommandanten</term> appellierte, die eine schwaeche fuer <term
+                        ref="#t691" type="subject">Musik</term> hatte [sic!], und das zweite mal weil einer der <term ref="#t411" type="subject"
+                        >Selektionsoffiziere</term> namens <persName ref="#ehri_et_hossler_franz" type="ehri">Hessler</persName>, der uebrigens
+                    seitdem in <placeName ref="#hameln" type="ehri">Hameln</placeName> hingerichtet wurde, einen Moment menschlich wurde und meine
+                    Nummer wieder ausstrich.</p>
+                <p><term ref="#t280" type="subject">Aerztliche Behandlung</term> gab es ueberhaupt nicht aus dem einfachen Grund, weil keine <term
+                        ref="#t285" type="subject">Medikamente</term> da waren. Die wenigen <term ref="#t285" type="subject">Medikamente</term>, die
+                    unter grosser Gefahr von <term ref="#t483" type="subject">Haeftlingen</term>, die in den Depots <term ref="#t943" type="subject"
+                        >arbeiteten</term> ins <term ref="#t498" type="subject">Lager</term>
+                    <term ref="#t266" type="subject">geschmuggelt</term> wurden, waren nur dann erhaeltlich, wenn man einen kostbaren <term
+                        ref="#t189" type="subject">Tauschartikel</term> hatte.- Neben <term ref="#t493" type="subject">Typhus</term> litten wir
+                    fast</p>
+                <pb facs="EHRI-ET-WL16560158_08.jpg" n="8"/>
+                <p>alle an chronischer <term ref="#t494" type="subject">Dysentrie</term>, eine <term ref="#t292" type="subject">Krankheit</term>, die
+                    Laufe der Zeit mehr <term ref="#t132" type="subject">Opfer</term> forderte als der <term ref="#t493" type="subject">Typhus</term>.
+                    Ferner litten wir alle an offnen eiternden <term ref="#t492" type="subject">Wunden</term> am ganzen Koerper, die durch den
+                    voelligen <term ref="#t569" type="subject">Vitaminmagel</term> hervorgerufen wurden. Unsere <term ref="#t832" type="subject"
+                        >Kost</term> bestand aus einem Stueck <term ref="#t832" type="subject">Brot</term> das am abend ausgeteilt wurde und bis zum
+                    naechsten abend ausreichen musste, und einer Schuessel undefinierbarer <term ref="#t832" type="subject">Suppe</term>, in der
+                    einige Stuecke <term ref="#t832" type="subject">Steckrueben</term> schwammen. Keinerlei <term ref="#t832" type="subject"
+                        >Gemuese</term>, keinerlei <term ref="#t832" type="subject">Obst</term>. <term ref="#t1057" type="subject"
+                        >Schwerarbeiter</term> bekamen zweimal in der Woche ein Stueck <term ref="#t832" type="subject">Blutwurst</term> von 3
+                    centimeterlaenge und ein winziges Stueckchen <term ref="#t832" type="subject">Kaese</term>. In die <term ref="#t832"
+                        type="subject">Suppe</term> wurde Salpeter mitgekocht, um das Menstruieren der <term ref="#t825" type="subject">Frauen</term>
+                    zu vermeiden. Keiner der <term ref="#t825" type="subject">weiblichen</term>
+                    <term ref="#t483" type="subject">Haeftlinge</term>, der auf die <term ref="#t832" type="subject">Lagerkost</term> angewiesen war,
+                    hatte jemals ihre Periode.</p>
+                <p>Nach vier Wochen Quarantaene wurde ich ins <term ref="#t498" type="subject">Hauptlager</term> gebracht und zur <term ref="#t556"
+                        type="subject">Arbeit</term> eingeteilt. Unsere <term ref="#t556" type="subject">Arbeit</term> bestand meistens aus Steine
+                    tragen, Lehm schaufeln und <term ref="#t940" type="subject">Wagons</term> ein- und ausladen. Wir <term ref="#t556" type="subject"
+                        >arbeiteten</term> 11 Stunden am Tag mit 10 Minuten Unterbrechung am Mittag, wenn wir eine Schuessel <term ref="#t832"
+                        type="subject">Suppe</term> bekamen. Keinen Loeffel und die <term ref="#t832" type="subject">Suppe</term> so heiss, dass wir
+                    meistens in der Zeit, die uns zur Verfuegung stand, sie nicht <term ref="#t832" type="subject">essen</term> konnten. Waehrend der
+                        <term ref="#t556" type="subject">Arbeit</term> waren wir unter staendiger <term ref="#t480" type="subject">Bewachung</term>.
+                        <term ref="#t1216" type="subject">SS</term> mit Hunden, die sie auf uns losliessen, sobald Wir einen Augenblick verschnaufen
+                    wollten.- Um 6 Uhr abends marschierten wir Ans <term ref="#t498" type="subject">Lager</term> zurueck, so totmuede, dass eine immer
+                    versuchte, die andere zu stuetzen. Dazu mussten wir Marschlieder <term ref="#t694" type="subject">singen</term> und immer im
+                    Schritt marschieren; wenn eine etwas nachhinkte, wurde der Hund auf sie gejagt.- Am <term ref="#t498" type="subject"
+                        >Lagertor</term> standen zwei <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">Frauen</term> und ein <term ref="#t483" type="subject">Haeftling</term>, der uns abzaehlte, und
+                    ab und zu wurde eine von uns aus den Reihen geholt und durchsucht.</p>
+                <pb facs="EHRI-ET-WL16560158_09.jpg" n="9"/>
+                <p>Wehe der Ungluecklichen, die versuchte eine <term ref="#t832" type="subject">Ruebe</term> oder eine <term ref="#t832"
+                        type="subject">Tomate</term> mit ins <term ref="#t498" type="subject">Lager</term> zu <term ref="#t266" type="subject"
+                        >schmuggeln</term>. Sie wurde so <term ref="#t345" type="subject">verpruegelt</term>, bis sie bewusstlos auf der Strasse
+                    liegengelassen wurde; wenn sie Glueck hatte und sich nachher unauffaellig aus dem Staube machen konnte, war die Affaire damit
+                    erledigt; wenn sie liegenblieb, wurde sie nachher ins <term ref="#t501" type="subject">Krematorium</term> geschafft und wurde
+                        <term ref="#t534" type="subject">vergast</term>.</p>
+                <p>Das <term ref="#t498" type="subject">Lager</term> war Tag und Nacht in einen fettig-schwarzen Rauch gehuellt, der aus den drei
+                    Schornsteinen der <term ref="#t501" type="subject">Krematorien</term> kam. Der Gestank, an den ich mich nach einigen Monaten
+                    gewoehnte, war zu Beginn unertraeglich sodass ich mich staendig <term ref="#t292" type="subject">uebergeben</term> musste. Es war
+                    der suesslich ekelhafte Geruch von <term ref="#t516" type="subject">verbranntem Fleisch und Haaren</term>. Die
+                    Hauptverantwetlichen fuer die <term ref="#t411" type="subject">Selektionen</term> zur <term ref="#t534" type="subject"
+                        >Vergasung</term> waren Dr. <persName ref="#p000272" type="ehri">Mengele</persName>, ein junger <term ref="#t826"
+                        type="subject">Mann</term>, dessen Steckenpferd es war, <term ref="#t495" type="subject">Experimente</term> an Zwillingen
+                    vorzunehmen, da er eine These zu diesem Sujet vorbereitete; Dr. <persName ref="#ehri_et_klein_fritz" type="ehri">Klein</persName>,
+                    der bei dem <placeName ref="#landkreis-lueneburg" type="ehri">Lueneburger</placeName>
+                    <term ref="#t1130" type="subject">Prozess</term> zu <term ref="#t745" type="subject">Tode</term> verurteilt wurde, der <term
+                        ref="#t482" type="subject">Lagerkommandant</term>
+                    <persName ref="#p000228" type="ehri">Cramar</persName>, ebenfalls hingerichtet und die <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">Frauen</term>
+                    <persName ref="#ehri_et_mandl_maria" type="ehri">Mandel</persName> und <persName ref="#ehri_et_dreschel_margot" type="ehri"
+                        >Drechsel</persName>. Letztere wurden meines Wissens niemals gefunden und sind wahrscheinlich noch auf freiem Fuss.</p>
+                <p>Die Belegschaft meiner <term ref="#t837" type="subject">Baracke</term> bestand aus <placeName ref="#repubblica-italiana"
+                        type="ehri">Italienerinnen</placeName>, <placeName ref="#republic-of-france" type="ehri">Franzoesinnen</placeName>, <placeName
+                        ref="#hellenic-republic" type="ehri">Griechinnen</placeName> und <placeName ref="#republic-of-poland" type="ehri"
+                        >Polen</placeName>. Die widerstandsfaehigsten <term ref="#t483" type="subject">Haeftlinge</term> waren <placeName
+                        ref="#republic-of-poland" type="ehri">Polen</placeName> und <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russen</placeName>, waehrend die <placeName ref="#hellenic-republic" type="ehri">Griechen</placeName> und <placeName
+                        ref="#repubblica-italiana" type="ehri">Italiener</placeName> wie die Fliegen <term ref="#t745" type="subject">starben</term>.
+                    Wenn sie nicht durch <term ref="#t494" type="subject">Dysentrie</term> und <term ref="#t493" type="subject">Typhus</term> eines
+                        <q>natürlichen</q>
+                    <term ref="#t745" type="subject">Todes starben</term>, so wurden sie unweigerlich bei den <term ref="#t411" type="subject"
+                        >Selektionen</term> ausgewaehlt. Sie konnten das eisige Winterwetter nicht vertragen und litten alle an schrecklichen <term
+                        ref="#t292" type="subject">Erfrierungserscheinungen</term>. Auch die <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >deutschen</placeName> Juden waren Ende <date when="1943">1943</date> fast nicht existent,</p>
+                <pb facs="EHRI-ET-WL16560158_10.jpg" n="10"/>
+                <p>die <term ref="#t943" type="subject">Arbeit</term> war einfach zu schwer fuer sie, und sie wurden oft direkt vom <term ref="#t943"
+                        type="subject">Arbeitsplatz</term>, wo sie ohnmaechtig zusammenbrachen, in die <term ref="#t499" type="subject"
+                        >Gaskammern</term> gebracht.</p>
+                <p>Die <term ref="#t482" type="subject">innere Verwaltung</term> des <term ref="#t498" type="subject">Lagers</term>, das heisst <term
+                        ref="#t477" type="subject">Blockaelteste</term>, <term ref="#t836" type="subject">Kleiderkammer</term>, <term ref="#t491"
+                        type="subject">Lazarett</term>, <term ref="#t832" type="subject">Kueche</term>, <term ref="#t295" type="subject"
+                        >Entlausung</term> usw. lag ausschliesslich in den Haenden von <term ref="#t483" type="subject">Haeftlingen</term>, die von
+                    der <term ref="#t1216" type="subject">SS</term> fuer diese <term ref="#t943" type="subject">Arbeit</term> ausgewaehlt wurden.
+                    Manche dieser <term ref="#t483" type="subject">Haeftlinge</term> missbrauchten diese Vorzugsstellungen, vor allem die sogenannten
+                        <term ref="#t485" type="subject">Capos</term>, die fuer <term ref="#t560" type="subject">Arbeitskommandos</term> zustaendig
+                    waren. Dies waren meistens <placeName ref="#federal-republic-of-germany" type="ehri">deutsche</placeName> nichtjuedische <term
+                        ref="#t483" type="subject">Haeftlinge</term>, die im <term ref="#t498" type="subject">Lager</term> aus einem der folgenden
+                    Gruende waren: <term ref="#t556" type="subject">Arbeitsverweigerung</term>, Prostitution oder rueckfaellige Verbrecher. Unter
+                    diesen <term ref="#t483" type="subject">Haeftlingen</term> hatten Wir meistens mehr zu laiden als unter der <term ref="#t1216"
+                        type="subject">SS</term>, die sich wenig um die internen Angelegenheiten des Lages kuemmerte, waehrend wir den <term
+                        ref="#t485" type="subject">Haeftlingsfunktionaeren</term> fuer die taeglichen Dinge des auf <term ref="#t745" type="subject"
+                        >Tod</term> und Verderben ausgeliefert waren. Sie haben den Tod vieler Juden und auch mancher Nichtjuden auf dem Gewissen,
+                    denn sie wollten sich durch Grausamkeiten uns gegenueber, bei der <term ref="#t1216" type="subject">SS</term> beliebt machen.</p>
+                <p>Die <term ref="#t862" type="subject">Sterblichkeitsziffer</term> im <term ref="#t498" type="subject">Lager</term> stieg jeden
+                    Winter erschreckend an. Erstens forderte die alljaehrliche <term ref="#t493" type="subject">Typhusepidemie</term> unzaehlige <term
+                        ref="#t492" type="subject">Opfer</term>, dann <term ref="#t494" type="subject">Dysentrie</term> und schliesslich einfach
+                    Erschoepfung. Viele versuchten <term ref="#t217" type="subject">Selbstmord</term> zu begehen, in dem sie sich bei Nacht an den
+                    immer mit Hochspannung geladenen Stacheldraht warfen, wo sie dann die ganze Nacht hingen, bis sie am morgen</p>
+                <pb facs="EHRI-ET-WL16560158_11.jpg" n="11"/>
+                <p>tot losgemacht wurden.</p>
+                <p>Jeden Morgen, vor dem <term ref="#t487" type="subject">Zaehlappell</term> wurden die in der Nacht <term ref="#t745" type="subject"
+                        >Gestorbenen</term> vor die <term ref="#t837" type="subject">Baracke</term> gelegt, nachdem man sie nackt ausgezogen hatte;
+                    die <term ref="#t477" type="subject">Blockaelteste</term>, die der <term ref="#t1216" type="subject">SS</term> ihren Rapport gab,
+                    meldete dann: <term ref="#t837" type="subject">Baracke</term> soundso angetreten, zweitausend stehend, 50 <term ref="#t745"
+                        type="subject">Tote</term>, zweihundert <term ref="#t292" type="subject">krank</term>.- Die zweihundert <term ref="#t292"
+                        type="subject">Kranken</term> wurden dann sofort ins sogenannte <q><term ref="#t491" type="subject">Revier</term></q>, das
+                        <term ref="#t491" type="subject">Lagerlazarett</term> abgeschoben; die naechste Station war fuer sie die <term ref="#t499"
+                        type="subject">Gaskammer</term>.</p>
+                <p>Ich hatte vor meiner Ankunft im <term ref="#t498" type="subject">Lager</term> noch nie eine <term ref="#t515" type="subject"
+                        >Leiche</term> gesehen, und ich werde nie vergessen, wie ich am ersten Tag nach meiner Ankunft unglaeubig auf einen Haufen
+                    aufeinandergestapelter verrenkter Glieder starrte, bis es mir klar wurde, dass dies <term ref="#t745" type="subject">tote</term>
+                    <term ref="#t825" type="subject">Frauen</term> waren. Ich gewoehnte mich aber sehr bald an diesen Anblick und <term ref="#t556"
+                        type="subject">arbeitete</term> spaeter eine Zeitlang beim Leichenkommando, wo es meine Aufgabe war, die nackten <term
+                        ref="#t745" type="subject">Toten</term> auf einen Karren zu laden, der dann spaeter ins <term ref="#t501" type="subject"
+                        >Krematorium</term> gefahren wurde.</p>
+                <p>Zusammenfassend moechte ich sagen, dass fuer den individuellen <term ref="#t1207" type="subject">Menschen</term> das Schlimmste im
+                        <term ref="#t498" type="subject">Lager</term> die staendige koerperliche <term ref="#t555" type="subject">Erniedrigung</term>
+                    war und die vollkommen hoffnungslos erscheinende Lage fuer die Zukunft. Viele von uns hatten keine <term ref="#t829"
+                        type="subject">Angst</term> mehr vor der <term ref="#t534" type="subject">Vergasung</term> und wuneschten uns den <term
+                        ref="#t745" type="subject">Tod</term>. Diejenigen von uns, die noch an <term ref="#t724" type="subject">Gott</term> glaubten,
+                        <term ref="#t737" type="subject">beteten</term> jeden Abend: <q>Lieber <term ref="#t724" type="subject">Gott</term>, lass uns
+                        morgen nicht mehr aufwachen.</q>- Nein, das schlimmste war, stundenlang, abend und morgen in eisiger Kaelte, und im Sommer in
+                    gluehender Hitze, stillzustehen, bis das gazne <term ref="#t498" type="subject">Lager</term> abgezaehlt war; fast jeder von uns
+                    litt an chronischer <term ref="#t494" type="subject">blutiger Dysentrie</term>, aber es war streng verboten, waehrend</p>
+                <pb facs="EHRI-ET-WL16560158_12.jpg" n="12"/>
+                <p>des <term ref="#t487" type="subject">Zaehlappels</term> auf die <term ref="#t295" type="subject">Latrine</term> zu gehen. Die
+                    Folgen dieses Verbots waren unvermeidlich; und es war diese degradierende Erniedrigung, die fuer viele von uns eine groessere Qual
+                    bedeutete, als den staendig rauchenden Schornstein des <term ref="#t501" type="subject">Krematoriums</term> vor uns zu sehen. Es
+                    war die Erkenntnis, dass wir alle in erschreckend kurzer Zeit jedes Zeichen der Zivilisation verloren. Wir <term ref="#t295"
+                        type="subject">wuschen</term> uns nicht mehr, denn es gab kein <term ref="#t832" type="subject">Wasser</term> und es war so
+                    eisig kalt, wir waren <term ref="#t295" type="subject">verlaust</term>, wir <term ref="#t295" type="subject">stanken</term>, wir
+                        <term ref="#t292" type="subject">eiterten</term> am ganzen Koerper, wir schlugen uns wie wilde Tiere um ein Stueckchen <term
+                        ref="#t832" type="subject">Brot</term> und wir <term ref="#t832" type="subject">tranken</term> das <term ref="#t832"
+                        type="subject">Wasser</term> aus schmutzigen Pfuetzen.</p>
+                <p>Im Sommer <date when="1944">1944</date> kamen die ersten <placeName ref="#hungary" type="ehri">ungarischen</placeName>
+                    <term ref="#t521" type="subject">Judentransporte</term> in <placeName ref="#l0" type="camp">Auschwitz</placeName> an. Sie kamen in
+                    solchen Mengen, dass die <term ref="#t501" type="subject">Krematorien</term> die <term ref="#t943" type="subject">Arbeit</term>
+                    nicht mehr bewaeltigen konnten. Wir mussten riesige Gruben in der Naehe der <term ref="#t499" type="subject">Gaskammern</term>
+                    schaufeln, und die <term ref="#t534" type="subject">Vergasten</term> wurden dort mit Benzin uebergossen und im <term ref="#t516"
+                        type="subject">Freien</term> verbrannt. Kleine <term ref="#t824" type="subject">Kinder</term> wurden lebendig in die Flammen
+                    geworfen. Wir konnten das Schreien bis in das Innere des <term ref="#t498" type="subject">Lagers</term> hoeren. Zu jener Zeit
+                    wurde auf Befehl aus <placeName ref="#berlin-stadt" type="ehri">Berlin</placeName> das gesamte <term ref="#t514" type="subject"
+                        >Zigeunerlager</term>, das sich neben unserm <term ref="#t498" type="subject">Lager</term> befand, <term ref="#t529"
+                        type="subject">exterminiert</term>. Kein einziger <term ref="#t561" type="subject">ueberlebte</term>, alle wurden <term
+                        ref="#t534" type="subject">vergast</term>, obwohl sich in diesem <term ref="#t498" type="subject">Lager</term> eine Menge
+                        <term ref="#t791" type="subject">kerngesunder</term> junger <term ref="#t826" type="subject">Maenner</term> und <term
+                        ref="#t825" type="subject">Frauen</term> befand.</p>
+                <p>Bald nach der Ankunft der letzten <placeName ref="#hungary" type="ehri">ungarischen</placeName>
+                    <term ref="#t521" type="subject">Transporte</term>, begann man mit der <term ref="#t623" type="subject">Evakuierung</term> des
+                        <term ref="#t498" type="subject">Lagers</term> denn die <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >russische</placeName>
+                    <term ref="#t1441" type="subject">Front</term> naeherte sich in bendeklicher Weise. Die <term ref="#t499" type="subject"
+                        >Gaskammern</term> wurden in die Luft gesprengt, damit die <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russen</placeName> sie nicht finden wuerden.-Am <date when="1944-10-10">10. Oktober 1944</date> verliess ich mit meiner
+                    Schwester das <term ref="#t498" type="subject">Lager</term>
+                    <placeName ref="#l0" type="camp">Auschwitz</placeName> und kam nach abenteuerlicher Fahrt in einem <term ref="#t522"
+                        type="subject">Viehwagen</term> eine Woche spaeter im <term ref="#t496" type="subject">KZ</term>
+                    <placeName ref="#l42" type="camp">Belsen</placeName> an, wo wir am <date when="1945-04-15">15. April 1945</date> von den
+                        <placeName ref="#england" type="ehri">Englaendern</placeName>
+                    <term ref="#t513" type="subject">befreit</term> wurden.</p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-WL16560158_03.jpg" n="3"/>
+                <p><placeName ref="#l0" type="camp">AUSCHWITZ</placeName> by <persName ref="#ehri_et_allais_lasker_renate" type="ehri">Renate
+                        Lasker-Allais</persName></p>
+                <p>Flat 2, 49 <placeName ref="#london" type="ehri">Ladbroke Grove</placeName>, <placeName ref="#london" type="ehri">London</placeName>
+                    W11</p>
+                <p>Tel: PARK 4753</p>
+                <p>My name is <persName ref="#ehri_et_allais_lasker_renate" type="ehri">Renate Allais</persName> (maiden name <persName
+                        ref="#ehri_et_allais_lasker_renate" type="ehri">Lasker</persName>). I am Jewish, <placeName ref="#federal-republic-of-germany"
+                        type="ehri">German</placeName> by birth, and come from <placeName ref="#wroclaw" type="ehri">Breslau</placeName> (<placeName
+                        ref="#wroclaw" type="ehri">Wroclaw</placeName>), where my father <term ref="#t943" type="subject">worked</term> as a <term
+                        ref="#t899" type="subject">lawyer</term> at the regional appeal <term ref="#t1127" type="subject">court</term>. Soon after the
+                    start of the <term ref="#t1080" type="subject">war</term>, I was <term ref="#t598" type="subject">arrested</term> by the <orgName
+                        ref="#g350" type="ehri">Gestapo</orgName>. After an <term ref="#t652" type="subject">imprisonment</term> of one and a half
+                    years, I was taken to <placeName ref="#l0" type="camp">Auschwitz</placeName> and <term ref="#t652" type="subject"
+                        >reimprisoned</term>. This section of the <term ref="#t498" type="subject">camp</term> was called <q><placeName ref="#l2"
+                            type="camp">Birkenau</placeName></q>. I was brought in as a <term ref="#t983" type="subject">political</term>
+                    <term ref="#t483" type="subject">prisoner</term> late at night. The <term ref="#t498" type="subject">camp</term>, which covered an
+                    area of many kilometres, was illuminated as bright as day, despite the <term ref="#t1080" type="subject">war</term>. An <term
+                        ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">woman</term> and an <term ref="#t1216" type="subject">SS man</term> with two large Alsatian dogs
+                    beat us and drove us into a <term ref="#t837" type="subject">barracks</term>, where we were shut in until the next morning.</p>
+                <p>The next morning, we were shorn bald and I was tattooed with the number 70159 on my left forearm. All luggage and valuables were
+                        <term ref="#t660" type="subject">confiscated</term> and, although it was mid-December and icy cold, we were each given a thin
+                        <term ref="#t836" type="subject">dress</term>, a set of ripped summer <term ref="#t836" type="subject">underclothes</term> and
+                    a pair of <term ref="#t836" type="subject">clogs</term>. No <term ref="#t836" type="subject">hosiery</term>, no <term ref="#t836"
+                        type="subject">coat</term> and nothing to cover our heads. After only a few steps in the <term ref="#t836" type="subject"
+                        >clogs</term>, my feet were rubbed raw and <term ref="#t292" type="subject">bleeding</term>.</p>
+                <p>Like all other newcomers, I was put in <term ref="#t837" type="subject">quarantine barracks</term>, where I remained for four
+                    weeks. The <term ref="#t837" type="subject">barracks</term> were not heated, and instead of beds, we had so-called <q>bunks</q>,
+                    which were a sort of box. Two of these lay on top of each other, and eight <term ref="#t1207" type="subject">people</term> slept
+                    in each. For eight <term ref="#t1207" type="subject">people</term>, there were only two blankets.</p>
+                <pb facs="EHRI-ET-WL16560158_04.jpg" n="4"/>
+                <p>Every morning, we were woken at 4 am by a piercing whistle and we were required to have got up within two minutes, otherwise there
+                    was a hail of blows. At quarter past four, <term ref="#t832" type="subject">tea</term> or sometimes some sort of <term ref="#t832"
+                        type="subject">coffee</term> was shared out. Those of us who tried to keep ourselves to a certain extent clean used this <term
+                        ref="#t832" type="subject">drink</term> to <term ref="#t295" type="subject">wash</term> with, as the only other available
+                        <term ref="#t832" type="subject">water</term> was generally frozen over. At 4.30 am, we had to present ourselves for the <term
+                        ref="#t487" type="subject">roll call</term> and stand completely still until the entire <term ref="#t498" type="subject"
+                        >camp</term> had been accounted for.</p>
+                <p>At 6 am, the <term ref="#t560" type="subject">labour battalions</term> marched out. We quarantine <term ref="#t483" type="subject"
+                        >prisoners</term> did not go out to <term ref="#t556" type="subject">work</term> and we attempted to keep ourselves warm, at
+                    least as far as this was possible. We also tried not to be noticed in any way, because as soon as the <term ref="#t560"
+                        type="subject">labour battalions</term> had left, the <term ref="#t411" type="subject">selections</term> began in the <term
+                        ref="#t498" type="subject">camp</term>. The <term ref="#t477" type="subject">camp commander</term> with the <term ref="#t477"
+                        type="subject">camp</term>
+                    <term ref="#t140" type="subject">doctor</term> (a Dr. <persName ref="#p000272" type="ehri">Mengele</persName> at that time), also
+                    accompanied by two high-ranking <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">women</term> visited every <term ref="#t837" type="subject">barrack</term> and ordered the <term
+                        ref="#t483" type="subject">prisoners</term> to report to them. We had to <term ref="#t836" type="subject">undress</term>
+                    completely and, depending on the mood of the <term ref="#t1216" type="subject">SS</term>, we were <term ref="#t411" type="subject"
+                        >selected</term> for <term ref="#t534" type="subject">gassing</term> due to any of the following reasons: a <term ref="#t292"
+                        type="subject">skin rash</term>, which was unavoidable due to <term ref="#t295" type="subject">bugs</term> and <term
+                        ref="#t569" type="subject">lack of vitamins</term>; too thin; <term ref="#t295" type="subject">lice-infested</term>; or simply
+                    a face that did not fit. Those whose numbers were written down, were delivered by the block elder, who was also a <term
+                        ref="#t483" type="subject">prisoner</term>, to Block Number 25. This block was always so over-full because the <term
+                        ref="#t499" type="subject">gas chambers</term> were so overloaded that many who had been <term ref="#t411" type="subject"
+                        >selected</term> to be <term ref="#t534" type="subject">gassed</term> had to wait a week until it was <q>their turn</q>. The
+                        <term ref="#t411" type="subject">selected</term>
+                    <term ref="#t132" type="subject">victims</term> were shut <pb facs="EHRI-ET-WL16560158_05.jpg" n="5"/> in this <term ref="#t837"
+                        type="subject">barrack</term> number 25, stark naked, without beds, without <term ref="#t295" type="subject">washing
+                        facilities</term>. There were no <term ref="#t295" type="subject">toilets</term> in any of the <term ref="#t837"
+                        type="subject">barracks</term>, just mass <term ref="#t295" type="subject">latrines</term> in a separate building. The <term
+                        ref="#t483" type="subject">prisoners</term> of number 25 were not allowed to the <term ref="#t295" type="subject"
+                        >latrines</term>, as one knew that they would try to <term ref="#t262" type="subject">hide</term> in their panic. They were
+                    given nothing to <term ref="#t832" type="subject">drink</term>. Once a day, at 6pm, a basket of <term ref="#t832" type="subject"
+                        >bread</term> was thrown into the <term ref="#t837" type="subject">barrack</term>, for which the <term ref="#t483"
+                        type="subject">prisoners</term> then beat each other half <term ref="#t745" type="subject">dead</term>. Whenever I passed by
+                        <term ref="#t837" type="subject">barrack</term> 25, I saw arms stuck out of the barred windows and heard whimpering voices,
+                        <term ref="#t570" type="subject">begging</term> for <term ref="#t832" type="subject">water</term>. Mind you, all of those
+                        <term ref="#t411" type="subject">selected</term> for <term ref="#t534" type="subject">gassing</term> inside the <term
+                        ref="#t498" type="subject">camp</term> knew exactly what was happening.</p>
+                <p>In contrast were the big <term ref="#t521" type="subject">transports</term> that rolled into the <term ref="#t498" type="subject"
+                        >camp</term> every single day, although most of them ended up in the <term ref="#t499" type="subject">gas chamber</term> as
+                    well, they were at least spared the agony of knowing that they were facing certain <term ref="#t745" type="subject">death</term>.
+                    In their case, it took place in the following way: the <term ref="#t522" type="subject">cattle trucks</term> rolled into the <term
+                        ref="#t498" type="subject">camp</term>, the <term ref="#t522" type="subject">wagons</term> were opened, the <term ref="#t745"
+                        type="subject">dead</term> were brought out, as most of these <term ref="#t940" type="subject">trains</term> were underway for
+                    several days and contained many elderly <term ref="#t1207" type="subject">people</term>. The <term ref="#t498" type="subject"
+                        >camp</term>
+                    <term ref="#t140" type="subject">doctor</term>, together with other <term ref="#t1216" type="subject">SS officers</term>, and the
+                        <term ref="#t506" type="subject">female camp</term>
+                    <term ref="#t477" type="subject">commanders</term> mustered all of the incomers and sorted them according to the following
+                    criteria: young, <term ref="#t791" type="subject">healthy</term>-looking <term ref="#t826" type="subject">men</term> to one side;
+                    older <term ref="#t1207" type="subject">people</term>, as well as those who looked <term ref="#t292" type="subject">ill</term> or
+                    pale to the other. Amongst the <term ref="#t825" type="subject">women</term>, all of those who came into the <term ref="#t498"
+                        type="subject">camp</term> with <term ref="#t824" type="subject">children</term> were put onto the same side as the older and
+                        <term ref="#t292" type="subject">ill</term>-looking <term ref="#t826" type="subject">men</term>.</p>
+                <p>A small batch were then led into <term ref="#t498" type="subject">camp</term> under <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t480" type="subject">guard</term>, <pb facs="EHRI-ET-WL16560158_06.jpg" n="6"/> where they were shorn, tattooed and
+                    completely <term ref="#t836" type="subject">undressed</term> and then incorporated into the <term ref="#t498" type="subject"
+                        >camp</term>. All of the others were led directly to the <term ref="#t501" type="subject">crematorium</term>. They were told
+                    they were going to be <term ref="#t295" type="subject">bathed</term>, and were urged to tie their <term ref="#t836" type="subject"
+                        >clothes</term> together well, so that they could find them again after their <term ref="#t295" type="subject">wash</term>.
+                    After they were <term ref="#t836" type="subject">undressed</term>, they were brought into a vast room and, when it was bulging
+                    full, it was locked shut. Then the <term ref="#t534" type="subject">gas</term> was let in and, after terrible agony, they would
+                        <term ref="#t536" type="subject">die</term> in approximately ten minutes. I am reporting this to the best of my knowledge and
+                    conscience, although I was obviously never in the <term ref="#t501" type="subject">crematorium</term> myself. However, I knew a
+                        <term ref="#t483" type="subject">prisoner</term>, who belonged to the so-called <q><term ref="#t1391" type="subject">special
+                            unit</term></q> (<term ref="#t1391" type="subject">Sonderkommando</term>). Once, he <term ref="#t266" type="subject"
+                        >smuggled</term> himself into the <term ref="#t506" type="subject">womens’ camp</term> under a pretext and told me about his
+                        <term ref="#t943" type="subject">work</term>. The <term ref="#t1391" type="subject">special unit</term> consisted solely of
+                    Jews who were forced to do this <term ref="#t943" type="subject">work</term>. They did all of the <term ref="#t943" type="subject"
+                        >work</term> in the <term ref="#t501" type="subject">crematorium</term>, apart from the operation of the <term ref="#t534"
+                        type="subject">gas</term>, which was left for the <term ref="#t1216" type="subject">SS</term>. It was reserved for the <term
+                        ref="#t1391" type="subject">special unit</term> to sort out the <term ref="#t515" type="subject">corpses</term> after the
+                        <term ref="#t534" type="subject">gassing</term>, which were stuck to each other in wild convolutions after their agonising
+                        <term ref="#t745" type="subject">death</term> throes. The <term ref="#t1391" type="subject">special unit</term> then had to
+                    break all gold teeth out of the <term ref="#t515" type="subject">corpses</term> and they were also responsible for the <term
+                        ref="#t516" type="subject">incineration of the bodies</term>. Members of the <term ref="#t1391" type="subject">special
+                        unit</term> were strictly separated from the ordinary <term ref="#t483" type="subject">prisoners</term>. They had their own
+                        <term ref="#t837" type="subject">barrack</term> and were treated unusually well for the duration of their <term ref="#t556"
+                        type="subject">work</term>. They were given as much <term ref="#t832" type="subject">food</term> and <term ref="#t832"
+                        type="subject">alcohol</term> and as many cigarettes as they wanted. However, <pb facs="EHRI-ET-WL16560158_07.jpg" n="7"/>
+                    every six months they had to go the same way as those they were forced to <term ref="#t516" type="subject">burn</term>. The <term
+                        ref="#t1391" type="subject">special unit</term> was changed over every six months, to avoid the danger of any <term
+                        ref="#t904" type="subject">survivors</term> remaining after the <term ref="#t1080" type="subject">war</term> who would be able
+                    to give eyewitness accounts of their <term ref="#t556" type="subject">work</term>. In the late autumn of <date when="1944"
+                        >1944</date>, the <term ref="#t1391" type="subject">special unit</term> who had prepared themselves to be <term ref="#t532"
+                        type="subject">killed</term> in the next few days, decided to <term ref="#t254" type="subject">riot</term>. However, it was
+                    unsuccessful and the result was that they were all <term ref="#t532" type="subject">shot</term> whilst trying to <term ref="#t204"
+                        type="subject">break out</term> of the <term ref="#t498" type="subject">camp</term>.</p>
+                <p>Two weeks after my arrival in <placeName ref="#l0" type="camp">Auschwitz</placeName>, I was taken <term ref="#t292" type="subject"
+                        >ill</term> with <term ref="#t492" type="subject">spotted fever</term>, an <term ref="#t492" type="subject">illness</term>
+                    that was rife every winter in the <term ref="#t498" type="subject">camp</term> and could not be fought off, because we were all
+                    completely <term ref="#t295" type="subject">lice-infested</term> and the germs spread themselves through the <term ref="#t295"
+                        type="subject">lice</term>. I was marked down for <term ref="#t534" type="subject">gassing</term> twice, but was saved at the
+                    last moment both times. The first time was because my sister, who belonged to the <term ref="#t498" type="subject">camp</term>
+                    <term ref="#t691" type="subject">orchestra</term>, appealed to the <term ref="#t477" type="subject">camp commander</term> who had
+                    a weakness for <term ref="#t691" type="subject">music</term> and the second time because one of the <term ref="#t411"
+                        type="subject">selection</term> officers (<persName ref="#ehri_et_hossler_franz" type="ehri">Hessler</persName>), who
+                    incidentally has since been <term ref="#t541" type="subject">executed</term> in <placeName ref="#hameln" type="ehri"
+                        >Hamelin</placeName> (<placeName ref="#hameln" type="ehri">Hameln</placeName>), was humane for a moment and crossed out my
+                    name again.</p>
+                <p>There was no <term ref="#t280" type="subject">medical treatment</term> available, for the simple reason that there was no <term
+                        ref="#t285" type="subject">medicine</term>. The few <term ref="#t285" type="subject">medicines</term>, that were <term
+                        ref="#t266" type="subject">smuggled</term> under great danger by the <term ref="#t483" type="subject">prisoners</term> who
+                        <term ref="#t943" type="subject">worked</term> in the warehouses, were only obtainable if one had a valuable means of <term
+                        ref="#t189" type="subject">barter</term>. Aside from the <term ref="#t493" type="subject">typhus</term>, we <pb
+                        facs="EHRI-ET-WL16560158_08.jpg" n="8"/> all suffered from chronic <term ref="#t494" type="subject">dysentery</term>, an <term
+                        ref="#t492" type="subject">illness</term> that claimed more lives than the <term ref="#t493" type="subject">typhus</term>. We
+                    all suffered from open, festering <term ref="#t492" type="subject">wounds</term> on our whole bodies, because of the complete
+                        <term ref="#t569" type="subject">lack of vitamins</term> in our <term ref="#t832" type="subject">diet</term>. Our <term
+                        ref="#t1431" type="subject">nutrition</term> consisted of a piece of <term ref="#t832" type="subject">bread</term>, which was
+                    shared out in the evenings and had to be sufficient until the next evening, as well as a bowl of nondescript <term ref="#t832"
+                        type="subject">soup</term>, in which a few chunks of <term ref="#t832" type="subject">turnip</term> swam. Absolutely no <term
+                        ref="#t832" type="subject">fruit</term>, nor <term ref="#t832" type="subject">vegetables</term>. Hard <term ref="#t1057"
+                        type="subject">workers</term> received a 3cm long piece of black <term ref="#t832" type="subject">pudding</term> and a tiny
+                    piece of <term ref="#t832" type="subject">cheese</term> twice a week. Saltpetre was also cooked in the soup to prevent the <term
+                        ref="#t825" type="subject">women</term> from menstruating. None of the <term ref="#t825" type="subject">female</term>
+                    <term ref="#t483" type="subject">prisoners</term> who were dependent on the <term ref="#t832" type="subject">food</term> provided
+                    by the <term ref="#t498" type="subject">camp</term> ever got their period.</p>
+                <p>After four weeks of quarantine, I was brought into the main <term ref="#t498" type="subject">camp</term> and assigned to <term
+                        ref="#t556" type="subject">work</term>. Our <term ref="#t556" type="subject">work</term> consisted mainly of carrying stones
+                    and shovelling clay, as well as loading and unloading <term ref="#t940" type="subject">waggons</term>. We <term ref="#t556"
+                        type="subject">worked</term> eleven hours a day, with a ten minute break at midday, when we were given a bowl of <term
+                        ref="#t832" type="subject">soup</term>. There were no spoons and the <term ref="#t832" type="subject">soup</term> was so hot,
+                    that we were often unable to <term ref="#t832" type="subject">eat</term> it in the time available to us. We were <term ref="#t480"
+                        type="subject">guarded</term> the entire time whilst we were <term ref="#t556" type="subject">working</term> by the <term
+                        ref="#t1216" type="subject">SS</term> with dogs, which they released on us, if we paused for even a moment to catch our
+                    breath. At 6pm, we marched back into the <term ref="#t498" type="subject">camp</term>, so deathly tired that one always tried to
+                    support the others. To that end, we had to sing marching <term ref="#t694" type="subject">songs</term> and march at a walking
+                    pace. If someone lagged behind a bit, the dog was set loose on them. At the <term ref="#t498" type="subject">camp</term> gates
+                    stood two <term ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">women</term> and a <term ref="#t483" type="subject">prisoner</term>, who counted us and
+                    occasionally one of us would be removed from the ranks and searched.</p>
+                <pb facs="EHRI-ET-WL16560158_09.jpg" n="9"/>
+                <p>We beside the unlucky ones who tried to <term ref="#t266" type="subject">smuggle</term> a <term ref="#t832" type="subject"
+                        >turnip</term> or a <term ref="#t832" type="subject">tomato</term> into the <term ref="#t498" type="subject">camp</term>. They
+                    would be <term ref="#t345" type="subject">battered</term> so badly until they were lying unconscious on the road: if they were
+                    lucky and could get themselves up out of the dust inconspicuously, the whole affair was over. If they stayed lying on the floor,
+                    they would be transported to the <term ref="#t501" type="subject">crematorium</term> and <term ref="#t534" type="subject"
+                        >gassed</term>.</p>
+                <p>The <term ref="#t498" type="subject">camp</term> was fogged day and night in a fatty, black smoke that came from the three chimneys
+                    of the <term ref="#t501" type="subject">crematorium</term>. The stench, which I became used to after several months, was so
+                    unbearable that I continually <term ref="#t292" type="subject">vomited</term>. It was the revolting, sweet stench of <term
+                        ref="#t516" type="subject">burnt flesh and hair</term>. Those primarily responsible for the <term ref="#t534" type="subject"
+                        >gassings</term> were: Dr. <persName ref="#p000272" type="ehri">Mengele</persName>, a young <term ref="#t826" type="subject"
+                        >man</term> whose pet fad it was to conduct <term ref="#t495" type="subject">experiments</term> on twins for his thesis on
+                    this subject; <persName ref="#ehri_et_klein_fritz" type="ehri">Dr. Klein</persName>, who was sentenced to <term ref="#t745"
+                        type="subject">death</term> at <term ref="#t1130" type="subject">trial</term> in <placeName ref="#landkreis-lueneburg"
+                        type="ehri">Lüneburg</placeName>; the <term ref="#t482" type="subject">camp commander</term>
+                    <persName ref="#p000228" type="ehri">Cramer</persName>, also <term ref="#t541" type="subject">executed</term>; and the <term
+                        ref="#t1216" type="subject">SS</term>
+                    <term ref="#t825" type="subject">women</term>
+                    <persName ref="#ehri_et_mandl_maria" type="ehri">Mandel</persName> and <persName ref="#ehri_et_dreschel_margot" type="ehri"
+                        >Drechsel</persName>. <persName ref="#ehri_et_mandl_maria" type="ehri">Mandel</persName> and <persName
+                        ref="#ehri_et_dreschel_margot" type="ehri">Drechsel</persName> were, as far as I am aware, never found, and are probably still
+                    at large.</p>
+                <p>The occupants of my <term ref="#t837" type="subject">barrack</term> consisted of <placeName ref="#repubblica-italiana" type="ehri"
+                        >Italian</placeName>, <placeName ref="#republic-of-france" type="ehri">French</placeName>, <placeName ref="#hellenic-republic"
+                        type="ehri">Greek</placeName> and <placeName ref="#republic-of-poland" type="ehri">Polish</placeName>
+                    <term ref="#t825" type="subject">women</term>. The hardiest <term ref="#t483" type="subject">prisoners</term> were the <placeName
+                        ref="#republic-of-poland" type="ehri">Poles</placeName> and <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russians</placeName>, whereas the <placeName ref="#hellenic-republic" type="ehri">Greeks</placeName> and <placeName
+                        ref="#repubblica-italiana" type="ehri">Italians</placeName>
+                    <term ref="#t745" type="subject">died</term> like flies. If they didn’t die a <q>natural</q>
+                    <term ref="#t745" type="subject">death</term> from <term ref="#t493" type="subject">typhus</term> or <term ref="#t494"
+                        type="subject">dysentery</term>, they were inevitably chosen at the <term ref="#t411" type="subject">selections</term>. They
+                    could not cope with the icy winter weather and suffered terribly from the symptoms of <term ref="#t292" type="subject"
+                        >frostbite</term>. At the end of <date when="1943">1943</date>, the <placeName ref="#federal-republic-of-germany" type="ehri"
+                        >German</placeName> Jews were practically non-existent: <pb facs="EHRI-ET-WL16560158_10.jpg" n="10"/> the <term ref="#t556"
+                        type="subject">work</term> was just too difficult for them and they were often taken straight from their place of <term
+                        ref="#t556" type="subject">work</term>, where they collapsed unconscious, to the <term ref="#t499" type="subject">gas
+                        chambers</term>.</p>
+                <p>The <term ref="#t482" type="subject">internal administration</term> of the <term ref="#t498" type="subject">camp</term>, namely
+                        <term ref="#t477" type="subject">block elders</term>, the <term ref="#t836" type="subject">clothing</term> store, <term
+                        ref="#t491" type="subject">sick bay</term>, <term ref="#t832" type="subject">kitchen</term>, <term ref="#t295" type="subject"
+                        >delousing</term> etc. was put solely in the hands of <term ref="#t483" type="subject">prisoners</term>, who were selected by
+                    the <term ref="#t1216" type="subject">SS</term> for this <term ref="#t556" type="subject">work</term>. Some of the <term
+                        ref="#t483" type="subject">prisoners</term> misused their preferential treatment, above all the so-called <term ref="#t485"
+                        type="subject">Kapos</term>, who were responsible for the <term ref="#t560" type="subject">labour units</term>. They were
+                    often <placeName ref="#federal-republic-of-germany" type="ehri">German</placeName>, non-Jewish <term ref="#t483" type="subject"
+                        >prisoners</term>, who were in the <term ref="#t498" type="subject">camp</term> for one of the following reasons: refusal to
+                        <term ref="#t556" type="subject">work</term>, prostitution or repeat offenders. We often suffered more under these <term
+                        ref="#t485" type="subject">prisoners</term> than under the <term ref="#t1216" type="subject">SS</term>, who at least concerned
+                    themselves with the internal affairs a little, whereas we relied on these <term ref="#t485" type="subject">prisoners</term> for
+                    matters of life and <term ref="#t745" type="subject">death</term>. They have the lives of lots of Jews, and non-Jews, on their
+                    conscience, as they wanted to distinguish themselves in front of the <term ref="#t1216" type="subject">SS</term> by violence
+                    towards us.</p>
+                <p>The <term ref="#t862" type="subject">mortality</term> rates in the <term ref="#t498" type="subject">camp</term> rose every winter
+                    at an alarming rate. First of all, the year-round <term ref="#t493" type="subject">typhus</term>
+                    <term ref="#t492" type="subject">epidemic</term> claimed a lot of <term ref="#t132" type="subject">victims</term>, as did <term
+                        ref="#t494" type="subject">dysentery</term> and finally exhaustion. Many committed <term ref="#t217" type="subject"
+                        >suicide</term> by throwing themselves at the high-voltage barbed wire, on which they would hang for the whole night, until
+                    their <pb facs="EHRI-ET-WL16560158_11.jpg" n="11"/>
+                    <term ref="#t515" type="subject">bodies</term> were removed from the wire in the morning.</p>
+                <p>Every morning before the <term ref="#t487" type="subject">roll call</term>, those who had <term ref="#t745" type="subject"
+                        >died</term> overnight were laid out before the <term ref="#t837" type="subject">barrack</term>, after they had been
+                    completely <term ref="#t836" type="subject">undressed</term>, then the <term ref="#t477" type="subject">block elders</term>, who
+                    were given their rapport by the <term ref="#t1216" type="subject">SS</term>, reported: two thousand standing, fifty <term
+                        ref="#t745" type="subject">dead</term>, two hundred <term ref="#t292" type="subject">sick</term>. The 200 <term ref="#t292"
+                        type="subject">sick</term>
+                    <term ref="#t483" type="subject">prisoners</term> were then sent off to the so-called <q><term ref="#t491" type="subject"
+                            >Revier</term></q>, the <term ref="#t491" type="subject">sick bay</term>, the next step being the <term ref="#t499"
+                        type="subject">gas chamber</term>.</p>
+                <p>Before my arrival into the <term ref="#t498" type="subject">camp</term>, I had never seen a <term ref="#t515" type="subject">dead
+                        body</term> before and I will never forget how, on the first day after my arrival, I stared disbelievingly at a pile of
+                    twisted limbs piled on top of each other, until it became clear to me that these were <term ref="#t745" type="subject">dead</term>
+                    <term ref="#t825" type="subject">women</term>. I soon got used to this sight, however and later <term ref="#t943" type="subject"
+                        >worked</term> in the <term ref="#t745" type="subject">Leichenkommando</term> for a while, in which it was my responsibility
+                    to load the naked <term ref="#t515" type="subject">bodies</term> onto a cart, which would then be driven into the <term
+                        ref="#t501" type="subject">crematorium</term>.</p>
+                <p>In conclusion, I would like to say that, for the individual <term ref="#t1207" type="subject">people</term>, the worst part of
+                    being in the <term ref="#t498" type="subject">camp</term> was the continual physical <term ref="#t555" type="subject"
+                        >humiliation</term> and the sense of complete hopelessness in facing their future. Many of us had no <term ref="#t829"
+                        type="subject">fear</term> left of being <term ref="#t534" type="subject">gassed</term> and hoped to <term ref="#t536"
+                        type="subject">die</term>. Those of us who still believed in <term ref="#t724" type="subject">God</term>
+                    <term ref="#t737" type="subject">prayed</term> every evening: <q>Dear <term ref="#t724" type="subject">God</term>, let us not wake
+                        up tomorrow.</q> No, the worst was to stand still, for hours on end, morning and evening in the piercing cold, and in summer
+                    in sweltering heat, until the entire <term ref="#t498" type="subject">camp</term> had been accounted for. Almost all of us
+                    suffered from chronic, <term ref="#t494" type="subject">bleeding dysentery</term>. However, it was strictly forbidden <pb
+                        facs="EHRI-ET-WL16560158_12.jpg" n="12"/> to go to the <term ref="#t295" type="subject">latrines</term> during the <term
+                        ref="#t487" type="subject">roll call</term>. The consequences of this ban were unavoidable and it was this degrading <term
+                        ref="#t555" type="subject">humiliation</term> that was a greater agony for many of us than the constantly smoking chimneys of
+                    the <term ref="#t501" type="subject">crematorium</term> in front of us. It was the realisation that we had all lost every sign of
+                    civilisation in a frighteningly short space of time. We did not <term ref="#t295" type="subject">wash</term> any more, as there
+                    was no <term ref="#t295" type="subject">water</term>, it was so icy cold and we were <term ref="#t295" type="subject"
+                        >lice-infested</term>, we <term ref="#t295" type="subject">stank</term>, our whole bodies were <term ref="#t292"
+                        type="subject">festering</term>, we threw ourselves like wild animals at a piece of <term ref="#t832" type="subject"
+                        >bread</term> and we <term ref="#t832" type="subject">drank</term> the <term ref="#t832" type="subject">water</term> from
+                    dirty puddles.</p>
+                <p>In the summer of <date when="1944">1944</date>, the first <placeName ref="#hungary" type="ehri">Hungarian</placeName><term
+                        ref="#t521" type="subject">transport</term> of Jews arrived in <placeName ref="#l0" type="camp">Auschwitz</placeName>. They
+                    arrived in such numbers that the <term ref="#t501" type="subject">crematorium</term> could no longer cope with the workload. We
+                    had to shovel enormous pits near to the <term ref="#t499" type="subject">gas chambers</term>. Those who had been <term ref="#t534"
+                        type="subject">gassed</term> were covered in petrol there and <term ref="#t516" type="subject">burnt out</term> in the open.
+                    Small <term ref="#t824" type="subject">children</term> were thrown into the flames alive. We could hear their screams right in the
+                    centre of the <term ref="#t498" type="subject">camp</term>. At this time, on command from <placeName ref="#berlin-stadt"
+                        type="ehri">Berlin</placeName>, the entire <term ref="#t514" type="subject">gypsy</term>
+                    <term ref="#t498" type="subject">camp</term>, which was next to our <term ref="#t498" type="subject">camp</term>, was <term
+                        ref="#t529" type="subject">exterminated</term>. Nobody <term ref="#t561" type="subject">survived</term>. They were all <term
+                        ref="#t534" type="subject">gassed</term>, although there were many perfectly <term ref="#t791" type="subject">healthy</term>
+                    young <term ref="#t826" type="subject">men</term> and <term ref="#t825" type="subject">women</term> in this <term ref="#t498"
+                        type="subject">camp</term>.</p>
+                <p>Shortly after the arrival of the last <placeName ref="#hungary" type="ehri">Hungarian</placeName>
+                    <term ref="#t521" type="subject">transport</term>, the <term ref="#t623" type="subject">evacuation</term> of the <term ref="#t498"
+                        type="subject">camp</term> began, as the <placeName ref="#union-of-soviet-socialist-republics" type="ehri">Russian</placeName>
+                    <term ref="#t1441" type="subject">front</term> was advancing at an alarming rate. The <term ref="#t499" type="subject">gas
+                        chambers</term> were blown up, so that the <placeName ref="#union-of-soviet-socialist-republics" type="ehri"
+                        >Russians</placeName> would not find them. On <date when="1944-10-10">10th October 1944</date>, I left the <term ref="#t498"
+                        type="subject">camp</term> of <placeName ref="#l0" type="camp">Auschwitz</placeName> with my sister and arrived a week later
+                    in the <term ref="#t496" type="subject">concentration camp</term> of <placeName ref="#l42" type="camp">Belsen</placeName>, after
+                    an eventful journey in a <term ref="#t522" type="subject">cattle wagon</term>. On <date when="1945-04-15">15th April 1945</date>
+                    we were <term ref="#t513" type="subject">released</term> by the <placeName ref="#england" type="ehri">English</placeName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

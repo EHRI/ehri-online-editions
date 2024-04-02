@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19380322b_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Telefonische Nachrichten an die Landesbehörde Brünn über die Vorgänge an der österreichischen Grenze, 22. März
+					1938</title>
+				<title xml:lang="en">Telephone messages to the Brno regional authority about events at the Austrian border, March 22, 1938</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002230">Mährisches Landesarchiv</repository>
+						<collection>B40 - Landesbehörde Brünn, Präsidium</collection>
+						<idno>Nr. 17886/1938, K. 292</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Mährisches Landesarchiv, B40 - Landesbehörde Brünn, Präsidium, Nr. 17886/1938, K. 292. <textLang mainLang="cs">Original auf
+						Tschechisch.</textLang></bibl>
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-03-22">22. März 1938</date>
+				<placeName>Brünn (Brno)</placeName>
+				<orgName>Landesbehörde Brünn</orgName>
+				<idno>EHRI-BF-19380322b</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<pb facs="EHRI-BF-19380322b_01.jpg" n="1"/>
+				<p>Die <term ref="#t1119" type="subject">staatliche Polizeibehörde</term> in <placeName ref="#jemnice">Jamnitz</placeName>:</p>
+				<p>Nichts Besonderes. Die Grenze wird weiterhin streng überwacht, die Wachen gehen angeblich nicht einmal zum <term ref="#t832"
+						type="subject">Mittagessen</term>, das ihnen zum Dienst gebracht wird. Am Tag patrouillieren Wachen einzeln, in der Nacht zu
+					viert, die in der Nacht einander zupfeifen. [...]</p>
+				<p>Die <term ref="#t1119" type="subject">staatliche Polizeibehörde</term> in <placeName ref="#breclav">Lundenburg</placeName>:</p>
+				<p rend="noindent">An der Grenze nichts Neues. Bis 7 Uhr morgens passierten 70 Personen mit einem <placeName ref="#republic-of-poland"
+						>polnischen</placeName> Durchgangs<term ref="#t1146" type="subject">visum</term>.</p>
+				<p>Die <term ref="#t1166" type="subject">Polizeidirektion</term> in <placeName ref="#cesky-tesin">Tschechisch</placeName>-<placeName
+						ref="#cesky-tesin">Teschen</placeName>:</p>
+				<p>59 Personen mit einem <placeName ref="#republic-of-poland">polnischen</placeName>
+					<term ref="#t1146" type="subject">Durchgangsvisum</term> passierten die Station <placeName ref="#petrovice-u-karvine"
+						>Petrowitz</placeName>. (Dem <term ref="#t1110" type="subject">Präsidium des Innenministeriums</term> mitgeteilt.)</p>
+			</div>
+		</body>
+	</text>
+</TEI>

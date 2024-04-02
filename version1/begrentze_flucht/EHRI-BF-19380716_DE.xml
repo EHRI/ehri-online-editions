@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:08+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380716_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vertrauliches Rundschreiben der Landesbehörde in Brünn über die Verhinderung der Einwanderung österreichischer
+                    Flüchtlinge</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Österreich</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002291">Staatsarchiv Brünn-Land</repository>
+                        <collection>A-1 Bezirksbehörde Brünn-Land, Presidium</collection>
+                        <idno>Nr. 735, Katalognr. 1274, K. 67</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Staatsarchiv Brünn-Land (Brno-venkov), A-1 Bezirksbehörde Brno-Land, Presidium, Nr. 735, Katalognr. 1274, K. 67. Vertraulich.
+                        <textLang mainLang="cs">Original auf Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Olmütz (Olomouc)</placeName>
+                        <location>
+                            <geo>49.59552 17.25175</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3069011/olomouc.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Olomouc"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Emigrant / Emigrantin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-302"/>
+                        </linkGrp></item>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                </list>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-07-16">16. Juli 1938</date>
+                <placeName>Brünn (Brno)</placeName>
+                <orgName>Dr. Polach, Landesbehörde Brünn</orgName>
+                <idno>EHRI-BF-19380716</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="fluechtlingspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<p> Zemský úřad v <placeName ref="http://www.geonames.org/3078610/brno.html"
+          >Brně</placeName>. </p>
+      <p>Čís. 13.175/I/1 </p> -->
+            <p>Betreff: <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Reichsdeutsche</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-302">Emigranten</term> - <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>, Verhinderung des Zuzuges in die
+                    <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>.</p>
+            <p>[...]</p>
+            <!--<p>V <placeName ref="http://www.geonames.org/3078610/brno.html"
+          >Brně</placeName> dne <date when="1938-07-16">16. července 1938</date>
+      </p>
+      <p>“Důvěrné”.</p> -->
+            <p>An alle Herren Kreishauptmänner, Herrn Bürgermeister der Stadt <placeName ref="http://www.geonames.org/3069011/olomouc.html"
+                    >Olmütz</placeName> und den Herren Vorstehern der staatlichen Polizeibehörden und Exposituren.</p>
+            <p>Fortwährend werden Nachrichten ermittelt, dass trotz der erwirkten Beschränkung beständig Emigranten aus dem ehem. <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>, vor allem <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-302">Emigranten</term>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischer</term> Herkunft, in die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> vordringen.</p>
+            <p>Deshalb sind unauffällige Kontrollen an Orten durchzuführen, die <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-302">Emigranten</term> dieser Art notorisch ansteuern und Personen zu
+                ermitteln, die unter Umgehung der erwirkten Beschränkungen hierher gelangt sind.</p>
+            <p>Gegen Personen, die mit dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">Grenzübertritt</term> die
+                entsprechenden Vorschriften verletzen, ist strafrechtlich vorzugehen und gleichzeitig zu ermitteln, auf welche Weise sie in die
+                    <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> gelangt sind.</p>
+            <p>Wurden sie, wie es nicht selten geschieht, von reichsdeutschen Organen an der Staatsgrenze abgeschoben und auf <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegalem Weg</term> in die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> geschickt, ist ein Protokoll mit ihnen anzufertigen und
+                dieses in vier Ausfertigungen hier vorzulegen.</p>
+            <p>Bei dieser Gelegenheit wird erneut betont, dass die Grenzbehörden die notwendigen Maßnahmen für das Ziel ergreifen sollten, jeden
+                Versuch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">des illegalen Übertritts der
+                    Staatsgrenzen</term> aus dem Gebiet des ehem. <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+                    >Österreich</placeName> in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> bereits an der
+                Staatsgrenze mit der Rückführung des lästigen Ausländers zu verhindern.</p>
+            <!-- <p>Za zemského presidenta: <persName>Dr. Polach</persName> v.r.</p> -->
+        </body>
+    </text>
+</TEI>

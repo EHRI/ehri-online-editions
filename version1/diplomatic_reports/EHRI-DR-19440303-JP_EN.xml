@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2019-05-11T13:33:08+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19440303-JP_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Consul Yamaguchi on the situation of Jews in Vienna</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials
+							(JACAR)</repository>
+						<collection>Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue]
+							B04013207600-10500. </collection>
+						<idno>12:2-6.</idno>
+					</msIdentifier>
+				</msDesc>
+				<bibl>Japan Center for Asia Historical Materials (JACAR), Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of
+					Nationalities: The Jewish Issue] B04013207600-10500, 12:2-6. <textLang mainLang="en">Original in Japanese.</textLang></bibl>
+				<list>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Persecution of mixed marriage partners</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-582"/>
+						</linkGrp></item>
+					<item><name>Jewish houses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-553"/>
+						</linkGrp></item>
+					<item><name>Mischlinge</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-374"/>
+						</linkGrp></item>
+				</list>
+				<listOrg>
+					<org>
+						<orgName>Deutsche Arbeitsfront</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-388"/>
+						</linkGrp>
+						<note><p>Founded in 1933-05-10</p><p>Founded in 1933-05-10, under the leadership of Dr. Robert Ley, the Deutsche Arbeitsfront
+								supplanted labor unions. This arm of the Nazi government comprised 20 million workers. Wages were frozen, strikes
+								prohibited, independent unions banned, and working conditions were controlled by the government.</p></note>
+					</org>
+				</listOrg>
+				<listPerson>
+					<person xml:id="ehri_dr_yamaguchi">
+						<persName>Yamaguchi</persName>
+					</person>
+					<person xml:id="ehri_dr_mamoru_shigemitsu">
+						<persName>Shigemitsu, Mamoru</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mamoru_Shigemitsu"/>
+						</linkGrp>
+						<note>
+							<p>Mamuro Shigemitsu (July 29, 1887 – January 26, 1957) – was a Japanese diplomat and politician in the Empire of Japan,
+								who served as the Japanese Minister of Foreign Affairs at the end of World War II.</p>
+						</note>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mamoru_Shigemitsu"/>
+						</linkGrp>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tokyo</placeName>
+						<location>
+							<geo>35.6895 139.69171</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/1850147/tokyo.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Tokyo"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-03-03">March 3, 1944</date>
+				<placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>
+				<persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName>
+				<idno>EHRI-DR-19440303-JP</idno></creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>From: Consul <persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName> (<placeName ref="http://www.geonames.org/2761369/vienna.html"
+					>Vienna</placeName>)</p>
+			<p>To: Foreign Minister <persName ref="#ehri_dr_mamoru_shigemitsu">Shigemitsu Mamoru</persName> (<placeName
+					ref="http://www.geonames.org/1850147/tokyo.html">Tokyo</placeName>)</p>
+			<p>
+				<date when="1944-02-29">Since 29</date>th of last month, the control of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> has become even harsher. </p>
+			<p> The following is what we learned in extreme confidentiality. Those who <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-582" type="subject">married Jews</term> are confined to<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject"> certain houses</term>; Those with <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">mixed Jewish blood</term> are not allowed to join the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-388">Arbeitsfront</orgName> or are <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">expelled</term> from it.</p>
+		</body>
+	</text>
+</TEI>

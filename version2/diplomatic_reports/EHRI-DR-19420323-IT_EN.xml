@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DR-19420323-IT_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Casto Caruso on “the concentration of Jews” in Theresienstadt in 1942</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
+							Affari Esteri</repository>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, AG Uff IV, Posizione S.E. 27.869, busta A-B, fasc. Boemia e
+					Moravia. <textLang mainLang="en">Original in Italian.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1942-03-23">23.3.1942</date>
+				<placeName ref="#prague">Prague</placeName>
+				<persName ref="#ehri_dr_caruso_casto">Caruso, Casto</persName>
+				<idno>EHRI-DR-19420323-IT</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<!--<p>EHRI-DR-19420323-IT_EN</p>
+      <p>Report of the Italian Consul General in Prague, Casto Caruso, to the Ministry of Foreign
+        Affairs in Rome and the Italian Embassy in Berlin.</p>
+      <p>Cable No. 756/179</p>
+      <p>R. Consulate General of <placeName
+          ref="#italian-republic">Italy</placeName></p>-->
+				<pb facs="EHRI-DR-19420323-IT.jpg" n="1"/>
+				<p>Addressed to R. <orgName ref="#g005042">Ministry of Foreign Affairs</orgName>, <placeName ref="#rome">Rome</placeName></p>
+				<p>R. Embassy of Italy, <placeName ref="#berlin">Berlin</placeName></p>
+				<p>M <persName ref="#p000287">Mussolini</persName></p>
+				<p><placeName ref="#prague">Prague</placeName>, <date when="1942-03-23">23th March 1942</date>. XX</p>
+				<p>Re: <term ref="#t614" type="subject">Concentration of Jews</term>.</p>
+				<p>I have the honour to inform that an important decree concerning the <term ref="#t575" type="subject">transfer</term> of <term
+						ref="#t864" type="subject">Jews</term> to a location in the <placeName ref="#l64">Protectorate</placeName> (<placeName
+						ref="#l29">Theresienstadt</placeName>) has been published in the Collection of Laws and Decrees of the <ref
+						target="https://portal.ehri-project.eu/keywords/admindistricts-212">Reichsprotektor</ref>. With this <term ref="#t542"
+						type="subject">measure</term> the <term ref="#t872" type="subject">Jewish element</term> will be definitively isolated from
+					the remaining <term ref="#t373" type="subject">Aryan</term> population.</p>
+				<p>Of course, <placeName ref="#l29">Theresienstadt</placeName> will have to be vacated by <term ref="#t373" type="subject"
+						>Aryan</term> citizens. The <ref target="https://portal.ehri-project.eu/keywords/admindistricts-212">Reichsprotektor’s</ref>
+					decree deals with this <term ref="#t585" type="subject">problem</term> and rules that no <term ref="#t373" type="subject"
+						>Aryan</term> person transferred elsewhere shall suffer any <term ref="#t945" type="subject">material</term> loss. All <term
+						ref="#t373" type="subject">Aryans</term> living in the area chosen for the <placeName ref="#l64">Protectorate’s</placeName>
+					<term ref="#t864" type="subject">Jewish</term>
+					<term ref="#t545" type="subject">ghetto</term> will have their losses refunded and will be <term ref="#t1039" type="subject"
+						>transferred</term> elsewhere in an appropriate manner. Clearly, despite this measure, those who are to be transferred will
+					have to bear some sacrifices for the benefit of all.</p>
+				<p>The local <term ref="#t341" type="subject">press</term> emphasizes that these sacrifices will in any case be largely offset by the
+					huge advantages that cleansing the <placeName ref="#l64">Protectorate</placeName> of <term ref="#t864" type="subject">Jews</term>
+					will provide to the entire <placeName ref="#czechoslovakia">Czech</placeName>
+					<term ref="#t373" type="subject">Aryan</term> population.</p>
+				<p>I enclose a full translation of the <ref target="https://portal.ehri-project.eu/keywords/admindistricts-212"
+						>Reichsprotektor’s</ref> decree.</p>
+				<p><persName ref="#ehri_dr_caruso_casto">Caruso</persName></p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-12-02T23:04:40+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19421116-US_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Samuel W. Honaker on the anti-Jewish laws implemented in Bulgaria in 1942</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
+							II</repository>
+						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Bulgaria 1910-1944, Washington,
+							1982 (Microfilm)</collection>
+						<idno>Doc. 874.4016/ill.</idno>
+					</msIdentifier>
+				</msDesc>
+				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of
+					Bulgaria 1910-1944, Washington, 1982 (Microfilm): <idno>Doc. 874.4016/ill.</idno>
+					<textLang mainLang="en">Original in English.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Istanbul</placeName>
+						<location>
+							<geo>41.01384 28.94966</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/745044/istanbul.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Istanbul"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sofia</placeName>
+						<location>
+							<geo>42.69751 23.32415</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/727011/sofia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Sofia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bulgaria</placeName>
+						<location>
+							<geo>42.66667 25.25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/732800/republic-of-bulgaria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bulgaria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Belgrade</placeName>
+						<location>
+							<geo>44.80401 20.46513</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/792680/belgrade.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Belgrade"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Registration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1136"/>
+						</linkGrp></item>
+					<item><name>Labour Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish legislation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-335"/>
+						</linkGrp></item>
+					<item><name>Christians of Jewish Origin</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-804"/>
+						</linkGrp></item>
+					<item><name>Marking of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-338"/>
+						</linkGrp></item>
+					<item><name>Confiscation of Property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Jewish Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Berufsverbot</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-608"/>
+						</linkGrp></item>
+					<item><name>Jewish Hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-870"/>
+						</linkGrp></item>
+					<item><name>Roman Catholic Church</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-767"/>
+						</linkGrp></item>
+					<item><name>Attitude of the Local Population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-813"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Jewish Communities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-872"/>
+						</linkGrp></item>
+					<item><name>Concentration Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_honaker_samuel">
+						<persName>Honaker, Samuel W.</persName>
+						<note>
+							<p><note>
+									<p>Samuel Wiliam Honaker (March 14, 1887 – March 21, 1966) was an American football player and coach and consul
+										general. </p></note>
+								<linkGrp>
+									<link type="desc" target="https://en.wikipedia.org/wiki/Sam_Honaker"/>
+								</linkGrp></p></note>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1942-08-29">August 29, 1942</date>
+				<placeName ref="http://www.geonames.org/745044/istanbul.html">Istanbul</placeName>
+				<persName ref="#ehri_dr_honacker_samuel_w.">Honaker, Samuel W.</persName>
+				<idno>EHRI-DR-19421116-US</idno></creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="8" facs="R 87-11 17 (35)"/>
+			<p><!--Samuel W. Honaker, Transmitting Bulgarian Anti-Jewish Law of August 29, 1942, with Comments, Istanbul, 16.11.1942, S. 8. Records of the Department of State relating to internal affairs of Bulgaria 1910-1944, Washington 1982 (Mikrofilm-Edition): Dokument 874.4016/???.--></p>
+			<p>„Reports received from <placeName ref="http://www.geonames.org/727011/sofia.html">Sofia</placeName> on <date when="1942-11-13">November
+					13, 1942</date>, indicate that this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">law</term>
+				is being rigorously enforced. Previous reports that there was some lenity in the enforcement of the law applied only to a small number
+				of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-804" type="subject">Christian Jews</term> with regard to wearing the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Star of David</term>. Also some postponement was
+				found necessary due to the physical impossibility of moving so many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jews</term> into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>ghetto</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deporting</term> them at one
+				time. A prominent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">Jewish surgeon</term> arrived in
+					<placeName ref="http://www.geonames.org/745044/istanbul.html">Istanbul</placeName> from<placeName
+					ref="http://www.geonames.org/727011/sofia.html"> Sofia</placeName> on <date when="1942-11-12">November 12</date> after having been
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-608" type="subject">deprived of his right to practice his
+					profession</term>. He owned and operated a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-870" type="subject"
+					>hospital and clinic</term>, which is forbidden to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jews</term> in accordance with Article 33 of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335"
+					type="subject">Law</term>. All his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject"
+					>property</term> was taken away from him. Actually this man is a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-767">Catholic</term> and has been such for thirty-five years. He declared
+				that the reason for his severe treatment is the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-813" type="subject"
+					>jealousy</term> of <term ref="#ehri_dr_nationalities_bulgarians">Bulgarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">surgeons and doctors</term> who take this means of
+				ridding themselves of competition.</p>
+			<p>As has already been mentioned several thousand <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term> are now in the process of being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject"
+					>deported</term> from <placeName ref="http://www.geonames.org/727011/sofia.html">Sofia</placeName>. Where they will be sent is not
+				known. They are supposed to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> to
+				towns and villages in <placeName ref="http://www.geonames.org/732800/republic-of-bulgaria.html">Bulgaria</placeName> but some high
+				placed persons believe many of them will be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject"
+					>deported</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. Some think they
+				will be put in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term> inside of
+					<placeName ref="http://www.geonames.org/search.html?q=bulgarien&amp;country=">Bulgaria</placeName> where many will eventually die
+				of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">disease</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">starvation</term>. Others, including the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">surgeon</term> referred to above, think that a large
+				proportion of them will be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term>, as they have
+				been in <placeName ref="http://www.geonames.org/792680/belgrade.html">Belgrade</placeName> and other cities. In any case, the content
+				of the law, together with the severity with which it is being enforced show that its purpose is the complete destruction of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish community</term> in <placeName
+					ref="http://www.geonames.org/727011/sofia.html">Sofia</placeName>.“</p>
+		</body>
+	</text>
+</TEI>

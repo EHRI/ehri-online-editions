@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL16560023_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Miss X, experiences in an Organisation Todt forced labour camp, including sexual coercion</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 23. <textLang
+						mainLang="en">Original in English.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Wrocław</placeName>
+						<location>
+							<geo>51.1 17.03333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3081368/wroclaw.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Breslau"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Czech Republic</placeName>
+						<location>
+							<geo>49.75 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3077311/czechia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Czech_Republic"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>London</placeName>
+						<location>
+							<geo>51.50853 -0.12574</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2643743/london.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/London"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>England</placeName>
+						<location>
+							<geo>52.16045 -0.70312</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6269131/england.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/England"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Education</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-842"/>
+						</linkGrp></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-924"/>
+						</linkGrp></item>
+					<item><name>Sexual activities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-838"/>
+						</linkGrp></item>
+					<item><name>Marriages</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-741"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Intelligence</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1090"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Mixed marriages</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-375"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Conversion to Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-744"/>
+						</linkGrp></item>
+					<item><name>Protestant Churches</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-770"/>
+						</linkGrp></item>
+					<item><name>Religion and faith</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-724"/>
+						</linkGrp></item>
+					<item><name>Conversion (religious)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-742"/>
+						</linkGrp></item>
+					<item><name>Christianity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-763"/>
+						</linkGrp></item>
+					<item><name>Decrees and orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-951"/>
+						</linkGrp></item>
+					<item><name>Persecution of Christians of Jewish origin</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-648"/>
+						</linkGrp></item>
+					<item><name>Discrimination of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-332"/>
+						</linkGrp></item>
+					<item><name>Mischlinge</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-374"/>
+						</linkGrp><note><p>A Nazi term for people of mixed descent.</p></note></item>
+					<item><name>Concern for relatives and friends</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-196"/>
+						</linkGrp></item>
+					<item><name>Racism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-328"/>
+						</linkGrp></item>
+					<item><name>National Socialism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-381"/>
+						</linkGrp></item>
+					<item><name>Politics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-947"/>
+						</linkGrp></item>
+					<item><name>Anti-Nazi activity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-178"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>National socialist parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-360"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Dismissal from work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-665"/>
+						</linkGrp></item>
+					<item><name>Clergy</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-731"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Nazi indoctrination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-367"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish signs</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-340"/>
+						</linkGrp></item>
+					<item><name>Foreign citizens</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1149"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Sanitation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-295"/>
+						</linkGrp></item>
+					<item><name>Uniforms</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1091"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Men camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-507"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Wachmaenner (Camp guards)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-480"/>
+						</linkGrp></item>
+					<item><name>Homosexuals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-859"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_kahn_l_j">
+						<persName>Kahn, L. J.</persName>
+					</person>
+					<person xml:id="ehri_et_krimke_female">
+						<persName>Krimke (mother of narrator)</persName>
+					</person>
+					<person xml:id="ehri_et_krimke">
+						<persName>Krimke (stepfather of narrator)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Organization Todt</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-433"/>
+						</linkGrp>
+						<note><p>Organization Todt formed Nazi-sponsored, paramilitary labor battalions. This German military organization was
+								dedicated to heavy construction and utilized concentration camp labor. OT also operated in the rearguard of
+								Einsatzgruppen activity. It was headed by Dr. Fritz Todt until his death in 1942.</p></note>
+					</org>
+					<org>
+						<orgName>International Committee of the Red Cross</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-419"/>
+						</linkGrp>
+						<note><p>1863/present</p><p>The International Committee of the Red Cross was founded in 1863 as a humanitarian organization to
+								moderate between belligerents and to monitor application of humanitarian international law. This body was charged to
+								oversee humane conditions in POW camps among civilian internees during wartime, but gained limited access to
+								concentration camps. With the exception of two visits to Dutch inmates interned at Buchenwald in 1940, and the
+								inspection of Theresienstadt at the behest of the Danish government (where they were fooled in by the SS in 1944), the
+								Red Cross was never able to enter concentration camps until late in the war. The ICRC did not take great initiatives
+								to intervene on behalf of the Jews for fear losing its credibility with the Axis Powers, thus losing its position to
+								work on behalf of POWs and civilian internees. In 1995, ICRC president, Cornelio Sommaruga, finally admitted his
+								agency’s inaction during the Holocaust.</p></note>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1955">1955</date>, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">Forced
+					labour</term>
+				<idno>EHRI-ET-WL16560023</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of “Miss X”, whose mother was “Aryan” and whose father was Jewish. Her parents divorced for personal reasons and her
+					mother married an “Aryan”. She describes her school, not being allowed to go to university, having to absolve a “Pflichtjahr”, a
+					year of compulsory work introduced by the Nazis, and the bureaucracy around being a “Mischling”. She was taken to a forced labor
+					camp outside Breslau to dig defense ditches, where however nobody worked very hard.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-WL16560023_01.jpg"/>
+			<p>EW 3 3362-3367</p>
+			<p>MASTER - INDEX (P - SCHEME)</p>
+			<p>1. Index Number: P IIIe Nr. 23</p>
+			<p>2. Title of Document: - - -</p>
+			<p>3. Date:</p>
+			<p>4. Number of pages: 5</p>
+			<p>Language: English</p>
+			<p>5. Author or Source: Miss X.</p>
+			<p>6. Recorded by: <persName ref="#ehri_et_kahn_l_j">L.J. Kahn</persName></p>
+			<p>7. Received: <date when="1955-04">April 1955</date></p>
+			<p>8. Form and Contents: Miss X. was living with her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+					>Aryan</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> and Nazi <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">stepfather</term> in <placeName
+					ref="http://www.geonames.org/3081368/wroclaw.html">Breslau</placeName>; had on the whole no unpleasant personal experience. School
+					(<date when="1941">1941</date> last year of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject"
+					>Abiturium</term> for <q>Non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term></q>).
+					<q>Pflichtjahr</q> (instead of six months’ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Labour Service</term>). <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">Ration</term> cards had
+				to be fetched from special centre for every household with a Non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+					type="subject">Aryan</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">food
+					restriction</term> which was compromising.</p>
+			<p>She had to leave a position as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">shop
+					assistant</term> in a music shop, because it would bring her into contact with the general public.</p>
+			<p>In <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">forced labour</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>: <foreign xml:lang="de"><orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation Todt</orgName></foreign>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject"><foreign xml:lang="de">Unternehmen</foreign>
+					Berthold</term>; unpleasant circumstances; author states cynical outlook on <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-838" type="subject">sexual</term> behaviour.</p>
+			<p>She had a chance of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marrying</term> an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term>
+				<placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName>, i.e. <q>a <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> of inferior nationality</q>, since her
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> had not received a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">University</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term>; thus little risk of her
+				transmitting <q>Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1090" type="subject">intelligence</term></q> to
+				her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>.</p>
+			<p>Miss X. is now living in <placeName ref="http://www.geonames.org/2643743/london.html">London</placeName> with her Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term>.</p>
+			<p>9. References: Kirchenrätin Viebig. - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">Marriage</term>
+					laws.<note type="gloss">Non - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term>
+						(<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marriage</term> restrictions)</note></p>
+			<pb n="2" facs="EHRI-ET-WL16560023_02.jpg"/>
+			<p>Report by <persName ref="ehri_et_kahn_l_j">L. J. Kahn</persName>.</p>
+			<p>Interview with Miss X. The interview took place on <date when="1954-11-03">3.11.1954</date>, partly in <placeName
+					ref="http://www.geonames.org/6269131/england.html">English</placeName>, partly in <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>.</p>
+			<p>Miss X was born at <placeName ref="http://www.geonames.org/3081368/wroclaw.html">Breslau</placeName> in <date when="1923-06">June
+					1923</date>. Her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> is Jewish, her
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term>
+				<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q>. Her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> separated, for purely private reasons,
+				in <date when="1930">1930</date> and were divorced in <date when="1934">1934</date>. Miss stayed with her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> who, shortly afterwards, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">married</term> an <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q>. Mr. <persName
+					ref="#ehri_et_krimke">Krimke</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigrated</term> to <placeName
+					ref="http://www.geonames.org/6269131/england.html">England</placeName> in <date when="1938">1938</date>. Miss <persName
+					ref="#ehri_et_krimke_female">Krimke</persName> joined her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">father</term> there after the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject"
+					>war</term>.</p>
+			<p>Miss X</p>
+			<p>First of all I should like to point out that in some respects my story is not a typical one. The fact that I was living in an entirely
+				non-Jewish household, am of <q>Nordic</q> appearance, and was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-744"
+					type="subject">converted</term> in <date when="1933-06">June 1933</date> from my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father’s</term> Jewish to my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-770" type="subject">Protestant</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-724" type="subject">faith</term> probably saved me a great deal of
+				unpleasantness. Neither my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> nor my
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> are strict in their respective
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-724" type="subject">religions</term>, and my early <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-724" type="subject">religious</term> upbringing had been correspondingly
+				liberal; so that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-742" type="subject">conversion</term> itself, as
+				far as I can remember, made little impression on me. The practical significance, however, became soon apparent:</p>
+			<p>At that time I attended a private <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school</term> with
+				a large number of Jewish pupils. Towards the end of <date when="1933">1933</date> the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">classes</term> were separated into a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject">Christian</term> and a Jewish section. This was done,
+				I believe, not on official <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">orders</term>, but the
+				initiative of the Headmaster. I was at first put into the Jewish section. It was the first time that I was made to realize the problem
+				of my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-648" type="subject">part-Jewish</term> parentage, and I remember
+				that I was very upset. My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> protested to
+				the Headmaster, and I was transferred to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-763" type="subject"
+					>Christian</term> section.</p>
+			<p>Apart from this incident, my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school-life</term> was
+				quite happy when I was twelve I changed over to a <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134"
+						type="subject">Lyzeum</term></q>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject"
+					>school</term> kept as far as possible to its liberal traditions. The teachers showed no <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">discrimination</term> against me, although they all
+				learned sooner or later that I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"
+					>half-Jewish</term>. In fact, at a time when my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>work</term> was seriously affected by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-196" type="subject"
+					>worry</term> about my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> in
+					<placeName ref="http://www.geonames.org/2643743/london.html">London</placeName>, my Latin mistress went out of her way to be
+				sympathetic and helpful. There was only one master who evidenced animosity towards me, and I have no doubt this was from <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-328" type="subject">racial prejudice</term>.</p>
+			<pb n="3" facs="EHRI-ET-WL16560023_03.jpg"/>
+			<p>In such lessons as <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, history and
+				geography we were taught an exaggerated patriotism rather than specifically <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-381" type="subject">National Socialist</term> doctrines. I cannot recall
+				any direct anti-Jewish observations Jewish achievements were simply not mentioned. The names of Spinoza, Ehrlich, Offenbach and
+				Einstein - to gave but a few examples - were unknown to me until I came to <placeName
+					ref="http://www.geonames.org/6269131/england.html">England</placeName> after the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>.</p>
+			<p>I was the only <q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q> in my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">class</term>. There were some other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Jewish</term> girls in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school</term> and I learnt from hearsay that their
+				position was sometimes difficult. Personally, I can only say that I was always on excellent terms with my class-mates. My <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">class</term> may have been exceptional in that it
+				contained not a single ardent Nazi. At first my fellow pupils did not know of being <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Jewish</term>. When somebody told them they
+				decided, as I learnt later, to hide their knowledge from me in order to spare me any embarrassment. We were altogether not greatly
+				interested in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-947" type="subject">politics</term>.</p>
+			<p>I passed my <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Abitur</term></q> in <date when="1941"
+					>1941</date>, the last year when <q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+						>Aryans</term></q> were allowed to do so. It was then that I was faced with my first real difficulties.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-947" type="subject">Politics</term> had entered into my home life earlier
+				and more forcefully. My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> was a violent
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-178" type="subject">anti-Nazi</term>. She talked very freely, and I
+				was in constant fear that she would be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject"
+					>arrested</term>. My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">step-father</term> was a
+				Nazi of the idealistic type, who expected wonderful things of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+					type="subject">Third <foreign xml:lang="de">Reich</foreign></term>. There were frequent and sometimes rather violent political
+				arguments between him and my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term>. About
+				Jews he seemed to have no strong feelings either for and against, and he always treated me as if were his own daughter. He had been a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject">Party member</term>, but although he had been
+				told that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject">Party</term> would not object to his
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marrying</term> the former wife of a Jew, and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> of a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Jewish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term>, he was afterwards put under pressure
+				to leave the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject">Party</term>. My presence caused a
+				number of problems, especially after the outbreak of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080"
+					type="subject">war</term>. I particularly remember the problem of ration stamps:</p>
+			<p>As a rule, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">ration</term> stamps were distributed into
+				the households by the street warden; but Jews and non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+					type="subject">Aryans</term> had to collect them personally from a special Centre. This applied also to every member of a
+				household which contained a non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term>. To be
+				seen regularly at this Centre for Jews and non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+					>Aryans</term> would have gravely endangered my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>step-father’s</term> position in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>firm</term> which <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employed</term> him. He
+				finally managed to obtain dispensation from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject"
+					>rule</term>, but we were still obliged to collect our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834"
+					type="subject">ration</term> stamps</p>
+			<pb n="4" facs="EHRI-ET-WL16560023_04.jpg"/>
+			<p>from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Food</term> Office direct, and were not
+				granted occasional extra <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">rations</term> like the
+				rest of the population. This and similar difficulties are trifling in retrospect, but seemed very important at the time and made me
+				disturbingly aware of my inferior status in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+					>Third <foreign xml:lang="de">Reich</foreign></term>.</p>
+			<p>This feeling increased with the problems which arose on my leaving <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134"
+					type="subject">school</term>. I had set my heart on a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134"
+					type="subject">University</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term>, but one could not be enrolled at a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Univerity</term> before having completed the
+				six months’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Labour Service</term> (<q><foreign
+						xml:lang="de">Arbeitsdienst</foreign></q>), from which <q>non-<term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term></q> were excluded. Instead, we had
+				to complete a Year of Duty (<q><foreign xml:lang="de">Pflichtjahr</foreign></q> at some place where there was urgent need for a
+				servant, as in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term> with many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. In my first service of this kind I
+				did not mention that I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Jewish</term>; when
+				my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employer</term> was informed of it, I was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-665" type="subject">dismissed</term>. I finished my Year of Duty in the
+				service of the wife of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-770" type="subject">Protestant</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-731" type="subject">cleric</term>, <foreign xml:lang="de">Kirchenrätin
+					Viebig</foreign>. She was markedly pro-Jewish, keeping up contact, at great risk to herself, with her Jewish friends until these
+				were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term>. I was treated more as a friend
+				of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term> than as a servant. During that
+				time 9 made several further application for admittance into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+					type="subject">Labour Service</term>. I even went so far as to suggest that I was the illegitimate <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term> of an <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term>. I did not succeed.</p>
+			<p>I felt very bitter about the whole situation in a quite childishly self-centred way. I blamed my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> for having <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">married</term> a Jew, and several times even told her
+				so to her face. It was not that I experienced any conflict of loyalties or felt <q>tainted</q> by my Jewish blood. I simply resented
+				the fact that I was under a special handicap; most of all, that I could not start a career to which I felt my talents and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term> entitled me. Inconsistently, perhaps,
+				this did not affect feelings towards my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>father</term>. I had always been on most affectionate terms with him. From the time when my parents separated up to the time of
+				his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigration</term> I had visited him regularly.
+				Shortly before the outbreak of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> I spent a
+				holidays with him in <placeName ref="http://www.geonames.org/2643743/london.html">London</placeName>, and even considered for a while
+				joining him there permanently. All through the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject"
+					>war</term> I tried to obtain news from him though the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">Red
+					Cross</orgName>.</p>
+			<p>My social relations with other young people were less problematic than the official <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">discrimination</term> against <q>non-<term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term></q> would lead one to expect. None
+				of my old friends changed her or his attitude. Whenever I met a young <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> who seemed to take an illegible interest in
+				me I told him at once that I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Jewish</term>.
+				I rather enjoyed the special implications. I considered such firendships and flirtations as proof that my personal attractions
+				were</p>
+			<pb n="5" facs="EHRI-ET-WL16560023_05.jpg"/>
+			<p>stronger than the influence of official disapproval. Generally speaking, I found that at least in the circles in which I moved the
+				younger generation took <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-367" type="subject">Nazi doctrines</term> far
+				less seriously than their elders. The interest of my friends was mainly limited to their personal affairs; they were rather cynical in
+				their attitude to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-947" type="subject">politics</term> and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>.</p>
+			<p>The one exception I remember was, curiously enough, a <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName>
+				with whom I formed a serious attachment. He had pronounced <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-340"
+					type="subject">anti-Jewish</term> feeling, and at first I could not find the moral courage to tell him that my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> was Jewish. When I told him eventually,
+				he got over the shock after having wrestled with the problem, as he told me, for a whole sleepless night. Our friendship continued,
+				and at one stage we seriously considered <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject"
+					>marrying</term>. This brought <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> to me
+				the paradox of my position in regard to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject"
+					>marriage</term>: as a <q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q> I
+				could <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marry</term> neither a Jew nor an <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q> without special permission; and
+				as a <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> I was not allowed to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marry</term>, or have intimate relations with, a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> of <q>inferior</q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">foreign nationality</term>. In fact, I was
+				frequently warned that I had been seen in the company of this <placeName ref="http://www.geonames.org/3077311/czechia.html"
+					>Czech</placeName>, and that this might get me into trouble.</p>
+			<p>It did not come to a formal application for permission to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741"
+					type="subject">marry</term>, but once I made a general enquiry as to my chances of being allowed to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marry</term> an <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q>. The official in charge of
+						<q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q> affairs in
+					<placeName ref="http://www.geonames.org/3081368/wroclaw.html">Breslau</placeName> told me that my chances were fairly good, since
+				neither my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> himself nor a member of his
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> had received a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">University</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term>; thus there was little risk of my
+				transmitting <q>Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1090" type="subject">intelligence</term></q> to
+				my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. On that occasion I learnt that a
+				strict watch was kept on all <q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+					>Aryans</term></q>. The official knew practically everything about my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> affairs, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>, friendships etc.</p>
+			<p>After the completion of my <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Year of Duty</term></q>
+				I found it difficult, as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Jewess</term>, to
+				find suitable <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employment</term>. I was not allowed
+				to finish a course in shorthand-typing at the [<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject"
+							><foreign xml:lang="de">Städtische Handelsschule</foreign></term></q>]. I had to leave a congenial position as <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">shop assistant</term> in a music shop, because
+						<q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term></q> were forbidden
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employment</term> which would bring them into
+				contact with the general public. I applied for a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>job</term> in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> owned by an old
+				friend of my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father's</term>. At first he did not
+				dare take me on because, having a <q>non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+						>Aryan</term></q> wife, he was himself in a delicate position. But when I was sent to him a little later through the official
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employment</term> exchange, he engaged me as a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">typist</term>. I had no difficulties with my
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">fellow-workers</term> in the office.</p>
+			<p>In <date when="1944-08">August 1944</date> I was drafted into a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508"
+					type="subject">labour camp</term> of the</p>
+			<pb n="6" facs="EHRI-ET-WL16560023_06.jpg"/>
+			<p><foreign xml:lang="de"><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation Todt</orgName></foreign>,
+						<q><foreign xml:lang="de">Unternehmen</foreign> Berthold</q>, about 20 miles from <placeName
+					ref="http://www.geonames.org/3081368/wroclaw.html">Breslau</placeName>. We numbered approximately 150 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term>, for the greater part <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> of mixed <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marriages</term>, like myself (though there were also
+				some <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></q> and a few Jewesses who
+				somehow had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrest</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term> before them). divided into 5
+				groups. Some <q>Nordic</q>-looking <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term>,
+				including myself, were picked out to be group leaders.</p>
+			<p>We were made to dig fortifications, but supervision was rather lax and we did not overwork ourselves. Our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">accommodation</term>, first in a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barn</term>, later on the dance floor of a country
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">inn</term>, was primitive, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> bad and insufficient, and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">sanitary</term> arrangements shocking. Our guards,
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">uniformed</term> members of the <q><orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-433"><foreign xml:lang="de">Organisation Todt</foreign></orgName></q>
+				were unpleasant, but there was no physical <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject"
+					>violence</term>. Frequent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">beatings</term>,
+				however, occurred in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-507" type="subject">men’s camp</term> near-by,
+				as we learnt from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> when we met them at
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>. Our daily <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll calls</term> were perfunctory, and some of us
+				went several times secretly to <placeName ref="http://www.geonames.org/3081368/wroclaw.html">Breslau</placeName> for a day. We did not
+				try to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> altogether, as we feared that
+				reprisals would be taken against those left behind.</p>
+			<p>Almost from the beginning we developed a strong spirit of solidarity. Personally, I acquired for the first time a positive attitude
+				towards the Jewish part of my life. Previously I had felt the kind of <q>Jewish <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">antisemitism</term></q> which, I believe, was
+				often found in some sections of <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				Jewry. This feeling I lost completely through the intimate contact with the other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">camp inmates</term>, some of whom had physically and
+				mentally strong Jewish characteristics. Without that experience, I doubt that later on I would have made the decision to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigrate</term> to <placeName
+					ref="http://www.geonames.org/6269131/england.html">England</placeName> and live with my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term>.</p>
+			<p>Some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term> - very few - tried to curry favour
+				with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-480" type="subject">guards</term> and slept with them. They
+				were boycotted by the rest of us. Their behaviour was considered treacherous. There was no objection to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-838" type="subject">sexual</term> misbehaviour, as such including <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-859" type="subject">Lesbian</term> practices, of which there was a great
+				deal. Generally speaking, the outlook on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-838" type="subject"
+					>sexual</term> behaviour amongst my contemporaries had become completely cynical under the Nazi regime, especially during the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>.</p>
+			<p>When towards the end of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Russian army</orgName> had advanced to within hearing distance of
+				our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>, I and a number of other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term> made our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>. This was not difficult, as by that time
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-480" type="subject">guards</term> were already demoralised and
+				hardly tried to maintain control.</p>
+		</body>
+	</text>
+</TEI>

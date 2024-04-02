@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-YV5245989_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Rosa Friedfertig and Koppel Friedfertig, experiences during the deportation of the Polish Jews from Hamburg,
+                    October 1938</title>
+                <title xml:lang="fr">Rosa Friedfertig et Koppel Friedfertig, expériences lors de la déportation des Juifs polonais de Hambourg,
+                    octobre 1938</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Judith Levin</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Daphna Sehayek</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>Har Hazikaron</street>
+                                <postCode>P.O.B. 3477</postCode>
+                                <settlement>Jerusalem</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/il">Israel</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/il-002798-o_1">The Ball-Kaduri Collection: Contemporary testimonies and
+                            reports regarding the Holocaust of the Jews of Germany and Central Europe, 1943-1960 (O.1)</collection>
+                        <idno>file no. 5245989</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Yad Vashem Archives, The Ball-Kaduri Collection: Contemporary testimonies and reports regarding the Holocaust of the Jews of
+                    Germany and Central Europe, 1943-1960 (O.1), file no. 5245989.<textLang mainLang="de">Original in German.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1944-11">November 1944</date>, <placeName ref="#hamburg">Hamburg</placeName>, <placeName ref="#l1346" type="camp"
+                    >Neu-Bentschen</placeName>, <placeName ref="#zbaszyn">Zbaszyn</placeName>, <idno>EHRI-ET-YV5245989</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="de" usage="100">German</language>
+                <language ident="en" usage="100">English</language>
+            </langUsage>
+            <abstract>
+                <p>Report by the couple Rosa and Koppel Friedfertig from Hamburg about their experiences during the “Polenaktion” in 1938, the forced
+                    eviction of Jews with Polish citizenship from Germany to Poland, with a description of the living conditions in the village and
+                    reception camp Zbaszyn and their escape to Palestine.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-21" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-YV5245989_01.jpg" n="1"/>
+                <p>- 1 -</p>
+                <p><term ref="#ehri_et_polenaktion" type="subject">Polen–Aktion</term>
+                    <date when="1938">1938</date>.<space/>– Im <placeName ref="#l1346" type="camp">Lager</placeName>
+                    <placeName ref="#zbaszyn" type="ehri">Sbonczyn</placeName><note place="bottom">Handschriftliche Ergänzung</note></p>
+                <p>Bericht des Ehepaars Frau <persName ref="#ehri_et_friedfertig_rosa" type="ehri">Rosa Friedfertig</persName> und Herr <persName
+                        ref="#ehri_et_friedfertig_koppel" type="ehri">Koppel Friedfertig</persName> aus <placeName ref="#hamburg" type="ehri"
+                        >Hamburg</placeName>.<placeName ref="#tel-aviv" type="ehri">Tel Aviv</placeName>, Feierbergstr. 16</p>
+                <p>Stenographisch aufgenommen von <persName ref="#p000453" type="ehri">Dr. K. Ball</persName>, Anfang <date when="1944-11">November
+                        1944</date>.</p>
+                <p>1.) Wir waren <placeName ref="#republic-of-poland" type="ehri">polnische</placeName>
+                    <term ref="#t1149" type="subject">Staatsangehörige</term> und wohnten über 30 Jahre in <placeName ref="#hamburg" type="ehri"
+                        >Hamburg</placeName>-<placeName ref="#altona" type="ehri">Altona</placeName>. Unsere älteste <term ref="#t822" type="subject"
+                        >Tochter</term> studierte in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> und hatte schon <term
+                        ref="#t867" type="subject">Studentenzertifikat</term> für <placeName ref="#palestine" type="ehri">Palästina</placeName>. Ihre
+                    Papiere waren in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName>, sie selbst war gerade zum Abschied bei
+                    uns. Unsere zweite <term ref="#t822" type="subject">Tochter</term> war in <placeName ref="#berlin" type="ehri">Berlin</placeName>
+                    auf <term ref="#t913" type="subject">Hachscharah</term>, die dritte ging zur Schule. Wir wohnten in <placeName ref="#altona"
+                        type="ehri">Altona</placeName>, <placeName ref="#altona" type="ehri">Adolfstr. 164</placeName>. Unsere älteste <term
+                        ref="#t822" type="subject">Tochter</term> half vorübergehend im <term ref="#t913" type="subject">Vorbereitungslager</term>
+                    Wilhelmshöhe in <placeName ref="#blankenese" type="ehri">Blankenese</placeName> als Führerin aus. In diesem <term ref="#t567"
+                        type="subject">Lager</term> wurden am <date when="1938-10-28">28. Oktober 1938</date> die <placeName ref="#republic-of-poland"
+                        type="ehri">polnischen</placeName> Jungen abgeholt. Unsere <term ref="#t822" type="subject">Tochter</term> kam statt abends
+                    schon nachmittags nach Hause, war sehr aufgeregt, sagte uns aber nichts.</p>
+                <p>2.) In der Nacht vom <date when="1938-10-28">28.</date> zum <date when="1938-10-29">29. Oktober</date> zwischen 5 und ½ 6, noch in
+                    voller Dunkelheit, hörte ich Schritte im Hausflur, dann klingelte es und 2 <term ref="#t1120" type="subject">Polizeibeamte</term>
+                    verlangten Eintritt. Sie kamen mit dem Auftrage, uns alle abzuholen und riefen alle mit Namen auf. Ich sagte, dass die älteste
+                        <term ref="#t822" type="subject">Tochter</term> in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> sei
+                    und die zweite in <placeName ref="#berlin" type="ehri">Berlin</placeName>. Schliesslich verlangten sie aber nur, dass mein <term
+                        ref="#t822" type="subject">Mann</term> mitkomme. Sie sagten noch, er solle sich warm <term ref="#t836" type="subject"
+                        >anziehen</term>, <term ref="#t832" type="subject">frühstücken</term> und dürfe auch 10 Mark bei sich haben. Sie liessen <note
+                        place="bottom">ihm</note> Zeit, sich in Ruhe <term ref="#t836" type="subject">anzuziehen</term>, zu <term ref="#t737"
+                        type="subject">beten</term>, und kamen nach 10 Minuten wieder. Den <term ref="#t1141" type="subject">Pass</term> nahmen sie
+                    aber <note place="bottom">an sich und sagten: </note>. Eigentlich müssten sie auch mich mitnehmen, sie wollten aber davon absehen.
+                    Dann wurde mein <term ref="#t822" type="subject">Mann</term> abgeholt und zum <term ref="#t1166" type="subject"
+                        >Polizeipräsidium</term> gebracht. Wir hatten noch gefragt, was aus den <term ref="#t598" type="subject">Verhafteten</term>
+                    würde, die <term ref="#t1120" type="subject">Beamten</term> sagten, wir bräuchten uns nicht aufzuregen, es sei keine Sache, die
+                    meinen <term ref="#t822" type="subject">Mann</term> persönlich betreffe, sondern eine allgemeine Aktion gegen die <term
+                        ref="#t1149" type="subject">polnischen Staatsangehörigen</term>. Zunächst käme er zum <term ref="#t1166" type="subject"
+                        >Polizeipräsidium</term>, was weiter würde, wüssten sie selbst nicht.</p>
+                <p>3.) Nachher brachte ich meine jüngster <term ref="#t822" type="subject">Tochter</term> zur <term ref="#t1214" type="subject"
+                        >Schule</term>. Als ich auf die Strasse kam, bot sich ein furchtbares Bild: überall <orgName ref="#g428" type="ehri"
+                        >Schutzleute</orgName>, die <term ref="#t647" type="subject">Juden</term> jeden Alters und Geschlechts abführten. Sogar in die
+                        <term ref="#t758" type="subject">Synagoge</term> gingen sie hinein und holten sich die Leute heraus. Dann ging ich zur <term
+                        ref="#t872" type="subject">Gemeinde</term>, wo hauptsächlich <term ref="#t825" type="subject">Frauen</term> und <term
+                        ref="#t824" type="subject">Kinder</term> zusammen strömten, ferner auch <term ref="#t1217" type="subject">staatenlose</term>
+                    Männer, die nicht mit abgeholt worden waren. In der <term ref="#t872" type="subject">Gemeinde</term> sagte man uns, sie ständen in
+                    Verhandlungen mit den <placeName ref="#republic-of-poland" type="ehri">polnischen</placeName>
+                    <term ref="#t1118" type="subject">Konsulaten</term> in <placeName ref="#hamburg" type="ehri">Hamburg</placeName> und in <placeName
+                        ref="#berlin" type="ehri">Berlin</placeName>, man müsse abwarten, sie könnten im Augenblick noch gar nichts sagen. Von dort
+                    ging ich, meine <term ref="#t822" type="subject">Tochter</term> von der <term ref="#t1214" type="subject">Schule</term> abzuholen
+                    und veranlasste, dass die grosse <term ref="#t822" type="subject">Tochter</term> mit der <term ref="#t822" type="subject"
+                        >Tochter</term> in <placeName ref="#berlin" type="ehri">Berlin</placeName> zu telefonieren versuchte, damit sie sofort nach
+                        <placeName ref="#altona" type="ehri">Hamburg-Altona</placeName> käme und die <term ref="#t819" type="subject">Familie</term>
+                    zusammen sei. Dann ging ich, meinen <term ref="#t822" type="subject">Mann</term> zu besuchen. Ich fand ihn in einer riesigen
+                    Turnhalle, in der schon Hunderte von Menschen versammelt waren, Greise, <term ref="#t826" type="subject">Männer</term>, <term
+                        ref="#t825" type="subject">Frauen</term>, <term ref="#t824" type="subject">Babys</term> im Kinderwagen usw. usw. Die <term
+                        ref="#t872" type="subject">Gemeinde</term> hatte einige Vertreter dort, sie hatte Essen geschickt und übernahm Aufträge von
+                    den Einzelnen, was eventuell noch erledigt werden konnte. Für die</p>
+                <p><term ref="#t872" type="subject">Gemeinde</term> arbeitete dort neben verschiedenen Vorstandsmitgliedern Frl. <persName
+                        ref="#ehri_et_ellern" type="ehri">Ellern</persName>, die sich hier im Lande befindet. (Anm. <persName ref="#p000453"
+                        type="ehri">Dr. Ball</persName>: Sozialpflegerin in <placeName ref="#bnei-brak" type="ehri">Bnei Brak</placeName>). Nachdem
+                    ich meinen Mann gesprochen hatte und wieder fortgehen wollte, liess mich der <term ref="#t1120" type="subject">Posten</term> nicht
+                    durch. Ich sagte, ich sei ja gar nicht <term ref="#t598" type="subject">verhaftet</term>, sondern hätte nur meinen <term
+                        ref="#t822" type="subject">Mann</term> besucht. Er erwiderte, das glaube er nicht, aber wenn ich nicht abgeholt worden sei, so
+                    sei das nur irrtümlich geschehen, jetzt müsse</p>
+                <p>ich hier bleiben. Ich war sehr verzweifelt, weil meine <term ref="#t824" type="subject">Kinder</term> garnicht wussten, wo ich war,
+                    ich wandte mich an Frl. <persName ref="#ehri_et_ellern" type="ehri">Ellern</persName>. Diese ging mit mir direkt zur Tür und sagte
+                    mit lauter Stimme zu mir: <q>Schaf, ich habe Ihnen doch gesagt, dass Sie meine Akten mitbringen sollen, die befinden sich in
+                        meinem Schreibtisch im Arbeitszimmer</q>. Darauf liess mich der <term ref="#t1120" type="subject">Posten</term> passieren.</p>
+                <p>4.) Zuhause kochte ich <term ref="#t832" type="subject">Mittagbrot</term>. Da klopfte es wiederund es erschienen wieder</p>
+                <pb facs="EHRI-ET-YV5245989_02.jpg" n="2"/>
+                <p>- 2 -</p>
+                <p>2 <term ref="#t1120" type="subject">Polizisten</term>, dieses mal, um mich und die <term ref="#t824" type="subject">Kinder</term>
+                    abzuholen. Ich verschwieg, dass meine älteste <term ref="#t822" type="subject">Tochter</term> in der Wohnung war, und ging mit der
+                        <term ref="#t822" type="subject">Kleinen</term> zusammen mit. Der <term ref="#t1120" type="subject">Beamte</term> sagte noch,
+                    ich könnte alles mitnehmen, was ich tragen könnte, und ich packte soviele Koffer, wie ich hatte, natürlich viel zu viele. Dann
+                    liess mich der <term ref="#t1120" type="subject">Beamte</term> aber mit den Koffern mehrfach die Treppe heruntergehen, sodass ich
+                    sie mitbekam. Unten wartete der Grüne Wagen, und wir stiegen</p>
+                <p>ein und wurden auch zum <term ref="#t1166" type="subject">Polizeipräsidium</term> in die mir schon bekannte Halle gebracht.</p>
+                <p>5.) Von dort wurden wir auf Lastwagen zum <placeName ref="#bahnhof-hamburg-altona" type="ehri">Bahnhof Altona</placeName> gebracht
+                    und in einen <term ref="#t940" type="subject">Zug</term>, der dort wartete. Es war ein richtiger <term ref="#t940" type="subject"
+                        >Personenzug</term>, geheizt und beleuchtet. Auf dem Bahnsteig standen grosse Tische und Vertreter der <orgName ref="#g004665"
+                        type="ehri">Hamburger</orgName> und <placeName ref="#altona" type="ehri">Altonaer</placeName>
+                    <term ref="#t872" type="subject">Gemeinde</term>, auf den Tischen <term ref="#t832" type="subject">Lebensmittelpakete</term> usw.,
+                    die mitgegeben wurden, auch Geld. Im <term ref="#t940" type="subject">Zuge</term>
+                    <term ref="#t896" type="subject">Juden</term> jeden Alters, vielfach noch mit <term ref="#t737" type="subject">Mänteln</term> und
+                        <term ref="#t737" type="subject">Gebetbüchern</term>, da es gerade Freitag Abend war. Im letzten Augenblick kam noch meine
+                        <term ref="#t822" type="subject">Tochter</term> aus <placeName ref="#berlin" type="ehri">Berlin</placeName>, die gerade
+                    angekommen war, zuhause von irgendwelchen Nachbarn Bescheid erhielt. Im <term ref="#t1166" type="subject">Polizeipräsidium</term>
+                    sagte man ihr, dass sie nicht<note place="bottom">handschriftlich ergänzt</note> mitbrauche, aber sie wollte mit uns zusammen sein
+                    und erreichte gerade den <term ref="#t940" type="subject">Zug</term>. Meine andere <term ref="#t822" type="subject">Tochter</term>
+                    blieb in <placeName ref="#hamburg" type="ehri">Hamburg</placeName>, weil sie schon das <term ref="#t867" type="subject"
+                        >Zertifikat</term> hatte. Am gleichen Abend flog sie nach <placeName ref="#frankfurt-am-main" type="ehri"
+                        >Frankfurt</placeName> und konnte anschliessend sofort nach <placeName ref="#palestine" type="ehri">Palästina</placeName>
+                    <term ref="#t880" type="subject">auswandern</term>.</p>
+                <p>6.) Der <term ref="#t940" type="subject">Zug</term> fuhr etwa um ½ 8 Uhr abends ab und morgens um 5 Uhr kamen wir in <placeName
+                        ref="#l1346" type="camp">Bentschen</placeName> an <note place="bottom">ergänzt, im Original nicht lesbar</note>. Dort mussten
+                    wir alle aussteigen, dann wurden wir auf Geld untersucht, indem mehrere Leute nebeneinander durch <term ref="#t1120"
+                        type="subject">Posten</term> durchgehen mussten. Es wurde aber nicht sehr genau untersucht, ich z. B. konnte mehrere hundert
+                    Mark bei mir behalten. Dann begann ein schrecklicher Marsch von etwa 7 Kilometern, ohne Rücksicht auf die körperlichen Fühigkeiten
+                    des Einzelnen. Wer</p>
+                <p>sein Gepäck nicht tragen konnte oder zurückblieb, dem wurde das Gepäck abgenommen und weggeworfen. Wer nicht mitkam, wurde
+                    geschlagen. Schliesslich kamen wir an die Grenze. Dort ist etwa 100 Meter auf beiden Seiten Niemandsland. An der <placeName
+                        ref="#republic-of-poland" type="ehri">polnischen</placeName> Seite stand ein einzelner <term ref="#t1120" type="subject"
+                        >Posten</term> mit verrostetem Gewehr. Dieser wollte niemand durchlassen. Die <placeName ref="#federal-republic-of-germany"
+                        type="ehri">Deutschen</placeName> drängten aber von hinten und stiessen und sagten: <q>Ihr werdet euch doch nicht von einem
+                        einzelnen Mann aufhalten lassen!</q> Schliesslich bildeten ein paar Jüngere eine Kette, gingen unter dem Schlagbaum durch und
+                    riefen den <placeName ref="#republic-of-poland" type="ehri">Polen</placeName> zu: <q>Schiess auf uns</q>. Von <placeName
+                        ref="#republic-of-poland" type="ehri">polnischer</placeName> Seite wurde dann ein paar mal in die Luft geschossen, aber da die
+                    Menge drängte und bereits den Schlagbaum in die Höhe hob, kam schliesslich der ganze Zug auf <placeName ref="#republic-of-poland"
+                        type="ehri">polnisches</placeName> Gebiet.</p>
+                <p>7.) Inzwischen wurde dort irgendwie verhandelt und alle kamen zunächst in ein auf <placeName ref="#republic-of-poland" type="ehri"
+                        >polnischer</placeName> Seite befindliches Wäldchen, wo man sich todmüde hinsetzte, ass, was man noch bei sich hatte usw. Von
+                    ca. 10 – 1 Uhr waren wir im Wäldchen, bei Regen. Dann kam die Erlaubnis der <placeName ref="#republic-of-poland" type="ehri"
+                        >polnischen</placeName> Regierung, uns nach <placeName ref="#zbaszyn" type="ehri">Sbonczyn</placeName> hereinzulassen. Wir
+                    konnten also wieder aufbrechen, und dort wurden Pferdeställe für uns bereitgestellt, die zufällig leerstanden. Man <term
+                        ref="#t837" type="subject">ordnete</term> uns</p>
+                <p>dort ein, so gut es sein konnte, einige waren auch schon vom Tage vorher aus anderen Städten dort. Der <placeName ref="#zbaszynek"
+                        type="ehri">Bahnhof Neu-Bentschen</placeName> war bereits schwarz von Menschen, die schon vom Tage vorher an dort gewesen
+                    waren, die ersten 20 bis 30 hatten noch weiterfahren können, dann aber wurde die Weiterreise allgemein gesperrt. Auf dem
+                        <placeName ref="#zbaszynek" type="ehri">Bahnhof</placeName> war für niemand weiter Platz, weil er vollkommen überfüllt war.
+                    Wir übernachteten im Pferdestall, oder richtiger, wir fingen an, dort zu übernachten. Mein <term ref="#t822" type="subject"
+                        >Mann</term> blieb unten, ich mit den beiden <term ref="#t822" type="subject">Töchtern</term> stieg nach oben auf den
+                    Heuboden, weil es uns dort wärmer schien. Nachher aber zündeten andere Leute dort Licht an, und es wurde uns zu feuergefährlich,
+                    sodass wir wieder hinunter gingen. Inzwischen wurde meiner kleinsten <term ref="#t822" type="subject">Tochter</term> sehr <term
+                        ref="#t292" type="subject">schlecht</term> und ich ging mit beiden <term ref="#t822" type="subject">Töchtern</term> ins Freie.
+                    Dort klappte auch die ältere <term ref="#t822" type="subject">Tochter</term></p>
+                <pb facs="EHRI-ET-YV5245989_03.jpg" n="3"/>
+                <p>- 3 -</p>
+                <p>zusammen. Dann tappte ich mich im Stockfinsteren weiter nach irgendeiner Hilfe und <term ref="#t837" type="subject"
+                        >Unterkunft</term>. Ich hörte Stimmen und sah ein Licht und fand endlich ein <term ref="#t837" type="subject">Gasthaus</term>.
+                    Ich kam in einen tabakdurchqualmten <term ref="#t837" type="subject">Raum</term>, in welchem viele <term ref="#t304"
+                        type="subject">Flüchtlinge</term> waren. Die <term ref="#t824" type="subject">Kinder</term>, die fast ohnmächtig waren, wurden
+                    sofort auf zwei Rohrstühle gelegt, und wir bekamen heissen <term ref="#t832" type="subject">Kaffee</term>. Hier entdeckte mich
+                    durch Zufall ein Bekannter aus <placeName ref="#duisburg" type="ehri">Duisburg</placeName>, der noch gestern ein <term ref="#t837"
+                        type="subject">Zimmer</term> in diesem <term ref="#t837" type="subject">Hotel</term> bekommen hatte. Er sagte, in seinem <term
+                        ref="#t837" type="subject">Zimmer</term> sei leider kein Platz, weil er seine zwei <term ref="#t824" type="subject"
+                        >Kinder</term> darin habe und seine <term ref="#t822" type="subject">Frau</term> dort <term ref="#t292" type="subject"
+                        >krank</term> liege. Neben seinem <term ref="#t837" type="subject">Zimmer</term> sei aber ein anderes frei, weil der Inhaber
+                    auf eine Nacht verreist sei. Ich erwiderte – noch ganz in alten Vorstellungen - ich könnte doch nicht in einem fremden <term
+                        ref="#t837" type="subject">Zimmer</term> übernachten. Er sagte aber, darauf käme es jetzt nicht an. Dann öffnete er das <term
+                        ref="#t837" type="subject">Zimmer</term> mit einem zufällig passenden Schlüssel, und wir fanden ein herrliches <term
+                        ref="#t837" type="subject">Zimmer</term> mit Kachelofen, elektrischem Licht, zwei grossen Betten usw. usw. Dort legte ich die
+                        <term ref="#t824" type="subject">Kinder</term> zunächst in die Betten, dann ging ich auf die Suche nach <term ref="#t832"
+                        type="subject">Milch</term>. Schliesslich fand ich ein Gehöft und fragte, ob ich <term ref="#t832" type="subject">Milch</term>
+                    bekommen könnte. Sie wurde mir sogar dort gewärmt und ich brachte die <term ref="#t832" type="subject">Milch</term> in das <term
+                        ref="#t837" type="subject">Gasthaus</term>. Als ich zurückkam, hatten die <term ref="#t824" type="subject">Kinder</term> sich
+                    schon einigermassen erholt.</p>
+                <p>8.) Die <term ref="#t837" type="subject">Unterbringung</term> war so, dass jeder sich selbst in Orte unterbringen musste und
+                    zunächst auch dafür bezahlen musste. Es war kein gemeinsames <term ref="#t505" type="subject">Lager</term>, sondern <term
+                        ref="#t837" type="subject">Unterbringung</term> bei einzelnen <term ref="#t819" type="subject">Leuten</term> im Ort, aber der
+                    ganze Ort war <term ref="#t1120" type="subject">polizeilich</term> abgeriegelt und niemand von uns durfte ihn verlassen. Wer gar
+                    kein Geld <note place="bottom">einige Wörter verdeckt</note> oder in einem <term ref="#t505" type="subject">Sammellager</term>,
+                    welches in zwei Mühlen eingerichtet wurde. Am zweiten Tage kamen schon grosse Lastautos mit <term ref="#t832" type="subject"
+                        >Lebensmitteln</term> von den jüdischen Stellen in <placeName ref="#republic-of-poland" type="ehri">Polen</placeName>, die
+                        <term ref="#t832" type="subject">Brot</term>, <term ref="#t832" type="subject">Butter</term> und <term ref="#t832"
+                        type="subject">Eier</term> verteilten. Allmählich organisierte sich das Ganze, es bildeten sich Komittees, es kamen Abgesandte
+                    der <term ref="#t317" type="subject">Organisationen</term> aus <placeName ref="#warsaw" type="ehri">Warschau</placeName>, leiter
+                    war der Prof. <persName ref="#ehri_et_ginsburg" type="ehri">Ginsburg</persName>. Das Komittee übernahm nachher die Bezahlung der
+                    sämtlichen Mieten, es wurden <term ref="#t832" type="subject">Feldküchen</term> eingerichtet, es kamen <term ref="#t836"
+                        type="subject">Kleidungsstücke</term> für den Winter usw. usw. Natürlich dauerte es eine ganze Zeit, bis die Verteilung
+                    richtig organisiert war. Wir vertrugen das <term ref="#t832" type="subject">Essen</term> aus der <term ref="#t832" type="subject"
+                        >Feldküche</term> nicht, da wir aber noch etwas Geld hatten, konnten wir für das Notwendigste selbst wirtschaften.</p>
+                <p>9.) Es fanden sich einige Jugendliche zusammen, die den <orgName ref="#g004639" type="ehri">Misrachi</orgName> angehörten. Ihr
+                    Versammlungszimmer war unser Zimmer, als das grösste und hellste. Diese kamen auf den Gedanken, an das <term ref="#t880"
+                        type="subject">Palästina-Amt</term> in <placeName ref="#warsaw" type="ehri">Warschau</placeName> zu schreiben und um <term
+                        ref="#t867" type="subject">Zertifikate</term> zu bitten. Nach einiger Überlegung änderten sie aber den Plan und baten um <term
+                        ref="#t867" type="subject">Zertifikate</term> für die <term ref="#t822" type="subject">Eltern</term>. Wir Erwachsenen sehen
+                    diesen Versuch eigentlich als ganz lächerlich an. Die <term ref="#t822" type="subject">Kinder</term> setzten 15 Gesuche auf und
+                    schickten sie nach <placeName ref="#warsaw" type="ehri">Warschau</placeName>. Schon nach 3 Tagen kam ein Abgesandter aus Warschau,
+                    Dr. <persName ref="#ehri_et_wilhelm" type="ehri">Wilhelm</persName>, und nahm nähere Personalien auf. Und nach ganz kurzer Zeit
+                    wurden wir telefonisch angerufen, dass unser <term ref="#t867" type="subject">Zertifikat</term> bewilligt sei. Wieso gerade unser
+                        <term ref="#t867" type="subject">Zertifikat</term> bewilligt wurde, wissen wir nicht, möglicherweise hing es damit zusammen,
+                    dass wir aus <orgName ref="#g004639" type="ehri">Misrachiarbeit</orgName> in <placeName ref="#hamburg" type="ehri"
+                        >Hamburg</placeName> bekannt waren, vielleicht auch damit, dass unsere älteste <term ref="#t822" type="subject">Tochter</term>
+                    schon in <placeName ref="#palestine" type="ehri">Palästina</placeName> war, und dass wir zwei <term ref="#t824" type="subject"
+                        >Kinder</term>
+                    <note place="bottom">hier</note> hatten.</p>
+                <p>Im ganzen wurden aber nur 5 <term ref="#t867" type="subject">Zertifikate</term> für die etwa 6500 <term ref="#t101" type="subject"
+                        >Flüchtlinge</term> in <placeName ref="#l1346" type="camp">Sbonczyn</placeName> damals gegeben. Eines davon bekamen wir. Die
+                        <term ref="#t1141" type="subject">Pässe</term> wurden uns gleich abgenommen, nach <placeName ref="#warsaw" type="ehri"
+                        >Warschau</placeName> geschickt usw. Im letzten Augenblick stellte sich heraus, dass unsere ältere <term ref="#t822"
+                        type="subject">Tochter</term>, weil schon über 18, nicht mitfahren konnte. Ich wollte deshalb zunächst auch nicht fahren, aber
+                    mir wurde die Pistole auf die Brust gesetzt und auch meine <term ref="#t822" type="subject">Tochter</term> verlangte, dass wir
+                    fahren sollten, sie selbst würde schon irgendwie durchkommen. Tatsächlich kam sie etwa 3 Wochen später nach mit der sogenannten
+                        <term ref="#t912" type="subject">Alijah Beth</term>, dem ersten <term ref="#t301" type="subject">griechischen Schiff</term>,
+                    das in <placeName ref="#nahariyya" type="ehri">Naharia</placeName></p>
+                <p>landete. Wir haben <placeName ref="#zbaszynv" type="ehri">Sbonczyn</placeName> am <date when="1938-12-22">22. Dezember</date>
+                    verlassen, irgendwelches Geld hatten wir garnicht mehr, und die ganze Reise und Ausstattung dazu ist uns sozusagen als
+                    selbstverständlich von den jüdischen öffentlichen Stellen in <placeName ref="#republic-of-poland" type="ehri">Polen</placeName>
+                    bezahlt worden. Ich habe den Scheck - 5000 Zloty – selbst ausgehändigt bekommen. <term ref="#t301" type="subject">Schiff
+                        Konstanca</term>
+                    <date when="1939-01-29">29. Januar</date>.<note place="bottom">handschriftlich am linken Rand</note></p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-YV5245989_01.jpg" n="1"/>
+                <p>- 1 -</p>
+                <p><term ref="#ehri_et_polenaktion" type="subject">Poland - Action</term>
+                    <date when="1938">1938</date>. - In the camp <placeName ref="#zbaszyn" type="ehri">Sbonczyn</placeName><note place="bottom"
+                        >handwritten addition</note></p>
+                <p>Report of the couple Mrs. <persName ref="#ehri_et_friedfertig_rosa" type="ehri">Rosa Friedfertig</persName> and Mr. <persName
+                        ref="#ehri_et_friedfertig_koppel" type="ehri">Koppel Friedfertig</persName> from <placeName ref="#hamburg" type="ehri"
+                        >Hamburg</placeName>. <placeName ref="#tel-aviv" type="ehri">Tel Aviv</placeName>, Feierbergstr. 16</p>
+                <p>Stenographical record by <persName ref="#p000453" type="ehri">Dr. K. Ball</persName>, early <date when="1944-11">November
+                        1944</date>.</p>
+                <p>1.) We were <placeName ref="#republic-of-poland" type="ehri">Polish</placeName>
+                    <term ref="#t1149" type="subject">citizens</term> and lived in <placeName ref="#hamburg" type="ehri"
+                        >Hamburg</placeName>-<placeName ref="#altona" type="ehri">Altona</placeName> for over 30 years. Our eldest <term ref="#t822"
+                        type="subject">daughter</term> studied in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> and already
+                    had a <term ref="#t867" type="subject">student certificate</term> for <placeName ref="#palestine" type="ehri"
+                        >Palestine</placeName>. Her papers were in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName>, she herself
+                    was just with us to say goodbye. Our second <term ref="#t822" type="subject">daughter</term> was in <placeName ref="#berlin"
+                        type="ehri">Berlin</placeName> on <term ref="#t913" type="subject">Hachscharah</term>, the third went to school. We lived in
+                        <placeName ref="#altona" type="ehri">Altona</placeName>, <placeName ref="#altona" type="ehri">Adolfstr. 164</placeName>. Our
+                    eldest <term ref="#t822" type="subject">daughter</term> temporarily helped out as a guide in the <placeName ref="#altona"
+                        type="ehri">Wilhelmshöhe</placeName>
+                    <term ref="#t913" type="subject">preparation camp</term> in <placeName ref="#blankenese" type="ehri">Blankenese</placeName>. In
+                    this <term ref="#t567" type="subject">camp</term> the <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> boys
+                    were picked up on <date when="1938-10-28">October 28, 1938</date>. Our <term ref="#t822" type="subject">daughter</term> came home
+                    in the afternoon instead of in the evening, was very excited, but told us nothing.</p>
+                <p>2.) In the night from <date when="1938-10-28">28</date> to <date when="1938-10-29">29 October</date> between 5 and ½ 6, still in
+                    full darkness, I heard footsteps in the hallway, then it rang and 2 <term ref="#t1120" type="subject">police officers</term>
+                    demanded entrance. They came with the order to pick us all up and called all by name. I said that the oldest <term ref="#t822"
+                        type="subject">daughter</term> was in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> and the second in
+                        <placeName ref="#berlin" type="ehri">Berlin</placeName>. In the end, however, they only demanded that my <term ref="#t822"
+                        type="subject">husband</term> come with me. They also said that he should <term ref="#t836" type="subject">dress</term>
+                    warmly, have <term ref="#t832" type="subject">breakfast</term> and be allowed 10 Marks. They took their time to <term ref="#t836"
+                        type="subject">dress</term> in peace, to <term ref="#t737" type="subject">pray</term>, and came back after 10 minutes. They
+                    took the <term ref="#t1141" type="subject">passport</term>, but they should have taken me with them, too, but they wanted to
+                    refrain from doing so. Then my <term ref="#t822" type="subject">husband</term> was picked up and taken to the <term ref="#t1166"
+                        type="subject">police headquarters</term>. We had asked what would happen to those <term ref="#t598" type="subject"
+                        >arrested</term>, the <term ref="#t1120" type="subject">officials</term> said we didn’t need to get upset, it wasn’t something
+                    that affected my <term ref="#t822" type="subject">husband</term> personally, but a general action against the <term ref="#t1149"
+                        type="subject">Polish citizens</term>. At first he would come to the <term ref="#t1166" type="subject">police
+                        headquarters</term>, which would go on if they themselves did not know.</p>
+                <p>3.) Afterwards I brought my youngest <term ref="#t822" type="subject">daughter</term> to <term ref="#t1214" type="subject"
+                        >school</term>. When I came onto the street, a horrible picture appeared: everywhere <orgName ref="#g428" type="ehri"
+                        >policemen</orgName> who led <term ref="#t896" type="subject">Jews</term> of all ages and sex away. They even went into the
+                        <term ref="#t758" type="subject">synagogue</term> and got the people out. Then I went to the <term ref="#t872" type="subject"
+                        >congregation</term>, where mainly <term ref="#t825" type="subject">women</term> and <term ref="#t824" type="subject"
+                        >children</term> flocked together, as well as <term ref="#t1217" type="subject">stateless</term> men who had not been picked
+                    up. In the <term ref="#t872" type="subject">congregation</term> we were told that they were in negotiations with the <placeName
+                        ref="#republic-of-poland" type="ehri">Polish</placeName>
+                    <term ref="#t1118" type="subject">consulates</term> in <placeName ref="#hamburg" type="ehri">Hamburg</placeName> and <placeName
+                        ref="#berlin" type="ehri">Berlin</placeName>, that we had to wait, that they could not say anything at the moment. From there
+                    I went to pick up my <term ref="#t822" type="subject">daughter</term> from <term ref="#t1214" type="subject">school</term> and had
+                    the big <term ref="#t822" type="subject">daughter</term> try to call the <term ref="#t822" type="subject">daughter</term> in
+                        <placeName ref="#berlin" type="ehri">Berlin</placeName>, so that she would come to <placeName ref="#altona" type="ehri"
+                        >Hamburg-Altona</placeName> immediately and the <term ref="#t819" type="subject">family</term> would be together. Then I went
+                    to visit my <term ref="#t822" type="subject">husband</term>. I found him in a huge gymnasium where hundreds of people had already
+                    gathered, old people, <term ref="#t826" type="subject">men</term>, <term ref="#t825" type="subject">women</term>, <term
+                        ref="#t824" type="subject">babies</term> in prams, etc., etc. The <term ref="#t872" type="subject">congregation</term> had
+                    some representatives there, they had sent food and took orders from the individuals, which perhaps could still be done. Miss
+                        <persName ref="#ehri_et_ellern" type="ehri">Ellern</persName>, who is now here in the country (note by <persName
+                        ref="#p000453" type="ehri">Dr. Ball</persName>: working as a social worker in <placeName ref="#bnei-brak" type="ehri">Bnei
+                        Brak</placeName>), worked there alongside various board members of the <term ref="#t872" type="subject">congregation</term>.
+                    After I had spoken to my <term ref="#t822" type="subject">husband</term> and wanted to leave again, the <term ref="#t1120"
+                        type="subject">guard</term> did not let me through. I said I was not <term ref="#t598" type="subject">arrested</term> at all,
+                    but only visited my <term ref="#t822" type="subject">husband</term>. He replied that he didn’t think so, but if I hadn’t been
+                    picked up, it had only happened by mistake, now I had to</p>
+                <p>I'll stay here. I was very desperate because my <term ref="#t824" type="subject">children</term> did not know where I was, I turned
+                    to Miss <persName ref="#ehri_et_ellern" type="ehri">Ellern</persName>. She went straight to the door with me and said to me in a
+                    loud voice: <q>Sheep, I told you to bring my files, they are in my desk in the study</q>. Then the <term ref="#t1120"
+                        type="subject">guard</term> let me pass.</p>
+                <p>4.) At home I cooked <term ref="#t832" type="subject">lunch</term>. There it knocked again and there appeared again</p>
+                <pb facs="EHRI-ET-YV5245989_02.jpg" n="2"/>
+                <p>- 2 -</p>
+                <p>two <term ref="#t1120" type="subject">policemen</term>, this time to pick up me and the <term ref="#t824" type="subject"
+                        >kids</term>. I concealed that my eldest <term ref="#t822" type="subject">daughter</term> was in the apartment, and went with
+                    the <term ref="#t822" type="subject">little one</term> together. The <term ref="#t1120" type="subject">officer</term> said I could
+                    take anything I could carry, and I packed as many suitcases as I had, far too many of course. But then the <term ref="#t1120"
+                        type="subject">officer</term> let me go down the stairs several times with the suitcases, so that I could take them all.
+                    Downstairs, the Green Car was waiting, and we got up and were, too, were brought to the <term ref="#t1166" type="subject">police
+                        headquarters</term> and to the hall I already knew.</p>
+                <p>5.) From there we were taken by lorry to <placeName ref="#bahnhof-hamburg-altona" type="ehri">Altona station</placeName> and to a
+                        <term ref="#t940" type="subject">train</term> waiting there. It was a real passenger <term ref="#t940" type="subject"
+                        >train</term>, heated and illuminated. On the platform stood big tables and there were representatives of the <orgName
+                        ref="#g004665" type="ehri">Hamburg</orgName> and <placeName ref="#altona" type="ehri">Altona</placeName>
+                    <term ref="#t872" type="subject">congregation</term>, on the tables <term ref="#t832" type="subject">food</term> packages etc.,
+                    which were given along, also money. In the <term ref="#t940" type="subject">train</term> were of <term ref="#t896" type="subject"
+                        >Jews</term> of all ages, often still with <term ref="#t737" type="subject">prayer shawls</term> and <term ref="#t737"
+                        type="subject">prayer books</term>, since it was just Friday evening. At the last moment my <term ref="#t822" type="subject"
+                        >daughter</term> came from <placeName ref="#berlin" type="ehri">Berlin</placeName>, who had just left and was informed at home
+                    by some neighbours. In the <term ref="#t1166" type="subject">police headquarters</term> she was told that she didn’t<note
+                        place="bottom">handwritten addition</note> have to join us, but she wanted to be with us and just reached the <term
+                        ref="#t940" type="subject">train</term>. My other <term ref="#t822" type="subject">daughter</term> stayed in <placeName
+                        ref="#hamburg" type="ehri">Hamburg</placeName> because she already had the <term ref="#t867" type="subject"
+                    >certificate</term>. That same evening she flew to <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> and was
+                    able to <term ref="#t880" type="subject">emigrate</term> immediately to <placeName ref="#palestine" type="ehri"
+                        >Palestine</placeName>.</p>
+                <p>6.) The <term ref="#t940" type="subject">train</term> left at about ½ 8 o'clock in the evening and at 5 o'clock in the morning we
+                    arrived to <placeName ref="#l1346" type="camp">Bentschen</placeName><note place="bottom">completed, not legible in
+                    original</note>. There we all had to get off, then we were examined for money, where several people had to go through <term
+                        ref="#t1120" type="subject">posts</term> next to each other. It was not examined however very exactly, I could e.g. keep
+                    several hundred Marks with me. Then a terrible march of about 7 kilometers began, without consideration of the physical abilities
+                    of the individual. If somebody could not carry his luggage or fell behind, the luggage was taken from him and thrown away. If
+                    somebody could not keep pace, he was beaten. Finally we reached the border. There is about 100 meters of no man’s land on both
+                    sides. On the <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> side there was a single <term ref="#t1120"
+                        type="subject">guard</term> with a rusted rifle. Nobody wanted to let him through. But the <placeName
+                        ref="#federal-republic-of-germany" type="ehri">Germans</placeName> pushed from behind and pushed and said: <q>You won’t let a
+                        single man stop you!</q> Finally a few younger men formed a chain, went under the barrier and shouted to the <placeName
+                        ref="#republic-of-poland" type="ehri">Poles</placeName>: <q>Shoot us</q>. The <placeName ref="#republic-of-poland" type="ehri"
+                        >Polish</placeName> side then shot into the air a few times, but since the crowd was pushing and the barrier was already
+                    raised, the whole procession finally reached <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> territory.</p>
+                <p>7.) In the meantime, negotiations were going on there somehow and everyone first came to a little wood on the <placeName
+                        ref="#republic-of-poland" type="ehri">Polish</placeName> side, where they sat down tired to death, ate what they still had
+                    with them, and so on. From approx. 10 - 1 o'clock we were in the wood, in the pouring rain. Then the permission of the <placeName
+                        ref="#republic-of-poland" type="ehri">Polish</placeName> government arrived to let us in to <placeName ref="#zbaszyn"
+                        type="ehri">Sbonczyn</placeName>. So we were able to leave again, and there were horde stables provided for us, which happened
+                    to be empty. We were <term ref="#t837" type="subject">accommodated</term> there, as good as it could be, and some people from
+                    other cities had already been there from the day before. The <placeName ref="#zbaszynek" type="ehri">station
+                        Neu-Bentschen</placeName> was already black from people who had been there from the day before, the first 20 to 30 had been
+                    able to continue, but then the onward journey was generally blocked. At the <placeName ref="#zbaszynek" type="ehri"
+                        >station</placeName> there was no more space for anyone, because it was completely overcrowded. We spent the night in a horse
+                    stable, or more correctly, we started to spend the night there. My <term ref="#t822" type="subject">husband</term> stayed on the
+                    ground floor, I and my two <term ref="#t822" type="subject">daughters</term> went up to the hayloft because it seemed warmer to us
+                    there. But afterwards other people lit lights there, and it became too flammable for us to go down again. Meanwhile my youngest
+                        <term ref="#t822" type="subject">daughter</term> got very <term ref="#t292" type="subject">sick</term> and I went outside with
+                    both <term ref="#t822" type="subject">daughters</term>. There, my older <term ref="#t822" type="subject">daughter</term> also
+                    collapsed.</p>
+                <pb facs="EHRI-ET-YV5245989_03.jpg" n="3"/>
+                <p>- 3 -</p>
+                <p>Then, in the pitch blackness, I groped my way further for some help and <term ref="#t837" type="subject">accommodation</term>. I
+                    heard voices and saw a light and finally found an <term ref="#t837" type="subject">inn</term>. I came into a <term ref="#t837"
+                        type="subject">room</term> smoked with tobacco in which there were many <term ref="#t304" type="subject">refugees</term>. The
+                        <term ref="#t824" type="subject">children</term>, who were almost unconscious, were immediately put on two cane chairs and we
+                    got hot <term ref="#t832" type="subject">coffee</term>. Here I was discovered by chance by an acquaintance from <placeName
+                        ref="#duisburg" type="ehri">Duisburg</placeName>, who had got a <term ref="#t837" type="subject">room</term> in this <term
+                        ref="#t837" type="subject">hotel</term> only yesterday. He said there was unfortunately no space in his <term ref="#t837"
+                        type="subject">room</term> because he had his two <term ref="#t824" type="subject">children</term> there and his <term
+                        ref="#t822" type="subject">wife</term> was <term ref="#t292" type="subject">ill</term>. But there was another vacancy next to
+                    his <term ref="#t837" type="subject">room</term>, because the owner had gone on a night’s journey. I replied - still in old ideas
+                    - that I could not stay in a strange <term ref="#t837" type="subject">room</term>. But he said that that was not the point now.
+                    Then he opened the <term ref="#t837" type="subject">room</term> with a randomly matching key, and we found a wonderful <term
+                        ref="#t837" type="subject">room</term> with a tiled stove, electric light, two large beds, etc., and so on. There I first put
+                    the <term ref="#t824" type="subject">children</term> in their beds, and then I went in search of <term ref="#t832" type="subject"
+                        >milk</term>. Finally I found a farm and asked if I could get some <term ref="#t832" type="subject">milk</term>. They even
+                    warmed it up for me, and I brought the <term ref="#t832" type="subject">milk</term> to the <term ref="#t837" type="subject"
+                        >inn</term>. When I came back, the <term ref="#t824" type="subject">children</term> had already recovered to some extent.</p>
+                <p>8.) The <term ref="#t837" type="subject">accommodation</term> was such that everyone had to put themselves in places and had to pay
+                    for them first. It was not a common <term ref="#t505" type="subject">camp</term>, but <term ref="#t837" type="subject"
+                        >accommodation</term> with <term ref="#t819" type="subject">families</term> in the village, but the whole place was sealed off
+                    by the <term ref="#t1120" type="subject">police</term> and none of us was allowed to leave it. Who had no money at all or in a
+                        <term ref="#t505" type="subject">collection camp</term>, which was set up in two mills. On the second day, large lorries with
+                        <term ref="#t832" type="subject">food</term> came from the Jewish places in <placeName ref="#republic-of-poland" type="ehri"
+                        >Poland</placeName>, distributing <term ref="#t832" type="subject">bread</term>, <term ref="#t832" type="subject"
+                        >butter</term> and <term ref="#t832" type="subject">eggs</term>. Gradually the whole thing was organized, committees were
+                    formed, delegates of the <term ref="#t317" type="subject">organizations</term> came from <placeName ref="#warsaw" type="ehri"
+                        >Warsaw</placeName>, and the head was Prof. <persName ref="#ehri_et_ginsburg" type="ehri">Ginsburg</persName>. The committee
+                    then took over the payment of all rents, <term ref="#t832" type="subject">field kitchens</term> were set up, <term ref="#t836"
+                        type="subject">clothing</term> for the winter came, etc., etc. Of course it took a long time until the distribution was
+                    organized properly. We couldn’t stomach the <term ref="#t832" type="subject">food</term> from the <term ref="#t832" type="subject"
+                        >field kitchen</term>, but since we still had some money, we were able to manage the necessities ourselves.</p>
+                <p>9.) There were some young people together who belonged to the <orgName ref="#g004639" type="ehri">Mizrahi</orgName>. Their meeting
+                    room was our room, the largest and brightest. They thought of writing to the <term ref="#t880" type="subject">Palestine
+                        Office</term> in <placeName ref="#warsaw" type="ehri">Warsaw</placeName> and asking for <term ref="#t867" type="subject"
+                        >certificates</term>. After some consideration they changed the plan and asked for <term ref="#t867" type="subject"
+                        >certificates</term> for the <term ref="#t822" type="subject">parents</term>. We adults considered this attempt to be
+                    ridiculous. The <term ref="#t822" type="subject">children</term> prepared 15 applications and sent them to <placeName
+                        ref="#warsaw" type="ehri">Warsaw</placeName>. Already after 3 days an emissary from <placeName ref="#warsaw" type="ehri"
+                        >Warsaw</placeName>, Dr. <persName ref="#ehri_et_wilhelm" type="ehri">Wilhelm</persName>, came and recorded more detailed
+                    personal data. And after a very short time we were informed by telephone that our <term ref="#t867" type="subject"
+                        >certificate</term> had been approved. We don’t know why our <term ref="#t867" type="subject">certificate</term> was granted,
+                    maybe it was connected to the fact that we were known from <orgName ref="#g004639" type="ehri">Mizrahi work</orgName> in
+                        <placeName ref="#hamburg" type="ehri">Hamburg</placeName>, maybe also with the fact that our eldest <term ref="#t822"
+                        type="subject">daughter</term> was already in <placeName ref="#palestine" type="ehri">Palestine</placeName> and that we had
+                    two <term ref="#t824" type="subject">children</term> here.</p>
+                <p>In total, however, only 5 <term ref="#t867" type="subject">certificates</term> were given for the approximately 6500 <term
+                        ref="#t101" type="subject">refugees</term> in <placeName ref="#l1346" type="camp">Sbonczyn</placeName> at that time. We got
+                    one of them. The <term ref="#t1141" type="subject">passports</term> were immediately taken from us, sent to <placeName
+                        ref="#warsaw" type="ehri">Warsaw</placeName> and so on. At the last moment it turned out that our older <term ref="#t822"
+                        type="subject">daughter</term>, because already over 18, could not come with us. So at first I didn’t want to travel, but I
+                    was forced at gunpoint and my <term ref="#t822" type="subject">daughter</term> demanded that we should travel, she herself would
+                    somehow get through. In fact, about 3 weeks later, she arrived with the so-called <term ref="#t912" type="subject">Aliya
+                        Bet</term>, on the first <term ref="#t301" type="subject">Greek ship</term> to dock in <placeName ref="#nahariyya" type="ehri"
+                        >Nahariyya</placeName>. We left <placeName ref="#zbaszynv" type="ehri">Sbonczyn</placeName> on <date when="1938-12-22"
+                        >December 22nd</date>, we didn’t have any money left at all, and the whole trip and equipment was paid for by the Jewish
+                    public authorities in <placeName ref="#republic-of-poland" type="ehri">Poland</placeName>. I received the cheque - 5000 zloty -
+                    myself. <term ref="#t301" type="subject">Ship Konstanca</term>
+                    <date when="1939-01-29">29 January</date>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

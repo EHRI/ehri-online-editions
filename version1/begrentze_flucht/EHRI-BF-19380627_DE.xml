@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:08+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380627_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bericht des čsl. Konsulats in Wien über die Fälschung tschechoslowakischer Einreiseerlaubnisse</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection>Innenministerium I – Alte Registratur, 1936-1940</collection>
+                        <idno>Sign. 11/1/88, Ka. 5704</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Alte Registratur, 1936-1940, Sign. 11/1/88, Ka. 5704. <textLang mainLang="cs">Original
+                        auf Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Mähren</placeName>
+                        <location>
+                            <geo>49.5 17</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3070359/moravia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/M%C3%A4hren"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Südböhmen</placeName>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3339537/jihocesky-kraj.html"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Böhmen</placeName>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3078198/cechy.html"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Slowakei</placeName>
+                        <location>
+                            <geo>48.66667 19.5</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3057568/slovak-republic.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Slowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Karpatenukraine</placeName>
+                        <linkGrp>
+                            <link type="normal" target="https://www.wikidata.org/wiki/Q1148511"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Oderberg (Bohumín)</placeName>
+                        <location>
+                            <geo>49.90411 18.35755</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3079129/bohumin.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Bohum%C3%ADn"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Bodenbach (Děčín)</placeName>
+                        <location>
+                            <geo>50.76667 14.2</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3068031/podmokly.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/D%C4%9B%C4%8D%C3%ADn"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Eger (Cheb)</placeName>
+                        <location>
+                            <geo>50.07963 12.37392</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3077835/cheb.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Cheb"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Furth im Wald</placeName>
+                        <location>
+                            <geo>49.30955 12.84156</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2923529/furth-im-wald.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Furth_im_Wald"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Prag (Praha)</placeName>
+                        <location>
+                            <geo>50.08804 14.42076</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Prag"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Brünn (Brno)</placeName>
+                        <location>
+                            <geo>49.19522 16.60796</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3078610/brno.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Brno"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Pressburg (Bratislava)</placeName>
+                        <location>
+                            <geo>48.14816 17.10674</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3060972/bratislava.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Bratislava"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Uschhorod (Užhorod)</placeName>
+                        <location>
+                            <geo>48.61667 22.3</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/690548/uzhhorod.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Uzhhorod"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Ausländer / Ausländerin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1149"/>
+                        </linkGrp></item>
+                    <item><name>Pass</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+                        </linkGrp></item>
+                    <item><name>Ausweispapiere</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1144"/>
+                        </linkGrp></item>
+                    <item><name>Deutschland</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1152"/>
+                        </linkGrp></item>
+                    <item><name>Ministerium</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1110"/>
+                        </linkGrp></item>
+                    <item><name>Botschaft und Konsulat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+                        </linkGrp></item>
+                    <item><name>Visum</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+                        </linkGrp></item>
+                    <item><name>Ausreisebewilligung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1145"/>
+                        </linkGrp></item>
+                    <item><name>Polizeipräsidium</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1166"/>
+                        </linkGrp></item>
+                    <item><name>Ariernachweis</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-382"/>
+                        </linkGrp></item>
+                    <item><name>Flüchtling</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+                        </linkGrp></item>
+                    <item><name>Staatsangehörigkeit</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1147"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_sebesta_frantisek">
+                        <persName>Šebesta, František</persName>
+                        <note>
+                            <p>1882 - ?</p>
+                            <p>Tschechoslowakischer Diplomat, 1935-1938 Generalkonsul in Wien. Am 1. Juni 1938, nach der Auflösung der Botschaft und
+                                dem Rückzug des tschechoslowakischen Gesandten Rudolf Künzl-Jizerský, übernahm er die Leitung der tschechoslowakischen
+                                Vertretung in Wien.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="other"
+                                target="https://www.mzv.cz/jnp/cz/o_ministerstvu/organizacni_struktura/utvary_mzv/specializovany_archiv_mzv/kdo_byl_kdo/sebesta_frantisek.html"
+                            />
+                        </linkGrp>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-06-27">27. Juni 1938</date>
+                <placeName>Wien</placeName>
+                <orgName>Generalkonsulat der Tschechoslowakischen Republik</orgName>
+                <idno>EHRI-BF-19380627</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="schmuggel"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="EHRI-BF-19380627_01.jpg"/>
+            <!--
+        <p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generální
+          konsulát</term> republiky <placeName
+          ref="http://www.geonames.org/8505031/czechoslovakia.html">Československé</placeName> ve
+          <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName></p>
+
+      <p>Opis.</p>
+
+      <p>Č. 47.119/38/IV.</p>
+
+      <p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147">Státní
+          občanství</term> - nezákon[n]é vydávání <term type="subject"
+          ref="https://portal.ehri-project.eu/keywords/ehri_terms-1144">dokladů</term>
+        <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149"
+          >cizincům</term>.</p>
+
+      <p>Ve <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName> dne <date
+          when="1938-06-27">27. června 1938</date>.</p>
+
+      <p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+          >Ministerstvu zahraničních věcí</term> v <placeName
+          ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>.</p> -->
+
+            <p>Unter dem Eindruck der innenpolitischen Verhältnisse in <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+                    >Österreich</placeName> bemühen sich tausende vom gegenwärtigen Regime verfolgte <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName> Staatsangehörige-<distinct
+                    type="nazi_language">Nichtarier</distinct> eine <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149"
+                    >ausländische Staatsbürgerschaft</term> zu erlangen oder wenigstens einen <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Reisepass</term> oder ein anderes <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1144">Dokument</term>, das ihnen die Flucht oder die Zwangsaussiedlung ins
+                Ausland ermöglicht. In Anbetracht der Nähe und der zahlreichen verwandtschaftlichen Beziehungen bemüht sich eine überwiegende Mehrheit
+                dieser Auswanderer, in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName> zu
+                gelangen. Die bisherigen Maßnahmen gegen die Immigration haben sich als unzureichendes Provisorium erwiesen, die mit allen Mitteln
+                umgangen werden und dies sogar mit offizieller Hilfe der <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152">deutschen</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Behörden</term>. Das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> erlaubt sich im Interesse der Sicherheit des
+                Staates und zur Aufrechterhaltung des Schutzes unseres inländischen Arbeitsmarktes eine umfassende Meldung vorzulegen und einige
+                Maßnahmen vorzuschlagen, welche die bisherige Praxis unterstützen würden.</p>
+
+            <p>Seit dem <date when="1938-03-11">11. März</date> d. J. erteilt das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term>
+                <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Staatsangehörigen, die im
+                Besitz alter <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pässe</term> sind, sog. <q>Empfehlungen</q>, auf
+                deren Grundlage die Einreise in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName>
+                erlaubt ist. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> befolgt die
+                allgemeinen <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146">Visavorschriften</term>. Falls dem
+                    <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> dann auch die politische
+                Verlässlichkeit des Antragstellers bekannt ist, hält sich das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> an den Grundsatz, dass der Zutritt nur
+                Personen erlaubt ist, die in dieser Hinsicht unbescholten sind. Das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> hat jedoch keinen Nachweis über die
+                politische Verlässlichkeit <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName>
+                Staatsangehöriger und ist ausschließlich auf die Meldungen von Vertrautensmänner oder <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischen</placeName> innenpolitischen Behörden angewiesen.
+                Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> schlägt deshalb vor,
+                dass eventuelle Übertritte <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName>
+                <pb n="2" facs="EHRI-BF-19380627_02.jpg"/> Staatsangehöriger, die vorübergehend in der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> verweilen, unverzüglich den hiesigen <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Behörden</term> gemeldet werden. Bei wiederholten
+                Anträgen für eine Einreiseerlaubnis wird dem Betreffenden nicht entsprochen.</p>
+
+            <p>Angesichts der gehandhabten <q>Entjudung</q> ist <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+                    >österreichischen</placeName> Staatsangehörigen - Juden die Einreise in die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> grundsätzlich nicht erlaubt. In den ersten Tagen nach
+                dem Umsturz erteilten die <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName>
+                Behörden <distinct type="nazi_language">Nichtariern</distinct> keine <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1145">Ausreisegenehmigung</term>. Als die teilweise <q>Entjudung</q> von
+                Handels- und Industrieunternehmen abgeschlossen wurde, waren die völlig verarmten Juden gezwungen in so kurzer Zeit wie möglich
+                    <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zu verlassen. Da sich die
+                Nachbarstaaten gegen den Ansturm völlig mittelloser <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149"
+                    >Ausländer</term> wehrten, traten viele ungesetzliche Erscheinungen zu Tage, mit denen die Anti-Einwanderungsvorschriften umgangen
+                werden sollten. Dies geschah nicht nur von Seiten der betroffenen Juden, sondern auch unter Teilnahme <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName> oder <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152">deutscher</term> Behörden.</p>
+
+            <p>Weil in der ersten Zeit für die Entscheidung über eine Einreise in die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> von der hiesigen Behörde eine ausdrückliche Erlaubnis
+                zur Rückkehr nach <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> oder <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152">Deutschland</term> vorgegeben war, setzte sich bei
+                der <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1166">Polizeidirektion</term> folgende Praxis durch: Der
+                Antragsteller stellte einen Antrag für eine <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1145"
+                    >Ausreisegenehmigung</term>, in dem er angab, dass er in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+                    >Tschechoslowakei</placeName> übersiedeln möchte und dass er deshalb beantragt, dass in seinem <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pass</term> auch die Rückkehrerlaubnis eingetragen wird. Mit einer
+                gesonderten schriftlichen Erklärung verpflichtete er sich dann dazu, nicht nach <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zurückzukehren und die erwähnte
+                Rückkehrerlaubnis nicht zum Einsatz zu bringen. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >Generalkonsulat</term> nimmt an, dass auf diese Weise mehrere Fälle eintraten, in denen die Einreise sonst nicht erlaubt worden
+                wäre. Als das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> dann diese,
+                mithilfe <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152">deutscher</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Behörden</term> durchgeführte Umgehung der
+                bestehenden Praxis feststellte, beschloss es in strittigen Fällen von den Parteien einen <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-382">Ariernachweis</term> oder Dokumente einzufordern, mit welchen sich
+                die Herkunft des Antragstellers feststellen lässt.</p>
+
+            <p>Die zweite Methode, mit der verfolgte Juden versuchen in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+                    >Tschechoslowakei</placeName> zu gelangen, ist schlicht die Fälschung der von der hiesigen <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Behörde</term> ausgegebenen <q>Empfehlung</q>. Bislang wurden nicht
+                viele Fälle ermittelt, doch das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >Generalkonsulat</term> macht auch auf diese Möglichkeit aufmerksam, gegen die es selbst machtlos ist. Es empfiehlt deshalb eine
+                verschärfte Kontrolle von Ausländern, die in der letzten Zeit aus <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152">Deutschland</term> und <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> eingetroffen sind, die gegebenenfalls auch
+                auf <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-304">Flüchtlinge</term> aus dem Jahr <date
+                    when="1932">1932</date> [!] ausgedehnt werden könnte. Besonders bei <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Juden besteht eine große Gefahr, dass
+                sie sich binnen kurzer Zeit auf betrügerische Weise <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+                    >tschechoslowakische</placeName> Dokumente über die Staatsangehörigkeit besorgen und sich als <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakische</placeName> Staatsangehörige ausgeben. Das <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> weist im Weiteren nach, dass
+                auch dies möglich ist.</p>
+            <pb n="3" facs="EHRI-BF-19380627_03.jpg"/>
+
+            <p>In letzter Zeit kam es einige Male vor, dass <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+                    >slowakische</placeName>, <placeName ref="http://www.geonames.org/3070359/moravia.html">mährische</placeName> und auch einige
+                    <placeName ref="http://www.geonames.org/3339537/jihocesky-kraj.html">südböhmische</placeName> Gemeinden ihrem ehemaligem
+                Zugehörigen, der nun ein <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName> resp.
+                    <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152">deutscher</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147">Staatsbürger</term> ist, unrechtmäßig einen
+                Heimatschein ausgestellt haben. Es handelt sich mehrheitlich um Juden, die per Option die <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147">Staatsbürgerschaft</term> erlangt haben und die
+                sich nun mit einem Antrag zur Ausstellung eines neuen Heimatscheins an ihre ehemalige Heimatgemeinde wenden. Dies geschieht manchmal
+                nach der Vorlage alter Militärdokumente oder Heimatscheinen aus der Zeit vor dem Umsturz, so dass ein uninformierter Bürgermeister in
+                die Irre geführt wird und dem Antragsteller bona fide entspricht. In einigen Fällen befürchtet das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> jedoch, dass es sich nicht um Irrtum handelt,
+                sondern um Missbrauch der Amtsgewalt. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >Generalkonsulat</term> ist speziell in diesem Fall auch durch das Konsularregister geschützt, welches die Beibehaltung des
+                Heimatrechts in der <placeName ref="https://portal.ehri-project.eu/countries/sk">Slowakei</placeName> und in der <placeName
+                    ref="https://www.wikidata.org/wiki/Q1148511">Karpatenukraine</placeName> verlangt. Hier hat das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> die Möglichkeit, das Heimatrecht selbst zu
+                überprüfen. Größere Schwierigkeiten treten jedoch in den Fällen auf, wo es um ehemalige Zugehörige <placeName
+                    ref="http://www.geonames.org/3078198/cechy.html">böhmischer</placeName> oder <placeName
+                    ref="http://www.geonames.org/3070359/moravia.html">mährischer</placeName> Gemeinden geht. Eine verpflichtende Meldung im
+                Konsularregister ist nicht vorgeschrieben, und so hat das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> keine sofortige Kontrolle, mit deren Hilfe
+                sich die <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147">Zugehörigkeit</term> des Antragstellers
+                beurteilen ließe. Bei älteren Heimatscheinen beantragt das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> aus freien Stücken die Vorlage einer
+                Bestätigung über die Nicht-Option, die von der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+                    >Bezirkshauptmannschaft</term> und in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> vom Magistrat
+                ausgestellt wird. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> wurde
+                jedoch darauf hingewiesen, dass die Bestätigung über die Nicht-Option kein sicherer Maßstab sein muss, weil sie <q>gegen eine
+                    angemessene Gebühr</q> auch in dem Fall erlangt werden kann, wenn es sich um einen <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147">Staatsbürger</term> mit rechtmäßig anerkannter
+                Option handelt. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> kann die
+                Wahrhaftigkeit dieser Behauptung nicht überprüfen, doch es hat keinen Grund, den Wahrheitsgehalt dieses Vorgangs zurückzuweisen. In
+                dieser Hinsicht besteht schlechterdings Anarchie und das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> ist überzeugt, dass es auf diese Weise von
+                statten geht. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> bemerkt,
+                dass es bislang keinen ähnlichen Fall erfasst hat, und wird, falls dies geschehen sollte, beschleunigt Bericht erstatten. Im Hinblick
+                auf die Folgen ist eben nicht der Moment des Vorfalls wichtig, sondern es ist notwendig, eine Lösung zu finden, die diesen verhindern
+                würde. Das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> nimmt an, dass es
+                ratsam wäre, wenn die von den <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+                    >Bezirksbehörden</term> ausgestellte Bescheinigung über die <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147">Staatsbürgerschaft</term> bei den Bezirksbehörden anhand der
+                Optionslisten überprüft würden. Diese Vorschrift würde sich nur auf Bescheinigungen beziehen, die von dauerhaft in <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> lebenden Personen beantragt wurden.</p>
+            <pb n="4" facs="EHRI-BF-19380627_04.jpg"/>
+
+            <p>[...]</p>
+
+            <p>Bei dieser Gelegenheit weist das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >Generalkonsulat</term> noch einmal darauf hin, dass über die Stationen <placeName
+                    ref="http://www.geonames.org/3079129/bohumin.html">Oderberg</placeName>, <placeName
+                    ref="http://www.geonames.org/3068031/podmokly.html">Bodenbach</placeName>, <placeName
+                    ref="http://www.geonames.org/3077835/cheb.html">Eger</placeName>, <placeName
+                    ref="http://www.geonames.org/2923529/furth-im-wald.html">Furth im Wald</placeName> auch <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName> Juden frei in die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName> einreisen können, die auf diese Weise
+                emigrieren. In dieser Sache wurde dem <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Ministerium
+                    für Äußere Angelegenheiten</term> von der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >hiesigen Behörde</term> am <date when="1938-06-15">15.</date> d. M. unter Az. 46.303/IV-38 Bericht erstattet.</p>
+
+            <p>Der Bericht ergeht gleichzeitig an das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+                    >Innenministerium</term> und die <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+                    >Landesbehörde</term> in <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>, <placeName
+                    ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName>, <placeName
+                    ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> und in <placeName
+                    ref="http://www.geonames.org/690548/uzhhorod.html">Uschhorod</placeName>.</p>
+
+            <p>Der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsul</term>:</p>
+
+            <p>Dr. <persName ref="#ehri_bf_sebesta_frantisek">Šebesta</persName>, m.p.</p>
+        </body>
+    </text>
+</TEI>

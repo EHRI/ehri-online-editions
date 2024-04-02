@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19400413_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Auskunft der Gestapo Berlin an das Deutsche Rote Kreuz zum Aufenthaltsort von Josef Schlosz </title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten
+					Juden.</edition>
+				<author>
+					<persName>Winfried Garscha</persName>
+				</author>
+				<author>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+				<sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<publisher>
+					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/de">Deutschland</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/de-002409"> Arolsen Archives: International Center on Nazi
+							Persecution</repository>
+						<collection ref="https://portal.ehri-project.eu/units/de-002409-de_its_3_1_1">Registrierung und Betreuung von DPs innerhalb
+							und außerhalb von Lagern</collection>
+						<idno>8801600.</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Arolsen Archives: International Center on Nazi Persecution, 8801600. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+				<list>
+					<item><name>Schutzhaft</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-620"/>
+						</linkGrp></item>
+					<item><name>Juden und jüdisches Leben</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Arbeitslager</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Deportation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+				</list>
+				<listOrg>
+					<org>
+						<orgName>Deutsches Rotes Kreuz (DRK)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004659"/>
+						</linkGrp>
+					</org>
+					<org xml:id="ehri_nisko_ikg_brno">
+						<orgName>Jüdische Gemeinde Brünn (JKG Brünn)</orgName>
+					</org>
+				</listOrg>
+				<listPerson>
+					<person xml:id="ehri_nisko_schlosz_josef">
+						<persName>Schlosz, Josef</persName>
+						<note>
+							<p>Josef Schloß wurde 1916 in Wien geboren. Bis Ende 1935 lebte er gemeinsam mit seinen Eltern Viktor und Malvine Schlosz
+								in der Weißgerberlände 8. Ab Ende November 1935 lebte er in Brünn, wo er in einem Textilunternehmen arbeitete. Bis
+								1939 wohnte er in der Altbrünnergasse 7 in Brünn. Am 8. Juli 1939 wurde er in das Lager Eibenschütz (Ivančice)
+								eingewiesen. Am 26. Oktober 1939 wurde er von dort nach Nisko deportiert. Josef Schloß' weiteres Schicksal ist
+								unbekannt. Seine Eltern Viktor und Malvine Schloß sowie seine Schwester Olga Pisinger überlebten den Holocaust im Exil
+								in Großbritannien.</p>
+						</note>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wien</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ivančice</placeName>
+						<location>
+							<geo>49.10144 16.37752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3074615/ivancice.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ivan%C4%8Dice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Brünn</placeName>
+						<location>
+							<geo>49.19522 16.60796</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3078610/brno.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Brno"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nisko</placeName>
+						<location>
+							<geo>50.51987 22.13968</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/763829/nisko.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Nisko"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1940-04-13">13. April 1940</date>
+				<placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>
+				<idno>EHRI-NISKO-19400413</idno>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>An das</p>
+			<p>Präsidium des <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004659">Deutschen Rote Kreuzes</orgName></p>
+			<p>Führungsstab</p>
+			<p> </p>
+			<p><placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> SW 11</p>
+			<p> </p>
+			<p>Betr.: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-620" type="subject">Schutzhaft</term>
+				<persName ref="#ehri_nisko_schlosz_josef">Joseph Schloß</persName>. Geb. <date when="1916-06-04">24.6.16</date>
+				<placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>.</p>
+			<p>Bezug: Schreiben v. <date when="1940-02-20">20.2.1940</date> – VII Ch- Grl./Stu.</p>
+			<p>Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jude</term>
+				<persName ref="#ehri_nisko_schlosz_josef">Joseph Schloß</persName> war vom 8.7.39 bis <date when="1939-10-26">26.10.39</date> in dem
+				aus Mitteln der <orgName ref="#ehri_nisko_ikg_brno">Kultusgemeinde Brünn</orgName> erhaltenen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Arbeitslager</term> für <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> in <placeName
+					ref="http://www.geonames.org/3074615/ivancice.html">Eibenschitz</placeName> bei <placeName
+					ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> untergebracht. Am <date when="1939-10-26">26.10.39</date>
+				erfolgte <persName ref="#ehri_nisko_schlosz_josef">seine</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Abschiebung</term> [handschriftl: <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518">Ausweisung</term>] nach <placeName
+					ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName> im Generalgouvernement.</p>
+			<p> </p>
+			<p>Heil Hitler!</p>
+			<p>Im Auftrage:</p>
+			<p>[Unterschrift unleserlich]</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB0099_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>R. H., female, on the ghettoization and deportation of Jews from Munkács to Auschwitz-Birkenau in 1944 and her time in slave
+					labour in other concentration camps</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 99. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+
+					<place>
+						<placeName>Allach</placeName>
+						<location>
+							<geo>48.1887 11.4709</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-252"/>
+						</linkGrp>
+					</place>
+
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mukacheve</placeName>
+						<location>
+							<geo>48.43919 22.71779</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/700646/mukacheve.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Mukacheve"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Geislingen</placeName>
+						<location>
+							<geo>48.28776 8.81288</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6558164/geislingen.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Geislingen%2C_Zollernalbkreis"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hortobágy</placeName>
+						<location>
+							<geo>47.58333 21.08333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719894/hortobagy.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sátoraljaújhely</placeName>
+						<location>
+							<geo>48.39492 21.65871</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/715839/satoraljaujhely.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/S%C3%A1toralja%C3%BAjhely"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Košice</placeName>
+						<location>
+							<geo>48.71395 21.25808</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/724443/kosice.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Ko%C5%A1ice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Illdorf</placeName>
+						<location>
+							<geo>48.67653 11.051</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2896566/illdorf.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Feldafing</placeName>
+						<location>
+							<geo>47.94602 11.29326</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2927464/feldafing.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Feldafing"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Pilsen</placeName>
+						<location>
+							<geo>49.74747 13.37759</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3068160/pilsen.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Plze%C5%88"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Prague</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Prague"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bratislava</placeName>
+						<location>
+							<geo>48.14816 17.10674</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3060972/bratislava.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Bratislava"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Displaced persons camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-278"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish legislation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-335"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>Death marches</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-517"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_czechs"><name>Czechs (ascribed nationality)</name></item>
+					<item><name>Hungarian occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1034"/>
+						</linkGrp></item>
+					<item><name>Antisemitic activities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-330"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Jewish holidays</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-754"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Labour battalions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-560"/>
+						</linkGrp><note><p>Hungarian and Romanian formations.</p></note></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_slovaks"><name>Slovaks (ascribed nationality)</name></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Crematoria</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-501"/>
+						</linkGrp></item>
+					<item><name>Kapos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-485"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Starvation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-570"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_americans"><name>Americans (ascribed nationality)</name></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Zionism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-906"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_kiss">
+						<persName>Kiss (soldier in Várpalánka and Mukachevo)</persName>
+					</person>
+					<person xml:id="ehri_et_boldog_istvan">
+						<persName>Boldog, István</persName>
+					</person>
+					<person xml:id="ehri_et_voros">
+						<persName>Vörös (corporal in Várpalánka and Mukachevo)</persName>
+					</person>
+					<person>
+						<persName>Hitler, Adolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000185"/>
+						</linkGrp>
+						<note>
+							<p>20/04/1889 30/04/1945</p>
+							<p>Führer and Reichskanzler, since 04.02.1938 Oberbefehlshaber der Wehrmacht.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_sefcsenko">
+						<persName>Sefcsenko (policeman in Mukachevo)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>Hitler-Jugend</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-317"/>
+						</linkGrp>
+						<note><p>1926-07-27/1945-05-07</p><p>Hitler approved officially the establishment of the Hitler-Jugend on 1926-07-27 and
+								placed under the Sturmabteilung (Storm Division). Between 1933 and 1945 that vast majority of German’s children were
+								members of the HJ, the junior branch of the Nazi Party. Boys were taught the beliefs of National Socialism and trained
+								for military service. Determining that by age ten children’s minds could be turned from play to politics, the regime
+								inducted nearly all German juveniles between ages of ten and eighteen into its state-run organization. The result was
+								a potent tool for the will of Adolf Hitler. When Nazi Germany finally surrendered on 1945-05-07, the HJ came to an
+								end.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-06-22">22. 6. 1945</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri-camps-2">Auschwitz</placeName>, <placeName
+					ref="http://www.geonames.org/700646/mukacheve.html">Munkács/Mukacevo</placeName>, <placeName
+					ref="http://www.geonames.org/6558164/geislingen.html">Geislingen</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-252">Allach</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-278">DP camps</term>, <idno>EHRI-ET-DEGOB0099</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of the 39-year old R. H. on pre-1944 antisemitism and atrocities in Subcarpathia, deportation of her family from the
+					Munkács brick factory, and her sufferings in the Auschwitz, Geislingen, and Allach concentration camps, liberation and her
+					treatment in DP camps.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-DEGOB0099_01.jpg"/> The person in question has given us the following information: During the rule of the <term
+					type="subject" ref="#ehri_et_nationalities_czechs">Czechs</term> we did very well in <placeName
+					ref="http://www.geonames.org/700646/mukacheve.html">Várpalánka</placeName>. They never abused Jews and we enjoyed equal rights
+				with the others. When the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Hungarians</term> came
+				in, they took away the trade licenses and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-330" type="subject">abused the
+					Jewish inhabitants</term> of the village quite a lot. There was a garrison in the village and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">soldiers</term> marching there sang satirical songs,
+				the target of which was Jews. Later, incited by young ethnic <term type="subject" ref="#ehri_et_nationalities_germans">Germans</term>
+				they broke in some Jewish homes, led by officers called <persName ref="#ehri_et_kiss">Kiss</persName> and <persName
+					ref="#ehri_et_boldog_istvan">István Boldog</persName>. They went to <placeName ref="http://www.geonames.org/700646/mukacheve.html"
+					>Munkács</placeName> every evening and they broke in Jewish houses under the pretext that those were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">military</term> exercises. They robbed the Jews of
+				every possession and beat them to a pulp. They came back to <placeName ref="http://www.geonames.org/700646/mukacheve.html"
+					>Palánka</placeName> at 12 o'clock at night and continued with us. Terrible noises, screams could be heard in the night. We lived
+				through terrible times, trembling in horrible fear; that was the time when I got a heart ailment. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">army</term> terrorized the inhabitants all the time
+				and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">beat Jewish men horribly</term> without any
+				reason. A lance corporal called <persName ref="#ehri_et_voros">Vörös</persName> also behaved in such a base way that we did not dare
+				go out to the street in the evening at all. That was the beginning of the terror for us. Then we already had to be in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hiding</term> in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>; we did not dare sleep at home, we spent the nights at our
+				relatives living in nearby towns, where we <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">slept in
+					barns and haylofts</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject"
+					>Hungarians</term> had already treated us in an inhuman and cruel way before the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term> invasion. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Hungarians</term> committed more horrible tortures
+				than the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> did in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germany</term>. They completely ruined us
+				psychically. 70 Jewish families lived in <placeName ref="http://www.geonames.org/700646/mukacheve.html">Várpalánka</placeName>, most
+				of them were tradesmen and craftsmen. Most of them lived in good financial conditions and were not short of anything. I was a
+				dressmaker and I earned as much as I needed. It was the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034"
+					type="subject">Hungarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term> of <placeName
+					ref="http://www.geonames.org/700646/mukacheve.html">Munkács</placeName> who ordered the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Jewish decrees</term> against us. The inhabitants
+				of the village behaved in a relatively considerate way, except the ethnic <term type="subject" ref="#ehri_et_nationalities_germans"
+					>German</term> members of the organization Jugendheiz, who were the followers of <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Hitler</persName> and acted in a shameful manner towards us. We
+				wanted to give 10,000 pengős to the notary's office in order to let us stay in the village but they could not do anything. After <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Passover</term> they took us to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> in the brickyard of <placeName
+					ref="http://www.geonames.org/700646/mukacheve.html">Munkács</placeName>. There the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Hungarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policemen</term> forced the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> to crawl on their bellies in the mud and
+				hit their heads with rifle butts. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject"
+					>Hungarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policemen</term> and 3 <term type="subject"
+					ref="#ehri_et_nationalities_germans">Germans</term>, one of them was called <persName ref="#ehri_et_sefcsenko"
+					>Sefcsenko</persName>, beat the young boys extremely hard, some of them they beat to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">death</term>. We were already so desperate that we
+				could hardly wait to be taken to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. That
+				is, they lied that they would take us to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>
+				in the <placeName ref="http://www.geonames.org/719894/hortobagy.html">Hortobágy</placeName>. They entrained us in <placeName
+					ref="http://www.geonames.org/700646/mukacheve.html">Munkács</placeName> but they did not give us water, nor did they give us a
+				bucket for toilet purposes. In <placeName ref="http://www.geonames.org/715839/satoraljaujhely.html">Sátoraljaújhely</placeName>,
+				Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-560" type="subject">labour servicemen</term> saw us and they
+				wanted to give us water, which the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Hungarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policemen</term> did not allow them to do so. 80 of
+				us were in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">cattle car</term>: fainting old people,
+				crying little <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. They handed us over
+				to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term> in <placeName
+					ref="http://www.geonames.org/724443/kosice.html">Kassa</placeName>. The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> told us that they would take us to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> at a good place. <pb n="2"
+					facs="EHRI-ET-DEGOB0099_02.jpg"/> On our arrival in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2"
+					>Auschwitz</placeName> they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">separated</term> me
+				from the rest of my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> and I had no idea
+				what was in store for me. We did not even want to believe it from a <term type="subject" ref="#ehri_et_nationalities_slovaks"
+					>Slovakian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> there that they were burning our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> members in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">crematorium</term>. They took all the expectant <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">mothers</term> away and still we managed to hide an
+				expectant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>, who gave birth to her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term> in secret; of course we arranged it so
+				that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term> would not remain alive. When
+				we arrived in <placeName ref="http://www.geonames.org/6558164/geislingen.html">Geislingen</placeName>, we thought that it would be a
+				very good place to stay, because we could sit at a table, where we had to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> 12 hours a day. We did well in the
+				beginning, but later <term type="subject" ref="#ehri_et_nationalities_germans">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">Capos</term> came and stole our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food.</term> We slept in cold rooms in the winter and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in a factory, which was not
+				heated. Our hands got frostbitten and the flesh between our fingers cracked. After <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Passover</term>, they took us to Münchenallsch where
+				we stayed only for two weeks, then they entrained us. We did not receive anything else to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term> than a little <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> for a week. We <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">starved</term> very, very much, we lost weight, we
+				were nothing but skin and bones and several <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>men</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died.</term> The <term type="subject"
+					ref="#ehri_et_nationalities_americans">American</term> troops <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573"
+					type="subject">liberated</term> us on <date when="1945-05-01">1st May</date>. They supplied us with the best things imaginable,
+				like first-class <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">clothes</term> and shoes. They took us to <placeName
+					ref="http://www.geonames.org/2896566/illdorf.html">Illdorf</placeName> near Stahldoch, where we stayed for four weeks, then we
+				were taken to a home for members of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">Hitlerjugend</orgName>
+				in <placeName ref="http://www.geonames.org/2927464/feldafing.html">Feldafing</placeName>. We received excellent medical treatment. A
+					<term type="subject" ref="#ehri_et_nationalities_czechs">Czech</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">soldie</term>r came for us and told us not to speak
+					<term type="subject" ref="#ehri_et_nationalities_hungarians">Hungarian</term> anywhere; they put us in a car and after a nine-hour
+				journey we arrived in <placeName ref="http://www.geonames.org/3068160/pilsen.html">Pilsen</placeName>. In the <term type="subject"
+					ref="#ehri_et_nationalities_czechs">Czech</term> villages, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term>, old people and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>men</term> ran to meet us and received us very happily. We were crying from emotion when we saw that welcome boards were put on
+				view and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">mothers</term> were holding their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> up in the windows. Then they took us
+				to <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> by bus and from there, we came to <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Pest</placeName> through <placeName
+					ref="http://www.geonames.org/3060972/bratislava.html">Pozsony</placeName>. Now I am going home to see whether my little <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">son</term> is there and then we will <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">go</term> together to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-906" type="subject">Palestine</term>. I cannot imagine living among the
+				evil people at home, so I would like to work on building of our new homeland in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-906" type="subject">Palestine</term>.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:08+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380906_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anhaltung und Selbstmord von Pavel (Paul) Kastner</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+                        <idno>Sign. 225-1186-16, Fol. 57</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16, Fol. 57. <textLang mainLang="sk">Original auf
+                        Slowakisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Pressburg (Bratislava)</placeName>
+                        <location>
+                            <geo>48.14816 17.10674</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3060972/bratislava.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Bratislava"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place xml:id="ehri_bf_wien_josefstaedter_strasse_29">
+                        <placeName>Wien, Josefstädter Straße 29</placeName>
+                        <location>
+                            <geo>48.209452 16.349726</geo>
+                        </location>
+                    </place>
+                    <place>
+                        <placeName>Donau</placeName>
+                        <location>
+                            <geo>45.33333 29.66667</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/791630/danube-river.html"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Mährisch Ostrau (Ostrava)</placeName>
+                        <location>
+                            <geo>49.83465 18.28204</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3068799/ostrava.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Ostrava"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Bulgarien</placeName>
+                        <location>
+                            <geo>42.66667 25.25</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/732800/republic-of-bulgaria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Bulgarien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wolfsthal</placeName>
+                        <location>
+                            <geo>48.13333 17</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2760895/wolfsthal.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Wolfsthal"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Deutschland</placeName>
+                        <location>
+                            <geo>51.5 10.5</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Deutschland"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Ministerium</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1110"/>
+                        </linkGrp></item>
+                    <item><name>Polizeipräsidium</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1166"/>
+                        </linkGrp></item>
+                    <item><name>NS-Staat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                    <item><name>Selbstmord</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+                        </linkGrp></item>
+                    <item><name>Verhör</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-634"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_novakov_nikola">
+                        <persName>Novakov, Nikola</persName>
+                    </person>
+                    <person xml:id="ehri_bf_kastner_pavel">
+                        <persName>Kastner, Pavel</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-09-06">6. September 1938</date>
+                <placeName>Pressburg (Bratislava)</placeName>
+                <orgName>Präsidium der Landesbehörde in Bratislava</orgName>
+                <idno>EHRI-BF-19380906</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="Fluchtberichte"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><pb n="1" facs="EHRI-BF-19380906_01.jpg"/>Die <term type="keyword" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+                    >Landesbehörde</term> meldet gemäß Bericht der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1166"
+                    >Polizeidirektion</term>
+                <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName>, dass am <date when="1938-08-17">17. August
+                    1938</date> um 0.50h unweit der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+                    >tschechoslowakisch</placeName>-<term type="subect" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">deutschen</term>
+                Grenze am rechten Ufer der <placeName ref="http://www.geonames.org/791630/danube-river.html">Donau</placeName> der Versuch des <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-234">illegalen Grenzübertritts</term> von Seiten <persName
+                    ref="#ehri_bf_kastner_pavel">Pavel Kastners</persName> unternommen wurde, geboren am <date when="1891-03-25">25. März 1891</date>
+                in <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mährisch Ostrau</placeName>, heimatberechtigt in <placeName
+                    ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen Glaubens</term>, von Beruf Techniker,
+                zuletzt wohnhaft in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+                <placeName ref="#ehri_bf_wien_josefstaedter_strasse_29">VIII. Bezirk, Josefstädterstrasse Nr. 29</placeName>, dem dabei <persName
+                    ref="#ehri_bf_novakov_nikola">Nikola Novakov</persName> behilflich war, 25-jähriger <placeName
+                    ref="http://www.geonames.org/732800/republic-of-bulgaria.html">bulgarischer</placeName> Staatsangehöriger, Gärtner, wohnhaft in
+                    <placeName ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfstahl</placeName>, <placeName
+                    ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschland</placeName>. Der Versuch gelang nicht, da die
+                    <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakische</placeName> Grenzwache zugriff, welche
+                die Genannten durchsuchte. Während der Durchsuchung nahm <persName ref="#ehri_bf_kastner_pavel">Pavel Kastner</persName> in einem
+                unbewachten Augenblick ein unbekanntes Gift, worauf er nach 5 Minuten <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-217">verstarb</term>.</p>
+
+            <p><persName ref="#ehri_bf_novakov_nikola">Nikola Novakov</persName>, den die <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1166">Polizeidirektion</term>
+                <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> für den <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234">illegalen Übertritt der Staatsgrenze</term>
+                <pb n="2" facs="EHRI-BF-19380906_02.jpg"/>zu einer Strafe von 10 Tagen Haft verurteilte, gab beim <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-634">Verhör</term> an, dass er von <persName ref="#ehri_bf_kastner_pavel"
+                    >Pavel Kastner</persName> für die Hilfe beim <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-234"
+                    >Übertritt der Staatsgrenze</term> 100 Mark erhalten hat.</p>
+        </body>
+    </text>
+</TEI>

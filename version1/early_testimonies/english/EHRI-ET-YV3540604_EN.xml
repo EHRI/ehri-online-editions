@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-YV3540604_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sheine Weiner, transport from the Kaunas Ghetto to Riga, 1942</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Judith Levin</persName>
+				</author>
+				<author>
+					<persName>Daphna Sehayek</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/il">Israel</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn524432">The Central Historical Commission of the Central
+							Committee of Liberated Jews in the U.S. Zone (M.1.E).</collection>
+						<idno>file no. 3540604</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Yad Vashem Archives, The Central Historical Commission of the Central Committee of Liberated Jews in the U.S. Zone (M.1.E), file
+					no. 3540604. <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Kaunas</placeName>
+						<location>
+							<geo>54.90272 23.90961</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/598316/kaunas.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Kaunas"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga</placeName>
+						<location>
+							<geo>56.946 24.10589</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/456172/riga.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Riga"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kovno Ghetto</placeName>
+						<location>
+							<geo>54.915833 23.888333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>IX Kauno fortas</placeName>
+						<location>
+							<geo>54.94523 23.87069</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/9610418/ix-kauno-fortas.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ninth_Fort"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga concentration camp</placeName>
+						<location>
+							<geo>56.946527 24.104861</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2055"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga-Kaiserwald concentration camp</placeName>
+						<location>
+							<geo>56.95 24.1</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-788"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Yanova</placeName>
+						<location>
+							<geo>54.7566 30.0928</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/619711/yanova.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Šiauliai</placeName>
+						<location>
+							<geo>55.93333 23.31667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/594739/siauliai.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/%C5%A0iauliai"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Jewish holidays</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-754"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_lithuanians"><name>Lithuanians (ascribed nationality)</name></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Sanitation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-295"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Songs</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-694"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Bribery</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1053"/>
+						</linkGrp></item>
+					<item><name>Policemen</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1120"/>
+						</linkGrp></item>
+					<item><name>Emigration certificates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1142"/>
+						</linkGrp></item>
+					<item><name>Mischlinge</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-374"/>
+						</linkGrp></item>
+					<item><name>Trade</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-933"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Writers and poets</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-681"/>
+						</linkGrp></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Hiding places</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-265"/>
+						</linkGrp></item>
+					<item><name>Workers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1057"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Wachmaenner (Camp guards)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-480"/>
+						</linkGrp></item>
+					<item><name>Camp and ghetto personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-477"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Black market</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1051"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Poetry</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-680"/>
+						</linkGrp></item>
+					<item><name>Music</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-691"/>
+						</linkGrp></item>
+					<item><name>Musicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-692"/>
+						</linkGrp></item>
+					<item><name>Disabled people</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-326"/>
+						</linkGrp></item>
+					<item><name>Holocaust survivors</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-904"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_viner_shane">
+						<persName>Viner, Shane</persName>
+					</person>
+					<person xml:id="ehri_et_puchard_volf">
+						<persName>Puchard, Volf</persName>
+					</person>
+					<person xml:id="ehri_et_margolin">
+						<persName>Margolin (Mrs.)</persName>
+					</person>
+					<person xml:id="ehri_et_jordan">
+						<persName>Jordan (commander in the Kaunas ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_arenshtam">
+						<persName>Arenshtam</persName>
+					</person>
+					<person xml:id="ehri_et_kaplan_israel">
+						<persName>Kaplan, Israel</persName>
+					</person>
+					<person xml:id="ehri_et_lurie">
+						<persName>Lurie (Kaunas ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_kabinsky_sorel">
+						<persName>Kabinsky, Sorel</persName>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><placeName ref="http://www.geonames.org/598316/kaunas.html">Kaunas</placeName>, <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>, <idno>EHRI-ET-YV3540604</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en" usage="100">English</language>
+			</langUsage>
+
+			<abstract>
+				<p>Testimony of Sheine Weiner regarding the transport from the Kaunas Ghetto to Riga, 1942.</p>
+			</abstract>
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-YV3540604_01.jpg"/>
+			<p>Dedicated to the fifth anniversary of <date when="1942-02-06">February 6, 1942</date>, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">aktion</term> to <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>, which we composed in my café in the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032?dlid=eng" type="ghetto">Riga ghetto</placeName>. We composed the
+				poem during <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Sukkot</term>
+				<date when="1942">1942</date>, I, <persName ref="#ehri_et_viner_shane">Shane Viner</persName>, and my friend <persName
+					ref="#ehri_et_puchard_volf">Volf Puchard</persName>.</p>
+			<p>1.</p>
+			<p>I will never forget the violent acts! Going through the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng" type="ghetto">Kovno ghetto</placeName> gate they [….]
+					us.<note place="bottom">Uncertain. Counted us (if it is געצאלט)? Colored us? The latter could be a reference to the marking of
+					Jews.</note> They arranged us in lines. Commotion, wailing and cries! <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term>, this reeks of an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">aktion</term>!</p>
+			<p>2. <lb/>They dragged the heretics from the aerodrome to the kloyz! Whoever is one of their own, they take him out. In its predicament,
+				the committee already <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selected</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> from the underworld. Small <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> have no place here!</p>
+			<p>3.</p>
+			<p>Here the clique revealed its sharp teeth, escorted by rifles, blows, and childish crying! <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">Sorted</term> into groups of twenty and inspected with
+				jabs. Oy, to where they are taking us I do not know.</p>
+			<p><pb n="2" facs="EHRI-ET-YV3540604_02.jpg"/></p>
+			<p>4.</p>
+			<p>Here it reeks, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, of the <placeName
+					ref="http://www.geonames.org/9610418/ix-kauno-fortas.html">Fort</placeName>,<note place="bottom">Ninth Fort, where most of the
+					Jews form the Kovno ghetto were murdered.</note> that was what we thought! We went like sheep, to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> they brought us! They threw into the
+				wagons loaves of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> and a purse of
+				matches. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term>, smoke and be quiet!</p>
+			<p>5.</p>
+			<p>You cannot imagine, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>, our comfort,
+				relieving human needs on the spot! No drop of water in our mouths, sticking your head out is liable to get you a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">bullet</term>! So we travelled for two full days.</p>
+			<p>6.</p>
+			<p>Arriving in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2055" type="camp">Riga camp</placeName> imagine my
+				luck, the first day I became well acquainted with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject"
+					>Provodnik</term>!<note place="bottom">A rubber factory in Riga.</note>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-788" type="camp">Kaiserwald</placeName>, only the […]<note
+					place="bottom">Uncertain. </note> Steinbach hits the mark pretty well in the cheek. What does he want, poor thing, from a <term
+					ref="#ehri_et_nationalities_lithuanians">Lithuanian</term> Jew.</p>
+			<p>7.</p>
+			<p>Everyone together endured <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">poverty, cold and
+					need</term>! Rising very early and returning late at night! We were not lacking any <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">bedbugs</term> at night, they turned the world over!
+				Likewise, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">bath</term> was not for us.</p>
+			<p><pb n="3" facs="EHRI-ET-YV3540604_03.jpg"/></p>
+			<p>8.</p>
+			<p>Sorrows, just like everything else, nevertheless have a limit! Now they do not herd us to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">Provodnik</term>, the sorrows to an end! No more
+				masters, no more <term ref="#ehri_et_nationalities_poles">Poles</term>, to hell with the pick axes and barracks! Many no longer need
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">ration</term></p>
+			<p>9.</p>
+			<p>Only in the kingdom of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> does one
+				forget the suffering! The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826?dlid=eng" type="subject">men</term> become
+					fools<note place="bottom">Or prostitutes, uncertain.</note> when the watch strikes half past eight! <persName
+					ref="#ehri_et_margolin">Mrs. Margolin</persName> watches over everything well, she also sings the hit <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-694" type="subject">songs</term>!</p>
+			<p>10.</p>
+			<p>I have finished the business, set the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> pot
+				to cook! Sold shag, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">saccharine</term>, I whistle to
+				the world! The <term ref="#ehri_et_nationalities_germans">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> is not far, I go straight to the other
+				side, at least I avoid the evil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">uncle</term>.</p>
+			<p><pb n="4" facs="EHRI-ET-YV3540604_04.jpg"/></p>
+			<p>11.</p>
+			<p>Dry <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">biscuit</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bacon</term>, then farewell! When you still have a
+				half a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">flask</term>, you’re set! One <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053" type="subject">puts aside</term> a packet for the Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1120" type="subject">policeman</term>! Then your <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1142" type="subject">certificate</term> is valid everywhere! The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half-Aryans</term> are my friends.</p>
+			<p>12.</p>
+			<p>And when I come home completely drunk, I fall straight into bed! Then <persName ref="#ehri_et_jordan">Jordan</persName> and the
+				committee come to me in a dream! Elkes, Lurie, and <persName ref="#ehri_et_arenshtam">Arenshtam</persName>, and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-933" type="subject">trading</term> through the fence! God have mercy on
+				them. End</p>
+			<p>Mr. Editor, please sent this poem to the Historical Committee in my name to <persName ref="#ehri_et_kaplan_israel">Mr. Israel
+					Kaplan</persName>, he is also one of those remaining alive who were on my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>. I have many more <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-681" type="subject">poems</term> that I composed but I have no paper to
+				write, but I will send to you also my experiences which I endured in eleven <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camps</term> and three <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettos</term>.</p>
+			<p><pb n="5" facs="EHRI-ET-YV3540604_05.jpg"/></p>
+			<p>My memories from <date when="1942-06-02">February 6, 1942</date>, to <date when="1947-02-07">February 7, 1947</date>.</p>
+			<p>In the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng" type="ghetto">Kovno ghetto</placeName>, only
+				a few months after the Great <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">Aktion</term> in which
+				more than ten thousand of our dearest ones were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>taken away</term>, on <date when="1941-01-25">January 25, 1941</date>, they again began talking about an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">action</term> to <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>. Later the talk about sending 600 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826?dlid=eng" type="subject">men</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> to <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName> intensified. However, we knew what this meant for us and we began
+				to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hide</term> ourselves away in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">hiding places</term>. A few days later the atmosphere
+				calmed down again, and we gradually came out [of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject"
+					>hiding places</term>]. In the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng" type="ghetto"
+					>Kovno ghetto</placeName> at that time they needed <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057"
+					type="subject">working hands</term> for the <placeName ref="http://www.geonames.org/598316/kaunas.html">Kovno</placeName>
+				aerodrome. So as soon as I went out onto the street I was caught and straight away sent to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> at the aerodrome. That day there was a
+				burning <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">frost</term> which cut like knives, we all
+				went out to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>. In the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng" type="ghetto">ghetto</placeName> there was then a panic.
+				They immediately slammed the doors with the bolts, no living soul was to be seen outside, apart from a few <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1120" type="subject">policemen</term>. However, that day we did not <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> in the aerodrome. We just stood and talked
+				with one another about the good conduct of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-480" type="subject"
+					>guards</term>, how they did not herd us to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>work</term> as they did on all other occasions. Yet that day also passed slowly and sadly. When 3.30 arrived, they gave us an
+				order to lay down the axes and spades and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>working</term> day was over. We went straight into the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng" type="ghetto">ghetto</placeName>, on the way we directly
+				found out that in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-874?dlid=eng" type="ghetto"
+					>ghetto</placeName> something bad had happened, but we did not know what. Close to the door they arranged us in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">rows</term> of twenty <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. Opposite the Work Office and in the square
+				stood the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">commandant of the ghetto</term>, <persName
+					ref="#ehri_et_jordan">Jordan</persName>, with his retinue and from the Jewish Labor Office Lurie and <persName
+					ref="#ehri_et_arenshtam">Arenshtam</persName> and the Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1120"
+					type="subject">police</term>,</p>
+			<p><pb n="6" facs="EHRI-ET-YV3540604_06.jpg"/></p>
+			<p>and they herded us straight into through a fenced wire gate, a few <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207"
+					type="subject">people</term> straight away tried to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204"
+					type="subject">escape</term>. However, immediately a few shots rang out and they took us straight to the kloyz <note
+					place="bottom">small synagogue or study house</note>. They beat us with the rifles and they filled the kloyz with <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> so that it was hard to breath; really
+				we were suffocating. Immediately, Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1120" type="subject"
+					>policemen</term> came and took out their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject"
+					>people</term>. Later, the Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1120" type="subject">police</term>
+				came again and it became bitter and dark for us, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1051"
+					type="subject">black trade</term> began – how much will you give, you get out straight away, five golden coins and a golden watch
+				and the deal is done, hand it over. And now take an armband and a police hat and follow him out. And so it went on, and we still
+				remained in the kloyz. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll call</term> was
+				conducted in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> and they seized more
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> because they had not reached the
+				required number due to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1120" type="subject">police</term> letting
+				half the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> go <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053" type="subject">for gold and money</term>, with the agreement of the
+				Labor Office, at its head <persName ref="#ehri_et_lurie">Lurie</persName> and <persName ref="#ehri_et_arenshtam">Arenshtam</persName>,
+				nicknamed the Hunderter [the hundred] or Mapu. Yet the number had been reached by 7 P.M., and they arranged us again in front of the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">commandant</term> in rows of twenty <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826?dlid=eng" type="subject">men</term> and march. A few shots, childish
+				cries, and the wails of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> were heard. We
+				walked and we thought they were taking us to the <placeName ref="http://www.geonames.org/9610418/ix-kauno-fortas.html">Ninth
+					Fort</placeName>. However, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">commandant</term>
+				assured us that we should not be afraid: we were going to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+					type="subject">work</term> and not to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+					>death</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> in <placeName
+					ref="http://www.geonames.org/598316/kaunas.html">Kovno</placeName> would yet be jealous of us. We would forthwith be able to write
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letters</term> to our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>. But promises and love [maybe: being
+				nice] do not cost money, especially for the <term ref="#ehri_et_nationalities_germans">Germans</term>.</p>
+			<p><pb n="7" facs="EHRI-ET-YV3540604_07.jpg"/></p>
+			<p>We were well acquainted with <term ref="#ehri_et_nationalities_germans">German</term> promises but could not help ourselves. So they
+				took us in the direction of <placeName ref="http://www.geonames.org/598316/kaunas.html">Laisvės Alėja</placeName>, and we arrived at
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">train</term> station in <placeName
+					ref="http://www.geonames.org/598316/kaunas.html">Schanz</placeName>, where they loaded us into the wagons, forty <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826?dlid=eng" type="subject">men</term> to a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term>. Before they closed the wagons they gave
+				us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> with a purse of matches so that we
+				could smoke and be quiet. And when they had loaded us into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+					type="subject">cattle cars</term> there were six hundred of us, including <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">children</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>; there were also a few volunteers like
+				the crazy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> Galu and Mapu. This was
+					<date when="1942-02-06">February 6, 1942</date>, and we left at midnight. The wagons were locked from the outside. As soon as the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> started moving away from the
+				station, immediately a few lads opened the windows and doors and a series of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> began <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jumping</term> through the doors and windows. From my
+				wagon twelve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jumped</term> out straight away; from another wagon
+				there <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jumped</term> out seventeen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">persons</term> and in <placeName
+					ref="http://www.geonames.org/619711/yanova.html">Jonava</placeName> (<placeName ref="http://www.geonames.org/619711/yanova.html"
+					>Yanov</placeName>) and near <placeName ref="http://www.geonames.org/594739/siauliai.html">Šiauliai</placeName> (<placeName
+					ref="http://www.geonames.org/594739/siauliai.html">Shavel</placeName>) also a few <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jumped out</term>. I myself also wanted to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jump out</term>. I was standing ready <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">to jump</term> when all at once I felt that someone
+				was holding me by my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">coat</term> and a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman’s</term> voice calls out my name, <q><persName
+						ref="#ehri_et_viner_shane">Shane</persName>, I won’t let you <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jump</term>, you stay here.</q> I turn around,
+				angry. It was a friend of my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">wife</term>, <persName
+					ref="#ehri_et_kabinsky_sorel">Sorel Kabinsky</persName>. And later I did not manage to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jump out</term> and continued on to <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>. It was cold in the wagons and there was no water to drink, only
+				dry <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> and it stank in the wagon because
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> had to relieve their needs on the
+				spot.</p>
+			<p><pb n="8" facs="EHRI-ET-YV3540604_08.jpg"/></p>
+			<p>We arrived in <placeName ref="http://www.geonames.org/594739/siauliai.html">Šiauliai</placeName> by day and stood for a few hours at
+				the <placeName ref="http://www.geonames.org/594739/siauliai.html">Šiauliai</placeName> station. Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">girls</term> from <placeName
+					ref="http://www.geonames.org/594739/siauliai.html">Šiauliai</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> at the station and they told us about
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">aktions</term> in <placeName
+					ref="http://www.geonames.org/594739/siauliai.html">Šiauliai</placeName>. Thanks to them we were able to get <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">icicles</term> to drink and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>, and they were herded away from us so
+				that we should not be able to talk with them. Later they opened our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522"
+					type="subject">wagon</term> and we got some fresh air, relief from the stink, and we received money – 17 marks in our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term>. In other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagons</term> they received only 12 marks. This was
+				because our wagon had fewer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> in it
+				after a lot had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">jumped out</term>. And so we
+				travelled on further for two days and three nights until we reached <placeName ref="http://www.geonames.org/456172/riga.html"
+					>Riga</placeName>. There began my wandering through eleven <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567"
+					type="subject">camps</term> and (3) three <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>ghettos</term> and my experiences until today I will [not or will later]<note place="bottom">Something seems to be missing here
+					so that the sentence will make sense. Perhaps he will write more later.</note> write to you because I do not have paper on which
+				to write. And I attach here the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">poem</term> about
+				February 6 which I and another lad form <placeName ref="http://www.geonames.org/598316/kaunas.html">Kovno</placeName> composed in my
+				café in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032?dlid=eng" type="ghetto">Riga ghetto</placeName>.
+				My café in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032?dlid=eng" type="ghetto">Riga
+					ghetto</placeName> was the only one in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1032?dlid=eng"
+					type="ghetto">ghetto</placeName> with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject"
+					>music</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">artists</term> also sang
+				there. I ask you, Mr. Editor, that you print it and improve the wording, that means edit it, and please excuse my bad handwriting
+				because I am right handed [but] I am sadly an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-326" type="subject"
+					>invalid</term>, I am missing three half fingers from my right hand. In addition to this, I endured things that would fill
+				volumes. We were among the first of those sent to <placeName ref="http://www.geonames.org/456172/riga.html">Riga</placeName> and only
+				twelve of us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-904" type="subject">remain alive</term>.</p>
+		</body>
+	</text>
+</TEI>

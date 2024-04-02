@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB3622_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>K. I., male, on the rescue work of the International Red Cross in Budapest in 1944–1945</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 3622. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kingdom of Sweden</placeName>
+						<location>
+							<geo>62 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2661886/kingdom-of-sweden.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Sweden"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Portuguese Republic</placeName>
+						<location>
+							<geo>39.6945 -8.13057</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2264397/portuguese-republic.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Portugal"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Spain</placeName>
+						<location>
+							<geo>40 -4</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2510769/kingdom-of-spain.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Spain"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Holy See</placeName>
+						<location>
+							<geo>41.90225 12.4533</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3164670/state-of-the-vatican-city.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Vatican_City"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Zionists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-907"/>
+						</linkGrp></item>
+					<item><name>Resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-212"/>
+						</linkGrp></item>
+					<item><name>Rescue</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-214"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Forgeries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-258"/>
+						</linkGrp><note><p>Refers mainly to forgeries of documents (including food stamps, vouchers etc.) as a means of
+							resistance</p></note></item>
+					<item><name>Concentration of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-614"/>
+						</linkGrp></item>
+					<item><name>Communists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1000"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Orphans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-327"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Smuggling</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-266"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_protected_houses"><name>Protected houses</name></item>
+					<item><name>Diplomats</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1007"/>
+						</linkGrp></item>
+					<item><name>Embassies and consulates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_aczel_gyorgy">
+						<persName>Aczél, György</persName>
+					</person>
+					<person xml:id="ehri_et_weyermann">
+						<persName>Weyermann (delegate of the Red Cross)</persName>
+					</person>
+					<person xml:id="ehri_et_kraszner_lajos">
+						<persName>Kraszner, Lajos (head of an orphanage, Budapest)</persName>
+					</person>
+					<person xml:id="ehri_et_vidor_pal">
+						<persName>Vidor, Pál</persName>
+					</person>
+					<person>
+						<persName>Komoly, Ottó</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000222"/>
+						</linkGrp>
+						<note>
+							<p>1892-1945</p>
+							<p>Architect, Zionist leader. During the Holocaust, Komoly was among the most prominent Hungarian Jewish leaders to
+								participate in rescuing the Jews of Hungary. Zionist organisations established the so-called Relief and Rescue
+								Committee of Budapest (Budapesti Segélyező és Mentőbizottság or Va‘adat ‘Ezrah ve-Hatsalah) in 1942. Komoly, as
+								president of this organisation, smuggled Jews across the border, assisted refugees in Hungary, and made preparations
+								for the self-defence of the Jewish community. Komoly’s rescue action of Jewish children was his most successful
+								achievement. He worked in this area with Friedrich Born, the representative of the International Red Cross in Hungary
+								from May 1944. On September 1944, the International Red Cross established a department, the so-called A Office, and
+								Komoly directed this office, buying several buildings to create children’s homes. On 1 January 1945, Komoly was
+								arrested and most probably shot in the Danube by members of the Arrow Cross Party.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_gergely_gyorgy">
+						<persName>Gergely, György (ministerial secretary, Budapest)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>International Committee of the Red Cross</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-419"/>
+						</linkGrp>
+						<note><p>1863/present</p><p>The International Committee of the Red Cross was founded in 1863 as a humanitarian organization to
+								moderate between belligerents and to monitor application of humanitarian international law. This body was charged to
+								oversee humane conditions in POW camps among civilian internees during wartime, but gained limited access to
+								concentration camps. With the exception of two visits to Dutch inmates interned at Buchenwald in 1940, and the
+								inspection of Theresienstadt at the behest of the Danish government (where they were fooled in by the SS in 1944), the
+								Red Cross was never able to enter concentration camps until late in the war. The ICRC did not take great initiatives
+								to intervene on behalf of the Jews for fear losing its credibility with the Axis Powers, thus losing its position to
+								work on behalf of POWs and civilian internees. In 1995, ICRC president, Cornelio Sommaruga, finally admitted his
+								agency’s inaction during the Holocaust.</p></note>
+					</org>
+					<org>
+						<orgName>Nyilaskeresztes Párt - Hungarista Mozgalom</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-474"/>
+						</linkGrp>
+						<note><p>(1935) 1939-1945</p><p>Arrow Cross Party was the most popular right-wing extremist movement in Hungary before and
+								during WWII. The party was founded in 1935 under the name of Party of National Will. Its leader, former officer of the
+								General Staff, Ferenc Szálasi was imprisoned (1938-1940) and his party dissolved several times, however, managed to
+								return to political life. In the last pre-war elections in 1939 the Arrow Cross gained 29 seats, making it the second
+								largest party in Parliament. The party was re-named to Arrow Cross Party-Hungarist Movement in 1942. After Regent
+								Miklós Horthy’s attempt to extricate from war on October 15, 1944, the Arrow Cross Party assumed power with Nazi
+								support. From October 16, 1944, until March 28, 1945, Ferenc Szálasi was prime minister of Hungary as well as its
+								plenipotentiary head of state, bearing the title “Leader of the Nation.” Paramilitary forces of the Party, known as
+								Party Service (pártszolgálat) and Armed National Service (fegyveres nemzetszolgálat) committed several atrocities and
+								war crimes during their short reign, which claimed the lives of thousands of people, mostly Jews and Roma. Following
+								the war, Szálasi and several other Arrow Cross leaders were sentenced to death and executed.</p></note>
+					</org>
+					<org>
+						<orgName>Swiss government</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1373"/>
+						</linkGrp>
+						<note><p>At the start of the Second World War the Swiss government tried to maintain trade relations with all belligerents. In
+								order to safeguard vital supplies and channel them through the blockades and economic warfare restrictions applied by
+								both sides, it had to conduct complicated negotiations with its economic partners – not only Germany but also the
+								Allies.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1946-01-28">28. 1. 1946</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="http://www.geonames.org/3054643/budapest.html"
+					>Budapest</placeName>
+				<idno>EHRI-ET-DEGOB3622</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of 32-year-old K.I. on his activities as an official of Department A (the children’s department) of the International
+					Committee of the Red Cross in Budapest in 1944/45.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-DEGOB3622_01.jpg"/> The person in question has given us the following information:</p>
+			<p>At the beginning of <date when="1944-10">October, 1944</date>, I worked for <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">Department A</orgName>, that is, for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>’s department of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">International Red Cross</orgName> with its head office in <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">4 Mérleg Street</placeName>. My job was to administer less and more dangerous
+				projects. As during this period <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">call-up
+					placards</term> were placed practically every hour on the walls of the houses of <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> and because (understandably) basically no one felt like
+				being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">called up</term> it was a part of our activity
+				to produce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-258" type="subject">forged documents</term> including
+				different kinds of baptismal certificates, exemption letters given by ammunition plants and by other organisations, etc. In practice
+				we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-258" type="subject">manufacturing</term> these documents on a
+				large scale and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">distributed</term> them to people of
+				all social layers, ranks and religions.</p>
+			<p>From the office we went to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-614" type="subject">brick factories</term> and
+				to other places where the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow Cross</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-614" type="subject">concentrated</term> masses of Jews. Several times
+				also <persName ref="#ehri_et_aczel_gyorgy">György Aczél</persName> participated in these <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">rescue</term> actions (he is now the local leader of
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1000" type="subject">Communist Party</term> in the <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">5th district</placeName>), and in several cases we managed to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">free</term> the unfortunate Jews, especially <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> staying in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-614" type="subject">brick factory</term>.</p>
+			<p>Later, <placeName ref="http://www.geonames.org/3054643/budapest.html">4 Mérleg Street</placeName> became a temporary <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">asylum</term> especially for the part of enormous
+				masses of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> who were brought to the
+				office or were often just dropped in front of the gate. People, Christians also kept on notifying us about <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> whose relatives had been taken away by
+				the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow Cross</orgName> and now stayed in abandoned flats
+				lacking any supervision. Most of our energies were spent on collecting these Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphans</term> from the furthest points of the city,
+				from the suburbs, from <placeName ref="http://www.geonames.org/3054643/budapest.html">Angyalföld</placeName>, etc. I remember a case
+				when in <placeName ref="http://www.geonames.org/3054643/budapest.html">Bulcsu Street</placeName> we collected a large number of
+				abandoned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and brought them to the
+				office by car. We had so much work to do that we could hardly cope with it. We collected the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> with the escort of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term>.</p>
+			<p>Soon we had to provide their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">accommodation</term>.
+					<pb n="2" facs="EHRI-ET-DEGOB3622_02.jpg"/> We established a gathering and selecting office in <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">4 Perczel Mór Street</placeName> where we took the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> escorted by the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term> to distributed them among the different
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphanages</term> that we set up in the
+				meantime. We were bringing and carrying <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> with no end. Later, we received the building in <placeName ref="http://www.geonames.org/3054643/budapest.html">16
+					Teleki Pál Street</placeName>, where we gathered around 1,000 <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824">children</term>. There were other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphanages</term> in <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">76 Szondy Street</placeName>, <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">5-7 and 25 Munkácsy Mihály Street</placeName>, and at different points of the
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">city</placeName> in a lot of places.</p>
+			<p>When the surviving Jews of <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> were put into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">rescue</term> actions became even more frequent. The
+				building in <placeName ref="http://www.geonames.org/3054643/budapest.html">Mérleg Street</placeName> was practically attacked by
+				fugitives. Reports about abandoned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>
+				got more frequent. As it is well known, they published a decree that all Jews – including the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphanages</term> – had to go into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">Delegate</orgName>
+				<persName ref="#ehri_et_weyermann">Weyermann</persName> managed to get a six- day-postponement regarding the transport of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphanages</term>, and added to it another 6 days,
+				finally further 12 days.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">Orphanages</term> functioned relatively well despite
+				adverse circumstances. Naturally, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">food</term> was
+				supplied by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">International Red Cross</orgName>.</p>
+			<p>In the days before Christmas, we had to take <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> often for walks with the escort of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+					type="subject">police</term> since the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow Cross</orgName>
+				appeared more and more frequently in one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject"
+					>orphanage</term> or another and demanded we <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+					>transported</term> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> into the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> immediately. Also on a sad day,
+				just a few days before Christmas, they appeared in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327"
+					type="subject">orphanage</term> of <placeName ref="http://www.geonames.org/3054643/budapest.html">5-7 Munkácsy Mihály
+					Street</placeName>. Party men of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow Cross</orgName>
+				with signs of Árpád’s stripes closed the street and surrounded the whole building. The building had <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">military guards</term>, a squad of Auxiliary Force
+				Unit. Invading <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow Cross</orgName> men shot among the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killing</term> around 10-15 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and some adults. They justified their
+				act claiming that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> defended
+				themselves. The leader of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphanage</term> was
+					<persName ref="#ehri_et_kraszner_lajos">Lajos Kraszner</persName>, who was later put into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>.</p>
+			<p>When we returned to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphanage</term> with
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">delegate</orgName>
+				<persName ref="#ehri_et_weyermann">Weyermann</persName> we found a horrifying scene. For example, in one of the armchairs two <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were sitting embracing each other also
+				in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>. We found a walled up door
+				barricaded with all kinds of furniture. We managed to save the people who survived uninjured in the room behind.</p>
+			<p>In another case, before this attack happened, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow
+					Cross</orgName> took <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> away,
+				claiming they were going to take them into<placeName ref="http://www.geonames.org/3054643/budapest.html">Síp Street</placeName>, but
+				instead, they took them into an abandoned ruined house in <placeName ref="http://www.geonames.org/3054643/budapest.html">Szív
+					Street</placeName> - as they claimed - out of mistake. When we were informed we rushed there and demanded the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> from the janitor. We managed to get
+				back around 200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">smuggle</term> them back into <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Munkácsy Street</placeName>.</p>
+			<p><pb n="3" facs="EHRI-ET-DEGOB3622_03.jpg"/> Once, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow
+					Cross</orgName> gangsters appeared also in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject"
+					>orphanage</term> of <placeName ref="http://www.geonames.org/3054643/budapest.html">112 Róna Street</placeName>. They <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killed</term> around 50-60 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> who were kept there, the rest could
+				run away. Also the officers of the institute, including its head <persName ref="#ehri_et_vidor_pal">Pál Vidor</persName>, lost their
+				lives during this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">attack</term>.</p>
+			<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">International Red Cross</orgName> had a so-called <q>T</q> (<term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-518">transport</term>) department. We went into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> with this department and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">smuggled</term> people out into places that had been
+				arranged beforehand. This way we managed to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject"
+					>free</term> around 20 people from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>ghetto</term> helped by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term>
+				inside. It was anyway thanks to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject"
+					>policemen</term> that we could freely enter and leave the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+					type="subject">ghetto</term> and bring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> out into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject"
+					>orphanages</term>.<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> lived in terrible squalor. We tried to
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">smuggle</term> out as many as possible but also
+				those who remained depended on our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">food</term>
+				provisions.</p>
+			<p>I was the link between <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">delegate</orgName>
+				<persName ref="#ehri_et_weyermann">Weyermann</persName> and the leader of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">Zionists</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000222">Ottó Komoly</persName>. <date when="1945-01-01">January
+					the first</date>, we were sitting together in the lobby of <placeName ref="http://www.geonames.org/3054643/budapest.html"
+					>Ritz</placeName>, when four men with <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">signs of Árpád’s
+					stripes</orgName> came to us and grabbed <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000222">Ottó
+					Komoly</persName> giving their word of honour that it was only about an inquiry and that they were going to bring him back in half
+				an hour. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000222">Ottó Komoly</persName> has gone missing since
+				then.</p>
+			<p>When the international <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> was established
+				the current ministerial secretary <persName ref="#ehri_et_gergely_gyorgy">Dr György Gergely</persName> initiated to transform two
+				buildings (<placeName ref="http://www.geonames.org/3054643/budapest.html">16 and 23 Pozsonyi Road</placeName>) into <term
+					type="subject" ref="#ehri_et_protected_houses">protected houses</term> of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">International Red Cross</orgName> using forged documents. We came up
+				with the idea that the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">International Red Cross</orgName> was
+				also a <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007">diplomatic</term> institution, and as such
+				we could <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">protect</term> the inhabitants of these
+				houses like the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1373">Swiss</orgName>, the <placeName
+					ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Swedish</placeName>, the <placeName
+					ref="http://www.geonames.org/2264397/portuguese-republic.html">Portuguese</placeName>, the <placeName
+					ref="http://www.geonames.org/2510769/kingdom-of-spain.html">Spanish</placeName>, or the <placeName
+					ref="http://www.geonames.org/3164670/state-of-the-vatican-city.html">papal</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">legate</term> protected others. There were around
+				1,500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> put up in these houses, who we gave
+				excellent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">food</term> supplies. These protected
+				people were not touched nor molested by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Arrow
+					Cross</orgName>, they had to go the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>ghetto</term> only the last week.</p>
+		</body>
+	</text>
+</TEI>

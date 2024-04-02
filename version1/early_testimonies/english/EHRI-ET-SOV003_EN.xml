@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-SOV003_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>R.H. Dogon about mass massacres of Jews in places like Przemyśl, Dynów, Milicz and Jarosław</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Miriam Schulz</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier> </msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Dos blut ruft tsu nekome (Moscow: Der emes, 1941), pp. 96–99. <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Przemyśl</placeName>
+						<location>
+							<geo>49.78345 22.78424</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7530748/przemysl.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Przemy%C5%9Bl"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dynów</placeName>
+						<location>
+							<geo>49.81506 22.23388</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/772772/dynow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Dyn%C3%B3w"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Milicz</placeName>
+						<location>
+							<geo>51.5277 17.27137</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3091788/milicz.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Milicz"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Jarosław</placeName>
+						<location>
+							<geo>50.01623 22.67776</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/770380/jaroslaw.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Jaros%C5%82aw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Moscow</placeName>
+						<location>
+							<geo>55.75222 37.61556</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/524901/moscow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Moscow"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lviv</placeName>
+						<location>
+							<geo>49.83826 24.02324</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702550/lviv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lviv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>San</placeName>
+						<location>
+							<geo>50.73464 21.84331</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/759610/san.html"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-632"/>
+						</linkGrp></item>
+					<item><name>Jewish cemeteries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-750"/>
+						</linkGrp></item>
+					<item><name>Mass graves</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-539"/>
+						</linkGrp></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-632"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-746"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Students</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1214"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Humiliation of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-555"/>
+						</linkGrp></item>
+					<item><name>Victims </name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Mass murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-540"/>
+						</linkGrp></item>
+					<item><name>Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item><name>Synagogue burning</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-646"/>
+						</linkGrp></item>
+					<item><name>Jewish writers and poets</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-682"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_dogon_r_h">
+						<persName>Dogon, R. H.</persName>
+						<note><p>Author of author of eye-witness account.</p></note>
+					</person>
+					<person xml:id="ehri_et_kvitko_leyb">
+						<persName>Kvitko, Leyb</persName>
+						<linkGrp>
+							<link type="desc" target="http://www.yivoencyclopedia.org/article.aspx/Kvitko_Leyb"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_nusinov_yitskhok">
+						<persName>Nusinov, Yitskhok</persName>
+						<linkGrp>
+							<link type="desc" target="http://www.yivoencyclopedia.org/article.aspx/Nusinov_Yitskhok"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_katsnelson">
+						<persName>Katsnelson</persName>
+						<note><p>Editor of Dos blut ruft tsu nekome.</p></note>
+					</person>
+					<person xml:id="ehri_et_epshteyn_shakhne">
+						<persName>Epshteyn, Shakhne</persName>
+						<note><p>Secretary of the Jewish Antifascist Committee.</p></note>
+					</person>
+					<person xml:id="ehri_et_soyfer">
+						<persName>Soyfer</persName>
+						<note><p>Jewish family in Przemyśl.</p></note>
+					</person>
+					<person xml:id="ehri_et_zaltsberg">
+						<persName>Zaltsberg</persName>
+						<note><p>Jewish dry goods merchant in Przemyśl.</p></note>
+					</person>
+					<person xml:id="ehri_et_makhnatski">
+						<persName>Makhnatski</persName>
+						<note><p>Ukrainian mathematician.</p></note>
+					</person>
+					<person xml:id="ehri_et_grosman">
+						<persName>Grosman</persName>
+						<note><p>Sick Jewish intellectual in Przemyśl.</p></note>
+					</person>
+					<person xml:id="ehri_et_rozenboym_nekhemye">
+						<persName>Rozenboym, Nekhemye</persName>
+						<note><p>70-year old local of Przemyśl.</p></note>
+					</person>
+					<person xml:id="ehri_et_keytlman_y">
+						<persName>Keytlman, Y.</persName>
+						<note><p>Yiddish writer.</p></note>
+					</person>
+					<person xml:id="ehri_et_broyn">
+						<persName>Broyn</persName>
+						<note><p>Jewish butcher in Przemyśl.</p></note>
+					</person>
+					<person xml:id="ehri_et_zirber">
+						<persName>Zirber</persName>
+						<note><p>Elderly Jewish lady, resident of Przemyśl.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1941">1941</date>, <placeName ref="http://www.geonames.org/7530748/przemysl.html">Przemyśl</placeName>, <placeName
+					ref="http://www.geonames.org/772772/dynow.html">Dynów</placeName>, <placeName ref="http://www.geonames.org/3091788/milicz.html"
+					>Milicz</placeName>, <placeName ref="http://www.geonames.org/770380/jaroslaw.html">Jarosław</placeName>,
+					<idno>EHRI-ET-SOV003</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Report of R. H. Dagon providing detailed information on the persecution of Jews under German occupation in Przemysl as well as on
+					massacres in Przemysl, Dynow, Milicz, and Jaroslaw.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="96" facs="EHRI-ET-SOV003_96.jpg"/>
+			<p>The things we know is far from everything there is…</p>
+
+			<p>Told by <persName ref="#ehri_et_dogon_r_h">R.H. Dogon</persName></p>
+
+			<p>in: The Blood Cries for Vengeance!: What Victims tell about the <term type="subject" ref="#ehri_et_nationalities_germans"
+					>Fascist</term> Atrocities in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-632" type="subject"
+					>Occupied</term>
+				<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>, collected and assembled by <persName
+					ref="#ehri_et_kvitko_leyb">L. Kvitko</persName>, <persName ref="#ehri_et_nusinov_yitskhok">Y. Nusinov</persName>, and <persName
+					ref="#ehri_et_katsnelson">Y. Katsnelson</persName>; Forword: <persName ref="#ehri_et_epshteyn_shakhne">Shakhne Epshteyn</persName>
+					(<placeName ref="http://www.geonames.org/524901/moscow.html">Moscow</placeName>: Der Emes, <date when="1941">1941</date>),
+				96–99</p>
+
+			<p>On the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Jewish cemetery</term> of <placeName
+					ref="http://www.geonames.org/7530748/przemysl.html">Przemyśl</placeName>, there is a fresh <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">mass grave</term>. This is the most horrific document
+				of the savage bestiality of our times.</p>
+			<p>In the white stone, small tablets are attached on which the names of all those are engraved who were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">murdered</term> in a horrific way during the 14 days
+				of <term ref="#ehri_et_nationalities_germans">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-632" type="subject">occupation</term> in <date when="1939-09">September
+					1939</date>.</p>
+			<p>Who knows, how many would have been added to their number, if the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076"
+					type="subject">Red Army</term> had not pulled out this bloody piece of land from <term ref="#ehri_et_nationalities_germans"
+					>Hitlerites’</term> paws.</p>
+			<p>Ten little tables on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">mass grave</term> are
+				entirely empty, – no name is engraved on them. They were people who did not have any documents on them, and their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">bodies</term> were so crumbled up that one could not
+				establish who they were.</p>
+			<p>In those terrible days, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo men</orgName> drove around
+				the <placeName ref="http://www.geonames.org/7530748/przemysl.html">city</placeName> like bloodthirsty rascals. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">They snapped up people they coincidentally bumped
+					into, arranged them in rows</term>, gave the order <q>hands on the neck</q> and let them stand like this for several hours. At the
+				same time, other <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo-men</orgName> entered different houses
+				and dragged out people from them, – very often it was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">sick</term> people dragged from their beds.</p>
+			<p>They loaded the people group by group on trucks and drove them out of the <placeName
+					ref="http://www.geonames.org/7530748/przemysl.html">city</placeName>, ostensibly to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">No one of them came back alive</term>, however. There,
+				they were arranged in rows of five. They ordered the first five <pb n="97" facs="EHRI-ET-SOV003_97.jpg"/> to dig up graves for
+				themselves, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shot at them with dumdum bullets, pulled
+					out their eyes alive, cut off limbs, cut out tongues</term>. The survivors of the last row had to hastily <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">bury</term> the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> and prepare graves for themselves again
+				until everyone was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">dead</term>. This way, a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> had to witness the early <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> of his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">son</term>; a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term> had to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">bury</term> his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term> with his hands before he himself <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">perished</term> from the <term
+					ref="#ehri_et_nationalities_germans">murderous hands</term>.</p>
+			<p>Only from one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> with the name of
+					<persName ref="#ehri_et_soyfer">Soyfer</persName>, the <term ref="#ehri_et_nationalities_germans">Hitlerites</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">killed</term> a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term>, a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">son</term>, and a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son-in-law</term> simultaneously. The dry goods
+				merchant <persName ref="#ehri_et_zaltsberg">Zaltsberg</persName>, a calm, quiet, and in the <placeName
+					ref="http://www.geonames.org/7530748/przemysl.html">city</placeName> well-respected <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>, was found with his hands around the throat
+				of his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">19-year old son</term>. This <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">son</term>, a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1214" type="subject">student</term>, had a reputation as a very talented
+				mathematician, and not only his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term>
+				prided themselves with him; his professors predicted a career of a scientist. I myself saw how one of his teachers, the <term
+					ref="#ehri_et_nationalities_ukrainians">Ukrainian</term>
+				<persName ref="#ehri_et_makhnatski">Makhnatski</persName>, brought flowers to his grave on his yortsayt<note place="bottom"
+					>anniversary of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>.</note>.</p>
+			<p><persName ref="#ehri_et_grosman">Grosman</persName>, a quiet, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">sick</term> person, who did nothing else in his life than studying books, was dragged out from his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sickbed</term>. Ignoring the pleas and laments of his
+				old, disabled <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term>, who is not able to move
+				and for whom the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">son</term> was her only support, he
+				was taken away and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">killed</term>.</p>
+			<p>The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> summoned the 70-year old <persName
+					ref="#ehri_et_rozenboym_nekhemye">Nekhemye Rozenboym</persName> and informed <persName ref="#ehri_et_rozenboym_nekhemye"
+					>him</persName> that he has to take care of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject"
+					>burial</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">murdered</term> and at the
+				very end a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">bullet awaits him as well</term>.</p>
+			<p>They made <persName ref="#ehri_et_rozenboym_nekhemye">Rozenboym</persName> and several other Jews stand with their faces turned to the
+				wall and ordered them to say vide <note place="bottom">confession of sin said collectively on Yom Kippur and individually before
+					dying.</note>, because they would be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shot</term>
+				in 15 minutes. While the Jews said vide, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>murderers</term> prepared their rifles, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-555" type="subject">whilst
+					making fun</term> of their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term>, and
+				made all necessary preparations for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject"
+					>execution</term>. Suddenly, they were summoned from someone and the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo men</orgName> left behind those sentenced to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>. The Jews did not dare to move from the
+				spot convinced that this is something of a new trick of the bloodhounds. When no one came back after some time, they left <pb n="98"
+					facs="EHRI-ET-SOV003_98.jpg"/> and to this day they cannot say whether the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> intentionally plotted this <q>game</q> or whether
+				they simply forgot about them because a new <q>game</q> came up.</p>
+			<p>A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> (I forgot her name) went to the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>, – she wanted to plead for the release of
+				her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term> from their hands. So they
+				suggested to her that she should bring ransom in the amount of four thousand Złoty. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>, who never in her life possessed such a
+				sum of money, decided to do the impossible in order to save her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">husband</term>. She sold everything from her home, remained with one <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shirt</term> and one <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dress</term>, but it did not suffice. So people pooled
+				however much one could afford and we gathered the necessary sum of money.</p>
+			<p>On the second day, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> came to the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> with money. They <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">took the money from her</term> and ordered her to come
+				back tomorrow. Then they will release her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>husband</term>.</p>
+			<p>The next day, they ordered her to wait a little in the corridor. Suddenly, she heard from above her coming from the first floor a
+				mocking laughter: <q>Here you have your <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+						>husband</term>.</q> Then, at the same time, she saw something dark rolling down the stairs.</p>
+			<p>The horribly mutilated <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">dead body</term> of her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term> rolled towards her feet.</p>
+			<p>It became clear that at the point that they conducted the negotiations regarding the ransom with the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>, her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term> had already not been alive anymore.</p>
+			<p>In those days, in the city of <placeName ref="http://www.geonames.org/7530748/przemysl.html">Przemyśl</placeName> alone 580 people were
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">killed</term>. Only a part of them have been
+				able to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">buried</term> so far – 168, because the
+					<term ref="#ehri_et_nationalities_germans">Nazis</term> did not <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536"
+					type="subject">kill</term> their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term>
+				in one place but dragged them into woods and to fields and deserted mountains. Those, who were found, were found thanks to the
+				peasants who after the <term ref="#ehri_et_nationalities_germans">Germans</term> had left pointed to the locations from where wild
+				clamor and shootings were heard. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Women</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mothers</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughters</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">fathers</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">sons</term> walking around the fields, teared open the
+				freshly closed soil and searched for traces of their relatives. Finding mutilated <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">bodies</term> with teared-out eyes, cut-out tongues
+				and cut-off limbs, it was difficult, however, to recognize the former individuals.</p>
+			<p><pb n="99" facs="EHRI-ET-SOV003_99.jpg"/> In the small shtetl <placeName ref="http://www.geonames.org/772772/dynow.html"
+					>Dynów</placeName>, the <term ref="#ehri_et_nationalities_germans">Hitlerites</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">massacred</term> approximately 400 people, among
+				them very many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">refugees</term> – from <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Western Poland</placeName>.</p>
+			<p>In the shtetl <placeName ref="http://www.geonames.org/3091788/milicz.html">Milicz</placeName>, the <term
+					ref="#ehri_et_nationalities_germans">Hitlerites</term> chased 70 Jews into the <placeName
+					ref="http://www.geonames.org/3091788/milicz.html">beys-medresh</placeName>, among them many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">old men</term>, locked them in and set the building on
+				fire from all sides. Everyone <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">burnt</term> to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> alive. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-682" type="subject">Jewish writer</term>
+				<persName ref="#ehri_et_keytlman_y">Y. Keytlman</persName>’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">sister</term>, a young <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>girl</term> who did not live far, got so upset from this calamity that she went insane. She was in <placeName
+					ref="http://www.geonames.org/702550/lviv.html">Lviv</placeName> in a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">mental hospital</term>.</p>
+			<p>In the city <placeName ref="http://www.geonames.org/7530748/przemysl.html">Przemyśl</placeName>, the <term
+					ref="#ehri_et_nationalities_germans">Hitlerites</term> set the old <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> from the 15th century on <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">fire</term>, which was of great artistic value. When
+				the firemen started to extinguish the fire, <term ref="#ehri_et_nationalities_germans">Nazis</term> came running and cut open the
+				rubber hose with knives.</p>
+			<p>In the city of <placeName ref="http://www.geonames.org/770380/jaroslaw.html">Jarosław</placeName>, the <term
+					ref="#ehri_et_nationalities_germans">Hitlerite</term> general was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">killed</term>. Since no traces of the one behind it
+				could be found, all <term ref="#ehri_et_nationalities_poles">Polish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1214" type="subject">students</term> of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">gymnasium</term> were gathered, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">boys</term> in the ages from 12 to 18, and every tenth
+				of them was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shot to death</term>.</p>
+			<p>We know little about the things that are happening right now in these territories because the people who managed to save themselves,
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> on the eve the <term
+					ref="#ehri_et_nationalities_germans">Hitlerite</term> invasion.</p>
+			<p>I spoke to a Jew from <placeName ref="http://www.geonames.org/7530748/przemysl.html">Przemyśl</placeName>, the butcher <persName
+					ref="#ehri_et_broyn">Broyn</persName>, who was with the <term ref="#ehri_et_nationalities_germans">Germans</term> for 24 hours
+				before the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">Red Army</term> took back the <placeName
+					ref="http://www.geonames.org/7530748/przemysl.html">city</placeName>. Immediately after the entry into the <placeName
+					ref="http://www.geonames.org/7530748/przemysl.html">city</placeName>, on Sunday, <date when="1939-06-22">June 22</date>, the <term
+					ref="#ehri_et_nationalities_germans">Hitlerites</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shot</term> everyone who appeared on the streets.
+				Many <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> and <term ref="#ehri_et_nationalities_poles">Poles</term> died
+				who went out to welcome them convinced that the <term ref="#ehri_et_nationalities_germans">Hitlerites</term> would receive them
+				well.</p>
+			<p>From <placeName ref="http://www.geonames.org/7530748/przemysl.html">Slovatskega Street No. 7</placeName>, the <term
+					ref="#ehri_et_nationalities_germans">Hitlerites</term> dragged out all residents and chased them to the other side of the river
+					<placeName ref="http://www.geonames.org/759610/san.html">San</placeName>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">son</term> of the Nayshteter <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabbi</term> tried to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>. They caught him and got ready to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shoot</term> him in front of everyone’s eyes. An
+				elderly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">lady</term> with the name of <persName
+					ref="#ehri_et_zirber">Zirber</persName> threw herself to their feet and begged them to give him life. They <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shot</term> both <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term>.</p>
+		</body>
+	</text>
+</TEI>

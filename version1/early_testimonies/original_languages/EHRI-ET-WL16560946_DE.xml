@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL16560946_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Erna Mayer, the murder of her brother in Barmen-Düsseldorf in May 1933</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 946. <textLang
+						mainLang="de">Original in German.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Barmen</placeName>
+						<location>
+							<geo>51.27737 7.19802</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2952539/barmen.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Barmen"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>England</placeName>
+						<location>
+							<geo>52.16045 -0.70312</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6269131/england.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/England"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Haifa District</placeName>
+						<location>
+							<geo>32.58333 35</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/294800/haifa.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Haifa_District"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>State of Israel</placeName>
+						<location>
+							<geo>31.5 34.75</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/294640/state-of-israel.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Israel"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Düsseldorf</placeName>
+						<location>
+							<geo>51.22172 6.77616</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2934246/duesseldorf.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/D%C3%BCsseldorf"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin, Stadt</placeName>
+						<location>
+							<geo>52.5233 13.41377</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6547383/berlin-stadt.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Palestine</placeName>
+						<location>
+							<geo>31.92157 35.20329</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6254930/palestine.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Palestine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Switzerland</placeName>
+						<location>
+							<geo>47.00016 8.01427</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Switzerland"/>
+						</linkGrp>
+					</place>
+
+				</listPlace>
+				<list>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Persecution</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-641"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Medals of Honour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1093"/>
+						</linkGrp></item>
+					<item><name>Nazi Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-140"/>
+						</linkGrp></item>
+					<item><name>Politics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-947"/>
+						</linkGrp></item>
+					<item><name>Discrimination of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-332"/>
+						</linkGrp></item>
+					<item><name>Healthcare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-280"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Schutzhaft</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-620"/>
+						</linkGrp></item>
+					<item><name>Release from detention</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-619"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Kidnapping</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-636"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Nazi Judges and Jurists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1213"/>
+						</linkGrp></item>
+					<item><name>Jewish jurists and lawyers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-899"/>
+						</linkGrp></item>
+					<item><name>Laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-950"/>
+						</linkGrp></item>
+					<item><name>Courts of Law</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1127"/>
+						</linkGrp></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Campaigns and battles</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1441"/>
+						</linkGrp></item>
+					<item><name>Jewish soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-884"/>
+						</linkGrp></item>
+					<item><name>Health</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-791"/>
+						</linkGrp></item>
+					<item><name>World War I</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-384"/>
+						</linkGrp></item>
+					<item><name>Education</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-842"/>
+						</linkGrp></item>
+					<item><name>Medicine</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-285"/>
+						</linkGrp></item>
+					<item><name>Socialist parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-982"/>
+						</linkGrp></item>
+					<item><name>Communist parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-971"/>
+						</linkGrp></item>
+					<item><name>Political parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-958"/>
+						</linkGrp></item>
+					<item><name>National socialist parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-360"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Investigations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1135"/>
+						</linkGrp></item>
+					<item><name>Jewish emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-880"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-945"/>
+						</linkGrp></item>
+					<item><name>Political discrimination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-649"/>
+						</linkGrp><note><p>Discrimination of the politically different.</p></note></item>
+					<item><name>Interrogations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-634"/>
+						</linkGrp></item>
+					<item><name>Religion and faith</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-724"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Destruction</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-356"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Finance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-934"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Funerals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-805"/>
+						</linkGrp></item>
+					<item><name>Newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1069"/>
+						</linkGrp></item>
+					<item><name>Confiscation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-584"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person>
+						<persName>Meyer, Alfred</persName>
+						<note>
+							<p>Born 24.3.1898 in Marmen-Düsseldorf, brother of narrator.</p>
+						</note>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_meyer_miedermann_erna">
+						<persName>Meyer-Niedermann, Erna (narrator)</persName>
+					</person>
+					<person xml:id="ehri_et_salomon_jacob">
+						<persName>Salomon, Jacob (recorded by)</persName>
+					</person>
+					<person xml:id="ehri_et_viering">
+						<persName>Viering (Nazi)</persName>
+					</person>
+					<person xml:id="ehri_et_fischer">
+						<persName>Fischer (Nazi)</persName>
+					</person>
+					<person xml:id="ehri_et_noelle">
+						<persName>Noelle (Nazi)</persName>
+					</person>
+					<person xml:id="ehri_et_birkenstock">
+						<persName>Birkenstock (Nazi)</persName>
+					</person>
+					<person xml:id="ehri_et_kintzen">
+						<persName>Kintzen (lawyer)</persName>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1936-11-29">29th November 1936</date>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">Murder</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-641">Persecution</term>, <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">Barmen-Düsseldorf</placeName>
+				<idno>EHRI-ET-WL16560946</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Statement of Erna Meyer about the murder of her brother Alfred, a dentist who was harassed by a leading Nazi, also a dentist, even
+					before 1933. In 1933 the brother voluntarily went into police custody for a few weeks as persecution got worse. He then left to
+					work in a nearby town but on May 16, 1933 was picked up by the Nazi and his friends (all named). Several days later his dead body
+					was found.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-WL16560946_01.jpg"/>
+			<p>MASTER - INDEX ( P - Scheme )</p>
+			<p>1. Index Number: P.II.c. No. 946</p>
+			<p>2. Title: Statement regarding the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murder</term> of
+				her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term>, <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. Alfred Meyer</persName> of <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">Barmen-Düsseldorf</placeName>, on <date when="1933-05-16">16th May
+				1933</date>.</p>
+			<p>3. Date: <date when="1933-05-16">16th May 1933</date>.</p>
+			<p>4. Number of pages: 1 plus 4 Language: Page 1 in <placeName ref="http://www.geonames.org/6269131/england.html">English</placeName>, pp.
+				1 - 4 in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName></p>
+			<p>5. Author: Miss <persName ref="#ehri_et_meyer_niedermann_erna">Erna Meyer</persName>, <placeName
+					ref="http://www.geonames.org/294800/haifa.html">Haifa</placeName>/<placeName
+					ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName></p>
+			<p>6. Recorded by: <persName ref="#ehri_et_salomon_jacob">Jacob Salomon</persName>, Notary Public, <placeName
+					ref="http://www.geonames.org/294800/haifa.html">Haifa</placeName>/<placeName
+					ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName>.</p>
+			<p>7. Received: <date when="1958-11">November 1958</date> from W.L. Archives.</p>
+			<p>8. Form and contents: The document is an affidavit sworn before a notary by Miss <persName ref="#ehri_et_meyer_niedermann_erna">Erna
+					Meyer</persName>, recording the events which lead to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">murder</term> of her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>brother</term>, <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. ALFRED
+					MEYER</persName>: <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> had
+				volunteered in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">1914-1918 war</term> and had
+				been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1093" type="subject">decorated</term> several times. After the war
+				he studied <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">dentistry</term> and set up in practice
+				in <placeName ref="http://www.geonames.org/2952539/barmen.html">WUPPERTAL-BARMEN</placeName>. He had never been interested in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-947" type="subject">politics</term>, but even before <date when="1933"
+					>1933</date> there was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">animosity against
+					him</term> in Nazi circles, fostered by a jealous colleague and leading Nazi <persName ref="#ehri_et_viering">VIERING</persName>.
+					<persName ref="#ehri_et_viering">Viering</persName> had also been sentenced for slander of <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. Meyer</persName>, and his charges against
+					<persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> for returning false
+				reports on his patients had been dismissed as unfounded by the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-280">Medical</term> Board. - Soon after the Nazis came to power, <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName>'s home was frequently searched,
+					<persName ref="#ehri_et_viering">Viering</persName> always taking an active part, as were the Nazis <persName
+					ref="#ehri_et_fischer">FISCHER</persName>, <persName ref="#ehri_et_birkenstock">BIRKENSTOCK</persName> und <persName
+					ref="#ehri_et_noelle">NOELLE</persName>. When the searches became obviously malicious, <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> asked the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Police</term> for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-620" type="subject">protective custody</term>. During this period, a
+				political charge was brought against him, but the investigation proved this to be unfounded, and <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">released</term> on <date when="1933-05-10">May 10th,
+					1933</date>. The night after his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">release</term>,
+				his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">ransacked</term>, and <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> left <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">Barmen</placeName> and went to <placeName
+					ref="http://www.geonames.org/2934246/duesseldorf.html">Düsseldorf</placeName>, where his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">wife</term> practiced as a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">dentist</term>. On <date when="1933-05-16">May
+					16th</date>
+				<persName ref="#ehri_et_noelle">Noelle</persName> telephoned and asked for <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> After a second telephone call in
+				the afternoon <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. M.</persName> went to the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term> of friends of his, but five
+				persons, the four above named among them, followed him there, overpowered and handcuffed him and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-636" type="subject">took him away</term> in a car with a false number
+				plate. A few days later a ranger reported that his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject"
+					>corpse</term> had been washed ashore at the <q>BEWER TALSPERRE</q>. It was handed over to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Oberrabbiner</term> of <placeName
+					ref="http://www.geonames.org/2934246/duesseldorf.html">Düsseldorf</placeName> with strict instructions not to show the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">badly mutilated</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">body</term> to his relatives. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1213" type="subject">Court</term> refused to deal with the matter, and the
+				records were sent to <placeName ref="http://www.geonames.org/6547383/berlin-stadt.html">Berlin</placeName> and allegedly lost en
+				route.</p>
+			<pb n="2" facs="EHRI-ET-WL16560946_02.jpg"/>
+			<p>P.II.c. No. 946</p>
+			<p>AUSSAGE UEBER DIE <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">ERMORDUNG</term> VON <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. ALFRED MEYER</persName> AUS <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">BARMEN-DUESSELDORF</placeName> AM <date when="1933-05-16">16. MAI
+				1933</date>.</p>
+			<p>To ALL TO WHOM THESE PRESENTS SHALL COME I, <persName ref="#ehri_et_salomon_jacob">Jacob Salomon</persName>, of <placeName
+					ref="http://www.geonames.org/294800/haifa.html">Haifa</placeName>, <placeName ref="http://www.geonames.org/6254930/palestine.html"
+					>Palestine</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">Barrister-at-Law</term>,
+				a Notary Public duly licensed and competent to do this act under the Notaries Public (Foreign documents) Ordinance, 1921, DO HEREBY
+				CERTIFY AND ATTEST that on the day of the date hereof personally appeared before me <persName ref="#ehri_et_meyer_niedermann_erna"
+					>Erna Meyer</persName> and in my presence subscribed the document annexed hereto and marked <q>A</q> (purporting to be an
+				affidavit in the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> language and did
+				solemnly and in due form of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term> declare to
+				the truth thereof, before me and acknowledged the same as her act and deed.</p>
+			<p>In WITNESS whereof I have hereunto set my hand and seal notarial at <placeName ref="http://www.geonames.org/294800/haifa.html"
+					>Haifa</placeName> this <date when="1936-11-27">27th day of November, in the year One Thousand nine hundred and thirty
+				six</date>.</p>
+			<p>gez. Unterschrift.</p>
+			<p>Notary Public</p>
+			<p><placeName ref="http://www.geonames.org/6254930/palestine.html">Palestine</placeName></p>
+			<pb n="3" facs="EHRI-ET-WL16560946_03.jpg"/>
+			<p>Ich, die Unterzeichnete,</p>
+			<p><persName ref="#ehri_et_meyer_niedermann_erna">Erna Meyer</persName></p>
+			<p>gebe hierdurch die folgende Erklaerung als eidesstattliche Versicherung ab. Mir ist bekannt, dass diese Erklaerung vor einem <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">schweizerischen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">Gericht</term> verwendet werden soll und mir ist
+				bekannt, dass die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">Strafgesetze</term> aller Laender,
+				darunter auch das <placeName ref="http://www.geonames.org/2658434/switzerland.html">schweizerische</placeName> und das <placeName
+					ref="http://www.geonames.org/6254930/palestine.html">palaestinensische</placeName>, mit schweren Strafen denjenigen bedrohen, der
+				eine falsche eidesstattliche Versicherung bewusst oder fahrlaessig abgibt. Ich habe aus diesem Grunde und selbstverstaendlich auch aus
+				den moralischen Gruenden, die mich zur vollen Wahrheit zwingen, jedes Wort ueberlegt, das ich im folgenden niederlege und stehe fuer
+				die Wahrheit dieser eidesstattlichen Erklaerung in vollem Umfang ein.</p>
+			<p>Ich hatte einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term>, <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=1531201" type="victim">Dr. Alfred Meyer</persName>, der am <date
+					when="1898-03-24">24. Maerz 1898</date> geboren ist. Er verliess noch vor Vollendung des 17. Lebensjahres das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Gymnasium</term>, um sich freiwillig zum Heer zu
+				melden, rueckte im <date when="1915-02">Februar 1915</date> ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441"
+					type="subject">Feld</term> und blieb von da an bis <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080"
+					type="subject">Kriegsende</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-884" type="subject">Soldat</term>. Er wurde nicht weniger als drei Mal
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">verwundet</term>, ging dennoch immer wieder
+				hinaus, bekam das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1093" type="subject">Bayerische Verdienstkreuz</term>
+				und das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1093" type="subject">Eiserne Kreuz II.</term> und rueckte auf
+				bis zum Vizewachtmeister. Nachdem er aus dem <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-384"
+					type="subject">Krieg</term> zurueckgekehrt war, vollendete er seine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Ausbildung</term> erst in der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Schule</term> bis zum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Abitur</term>, dann studierte er <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Zahnheilkunde</term> und liess sich in <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">Wuppertal-Barmen</placeName> als <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">Zahnarzt</term> nieder. Weder vor noch nach seiner
+				Niederlassung hat er sich jemals <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-947" type="subject">politisch</term>
+				betaetigt, insbesondere gehoerte er auch weder der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-982" type="subject"
+					>sozialistischen</term> noch der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-971" type="subject">kommunistischen
+					Partei</term> an, noch betaetigte er sich irgendwie in oder fuer eine dieser <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-958" type="subject">Parteien</term>. Schon vor der Revolution von <date
+					when="1933">1933</date> war ihm bekannt, dass in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject"
+					>nationalsozialistischen</term> Kreisen <placeName ref="http://www.geonames.org/2952539/barmen.html">Barmens</placeName> eine
+				Antipathie gegen ihn bestand, die er nicht nur auf die Tatsache seines Judeseins zurueckfuehrte, sondern auch darauf, dass einer der
+				fuehrenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject">Nationalsozialisten</term>
+				<placeName ref="http://www.geonames.org/2952539/barmen.html">Barmens</placeName>, ein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-140" type="subject">Zahnarzt</term>
+				<persName ref="#ehri_et_viering">Viering</persName>, der geraume Zeit ihm gegenueber seine Praxis ausgeuebt hatte und durch die
+				Beliebtheit meines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Brudes</term> bei seinen
+				Patienten wohl schwer eine Praxis bekommen konnte.</p>
+			<p>Der genannte <persName ref="#ehri_et_viering">Viering</persName> hatte schon vor der Revolution von <date when="1933">1933</date>
+				einmal ein Strafverfahren, weil er gegen meinen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>Bruder</term> die Verleumdung ausgesprochen hatte, dass mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">Bruder</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">geschlechtskrank</term> sei. Mein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> unterzog sich einer eingehenden
+				Untersuchung, in der die voellige Unwahrheit dieser Verleumdung festgestellt wurde. <persName ref="#ehri_et_viering"
+					>Viering</persName> wurde daraufhin bestraft. <persName ref="#ehri_et_viering">Viering</persName> versuchte es noch mit einer
+				anderen Verleumdung, dass mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> in
+				seiner Eigenschaft als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Kassenarzt</term> falsche
+				Berichte gemacht hatte. Es wurde dann festgestellt, dass auch diese Verleumdung grundlos war, nachdem der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">zahnaerztliche</term>
+				<pb n="4" facs="EHRI-ET-WL16560946_04.jpg"/> Verband die Sache eingehend untersucht und restlos zu Gunsten meines <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruders</term> aufgeklaert hatte.</p>
+			<p>Nach Beginn der Revolution fingen sofort <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject"
+					>Haussuchungen</term> bei meinem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term>
+				an, die jedoch nichts zu Tage foerderten, was man irgend wie ihm haette zur Last legen koennen. Bei diesen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Haussuchungen</term> beteiligten sich vor allem die
+				folgenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject">Nationalsozialisten</term>: <persName
+					ref="#ehri_et_fischer">Fischer</persName>, <persName ref="#ehri_et_viering">Viering</persName>, <persName
+					ref="#ehri_et_birkenstock">Birkenstock</persName> und <persName ref="#ehri_et_noelle">Noelle</persName>. Diese <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Haussuchungen</term> fanden in einer Zeit statt, in
+				der mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> eine Auslandsreise machte, um
+				zu sehen, ob er eine Moeglichkeit einer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject"
+					>Auswanderung</term> finden koennte. Mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>Bruder</term> kehrte dann zurueck und ging sogar, trotz Warnungen, nach <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">Barmen</placeName> zurueck, da er den Standpunkt einnahm, dass er ein ehrlicher
+				und aufrechter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term> sei und dass es feige von
+				ihm sein wuerde, fortzulaufen.</p>
+			<p>Waehrend er in <placeName ref="http://www.geonames.org/2952539/barmen.html">Barmen</placeName> war, fuehlte er sich in so starkem Masse
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-641" type="subject">verfolgt</term>, dass er eines Nachts nicht zu
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Haus</term> sondern bei einem Freunde schlief.
+				In dieser Nacht fand wiederum eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject"
+					>Haussuchung</term> bei ihm statt. Diese <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject"
+					>Haussuchung</term> verlief schon in einer Weise, bei der man den Willen zur <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-945" type="subject">Sachbeschaedigung</term>deutlich merkte. Mein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> ging am naechsten Tage zur <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> und bat, ihn in sogenannte freiwillige
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-620" type="subject">Schutzhaft</term> zu nehmen, weil er sich seines
+				Lebens nich sicher fuehlte. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> kam
+				dem auch nach und er verbrachte die Zeit von Ende Maerz bis zum <date when="1933-05-10">10. Mai</date> in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-620" type="subject">Schutzhaft</term>.</p>
+			<p>Dabei muss ich allerdings bemerken, dass die Freiwilligkeit der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-620"
+					type="subject">Schutzhaft</term> waehrend dieser Zeit abgeloest wurde durch Unfreiwilligkeit, da man eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Untersuchung</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-649" type="subject">politischer</term> Art gegen ihn anzustellen begann.
+				Diese <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Untersuchung</term> war deshalb
+				ausserordentlich quaelend fuer ihn, weil es fuenf Wochen lang dauerte, bis es ihm ueberhaupt gelang zu erreichen, dass er das erste
+				Mal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">vernommen</term> wurde. Auch dies gelang nur
+				durch das Eingreifen von Freunden, darunter nicht juedischen Freunden, die auf die Behoerden einwirkten, seine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">Vernehmung</term> endlich durchzufuehren.</p>
+			<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Untersuchung</term> brachte nichts zu Tage, da,
+				wie schon erwaehnt, es eben nichts gab, was haette zu Tage kommen koennen, und so wurde er dann am <date when="1933-05-10">10. Mai
+					1933</date> aus der Haft <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">entlassen</term>. In
+				der Nacht nach der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">Haftentlassung</term> fand wieder
+				eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Haussuchung</term> bei ihm statt, bei der man
+				ihn nicht antraf, da er es vorzog, bei einer ihm befreundeten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-724"
+					type="subject">christlichen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familie</term> zu uebernachten. Bei dieser
+				Gelegenheit wurde furchtbar in seiner <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term>
+				gewuetet und alle moeglichen wertvollen Gegenstaende wie Grammophon, Grammophon-Platten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">zerstoert</term>, Teppiche zerschnitten, Lampen
+				zerbrochen, die eingebaute Kueche herausgerissen. Viele wertvolle Gegenstaende wurden ihm entwendet und man ging so weit, selbst seine
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Anzuege</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Schuhe</term> mitzunehmen.</p>
+			<p>Nach diesem Vorkommnis zog es mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> vor,
+				aus <placeName ref="http://www.geonames.org/2952539/barmen.html">Barmen</placeName> fortzugehen und nachdem er erst einige Tage
+				anderswo verbracht hatte, <pb n="5" facs="EHRI-ET-WL16560946_05.jpg"/> fing er dann an, in <placeName
+					ref="http://www.geonames.org/2934246/duesseldorf.html">Duesseldorf</placeName> beruflich zu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">arbeiten</term> mit dem Ziel der Vorbereitung seiner
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">Auswanderung</term>. Seine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frau</term>, die ebenfalls <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Zahnaerztin</term> war, hatte ihre Praxis sonst in
+					<placeName ref="http://www.geonames.org/2934246/duesseldorf.html">Duesseldorf</placeName> und mein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> und sie beschlossen nun, bis zur <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">Auswanderung</term> einander gegenseitig zu vertreten,
+				da sie auf den Erwerb bei ihren geringen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject"
+					>Mitteln</term> nicht verzichten konnten.</p>
+			<p>Am <date when="1933-05-16">16. Mai</date> ging in seiner Praxis in <placeName ref="http://www.geonames.org/2934246/duesseldorf.html"
+					>Duesseldorf</placeName> das Telefon. Es meldete sich der oben schon erwaehnte <persName ref="#ehri_et_noelle">Noelle</persName>,
+				fragte, ob mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> da sei und als er eine
+				bejahende Antwort erhielt, sagte er: <q>das habe ich nur wissen wollen</q> und haengte an. Nachmittags rief er erneut an und kurze
+				Zeit nach dem Anruf verliess mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> die
+				Praxis und ging zu einer befreundeten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject"
+				>Familie</term>. Dorthin wurde er verfolgt und kurze Zeit, nachdem er dorthin gekommen war, fuhr ein Auto vor, in dem sich fuenf <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Personen</term> befanden, darunter die oben genannten
+				vier, die schon frueher an den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Haussuchungen</term>
+				teilgenommen hatten.</p>
+			<p><persName ref="#ehri_et_viering">Viering</persName> blieb am Steuer, die anderen vier gingen in die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term>, warfen meinen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term> nieder und schleppten ihn mit Gewalt
+				gefesselt in das Auto. Die anwesenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject"
+					>Personen</term> fesselten sie ebenfalls und da eine von ihnen bevor sie gefesselt war, versucht hatte, das Telefon zu erreichen,
+				um Hilfe herbeizurufen, zerstoerte man das Telefon, um jede Kommunikation mit der Aussenwelt zu verhindern. Die fuenf <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Personen</term> fuhren schleunigst mit dem Auto fort
+				in einem so rasenden Tempo, dass es ueberall auffiel, es gelang auch nicht, das Auto einzuholen oder anzuhalten oder auch nur
+				festzustellen, wohin es schliesslich entschwand.</p>
+			<p>Die Nummer wurde von mehreren <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Leuten</term> erkannt,
+				es stellte sich aber dann bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject"
+					>Nachpruefung</term> heraus, dass sie gefaelscht war. Wir fanden aber bei der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> nur eine rein formale und in keiner
+				Weise praktische, wirksame Unterstuetzung und so gelang es nicht, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-636"
+					type="subject">seinen Verbleib festzustellen</term>.</p>
+			<p>Wir hatten zu Anfang den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject"
+					>nationalsozialistischen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">Rechtsanwalt</term>
+				<persName ref="#ehri_et_kintzen">Kintzen</persName> in <placeName ref="http://www.geonames.org/2934246/duesseldorf.html"
+					>Duesseldorf</placeName> genommen, der jedoch spaeter das Mandat zurueckgab, wie wir zuverlaessig wissen, weil man ihm von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-360" type="subject">Parteiseite</term> nahegelegt hat, sich mit der Sache
+				nicht zu beschaeftigen.</p>
+			<p>Einige Tage nach dem Verschwinden meines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>Bruders</term> teilte dann ein Foerster mit, dass in der Bewer-Talsperre, das ist zwischen <placeName
+					ref="http://www.geonames.org/2934246/duesseldorf.html">Duesseldorf</placeName> und <placeName
+					ref="http://www.geonames.org/2952539/barmen.html">Barmen</placeName>, ein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">toter Koerper</term> eines <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mannes</term> angeschwemmt sei. Es stellte sich dann
+				heraus, dass dies die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">Leiche</term> meines <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruders</term> war, die man ins Wasser geworfen hatte;
+				nachdem man einen Sack ueber den Kopf gezogen und an die Fuesse eine Kopierpresse gebunden hatte, um so das Wiederauftauchen zu
+				verhindern. Es muss ganz besonderen Umstaenden zuzuschreiben gewesen sein, dass dennoch der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Koerper</term> zum Vorschein kam. Wir selbst bekamen
+				ihn nicht <pb n="6" facs="EHRI-ET-WL16560946_06.jpg"/> ausgehaendigt, er wurde vielmehr erst nach einigen Tagen dem <placeName
+					ref="http://www.geonames.org/2934246/duesseldorf.html">Duesseldorfer</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Oberrabbiner</term> uebergeben gegen die strikte
+				Verpflichtung, den Angehoerigen den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Leichnam</term>
+				nicht zu zeigen. Wir haben dann spaeter, nicht durch den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735"
+					type="subject">Rabbiner</term>, sondern von anderen, die die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515"
+					type="subject">Leiche</term> gesehen haben, gehoert, dass er <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791"
+					type="subject">Dolchstoesse</term> im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+					>Unterleib</term> und an verschiedenen anderen Koerperteilen gehabt hatte und dass er zwei <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Kopfschuesse</term> gehabt hatte und dass der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Koerper</term> in gemeiner Weise misshandelt und
+				verunstaltet war. Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">Gericht</term> hat sich mit
+				dem Fall nicht beschaeftigen wollen, die Akten wurden daraufhin nach <placeName
+					ref="http://www.geonames.org/6547383/berlin-stadt.html">Berlin</placeName> gesandt und sollen angeblich unterwegs verloren
+				gegangen sein.</p>
+			<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">Beerdigung</term> fand auf Veranlassung der
+				Behoerde in aller Heimlichkeit und Stille statt. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject"
+					>Zeitungen</term>, die etwas ueber den Fall brachten, wurden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584"
+					type="subject">beschlagnahmt</term>. Der Text, in dem wir die Todesanzeige haetten aufsetzen sollen, wurde uns vorgeschrieben. Wir
+				zogen es aber vor, ueberhaupt nur die Tatsache des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+					>Ablebens</term> mitzuteilen.</p>
+			<p>Ich erklaere nochmals, dass alles vorstehend Geschilderte die reine Wahrheit ist und ich nichts hinzugesetzt und nichts veraendert
+				habe.</p>
+			<p>gez. <persName ref="#ehri_et_meyer_niedermann_erna">Erna Meyer</persName></p>
+
+		</body>
+	</text>
+</TEI>

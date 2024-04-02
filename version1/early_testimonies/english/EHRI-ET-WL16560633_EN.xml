@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL16560633_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Anonymous, arrest in Brussels, internment in Malines and escape; testimony recorded by Gerhard Riegner</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 633. <textLang
+						mainLang="fr">Original in French.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Brussels Capital</placeName>
+						<location>
+							<geo>50.85332 4.35144</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2800867/bruxelles-capitale.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Brussels"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mechelen concentration camp</placeName>
+						<location>
+							<geo>51.033889 4.478333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1970"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Russia</placeName>
+						<location>
+							<geo>60 100</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2017370/russian-federation.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Russia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Switzerland</placeName>
+						<location>
+							<geo>47.00016 8.01427</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Switzerland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Chorzów</placeName>
+						<location>
+							<geo>50.30582 18.9742</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3101619/chorzow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Chorz%C3%B3w"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Upper Silesia</placeName>
+						<location>
+							<geo>50.16667 18.83333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3082777/upper-silesia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Upper_Silesia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lviv</placeName>
+						<location>
+							<geo>49.83826 24.02324</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702550/lviv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lviv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rava-Rus’ka</placeName>
+						<location>
+							<geo>50.23079 23.62825</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/695781/rava-rus-ka.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Rava-Ruska"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ukraine</placeName>
+						<location>
+							<geo>49 32</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/690791/ukraine.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ukraine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Volgograd</placeName>
+						<location>
+							<geo>48.71939 44.50183</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/472757/volgograd.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Volgograd"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>France</placeName>
+						<location>
+							<geo>46 2</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3017382/republic-of-france.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/France"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bavaria</placeName>
+						<location>
+							<geo>49 11.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2951839/bavaria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bavaria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Paris</placeName>
+						<location>
+							<geo>48.85341 2.3488</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2988507/paris.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Paris"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kingdom of Belgium</placeName>
+						<location>
+							<geo>50.75 4.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2802361/kingdom-of-belgium.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Belgium"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lyon</placeName>
+						<location>
+							<geo>45.74846 4.84671</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2996944/lyon.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lyon"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Geneva</placeName>
+						<location>
+							<geo>46.20222 6.14569</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2660646/geneve.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Geneva"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Help to Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-297"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Military Officers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-886"/>
+						</linkGrp></item>
+					<item><name>Jewish Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-101"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Detentions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-616"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Detention orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-617"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Deportees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-519"/>
+						</linkGrp></item>
+					<item><name>Industry</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-937"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Bombs</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1083"/>
+						</linkGrp></item>
+					<item><name>Combat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1081"/>
+						</linkGrp></item>
+					<item><name>Uniforms</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1091"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Swastika</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-369"/>
+						</linkGrp></item>
+					<item><name>Prisoners</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-650"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Nazi occupied territory</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1181"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_riegner_gerhard">
+						<persName>Riegner, Gerhard</persName>
+					</person>
+					<person>
+						<persName>Todt, Fritz</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000411"/>
+						</linkGrp>
+						<note><p>04/09/1891-08/02/1942</p><p>Famous roadbuilder, creator of Autobahnen. Reich Minister for Armaments and Munitions
+								(1940-1942).</p></note>
+					</person>
+					<person>
+						<persName>Ford, Henry</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001573"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_boswell_sue">
+						<persName>Boswell, Sue</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>International Committee of the Red Cross</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-419"/>
+						</linkGrp>
+						<note><p>1863/present</p><p>The International Committee of the Red Cross was founded in 1863 as a humanitarian organization to
+								moderate between belligerents and to monitor application of humanitarian international law. This body was charged to
+								oversee humane conditions in POW camps among civilian internees during wartime, but gained limited access to
+								concentration camps. With the exception of two visits to Dutch inmates interned at Buchenwald in 1940, and the
+								inspection of Theresienstadt at the behest of the Danish government (where they were fooled in by the SS in 1944), the
+								Red Cross was never able to enter concentration camps until late in the war. The ICRC did not take great initiatives
+								to intervene on behalf of the Jews for fear losing its credibility with the Axis Powers, thus losing its position to
+								work on behalf of POWs and civilian internees. In 1995, ICRC president, Cornelio Sommaruga, finally admitted his
+								agency’s inaction during the Holocaust.</p></note>
+					</org>
+					<org>
+						<orgName>Organization Todt</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-433"/>
+						</linkGrp>
+						<note><p>Organization Todt formed Nazi-sponsored, paramilitary labor battalions. This German military organization was
+								dedicated to heavy construction and utilized concentration camp labor. OT also operated in the rearguard of
+								Einsatzgruppen activity. It was headed by Dr. Fritz Todt until his death in 1942.</p></note>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+						<note><p>Founded in 1935</p><p>Wehrmacht was the Name for the German army after 1935. Often in competition for supplies and
+								authority with the Waffen-SS, the Wehrmacht also assisted the SS in carrying out the Final Solution. It was involved
+								in activities in Poland and the Soviet Union, which violated the Geneva Convention, such as mass killings of hostages,
+								innocent civilians, and prisoners of war. The Wehrmacht also kidnapped children in Ruthenia for Lebensborn.</p></note>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1942-10-10">1942-10-10</date>, <persName ref="#ehri_et_riegner_gerhard">Gerhard Riegner</persName>, <placeName
+					ref="http://www.geonames.org/2800867/bruxelles-capitale.html">Brussels</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1970" type="camp">Malines</placeName>, <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>, <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">Forced labour</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-297">Help to Jews</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">Ecape</term>
+				<idno>EHRI-ET-WL16560633</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of an anonymous Jewish refugee from Belgium. He was arrested on the street in Brussels in 1942 and interned in the
+					Malines internment camp, before being taken by train to Russia, near Stalingrad. He was forced to work in a camp probably run by
+					the Todt Organization. There were also French POWs in the camp. After a week he became a driver for a Bavarian officer. After two
+					weeks the officer helped him to escape on a train to Paris, from where he made his way to Switzerland. The interview was conducted
+					in October 1942 by Gerhard Riegner.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="2" facs="EHRI-ET-WL16560633_02.jpg"/>
+			<p>P IIId No 633: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Escape</term> arranged by a <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term></p>
+			<p>Report</p>
+			<p>The following declarations were made by a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Jewish
+					refugee</term> who had recently arrived in <placeName ref="http://www.geonames.org/2658434/switzerland.html"
+					>Switzerland</placeName>.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">refugee</term> was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> in the streets of <placeName
+					ref="http://www.geonames.org/2800867/bruxelles-capitale.html">Brussels</placeName> during a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">round-up</term> of Jews and was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">interned</term> in the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1970" type="camp">camp at Malines</placeName>,<note type="gloss"
+					>Mechelen</note>where he was kept for three days with thousands of Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. Some of them had received an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-617" type="subject">order</term> to report to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>, equipped with belongings and enough <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">rations</term> for two weeks. The others had been
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> like him in the street, with no
+				advance warning.</p>
+			<p>At the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1970" type="camp">camp</placeName> the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> under fourteen were separated from the
+				adults, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> over sixty were sent <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term>. He does not know what happened to the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>.</p>
+			<p>After three days at the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1970" type="camp">camp</placeName> he was
+				designated for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term> with many of the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, most of them young. All they had
+				with them was taken away. Those who had received official summonses and consequently had luggage with them had to leave it behind.
+				They were only allowed to keep the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>.
+				Those who had been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> in the street and
+				had nothing with them were given a loaf of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>bread</term>. At the station, before they boarded the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522"
+					type="subject">train</term>, there was a second inspection. Each person had to put into a basket any valuables he had on him:
+				rings, watches, etc. From some of them the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>German</placeName> inspectors took <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>clothes</term> they took a liking to, handing over in exchange second-hand <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term> or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>.</p>
+			<p>After this last inspection they were herded into a dozen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522"
+					type="subject">cattle wagons</term>. Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject"
+					>refugee</term> was shoved into a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term>
+				with seventy other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. They were squeezed in
+				like sardines in a tin. Impossible to sit or to move; they had to stay this way for two and a half days. No chance of answering calls
+				of nature. After two and a half days the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject"
+					>train</term> stopped at <placeName ref="http://www.geonames.org/3101619/chorzow.html">Königshütte</placeName> in <placeName
+					ref="http://www.geonames.org/3082777/upper-silesia.html">Upper Silesia</placeName> and the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-940">train</term> was cleared. Several of the weaker <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> had lost consciousness and our
+				informer saw seven of these carried off.</p>
+			<p>At the station they were given hot <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> from
+				large tureens marked with <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">red crosses</orgName>. It was probably
+				a distribution organised by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">German Red Cross</orgName>. Then
+				the <pb n="3" facs="EHRI-ET-WL16560633_03.jpg"/> fourteen- to twenty-year-olds, who made up about half the convoy, were taken away. It
+				seems they were to work in heavy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">industry</term> and
+				in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">mines</term> of <placeName
+					ref="http://www.geonames.org/3101619/chorzow.html">Königshütte</placeName> and its surrounding area.</p>
+			<p>Other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> got back into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagons</term> where this time there was a bit more
+				space and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> set off towards the east.
+				Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">refugee</term> recognised <placeName
+					ref="http://www.geonames.org/702550/lviv.html">Lvov</placeName> (<placeName ref="http://www.geonames.org/702550/lviv.html"
+					>Lemberg</placeName>), then <placeName ref="http://www.geonames.org/695781/rava-rus-ka.html">Rava-Russka</placeName> and a region
+				of the <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName>. He was too exhausted to notice how long the
+				journey lasted. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> stopped in
+					<placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> were gathered together at the
+				station. Each one was asked if he was fit to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>work</term>. Half of them, about 150 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>
+				mostly aged between twenty and thirty-five, said they were. The others said they were not and were taken away, whilst the first group
+				got back on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> and continued the
+				journey for half a day more. Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">refugee</term> does
+				not know exactly in which region they arrived. It was in a distant region, deep inside <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName> – he noticed a signpost indicating <q><placeName
+						ref="http://www.geonames.org/472757/volgograd.html">Stalingrad</placeName> 50 km</q>, and whilst he was in this region he
+				heard the noise of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1083" type="subject">bombing</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1081" type="subject">gunfire</term> two or three times, suggesting they
+				were close to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1081" type="subject">battle field</term>.</p>
+			<p>As soon as they arrived the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> were taken in
+				groups to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">huts</term> and were given <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">work clothes</term>. These were khaki <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">uniforms</term> as worn by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-433"><foreign xml:lang="de">Todt</foreign></orgName> teams, <note
+					type="gloss">Translator’s note: <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433"><foreign xml:lang="de"
+							>Organisation Todt (OT)</foreign></orgName> was a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+						type="subject">Third Reich</term> civil and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject"
+						>military</term> engineering group named after its founder, <persName
+						ref="https://portal.ehri-project.eu/authorities/ehri_pers-000411">Fritz Todt</persName>, an engineer and senior Nazi. It was
+					notorious for using <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">forced labour</term>.
+					(Source: Wikipedia)</note>but without the armbands with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-369"
+					type="subject">swastika</term>. Our informer was put into a group of sixty <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. Other teams worked in the same area as
+				his, and he noticed nearby a group of <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">French</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">prisoners</term>, as he realised when he heard them
+				speaking their language. A <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> confirmed to him later that this
+				observation was correct.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">huts</term> reserved for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> were the same as the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">German army</orgName> uses for its <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. There were bunk beds, in threes.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> was very hard. They were probably
+				constructing fortifications for the eastern front. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">men</term> had to carry over a long distance heavy sacks of cement weighing more than fifty kilos. There were also
+				large iron grids from which they made sort of anti-tank barriers. They were forced to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> for ten hours each day and since they had
+				to walk for an hour to and from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">huts</term> to
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work site</term>, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">working day</term> was in reality twelve hours, from
+				six in the morning to six at night. After a few days some of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">men</term> were completely exhausted. Supervisors constantly harried the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, as a certain number of square metres had
+				to be completed daily. Talking was not allowed during <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+					type="subject">working hours</term>. They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>worked</term> on Sundays the same as on weekdays, apparently not being allowed to rest until the fifth Sunday.</p>
+			<pb n="4" facs="EHRI-ET-WL16560633_04.jpg"/>
+			<p>As for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, the men received a 900-gram loaf
+				of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>, that is 225 grams per <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term>, each day. At midday and in the evening,
+				hot <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term>. In the morning, a blackish liquid
+				called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">coffee</term>, with a little <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">saccharine</term>. In the evenings they all fell
+				asleep, exhausted. All conversation was forbidden. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject"
+					>Writing</term> was not possible.</p>
+			<p>For a week our informer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> very hard like
+				all the others. Then, as one of the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>German</placeName> drivers had disappeared, one of the supervising <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officers</term> asked if anyone knew how to drive. As
+				he had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> in the <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001573">Ford</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factories</term> in <placeName
+					ref="http://www.geonames.org/2800867/bruxelles-capitale.html">Brussels</placeName> our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">refugee</term> was chosen and from then on drove this
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer’s</term> car, accompanying him on all
+				his tours of duty. They came to like each other and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886"
+					type="subject">officer</term> was quite open with him. He was a young <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> of about twenty-five. He was
+				originally from <placeName ref="http://www.geonames.org/2951839/bavaria.html">Bavaria</placeName>, and had already earned three stars;
+				he had lost two brothers in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> and had
+				left behind a young <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">wife</term> and small <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term>. He said he was totally disgusted by the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> and everything to do with it. It was
+				his opinion that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> was already lost,
+				and he hated the thought of what had been done, and was still being done, to the Jews.</p>
+			<p>The information that follows came to our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject"
+					>refugee</term> from this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term>. Having
+				asked what had happened to the group of Jews who had arrived with his group and who had been found incapable of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">working</term>, he was told by the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> that they all been <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">executed</term>; the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> added that this was the fate of all
+				those who, through exhaustion, could no longer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>work</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> was unhappy
+				with this state of affairs, but could do nothing to prevent it. Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101"
+					type="subject">refugee</term> begged him not to keep harassing the Jews at <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>, but the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> explained that he had to do it, because
+				he was obliged ensure that a certain quantity of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+					>work</term> was completed each day.</p>
+			<p>The means of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject">exterminating</term> the Jews who were
+				incapable of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>, said the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term>, was to line them up against a wall and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shoot</term> them, or if this was not possible,
+				by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">poisoning</term> their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>.</p>
+			<p>Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> spent two weeks with this <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term>, who behaved like a gentleman. At the
+				end of this time, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> told him that a
+				very rare chance of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> was available to
+				him. Every two or three months a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> left
+				for the west and the following day was the very day of its departure. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> insisted he should seize this chance,
+				which would not recur. He himself hid him in a goods <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject"
+					>wagon</term> full of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">parcels</term> and sacks,
+				he gave him plenty of provisions (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>,
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">conserves</term> etc) for the journey and two
+					<foreign xml:lang="de">Reichsmarks</foreign> (the currency of the occupation). He told him not to worry about his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">uniform</term>, that these <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">uniforms</term> were worn in all the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">occupied territories</term>. After checking that the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term> was properly sealed the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officer</term> notified one of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> employees of our traveller’s presence and
+				it was thus <pb n="5" facs="EHRI-ET-WL16560633_05.jpg"/> that he made for the west, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hidden</term> beneath a pile of sacks.</p>
+			<p>Being in the dark he could not distinguish night from day, he could just see a little light through the gaps in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term>, so he had no idea of how long the
+				journey took. Amongst the sacks in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term>
+				he noticed some that contained black [probably <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>]
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">uniforms</term>. He stayed like this until the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> stopped. When the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> who had been informed of his presence
+				opened the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagon</term> he saw that he was in the
+				goods yard of the <foreign xml:lang="fr">Gare de l’Est in <placeName ref="http://www.geonames.org/2988507/paris.html"
+						>Paris</placeName></foreign>. He was shown the way out of the station and he went straight to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> of one of his brothers-in-law who lived in
+					<placeName ref="http://www.geonames.org/2988507/paris.html">Paris</placeName>. Having got some money and changed his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, he left the city that evening and went
+				to the free [unoccupied] zone, from where he left for <placeName ref="http://www.geonames.org/2658434/switzerland.html"
+					>Switzerland</placeName>, along with some other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject"
+					>refugees</term>. His adventure had lasted six weeks.</p>
+			<p>I was able to see this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> in a <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">Swiss</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term>. He was thirty-three years old, of
+				robust appearance, the type who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">works</term> with
+				machines, of nondescript appearance and average intelligence. He scarcely realises his extraordinary luck. He made a good impression
+				on me, recounting quite simply the things he had seen, adding nothing that he had not seen personally. He often replied to my
+				questions with <q>I don’t know</q>. His accounts of the treatment of Jews in <placeName
+					ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> also accord with those of others who have
+				arrived here. We should note, too, that he made no mention of his extraordinary odyssey to the <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">Swiss</placeName> authorities when they questioned him. He made no attempt
+				whatsoever to make himself interesting to the <placeName ref="http://www.geonames.org/2658434/switzerland.html">Swiss</placeName>
+				authorities in the hope that he might perhaps obtain some special treatment. Besides all they asked was where he came from. He
+				answered <q>from <placeName ref="http://www.geonames.org/2996944/lyon.html">Lyon</placeName></q>. No other question having been asked,
+				he kept his story to himself.</p>
+			<p><placeName ref="http://www.geonames.org/2660646/geneve.html">Geneva</placeName>, <date when="1942-10-10">10 October 1942</date></p>
+			<p><note type="gloss">Translated for the Wiener Library by <persName ref="#ehri_et_boswell_sue">Sue Boswell</persName></note></p>
+		</body>
+	</text>
+</TEI>

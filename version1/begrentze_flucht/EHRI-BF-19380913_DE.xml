@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:08+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380912_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jindřich Andrial berichtet über die Vorgänge am tschechoslowakischen Generalkonsulat in Wien</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Innenministerium I – Präsidium</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium (225)</collection>
+                        <idno>Sign. 225-1189-12, Fol. 35-40</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1189-12, Fol. 35-40.<textLang mainLang="cs">Original auf
+                        Tschechisch</textLang></bibl>
+                <listPlace>
+                    <place xml:id="ehri_bf_wien_mariahilfer_strasse">
+                        <placeName>Wien, Mariahilfer Straße</placeName>
+                        <location>
+                            <geo>48.197967 16.349145</geo>
+                        </location>
+                    </place>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Prag (Praha)</placeName>
+                        <location>
+                            <geo>50.08804 14.42076</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Prag"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Pressburg (Bratislava)</placeName>
+                        <location>
+                            <geo>48.14816 17.10674</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3060972/bratislava.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Bratislava"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Lundenburg (Břeclav)</placeName>
+                        <location>
+                            <geo>48.75897 16.88203</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3078773/breclav.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/B%C5%99eclav"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Nikolsburg (Mikulov)</placeName>
+                        <location>
+                            <geo>48.80556 16.6378</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3070720/mikulov.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Mikulov"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Ministerium</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1110"/>
+                        </linkGrp></item>
+                    <item><name>Botschaft und Konsulat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+                        </linkGrp></item>
+                    <item><name>Polizei</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+                        </linkGrp></item>
+                    <item><name>Pass</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+                        </linkGrp></item>
+                    <item><name>Krankheit</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+                        </linkGrp></item>
+                    <item><name>Arier / Arierin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+                        </linkGrp></item>
+                    <item><name>NS-Staat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+                        </linkGrp></item>
+                    <item><name>Visum</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+                        </linkGrp></item>
+                    <item><name>Zug</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_andrial_jindrich">
+                        <persName>Andrial, Jindřich</persName>
+                    </person>
+                    <person xml:id="ehri_bf_sebesta_frantisek">
+                        <persName>Šebesta, František</persName>
+                        <note>
+                            <p>1882 - ?</p>
+                            <p>Tschechoslowakischer Diplomat, 1935-1938 Generalkonsul in Wien. Am 1. Juni 1938, nach der Auflösung der Botschaft und
+                                dem Rückzug des tschechoslowakischen Gesandten Rudolf Künzl-Jizerský, übernahm er die Leitung der tschechoslowakischen
+                                Vertretung in Wien.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="other"
+                                target="https://www.mzv.cz/jnp/cz/o_ministerstvu/organizacni_struktura/utvary_mzv/specializovany_archiv_mzv/kdo_byl_kdo/sebesta_frantisek.html"
+                            />
+                        </linkGrp>
+                    </person>
+                    <person xml:id="ehri_bf_mraz">
+                        <persName>Mráz</persName>
+                    </person>
+                    <person xml:id="ehri_bf_rudis">
+                        <persName>Rudiš</persName>
+                    </person>
+                    <person xml:id="ehri_bf_kunzl-jizersky_rudolf">
+                        <persName>Künzl-Jizerský, Rudolf</persName>
+                        <note><p>1883 - 1954</p><p>Gesandter der ČSR in Wien 1938 bis 1938.</p></note>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org>
+                        <orgName>Schutzstaffel</orgName>
+                        <note>
+                            <p>1925 - 1945</p>
+                            <p>Die Schutzstaffel wurde 1925 als kleine Abteilung zum persönlichen Schutz Hitlers gegründet. Anfang 1929 wurde die SS
+                                unter der Führung Heinrich Himmlers ausgebaut, später zu einer eigenständigen Organisation der NSDAP erhoben. 1934
+                                entmachtete sie erfolgreich die konkurrierende SA während der sog. „Nacht der langen Messer“. Die SS setzte sich aus
+                                Gestapo, Kriminalpolizei, Waffen-SS und Totenkopfverbänden zusammen. 1936 wurden alle Polizeiagenden unter Kontrolle
+                                der SS gestellt. Im Nürnberger Prozess wurde die SS als verbrecherische Organisation eingestuft, verantwortlich für
+                                die „Verfolgung und Ermordung von Juden“, Ermordung bzw. Brutalität gegen Häftlinge in Konzentrationslagern,
+                                Ausschreitungen in ihrer Verwaltung von besetzten Gebieten, Ausbeutung von ZwangsarbeiterInnen und Misshandlung von
+                                Kriegsgefangenen.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+                        </linkGrp>
+                    </org>
+                    <org>
+                        <orgName>Innenministerium Prag</orgName>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749"/>
+                        </linkGrp>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-09-13">13. September 1938</date>
+                <placeName>Prag (Praha)</placeName>
+                <persName>Andrial, Jindřich</persName>
+                <idno>EHRI-BF-19380913</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="Flüchtlingspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="EHRI-BF-19380912_01.jpg"/>
+            <p>Protokoll über die Dienstreise des <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+                    >Ministerialrats</term> Dr. <persName ref="#ehri_bf_andrial_jindrich">Jindřich Andrial</persName> nach <placeName
+                    ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>.</p>
+
+            <p>Der Unterzeichnende traf am <date when="1938-09-05">5. September</date> um 22.20 Uhr in <placeName
+                    ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> ein. Am <date when="1938-09-06">6. September</date> um 9 Uhr
+                fand er sich beim <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> resp. vor
+                dem Gebäude ein, vor dem sich Massen von Antragstellern drängten. Ordnung hielten zwei <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Polizisten</term>, die den Unterzeichnenden erst einließen, als er
+                sich mit dem <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Diplomatenpass</term> auswies.</p>
+
+            <p>In den Gängen des Gebäudes – vor der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141"
+                    >Passabteilung</term> und im ersten und im zweiten Geschoss, wo die Amtsräume der Konzeptsbeamten und Amtsvorsteher sind, war ein
+                solcher Andrang, dass der Unterzeichnende erst von einem Beamten des <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Konsulats</term> eingeführt werden musste, damit er in den
+                betreffenden Raum gelangen konnte.</p>
+
+            <p>Die Mehrheit der Besucher – man kann sagen über 70 Prozent – waren Antragsteller für eine Grenzempfehlung.</p>
+
+            <p>Die Amtsgeschäfte sind nicht nur durch die große Anzahl der Antragsteller, die nicht nur auf dem Gang, sondern auch im Raum des Beamten
+                stehen, erheblich beeinträchtigt, sondern auch aufzehrend durch den Lärm, die Eile, das dauernde Telefonklingeln und Ferngespräche vor
+                allem mit <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>. Den Beamten ist Müdigkeit und natürlich auch
+                eine gewisse Nervosität anzusehen.</p>
+
+            <p>Nach einer kurzen Besichtigung des amtlichen Gebäudeteils besuchte der Unterzeichnende den <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsul</term> Herrn Dr. <persName
+                    ref="#ehri_bf_sebesta_frantisek">Šebesta</persName> in seiner Wohnung, denn dieser war <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-292">erkrankt</term>. Trotz seiner <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-292">Krankheit</term> erledigte Herr <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsul</term> alle Amtsgeschäfte, und konnte deshalb mit dem
+                Unterzeichnenden die Angelegenheiten besprechen, die Gegenstand der Dienstreise waren.</p>
+            <pb n="2" facs="EHRI-BF-19380912_02.jpg"/>
+
+            <p>Das Ergebnis der Unterredung des Unterzeichnenden mit Herrn <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsul</term> war das Folgende:</p>
+
+            <p>Der größte Teil der Antragsteller (90-95 Prozent) sind <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-373">Arier</term>, die Nichtarier machen höchstens 5-10 Prozent aus.</p>
+
+            <p>Die Parteien wenden sich zunächst an die <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141"
+                    >Passabteilung</term>, wo der Oberoffizial <persName ref="#ehri_bf_mraz">Mráz</persName>, bei dem sich zur Bearbeitung 2-3
+                Arbeitskräfte abwechseln, Grenzempfehlungen erteilt.</p>
+
+            <p>Problematische Fälle werden dem Behördenvorsteher vorgelegt oder einem Konzeptsbeamten, den der Behördenvorsteher bestimmt. [...]</p>
+
+            <p>Laut der strikten Erklärung des <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >Generalkonsuls</term>, ist Herr <persName ref="#ehri_bf_mraz">Mráz</persName> ein absolut verlässlicher Beamter und es ist
+                absolut ausgeschlossen, dass er Empfehlungen an Personen vergibt, die diese nicht verdienen, oder sogar gegen Bestechung.</p>
+
+            <p>Außerdem ist bei ihm – im Gang und im Raum [–] ein solcher Andrang, dass jedweder Bestechungsversuch sofort bemerkt würde.</p>
+
+            <p>Ein Diebstahl von leeren Vordrucken für die Empfehlung ist gleichfalls ausgeschlossen, da alle Formulare nummeriert sind und sich im
+                Tresor des <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsuls</term> befinden.</p>
+
+            <p>Der Verkauf ausgefüllter Empfehlungen und deren Ersetzung durch einen anderen Namen (durch Abwaschen der Tinte) ist gleichfalls
+                unwahrscheinlich, denn<pb n="3" facs="EHRI-BF-19380912_03.jpg"/> die Grenzorgane könnten eine solche Bearbeitung leichtens
+                feststellen.</p>
+
+            <p>Empfehlungen werden nämlich im Allgemeinen in <q>letzter Minute</q> erteilt, wenn es dem Betroffenen darum geht, das Gebiet schnell zu
+                verlassen, und deshalb sind sie neu und auf tadellosem Papier.</p>
+
+            <p>Der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsul</term> hat bereits selbst
+                verschiedenen Andeutungen vernommen, dass es möglich sei vom <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> Empfehlungen <q>gegen Geld</q> zu erhalten,
+                und hat deshalb seinen Vertrauensmann ersucht, ihm eine solche Empfehlung zu besorgen. Dabei versprach er ihm, dass er ihn mit einer
+                solchen <q>Empfehlung</q> über die Grenze lässt, um wen immer es sich auch handelt.</p>
+
+            <p>Selbstverständlich ist dies bisher nicht gelungen.</p>
+
+            <p>Damit ist jedoch nicht gesagt, dass gefälschte Empfehlungen nicht existieren, die mit stiller Zustimmung der <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> in irgendeinem Büro in der <placeName
+                    ref="#ehri_bf_wien_mariahilfer_strasse">Mariahilfer Straße</placeName> hergestellt werden und pro Stück Mk 1.200 kosten.</p>
+
+
+            <p>Die Ermittlung dieses Ortes und die Beschaffung einer solchen Empfehlung würde selbstverständlich Geld kosten und es dürften keine
+                hohen Preise sein, da ein event. Eingriff bei den <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+                    >deutschen</term> Behörden nur dazu führen würde, dass das <q>Büro verzogen</q> ist.</p>
+
+            <p>Aus diesem Grund wäre es besser, wenn der Text in der Empfehlung perforiert, oder noch besser durch einen Stempel so auf den <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pass</term> gedruckt würde, dass er nicht so leicht
+                gefälscht werden kann.</p>
+
+            <p>Weiterhin würde es sich empfehlen, dass wenigstens einmal und höchstens zweimal pro Monat jemand der Bürobeamten aus dem <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Passreferat</term> an die Grenze fährt und die den
+                Grenzorganen vorgelegten Empfehlungen überprüft, und die betreffenden Organe über event. Falsifikate informiert, die möglicherweise
+                entweder im Text oder in der Unterschrift der Empfehlung auftreten können.</p>
+            <pb n="4" facs="EHRI-BF-19380912_04.jpg"/>
+
+            <p>Falls es <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">reichsdeutsche</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pässe</term> betrifft, wird die Empfehlung in allen
+                Fällen eingefordert, in denen es um <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pässe</term>
+                geht, die nach dem <date when="1938-08-25">25. August</date> auf dem Territorium des ehemaligen <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> ausgestellt wurden, und das solange, bis
+                sich die <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">deutschen</term> Behörden selbst nicht
+                mehr um die Aufhebung der geheimen Reverse kümmern, und bis auch denjenigen Personen <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pässe</term> ausgestellt werden, deren Rückkehr nach <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Deutschland</term> sie sich nicht wünschen.</p>
+
+            <p>In Interesse der Beschleunigung der Amtsgeschäfte und zur Verhütung ev. Missverständnisse werden über die Erteilung von Empfehlungen in
+                problematischen Fällen nur <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsul</term> Dr.
+                    <persName ref="#ehri_bf_sebesta_frantisek">Šebesta</persName> und <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Vizekonsul</term> Dr. <persName ref="#ehri_bf_rudis"
+                    >Rudiš</persName> entscheiden.</p>
+
+            <p>Selbstständig können Empfehlungen an ältere Personen (über 60 Jahre) oder <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-292">Schwerkranken</term> erteilt werden. In beiden Fällen jedoch nur
+                denjenigen, die entweder mit Unterstützung aus der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+                    >Tschechoslowakei</placeName> leben oder von dort eine Rente oder Pension von hier bekommen.</p>
+
+            <p>Weiterhin denjenigen, bei denen verbürgt die bloße Durchreise durch das Gebiet der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakischen Republik</placeName> vorliegt, und bei
+                Bäderreisenden nur denjenigen, die keine Möglichkeit zur Rückkehr nach <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Deutschland</term> haben, die nicht nur das <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> des 3. Staates haben (ev. ein
+                notwendiges <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Durchreisevisum</term>), sondern auch
+                eine Bestätigung über eine Anstellung oder eine Aufenthaltsgenehmigung andernorts als in der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName>.</p>
+
+            <p>Alle anderen Fälle müssen entweder, wo es um würdige Antragsteller geht, an das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Ministerium für Auswärtige Angelegenheiten</term> geschickt werden,
+                oder an das <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749"
+                    >Innenministerium</orgName>, wenn es um Antragsteller geht, die das <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Generalkonsulat</term> zwar nicht empfiehlt, die jedoch nicht anders
+                erledigt werden können.</p>
+
+            <p>----------------------</p>
+
+
+            <p>Am selben Tag abends, d.h. am <date when="1938-09-06">6. IX.</date> um 20,50 fuhr der Unterzeichnende nach <placeName
+                    ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> und am <date when="1938-09-07">7. IX</date> um 11 Uhr
+                nach <placeName ref="http://www.geonames.org/3078773/breclav.html">Lundenburg</placeName>. </p>
+            <pb n="5" facs="EHRI-BF-19380912_05.jpg"/>
+
+            <p>Hier suchte er die <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Grenzpolizeibehörde</term> auf
+                und war auch unauffällig bei der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141"
+                    >Passkontrolle</term> während der Ankunft des <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-940">Schnellzugs</term> um 15,15U zugegen.</p>
+
+            <p>Die Kontrolle verlief tadellos und höflich und alle vorgelegten Empfehlungen waren vollkommen neu und tadellos.</p>
+
+            <p>Auf Anfrage des Unterzeichnenden teilten die <term type="subject" ref="ttps://portal.ehri-project.eu/keywords/ehri_terms-1119"
+                    >Polizeibeamten</term> mit, dass sie ohne Empfehlung nur diejenigen Halter von <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">reichsdeutschen</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pässen</term> durchlassen, deren <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141">Pässe</term> von der ehemaligen <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">deutschen</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Botschaft</term> in <placeName
+                    ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> ausgestellt wurden, oder von ehemaligen <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">deutschen</term>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Konsulaten</term> auf dem Gebiet des ehemaligen
+                    <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>. In allen anderen Fällen
+                verlangen sie eine Empfehlung vom <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+                    >Generalkonsulat</term> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>. Die Anzahl der <term
+                    type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-373">arischen</term> Empfehlungen beträgt gegenüber den
+                Nichtariern sicherlich 95 Prozent. Abgegebene Empfehlungen (nach der Rückkehr aus der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName>) werden nach Nummern und Monaten geordnet
+                aufbewahrt.</p>
+
+            <p>Große Mühen ruft der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-234">illegale Übertritt</term>
+                hervor, zu dem es vor allem bei <placeName ref="http://www.geonames.org/3070720/mikulov.html">Nikolsburg</placeName> kommt, wo das
+                Terrain (Wälder) besonders geeignet ist.</p>
+
+            <p>[...]</p>
+            <pb n="6" facs="EHRI-BF-19380912_06.jpg"/>
+
+            <p><!--<placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>, am <date
+          when="1938-09-13">13. September 1938</date>.--></p>
+        </body>
+    </text>
+</TEI>

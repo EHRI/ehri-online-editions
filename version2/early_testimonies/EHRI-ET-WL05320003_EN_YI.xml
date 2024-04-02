@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-WL05320003_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">A fifteen-year-old youth, on the German invasion of Wyszków and surrounding areas</title>
+                <title xml:lang="fr">Un jeune de quinze ans, sur l'invasion allemande de Wyszków et des environs</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Christine Schmidt</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Jessica Green</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Martina Ravagnan</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>29 Russell Square</street>
+                                <postCode>WC1B 5DP</postCode>
+                                <settlement>London</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+                            Genocide</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_532">Persecution of Jews in Poland: reports and statements,
+                            microfilm (coll. 532)</collection>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>The Wiener Library for the Study of the Holocaust and Genocide, coll. 532, protocol no. 3. <textLang mainLang="yi">Original in
+                        Yiddish.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1939-11-15">15.11.1939</date>, <placeName ref="#przasnysz">Przasnysz</placeName>, <placeName ref="#pultusk"
+                    >Pułtusk</placeName>, <idno>EHRI-ET-WL05320003</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="yi">Yiddish</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Testimony of a fifteen-year-old youth, recorded on 15 November 1939 and describing the German invasion of Wyszków and surrounding
+                    areas. Y. M. Sh. describes refugees, including many Jewish refugees, who fled from occupied areas into the village and tried to
+                    escape the advance of German troops. S/he also describes the relationship of non-Jewish and Jewish Poles and the attempts to
+                    observe the Sabbath in the midst of the family’s escape. The eyewitness describes cruelties inflicted on Jews by German troops and
+                    the mass murder of Jews during the fighting.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="EHRI-ET-WL05320003_01.jpg" n="1"/>
+                <p>קאָמיטעט צו זאַמלען מאַטעריאַלן</p>
+                <p>וועגן ייִדישן חורבן אין <placeName ref="#republic-of-poland" type="ehri">פּוילן</placeName> 1939</p>
+                <p>י.מ.ש.</p>
+                <p><placeName ref="#wyszkow" type="ehri">ווישקאָוו</placeName></p>
+                <p>18 יאָר אַלט, בײַ די <term ref="#t822" type="subject">עלטערן</term></p>
+                <p>פּראָטאָקאָל נומער 3</p>
+                <p>(צונויפֿגעשטעלט דעם 15טן נאָוועמבער 1939)</p>
+                <p>אַעראָפּלאַנען אין גרויסע צאָלן האָבן אָנגעהויבן פֿליִען איבער אונדזער שטאָט נאָך דעם ערשטן סעפּטעמבער 1939.</p>
+                <p>צומאָרגנס האָבן זיך בײַ אונדז באַוויזן <term ref="#t304" type="subject">פּליטים</term> פֿון <placeName ref="#ostroleka" type="ehri"
+                        >אָסטראָלענקע</placeName>, <placeName ref="#przasnysz" type="ehri">פּרושניץ</placeName>. זיי האָבן איבערגעגעבן, אַז ס'שיסן
+                    שוין דאָרט האַרמאַטן. די <term ref="#t304" type="subject">פּליטים</term> זענען געקומען מיט אויטאָס, אויטאָבוסן און פֿורלעך –
+                    געקומען זענען בלויז ייִדן.</p>
+                <p>שבת צו נאַכטס נאָך מעריבֿ האָבן די אַעראָפּלאַנען צום ערשטן מאָל געוואָרפֿן באָמבעס, וועלכע זענען אַרײַנגעפֿאַלן אין <placeName
+                        ref="#pivdennyy-buh" type="ehri">בוג</placeName>.</p>
+                <p>זונטאָג, דעם דריטן סעפּטעמבער, אין דער פֿרי האָט זיך הינטער אונדזער שטאָט, אין אַ דאָרף, דוכט זיך <placeName ref="#somianka"
+                        type="ehri">סלאָמיאַנקי</placeName>, אַראָפּגעלאָזן אַ <term ref="#t1159" type="subject">דײַטשער</term> אַעראָפּלאַן, וואָס
+                    איז, ווי מען האָט איבערגעגעבן, געוואָרן באַשעדיקט בײַ <placeName ref="#warsaw" type="ehri">וואַרשע</placeName>. די פֿליִער אין דער
+                    צאָל פֿון דער [=דרײַ?] זענען נעלם געוואָרן, און די שפּעטערדיקע זוכערײַען נאָך זיי האָבן נישט געגעבן קיין רעזולטאַט.</p>
+                <p>דעם זעלביקן טאָג האָבן זיך שוין באַוויזן איינצלנע <term ref="#t304" type="subject">פּליטים</term> פֿון <placeName ref="#pultusk"
+                        type="ehri">פּולטוסק</placeName>. אַעראָפּלאַנען זענען געפֿלויגן איבער דער שטאָט, אָבער קיין באָמבעס האָבן זיי נישט
+                    געוואָרפֿן.</p>
+                <p>מאָנטאָג, דעם 4טן סעפּטעמבער, זענען שוין דורך דורך אונדזער שטאָט צו פֿוסן און אויף פֿורן גאַנצע מחנות <term ref="#t304"
+                        type="subject">פּליטים</term>, ייִדן מיט זייערע בעבעכעס, פּויערים און פּריצים מיט בהמות און וועגענער. עס איז געווען אַזוי פֿיל
+                    מענטשן, אַז אין שטעטל איז געוואָרן ענג. געקומען איז מען פֿון <placeName ref="#ciechanow" type="ehri">טשעכאַנאָוו</placeName>,
+                        <placeName ref="#pultusk" type="ehri">פּולטוסק</placeName> און אַנדערע ערטער. נאָר אַ טייל האָט אין <placeName ref="#wyszkow"
+                        type="ehri">ווישקאָוו</placeName> איבערגענעכטיקט, ס'רובֿ האָט זיך דער עולם געלאָזט גלײַך קיין <placeName ref="#warsaw"
+                        type="ehri">וואַרשע</placeName>.</p>
+                <p><pb facs="EHRI-ET-WL05320003_02.jpg" n="2"/></p>
+                <p>מאָנטאָג אין אָוונט זענען געפֿלויגן אַעראָפּלאַנען איבער דער שטאָט און געוואָרפֿן באָמבעס הינטער דער שטאָט. דער שטראָם <term
+                        ref="#t304" type="subject">פּליטים</term> האָט געפֿלאָסן, אַז ס'איז ענג געווען ממש דורכקריגן זיך אַפֿילו בײַ נאַכט.</p>
+                <p>אין טייל שטובן האָט מען אונטערן רושם פֿון שטראָם <term ref="#t304" type="subject">פּליטים</term> גענומען פּאַקן די זאַכן.</p>
+                <p>בײַ מײַנע עלטערן האָט מען זיך נאָך נישט געפּאַקט. בײַ <term ref="#t822" type="subject">אונדז</term> האָט מען זיך געלייגט שלאָפֿן
+                    און רויִק דורכגעשלאָפֿן די נאַכט.</p>
+                <p>דינסטאָג, דעם 5טן סעפּטעמבער, 7 פֿרי האָבן מיך אויפֿגעוועקט אויפֿרײַסן פֿון באָמבעס, געוואָרפֿן פֿון <term ref="#t1159"
+                        type="subject">דײַטשע</term> אַעראָפּלאַנען. ס'האָט אויפֿגעריסן אויף <placeName ref="#wyszkow" type="ehri">פּולטוסקער
+                        גאַס</placeName> עק <placeName ref="#wyszkow" type="ehri">סטאָדאָלנע</placeName> און <term ref="#t745" type="subject"
+                        >געהרגעט</term> פֿינף ייִדן, אָנגעצונדן אַ שײַער מיט האָבער, וועלכער איז אין גאַנצן פֿאַרברענט געוואָרן.</p>
+                <p>בײַ מײַן <term ref="#t822" type="subject">פֿעטער</term>
+                    <persName ref="#ehri_et_shults_hershl" type="ehri">הערשל שולץ</persName> אויף <placeName ref="#wyszkow" type="ehri">פּולטוסקער
+                        גאַס</placeName> האָט אַ באָמבע דעמלט געטראָפֿן אין דער שוועל און נישט אויפֿגעריסן. ס'האָט אָבער אויפֿגעריסן די בײַשטידלען
+                    פֿון טיר און פֿענצטער – און מיר האָבן אַלץ פֿון פֿעטערס שטוב אַרויסגעטראָגן. פֿון מײַן <term ref="#t822" type="subject"
+                        >פֿעטערס</term>
+                    <term ref="#t819" type="subject">משפּחה</term> האָט קיינער נישט געליטן. פֿאַרוווּנדעט איז נאָר געוואָרן דער באַלעבאָס פֿון הויז
+                        <persName ref="#ehri_et_zyskowski_antoni" type="ehri">אַנטאָני זיסקאָווסקי</persName>.</p>
+                <p>מען האָט אַפֿילו געפּרוּווט לעשן דעם שײַער, וואָס האָט געברענט אינעם זעלבן הויז, אָבער אָן דערפֿאָלג, ווײַל די פֿײַער־לעשער האָבן
+                    זיך נישט געקענט אומגיין מיט די פּאָמפּעס.</p>
+                <p>די אַעראָפּלאַנען זענען ווײַטער געפֿלויגן און אָנגעוואָרפֿן אַן אימה אויף דער באַפֿעלקערונג.</p>
+                <p>די <term ref="#t1159" type="subject">דײַטשע</term> אַעראָפּלאַנען האָבן אַ גאַנצן טאָג געוואָרפֿן באָמבעס און חרובֿ געמאַכט די
+                    גאַסן <placeName ref="#wyszkow" type="ehri">נאַדגוזשע</placeName>, <placeName ref="#wyszkow" type="ehri">שוו. יאַנסקע</placeName>.
+                    משמעות, אַז די אַעראָפּלאַנען זענען געקומען, ווײַל דעם זעלבן טאָג האָט זיך באַוויזן בײַ אונדז מיליטער, און ס'איז אויסגעשטעלט
+                    געוואָרן אין מיטן מאַרק, <placeName ref="#wyszkow" type="ehri">פּלאַץ פ. אָ. וו</placeName>., אַ זעניט־האַרמאַט.</p>
+                <p>אַרום דרײַ בײַ טאָג האָט אויפֿגעריסן אַ הויז אין עק <placeName ref="#wyszkow" type="ehri">פ. א. וו־פּלאַץ</placeName> און
+                        <placeName ref="#wyszkow" type="ehri">פּילסודסקי גאַס</placeName> ( <placeName ref="#wyszkow" type="ehri"
+                        >אָסטראָווער</placeName>), און פֿאַרשיט אַן ערך פֿופֿציק מאַן. צווישן די <term ref="#t745" type="subject">דערהרגעטע</term>
+                    געפֿינען <pb facs="EHRI-ET-WL05320003_03.jpg" n="3"/> זיך דאָס <term ref="#t822" type="subject">ווײַב</term> פֿון לייבל לעווין (אַ
+                    פֿורמאַן) און זײַנע דרײַ קליינע <term ref="#t824" type="subject">קינדער</term>. אַ געוויסע צאָל מענטשן האָט זיך אײַנגעגעבן
+                    אַרויסצוראַטעווען.</p>
+                <p>דער עולם האָט זיך <term ref="#t262" type="subject">באַהאַלטן</term> אין די <term ref="#t265" type="subject">קעלערן</term>, מורא
+                    האָבנדיק פֿאַר די אַעראָפּלאַנען. מען האָט גענומען <term ref="#t204" type="subject">לויפֿן</term> אין דער ריכטונג פֿון <placeName
+                        ref="#wegrow" type="ehri">ווענגראָווע</placeName> און <placeName ref="#warsaw" type="ehri">וואַרשע</placeName>.</p>
+                <p><term ref="#t204" type="subject">געלאָפֿן</term> זענען סײַ <term ref="#t763" type="subject">קריסטן</term>, סײַ ייִדן.</p>
+                <p>קיין <term ref="#t1119" type="subject">פּאָליציי</term> איז שוין נישט געווען, זי איז ווײַזט אויס פֿאַרשוווּנדן דעם טאָג.</p>
+                <p>די באַציִונגען צווישן <term ref="#t763" type="subject">קריסטן</term> און ייִדן זענען געווען זייער גוטע. מען האָט זיך איינער דעם
+                    צווייטן אַרויסגעהאָלפֿן.</p>
+                <p>דינסטאָג בײַ נאַכט האָט מען זיך שוין נישט <term ref="#t836" type="subject">אויסגעטאָן</term>. מיר האָבן זיך באַראָטן וווּהין צו
+                        <term ref="#t204" type="subject">לויפֿן</term>. מיר האָבן באַשלאָסן צו <term ref="#t204" type="subject">לויפֿן</term> קיין
+                        <placeName ref="#sieczychy" type="ehri">שעציק</placeName> (18 קילאָמעטער פֿון <placeName ref="#wyszkow" type="ehri"
+                        >ווישקאָוו</placeName>), אַ דאָרף אין וועלכן ס'וווינען <term ref="#ehri_et_nationalities_germans" type="subject"
+                    >דײַטשן</term>, אונדזערע קונים. מיר האָבן גערעכנט אַז אַזוי ווי עס וווינען דאָרט <term ref="#ehri_et_nationalities_germans"
+                        type="subject">דײַטשן</term>, וועט גאָרנישט געשען.</p>
+                <p>קיין <placeName ref="#sieczychy" type="ehri">שעציק</placeName> האָבן מיר אָבער שוין מיטוואָך נישט באַוויזן צו <term ref="#t204"
+                        type="subject">לויפֿן</term>, ווײַל בײַ <term ref="#t819" type="subject">אונדז</term> זענען דאָ קליינע <term ref="#t824"
+                        type="subject">קינדער</term>, אַ האַלב יאָר אַלט. מיר זענען דעריבער מיטוואָך דעם 6טן סעפּטעמבער, <term ref="#t204"
+                        type="subject">געלאָפֿן</term> קיין <placeName ref="#natalin" type="ehri">נאַטאַלין</placeName> אין וואַלד אַרײַן. מיר זענען
+                    געבליבן אין וואַלד אַ גאַנצן טאָג אויס מורא פֿאַר אַעראָפּלאַנען. אַ גאַנצן טאָג האָבן מיר נישט געהאַט וואָס צו <term ref="#t832"
+                        type="subject">עסן</term> און צו טרינקען, אַרויסגיין פֿון וואַלד האָבן מיר מורא געהאַט, ווײַל דערנעבן איז אַ באַן־ליניע,
+                    וועלכע איז כּסדר באָמבאַרדירט געוואָרן דורך <term ref="#t1159" type="subject">דײַטשע</term> אַעראָפּלאַנען.</p>
+                <p>אַז ס'איז צוגעפֿאַלן דער אָוונט האָבן מיר באַשלאָסן גיין צוריק אין שטאָט. אין שטאָט זענען מיר אַרײַן אַן ערך צוועלף – האַלב איינס
+                    בײַ נאַכט. ס'האָבן נאָך געטליִעט די נישט דערברענטע בנינים. מ'האָט געזען בליצן און געהערט האַרמאַטן־שאָסן. ד"ה דער פֿראָנט איז שוין
+                    געווען נאָענט.</p>
+                <p>ווי מיר זענען געווויר געוואָרן, איז אויסער דער גימנאַזיע קיין נײַע חורבֿות ניט פֿאַראַן.</p>
+                <p>דאָנערשטאָג, דעם 7טן סעפּטעמבער, איז די גאַס געווען ליידיק פֿון מענטשן – געגאַנגען זענען <term ref="#t304" type="subject"
+                        >פּליטים</term> און <placeName ref="#republic-of-poland" type="ehri">פּויליש</placeName> מיליטער, וואָס האָט געאײַלט וואָס
+                    שנעלער <pb facs="EHRI-ET-WL05320003_04.jpg" n="4"/> צו דער בריק אויפֿן <placeName ref="#pivdennyy-buh" type="ehri"
+                    >בוג</placeName>. די באָמבאַרדירונג פֿון די <term ref="#t1159" type="subject">דײַטשע</term> אַעראָפּלאַנען איז ווײַטער
+                    אָנגעגאַנגען.</p>
+                <p>אַרום דרײַ בײַ טאָג האָבן זיך אָנגעצונדן די גאַסן <placeName ref="#wyszkow" type="ehri">שקאָלנע</placeName> און <placeName
+                        ref="#wyszkow" type="ehri">שאָפּענע</placeName>. די שׂרפֿה האָט געדויערט ביז פֿאַרנאַכט.</p>
+                <p>מיר זענען אַרויס פֿון <term ref="#t265" type="subject">באַהעלטעניש</term>, ווײַל דאָס פֿײַער האָט אונדז שוין באַדראָט, און אַלץ
+                    געטון, נישט צו לאָזן זיך אויסשפּרייטן דאָס פֿײַער. עס איז אָפּגעראַטעוועט געוואָרן די ערשטע צײל הײַזער פֿון <placeName
+                        ref="#wyszkow" type="ehri">וואָנזקע</placeName> גאַס. די איבעריקע הײַזער – אויף די גאַסן <placeName ref="#wyszkow" type="ehri"
+                        >שקאָלנע</placeName>
+                    <placeName ref="#wyszkow" type="ehri">שאָפּענע</placeName> – זענען פֿאַרברענט געוואָרן.</p>
+                <p>דעם זעלבן טאָג, אַרום דרײַ אַ זייגער, האָט אַ באָמבע געטראָפֿן אין די יאַטקעס און אויפֿגעריסן אַ וואַנט אין <persName
+                        ref="#ehri_et_przytycki_leybl" type="ehri">לייבל פּשיטיצקיס</persName> קראָם אויף דער <placeName ref="#wyszkow" type="ehri"
+                        >קאָסטשושקאָ־גאַס</placeName>. דאָרט האָט זיך געפֿונען סאָדע־וואַסער, קוואַס און ביר. די <placeName ref="#republic-of-poland"
+                        type="ehri">פּוילישע</placeName>
+                    <term ref="#t1097" type="subject">זעלנער</term> האָבן די קראָם באַלד אויסראַבירט און אַלץ אויסגעטרונקען.</p>
+                <p><placeName ref="#republic-of-poland.htm" type="ehri">פּוילישע</placeName>
+                    <term ref="#t1097" type="subject">זעלנער</term> זענען געווען בײַ אונדז אויפֿן הויף און שאַרנדיק זיך בײַ די ווענט האָבן זיי פֿון
+                    ביקסן געשאָסן צו אַעראָפּלאַנען. מיר האָבן דערפֿאַר זייער מורא געהאַט, אַז די <term ref="#t1159" type="subject">דײַטשן</term>
+                    וועלן וואַרפֿן באָמבעס אויף אונדזער הויף.</p>
+                <p>צוועלף בײַ נאַכט האָבן מיר זיך מישבֿ געווען מיט פּוילישע אָפֿיצירן, וואָס מיר האָבן צו טון. זיי האָבן אונדז געעצהט צו <term
+                        ref="#t204" type="subject">אַנטלויפֿן</term> מיט דער <term ref="#t1076" type="subject">אַרמיי</term>. זיי האָבן געזאָגט, אַז
+                    פֿרײַטאָג פֿרי וועט מען אויפֿרײַסן ביידע בריקן און ס'וועט שוין זײַן אוממעגלעך צו <term ref="#t204" type="subject"
+                        >אַנטלויפֿן</term>. אַקעגן אונדזערס אַ באַקאַנטער, אַ <term ref="#t884" type="subject">יִדישער סאָלדאַט</term> פֿון <placeName
+                        ref="#wyszkow" type="ehri">ווישקאָוו</placeName>, האָט אונדז געראָטן, אַז מיר זאָלן בלײַבן, ווײַל מיר זענען מיט קליינע <term
+                        ref="#t824" type="subject">קינדער</term>. מיר זענען טאַקע געבליבן. בײַ נאַכט האָבן מיר געמאַכט אַ <term ref="#t832"
+                        type="subject">געקעכץ</term>, ווײַל בײַ טאָג האָבן מיר גאָרנישט געקענט טאָן. שלאָפֿן זענען מיר נישט געגאַנגען.</p>
+                <p>אַ גאַנצע נאַכט איז געגאַנגען <placeName ref="#republic-of-poland" type="ehri">פּויליש</placeName> מיליטער, אַזוי געדיכט, אַז מיר
+                    האָבן נישט געקענט צוקומען צו דער פּלומפּ אויפֿן <placeName ref="#wyszkow" type="ehri">מאַרק</placeName> נאָך וואַסער.</p>
+                <p>פֿרײַטאָג, דעם 8טן האָבן ווײַטער <term ref="#t1159" type="subject">דײַטשע</term> אַעראָפּלאַנען באָמבאַרדירט. <placeName
+                        ref="#republic-of-poland" type="ehri">פּויליש</placeName> מיליטער איז שוין געווען קנאַפּ. ס'זענען שוין זעלטן געפֿאָרן <term
+                        ref="#t1097" type="subject">זעלנער</term> פֿון <placeName ref="#ostrow-mazowiecka" type="ehri">אָסטראָווער</placeName> און
+                        <placeName ref="#pultusk" type="ehri">פּולטוסקער</placeName> שאָסייען. קיין <term ref="#t304" type="subject">ציווילע</term>
+                    זענען שוין נישט געלאָפֿן.</p>
+                <p><pb facs="EHRI-ET-WL05320003_05.jpg" n="5"/></p>
+                <p>אין שטאָט גופֿא האָט מען קיין באָמבעס שוין נישט געוואָרפֿן. געבליבן זענען נאָר איינצלנע <placeName ref="#republic-of-poland"
+                        type="ehri">פּוילישע</placeName>
+                    <term ref="#t1097" type="subject">זעלנער</term>. אָפּטרעטנדיק האָבן די <term ref="#t1076" type="subject">זעלנער</term> אויפֿגעריסן
+                    די בעקערײַ פֿון <persName ref="#ehri_et_goldman_elye_meyer" type="ehri">אליה מאיר גאָלדמאַן</persName> און געהייסן די
+                    באַפֿעלקערונג נעמען דאָס מעל, כּדי די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term> זאָלן עס נישט
+                    צונעמען. אין שטאָט זענען געווען הויפּטזעכלעך ייִדן, וועלכע האָבן צוגענומען דאָס מעל. די <placeName ref="#republic-of-poland"
+                        type="ehri">פּאָליאַקן</placeName>, זעט אויס, זענען <term ref="#t204" type="subject">אַנטלאָפֿן</term>, ווײַל מע האָט זיי אין
+                    גאַנצן נישט געזען.</p>
+                <p><term ref="#t1159" type="subject">דײַטשע</term> אַעראָפּלאַנען זענען געפֿלויגן גאַנץ נידריק און נישט געשאָסן. מיר זענען פֿאַר זיי
+                    נישט אַנטלאָפֿן, ווײַל מיר האָבן געהאַלטן, אַז נאָך דעם ווי די <placeName ref="#republic-of-poland" type="ehri"
+                        >פּאָליאַקן</placeName> זענען אַוועק, וועלן שוין די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term>
+                    נישט שיסן.</p>
+                <p>ביז פֿיר אַ זייגער בײַ טאָג איז געווען רויִק. אַרום פֿיר האָט זיך געהערט אַ שטאַרק שיסערײַ. מען האָט, זעט אויס, אויפֿגעריסן די
+                    בריקן. מיר זענען זיך צעקראָכן אין די שטובן אַרײַן.</p>
+                <p>אַרום פֿינף אַ זייגער האָט זיך אָנגעצונדן אַ הײַזל אויף <placeName ref="#wyszkow" type="ehri">וואָנזקע גאַס</placeName> עק
+                        <placeName ref="#wyszkow" type="ehri">שקאָלנע</placeName>. איך און נאָך ייִדן זענען געלאָפֿן ראַטעווען. ס'איז אָבער געעפֿנט
+                    געוואָרן אַ <term ref="#t1159" type="subject">דײַטשע</term> האַרמאַטן־שיסערײַ, און מיר זענען אַלע זיך צעלאָפֿן <term ref="#t262"
+                        type="subject">אויסבאַהאַלטן</term> זיך אין <term ref="#t758" type="subject">בית־המדרש</term>.</p>
+                <p>ס'האָט זיך אָנגעצונדן די רעכטע זײַט <placeName ref="#wyszkow" type="ehri">מאַרק</placeName>. אַלע זענען זיך צונויפֿגעקומען אויפֿן
+                        <term ref="#t758" type="subject">בית־המדרש</term>־הויף, אַראָפּ צו דער <term ref="#t756" type="subject">מיקווה</term>. אין
+                        <term ref="#t758" type="subject">בית־המדרש</term> האָט מען נישט געקענט אַרײַן, ווײַל אין דער <term ref="#t756" type="subject"
+                        >תּלמוד־תּורה</term>־שטיבל, וואָס אין בית־המדרש, זענען געלעגן אַ 15-10 <term ref="#t515" type="subject">בר־מיננס</term>, <term
+                        ref="#t745" type="subject">געפֿאַלענע</term> אין משך פֿון אַ פּאָר טעג, און מ'האָט זיי נישט געקענט <term ref="#t746"
+                        type="subject">ברענגען</term> צו <term ref="#t750" type="subject">קבֿר־ישׂראל</term>. עס האָט דאָרט זיך געטראָגן אַ שרעקלעכער
+                    אַוויר.</p>
+                <p>ס'איז געווען אין <term ref="#t756" type="subject">בית־המדרש</term> אַ גרויס געוויין – <term ref="#t825" type="subject"
+                        >ווײַבער</term> האָבן געוויינט, <term ref="#t826" type="subject">מענער</term> האָבן געזאָגט <term ref="#t756" type="subject"
+                        >ווידוי</term>.</p>
+                <p>די שיסערײַ האָט אָנגעהאַלטן פֿון פֿינף נאָך מיטאָג ביז אַן ערך צוויי בײַ נאַכט.</p>
+                <p>אַ <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשער</term> פֿאָרפּאָסטן אויף אַ פֿערד איינער אַליין, איז אַרײַן
+                    אין שטאָט און געשטאַנען עק <placeName ref="#wyszkow" type="ehri">קאָשטשושקאָ־גאַ</placeName> און <placeName ref="#wyszkow"
+                        type="ehri">וואָנזקע</placeName>, בײַם <term ref="#t1119" type="subject">קאָמיסאַריאַט</term>, אַרום צען אָוונט. מיר האָבן
+                    אַרויסגעקוקט דורך אַ שפּאַלט און אין ליכט פֿון דער שׂריפֿה דערזען דעם <pb facs="EHRI-ET-WL05320003_06.jpg" n="6"/> דײַטש.</p>
+                <p>אַרום צוויי בײַ נאַכט איז געוואָרן שטילער און מיר זענען געלאָפֿן האַרט בײַ דער וואַנט אין אונדזער הויז, וואָס איז נאָך גאַנץ
+                    געבליבן.</p>
+                <p>אין מיטן דער נאַכט האָט דער <term ref="#t822" type="subject">טאַטע</term>
+                    <term ref="#t756" type="subject">קידוש</term> געמאַכט איבער ווײַן, הגם ס'איז פֿינצטער געווען, מיר האָבן <term ref="#t832"
+                        type="subject">געגעסן</term> אַ כּזית און <term ref="#t756" type="subject">געבענטשט</term>.</p>
+                <p>מען האָט נאָך געהערט אַ שוואַך שיסערײַ. מיר האָבן זיך נישט <term ref="#t836" type="subject">אויסגעטאָן</term>, און אַ גאַנצע נאַכט
+                    געדרימלט.</p>
+                <p>ווען ס'האָט אָנגעהויבן צו ג[ר]אָען אויף טאָג האָט זיך דאָס האַרמאַטן־פֿײַער געשטאַרקט, און די שטאָט האָט געברענט פֿון אַלע
+                    זײַטן.</p>
+                <p>שבת דעם 9טן סעפּטעמבער אַרום עלף פֿרי זענען מיר אַנטלאָפֿן פֿון אונדזער הילצערן הײַזל אין אַ געמויערט הויז און זיך דאָרט <term
+                        ref="#t262" type="subject">באַהאַלטן</term>.</p>
+                <p>שבת בײַ טאָג אַרויסקוקנדיק דורכן הויף, האָב איך געזען לויפֿן אַ ייִד, נאָך אים זענען נאָכגעלאָפֿן דרײַ <term
+                        ref="#ehri_et_nationalities_germans" type="subject">דײַטשער</term>
+                    <term ref="#t1097" type="subject">זעלנער</term> מיט אָנגעשטעלטע ביקסן. באַלד האָבן זיך געהערט שאָסן, דער ייִד איז, זעט אויס, <term
+                        ref="#t532" type="subject">דערשאָסן</term> געוואָרן.</p>
+                <p>בנינים האָבן זיך ווײַטער אָנגעצונדן. כ'האָב געזען, ווי אַ <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשער</term>
+                    <term ref="#t1097" type="subject">זעלנער</term> האָט זיך אַרומגעדרייט אויף <placeName ref="#wyszkow" type="ehri">פּו[ל]טוסקער
+                        גאַס</placeName> עק <placeName ref="#wyszkow" type="ehri">אָגראָדאָווע</placeName> און באַלד האָט זיך אָנגעצונדן אַ הײַזל –
+                    זעט אויס, אַז דער <term ref="#ehri_et_nationalities_germans" type="subject">דײַטש</term> האָט עס אונטערגעצונדן.</p>
+                <p>דורכן לאָדן האָב איך געזען, ווי אַ גרופּע פֿון אַכט <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשע</term>
+                    <term ref="#t1097" type="subject">סאָלדאַטן</term> האָט אויפֿגעריסן <persName ref="#ehri_et_nielipowiczun" type="ehri"
+                        >ניעליפּאָוויטשונ</persName>ס אַ קראָם אויף <placeName ref="#wyszkow" type="ehri">וואָנזקע גאַס</placeName> און באַלד האָט זיך
+                    אָנגעצונדן ס'הויז.</p>
+                <p>די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term> אָבן שבת בײַ טאָג אַרײַנגעשאָסן דורך די פֿענצטער אין אַ
+                    ריי הײַזער אויפֿן מאַרק, און דערנאָך די הײַזער אונטערגעצונדן.</p>
+                <p>צו אונדז, אין מאַרקעס[?] הויז אויף <placeName ref="#wyszkow" type="ehri">וואָנזקע גאַס</placeName>, זענען געקומען פֿאַרוווּנדטע
+                    ייִדן געשאָסענע דורך די דײַטשן.</p>
+                <p>ווי מיר איז באַוווּסט זענען פֿאַרוווּנדט געוואָרן די <term ref="#t819" type="subject">פֿאַמיליע</term>
+                    <persName ref="#ehri_et_portowicz" type="ehri">פּאָרטאָוויטש</persName> [?] (דער <persName ref="#ehri_et_portowicz" type="ehri"
+                        >פּאָרטאָוויטש</persName> אין האַנט, די <term ref="#t822" type="subject">מוטער</term> אין פֿוס און קאָפּ, אַ 4 יאָריק <term
+                        ref="#t824" type="subject">קינד</term> אין פֿיסל).</p>
+                <p><pb facs="EHRI-ET-WL05320003_07.jpg" n="7"/></p>
+                <p>אַזוי ווי מיר האָבן געזען, ווי אַנטקעגן איבער אונדז ברענען די הײַזער, און אויך דערנעבן האָבן זיך הײַזער אָנגעצונדן –
+                    אונטערגעצונדענע דורך די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשע</term>
+                    <term ref="#t1097" type="subject">זעלנער</term>, האָבן מיר מורא געהאַט, אַז אויך אונדזער הויז וועט מען אונטערצינדן. די דײַטשן
+                    האָבן אויך אין אונדזער הויז אַרײַנגעשאָסן דורכן פֿענצטער, אָבער קיינעם נישט געטראָפֿן, ווײַל מיר זענען געלעגן אויסגעצויגן אויף דער
+                    ערד. זענען מיר אַרויס (אַרום 11 אין דער פֿרי) פֿון הויז און געלאָפֿן אין אַ <placeName ref="#republic-of-poland" type="ehri"
+                        >פּויליש</placeName> הויז וואָס איז געווען אויפֿן דאַך צעשטערט [?].</p>
+                <p>מיר זענען געלאָפֿן אינעם ראָוו, וואָס איז געווען אַרום באָד. די <term ref="#ehri_et_nationalities_germans" type="subject"
+                        >דײַטשן</term> האָבן אונדז נאָכגעשאָסן און געטראָפֿן צירל האָלאַנד (60 יאָר אַלט), און זי <term ref="#t532" type="subject"
+                        >דערהרגעט</term>. איר <term ref="#t822" type="subject">זון</term> – <persName ref="#ehri_et_holand_fishl" type="ehri">פֿישל
+                        האָלאַנד</persName> – פֿאַרוווּנדט אין אַ פֿוס, אַ <term ref="#t825" type="subject">פֿרוי</term>, <persName
+                        ref="#ehri_et_shoshke" type="ehri">שאָשקע</persName> – 60 יאָר אַלט (<term ref="#t532" type="subject">דערהרגעט</term>).</p>
+                <p>ס'זענען געווען נאָך <term ref="#t132" type="subject">הרוגים</term>, פֿון <term ref="#t515" type="subject">וועלכע</term> ס'האָט זיך
+                    געטראָגן אַ שלעכטער ריח – אָבער ווער זיי זענען, האָב איך נישט באַמערקט בשעתן לויפֿן.</p>
+                <p>פֿון ראָוו זענען מיר אַריבער אין די קעלערס, דורך די קעלער־פֿענצטער, וואָס אין באָד. אין משך פֿון אַ האַלבער שעה האָט דאָס פֿײַער
+                    שוין דערגרייכט צום באָד. כ'בין אַרײַן פֿון קעלער אין אַ צווייט צימערל זיך אומקוקן, צי ס'פֿײַער גרייכט נישט דאָרט. ווען כ'בין
+                    צוריקגעקומען, איז שוין אין קעלער, אויסער <persName ref="#ehri_et_ostry_moyshe_zelik" type="ehri">משה־זעליק אָסטרי</persName> און
+                    זײַן <term ref="#t822" type="subject">מוטער</term>, קיינער נישט געווען, ווײַל אַלע זענען <term ref="#t204" type="subject"
+                        >אַנטלאָפֿן</term>.</p>
+                <p>פֿון זונטאָג, דעם 10טן סעפּטעמבער, ביז מיטוואָך ערבֿ־ראש־השנה</p>
+                <p>(דעם 13טן סעפּטעמבער) זענען מיר געבליבן אין קעלער.</p>
+                <p>זונטאָג דעם 10טן בײַ טאָג זענען צוגעקומען נאָך מענטשן, און מיר האָבן שוין דאָרט אַזוי פֿאַרבראַכט ביז מיטוואָך.</p>
+                <p><term ref="#t832" type="subject">געשפּײַזט</term> האָבן מיר זיך מיט דעם וואָס מיר האָבן צופֿעליק געפֿונען אַ פּעקל מיט אַלט <term
+                        ref="#t832" type="subject">געבעקס</term>, וואָס אימיצער האָט, זעט אויס, פֿאַרלוירן לויפֿנדיק.</p>
+                <p>בײַ נאַכט פֿלעגן מיר זיך אַרויסגנבֿענען אין הויף צום פּלומפּ נאָך וואַסער. אונדזערע פֿיזיאָלאָגישע באַדערפֿענישן האָבן מיר
+                    דערליידיקט אין איינעם פֿון <pb facs="EHRI-ET-WL05320003_08.jpg" n="8"/> די קעלערן, ווײַל מיר האָבן מורא געהאַט אַרויסצוגיין.</p>
+                <p>דעם זעלבן זונטאָג איז אַ <term ref="#ehri_et_nationalities_germans" type="subject">דײַטש</term> צוגעקומען צום פֿענצטערל – איך האָב
+                    זיך <term ref="#t262" type="subject">באַהאַלטן</term> אין אַ צווייטן <term ref="#t265" type="subject">צימער</term> אין אַ <term
+                        ref="#t265" type="subject">באָדקעסל</term> און געהערט ביקסנשאָסן.</p>
+                <p>זונטאָג מיטאָגצײַט, בעת ס'זענען צוגעקומען נאָך מענטשן אין די קעלערן, האָבן זיי אויף דער גאַס געפֿונען אַ פֿאַרוווּנדטן אין פֿוס
+                    ייִדן בנימטשע (70 יאָר), מען האָט אים אויך אַרײַנגענומען אין קעלער און אַוועקגעלייגט אויף אַ בעטל, וואָס איז דאָרט געשטאַנען –
+                    כ'ווייס נישט פֿון וואַנען. דער ייִד איז <term ref="#t745" type="subject">געשטאָרבן</term> דינסטאָג דעם 12טן סעפּטעמבער – אָן שום
+                        <term ref="#t745" type="subject">הילף</term>.</p>
+                <p>ס'איז דאָרט געלעגן פֿאַרוווּנדט אין בויך דעם קצבֿ משה ברוכס <term ref="#t822" type="subject">זון</term> ; אַנטקעגן דער באָד, אין אַ
+                    סאָד דערנעבן, איז געלעגן פֿאַרוווּנדט אין האַנט אַ <placeName ref="#pultusk" type="ehri">פּולטוסקער</placeName> ייִד און אַ <term
+                        ref="#t824" type="subject">ייִנגל</term> פֿון 7 יאָר (אָפּגעריסן אַ שטיק אַקסל, ס'האָט פֿון אים זייער געשטונקען און געבלוטיקט,
+                    אַז מען האָט פּשוט ניט געקענט דאָרט זיך געפֿינען).</p>
+                <p>מיר זענען געוואָר געוואָרן פֿון שׂימחה יעקבֿ ווענגראָוו, וועלכער האָט אויסגעזען ווי אַ דײַטש און גערעדט דײַטש און וועלכער איז
+                    געקומען צו אונדז אין קעלער, אַז אין דער <placeName ref="#wyszkow" type="ehri">ווישקעווער</placeName> ברויערײַ ליגן <term
+                        ref="#t745" type="subject">געשאָסן</term> דורך די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term>
+                    עטלעכע און פֿערציק מאַן, ווי למשל <persName ref="#ehri_et_shnyek_simkhe" type="ehri">שׂימחה שניעק</persName> מיטן <term
+                        ref="#t822" type="subject">ווײַב</term>, טובֿיה מאַלאָוואַנטשיק מיטן <persName ref="#ehri_et_melamed_yisroel_aron" type="ehri"
+                        >ישׂראל־אַהרן מלמד</persName>ס <term ref="#t822" type="subject">איידעם</term> און אַנדערע.</p>
+                <p>מיטוואָך דעם 13טן, זעקס פֿרי איז דעם קצבֿס <term ref="#t822" type="subject">זון</term> געקומען פֿון <placeName ref="#jadow"
+                        type="ehri">יאַדעווע</placeName>, כּדי דאָרט דעם <term ref="#t826" type="subject">פֿאַרוווּנדטן</term> איבערצופֿירן אין <term
+                        ref="#t282" type="subject">שפּיטאָל</term> אַרײַן. מיר, עטלעכע מענטשן, האָבן אַרויפֿגעלייגט אויף אַ געבראַכטן מאַטראַץ דעם
+                        <term ref="#t826" type="subject">פֿאַרוווּנדטן</term> און אים צוגעטראָגן צום <placeName ref="#pivdennyy-buh" type="ehri"
+                        >בוג</placeName> און זיך מיט אים איבערגעשיפֿט. קיין דײַטשן האָבן מיר אויפֿן וועג ביזן נאָכן בוג נישט געטראָפֿן.</p>
+                <p>אויף דעם וועג צום <placeName ref="#pivdennyy-buh" type="ehri">בוג</placeName> מיטן <term ref="#t826" type="subject"
+                        >פֿאַרוווּנדטן</term> אַלץ געווען צעשטערט – דאָס <term ref="#t758" type="subject">בית־המדרש</term>
+                    <term ref="#t646" type="subject">אָפּגעברענט</term>. נישט געווען קיין איין שטוב – אַלץ פֿאַרברענט.</p>
+                <p>צווישן אונדז האָבן זיך געפֿונען חבֿרה־קדישא־לײַט. מאָנטאָג דעם 11טן, דרײַ בײַ טאָג זענען ברוך סטאַליק [סטאָליק?],<persName
+                        ref="#ehri_et_safirshteyn_yenkl" type="ehri">יענקל סאַפֿירשטיין</persName>, <pb facs="EHRI-ET-WL05320003_09.jpg" n="9"/> משה
+                    זעליג אָסטראַ (הגם אַ כּהן – דאָך, אַ <term ref="#t746" type="subject">מת־מיצווה</term> – איז ער געגאַנגען), כײַקל אולמער – אַ
+                        <placeName ref="#pultusk" type="ehri">פּולטוסקער</placeName> ייִד, אַ סטאָלער) און נאָך עטלעכע אַרויס צו טון זייער רעכט די
+                        <term ref="#t745" type="subject">מתים</term> פֿון ברויערײַ.</p>
+                <p>זיי האָבן איבערגעגעבן די נעמען פֿון די <term ref="#t745" type="subject">געשאָסענע</term> דורך די <term
+                        ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term>. זיי האָבן אָנגעגעבן עטלעכע און פֿערציק נעמען, צווישן זיי
+                        <persName ref="#ehri_et_shnyek_simkhe" type="ehri">שׂימחה שניעק</persName>, וועלכן זיי האָבן קוים דערקענט, ווײַל חזרים האָבן
+                    געהאַט אָפּגעפֿרעסן אַן אַקסל און אַ האַנט. <term ref="#t532" type="subject">דערשאָסן</term> זענען זיי געוואָרן אָן אַ פֿאַרוואָס
+                    – בלויז דערפֿאַר, ווײַל זיי זענען ייִדן.</p>
+                <p>די <term ref="#t746" type="subject">קבֿורה</term> האָט געדויערט. מען האָט <term ref="#t515" type="subject">זיי</term> געבראַכט צו
+                        <term ref="#t746" type="subject">קבֿורה</term> אַלע צוזאַמען אין אַ שוצגרוב און אָן תּכריכים, אָפּטיילנדיק <term ref="#t826"
+                        type="subject">מענער</term> און <term ref="#t825" type="subject">ווײַבער</term> בלויז מיט אַ ברעטל.</p>
+                <p>די <term ref="#t745" type="subject">מתים</term> אין <term ref="#t758" type="subject">בית־המדרש</term> זענען פֿאַרברענט געוואָרן
+                    מיטן <term ref="#t758" type="subject">בית־המדרש</term>. דאָס קליינע <term ref="#t758" type="subject">בית־המדרש</term> און אויך
+                    דאָס <term ref="#t756" type="subject">גערער</term>
+                    <term ref="#t758" type="subject">שטיבל</term> איז אויך <term ref="#t646" type="subject">פֿאַרברענט</term> געוואָרן.</p>
+                <p>מיטוואָך דעם 13טן סעפּטעמבער, 7 פֿרי, בין איך אַריבער דעם <placeName ref="#pivdennyy-buh" type="ehri">בוג</placeName> – דורך
+                        <placeName ref="#wyszkow" type="ehri">לאַטאָשעק</placeName>. אין <placeName ref="#wyszkow" type="ehri">לאַטאָשעק</placeName>
+                    האָב איך באַגעגנט <persName ref="#ehri_et_zabraniecki_khaim_yitskhok" type="ehri">חיים־יצחק זאַבראַניעצקי</persName> און <persName
+                        ref="#ehri_et_piekarz_henokh" type="ehri">הענאָך פּיעקאַזש</persName> (ביידע <placeName ref="#wyszkow" type="ehri"
+                        >ווישקעווער</placeName>). זיי זענען געהאַט גענומען געוואָרן דורך די דײַטשן אין אַ  <term ref="#t496" type="subject"
+                        >קאָנצענטראַציע־לאַגער</term> הינטער <placeName ref="#pultusk" type="ehri">פּולטוסק</placeName>, צוזאַמען מיט <persName
+                        ref="#ehri_et_nosl" type="ehri">נאָסל</persName> און <persName ref="#ehri_et_tsivyak_borekh" type="ehri">ברוך</persName> און
+                    פֿײַוול שוחט (אַלע <placeName ref="#wyszkow" type="ehri">ווישקעווער</placeName>). ווי <persName ref="#ehri_et_piekarz_henokh"
+                        type="ehri">פּיעקאַזש</persName> און <persName ref="#ehri_et_zabraniecki_khaim_yitskhok" type="ehri">זאַבראַניעצקי</persName>
+                    האָבן אונדז איבערגעגעבן האָט מען זיי אין <term ref="#t496" type="subject">לאַגער</term> געשלאָגן און <term ref="#t562"
+                        type="subject">געפּײַניקט</term>, פּונקט ווי אַ סך אַנדערע ייִדן דאָרטן, <term ref="#t569" type="subject">נישט געגעבן צו
+                        עסן</term>.</p>
+                <p>יאָסל און <persName ref="#ehri_et_tsivyak_borekh" type="ehri">ברוך ציוויאַק</persName> און פֿײַוול שוחט, אויסגעמאָגערטע פֿון <term
+                        ref="#t569" type="subject">הונגער</term>, זענען געפֿאַלן אין וועג און נישט געקענט ווײַטער <term ref="#t204" type="subject"
+                        >לויפֿן</term>. <persName ref="#ehri_et_piekarz_henokh" type="ehri">פּיעקאַזש</persName> און זאַבראַניעצקי זענען געלאָפֿן מיט
+                    די לעצטע כּוחות און געקומען קיין <placeName ref="#wyszkow" type="ehri">לאַטאָשעק</placeName>. דאַקעגן די פֿריִער דערמאָנטע דרײַ
+                    זענען געבליבן. וואָס מיט זיי איז געוואָרן, ווייסן נישט די דערציילער. זיי האָבן נאָר געהערט שאָסן, ווען יענע זענען געפֿאַלן.</p>
+                <p>פֿון <placeName ref="#wyszkow" type="ehri">לאַטאָשעק</placeName> קיין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName>
+                    פֿירט אַ וועג באַרג אַרויף, אין מיטן דורכגעשניטן דורך אַן אַספֿאַלטירטן וועג, וואָס פֿירט קיין <placeName ref="#warsaw"
+                        type="ehri">וואַרשע</placeName>. אויף דעם אַספֿאַלטירטן וועג איז געשטאַנען אַ דײַטשע וואַך. אָנגעטון אין אַ ייִדיש היטל, האָב
+                    איך מורא געהאַט דורכצוגיין לעבן די דײַטשן. איך בין <pb facs="EHRI-ET-WL05320003_10.jpg" n="10"/> דאָך געגאַנגען. אַ דײַטש מיט אַ
+                    רעוואָלווער איז צו מיר צו, גערעדט אויף דײַטש, וואָס – האָב איך נישט פֿאַרשטאַנען. ער האָט מיך אויפֿגעקנעפּלט דעם <term ref="#t836"
+                        type="subject">פּאַלטן</term>, געפֿרעגט אויף געווער, געהייסן זיך ווײַסן [ווײַזן?] דעם <term ref="#t822" type="subject"
+                        >טאַטנ</term>ס <term ref="#t836" type="subject">טלית</term>, וואָס כ'האָב געטראָגן מיט זיך. <q>צום גאָטעס־דינסט</q> האָב איך
+                    אים אויפֿגעקלערט. ער האָט מיך אָפּגעלאָזט און געזאָגט לסוף : <q>גייט, גייט, ווײַטער וועט זײַן אַ שלאַכטהויז.</q></p>
+                <p>דערשראָקן בין איך ווײַטער געגאַנגען, אויפֿן וועג האָבן אונדז געטראָפֿן <term ref="#ehri_et_nationalities_germans" type="subject"
+                        >דײַטשע</term>
+                    <term ref="#t1097" type="subject">סאָלדאַטן</term>. זיי האָבן אונדז אָפּגעשטעלט : <q>יודע, פֿון וואַנען ביסטו ?</q> – <q>פֿון
+                            <placeName ref="#wyszkow" type="ehri">ווישקאָוו</placeName></q> – האָבן מיר געענטפֿערט. <q>יאָ, האָבן זיי געזאָגט, אין
+                            <placeName ref="#wyszkow" type="ehri">ווישקאָוו</placeName> האָבן די פֿאַרפֿלוכטע ייִדן אויף אונדז געשאָסן...</q></p>
+                <p>אין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName> בין איך געווען בײַ באַקאַנטע פֿון מיטוואָך דעם 13טן סעפּטעמבער ביזן
+                    ערשטן אָקטאָבער (ערשטער טאָג חול־המועד־סוכּות).</p>
+                <p>קיין <term ref="#t532" type="subject">מאָרד־פֿאַלן</term> זענען אין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName> נישט
+                    געווען, דאַקעגן זענען באַגאַנגען געוואָרן רויבערײַען, איינצלנע דײַטשן האָבן יאָ געצאָלט פֿאַר פּראָדוקטן. מען האָט אויסער דעם
+                    שטאַרק געשלאָגן ייִדן.</p>
+                <p>דעם ערשטן טאָג ראש־השנה, דעם 14טן סעפּטעמבער, האָט מען ייִדישע <term ref="#t826" type="subject">יונגע־לײַט</term> גענומען צו <term
+                        ref="#t556" type="subject">צוואַנג־אַרבעט</term>, איך האָב זיך <term ref="#t262" type="subject">אויסבאַהאַלטן</term> אויף אַ
+                        <term ref="#t265" type="subject">בוידעם</term>.</p>
+                <p>אין <term ref="#t758" type="subject">בית־המדרש</term> זענען געווען פֿול געפּאַקט געפֿאַנגענע ציווילע ייִדן מיטן <placeName
+                        ref="#kolbiel" type="ehri">קאָלעביעלער</placeName>
+                    <term ref="#t735" type="subject">רבֿ</term>. אין קאָשטשאָל זענען געווען געפֿאַנגענע <term ref="#t763" type="subject"
+                    >קריסטן</term>. אויף דעם מאַרק זענען געווען געפֿאַנגענע <term ref="#t763" type="subject">קריסטן</term> און אויך עטלעכע ייִדן –
+                    געשטאַנען אין נעץ און קעלט.</p>
+                <p>פֿון <term ref="#t758" type="subject">בית־המדרש</term> האָט מען די געפֿאַנגענע, געכאַפּטע אויף די וועגן, נישט אַרויסגעלאָזט, זייערע
+                    באַדערפֿענישן האָבן זיי געמוזט דערליידיקן אויפֿן אָרט. קיין <term ref="#t832" type="subject">עסן</term> האָט מען זיי נישט געגעבן,
+                    נאָר די ייִדישע באַפֿעלקערונג האָט די געפֿאַנגענע דערלאַנגט <term ref="#t832" type="subject">עסן</term>.</p>
+                <p>עס האָבן זיך אָנגעהויבן פֿאַרשפּרייטן קלאַנגען, אַז די <orgName ref="#g004583" type="ehri">רויטע אַרמיי</orgName> קומט.</p>
+                <p>דינסטאָג, דעם 19טן סעפּטעמבער, האָט מען אָנגעהויבן באַפֿרײַען די געפֿאַנגענע. אַן ערך צום 26 - 64 [?] האָט מען שוין געהאַט
+                    באַפֿרײַט אַלע געפֿאַנגענע.</p>
+                <p><pb facs="EHRI-ET-WL05320003_11.jpg" n="11"/></p>
+                <p>די ידיעה וועגן קומען פֿון די באָלשעוויקעס האָט אַרויסגערופֿן פֿריִער [פֿרייד ?] בײַ ייִדן.</p>
+                <p>אַ קילאָ <term ref="#t832" type="subject">ברויט</term> האָט געקאָסט, שוואַרץ – 25 גראָשן ; <term ref="#t832" type="subject"
+                        >ווײַס</term> – 30 גראָשן. <term ref="#t832" type="subject">ברויט</term> האָט מען פֿאַרקויפֿט צו אַ קילאָ אין בעקערײַען אין די
+                    רייען, אָבער אַפֿילו פֿון די רייען בײַ די ייִדישע בעקערײַען פֿלעגן די <term ref="#ehri_et_nationalities_germans" type="subject"
+                        >דײַטשן</term> אַרויסוואַרפֿן די ייִדן.</p>
+                <p>אויך די פּאָליאַקן האָבן געהאַט אַ שלעכטע באַציִונג צו ייִדן, הגם מיר איז נישט באַוווּסט, אַז פּאָליאַקן האָבן געשלאָגן ייִדן. זיי
+                    האָבן אָבער גענומען די פּראָדוקטן, וואָס די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term> האָבן
+                    געראַבירט ראש־השנה. אויך ייִדישע <term ref="#t825" type="subject">מיידלעך</term> מיט אַ פּוילישן אויסזען האָבן גענומען געראַבירטע
+                    פּראָדוקטן און אומגעקערט צו די געראַבירטע ייִדן. וויפֿל מ'האָט געקענט, האָט מען מציל געווען.</p>
+                <p>ראָש־השנה האָבן מיר <term ref="#t756" type="subject">געדאַוונט</term> אין <term ref="#t756" type="subject">ראַדזימינער</term>
+                    <term ref="#t758" type="subject">שטיבל</term> – זייער שטיל און אָן משוררים, כּדי מ'זאָל פֿון דרויסן נישט הערן. צופֿעליק זענען –
+                    שוין צום סוף פֿון <term ref="#t756" type="subject">דאַוונען</term> – <term ref="#ehri_et_nationalities_germans" type="subject"
+                        >דײַטשן</term> דורכן הויף פֿון שטיבל, זענען אַלע מתפּללים זיך צעלאָפֿן. קיין <term ref="#t756" type="subject">שופֿר</term>
+                    האָט מען נישט געבלאָזן.</p>
+                <p>צום יום־כּיפּור איז שוין געווען <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשע</term> זעלנער. מען האָט געשמועסט,
+                    אַז די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשע</term> קאָמענדאַנטור גייט שוין אַוועק. די ייִדן האָבן
+                    געדאַוונט אָן <term ref="#t756" type="subject">משוררים</term> – אָבער מיט קנאַפּער שרעק ווי ראָש־השנה. נאָכן דאַוונען האָט מען יאָ
+                    געבלאָזן <term ref="#t756" type="subject">שופֿר</term>, הגם די <term ref="#t756" type="subject">תּקיעה</term> איז געווען אונטערן
+                        <term ref="#t756" type="subject">טלית</term> און שטיל.</p>
+                <p>קיין <term ref="#t756" type="subject">סוכּות</term> האָט מען נישט געשטעלט, נאָר אין גאַנץ באַהאַלטענע ערטער – נישט אָנצוזען פֿון
+                    דרויסן – האָט מען געשטעלט אַ סוכּה. סוכּות איז שוין געווען פֿרײַער, ווײַל קיין דײַטשן איז שוין כּמעט נישט געווען.</p>
+                <p>דעם צווייטן טאָג סוכּות, דעם 29סטן סעפּטעמבער, איז די דײַטשע קאָמענדאַנטור אַרויס אַרום 2 בײַ טאָג. דײַטשע <term ref="#t1097"
+                        type="subject">זעלנער</term> זענען מער נישט געווען. אַזוי ווי זיי זענען אַרויס, איז אַ פֿרייד געווען בײַ ייִדן. מען איז אַרויס
+                    אין גאַס. <term ref="#ehri_et_nationalities_poles" type="subject">פּאָליאַקן</term> איז נישט געווען צו זען. מען האָט אַלץ געוואַרט
+                    אויף די <orgName ref="#g004583" type="ehri">רוסן</orgName>, אָבער זיי זענען נישט געקומען.</p>
+                <p>שבת דעם 30סטן סעפּטעמבער האָט מען אָנגעהויבן שמועסן, אַז די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term>
+                    קומען צוריק.</p>
+                <p><pb facs="EHRI-ET-WL05320003_12.jpg" n="12"/></p>
+                <p>זײַענדיק אין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName>, האָב איך געהערט, אַז אין <placeName ref="#wyszkow"
+                        type="ehri">ווישקעוו</placeName> האָט מען <term ref="#t532" type="subject">דערשאָסן</term>
+                    <persName ref="#ehri_et_krishtal_pinye" type="ehri">פּיניע קרישטאַל</persName>ס <term ref="#t822" type="subject">ווײַב</term> מיט
+                    צוויי קליינע <term ref="#t824" type="subject">קינדער</term>, <persName ref="#ehri_et_izraelski" type="ehri">איזראַעלסקי</persName>
+                    און נאָך אַנדערע.</p>
+                <p>פֿון דער <term ref="#t819" type="subject">משפּחה</term>
+                    <persName ref="#ehri_et_izraelski" type="ehri">איזראַעלסקי</persName>, וואָס האָט געציילט עלף מאַן, זענען סך־הכּל געבליבן צוויי
+                    מאַן (אַ <term ref="#t826" type="subject">בחור</term> און אַ <term ref="#t825" type="subject">מיידל</term>).</p>
+                <p>דער דערמאַנטער <persName ref="#ehri_et_krishtal_pinye" type="ehri">פּיניע קרישטאַל</persName> האָט געהאַט דרײַ <term ref="#t824"
+                        type="subject">קינדער</term>, געבליבן לעבן איז אַ פֿינף יעריק <term ref="#t824" type="subject">ייִנגעלע</term>, וואָס האָט זיך
+                        <term ref="#t569" type="subject">הונגעריק</term> און אָן אויפֿזיכט אַרומגעדרייט צווישן די חואבות [חורבֿות]. דאָס <term
+                        ref="#t824" type="subject">ייִנגעלע</term> האָט מען געבראַכט קיין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName> און
+                    איך האָב עס אַליין געזען. זײַן <term ref="#t822" type="subject">פֿאָטער</term>
+                    <persName ref="#ehri_et_krishtal_pinye" type="ehri">פּיניע קרישטאַל</persName> האָט מען פֿאַרשיקט אין <term ref="#t669"
+                        type="subject">געפֿאַנגען</term>־ <term ref="#t567" type="subject">לאַגער</term></p>
+                <p><persName ref="#ehri_et_rebeles_avrom" type="ehri">אַבֿרהם רבילעס</persName> פֿון <placeName ref="#wyszkow" type="ehri"
+                        >ווישקעווע</placeName> איז צוזאַמען מיט מיר געגאַנגען קיין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName>. ער האָט
+                    מיר דערציילט, אַז אין <placeName ref="#kamienczyk" type="ehri">קאַמיטשיק</placeName> (נעבן <placeName ref="#pivdennyy-buh"
+                        type="ehri">בוג</placeName> בײַ <placeName ref="#wyszkow" type="ehri">ווישקאָוו</placeName>) האָט מען אים און אַנדערע ייִדן
+                    געיאָגט מיט פֿערד. אַזוי ווי זיי האָבן נישט געקענט שנעל לויפֿן, זענען די פֿערד איבער זיי אַריבער. אין זעלבן <placeName
+                        ref="#kamienczyk" type="ehri">קאַמיטשיק</placeName> איז פֿאַרברענט געוואָרן אַ הויז דורך די <term
+                        ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term> און <term ref="#t745" type="subject">באַגראָבן</term> אונטער
+                    זיך עטלעכע און צוואַנציק מענטשן. איינער פֿון די <term ref="#t745" type="subject">פֿאַרברענטע</term> – טובֿיה מאָרגנשטערן (אַ
+                        <placeName ref="#wyszkow" type="ehri">ווישקעווער</placeName>, 65 יאָר אַלט, אַ מוליער) איז געבראַכט געוואָרן צו <term
+                        ref="#t750" type="subject">קבֿר ישׂראל</term> אין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName>. מע האָט זײַנע
+                    ביינער אין אַ זעקל געבראַכט אַהין און <term ref="#t746" type="subject">מקבר געווען</term>.</p>
+                <p>אויפֿן וועג קיין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName> האָב איך געטראָפֿן <persName ref="#ehri_et_shtinski_meir"
+                        type="ehri">מאיר שטינסקי</persName> פֿון <placeName ref="#wyszkow" type="ehri">ווישקעוו</placeName>, 35 יאָר אַלט, ווי ער האָט
+                    איבערגעגעבן, איז ער געגאַנגען אין אַ גרופּע פֿון עטלעכע און צוואַנציק מענטשן. אָן אַ פֿאַרוואָס האָבן די <term
+                        ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term> זיי פֿאַרהאַלטן, צוגעשטעלט צו דער וואַנט און <term
+                        ref="#t532" type="subject">געשאָסן</term>. ער איז אַנידערגעפֿאַלן צווישן די דערשאָסענע און סימולירט אַ <term ref="#t745"
+                        type="subject">טויטן</term>, אַזוי אַרום האָט ער זיך געראַטעוועט.</p>
+                <p>זונטאָג דעם 1טן אָקטאָבער (צווייטער טאָג חול־המועד) בין איך אַוועק פֿון <placeName ref="#jadow" type="ehri">יאַדעווע</placeName>
+                    קיין <placeName ref="#ostrow-mazowiecka" type="ehri">גרויס־אָסטראָווע</placeName> (אָסטראָוו מאַזאָוויעצקי). פֿון <placeName
+                        ref="#jadow" type="ehri">יאַדעווע</placeName> ביז <placeName ref="#lochow" type="ehri">לאָכאָוו</placeName> איז געווען דער
+                    וועג פֿאַרלייגט מיט אויסגעשאָסענע קוילן.</p>
+                <p><pb facs="EHRI-ET-WL05320003_13.jpg" n="13"/></p>
+                <p>אין <placeName ref="#lochow" type="ehri">לאָכאָוו</placeName> איז געווען צעשטערט אַן אַמוניציע־ <term ref="#t929" type="subject"
+                        >פֿאַבריק</term>. אַ <term ref="#t940" type="subject">פּאַנצערצוג</term> איז געלעגן איבערגעקערט.</p>
+                <p>פֿון <placeName ref="#lochow" type="ehri">לאָכאָוו</placeName> קיין <placeName ref="#ostrowek" type="ehri">אָסטרוּוועק</placeName>
+                    איז דער וועג געווען צעשעדיקט דורך באָמבעס.</p>
+                <p>אין <placeName ref="#ostrowek" type="ehri">אָסטרוּוועק</placeName> גערוט די נאַכט. מאָנטאָג דעם 2טן אָקטאָבער מיט אַ פֿור געפֿאָרן
+                    קיין <placeName ref="#ostrow-mazowiecka" type="ehri">אָסטראָווע</placeName>. דורכגעפֿאָרן <placeName ref="#brok" type="ehri"
+                        >בראָק</placeName>. דאָרט זענען פֿינף און פֿערציק ייִדן <term ref="#t532" type="subject">דערשאָסן</term> געוואָרן דורך די
+                        <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשן</term>. די הײַזער פֿאַרברענט, דער וואַלד שטאַרק צעשעדיקט דורך
+                    שיסערײַ.</p>
+                <p>דעם זעלבן טאָג בײַ טאָג בין איך אָנגעקומען קיין <placeName ref="#ostrow-mazowiecka" type="ehri">אָסטראָווע</placeName>. די דײַטשן
+                    האָבן געכאַפּט אויף <term ref="#t556" type="subject">אַרבעט</term>. פֿאַרנאַכט איז אַרויס אַ באַפֿעל : אַלע <term ref="#t304"
+                        type="subject">פּליטים</term> מוזן ביז דינסטאָג דעם 3טן אָקטאָבער פֿאַרלאָזן <placeName ref="#ostrow-mazowiecka" type="ehri"
+                        >אָסטראָווע</placeName>.</p>
+                <p>אין <placeName ref="#ostrow-mazowiecka" type="ehri">אָסטראָווע</placeName> האָט מען ייִדן געצוווּנגען צו לעקן מיט דער צונג די
+                    השתּנה פֿון די <term ref="#ehri_et_nationalities_germans" type="subject">דײַטשע</term>
+                    <term ref="#t1097" type="subject">סאָלדאַטן</term>.</p>
+                <p>אין דער פֿרי איז געווען אַ טומל : אַלע ייִדן מוזן שטיין אַכט פֿרי פֿאַר זייערע וווינונגען – אין די וווינונגען טאָר קיין שום ייִד
+                    נישט בלײַבן. <term ref="#t763" type="subject">קריסטן</term> יאָ. איך האָב נישט געוואַרט ביז אַכט, איך בין 7 פֿרי אַוועק מיט נאָך
+                    אַ סך אַנדערע קיין <placeName ref="#zambrow" type="ehri">זעמבראָווע</placeName>. דער וועג איז געווען אַ שלעכטער. ס'האָט
+                    גערעגנט.</p>
+                <p>אַכט קילאָמעטער נאָך <placeName ref="#ostrow-mazowiecka" type="ehri">אָסטראָווע</placeName> – אין <placeName ref="#szumowo"
+                        type="ehri">סימאָווע</placeName> – זענען שוין געווען די <orgName ref="#g004583" type="ehri">רוסן</orgName>. מען האָט אונדז אָן
+                    שום שטערונגען אַרײַנגעלאָזט. מיר האָבן זיך דאָרט ענדלעך אויסגערוט.</p>
+                <p>מען האָט מיר איבערגעגעבן, אַז די <term ref="#t763" type="subject">קריסטן</term> רויבן אויס דאָס ייִדישע האָב און גוטס, וואָס איז
+                        <term ref="#t262" type="subject">באַהאַלטן</term> אין די <term ref="#t265" type="subject">קעלערס</term>, און לאָזן מער נישט
+                    אַרײַן קיין ייִדן קיין <placeName ref="#jadow" type="ehri">יאַדעווע</placeName>.</p>
+                <p>אַ שוסטער־ייִנגל – דוד לייבס <term ref="#t822" type="subject">זון</term> – איז צוריק קיין <placeName ref="#wyszkow" type="ehri"
+                        >ווישקעוו</placeName> נאָך אַ פּאָר <term ref="#t836" type="subject">שטיבל</term> [ שטיוול?]. אין <placeName ref="#wyszkow"
+                        type="ehri">ווישקעווע</placeName> אויפֿן מאַרק האָט אים אַ <term ref="#ehri_et_nationalities_germans" type="subject"
+                        >דײַטשער</term>
+                    <term ref="#t1097" type="subject">זעלנער</term>
+                    <term ref="#t532" type="subject">דערשאָסן</term>.</p>
+                <p>ווי מען איז זיך משער, זענען <term ref="#t532" type="subject">אומגעקומען</term> אין <placeName ref="#wyszkow" type="ehri"
+                        >ווישקאָוו</placeName> 500 ייִדן.</p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-WL05320003_01.jpg" n="1"/>
+                <p>Committee to Collect Material</p>
+                <p>about the Destruction of <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> Jewry <date when="1939"
+                    >1939</date></p>
+                <p>Y. M. Sh.</p>
+                <p><placeName ref="#wyszkow" type="ehri">Wyszków</placeName></p>
+                <p>Age: 15 years; living with his <term ref="#t822" type="subject">parents</term></p>
+                <p>Testimony number 3</p>
+                <p>(recorded on the <date when="1939-11-15">15th of November, 1939</date>)</p>
+                <p>A lot of airplanes started to fly over our town after the <date when="1939-09-01">1st of September 1939</date>.</p>
+                <p>The next day we saw <term ref="#t304" type="subject">refugees</term> from <placeName ref="#ostroleka" type="ehri"
+                        >Ostrołęka</placeName> and <placeName ref="#przasnysz" type="ehri">Przasnysz</placeName>. They reported that cannons were
+                    shooting there already. The <term ref="#t304" type="subject">refugees</term> came by car, bus and horse and wagon; all of them
+                    were Jews.</p>
+                <p>On Saturday evening, after the evening prayers, airplanes dropped bombs for the first time. They fell in the river <placeName
+                        ref="#pivdennyy-buh" type="ehri">Bug</placeName>.</p>
+                <p>On Sunday, the <date when="1939-09-03">3rd of September</date> in the morning, a <term ref="#t1159" type="subject">German</term>
+                    airplane landed near our town, in a village, I believe it was <placeName ref="#somianka" type="ehri">Somianka</placeName>
+                    <note type="gloss">Uncertain.</note>. People were saying that the plane had been damaged near <placeName ref="#warsaw" type="ehri"
+                        >Warsaw</placeName>. The pilots, there were three of them, disappeared, and the subsequent searches for them were
+                    unsuccessful.</p>
+                <p>The same day, a few <term ref="#t304" type="subject">refugees</term> arrived from <placeName ref="#pultusk" type="ehri"
+                        >Pułtusk</placeName>. Airplanes flew over our town, but they did not drop any bombs.</p>
+                <p>On Monday, the <date when="1939-09-04">4th of September</date>, a multitude of <term ref="#t304" type="subject">refugees</term>
+                    came through our town, on foot or by horse and wagon, Jews with their bundles of bedclothes, peasants and landowners with cattle
+                    and wagons. There were so many people that the entire town was crowded. They came from <placeName ref="#ciechanow" type="ehri"
+                        >Ciechanów</placeName>, <placeName ref="#pultusk" type="ehri">Pułtusk</placeName> and other places. Only some of them stayed
+                    in <placeName ref="#wyszkow" type="ehri">Wyszków</placeName> for the night, the majority set out directly for <placeName
+                        ref="#warsaw" type="ehri">Warsaw</placeName>.</p>
+                <p><pb facs="EHRI-ET-WL05320003_02.jpg" n="2"/></p>
+                <p>On Monday in the evening, airplanes flew over the town, and dropped bombs in the vicinity. The stream of <term ref="#t304"
+                        type="subject">refugees</term> continued to pour in and it was really difficult to make one’s way through, even at night.</p>
+                <p>In some houses, influenced by the stream of <term ref="#t304" type="subject">refugees</term>, people started to pack their
+                    belongings.</p>
+                <p>In my <term ref="#t822" type="subject">parents</term>’ house, we had not started to pack our things yet. We went to sleep and slept
+                    through the night undisturbed.</p>
+                <p>On Tuesday, the <date when="1939-09-05">5th of September</date>, I was woke up by the explosions of bombs, thrown by <term
+                        ref="#t1159" type="subject">German</term> airplanes. There was an explosion on the corner of <placeName ref="#wyszkow"
+                        type="ehri">Pułtuska Street</placeName> and <placeName ref="#wyszkow" type="ehri">Stodolna Street</placeName>: five Jews were
+                        <term ref="#t745" type="subject">killed</term>; a barn containing oats caught fire and burned down.</p>
+                <p>A bomb fell on the threshold of my <term ref="#t822" type="subject">uncle</term>
+                    <persName ref="#ehri_et_shults_hershl" type="ehri">Hershl Shults</persName>’s house on <placeName ref="#wyszkow" type="ehri"
+                        >Pułtuska Street</placeName>, but did not explode. But it broke the doorposts and window frames, so we carried everything out
+                    of his house. Nobody from my <term ref="#t822" type="subject">uncle</term>’s <term ref="#t819" type="subject">family</term> was
+                    harmed, but the owner of the house, <persName ref="#ehri_et_zyskowski_antoni" type="ehri">Antoni Zyskowski</persName>, was
+                    wounded.</p>
+                <p>There were attempts to extinguish the burning barn next to the house, but without result, because the firefighters could not manage
+                    the pumps.</p>
+                <p>The airplanes continued to fly and inspired terror in the population.</p>
+                <p>The <term ref="#t1159" type="subject">German</term> airplanes dropped bombs all day long. They destroyed <placeName ref="#wyszkow"
+                        type="ehri">Nadgórze</placeName> and <placeName ref="#wyszkow" type="ehri">Świętojańska Streets</placeName>. The airplanes
+                    probably came then because on the same day, troops had appeared in our town and an anti-aircraft cannon had been placed in the
+                    middle of <placeName ref="#wyszkow" type="ehri">P.O.W. Square</placeName>
+                    <note type="gloss">Probably Polska Organizacja Wojskowa.</note>.</p>
+                <p>Around 3 p.m. a house was hit by a bomb on the corner of <placeName ref="#wyszkow" type="ehri">P.O.W. Square</placeName> and
+                        <placeName ref="#wyszkow" type="ehri">Piłsudski Street</placeName> (<placeName ref="#wyszkow" type="ehri">Ostrów
+                        Street</placeName>). About 50 persons were buried under the ruins. Among those who were <term ref="#t745" type="subject"
+                        >killed</term> were <pb facs="EHRI-ET-WL05320003_03.jpg" n="3"/> the <term ref="#t822" type="subject">wife</term> of <persName
+                        ref="#ehri_et_levin_leybl" type="ehri">Leybl Levin</persName> (a coachman) and his three small <term ref="#t824"
+                        type="subject">children</term>. A certain number of people were successfully rescued.</p>
+                <p>People <term ref="#t262" type="subject">hid</term> in <term ref="#t265" type="subject">cellars</term>, for fear of the airplanes.
+                    Other <term ref="#t204" type="subject">escaped</term> in the directions of <placeName ref="#wegrow" type="ehri">Węgrów</placeName>
+                    and <placeName ref="#warsaw" type="ehri">Warsaw</placeName>.</p>
+                <p>Both <term ref="#t763" type="subject">Christians</term> and Jews were <term ref="#t204" type="subject">running away</term>.</p>
+                <p>There were no <term ref="#t1119" type="subject">policemen</term> any more, apparently they disappeared the same day.</p>
+                <p>The relationship between <term ref="#t763" type="subject">Christians</term> and Jews was very good. People were helping each
+                    other.</p>
+                <p>Tuesday in the evening we did not get <term ref="#t836" type="subject">undressed</term> for the night. We discussed to where to
+                        <term ref="#t204" type="subject">escape</term>. We decided to <term ref="#t204" type="subject">run to</term> the village of
+                        <placeName ref="#sieczychy" type="ehri">Sieczychy</placeName> (18 km from <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName>), where some <term ref="#ehri_et_nationalities_germans">Germans</term> were living, our customers. We
+                    believed that nothing would happen in a place where <term ref="#ehri_et_nationalities_germans">Germans</term> were living.</p>
+                <p>But on Wednesday we did not manage to <term ref="#t204" type="subject">escape</term> to <placeName ref="#sieczychy" type="ehri"
+                        >Sieczychy</placeName>, because in our <term ref="#t819" type="subject">family</term> there are small <term ref="#t824"
+                        type="subject">children</term>, six months old. So on Wednesday, the <date when="1939-09-06">6th of September</date>, we <term
+                        ref="#t204" type="subject">escaped</term> to <placeName ref="#natalin" type="ehri">Natalin</placeName>, to the forest. We
+                    stayed in the forest the whole day, for fear of the airplanes. All day long, we had nothing to <term ref="#t832" type="subject"
+                        >eat</term> or to drink. We were afraid to go out of the forest because next to it there was a railroad that was constantly
+                    being bombed by <term ref="#t1159" type="subject">German</term> airplanes.</p>
+                <p>In the evening, we decided to return to town. We arrived in town around 12 or 12:30 a.m. Some buildings were still burning. We saw
+                    flashes and heard cannonfire, a sign that the front was already near.</p>
+                <p>We were told that except for the high school building, nothing else had been destroyed.</p>
+                <p>On Thursday, the <date when="1939-09-07">7th of September</date>, the street was empty. Only the <term ref="#t304" type="subject"
+                        >refugees</term> and <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> troops were hurrying through <pb
+                        facs="EHRI-ET-WL05320003_04.jpg" n="4"/> toward the bridge on the <placeName ref="#pivdennyy-buh" type="ehri">Bug</placeName>.
+                    The <term ref="#t1159" type="subject">German</term> airplanes continued to drop bombs.</p>
+                <p>Around 3 p.m. <placeName ref="#wyszkow" type="ehri">Szkolna</placeName> and <placeName ref="#wyszkow" type="ehri">Chopin
+                        Streets</placeName>
+                    <note type="gloss">Fryderyk</note> started to burn. The fire lasted until the evening.</p>
+                <p>We came out from our <term ref="#t265" type="subject">hiding place</term>, because the fire was already threatening us. We tried
+                    everything to prevent the fire from progressing. The first row of houses on <placeName ref="#wyszkow" type="ehri">Wąska
+                        Street</placeName> were rescued. The other houses, on <placeName ref="#wyszkow" type="ehri">Szkolna</placeName> and <placeName
+                        ref="#wyszkow" type="ehri">Chopin Streets</placeName>, burned down.</p>
+                <p>On the same day, around 3 p.m., a bomb hit the butcher shops and destroyed a wall of <persName ref="#ehri_et_przytycki_leybl"
+                        type="ehri">Leybl Przytycki</persName>’s shop on <placeName ref="#wyszkow" type="ehri">Kościuszko street</placeName>. There
+                    was soda-water, kvass and beer there. Shortly afterwards, the <placeName ref="#republic-of-poland" type="ehri">Polish</placeName>
+                    <term ref="#t1097" type="subject">soldiers</term> robbed the shop and drank everything up.</p>
+                <p><placeName ref="#republic-of-poland" type="ehri">Polish</placeName><term ref="#t1097" type="subject">soldiers</term> were also in
+                    our courtyard, slipping along the walls, and shooting with their guns at <term ref="#t1159" type="subject">German</term>
+                    airplanes. Therefore we were very scared that the <term ref="#ehri_et_nationalities_germans">Germans</term> would drop bombs on
+                    our house.</p>
+                <p>At 12 a.m. we consulted the <term ref="#ehri_et_nationalities_poles">Polish</term> officers about what to do. They advised us to
+                        <term ref="#t204" type="subject">escape</term> with the <term ref="#t1076" type="subject">army</term>. They told us that on
+                    Friday morning both bridges would be blown up and afterwards it would be impossible to <term ref="#t204" type="subject">run
+                        away</term>. But one of our acquaintances, a <term ref="#t884" type="subject">Jewish soldier</term> from <placeName
+                        ref="#wyszkow" type="ehri">Wyszków</placeName>, advised us to stay, because of our small <term ref="#t824" type="subject"
+                        >children</term>. So we stayed. At night we cooked a <term ref="#t832" type="subject">meal</term>, because during the day it
+                    was impossible to do anything. We did not go to sleep.</p>
+                <p>Throughout the whole night, <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> troops marched through, in such a
+                    dense throng that we could not make our way through them to get to the pump at the <placeName ref="#wyszkow" type="ehri">market
+                        square</placeName> to get some water.</p>
+                <p>On Friday, the <date when="1939-09-08">8th of September</date>, the <term ref="#t1159" type="subject">German</term> airplanes
+                    continued to drop bombs. There were not many <placeName ref="#republic-of-poland" type="ehri">Polish</placeName> troops left.
+                        <term ref="#t1097" type="subject">Soldiers</term> drove through only rarely on the roads from <placeName
+                        ref="#ostrow-mazowiecka" type="ehri">Ostrów Mazowiecka</placeName> and <placeName ref="#pultusk" type="ehri"
+                        >Pułtusk</placeName>. There were no more civilian <term ref="#t304" type="subject">refugees</term>.</p>
+                <p><pb facs="EHRI-ET-WL05320003_05.jpg" n="5"/></p>
+                <p>No more bombs were fallings in town anymore. Only a few <placeName ref="#republic-of-poland" type="ehri">Polish</placeName>
+                    <term ref="#t1097" type="subject">soldiers</term> remained. The retreating <term ref="#t1076" type="subject">army</term> blew up
+                        <persName ref="#ehri_et_goldman_elye_meyer" type="ehri">Elye-Meyer Goldman</persName>’s bakery; the population was told to
+                    take the flour, in order not to leave it to the <term ref="#ehri_et_nationalities_germans">Germans</term>. Mainly Jews were left
+                    in town, and they took the flour. The <placeName ref="#republic-of-poland" type="ehri">Poles</placeName> had apparently already
+                        <term ref="#t204" type="subject">escaped</term>, because we did not see any.</p>
+                <p><term ref="#t1159" type="subject">German</term> airplanes flew quite low, but they did not shoot. We did not run away from them,
+                    because we believed that after the <placeName ref="#republic-of-poland" type="ehri">Poles</placeName> had left, the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term> would not shoot any more.</p>
+                <p>Until 4 p.m. it was calm. Around 4 o’clock, the sound of violent shooting was heard. Apparently the bridges were being blown up. We
+                    crept into our homes.</p>
+                <p>Around 5 o’clock a small house on the corner of <placeName ref="#wyszkow" type="ehri">Wąska</placeName> and <placeName
+                        ref="#wyszkow" type="ehri">Szkolna Streets</placeName> caught fire. I and some other Jews ran over to help. But the <term
+                        ref="#t1159" type="subject">German</term> artillery opened fire right then, so we dispersed and ran to <term ref="#t262"
+                        type="subject">hide</term> in the <term ref="#t758" type="subject">prayer house</term>.</p>
+                <p>The right side of the <placeName ref="#wyszkow" type="ehri">market square</placeName> caught fire. All the people gathered in the
+                    courtyard of the <term ref="#t758" type="subject">prayer house</term> and descended [the stairs] to the <term ref="#t756"
+                        type="subject">ritual bath</term>. It was impossible to enter the <term ref="#t756" type="subject">prayer house</term>,
+                    because in the <term ref="#t756" type="subject">Talmud-Torah</term> classroom inside lay 10-15 <term ref="#t515" type="subject"
+                        >corpses</term>, people who had <term ref="#t745" type="subject">perished</term> over the course of a couple of days, whom it
+                    had not yet been possible to <term ref="#t746" type="subject">bury</term> in the <term ref="#t750" type="subject">Jewish
+                        cemetery</term>. There was an unbearable smell there.</p>
+                <p>There was a loud lament in the <term ref="#t756" type="subject">prayer house</term> – <term ref="#t825" type="subject">women</term>
+                    were crying, <term ref="#t826" type="subject">men</term> were saying the <term ref="#t745" type="subject">deathbed</term>
+                    confessional <term ref="#t756" type="subject">prayers</term>.</p>
+                <p>The shooting lasted from 5 p.m. until around 2 a.m.</p>
+                <p>A <term ref="#ehri_et_nationalities_germans">German</term> scout, alone on a horse, arrived in town and stopped on the corner of
+                        <placeName ref="#wyszkow" type="ehri">Kościuszko</placeName> and <placeName ref="#wyszkow" type="ehri">Wąska
+                        Streets</placeName>, by the <term ref="#t1119" type="subject">police</term> station. That was around 10 p.m. We looked out
+                    through a crack [in the shutter], and by the light of the conflagration we saw <pb facs="EHRI-ET-WL05320003_06.jpg" n="6"/> the
+                        <term ref="#ehri_et_nationalities_germans">German</term>.</p>
+                <p>Around 2 a.m. it became calmer and we ran, keeping close to the walls, to our house, which was still undamaged.</p>
+                <p>In the middle of the night my <term ref="#t822" type="subject">father</term> made <term ref="#t756" type="subject">kiddush</term>
+                    <note type="gloss">the Sabbath blessing over wine</note>, although it was dark; we ate a symbolic portion of <term ref="#t832"
+                        type="subject">food</term> and said the end-of-<term ref="#t832" type="subject">meal</term>
+                    <term ref="#t756" type="subject">blessing</term>.</p>
+                <p>Shooting could still be heard in the distance. We did not <term ref="#t836" type="subject">undress</term> to sleep and could only
+                    doze during the night.</p>
+                <p>At dawn, the artillery fire intensified and the town was burning on all sides.</p>
+                <p>On Saturday the <date when="1939-09-09">9th of September</date>, around 11 a.m., we ran away from our small wooden house and <term
+                        ref="#t262" type="subject">hid</term> in a house made of bricks.</p>
+                <p>On Saturday afternoon, when I was looking out through the courtyard, I spotted a Jew running. Three <term
+                        ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term> ran after him aiming their guns. Shortly afterwards I heard shots – the Jew was
+                    apparently <term ref="#t532" type="subject">shot to death</term>.</p>
+                <p>Buildings continued to catch fire. I saw a <term ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldier</term> hanging around on the corner of <placeName ref="#wyszkow" type="ehri"
+                        >Pułtuska</placeName> and <placeName ref="#wyszkow" type="ehri">Ogrodowa Streets</placeName>. Shortly afterwards a small house
+                    started to burn – apparently the <term ref="#ehri_et_nationalities_germans">German</term> had set fire to it.</p>
+                <p>Through a shutter I saw a group of eight <term ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term> use explosives on one of shop of <persName ref="#ehri_et_nielipowiczun"
+                        type="ehri">Nielipowiczun</persName>’s shops on <placeName ref="#wyszkow" type="ehri">Wąska Street</placeName>, and the
+                    building caught fire right away.</p>
+                <p>On Saturday afternoon the <term ref="#ehri_et_nationalities_germans">Germans</term> shot in through the windows into several houses
+                    on the market square. Afterwards they set fire to them.</p>
+                <p>Some wounded Jews, shot by the <term ref="#ehri_et_nationalities_germans">Germans</term>, came to us in Marke’s <note type="gloss"
+                        >Spelling uncertain.</note> house on <placeName ref="#wyszkow" type="ehri">Wąska Street</placeName>.</p>
+                <p>I know that the <persName ref="#ehri_et_portowicz" type="ehri">Portowicz</persName>
+                    <note type="gloss">Spelling uncertain.</note>
+                    <term ref="#t819" type="subject">family</term> was wounded (the <term ref="#t822" type="subject">father</term> in the arm, the
+                        <term ref="#t822" type="subject">mother</term> in the leg and head, and the four-year-old <term ref="#t824" type="subject"
+                        >child</term> in the leg).</p>
+                <p><pb facs="EHRI-ET-WL05320003_07.jpg" n="7"/></p>
+                <p>When we saw that the houses across the street were burning, and that the houses next to us, ignited by the <term
+                        ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term>, were also catching fire, we were afraid that our house would be also set on
+                    fire. The <term ref="#ehri_et_nationalities_germans">Germans</term> shot into our house too, through the window, but nobody was
+                    hit because we were lying on the floor. So we went out of the house (around 11 a.m.) and we ran into a <placeName
+                        ref="#republic-of-poland" type="ehri">Polish</placeName> house with a damaged roof.</p>
+                <p>We ran into the ditch that encircled the bath. The <term ref="#ehri_et_nationalities_germans">Germans</term> shot after us, hit
+                        <persName ref="#ehri_et_holand_tsirl" type="ehri">Tsirl Holand</persName> (60 years old), and <term ref="#t532" type="subject"
+                        >killed</term> her. Her <term ref="#t822" type="subject">son</term> – <persName ref="#ehri_et_holand_fishl" type="ehri">Fishl
+                        Holand</persName> – was wounded in the leg; a <term ref="#t825" type="subject">woman</term> – <persName ref="#ehri_et_shoshke"
+                        type="ehri">Shoshke</persName> (60 years old) was <term ref="#t532" type="subject">killed</term>.</p>
+                <p>There were other <term ref="#t532" type="subject">murder</term>
+                    <term ref="#t132" type="subject">victims</term> there, and the <term ref="#t515" type="subject">corpses</term> smelled bad, but
+                    because I was running, I could not recognize them.</p>
+                <p>From the ditch we crossed over into the cellars, through the cellar windows in the bath. After a half-hour, the fire had already
+                    reached the bath. I went from the cellar to another small room, to check if the fire had already reached that far. When I came
+                    back, nobody was left in the cellar except for <persName ref="#ehri_et_ostry_moyshe_zelik" type="ehri">Moyshe-Zelik
+                        Ostry</persName> and his <term ref="#t822" type="subject">mother</term>; everyone else had <term ref="#t204" type="subject"
+                        >run away</term>.</p>
+                <p>We remained in the cellar from Sunday the <date when="1939-09-10">10th of September</date> until Wednesday, the eve of the
+                    Rosh-Hashanah <note type="gloss">Jewish New Year.</note> (the <date when="1939-09-13">13th of September</date>).</p>
+                <p>More people arrived on Sunday the 10th in the daytime, and so we passed the time there until Wednesday.</p>
+                <p>We were able to <term ref="#t832" type="subject">eat</term> because we happened to find a packet of old <term ref="#t832"
+                        type="subject">pastries</term> there, which someone had apparently lost on the run.</p>
+                <p>At night we slipped out into the courtyard to get water from the pump. We relieved our physiological needs in one of <pb
+                        facs="EHRI-ET-WL05320003_08.jpg" n="8"/> the cellars, because we were afraid to go outside.</p>
+                <p>On the same Sunday, a <term ref="#ehri_et_nationalities_germans">German</term> approached the cellar window. I was <term
+                        ref="#t262" type="subject">hiding</term> in another <term ref="#t265" type="subject">cellar room</term>, in the <term
+                        ref="#t265" type="subject">bath boiler</term>, and I heard gunshots.</p>
+                <p>On Sunday at noon, more people arrived in the cellars, bringing with them a Jew whom they had found on the street, <persName
+                        ref="#ehri_et_binyomtshe" type="ehri">Binyomtshe</persName> (70 years old), wounded in the leg. They took him into the cellar
+                    and put him in a bed that was there – I don’t know where it came from. The Jew <term ref="#t745" type="subject">died</term> on
+                    Tuesday the <date when="1939-09-12">12th of September</date>, without any [<term ref="#t791" type="subject">medical</term>]
+                    help.</p>
+                <p>The <term ref="#t822" type="subject">son</term> of Moyshe-Borekh the butcher also lay there, wounded in the belly. And opposite the
+                    bath, in a nearby orchard, lay a Jew from <placeName ref="#pultusk" type="ehri">Pułtusk</placeName>, wounded in the arm, as well
+                    as a <term ref="#t824" type="subject">seven-year-old boy</term> with a piece of shoulder torn off; he bled a lot and smelled
+                    terrible, it was simply impossible to be near him.</p>
+                <p>We learned from <persName ref="#ehri_et_vengrov_simkhe_yankev" type="ehri">Simkhe-Yankev Vengrov</persName>, who looked like a
+                        <term ref="#ehri_et_nationalities_germans">German</term> and spoke <term ref="#ehri_et_nationalities_germans">German</term>,
+                    and who came to us in the cellar, that more than forty people were lying <term ref="#t745" type="subject">dead</term> in the
+                    brewery in <placeName ref="#wyszkow" type="ehri">Wyszków</placeName>, <term ref="#t532" type="subject">shot</term> by the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term>, among them <persName ref="#ehri_et_shnyek_simkhe" type="ehri">Simkhe
+                        Shnyek</persName>
+                    <note type="gloss">Spelling uncertain, maybe Śnieg.</note> and his <term ref="#t822" type="subject">wife</term>, <persName
+                        ref="#ehri_et_malovantshik_tuvye" type="ehri">Tuvye Malovantshik</persName>, <persName ref="#ehri_et_melamed_yisroel_aron"
+                        type="ehri">Yisroel-Aron Melamed</persName>’s <term ref="#t822" type="subject">son-in-law</term> and others.</p>
+                <p>On Wednesday the <date when="1939-09-13">13th</date> at 6 a.m., the butcher’s <term ref="#t822" type="subject">son</term> arrived
+                    from <placeName ref="#jadow" type="ehri">Jadów</placeName> in order to bring the wounded <term ref="#t826" type="subject"
+                        >man</term> to the <term ref="#t282" type="subject">hospital</term> there. A few of us laid the wounded <term ref="#t826"
+                        type="subject">man</term> on a broken mattress, carried him to the <placeName ref="#pivdennyy-buh" type="ehri"
+                    >Bug</placeName>, and crossed the river with him by boat. We did not see any <term ref="#ehri_et_nationalities_germans"
+                        >Germans</term> on the way there.</p>
+                <p>Everything [we saw] on our way to the <placeName ref="#pivdennyy-buh" type="ehri">Bug</placeName> with the wounded <term
+                        ref="#t826" type="subject">man</term> was destroyed. The <term ref="#t758" type="subject">prayer house</term> – <term
+                        ref="#t646" type="subject">burned down</term>. Not a single house remained – all had been burned down.</p>
+                <p>Among us were members of the <orgName ref="#ehri_et_chevra_kadisha" type="ehri">khevre-kedishe</orgName>. On Monday the <date
+                        when="1939-09-11">11th</date>, at 3 p.m., <persName ref="#ehri_et_stalik_borekh" type="ehri">Borekh Stalik</persName>
+                    <note type="gloss">Spelling uncertain, maybe Stolik.</note>, <persName ref="#ehri_et_safirshteyn_yenkl" type="ehri">Yenkl
+                        Safirshteyn</persName>, <pb facs="EHRI-ET-WL05320003_09.jpg" n="9"/>
+                    <persName ref="#ehri_et_ostry_moyshe_zelik" type="ehri">Moyshe-Zelig Ostra</persName> (although he was a cohen, he went with them
+                    anyway, because of the urgency of the commandment to <term ref="#t746" type="subject">bury</term> the <term ref="#t745"
+                        type="subject">dead</term> who have no one to <term ref="#t746" type="subject">bury</term> them), <persName
+                        ref="#ehri_et_ulmer_khaykl" type="ehri">Khaykl Ulmer</persName> (a Jew from <placeName ref="#pultusk" type="ehri"
+                        >Pułtusk</placeName>, a carpenter), and some others, went to give the <term ref="#t745" type="subject">dead</term> in the
+                    brewery a proper <term ref="#t746" type="subject">burial</term>.</p>
+                <p>They let us know the names of those who had been <term ref="#t745" type="subject">shot</term> by the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term>, more than forty names, among them <persName ref="#ehri_et_shnyek_simkhe"
+                        type="ehri">Simkhe Shnyek</persName>, whom they barely recognized because pigs had eaten up his shoulder and hand. They had
+                    been <term ref="#t532" type="subject">killed</term> without reason, only because they were Jews.</p>
+                <p>The <term ref="#t746" type="subject">burial</term> took a lot of time. The <term ref="#t515" type="subject">corpses</term> were
+                        <term ref="#t746" type="subject">buried</term> together in a trench, without shrouds, <term ref="#t826" type="subject"
+                        >men</term> and <term ref="#t825" type="subject">women</term> separated by only a wooden board.</p>
+                <p>The <term ref="#t745" type="subject">dead</term> in the <term ref="#t758" type="subject">prayer house</term> had been burned up
+                    together with the <term ref="#t758" type="subject">prayer house</term>. The smaller <term ref="#t758" type="subject">prayer
+                        house</term>, as well as the <term ref="#t758" type="subject">prayer house</term> of the <term ref="#t756" type="subject">Ger
+                        Hasidim</term>, had also <term ref="#t646" type="subject">burned down</term>.</p>
+                <p>On Wednesday the <date when="1939-09-13">13th of September</date>, at 7 a.m., I crossed the <placeName ref="#pivdennyy-buh"
+                        type="ehri">Bug</placeName> to <placeName ref="#wyszkow" type="ehri">Latoszek</placeName>. In <placeName ref="#wyszkow"
+                        type="ehri">Latoszek</placeName> I met <persName ref="#ehri_et_zabraniecki_khaim_yitskhok" type="ehri">Khaim-Yitskhok
+                        Zabraniecki</persName> and <persName ref="#ehri_et_piekarz_henokh" type="ehri">Henokh Piekarz</persName> (both of them from
+                        <placeName ref="#wyszkow" type="ehri">Wyszków</placeName>). They had been taken by the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term> to a <term ref="#t496" type="subject">concentration camp</term> near
+                        <placeName ref="#pultusk" type="ehri">Pułtusk</placeName>, together with <persName ref="#ehri_et_nosl" type="ehri"
+                        >Nosl</persName>
+                    <note type="gloss">Later spelled Yosl.</note> and <persName ref="#ehri_et_tsivyak_borekh" type="ehri">Borekh</persName> and
+                        <persName ref="#ehri_et_shoykhet_fayvl" type="ehri">Fayvl Shoykhet</persName> (all of them from <placeName ref="#wyszkow"
+                        type="ehri">Wyszków</placeName>). <persName ref="#ehri_et_piekarz_henokh" type="ehri">Piekarz</persName> and <persName
+                        ref="#ehri_et_zabraniecki_khaim_yitskhok" type="ehri">Zabraniecki</persName> told us that they had been beaten and <term
+                        ref="#t562" type="subject">tortured</term> in the <term ref="#t496" type="subject">camp</term>, like a lot of other Jews
+                    there, and they were not given <term ref="#t569" type="subject">anything to eat</term>.</p>
+                <p><persName ref="#ehri_et_nosl" type="ehri">Yosl</persName> and <persName ref="#ehri_et_tsivyak_borekh" type="ehri">Borekh
+                        Tsivyak</persName>, and <persName ref="#ehri_et_shoykhet_fayvl" type="ehri">Fayvl Shoykhet</persName>, emaciated from <term
+                        ref="#t569" type="subject">hunger</term>, collapsed on the way and were not able to continue their <term ref="#t204"
+                        type="subject">escape</term>. <persName ref="#ehri_et_piekarz_henokh" type="ehri">Piekarz</persName> and <persName
+                        ref="#ehri_et_zabraniecki_khaim_yitskhok" type="ehri">Zabraniecki</persName> ran, drawing on their last shreds of strength,
+                    and arrived in <placeName ref="#wyszkow" type="ehri">Latoszek</placeName>, whereas the former three remained behind. Their fate is
+                    unknown to those who told the story. They only heard shots when the other three fell.</p>
+                <p>A road leads uphill from <placeName ref="#wyszkow" type="ehri">Latoszek</placeName> to <placeName ref="#jadow" type="ehri"
+                        >Jadów</placeName>, bisected by an asphalt road that leads to <placeName ref="#warsaw" type="ehri">Warsaw</placeName>. On the
+                    asphalt road stood a <term ref="#ehri_et_nationalities_germans">German</term> patrol. As I was wearing a typical Jewish hat, I was
+                    afraid to pass near the <term ref="#ehri_et_nationalities_germans">Germans</term>. However, <pb facs="EHRI-ET-WL05320003_10.jpg"
+                        n="10"/> I continued to walk. A <term ref="#ehri_et_nationalities_germans">German</term> with a revolver approached me and
+                    spoke to me in <term ref="#ehri_et_nationalities_germans">German</term>. I did not understand what he said. He unbuttoned my <term
+                        ref="#t836" type="subject">coat</term>, asked if I had a gun, ordered me to show him my <term ref="#t822" type="subject"
+                        >father</term>’s <term ref="#t836" type="subject">tallit</term>
+                    <note type="gloss">prayer shawl</note> which I was carrying with me. <q>Zum Gottesdienst</q>
+                    <note type="gloss"><q>For religious services</q>.</note>, I explained to him. He let me go, saying finally: <q>Go, go, later it
+                        will be a slaughterhouse</q>.</p>
+                <p>Scared, I continued to walk. On the way we encountered <term ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term>. They stopped us: <q>Jude, where are you from?</q> – <q>From <placeName
+                            ref="#wyszkow" type="ehri">Wyszków</placeName></q>, we answered. <q>Yes</q>, they answered <q>the damned Jews were
+                        shooting at us in <placeName ref="#wyszkow" type="ehri">Wyszków</placeName></q>.</p>
+                <p>In <placeName ref="#jadow" type="ehri">Jadów</placeName> I stayed with my acquaintances from Wednesday the <date when="1939-09-13"
+                        >13th of September</date> until the <date when="1939-10-01">1st of October</date> (the first of the intermediary days of
+                    Sukkot).</p>
+                <p>The were no <term ref="#t532" type="subject">murders</term> in <placeName ref="#jadow" type="ehri">Jadów</placeName>, but robberies
+                    occured, although a few <term ref="#ehri_et_nationalities_germans">Germans</term> did pay for products. Aside from that, Jews were
+                    severely beaten.</p>
+                <p>On the first day of the Jewish New Year, the <date when="1939-09-14">14th of September</date>, young Jewish <term ref="#t826"
+                        type="subject">men</term> were taken away to perform <term ref="#t556" type="subject">forced labour</term>. I was <term
+                        ref="#t262" type="subject">hiding</term> in a <term ref="#t265" type="subject">attic</term>.</p>
+                <p>The <term ref="#t758" type="subject">prayer house</term> was full of Jewish civilian captives, among them the <term ref="#t735"
+                        type="subject">rabbi</term> of <placeName ref="#kolbiel" type="ehri">Kołbiel</placeName>. In the church there were <term
+                        ref="#t763" type="subject">Christian</term> captives. In the market square, there were <term ref="#t763" type="subject"
+                        >Christian</term> captives, as well as some Jews. They stood outside in the rain and cold.</p>
+                <p>The captives in the <term ref="#t758" type="subject">prayer house</term>, who had been captured on the roads, were not allowed to
+                    go outside. They had to relieve themselves on the spot. They were not given <term ref="#t832" type="subject">food</term>, but the
+                    Jewish inhabitants of the town brought them something to <term ref="#t832" type="subject">eat</term>.</p>
+                <p>There were rumors going around that the <orgName ref="#g004583" type="ehri">Red Army</orgName> was on its way.</p>
+                <p>On Tuesday, the <date when="1939-09-19">19th of September</date>, the captives began to be freed. By the <date when="1939-09-24"
+                        >24th</date>-<date when="1939-09-26">26th</date>
+                    <note type="gloss">In the original: 26-64.</note>, all the captives were freed.</p>
+                <p><pb facs="EHRI-ET-WL05320003_11.jpg" n="11"/></p>
+                <p>The news of the arrival of the Bolsheviks provoked joy <note type="gloss">Unclear in the original.</note> among the Jews.</p>
+                <p>A kilo of dark <term ref="#t832" type="subject">bread</term> cost 25 groschen, white <term ref="#t832" type="subject">bread</term>
+                    – 30 groschen. <term ref="#t832" type="subject">Bread</term> was sold per kilo in the bakeries and there were queues. The <term
+                        ref="#ehri_et_nationalities_germans">Germans</term> threw Jews out of the queues even the queues to the Jewish bakeries.</p>
+                <p>The <term ref="#ehri_et_nationalities_poles">Poles</term> had a bad attitude toward the Jews too, although I did not hear of <term
+                        ref="#ehri_et_nationalities_poles">Poles</term> who beat Jews. But they accepted the products that the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term> stole on the Jewish New Year. Also, young Jewish <term ref="#t825"
+                        type="subject">girls</term> who appeared <term ref="#ehri_et_nationalities_poles">Polish</term>, accepted those products and
+                    then gave them back to the Jews from whom they had been stolen. They rescued what they could.</p>
+                <p>On Rosh Hashanah <note type="gloss">The Jewish New Year.</note>, we <term ref="#t756" type="subject">prayed</term> in the <term
+                        ref="#t758" type="subject">prayer house</term> of the Radzymin <term ref="#t756" type="subject">Hasidim</term>, very quietly
+                    and without choirboys, so as not to be heard from outside. By chance, <term ref="#ehri_et_nationalities_germans">Germans</term>
+                    entered the courtyard at the end of the <term ref="#t756" type="subject">service</term>, and all the people in the <term
+                        ref="#t758" type="subject">prayer house</term> ran away. No one blew the <term ref="#t756" type="subject">shofar</term>
+                    <note type="gloss">Ram’s horn blown on Rosh Hashanah.</note>.</p>
+                <p>On Yom Kippur, the <term ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term> were already <note type="gloss">no longer</note> there. People were saying that
+                    the <term ref="#ehri_et_nationalities_germans">German</term> commanders were already leaving. The Jews <term ref="#t756"
+                        type="subject">prayed</term> without choirboys, but less fearfully than on Rosh Hashanah. After the <term ref="#t756"
+                        type="subject">service</term>, the <term ref="#t756" type="subject">shofar</term> was blown, although the <term ref="#t756"
+                        type="subject">tekiyah [gedolah]</term>
+                    <note type="gloss">Long sound of the shofar blast blown to signal the close of Yom Kippur.</note> was blown softly, under a <term
+                        ref="#t756" type="subject">tallit</term>.</p>
+                <p>People built <term ref="#t756" type="subject">sukkahs</term>
+                    <note type="gloss">Booths for the holiday of Sukkot.</note>, only in very hidden places that could not be seen from the outside.
+                    On Sukkot, people felt freer, because there were nearly no <term ref="#ehri_et_nationalities_germans">Germans</term> left in the
+                    area.</p>
+                <p>On the second day of Sukkot, the <date when="1939-09-29">29th of September</date>, around 2 p.m., the <term
+                        ref="#ehri_et_nationalities_germans">German</term> commanders left. There were no more <term
+                        ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term>. When they left, joy reigned among the Jews. People went out into the streets.
+                    We did not see any <term ref="#ehri_et_nationalities_poles">Poles</term>. We expected the arrival of the <orgName ref="#g004583"
+                        type="ehri">Russians</orgName>, but they did not come.</p>
+                <p>On Saturday, the <date when="1939-09-30">30th of September</date>, people started to say that the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term> were going to come back.</p>
+                <p><pb facs="EHRI-ET-WL05320003_12.jpg" n="12"/></p>
+                <p>When I was in <placeName ref="#jadow" type="ehri">Jadów</placeName>, I heard that in <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName>
+                    <persName ref="#ehri_et_krishtal_pinye" type="ehri">Pinye Krishtal</persName>’s <term ref="#t822" type="subject">wife</term> and
+                    their two small <term ref="#t824" type="subject">children</term>, as well as <persName ref="#ehri_et_izraelski" type="ehri"
+                        >Izraelski</persName> and some others, had been <term ref="#t532" type="subject">shot to death</term>.</p>
+                <p>From the <persName ref="#ehri_et_izraelski" type="ehri">Izraelski</persName>
+                    <term ref="#t819" type="subject">family</term>, which had consisted of eleven persons, only two persons survived (a young <term
+                        ref="#t826" type="subject">man</term> and a <term ref="#t825" type="subject">girl</term>).</p>
+                <p>The aforementioned <persName ref="#ehri_et_krishtal_pinye" type="ehri">Pinye Krishtal</persName> had had three <term ref="#t824"
+                        type="subject">children</term>. Only a five-year-old <term ref="#t824" type="subject">boy</term> survived, and was hanging
+                    around <term ref="#t569" type="subject">hungry</term>, without supervision, amidst the ruins. The <term ref="#t824" type="subject"
+                        >boy</term> was brought into <placeName ref="#jadow" type="ehri">Jadów</placeName> and I saw him myself. His <term ref="#t822"
+                        type="subject">father</term>, <persName ref="#ehri_et_krishtal_pinye" type="ehri">Pinye Krishtal</persName>, was sent to a
+                        <term ref="#t669" type="subject">prison</term>
+                    <term ref="#t567" type="subject">camp</term>.</p>
+                <p><persName ref="#ehri_et_rebeles_avrom" type="ehri">Avrom Rebeles</persName> from <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName> came with me to <placeName ref="#jadow" type="ehri">Jadów</placeName>. He told me that in <placeName
+                        ref="#kamienczyk" type="ehri">Kamieńczyk</placeName> (on the <placeName ref="#pivdennyy-buh" type="ehri">Bug</placeName>, near
+                        <placeName ref="#wyszkow" type="ehri">Wyszków</placeName>) he and another Jew had been chased by <term ref="#t826"
+                        type="subject">men</term> on horseback. As they could not run very quickly, the horses ran them over. Also in <placeName
+                        ref="#kamienczyk" type="ehri">Kamieńczyk</placeName>, a house was burned down by the <term
+                        ref="#ehri_et_nationalities_germans">Germans</term>, <term ref="#t745" type="subject">burying</term> more than twenty people
+                    under the ruins. One of those who was <term ref="#t745" type="subject">burned to death</term> – <persName
+                        ref="#ehri_et_morgnshtern_tuvye" type="ehri">Tuvye Morgnshtern</persName> (from <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName>, 65 years old, a mason) was <term ref="#t746" type="subject">buried</term> in the <term ref="#t750"
+                        type="subject">Jewish cemetery</term> in <placeName ref="#jadow" type="ehri">Jadów</placeName>. His bones were brought there
+                    in a small bag and <term ref="#t746" type="subject">buried</term>.</p>
+                <p>On the way to <placeName ref="#jadow" type="ehri">Jadów</placeName> I met <persName ref="#ehri_et_shtinski_meir" type="ehri">Meir
+                        Shtinski</persName> from <placeName ref="#wyszkow" type="ehri">Wyszków</placeName>, 35 years old. He told me that he had been
+                    walking with a group of more than twenty people, when the <term ref="#ehri_et_nationalities_germans">Germans</term> stopped them
+                    for no reason, stood them up against a wall and shot them. He fell down among those who had been <term ref="#t532" type="subject"
+                        >shot</term> and played <term ref="#t745" type="subject">dead</term>, and in this way he survived.</p>
+                <p>On Sunday the <date when="1939-10-01">1st of October</date> (the second of the intermediary days <note type="gloss">of
+                        Sukkot</note>) I left <placeName ref="#jadow" type="ehri">Jadów</placeName> and set out for <placeName
+                        ref="#ostrow-mazowiecka" type="ehri">Ostrów Mazowiecka</placeName>. From <placeName ref="#jadow" type="ehri">Jadów</placeName>
+                    to <placeName ref="#lochow" type="ehri">Łochów</placeName> the road was covered with spent ammunition.</p>
+                <p><pb facs="EHRI-ET-WL05320003_13.jpg" n="13"/></p>
+                <p>In <placeName ref="#lochow" type="ehri">Łochów</placeName>, an munitions <term ref="#t929" type="subject">factory</term> was
+                    destroyed. An armoured <term ref="#t940" type="subject">train</term> lay flipped over.</p>
+                <p>The road from <placeName ref="#lochow" type="ehri">Łochów</placeName> to <placeName ref="#ostrowek" type="ehri"
+                        >Ostrówek</placeName> was damaged by bombs.</p>
+                <p>In <placeName ref="#ostrowek" type="ehri">Ostrówek</placeName> I rested for the night. On Monday the <date when="1939-10-02">2nd of
+                        October</date> I went by horse and wagon to <placeName ref="#ostrow-mazowiecka" type="ehri">Ostrów Mazowiecka</placeName>. I
+                    passed through <placeName ref="#brok" type="ehri">Brok</placeName>, where forty-five Jews had been <term ref="#t532"
+                        type="subject">shot</term> by the <term ref="#ehri_et_nationalities_germans">Germans</term>. Houses were burned down, the
+                    forest had been badly damaged by artillery fires.</p>
+                <p>That same day in the afternoon I arrived in <placeName ref="#ostrow-mazowiecka" type="ehri">Ostrów Mazowiecka</placeName>. The
+                        <term ref="#ehri_et_nationalities_germans">Germans</term> were capturing people to perform <term ref="#t556" type="subject"
+                        >forced labour</term>. In the evening a decree came out: <q>All <term ref="#t304" type="subject">refugees</term> have to leave
+                            <placeName ref="#ostrow-mazowiecka" type="ehri">Ostrów</placeName> by Tuesday the <date when="1939-10-03">3rd of
+                            October</date></q>.</p>
+                <p>In <placeName ref="#ostrow-mazowiecka" type="ehri">Ostrów</placeName> the Jews were forced to lick the urine of the <term
+                        ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldiers</term> with their tongues.</p>
+                <p>In the morning there was a commotion: all the Jews had to stand in front of their apartments at 8 a.m. – no Jew was allowed to stay
+                    inside. Only <term ref="#t763" type="subject">Christians</term>. I did not wait until 8; at 7 a.m. I set out, with a lot of other
+                    people, for <placeName ref="#zambrow" type="ehri">Zambrów</placeName>. The road was bad. It was raining.</p>
+                <p>Eight kilometers past <placeName ref="#ostrow-mazowiecka" type="ehri">Ostrów</placeName> – in <placeName ref="#szumowo" type="ehri"
+                        >Szumowo</placeName>
+                    <note type="gloss">Unclear.</note> we already encountered the <orgName ref="#g004583" type="ehri">Russians</orgName>. We were let
+                    in without any difficulties. At last we rested.</p>
+                <p>I was told that <term ref="#t763" type="subject">Christians</term> were stealing Jewish belongings that were <term ref="#t262"
+                        type="subject">hidden</term> in <term ref="#t265" type="subject">cellars</term> and that Jews were no longer being let into
+                        <placeName ref="#jadow" type="ehri">Jadów</placeName>.</p>
+                <p>A cobbler’s apprentice, Dovid Leyb’s <term ref="#t822" type="subject">son</term>, returned to <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName> to get a pair of <term ref="#t836" type="subject">boots</term>. In <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName> in the market square he was <term ref="#t532" type="subject">shot</term> by a <term
+                        ref="#ehri_et_nationalities_germans">German</term>
+                    <term ref="#t1097" type="subject">soldier</term>.</p>
+                <p>It is estimated that 500 Jews were <term ref="#t532" type="subject">killed</term> in <placeName ref="#wyszkow" type="ehri"
+                        >Wyszków</placeName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

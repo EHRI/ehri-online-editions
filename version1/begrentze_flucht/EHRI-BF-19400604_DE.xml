@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-02-28T11:10:29+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19400604_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ansuchen Ignaz (Hynek) Fischers um Ausstellung eines Leumundszeugnisses an die Polizeidirektion in Prag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1420">Polizeipräsidium Prag II</collection>
+                        <idno>1941-1950, F 919/11, Fischer Hynek, K. 2186</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Polizeipräsidium Prag II, 1941-1950, F 919/11, Fischer Hynek, K. 2186. <textLang mainLang="de">Original auf
+                        Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Prag (Praha)</placeName>
+                        <location>
+                            <geo>50.08804 14.42076</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Prag"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <listPerson>
+                    <person xml:id="ehri_bf_fischer_ignaz">
+                        <persName>Fischer, Ignaz</persName>
+                        <note><p>07.12.1913 - 1986</p>Ignaz (Hynek) Fischer spielt als Stürmer bei Hakoah Wien und in den 1930er Jahren als Legionär
+                            in der Tschechoslowakei. "Nasi" Fischer blieb nach dem Anschluss in der Tschechoslowakei und wurde später am 12.09.1942
+                            nach Theresienstadt deportiert. Er ist im Theresienstädter Propagandafilm als Fußballer zu sehen. Am 01.10.1944 wurde
+                            Ignaz Fischer nach Auschwitz deportiert. Er überlebte die Shoah und starb 1986.</note>
+                    </person>
+                    <person xml:id="ehri_bf_fischer_siegfried">
+                        <persName>Fischer, Siegfried</persName>
+                    </person>
+                    <person xml:id="ehri_bf_fischer_marie">
+                        <persName>Fischer, Marie, geb. Grossmann</persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="ehri_bf_polizeidirektion_in_prag">
+                        <orgName>Polizeidirektion in Prag</orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1940-06-04">4. Juni 1940</date>
+                <placeName>Prag</placeName>
+                <orgName>Polizeipräsidium</orgName><idno>EHRI-BF-19400604</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="Schicksale"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p>Ansuchen um Ausstellung eines Leumundszeugnisses an die <orgName ref="#ehri_bf_polizeidirektion_in_prag">Polizeidirektion in
+                            <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName></orgName> vom <date when="1940-06-04"
+                        >4.6.1940</date> durch <persName ref="#ehri_bf_fischer_ignaz">Ignaz Fischer</persName>, geb. am <date when="1943-12-07"
+                        >7.12.1913</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, wohnhaft in <placeName
+                        ref="http://www.geonames.org/3067696/prague.html">Prag</placeName> II, Hálková 9, Sohn von <persName
+                        ref="#ehri_bf_fischer_siegfried">Siegfried Fischer</persName> und <persName ref="#ehri_bf_fischer_marie">Marie Fischer, geb.
+                        Grossmann</persName>.</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><pb n="1" facs="EHRI-BF-19400604_01.jpg"/></p>
+        </body>
+    </text>
+</TEI>

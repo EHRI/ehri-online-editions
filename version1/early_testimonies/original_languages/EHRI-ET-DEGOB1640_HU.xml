@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB1640_HU">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>H. L. M., male, on his experience in the Hungarian labour service in 1943–1944 and his deportation to Mauthausen and
+					Günskirchen in 1945</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 1640. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Schandorf</placeName>
+						<location>
+							<geo>47.24183 16.42267</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2766162/schandorf.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Schandorf"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mauthausen concentration camp</placeName>
+						<location>
+							<geo>48.2562 14.4866</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-570"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gunskirchen-Wels I concentration camp</placeName>
+						<location>
+							<geo>48.1167 13.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-584"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Pécs</placeName>
+						<location>
+							<geo>46.08333 18.23333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3046526/pecs.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/P%C3%A9cs"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mohács</placeName>
+						<location>
+							<geo>45.99306 18.68306</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3047967/mohacs.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Moh%C3%A1cs"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dej</placeName>
+						<location>
+							<geo>47.15 23.86667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/679550/dej.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Dej"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ocna Dejului</placeName>
+						<location>
+							<geo>47.11581 23.85934</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/672026/ocna-dejului.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vízvár</placeName>
+						<location>
+							<geo>46.08996 17.22952</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3042771/vizvar.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/V%C3%ADzv%C3%A1r"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Radna</placeName>
+						<location>
+							<geo>46.09444 21.68732</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/669258/radna.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Comuna Şanţ</placeName>
+						<location>
+							<geo>47.45266 24.91842</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/668090/comuna-sant.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/%C8%98an%C8%9B"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Szekszárd</placeName>
+						<location>
+							<geo>46.35014 18.70905</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3044760/szekszard.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Szeksz%C3%A1rd"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Košice</placeName>
+						<location>
+							<geo>48.71395 21.25808</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/724443/kosice.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ko%C5%A1ice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Donnerskirchen</placeName>
+						<location>
+							<geo>47.89264 16.66301</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7872685/donnerskirchen.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Donnerskirchen"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sopron</placeName>
+						<location>
+							<geo>47.68501 16.59049</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3045190/sopron.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Sopron"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Győr</placeName>
+						<location>
+							<geo>47.68333 17.63512</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3052009/gyor.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Gy%C5%91r"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Szombathely</placeName>
+						<location>
+							<geo>47.23088 16.62155</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3044310/szombathely.html"/>
+							<link type="desc" target="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BC%D0%B1%D0%B0%D1%82%D1%85%D0%B5%D0%B9"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Eisenerz</placeName>
+						<location>
+							<geo>47.54607 14.88837</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7872422/eisenerz.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Eisenerz"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-339"/>
+						</linkGrp></item>
+					<item><name>Educational institutions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1132"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Jewish jurists and lawyers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-899"/>
+						</linkGrp></item>
+					<item><name>Labour battalions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-560"/>
+						</linkGrp><note><p>Hungarian and Romanian formations.</p></note></item>
+					<item><name>Military Officers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-886"/>
+						</linkGrp></item>
+					<item><name>Looting</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-655"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item><name>Denunciations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-200"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Typhus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-493"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>Starvation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-570"/>
+						</linkGrp></item>
+					<item><name>Death marches</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-517"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Air-raids</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1105"/>
+						</linkGrp></item>
+					<item><name>Male overseers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1438"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Dysentery</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-494"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_feher_ferenc">
+						<persName>Fehér, Ferenc (commander in Dej)</persName>
+					</person>
+					<person xml:id="ehri_et_kokonyei_ferenc">
+						<persName>Kökönyei, Ferenc</persName>
+					</person>
+					<person xml:id="ehri_et_steckel_bela">
+						<persName>Steckel, Béla</persName>
+					</person>
+					<person xml:id="ehri_et_fejs_karoly">
+						<persName>Fejs, Károly</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Nyilaskeresztes Párt - Hungarista Mozgalom</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-474"/>
+						</linkGrp>
+						<note><p>(1935) 1939-1945</p><p>Arrow Cross Party was the most popular right-wing extremist movement in Hungary before and
+								during WWII. The party was founded in 1935 under the name of Party of National Will. Its leader, former officer of the
+								General Staff, Ferenc Szálasi was imprisoned (1938-1940) and his party dissolved several times, however, managed to
+								return to political life. In the last pre-war elections in 1939 the Arrow Cross gained 29 seats, making it the second
+								largest party in Parliament. The party was re-named to Arrow Cross Party-Hungarist Movement in 1942. After Regent
+								Miklós Horthy’s attempt to extricate from war on October 15, 1944, the Arrow Cross Party assumed power with Nazi
+								support. From October 16, 1944, until March 28, 1945, Ferenc Szálasi was prime minister of Hungary as well as its
+								plenipotentiary head of state, bearing the title “Leader of the Nation.” Paramilitary forces of the Party, known as
+								Party Service (pártszolgálat) and Armed National Service (fegyveres nemzetszolgálat) committed several atrocities and
+								war crimes during their short reign, which claimed the lives of thousands of people, mostly Jews and Roma. Following
+								the war, Szálasi and several other Arrow Cross leaders were sentenced to death and executed.</p></note>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+					<org>
+						<orgName>U.S. Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004289"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-07-20">20. 7. 1945</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="http://www.geonames.org/2766162/schandorf.html"
+					>Schandorf</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp"
+				>Mauthausen</placeName>, <placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-584">Günskirchen</placeName>
+				<idno>EHRI-ET-DEGOB1640</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of 30-year-old Dr. H.L.M. on antisemitism and discrimination in pre-war Hungary, hardships during his labor service, the
+					deportation of his unit to the German-Hungarian border in December 1944, forced labor under German command, and a death march in
+					the spring of 1945 from Schandorf through the Alps to the Mauthausen and Günskirchen concentration camps.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-DEGOB1640_01.jpg"/>
+			<p>Fentnevezett előadja a következőket:</p>
+			<p>A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">zsidótörvény</term> annyiban érintett, hogy <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1132" type="subject">egyetem</term>re csak <placeName
+					ref="http://www.geonames.org/3046526/pecs.html">Pécs</placeName>ett vettek fel, oda is csak protekcióval. Az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1132" type="subject">egyetem</term>en kellemetlenségeim voltak, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">verések</term> és hasonló dolgok. Abban az időben elég
+				erős volt a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">zsidóellenes hangulat</term> és egyszer-
+				kétszer én is részesültem verésben. Később felkerültem Pestre, mert egy időben <placeName
+					ref="http://www.geonames.org/3047967/mohacs.html">Mohács</placeName>on és <placeName
+					ref="http://www.geonames.org/3046526/pecs.html">Pécs</placeName>ett voltam mint <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">ügyvédjelölt</term>, és ekkor <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Pest</placeName>en helyezkedtem el. Ezután átképeztettem magam és a Star szövő
+				és kendőáru-gyárban dolgoztam. Itt nem voltak kellemetlenségek, mert munkásként dolgoztam. A gyárból vonultam be <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-560" type="subject">munkaszolgálat</term>ra <date when="1943-01-15">1943.
+					január 15</date>-én <placeName ref="http://www.geonames.org/3047967/mohacs.html">Mohács</placeName>ra. Később felkerültem
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>re a 70 -es postahivatalhoz és a
+				csomagelosztásnál voltam, majd mint rajzoló voltam a főnök mellett.. Itt rendes dolgom volt, amíg nem kerültem Erdélybe. <placeName
+					ref="http://www.geonames.org/679550/dej.html">Dés</placeName>en, <placeName ref="http://www.geonames.org/672026/ocna-dejului.html"
+					>Déseknán</placeName> volt ez rosszindulatú panamista <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886"
+					type="subject">parancsnok</term>unk: <persName ref="#ehri_et_feher_ferenc">Fehér Ferenc</persName> hadnagy, aki egyébként
+					<placeName ref="http://www.geonames.org/3042771/vizvar.html">Vízvár</placeName>on lakott Somogyban. <persName
+					ref="#ehri_et_kokonyei_ferenc">Kökönyei Ferenc</persName> aki <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655"
+					type="subject">ellopta</term> tőlem és hordta az órámat. <persName ref="#ehri_et_steckel_bela">Steckel Béla</persName>
+				<date when="1944-02-19">1944. február 19</date> -én, dacára annak, hogy szabályos eltávozási engedélyem volt, Désen a Zsidó Kaszinóból
+				este 10 órakor elvitt egy éjszakai őrjárattal tizennegyed magammal és bevitt az ügyeletes szobába 40 percig vigyázzba állított <pb
+					n="2" facs="EHRI-ET-DEGOB1640_02.jpg"/> és adott egy pofont, minek következtében dobhártyarepedést kaptam. Ebből nagy ügy lett, a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">hadtestparancsnokság</term>ra mentem, de közben
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">bejöttek a németek</term> és vissza kellett
+				vonnom a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">feljelentést</term>. A vasútnál voltunk,
+				vasútépítői <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">munkán</term>, utána katonai kábelt
+				fektettünk <placeName ref="http://www.geonames.org/669258/radna.html">Oradná</placeName>tól <placeName
+					ref="http://www.geonames.org/668090/comuna-sant.html">Ujraná</placeName>ig. Naponta 28 km-t kellett oda és vissza megtenni a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">munkahely</term>ig. Amennyi időnk még volt csak annyit
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">dolgoztunk</term>. A levelezésünket a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">század</term>parancsnok megsemmisítette, a menőt és a
+				jövőt szintén úgy, hogy a W. C. -ben szedtük össze a levelek darabjait, amit összetéptek. Egy kellemetlenségem volt még <persName
+					ref="#ehri_et_fejs_karoly">Fejős Károly</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">hadapród-őrmester</term>rel(<placeName
+					ref="http://www.geonames.org/3044760/szekszard.html">Szekszárd</placeName>) azért, mert <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">élelem</term>ért mentem- <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">elvert</term> és fenéken rúgott. Erdélyi
+				visszavonulásnál <placeName ref="http://www.geonames.org/668090/comuna-sant.html">Ujradnától</placeName> egészen <placeName
+					ref="http://www.geonames.org/724443/kosice.html">Kassáig</placeName> mentünk gyalog minden élelem nélkül. <placeName
+					ref="http://www.geonames.org/724443/kosice.html">Kassára</placeName> megérkeztünk december 20 -án. Rettenetesen össze voltunk
+				zsúfolva a <placeName ref="http://www.geonames.org/724443/kosice.html">kassa</placeName>i téglagyárban. Hideg volt, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">élelem nélkül</term> sokat szenvedtünk. Majdnem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">megfagytunk</term>Nagyon hírhedt volt a <placeName
+					ref="http://www.geonames.org/724443/kosice.html">kassa</placeName>i téglagyár. 7000 ember volt itt, rengetegen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">fagytak meg</term> és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">élelmet</term> nem kaptunk. Decemberben <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">bevagoníroztak</term>, 75 -en voltunk egy vagonban,
+				nem többen, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">élelmet</term> egyszer kaptunk naponta
+				még pedig úgy, hogy egyik nap egy ebédet, másnap egy vacsorát, harmadnap pedig reggelit. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Vizet egyáltalán nem</term> kaptunk és nem is tudtunk
+				vételezni, mert már le volt zárva a vagon. Egyébként a vagon tele volt <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">tetű</term>vel, az emberek egymás után <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">beteg</term>edtek meg. Szükségleteinket nem tudtuk
+				másképp végezni vagy a csajkába vagy más edénybe. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject"
+					>flekk</term> jelei már itt mutatkoztak a vagonban. Mire megérkeztünk 1 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">halott</term> volt, a mellettem lévő fiú.Az utunk 9
+				napig tartott <placeName ref="http://www.geonames.org/7872685/donnerskirchen.html">Donnerskirchen</placeName>ig. Megérkeztünk éjjel 2
+				órakor, 9 napos út után és reggel 6- kor munkába vittek a <term type="subject" ref="#ehri_et_nationalities_germans">németek</term>.
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Sáncmunkát</term>, binkermunkát végeztünk és sem
+				tisztálkodási lehetőség nem volt, sem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+				>ruházat</term>unk nem volt úgyhogy volt olyan aki mezítláb ment ki <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">munkába</term>. Itt egy őrmester, dacára, hogy 40 fok lázas voltam, kizavart mezítláb a hóba és egy csonttal
+				arccsontomat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">betörte</term>. Itt 9 napig voltunk,
+				ekkor <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">megszöktem</term> 4 barátommalegyütt egy
+				szolgálati jegynek a birtokában, amely hamis volt. Január 7 -én átléptük a német-magyar határt, elkerültünk <placeName
+					ref="http://www.geonames.org/3045190/sopron.html">Sopron</placeName>ba.<placeName
+					ref="http://www.geonames.org/3045190/sopron.html">Sopron</placeName>ból elmentünk <placeName
+					ref="http://www.geonames.org/3052009/gyor.html">Győr</placeName>be, itt szerencsére megkaptuk a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">flekk</term>et, ami 5 hetet jelentett, amit <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">kórház</term>ban töltöttünk el március 1 -ig. Itt
+				kihúztuk a telet és jó dolgunk volt a <placeName ref="http://www.geonames.org/3052009/gyor.html">győr</placeName>i <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">közkórház</term>ban. Később egy <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">nyilas</orgName> főhadnagy parancsára el kellett hagyni a kórházat
+				március 1-jén és bekerültünk a <placeName ref="http://www.geonames.org/3052009/gyor.html">győr</placeName>i <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">gyűjtő és fogolytábor</term>ba, ahonnan március 20 -án
+				elvittek <placeName ref="http://www.geonames.org/2766162/schandorf.html">Schandorf</placeName>ba. Az őrmester aki átvitt mindenből
+				kifosztott, még az a kevés ami eddig megmaradt, azt is elvette, borotválkozó eszközöket, szappant stb. Március 20 -án elvittek
+					<placeName ref="http://www.geonames.org/3044310/szombathely.html">Szombathely</placeName>re, itt <pb n="3"
+					facs="EHRI-ET-DEGOB1640_03.jpg"/> újra átvizsgálták a holmikat és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">kifosztottak</term>, mindössze a pokrócot hagyták meg.
+				Ezután mentünk át gyalog menetben <placeName ref="http://www.geonames.org/2766162/schandorf.html">Schandorf</placeName>ba. Itt
+				egyetlen egy pincében 750- en voltunk összezsúfolva.<placeName ref="http://www.geonames.org/2766162/schandorf.html"
+					>Schandorf</placeName>ban sáncmunkát végeztünk és bunkereket ástunk. Napi <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">munka</term>idő: reggel 7- től, délután 4 -ig. Közben
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">bántalmazás</term>ok, ütések, verések. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Innen</term> elmentem, de később hallottam,
+				összetalálkoztam fiúkkal, akik mondták, hogy szörnyű volt később a helyzet, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">agyonlőttek</term> embereket. A <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábor</term>nak 750 -es létszámából megmaradt 250
+				ember. Az én szakaszomból 40 ember közül 8 maradt életben. A többiek mind <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">flekk</term>ben pusztultak el. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Orvos</term> egyáltalán nem volt. Egy <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">kórház</term>nak kihelyezett helyiségben tartották
+				ezeket az embereket, ezek azonban elevenen halálra voltak ítélve. Egy állatorvos kezelte őket, de neki sem volt gyógyszere és az
+				emberek ott <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">pusztultak</term>: <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">éhen</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Koszt</term> egyébként is nagyon kevés volt. <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Orosz</orgName> nyomásra elindultunk<placeName
+					ref="http://www.geonames.org/2766162/schandorf.html"> </placeName><placeName ref="http://www.geonames.org/2766162/schandorf.html"
+					>Schandorf</placeName>ból és 16 napot <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">mentünk
+					gyalog</term>. Az úton 6 ízben kaptunk enni, összesen 16 nap alatt. Aki kifáradt azt <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">agyonlőtték</term>, aki a sorból kiállt; agyonlőtték
+				és rettenetes módon bántak belünk. Út közben átlag naponta 40 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+					type="subject">halott</term>unk volt. Április 7 -én <placeName ref="http://www.geonames.org/7872422/eisenerz.html"
+					>Eisenerz</placeName>nél- az egyik legnagyobb vas- és kohógyár város az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS- isták</term> 150 zsidót géppisztollyal az erdőben
+				kilőttek minden ok nélkül. A hátam mögött kb. 10 centivel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">agyonlőtték</term> a barátomat is, de nekünk tovább kellett menni, nem állhattunk meg. Így érkeztünk meg <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName>be.<placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName>ban <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">sátor</term>ban laktunk. Egy éjszakai <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject">bombatámadás</term> alkalmával 9 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">halott</term> volt és 20 sebesült. Egyébként is egy
+				szörnyű dolog történt ami lelkileg is nagyon hatott rám: egy 50 éves barátomat nagyon megverte egyik <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">felügyelő</term>, mire én nekimentem. Ő bepanaszolt
+				és az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> úgy megvert engem, hogy bordatörést
+				szenvedtem és a bal kisujjam csontját is eltörte. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+					>koszt</term> rettenetes gyenge volt. Reggelire két deci keserű <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831"
+					type="subject">fekete</term>, délben <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+					>répalé</term> és este 10 deka <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">kenyér</term>
+				volt az egész napi táplálék. Ilyen táplálkozás mellett természetesen nagyon legyengültünk és sok volt a halálozás is. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">Flekk</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">éhség</term> és <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">agyonverés</term> voltak a halálokok.<placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName>ből egy 4 napos úton mentünk
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-584" type="camp">Gunskirchen</placeName>be. Út közben szintén
+				sokat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">éheztünk</term>, füvet ettünk, csalánt és
+				leveleket. Ha valakit észre vettek, hogy kilépett a sorból, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">agyonlőtték</term>, ha gyenge volt és nem tudott tovább <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">menni</term>, azt is lelőtték, úgyhogy az úton nagyon
+				sok <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">halott</term> volt. 50 sírásót küldtek előre,
+				akik megástak sírokat. Egy sírásónak a munkája nem tetszett az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					type="subject">SS-</term>nek beállította a sírba és addig verte, amíg <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">meg nem halt</term>. A koponyája egész belső tartalmát
+				látni lehetett, annyira megverte. Szörnyű látvány volt. A többiek ezután betemették. <pb n="4" facs="EHRI-ET-DEGOB1640_04.jpg"/>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-584" type="camp">Gunskirchen</placeName>ben megérkezve fabarakkokba
+				laktunk. 500 létszámú <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barakk</term>ba 2000 embert
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">szorítottak be</term>. Rettenetes volt a
+				zsúfoltság ott, lefeküdni nem tudtunk, hátizsákon ülve aludtunk. Később megtudtam az <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004289">amerikaiak</orgName>tól, hogy a felboncolt hullákban arzént
+				találtak, kis mennyiségben tettek mindig az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>ételek</term>be, ez vezetett az általános <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-494" type="subject"
+					>hasmenés</term>re. Ha valaki ment W. C-re de nem jutott odáig, mert az <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">őrök</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">lelőtték</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Tetvesek</term> voltunk rettenetesen, víz nem volt
+				nemhogy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">mosakodni</term>, de még <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">inni</term> sem. Ha nagy néha kaptunk egy deci <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">vizet</term>, akkor szabad választás volt: az ember
+				megihatta vagy elmosakodhatta. Az <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">ennivaló</term>
+				állandóan <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">marharépaleves</term> volt és kb. 7 deka
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">kenyér</term>. Itt nem bántalmaztak, hanem
+				egyszerűen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">lelőtték</term>, ha nem tetszett valaki,
+				ha valami kifogás volt ellene. Egy ízben hullát vittünk, az egyik fiú elfáradt és letette, mielőtt még szabad lett volna, nem bírta
+				már a gyengeségtől vinni, erre <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">lelőtték</term>.
+				Naponta átlag 150-200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">halott</term> volt, teljesen
+				legyengült emberek, akik éhségtől végelgyengülésben <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+					>haltak meg</term> vagy a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">flekk</term> végzett
+				velük. Ezeket azután el kellett temetni egy gödörbe. Ezt a gödröt találták meg az <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004289">amerikaiak</orgName>, amikor megállapították az arzén-mérgezést.
+					<date when="1945-05-04">1945. május 4</date> -én az <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004289"
+					>amerikaiak felszabadítottak</orgName>, és ekkor már jobb dolgunk volt. Fentieket saját tapasztalatból adtam elő.</p>
+		</body>
+	</text>
+</TEI>

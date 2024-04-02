@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL16560771_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Magda Szanto, life in Budapest in a 'Jewish house' then a Swiss safe house in 1944</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 771. <textLang
+						mainLang="de">Original in German.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>London</placeName>
+						<location>
+							<geo>51.50853 -0.12574</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2643743/london.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/London"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Switzerland</placeName>
+						<location>
+							<geo>47.00016 8.01427</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Switzerland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Italy</placeName>
+						<location>
+							<geo>42.83333 12.83333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3175395/repubblica-italiana.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Italy"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Romania</placeName>
+						<location>
+							<geo>46 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798549/romania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Romania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Russia</placeName>
+						<location>
+							<geo>60 100</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2017370/russian-federation.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Russia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Balkan Peninsula</placeName>
+						<location>
+							<geo>44 23</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/685608/balkan-peninsula.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Balkans"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gödöllő</placeName>
+						<location>
+							<geo>47.59657 19.35515</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3052236/goedoello.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/G%C3%B6d%C3%B6ll%C5%91"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Szeged</placeName>
+						<location>
+							<geo>46.253 20.14824</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/715429/szeged.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Szeged"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Daily life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-809"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish measures</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-337"/>
+						</linkGrp><note><p>Anti-Jewish acts performed with or without appropriate legislation.</p></note></item>
+					<item><name>Marking of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-338"/>
+						</linkGrp><note><p>For non-Jews see "Armband (for non Jews)"</p></note></item>
+					<item><name>Curfew</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-666"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Starvation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-570"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Jewish houses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-553"/>
+						</linkGrp><note><p>Refers to "Judenhaeuser" in Germany and the special houses in Hungary.</p></note></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Underground</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-242"/>
+						</linkGrp></item>
+					<item><name>Embassies and consulates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+						</linkGrp></item>
+					<item><name>Passports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+						</linkGrp></item>
+					<item><name>Destruction</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-356"/>
+						</linkGrp></item>
+					<item><name>Newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1069"/>
+						</linkGrp></item>
+					<item><name>Campaigns and battles</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1441"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Fascist movements and organisations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-964"/>
+						</linkGrp></item>
+					<item><name>Hungarian occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1034"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Uniforms</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1091"/>
+						</linkGrp></item>
+					<item><name>Search for criminals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1224"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Legal proceedings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1129"/>
+						</linkGrp><note><p>Refers to legal acts (Rechtshandlungen) and court proceedings (Gerichtsverfahren).</p></note></item>
+					<item><name>Radio and television</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-849"/>
+						</linkGrp></item>
+					<item><name>Occupation authorities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1032"/>
+						</linkGrp></item>
+					<item><name>Radio broadcasts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-850"/>
+						</linkGrp></item>
+					<item><name>Military Officers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-886"/>
+						</linkGrp></item>
+					<item><name>Concern for relatives and friends</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-196"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Victims </name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-339"/>
+						</linkGrp></item>
+					<item><name>Bank accounts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-931"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Decrees and orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-951"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Forced labourers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-557"/>
+						</linkGrp></item>
+					<item><name>Finance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-934"/>
+						</linkGrp></item>
+					<item><name>Attacks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-604"/>
+						</linkGrp></item>
+					<item><name>Extortions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-630"/>
+						</linkGrp></item>
+					<item><name>Transportation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-939"/>
+						</linkGrp></item>
+					<item><name>Sieges</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1102"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Black market</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1051"/>
+						</linkGrp></item>
+					<item><name>Health</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-791"/>
+						</linkGrp></item>
+					<item><name>Medical personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-286"/>
+						</linkGrp></item>
+					<item><name>Healthcare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-280"/>
+						</linkGrp></item>
+					<item><name>Help to Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-297"/>
+						</linkGrp></item>
+					<item><name>Health institutions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-281"/>
+						</linkGrp></item>
+					<item><name>Medicine</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-285"/>
+						</linkGrp></item>
+					<item><name>Gendarmes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1125"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Sanitation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-295"/>
+						</linkGrp></item>
+					<item><name>Personal documentation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1137"/>
+						</linkGrp></item>
+					<item><name>Fear</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-829"/>
+						</linkGrp></item>
+					<item><name>Mutual help</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-847"/>
+						</linkGrp></item>
+					<item><name>Conversion (religious)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-742"/>
+						</linkGrp></item>
+					<item><name>Persecution of Christians of Jewish origin</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-648"/>
+						</linkGrp></item>
+					<item><name>Protestant Churches</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-770"/>
+						</linkGrp></item>
+					<item><name>Clergy</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-731"/>
+						</linkGrp></item>
+					<item><name>Religion and faith</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-724"/>
+						</linkGrp></item>
+					<item><name>Racial laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-365"/>
+						</linkGrp></item>
+					<item><name>Axis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1027"/>
+						</linkGrp></item>
+					<item><name>Kidnapping</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-636"/>
+						</linkGrp></item>
+					<item><name>Laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-950"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>False identity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-206"/>
+						</linkGrp></item>
+					<item><name>Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Investigations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1135"/>
+						</linkGrp></item>
+					<item><name>Release from detention</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-619"/>
+						</linkGrp></item>
+					<item><name>Smuggling</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-266"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-746"/>
+						</linkGrp></item>
+					<item><name>Cemeteries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-747"/>
+						</linkGrp></item>
+					<item><name>Jewish cemeteries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-750"/>
+						</linkGrp></item>
+					<item><name>Exhumations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1228"/>
+						</linkGrp></item>
+					<item><name>Mass graves</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-539"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item><name>Memorial sites</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-716"/>
+						</linkGrp></item>
+					<item><name>Fascism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1014"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_szanto_magda">
+						<persName>Szanto, Magda (née Ipolyi)</persName>
+					</person>
+					<person>
+						<persName>Eichmann, Adolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000564"/>
+						</linkGrp>
+						<note><p>German SS officer in charge of “Jewish affairs” at the Security Service from 1935. From 1941 he was the head of the
+								Jewish Affairs Department of the Reich Security Main Office and he was in charge of deportations from various European
+								destinations to ghettos and death camps. In March 1944 he arrived in Budapest with his special unit and they arranged
+								the ghettoization and deportation of the Hungarian Jews. After the war he fled to Argentina. Israeli agents abducted
+								him in 1960 and took him to Jerusalem, where he was tried and he was executed in 1962. </p></note>
+					</person>
+					<person>
+						<persName>Horthy, Miklós</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000186"/>
+						</linkGrp>
+						<note><p>18/06/1868-09/02/1957</p><p>Hungarian military officer and politician, the Regent of Hungary between March 1, 1920,
+								and October 16, 1944. After the coup d'état of the Arrow Cross Party, he was under German house arrest. After the end
+								of the war he settled in Portugal.</p></note>
+					</person>
+					<person xml:id="ehri_et_ipolyi_ilka">
+						<persName>Ipolyi, Ilka (mother of narator)</persName>
+						<note><p>Born 30.9.1875.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+						<note><p>Founded in 1935</p><p>Wehrmacht was the Name for the German army after 1935. Often in competition for supplies and
+								authority with the Waffen-SS, the Wehrmacht also assisted the SS in carrying out the Final Solution. It was involved
+								in activities in Poland and the Soviet Union, which violated the Geneva Convention, such as mass killings of hostages,
+								innocent civilians, and prisoners of war. The Wehrmacht also kidnapped children in Ruthenia for Lebensborn.</p></note>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+					<org>
+						<orgName>Jewish Community</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1383"/>
+						</linkGrp>
+						<note><p>In 1933, the Jewish population of Europe stood at over nine million. Most European Jews lived in countries that Nazi
+								Germany would occupy or influence during World War II. By 1945, the Germans and their collaborators killed nearly two
+								out of every three European Jews as part of the "Final Solution," the Nazi policy to murder the Jews of
+							Europe.</p></note>
+					</org>
+					<org>
+						<orgName>Nyilaskeresztes Párt - Hungarista Mozgalom</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-474"/>
+						</linkGrp>
+						<note><p>(1935) 1939-1945</p><p>Arrow Cross Party was the most popular right-wing extremist movement in Hungary before and
+								during WWII. The party was founded in 1935 under the name of Party of National Will. Its leader, former officer of the
+								General Staff, Ferenc Szálasi was imprisoned (1938-1940) and his party dissolved several times, however, managed to
+								return to political life. In the last pre-war elections in 1939 the Arrow Cross gained 29 seats, making it the second
+								largest party in Parliament. The party was re-named to Arrow Cross Party-Hungarist Movement in 1942. After Regent
+								Miklós Horthy’s attempt to extricate from war on October 15, 1944, the Arrow Cross Party assumed power with Nazi
+								support. From October 16, 1944, until March 28, 1945, Ferenc Szálasi was prime minister of Hungary as well as its
+								plenipotentiary head of state, bearing the title “Leader of the Nation.” Paramilitary forces of the Party, known as
+								Party Service (pártszolgálat) and Armed National Service (fegyveres nemzetszolgálat) committed several atrocities and
+								war crimes during their short reign, which claimed the lives of thousands of people, mostly Jews and Roma. Following
+								the war, Szálasi and several other Arrow Cross leaders were sentenced to death and executed.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1958">1958</date>, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-809">Daily
+					life</term>, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-262">Hiding</term>, <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>
+				<idno>EHRI-ET-WL16560771</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Account of Magda Szanto on the rapid decree of antisemitic regulations in Budapest and how they affected daily life, for example
+					shopping and robbery by German soldiers and ethnic Germans. She describes the difficulties of communicating with her husband in a
+					forced labor camp. She had to move to a “Jewish house”, then to a Swiss safe house. Szanto went into hiding, was caught, and later
+					released thanks to false papers, all the while the Russians were advancing.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-EL1650771_01.jpg"/>
+			<p>EW 12 15630-15640</p>
+			<p> MASTER - INDEX (P - Scheme)</p>
+			<p>1. Index Number: P.III.i.(<placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> No.771</p>
+			<p>2. Title of Document: EVENTS IN <placeName ref="http://www.geonames.org/3054643/budapest.html">BUDAPEST</placeName> IN 1944</p>
+			<p>3. Date: <date when="1944-03-19">19. March 1944</date> - <date when="1945-01-18">18. January 1945</date></p>
+			<p>4. Number of pages: 11</p>
+			<p>5. Author or Source: Mrs. <persName ref="#ehri_et_szanto_magda">SZANTO, Magda</persName>, <placeName
+					ref="http://www.geonames.org/2643743/london.html">London</placeName></p>
+			<p>6. Recorded by: herself in <date when="1958-01">January 1958</date></p>
+			<p>7. Received from: Mrs. <persName ref="#ehri_et_szanto_magda">Szanto</persName>, <date when="1958-01">January 1958</date></p>
+			<p>8. Form and Contents: Mrs. <persName ref="#ehri_et_szanto_magda">S.</persName>, a former resident of <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">BUDAPEST</placeName>, gives a vivid picture of the sufferings of the
+					<placeName ref="http://www.geonames.org/719819/hungary.html">HUNGARIAN</placeName> JEWS which started immediately after the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">Occupation</term> in <date when="1944-03">March
+					1944</date>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">Anti-Jewish Measures</term>
+				followed each other in rapid succession: Wearing of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338"
+					type="subject">DAVID’S SHIELD</term>; <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-666" type="subject"
+					>CURFEW</term>; <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">FORCED LABOUR</term>; ( first
+				for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, later also for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> up to 45 years); <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">STARVATION RATIONS</term>;<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">DEPORTATION</term> OF THE JEWS from the Provinces;
+				removal of all Jews into the so-called <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject"
+						>JUDENHAEUSER</term></q> where sometimes up to 20 persons had to occupy one <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> and to sleep on chairs. In <date
+					when="1944-10">October 1944</date> she and her husband, who succeeded in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaping</term> from the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Forced Labour</term> Company, went <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-242" type="subject">underground</term>. The <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">SWISS</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">CONSULATE</term> supplied them with the so-called
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">SCHUTZPÄSSEN</term></q>; They moved into
+				one of their <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">SCHUTZHÄUSER</term></q>. But soon
+				these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> ceased to be regognised.
+				With illegal papers, and simulating <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">illness</term>,
+				they found at last refuge in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">clinic</term>. Her
+				mother and father were taken to the newly founded <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>GHETTO</term> where her mother <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">died</term> from
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">starvation</term> and exhaustion. (After the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Ghetto</term> was founded all the inhabitants of
+				the <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhӓuser</term></q> were moved into
+				it).</p>
+			<p>9. Remarks: cp. reports: P.III.h. (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Ghetto</term>
+				<placeName ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName>) No.600</p>
+			<p>P.III.c. (<placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>) No. 583</p>
+			<p>P.III.i. (<placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>) Nos. 578,598,599,763.</p>
+			<pb n="2" facs="EHRI-ET-EL1650771_02.jpg"/>
+			<p>P.III. i. ( <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> ) No. 771</p>
+			<p>Erlebnisse einer <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Juedin im Jahre <date when="1944"
+					>1944</date>.</p>
+			<p>Der <date when="1944-03-19">19. Maerz 1944</date> war ein schwarzer Tag in der Geschichte <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Ungarns</placeName>, An diesem Tage besetzten <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsche</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">Truppen</term> das Land, eine <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>-Abteilung unter Fuehrung des beruechtigten
+				Kommissars <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> schlug in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName> ihr Quartier auf und es begann eine Tragoedie, die mit der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">Vernichtung</term> eines grossen Teiles der
+					<placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Judenheit und mit der Verwuestung meiner
+				schoenen Heimat endete.</p>
+			<p>Ueber die geschichtlichen Ereignisse dieser traurigen Zeit ist Vieles berichtet und geschrieben worden. Ich will in Folgendem ueber
+				meine Erlebnisse als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frau</term> berichten und damit
+				einen Ausschnitt aus dem Leben der <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Juedinnen im
+				Schicksals jahre <date when="1944">1944</date> geben.</p>
+			<p>Der genannte Tag war ein Sonntag. Wir erwachten des Morgens, wie gewoehnlich, etwas spaeter als an Wochentagen; nichts deutete darauf
+				hin, dass dieser Tag eine besondere Bedeutung haben wuerde. Auch die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">Zeitungen</term> brachten nichts Besonderes - die
+				ueblichen Nachrichten und Berichte vom <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject"
+					>Kriegsschauplatz</term>, an die man bereits gewoehnt war.</p>
+			<p>Aber gegen 11 Uhr vormittags laeutete unser Nachbar an der Tuer und fragte mit erschrockenem Gesicht, ob wir Nichts gehoert haetten. In
+				der Stadt werde davon gesprochen, dass <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>deutsches</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">Militaer</term> einmarschiert sei und dass die
+					<placeName ref="http://www.geonames.org/719819/hungary.html">ungarische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Regierung</term> abgedankt habe.</p>
+			<p>Wir hatten keine Ahnung. Dass <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsche</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">Soldaten</term> in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> einmarschierten und durch <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> durchmarschierten, war im Laufe der verflossenen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">Kriegsjahre</term> mehrfach vorgekommen und schien -
+				da <placeName ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">kriegsfuehrendes</term> Land auf der Seite des
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Reiches</term> und <placeName
+					ref="http://www.geonames.org/3175395/repubblica-italiana.html">Italiens</placeName> war - nicht verwunderlich. Wichtige
+				Verbindungslinien nach <placeName ref="http://www.geonames.org/798549/romania.html">Rumaenien</placeName>, nach <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russland</placeName> und nach dem <placeName
+					ref="http://www.geonames.org/685608/balkan-peninsula.html">Balkan</placeName> fuehrten durch <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> hindurch. Aber in die inneren Verhaeltnisse hatten sie sich
+				bisher direkt nicht eingemischt. Was an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject"
+					>pro-faschistischen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">judenfeindlichen
+					Massnahmen</term> in <placeName ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> bisher geschen war, das war
+				nicht auf <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">militaerische</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Intervention</term> sondern auf <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">diplomatischen</term> Druck von <placeName
+					ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> aus erfolgt. Es war schmerzlich gewesen und hatte Sorge und
+				Trauer in viele juedische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familien</term> gebracht -
+				aber das Gros der <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Juden war bisher nicht
+				betroffen worden; die Substanz der <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Judenheit war
+				- wenn auch in ihren wirtschaft-</p>
+			<pb n="3" facs="EHRI-ET-EL1650771_03.jpg"/>
+			<p>lichen Positionen ersehuettert - noch intakt. Im Grossen und Ganzen und in groben Umrissen gesehen, konnte man sagen, dass das
+					<placeName ref="http://www.geonames.org/719819/hungary.html">ungarische</placeName> Judentum jetzt etwa dort stand, wo das
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsche</placeName> Judentum etwa in den Jahen
+					<date when="1936">1936</date> und <date when="1937">1937</date> gestanden hatte-mit dem einen grossen Unterschied, dass angesichts
+				der Ereignisse auf dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject">Kriegsschauplatz</term> die
+				Goetzendaemmerung des Nazismus bereits zu verspueren war und damit die Hoffnungsfreudigkeit der <placeName
+					ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Juden, jetzt im Vorfruehling <date when="1944"
+					>1944</date> , einen Anschein von Berechtigung hatte.</p>
+			<p>Aber jetzt schlug der Blitz ein. Noch im Laufe des Tages wurde es offensichtlich, dass eine Katastrophe ganz grossen Ausmasses
+				eingetreten war oder wenigstens ihren Anfang genommen hatte. <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutsche</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmachts</orgName>- und <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">Uniformen</term> tauchten massenhaft im Strassenbild
+				auf. <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutsche</placeName> Autos rasten durch die
+				Stadt. Ein grosses <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hotel</term>, im Herzen der Stadt
+				gelegen, wurde von dem Stab der <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>Deutschen</placeName> belegt und <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>deutsche</placeName> Wachen zogen dort auf Posten. Die Redaktionsgebaeude der linksstehenden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">Zeitungen</term> wurden besetzt. Und eine Kommission
+				der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> erschien im Gebaeude der <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1383">Juedischen Gemeinde</orgName>.</p>
+			<p>Wie ein furchtbarer Albdruck legte sich der Terror ueber das ganze Land. Fuer uns <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> war es besonders schlimm, wagten wir uns
+				doch kaum auf die Strasse, um die noetigsten Einkaeufe zu machen. Von den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">Verordnungen</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">Massnahmen</term>, die in den naechsten Tagen und
+				Wochen wie ein Sturzbach ueber die Juden herniederprasselten, war eine der ersten und am meisten ins Auge fallenden die Verfuegung
+				ueber das Tragen des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Judensternes</term>. Sie trat
+				am <date when="1944-04-04">4. April</date> in Kraft. Es war genau vorgeschrieben, welches Format der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Stern</term> haben musste, aus welchem Material und in
+				welcher Farbe er zu verfertigen sei, wo er getragen werden musste. Uns <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> erwuchs die Aufgabe, aus gelbem Stoff
+				die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Sterne</term> fuer die ganze <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familie</term> zu schneidern. Bald war in der ganzen
+				Stadt kein entsprechender gelber Stoff mehr aufzutreiben. Spaeter wurden die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Sterne</term> fabrikmaessig hergestellt. Es war eine
+				gefaehrliche Sache, den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Stern</term> von der
+				vorgeschriebenen Form auch nur in der geringsten Weise abweichen zu lassen, denn wer den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Stern</term> nicht genau vorschriftsmaessig trug,
+				wurde von den auf <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsches</placeName> Geheiss in
+				den Strassen herumstreifenden <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1224" type="subject">Kriminalbeamten</term> sofort <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term>.</p>
+			<p>Neben den <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1129" type="subject">gesetzlichen</term></q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">Massnahmen</term> ging eine ganze Anzahl
+				individueller Einzel-Aktionen vor sich; die <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>deutschen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">Soldaten</term> machten in ihrer Freizeit die
+				Judenhatz zu einem Privatvergnuegen. Es wurde zu einem beliebten Sport, in einzelnen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Haeusern</term> die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> juedischer Mieter <q>abzukaemmen</q>
+				und dort wertvolle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Radio</term>-Apparate,
+				Photo-Apparate oder Juwelen zu <q>beschlagnahmen</q>. Die Fuehrer und Dolmetscher bei diesen</p>
+			<pb n="4" facs="EHRI-ET-EL1650771_04.jpg"/>
+			<p>Aktionen waren meist die in <placeName ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> zahlreich ansaessigen
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Volksdeutschen</placeName> Elemente, die
+				ueberhaupt sich jetzt in ihrem Element fuehlten und die Verbindungsleute zwischen den <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschen</placeName> und den <placeName
+					ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">Behoerden</term> bildeten. Sie machten bei den
+				Hausmeistern der einzelnen Haeuser die Namen der juedischen Mieter ausfindig und gingen dann zusammen mit den <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsche</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">Soldaten</term> von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> zu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term>.</p>
+			<p>Auch bei uns erschien in den ersten Apriltagen eine Gruppe von vier <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">Soldaten</term>. Sie erzwangen sich Eintritt in
+				unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> und suchten die Zimmer nach
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Radiogeraet</term> ab, weil - wie sie sagten
+					-<q>jeder Jude die feindlichen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject"
+					>Radio</term>-Sendungen</q> abhoere. Wir zeigten ihnen einen veralteten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Apparat</term> und da mein Mann ihnen in fliessendem
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutsch</placeName> erklaerte, dass man mit
+				diesem alten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Kasten</term> ueberhaupt keine
+				auslaendische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-850" type="subject">Station</term> empfangen koenne,
+				wurden sie etwas verwirrt und zogen schliesslich ab, nicht ohne wueste Drohungen ausgestossen zu haben. Sie gingen dann die uebrigen
+				juedischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hause</term> durch und ihrem Treiben wurde erst ein
+				Ende gesetzt, als ein hoeherer <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischer</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">Offizier</term> auf der Bildflaeche erschien, den
+				ein christlicher Nachbar schleunigst telephonisch herbeigerufen hatte. Der <placeName
+					ref="http://www.geonames.org/719819/hungary.html">ungarische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">Offizier</term> zeigte sich ungehalten ueber die
+					<q>individuelle</q> Aktion der <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>Deutschen</placeName>, andererseits wollte er auch nicht allzu auffaellig die Juden in Schutz nehmen. Immerhin genuegte der
+				Anblick seiner <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">Uniform</term>, um die <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschen</placeName> zu veranlassen, sich aus dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hause</term> zu entfernen. In dem anstossenden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Gebaeude</term>, in das sie sich daraufhin begaben,
+				hatten sie mehr Glueck und zogen, mit Beute hochbeladen ab.</p>
+			<p>Wenige Tage spaeter erschien eine aehnliche Gruppe <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>deutscher</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">Soldaten</term> in der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> meiner Eltern, einige Strassenzuege von
+				uns entfernt. Auch dort hatten sie auf Raub ausgesehen. Sie liessen einige Wertgegenstaende mit sich gehen. Schlimmer als dies war es
+				aber, dass meine leidende Mutter infolge des drohenden und gewalttaetigen Auftretens der <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschen</placeName> einen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Herzanfall</term> erlitt und fuer laengere Zeit
+				bettlaegerig wurde.</p>
+			<p>An Aufregungen und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-196" type="subject">Sorgen</term> waren diese Tage
+				reich. Fortwaehrend hoerten wir davon, dass <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject"
+					>Menschen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term> und interniert wurden, dass man die
+				Juden aus allen Provinzstaedten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">zusammentrieb</term>
+				und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportierte</term>. Ich hatte viele <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-196" type="subject">Verwandte</term> in der Provinz. Die meisten von ihnen
+				wurden in jener Zeit nach <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Konzentrationslagern</term> abtransportiert und nur
+				wenige von ihnen sind spaeter zurueckgekommen. Die Meisten fielen dem <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName> Nazi-Terror zum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term>.</p>
+			<pb n="5" facs="EHRI-ET-EL1650771_05.jpg"/>
+			<p>Im <date when="1944-05">Mai</date> wurde mein Mann zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+					type="subject">Arbeitsdienst</term> eingezogen. Das war ein harter Schlag fuer uns alle. Wussten wir doch aus den Erfahrungen
+				frueherer Jahre, dass die Behandlung und die Verpflegung der Juden beim <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitsdienst</term> schon immer schlecht gewesen war
+				- und diesmal war zu erwarten, dass es noch schlimmer sein wuerde. Und ebenso war das Schlimmste fuer die schutzlos zurueckbleibenden
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familienmitglieder</term> zu erwarten. Aus der
+				Provinz kamen bereits Nachrichten, dass die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject"
+					>Deportierung</term> der Juden in vollem Gange war. Es schien nur eine Frage der Zeit zu sein, dass auch die <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1383">Gemeinde</orgName> an die Reihe kommen wuerde. Inzwischen
+				prasselte eine Sturzflut von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">judenfeindlichen
+					Verordnungen und Dekreten</term> auf uns nieder. Sperrung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-931"
+					type="subject">Bankgutgaben</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject"
+					>Beschlagnahme</term> der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Radios</term> und der
+				Wertgegenstaende, Einschraenkung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject"
+					>Lebensmittelrationen</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">Reiseverbot</term>
+				und so weiter, jede Woche brachte eine neue <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject"
+					>judenfeindliche Massnahme</term>. Es schien in das Programm der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">Behoerden</term> hineinzupassen, dass man uns
+				juedische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familien</term> gerade jetzt der Maenner
+				durch Einziehung in den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitsdienst</term>
+				beraubte und dadurch die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>, Greise und
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinder</term> schutzlos zuerst dem Terror der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">behoerdlichen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">Verordnungen</term> und spaeter der Gefahr der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Deportierung</term> preisgab.</p>
+			<p>Durch das Auseinanderreissen der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject"
+					>Familienmitglieder</term> wurde auch das Existenzproblem fast unloesbar. An irgend einen geregelten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Broterwerb</term> war nicht mehr zu denken. Man musste
+				alles Entbehrliche verkaufen, um den - auf das Aeusserste eingeschraenkten Lebensunterhalt bestreiten zu koennen. Die voellig
+				Mittellosen unter unseren Glaubensgenossen waren auf die Unterstuetzung der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1383">Gemeinde</orgName> angewiesen. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familien</term> halfen einander aus. Eine lange Zeit
+				des Darbens und Entbehrens begann - und sie wrde immer schlimmer, bis sie sich schliesslich zum unertraeglichsten Hungerelend
+				steigerte.</p>
+			<p>Solange mein Gatte noch in den ersten Wochen des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Arbeitsdienstes</term> in <placeName ref="http://www.geonames.org/3052236/goedoello.html">Goedoelloe</placeName>, d. h. in der
+				Naehe der Hauptstadt stationiert war, konnte er noch gelegentlich mit einem <q>schwarzen</q> Urlaubsschein oder auf Grund einer
+				simulierten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Krankheit</term> nach <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName> hineinkommen und uns auch bei der im Juni folgenden
+				Zwangs-Umquartierung aus unseren <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> in
+				die <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaeuser</term></q> behilflich sein. Aber
+				diese Gelegenheiten wurden mit der Zeit immer schwieriger und spaerlicher und wir mussten nach anderen Mitteln und Wegen suchen, um
+				die Verbindung aufrechtzuerhalten. Auf die Post war kein Verlass. Es fanden sich aber in <placeName
+					ref="http://www.geonames.org/3052236/goedoello.html">Goedoelloe</placeName>, und spaeter auch in entfernteren Garnisonsorten,
+				einige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-557" type="subject">Bauernburschen</term>, die bereit waren, fuer
+				Geld und gute Worte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefe</term>, kleine Pakete,
+				Nachrichten usw. zu uebermitteln. Es wurde ein regelrechter Pendelverkehr organisiert. Diese halbwuechsigen Burschen, die mehrmals
+				woechentlich von <placeName ref="http://www.geonames.org/3052236/goedoello.html">Goedoelloe</placeName> nach <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName> und zurueck fuhren, um die Sendungen und Botschaften der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitsdienstleute</term> aus einer Kompanie an
+				ihre Gattinnen und Eltern in den <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaeusern</term> und zurueck zu ueberbringen,
+				wurden aber allmaehlich zu einer wahren Landplage. In dem Masse, wie sie</p>
+			<pb n="6" facs="EHRI-ET-EL1650771_06.jpg"/>
+			<p>sich der Wichtigkeit ihrer Rolle einerseits und der Schutzlosigkeit der Juden andererseits bewusst wurden, wuchs ihre Frechheit und
+				Begehrlichkeit. Sie forderten immer groessere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject"
+					>Geldbetraege</term> fuer ihre Botendienste, erpressten schliesslich in schamlosester Weise und erlaubten sich handgreifliche
+				Dreistigkeiten gegen die schutzlosen juedischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+					>Frauen</term>, denen sie die Botschaften ueber- brachten. Alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">Frauen</term>, die in einem <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject"
+						>Judenhause</term></q> auf diese Weise die Verbindung mit ihren Maennern aufrecht hielten, klagten hierueber und es wurde von
+				Tag zu Tag, von Woche zu Woche offensichtlicher, dass die Juden vollkommen vogelfreu solchen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-604" type="subject">Uebergriffen</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-630" type="subject">Erpressungen</term> ausgesetzt waren.</p>
+			<p>Die Tage der zwangsweisen Uebersiedlung aus den bisherigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">Wohnungen</term> in die sogenannten <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553"
+						type="subject">Judenhaeuser</term></q> (Mitte <date when="1944-07">Juni</date>) brachten die schwersten Pruefungen. Das Meiste
+				an Mobiliar und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hausrat</term> musste ohnedies
+				zurueckgebassen werden, aber selbst der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject"
+					>Transport</term> der unentbehrlichsten Gegenstaende stiess auf riesige Schwierigkeiten. Da innerhalb weniger Tage Zehntausende
+				von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Menschen</term> umsiedeln mussten, war es so
+				gut wie unmoeglich, Wagen aufzutreiben. So musste man denn die Lasten und Buendel selber schleppen. Wer einen Handwagen, einen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinderwagen</term> oder dergleichen auftreiben konnte,
+				der konnte sich noch gluecklich schaetzen. Ueberall sah man auf der Strasse vom fruehen Morgen bis zum spaeten Abend, bei gluehender
+				Sommerhitze, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>, Alte und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinder</term> schwer beladen sich hinschleppen. In den
+				neuen Quartieren, die alle mit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Menschen</term>
+				ueberfuellt waren, gab es meist gleich am ersten Tage Krach mit den uebrigen Mietern, mit den Hausmeistern, mit den Nachbarn.</p>
+			<p>Wir glaubten in eine Hoelle geraten zu sein, als wir in den <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553"
+						type="subject">Judenhaeusern</term></q> zum ersten Male erlebten, dass mehrere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familien</term> eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> teilen mussten. Und doch wurde auch das
+				immer noch schlimmer und schlimmer! Waehrend wir in diesen Tagen durchschnittlich sechs Personen in einem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Zimmer</term> waren, kam es spaeter so weit, dass bis
+				zu zwanzig Personen in einem Raum hausten - und die Ungluecklichen, die schliesslich ins <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Ghetto</term> gerieten, waren so zusammengepfercht,
+				dass sie sich nicht einmal zum Schlafen ausstrecken konnten, sondern auf Stuehlen sitzend oder an der Wand hockend die Zeit der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1102" type="subject">Belagerung</term> und der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject">Strassenschlachten</term> in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName> ueberdauern mussten.</p>
+			<p>Ein anderes Uebel, das die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Hausfrauen</term> bis zur
+				Verzweiflung brachte, war der Umstand, dass man die <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553"
+						type="subject">Judenhaeuser</term></q> nur in der Zeit von 11 Uhr vormittags bis 5 Uhr nachmittags verlassen durfte. (Diese
+				Ausgehzeit wurde spaeter sogar noch verkuerzt) Dadurch wurde zum Beispiel der Einkauf der notwendigsten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term> zu einer taeglich sich
+				wiederholenden Qual. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">Versorgung</term> der
+				Bevoelkerung wurde ohnedies in dem Masse immer schlechter, je naeher die Front rueckte. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term>, die auf dem Markt <pb n="7"
+					facs="EHRI-ET-EL1650771_07.jpg"/> und in die wenigen, noch geoeffneten Geschaefte kamen, waren meist schon in den fruehen
+				Mormittagsstunden ausverkauft. Wenn die Juedinnen nach 11 Uhr auf dem Markt erschienen, mussten sie sich mit den Resten begnuegen, die
+				uebrig geblieben waren. Kaum oeffneten sich die Tore der Judenhaeuser um 11 Uhr, so stuerzten die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Hausfrauen</term> aus diesen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Haeusern</term>, mit Einkaufstaschen und Netzen
+				bewaffnet, hinaus und eilten, die Strassen entlang, um noch etwas <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">Essbates</term> aufzustoebern. Von einem Geschaeft zum Andern ging die Jagd, in dem einen musste man vielleicht
+				stundenlang anstehen, in dem anderen gab es ein regelrechtes Handgemenge um irgendwelche Warenbestaende. Viele Geschaefte schlossen um
+				die Mittagsstunde und dann ging die Hetze am Nachmittag weiter. Natuerlich bluehte der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1051" type="subject">Schwarzhandel</term> und die Kaufleute hatten Manches
+				hinter dem Ladenpult versteckt, aber die Meisten von uns waren ohnedies im tiefsten Elend und konnten die teuren Aufgelder nicht
+				erschwingen.</p>
+			<p>So brachte jeder Tag nur neue Sorgen und neue Aufregungen. Ich lebte im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhause</term> zusammen mit meinen Eltern und
+				anderen Verwandten. Eines Tages, es war wohl im <date when="1944-07">Juli</date> oder <date when="1944-08">August</date>, half mir
+				mein damals schon siebzigjaehriger Vater beim Einkäufen in einem Lebensmittelgeschaeft. Es war ein grosses Gedraenge im Laden und
+				ploetzllch zersprang oder explodierte - genau war das nicht festzustellen - eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Sodawasser-Flasche</term>. Die Scherben <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">verletzten</term> meinen Vater an der rechten Hand und
+				drangen tief ins Fleisch ein. Das Blut lief in Stroemen; die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791"
+					type="subject">Verletzung</term> schien auf den ersten Blick schwerer zu sein, als es sich gluecklieherweise spaeter
+				herausstellte. Natuerlich war nirgends ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject"
+					>Arzt</term> oder auch nur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">Verbandszeug</term>
+				aufzutreiben. Mehrere Hausbewohner, die vielleicht haetten helfen koennen, verweigerten dem alten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term> mit dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">gelben Stern</term> jede <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term>, auch der Kaufmann selbst wollte sich
+				keine Ungelegenheiten schaffen und draengte ihn zur Tuer heraus. Das naechste Unfall-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-281" type="subject">Krankenhaus</term> war mindestens eine halbe Stunde
+				lang entfernt. Das Fahren im Auto war allen Juden durch eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339"
+					type="subject">Verordnung</term>, die kurz zuvor ergangen war, verboten. So nahm den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">Verletzten</term> kein Taxi und kein Gefaehrt auf.
+				Schliesslich erbarmte sich ein Radfahrer, der des Weges kam, und lud meinen Vater auf ein fuer <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">Warentransporte</term> bestimmtes Dreirad, Mit
+				erheblichem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Blutverlust</term> gelangte der
+				Verletzte auf diese Weise ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-281" type="subject">Krankenhaus</term>, wo
+				ihm endlich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">erste Hilfe</term> zuteil wurde, Er trug
+				spaeter noch monatelang den Arm in der Schlinge.</p>
+			<p>In der zweiten Haelfte <date when="1944-08">August</date> verbreitete sich eines Tages mit Blitzeseile das Geruecht, dass die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Deportierung</term> der <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName> Juden bevorstehe. Die Aufregung war ungeheuer.
+				Tatsaechlich war eine Aktion dieser Art geplant und die Stadt wimmelte von <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutscher</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> und von <placeName
+					ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">Gendarmen</term>. Die Aktion wurde in letzter
+				Stunde abgeblasen, doch wurden uns die Einzelheiten erst viel spaeter bekannt. Alle <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName> Juden standen in dieser Zeit Tag und Nacht bereit, mit
+				einem kleinen Buendel den Marsch zum Bahnhof und zu den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522"
+					type="subject">Waggons</term> anzutreten. Das Notwendigste wurde zusammengerafft und im Buendel verknotet - etwas <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Waesche</term>, einige <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">Seife</term> und Kamm, die wichtigsten. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1137" type="subject">Papiere</term> und Andenken, <pb n="8"
+					facs="EHRI-ET-EL1650771_08.jpg"/> und alles griffbereit nebem der Liegestatt verstaut. Fuer viele Wochen und Monate lang hat uns
+				dieses Buendel nicht mehr verlassen; es war zum sichtbaren Zeichen unseres Judenschicksals geworden. Jeder einzelne Jude im <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaus</term></q> hatte es stets neben sich,
+				jeder war Tag und Nacht <q>marschfertig</q> jeder lebte in staendiger <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-829" type="subject">Angst</term>, aus der Hoelle des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhauses</term> in ein noch furchtbareres Inferno
+				ziehen zu muessen.</p>
+			<p>Zur Ehre der <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Judenheit sei es gesagt, dass sie in
+				dieser schrecklichen Zeitspanne sich auch - von wenigen Ausnahmen abgesehen - charakterlich bewaehrt hat. Das zeigte sich in der
+				gegenseitigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-847" type="subject">Hilfsbereitschaft</term>, die die
+				einzelnen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">Familien</term> einander bezeigten, und
+				mit der die besser Gestellten den Aermeren aushalfen. Noch ein anderes kennzeichnendes Beispiel sei hierfuer angefuehrt. Im Laufe des
+				Sommers verbreitete sich das Geruecht, dass diejenigen Juden dem drohenden Schicksal der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Deportierung</term> entgehen werden, die bereit
+				waeren, sich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-742" type="subject">taufen</term> zu lassen. Obgleich
+				sowohl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-648" type="subject">katholische</term> wie <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-770" type="subject">proyestantische</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-731" type="subject">Geistliche</term> sich fanden, die die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-742" type="subject">Taufe</term> in abgekuerztem Verfahren vornahmen,
+				haben nur verhaeltnismaessig sehr wenige Juden diesen vermeintlichen Ausweg gewaehlt. Fuer die ganz ueberwiegende, ungeheure Mehrzahl
+				kam trotz der Groesse der Gefahr ein solcher Gedankengang ueberhaupt nicht in Frage. Uebrigens stellte sich das Geruecht als
+				vollkommen unbegruendet heraus. Bei all den Massnahmen und Exzessen der Folgezeit wurde kein Unterschied zwischen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-724" type="subject">Glaubensjuden</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">Rassenjuden</term> gemacht.</p>
+			<p>Nach dem <date when="1944-10-15">15. Oktober 1944</date> - jenem tragisch verlaufenen Tage, an dem der <placeName
+					ref="http://www.geonames.org/719819/hungary.html">ungarische</placeName> Reichsverweser <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000186">Horthy</persName> einen missglueckten Versuch zum Ausspringen
+				aus der Koalition der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Achsenmaechte</term>
+				unternahm, - verstaerkte sich der Terror gegen die Juden noch mehr. Die Ausgehzeit aus den <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaeusern</term></q> wurde verkuerzt. In
+				Wirklichkeit wagten wir uns aber so gut wie ueberhaupt nicht mehr heraus, weil man Gefahr lief, auf der Strasse von den Horden der
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzler</orgName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">aufgegriffen</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-636" type="subject">verschleppt</term> zu werden. In <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-829" type="subject">Angst</term> und Grauen hockten wir in unseren ueber
+				fuellten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Behausungen</term>. Barmherzige Seelen aus
+				der nichtjuedisehen Nachbarschaft steckten uns in der Abenddaemmerung hie und da <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term> zu. Die Postverbindung mit der
+				Aussenwelt geriet ins Stocken. Wir hoerten nichts mehr von unseren <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">Maennern</term>, die in der Provinz bei den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+					type="subject">Arbeitskompanien</term> waren. Dafuer aber begannen wir jetzt etwas anderes zu hoeren - den Kanonendonner von der
+				herannahenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject">Front</term>. Zuerst hoerten wir ihn
+				nur in den Naechten, dann auch am Tage, immer staerker und staerker, immer deutlicher und pausenloser, bis er schliesslich zu einer
+				ununterbrochenen Begleitmusik unseres Lebens in den folgenden vier Monaten wurde.</p>
+			<pb n="9" facs="EHRI-ET-EL1650771_09.jpg"/>
+			<p>Die neue <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzler</orgName>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Regierung</term> erliess unter ihren zahlreichen
+				Schreckensverordnungen in diesen Tagen auch ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject"
+					>Dekret</term>, das die Einberufung aller juedischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">Frauen</term> bis zu 45 Jahren zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Arbeitsdienst</term> verkuendete. Nach den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+					type="subject">Maennern</term> sollten jetzt also auch die juedischen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> an die Reihe kommen. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> des Bezirkes, in dem ich wohnte, sollten
+				sich an einem bestimmten Tage im Tattersall, in der Naehe des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940"
+					type="subject">Ostbahnhofes</term>, einstellen. Da die Desorganisation im Lande bereits weit fortgeschritten war und auf allen
+				Gebieten der Verwaltung grosse Kopflosigkeit, um nicht zu sagen Chaos, herrschte, war von einer listenweisen oder namenweisen
+				Musterung keine Rede mehr. Deshalb ignorierten viele juedische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+					type="subject">Frauen</term>, darunter auch ich, dieses <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339"
+					type="subject">Einberufungsdekret</term> ganz einfach. Wir waren uns voellig bewusst, dass wir damit einem sehr gefaehrlichen
+				Schritt wagten. Andererseits sahen wir eine noch groessere Gefahr darin, dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Einberufungsbefehl</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">Folge</term> zu leisten. Wer einmal in der Hand der
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzler</orgName> war, der konnte <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-636" type="subject">verschleppt</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportiert</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">getoetet</term> werden. Das <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaus</term></q> war zwar eine Hoelle und ein
+				staendiger Hort der Unsicherheit - aber unter den gegebenen Umstaenden immer noch relativ sicherer als die Strasse, der Tattersall
+				oder irgend ein anderer Punkt der Aussenwelt. Dass diese Erwaegung richtig war, zeigte die Folgezeit. Von den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und Maedchen, die in den Tattersall,
+				gingen, wurden fast alle entweder zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Zwangsarbeit</term> an den Befestigungigslinien. rund um <placeName ref="http://www.geonames.org/719819/hungary.html"
+					>Budapest</placeName> eingesetzt oder nach <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>deutschen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Konzentrationslagern</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportiert</term>. Sehr wenige kehrten ueberhaupt
+				zurueck.</p>
+			<p>Am <date when="1944-10-27">27. Oktober</date> langte, ueber Schleichwege kommend, mein Mann im <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhause</term></q> ein. Er hatte sich von der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeitskompanie</term> entfernt und gleichfalls
+				das <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaus</term></q> als noch
+				verhaeltnismaessig sicheesten Port angesehen. Aber wir waren uns Beide darueber klar, dass wir so gut wie vogelfrei waren.
+				Tatsaechlich haben wir von diesen Tagen bis Mitte <date when="1945-01">Januar</date>, als die <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russen</placeName> eintrafen, das Leben eines gehetzten Wildes
+				gefuehrt. Wir verschafften uns <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-206" type="subject">falsche
+					Papiere</term>, darunter auch das Attest eines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject"
+					>Arztes</term> mit beruehmtem Namen, der meinem Gatten eine schwere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Herzkrankheit</term> bescheinigte. Das half uns ueber
+				die ersten Razzien hinweg. Eine solche Razzia erreichte in den ersten Novembertagen unser <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">Judenhaus</term>. Wahllos wurden meherere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Maenner</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitsdienstpflichtigem</term> Alter fortgefuehrt, ja
+				auch einige aeltere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Personen</term> verschonte man
+				nicht. Als ein <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzler</orgName> unser <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Zimmer</term> betrat, konnte ich ihn unter Hinweis auf
+				meine hochbetagte Mutter, meinen Vaer, der den Arm in der Schlinge trug und meinen <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">herzkrank</term></q> im Bett liegenden Gatten
+				bewegen, uns in Ruhe zu lassen. Aber unseres Bleibens [sic!] in diesem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hause</term> war nicht mehrdarueber waren wir uns
+				klar. Wir verschafften uns die sogenannten <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+						>Schutzpaesse</term></q>, die um diese Zeit von dem <placeName ref="http://www.geonames.org/2658434/switzerland.html"
+					>Schweizer</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term> ausgegeben wurden und siedelten,
+				damit versehen, in ein sogenannttes Schutzhaus in einer benachbarten Strasse um. Hatten wir bisher, insgesamt sechs <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Menschen</term> in einem Raum gehaust, so mussten wir
+				jetzt, in unserer neuen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Behausung</term>, das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Zimmer</term> mit 12 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Personen</term>, teilen.</p>
+			<pb n="10" facs="EHRI-ET-EL1650771_10.jpg"/>
+			<p>Aber selbst hier konnten wir nicht lange bleiben. Ende <date when="1944-11">November</date> wurden wir von einer neuen Razzia
+				herausgeholt, unsere <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Schutzpaesse</term></q>
+				wurden fuer ungueltig erklaert und wir wurden im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject"
+					>Zuge</term>, zusammen mit vielen anderen, fortgefuehrt. Unterwegs gelang es uns, in der Dunkelheit zu entkommen; wir irrten
+				mehrere Tage umher, die Naechte bald hier bald da bei nichtjuedischen Freunden und Bekannten verbringend, wurden erneut <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">gefangen</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">fluechteten</term> wiederum und fanden schliesslich
+				Zuflucht in einer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Klinik</term>, wo wir uns in
+				zweifacher Weise verstellen mussten: Einmal hatten wir uns als Nichtjuden auszugeben und zum zweiten hatten wir eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Krankheit</term> zu simulieren.</p>
+			<p>Natuerlich hatten wir unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">gelben Sterne</term>
+				gleich bei der ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term> abgerissen und
+				fortgeworfen. Es war nicht einfach, beim Herumirren in den Strassen mit harmlosem Gesicht an den vielen <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzlern</orgName> vorbeizugehen, die ueberall herumlungerten
+				und herum streiften und nach verdaechtigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject"
+					>Personen</term> Ausschau hielten. Um mir selber Mut zu machen und um moeglichst harmlos zu erscheinen, pflegte ich bei solchen
+				Gelegenheiten ein munteres Liedchen traellernd und mit lachendem Gesicht die Strasse entlang zu gehen, waehrend in Wirklichkeit das
+				Herz vor <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-829" type="subject">Angst</term> fieberhaft klopfte. Besondere
+				Tapferkeit und Ausdauer hatte ich aufzubringen, als ich nach unserer erneuten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">Festnahme</term> von meinem Mann getrennt wurde und in
+				ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Haus</term> am Teleki Platz gebracht wurde, wo
+				lauter gefangene juedische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> unter
+				starker <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzlerbewachung</orgName> waren. Ich wies immer
+				wieder meine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-206" type="subject">falschen Papiere</term> vor und
+				behauptete, ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Fluechtling</term> aus der Provinz
+				zu sein, der irrtuemlich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">festgenommen</term> worden
+				sei. Aber die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzler</orgName> wussten nur zu gut, wie
+				viele <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-206" type="subject">gefaelschte Papiere</term>, im Umlauf waren
+				und wiesen mich barsch zurueck. Ich liess mich aber nicht abschrecken und verlangte immer wieder, vor den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term>-Offizier gefuehrt zu werden. Zehnmal
+				zurueckgewiesen, wich ich dennoch nicht von der Schwelle des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">Zimmers</term>, in dem sich die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject"
+					>Polizisten</term> befanden, die bekanntermassen nicht so fanatisch waren, wie die <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-474">Pfeilkreuzler</orgName>. Nach stundenlangem Warten,- <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hungernd</term>, frierend, voellig erschoepft - gelang
+				es mir endlich doch, vor den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">inspizierenden</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term>-Offizier zu gelangen. Ich brachte
+				noch so viel Kraft auf, dass ich bei ihm gegen unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598"
+					type="subject">Verhaftung</term>
+				<q>protestierte</q>. Er sah mich an, er sah meine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1137" type="subject"
+					>Papiere</term> aner wusste zweifellos gepau Bescheid. Aber er war wohlgesinnt. Er verfuegte meine sofortge <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">Freilassung</term> und gab mir zwei Begleiter mit, mit
+				denen ich dann meinen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term> aus dem
+				benachbarten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Haus</term> fuer gefangene juedische
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Maenner</term> herausholte.</p>
+			<p>Von meinen Eltern waren wir schon getrennt worden, als man uns aus dem <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Schutzhaus</term></q> herausholte. Sie wurden in
+				den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">Zug</term> der aelteren Leute eingereiht und ins
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Ghetto</term> gebracht. Wir brachten das spaeter
+				in Erfahrung und konnten auch durch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject"
+					>herausgeschmuggelte</term> Nachrichten ihre genaue Adresse feststellen. Obwohl selbst gehetzt, versuchten wir, mit ihnen die
+				Verbindung aufrechtzuerhalten. Einige opferbereite und wagemutige nichtjuedische Freunde erklaerten sich</p>
+			<pb n="11" facs="EHRI-ET-EL1650771_11.jpg"/>
+			<p>dankenswerterweise bereit, Botschaften ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+					>Ghetto</term> zu uebermitteln. Das war mit grossen Schwierigkeiten verbunden. Ein Versuch, ein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittelpaket</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">hineinzuschmuggeln</term>, scheiterte. Aber ein
+				guter Freund ueber brachte wenigstens einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject"
+					>Brief</term> und konnte persoenlich mit meinen Eltern sprechen. Er war der Letzte, der mir Gruesse von meiner Mutter
+				zurueckbrachte. Am Morgen des <date when="1945-01-18">18. Januar 1945</date> ist die Aermste vor <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hunger</term> und Erschoepfung <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">gestorben</term>.</p>
+			<p>Ich muss noch von dem traurigen Nachspiel berichten, das sich an diesen traurigen Fall knuepfte. In der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Klinik</term>, in der wir uns <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">verbargen</term> und die bereits am <date
+					when="1945-01-13">13. Januar</date> von den <placeName ref="http://www.geonames.org/2017370/russian-federation.html"
+					>Russen</placeName> besetzt worden war, erfuhren wir am <date when="1945-01-19">19. Januar</date>, dass das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Ghetto</term> am Vortage <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">befreit</term> worden sei. Sogleich machten wir uns
+				auf den Weg durch die voellig <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">verwuestete</term>, in
+				Truemmern liegende Stadt. Zwischen den Ruinen begegneten wir, auf halbem Wege, meinem Vater, der auf der Suche nach uns war. Er war so
+				voellig entkraeftet und um Jahrzehnte gealtert, dass ich ihn kaum erkannte Als er mir die furchtbare Nachricht mitteilte, brachen wir
+				Beide zusammen. Es dauerte eine geraume Weile, bis ich wieder zu mir kam. Inzwischen tobten am anderen Ende der Stadt immer noch die
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject">Kaempfe</term>. Grosse Feuersbruenste loderten.
+				Von irgend einem Bestattungswesen war in diesem Chaos natuerlich keine Rede. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Toten</term> lagen zu Tausenden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">unbeerdigt</term> auf den Strassen und zwischen den
+				Ruinen. Meine arme Mutter war im Keller des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject"
+					>Ghettohauses</term> aufgebahrt. Ich versuchte in den naechsten Tagen, irgendwo einen Sarg zu finden. Vergebliches Bemuehen. In
+				der ganzen grossen Ruinenstadt war kein Sarg aufzutreiben. Schliesslich machten mein Mann und ich uns auf den Weg, um auf einer
+				Tragbahre den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Leichnam</term> aus dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Ghetto</term> fortzubringen. Da die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Friedhoefe</term> weit ausserhalb der Stadt gelegen
+				und noch unter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject">Artilleriefeuer</term> -
+				unerreichbar waren, hatte man in diesen Tagen allgemein damit begonnen, die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Toten</term> an Ort und Stelle, auf Plaetzen und In
+				Paerken provisorisch zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">beerdigen</term>. Wir
+				wollten das im Garten der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Klinik</term> machen. Der
+				Weg war weit, eine tiefe Schneedecke breitete sich ueber die mit Truemmern uebersaeten Strassen, Mein Gatte und ein anderer <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term>, ein Hausmeister machten sich mit der
+				Tragbahre auf den Weg; aber sie waren beide vom der Unterernaehrung so entkraeftet, dass sie mit ihrer traurigen Last nicht weit
+				kamen. Unterwegs, zwischen all der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject"
+					>Zerstoerung</term> und dem Grauen, spielten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>Kinder</term> auf einem Platz mit einem Rodelschlitten. Wir borgten uns den Schlitten aus, bahrten den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Leichnam</term> auf und zogen ihn nun durch den Schnee
+				und zwischen den Ruinen bis zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Klinik</term>. Dort
+				wurde die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Tote</term>, neben all den Anderen, die
+				waehrend der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject">Kaempfe</term> dort <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">gestorben</term> waren provisorisch beigesetzt. Es war
+				beabsichtigt, sie spaeter-nlach Abschluss der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1441" type="subject"
+					>Kaempfe</term> - in einem ordentlichen Begaengnis nach dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750"
+					type="subject">Juedischen Friedhof</term> zu ueberfuehren und dort zur endlichen Ruhe zu bestatten.</p>
+			<pb n="12" facs="EHRI-ET-EL1650771_12.jpg"/>
+			<p>Aber es sollte anders kommen. Da in <placeName ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName> die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hungersnot</term> auch nach dem Ende der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1102" type="subject">Belagerung</term> noch kein Ende nahm und wir Beide
+				bis zum Aeussersten entkraeftet waren, gingen mein Mann und ich nach der Provinzstadt <placeName
+					ref="http://www.geonames.org/715429/szeged.html">Szeged</placeName>, wo die Verpflegungsverhaeltnisse besser waren. Mein Vater
+				wurde inzwischen in einem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-281" type="subject">Krankenhause</term>
+				untergebracht und kam langsam wieder zu Kraeften. Inzwischen begann - im Maerz - die Stadtverwaltung von <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Budapest</placeName>, die waehrend der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1102" type="subject">Belagerung</term> provisorisch Beigesetzten zu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1228" type="subject">exhumieren</term> und nach dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Zentralfriedhof</term> zu ueberfuehren. Als wir davon
+				erfuhren, eilten wir nach der <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Klinik</term> - es war aber bereits zu spaet.
+				Voellig chaotisch und ohne irgend Jemanden zu verstaendigen, hatte man mit den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1228" type="subject">Exhumierungen</term> gerade in diesem Bezirk zuerst
+				begonnen und alle meine Bemuehungen, den Weg zu rekonstruieren, wohin die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Ueberreste</term> der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Toten</term> gebracht worden waren, blieben
+				vergeblich. Wir brachten nur in Erfahrung, dass die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1228" type="subject"
+					>Exhumierten</term> auf dem <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Zentralfriedhof</term> in einem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">Massengrab</term> beerdigt waren.</p>
+			<p>Dort gibt jetzt ein symbolischer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">Grabhuegel</term>
+				Kunde vom Opfertod meiner lieben Mutter. In zwei <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapester</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term>, in der <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Vasvari Pal utca</placeName> und auf dem Ehrenhof des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Tempels</term> in der <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Dohany utca</placeName>, ist eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-716" type="subject">Gedenktaffel</term> fuer sie angebracht. Sie hiess
+					<persName ref="#ehri_et_ipolyi_ilka">Ilka Ipolyi</persName>, geborene <persName ref="#ehri_et_ipolyi_ilka">Bineter</persName> und
+				zaehlte 69 Jahre, als sie als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term> des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1014" type="subject">Faschismus</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">starb</term>.</p>
+			<p><persName ref="#ehri_et_szanto_magda">Magda Szanto</persName> (nëe <persName ref="#ehri_et_szanto_magda">Ipolyi</persName>), <date
+					when="1958-01-15">15 January 1958</date>.</p>
+		</body>
+	</text>
+</TEI>

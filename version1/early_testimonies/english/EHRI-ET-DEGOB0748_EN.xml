@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB0748_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>I. Á., male, on his deportation from Hungary to Ukraine in 1941, his labour service in the Hungarian army in 1943–1944 and his
+					deportation from Budapest to Sachsenhausen at the end of 1944</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 748. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Kamyanets-Podilsky</placeName>
+						<location>
+							<geo>48.6845 26.58559</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/706950/kamianets-podilskyi.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Kamianets-Podilskyi"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sachsenhausen concentration camp</placeName>
+						<location>
+							<geo>52.7662 13.2624</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-803"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hamburg</placeName>
+						<location>
+							<geo>53.57532 10.01534</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2911298/hamburg.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Hamburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Schwerin</placeName>
+						<location>
+							<geo>53.62937 11.41316</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2834282/schwerin.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Schwerin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Yasinya</placeName>
+						<location>
+							<geo>48.27937 24.36042</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/688365/yasinya.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Yasinia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Volovec</placeName>
+						<location>
+							<geo>49.20753 19.76299</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3081425/volovec.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Volovec_%28Tatra%29"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Jászberény</placeName>
+						<location>
+							<geo>47.5 19.91667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3050907/jaszbereny.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/J%C3%A1szber%C3%A9ny"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lübeck</placeName>
+						<location>
+							<geo>53.86893 10.68729</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2875601/luebeck.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/L%C3%BCbeck"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Prague</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Prague"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bratislava</placeName>
+						<location>
+							<geo>48.14816 17.10674</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3060972/bratislava.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Bratislava"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Anti-Jewish legislation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-335"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Death marches</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-517"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Hungarian occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1034"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Gendarmerie</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1124"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Labour battalions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-560"/>
+						</linkGrp><note><p>Hungarian and Romanian formations.</p></note></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_austrians"><name>Austrians (ascribed nationality)</name></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Arbeitskommando</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-489"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Starvation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-570"/>
+						</linkGrp></item>
+					<item><name>Air-raids</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1105"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_americans"><name>Americans (ascribed nationality)</name></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_czechs"><name>Czechs (ascribed nationality)</name></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Zionism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-906"/>
+						</linkGrp></item>
+				</list>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Siemens</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-005083"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-07-04">4. 7. 1945</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="http://www.geonames.org/706950/kamianets-podilskyi.html"
+					>Kamenets-Podolsk</placeName>, <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-803">Sachsenhausen</placeName>, <placeName
+					ref="http://www.geonames.org/2950159/berlin.html">Siemensstadt</placeName>, <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, <placeName
+					ref="http://www.geonames.org/2834282/schwerin.html">Schwerin</placeName>, <idno>EHRI-ET-DEGOB0748</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of 21-year-old I. Á. on the deportation of his family to Kamenets-Podolsk in 1941, the murder of his mother and siblings,
+					his escape and return to Budapest, his labor service in the Hungarian Army, the deportation of his unit from Budapest to
+					Sachsenhausen in December 1944, forced labor in Siemensstadt near Berlin, a death march at the end of the war to Hamburg, and his
+					liberation by US troops in Schwerin.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-DEGOB0748_01.jpg"/> The person in question has given us the following information: In <date when="1941"
+					>1941</date>, I was taken into Poland <note type="gloss">The testimony is not precise. The survivor was taken to the occupied zone
+					of the former Ukraine.</note> together with my father and six brothers, from where I managed to run away. When <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Hungary</term> was reunited with its historical parts
+				I was in <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, but I took days off to visit my parents
+				home, and we were all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> during these
+				two weeks into Poland <note type="gloss">The testimony is not precise. The survivor was taken to the occupied zone of the former
+					Ukraine.</note>. They crossed the borders with us and then let us free telling us to go wherever we wanted to. We crossed the
+				Polish <note type="gloss">The testimony is not precise. The survivor was taken to the occupied zone of the former Ukraine.</note>
+				border at <placeName ref="http://www.geonames.org/688365/yasinya.html">Kőrösmező</placeName>, we could not turn back as they would
+				have <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">killed</term> us but could continue in the
+				direction of the centre of the country. In Poland <note type="gloss">The testimony is not precise. The survivor was taken to the
+					occupied zone of the former Ukraine.</note> we got into a forest where the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> and <term type="subject"
+					ref="#ehri_et_nationalities_hungarians">Hungarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1124" type="subject">gendarmes</term> were shooting at us.
+				Unfortunately, I saw how they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">shot</term> my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">mother</term> and my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">brothers</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">sisters</term>. I managed to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">run away</term> and walked fast till <placeName
+					ref="http://www.geonames.org/3081425/volovec.html">Volóc</placeName>, this is how I got back to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1034" type="subject">Hungary</term>. Not much later, I came to my firm in
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Pest</placeName> but was summoned already at the end of <date
+					when="1943">1943</date>(<date when="1941">41</date>) to do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-560"
+					type="subject">labour service</term> in <placeName ref="http://www.geonames.org/3050907/jaszbereny.html">Jászberény</placeName>
+				where I passed five months before I was transferred into a company in <placeName ref="http://www.geonames.org/3054643/budapest.html"
+					>Pest</placeName>. From the end of <date when="1942-12">December 1942</date> till the end of <date when="1944-12">December
+					1944</date>, I was in <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> in an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-560" type="subject">anti-air raid company</term>, then I was put into an
+				unfamiliar company. Having entrained 75 of us in a car at <placeName ref="http://www.geonames.org/3054643/budapest.html"
+					>Józsefváros</placeName> railway station they carried to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-803"
+					>Sachsenhausen</placeName>. During the journey sitting <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207"
+					type="subject">people</term> kept swapping with standing ones as space was so little that we could not sit down all. We were
+				escorted by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1124" type="subject">gendarmes</term> till the <term
+					type="subject" ref="#ehri_et_nationalities_hungarians">Hungarian</term> border where they gave us to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. In the car someone committed <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">suicide</term>, and two weak <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> were trodden to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>. At the <term type="subject"
+					ref="#ehri_et_nationalities_austrians">Austrian</term> border they opened the doors and we got <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">zulag</term>. There were 3,500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> in our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> and the journey lasted ten days. The
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> was a collecting <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>. In <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-803">Sachsenhausen</placeName> they disinfected us, seized what they could
+				and dressed us in striped <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">clothes</term> and wooden
+				shoes. In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-803">Oranienburg</placeName> we were grouped according to
+				professions, this is how I got to <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin-Siemensstadt</placeName>, next
+				to <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>. Here they <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selected</term> the strong and the weak. I was put
+				into an outlying <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">kommando</term>, we carried iron
+				railway lines, railway sleepers, which was a very difficult job. For this <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> we had the worst possible <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food supply</term>. There was an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> foreman who got there because of
+				punishment. <pb n="2" facs="EHRI-ET-DEGOB0748_02.jpg"/> He was the one who distributed the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> giving us only three quarters of a litre
+				of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> instead of a litre, and stole also
+				from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> portions, so we became really
+				weak, many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hunger</term>, and often we ate also <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potato peels</term>. These foremen and block leaders
+				beat us with batons but we also suffered a lot of cold. One day I put a blanket under my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">clothes</term> but was noticed by the foreman who
+				reported it to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. They gripped my hands
+				and feet and gave me 100 blows, another time I got a slap so strong that the eardrum broke. A great number of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> because of cold, of maltreatment and of
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">starvation</term>, especially young boys. They
+				often <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject">bombed</term> the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-005083">Siemens</orgName> company, at the end the whole <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> burnt down so they took me back to
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-803">Sachsenhausen</placeName>. I stayed here 8 days when we
+				got an order to set off as the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Russians</orgName> were
+				already pretty close. We had to queue up immediately and leave but as we were the last <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> there was no <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> left for us. We started our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">march</term> on foot in the direction of <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, towards the sea, 40 kilometres a day. We were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">starving</term> so much that on the way we attacked
+				locust trees and finished all their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">leafs</term> but
+				we were not particularly choosy, we ate also <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>grass</term>. Once we noticed a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potato</term>
+				clamp and started to run to it but the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				shot at us and I got a bullet in the head. Those who were left behind on the road were covered with a blanket. This is how I passed
+				half a day, then I got out and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">ran</term> across the
+				woods towards <placeName ref="http://www.geonames.org/2834282/schwerin.html">Schwerin</placeName>. 17 kilometres further <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">I met</term> the first <term type="subject"
+					ref="#ehri_et_nationalities_americans">American</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">soldier</term>. They put a bandage on my head and
+				took me into a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">sanatorium</term>. This happened the
+					<date when="1945-05-02">2nd of May</date>. Thereafter I had a good life, I got everything I wanted, and was carefully treated for
+				a month. I went to <placeName ref="http://www.geonames.org/2875601/luebeck.html">Lübeck</placeName>, and applied for one of the <term
+					type="subject" ref="#ehri_et_nationalities_czechs">Czech</term> transports. I came to <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> via <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> and <placeName
+					ref="http://www.geonames.org/3060972/bratislava.html">Pozsony</placeName>. My future plans: At the moment I work here in
+					<placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, later I would like to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigrate</term> to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-906" type="subject">Palestine</term>.</p>
+		</body>
+	</text>
+</TEI>

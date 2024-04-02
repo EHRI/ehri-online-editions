@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-12-02T23:04:41+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19430127-US_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Burton Y. Berry on antisemitic activities in Romania in 1943</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
+							II</repository>
+						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Romania 1910-1944, Wilmington,
+							Del. 1981 (Microfilm-Edition)</collection>
+						<idno>Doc. 871.4016/298</idno>
+					</msIdentifier>
+				</msDesc>
+				<bibl>National Archives and Records Administration II, RG 59 - Records of the U. S. Department of State relating to internal affairs
+					of Romania 1910-1944, Wilmington, Del. 1981 (Mikrofilm-Edition): Doc. 871.4016/298, p. 1-3.<textLang mainLang="en"> Original in
+						English.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Istanbul</placeName>
+						<location>
+							<geo>41.01384 28.94966</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/745044/istanbul.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Istanbul"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Romania</placeName>
+						<location>
+							<geo>46 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798549/romania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Romania"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Anti-Jewish measures</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-337"/>
+						</linkGrp><note><p>Anti-Jewish acts performed with or without appropriate legislation.</p></note></item>
+					<item><name>Civil administration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1112"/>
+						</linkGrp></item>
+					<item><name>Antisemitic propaganda</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-342"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_romanians"><name>Romanians (ascribed nationality)</name></item>
+					<item><name>Romanianization</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-588"/>
+						</linkGrp><note><p>Confiscation of property by Romanian authorities.</p></note></item>
+					<item><name>Social separation and isolation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-667"/>
+						</linkGrp></item>
+					<item><name>Jewish population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-896"/>
+						</linkGrp></item>
+					<item><name>Axis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1027"/>
+						</linkGrp></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="burton_y_berry">
+						<persName>Berry, Burton Y.</persName>
+						<note><p>Burton Y. Berry (August 31, 1901 - August 22, 1985) was an American diplomat and art collector.</p></note>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Burton_Y._Berry"/>
+						</linkGrp>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1943-01-27">27.1.1943</date>
+				<placeName ref="http://www.geonames.org/745044/istanbul.html">Istanbul</placeName>
+				<persName ref="#ehri_dr_burton_y_berry">Berry, Burton Y.</persName>
+				<idno>EHRI-DR-19430127-US</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="R 6456-39 (140)"/>
+			<p>It seems that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-semitic measures</term> are
+				becoming more stringent in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1112" type="subject">administration</term>
+				and that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-342" type="subject">anti-semitic propaganda</term> increases
+				upon the eastern front. This activity is reported to be encouraged by those <term ref="#ehri_dr_nationalities_romanians"
+					>Romanians</term> who have benefited from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-588" type="subject"
+					>confiscations of Jewish property</term> and their forced <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-667"
+					type="subject">retirement</term> from <term ref="#ehri_dr_nationalities_romanians">Romanian</term> public life. [...]</p>
+			<pb n="2" facs="R 6456-39 (141)"/>
+			<p>The question of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> in <placeName
+					ref="http://www.geonames.org/798549/romania.html">Romania</placeName> and the war against <ref
+					target="https://en.wikipedia.org/wiki/Soviet_Union">Soviet Russia</ref> are linked together, as in all <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis States</term>. This attitude is claimed by
+				competent observers to be greatly encouraged by the <term ref="#ehri_dr_nationalities_romanians">Romanian</term> aristocrats, business
+				and professional men, who are behind the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject"
+					>Government</term> in this attempt. The explanation offered for the support of these classes to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-342" type="subject">anti-semitic propaganda</term> is the fact that they
+				are the chief beneficiaries of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject"
+					>expropriations</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jewish</term> owned
+				properties in <placeName ref="http://www.geonames.org/798549/romania.html">Romania</placeName> and that the control of the economic
+				and financial life of the country, in which the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject"
+					>Jews</term> were claimed to have a great interest, has been taken over by other <term ref="#ehri_dr_nationalities_romanians"
+					>Romanians</term>.</p>
+		</body>
+	</text>
+</TEI>

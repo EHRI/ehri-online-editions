@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-12-02T23:04:40+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19391021-US_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Irving N. Linnell on “Forced Departure from Moravska-Ostrava of Male Jews” in 1939</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
+							II</repository>
+						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Czechoslovakia 1910-1944,
+							Washington, 1982 (Microfilm):</collection>
+						<idno>Doc. 860F.4016/83</idno>
+					</msIdentifier>
+				</msDesc>
+				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of
+					Czechoslovakia 1910-1944, Washington, 1982 (Microfilm): <idno>Doc. 860F.4016/83.</idno><textLang mainLang="en"> Original in
+						English.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Ostrava</placeName>
+						<location>
+							<geo>49.84249 18.26727</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3070328/moravska-ostrava.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ostrava"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Europe</placeName>
+						<location>
+							<geo>48.69096 9.14062</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6255148/europe.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Russia</placeName>
+						<location>
+							<geo>60 100</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2017370/russian-federation.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Prague</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Prague"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>France</placeName>
+						<location>
+							<geo>46 2</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3017382/republic-of-france.html"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Registration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1136"/>
+						</linkGrp></item>
+					<item><name>Labour Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Workers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1057"/>
+						</linkGrp></item>
+					<item><name>Population Transfer</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1173"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Occupation Authorities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1032"/>
+						</linkGrp></item>
+					<item><name>Rumours</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-852"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Evacuation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-623"/>
+						</linkGrp></item>
+					<item><name>Transfer of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-575"/>
+						</linkGrp></item>
+					<item><name>Jewish Population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-896"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_Linnell_Irving_N.">
+						<persName>Linnell, Irving N.</persName>
+						<note><p>Irving N. Linell (1881 - 1954) was an American Consul General.</p></note>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1939-10-21">October 21, 1939</date>
+				<placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>
+				<persName ref="#ehri_dr_linnell_irving">Linnell, Irving N.</persName>
+				<idno>EHRI-DR-19391021-US</idno></creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<pb n="2" facs="EHRI-DR-19391021_EN_02.jpg"/>
+		<body>
+			<p><!--Irving N. Linnell, Forced Departure from Moravska-Ostrava of Male Jews, Prag, 21.10.1939, S. 2: Records of the Department of State relating to internal affairs of Czechoslovakia 1910-1944, Washington 1982 (Mikrofilm-Edition): Dokument 860F.4016/83--></p>
+			<p>It would seem, from all indications, that the intent is to obtain a large group of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">workers</term> for use in <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. What this use is seems to be problematical, but
+				it may well be to prepare a place for the permanent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173" type="subject"
+					>settlement</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>, etc.,
+				of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. It would seem that this
+				movement may well be part of a larger movement of populations which the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">German authorities</term> are carrying out, including
+				the bringing back of <term ref="#ehri_dr_nationalities_germans">German</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term> from the Baltic States, <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>, and those parts of <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> recently occupied by <placeName
+					ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>. There are many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-852" type="subject">rumors</term>, but to date unverified, that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">German authorities</term> intend to bring into <term
+					ref="https://portal.ehri-project.eu/keywords/admindistricts-212">Bohemia and Moravia</term> many of the <term
+					ref="#ehri_dr_nationalities_germans">Germans</term> who are being <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term> from others sections of <placeName
+					ref="http://www.geonames.org/6255148/europe.html">Europe</placeName>, including some of those who are leaving the country near the
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>-<placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">Frenche</placeName>French war zone. If these <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-852" type="subject">rumors</term> are warranted, it may well be the plan
+				to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-575" type="subject">replace </term>some of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jewish populations</term> in <placeName
+					ref="https://portal.ehri-project.eu/admin/keywords/terezin-places-place-iti-64">Bohemia and Moravia</placeName> by <term
+					ref="#ehri_dr_nationalities_germans">German</term> populations.</p>
+		</body>
+	</text>
+</TEI>

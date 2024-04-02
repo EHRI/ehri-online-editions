@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2019-05-11T13:33:08+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-1941-JP_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Maruo Itaru on conditions in German-occupied former Polish territory (so called “Third Report”) in 1941</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials
+							(JACAR)</repository>
+						<collection>B10070102800</collection>
+					</msIdentifier>
+				</msDesc>
+				<bibl>Japan Center for Asia Historical Materials (JACAR), B10070102800. <textLang mainLang="en">Original in
+					Japanese.</textLang></bibl>
+				<list>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Public opinion</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1072"/>
+						</linkGrp></item>
+					<item><name>Nazi occupied territory</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1181"/>
+						</linkGrp></item>
+					<item><name>Generalgouvernement</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1191"/>
+						</linkGrp></item>
+					<item><name>Occupation authorities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1032"/>
+						</linkGrp></item>
+					<item><name>Economics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-918"/>
+						</linkGrp></item>
+					<item><name>Attitude of the local population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-813"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>German state</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1152"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item xml:id="ehri_dr_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Confiscation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-584"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item xml:id="ehri_dr_nationalities_belarussians"><name>Belarussians (ascribed nationality)</name></item>
+					<item xml:id="ehri_dr_nationalities_whiterussians"><name>White Russians (ascribed nationality)</name></item>
+					<item><name>Jewish newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-723"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_gazeta_judoska"><name>Gazeta Judoska</name></item>
+					<item><name>Newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1069"/>
+						</linkGrp></item>
+					<item><name>Policies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1045"/>
+						</linkGrp></item>
+					<item><name>Literature</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-679"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Radio and television</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-849"/>
+						</linkGrp></item>
+					<item><name>Sondergerichte</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1169"/>
+						</linkGrp></item>
+					<item><name>Punishments</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-653"/>
+						</linkGrp></item>
+					<item><name>Armed forces</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1077"/>
+						</linkGrp></item>
+					<item><name>Animals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-811"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Arbeitseinsatz</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-488"/>
+						</linkGrp></item>
+					<item><name>Industry</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-937"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Occupation, Oppression, Discrimination and Persecution</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-601"/>
+						</linkGrp></item>
+					<item><name>Ethnic identity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-779"/>
+						</linkGrp></item>
+					<item><name>Culture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-672"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Ethnic groups</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1061"/>
+						</linkGrp></item>
+					<item><name>German territory</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1181?dlid=eng"/>
+						</linkGrp></item>
+					<item><name>Marking of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-338"/>
+						</linkGrp></item>
+					<item><name>Laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-950"/>
+						</linkGrp></item>
+					<item><name>Gender</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-858"/>
+						</linkGrp></item>
+					<item><name>Curfew</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-666"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Announcements</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-812"/>
+						</linkGrp></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Judenrat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-579"/>
+						</linkGrp></item>
+					<item><name>Jewish institutions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-869"/>
+						</linkGrp></item>
+					<item><name>Businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-924"/>
+						</linkGrp></item>
+					<item><name>Economic organisations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-922"/>
+						</linkGrp></item>
+					<item><name>Social separation and isolation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-667"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>The Jewish Question</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-351"/>
+						</linkGrp></item>
+					<item><name>Concentration of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-614"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Judenrat members</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-554"/>
+						</linkGrp></item>
+					<item><name>Welfare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-312"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Old people's home</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-314"/>
+						</linkGrp></item>
+					<item><name>Children's homes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-315"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Zionism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-906"/>
+						</linkGrp></item>
+					<item><name>Final Solution of the Jewish Question</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-349?dlid=eng"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_Itaru_Maruo">
+						<persName> Itaru, Maruo</persName>
+						<note>
+							<p>Maruo Itaru 丸尾至 (1914 - ) was a japanese diplomat. Born in 1914, he qualified for the Foreign Service in 1935 and was
+								soon assigned to study in Warsaw. In July 1937 Maruo was appointed as a diplomatic clerk (shokisei) in the newly
+								upgraded Japanese Embassy in Warsaw. After the German invasion of Poland, Maruo was re-assigned to the Japanese
+								Embassy in Berlin, Germany in November 1939. Later in the war he served in the Japanese Consulate General in Hamburg.
+								He returned to Japan after the war and continued to serve in the Ministry of Foreign Affairs, albeit in relatively
+								insignificant posts.</p>
+						</note>
+					</person>
+					<person>
+						<persName>Frank, Hans</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000124"/>
+						</linkGrp>
+						<note>
+							<p>23/05/1900 16/10/1946</p>
+							<p>Reichsrechtsführer. Hitler's lawyer, leading jurist in the Third Reich. Since 25 Oct 1939 Generalgouverneur of occupied
+								Poland.</p>
+						</note>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place>
+						<placeName>Warsaw</placeName>
+						<location>
+							<geo>52.22977 21.01178</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/756135/warsaw.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Warsaw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Shanghai</placeName>
+						<location>
+							<geo>31.22222 121.45806</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/1796236/shanghai.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Shanghai"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lublin</placeName>
+						<location>
+							<geo>51.25 22.56667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/765876/lublin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lublin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Krakow</placeName>
+						<location>
+							<geo>50.06143 19.93658</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3094802/krakow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Krak%C3%B3w"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vistula</placeName>
+						<location>
+							<geo>54.3632 18.95255</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3081873/vistula.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vistula"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Eastern Europe</placeName>
+						<location>
+							<geo>51.72703 28.38867</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/7729884/eastern-europe.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Eastern_Europe"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Union of Soviet Socialist Republics</placeName>
+						<location>
+							<geo>60 98</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/8354411/union-of-soviet-socialist-republics.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Upper Silesia</placeName>
+						<location>
+							<geo>50.16667 18.83333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3082777/upper-silesia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Upper_Silesia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Radom</placeName>
+						<location>
+							<geo>51.40253 21.14714</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/760778/radom.html"/>
+							<link type="desc" target="https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%BE%D0%BC"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date from="1941-01-07" notAfter="1941-01-19">January 7-19, 1941</date>
+				<placeName ref="https://en.wikipedia.org/wiki/Berlin">Berlin</placeName>
+				<persName ref="#ehri_dr_Itaru_Maruo">Maruo Itaru</persName>
+				<idno>EHRI-DR-1941-JP</idno></creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Contents</p>
+			<list type="ol" rend="1">
+				<item>General</item>
+			</list>
+			<p>This trip to <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName> is the fourth one I undertook after the
+				outbreak of the German-Polish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">War</term> (<date
+					when="1939-12">December 1939</date>, <date when="1940-03">March</date> and <date when="1940-08">August 1940</date>). I must say
+				that my impression of the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> rule
+				becomes more pessimistic each time. Namely, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1072" type="subject"
+					>public sentiment</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">German-occupied
+					areas</term>, under the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General
+					Government</term>, deteriorates more and more. The high-handed policies of the German <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term>, coupled with the complex <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-918" type="subject">economic situation</term> particular to this area, are
+				fanning anti-German <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-813" type="subject">sentiment among the local
+					population</term>. On the other hand, the progress of the so-called rebuilding program is producing expected results thanks to the
+				earnest efforts of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term>. However,
+				on the whole, its pace is extremely slow, and there is nothing really impressive.</p>
+			<p>1a Transportation</p>
+			<p>Except for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, travel within the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term> is allowed. However, a
+				special permit is required to travel between <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject"
+					>Germany</term> proper and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General
+					Government</term> area by those other than government or military personnel on official business. <term
+					ref="#ehri_dr_nationalities_poles">Poles</term> in principles are forbidden to travel outside the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term> area. </p>
+			<p>1b. Post</p>
+			<p>…re-organization of personnel (<term ref="#ehri_dr_nationalities_poles">Poles</term> are replaced by <term
+					ref="#ehri_dr_nationalities_germans">Germans</term>), <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584"
+					type="subject">confiscation</term> of radio sets (<term ref="#ehri_dr_nationalities_germans">Germans</term>, <term
+					ref="#ehri_dr_nationalities_ukrainians">Ukrainians</term>, <term ref="#ehri_dr_nationalities_belarussians">Belarussians</term>,
+				and <term ref="#ehri_dr_nationalities_whiterussians">White Russians</term> are exempted from this).</p>
+			<p>1c. Monopoly</p>
+			<p>1d. Currency</p>
+			<p>1e. Mining and Industry</p>
+			<p>1f. Labor Coupon</p>
+			<p>1g. Agriculture and Forestry</p>
+			<p>1h. Judicial Matters</p>
+			<p>1i. Public health</p>
+			<p>1j. Press and Publication</p>
+			<p>….</p>
+			<p>Among the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">newspapers</term> listed above, <term
+					ref="#ehri_dr_gazeta_judoska">Gazeta Judoska</term> published its first issue in <date when="1940-07">mid-July 1940</date>. It is
+				the Polish-language <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">newspaper</term> for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> under the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term> (hence there is no <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">newspaper</term> in Hebrew). </p>
+			<p>Its content is roughly the same as other Polish-language <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069"
+					type="subject">newspapers</term>, and mainly consists of articles relating to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>. While it publishes articles pertaining to
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1045" type="subject">policies</term> concerning <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, there are also sections on <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">literature</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. In the Politics sections, it prints
+				German reports without adding any commentary. </p>
+			<p>To name something of interest to us, the second issue of this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723"
+					type="subject">newspaper</term> published on <date when="1940-07-22">July 22, 1940</date> printed an item with considerable
+				details under <q>Necessary Procedures for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+						>Emigrating</term> to <placeName ref="http://www.geonames.org/1796236/shanghai.html">Shanghai</placeName>.</q></p>
+			<p>1k. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Radio</term></p>
+			<p>Based on Regulations Concerning <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">Confiscation</term>
+				and Returning of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Radio Sets</term> of <date
+					when="1939-12-15">December 15, 1939</date>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term> and <term ref="#ehri_dr_nationalities_poles">Poles</term> are ordered to turn in all <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">radio sets</term> by <date when="1940-01-15">January
+					15, 1940</date>. Those in violation will be tried under <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1169"
+					type="subject">special courts</term> and may be fined or subject to long-term corporeal <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">punishment</term>. <term
+					ref="#ehri_dr_nationalities_germans">Germans</term>, <term ref="#ehri_dr_nationalities_ukrainians">Ukrainians</term>, <term
+					ref="#ehri_dr_nationalities_belarussians">Belarussians</term>, and <term ref="#ehri_dr_nationalities_whiterussians">White
+					Russians</term> may possess <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">radios</term>. </p>
+			<p>1l. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-695?dlid=deu" type="subject">Cinema and Theater</term></p>
+			<p>1m. Education of <term ref="#ehri_dr_nationalities_germans">Germans</term></p>
+			<p>1n. Other</p>
+			<p>In <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName> the water supply and sewage are only partially
+				restored. The same is with the telephone; although it is being partially restored, the number of its users has fallen to 1/20 of the
+				prewar level.</p>
+			<p>The streets are still full of collapsed houses from artillery attacks by the German <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1077" type="subject">army</term> and chaotic. Moreover, as many human and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-811" type="subject">animal</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">corpses</term> are buried under the rubbles, the city
+				shrouded in a certain stench. In <date when="1940-03">March 1940</date> I saw dead horses in the middle of the street; now they are
+				gone.</p>
+			<p>Immediately after the war in <date from="1939-09-01" notAfter="1939-10-06">1939</date> plans were drawn up to move <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> to the east and to rebuild urban
+					<placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>. Concerning the former, no further concrete
+				decisions have been revealed and the plan has been shelved; as for the latter, except the opening of a few news streets, it appears
+				the plan has been grounded. It can be imagined rebuilding has many difficulties ahead. </p>
+			<p><placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName> and its vicinity were designated as area of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> residence. However, subsequently no
+				movement of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> from <placeName
+					ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName> and the <placeName
+					ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName> region have taken place. This plan seems to have been
+				abolished. There has been no rebuilding or restoration in <placeName ref="http://www.geonames.org/765876/lublin.html"
+					>Lublin</placeName>. Water supply and sewage are being restored in <placeName ref="http://www.geonames.org/3094802/krakow.html"
+					>Krakow</placeName>, where rebuilding effort has developed the furthest.</p>
+			<p>1o. Summary</p>
+			<p>While the rebuilding efforts have just started under the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191"
+					type="subject">General Government</term> as stated above, given the abundant <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-488" type="subject">labor force</term> and the superior organizational
+				capacity of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term>, the efforts
+				should bear fruit. At the party congress held in <placeName ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName> at
+				the beginning of <date when="1941">1941</date>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000124">Governor General Dr. Frank</persName> outlined major
+				rebuilding projects for <date when="1941">1941</date> and underscored their importance. This plan includes the dredging of the
+					<placeName ref="http://www.geonames.org/3081873/vistula.html">Vistula River</placeName>, re-organization of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">industries</term>, and building of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housing</term> and roads.</p>
+			<list type="ol" rend="1">
+				<item>Politics</item>
+			</list>
+			<p>2a. Administration</p>
+			<p>2b. Policies</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1045" type="subject">policy</term> of the German <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term> toward <term
+					ref="#ehri_dr_nationalities_poles">Poles</term> in areas under the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term> has always been total <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-601" type="subject">oppression</term>. Its ultimate political objective
+				appears to be erasing Polishness from <placeName ref="http://www.geonames.org/7729884/eastern-europe.html">Eastern Europe</placeName>,
+				or at least preventing <term ref="#ehri_dr_nationalities_poles">Poles</term> from becoming a political force in the future. This is
+				done through depriving them of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-779" type="subject">ethnic
+					identity</term> by destroying their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-672" type="subject">cultural
+					roots</term> so that they are reduced to a mere geographical existence.</p>
+			<p>2c. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Compulsory Labor</term></p>
+			<p>2d. Destruction of Human Culture by means other than <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Compulsory Labor</term></p>
+			<p>2e. Restrictions on Education</p>
+			<p>2f. Destruction of Museums and Statues</p>
+			<p>2g. Control of Books</p>
+			<list type="ol" rend="1">
+				<item>
+					<p rend="margin hanging">Economy</p>
+					<list>
+						<item>Currency</item>
+						<item>Prices (a list is attached)</item>
+						<item>Living Conditions</item>
+						<item>Peasants</item>
+					</list>
+				</item>
+			</list>
+			<list type="ol" rend="1">
+				<item>Ethnicities</item>
+			</list>
+			<p>Population under the jurisdiction of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General
+					Government</term> by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1061" type="subject">ethnicity</term> is as
+				follows:</p>
+			<p rend="margin"><term ref="#ehri_dr_nationalities_poles">Poles</term> 17 million</p>
+			<p rend="margin"><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> 2 million</p>
+			<p rend="margin"><term ref="#ehri_dr_nationalities_ukrainians">Ukrainians</term> 1 million</p>
+			<p>In addition, there are about 250,000 <term ref="#ehri_dr_nationalities_germans">Germans</term>, 20,000 <term
+					ref="#ehri_dr_nationalities_belarussians">Belarussians</term>, totally approximately 20 million.</p>
+			<p>For comparison, the population by ethnicity in <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+					>Poland</placeName> before the war is</p>
+			<p>Total population of <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> 33 million</p>
+			<p><term ref="#ehri_dr_nationalities_poles">Poles</term> 22 million</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> 4 million</p>
+			<p><term ref="#ehri_dr_nationalities_ukrainians">Ukrainians</term> 5 million</p>
+			<p><term ref="#ehri_dr_nationalities_belarussians">Belarussians</term> 1 million</p>
+			<p><term ref="#ehri_dr_nationalities_germans">Germans</term> 1 million</p>
+			<p>Accordingly, compared with the ethnic breakdown of population under the jurisdiction of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term>, approximately one million
+					<term ref="#ehri_dr_nationalities_poles">Poles</term>, two million <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, one million <term
+					ref="#ehri_dr_nationalities_belarussians">Belarussians</term>, four million <term ref="#ehri_dr_nationalities_ukrainians"
+					>Ukrainians</term> have been assigned to the new <placeName
+					ref="http://www.geonames.org/8354411/union-of-soviet-socialist-republics.html">Soviet territory</placeName>, whereas approximately
+				four million <term ref="#ehri_dr_nationalities_poles">Poles</term> and one million <term ref="#ehri_dr_nationalities_germans"
+					>Germans</term> assigned to new <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181?dlid=eng" type="subject">German
+					territory</term> (namely the corridor and <placeName ref="http://www.geonames.org/3082777/upper-silesia.html">Upper
+					Silesia</placeName>).</p>
+			<p>4b. Hierarchy of Ethnic Groups</p>
+			<p>4c. The Tragedy of Ethnic Groups (pp. 109- </p>
+			<list type="ol" rend="1">
+				<item>
+					<p rend="margin hanging">The two-million <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+							>Jews</term> ruled by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General
+							Government</term> are experiencing a tragedy which they had never imagined. Namely,</p>
+					<list>
+						<item>according to the <q>Regulation concerning armbands of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+									type="subject">Jews</term></q> dated <date when="1939-11-23">November 23, 1939</date>, <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>over the age of ten are
+							obligated to wear <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Stars of David</term>
+							(a combination of two blue triangles over white) on their right arms. Those in violation are subject of long-term hard
+								<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor</term> or a large <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">fine</term>(its amount not
+							specified)</item>
+						<item>Based on <q>Laws of Implementing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+									>Forced Labor</term> against <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+									>Jews</term></q> dated <date when="1939-10-26">October 26, 1939</date>, the First and Second Regulations of
+							Implementation of the above <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term>
+							dated <date from="1939-12-01" notAfter="1939-12-12">December 1 and December 12 of the same year</date>, all <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> under the jurisdiction of the
+								<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term>, between
+							the age of twelve and the age of sixty, regardless of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-858"
+								type="subject">gender</term>, in principle, are subject to <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">forced labor</term> immediately. The term
+							of labor is two years (but rules of extension exist). In addition, from <date when="1940-01-01">January 1, 1940</date>,
+							change of residence is forbidden. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-666" type="subject"
+								>curfew</term> between 9pm and 5am is established. </item>
+						<item>In <date when="1941-01">January 1941</date> the Law of <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">Confiscating Real Estate Property</term>
+							of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> is <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-812" type="subject">promulgated</term>.</item>
+						<item>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> area of residence in
+								<placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName> is surrounded by a concrete wall of
+							2[?] meters. Contact with the outside is completely cut off. </item>
+						<item> No <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school</term> system exists. </item>
+						<item><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">Limitation of food</term> is extremely
+							severe. </item>
+						<item>As they cannot receive work coupon that was established in <date when="1941-01">January 1941</date>, they cannot find
+								<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employment</term>
+						</item>
+						<item>By the decree of the Magistrate of the <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>
+							region, half of the business tax that have been levied in the past goes to the budget of the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term>, a special tax is to be
+							paid….. This special tax is to be paid by those <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+								type="subject">Jews</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject"
+								>Jewish entities</term> who are obligated to pay <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-924"
+								type="subject">business</term> tax for engaging in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-924"
+								type="subject">business</term> or running <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-922"
+								type="subject">commercial</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject"
+								>industrial</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject">enterprise</term> in the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> area. This tax is paid one
+							year in advance in one lump sum (without the benefit of paying in installments) </item>
+					</list>
+				</item>
+			</list>
+			<p>2. The tragedy of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> is physical
+				tragedy; the tragedy of <term ref="#ehri_dr_nationalities_poles">Poles</term> is mainly spiritual tragedy. Namely, (1) as the <term
+					ref="#ehri_dr_nationalities_poles">Poles</term> are sent to <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> by the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">compulsory labor</term> system, their tragedy is a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-667" type="subject">separation</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>. As <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> engage in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">labor</term> in areas of their residence, they do not
+				experience such tragedy. (2) The repeated mass <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject"
+					>arrests</term> [of <term ref="#ehri_dr_nationalities_poles">Poles</term>] without any justification everywhere mean permanent
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-667" type="subject">separation</term> of victims from their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>. Such <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrests</term> are limited to <term
+					ref="#ehri_dr_nationalities_poles">Poles</term>; on this issue the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are doing better. </p>
+			<p>4d. Resistance of Ethnic Groups (pp. 114-</p>
+			<list type="ol" rend="1">
+				<item>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Question</term> of the Jewish
+					people</item>
+			</list>
+			<p>Currently, approximately two million <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> live
+				under the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Government</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term> are taking a cautious
+				consideration in dealing with them. Namely, initially they were to be <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-614" type="subject">concentrated</term> in certain parts (<placeName
+					ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName> District) so as to be cut off from interactions with the
+				German and Polish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">peoples</term>. Due to technical
+				difficulties, this was not a success. Hence, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1045" type="subject"
+					>policy</term> of local (settlement) was adopted, so as to deal with them in their current areas of inhabitance. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term> forbidding <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> to use the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">railway</term>, enacted on <date when="1940-01-26"
+					>January 26, 1940</date>, is an affirmation of the principle of <q>local rule.</q> However, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> were expelled from <placeName
+					ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName> (<date when="1940-08">August 1940</date>). It appeared like
+				the principle of local <note place="bottom">illegible</note>was to be abandoned. However, no further development has happened till the
+				present. In <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>, a relatively high <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-614" type="subject">concentration</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> live. It is worth noting that in
+					<placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>, <placeName
+					ref="http://www.geonames.org/760778/radom.html">Radom</placeName>, <placeName ref="http://www.geonames.org/765876/lublin.html"
+					>Lublin</placeName> and other major cities, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jewish</term> areas are completed <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-667" type="subject">cut
+					off</term> from the rest by concrete walls. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject"
+					>authorities</term> set up administrative units called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579"
+					type="subject">Judenrat</term> to deal with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term>. By controlling the masses through <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject"
+					>Judenrat</term> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term> seek to
+				simplify their rule. </p>
+			<p rend="margin">These <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term> are based on the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">Law</term> establishing <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-812" type="subject">promulgated</term> on <date when="1940-11-28">November
+					28, 1940</date>. The content of this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term>
+				is as follows:</p>
+			<list type="ol" rend="1">
+				<item><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term> is to be established in each
+					city, town, and villages </item>
+				<item>Localities with 10,000 or less residents shall select twelve members; localities with over 10,000 residents shall select 24
+					members from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> residing in these
+					localities. </item>
+				<item><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term> shall select a <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">Chairman and a Vice Chairman</term> from the
+					members. </item>
+				<item>Mayors (or heads of districts in the city) can order the replacement of members of <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term>. </item>
+				<item>
+					<p rend="margin hanging">Through its <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">Chairman
+							and Vice Chairmen</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject"
+							>Judenrat</term>is obliged to follow orders from the German <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">Authorities</term>; it is also responsible
+						for fully implementing these orders. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+							>Jews</term> must faithfully follow orders issued by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579"
+							type="subject">Judenrat</term> so as to implement the orders from the German Authorities. Although <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term> vary in size from locality to
+						locality, they generally have the following agencies:</p>
+					<list>
+						<item>Department of Public Affairs </item>
+						<item>Department for Refugee Relief </item>
+						<item>Committee for Jewish Assistance </item>
+						<item>Finance Department </item>
+						<item>Department of POW Assistance </item>
+					</list>
+				</item>
+			</list>
+			<p>Other public <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-312" type="subject">welfare</term> facilities concerning the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> (<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospitals</term>, orphanage, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject">senior citizens’ home</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">facilities for malnourished children</term> and so on)
+				are under the jurisdiction of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term>.
+				However, as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Nazi Germany</term> knows international
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-906" type="subject">Zionism</term> very well from its bitter
+				experience in the past, it pursues repressive rule vis-à-vis the two millions <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> by introducing <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Force Labor</term> system or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">confiscation of their property</term>. It is believed
+				that (the German <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term>) strives for a
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-349?dlid=eng">final solution of the question of the Jewish
+					question</term></p>
+		</body>
+	</text>
+</TEI>

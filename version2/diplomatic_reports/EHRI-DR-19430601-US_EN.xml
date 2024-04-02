@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DR-19430601-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Leland B. Harrison on imminent antisemitic measures in Hungary in 1943</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
+							II</repository>
+						<collection>RG 59 - Records of the Department of State relating to internal affairs of Hungary 1930-1944, Washington 1983
+							(Microfilm-Edition):</collection>
+						<idno>Doc. 864.4016/180</idno>
+					</msIdentifier>
+				</msDesc>
+				<bibl>National Archives and Records Administration II, RG 59 - Records of the Department of State relating to internal affairs of
+					Hungary 1930-1944, Washington 1983 (Microfilm-Edition): Doc. 864.4016/180, p. 1. <textLang mainLang="en">Original in English.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1943-06-01">1.6.1943</date>
+				<placeName ref="#bern">Bern</placeName>
+				<persName ref="#ehri_dr_harrison_leland">Harrison, Leland B.</persName>
+				<idno>EHRI-DR-19430601-US</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<pb facs="EHRI_DR-19430601_EN.jpg" n="1"/>
+				<p>An informed source states on the basis of information assertedly just received from <placeName ref="#hungary">Hungary</placeName>
+					that the <persName ref="#p000202">Kallay</persName>
+					<term ref="#t948" type="subject">Government</term> has prepared and shortly will propose a special war <term ref="#t1047"
+						type="subject">levy</term> on <term ref="#t887" type="subject">Jewish property</term> along the lines of the <term
+						ref="#t1047" type="subject">taxes</term> of that nature recently established in <placeName ref="#romania">Rumania</placeName>
+					and <placeName ref="#republic-of-bulgaria">Bulgaria</placeName>. [...] The source adds that <term ref="#t329" type="subject"
+						>anti-Semitic</term> members of <persName ref="#p000202">Kallay’s</persName>
+					<term ref="#t948" type="subject">Government</term> declare <term ref="#ehri_dr_nationalities_hungarians">Hungarian</term>
+					<term ref="#t864" type="subject">Jews</term> should in their own interest practice more moderation and abandon their provocative
+					attitude otherwise even severer measures will be applied to them in the near future.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

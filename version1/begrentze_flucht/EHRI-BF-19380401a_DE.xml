@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-08T13:51:56+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380401a_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bezirksgendarmeriekommando Bruck/L. betreffend Sicherheitsverwahrung gegen die tschechoslowakische Grenze</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/at-001965">Niederösterreichisches Landesarchiv</repository>
+                        <collection>Bezirkshauptmannschaft Bruck/L. 1938</collection>
+                        <idno>Karton 424 (IX/153)</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Niederösterreichisches Landesarchiv, BH-Bruck/L. 1938, Karton 424 (IX/153). <textLang mainLang="de">Original auf
+                        Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Bruck an der Leitha</placeName>
+                        <location>
+                            <geo>48.01667 16.76667</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2781373/bruck-an-der-leitha.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Bruck_an_der_Leitha"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wolfsthal</placeName>
+                        <location>
+                            <geo>48.13333 17</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2760895/wolfsthal.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Wolfsthal"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Berg</placeName>
+                        <location>
+                            <geo>48.10425 17.03323</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/7872848/berg.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Berg_(Nieder%C3%B6sterreich)"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Hainburg an der Donau</placeName>
+                        <location>
+                            <geo>48.14627 16.94504</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2776988/hainburg-an-der-donau.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Hainburg_an_der_Donau"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Neusiedl am See</placeName>
+                        <location>
+                            <geo>47.94901 16.8417</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2770684/neusiedl-am-see.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Neusiedl_am_See"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Kittsee</placeName>
+                        <location>
+                            <geo>48.0925 17.06389</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2774348/kittsee.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Kittsee"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Donau</placeName>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/791630/danube-river.html"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Prellenkirchen</placeName>
+                        <location>
+                            <geo>48.07401 16.95233</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2768357/prellenkirchen.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Prellenkirchen"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Burgenland</placeName>
+                        <location>
+                            <geo>47.5 16.41667</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2781194/burgenland.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Burgenland"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Rohrau</placeName>
+                        <location>
+                            <geo>48.06667 16.85</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2767301/rohrau.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Rohrau_(Nieder%C3%B6sterreich)"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Niederösterreich</placeName>
+                        <location>
+                            <geo>48.33333 15.75</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2770542/niederoesterreich.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Nieder%C3%B6sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Burgenland</placeName>
+                        <location>
+                            <geo>47.5 16.41667</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="noraml" target="https://www.geonames.org/2781194/burgenland.html"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Mann</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+                        </linkGrp></item>
+                    <item><name>Schmuggel</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-266"/>
+                        </linkGrp></item>
+                    <item><name>Schmuggler / Schmugglerin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-267"/>
+                        </linkGrp></item>
+                    <item><name>Polizei</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+                        </linkGrp></item>
+                    <item><name>Krankheit</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item xml:id="ehri_bf_grenze"><name>Grenze</name></item>
+                </list>
+                <listOrg>
+                    <org xml:id="ehri_bf_bh_bruck">
+                        <orgName>Bezirkshauptmannschaft Bruck a.d.L.</orgName>
+                    </org>
+                    <org xml:id="ehri_bf_zollwache_oest">
+                        <orgName>Zollwache (Österreich)</orgName>
+                    </org>
+                    <org xml:id="ehri_bf_strassenzollamt_berg">
+                        <orgName>Strassenzollamt Berg</orgName>
+                    </org>
+                    <org>
+                        <orgName>Sturmabteilung</orgName>
+                        <note>
+                            <p>1921 - 1945</p>
+                            <p>Die Sturmabteilung, der paramilitärische Flügel der NSDAP, wurde 1921 gegründet. Zunächst setzte sie sich hauptsächlich
+                                aus deutschen Veteranen des Ersten Weltkriegs, Milizangehörigen und anderen Personen zusammen, die sowohl der Weimarer
+                                Republik als auch der kommunistische Partei ablehnend gegenüberstanden. Ihre terroristischen Aktionen gegen
+                                GegnerInnen erhöhte auch die öffentliche Wahrnehmung der NS-Bewegung, sowohl vor als auch nach Hitlers Machtaufstieg.
+                                Nachdem sich das NS-Regime etabliert hatte, begann das Regime die störende Vorgehensweise der SA zunehmend als
+                                Bedrohung wahrzunehmen. Hitler stimmte der Ermordung der höheren Führungsschicht der SA zu, die im Röhm Putsch oder
+                                der „Nacht der langen Messer“ vornehmlich durch die SS durchgeführt wurde.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-358"/>
+                        </linkGrp>
+                    </org>
+                    <org xml:id="ehri_bf_donausicherheitsbehörde_hainburg">
+                        <orgName>Donausicherheitsbehörde Hainburg an der Donau</orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-04-01">1. April 1938</date>
+                <placeName>Bruck a. d. Leitha</placeName>
+                <orgName>Bezirksgendarmeriekommando Bruck/L.</orgName>
+                <idno>EHRI-BF-19380401a</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="vertreibungspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><pb n="1" facs="EHRI-BF-19380401a_01.jpg"/><!--
+        <orgName>Bezirksgendarmeriekommando</orgName>
+      </p>
+
+      <p>
+        <placeName ref="http://www.geonames.org/2781373/bruck-an-der-leitha.html">Bruck an der
+          Leitha</placeName>, <placeName
+          ref="http://www.geonames.org/2770542/niederoesterreich.html">N.Ö.</placeName></p>
+
+      <p>
+        <hi rend="u">Exh.Nr.1085.</hi>-->
+            </p>
+
+            <p>Sicherheitsverwahrung gegen die</p>
+
+            <p><placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakische</placeName> Grenze</p>
+
+            <p rend="center">An die</p>
+
+            <p rend="center">
+                <orgName ref="#ehri_bf_bh_bruck">Bezirkshauptmannschaft</orgName>
+            </p>
+
+            <p rend="center">In</p>
+
+            <p><placeName ref="http://www.geonames.org/2781373/bruck-an-der-leitha.html">Bruck an der Leitha</placeName><hi rend="u">, am <date
+                        when="1938-04-01">1. April 1938</date>.</hi></p>
+            <p><placeName ref="http://www.geonames.org/2781373/bruck-an-der-leitha.html">Bruck a/Leitha</placeName>.</p>
+
+            <p>Bis zur Machtübernahme wurde gegen die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakische
+                    Republik</placeName> gelegene Reichsgrenze des hiesigen Bezirkes durch die Beamten des Postens <placeName
+                    ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName> und die Zollwachpatrouillen des <orgName
+                    ref="#ehri_bf_strassenzollamt_berg">Strassenzollamtes <placeName ref="http://www.geonames.org/7872848/berg.html"
+                    >Berg</placeName></orgName> abpatrouilliert.</p>
+
+            <p>Am <date when="1938-03-12">12. März 1938</date> wurden zur Grenzverstärkung bezw. Grenzsicherung 25 <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName> Leute der Ortsführung <placeName
+                    ref="http://www.geonames.org/2776988/hainburg-an-der-donau.html">Hainburg</placeName> und <placeName
+                    ref="http://www.geonames.org/7872848/berg.html">Berg</placeName>, in <placeName ref="http://www.geonames.org/7872848/berg.html"
+                    >Berg</placeName> eingesetzt und am 14. <date when="1938-03">März 1938</date> der Posten <placeName
+                    ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName> um 5 Beamte verstärkt. Außerdem wurde ein Zug
+                Kavallerie unter Kommando eines Leutnands von <placeName ref="http://www.geonames.org/2770684/neusiedl-am-see.html">Neusiedl am
+                    See</placeName> nach <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName> beordert. Beim <orgName
+                    ref="#ehri_bf_strassenzollamt_berg">Strassenzollamt <placeName ref="http://www.geonames.org/7872848/berg.html"
+                    >Berg</placeName></orgName> wurde zu dieser Zeit der Personalstand der Zollwachebeamten bis auf 40 <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-826">Mann</term> erhöht.</p>
+
+            <p>Dem Posten <placeName ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName> obliegt die Bewachung der 5.7km langen
+                    <placeName ref="http://www.geonames.org/791630/danube-river.html">Donaugrenze</placeName>, dann 2 km Au-Grenze und 2.2 km Grenze
+                über die Felder bis zur <placeName ref="https://www.geonames.org/2781194/burgenland.html">burgenländischen</placeName> Grenze,
+                anschliessend an den Posten <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>.</p>
+
+            <p>Die Überwachung wurde lückenlos durchgeführt. Es ergab sich kein Fall eines Devisen- oder <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">Valutenschmuggels</term>. Da die Möglichkeit bestand,
+                daß Devisen- und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-267" type="subject">Valutenschmuggler</term> über
+                    <placeName ref="http://www.geonames.org/2768357/prellenkirchen.html">Prellenkirchen</placeName> und die <placeName
+                    ref="http://www.geonames.org/2781194/burgenland.html">burgenländische</placeName> Grenze in das<pb n="2"
+                    facs="EHRI-BF-19380401a_02.jpg"/> Ausland zu entkommen versuchen würden, wurde auch der Posten <placeName
+                    ref="http://www.geonames.org/2768357/prellenkirchen.html">Prellenkirchen</placeName> am <date when="1938-03-14">14. März
+                    1938</date> um 2 Beamte verstärkt, doch ergab sich auch dort bis nun kein greifbarer Erfolg. Lediglich der Posten <placeName
+                    ref="http://www.geonames.org/2767301/rohrau.html">Rohrau</placeName> hat am <date when="1938-03-12">12. März 1938</date> zwei
+                jüdische Valuten<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-267" type="subject">Valutenschmuggler</term>
+                aufgegriffen und der Bezirkshauptmannschaft überstellt.</p>
+
+            <p>Am <date when="1938-03-19">19. März 1938</date> wurde die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-358"
+                    >SA</orgName> über Verfügung ihrer Ortskommandos wieder abgezogen und obliegt seither die Ueberwachung der Grenze nur noch der
+                    <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Gendarmerie</term> und <term
+                    ref="#ehri_bf_zollwache_oest">Zollwache</term>. Der Posten <placeName ref="http://www.geonames.org/2760895/wolfsthal.html"
+                    >Wolfsthal</placeName> verfügt gegenwärtig nur über 6 Beamte, da 2 <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-292">erkrankt</term> sind und einer familienhalber abgelöst werden
+                musste.</p>
+
+            <p>Diese Anzahl der Beamten reicht im Vereine mit dem Zollwachpersonal, mit Rücksicht darauf, dass die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechische</placeName> Grenze in ihrer ganzen Länge von der <placeName
+                    ref="http://www.geonames.org/791630/danube-river.html">Donau</placeName>, entlang der <placeName
+                    ref="http://www.geonames.org/2770542/niederoesterreich.html">niederösterreichischen</placeName> und <placeName
+                    ref="http://www.geonames.org/2781194/burgenland.html">burgenländischen</placeName> Grenze mit einem Stacheldrahtverhau versehen
+                ist, welcher einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegalen Verkehr</term>
+                außerhalb der öffentlichen Wege bedeutend erschwert, ja fast unmöglich macht, zur Verhinderung <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">unerlaubten Grenzübertrittes</term> und <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">Schmuggels</term> von Devisen und Valuten etz.
+                aus.</p>
+
+            <p>Die im Postenrayon <placeName ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName> und <placeName
+                    ref="http://www.geonames.org/2776988/hainburg-an-der-donau.html">Hainburg</placeName> gelegene nasse <term ref="#ehri_bf_grenze"
+                    >Grenze</term> (<placeName ref="http://www.geonames.org/791630/danube-river.html">Donau</placeName>grenze) wird auch durch
+                Patrouillen und 2 Motorboote der <orgName ref="#ehri_bf_donausicherheitsbehörde_hainburg">Donausicherheitsbehörde <placeName
+                        ref="http://www.geonames.org/2776988/hainburg-an-der-donau.html">Hainburg an der Donau</placeName></orgName>
+                abpatrouilliert.</p>
+
+            <p>Nach Rücksprache mit den Postenkommandanten von <placeName ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName>
+                und <placeName ref="http://www.geonames.org/2776988/hainburg-an-der-donau.html">Hainburg</placeName> ist diese Abpatrouillierung
+                jedoch nicht ausreichend und lässt einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject"
+                    >Schmuggel</term> vom <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName> zum
+                    <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Ufer der <placeName
+                    ref="http://www.geonames.org/791630/danube-river.html">Donau</placeName> oder umgekehrt, im Bereiche der Möglichkeit liegen.</p>
+
+            <p>Um einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">Schmuggel</term> auf diesem Wege
+                auszuschliessen, wird der Antrag gestellt, den Posten <placeName ref="http://www.geonames.org/2760895/wolfsthal.html"
+                    >Wolfsthal</placeName> noch um 2 Beamte und der Posten <placeName ref="http://www.geonames.org/2776988/hainburg-an-der-donau.html"
+                    >Hainburg an der Donau</placeName> um 4 Beamte zu verstärken, damit die über 10 km lange Uferstrecke der <placeName
+                    ref="http://www.geonames.org/791630/danube-river.html">Donau</placeName> von der Reichsgrenze bis <placeName
+                    ref="http://www.geonames.org/2776988/hainburg-an-der-donau.html">Hainburg</placeName> entsprechend bewacht werden kann.</p>
+
+            <p>Diese 6 Beamte könnten aus dem Bezirke aufgebracht werden.</p>
+
+            <p>
+                <note type="gloss">Unterschrift - unleserlich</note>
+            </p>
+
+            <p>
+                <note type="gloss">Stempel</note>
+            </p>
+            <!--
+      <p>
+        <placeName ref="http://www.geonames.org/2781373/bruck-an-der-leitha.html">Bruck
+          a.L.</placeName>
+      </p>
+
+      <p>
+        <date when="1938-04-02">2. April 1938</date>
+      </p>
+
+      <p> XI-445</p>
+
+      <p>
+        <date when="1938-05-24">24. Mai 1938</date>
+      </p>-->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19391015_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Telegramm Eichmanns aus Krakau an die Zentralstelle in Mährisch Ostrau betreffend Nisko als
+					Deportationsziel</title>
+				<title xml:lang="en">Telegram from Eichmann from Krakow to the central office in Moravian Ostrava regarding Nisko as a deportation
+					target</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Winfried Garscha</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<authority>
+					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
+					ins besetzte Polen deportierten Juden.</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+						<repository> Landesgericht (LG) Wien</repository>
+						<idno>22d Vr 1812-80</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Landesgericht (LG) Wien, 22d Vr 1812-80, Beiakt 3. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1939-10-15">15. Oktober 1939</date>
+				<placeName ref="#krakow">Krakau</placeName>
+				<idno>EHRI-NISKO-19391015</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>LG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<p>+ <placeName ref="#krakow">Krakau</placeName> Nr. 330 15/10 1203 = BRU =</p>
+				<p>= An <persName ref="#ehri_nisko_guenther_rolf">SS-Hauptsturmführer Guenther</persName>, Greko <placeName ref="#ostrava">Maehrisch
+						Ostrau</placeName>.=</p>
+				<p>= Eisenbahnstation fuer <term ref="#t521" type="subject">Transporte</term> ist <placeName ref="#nisko">Nisko am San</placeName>.
+					– Ankomme in <placeName ref="#ostrava">Maehr.-Ostrau</placeName> heute Sonntag.=</p>
+				<p>Gez. <persName ref="#p000564">Eichmann, SS-Hstuf</persName> +</p>
+			</div>
+		</body>
+	</text>
+</TEI>

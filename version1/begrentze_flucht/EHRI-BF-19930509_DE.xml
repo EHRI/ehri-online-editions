@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:09+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19930509_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Auszug aus einem Interview mit Harry Weiss über seine Flucht in die ČSR</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+				<sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Jüdisches Museum in Prag</repository>
+						<collection>Oral History Collection</collection>
+						<idno>Interview 201</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jüdisches Museum in Prag, Oral History Collection, Interview 201. <textLang mainLang="de">Original auf
+					Tschechisch.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Prag (Praha)</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Prag"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Brünn (Brno)</placeName>
+						<location>
+							<geo>49.19522 16.60796</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3078610/brno.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Brno"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tschechoslowakei</placeName>
+						<location>
+							<geo>50.08292 14.46672</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Österreich</placeName>
+						<location>
+							<geo>47.33333 13.33333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wien</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Frankreich</placeName>
+						<location>
+							<geo>46 2</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3017382/republic-of-france.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Frankreich"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Paris</placeName>
+						<location>
+							<geo>48.85341 2.3488</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2988507/paris.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Paris"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Schweiz</placeName>
+						<location>
+							<geo>47.00016 8.01427</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Schweiz"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Strassburg</placeName>
+						<location>
+							<geo>48.58392 7.74553</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2973783/strasbourg.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Stra%C3%9Fburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>München</placeName>
+						<location>
+							<geo>48.13743 11.57549</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2867714/munich.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/M%C3%BCnchen"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Familie</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Schule</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Visum</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+						</linkGrp></item>
+					<item><name>Polizei</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Gefängnis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Illegale Grenzüberschreitung</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+						</linkGrp></item>
+					<item><name>Lebensmittel und Essen</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Presse</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1068"/>
+						</linkGrp></item>
+					<item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Tod</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Botschaft und Konsulat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+						</linkGrp></item>
+					<item><name>NS-Staat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Pass</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item><name>Zug</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_bf_weiss_harry">
+						<persName>Weiss, Harry</persName>
+						<note><p>11.5.1921 - 2009</p>Harry Weiss wurde 1921 in Prag geboren und wuchs in Wien auf. 1938 versuchte er in die
+							Tschechoslowakei zu emigrieren. Nachdem er wegen illegalen Grenzübertritts in Prag inhaftiert wurde, kehrte er nach
+							Österreich zurück. Harry Weiss gelang die Flucht über Paris in die USA.</note>
+					</person>
+					<person xml:id="ehri_bf_schmolka_franz">
+						<persName>Schmolka, Franz</persName>
+					</person>
+					<person xml:id="ehri_bf_schmolka_stella">
+						<persName>Schmolka, Stella</persName>
+					</person>
+					<person>
+						<persName>Mussolini, Benito</persName>
+						<note>
+							<p>1883 - 1945</p>
+							<p>Ministerpräsident des Königreichs Italiens (1922-1943) und ab 1925 faschistischer Diktator. Mussolini wurde im April
+								1945 durch italienische Partisanen hingerichtet.</p>
+						</note>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000287"/>
+						</linkGrp>
+						<linkGrp>
+							<link type="normal" target="https://de.wikipedia.org/wiki/Benito_Mussolini"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Chamberlain, Arthur Neville</persName>
+						<note><p>1869 - 1940</p>Britischer Premierminister (1837 - 1940). Unterschrieb als Vertreter der Appeasement-Politik im
+							September 1938 das sog. Münchner Abkommen.</note>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000078"/>
+						</linkGrp>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Jüdisches Museum in Prag</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/institutions/cz-002279"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<note>
+							<p>Gegründet 1935</p>
+							<p>Ab 1935 war Wehrmacht die Bezeichnung für die Deutsche Armee. Oftmals in Konkurrenz um Versorgung und Befugnis mit der
+								Waffen-SS, unterstützte die Wehrmacht die SS in der Umsetzung der Endlösung. Sie war an Aktivitäten wie Massentötungen
+								von Geiseln, unschuldigen ZivilistInnen und Kriegsgefangenen in Polen und der Sowjetunion beteiligt, die die Genfer
+								Konventionen verletzten. Die Wehrmacht verschleppte auch Kinder für den Lebensborn.</p>
+						</note>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1993-05-09">9. Mai 1993</date>
+				<placeName>Prag</placeName>
+				<orgName>Jüdisches Museum in Prag</orgName><idno>EHRI-BF-19930509</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>persönliche Dokumente</term>
+				</keywords>
+				<catRef target="Fluchtberichte"/>
+				<catRef target="Flüchtlingspolitik"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p>Harry Weiss wurde in Prag geboren und wuchs in Wien auf. 1938 versuchte er in die Tschechoslowakei zu emigrieren. Nachdem er wegen
+					illegalen Grenzübertritts in Prag inhaftiert wurde, kehrte er nach Österreich zurück. Harry Weiss gelang die Flucht über Paris in
+					die USA. Der Auszug aus dem Interview beschreibt die Flucht von Harry Weiss mit dem Flugzeug in die ČSR und die Behandlung durch
+					die tschechoslowakische Polizei.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><!-- Ausschnitt aus einem Interview mit <persName>Harry Weiss</persName> (geb.
+        am <date when="1921-05-11">11.5.1921</date> in <placeName
+          ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>) vom <date
+          when="1993-05-09">9.5.1993</date>, geführt durch Anna Hyndráková,
+          <orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jüdisches Museum in
+          Prag</orgName> --></p>
+			<p>[...] Auch in <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName> hatten wir Familie, dort war die Familie
+				von <persName ref="#ehri_bf_schmolka_franz">Onkel Schmolka</persName>, das war der Schwager, der Ehemann der Schwester meiner Mutter.
+				Sie waren sehr reich und man wusste über sie, dass sie in <placeName ref="http://www.geonames.org/3067696/prague.html"
+					>Prag</placeName> die besten Beziehungen haben und dass sie alles einrichten können. Ihnen ist es auch gelungen meine Aufnahme an
+				der Textilschule in <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> zu veranlassen. So habe ich auch ein
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> für die <placeName
+					ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName> erhalten. Ich bekam den Vorschlag –
+					<persName ref="#ehri_bf_weiss_harry">Harry</persName> fliegt nach <placeName ref="http://www.geonames.org/3067696/prague.html"
+					>Prag</placeName>, am Flughafen wird ein Rechtsvertreter der Schmolkas sein, dieser und die Schmolkas werden alles regeln, damit
+				er in <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> an der Schule angenommen wird. In der Zwischenzeit
+				habe ich Tschechisch gelernt, was für mich überraschend mühsam war. Am Flughafen war der Rechtsanwalt, oder die Rechtsanwälte, und
+				noch weitere „wichtige“ Leute und das einzige, was sie erreichten, war, dass ich direkt vom <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Prager</placeName> Flughafen ins Polizeigefängnis gebracht wurde. Dies deshalb,
+				weil ich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">unerlaubt die Grenze übertreten</term>
+				hatte. Ich war dort in der Zelle Nr. 13. Weil ich nur ein wenig Tschechisch konnte, war es kein so besonderes Erlebnis An der Wand
+				stand mit Bleistift auf Deutsch geschrieben: „Geh zurück nach Hause, dort ist es besser!“ Das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> habe ich nicht gegessen, es war
+				schrecklich, und in den <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName> Zeitungen
+				konnte ich nur die Sportergebnisse lesen, ich konnte nicht einmal Sparta und Slavia entschlüsseln. Am nächsten Morgen brachten sie
+				mich zum Prager <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Polizeipräsidenten</term>, und der
+				sagte mir, dass ich mit dreißig Tagen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject"
+					>Gefängnis</term> bestraft würde, wenn ich nicht noch am gleichen Tag nach <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zurückkehrte. Als ich aber <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> verlassen hatte, hatte ich unterschrieben,
+				dass ich dorthin als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jude</term> unter Todesstrafe
+				nicht mehr zurückkehre. Das interessierte allerdings niemanden besonders, wir verabschiedeten uns, er sprach deutsch. Er gab mir
+				jedoch noch eine wichtige Aufgabe, dass ich, sobald ich nach <placeName ref="http://www.geonames.org/2761369/vienna.html"
+					>Wien</placeName> zurückkehrt sei im Fall meines Überlebens Kontakt mit der <orgName><placeName
+						ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechische</placeName>
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Botschaft</term></orgName> in der
+				Cumberlandstraße in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> aufnehmen solle und dass ich ihnen
+				augenblicklich melden müsse, falls ich auf dem Weg irgendwelche ungewöhnlichen Bewegungen der Armee, also der <term type="subject"
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">deutschen Armee</term> feststellen sollte. Es war sehr schön über die
+				Todesstrafe zu sprechen, aber falls ich ihr doch entrinnen würde, sofort wieder so handeln sollte, dass mir eine andere Strafe drohte.
+				Danach steckten mich zwei Detektive ins Auto und fuhren mit mir als Akt der Freundschaft am Schmolkovic-Palais auf dem Altstädter Ring
+				vorbei, wo Onkel Franz und Tante Stella waren. Und auch noch Großvater Schmolka und das einzige, was er zu mir sagte, war: „Wozu haben
+				sie dich hierhergeschickt?“ Ich hatte großes Glück, ich halte mich für einen glücklichen Menschen. Glücklich in dem Sinn, dass, wenn
+				ich an diese Textilschule in <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> gekommen wäre, niemals raus
+				gekommen wäre, denn bald danach besetzten die Deutschen die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+					>Tschechoslowakei</placeName>. Weil ich nicht Tschechisch konnte, wäre ich aufgefallen und mit Sicherheit umgekommen. Das heißt,
+				das war Glück. Meine Eltern wussten überhaupt nicht, was passiert war. Sie steckten mich in das nächste Flugzeug und ich flog nach
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>. Niemand am Flughafen besah sich meinen Pass und ich
+				fuhr von dort aus mit der Straßenbahn zu den Eltern. Sie waren sehr überrascht, als sie mich sahen. Die folgenden beiden Monate
+				beschäftigten sie sich damit, was aus mir werden würde. Es war klar, dass ich raus musste. Mit Hilfe eines Bekannten meiner Eltern und
+				der Schwester erhielt ich ein falsches <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject"
+					>Transitvisum</term> über <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">Frankreich</placeName>. Das auf
+				normalem Weg beantragte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Transitvisum</term> dauerte
+				lange, man musste das Zielland kennen und ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject"
+					>Eintrittsvisum</term> dafür haben. Am <date when="1938-09-30">30. September l938</date> machte ich mich auf den Weg, nachdem ich
+				mich von meinen Eltern verabschiedet hatte, stieg ich in den Zug und fuhr nach <placeName
+					ref="http://www.geonames.org/2988507/paris.html">Paris</placeName>. Dank einer französischen Gouvernante sprach ich fließend
+				Französisch, auch hatte ich einige Male die Ferien in der <placeName ref="http://www.geonames.org/2658434/switzerland.html"
+					>Schweiz</placeName> oder in <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">Frankreich</placeName>
+				verbracht. <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">Französisch</placeName> fließend zu beherrschen
+				gehörte in <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zur guten Erziehung. In
+					<placeName ref="http://www.geonames.org/2973783/strasbourg.html">Straßburg</placeName> hatte ich noch ein paar letzte Mark, ich
+				steckte sie in einen Umschlag mit der Adresse, klebte eine Briefmarke darauf und schickte sie zurück an die Eltern. Diese erhielten
+				sie jedoch nie. Am Grenzübergang bei <placeName ref="http://www.geonames.org/2973783/strasbourg.html">Straßburg</placeName> kam der
+				Passkontrolleur, der sich mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> sehr
+				sorgfältig ansah, denn es war ein Transitvisum. Er fragte mich, wohin ich fahre, dass ich ohne ein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Eintrittsvisum</term> in irgendein Zielland jedoch
+				kein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Transitvisum</term> haben könne. In diesem
+				Moment rief ihn jemand zu sich, irgendein anderer Kontrolleur. Danach kam niemand mehr in unser Abteil. So gelangte ich nach
+					<placeName ref="http://www.geonames.org/3017382/republic-of-france.html">Frankreich</placeName>, eigentlich dank Zufall. Ich
+				möchte nur noch hinzufügen, dass es am <date when="1938-09-30">30. September</date> während eines zweistündigen Aufenthalts in
+					<placeName ref="http://www.geonames.org/2867714/munich.html">München</placeName> beim Umstieg am Bahnhof war, als am Nebengleis
+				der Zug von <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000287">Mussolini</persName> eintraf. Es war der Tag,
+				an dem <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000287">Mussolini</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000078">Chamberlain</persName> usw. den „großen Frieden“ schlossen – der
+					<date when="1938-09-30">30. September l938</date> [...]</p>
+		</body>
+	</text>
+</TEI>

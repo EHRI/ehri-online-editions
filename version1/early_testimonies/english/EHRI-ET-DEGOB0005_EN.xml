@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-DEGOB0005_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>B. E., female, on the deportation of Jews from Nagyvárad to Auschwitz-Birkenau in 1944 and her slave labour in other Nazi
+					concentration camps</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Zoltán Vági</persName>
+				</author>
+				<author>
+					<persName>Gábor Kádár</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/hu">Hungary</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/hu-002737">Hungarian Jewish Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/hu-002737-hu_hja_pih_i_m#desc-eng">National Relief Committee for
+							Deportees (interview project, DEGOB)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Hungarian Jewish Archives, DEGOB, Protocol no. 5. <textLang mainLang="hu">Original in Hungarian.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Oradea</placeName>
+						<location>
+							<geo>47.0458 21.91833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/671768/oradea.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Oradea"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga</placeName>
+						<location>
+							<geo>56.946527 24.104861</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri-camps-2055"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Magdeburg</placeName>
+						<location>
+							<geo>52.12773 11.62916</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2874545/magdeburg.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Magdeburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49801 19.03991</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Debrecen</placeName>
+						<location>
+							<geo>47.53333 21.63333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/721472/debrecen.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Debrecen"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Košice</placeName>
+						<location>
+							<geo>48.71395 21.25808</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/724443/kosice.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Ko%C5%A1ice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dondangen I concentration camp</placeName>
+						<location>
+							<geo>57.510602 22.355654</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-789"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nedlitz</placeName>
+						<location>
+							<geo>52.07536 12.23489</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2866719/nedlitz.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Nedlitz"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Ghettoisation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-552"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Looting</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-655"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Jewish physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Jewish jurists and lawyers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-899"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Gendarmes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1125"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Funerals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-805"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Camp life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-486"/>
+						</linkGrp></item>
+					<item><name>Male overseers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1438"/>
+						</linkGrp></item>
+					<item><name>Soldiers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Female overseers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-478"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_gal_rene">
+						<persName>Gal, René</persName>
+					</person>
+					<person xml:id="ehri_et_klein_simon">
+						<persName>Klein, Simon</persName>
+					</person>
+					<person xml:id="ehri_et_polacsek">
+						<persName>Polacsek (committed suicide in the Nagyvárad/Oradea ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_notzen">
+						<persName>Notzen (feather dealer)</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>National Committee for Attending Deportees (DEGOB)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004602"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+						<note><p>Founded in 1935</p><p>Wehrmacht was the Name for the German army after 1935. Often in competition for supplies and
+								authority with the Waffen-SS, the Wehrmacht also assisted the SS in carrying out the Final Solution. It was involved
+								in activities in Poland and the Soviet Union, which violated the Geneva Convention, such as mass killings of hostages,
+								innocent civilians, and prisoners of war. The Wehrmacht also kidnapped children in Ruthenia for Lebensborn.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-06-18">18. 6. 1945</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004602">National
+					Committee for Attending Deportees (DEGOB)</orgName>, <placeName ref="http://www.geonames.org/671768/oradea.html"
+					>Nagyvárad/Oradea</placeName>, <placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri-camps-2"
+					>Auschwitz</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri-camps-2055" type="camp">Riga</placeName>,
+					<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri-camps-787">Magdeburg</placeName>
+				<idno>EHRI-ET-DEGOB0005</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of the 31-year-old B.E. on ghettoization in Nagyvárad/Oradea in 1944, her attempts to escape, looting and torture
+					committed by the Hungarian gendarmerie, her deportation to and experiences in Auschwitz, slave labor in Riga and Magdeburg, and
+					liberation near Nedlitz.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-DEGOB0005_01.jpg"/> The person in question has given us the following information: About 25,000-30,000 Jews
+				lived in <placeName ref="http://www.geonames.org/671768/oradea.html">Nagyvárad</placeName>; tradesmen, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">physicians</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">lawyers</term>, craftsmen etc. Most of them were
+				wealthy people. My husband was a cabinetmaker, he earned a very good living. Furniture worth 30,000 pengős according to the
+				contemporary value of the money was stored in his warehouse at the time of our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term>. Our own flat and its furniture is
+				worth around 100,000 pengős. According to the general decrees people began to be <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">moved into ghettos</term> from <date>5th April</date>
+				on. A part of the city, about 25 streets, was marked out to make a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+					type="subject">ghetto</term> and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject"
+					>gendarmes</term> took us there on trucks. We could take with us whatever we wanted. We were not allowed to walk in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. About 12-15 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">people</term> lived in one <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">room</term> and we slept on the ground in a very small
+				place. A communal kitchen provided <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> for
+				us. Some of us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> at the communal
+				kitchen, the others did not <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> at all. They
+				were guarded by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">gendarmes</term>. They were told
+				that they would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> in fields in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> and that they should not be afraid, since they would not be
+				taken to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germany.</term> Many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> tried to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> through the drain, and a number of them
+				managed. A large number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> committed
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">suicide</term> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>: <persName ref="#ehri_et_gal_rene">Dr
+					René Gal</persName>, <persName ref="#ehri_et_klein_simon">Mrs Simon Klein</persName> and Dr <persName ref="#ehri_et_polacsek"
+					>Polacsek</persName>, together with his whole family. A large number of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">people died</term> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> otherwise too, there were 10-12 <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-805">funerals</term> every day. The wealthier Jews were
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">accommodated</term> in the brewery. They were
+				beaten all the time; the guards used a variety of torments to force them to confess where they had <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">hidden their valuables</term>. My sister-in-law was
+				beaten so much that she could not walk, because her soles were hit. They conducted electric currents into the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">women</term>’s wombs. A feather dealer called <persName
+					ref="#ehri_et_notzen">Notzen</persName>, who was extremely rich, was tortured so much that they took him back from the brewery on
+				a stretcher. These torments were executed by people from <placeName ref="http://www.geonames.org/3054643/budapest.html"
+					>Budapest</placeName>, who were dressed like civilians. <pb n="2" facs="EHRI-ET-DEGOB0005_02.jpg"/> Once there was a looting in
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> when the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">gendarmes</term> took away every valuable, watches
+				and food from us. We were allowed to take only one knapsack with us in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">cattle car</term> and they said if they find money on
+				somebody, they would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shoot down</term> 10 Jews for
+				it. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">They put 80 people in a cattle car</term>, a
+				small jug of water and a bucket to serve as a toilet. We arrived in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri-camps-2" type="camp">Auschwitz</placeName> on <date>5th July</date>, after 5
+				days of travelling. They gave us water on the way in <placeName ref="http://www.geonames.org/721472/debrecen.html"
+					>Debrecen</placeName> and <placeName ref="http://www.geonames.org/724443/kosice.html">Kassa</placeName>, but we could not get off.
+				In <placeName ref="http://www.geonames.org/724443/kosice.html">Kassa</placeName>, <term type="subject"
+					ref="#ehri_et_nationalities_hungarians">Hungarian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">gendarmes</term> searched the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">cattle cars</term> and they took away everything we
+				still had: money, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">clothes</term>, blankets, shoes,
+				etc. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> soldiers took over in <placeName
+					ref="http://www.geonames.org/724443/kosice.html">Kassa</placeName> and one of them addressed a speech to us saying that we should
+				not be afraid, because we would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> and he
+				who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">works</term> would receive <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>. Our arrival in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName> was horrible. We arrived in the evening in heavy
+				rain and we had to leave the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">cattle car</term> very
+				quickly. They told us to leave our baggage there, they would take it after us. They <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selected</term> us immediately. They bathed us in hot
+				water and put a single ragged <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">dress</term> on us,
+				then they chased us in an enormous toilet building where we were terribly cold after the hot bath, standing on cold stone ground in a
+				single dress at night. A large number of us were crammed there and we were terribly tired, we could not even sit down. Many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">people died</term> there that night. On the next day
+				they made us line up for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll call</term>, they put
+				our names down and put together a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>.
+				On the third day they sent us to <placeName ref="https://portal.ehri-project.eu/keywords/ehri-camps-2055" type="camp"
+				>Riga</placeName>. From there they took 500 of us to a village called <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri-camps-789" type="camp">Urbe</placeName>, where we <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">cut down a forest</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">built a railway</term>. For us <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> was terribly hard. I had to carry beams,
+				so heavy that my neck became twice thicker and it will have to be operated on. We lived in a camp in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-789">Urbe</placeName>, 14 of us slept in a tent on the bare ground. We
+				picked moss in the forest; that was our pillow. Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-486" type="subject"
+					>provisions</term> consisted of some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+				>soup</term>once a day and half a loaf of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>bread</term>, later only one quarter of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>loaf.</term> Very few <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> survived
+				the hard <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. In the beginning of
+					<date>September</date> they took me with a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>transport</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri-camps-787" type="camp">Magdeburg</placeName>.
+				There I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> 12 hours a day in an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">ammunition factory</term>. I <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> one day at daytime, on the other day at
+				night. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> was not hard, only the
+				workday was very long and the night shift was especially difficult to endure. They did not harm us, moreover, the civilian <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">overseers</term> sometimes gave extra <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> to a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>. However, I had already been so weakened
+				by then that sometimes I could hardly walk. That was caused by the prior events and the overwork. When the <term type="subject"
+					ref="#ehri_et_nationalities_hungarians">American</term> were coming closer to <placeName
+					ref="http://www.geonames.org/2874545/magdeburg.html">Magdeburg</placeName>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">soldiers</term> from the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmacht</orgName> took us to a village called <placeName
+					ref="http://www.geonames.org/2866719/nedlitz.html">Nedlitz</placeName>. We had to leave everything there and we had to march very
+				fast. They put down the whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> on a
+				square. Later we learned that square was an airport and there was an air raid that night, on account of which about 4,000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died.</term> The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmacht</orgName> soldiers had escaped from us before the air raid
+				and those who survived met the <term type="subject" ref="#ehri_et_nationalities_hungarians">American</term> troops already on the next
+				day. <pb n="3" facs="EHRI-ET-DEGOB0005_03.jpg"/> One of my most terrible experiences was in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName>. A <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> of about 50 did not want to leave
+					her<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">daughter</term> at the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selection</term>. Then an <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-478" type="subject">SS woman</term> began to hit her. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> was already quite beside herself and she
+				hit the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-478" type="subject">SS woman</term> back. Then the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-478" type="subject">SS woman</term> took a dog whip and looped it around
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman’s</term> neck and she dragged her like
+				that along the whole long way. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman’s</term>
+				screaming was horrible and unforgettable. When she was barely alive, two other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> soldiers shot at her. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">corpse</term> was left before us all the time, so that
+				we learn from the case, because <q>that is what happens to those who contradict them</q>. The suffering of an acquaintance of mine, a
+				young <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girl</term>, was also terrible; they took her
+				insulin away in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName>, so she <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> there, in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName>.</p>
+		</body>
+	</text>
+</TEI>

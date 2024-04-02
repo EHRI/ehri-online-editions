@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?teipublisher template="document.html"?>
+<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP003_EN" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Gerta Sachsová, the fate of her family during the WWII</title>
+                <title xml:lang="fr">Gerta Sachsová, le sort de sa famille pendant la Seconde Guerre mondiale</title>
+                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Michal Frankl</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Magdalena Sedlická</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <location>
+                            <address>
+                                <street>U Staré školy 141/1</street>
+                                <postCode>110 00</postCode>
+                                <settlement>Prague</settlement>
+                                <country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+                            </address>
+                        </location>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+                        <idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
+                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation><persName ref="#ehri_et_sachsova_gerta">Gerta Sachsová</persName>
+                <placeName ref="#prague">Prague</placeName>
+                <idno>EHRI-ET-JMP003</idno></creation>
+            <textClass>
+                <keywords>
+                    <term>testimony</term>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="cs">Czech</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <abstract>
+                <p>Letter from Gerta Sachsová addressed to family friends. Sachsová was deported with her husband from Prague to the Theresienstadt
+                    Ghetto in July 1943, from where she was sent to Auschwitz in autumn 1944. Her parents and husband perished. Sachsová describes
+                    their fate and her difficult postwar adaptation.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2022-07-20" who="#floriane.chiffoleau">Added the original version of the testimony</change>
+            <change when-iso="2021-11-05" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+            <change when-iso="2020" who="#ehri">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription">
+                <pb facs="EHRI-ET-JMP003_01.jpg" n="1"/>
+                <p>Drazí,</p>
+                <p>jsme neskonale šťastny, že jsme konečně s Vámi v <term ref="#t716" type="subject">písemném styku</term> a můžeme Vám psát v naší
+                    mateřštině. Máme Vám toho tolik co říci, že ani papír na vše nestačí. Bohužel moc málo hezkého, samé smutné zprávy. Jak jste se
+                    snad již dozvěděli od Marušky, vrátily jsme se s <persName ref="#ehri_et_hellerova_jana" type="ehri">Hankou</persName> z celé
+                    rodiny úplně samy, a jsme šťastny, že jsme se alespoň my dvě shledaly. Musím Vám vše vylíčit od našeho odjezdu z <placeName
+                        ref="#prague" type="ehri">Prahy</placeName>. Jak víte jeli jsme s <persName ref="#egon-sachs" type="ehri">Kurtem</persName>
+                        v <date when="1943-07">červenci 1943</date> do <placeName ref="#l449" type="ghetto">Terezína</placeName> za <pb
+                        facs="EHRI-ET-JMP003_02.jpg" n="2"/> rodiči a <persName ref="#ehri_et_hellerova_jana" type="ehri">Hankou</persName>, kde jsme
+                    ještě strávili společně 1 ¼ roku. Dařilo se nám tam poměrně dosti dobře, <persName ref="#egon-sachs" type="ehri">Kurt</persName> a
+                    rodiče byli v kanceláři, <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName> v pekárně a já jsem většinou
+                    nedělala nic, jelikož jsem byla <term ref="#t292" type="subject">nemocná</term>. Pak v roce <date when="1944">44</date> na podzim
+                    jsme byli postupně <term ref="#t267" type="subject">transportováni</term> a sice <persName ref="#artur-heller" type="ehri"
+                        >tatínek</persName> zvlášť, <persName ref="#edita-hellerova" type="ehri">maminka</persName> s <persName
+                        ref="#ehri_et_hellerova_jana" type="ehri">Hankou</persName>, a já s <persName ref="#egon-sachs" type="ehri">Kurtem</persName>.
+                        <term ref="#t267" type="subject">Transporty</term> šly všechny do <placeName ref="#l2" type="ehri">Osvěčíma</placeName>.
+                    Nemůžete si představit, co jsme všechno prodělali. Nechci Vám líčit naše zážitky a je snad ode mne trochu kruté, že Vám přímo
+                    napíši, že naše drahá <persName ref="#edita-hellerova" type="ehri">mamička</persName> tam <term ref="#t745" type="subject"
+                        >zahynula</term> a <persName ref="#artur-heller" type="ehri">tatínek</persName>, který šťastně prošel <term ref="#t411"
+                        type="subject">selekcí</term>, byl dne <date when="1945-05-03">3. května 1945</date>, tedy 5 dní před koncem <term
+                        ref="#t1080" type="subject">války</term>, už na <placeName ref="#czechoslovakia" type="ehri">českých</placeName> hran. při
+                        <term ref="#t623" type="subject">ev</term>. <term ref="#t508" type="subject">prac. tábora</term>, v kterém byl, <term
+                        ref="#t745" type="subject">zastřelen</term>. <persName ref="#egon-sachs" type="ehri">Kurt</persName>, byl při vagon.
+                        v <placeName ref="#l449" type="ghetto">Ter.</placeName> ode mě oddělen a dozvěděla jsem se teprve při návratu do <placeName
+                        ref="#prague" type="ehri">Prahy</placeName>, že byl asi 3 ned. na <placeName ref="#l49" type="ehri">Malé pevnosti</placeName>
+                    a tam prý <term ref="#t745" type="subject">zastřelen</term>. O <persName ref="#artur-heller" type="ehri">tatínkovi</persName> máme
+                    positivní zprávu, jelikož byl pohromadě s <persName ref="#ehri_et_hellerova_jana" type="ehri">Hančiným</persName>
+                    <term ref="#t826" type="subject">mládencem</term>, který se vrátil. Také Jirka se vrátil a <term ref="#t837" type="subject"
+                        >bydlíme</term> teď s ním pohromadě. S <persName ref="#ehri_et_hellerova_jana" type="ehri">Hankou</persName> jsem se sešla
+                    šťastnou náhodou v <placeName ref="#prague" type="ehri">Praze</placeName> byla zde již o měsíc dřív než já a nevěřila ani v můj
+                    návrat. Jistě si dovedete představit teď náš <term ref="#t831" type="subject">život</term>. Naše finanční situace je ubohá, také
+                        s <term ref="#t836" type="subject">oblečením</term> jsme na tom špatně. <pb facs="EHRI-ET-JMP003_03.jpg" n="3"/> Půjdu asi
+                    někam do kanceláře, <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName> dělá v <date when="1945-09">září</date>
+                    maturitu a pak se bude živit pravděpodobně kreslením. Je to asi stručně vše, co jsme Vám o svém osudu chtěly povědět, co bude dál
+                    nevíme. S Maruškou jsme ve spojení. Její Janička je skutečně roztomilá. Několikrát jsme u nich již byly. Prosíme Vás, abyste nám
+                    pokud možno brzy odpověděli a sdělili, zda sem přijedete. Moc rády bychom Vás již viděly, máme si toho moc co vyprávět. Ani nevíte
+                    jak nám je. Jsme šťastny, že alespoň Vy přijedete.</p>
+            </div>
+            <div type="transcription">
+                <pb facs="EHRI-ET-JMP003_01.jpg" n="1"/>
+                <p>My Dears,</p>
+                <p>We are overjoyed that we are finally in <term ref="#t716" type="subject">written touch</term> with you and that we can write to you
+                    in our mother tongue. We have so much to tell you that there isn’t enough paper in the world that could contain it all.
+                    Unfortunately, it’s mostly all bad news. So little of it is good. As you have perhaps already learned from Maruška, out of our
+                    whole family only <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName> and I returned, but we are happy that at
+                    least the two of us were reunited. I must tell you all about our departure from <placeName ref="#prague" type="ehri"
+                        >Prague</placeName>. As you know, <persName ref="#egon-sachs" type="ehri">Kurt</persName> and I were transported to <placeName
+                        ref="#l449" type="ghetto">Theresienstadt</placeName> in <date when="1943-07">July 1943</date> to be with our <pb
+                        facs="EHRI-ET-JMP003_02.jpg" n="2"/> parents and <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName>. We were
+                    together there for 1 ¼ years. We were doing rather well, all told. <persName ref="#egon-sachs" type="ehri">Kurt</persName> and my
+                    parents worked in the office, <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName> in the bakery, and I mostly did
+                    nothing because I was <term ref="#t292" type="subject">sick</term>. Then, in the fall of <date when="1944">1944</date>, we were
+                    gradually <term ref="#t267" type="subject">transported</term> — <persName ref="#artur-heller" type="ehri">father</persName> left
+                    separately, <persName ref="#edita-hellerova" type="ehri">mother</persName> with <persName ref="#ehri_et_hellerova_jana"
+                        type="ehri">Hanka</persName>, and I with <persName ref="#egon-sachs" type="ehri">Kurt</persName>. All of the <term ref="#t267"
+                        type="subject">transports</term> went to <placeName ref="#l2" type="camp">Auschwitz</placeName>. You cannot imagine what we
+                    suffered through. I don’t want to describe our experiences and so it’s perhaps a little cruel of me to write and tell you so
+                    directly that our dear <persName ref="#edita-hellerova" type="ehri">mother</persName>
+                    <term ref="#t745" type="subject">died</term> there. <persName ref="#artur-heller" type="ehri">Father</persName>, who successfully
+                    made it past the <term ref="#t411" type="subject">selection</term> process, was <term ref="#t745" type="subject">shot</term> on
+                    the <placeName ref="#czechoslovakia" type="ehri">Czech</placeName> border on <date when="1945-05-03">May 3rd, 1945</date>, just 5
+                    days before the end of the <term ref="#t1080" type="subject">war</term>, during the <term ref="#t623" type="subject"
+                        >evacuation</term> of the <term ref="#t508" type="subject">labor camp</term> where he was sent. <persName ref="#egon-sachs"
+                        type="ehri">Kurt</persName> was separated from me in <placeName ref="#l449" type="ghetto">Theresienstadt</placeName> near the
+                    train and it was only when I returned to <placeName ref="#prague" type="ehri">Prague</placeName> that I learned that he was held
+                    for about 3 weeks in the <placeName ref="#l49" type="ehri">Small Fortress</placeName> and was supposedly <term ref="#t745"
+                        type="subject">shot</term> there. We are positive regarding <persName ref="#artur-heller" type="ehri">father</persName> since
+                    he was with <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName>’s young <term ref="#t826" type="subject"
+                        >man</term>, who returned. Jirka also returned and we’re <term ref="#t837" type="subject">living</term> together with him now.
+                    I ran into <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName> by happy chance in <placeName ref="#prague"
+                        type="ehri">Prague</placeName>. She had come back one month earlier than I and she no longer believed that I would return. I’m
+                    sure you can imagine what our <term ref="#t831" type="subject">life</term> is like now. Our financial situation is miserable; we
+                    don’t have enough <term ref="#t836" type="subject">clothes</term> to wear. <pb facs="EHRI-ET-JMP003_03.jpg" n="3"/> I’ll likely
+                    find an office job. <persName ref="#ehri_et_hellerova_jana" type="ehri">Hanka</persName> is graduating in <date when="1945-09"
+                        >September</date> and then she’ll probably make her living as an illustrator. In short, this is all that we wanted to tell you
+                    about what we went through. We don’t know what the future holds. We are in touch with Maruška. Her little Jana is so adorable. We
+                    have visited them several times. Please write us soon and let us know if you are coming. We would love to see you, we have so much
+                    to tell. You can’t imagine how we are faring. But at least we are happy that you will come and see us.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

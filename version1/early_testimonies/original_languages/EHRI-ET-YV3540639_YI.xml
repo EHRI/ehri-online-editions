@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-YV3540639_YI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Mrs. Mitzel, survival with her children in the forests of eastern Galicia</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Judith Levin</persName>
+				</author>
+				<author>
+					<persName>Daphna Sehayek</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/il">Israel</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn524432">The Central Historical Commission of the Central
+							Committee of Liberated Jews in the U.S. Zone (M.1.E).</collection>
+						<idno>file no. 3540639</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Yad Vashem Archives, The Central Historical Commission of the Central Committee of Liberated Jews in the U.S. Zone (M.1.E), file
+					no. 3540639. <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Chortkiv</placeName>
+						<location>
+							<geo>49.01709 25.79804</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/710400/chortkiv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Chortkiv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Zalishchyky</placeName>
+						<location>
+							<geo>48.64331 25.73794</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/687826/zalishchyky.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Zalishchyky"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tovste</placeName>
+						<location>
+							<geo>48.84663 25.72621</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/691444/tovste.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ternopil</placeName>
+						<location>
+							<geo>49.55342 25.58918</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/691650/ternopil.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ternopil"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ukraine</placeName>
+						<location>
+							<geo>49 32</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/690791/ukraine.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ukraine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Chernivtsi</placeName>
+						<location>
+							<geo>48.29149 25.94034</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/710719/chernivtsi.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Chernivtsi"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item xml:id="ehri_et_nationalities_russians"><name>Russians (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Mass murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-540"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item><name>Victims</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Local population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-637"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Live burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-563"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Decrees and orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-951"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item><name>Judenrein</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-626"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Jewish holidays</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-754"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Hiding places</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-265"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Healthcare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-280"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Typhus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-493"/>
+						</linkGrp></item>
+					<item><name>Epidemics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-492"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Animals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-811"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_katshikovitsh_pinhas">
+						<persName>Katshikovitsh, Pinhas</persName>
+					</person>
+					<person xml:id="ehri_et_midl">
+						<persName>Midl (Mrs.)</persName>
+					</person>
+					<person xml:id="ehri_et_greenberg">
+						<persName>Greenberg (doctor)</persName>
+					</person>
+					<person>
+						<persName>Vlasov, Andrey Andreyevich</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000419"/>
+						</linkGrp>
+						<note><p>16/02/1901-02/08/1946.</p><p>Red-Army general, 1942- collaborated with Nazi Germany.</p></note>
+					</person>
+					<person xml:id="ehri_et_rozenstok_isaiah">
+						<persName>Rozenstok, Isaiah</persName>
+					</person>
+					<person xml:id="ehri_et_voltshe_malier">
+						<persName>Voltshe, Malier</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army.</p></note>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>Ukrainian police</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004745"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+						<note><p>Founded in 1935.</p><p>Wehrmacht was the Name for the German army after 1935. Often in competition for supplies and
+								authority with the Waffen-SS, the Wehrmacht also assisted the SS in carrying out the Final Solution. It was involved
+								in activities in Poland and the Soviet Union, which violated the Geneva Convention, such as mass killings of hostages,
+								innocent civilians, and prisoners of war. The Wehrmacht also kidnapped children in Ruthenia for Lebensborn.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><placeName ref="http://www.geonames.org/710400/chortkiv.html">Chortkiv</placeName>, <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">Zalishchyky</placeName>, <placeName
+					ref="http://www.geonames.org/691444/tovste.html">Tovste</placeName>, <idno>EHRI-ET-YV3540639</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="yi" usage="100">Yiddish</language>
+			</langUsage>
+
+			<abstract>
+				<p>Testimony of Mitzel regarding her survival with her children in the forests of eastern Galicia.</p>
+			</abstract>
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-YV3540639_01.jpg"/>
+			<p>פראָטאָקאָל No 4</p>
+			<p>אויפגענומען - <persName ref="#ehri_et_katshikovitsh_pinhas">קאַטשיקאָוויטש פנחס</persName></p>
+			<p>דערציילט פון <persName ref="#ehri_et_midl">פרוי מידל</persName> - <placeName ref="http://www.geonames.org/710400/chortkiv.html"
+					>טשאָרטקאָוו</placeName>, <placeName ref="http://www.geonames.org/691650/ternopil.html">טאַרנאָפאָליער וואָיעוו</placeName></p>
+			<p>געבוירן: 1908 יאָר (אין 10 מאָנאַט)</p>
+			<p>אין 1941 יאָר, ווען ס'איז אויסגעבראָכן די <term ref="#ehri_et_nationalities_russians">רוסיש</term>-<term
+					ref="#ehri_et_nationalities_germans">דייטשישע</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">מלחמה</term>, איז מיין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">מאַן</term> מאָביליזירט געוואָרן אין <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">סאָוויעטישן מיליטער</orgName> און איך מיט צוויי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">קינדער</term> – אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מיידל</term> פון זיבן און אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">יינגל</term> פון דריי יאָר – זיינען אַליין געבליבן
+				וווינען ביי אונז אין שטעטל <placeName ref="http://www.geonames.org/710400/chortkiv.html">טשאָרטקאָוו</placeName> – מערב <placeName
+					ref="http://www.geonames.org/690791/ukraine.html">אוקראַאינע</placeName>. איבערגעלעבט האָב איך אומצייליקע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">שחיטות</term>.</p>
+			<p>אין אַ פאָר טעג נאָכן <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-633">אָקופירן</term> אונזער געביט,
+				דורך די <term ref="#ehri_et_nationalities_germans">דייטשן</term> – זיינען שוין געווען די ערשטע יידישע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">קרבנות</term> אין אונזער שטעטל. זיי האָבן באַפוילן זיף
+				פאַרזאַמלען אויף אַ פלאַץ אַ פאָר הונדערט יידישע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>מענער</term> – אויף <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-943">אַרבעט</term>. די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> האָבן זיך אויפן פלאַץ פאַרזאַמלט, נאָר
+				אָנשטאָט אויף <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-943">אַרבעט</term> , האָט מען זיי אָפגפירט
+				אין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">תפיסה</term> און שפעטער האָבן די <term
+					ref="#ehri_et_nationalities_germans">דייטשן</term> צוזאַמען מיט די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-637">היגע אוקראאַינער</term> – זיי <term type="subejct"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">דערמאָרדעט</term> אויף אַן אַכזריותדיקן אופן. און טייל נאָך <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-563">לעבעדיקערהייט באַגראָבן</term>. געווען זיינען עס די
+				בעסטע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">מענטשן</term> פון אונזער שטאָט.</p>
+			<p>אין אַ פאָר טעג אַרום האָבן מיר דערהאַלטן אַ ידיעה פון מיין געבורטס-שטאָט – <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">זאַליעשטשיקי</placeName> – פינף קלמ. פון אונז, ווו ס'האָבן נאָך געוווינט
+				מיינע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">עלטערן</term> און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שוועסטער</term>, אַז די <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">געשטאַפאָ</orgName> האָט דאָרט געגעבן אַ <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-951">באַפעל</term>: עס זאָלך קומען פינף-הונדערט יידן צו <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">אויפרוימען די קאָשאַרן</term> און אויב מען וועט דעם
+				באַפעל ניט הערן, וועלן זיי <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">אויסהרגענען</term> אַלע
+				יידן פון שטעטל. דער <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-951">באַפעל</term> איז אויסגעפירט
+				געוואָרן און אַלע פינף-הונדערט יידן זיינען אָפגעפירט געוואָרן אויף אַ פליאַץ [פלאַץ] הינטערן שטאָט. מען האָט זיי</p>
+			<p><pb n="2" facs="EHRI-ET-YV3540639_02.jpg"/></p>
+			<p>אויסגעשטעלט צו צען אין אַ ריי איינער הינטער די צווייטע און יעדער ריי <term type="suject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">געשאָסן</term> מיט איין קויל – פאַרשטייט זיך אַז פון אַזאַ שיסן,
+				זיינען דער גרעסטער טייל געווען נאָר פאַרווונדעט און אַ טייל ניט אָנגערירט, אָבער די <term ref="#ehri_et_nationalities_germans"
+					>דייטשן</term> האָבן אויף דעם ניט געקוקט און אַלע <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-563">לעבעדיקערהייט באַגראָבן</term>. צווישן די <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">קרבנות</term> איז געווען מיין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פאָטער</term> און מיינע צוויי יונגע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">שוועסטער</term> – 18 און 20 יאָר אַלט.</p>
+			<p>אין מערץ 1942 יאָר האָבן זיי דורכגעפירט ביי אונז אין שטעטל די ערטשע פאָרמעלע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">שחיטה</term>. און גלייך נאָכדעם האָבן זיי <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-831">באַדינגונגען</term> צו גיין אין <term type="subejct"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545">געטאָ</term>. איך מיט מיינע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">קינדער</term> זיינען אַוועק אין <term type="subejct"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545">געטאָ</term>. די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831">באַדינגונגען</term> דאָרט זיינען געווען שרעקליכע, נאָר לאַנג זיצן
+				אויף איין אָרט האָט מען אונז ניט געלאָזט. נאָך זעקס וואָכן האָט מען מיר (צוזאַמען מיט מיינע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">קינדער</term>) מיט נאָך אַ גרופע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פרויען</term> אָפגעשיקט נאָך <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">זאַליעשטשיקי</placeName>.</p>
+			<p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-943">אָפאַרבעטנדיק</term> אין <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">זאַליעשטשיקי</placeName> דריי מאָנאַטן איז אין סעפטעמבער 1942 יאָר געקומען
+				אַ <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-951">באַפעל</term>, אַז דער <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567g">לאַגער</term> דאָרט מוז ווערן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-626">יידן-ריין</term>. דאַן האָט מען אונז אָפגעשיקט נאָך <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסט</placeName>. <placeName ref="http://www.geonames.org/691444/tovste.html"
+					>טויסט</placeName> איז געווען אַ זאַמל-פונקט אויף <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">אומברענגען</term> יידן. און מיר זיינען פונקט געקומען אַהין, ווען דאָרט איז פאָרגעקומען אַן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-529">אויסראָטונג</term>ס- <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-550">אַקציע</term>. מיר מיט מיינע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">קינדער</term> איז געלונגען <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262">זיך אויסצובאַהאַלטן</term>. לאַנג ניט אָפרוענדיק זיך, אין אַ פאָר
+				וואָכן אַרום – דאָס איז געווען פונקט איין טאָג נאָך <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-754"
+					>שמחת-תורה</term> – איז דאָ ווידער פאָרגעקומען אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540"
+					type="subject">שחיטה</term>, אין וועלכער עס זיינען <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">אומגעקומען</term> אַריבער 2000 יידן. די פאַניק אין שטאָט איז געווען אַ שרעקליכע, ווייל קיינער האָט זיך ניט
+				פאָרגעשטעלט אַז אַזוי גיך, נאָך אַזאַ קורצער אָטעם-פויזע זאָל ווידער פאָרקומען אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">שחיטה</term>. איך מיט מיינע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">קינדער</term> און נאָך זיבן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">מענטשן</term>, צוזאַמען צען מאַן, האָבן <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-262">זיך אויסבאַהאַלטן</term> אין אַ קעלער.</p>
+			<p><pb n="3" facs="EHRI-ET-YV3540639_03.jpg"/></p>
+			<p>דעם ווינטער זיינען מיר פאַרבליבן אין <placeName ref="http://www.geonames.org/691444/tovste.html">טויסט</placeName>. אָנפאַנג אין מאַי
+				1943 יאָר איז דאָ ווידער פאָרגעקומען אַ גרויסע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject"
+					>שחיטה</term>. מיין <term type="subejct" ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פאַמיליע</term>, זאַלבעדריט,
+				האָט <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-262">זיך באַהאַלטן</term> אויף אַ בוידעם און אַזוי
+				לעבן געבליבן. ליגנדיק דאָ עטלעכע מעת-לעת האָט מיין יינגערע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+					type="subject">קינד</term> אַזוי ווי פאַרשטאַנען די לאַגע און אַפילו קיין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-833">וואַסער</term> ניט געבעטן.</p>
+			<p>פאַר דער צייט אויפן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">בוידעם</term> האָבן מיר צוגעהערט
+				האַרצרייסנדע געוויינען, געשרייען און הילפס-רופן. אַ סך פון די <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132"
+					type="subject">קרבנות</term> זיינען <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-204"
+					>אַנטלאָפן</term>, נאָר די אייגענע <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-637">דאָרטקיע
+					באַפעלקערונג</term> – די <term type="subject" ref="#ehri_et_nationalities_ukrainians">אוקראַאינער</term> האָבן די מענטשן
+				נאָכגעיאָגט, געשלאָגן און שפעטער , <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">דערמאָרדעט</term>
+				אויף אַ שרעקליכן אופן. דאָס איבערגעבליבענע, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-262"
+					>אויסבאַהאַלטענע</term> ביסל יידן האָט מען שפעטער <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411">צעסאָרטירט</term>: די עלטערע האָט מען אָפגעשיקט קיין <placeName
+					ref="http://www.geonames.org/710400/chortkiv.html">טשאָרטקאָוו</placeName>, די יינגערע – אין די <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567g">לאַגערן</term>. איך מיט מיין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">פאַמיליע</term> האָבן זיך ביינאַכט <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַרויסגעגנבעט</term> פון <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">לאַגער</term> און אַליין אַוועק קיין <placeName
+					ref="http://www.geonames.org/687826/zalishchyky.html">ליסעוויץ</placeName> – זיבן קלמ. פון <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסט</placeName>. זעקס וואָכן איז געווען רואיק און ווידער האָט זיך דאָ
+				אָנגעהויבן אַ יידן- <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-550">אַקציע</term>. מיר זיינען <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַנטלאָפן</term> פון שטאָט מיט אַ גרופע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">מענטשן</term>, נאָר דאָ זיינען מיר באַמערקט געוואָרן
+				פון די <term ref="#ehri_et_nationalities_germans">דייטשן</term> און זיי האָבן גלייך אויף אונז געעפנט אַ פייער פון מאַשין-געווער. עס
+				זיינען באַלד ביי אונז געווען 32 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">קרבנות</term>.
+				צווישן זיי, מיין <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">מוטער</term>. מיין <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">טאָכטער</term> האָט אַ קויל געטראָפן אין פוס, נאָר מיר
+				זיינען שוין געווען אויפן פעלד. דאָ האָבן מיר <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-262">זיך
+					באַשיצט</term> אין די תבואה ביז נאַכט. ביינאַכט זיינען מיר מיט גרויס אָנשטרענגונג ווידער אַוועק אין <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסט</placeName>. די ערשטע <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-280">מעדיצינישע הילף</term> אָט מיין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822">טאָכטער</term> ערטיילט – דער <persName ref="#ehri_et_greenberg"
+					>דאָקטער גרינבערג</persName>. און נאָר אַדאַנק דער אויסערגעוויינליכער מי פון דעם <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287">דאָקטער</term> – איז געלונגען צו ראַטעווען דעם פוס – פאַרלוירן האָט
+				זי בלויז די פינגער.</p>
+			<p><pb n="4" facs="EHRI-ET-YV3540639_04.jpg"/></p>
+			<p>שפעטער ווען די לאַגע אין <placeName ref="http://www.geonames.org/691444/tovste.html">טויסט</placeName> איז ווידער געוואָרן אָנגעשטרענגט
+				- זיינען מיר ווידער אַ מאָל אַוועק קיין <placeName ref="http://www.geonames.org/687826/zalishchyky.html">ליסעוועץ</placeName>. דאָ אין
+					<placeName ref="http://www.geonames.org/687826/zalishchyky.html">ליסעוויץ</placeName> איז נאָך געווען אַ <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567g">לאַגער</term> פון 200 יידן, וועלכע האָבן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943">געאַרבעט</term> ביי פעלד-אַרבעט – <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">מענער</term> אין די שטאַלן און <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פרויען</term> אין פעלד. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-834">עסן האָבן מיר באַקומען איינמאָל אין טאָג</term>. די <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004745">אוקראַאינישע פאָליציי</orgName> פלעגט זייער אָפט אָנפאַלן אויף
+				אונזער <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-567g">לאַגער</term> און <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">מאָרדן</term> – ווער ס'איז זיי נאָר אונטערן האַנט אונטערגעקומען. דער
+				צו איז נאָך פון <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">הונגער</term> און שלעכטע <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-831">לעבנס-באַדינגונגען</term>, אויסגעבראָכן אַ <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-493">טיפוס</term>-<term type="suject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-492">עפידעמיע</term> – דאָ האָבן שוין די <term type="subject"
+					ref="#ehri_et_nationalities_ukrainians">אוקראַאינער</term> גאָר קיינעם ניט געשוינט און יעדן <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292">קראַנק</term> געוואָרענעם גלייך <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">דערמאָרדעט</term>.</p>
+			<p>קיינער האָט אויף דעם אַלעם ניט רעאַגירט, ווייל דאָס געזעץ האָט געהייסן שלאָגן יידן. דעם ערשטן מערץ 1944 יאָר, ווען די <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">סאָוויעטישע אַרמייען</orgName> זיינען געגאַנגען פאַרויס, זיינען די
+					<term ref="#ehri_et_nationalities_germans">דייטשן</term> און <term type="subject" ref="#ehri_et_nationalities_ukrainians"
+					>אוקרַאַאינער</term> צוזאַמען מיט די <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000419"
+					>וולאַסאָווצעס</persName> – אינגאַנצן ווילדגעוואָרן און געזייט <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">מאָרד</term> אויף רעכטס און אויף לינקס.</p>
+			<p>זיי האָבן געכאַפט אַ יידישע <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פרוי</term> פון
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">ווין</placeName> – מאַלי – מיט אירן אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">זון</term> און זיי <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">געקוילעט</term>. אַ <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">פרוי</term> – שעכטער – פון שטעטל – איגאָלניץ – האָבן
+				זיי <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-562">אָפגעשניטן</term> די אויערן מיט דעם נאָז דערנאָך
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">דערמאָרדעט</term>, אַ <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסטער</placeName> יונגנ <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826">מאַן</term> – <persName ref="#ehri_et_rozenstok_isaiah">ישעיה
+					ראָזענשטאָק</persName> האָבן <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">זיי</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">אָפגעהאַקט דעם קאָפ</term>, אַ צווייטן <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסטער</placeName> בחור – <persName ref="#ehri_et_voltshe_malier">וואָלטשע
+					מאַליער</persName> האָבן זיי <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">צוגעבונדן</term> צו
+				אַ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-811" type="subject">פערד</term> און אים צוזאַמען מיטן <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-811" type="subject">פערד</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">דערמאָרדעט</term>, נאָך אַ <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסטער</placeName> יידן אין מיטעלן-עלטער האָבן זיי צעשטאָכן מיט <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-562">באַגנעטן</term>. דעם לעצטן האָט נאָך אַן <term
+					type="subeject" ref="#ehri_et_nationalities_hungarians">אונגאַרער</term> יידישער <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287">דאָקטער</term> אָפגעראַטעוועט.</p>
+			<p><pb n="5" facs="EHRI-ET-YV3540639_05.jpg"/></p>
+			<p>דאָס ביסל לעבן געבליבענע יידן – אַ צוויי הונדערט, האָט מען ווידער צונויפגעזאַמלט אין <placeName
+					ref="http://www.geonames.org/691444/tovste.html">טויסט</placeName> אין <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567g">לאַגער</term>. אַכט טעג האָבן נאָך איבער אונז געהאַט אויפזיכט אַ
+				גרופע עלטערער <term ref="#ehri_et_nationalities_germans">דייטשן</term> – <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">ווערמאַכט</orgName> – די יונגע האָט מען צום פראָנט אָפגערופן.</p>
+			<p>דעם 23 מערץ 1944 יאָר, האָבן די <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">סאָוויעטן</orgName> אונזער
+				געגנט <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-573">באַפרייט</term>. און קוים אַכט טעג זיינען מיר
+				געווען מיט די <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">סאָוויעטן</orgName>, ווי די <term
+					ref="#ehri_et_nationalities_germans">דייטשן</term> האָבן ווידער זייער אָנגריף באַנייט און דאָס שטעטל איז נאָך אַמאָל אַריבער צו
+				זיי.</p>
+			<p>דאַן זיינען מיר אין אַ <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-831">ברענענדיקן פראָסט:
+					אויסגעהונגערט, אויסגעמאַטערט, נאַקעט און באָרוועס</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">אַנטלאָפן</term> פאַר 60 קילאָמעטער אין <placeName
+					ref="http://www.geonames.org/710719/chernivtsi.html">טשערנאָוויץ</placeName>. אַ סך פון אונז זיינען פאַרפרוירן געוואָרן און
+				געבליבן אין וועג.</p>
+			<p>אין <placeName ref="http://www.geonames.org/710719/chernivtsi.html">טשערנאָוויץ</placeName> זיינען מיר שוין פאַרבליבן ביז ענדע <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">קריג</term>.</p>
+		</body>
+	</text>
+</TEI>

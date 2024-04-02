@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL16560413_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Emil Carlebach, Communist and other resistance in Buchenwald</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 413. <textLang
+						mainLang="de">Original in German.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Buchenwald concentration camp</placeName>
+						<location>
+							<geo>51.021198 11.248999</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-43"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Frankfurt am Main</placeName>
+						<location>
+							<geo>50.11552 8.68417</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2925533/frankfurt-am-main.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Frankfurt"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Netherlands</placeName>
+						<location>
+							<geo>52.25 5.75</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Netherlands"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz concentration camp</placeName>
+						<location>
+							<geo>50.0262 19.2041</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-0"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gusen concentration camp</placeName>
+						<location>
+							<geo>48.257222 14.463333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-585"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mauthausen concentration camp</placeName>
+						<location>
+							<geo>48.2562 14.4866</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-570"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Magdeburg</placeName>
+						<location>
+							<geo>52.12773 11.62916</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2874545/magdeburg.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Magdeburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Zeitz</placeName>
+						<location>
+							<geo>51.0597 12.1289</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6550899/zeitz.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Zeitz"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dachau concentration camp</placeName>
+						<location>
+							<geo>48.2699 11.4683</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Weimar</placeName>
+						<location>
+							<geo>51.36562 9.3934</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2812481/weimar.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Ahnatal-Weimar"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin, Stadt</placeName>
+						<location>
+							<geo>52.5233 13.41377</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6547383/berlin-stadt.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Free State of Thuringia</placeName>
+						<location>
+							<geo>50.91667 11</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2822542/thuringia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Thuringia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Austria</placeName>
+						<location>
+							<geo>47.33333 13.33333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Austria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mauthausen</placeName>
+						<location>
+							<geo>48.24114 14.51963</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2771760/mauthausen.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mauthausen"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rhineland-Palatinate</placeName>
+						<location>
+							<geo>49.66667 7.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2847618/rheinland-pfalz.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Rhineland-Palatinate"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bavaria</placeName>
+						<location>
+							<geo>49 11.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2951839/bavaria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bavaria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Mannheim</placeName>
+						<location>
+							<geo>49.4891 8.46694</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2873891/mannheim.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Mannheim"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Czech Republic</placeName>
+						<location>
+							<geo>49.75 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3077311/czechia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Czech_Republic"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Warsaw Ghetto</placeName>
+						<location>
+							<geo>52.229666 21.012222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-1106"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz III Monowitz concentration camp</placeName>
+						<location>
+							<geo>50.031101 19.2915</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-3"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Bergen-Belsen concentration camp</placeName>
+						<location>
+							<geo>52.758899 9.907099</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-42"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Herne</placeName>
+						<location>
+							<geo>51.5388 7.22572</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2905891/herne.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Herne,_North_Rhine-Westphalia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Russia</placeName>
+						<location>
+							<geo>60 100</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2017370/russian-federation.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Russia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Stuttgart</placeName>
+						<location>
+							<geo>48.78232 9.17702</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2825297/stuttgart.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Stuttgart"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Communists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1000"/>
+						</linkGrp></item>
+					<item><name>Resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-212"/>
+						</linkGrp></item>
+					<item><name>Prisoner functionaries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-484"/>
+						</linkGrp></item>
+					<item><name>Antifascists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-968"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Mass murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-540"/>
+						</linkGrp></item>
+					<item><name>Resistance fighters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-238"/>
+						</linkGrp></item>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Bribery</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1053"/>
+						</linkGrp></item>
+					<item><name>Lagerkommandantur</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-482"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Camp and ghetto personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-477"/>
+						</linkGrp></item>
+					<item><name>Kapos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-485"/>
+						</linkGrp></item>
+					<item><name>Medical experiments</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-495"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Aussenkommando</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-490"/>
+						</linkGrp><note><p>Group of camp inmates working outside of the camp or in sub/satellite camps.</p></note></item>
+					<item><name>Help to Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-297"/>
+						</linkGrp></item>
+					<item><name>Disobeying of orders</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-201"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Criminals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-119"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>People</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1207"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Robbery of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-660"/>
+						</linkGrp></item>
+					<item><name>Persecution</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-641"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Release from camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-513"/>
+						</linkGrp></item>
+					<item><name>Death camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-498"/>
+						</linkGrp></item>
+					<item><name>Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-632"/>
+						</linkGrp></item>
+					<item><name>Anti-fascism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-967"/>
+						</linkGrp></item>
+					<item><name>Imprisonment</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-652"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Sanitation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-295"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Mentally disabled</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-320"/>
+						</linkGrp></item>
+					<item><name>Detentions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-616"/>
+						</linkGrp></item>
+					<item><name>Businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-924"/>
+						</linkGrp></item>
+					<item><name>Finance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-934"/>
+						</linkGrp></item>
+					<item><name>Corruption</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1052"/>
+						</linkGrp></item>
+					<item><name>Political activities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-983"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Healthcare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-280"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>Stateless people</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1217"/>
+						</linkGrp></item>
+					<item><name>Nazi occupied territory</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1181"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Food rationing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-834"/>
+						</linkGrp></item>
+					<item><name>Smuggling</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-266"/>
+						</linkGrp></item>
+					<item><name>Rescue</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-214"/>
+						</linkGrp></item>
+					<item><name>Assassination attempts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-184"/>
+						</linkGrp></item>
+					<item><name>Starvation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-570"/>
+						</linkGrp></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Jewish resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-246"/>
+						</linkGrp></item>
+					<item><name>Threats</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-662"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Persecution of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-642"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Medical personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-286"/>
+						</linkGrp></item>
+					<item><name>Transfer of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-575"/>
+						</linkGrp><note><p>Transfer from one place to another or one camp to another.</p></note></item>
+					<item><name>Workers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1057"/>
+						</linkGrp></item>
+					<item><name>Perpetrators</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-565"/>
+						</linkGrp></item>
+					<item><name>Fear</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-829"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Survival</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-561"/>
+						</linkGrp></item>
+					<item><name>Denunciations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-200"/>
+						</linkGrp></item>
+					<item><name>Typhus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-493"/>
+						</linkGrp></item>
+					<item><name>Victims</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Racial purity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-370"/>
+						</linkGrp></item>
+					<item><name>Extermination</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-529"/>
+						</linkGrp></item>
+					<item><name>Flogging</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-564"/>
+						</linkGrp></item>
+					<item><name>Uprisings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-254"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item><name>Evacuation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-623"/>
+						</linkGrp></item>
+					<item><name>Informers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-224"/>
+						</linkGrp></item>
+					<item><name>Citizenships</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1147"/>
+						</linkGrp></item>
+					<item><name>Allies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1029"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-339"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Suicides</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-217"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Hiding places</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-265"/>
+						</linkGrp></item>
+					<item><name>Zionism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-906"/>
+						</linkGrp></item>
+					<item><name>Prisoners of war</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-511"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_carlebach_emil">
+						<persName>Carlebach, Emil (narrator)</persName>
+					</person>
+					<person xml:id="ehri_et_eisner_kurt">
+						<persName>Eisner, Kurt (prisoner in Buchenwald)</persName>
+					</person>
+					<person>
+						<persName>Koch, Karl Otto</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000221"/>
+						</linkGrp>
+						<note><p>02/08/1897-05/04/1945</p><p>KZ-Kommandant, SS-Standartenführer. Since 1935 head of the Wachtrupp of Esterwegen
+								concentration camp, commander (Kommandant) of Columbiahaus in Berlin, since April 1936 commander of Esterwegen
+								concentration camp. Since Aug 1, 1937 commander of Buchenwald, January to August 1942 commander of Lublin-Majdanek
+								death camp.</p></note>
+					</person>
+					<person xml:id="ehri_et_sommer_martin">
+						<persName>Sommer, Martin</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Martin_Sommer"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_hoven_waldemar">
+						<persName>Hoven, Waldemar (Nazi physician in Buchenwald)</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Waldemar_Hoven"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>vom Rath, Ernst</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001144"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_blank">
+						<persName>Blank (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_hinkelmann_eduard">
+						<persName>Hinkelmann, Eduard (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_huttig_hans">
+						<persName>Hüttig, Hans</persName>
+					</person>
+					<person>
+						<persName>Posener, Kurt</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=3209717"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_wolf">
+						<persName>Wolf (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_rosenbaum">
+						<persName>Rosenbaum (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_vulkan_max">
+						<persName>Vulkan, Max (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_kramer_walter">
+						<persName>Krämer, Walter (prisoner in Buchenwald, German antifascist)</persName>
+					</person>
+					<person xml:id="ehri_et_jannisch">
+						<persName>Jännisch (SS, Buchenwald)</persName>
+					</person>
+					<person>
+						<persName>Arndt, Rudi</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=11458927"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_frommhold_ernst">
+						<persName>Frommhold, Ernst (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_schobert_max">
+						<persName>Schobert, Max</persName>
+						<linkGrp>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Max_Schobert"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_florstadt">
+						<persName>Florstadt (camp doctor in Buchenwald)</persName>
+					</person>
+					<person>
+						<persName>Kunke, Hans</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=4961626"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_abraham">
+						<persName>Abraham (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_hamber">
+						<persName>Hamber (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_petrik">
+						<persName>Petrik (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_lowitus">
+						<persName>Löwitus (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_pickard_jochen">
+						<persName>Pickard, Jochen (prisoner in Buchenwald)</persName>
+					</person>
+					<person>
+						<persName>Heilmann, Ernst</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=11517941"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_weingartner">
+						<persName>Weingärtner (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_schmidt_ss">
+						<persName>Schmidt (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_greuel_gustav">
+						<persName>Greuel, Gustav (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_simon_wilhelm">
+						<persName>Simon, Wilhelm</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Wilhelm_Simon"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_hofschulte_hermann">
+						<persName>Hofschulte, Hermann (SS, Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_gust_erich">
+						<persName>Gust, Erich</persName>
+						<linkGrp>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Erich_Gust"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_wilhelm_friedrich_karl">
+						<persName>Wilhelm, Friedrich Karl</persName>
+						<linkGrp>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Friedrich_Karl_Wilhelm"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_gallander_max">
+						<persName>Gallander, Max (prisoner in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_eidan_hans">
+						<persName>Eidan, Hans (prisoner in Buchenwald)</persName>
+					</person>
+					<person>
+						<persName>Eisler, Erich</persName>
+						<linkGrp>
+							<link type="normal" target="http://yvng.yadvashem.org/nameDetails.html?itemId=4970567"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Baum, Kurt</persName>
+						<linkGrp>
+							<link type="normal" target="https://yvng.yadvashem.org/nameDetails.html?itemId=6510903"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Hitler, Adolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000185"/>
+						</linkGrp>
+						<note><p>20/04/1889-30/04/1945</p><p>Führer and Reichskanzler, since 04.02.1938 Oberbefehlshaber der Wehrmacht.</p></note>
+					</person>
+					<person xml:id="ehri_et_kranzler_richard_kapo">
+						<persName>Kranzler, Richard (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_vogel">
+						<persName>Vogel</persName>
+					</person>
+					<person xml:id="ehri_et_herzog">
+						<persName>Herzog</persName>
+					</person>
+					<person xml:id="ehri_et_widmann_otto">
+						<persName>Widmann, Otto</persName>
+					</person>
+					<person xml:id="ehri_et_scholzen_werner">
+						<persName>Scholzen, Werner</persName>
+					</person>
+					<person xml:id="ehri_et_florstedt">
+						<persName>Florstedt</persName>
+					</person>
+					<person xml:id="ehri_et_dombock">
+						<persName>Domböck</persName>
+					</person>
+					<person xml:id="ehri_et_heusgen">
+						<persName>Heusgen (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_dannenbaum">
+						<persName>Dannenbaum (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_muckenheim">
+						<persName>Mückenheim (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_berg">
+						<persName>Berg (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_heidenfelder">
+						<persName>Heidenfelder (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_dunst">
+						<persName>Dunst (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_gartnerei">
+						<persName>Gärtnerei (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_wald-muller_alfred">
+						<persName>Wald-Müller, Alfred (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_becker">
+						<persName>Becker (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_siewert_robert">
+						<persName>Siewert, Robert (kapo in Buchenwald)</persName>
+					</person>
+					<person xml:id="ehri_et_bartel_karl">
+						<persName>Bartel, Karl</persName>
+					</person>
+					<person xml:id="ehri_et_grune">
+						<persName>Grüne</persName>
+					</person>
+					<person xml:id="ehri_et_schlappe_jupp">
+						<persName>Schlappe, Jupp</persName>
+					</person>
+					<person xml:id="ehri_et_kindinger_jakob">
+						<persName>Kindinger, Jakob</persName>
+					</person>
+					<person xml:id="ehri_et_jacobson_alex">
+						<persName>Jacobson, Alex</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org xml:id="ehri_et_social_democartic_party_of_germany">
+						<orgName>Social Democratic Party of Germany</orgName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany#History"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+					<org>
+						<orgName>Waffen-SS</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-437"/>
+						</linkGrp>
+						<note><p>The Waffen-SS, SS military units, was the largest (thirty-nine divisions) branch of the SS reaching its peak strength
+								of 900,000 soldiers in 1944-10. Steeped in Nazi ideology and composed of many nationalities, this political army
+								participated in the Anschluss, the occupation of the Sudetenland, and invasion of Poland, Greece, and Yugoslavia. It
+								captured thousands of prisoners, especially in the Baltics and Russia, and aided the Einsatzgruppen when called upon
+								to do so. They also operated the Majdanek concentration camp complex. As the Waffen-SS retreated from the Western
+								front, many were assigned to guard several concentration camps including Bergen-Belsen. Some 180,000 were killed,
+								70,000 missing and 400,000 were wounded during action.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1948-05-28">28th May 1948</date>, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1000"
+					>Communists</term>, <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-212">resistance</term>,
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>
+				<idno>EHRI-ET-WL16560413</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Emil Carlebach, a communist activist from a prominent rabbinical family. He was instrumental in the resistance in
+					Buchenwald. Carlebach describes corruption amongst the guards, how political prisoners gained a certain control over the camp, the
+					different ways that guards killed inmates, how the resistance tried to save as many as possible. He mentions a lot of comrades by
+					name.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-WL16560413_01.jpg"/>
+			<p>EW 6 6668-6677</p>
+			<p>MASTER - INDEX (P - Scheme)</p>
+			<p>1. Index Number: P III h. No. 413. (<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp"
+					>Buchenwald</placeName>).</p>
+			<p>2. Title of Document: History Of The Jews At <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp"
+					>Buchenwald</placeName>.</p>
+			<p>3. Date: Spring <date when="1938">1938</date> until <date when="1945-04-11">11th April, 1945</date>.</p>
+			<p>4. Number of Pages: 10.</p>
+			<p>Languages <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>.</p>
+			<p>5. Author or Source: <persName ref="#ehri_et_carlebach_emil">EMIL CARLEBACH</persName>, <placeName
+					ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt a.Main</placeName>.</p>
+			<p>6. Recorded:</p>
+			<p>7. Received:</p>
+			<p>8. Form and Contents: Personal report of a former <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject"
+							><foreign xml:lang="de">Blockältester</foreign></term></q> at <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> who was one of those responsible in
+				the Jewish Group of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">ANTIFASCIST</term>
+				Organisation (p.2-9).</p>
+			<p>Account of various Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">DEPORTATION</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">TRANSPORTS</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">TRANSPORTS</term> from <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>; <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term>-treatment and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">MASS MURDER</term> of Jews (p.1-8).</p>
+			<p>Report on the efficient activity of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject"
+					>RESISTANCE</term>- <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-238" type="subject">fighters</term> (p.2-9),
+				which could eliminate <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">ANTISEMITISM</term> in the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Camp</term> and helped to save the lives of a
+				considerable number of Jews. (p.5).</p>
+			<p>9. Further References: DOGS (p.2). INSANITY (p.2).- <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053" type="subject"
+					>BRIBES</term> (p.2,9) <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">DUTCH</placeName> Jews
+				(p.4). - <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=11517941">ERNST HEILMANN</persName>, former Präsident des
+				preussischen Landtags; <persName ref="#ehri_et_eisner_kurt">KURT EISNER</persName> junior (p.5)</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Camp</term>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">commander</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000221">KOCH</persName> (p.2,4), <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Oberscharführer</term>
+				<persName ref="#ehri_et_sommer_martin">SOMMER</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477"
+					type="subject">Lagerarzt</term> Dr. <persName ref="#ehri_et_hoven_waldemar">HOVEN</persName> (p.5,6). Lists of <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-officials (p.2-4, 6, 9); names of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">KAPOS</term> (p.9). - <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">EXPERIMENTS</term> (p.5). <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">AUSCHWITZ</placeName> (p.5,6,7). - <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">CHILDREN</term> (p.7). - <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Camp</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-585" type="camp">GUSEN</placeName> near <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">MAUTHAUSEN</placeName> (p.4). – NAZI SPIES (p.7). -
+				MUTINY (p.8). - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-490" type="subject">Aussenkommandos</term>
+				<placeName ref="http://www.geonames.org/2874545/magdeburg.html">MAGDEBURG</placeName> and <placeName
+					ref="http://www.geonames.org/6550899/zeitz.html">ZEIST</placeName> (p.7). - - <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">NON-JEWS HELPING JEWS</term> (p.6-9). - <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-253" type="subject">SABOTAGE</term> (p.7,8). Names of deserved <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-238" type="subject">resistance-fighters</term> (p.3-7, 9).</p>
+			<pb n="2" facs="EHRI-ET-WL16560413_02.jpg"/>
+			<p>P.III.h <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> No. 413</p>
+			<p>Geschichte der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> in<placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>.</p>
+			<p>Die ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> kamen im Frühjahr <date when="1938"
+					>1938</date> nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>, zu
+				einer Zeit, als sich das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> noch
+				wesentlich in den Händen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-119" type="subject">krimineller</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlinge</term> befand, die sich bedingungslos zu
+				Kreaturen der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> und ihrer Methoden
+				hergaben. Die betreffenden ca. 1 000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> selbst waren
+				infolge einer sogenannten Aktion eingeliefert, das heißt, man hatte lediglich aus terroristischen Gründen in einer Reihe von Städten
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Menschen</term> in Massen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term>, um unter den übrigen Schrecken zu
+				verbreiten und sie zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Auswanderung</term> und
+				Aufgabe ihres <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">Vermögens</term> zu veranlassen. Die
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">Verhafteten</term> setzten sich nach Alter und
+				sozialer Herkunft aus den verschiedensten Gruppen zusammen und konnten somit den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-641" type="subject">Verfolgungen</term> gegenüber niemals als eine
+				homogene Einheit auftreten. Sie mußten ohne jedes Mobiliar in einem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">Viehstall</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kampieren</term>, wo sie von 300 Gramm <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Brot</term> und 3/4 Liter <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Wassersuppe</term> täglich zu leben hatten, worum sie
+				von ihren <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-119" type="subject">kriminellen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingsvorgesetzten</term> noch weitgehend
+				betrogen wurden. Ihre <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitszeit</term> betrug etwa
+				14 bis 15 Stunden täglich, an Schlafen war durch die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+					>Lebensbedingungen</term> und allerlei Schikanen nur an etwa 5 Stunden täglich zu denken. Infolge systematischer Schikanen und
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">Prügeleien</term>, vor allem im Steinbruch,
+				wurden täglich planmäßig 3 bis 4 von ihnen dazu veranlaßt, durch die Postenkette zu laufen, wobei man sie <q>auf der <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term></q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschoß</term>. Ungerechnet einer geringen Anzahl
+				von ihnen, die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-513" type="subject">entlassen</term> wurden, sind alle
+				bis auf einen Rest von zwanzig, der sich heute noch in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43"
+					type="camp">Buchenwald</placeName> befindet, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>ermordet</term> worden.</p>
+			<p>Am <date when="1938-09-23">23.</date> und <date when="1938-09-24">24. September 1938</date> kamen je eintausend weitere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> aus dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">KL</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName> nach <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Buchenwald</term>, weil dieses inzwischen als <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-498" type="subject">Liquidierungslager</term> galt. Unter diesen beiden
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> war die überwiegende Mehrzahl
+					<q>aktionsmäßig</q> nach dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-632" type="subject">Einmarsch</term> in
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term> worden, aus denselben Gründen wie
+				oben angeführt. Darüber hinaus befanden sich aber unter ihnen eine ganze Anzahl, zum Teil langjähriger <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlinge</term>, die ihrer <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-967" type="subject">antifaschistischen</term> Überzeugung wegen gefangen
+				waren. Da gleichzeitig in den folgenden Wochen und Monaten der planmäßige Kampf der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-652" type="subject">inhaftierten</term>
+				<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschisten</term> seinem ersten Höhepunkt
+				zutrieb, der um die Jahreswende mit einer Säuberung der Positionen von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-119" type="subject">kriminellen</term> Elementen seinen Abschluß fand,
+				befanden sie sich in einer wesentlich günstigeren Position, die am <date when="1939-01-30">30. Januar 1939</date> dazu führte, daß auf
+				Betreiben der reichsdeutschen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschisten</term>
+				der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Kommandant</term> verordnete, daß in Zukunft aus
+				den Reihen der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> selbst ihre <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingsvorgesetzten</term> zu nehmen seien. Auch
+				unter diesen erwiesen sich späterhin eine Reihe als negative und gefährliche Elemente, doch waren sie wesentlich leichter zu
+				eliminieren, als wenn es sich um sogenannte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+					>Arier</term> gehandelt hätte. Weiterhin blieben die jüdischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+					type="subject">Häftlinge</term> nach Behandlung, Verpflegung und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeitszeit</term> die Parias des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term>, worauf auch im Laufe der nächsten Jahre
+				noch die größte Zahl der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Toten</term> zurückzuführen
+				ist.</p>
+			<p>Am <date when="1938-11-09">9. November 1938</date> wurden durch die sogenannte <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001144">Rathaktion</persName> über 12 000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> ins <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> eingeliefert, bei deren Einmarsch die
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> mit Knüppeln und Peitschen bewaffnet in der
+				Straße von <placeName ref="http://www.geonames.org/2812481/weimar.html">Weimar</placeName> Spalier stand, sodaß nur ganz wenige
+				unverletzt das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> überhaupt erreichten,
+				und die von blutigem Gepäck und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleidungs</term></p>
+			<pb n="3" facs="EHRI-ET-WL16560413_03.jpg"/>
+			<p>stücken bedeckte Straße mit den dazwischenliegenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject"
+					>Verwundeten</term> einem Schlachtfeld glich.</p>
+			<p>Durch die Unterbringung dieser Tausende in fünf <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+					>Notbaracken</term>, ohne jede Organisation, ohne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-295"
+					type="subject">Latrinen</term>, ohne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-295" type="subject">sanitäre
+					Einrichtungen</term>, ohne Strohsäcke und Decken, zu vieren übereinanderliegend, entstand in der ersten Nacht infolge der
+				Mißhandlungen durch die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>, die mit Peitschen und
+				Pistolen die Menschen durcheinander jagte, ein solches Chaos, daß man daraus willkommenerweise eine Meuterei konstruieren konnte. Von
+				einer großen Anzahl als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Repressalie</term> wahllos
+				Herausgegriffener, die man an den Händen kreisförmig aneinander fesselte, um dann die Hunde auf sie zu hetzen, wurden siebzig in
+				dieser Nacht <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-320" type="subject">wahnsinnig</term>. Man warf sie
+				vorläufig in einen Holzverschlag, von wo sie nach einiger Zeit gruppenweise in den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> überführt wurden, um dort von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-Oberscharführer</term>
+				<persName ref="#ehri_et_sommer_martin">Sommer</persName> persönlich erschlagen zu werden.</p>
+			<p>Da sich unter diesen zwölftausend eine verhältnismäßig große Anzahl wohlhabender <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject">Geschäftsleute</term> befand, nützte die <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> diese Aktion nicht nur zur Befriedigung ihrer <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Mordlust</term>, sondern auch zur persönlichen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">Bereicherung</term> bis hinunter zum kleinsten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-Mann</term> in beinahe unvorstellbarer Weise aus.
+				Durch Lautsprecher wurde verkündet, daß diejenigen bevorzugt <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-513"
+					type="subject">entlassen</term> würden, die ihre Autos oder <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">Häuser</term> der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject"
+					>Lagerleitung</term> zur Verfügung stellten. Goldsachen und Banknoten kursierten dauernd im Kreise der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> und ihrer <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-119" type="subject">kriminellen</term> Helfershelfer. Jeden Tag mußten
+				unter anderen Vorwänden für Zerstörungen, Entschädigungen oder Entlassungsspesen tausende von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Mark</term> gesammelt werden. Als nach einigen Wochen
+				die Aktion durch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-513" type="subject">Massenentlassungen</term> beendet
+				wurde, - sie hatte hunderte von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Toten</term>
+				gekostet - waren Millionenwerte durchs <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>
+				gegangen. Die durch diese <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1052" type="subject">Korruption</term> und die
+				engen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Geschäftsverbindungen</term> mit den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-119" type="subject">kriminellen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingen</term> herbeigeführte Zersetzung des
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> trug wesentlich dazu bei, daß der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Kommandant</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000221">Koch</persName> in den sauren Apfel biß, die Positionen
+				mit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-983" type="subject">politischen</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingen</term> zu besetzen, um auf diese Weise
+				seinen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Kommandanturstab</term> wieder in die Hände
+				zu bekommen.</p>
+			<p>Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">Kriegsbeginn</term>
+				<date when="1939-09">September 1939</date> brachte das Verbot des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482"
+					type="subject">Kommandanten</term>, in Zukunft noch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					>Juden</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">Krankenbehandlung</term> zu gewähren, das von den
+				Kameraden des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Reviers</term> stillschweigend
+				ignoriert wurde. Als nächste Massenaktion wurden ca. 2 500 meist <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217"
+					type="subject">staatenlose</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> aus <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> und den besetzten Ostgebieten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">eingeliefert</term>. Sie wurden auf dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">Appellplatz</term> hinter Stacheldraht in fünf großen
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Zelten</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">untergebracht</term>. Die Methoden ihrer Behandlung
+				und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Verpflegung</term>, die Ubernahme dieses <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Sonderlagers</term> durch die berüchtigten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-Scharführer</term>
+				<persName ref="#ehri_et_blank">Blank</persName> und <persName ref="#ehri_et_hinkelmann_eduard">Hinkelmann</persName>, sowie häufige
+				Erklärungen von <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Angehörigen bewiesen, daß sie bis
+				zum letzten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">liquidiert</term> werden sollten. Es befanden sich
+				unter ihnen ganze <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Altersheime</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Schülerinternate</term>, von denen der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term>
+				<persName ref="#ehri_et_huttig_hans">Hüttig</persName> in meiner Gegenwart kopfschüttelnd erklärte: <q>Es ist unglaublich, daß man so
+					etwas bis jetzt frei hat herumlaufen lassen.</q> Anfangs versuchte man die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Liquidierungen</term> mit den üblichen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeitsmethoden</term>, mit <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Erschießungen</term> auf der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term>. Dann ging man dazu über, dieses <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Sonderlager</term> nicht mehr aus dem Stacheldraht
+				herauszulassen, man gab ihnen nur halbe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject"
+					>Essenrationen</term> und ließ sie ohne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>Unterwäsche</term> und Mäntel solange im Winterwetter auf dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487"
+					type="subject">Appellplatz</term> stehen, bis das Tagespensum von sechzig <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Toten</term> erreicht war. Darüber hinaus
+				beschäftigten sich die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Scharführer</term>
+				<persName ref="#ehri_et_blank">Blank</persName>, <persName ref="#ehri_et_hinkelmann_eduard">Hinkelmann</persName> und <persName
+					ref="#ehri_et_sommer_martin">Sommer</persName> mit Sondervergnügungen. Unter anderem wurden mehrfach Kessel mit vergiftetem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> ausgegeben.</p>
+			<pb n="4" facs="EHRI-ET-WL16560413_04.jpg"/>
+			<p>Von Anfang an führten wir auch hier einen Kampf um die Beendigung dieser Dinge, einen Kampf, der sich naturgemäß auf Grund der
+				Machtverhältnisse nur indirekt gegen die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>,
+				unmittelbar aber gegen ihre <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject"
+					>Häftlingskreaturen</term> richten mußte. Es gelang, den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Vorarbeiter</term> der Kolonne, der das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">Essen</term> zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Sonderlager</term> zu tragen hatte, zu stürzen und an seine Stelle den Kameraden <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=3209717" type="victim">Kurt Posener</persName> zu setzen, der unter
+				Lebensgefahr wenigstens für einige Kameraden zusätzliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">Lebensmittel</term> ins Sonderlager <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266"
+					type="subject">schmuggeln</term> konnte.</p>
+			<p>Die beiden übelsten Kreaturen <persName ref="#ehri_et_wolf">Wolf</persName> und <persName ref="#ehri_et_rosenbaum"
+				>Rosenbaum</persName>) verblieben zwar in ihren Positionen, doch konnten wir den <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">polnischen</placeName> Kameraden <persName ref="#ehri_et_vulkan_max"
+					>Vulkan</persName> als Schreiber einsetzen, der durch seine Aufopferung weiteren <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Menschen</term> das Leben rettete. Im Frühjahr <date
+					when="1940">1940</date> erreichte der <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>deutsche</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschist</term>
+				<persName ref="#ehri_et_kramer_walter">Walter Krämer</persName> (im <date when="1940-11">November 1940</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">ermordet</term>) als Chef des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingsreviers</term> durch dauernde <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Bearbeitung</term> des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Standortarztes</term> die Auflösung dieser Mordhöhle
+				mit der Begründung, daß von dort aus Seuchen ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Lager</term>, in die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> und in die umliegenden
+				Dörfer geschleppt würden. Schon vorher hatten die Kameraden des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491"
+					type="subject">Reviers</term> eine illegale <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject"
+					>Krankenambulanz</term> dort eingerichtet. Fünfhundert kaum noch lebensfähige Skelette brachte diese <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">Rettungsaktion</term> ins große <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>.</p>
+			<p>Inzwischen hatte sich dort nach <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">Kriegsbeginn</term>
+				Folgendes ereignet: Am <date when="1939-11-09">9. November 1939</date>, dem Tage nach der Provokation des sogenannten
+					Bürgerbräukeller-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-184" type="subject">Attentates</term> wurden
+				sämtliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> in ihre verdunkelten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Baracken</term> eingeschlossen. Eine Gruppe von
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Angehörigen, darunter die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Scharführer</term>
+				<persName ref="#ehri_et_blank">Blank</persName> und <persName ref="#ehri_et_jannisch">Jännisch</persName>, wählten 21 junge, kräftige
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Männer</term> aus und führten sie in den
+				Steinbruch, wo sie <q>auf der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term></q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschossen</term> wurden. Drei Tage lang verblieben
+				die übrigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">ohne Nahrung</term> in Ungewißheit über
+				ihr Schicksal in den Blocks eingeschlossen. Da anschließend das ganze <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> - weil angeblich ein Schwein gestohlen
+				war - fünf Tage <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">keine Nahrung</term> bekam, hatten
+				diese Maßnahmen besonders schwerwiegende Folgen.</p>
+			<p>Die oben erwähnte Auflösung des kleinen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term>
+				hatte die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Mordabsichten</term> gegen seine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Insassen</term> nicht aufgehoben. Sie wurden
+				geschlossen dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitskommando</term> Steinbruch
+				bezw. Steineträger überwiesen (Kommandoführer wieder <persName ref="#ehri_et_blank">Blank</persName> und <persName
+					ref="#ehri_et_hinkelmann_eduard">Hinkelmann</persName>), in denen mit den üblichen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Prügeleien</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Erschießungen</term> die Blutarbeit zu Ende geführt
+				werden sollte, was auch zum größten Teil gelang. Die in andauernden Kämpfen erfolgte Ausmerzung einer Reihe von <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Kreaturen unter den Funktionären des kleinen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term> bezw. Steinbruchs führte dazu, daß der
+				damalige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">Blockälteste</term> von 22, der <placeName
+					ref="http://www.geonames.org/6547383/berlin-stadt.html">Berliner</placeName> jüdische <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschist</term>
+				<persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=11458927" type="victim">Rudi Arndt</persName>, auf eine Denunziation
+				hin abgelöst und im Steinbruch am <date when="1940-05-03">3. Mai 1940</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">ermordet</term> wurde. Er war neben dem entlassenen
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Lagerältesten</term>, dem <placeName
+					ref="http://www.geonames.org/2822542/thuringia.html">Thüringer</placeName> Kameraden <persName ref="#ehri_et_frommhold_ernst"
+					>Ernst Frommhold</persName>, der Hauptträger des organisierten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-246"
+					type="subject">Kampfes</term> gegen die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429"
+				>SS</orgName>-Methoden gewesen.</p>
+			<p>Vierzehn Tage später wurde der oben erwähnte Kamerad <persName ref="#ehri_et_vulkan_max">Max Vulkan</persName> auf dieselbe Weise <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">umgebracht</term>. Ich selbst war vorher unbeobachtet
+				Zeuge davon, daß <persName ref="#ehri_et_wolf">Wolf</persName> ihm <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-662"
+					type="subject">drohte</term>: Wenn du noch einmal etwas über die Vorgänge im kleinen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> erzählst, sorge ich dafür, daß du nicht
+				lebendig das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> verläßt! Mein Versuch,
+				durch einen anonymen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> an den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term> diese Bande so zu kompromittieren,
+				daß sie das Genick brechen sollten, mißlang, im Gegenteil, es wurden Schriftproben jedes <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Lagerinsassen</term> angefordert, um den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefschreiber</term> zu ermitteln. Doch stellte sich
+				das glücklicherweise als zu schwierig</p>
+			<pb n="5" facs="EHRI-ET-WL16560413_05.jpg"/>
+			<p>heraus. Im Sommer <date when="1940">1940</date> besuchten der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482"
+					type="subject">Kommandant</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000221">Koch</persName>, die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term>
+				<persName ref="#ehri_et_schobert_max">Schobert</persName> und <persName ref="#ehri_et_florstadt">Florstadt</persName>, der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerarzt</term> und einige andere Angehörige des
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Kommandanturstabes</term> das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Invalidenkommando</term> Strumpfstopferei und jagten
+				sämtliche jüdischen Arbeitsbehinderten in den Steinbruch. Unter den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536"
+					type="subject">Erschossenen</term> des ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Arbeitstages</term> befand sich unser <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+					>österreichischer</placeName> Kamerad <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=4961626" type="victim"
+					>Hans Kunke</persName>.</p>
+			<p>Es muß bemerkt werden, daß neben diesen Spezialaktionen gegen jüdische Gruppen oder Individuen das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">Massensterben</term> durch <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">schlechte Behandlung</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hunger</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">Giftmordversuche</term> der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">Standortärzte</term> usw. selbstverständlich auch die
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> traf, diese sogar ganz besonders, da sie unter dem
+				Druck der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> trotz allem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject">Widerstand</term> der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-967" type="subject">antifaschistischen</term> Gruppen immer die
+				schlechtest gestellte Schicht des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term>
+				waren. Im <date when="1941-02">Februar 1941</date> wurden 400 junge, <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">niederländische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> nach <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> gebracht. Da die hier erkämpften
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagerverhältnisse</term> ihre <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">Liquidierung</term> nicht in dem von der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> gewünschten Maße zuließen, wurden sie nach kurzer Zeit
+				ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-585" type="camp">Gusen</placeName> bei <placeName
+					ref="http://www.geonames.org/2771760/mauthausen.html">Mauthausen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-575" type="subject">überwiesen</term> und in acht Tagen bis zum letzten
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">ermordet</term>.</p>
+			<p>In demselben Jahr ereignete sich der erste Fall des offenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-246"
+					type="subject">Widerstandsversuches</term> gegen die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429"
+					>SS</orgName>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Morde</term>. Der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Oberscharführer</term>
+				<persName ref="#ehri_et_abraham">Abraham</persName> ertränkte den jüdischen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftling</term>
+				<persName ref="#ehri_et_hamber">Hamber</persName> in einer Wasserpfütze. Dessen Bruder gab - formal als Augenzeuge nach der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Todesursache</term> befragt - die Wahrheit an. Darauf
+				wurde das gesamte Kommando ans Tor gerufen, doch wagte verständlicherweise keiner der übrigen zu sagen, daß er etwas gesehen hätte.
+				Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">Vorarbeiter</term> mußte die Namenliste seiner
+				28 Leute aufschreiben. Als er sie ablieferte, fragte ihn der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					type="subject">Oberscharführer</term>
+				<persName ref="#ehri_et_petrik">Petrik</persName>: Haben Sie sich selbst mit aufgeschrieben? Nein! Dann schreiben Sie Ihren Namen auch
+				darunter! Anschließend wurden alle in ihre Blocks geschickt. Der Bruder dos <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Ermordeten</term> erklärte mir: Ich weiß, daß ich für
+				meine Angabe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">sterben</term> muß, aber vielleicht
+				werden sich diese <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-565" type="subject">Verbrecher</term> in Zukunft etwas
+				zurückhalten, wenn sie eine Anzeige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-829" type="subject"
+					>befürchten</term>, und dann bin ich nicht umsonst <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+					type="subject">gestorben</term>. Etwa gegen 9 Uhr abends wurde er erneut ans Tor gerufen und kam nach zirka einer halben Stunde zu
+				unserer Überraschung zu uns zurück. Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject"
+					>Kommandant</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000221">Koch</persName>, der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Adjutant</term>, die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerarzt</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Rapportführer</term> usw. hatten ihn vernommen. Der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Kommandant</term> hatte ihm Folgendes erklärt:
+				Wir wollen von Ihnen die volle Wahrheit wissen. Ich gebe Ihnen mein Ehrenwort, daß Ihnen nichts geschehen wird. Er wiederholte seine
+				bisherigen Angaben. Gegen 11 Uhr 30 nachts wurde er erneut aus dem Block gerufen, kam in den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> und war nach vier Tagen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">tot</term>. Es ist einzuschalten, daß mindestens bis
+				zum Jahre <date when="1942">1942</date> kein Jude lebendig den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669"
+					type="subject">Arrestbau</term> verließ, ganz gleich, aus welchem Grunde er ihn betreten hatte. Die 29 listenmäßig erfaßten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> dieses <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitskommandos</term> wurden einer nach dem andern
+				in den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> gebracht, wo sie jeweils am
+				vierten Tag <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">starben</term>. Mit den albernsten
+				Methoden versuchte man, diesen vom ganzen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Lager</term> verfolgten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">Massenmord</term> zu
+				tarnen. Der jeweils Nächste auf der Liste wurde ein oder zwei Tage zuvor einem anderen Kommando überwiesen, um die Zusammengehörigkeit
+				dieser Gruppe zu verwischen. Einer von ihnen, der mit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">gebrochenem Bein</term> im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject"
+					>Revier</term> lag, wurde auf Anordnung von <persName ref="#ehri_et_sommer_martin">Sommer</persName> auf einer Tragbahre in den
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> geschleppt und erlitt das
+				Schicksal seiner Kameraden. Ein Einziger, ein kleiner, zirka vierzigjähriger Schuster namens <persName ref="#ehri_et_lowitus"
+					>Löwitus</persName>, wurde <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-513" type="subject">entlassen</term>, da
+				er als Angehöriger eines der Baltenstaaten nach der SU <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203"
+					type="subject">auswandern</term> konnte, bevor die Reihe an ihn kam.</p>
+			<pb n="6" facs="EHRI-ET-WL16560413_06.jpg"/>
+			<p>Für die Vorgänge im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> folgende
+				Einzelbeispiele: Der jüdische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschist</term>
+				<persName ref="#ehri_et_pickard_jochen">Jochen Pickard</persName> aus dem <placeName
+					ref="http://www.geonames.org/2847618/rheinland-pfalz.html">Rheinland</placeName>, der mit mir in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName> einsaß, und der dort nach einiger Zeit
+				sich selbst <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-983" type="subject">politischer Straftaten</term>
+				bezichtigte, um ins Zuchthaus zu kommen, wurde nach seiner Strafverbüßung ins <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">KL</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> überstellt. Die <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> hatte ihm nicht vergessen, daß er jahrelang im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">KZ</term> alle ihm zur Last gelegten Beschuldigungen
+				abgestritten hatte. Einige Tage nach seiner Ankunft in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43"
+					type="camp">Buchenwald</placeName> kam er in den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+					>Arrest</term>, den er nicht lebend verließ.</p>
+			<p>Der <orgName ref="#ehri_et_social_democartic_party_of_germany">sozialdemokratische</orgName> Präsident des preußischen Landtages
+					<persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=11517941" type="victim">Ernst Heilmann</persName> wurde <date
+					when="1940">1940</date> ohne Begründung in den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+					>Arrest</term> gebracht und war nach kurzer Zeit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+					>tot</term>. - <persName ref="#ehri_et_eisner_kurt">Kurt Eisner</persName>, der Sohn des gleichnamigen <placeName
+					ref="http://www.geonames.org/2951839/bavaria.html">bayrischen</placeName> Ministerpräsidenten, der schon mehrere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Mordversuche</term> durch außerordentliche
+				Kaltblütigkeit glücklich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-561" type="subject">überstanden</term> hatte,
+				wurde als Zeuge vernommen in einer nichtpolitischen Bagatellsache eines anderen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlings</term>. Er erklärte dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term>: Ich bin seit zehn Jahren <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftling</term>. Sie werden nicht von mir erwarten,
+				daß ich einen Kameraden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">denunziere</term>. - Er kam
+				im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> um.</p>
+			<p>Im Winter des Jahres <date when="1941">1941</date> begannen die berüchtigten Versuche auf der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">Fleckfieberstation</term>. Als erste <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term> wurden zehn <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> ausgesucht. Unter der nächsten Gruppe befanden sich
+				fünfzig <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term>. Dann verhinderte der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-370" type="subject">Rassenaberglaube</term> der Nazis die weitere
+				Verwendung von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term>, da deren Blutserum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Ariern</term> nicht eingeimpft werden durfte.</p>
+			<p>Im Frühjahr <date when="1942">1942</date> wurden ungefähr 400 vom <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286"
+					type="subject">Lagerarzt</term> Dr. <persName ref="#ehri_et_hoven_waldemar">Hoven</persName> als <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitsunfähig</term> erklärte jüdische <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlinge</term> auf einen sogenannten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Invalidentransport</term> mit getarntem Ziel geschickt
+				- es war eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">Giftgasversuchsanstalt</term> -. Über
+				ein Jahr später wurde die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject"
+					>Häftlingsschreibstube</term> angewiesen, diese <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>Transporte</term> von jetzt ab als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">tot</term>
+				zu führen. <persName ref="#ehri_et_hoven_waldemar">Hoven</persName> erklärte dem Kameraden <persName ref="#ehri_et_weingartner"
+					>Weingärtner</persName> (<placeName ref="http://www.geonames.org/2873891/mannheim.html">Mannheim</placeName>), dem damaligen Chef
+				des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Häftlingskrankenhauses</term>: Wenn’s einmal
+				anders herum geht, <persName ref="#ehri_et_weingartner">Weingärtner</persName>, werden wir beide dafür gehenkt. Er wußte nicht, daß
+				dieser sein scheinbarer Komplize, in Wirklichkeit durch Listenfälschung eine ganze Reihe von Kameraden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">gerettet</term> hatte. Überhaupt bestand unsere
+				Hauptaufgabe darin, soweit wir derartige Dinge nicht ganz verhindern konnten, wenigstens die charakterfesten, sauberen und eventuell
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-246" type="subject">widerstandsgewillten</term> Kameraden zu
+				schützen, um unsere Kaders zu verstärken. Eine Zielsetzung, die am <date when="1945-04-11">11. April 1945</date> durch den Erfolg ihre
+				Rechtfertigung fand. Der obenerwähnte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+					>Transport</term> ging in der Weise vor sich, daß vier Tage lang, jeden Morgen beim Zählappell drei Lastautos vorfuhren, in die je
+				dreißig namentlich Verlesene verladen wurden. Am letzten Tag fuhr ein Lastwagen zum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenhaus</term>, wo die vorgesehenen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Kranken</term> in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Hemd</term> und ohne <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Hose</term> hinaufgeworfen und weggefahren wurden.</p>
+			<p>Am <date when="1942-10-17">17. Oktober 1942</date> wurden aus allen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496"
+					type="subject">Lägern</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject"
+					>Zuchthäusern</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">Gefängnissen</term> die
+				jüdischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlinge</term> ins <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-498" type="subject">Liquidierungslager</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> überführt. Ich blieb mit 200
+				als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">Facharbeiter</term> für Rüstungsbauten
+				reklamierten Kameraden zurück.</p>
+			<p>Unsere Lage im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> war jetzt vorläufig
+				wenigstens wesentlich verbessert. Einmal hatte der systematische Kampf der illegal organisierten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschisten</term> zur praktisch vollständigen
+				Ausrottung des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">Antisemitismus</term> geführt und das
+				Gros des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term> gegen diesen Pestbazillus
+				immun gemacht. Zum zweiten glaubte die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> uns</p>
+			<pb n="7" facs="EHRI-ET-WL16560413_07.jpg"/>
+			<p>als qualifizierte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">Arbeiter</term> zu benötigen und
+				mäßigte darum die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">Verfolgung</term>.</p>
+			<p>Im Sommer <date when="1943">1943</date> standen wir vor einer neuen Krise. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Scharführer</term>
+				<persName ref="#ehri_et_schmidt_ss">Schmidt</persName> und <persName ref="#ehri_et_greuel_gustav">Greuel</persName>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Arbeitsdienstführer</term>
+				<persName ref="#ehri_et_simon_wilhelm">Simons</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477"
+					type="subject">Rapportführer</term>
+				<persName ref="#ehri_et_hofschulte_hermann">Hofschulte</persName> im Zusammenwirken mit <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term>
+				<persName ref="#ehri_et_gust_erich">Gust</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject"
+					>Lagerarzt</term>
+				<persName ref="#ehri_et_hoven_waldemar">Hoven</persName> und dem SDG <persName ref="#ehri_et_wilhelm_friedrich_karl"
+					>Wilhelm</persName> begannen eine neue <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject"
+					>Liquidierungsaktion</term>. Die beiden Erstgenannten meldeten wahllos eine Reihe von jüdischen Kameraden wegen angeblicher
+				Faulheit bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term>. <persName
+					ref="#ehri_et_simon_wilhelm">Simons</persName> und <persName ref="#ehri_et_hofschulte_hermann">Hofschulte</persName> veranlaßten
+				die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-564" type="subject">Auspeitschung</term> bzw. führten diese durch,
+					<persName ref="#ehri_et_gust_erich">Gust</persName> überführte das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term> in den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term> und überwies ihn am nächsten Tag dem
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenhaus</term> wo die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Giftspritze</term> der dort Verantwortlichen den Rest
+				besorgte. Der aufopfernden Arbeit unserer Kameraden im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491"
+					type="subject">Krankenhaus</term> gelangtes, einige der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132"
+					type="subject">Opfer</term> zu retten und die Aktion schließlich abzustoppen. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1053" type="subject">Bestechung</term> der zuständigen <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-119" type="subject">Banditen</term> spielten hier wie so häufig eine
+				Rolle. Aber 15 Kameraden, darunter der <placeName ref="http://www.geonames.org/3077311/czechia.html">tschechische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschist</term>
+				<persName ref="#ehri_et_gallander_max">Max Gallander</persName>, haben den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Tod</term> gefunden.</p>
+			<p>Die Spannung der damaligen Krise stellte uns zum ersten Male vor die Frage des gewaltsamen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-246" type="subject">Widerstandes</term>, wobei wir uns mit den
+				verantwortlichen Kameraden im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> darüber
+				klar waren, daß ein allgemeiner <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject"
+					>Aufstandsversuch</term> aussichtslos gewesen wäre und daher nur als Provokation gewirkt hätte. Wir waren aber als die
+				Verantwortlichen der jüdischen Gruppe entschlossen, falls der Versuch, diese <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">Mordserie</term> auf dem im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> üblichen Wege abzustoppen, gescheitert
+				wäre, lieber in aussichtslosem Kampf zu fallen, als uns wie die Schafe Stück um Stück whehrlos abschlachten au lassen.</p>
+			<p>Damals zeigte sich zum erstenmal die Auswirkung unserer bisherigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Arbeit</term>. Der größte Teil der <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43"
+					type="camp">Buchenwälder</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> hätte diesen Weg mit uns beschritten im Gegensatz zu
+				all den Millionen, die sich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-246" type="subject">kampflos</term> haben
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">abschlachten</term> lassen. Das <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1106" type="ghetto">Warschauer Ghetto</placeName> bildet bis heute
+				leider immer noch eine Ausnahme. In dieselbe Zeit fiel der ständige, angeblich strafweise <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Essenentzug</term> für den Judenblock. Die dabei
+				erübrigten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term> wurden als Zulage an
+				eine Reihe von Kommandos vergeben. Auch hier zeigte sich die Solidarität des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term> dadurch, daß eine ganze Reihe von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Kommandos</term> beschlossen, und dies <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> wieder, zuzustellen, obwohl sie mit einer
+				Bestrafung zu rechnen hatten, falls dies ruchbar wurde. Da sind hier vor allem die Kammer, Lagerschutz und Feuerwehr zu erwähnen,
+				während andere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Kommandos</term>, deren
+				Mitgliederbestand nicht so sorgsam im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-967" type="subject"
+					>antifaschistischen</term> Sinne hatte aussortiert werden können, wegen der Gefahr des Verrate uns nur durch Einzelaktionen der
+				anständigen Kameraden unterstützen konnten. Zu den erstgenannten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Kommandos</term> sind noch Schreibstube, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Arbeitsstatistik</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject"
+					>Lagerälteste</term> und Kontrolleure hinzuzufügen. Es versteht sich aus dem Vorhergegangenen von selbst, daß alle diese Vorgänge
+				geheim bleiben mußten und dadurch dem Gros der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject"
+					>Insassen</term> des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">KIBu</term> nicht bekannt
+				waren.</p>
+			<p>Das Jahr <date when="1944">1944</date> brachte eine Veränderung der Situation durch <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Massentransporte</term> von <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term>, aus dem Osten. Zuerst kamen mit der restlosen
+				Versklavung <placeName ref="http://www.geonames.org/719819/hungary.html">Ungarns</placeName> die in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> als <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitsfähig</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">ausgewählten</term> jüdischen <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> von jeweils 1000 bis 1500 Mann.</p>
+			<pb n="8" facs="EHRI-ET-WL16560413_08.jpg"/>
+			<p>Außerdem trafen mit dem Vormarsch der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Roten Armee</orgName>
+				mehr und mehr <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">Evakuierungstransporte</term> aus den
+					<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">polnischen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lägern</term> hier ein.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Unterbringungsmöglichkeit</term> wer praktisch für
+				sie ebenso wenig vorhanden, wie für tausend und abertausend Nichtjuden, die auf dieselbe Weise hierhergeschleppt wurden. Der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerführer</term> stellte sich auf den Standpunkt:
+				Solange das Tor zugeht, ist das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> nicht
+				überfüllt. - Der rastlosen, aufopfernden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Arbeit</term> der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingsleitung</term>, vor
+				allem des Kameraden <persName ref="#ehri_et_eidan_hans">Hans Eidan</persName>, gelang es, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Notunterkünfte</term> zuerst in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Zelten</term>, später in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Notbaracken</term> durch, mehr oder weniger offenen
+				Diebstahl von <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Eigentum zu beschaffen.</p>
+			<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Massentransporte</term> waren restlos zur
+				Weiterleitung auf Außenkommandos bestimmt, wo sie unter zum Teil grauenhaften <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitsbedingungen</term> zu einem Lehr oder, weniger
+				langsamen Dahinsiechen verurteilt waren, zumal sie keine homogene Einheit bildeten und dementsprechend auch keine Führung besaßen, die
+				das Schlimmste hätte abstellen können. Den Kameraden von der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">Arbeitsstatistik</term> ist es in erster Linie zu danken, wenn wir nicht nur die aktiv brauchbarsten Elemente
+				herausziehen, sondern auch noch Hunderte von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>Kindern</term> und Jugendlichen retten konnten, die sonst dem sicheren <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Tod</term> anheimgefallen wären. Den Kameraden aus dem
+					<placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> und <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">polnischen</placeName> Sektor vor allem, die neben unseren
+				langjährigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingen</term> freiwillig in den
+				Stubendienst in dem sogenannten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Zeltlager</term>
+				gingen, verdanken wir die Möglichkeit, in der kurzen, jeweils zur Verfügung stehenden Zeit - manchmal war ein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> von 1000 bis 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">Menschen</term> nur drei bis vier Tage im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> - die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> soweit zu sortieren, daß wir sie von
+				den gefährlichen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-224" type="subject">Nazispitzeln</term> befreien und
+				ihnen manchmal sogar eine eigene Führung mitgeben konnten.</p>
+			<p>Eine erfreuliche Ausnahme, die gerade uns mit Stolz erfüllte, war der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Evakuierungstransport</term> aus <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-3" type="camp">Auschwitz-Monowitz</placeName>. Hier bestand eine saubere,
+				klar ausgerichtete, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">antifaschistische</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingsführung</term>. Es waren <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwalder</placeName> Kameraden, die vor zweieinhalb
+				Jahren dorthin verschleppt worden waren. Einer unserer Besten, der <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschist</term>
+				<persName ref="http://yvng.yadvashem.org/nameDetails.html?itemId=4970567" type="victim">Erich Eisler</persName> - neben <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=11458927" type="victim">Rudi Arndt</persName> einer der klarsten Führer
+				unserer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> - war allerdings in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Arrest</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">ermordet</term> worden.</p>
+			<p>Im Herbst <date when="1944">1944</date> bereits hatten die aus diesen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> gespeisten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Außenkommandos</term> derart viel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitsfähige</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Männer</term> zu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Krüppeln</term> gemacht, daß die sogenannten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Invalidentransporte</term> hierher zurückzuströmen
+				begannen, um in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-498" type="subject">Liquidierungslager</term>
+				weitergeleitet zu werden. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Außenkommandos</term>
+				<placeName ref="http://www.geonames.org/2874545/magdeburg.html">Magdeburg</placeName> und <placeName
+					ref="http://www.geonames.org/6550899/zeitz.html">Zeist</placeName> schickten allein 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Todeskandidaten</term> zurück. Den Bemühungen unserer
+				Kameraden im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Revier</term> gelang es, zirka 500 von
+				ihnen von der Liste abzusetzen. Durch die ziemlich offene <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-253"
+					type="subject">Sabotage</term> der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Arbeitsstatistik</term> und Schreibstube wurden dann sogar noch welche hierbehalten, die von der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> listenmäßig zum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> bestimmt worden waren. Über 900 aber
+				mußten nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> in den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Tod</term> fahren, unmittelbar bevor die <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Rote Armee</orgName> dem Treiben der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> dort ein Ende setzte.</p>
+			<p>Anschließend verlangte der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Arbeitseinsatzführer</term> eine Liste von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>Kindern</term>, um sie in das berüchtigte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Lager</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-42" type="camp">Bergen-Belsen</placeName> zu schicken. Wieder
+				gelang es der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitsstatistik</term>, die Zahl der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term> auf 21 zu beschränken, obwohl es
+				sich um mehrere Hunderte handelte. Auch hierbei hatte das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+					type="subject">Häftlingsrevier</term> mitgewirkt, das überhaupt den größten Anteil an allem, was in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> erreicht wurde, für sich zu buchen
+				hat.</p>
+			<pb n="9" facs="EHRI-ET-WL16560413_09.jpg"/>
+			<p>Durch die ständig zunehmende Überfüllung des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Lagers</term> hatte die Kontrolle durch die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>
+				nicht mehr die Intensität wie früher. Die Trennung zwischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					>Juden</term> und Nichtjuden brauchte deswegen im Laufe der Jahre immer weniger durchgeführt zu werden. Im Laufe des Jahres <date
+					when="1944">1944</date> schlossen sich demgemäß die jüdischen Kameraden mehr oder weniger an ihre zuständigen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">Nationalitäten</term>-Gruppen an. Die ständigen
+				Niederlagen der Nazis, das Heranrücken der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1029" type="subject"
+					>Alliierten</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">Befreiungsarmeen</term> ließen uns eine Sonderaktion
+				der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> gegen die jüdischen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlinge</term> nicht mehr erwarten. Da kam am Abend
+				des vierten April überfallartig der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">Befehl</term>:
+					<q>Alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> sofort auf dem Appellplatz antreten!</q>
+				Keiner von uns zweifelte an dem Sinn dieser Maßnahme. Eine kurze, unvorbereitete Besprechung ergab folgendes Bild: Offene <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">Meuterei</term> des gesamten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term> wäre im Hinblick auf die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">militärische</term> Situation zweckloser <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-217" type="subject">Selbstmord</term>. Durchführung des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">Befehls</term> aber - was wir einige Wochen vorher
+				nicht hätten umgehen können - wäre im Hinblick auf eben diese Situation Feigheit. Wir gingen daher zur offenen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-201" type="subject">Sabotage</term> über: Es wurde nicht angetreten. Auf
+				Anstiften der aktiven Elemente flüchteten Hunderte, wenn nicht Tausende, in fremde <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Baracken</term> zu ihren nichtjüdischen Kameraden, die
+				karteimäßigen Unterlagen in den Blocks wurden verbrannt, die Schreibstube erklärte es für unmöglich, in kurzer Zeit eine genaue Liste
+				der vorhandenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> aufzustellen. Der Lagerschutz
+				behauptete die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> nicht herausfinden zu können, ganz
+				abgesehen davon, daß er mit hundert <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term>
+				nicht achttausend zusammentreiben könnte! -</p>
+			<p>Die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> schwankte und verschob den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">Appell</term> zum nächsten Vormittag. Er endete durch
+				offene <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">Meuterei</term> der aktiven Elemente unter
+				den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> und die passive <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject">Resistenz</term> der nicht jüdischen Kameraden
+				planmäßig mit einem Fiasko der Absichten der Nazis. Ungefähr die Hälfte, zirka 3 000, waren erneut <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">geflüchtet</term> und hatten sich zwischen den anderen
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">versteckt</term>, und zwar waren es naturgemäß
+				die Aktivsten und zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject">Widerstand</term>
+				Entschlossensten. Der ausgegebenen Losung: Sich nicht wehrlos zu ergeben, gemäß, griff unser Kamerad <persName
+					ref="https://yvng.yadvashem.org/nameDetails.html?itemId=6510903" type="victim">Kurt Baum</persName> aus <placeName
+					ref="http://www.geonames.org/2905891/herne.html">Herne</placeName>, ein seit <date when="1935">1935</date> eingekerkerter <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-968" type="subject">Antifaschist</term>, den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Scharführer</term>, der ihn in seinem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">Versteck</term> aufstöberte, mit dem Spaten an und
+				fiel als erstes <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term>. Aber die Blockführer
+				wurden stutzig, die Suchaktion wurde nicht fortgesetzt. 3 000 jüdische <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlinge</term> befanden sich illegal im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>. Damit war der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> jeder Überblick verloren gegangen.</p>
+			<p>Am nächsten Tage bereits zeigten sich die günstigen Auswirkungen dieser Entwicklung. Es war wesentlich leichter geworden, die 46
+				Kameraden, die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">liquidiert</term> werden sollten und
+				zu denen mich die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">Lagerleitung</term> selbst wegen
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-201" type="subject">Sabotage</term> des <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Judentransportes</term> hinzugesetzt hatte, zu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">verstecken</term>. Die Entwicklung der folgenden Woche
+				gehört nicht hierher, sie betrifft das gesamte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Lager</term>. Mit dem Nachmittag des <date when="1945-04-11">11. April 1945</date> schließt dieses Kapitel.</p>
+			<p>Vorliegender Bericht kann und will selbstverständlich nur den Rahmen für die Entwicklung der Geschichte der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Juden</term> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> geben. Einzelheiten können nur
+				angeführt werden, soweit sie besonders charakteristisch sind. Auf der anderen Seite sind die Dinge in ihrer Bedeutung nur verständlich
+				in dem Zusammenhang der Gesamtgeschichte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Buchenwalds</term>. Diese kann hier nicht behandelt werden, obwohl manches in den verschiedenen Berichten immer wiederkehren
+				wird. Bei allen</p>
+			<pb n="10" facs="EHRI-ET-WL16560413_10.jpg"/>
+			<p>angeführten Geschehnissen war ich entweder selbst dabei oder habe sie von Beteiligten unmittelbar erfahren.</p>
+			<p>Die Entwicklung unserer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> und unseres
+				Kampfes hat uns gelehrt, daß es unmöglich gewesen wäre, die in der Freiheit bekannten und anerkannten Gesichtspunkte jüdischen Lebens
+				als Richtlinie des Handelns anzunehmen. Der Kampf gegen die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429"
+					>SS</orgName> für unsere Erhaltung konnte nicht orthodox oder liberal, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-906" type="subject">zionistisch</term> oder sozialistisch geführt werden.
+				Es ergab sich von selbst nur eine Möglichkeit: Zusammenschluß aller <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-212"
+					type="subject">Widerstandswilligen</term> auf dem Boden des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-967"
+					type="subject">Antifaschismus</term>. Wir lehnten jene quasi Gottgläubigen ab, die da predigten, die <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Hitler</persName>barbarei ergeben hinzunehmen als verdiente
+				Strafe Gottes für mangelnde <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">jüdische</term> Frömmigkeit, ebenso wie
+				den Zynismus des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-224" type="subject">Spitzels</term>, der für ein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Butterbrot</term> seine Brüder verkaufte, Wir haben
+				innerhalb des Stacheldrahts den Nazibazillus getötet, noch während die Türme von der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-437">Waffen-SS</orgName> besetzt waren. Jeder <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864">Jude</term>, der denkend und kämpfend <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName> überlebt hat, wird und muß seine
+				Aufgabe kennen.</p>
+			<p>gez. <persName ref="#ehri_et_carlebach_emil">Emil Carlebach</persName>,</p>
+			<p><placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt am Main</placeName>,</p>
+			<p>ehemals <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">Blockältester</term> 22</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Häftlingsnummer</term> 4186.</p>
+			<table>
+				<row>
+					<cell><date when="1938">1938</date>/<date when="1939">39</date></cell>
+					<cell><persName ref="#ehri_et_kranzler_richard_kapo">Richard Kranzler</persName>: guter <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">Steinbruchkapo</term></cell>
+				</row>
+				<row>
+					<cell><date when="1940">1940</date></cell>
+					<cell><persName ref="#ehri_et_vogel">Vogel</persName>, <persName ref="#ehri_et_herzog">Herzog</persName>. <persName
+							ref="#ehri_et_widmann_otto">Widmann Otto</persName> etc. verabreden mit Posten Sepp gegen Tabak, ihm die
+							<q>Flüchtlinge</q> zuzutreiben (Sonderurlaub). M.d.R. <persName ref="#ehri_et_scholzen_werner">Werner Scholzen</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">erschossen</term>.</cell>
+				</row>
+				<row>
+					<cell><date when="1941">1941</date></cell>
+					<cell>Nachtarbeit in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>
+						Kommandanten-Reitbahn (<persName ref="#ehri_et_florstedt">Florstedt</persName>), <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">Appell</term>platz, Kartoffelkeller (<persName
+							ref="#ehri_et_dombock">Domböck</persName>)</cell>
+				</row>
+				<row>
+					<cell><date when="1942">1942</date></cell>
+					<cell>desgl.: Kläranlage</cell>
+				</row>
+				<row>
+					<cell>bis <date when="1942">1942</date></cell>
+					<cell>schlechte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">Kapos</term>: <persName
+							ref="#ehri_et_heusgen">Heusgen</persName>, <persName ref="#ehri_et_dannenbaum">Dannenbaum</persName>, <persName
+							ref="#ehri_et_muckenheim">Mückenheim</persName>, <persName ref="#ehri_et_berg">Berg</persName>, <persName
+							ref="#ehri_et_heidenfelder">Heidenfelder</persName>, <persName ref="#ehri_et_dunst">Dunst</persName>
+						<persName ref="#ehri_et_gartnerei">Gärtnerei</persName>, <q><persName ref="#ehri_et_wald-muller_alfred">Wald-Müller
+								Alfred</persName></q>, Hill, Azone, (Hauptscharführer <persName ref="#ehri_et_becker">Becker</persName> - <persName
+							ref="#ehri_et_siewert_robert">Robert Siewert</persName>!)</cell>
+				</row>
+				<row>
+					<cell><date when="1938">1938</date></cell>
+					<cell><persName ref="#ehri_et_bartel_karl">Karl Bartel</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">Bl.A.</term> 7 gegenüber anderen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">Bl.Ä.</term> (<persName ref="#ehri_et_grune"
+							>Grüne</persName>)</cell>
+				</row>
+				<row>
+					<cell><date when="1944">1944</date></cell>
+					<cell>Asta schiebt Juden in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>Facharbeiterkommandos</term>, <q>weil keine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+								type="subject">arischen</term> Fachkräfte vorhanden seien!</q> - Effektenkammer behandelt bei Eff-Auflösung
+						stillschweigend die Juden wie <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Arier</term>.
+						Schreibstube führt stillschweigend eine ganze Reihe jüdischer Zugänge als <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Arier</term>:</cell>
+				</row>
+				<row>
+					<cell><date when="1945">1945</date></cell>
+					<cell>6 Juden als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">Bl.Ä.</term>-Stellvertreter
+						von L.A.I. eingesetzt. Haltung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject"
+							>Bl.Ä.</term> vor allem <persName ref="#ehri_et_schlappe_jupp">Jupp Schlappe</persName> (37) und <persName
+							ref="#ehri_et_kindinger_jakob">Jakob Kindinger</persName> (56) bei beabsichtigtem Judentransport (<date when="1945-04-06"
+							>6.4.45</date>).</cell>
+				</row>
+				<row>
+					<cell><date when="1941">1941</date>/<date when="1945">45</date></cell>
+					<cell>Liquidierung der <placeName ref="http://www.geonames.org/2017370/russian-federation.html">russischen</placeName> Juden
+							(<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-511" type="subject">Kriegsgefangene</term>, <persName
+							ref="#ehri_et_jacobson_alex">Alex Jacobson</persName>.</cell>
+				</row>
+			</table>
+			<table>
+				<pb n="11" facs="EHRI-ET-WL16560413_11.jpg"/>
+				<row>
+					<cell>Korruption: <date when="1938">1938</date></cell>
+					<cell><persName ref="#ehri_et_wolf">Wolf</persName> RM. 5000, --,</cell>
+				</row>
+				<row>
+					<cell/>
+					<cell>Fasttage und Kameradschaftsabende</cell>
+				</row>
+				<row>
+					<cell><date when="1939">1939</date></cell>
+					<cell><q>Ankauf</q> der jüdischen Wertsachen (10% Michael)</cell>
+				</row>
+				<row>
+					<cell><date when="1940">1940</date></cell>
+					<cell>Kapelle RM. 5000,--</cell>
+				</row>
+				<row>
+					<cell><date when="1941">1941</date></cell>
+					<cell>Kantinengelderbeschlagnahme RM. 13 000,--</cell>
+				</row>
+				<row>
+					<cell/>
+					<cell>Salatpreis, Triemel RM. 10,--</cell>
+				</row>
+				<row>
+					<cell><date when="1942">1942</date></cell>
+					<cell>Kinogeld, Osch. Bayern/Koch RM. 750,--</cell>
+				</row>
+				<row>
+					<cell><date when="1937">1937</date>/<date when="1938">38</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName>:</cell>
+					<cell>Straf- und Sonntagsarbeit, Isolierungen</cell>
+				</row>
+				<row>
+					<cell/>
+					<cell>Nur im Freien arbeiten</cell>
+				</row>
+				<row>
+					<cell/>
+					<cell>Betonuaschine <placeName ref="http://www.geonames.org/2825297/stuttgart.html">Stuttgart</placeName></cell>
+				</row>
+				<row>
+					<cell/>
+					<cell><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Arzt</term>: Kaufmann - Sonne!</cell>
+				</row>
+				<row>
+					<cell/>
+					<cell>Rindskopf - Baumhängen- Eschen und Litten und Klemm</cell>
+				</row>
+				<row>
+					<cell/>
+					<cell>2000 (sterreicher - Zementbrocken tragen Zugangs <q>Sport</q>.</cell>
+				</row>
+			</table>
+			<p><date when="1948-05-28">28.5.48.</date></p>
+			<p>23/Na.</p>
+			<note type="gloss"><p>COPYRIGHT</p>
+				<p>Reproduction and publication rights reserved.</p>
+				<p>Supplied for study only by</p>
+				<p>THE WIENER LIBRARY. LONDON.</p></note>
+		</body>
+	</text>
+</TEI>

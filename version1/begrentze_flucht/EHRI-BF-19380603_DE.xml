@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-13T21:41:08+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380603_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Protokoll mit Mořic Reiss über die Flucht seiner Familie</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection>Innenministerium I – Alte Registratur, 1936-1940</collection>
+                        <idno>Sign. 5/226/6, Ka. 4835</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Alte Registratur, 1936-1940, Sign. 5/226/6, Ka. 4835; vgl. auch Abschrift in MZA,
+                    Zemský úřad v Brně, presidium, Nr. 10892, K. 282. <textLang mainLang="cs">Original auf Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Znaim (Znojmo)</placeName>
+                        <location>
+                            <geo>48.8555 16.0488</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3061344/znojmo.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Znojmo"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Witschnau (Vlčnov)</placeName>
+                        <location>
+                            <geo>49.0099 17.58183</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3062710/vlcnov.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Vl%C4%8Dnov"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Ungarisch Brod (Uherský Brod)</placeName>
+                        <location>
+                            <geo>49.02513 17.64715</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3063736/uhersky-brod.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Uhersk%C3%BD_Brod"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Judentum</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-756"/>
+                        </linkGrp></item>
+                    <item><name>Botschaft und Konsulat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+                        </linkGrp></item>
+                    <item><name>Frau</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+                        </linkGrp></item>
+                    <item><name>Verhaftung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+                        </linkGrp></item>
+                    <item><name>Familie</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item><name>Arisierung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-334"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_reiss_moric">
+                        <persName>Reiss, Mořic</persName>
+                    </person>
+                    <person xml:id="ehri_bf_reiss_hermann">
+                        <persName>Reiss, Hermann</persName>
+                    </person>
+                    <person xml:id="ehri_bf_reiss_betty">
+                        <persName>Reiss, Betty</persName>
+                    </person>
+                    <person xml:id="ehri_bf_cerny_konsulat_wien">
+                        <persName>Černý (Beamter im tschechoslowakischen Konsulat in Wien)</persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org>
+                        <orgName>Schutzstaffel</orgName>
+                        <note>
+                            <p>1925 - 1945</p>
+                            <p>Die Schutzstaffel wurde 1925 als kleine Abteilung zum persönlichen Schutz Hitlers gegründet. Anfang 1929 wurde die SS
+                                unter der Führung Heinrich Himmlers ausgebaut, später zu einer eigenständigen Organisation der NSDAP erhoben. 1934
+                                entmachtete sie erfolgreich die konkurrierende SA während der sog. „Nacht der langen Messer“. Die SS setzte sich aus
+                                Gestapo, Kriminalpolizei, Waffen-SS und Totenkopfverbänden zusammen. 1936 wurden alle Polizeiagenden unter Kontrolle
+                                der SS gestellt. Im Nürnberger Prozess wurde die SS als verbrecherische Organisation eingestuft, verantwortlich für
+                                die „Verfolgung und Ermordung von Juden“, Ermordung bzw. Brutalität gegen Häftlinge in Konzentrationslagern,
+                                Ausschreitungen in ihrer Verwaltung von besetzten Gebieten, Ausbeutung von ZwangsarbeiterInnen und Misshandlung von
+                                Kriegsgefangenen.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+                        </linkGrp>
+                    </org>
+                    <org>
+                        <orgName>Sturmabteilung</orgName>
+                        <note>
+                            <p>1921 - 1945</p>
+                            <p>Die Sturmabteilung, der paramilitärische Flügel der NSDAP, wurde 1921 gegründet. Zunächst setzte sie sich hauptsächlich
+                                aus deutschen Veteranen des Ersten Weltkriegs, Milizangehörigen und anderen Personen zusammen, die sowohl der Weimarer
+                                Republik als auch der kommunistische Partei ablehnend gegenüberstanden. Ihre terroristischen Aktionen gegen
+                                GegnerInnen erhöhte auch die öffentliche Wahrnehmung der NS-Bewegung, sowohl vor als auch nach Hitlers Machtaufstieg.
+                                Nachdem sich das NS-Regime etabliert hatte, begann das Regime die störende Vorgehensweise der SA zunehmend als
+                                Bedrohung wahrzunehmen. Hitler stimmte der Ermordung der höheren Führungsschicht der SA zu, die im Röhm Putsch oder
+                                der „Nacht der langen Messer“ vornehmlich durch die SS durchgeführt wurde.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-358"/>
+                        </linkGrp>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-06-03">3. Juni 1938</date>
+                <placeName>Znaim (Znojmo)</placeName>
+                <orgName>Staatliche Polizeibehörde in Znaim</orgName>
+                <idno>EHRI-BF-19380603</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="fluchtberichte"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="EHRI-BF-19380603_01.jpg"/>
+            <p>Protokoll</p>
+
+            <p>Aufgenommen mit <persName ref="#ehri_bf_reiss_moric">Mořic Reiss</persName> am <date when="1938-06-03">3. 6. 1938</date> bei der
+                staatlichen Polizeibehörde in <placeName ref="http://www.geonames.org/3061344/znojmo.html">Znaim</placeName>, geb. am <date
+                    when="1884-03-10">10. 3. 1884</date> in <placeName ref="http://www.geonames.org/3062710/vlcnov.html">Wiltschnau bei Ungar.
+                    Brod</placeName>, heimatberechtigt in <placeName ref="http://www.geonames.org/3063736/uhersky-brod.html">Ungarisch
+                    Brod</placeName>, Eltern: <persName ref="#ehri_bf_reiss_hermann">Hermann</persName> und <persName ref="#ehri_bf_reiss_betty"
+                    >Betty, geb. Kohnová</persName>, Nationalität tschechisch, <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-756">jüdischer Rel.</term>, ungedient, wohlhabend, nicht vorbestraft,
+                zuletzt wohnhaft in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> II. Reisbrückenstrasse 44, der nach
+                der Belehrung zur Wahrheit zu Protokoll gibt:</p>
+
+
+            <p>In <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> bin ich schon seit dem J. <date when="1909"
+                    >1909</date> und hatte dort ein Geschäft für Gemischtwaren etabliert. Nach dem Umsturz vom <date when="1938-03-11">11. 3.
+                    1938</date> wurden wir zwar etwa 1 ½ Monate in Ruhe gelassen, aber im letzten Monat war es nicht zum Aushalten. Zu uns ins
+                Geschäft kamen nur Tschechen und darum wurde ich verfolgt. Angehörige der <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> und der <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName> kamen zu mir und suchten einen Vorwand. Sie warfen mir
+                vor, meine Geschäftsbücher seien nicht in Ordnung, und dass ich nicht korrekt Steuern zahle. Ich <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-334">bekam einen Kommissar ins Geschäft</term> und musste ihm Waren und
+                Geld aushändigen, im Ganzen etwa ein Betrag von 65.000 Sch. ohne dass mir eine Quittung ausgehändigt wurde und nur auf meine Bitte
+                gaben sie mir etwa 200 Mark, damit ich etwas zum Leben hatte. Dann war wieder ein wenig Ruhe. Etwa nach einer Woche kamen sie wieder
+                in meine Wohnung, brachten alles durcheinander, nahmen mir Dokumente und alle Schriftstücke, auch die Schallplatten mit tschechischen
+                Liedern, alles erneut ohne Quittung. In dieser Woche, am Montag, den <date when="1938-05-30">30. 5.</date> kamen sie erneut in die
+                Wohnung, nahmen alles mit, auch den Pass. Also ging ich am Dienstag zur <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischen</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Botschaft</term> und erhielt von Dr. <persName
+                    ref="#ehri_bf_cerny_konsulat_wien">Černý</persName> eine Empfehlung für das <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakische</placeName>
+                <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118">Konsulat</term>. Als ich aber nach Hause kam, sagte
+                mir meine <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">Frau</term>, dass ihr angedroht worden
+                war, man würde uns <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-598">einsperren</term>. Darum
+                bestellte ich sofort ein Taxi, fuhr mit meiner <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-819"
+                    >Familie</term> zur Grenze und ging aus Angst um das Leben <term type="subject"
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234">heimlich hinüber auf tschechoslowakisches Gebiet</term>.</p>
+
+            <p>Ab dem <date when="1938-05-20">20. Mai</date> war es in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+                nicht zum Aushalten und niemand wagte es in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> auf der
+                Straße tschechisch zu sprechen.</p>
+        </body>
+    </text>
+</TEI>

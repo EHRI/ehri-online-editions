@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-08T13:51:56+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380715_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reichsverweisungen <q>unerwünschter Ausländer</q> aus Österreich</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/at-001965">Niederösterreichisches Landesarchiv</repository>
+                        <collection>Bezirkshauptmannschaft Hollabrunn 1939</collection>
+                        <idno>Karton 235</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Niederösterreichisches Landesarchiv, BH Hollabrunn 1939, Karton 235. <textLang mainLang="de">Original auf
+                    Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Deutschland</placeName>
+                        <location>
+                            <geo>51.5 10.5</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Deutschland"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Ausländer / Ausländerin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1149"/>
+                        </linkGrp></item>
+                    <item><name>Polizei</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person>
+                        <persName>Himmler, Heinrich</persName>
+                        <note><p>1900 - 1945</p><p>Hielt verschiedene Positionen im NS-Staat. Am bedeutendsten: Reichsführer SS (RFSS), Chef der
+                                Deutschen Polizei, direkt Hitler unterstellt. Zusätzlich: “Reichskommissar für die Festigung Deutschen Volkstums” (RKF
+                                bzw. RKFDV) für die besetzten Gebiete im Osten, ab 25.8.1943 auch Reichsinnenminister, ab 1944 Befehlshaber des
+                                Ersatzheeres.</p></note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000181"/>
+                        </linkGrp>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org>
+                        <orgName>Kriminalpolizei</orgName>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-402"/>
+                        </linkGrp>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-07-15">15. Juli 1938</date>
+                <placeName>Wien</placeName>
+                <orgName>Inspekteuer der Sicherheitspolizei und des SD in Österreich</orgName>
+                <idno>EHRI-BF-19380715</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="vertreibungspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p>Die Anordnung von Reichsverweisungen des Inspekteuers der Sicherheitspolizei und des SD in Österreich setzt das Gesetz in
+                    Österreich mit jenem im "Altreich" gleich und übergibt die Vorgangsweise gegen <q>unerwünschte Ausländer</q> den
+                    Kriminalpolizeistellen.</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--
+        <hi<orgName>Der Reichsstatthalter-Landesregierung</orgName></hi>
+      </p>
+      <p>
+        <hi><orgName>Der Staatssekretär für das Sicherheitswesen</orgName></hi>
+      </p>
+      <p>
+        <hi>Und höhere <orgName ref="https://portal.ehri-project.eu/admin/authorities/ehri_cb-429">SS-</orgName> und Polizeiführer.</hi>
+      </p>
+      <p>Der <orgName>Inspekteur der Sicherheitspolizei</orgName></>
+      </p>
+      <p/>
+      <p><hi>T.B.Nr. S IIE 4-49/38</hi></p>
+      <p><placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, den <date
+          when="1938-07-15">15. Juli 1938</date>.</p>
+      <p>I., Herrengasse 7.--></p>
+            <p><hi rend="u">Betrifft</hi>: Anordnung von Reichsverweisungen in <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>.</p>
+            <p>Durch Erlaß des <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000181">Reichsführers- SS und Chef der Deutschen
+                    Polizei</persName> im RMd J. vom <date when="1938-06-29">29.6.1938</date> S V 7 Nr. 1007/38-509-26, der der dortigen Dienststelle
+                bereits nachrichtlich zugegangen ist, bin ich ermächtigt worden, unerwünschte <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">Ausländer</term>, die sich in <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> aufhalten, aus dem <placeName
+                    ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Reichsgebiet</placeName> auszuweisen.</p>
+            <p>Diese Ermächtigung gilt bis zum Inkrafttreten eines einheitlichen ausländerpolizeilichen Rechtes, mit dem im Herbst dieses Jahres zu
+                rechnen ist, für das gesamte <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+                    >Reichsgebiet</placeName>.</p>
+            <p>Ich übertrage diese Befugnis hiermit mit sofortiger Wirkung auf die <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-402">Kriminalpolizeistellen</orgName> im Lande <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>, je für ihren Dienstbereich. Die <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-402">Kriminalpolizeistellen</orgName> sind danach bis zum Inkrafttreten
+                eines einheitlichen ausländerpolizeilichen Rechtes allein berechtigt, unerwünschte <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">Ausländer</term> aus dem <placeName
+                    ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Reichsgebiet</placeName> auszuweisen. Als Anhaltspunkt für
+                die Voraussetzung der Reichsausweisung verweise ich auf § 2 des Gesetzes über die Reichsverweisung unerwünschter <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">Ausländer</term> vom <date when="1934-03-23">23. März
+                    1934</date>, RGBl.I, <hi rend="u">S 13</hi>, der abschriftlich in der Anlage angeschlossen ist.</p>
+            <p>Die Ermittlungen über die Voraussetzungen des § 2 des zitierten Gesetzes haben wie bisher die im § 5 Reichsschubgesetzes angeführten
+                Behörden unter Beobachtung der verfahrensrechtlichen Bestimmungen des Schubgesetzes (allfällige Inhaftnahme, Aufnahme des Schubaktes
+                ect.) durchzuführen und das Ergebnis mit den entsprechenden Anträgen der zuständigen <orgName
+                    ref="https://portal.ehri-project.eu/authorities/ehri_cb-402">Kriminalpolizeistelle</orgName> mitzuteilen, die sodann über den
+                Antrag zu entscheiden hat. Die rechtskräftige Reichsverweisung haben nach wie vor die Behörden zu vollziehen, in deren
+                Zuständigkeitsbereich sich der Reichsverwiesene aufhält.</p>
+            <p>Berufungen und Beschwerden sind mir zur Entscheidung vorzulegen.</p>
+            <p>
+                <hi rend="i">[Stempel, Unterschrift]</hi>
+            </p>
+            <p><!-- <hi rend="u">Verteiler</hi>: </p>
+      <list type="ol" rend="a">
+        <item>An die [[Kriminalpolizeileitstelle <placeName
+            ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>]] und an die
+          [[Kriminalpolizeileitstellen]] in <placeName
+            ref="http://www.geonames.org/2778067/graz.html">Graz</placeName>, <placeName
+            ref="http://www.geonames.org/2772400/linz.html">Linz</placeName>, <placeName
+            ref="http://www.geonames.org/2766824/salzburg.html">Salzburg</placeName>, <placeName
+            ref="http://www.geonames.org/2775220/innsbruck.html">Innsbruck</placeName>, <placeName
+            ref="http://www.geonames.org/2774326/klagenfurt-am-woerthersee.html"
+            >Klagenfurt</placeName> u. <placeName
+            ref="http://www.geonames.org/2780190/eisenstadt.html">Eisenstadt</placeName>.</item>
+      </list>
+      <p>Nachrichten an:</p>
+      <list type="ol" rend="a">
+        <item>alle Polizeiverwaltungen</item>
+        <item>alle Landeshauptmannschaften <placeName
+            ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, <placeName
+            ref="http://www.geonames.org/2772400/linz.html">Linz</placeName>, <placeName
+            ref="http://www.geonames.org/2774326/klagenfurt-am-woerthersee.html"
+            >Klagenfurt</placeName>, <placeName
+            ref="http://www.geonames.org/2780190/eisenstadt.html">Eisenstadt</placeName>, <placeName
+            ref="http://www.geonames.org/2766824/salzburg.html">Salzburg</placeName>, <placeName
+            ref="http://www.geonames.org/2775220/innsbruck.html">Innsbruck</placeName>, <placeName
+            ref="http://www.geonames.org/2778067/graz.html">Graz</placeName> u. <placeName
+            ref="http://www.geonames.org/2781503/bregenz.html">Bregenz</placeName> zur Weitergabe an
+          die [[Bezirkshauptmannschaften]].</item>
+        <item>Die [[Staatspolizeistelle <placeName ref="http://www.geonames.org/2761369/vienna.html"
+            >Wien</placeName>]] und</item>
+      </list>
+      <p rend="margin noindent">Die [[Staatspolizeistellen]] in <placeName
+          ref="http://www.geonames.org/2778067/graz.html">Graz</placeName>, <placeName
+          ref="http://www.geonames.org/2772400/linz.html">Linz</placeName>, <placeName
+          ref="http://www.geonames.org/2766824/salzburg.html">Salzburg</placeName>, <placeName
+          ref="http://www.geonames.org/2775220/innsbruck.html">Innsbruck</placeName>, <placeName
+          ref="http://www.geonames.org/2774326/klagenfurt-am-woerthersee.html"
+          >Klagenfurt</placeName> u. <placeName
+          ref="http://www.geonames.org/2780190/eisenstadt.html">Eisenstadt</placeName>. --></p>
+        </body>
+    </text>
+</TEI>

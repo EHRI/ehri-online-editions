@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2019-08-26T08:24:16+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19420508-IT_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Filippo Anfuso on antisemitism in Hungary in 1942</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
+							Affari Esteri</repository>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, AG Uff IV., Posizione S.E. 27.869, busta T-U, fasc.
+						Ungheria.<textLang mainLang="it"> Original in Italian.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Budapest</placeName>
+						<location>
+							<geo>47.49835 19.04045</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="www.geonames.org/3054643/budapest.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Budapest"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rome</placeName>
+						<location>
+							<geo>41.89193 12.51133</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3169070/rome.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Rome"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hungary</placeName>
+						<location>
+							<geo>47 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/719819/hungary.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Hungary"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Turkey</placeName>
+						<location>
+							<geo>39 35</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/298795/republic-of-turkey.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Turkey"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Transylvania</placeName>
+						<location>
+							<geo>46.5 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://en.wikipedia.org/wiki/Transylvania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Romania</placeName>
+						<location>
+							<geo>46 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798549/romania.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Romania"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish Legislation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-335"/>
+						</linkGrp></item>
+					<item><name>The Jewish Question</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-351"/>
+						</linkGrp></item>
+					<item><name>Clergy</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-731"/>
+						</linkGrp></item>
+					<item><name>Public Opinion</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1072"/>
+						</linkGrp></item>
+					<item><name>Politics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-947"/>
+						</linkGrp></item>
+					<item><name>Axis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1027"/>
+						</linkGrp></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>Cultural Activities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-708"/>
+						</linkGrp></item>
+					<item><name>Economic Life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-816"/>
+						</linkGrp></item>
+					<item><name>Jewish Owned Banks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-891"/>
+						</linkGrp></item>
+					<item><name>Jewish Owned Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-890"/>
+						</linkGrp></item>
+					<item><name>Jewish Journalists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-712"/>
+						</linkGrp></item>
+					<item><name>Art Culture Science Religion</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-671"/>
+						</linkGrp></item>
+					<item><name>Mixed Marriages</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-375"/>
+						</linkGrp></item>
+					<item><name>Political Activities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-983"/>
+						</linkGrp></item>
+					<item><name>Freemasonry</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1204"/>
+						</linkGrp></item>
+					<item><name>Liberal parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1020"/>
+						</linkGrp></item>
+					<item><name>Communism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1009"/>
+						</linkGrp></item>
+					<item><name>Jewish Jurists and Lawyers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-899"/>
+						</linkGrp></item>
+					<item><name>Jewish Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1427"/>
+						</linkGrp></item>
+					<item><name>Jewish Journalists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-712"/>
+						</linkGrp></item>
+					<item><name>Resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-212"/>
+						</linkGrp></item>
+					<item><name>Discrimination of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-332"/>
+						</linkGrp></item>
+					<item><name>Political Parties</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-958"/>
+						</linkGrp></item>
+					<item><name>Theatre</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-695"/>
+						</linkGrp></item>
+					<item><name>Sexual Activities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-838"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Industry</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-937"/>
+						</linkGrp></item>
+					<item><name>Banks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-930"/>
+						</linkGrp></item>
+					<item><name>International politics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1021"/>
+						</linkGrp></item>
+					<item xml:id="ehri_dr_nationalities_turkish"><name>Turks (ascribed nationality) </name>
+					</item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_caruso_casto">
+						<persName>Caruso, Casto</persName>
+					</person>
+					<person xml:id="ehri_dr_charles_iii">
+						<persName>Charles III</persName>
+						<note><p>Charles III (1 October 1685 – 20 October 1740) was Archduke of Austria.</p></note>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Charles_VI,_Holy_Roman_Emperor"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_dr_maria_theresa">
+						<persName>von Österreich, Maria Theresia</persName>
+						<note><p>Maria Theresa (13 May 1717 – 29 November 1780) was the only female ruler of the Habsburg dominions and the last of
+								the House of Habsburg. She was the sovereign of Austria, Hungary, Croatia, Bohemia, Transylvania, Mantua, Milan,
+								Lodomeria and Galicia, the Austrian Netherlands, and Parma. By marriage, she was Duchess of Lorraine, Grand Duchess of
+								Tuscany and Holy Roman Empress. </p></note>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Maria_Theresa"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Ciano, Galeazzo</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000082"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Kállay, Miklós</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000202"/>
+						</linkGrp>
+						<note><p>23.01.1887 - 14.01.1967</p>Hungarian politician. Prime Minister of Hungary between March 9, 1942 and March 22, 1944.
+							Kállay unsuccessfully attempted to extricate Hungary from the German alliance. After the German occupation of Hungary in
+							March, 1944 he was forced into hiding, subsequently taken prisoner, being held at the concentration camp of Dachau and,
+							later, Mauthausen.</note>
+					</person>
+					<person>
+						<persName>Bethlen, István</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000570"/>
+						</linkGrp>
+						<note><p> 8.10.1874 - 5.10.1946</p>Hungarian conservative politician. He was the prime minister of Hungary from 1921 to 1931.
+							He represented a moderate right-wing, anti-Nazi, pro-English stance and he rejected the Hungarian anti-Jewish laws. After
+							the German occupation he was forced to go into hiding. In the summer of 1944 he wrote a secret memorandum to Miklós
+							Horthy, calling on him to stop the deportations of Jews. He was arrested by Soviets in 1945 and he died in Moscow in
+							1946.</note>
+					</person>
+					<person>
+						<persName>Gombos, Gyula</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-001073"/>
+						</linkGrp>
+						<note><p> 26.12.1886 - 6.10.1936 </p>Prime Minister of Hungary from 1932-1936</note>
+					</person>
+					<person xml:id="ehri_dr_filippo_anfuso">
+						<persName>Anfuso, Filippo</persName>
+						<note><p>01.01.1901 - 13.12.1963.</p>Filippo Anfuso was an Italian writer, diplomat and Fascist politician</note>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Filippo_Anfuso"/>
+						</linkGrp>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Foreign ministry of Italy</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-006563"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1942-05-08">8.5.1942</date>
+				<placeName ref="www.geonames.org/3054643/budapest.html">Budapest</placeName>
+				<persName ref="#ehri_dr_anfuso_filippo">Anfuso, Filippo</persName>
+				<idno>EHRI-DR-19420508-IT</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<!--<p>EHRI-DR-19420508-IT_EN</p>
+      <p>Report of the envoy in Budapest, <persName ref="#ehri_dr_anfuso_filippo">Filippo
+          Anfuso</persName>, for the Italian Foreign Minister <persName
+          ref="https://portal.ehri-project.eu/authorities/ehri_pers-000082">Ciano</persName> of
+          <date when="1942-05-08">8 May 1942</date>.</p>-->
+			<pb n="1" facs="EHRI-DR-19420508-IT_01.jpg"/>
+			<p>To His Excellency</p>
+			<p>Count Galeazzo <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000082">Ciano di Cortellazzo</persName></p>
+			<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-006563">Minister of Foreign Affairs</orgName>, <placeName
+					ref="http://www.geonames.org/3169070/rome.html">Rome</placeName></p>
+			<p><placeName ref="www.geonames.org/3054643/budapest.html">Budapest</placeName>, <date when="1942-05-08">8th May 1942</date>, XX</p>
+			<p>Re: Semitism and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">anti-Semitism</term> in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>.</p>
+			<p>Sir,</p>
+			<p>The program of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Jewish policy</term> outlined by
+				President <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000202">Kállay</persName> in his speeches to the Lower
+				Chamber and to the Party’s National Council (<date when="1942-03-20">20th March</date> and <date when="1942-04-20">20th April</date>
+				last) and the measures that followed represent the start of a new stage in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>’s official <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">anti-Semitism</term>. This R. Legation has repeatedly
+				reported on the various developments and on individual aspects of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish problem</term> in this Country, highlighting
+				along the way the various obstacles that have hindered the implementation of radical <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">measures</term>, the conflicting opinions within the
+				Country, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-731" type="subject">Clergy</term> and Parliament on the
+				issue of <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">anti-Jewish
+					legislation</term>, and on the frequent compromises ensuing from the doubts of a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1072" type="subject">public opinion</term> at times unconvinced that a
+				drastic action is wise. However, the general situation in which the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351"
+					type="subject">Jewish problem</term> now again surfaces on the <placeName ref="http://www.geonames.org/719819/hungary.html"
+					>Hungarian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-947" type="subject">political scene</term> has changed deeply since the
+				day when <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>, linking its destiny to that of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis Powers</term>, necessarily had to do away, even
+				in its interior <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">politics</term>, with many
+				hesitations and many formal shackles. Herein lies precisely the interest that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish problem</term> continues to attract after the
+					<pb n="2" facs="EHRI-DR-19420508-IT_02.jpg"/> emphatic and formally definitive official stance taken by the present <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term>. <q>We will not desist from the
+					struggle – said <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000202">Kállay</persName> – until with a
+					systematic and ever increasing pace we have taken away from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+						type="subject">Jews</term> every sector of national life and we have at last entirely removed them from our Country.</q> In
+				order to appreciate the significance of these words and to understand the complexity of the situation to which they refer it might be
+				worthwhile to briefly reconsider the fundamental aspects of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351"
+					type="subject">Jewish problem</term> in <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>.</p>
+			<p>Among the other misfortunes which befell this Country at the time of the <placeName
+					ref="http://www.geonames.org/298795/republic-of-turkey.html">Turkish</placeName> invasion there was also the influx of many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who found a favourable situation under the
+				Crescent. The expulsion of the <term ref="#ehri_dr_nationalities_turkish" type="subject">Turks</term> caused most of them to leave.
+				Later, the severe decrees of the Habsburgs, particularly <persName ref="#ehri_dr_charles_iii">Charles III</persName> and <persName
+					ref="#ehri_dr_maria_theresa">Maria Theresa</persName>, helped to keep the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> away from <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>. Between <date when="1820">1820</date> and <date when="1830"
+					>1830</date>, however, there began that exodus of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jews</term> from <placeName ref="http://www.geonames.org/562153/galicia.html">Galicia</placeName> to the <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> territory which would continue uninterrupted into our own
+				times, encouraged by the rise of capitalism and by the policies of the liberal <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">governments</term> that enabled the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> to acquire predominance particularly in
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-708" type="subject">culture</term> and in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-816" type="subject">economy</term>. The census of <date when="1930"
+					>1930</date> registered 444,565 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> then
+				present in <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>, to whom one must add 78,190 in Upper
+				Hungary (First <pb n="3" facs="EHRI-DR-19420508-IT_03.jpg"/> Vienna Award), 103,000 in Subcarpathia and 148,288 in <placeName
+					ref="http://www.geonames.org/664661/transilvania.html">Transylvania</placeName> (Second Vienna Award). Today there are approx.
+				800,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> living in <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>, that is about 6.2 % of the <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> population (13,500,000), a percentage that within Europe
+				is exceeded only by <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>, by <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuania</placeName> and perhaps by <placeName
+					ref="http://www.geonames.org/798549/romania.html">Romania</placeName>. In the <placeName
+					ref="http://www.geonames.org/3054643/budapest.html">capital</placeName> only (1,110,000) the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are over 200,000 and have attained
+				preeminent positions in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-891" type="subject">banking</term>, in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-890" type="subject">manufacturing</term>, in commerce, in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-712" type="subject">journalism</term> and in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">arts</term>. Even the Hungarian aristocracy, which
+				together with the great landowning middle classes has for centuries held the leadership of the Country and has controlled it
+				politically, has been unable or unwilling to oppose this invasion and in the end even acquiesced to it through a great many <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriages</term> that proved eminently useful to the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> for strengthening their position in
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-983" type="subject">political life</term>. The numerous
+					Liberal-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1204" type="subject">Masonic</term> associations which
+				emerged in <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> in the second half of the past century and
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1020" type="subject">Democratic Party</term>, which immediately
+				became the only workers’ party with a western-style organization, formed the framework which protected <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> activity and the breeding ground both of
+				the democratic revolution of <date when="1918-10">October 1918</date> and of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1009" type="subject">Communist</term> revolution of <date when="1919-03"
+					>March 1919</date>.</p>
+			<p>Statistics show better than any discourse the extent of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872"
+					type="subject">Jewish</term> invasion into <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName>
+				life. If we limit our analysis to <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>, which sums up
+				the general situation, we will find the following percentages in <date when="1935">1935</date>: bankers 80%; transport 70%;
+				stockbrokers 76%; <pb n="4" facs="EHRI-DR-19420508-IT_04.jpg"/> jewellers 74%; typographers 73%; owners of public establishments 57%;
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">lawyers</term> 52%; <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">doctors</term> 40%; <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-712" type="subject">journalists</term> 35%.</p>
+			<p>In the country, only 10% of the great landowners (over 100 Jugers) are <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, but among the tenants of great properties
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> number 42%. As for the manufacturing
+				sector, the presence of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> is shown by the
+				following numbers: iron and steel 50%, machinery 43%, timber 53%, leather 68%, textiles 66%, clothing 73%, paper 58%, chemistry 54%,
+				etc.</p>
+			<p>After the fall of the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000570">Bethlen</persName> Cabinet (<date
+					when="1932">1932</date>), whose policy had greatly facilitated <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jewish</term> intrusiveness, the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001073"
+					>Gömbös</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> marked the beginning of a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-212" type="subject">resistance</term> movement, solicited and demanded by
+				the emergent far right organizations that were increasingly exerting their influence on the <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000555">Daranyi</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000191">Imredi </persName> etc. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">governments</term> that came later. The first <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Jewish law</term> dates from <date when="1938-04"
+					>April 1938</date>. The text avoided the word “<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term>” and granted such ample <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject"
+					>discrimination</term> as to leave almost unaltered the average presence of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in the different sectors of <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> life. The pressure exerted by the rightist <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-958" type="subject">parties</term> and the repercussions from the
+				international situation prompted the second <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">Jewish
+					law</term> in <date when="1938-12">December 1938</date>, whose fundamental principles are derived from the <placeName
+					ref="http://www.geonames.org/3175395/italian-republic.html">Italian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Jewish law</term> of <date when="1938-11-10"
+					>10th November 1939</date> [sic!, actually 1938] and which, in determining the definition of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term> according to fundamentally racial criteria,
+				contains – numerous exceptions notwithstanding – severe measures. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">law</term>
+				<pb n="5" facs="EHRI-DR-19420508-IT_05.jpg"/> reduces voting rights to a minimum, excludes <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> from the Lower Chamber; limits the
+				presence of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in secondary schools, in
+				universities and in professional associations to 6%, excludes <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+					type="subject">Jews</term> from the editorship of dailies and periodicals, from the directorship of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-695" type="subject">theatres</term> and cinemas, etc. A later <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">law</term> of <date when="1941-10">October 1941</date>
+				forbade <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriage</term> between <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> and non-Jews and punished severely any
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-838" type="subject">sexual intercourse</term> between Jewish men and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> “honest women”. Lastly, after
+				further measures concerning implementation procedures, the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000202"
+					>Kállay</persName> Government, which came to power in <date when="1942-03">March 1942</date>, has decreed the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">confiscation</term> of all Jewish landed and wooded
+				property (this R. Legation’s report no. 742/374 of 20th March last ) and the definitive exclusion of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> from the exploitation of national soil.
+				The latest decree of considerable importance is the one approved by the Chamber on <date when="1942-05-01">1st May</date>, which rules
+				that as from that date the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> persuasion
+				ceases to be officially acknowledged by the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian
+				state</placeName>.</p>
+			<p>Some facts emerge from what has been said here that place the <placeName ref="http://www.geonames.org/719819/hungary.html"
+					>Hungarian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish problem</term> in its true perspective.</p>
+			<p>First of all, the main factor that encouraged the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jewish</term> invasion in <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> and is still far from
+				having vanished needs to be pointed out. I mean the absence, in the social structure of this Country, of an urban middle class that
+				might carry out the functions and the tasks that have been taken over by the <pb n="6" facs="EHRI-DR-19420508-IT_06.jpg"/>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>. This explains why it is fairly easy to
+				implement the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Jewish law</term> in the
+				countryside, where the aristocracy and the landed middle classes are still active and significant forces, whereas it remains difficult
+				to do the same in the towns and particularly in <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>,
+				where the immediate removal, supposing it were possible to carry it out, of all <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> holding managing posts in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">industry</term>, commerce and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">banks</term> would cause a crisis that would overwhelm
+				the Hungarian economy. Only by gradually and simultaneously inserting <placeName ref="http://www.geonames.org/719819/hungary.html"
+					>Hungarian</placeName> elements that are capable of <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-674" type="subject">occupying</term> the posts at present
+				held by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> will <placeName
+					ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> be able to face the actual expulsions of the latter from the
+				most vital hubs of its economic structure. This necessity highlights another delicate aspect of the problem. As long as it is not able
+				to replace them, <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> cannot do without the, albeit
+				limited, cooperation of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, yet at the
+				same time cannot be in doubt as to the state of mind of this by no means insignificant part of its population and as to the influence
+				it has on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1072" type="subject">public opinion</term>. This is why, since
+				an immediate and complete solution of the problem looks impossible, the Hungarian Government intends to continue to keep the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish question</term> alive and open; its final
+				conclusion, as President <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000202">Kalláy</persName> said in his
+				latest speech, will be removal outside of <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> of all the
+				800,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> living in the Country.</p>
+			<p>As I already said, the numerous <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">mixed
+					marriages</term> entered into by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>
+				served them well in strengthening their position in <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>.
+				Moreover, <pb n="7" facs="EHRI-DR-19420508-IT_07.jpg"/> it cannot be ignored that in joining their power to that of many aristocratic
+				and middle class families, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> of
+					<placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> have created a network of shared interests and of
+				solidarity with the very social classes that ought to fight them. And they have contributed not a little to the spreading of the
+				liberal ideology, which in this Country is perhaps more enduring than in others.</p>
+			<p>The solution of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish problem</term> therefore
+				poses for <placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> a distressful and difficult problem as it
+				closely concerns its social structure and its economic organization, and this, moreover, at a time when the Country needs all its
+				energies to face its new and important tasks. This explains the hesitancy apparent in the past in the Government’s <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-Jewish action</term> and a certain scepticism
+				displayed even today by many towards the effectiveness and even towards the sincerity of the Government’s <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">anti-Jewish policies</term>, But the Government’s will
+				to advance on the road it has in part already covered does not appear in doubt and it may not be unnecessary to point out that
+				considerations and influences of an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1021" type="subject">international
+					nature</term> are not without bearing on this will.</p>
+			<p>Please accept, Sir, the expression of my profound respect.</p>
+			<p><persName ref="#ehri_dr_filippo_anfuso">Anfuso</persName></p>
+		</body>
+	</text>
+</TEI>

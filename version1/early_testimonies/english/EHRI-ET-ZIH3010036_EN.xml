@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-ZIH3010036_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Maks Rössler, in the camps in Rozwadów and Stalowa Wola</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michał Czajka</persName>
+				</author>
+				<author>
+					<persName>Marta Wojas</persName>
+				</author>
+				<author>
+					<persName>Dagmara Chełstowska</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</repository>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll.
+							301)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>JHI, 301, Relacja Maksa Rösslera (301/36) <textLang mainLang="yi">Original in Yiddish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Wieliczka</placeName>
+						<location>
+							<geo>49.98738 20.06473</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/755889/wieliczka.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Wieliczka"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rozwadów concentration camp</placeName>
+						<location>
+							<geo>50.600681 22.042629</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1850"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Stalowa Wola concentration camp</placeName>
+						<location>
+							<geo>50.578 22.0444</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1878"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Krakow</placeName>
+						<location>
+							<geo>50.06143 19.93658</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3094802/krakow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Krak%C3%B3w"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lublin</placeName>
+						<location>
+							<geo>51.25 22.56667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/765876/lublin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lublin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gdów</placeName>
+						<location>
+							<geo>49.90818 20.19879</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/772270/gdow.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Gd%C3%B3w"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Niepołomice</placeName>
+						<location>
+							<geo>50.04066 20.22257</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/763903/niepolomice.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Niepo%C5%82omice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Belzec extermination camp</placeName>
+						<location>
+							<geo>50.371667 23.4575</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-41"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Sieniawa</placeName>
+						<location>
+							<geo>50.1779 22.60954</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/759301/sieniawa.html"/>
+							<link type="desc" target="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BD%D1%8F%D0%B2%D0%B0"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wolbrom</placeName>
+						<location>
+							<geo>50.37957 19.75831</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3081495/wolbrom.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Wolbrom"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Plaszow concentration camp</placeName>
+						<location>
+							<geo>50.0327 19.9618</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-555"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Leningrad</placeName>
+						<location>
+							<geo>59.93863 30.31413</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/498817/saint-petersburg.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Saint_Petersburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Przemysl concentration camp</placeName>
+						<location>
+							<geo>49.783333 22.783333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1829"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Reichshof concentration camp</placeName>
+						<location>
+							<geo>50.05 22</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-1841"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Ghetto liquidation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-551"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Evacuation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-623"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Selection</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-411"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_poles"><name>Poles (ascribed nationality)</name></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-746"/>
+						</linkGrp></item>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Judenrein</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-626"/>
+						</linkGrp><note><p>"Free of Jews" (a Nazi term).</p></note></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Crematoria</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-501"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_germans"><name>Germans (ascribed nationality)</name></item>
+					<item xml:id="ehri_et_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item><name>Camp and ghetto personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-477"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Male overseers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1438"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Workshops</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-549"/>
+						</linkGrp><note><p>Workshops in Ghettos</p></note></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Military</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1076"/>
+						</linkGrp></item>
+					<item><name>Live burials</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-563"/>
+						</linkGrp></item>
+					<item><name>Victims</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-132"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_russians"><name>Russians (ascribed nationality)</name></item>
+					<item><name>Judenrat</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-579"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+					<item><name>Prayers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-737"/>
+						</linkGrp></item>
+					<item><name>Sabotage</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-253"/>
+						</linkGrp></item>
+					<item><name>Gas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-534"/>
+						</linkGrp></item>
+					<item><name>Corpses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-515"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Communism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1009"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_soviets"><name>Soviets (ascribed nationality)</name></item>
+					<item><name>Denunciations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-200"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_resler_maks">
+						<persName>Resler, Maks</persName>
+						<note><p>Author of eye-witness account.</p></note>
+					</person>
+					<person>
+						<persName>Schwammberger, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000364"/>
+						</linkGrp>
+						<note><p>14/02/1912.</p><p>Commander of Ghettos in Przemyśl.</p></note>
+					</person>
+					<person xml:id="ehri_et_buschdock">
+						<persName>Buschdock (SS)</persName>
+						<note><p>Deputy of the camp commander in Rozwadów.</p></note>
+					</person>
+					<person xml:id="ehri_et_libeskin">
+						<persName>Libeskin (from Krakow)</persName>
+						<note><p>Commander of the Jewish order service in Rozwadów camp.</p></note>
+					</person>
+					<person xml:id="ehri_et_frenkel">
+						<persName>Frenkel (rabbi)</persName>
+						<note><p>Shot in Rozwadów camp.</p></note>
+					</person>
+					<person xml:id="ehri_et_nowak">
+						<persName>Nowak</persName>
+						<note><p>Most probably a Gestapo or SS member, active in Rozwadów camp.</p></note>
+					</person>
+					<person xml:id="ehri_et_fischer_sw">
+						<persName>Fischer</persName>
+						<note><p>Commander of the Polish Baudienst in Stalowa Wola camp.</p></note>
+					</person>
+					<person xml:id="ehri_et_scholtze">
+						<persName>Scholtze (SS)</persName>
+						<note><p>Director of the factory in Stalowa Wola.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org xml:id="ehri_et_reichswerke_herrmann_göring">
+						<orgName>Reichswerke Herrmann Göring</orgName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Reichswerke_Hermann_G%C3%B6ring"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Sicherheitsdienst</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-356"/>
+						</linkGrp>
+						<note><p>Founded in 1931.</p><p>The Sicherheitsdienst, an intelligence and surveillance organization, was established in 1931
+								under Reinhard Heydrich. Among its major tasks were monitoring real or imagined enemies of national socialism and
+								reporting on the state of opinion among the German public. As chief of the Sicherheitsdienst as well as of the
+								Sicherheitspolizei, Reinhard Heydrich merged the two organizations, establishing the Reichssicherheitshauptamt in
+								September 1939.</p></note>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945">1945</date>, <placeName ref="http://www.geonames.org/755889/wieliczka.html">Wieliczka</placeName>, <placeName
+					type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-1850">Rozwadów</placeName>, <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1878">Stalowa Wola</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-551">ghetto liquidation</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518">deportation</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508">labour camps</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">forced labour</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">escape</term>
+				<idno>EHRI-ET-ZIH3010036</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Maks Rössler, who describes the liquidation of the Wieliczka Ghetto, the mass execution of Jews near Niepołomice, and
+					the living conditions and forced labor in the concentration camps in Rozwadów and Stalowa Wola.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="EHRI-ET-ZIH3010036_01.jpg"/></p>
+			<p><persName ref="#ehri_et_resler_maks">Resler Maks</persName> from <placeName ref="http://www.geonames.org/3094802/krakow.html"
+					>Krakow</placeName> tells <note place="bottom">Translator’s note: this testimony is very often not typed in full sentences and is
+					punctuated rather erratically. I sometimes inserted words in square brackets in the translation for clarity’s sake. On a few
+					occasions, there are unfinished sentences as well. They are marked with “[…]” both in the Yiddish transcription and the English
+					translation.</note>:</p>
+			<p>30 years old, now [lives in] <placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName>, <placeName
+					ref="http://www.geonames.org/765876/lublin.html">Zielona street 5</placeName>, apartment 3.</p>
+			<p>In <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1850" type="camp">Rozwadów</placeName> and in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1878" type="camp">Stalowa Wola</placeName></p>
+			<p>On the <date when="1942-08-27">27th of August 1942</date>, expulsion from <placeName
+					ref="http://www.geonames.org/755889/wieliczka.html">Wieliczka</placeName>. Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuees</term> from <placeName
+					ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName> taken. [They] had lived [there since] the autumn of <date
+					when="1940">1940</date>, they were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject"
+					>expulsed</term> from <placeName ref="http://www.geonames.org/755889/wieliczka.html">Wieliczka</placeName> with the local
+				inhabitants [and those from] <placeName ref="http://www.geonames.org/772270/gdow.html">Gdów</placeName>, <placeName
+					ref="http://www.geonames.org/763903/niepolomice.html">Niepołomice</placeName> and the surrounding area. All the Jews there
+				(11 000) had to assemble in a square, around 2000 that were old and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">sick</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">sorted
+					out</term>, put into trucks with the help of the <term ref="#ehri_et_nationalities_poles">Polish</term> junacy (Baudienst),
+				brought into <placeName ref="http://www.geonames.org/763903/niepolomice.html">Niepolomsker</placeName> forest, where [they were]
+				immediately <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term>.</p>
+			<p>600 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> in the square were chosen to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> for 4 days, to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">bury</term> the 2000 Jews. Hidden in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettos</term>, bunkers, dugouts under the earth and
+				under buildings, those who did not believe that the town would become <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-626" type="subject">judenrein</term>, and the rest young <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, around 8500, were brought to
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-41" type="camp">Belzec</placeName> to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">crematorium</term>.</p>
+			<p>One the <date when="1942-09-01">1st of September 1942</date>, we came to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1850" type="camp">Rozwadów</placeName>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS Scharführer (caporal)</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName> [was] the commander of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>. His deputy was the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Unterscharführer</term>
+				<persName ref="#ehri_et_buschdock">Buschdock</persName>. They also had a <term ref="#ehri_et_nationalities_germans">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmmann</term> for help and 30 <term
+					ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477"
+					type="subject">guards</term>.</p>
+			<p>There were more than 80 Jews from <placeName ref="http://www.geonames.org/759301/sieniawa.html">Sieniawa</placeName>, chosen from
+				[...]. After 2 weeks, 400 more Jews from <placeName ref="http://www.geonames.org/3081495/wolbrom.html">Wolbrom</placeName> came, they
+				had to do the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">heavy work</term> in the steel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>
+				<orgName ref="#ehri_et_reichswerke_herrmann_göring">Hermann Göring Werke Braunschweig</orgName> located in the town of <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1878" type="camp">Stalowa Wola</placeName>. Those workers <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in the foundry, produced steel for
+				ammunitions and from it right there made gun barrels and parts of cannons, armoured plates and other products.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> [was] very hard. The Jews who were
+				too weak for it and would hurt themselves <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>working</term> were cruelly beaten by the <term ref="#ehri_et_nationalities_germans">German</term></p>
+			<p><pb n="2" facs="EHRI-ET-ZIH3010036_02.jpg"/></p>
+			<p>and the <term ref="#ehri_et_nationalities_poles">Polish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">overseers</term>.</p>
+			<p>Everyone who would fall <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term>, even with the
+				slightest ailment, was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> immediately. It
+				was the supposed official reason.</p>
+			<p>Apart from this, Jews would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">die</term> from the
+				frequent hits and beatings, every day about 15-20 people were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">shot</term>.</p>
+			<p>[We had to] to get up at 4 AM. At 4.30 [we] stood for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487"
+					type="subject">roll call</term>. Sometimes [we] had to come only in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shirts</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">trousers</term>, [we] were not allowed to put any more
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> on. During the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll call</term>, [we] were appointed to different
+				tasks. Steel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, construction division,
+				metal rolling <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-549" type="subject">workshop</term>, Kaliber-Walzwerk,
+				repair <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-549" type="subject">workshop</term>, transport division,
+				mechanical <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-549" type="subject">workshop</term>, garage and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>’s kitchen.</p>
+			<p>They would start to count us, standing in rows of five. During the counting, some of the <term ref="#ehri_et_nationalities_ukrainians"
+					>Ukrainian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guards</term> would take away the Jew’s <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term>, empty their pockets, take whatever they
+				could find and administer beatings. They especially enjoyed themselves while beating.</p>
+			<p>On arriving on the first day, [we] had to give away everything we had on us, under the threat of a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> penalty. 2 000 000 zloty were taken from
+				us. A few days before the journey, the expulsion from <placeName ref="http://www.geonames.org/755889/wieliczka.html"
+					>Wieliczka</placeName>, the Land-Kommissar of <placeName ref="http://www.geonames.org/755889/wieliczka.html">Wieliczka</placeName>
+				took a contribution of one million złoty. <placeName ref="http://www.geonames.org/772270/gdow.html">Gdów</placeName> gave 50 thousand
+				złoty.</p>
+			<p>In the square of <placeName ref="http://www.geonames.org/755889/wieliczka.html">Wieliczka</placeName>, [we] had to stand in groups of a
+				hundred people, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. [We] stood for half an hour under the
+				burning sun and then [we] were told to sit on the ground. [We were] guarded by a company of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, a company of <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-356">SD</orgName>, <term ref="#ehri_et_nationalities_poles">Polish</term>
+				navy-blue <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term> and <term
+					ref="#ehri_et_nationalities_germans">German</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">military</term>.</p>
+			<p>After separating 600 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, 300 more were chosen
+				to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-555" type="camp">Płaszów</placeName> -<placeName
+					ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName> cable <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>.</p>
+			<p>Then the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were driven, murderously beaten and
+				driven into railway carriages, in the direction of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-41" type="camp"
+					>Belzec</placeName>. The sight [was] a horrible one. Wails, crying and</p>
+			<p><pb n="3" facs="EHRI-ET-ZIH3010036_03.jpg"/></p>
+			<p>shouting of around 600 people was so frightful, that it was heard from a distance of a few kilometers. The backpacks […] When everyone
+				was already standing, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmmann</term> took out
+				his revolver and started to shoot at the crowd – supposedly at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">sick</term> – but in reality [he] <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>shot</term> more healthy than <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. The wounded ones were wrangling on the
+				ground in pain and agony – the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmmann</term>
+				stood and looked at them with a sarcastic and sadistic joy and had pleasure. Most of [people] asked him to be <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> on the spot, in order to avoid so much
+				awful pain.</p>
+			<p>[He] noticed that I looked very frightened, [so he] ordered me to occupy myself with carrying away the wounded. Blood was dripping from
+				their faces, [so he] ordered me to cover the blood streams with sand.</p>
+			<p>They were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">buried alive</term>. The ground was rising
+				from the people <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">buried alive</term>. Often [there
+				was] an upper layer of blood that had seeped through from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746"
+					type="subject">buried</term> ones.</p>
+			<p>Apart from the hard <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labour</term>, we prayed every
+				morning we would be brought to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in order
+				not to see the sad scenes. [When we would] go out through the gate, the commander of the Jewish order service, Dr <persName
+					ref="#ehri_et_libeskin">Libeskin</persName> from <placeName ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName>,
+				would stand and count [us] and wished us in Polish: <q>Wracajcie, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+						type="subject">chłopcy</term></q>. He would not go to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">work</term>.</p>
+			<p>On the way to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, [we] were beaten, pushed,
+				shoved, told to run, shot at etc. If someone fell or became a little tired – he was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> immediately. There were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term> every day.</p>
+			<p>When [we] came to the place of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, [were
+				were] counted again. Because the <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> [were] poor mathematicians, the
+				numbers never matched for them. Sometimes too few, sometimes too many. The counting would take hours. During it [they] beat us
+				savagely. There was a <term ref="#ehri_et_nationalities_poles">Polish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">overseer</term> at work, registered as a
+				Volksdeutsch, he took revenge on us, cursed us, hit, swore,</p>
+			<p><pb n="4" facs="EHRI-ET-ZIH3010036_04.jpg"/></p>
+			<p>robbed us of our belongings etc. He would force the Jews, for example, to push a railway car of 30 tons. <q>Żydzie, what are these
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term> good for you, you will be <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> in any case!!!</q></p>
+			<p>We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> at least 10-12 hours. Together with
+				the counting and the walking to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> and back
+				for 8 kilometers, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">working</term> day was about 18
+				hours long.</p>
+			<p>12 o’clock was the so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">lunch</term> hour. We,
+					<q>the Jewish pigs</q>, were brought some water with a few pieces of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> that we had to drink standing.</p>
+			<p>[We would] often run to the free <term ref="#ehri_et_nationalities_poles">Polish</term> workers in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, who received good <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> and lived as free people in relatively
+				good <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term>, and asked them for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food scraps</term> that they did not want or could not
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term>, for example, stale pieces of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> etc. But the <term
+					ref="#ehri_et_nationalities_poles">Poles</term> would rather throw it to the rubbish and did not want to give it to the poor Jews.
+				The cooks did the same with the leftovers and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food
+					scraped</term> from the cauldrons.</p>
+			<p>As we were returning from the bath in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1850" type="camp"
+					>Rozwadów</placeName>, the Hauptmann told to one of us: <q>Oh, dreckige Jude, you still have shitty eyes</q>, and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> him in the middle of the street. Once when
+				we were being marched to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, [they] had an
+				idea that we should not run, but go slowly, and [they] told us to sing. Nobody sang. [They] started to beat us and shoot at us.
+				Finally, we started to sing. What a pity that singing was! More like wailing than singing. <term ref="#ehri_et_nationalities_poles"
+					>Polish</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> that were passing by shouted:
+					<q>Zobaczcie jak dobrze się powodzi tym Żydkom – s[kurwy]syny</q>.</p>
+			<p>The <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> spoke <term ref="#ehri_et_nationalities_russians">Russian</term> as
+				a provocation, told that they were from <placeName ref="http://www.geonames.org/498817/saint-petersburg.html">Leningrad</placeName>
+				etc.</p>
+			<p>[They] started to allow us to go to the toilet during the night. Because of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">cold</term> we had to go twenty times a night. But no
+				one came back. They were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> going there or
+				coming back.</p>
+			<p><pb n="5" facs="EHRI-ET-ZIH3010036_05.jpg"/></p>
+			<p><q>The Jews are Scheisse to me, I get a thousand Jews for six groszy!</q> (He wrote a postcard that cost 6 groszy to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Judenrat</term> and received a thousand Jews.) That’s
+				how <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName> boasted loudly.</p>
+			<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName> personally <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabbi</term>
+				<persName ref="#ehri_et_frenkel">Frenkel</persName>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735"
+					type="subject">rabbi</term> of <placeName ref="http://www.geonames.org/755889/wieliczka.html">Wieliczka</placeName>, on Yom
+				Kippur, at the time of the closing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">prayer</term>, in
+					<date when="1942">1942</date>. Before <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>shooting</term> [him], <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName> held
+				the following speech to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabbi</term>
+				<persName ref="#ehri_et_frenkel">Frenkel</persName>: <q>Herr <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735"
+						type="subject">Oberrabiner</term>! I decided to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+						type="subject">shoot</term> you for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-253" type="subject"
+						>sabotage</term>!</q> The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-253" type="subject">sabotage</term>
+				was the fact that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabbi</term>
+				<persName ref="#ehri_et_frenkel">Frenkel</persName> had had to empty a cart of coals on Yom Kippur. Because he did it using his hands,
+					<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName> used it as a pretext to
+				accuse him of <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-253" type="subject">sabotage</term></q>. When he was
+				coming back from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, after having fasted,
+				done <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">heavy work</term>, suffered beating etc. the
+				whole day, <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> him in public. But a pit for him had
+				already been dug and waiting for the whole day. It means that <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000364">Schwammberger</persName> had been preparing for the joyous
+					<q>spectacle</q>: on Yom Kippur and a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject"
+					>rabbi</term>!</p>
+			<p>The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> agent <persName ref="#ehri_et_nowak"
+					>Nowak</persName> boasted in front of us: <q>I have already dealt with 1893 Jews and <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> them as dogs!</q></p>
+			<p>An elderly Jew reported: <q>I have a swollen foot. It hurts!</q></p>
+			<p><q>Oh, you poor one, your foot hurts? Zeig mal!</q> The Jew showed it slowly. And the Nazi slowly stepped on the ailing foot and
+				crushed it so long that the Jew almost lost consciousness – and then he <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> him.</p>
+			<p>In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1878" type="camp">Stalowa Wola</placeName> (after <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1850" type="camp">Rozwadów</placeName>) in the territory where we <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> every inch of the ground was a tomb.
+				Before the coming of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Red Army</orgName>, the <term
+					ref="#ehri_et_nationalities_germans">Germans</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term> all the <term
+					ref="#ehri_et_nationalities_poles">Poles</term> from the neighbourhood, so that they could not tell what happened there. The
+				territory was covered with tents, [they] walked around with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-534"
+					type="subject">gas</term> masks, looked for money and things on the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">bodies</term> of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">buried</term> Jews and then poured liquid in the
+				territory to burn the traces of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">cadavers</term>.</p>
+			<p><pb n="6" facs="EHRI-ET-ZIH3010036_06.jpg"/></p>
+			<p>Although the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">lunch</term> did not last longer than 10
+				minutes, it meant that it was taking <q>too long</q>, and [we] got beaten for that again.</p>
+			<p>Going back, [we] were counted again. The counting would go until late at night because the numbers would never match; [we were] beaten
+				again because of it. Everyone was searched if we hadn’t taken something with us. At <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, [we] would <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term> uncooked <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potatoes</term>. We would get bloody <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">twisted bowels</term> etc. [We were] not even allowed
+				to go to the toilet. [When] someone would get <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+					>sick</term>, [he] was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term>. [We would]
+				go back in groups of five. [They] warned [us] that if someone would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204"
+					type="subject">escape</term>, all [the others would] be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">shot</term>. Because of that, friendly groups of five have formed.</p>
+			<p>Coming back to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>, [we] had to march in
+				in a hard-beating <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">military</term> parade tempo.</p>
+			<p>In the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>, [they] would start to count again
+				for hours. [We] all were tired, exhausted, wet, …, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject"
+					>hungry</term>, beaten, sleepy. [Then] again in lines for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">supper</term>, water with dirty polluted <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">cabbage leaves</term>, that were given to eat to the <q>Jewish pigs</q>. One and a half hour in the line, getting
+				beaten, pushed again and people would collapse all the time, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132"
+					type="subject">victims</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>supper</term> queues.</p>
+			<p>Finally, at 11 PM [we] would lie down on hard, dirty, humid, rotten boards.</p>
+			<p>We went to a bath there one and only time. What a bath, we were awfully afraid, because there were deaths there. Coming back to the
+				beds, we saw that all our belongings that [we had] left were stolen, taken away.</p>
+			<p>During the night, [we] could not sleep because of the moans and cries of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>. <q>Jews, help!</q>, they shouted. Rascals
+				wound count the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> and shout: <q>They (the
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>) should be <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term>! We [all] will be <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> tomorrow, so what’s the difference, a
+					day earlier or a day later!</q></p>
+			<p>[They] would stand outside and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shoot</term> people.
+				Sometimes during the sleep,</p>
+			<p><pb n="7" facs="EHRI-ET-ZIH3010036_07.jpg"/></p>
+			<p>the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> would enter the barracks and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shoot</term> at anyone that happened to be in
+				sight.</p>
+			<p>[We] suffered thus until the <date when="1942-11-15">15th of November 1942</date>. On that day, 250 from the remaining 600 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selected</term> and sent away to the steel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1878" type="camp">Stalowa Wola</placeName>. A few days later we were
+				driven back with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guards</term> to <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1850" type="camp">Rozwadów</placeName> to dig a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">grave</term> for all the remaining Jews. About 30
+				persons managed to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> [were] so bad, that soon 60 [of us]
+				were unable to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. All the time in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> condition. 90 persons from <placeName
+					ref="http://www.geonames.org/761168/przemysl.html">Przemyśl</placeName> were brought in, all professional metalworkers. They all
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in a canon <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>. Already on the first day, a few were
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> because of <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-1009" type="subject">communism</term></q> and <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">illness</term></q>.</p>
+			<p>In <date when="1943-03">March</date>, 56 from the 60 were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					type="subject">shot</term>. Although more than 30 from the 60 had already <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">died</term> themselves, <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> took accidental healthy ones and rounded the number
+				to 60 with them. (60 means 60!)</p>
+			<p>The commander of the <term ref="#ehri_et_nationalities_poles">Polish</term> Baudienst, <persName ref="#ehri_et_fischer_sw"
+					>Fischer</persName>, made his debut in this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject"
+					>round-up</term> (free workers, <term ref="#ehri_et_nationalities_poles">Polish</term> junacy, [they] lived near the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, would often go away for vacations
+				etc.). From then on, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> would often
+				take even 24 hours.</p>
+			<p>[He would] command: <q>Sondereinsatz</q> (a special, extraordinary task). Many Jews lost their lives during the Sondereinsätze. Not one
+				begged: <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Shoot</term> me! I don’t have any
+					strength to the Sondereinsatz anymore! This week, [we] did this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+						type="subject">work</term> four times already.</q> It means, [we <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term>] for 24 hours without a pause, normally
+				12-18 hours. That means, [we] <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> for 36
+				and for 48 hours without sleeping and without <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>eating</term>. During the <q>rest</q> time, [we] cleaned toilets, carried water, chopped wood, cleaned floors, dug graved – and
+				doing it [we had] to hurry like mad, took blows, were shot at, and we would collapse while <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">working</term>.</p>
+			<p><pb n="8" facs="EHRI-ET-ZIH3010036_08.jpg"/></p>
+			<p>In <date when="1943-11">November 1943</date>, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-356">SD</orgName> in
+				green uniforms came. Their arrival meant the liquidation of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496"
+					type="subject">camp</term>. It was their <q>mission</q>. They travelled from <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> and <q>liquidated</q> them. Liquidation
+				meant: <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Shoot</term> out the Jews!</q>. The
+				director of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>
+				<persName ref="#ehri_et_scholtze">Scholtze</persName>, a major in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+					type="subject">SS</term> (but he) opposed them with the argument that the Jews are needed in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> (thanks to him, many Jews were saved
+				from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>). Jews are qualified <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workers</term> and without them the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> would be forced to close. 270 Jewish
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workers</term> from more than 8 thousand <term
+					ref="#ehri_et_nationalities_poles">Polish</term> ones! An intervention was made in <placeName
+					ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName>, and after two weeks they [the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-356">SD</orgName>] left to <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1841" type="camp">Rzeszów</placeName>. On a tour. In <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1841" type="camp">Rzeszów</placeName> and in <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1829" type="camp">Przemyśl</placeName> they <q>liquidated</q> the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettos</term>, leaving the <q>Ausräumung-Kolonnen</q>
+				(to sort, pack and send to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germany</term> the
+				Jewish possessions). Such columns comprised around 300 persons. When the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">job</term> was done, around 50 would still remain, and
+				they would also be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> in the end.</p>
+			<p>On the contrary, the rest of the <q>Ausräumung-Kolonnen</q> from <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1841" type="camp">Rzeszów</placeName> and <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-1829" type="camp">Przemyśl</placeName> had luck, they were left alive and
+				brought to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1878" type="camp">Stalowa Wola</placeName> to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, because the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> needed <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workforce</term> and since a year had been
+				continuously demanding some Jews for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+				>work</term>.</p>
+			<p>In <date when="1944">1944</date>, the <term ref="#ehri_et_nationalities_soviets">Soviets</term> bombed the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factories</term>. A bomb hit the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killed</term> 3 Jews and 3 <term
+					ref="#ehri_et_nationalities_poles">Poles</term>. Our joy [was] great, [we] meant as the <term ref="#ehri_et_nationalities_soviets"
+					>Soviets</term> were coming very soon and that we would be saved.</p>
+			<p>Because some of the bombs hadn’t exploded, Jews were sent to dig out the bombs and detonate them. <term
+					ref="#ehri_et_nationalities_germans">German</term> officers gave the Jews precise instructions how to deal with the bombs and
+				themselves went away to observe [from a distance] if the Jews were following the instructions to the letter.</p>
+			<p>For two years, we had been planning an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>
+				all the time, we only waited for the approach of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Red
+					Army</orgName>.</p>
+			<p><pb n="9" facs="EHRI-ET-ZIH3010036_09.jpg"/></p>
+			<p>One time at night the commander posted about 30 Jews from <q>his</q> people along the fence, in order to prevent <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escapes</term>. Nobody knew what happened. Suddenly a
+				commotion at night: these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guards</term> had dug a
+				tunnel under the fence, even under the electric wires, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204"
+					type="subject">escaped</term>. Because some <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> also stood <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guard</term>, the Jews organized everything so that
+				the <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> stood <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guard</term> all together somewhere else and the
+				Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guard</term> all together [elsewhere] and
+				that’s how they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term>.</p>
+			<p>Hearing the story, no one knew what had happened. The <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term> did not know how
+				[the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> happened], but we knew how – [I]
+				went out in the darkness with a few more Jews and we tried to look for the tunnel. We found [it]. [We], a few <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, pushed ourselves through and ran in the
+				darkness. The Jewish commander wanted to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject"
+					>denounce</term> me. I tried to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">strangle</term>
+				him, threw him to the ground and ran away. Hearing his shouts, the <term ref="#ehri_et_nationalities_ukrainians">Ukrainians</term>
+				started to shoot, soon the whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guard</term> unit
+				of 80 Nazis arrived. Because of the shooting, I could not get out of the territory of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, which was fenced with barbed wires.
+				The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> was in the middle of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> territory.</p>
+			<p>The Nazi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guards</term> that had arrived running,
+				surrounded me and two others and shouted: <q>Hands up!</q> Seeing that I was in a trap, I ran to a pile of old metal and hid myself.
+				The Nazi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">guards</term> hadn’t understood what was
+				happening yet. [They] thought that it was a landing operation. They hadn’t even thought that some Jews had <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term>. Seeing that it was only me who had
+				disappeared, they started to hunt the two others. They actually managed to catch them. I do not know what happened to them. I haven’t
+				seen them since.</p>
+			<p>They spent half a day looking for me in the piles of metal but did not find [me]. One Nazi was searching not far from me, I hit him on
+				the head from behind with a metal rod and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>killed</term> him. The rest looked for him, but could not find [him]. I covered him with pieces of metal. I spent eight days
+				there,</p>
+			<p><pb n="10" facs="EHRI-ET-ZIH3010036_10.jpg"/></p>
+			<p>hidden, without <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, without water, without
+				air. I could not get out of there because the place was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477"
+					type="subject">guarded</term> by <term ref="#ehri_et_nationalities_germans">Germans</term> day and night. I was sure I would never
+				get out of there, I would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">die</term>. Under dim rays
+				of light, I tried to note my feelings and descriptions all the time. Firstly, in order to fight against the boredom, the duration, the
+				nervousness. Secondly, to leave a trace for the future in case someone would find it. (I have the memoirs in my possession.)</p>
+			<p>[There were] tens of thousands of metal pieces there. It seems that the tracker dogs could not find me, it is possible that metal also
+				masks the traces [of smell]. (A body of a car hid me.)</p>
+			<p>I had a knife with me and a metal rod always ready to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject"
+					>kill</term> any Nazi that would try to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject"
+					>arrest</term> me.</p>
+		</body>
+	</text>
+</TEI>

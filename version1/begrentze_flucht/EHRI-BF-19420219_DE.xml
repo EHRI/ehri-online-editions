@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-08T13:51:57+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19420219_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arisierungsakte zu dem über die Donau vertriebenen Aladar Reisner, 1942</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/at-001860">Burgenländisches Landesarchiv (Landeshauptmannschaft
+                            Niederösterreich)</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/at-001860-1000704#desc-deu">Arisierungsakten</collection>
+                        <idno>Sign. 1466</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Burgenländisches Landesarchiv, Arisierungsakten des nördl. Burgenlandes, Sign. 1466. <textLang mainLang="de">Original auf
+                        Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Kittsee</placeName>
+                        <location>
+                            <geo>48.0925 17.06389</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2774348/kittsee.html"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_reisner_aladar">
+                        <persName>Reisner, Aladar</persName>
+                        <note><p>22.04.1903</p>Aladar Reisner, zuständig nach Kittsee, war Gastwirt und Händler. Er gehörte zu jener Gruppe von Juden,
+                            die in der Nacht vom 17. Auf den 18. April 1938 aus Kittsee und der Pama über die Donau vertrieben wurden und mehrere
+                            Monate auf einem französischen Schleppboot ausharren mussten, bevor sie ausreisen durften. Das Gasthaus Aladar Reisners,
+                            Kittsee Nr. 151, wurde nach seiner Vertreibung für die Dienststelle der Gestapo beschlagnahmt.</note>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1942-02-19">19. Februar 1942</date>
+                <placeName>Kittsee</placeName>
+                <orgName>Landeshauptmannschaft Niederösterreich</orgName>
+                <idno>EHRI-BF-19420219</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="Burgenland"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p>Arisierungsakt zu Reisner Aladar, der auf die Donau nach Theben (Devín) getrieben wurde. Bestätigung des Bürgermeisters von Kittsee
+                    über die Eintragung von Aladar Reisner in die Heimatrolle und seinen "Umzug" nach dem "Anschluss".</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="EHRI-BF-19420219_01.jpg"/>
+            <p>Der Bürgermeister <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>.</p>
+            <p>Bestätigung.</p>
+            <p>Ich bestätige, dass der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jude</term>
+                <persName ref="#ehri_bf_reisner_aladar">Reisner Aladar</persName> in <placeName ref="http://www.geonames.org/2774348/kittsee.html"
+                    >Kittsee</placeName> 265 vor dem Umbruch in hiesiger Heimatrolle eingetragen war, und nach dem Umbruch ins Ausland, unbekannt
+                wohin, verzogen ist.</p>
+            <p><placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>, <date when="1942-02-19">19. Feber 1942</date>.</p>
+            <p>Der Bürgermeister</p>
+            <!--<p>[Unterschrift]</p>-->
+        </body>
+    </text>
+</TEI>

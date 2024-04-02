@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DR-19440303-JP_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Consul Yamaguchi on the situation of Jews in Vienna</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">EHRI Edition of Early Holocaust Testimony</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials
+							(JACAR)</repository>
+						<collection>Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue]
+							B04013207600-10500. </collection>
+						<idno>12:2-6.</idno>
+					</msIdentifier>
+				</msDesc>
+				<bibl>Japan Center for Asia Historical Materials (JACAR), Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of
+					Nationalities: The Jewish Issue] B04013207600-10500, 12:2-6. <textLang mainLang="en">Original in Japanese.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-03-03">March 3, 1944</date>
+				<placeName ref="#vienna">Vienna</placeName>
+				<persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName>
+				<idno>EHRI-DR-19440303-JP</idno></creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<p>From: Consul <persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName> (<placeName ref="#vienna">Vienna</placeName>)</p>
+				<p>To: Foreign Minister <persName ref="#ehri_dr_mamoru_shigemitsu">Shigemitsu Mamoru</persName> (<placeName ref="#tokyo"
+						>Tokyo</placeName>)</p>
+				<p>
+					<date when="1944-02-29">Since 29</date>th of last month, the control of <term ref="#t864" type="subject">Jews</term> in <placeName
+						ref="#vienna">Vienna</placeName> has become even harsher. </p>
+				<p> The following is what we learned in extreme confidentiality. Those who <term ref="#t582" type="subject">married Jews</term> are
+					confined to<term ref="#t553" type="subject"> certain houses</term>; Those with <term ref="#t374" type="subject">mixed Jewish
+						blood</term> are not allowed to join the <orgName ref="#g388">Arbeitsfront</orgName> or are <term ref="#t332" type="subject"
+						>expelled</term> from it.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

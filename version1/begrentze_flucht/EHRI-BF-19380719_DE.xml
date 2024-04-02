@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-02-28T11:10:29+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380719_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Protokoll mit Valtr (Walter) Basch über seine Flucht in die ČSR</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+                        <idno>Sign. 225-1186-16, Fol. 160-161</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16, Fol. 160-161. <textLang mainLang="de">Original auf
+                        Deutsch und Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Auspitz (Hustopeče)</placeName>
+                        <location>
+                            <geo>48.94085 16.73762</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3074677/hustopece.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Hustope%C4%8De"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Deutschland</placeName>
+                        <location>
+                            <geo>51.5 10.5</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Deutschland"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Poysdorf</placeName>
+                        <location>
+                            <geo>48.66667 16.63333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2768450/poysdorf.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Poysdorf"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Mistelbach</placeName>
+                        <location>
+                            <geo>48.57 16.57667</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2771557/mistelbach.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Mistelbach_(Nieder%C3%B6sterreich)"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Baden</placeName>
+                        <location>
+                            <geo>48.00543 16.23264</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782067/baden.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Baden_(Nieder%C3%B6sterreich)"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Schönau an der Triesting</placeName>
+                        <location>
+                            <geo>47.93452 16.25376</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2765730/schoenau-an-der-triesting.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Sch%C3%B6nau_an_der_Triesting"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Schrattenberg</placeName>
+                        <location>
+                            <geo>48.72359 16.72201</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2765619/schrattenberg.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Schrattenberg"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Drasenhofen</placeName>
+                        <location>
+                            <geo>48.75 16.65</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2780715/drasenhofen.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Drasenhofen"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Nikolsburg (Mikulov)</placeName>
+                        <location>
+                            <geo>48.80556 16.6378</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3070720/mikulov.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Mikulov"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Dachau</placeName>
+                        <location>
+                            <geo>48.26 11.43402</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/KZ_Dachau"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Sedletz (Sedlec)</placeName>
+                        <location>
+                            <geo>48.77889 16.69389</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3066331/sedlec.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/Sedlec_%28B%C5%99eclav_District%29"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Flüchtling</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+                        </linkGrp></item>
+                    <item><name>Annexion</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1041"/>
+                        </linkGrp></item>
+                    <item><name>Arier / Arierin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+                        </linkGrp></item>
+                    <item><name>Gendarm</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1125"/>
+                        </linkGrp></item>
+                    <item><name>Soldat</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1097"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item><name>Pass</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+                        </linkGrp></item>
+                    <item><name>Konzentrationslager</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+                        </linkGrp></item>
+                    <item><name>Arisierung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-334"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_basch_arnold">
+                        <persName>Basch, Arnold</persName>
+                    </person>
+                    <person xml:id="ehri_bf_basch_hermine">
+                        <persName>Basch, Hermine, geb. Sura</persName>
+                    </person>
+                    <person xml:id="ehri_bf_basch_julius">
+                        <persName>Basch, Julius</persName>
+                    </person>
+                    <person xml:id="ehri_bf_basch_walter">
+                        <persName>Basch, Walter</persName>
+                        <note>
+                            <p><date when="1922-06-13" type="birth">13. 6. 1922</date> Poysdorf - <date when="1942-08-14" type="death">14. 8.
+                                    1942</date> Auschwitz</p>
+                            <p>Am <date when="1942-07-15">15.7.1942</date> von Westerbork nach Auschwitz deportiert, wo er ums Leben kam.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="http://www.dokin.nl/deceased-children/walter-basch-born-13-jun-1922"/>
+                        </linkGrp>
+                    </person>
+                    <person xml:id="ehri_bf_schneider_otto">
+                        <persName>Schneider, Otto</persName>
+                        <note>
+                            <p>Kaufmann in Schönau an der Triesting</p>
+                        </note>
+                    </person>
+                    <person xml:id="ehri_bf_rohrisch_kurt">
+                        <persName>Röhrisch, Kurt</persName>
+                    </person>
+                    <person xml:id="ehri_bf_auer_josef">
+                        <persName>Auer, Josef</persName>
+                    </person>
+                    <person xml:id="ehri_bf_hisberger">
+                        <persName>Hisberger</persName>
+                    </person>
+                    <person xml:id="ehri_bf_moslacher">
+                        <persName>Möslacher</persName>
+                    </person>
+                    <person xml:id="ehri_bf_poles">
+                        <persName>Poles</persName>
+                    </person>
+                    <person xml:id="ehri_bf_schaffer_julius">
+                        <persName>Schaffer, Julius</persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org>
+                        <orgName>Geheime Staatspolizei</orgName>
+                        <note>
+                            <p>1933 - 1945 </p><p>Als hauptverantwortliche Behörde für die Bekämpfung innerer „Staatsfeinde“ war die Gestapo
+                                wichtigstes Überwachungs- und Terrorinstrument innerhalb Deutschlands und später in den von Deutschland besetzten
+                                Gebieten. Die Gestapo war Teil eines komplexen Apparates aus Staats- und Parteipolizeibehörden.</p>
+                        </note>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+                        </linkGrp>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1938-07-19">19. Juli 1938</date>
+                <placeName>Auspitz (Hustopeče)</placeName>
+                <orgName>Bezirksbehörde Auspitz</orgName>
+                <idno>EHRI-BF-19380719</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="fluchtberichte"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="EHRI-BF-19380719_01.jpg"/>
+            <p rend="right">Abschrift!</p>
+            <p rend="center">Protokoll</p>
+            <p>verfasst am <date when="1938-07-19">19. Juli 1938</date> an der Bezirksbehörde in <placeName
+                    ref="http://www.geonames.org/3074677/hustopece.html">Auspitz</placeName> mit <persName ref="#ehri_bf_basch_walter">Walter
+                    Basch</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtling</term>
+                    aus <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Österreich</placeName> /<placeName
+                    ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschland</placeName>/.</p>
+            <p>Personalien:</p>
+            <p><persName ref="#ehri_bf_basch_walter">Basch Valtr – Walter</persName></p>
+            <p>geboren: <date when="1922-06-13">13.VI.1922</date> in <placeName ref="http://www.geonames.org/2768450/poysdorf.html"
+                    >Poysdorf</placeName>, Bezirk <placeName ref="http://www.geonames.org/2771557/mistelbach.html">Mistelbach</placeName></p>
+            <p>zuständig nach: <placeName ref="http://www.geonames.org/2768450/poysdorf.html">Poysdorf</placeName>,</p>
+            <p>letzter Wohnort: bei der Familie in <placeName ref="http://www.geonames.org/2768450/poysdorf.html">Poysdorf</placeName>, Josefsplatz
+                Nr. 12.</p>
+            <p>Stand: ledig.</p>
+            <p>Beruf: Handlungsgehilfe.</p>
+            <p>rel.: jüdisch.</p>
+            <p>Staatszugeh.: <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">österreichisch</placeName> – <placeName
+                    ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsch</placeName></p>
+            <p>Vater: <persName ref="#ehri_bf_basch_arnold">Arnold Basch</persName>, Kaufmann in <placeName
+                    ref="http://www.geonames.org/2768450/poysdorf.html">Poysdorf</placeName>, Josefsplatz Nr.12, Mutter <persName
+                    ref="#ehri_bf_basch_hermine">Hermine, roz. Sura</persName>.</p>
+            <p>Bildung: Grundschule / 4 Jahre,</p>
+            <p>Hauptschule / 4 Jahre</p>
+            <p>Allgemeine-Kaufmännische Fortbildungsschule/ <placeName ref="http://www.geonames.org/2782067/baden.html">Baden bei Wien</placeName> /2
+                Jahre/.</p>
+            <p>Derzeit lebt er bei seinem Onkel <persName ref="#ehri_bf_basch_julius">Julius Basch</persName> in <placeName
+                    ref="http://www.geonames.org/3074677/hustopece.html">Auspitz</placeName>.</p>
+            <p><persName ref="#ehri_bf_basch_walter">Walter Basch</persName> gibt an:</p>
+            <p>Ich war vor dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1041" type="subject">Anschluss</term> bei <persName
+                    ref="#ehri_bf_schneider_otto">Otto Schneider</persName>, Kaufmann in <placeName
+                    ref="http://www.geonames.org/2765730/schoenau-an-der-triesting.html">Schönau an der Triesting</placeName> in der Lehre. In der
+                Zeit des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1041" type="subject">Anschlusses</term> hatte ich 14 Tage
+                Urlaub. Als ich vom Urlaub zurückkahm, erfuhr ich, dass sich mein Chef erschossen hatte. Ich kehrte zu meinen Eltern zurück und half
+                im Haushalte. Ungefähr 4 Wochen nach dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1041" type="subject"
+                    >Anschluss</term> kamen in das Geschäft meines Vaters zwei <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-334"
+                    >Kommissäre</term> und zwar <persName ref="#ehri_bf_rohrisch_kurt">Kurt Röhrisch</persName>, Gemeindesekretär und <persName
+                    ref="#ehri_bf_auer_josef">Josef Auer</persName>, arbeitsloser Kaufmann, welche als Vermögensverwalter über das Vermögen meines
+                Vaters von der Behörde eingesetzt worden waren. Der Vater muss ihnen für ihre Tätigkeit 23 Reichsmark täglich bezahlen und zwar vom
+                täglichen Erlös. Das Geschäft dürfen keine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject"
+                    >Christen</term> betreten.</p>
+            <pb n="2" facs="EHRI-BF-19380719_02.jpg"/>
+            <p>Ausserdem bekam der Vater von der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> den Auftrag
+                das Geschäft binnen 3 Monaten zu verkaufen. Das Geld von dem Verkauf wird in die Sparkasse gegeben, wovon er einen bestimmten Betrag
+                zum Leben bekommt.</p>
+            <p>Am 12. Juli 1938 kam in das Geschäft meines Vaters der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125"
+                    type="subject">Gendarm</term>
+                <persName ref="#ehri_bf_hisberger">Hisberger</persName> und sagte diesem, dass er mich zu einer Einvernahme brauche. Als ich erfuhr,
+                dass er nach mir fragte, sperrte ich das Haustor auf und fuhr mit dem Rade meiner Schwester nach <placeName
+                    ref="http://www.geonames.org/2765619/schrattenberg.html">Schrattenberg</placeName> an die Grenze. Dort versteckte ich das Rad im
+                Walde, und ging zu Fuss durch den Dauerwald bei <placeName ref="http://www.geonames.org/2765619/schrattenberg.html"
+                    >Schrattenberg</placeName> in der Richtung auf die Grenze zu. Im Walde wurde ich von einem <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">Gendarm</term> und einem Zollbeamten <persName
+                    ref="#ehri_bf_moslacher">Möslacher</persName> angehalten und durchsucht und dann auf das Zollamt in <placeName
+                    ref="http://www.geonames.org/2780715/drasenhofen.html">Drasenhofen</placeName> geführt. Dort wurde ich wieder verhört von dem
+                Sturmführer <persName ref="#ehri_bf_poles">Poles</persName> und durchsucht. Dort musste ich einen Revers unterschreiben. Ich
+                Endesgefertigter verlasse <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen
+                    Boden</placeName> und verpflichte mich <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen
+                    Boden</placeName> nie wieder zu betreten.</p>
+            <p>Vom Zollamt wurde ich um 21.45 Uhr von zwei <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject"
+                    >Soldaten</term> auf einem Feldweg an die <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+                    >deutsche</placeName> Grenze geführt und nur der Weg über die Grenze gezeigt.</p>
+            <p>An der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Čechoslowakischen</placeName> Grenze wurde ich nicht
+                angehalten. Ich ging dann auf der Voitlsbrunnerstrasse nach <placeName ref="http://www.geonames.org/3070720/mikulov.html"
+                    >Nikolsburg</placeName>. Dort übernachtete ich bei <persName ref="#ehri_bf_schaffer_julius">Julius Schaffer</persName>, Kaufmann
+                in <placeName ref="http://www.geonames.org/3070720/mikulov.html">Nikolsburg</placeName>.</p>
+            <p>Am nächsten Tag fuhr ich mit dem Autobus zur Lokalbahn und dann mit der Bahn nach <placeName
+                    ref="http://www.geonames.org/3074677/hustopece.html">Auspitz</placeName>. Das Reisegeld gab mir <persName
+                    ref="#ehri_bf_schaffer_julius">Julius Schaffer</persName>. Ich ging <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">ohne Papiere</term> über die Grenze, da ich keinen
+                    <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Pass</term> bekommen konnte. Ich bin aus Furcht
+                vor dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Konzentrationslager</term> in <placeName
+                    ref="http://www.geonames.org/2939623/dachau.html">Dachau</placeName> geflohen, weil von dort niemand zurückkehrt.</p>
+            <p>Ich möchte hier in den Militärdienst eintreten. Soviel mir bekannt ist, wird niemand einen <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Pass</term> ausgeben, <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegal</term> wird man aber über die Grenze
+                gelassen.</p>
+            <p>Der Feldweg auf dem ich an die Grenze geführt wurde führt hintern Zollhaus <placeName
+                    ref="http://www.geonames.org/2780715/drasenhofen.html">Drasenhofen</placeName> am Tiergarten vorbei über die Grenze nach
+                    <placeName ref="http://www.geonames.org/3066331/sedlec.html">Voitelsbrunn</placeName>.</p>
+            <p><!-- <persName>Dr. Gröger</persName>, v.r.</p>
+      <p>Konc. Pol. Spr.</p>
+      <p><persName>Walter Basch</persName> m. p.</p>
+      <p>[Stempel] 26.7.1938 --></p>
+        </body>
+    </text>
+</TEI>

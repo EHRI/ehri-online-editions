@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19380311a_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Telegramm von Richard A. Bermann aus Lundenburg an Präsident Edvard Beneš</title>
+				<title xml:lang="en">Telegram from Richard A. Bermann from Lundenburg to President Edvard Beneš</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+						<idno>Sign. 225-1186-19, Fol. 57</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-19, Fol. 57. <textLang mainLang="de">Original auf
+						Deutsch.</textLang></bibl>
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-03-11">11. März 1938</date>
+				<placeName>Lundenburg (Břeclav)</placeName>
+				<persName>Richard A. Bermann</persName>
+				<idno>EHRI-BF-19380311a</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>persönliche Dokumente</term>
+				</keywords>
+				<catRef target="geschichte/grenzsperre"/>
+				<catRef target="geschichte/oesterreich_bis_1938"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<pb facs="EHRI-BF-19380311a_1.jpg" n="1"/>
+				<p><placeName ref="#prague">Praha</placeName> 10 <placeName ref="#prazsky-hrad">Hrad</placeName></p>
+				<p><date when="1938-03-12">12. III. 1938</date></p>
+				<note type="gloss">Poststempel.</note>
+				<!--
+      <p>f]</p>
+      <p> Druh.........TELEGRAM Došel pod čislem 205 [...]</p> -->
+				<p><term ref="#t105" type="subject">Praesident</term>
+					<persName ref="#p000030">dr benes</persName>
+					<placeName ref="#prague">prag</placeName></p>
+				<p>=+ <placeName ref="#breclav">breclav</placeName> /2 121 34/32 12 0504 =</p>
+				<p>= im namen der an der grenzstation <placeName ref="#breclav">breclav</placeName> aufgehaltenen <placeName
+						ref="#republic-of-austria">oesterreichischen</placeName>
+					<term ref="#t304" type="subject">fluechtlinge</term> und im eigenen apelliere ich an die menschlichkeit der <placeName
+						ref="#czechoslovakia">tschechoslowakischen</placeName> demokratie <persName ref="#ehri_bf_bermann_richard_a">arnold
+						hoellriegel</persName> redakteur der stunde</p>
+				<p>passname dr <persName ref="#ehri_bf_bermann_richard_a">bermann</persName> =+</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-YV3549219_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rosa Rachel Schwarz, experiences under the Nazi regime in Vienna, 1938–1940</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Judith Levin</persName>
+				</author>
+				<author>
+					<persName>Daphna Sehayek</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/il">Israel</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</repository>
+						<collection ref="https://portal.ehri-project.eu/units/il-002798-o_1?dlid=eng">The Ball-Kaduri Collection: Contemporary
+							testimonies and reports regarding the Holocaust of the Jews of Germany and Central Europe, 1943-1960 (O.1)</collection>
+						<idno>file no. 3549219</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Yad Vashem Archives, The Ball-Kaduri Collection: Contemporary testimonies and reports regarding the Holocaust of the Jews of
+					Germany and Central Europe, 1943-1960 (O.1), file no. 3549219.<textLang mainLang="de">Original in German.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tel Aviv</placeName>
+						<location>
+							<geo>32.08088 34.78057</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/293397/tel-aviv.html"/>
+							<link type="desc" target="https://ar.wikipedia.org/wiki/%D8%AA%D9%84_%D8%A3%D8%A8%D9%8A%D8%A8"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Terezin Ghetto</placeName>
+						<location>
+							<geo>50.51027778 14.14972222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Switzerland</placeName>
+						<location>
+							<geo>47.00016 8.01427</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2658434/switzerland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Switzerland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Norway</placeName>
+						<location>
+							<geo>62 10</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3144096/kingdom-of-norway.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Norway"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>United Kingdom</placeName>
+						<location>
+							<geo>54.75844 -2.69531</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/United_Kingdom"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Netherlands</placeName>
+						<location>
+							<geo>52.25 5.75</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Netherlands"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hütteldorf</placeName>
+						<location>
+							<geo>48.2 16.26667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2775371/huetteldorf.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/H%C3%BCtteldorf"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>France</placeName>
+						<location>
+							<geo>46 2</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3017382/republic-of-france.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/France"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kingdom of Belgium</placeName>
+						<location>
+							<geo>50.75 4.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2802361/kingdom-of-belgium.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Belgium"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kingdom of Sweden</placeName>
+						<location>
+							<geo>62 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2661886/kingdom-of-sweden.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Sweden"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>United States of America</placeName>
+						<location>
+							<geo>39.76 -98.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6252001/united-states.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Vereinigte_Staaten"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Philadelphia</placeName>
+						<location>
+							<geo>39.95233 -75.16379</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/4560349/philadelphia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Philadelphia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hamburg</placeName>
+						<location>
+							<geo>53.57532 10.01534</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2911298/hamburg.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Hamburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Poland</placeName>
+						<location>
+							<geo>52 20</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/798544/republic-of-poland.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Poland"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>New York</placeName>
+						<location>
+							<geo>40.71427 -74.00597</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/5128581/new-york-city.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/New_York_City"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Austria</placeName>
+						<location>
+							<geo>47.33333 13.33333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Austria"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Augsburg</placeName>
+						<location>
+							<geo>48.37154 10.89851</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2954172/augsburg.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Augsburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Buchenwald concentration camp</placeName>
+						<location>
+							<geo>51.021198 11.248999</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-43"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Relief and welfare organisations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-317"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item><name>Passports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item><name>Movement restrictions against Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-615"/>
+						</linkGrp></item>
+					<item><name>Jewish emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-880"/>
+						</linkGrp></item>
+					<item><name>Jewish hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-870"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Nutrition</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1431"/>
+						</linkGrp></item>
+					<item><name>Families</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-819"/>
+						</linkGrp></item>
+					<item><name>Police supervision</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1122"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Looting</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-655"/>
+						</linkGrp></item>
+					<item><name>Jewish owned businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-889"/>
+						</linkGrp></item>
+					<item><name>Jewish institutions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-869"/>
+						</linkGrp></item>
+					<item><name>Children's homes</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-315"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Babies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1206"/>
+						</linkGrp></item>
+					<item><name>Jewish property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-887"/>
+						</linkGrp></item>
+					<item><name>Family relations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-822"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Höhere SS- und Polizeiführer</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1188"/>
+						</linkGrp></item>
+					<item><name>Youths</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-827"/>
+						</linkGrp></item>
+					<item><name>Stateless people</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1217"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Confiscation of property</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-585"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Geltungsjuden</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-376"/>
+						</linkGrp><note><p>Nazi term for people administratively considered as Jews.</p></note></item>
+					<item><name>Quakers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-772"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item><name>Synagogue burning</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-646"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Illegal emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-230"/>
+						</linkGrp></item>
+					<item><name>Adoption</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-823"/>
+						</linkGrp></item>
+					<item><name>Embassies and consulates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+						</linkGrp></item>
+					<item><name>Emigration ships</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-232"/>
+						</linkGrp></item>
+					<item><name>Welfare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-312"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Population transfer</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1173"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Funerals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-805"/>
+						</linkGrp></item>
+					<item><name>Pogroms and riots</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-346"/>
+						</linkGrp></item>
+					<item><name>Jewish aid, health and rescue organisations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-875"/>
+						</linkGrp></item>
+					<item><name>Old people's home</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-314"/>
+						</linkGrp></item>
+					<item><name>Food supply</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-833"/>
+						</linkGrp></item>
+					<item><name>Murder of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-536"/>
+						</linkGrp></item>
+					<item><name>Baptism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-740"/>
+						</linkGrp></item>
+					<item><name>Jewish identity</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-757"/>
+						</linkGrp></item>
+					<item><name>Antisemitism</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-329"/>
+						</linkGrp></item>
+					<item><name>Armed forces</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1077"/>
+						</linkGrp></item>
+					<item><name>Registration of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-647"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Economic life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-816"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>Air-raids</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1105"/>
+						</linkGrp></item>
+					<item><name>Occupation authorities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1032"/>
+						</linkGrp></item>
+					<item><name>Deportation to camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-115"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_schwarz_rosa_rachel">
+						<persName>Schwarz, Rosa Rachel</persName>
+						<note><p>Until 1940 head of the youth welfare department and social welfare department of the Jewish Community of
+							Vienna.</p></note>
+					</person>
+					<person>
+						<persName>Murmelstein, Benjamin</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000286"/>
+						</linkGrp>
+						<note><p>1905-1989</p><p>Rabbi in the Vienna Jewish community, member of the Judenrat. Deported to Theresienstadt, deputy and
+								later Judenältester.</p></note>
+					</person>
+					<person>
+						<persName>Löwenherz, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000255"/>
+						</linkGrp>
+						<note><p>1884-1960</p><p>Head of the Jewish community (Israelitische Kultusgemeinde) in Vienna from 1936 and during the Nazi
+								occupation of Austria.</p></note>
+					</person>
+					<person>
+						<persName>Ball-Kaduri, Kurt</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000453"/>
+						</linkGrp>
+						<note><p>Dr. Kurt Ball-Kaduri was born in Berlin in 1891. A lawyer and legal adviser to the Prussian government, he was also
+								active in Jewish affairs. He made aliya to Eretz Israel in December 1938.&#13; &#13; Dr. Ball-Kaduri, who was active
+								in collecting material and writing about German Jewry, became aware that much material that reached the archives
+								regarding Jewish life in Germany from 1933 to 1945 was incomplete, and that there were large information gaps. From
+								his own public activities in Germany, he knew very well that many activities were conducted without any documentation,
+								especially after the Nazi rise to power. For example, official applications were effected through indirect means,
+								relying on various personal connections, and official meetings were not held, because notice of every official meeting
+								had to be given to the Gestapo, who would send its representatives to attend each meeting. Thus, decisions were made
+								at unofficial meetings, and the report regarding implementation of these decisions was passed on by word of mouth. For
+								these reasons, Dr. Ball-Kaduri decided to gather material orally from the people involved in Jewish life and the
+								activities of the Jewish organizations.</p></note>
+					</person>
+					<person>
+						<persName>Hitler, Adolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000185"/>
+						</linkGrp>
+						<note><p>20/04/1889 - 30/04/1945</p><p>Führer and Reichskanzler, since 04.02.1938 Oberbefehlshaber der Wehrmacht.</p></note>
+					</person>
+					<person xml:id="ehri_et_zappert_julius">
+						<persName>Zappert, Julius</persName>
+						<note><p>Manager of the youth welfare department of the Jewish Community of Vienna.</p></note>
+					</person>
+					<person>
+						<persName>Engel, Emil (1881 - 1958)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/jc_persons-2563396"/>
+						</linkGrp>
+						<note><p>Born 1881. Died 1958. Emil Engel was a member of the board of the Jewish Community in Vienna from 1926. Between 1928
+								and 1940 Engel was head of the Social Welfare Department. Engel emigrated to the United States in 1940.</p></note>
+					</person>
+					<person>
+						<persName>Rothenberg, Alois (1894 - ?)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176"/>
+						</linkGrp>
+						<note><p>Born 1894. Rothenberg was an Austrian Zionist and Director of the Palestine Office in Vienna between 1938 and 1940.
+								Rothenberg emigrated in 1940.</p></note>
+					</person>
+					<person>
+						<persName>Eichmann, Adolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000564"/>
+						</linkGrp>
+						<note><p>German SS officer in charge of “Jewish affairs” at the Security Service from 1935. From 1941 he was the head of the
+								Jewish Affairs Department of the Reich Security Main Office and he was in charge of deportations from various European
+								destinations to ghettos and death camps. In March 1944 he arrived in Budapest with his special unit and they arranged
+								the ghettoization and deportation of the Hungarian Jews. After the war he fled to Argentina. Israeli agents abducted
+								him in 1960 and took him to Jerusalem, where he was tried and he was executed in 1962. </p></note>
+					</person>
+					<person xml:id="ehri_et_wijsmuller_meijer_geertruida">
+						<persName>Wijsmuller-Meijer, Geertruida</persName>
+						<note><p>Social worker from Amsterdam. Organiser and leader of many Kindertransports from Germany and Austria to the
+								Netherlands, known under the name ‘Tante Truus’.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Israelitische Kultusgemeinde Wien</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-002399"/>
+						</linkGrp>
+						<note><p>Gmina Żydowska w Wiedniu powstała w XII wieku. W 1936 r. liczyła 176 tys. osób. Od marca 1938 r. dotknięta
+								szczególnie brutalnymi represjami. Przesiedlenia do wyznaczonych miejsc na terenie Polski i Czech rozpoczęły się już w
+								październiku 1939, ostatnie transporty do Terezina i Auschwitz miały miejsce we wrześniu i listopadzie 1942 r. Na
+								miejsce formalnie zlikwidowanej w 1942 r. gminy żydowskiej powołano Judenrat, który istniał w mieście do końca rządów
+								hitlerowskich i przejął archiwa gminy, natomiast archiwa innych instytucji i organizacji żydowskich zostały zagarnięte
+								przez gestapo w listopadzie 1939 r. i wywiezione do Berlina. Znajdujące się w archiwum ŻIH akta gminy wiedeńskiej
+								zostały odnalezione w 1945 r. w Kłodzku i stanowią część większego zbioru dokumentów i księgozbiorów żydowskich
+								ewakuowanych przez hitlerowców z Berlina. Szczątki przejęte w 1947 r. ze zbiorów Centralnej Żydowskiej Komisji
+								Historycznej.</p></note>
+					</org>
+					<org>
+						<orgName>Wehrmacht</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-438"/>
+						</linkGrp>
+						<note><p>Founded in 1935</p><p>Wehrmacht was the Name for the German army after 1935. Often in competition for supplies and
+								authority with the Waffen-SS, the Wehrmacht also assisted the SS in carrying out the Final Solution. It was involved
+								in activities in Poland and the Soviet Union, which violated the Geneva Convention, such as mass killings of hostages,
+								innocent civilians, and prisoners of war. The Wehrmacht also kidnapped children in Ruthenia for Lebensborn.</p></note>
+					</org>
+					<org>
+						<orgName>Magistrat Wien</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-006541"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>Allgemeine SS</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1090"/>
+						</linkGrp>
+						<note><p>The SS-Hauptamt was founded in 1935, it was the Supreme Command of the Allgemeine SS, SS-Verfügungstruppe and
+								SS-Totenkopfverbände.</p></note>
+					</org>
+					<org>
+						<orgName>Nationalsozialistische Frauenschaft</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-780"/>
+						</linkGrp>
+						<note><p>Founded in 1931</p><p>The Nationalsozialistische Frauenschaft was founded in 1933, from 1935-03 the Frauenschaft was
+								officially part of the NSDAP.</p></note>
+					</org>
+					<org>
+						<orgName>Alijat Hanoar/Alijat Noar</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004610"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Palaestina Amt - Wien</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004902"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Kindertransport</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-002891"/>
+						</linkGrp>
+						<note><p>The Kindertransport was a rescue mission of nearly 10 000 predominantly Jewish children from Germany, Czechoslovakia,
+								Austria and Poland. It started nine months before the outbreak of the Second World War. The children were taken to the
+								United Kingdom.</p></note>
+					</org>
+					<org>
+						<orgName>American Jewish Joint Distribution Committee</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-347"/>
+						</linkGrp>
+						<note><p>1914/present</p><p>Founded in 1914, the American Jewish Joint Distribution Committee provided assistance to Jews
+								around the world, particularly in eastern Europe. During the Nazi era, this umbrella agency for aid organizations in
+								the United States was involved in emigration planning and relief work in Germany, until 1939 providing an increasing
+								share of the budget for German Jewish organizations, such as the Reichsvertretung. The Joint efforts continued after
+								the war began and extended beyond the Reich into countries occupied or controlled by Germany.</p></note>
+					</org>
+					<org>
+						<orgName>WIZO - Women's International Zionist Organization</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004668"/>
+						</linkGrp>
+						<note><p>Zionist women's organization</p></note>
+					</org>
+					<org>
+						<orgName>Oeuvre de Secours aux Enfants</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-354"/>
+						</linkGrp>
+						<note><p>Founded in 1912</p><p>Begun by physicians in Russia in 1912 as Obshchestvo Zdravookhraneniya Yevreyev (Society for
+								the Protection of the Health of Jews), the organization expanded into many European countries with significant Jewish
+								populations and focused increasingly on the welfare of children in its care. Relocating to Paris in 1933, the
+								organization assumed the name Oeuvre de Secours aux Enfants. OSE ran a number of orphanages in France for Jewish
+								refugee children and, when the deportations of Jews in France began in 1942, organized an underground effort to
+								smuggle many of the children from OSE orphanages to the safety of neutral countries.</p></note>
+					</org>
+					<org>
+						<orgName>Rabbinersminare</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004643"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Zentralstelle für jüdische Auswanderung</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-635"/>
+						</linkGrp>
+						<note><p>Founded in 1938-08</p><p>Zentralstelle für jüdische Auswanderung was originally established in 1938-08 by the German
+								Sicherheitspolizei and the Sicherheitsdienst to supervise the emigration and expulsion of the Jews of Austria. Later,
+								the Zentralstelle also dealt with the Jews of the Protectorate of Bohemia and Moravia and Amsterdam.</p></note>
+					</org>
+					<org>
+						<orgName>Quakers</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1181"/>
+						</linkGrp>
+						<note><p>The Commission Centrale des Organizations Juives d’Assistance met with various non-Jewish agencies working in the
+								camps, such as Comité inter-mouvements aupres des evacues (CIMADE), the Young Men Christian Association (YMCA), the
+								Quakers, various national branches of the Red Cross, the Secours Suisse, the Service social d’aide aux emigrants
+								(SSAE), the Unitarian Service Committee, the Rockefeller Foundation, and others to form the Comité de Coordination
+								pour l’Assistance dans les Camps.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1947-07-18">July 18 1947</date>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>,
+					<idno>EHRI-ET-YV3549219</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+
+			<abstract>
+				<p>Two reports by Rosa Rachel Schwarz, a social worker in Vienna, about her experiences as head of the welfare department of the
+					Jewish community after the German annexation, 1938–1940, especially about the organization of the Kindertransports. The file
+					includes a note by Dr. Ball-Kaduri about Schwarz’s relationship to Rabbi Murmelstein.</p>
+			</abstract>
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-YV3549219_01.jpg"/>
+			<p>- 1 -</p>
+			<p><placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, <date when="1947-07-18">18 July 1947</date>.</p>
+			<p><persName ref="#ehri_et_schwarz_rosa_rachel">Rosa Rachel Schwarz</persName>, head of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">youth welfare department</term> until <date
+					when="1940">1940</date>, most recently also of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject"
+					>social welfare</term> for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Jewish community
+					Vienna</orgName>, told me today:</p>
+			<p>I don’t know what’s true about the many unfavorable stories about <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelstein</persName> from <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. I know him from
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>, and I want to tell you some characteristic things
+				about him that I have experienced. He was petty, pedantic and in no way ready to help his fellow men. From the time of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">occupation</term>, if I remember correctly, he worked
+				for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName>. His task was, among other
+				things, to issue <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passes</term>, i.e. to certify,
+				for example, that employees of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> who
+				were on afternoon or evening duty were allowed to walk the streets at a time that was otherwise <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-615" type="subject">forbidden for Jews</term>. Now, there was a young girl
+				among the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">employees</orgName> who was to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigrate</term> the next day. In the morning of the
+				day she was still working in the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName>. If
+				she got a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">pass</term> for the evening, she could
+				say goodbye to her friends. She asked <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286"
+					>Murmelstein</persName> for a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">pass</term>, but
+				he refused. I then asked him why he had refused, and he replied that since noon she was no longer an <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">employee</orgName> of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName>. Everybody else would, of course, have
+				issued the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">certificate</term> under the
+				circumstances at that time.</p>
+			<p>On another occasion, I was with Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Löwenherz</persName> in
+				the evening; it was a private visit, shortly before my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880"
+					type="subject">emigration</term>. I had no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject"
+					>pass</term>; I always dared to go without it. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286"
+					>Murmelstein</persName>, who lived in the same house, came to visit <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Löwenherz</persName>. After a short time I said goodbye because
+				I didn’t like being with him. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Löwenherz</persName>, who
+				was very fearful, asked me if I had a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">pass</term>.
+				I said no. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Löwenherz</persName> asked why I had not turned
+				to <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelstein</persName>. I replied: <q>because I do not
+					turn to a man like Mr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelstein</persName> (said in
+					his presence!), since he would have refused me, because my visiting you is not official, but private</q>. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Löwenherz</persName> said: And if something happens to you? I
+				replied: Then it’s only you having the troubles of it, because you must then get me out again for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">youth welfare department</term>. But <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Löwenherz</persName> didn’t let up, and made <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelstein</persName> to issue me a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">pass</term> on a piece of paper.</p>
+			<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Ball</persName></p>
+
+			<pb n="2" facs="EHRI-ET-YV3549219_02.jpg"/>
+			<p>- 2 -</p>
+			<p>Presented on <date when="1944-04-16">16 April 1944</date></p>
+			<p>by Mrs. <persName ref="#ehri_et_schwarz_rosa_rachel">Rosa Rachel Schwarz</persName></p>
+			<p>- manuscript written down</p>
+			<p>in <date when="1940-04">April 1940</date>.</p>
+			<p>About the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">social work</term> of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">community Vienna</orgName> under <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Hitler</persName></p>
+			<p>Saturday, <date when="1938-03-12">March 12, 1938</date>, the vanguard of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">German military</orgName> marched into <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>. On Sunday, the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Viennese Jewish community</orgName> opened its offices in the
+				usual manner. Formally, there was no change to notice. There were almost no clients in the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">welfare department</orgName>; at noon Professor <persName
+					ref="#ehri_et_zappert_julius">Julius Zappert</persName><note place="bottom">Name in the original spaced out</note> (manager of the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">youth welfare</orgName>) appeared and announced that the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-870" type="subject">children’s outpatient clinic</term> in
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">Rauscherstrasse</placeName> was occupied. I forwarded this message to
+				the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">directorate</orgName> and we hoped that this building,
+				which is particularly important for our <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">welfare
+					department</orgName>, would soon be vacated in the interest of our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> at risk. In the next two to three days
+				the first parties came to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">welfare department</orgName>
+				and complained about hardships imposed on them by neighbours and people in the neighbourhood.</p>
+			<p>Wednesday, <date when="1938-03-03">March 16</date>, was the first time that someone from the <q><orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">authority</orgName></q> came to the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName>. They checked the bookkeeping and
+				accounting, requisitioned typewriters and calculating machines, and recorded the status of the cash desk. At that time the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">youth welfare department</orgName> was already working with the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">general department</orgName>. The clients were no longer
+				dealt with on file, but in the antechambers of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">welfare
+					centre</orgName>, which had been turned into one room, the requests of clients asking for support were quickly registered in
+				files, filled in with only the most necessary data, and each applicant received a few shillings so that he could buy <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1431" type="subject">bread</term> for himself and his <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term>. In this way we worked until Friday 9
+				o'clock in the morning. Then the house was occupied by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350"
+					>Gestapo</orgName>. The individual offices were searched, desks and files examined, and the requesting clients, their number went
+				into the hundreds, photographed together with the clerks. At 10 a.m., the telephone line was disconnected and the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> occupied the house telephone. A quiet rumor had reached
+				us that the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">presidium</orgName> and the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">head office</orgName> were put under the strictest <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1122" type="subject">surveillance</term> and some of them had already been
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term>. The eviction order arrived at
+				about 12 noon. And while we were leaving our workplaces in a daze, a characteristic scene occurred in front of the house:</p>
+			<pb n="3" facs="EHRI-ET-YV3549219_03.jpg"/>
+			<p>- 3 -</p>
+			<p>A man breathlessly approached the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">secret police officer</orgName>
+				on duty and told him: <q>A shop on the next corner is being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655"
+						type="subject">looted</term>. This is bad for your good reputation and can’t be the intention of the <persName
+						ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Führer</persName>.</q> And the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">officer</orgName> in charge went to the shop and stopped the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">looting</term>.</p>
+			<p>From that day on, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> was closed for
+				about five weeks. The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">presidents</orgName> and <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">directors</orgName> were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">locked up</term>. We leading <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">officials</orgName> met daily, first in a small coffee house on
+				the <placeName ref="http://www.geonames.org/2761369/vienna.html">Salzgries</placeName> street and when this was closed, in a still
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject">Jewish coffee house</term> on the <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Quai</placeName>. There we had <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1431" type="subject">breakfast</term> and <q>accidentally</q> met
+				acquaintances.</p>
+			<p>Operations in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish homes</term> (institutions)
+				continued. I was busy to provide the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term>
+				with the most necessary material as well as with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1431" type="subject"
+					>victuals</term>, to relieve them of the transactions with the different <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">offices</orgName>, and especially to make it easier for those in
+				charge in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">children’s homes</term>, who stood
+				pedagogically at the highest level, but were not up to the traffic with the very changed <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">authorities</orgName>. - In these difficult times, director
+					<persName ref="https://portal.ehri-project.eu/authorities/jc_persons-2563396">Engel</persName><note place="bottom">Name in the
+					original spaced out</note> proved to be a particularly prudent adviser and, if possible, helped to overcome all difficulties that
+				arose.</p>
+			<p>The first of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term> to be occupied was the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Dr. Kruger Lehrmädchenheim</term><note
+					place="bottom">Home for apprentice girls</note>. But we soon managed to bring some of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">girls</term> back to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term>. Special difficulties arose in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home for abandoned girls</term> in the <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">XIII district</placeName>, <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Auhofstrasse</placeName>, but we succeeded in keeping this <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> for several months. Apart from the
+				strictly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish homes</term>, there was also an
+				interconfessional <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">infant and toddler home</term> in
+				the <placeName ref="http://www.geonames.org/2761369/vienna.html">XIX district</placeName>, a Wertheimstein´sche foundation for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> of all denominations. According to an
+				announcement of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">municipality</orgName>, this <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> was declared a strictly <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish home</term> one day. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were to be placed elsewhere
+				immediately. Twenty-four hours after this announcement, the director of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> informed me that her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> was occupied by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-780">National Socialist Women’s Party</orgName><note place="bottom"
+					>NS-Frauenschaft, the women’s wing of the NSDA</note> and that all Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were to be transferred by the evening.
+				I immediately drove out to the home and tried to get the deadline extended, tried to get hold of a house, since the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1206" type="subject">babies</term></p>
+
+			<pb n="4" facs="EHRI-ET-YV3549219_04.jpg"/>
+			<p>- 4 -</p>
+			<p>and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1206" type="subject">toddlers</term> could not be accommodated
+				together with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">schoolchildren</term>. With difficulty
+				I managed to get a 24-hour deferral. Some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">Jewish
+					villas</term> were occupied, but no owner would have dared to make any changes in his house, so as not to attract attention, the
+				only solution was the infirmary of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">boys’
+					orphanage</term>. A temporary solution, and we prayed that no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">child</term> would fall ill in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869"
+					type="subject">boys’ orphanage</term> in the next few weeks. We were therefore anxious to find a suitable roof for our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. When the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> was reopened, we immediately tried to get a
+				foundation house free for this purpose. The house belonging to the Theresianerkreuz-Verein in Untere <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Augartenstrasse</placeName> seemed to be the most suitable and requiring the
+				least investment. We had bought and been given furniture by emigrating kindergarten teachers. The rooms in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Augartenstrasse</placeName> were disinfected, freshly painted and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> should have moved in within a few
+				days. Then the caretaker called and said that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject"
+					>home</term> had been occupied - after four months we got it back. Our year-long wish, a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish infant and toddler home</term>, had thus come
+				true. We adapted the house in the simplest and cheapest way and created a healthy environment for our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">little ones</term>.</p>
+			<p>Since the reopening of the congregations’ offices, there had been an increase in the number of clients in the welfare sector. People's
+				earning potential declined, but housing and food had to be paid for. We tried to meet all these demands. In the field of youth
+				welfare, a register was drawn up for all those <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> whose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> wanted
+				them to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigrate</term>. The registration form we
+				worked out has been retained with very minor changes for the individual countries. Approximately 10,000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were registered.</p>
+			<p>Spring and summer had come, but no possibility to do anything for our weakest <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. Gardens and parks were forbidden. The
+				first country was <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> with the option to take
+				100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> for the summer, and a few weeks
+				later <placeName ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norway</placeName> with 15. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> splendidly recovered,</p>
+			<pb n="5" facs="EHRI-ET-YV3549219_05.jpg"/>
+			<p>- 5 -</p>
+			<p>returned home in the fourth week, the <placeName ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norwegian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> stayed in <placeName
+					ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norway</placeName> unless their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> demanded their return. I also succeeded
+				in finding sponsorships for our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in
+					<placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName>. In these cases Madame de Monier was
+				especially helpful. - We tried to bring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> to <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"
+					>England</placeName>, but despite many offers of especially nice and gifted <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, we only succeeded here in very few
+				cases. <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>
+				and the other countries decided to start a generous children’s action only after <date when="1938-11-10">November 10, 1938</date>.
+				This will be discussed elsewhere.</p>
+			<p>In the meantime, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish life</term> and the existence
+				of the individual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">institutions</term> proceeded more
+				or less excitingly. In the Kol-Nidre-Night the Jews of the <placeName ref="http://www.geonames.org/2761369/vienna.html">XVIII. and
+					XIX. district</placeName> had been given the order to vacate the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">apartments</term> respectively the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">houses</term>, and also our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">girl orphanage</term> should be empty within 24 hours.
+				This last order, however, seemed inexecutable for that reason alone that we had since scarlet fever in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term>. In the course of the Yom Kippur, the
+				efforts of Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Loewenherz</persName> and Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176">Rothenberg</persName> had succeeded in getting <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Hauptsturmführer</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> to take countermeasures.</p>
+			<p>In <date when="1938-10">October</date>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">youths</term>
+				from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">apprentice home</term> and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">apprentice girl home</term> had been <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> as part of a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">stateless persons</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">action</term>. The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> succeeded in bringing the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">youths</term> back to their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term> very soon.</p>
+			<p>The house of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">kindergarten</term>
+				<q>Wohlfahrt</q> had been made available to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1052">Youth
+					Aliyah</orgName> for their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young people</term>.
+				About 180 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young people</term> had their courses and
+				meals in this house and were prepared there for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1052"
+					>Aliyah</orgName>. At this time a particularly intensive work began together with the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004902">Palestine Office</orgName>, a work which was animated by mutual
+				trust and love for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">youth</term>. After a short
+				time the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">House of Welfare</term> was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">requisitioned</term> by the Air-Raid Precaution.
+				Smaller and bigger troubles were the order of the day, but we hoped to liquidate it in a quiet manner.</p>
+			<p>So the <date when="1938-11-10">10th of November 1938</date> had come under many worries and that meant for the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">youth welfare</orgName> the end of our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">day care center</term> in the <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Aspernbrückengasse</placeName>, which was located opposite of the party
+				house.</p>
+			<pb n="6" facs="EHRI-ET-YV3549219_06.jpg"/>
+			<p>- 6 –</p>
+			<p>Only a few weeks later we were able to reopen it in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869"
+					type="subject">Mendel´sches Stiftungshaus</term> in <placeName ref="http://www.geonames.org/2761369/vienna.html"
+					>Denesgasse</placeName>. They were able to remain there until <date when="1939-11">November 1939</date>, then they moved to the
+				house of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Mohapelgasse</placeName>.</p>
+			<p>After the <date when="1939-11-10">10th of November</date> the foreign countries, especially <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> and <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName>, where Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Loewenherz</persName> and Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176">Rothenberg</persName> stayed at that time and pointed
+				out the great misery of our children, decided to intervene with generous active help. We received the order to complete the first
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">children’s train</orgName>. An organizational task that
+				forced us to work days and nights without interruption and that had to work out in every detail. From the mass of registrations I
+				suggested the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> whose <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">departure</term> was most important for health,
+				psychological and material reasons. We tested <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term>, they were examined by a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject"
+					>physician</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> were
+				obtained, luggage was prescribed and checked. A lot of meticulous work, which was indescribable, but necessary, so that on <date
+					when="1938-12-10">December 10, 1938</date> about 700 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term>, including a third of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-376"
+					type="subject">racial Jews</term><note place="bottom">non-Aryan Christian</note>, who had been selected by the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-772" type="subject">Society of Friends</term>, could <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">leave</term>. Many of these <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> had lived in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish centers</term> near the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term> and the image of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">destruction</term> stood before their frightened eyes.
+				Many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> could say goodbye only to their
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mothers</term> because the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">fathers</term> were in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>. It was a horrible sight to
+				see these seven hundred <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mothers</term> bid farewell
+				to their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> at the terminus of the
+				light rail in <placeName ref="http://www.geonames.org/2775371/huetteldorf.html">Hütteldorf</placeName>. Of course, they were not
+				allowed to enter the station building. The mood among the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term> was one of joy and hope. They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880"
+					type="subject">traveled</term> towards their happiness, believing that they could do something for their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> from outside the country.</p>
+			<p>In very isolated cases they succeeded. But these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>parents</term> had the opportunity to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject"
+					>flee</term> carefree across one of the nearest borders. We were supposed to put together another <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">transport</orgName> with 1000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. However, this did not happen. But we
+				sent away a considerable number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>
+				every month with <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"
+					>English</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">transports</orgName>, which had been requested by friends and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">relatives</term> from <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>. In cases
+				involving <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> of</p>
+			<pb n="7" facs="EHRI-ET-YV3549219_07.jpg"/>
+			<p>- 7 -</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">stateless</term> and expellees, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-317" type="subject">committees</term> in <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> and <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> have been particularly kind to us. The
+					<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Dutch</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-317" type="subject">committee</term> was extremely helpful, they took
+				over our <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">transports</orgName> at the <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> border and led them to <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>. Mrs.
+					<persName ref="#ehri_et_wijsmuller_meijer_geertruida">Geertruida Wijsmuller-Meijer</persName><note place="bottom">Name in the
+					original spaced out</note> was also very helpful in some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1205"
+					type="subject">adoption</term> cases.</p>
+			<p>Two groups of 51 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> each were <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">sent</orgName> to <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">France</placeName> and from there were accommodated under
+				particularly favourable conditions. Several groups went to <placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html"
+					>Belgium</placeName> and <placeName ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Sweden</placeName>. A table gives
+				information about the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> brought to
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigration</term> by us. Only <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> did not take part in the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">children’s action</orgName> in any way. We hoped that the
+				Wagner-Bill would bring a solution to our whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children’s</term> question.</p>
+			<p>One day two <placeName ref="http://www.geonames.org/6252001/united-states.html">Americans</placeName> from <placeName
+					ref="http://www.geonames.org/4560349/philadelphia.html">Philadelphia</placeName> appeared and told us the fairy tale that they had
+				fifty affidavits with them and that in a short time, in about three weeks, they would <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">travel</term> to <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> with fifty healthy and gifted <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Viennese</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. They contacted the <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">American</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">consul</term> in <placeName
+					ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> for this purpose, and one of them, an <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">American</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">physician</term>, examined the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in detail, and so they traveled to
+					<placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> for confirmation and from there to <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> to start their journey to <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> on the <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-232" type="subject">President Harding</term></q>.</p>
+			<p>Thus the summer of <date when="1939">1939</date> had slowly approached. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">boys’ orphanage</term> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Probusgasse</placeName> had long since been sold and was to be converted into a
+				chocolate factory by the end of December at the latest. We still had a reprieve until then; until <date when="1939-12"
+				>December</date>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were permitted
+				to stay. There came the war, the house was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject"
+					>occupied</term> by the air-raid, an air-raid unit first lived with our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, but then the house had to be cleared
+				within 48 hours. We solved this unpleasant task, avoiding every disturbance, in a good mood for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> concerned. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and the inventory went to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Merores orphanage</term> and a group of 15 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">older boys</term> went to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">children’s home</term>. - In the meantime, the number
+				of clients in all departments of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Open Welfare</orgName>
+				had increased. The hardship forced almost all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+					>Jews</term> living in <placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> to claim <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-312" type="subject">welfare</term>.</p>
+			<pb n="8" facs="EHRI-ET-YV3549219_08.jpg"/>
+			<p>- 8 -</p>
+			<p>And very often we had to reencounter people among the clients who themselves had helped with full hands before the upheaval. There is
+				no need to mention that we tried to help all of them, and especially these people, through every means at our disposal, to overcome
+				the gravity of the moment. But it is difficult to say which hours were the most difficult. Whether when we were commissioned by the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">authorities</orgName> to put together <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> and, in order to avoid unnecessary
+				hardship, we supported Nazi <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany's</placeName>
+				attempt to carry out Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173" type="subject">colonization</term> in
+					<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. - As the leader of such an
+				investigation group, I had 800 people to talk to or to reject in one afternoon. At that time it became apparent that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">younger male population</term> had already <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigrated</term> from <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>. Or was it sadder when a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> came, still full of incomprehension for
+				the tragedy of her fate, after receiving a telegram from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496"
+					type="subject">concentration camp</term> informing her of the death of her <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term> or <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term>. The most tragic moment, however, was when
+				a fourteen-year-old <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">girl</term> came to me to ask
+				for her and her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sister</term> to be accommodated in
+				a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term>. <q>It doesn’t have to be for long. We
+					only want, when the urn of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term>
+					arrives, ...</q> and she put a telegram on my desk, which she had intercepted so that the severely neuropathic <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> would not get her hands on it, <q>we
+					want to go to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">funeral</term> of our <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> and sit Shiva, without <term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term> knowing.</q> This <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term>, like so many others, was a victim of
+				the days of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-346" type="subject">November 1939</term>.</p>
+			<p>In <date when="1940-02">February 1940</date>, the first fruits of an <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">American</placeName> campaign regarding the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">emigration of children</orgName> finally appeared. After the
+				outbreak of war, we had been commissioned to test registered <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term>, the lists had been made available to us by the <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">American</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">consulate</term>, to have them examined by a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">physician</term>, and to report them to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-875" type="subject">German Aid Committee</term> in <placeName
+					ref="http://www.geonames.org/5128581/new-york-city.html">New York</placeName>. By <date when="1940-02">February 1940</date>, the
+					<placeName ref="http://www.geonames.org/6252001/united-states.html">American</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-875" type="subject">Committee</term> had received reports for 425 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> when the first 10 were approved.</p>
+			<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject">retirement home</term> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Seegasse</placeName> was not sufficient to provide <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-312" type="subject">care for the elderly</term>. And the buildings that
+				had in the meantime been adapted as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject">old people's
+					homes</term> - <placeName ref="http://www.geonames.org/2761369/vienna.html">Goldschlaggasse XV Bez</placeName>., <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Wassergasse XX. Bez</placeName>., <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Malzgasse II. Bez</placeName>. and a part of the</p>
+			<pb n="9" facs="EHRI-ET-YV3549219_09.jpg"/>
+			<p>- 9 -</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject">Krugerheime</term>, were insufficient for the elderly
+				people who had become in need of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-312" type="subject">welfare</term> over
+				the months. By <date when="1940">1940</date>, the number of elderly people in the homes had risen to 2000. A large proportion of these
+				old people had been left behind by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject"
+					>emigrating</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in orderly circumstances.
+				Terminations of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residence</term>, sudden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">evictions</term>, suspension of pension payments,
+				closure of the blocked accounts caused immediate intervention of the welfare authorities.</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">Meals</term> were served in 15 places in the various
+				districts to 35,000 people.</p>
+			<p>Of the 50,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> living in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> in <date when="1940-02">February 1940</date>, about 35,000
+				were supported in open welfare.</p>
+			<pb n="10" facs="EHRI-ET-YV3549219_10.jpg"/>
+			<p>- 10 –</p>
+			<p>List of all <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">child transports</orgName> processed by the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Jewish community</orgName> from <date when="1938-12-10"
+					>10. 12. 1938</date> - <date when="1939-08-22">22. 8. 1939</date></p>
+			<p><date when="1938-12-12">12.12.38</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 400
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> 59</p>
+			<p><date when="1938-12-17">17.12.38</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 132</p>
+			<p><date when="1938-12-18">18.12.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 68</p>
+			<p><date when="1938-12-19">19.12.</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> 7</p>
+			<p><date when="1938-12-20">20.12.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 134</p>
+			<p><date when="1938-12-21">21.12.</date>
+				<q/> 117</p>
+			<p><date when="1938-12-26">26.12.</date>
+				<placeName ref="http://www.geonames.org/3017382/republic-of-france.html">France</placeName> 6</p>
+			<p>923</p>
+			<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-01-10">10.1.39</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 83
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-01-10">10.1.</date>
+				<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> 13</p>
+			<p><date when="1939-01-11">11.1.</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> 21</p>
+			<p><date when="1939-01-11">11.1.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>112</p>
+			<p><date when="1939-01-12">12.1.</date>
+				<placeName ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Sweden</placeName> 7</p>
+			<p><date when="1939-01-31">31.1.</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> 18</p>
+			<p><date when="1939-01-31">31.1.</date>
+				<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> 7</p>
+			<p>261</p>
+			<p><date when="1939-02-19">19.2.39</date>
+				<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> 5 <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-02-20">20.2.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 107</p>
+			<p><date when="1939-02-12">21.2.</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> 10</p>
+			<p><date when="1939-02-22">22.2.</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> 20</p>
+			<p>142</p>
+			<p><date when="1939-03-06">6.3.39</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> 70 <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-03-13">13.3.39</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 140 </p>
+			<p><date when="1939-03-14">14.3.</date>
+				<placeName ref="http://www.geonames.org/3017382/republic-of-france.html">France</placeName> 50</p>
+			<p><date when="1939-03-22">22.3.</date>
+				<q/> 53</p>
+			<p><date when="1939-03-27">27.3.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 118</p>
+			<p><date when="1939-03-27">27.3.</date>
+				<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName>19</p>
+			<p>450</p>
+			<p><date when="1939-04-17">17.4.39</date>
+				<placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName>17 <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-04-23">23.4.</date>
+				<placeName ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Sweden</placeName>46</p>
+			<p><date when="1939-04-25">25.4.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>124</p>
+			<p>187</p>
+			<p><date when="1939-05-13">13.5.39</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 84
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-05-21">21.5.</date>
+				<placeName ref="http://www.geonames.org/6252001/united-states.html">America</placeName> 50</p>
+			<p><date when="1939-05-22">22.5.</date>
+				<placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> 5</p>
+			<p>139</p>
+			<p><date when="1939-06-06">6.6.39</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 78
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-06-07">7.6.</date>
+				<placeName ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Sweden</placeName> 25</p>
+			<p><date when="1939-06-13">13.6.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 69 </p>
+			<p><date when="1939-06-20">20.6.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 85</p>
+			<p>257</p>
+			<p><date when="1939-07-04">4.7.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>102
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<p><date when="1939-07-11">11.7.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>102 </p>
+			<p><date when="1939-07-16">16.7.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 38</p>
+			<p><date when="1939-07-25">25.7.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 49</p>
+			<p>291</p>
+			<p><date when="1939-08-01">1.8.39</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 70</p>
+			<p><date when="1939-08-08">8.8.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 49</p>
+			<p><date when="1939-08-15">15.8.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 40</p>
+			<p><date when="1939-08-22">22.8.</date>
+				<placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> 35</p>
+			<p>194</p>
+			<p>2,844 <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">Children</orgName></p>
+			<pb n="11" facs="EHRI-ET-YV3549219_11.jpg"/>
+			<p>- 11 -</p>
+			<p><persName ref="#ehri_et_schwarz_rosa_rachel">Rosa Rachel Schwarz</persName>
+				<note place="bottom">Handwritten addition</note></p>
+			<p>Two years of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-317" type="subject">welfare</term> for the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">community of Vienna</orgName> under <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Hitler</persName>.</p>
+			<p>(<date when="1938">1938</date> – <date when="1940">1940</date>)</p>
+			<p>From time immemorial, the <placeName ref="http://www.geonames.org/2761369/vienna.html">Viennese</placeName> Jews had been frightened by
+				the <date when="1938-03-12">12th of March</date>. On this day, in 1621, on the orders of an <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">Austrian</placeName> duke named Albrecht, all <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Jews</term> with their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">wives</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">died by fire</term> on the Erdberg. At that time,
+				the reason for this was that the Jews refused to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-740" type="subject"
+					>baptized</term>. The chronicler immortalized this duke in the saying: <q>I warred against the Turks, I surrounded Tabor, but I
+					had my Jews burned before</q>. Shortly after this <placeName ref="http://www.geonames.org/2761369/vienna.html"
+					>Viennese</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">catastrophe</term>, the Duke received the crown of
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> for a short time after the
+				death of Emperor Sigismund. The Jews feared that they would suffer the same fate under his rule in <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> as well, but fortunately this villain
+				died after two years. It is characteristic that this god-fearing <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">Austrian</placeName> had the <placeName
+					ref="http://www.geonames.org/2954172/augsburg.html">Augsburg</placeName> City Council buy from him the right to expel the Jews
+				from <placeName ref="http://www.geonames.org/2954172/augsburg.html">Augsburg</placeName> for 9,000 guilders and to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">confiscate</term> all their possessions.</p>
+			<p>I mention this period of the history of the <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+					>Austrian</placeName> Jews for two reasons: because of the indescribable steadfastness of our fathers, who preferred to be burned
+				rather than to deny their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-757" type="subject">Judaism</term>, and
+				secondly because of the event that <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>Germany</placeName> had already once been happy with an <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+					>Austrian</placeName> who wanted to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject"
+					>exterminate</term> us Jews, and for another reason, and this is the guiding principle of all history, that <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">antisemitism</term> in <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">Austria</placeName> had been planted for years deep in the soul of
+				the people.</p>
+			<p>So on <date when="1938-03-12">12 March 1938</date>, the vanguard of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1077" type="subject">German military</term> came to <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>. On Sunday our <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> opened its offices in the usual way. From a
+				superficial point of view there was almost no change to be felt. Around noon, the chairman of our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">youth welfare</term> department appeared and informed
+				us that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">children’s outpatient clinic</term> in
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">Rauscherstrasse</placeName> had been occupied. These buildings, which
+				are particularly important for us in regard of our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children at risk</term> to health, we tried to get free immediately. The individual clients came only after 3 or 4 days and
+				complained about hardships by neighbours or people in the immediate vicinity. Wednesday, the <date when="1938-03-16">16th</date>,
+				someone from the so-called <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">authority</orgName> came to the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> for the first time. They checked
+				bookkeeping, accounting, requisitioned typewriters, adding-machines, and recorded the state of the cash register. At that time, the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">Youth Welfare Service</term> was already
+				cooperating with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">General Welfare Service</term>.
+				The clients were no longer dealt with on file, but in the antechambers of the welfare centre, which had been turned into one room, the
+				requests of clients asking for support were quickly registered in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-647"
+					type="subject">files</term>, filled in with only the most necessary data, and each</p>
+			<pb n="12" facs="EHRI-ET-YV3549219_12.jpg"/>
+			<p>- 12 -</p>
+			<p>applicant received a few shillings so that he could buy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833"
+					type="subject">bread</term> for himself and his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject"
+					>family</term>. In this way we worked – undisturbed, in a manner of speaking - until Friday 9 o'clock in the morning.</p>
+			<p>Then the house was occupied by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Secret State Police</orgName>,
+				the individual offices were searched, desks and files were examined: the clients making requests - their number was in the hundreds -
+				were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-647" type="subject">photographed</term> together with us officials.
+				At 10 a.m., the telephone line stopped and the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>
+				took over the house telephone. The rumor had quietly reached us that the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">presidium</orgName> and the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">office directorate</orgName> were under the strictest <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1122" type="subject">surveillance</term>. The eviction order came at 12
+				noon. With all the tragedy, strange scenes took place here too. Our <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">cashier</orgName>, who was cross-examined from morning until noon,
+				was finally sent out of the room. Not knowing what he was saying, he turned around at the door and said, <q>Would the gentlemen like
+					some more information?</q> This naive question cost him 7 weeks in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">prison</term>. From that day on, the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName> was closed for about 5 weeks. We leading
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">officials</orgName> met daily in a little Tschoch (café)
+				and - when this was closed - in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject">Jewish
+				café</term>. We had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1431" type="subject">breakfast</term> there, met by
+				chance, and in this way we communicated with each other, as it was also forbidden to meet in the apartments.</p>
+			<p>The operation of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish homes</term> continued.
+				We were anxious to provide the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term> with the
+				necessities, both materially and in terms of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1431" type="subject"
+					>victuals</term>. I relieved them of their dealings with the various <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">authorities</orgName> in order to relieve them of the
+				inconvenience and to make things easier for the wardens, who were well able to carry out their educational duties but were unable to
+				communicate properly with the changed <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">authorities</orgName>.
+				The money to run the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term> we took from the
+				only office on the side of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">congregation</orgName>, the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">cemetery office</orgName>, since we were all of a sudden
+				destitute. After the house of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Jewish community</orgName>
+				was closed, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">cemetery office</orgName> was located in a
+				laundry shop diagonally opposite, until the reopening of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399"
+					>community</orgName>.</p>
+			<p>After a few days the representatives of <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">JOINT</orgName> came to
+					<placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> and provided us with the necessary means.</p>
+			<p>The first house occupied by the National Socialists was the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869"
+					type="subject">apprentice home for girls</term>. But we soon managed to bring some of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">girls</term> back to the home. Particular difficulties
+				arose in the 13th district in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> for
+				abandoned Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">girls</term>. In addition to the
+				strictly Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term>, there was an
+				interdenominational <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">infant and toddler home</term>
+				in <placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> in the <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">19th district</placeName>, a foundation of Baroness Wertheimstein for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> of all denominations. This <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">home</term> was given to us one day by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">magistrate</orgName>, to which we had good relations - in spite of
+				the change of flags - as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish home</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term></p>
+			<pb n="13" facs="EHRI-ET-YV3549219_13.jpg"/>
+			<p>- 13 -</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were to be accommodated elsewhere
+				immediately. 24 hours after this announcement, the director of the house informed me that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> had been occupied by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-780">National Socialist Women’s Party</orgName> and that all Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were to be taken over by the evening.
+				I immediately drove out to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> and tried
+				to get the deadline extended, as it was not possible to accommodate <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1206" type="subject">infants</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1206" type="subject">toddlers</term> in one place with <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">schoolchildren</term>. With difficulty I managed to
+				get a 24-hour postponement. The Jewish owners of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject"
+					>villas</term>, some of which were occupied, did not dare to make them available to us so as not to draw attention to themselves.
+				So the only solution we had was to occupy the infirmary of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869"
+					type="subject">boys’ orphanage</term>, a temporary solution, and we prayed that no <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term> would fall <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term> there within the next few days. We
+				therefore tried to find a roof for our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> as soon as possible. When the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Jewish
+					community</orgName> was reopened, we immediately tried to free a foundation house for this purpose. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">house</term> belonging to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Theresien-Kreuzer-Verein</term>, a foundation from
+					<date when="1847">1847</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Untere Augartenstrasse</placeName>,
+				seemed to be the most suitable and the least investment-needy. We had bought furniture from emigrating kindergarten teachers, had
+				received gifts, the rooms of the house were disinfected and freshly painted and in a few days the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> should have moved in. Then the home
+				caretaker telephoned: the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> had been
+				occupied. After 4 months we got it back. Our year-long wish to own a Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">infant and toddler home</term> had thus come true. We
+				have adapted the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">home</term> in the simplest and
+				cheapest way possible to create a healthy environment for our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">little ones</term>. The negotiations for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-870"
+					type="subject">epidemic hospitals</term> were conducted with a body which I believe is unknown to <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> Jews, namely the Stillhaltekommissär
+				(liquidation commissar). I hardly knew more about this institution than you did when one day I received a summons to our <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Foundation House</orgName> on the <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Schottenring</placeName>, a house in which we often had beautiful and cheerful
+				meetings of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004668">WIZO</orgName>. In the same room, a man was
+				now sitting plain-clothed, and he was the liquidation commissar. He claimed that the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">emigration of children</orgName> proceeded far too slow for them.
+				Since we had not yet sent a single <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term>
+				away, I could only agree with this accusation, but I made it so clear to him that our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were willing to leave immediately if
+				they had an entry permit, that he never wanted to talk to me again. I only had to deal with him by telephone a few more times, and
+				then we agreed quickly. Since the reopening of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Jewish
+					community</orgName>, client traffic in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-312" type="subject"
+					>welfare</term> sector continued in a more intensive manner.</p>
+			<pb n="14" facs="EHRI-ET-YV3549219_14.jpg"/>
+			<p>- 14 -</p>
+			<p>We tried to meet the demands of the applicants. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-816" type="subject"
+					>income</term> opportunities of the people worsened, but <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">apartments</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">food</term>
+				had to be paid for. A register was established in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-312"
+					type="subject">youth welfare</term> service for those <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term> whose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>parents</term> wanted them to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigrate</term>.
+				The registration form we worked out at the time has been retained for the individual countries, with very insignificant changes.
+				Approximately 10,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were
+				registered. Spring came and the time when we usually would make arrangements for our children to send them to the countryside. We
+				looked for opportunities to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigrate</term>, we
+				looked for summer places and found 100 in <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName>
+				and a few weeks later 15 in <placeName ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norway</placeName>. The <placeName
+					ref="http://www.geonames.org/2658434/switzerland.html">Swiss</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> came back on time. We only got a
+				connection with the French-speaking part of <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName>
+				by founding sponsorships, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-354">OSE</orgName> was particularly
+				helpful in these cases. From the <placeName ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norwegian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, however, we never heard again, i.e.
+				we often received reports from them, but their addresses could no longer be determined, and the <placeName
+					ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norwegian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">consulate</term> asked me every 14 days to finally
+				bring the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> back to <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> since the <placeName
+					ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norwegian</placeName> authorities could not locate them. We have
+				tried to bring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> to <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>, which despite
+				many offers of particularly nice and gifted <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> was only possible in very few cases. Only after the 10th of November did a more comprehensive <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">children’s campaign</orgName> take place. But this will be
+				mentioned elsewhere.</p>
+			<p>Meanwhile, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish life</term> and the
+				continuation of the individual institutions was more or less exciting. In the Kol-Nidre Night the Jews of the <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">18th and 19th districts</placeName> had been given the order to clear the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">apartments</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">houses</term> respectively, and also our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">girls’ orphanage</term> should be empty within 24
+				hours. This last order, however, seemed impracticable due to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">scarlet fever</term> quarantine that I had stretched out for a long time. In the course of the Yom Kippur, the
+				efforts of Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Loewenherz</persName> and Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176">Rothenberg</persName> had succeeded in getting <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Hauptsturmführer</term>
+				<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> to take countermeasures. In the
+				meantime, the Jews had to enjoy various smaller and larger skirmishes. The great <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Leopoldstadt</placeName> had been <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">destroyed</term> by a firebrand, old and noble Jews
+				had to stand with billboards <q>Don’t buy from Jews</q> in front of the shops. The library of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004643">Rabbinical Seminary</orgName> had already been <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">confiscated</term>, and the same fate threatened the
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">community library</orgName>. As part of a</p>
+			<pb n="15" facs="EHRI-ET-YV3549219_15.jpg"/>
+			<p>- 15 -</p>
+			<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">stateless persons</term> action, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young people</term> from our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">apprentice’s home</term> and from the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">apprentice girls’ home</term> were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term>; however, we succeeded in bringing the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> back to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">homes</term> soon. Following a suggestion by Dr.
+					<persName ref="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176">Rothenberg</persName>, the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Central Office for Jewish Emigration</orgName> had meanwhile been
+				founded on the basis of an elaborate plan drawn up by Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176">Rothenberg</persName>. Its purpose was to make it
+				possible for people who were trying to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject"
+					>emigrate</term> to obtain a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passport</term>.
+				In the beginning, the first confirmation had lost its validity until the last had been reached. In the house of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">kindergarten</term> Wohlfahrt, rooms were made
+				available for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004610">Youth Aliyah</orgName>. There about 100
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young people</term> had their courses and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">meals</term> and were prepared for the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004610">Aliyah</orgName>. At this time, we started a particularly
+				intensive work together with the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004902">Palestine Office</orgName>,
+				a work which was inspired by mutual trust and by love for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827"
+					type="subject">young people</term>. <date when="1938-11-10">November 10th</date> had come with many worries. And for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">Youth Welfare</term> this meant the end of our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">day care center</term>, which was located opposite the
+				Brown House, and which could only be reopened several weeks later in another <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">foundation house</term>. After <date when="1938-11-10"
+					>November 10th</date>, the foreign countries, especially <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> and <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName>, where Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000255">Loewenherz</persName> and Dr. <persName
+					ref="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-4176">Rothenberg</persName> were at that time, intervened
+				with generous and active assistance. We were given the task to arrange the first <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">children’s train</orgName>, an organizational task that forced us
+				to work for days and nights without interruption, and which had to work out in every detail. From the mass of registrations I
+				suggested those <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> whose <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">departure</term> was most important for health,
+				psychological and material reasons. We checked the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term>, they were examined by a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject"
+					>physician</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">passports</term> were
+				obtained, luggage prescribed and checked, an indescribable amount of meticulous work, which was necessary, however, so that on 10
+					<date when="1938-12-10">December 1938</date> ca. 700 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term> could leave, among them 1/3 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-376"
+					type="subject">racial Jews</term>, who had been selected by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-1181">Society of Friends</orgName>. Many of these <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> had lived in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish centers</term>, and the image of destruction
+				stood before their frightened eyes. Many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> could say goodbye only to their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>mothers</term>, as the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">fathers</term> were in
+				the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>. It was a horrible
+				sight when these 700 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mothers</term> said goodbye to
+				their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> at the <placeName
+					ref="http://www.geonames.org/2775371/huetteldorf.html">Hütteldorf</placeName> terminus of the light rail. Of course, they were not
+				permitted to enter the station building. The mood of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+					type="subject">children</term> was one of joy and hope. They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880"
+					type="subject">traveled</term> towards their happiness with the belief that they could do something for their <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> from outside of the country. In a few
+				stray cases they succeeded. However, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+					>parents</term> had the opportunity to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-230" type="subject"
+					>flee</term> across one of the nearest borders without worrying. After this <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">transport</orgName>, we were supposed to arrange another one with
+				1000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. But this did not happen. Every
+				month, we handled a considerable number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term> for <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"
+					>English</placeName>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">transports</orgName>, who</p>
+			<pb n="16" facs="EHRI-ET-YV3549219_16.jpg"/>
+			<p>- 16 –</p>
+			<p>had been requested for <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">England</orgName> by friends and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">relatives</term>. In cases involving the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> of expellees and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">stateless</term> persons, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-875" type="subject">committees</term> in <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> and <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> were particularly kind to us. The
+					<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Dutch</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children’s</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-875" type="subject">committee</term> in particular was extremely helpful
+				and took over our transports at the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+					>German</placeName> border and guided them as far as <placeName
+					ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName>. Mrs.
+					<persName ref="#ehri_et_wijsmuller_meijer_geertruida">Geertruida Wijsmuller-Meijer</persName> was also very helpful in some <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-823" type="subject">adoption</term> cases. Two groups of 51 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> each were sent to <placeName
+					ref="http://www.geonames.org/3017382/republic-of-france.html">France</placeName> and accommodated under particularly favourable
+				conditions. Some groups went to <placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> and
+					<placeName ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Sweden</placeName>, only <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> did not participate in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>'s action in any way. We hoped that the
+				Wagner Bill would bring a solution to our whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children’s</term> question. Then one day two <placeName ref="http://www.geonames.org/6252001/united-states.html"
+					>Americans</placeName> from <placeName ref="http://www.geonames.org/4560349/philadelphia.html">Philadelphia</placeName> appeared
+				and told us the fairy tale that they had 50 free affidavits with them and that in a short time, about 3 weeks, they planned to travel
+				to <placeName ref="http://www.geonames.org/6252001/united-states.html">America</placeName> with 50 healthy and gifted <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Viennese</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. They contacted the <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">American</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">consulate</term> in <placeName
+					ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> for this purpose, and one of them, an <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">American</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">physician</term>, examined the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in detail - and then they travelled to
+					<placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> for confirmation and from there to <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> to start their journey to <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> on the <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-232" type="subject">ship President Harding</term></q>.</p>
+			<p>So the summer of <date when="1939">1939</date> had slowly approached. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">boys’ orphanage</term> in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Probusgasse</placeName> had long since been sold and was to be converted into a
+				chocolate <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> at the end of <date
+					when="1939-12">December</date>. Then came the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject"
+					>war</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">house</term> was occupied by
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject">air-raid</term> protection, in the beginning
+				the first group lived together with our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+					>children</term>, then the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">house</term> had to
+				be cleared within 24 hours. We solved this unpleasant task in a good mood for the affected <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, avoiding any kind of attention. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> and inventory were moved to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Merores Orphanage</term>.</p>
+			<p>In the meantime the number of clients in all departments of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-313"
+					type="subject">welfare</term> had increased. The need forced almost all Jews living in <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> to call on the services of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-313" type="subject">welfare</term> office, and we very often had to
+				reencounter people among the clients who themselves had helped with full hands before the change. It is not necessary to mention that
+				we tried to help everyone - and especially these people - with all means at our disposal to overcome the hardships of the moment. But
+				it is difficult to say which hours were the most difficult. Whether when we were commissioned by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-006541">authorities</orgName> to put together <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> and, in order to avoid unnecessary
+				hardship, we supported Nazi <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany's</placeName>
+				attempt to carry out Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173" type="subject">colonization</term> in
+					<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. - As the leader of such an
+				investigation group, I had to deal with 800 people in one afternoon in my office. At that time it became apparent</p>
+			<pb n="17" facs="EHRI-ET-YV3549219_17.jpg"/>
+			<p>- 17 -</p>
+			<p>that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">younger male population</term> had already
+				completely <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">migrated</term> from <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">Austria</placeName>. On the part of the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002399">Jewish community</orgName> and the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004902">Palestine Office</orgName>, 4 people had been sent to <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> by the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Central Office for Jewish Emigration</orgName>, who inspected the
+				area where this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173" type="subject">Jewish colonization</term> was to
+				take place. They came back quite empty-handed because the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032"
+					type="subject">military authorities</term> had enough to do with the population of the country after the lost <placeName
+					ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName> war and were not willing to deal with the
+					<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Jewish question</placeName> there. In the meantime there
+				was another <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">Polish Action</term></q>, and 1,100
+				people were snatched, some of them from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject">old
+					people's homes</term> that existed now in the various former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869"
+					type="subject">youth homes</term>, and sent to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp"
+					>Buchenwald</placeName>. In the winter of <date when="1939">1939</date>/<date when="1940">40</date>, 35,000 people were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">fed</term> in 15 places.</p>
+			<p>At that time, about 40-45,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> were still
+				living in <placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>. These are the last figures that were
+				available to me on the <date when="1940-03-12">12th of March 1940</date>, the day of my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigration</term>. It was at this time that <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> began to react to our applications, which numbered
+				many hundreds, and I almost felt that it was a farewell gift that we received the first permit, albeit for only a few <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, to <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-002891">emigrate</orgName> to <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">America</placeName> in those days.</p>
+			<p><persName ref="#ehri_et_schwarz_rosa_rachel">Rosa Rachel Schwarz</persName></p>
+			<p>(<date when="1944-05">May 1944)</date><note place="bottom">Handwritten addition</note></p>
+		</body>
+	</text>
+</TEI>

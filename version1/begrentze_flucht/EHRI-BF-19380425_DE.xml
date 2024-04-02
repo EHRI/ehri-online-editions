@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-03-09T15:11:41+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19380425_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notiz über illegale EmigrantInnen aus Österreich im ersten Monat nach dem "Anschluss" und deren Aufteilung auf
+                    Hilfsorganisationen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+                        <idno>Sign. 225-1186-17/132</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-17/132. <textLang mainLang="cs">Original auf
+                        Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Brünn (Brno)</placeName>
+                        <location>
+                            <geo>49.19522 16.60796</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3078610/brno.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/Brno"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/Austria"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/Czechoslovakia"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Znaim (Znojmo)</placeName>
+                        <location>
+                            <geo>48.8555 16.0488</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3061344/znojmo.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/Znojmo"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Nikolsburg (Mikulov)</placeName>
+                        <location>
+                            <geo>48.80556 16.6378</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3070720/mikulov.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/Mikulov"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Lundenburg (Břeclav)</placeName>
+                        <location>
+                            <geo>48.75897 16.88203</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3078773/breclav.html"/>
+                            <link type="desc" target="http://en.wikipedia.org/wiki/B%C5%99eclav"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Emigrant / Emigrantin</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-302"/>
+                        </linkGrp></item>
+                    <item><name>Illegale Grenzüberschreitung</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+                        </linkGrp></item>
+                    <item><name>Staatenloser / Staatenlose</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1217"/>
+                        </linkGrp></item>
+                    <item><name>Entzug der Staatsangehörigkeit</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-659"/>
+                        </linkGrp></item>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/admin/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                    <item><name>Emigration</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+                        </linkGrp></item>
+                    <item><name>Flüchtling</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+                        </linkGrp></item>
+                </list>
+                <listOrg>
+                    <org xml:id="EHRI-BF-19380425_2">
+                        <orgName>Landesbehörde Brünn</orgName>
+                    </org>
+                    <org>
+                        <orgName>Polizeidirektion</orgName>
+                        <linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3740"/>
+                        </linkGrp>
+                    </org>
+                    <org xml:id="ehri_bf_liga_fuer_menschenrechte">
+                        <orgName>Liga für Menschenrechte</orgName>
+                    </org>
+                    <org xml:id="ehri_bf_solidaritaet">
+                        <orgName>Solidarität (Solidarita)</orgName>
+                        <note><p>Kommunistische Hilfsorganisation in der Tschechoslowakei.</p></note>
+                    </org>
+                    <org xml:id="ehri_bf_soz_dem">
+                        <orgName>Sozialdemokratisches Hilfskomitee</orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date when="1938-04-25">25. April 1938</date>
+                <orgName ref="#EHRI-BF-19380425_2">Landesbehörde Brünn</orgName>
+                <placeName ref="#EHRI-BF-19380425_1">Brünn</placeName><idno>EHRI-BF-19380425</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="fluechtlingspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="EHRI-BF-19380425_01.jpg"/>
+            <p><!-- [[LANDESBEHÖRDE IN <placeName ref="http://www.geonames.org/3078610/brno.html"
+          >BRÜNN</placeName>]]</p>
+      <p>Verhandlungsnummer 6366/I/1. --></p>
+            <p><placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreichische</placeName>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term>, Ankunft in der <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>.</p>
+            <p>Am <date when="1938-04-25">25. April 1938</date>.</p>
+            <p>An das Präsidium des Innenministeriums.</p>
+            <p>Nach dem Bericht der <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3740"
+                    >Polizeidirektion</orgName>
+                <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> kamen in der Zeit vom <date when="1938-03-11">11.
+                    März</date> bis zum <date when="1938-04-14">14. April 1938</date> insgesamt 48 <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> in den Bereich dieser Behörde, die
+                größtenteils die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslow.</placeName> Grenze bei <placeName
+                    ref="http://www.geonames.org/3061344/znojmo.html">Znaim</placeName>, <placeName ref="http://www.geonames.org/3070720/mikulov.html"
+                    >Nikolsburg</placeName> und <placeName ref="http://www.geonames.org/3078773/breclav.html">Lundenburg</placeName>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">übertreten</term> haben.</p>
+            <p>
+                <del>Aus den protokollarischen Verhören dieser Personen geht hervor, dass sie die </del>
+                <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">
+                    <del>tschechoslow.</del>
+                </placeName>
+                <del> Grenze in den Morgenstunden, gegen Mittag oder in den Abendstunden </del>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">
+                    <del>übertreten</del>
+                </term>
+                <del> haben</del>
+                <del>, ohne dass sie jemand von der </del>
+                <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">
+                    <del>tschechoslow.</del>
+                </placeName>
+                <del> Grenzkontrolle angehalten hat.</del>
+            </p>
+            <p>
+                <hi rend="u">Ein großer Teil dieser</hi>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term>
+                <hi rend="u"> besitzt</hi>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">keine Staatsangehörigkeit</term>
+                <hi rend="u">, die ihnen in</hi>
+                <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-659" type="subject">entzogen</term>
+                <hi rend="u"> wurde, obwohl sie niemals politisch tätig waren. Ausländer mit anderer Staatsangehörigkeit als der</hi>
+                <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName>
+                <hi rend="u"> werden ebenfalls grundlos durch Abschiebung an die</hi>
+                <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslow.</placeName>
+                <hi rend="u"> Grenze befördert und durch die</hi>
+                <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName>
+                <hi rend="u"> Grenzwache auf das hiesige Gebiet abgedrängt.</hi>
+            </p>
+            <p>Von diesen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> steht die größte Zahl
+                unter dem Patronat der <orgName ref="#ehri_bf_liga_fuer_menschenrechte">Liga für Menschenrechte</orgName> (insgesamt 27), weiterhin
+                der <orgName ref="#ehri_bf_solidaritaet">Solidarität</orgName> (11), der <orgName ref="#ehri_bf_soz_dem">Soz. Dem.</orgName> (1) und
+                die übrigen sind ohne Patronat (4). Die <orgName ref="#ehri_bf_liga_fuer_menschenrechte">Liga für Menschenrechte</orgName> hat
+                meistenteils <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> ohne
+                Staatsangehörigkeit und <term type="subject" ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-864">Juden</term>. Die
+                    <orgName ref="#ehri_bf_solidaritaet">Solidarität</orgName> unterstützt <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> kommunistischer Gesinnung (früher
+                Soz. Dem).</p>
+            <p>Die übrigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term>, die unter keinem
+                Patronat stehen, sind überwiegend <term type="subject" ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-864"
+                >Juden</term>, die keine Gründe zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+                    >Emigration</term> nachweisen konnten und lediglich vor Angst aus <placeName
+                    ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">geflüchtet</term> sind.</p>
+            <p>Von der Gesamtzahl von 48 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> haben
+                sich bereits aus <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> vier Personen entfernt, das heißt zum
+                    <date when="1938-04-14">14. April 1938</date> waren in <placeName ref="http://www.geonames.org/3078610/brno.html"
+                    >Brünn</placeName> insgesamt 44 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject"
+                    >Emigranten</term>, <del>deren Namensliste beigefügt wird.</del></p>
+            <pb n="2" facs="EHRI-BF-19380425_02.jpg"/>
+            <p>Gegen alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term>, die <term
+                    ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegal</term> die <placeName
+                    ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslow.</placeName> Grenze übertreten haben, wurde ein
+                Strafverfahren eingeleitet.</p>
+            <p>Nach Absprache mit den erwähnten Vereinigungen wurde allen diesen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302"
+                    type="subject">Emigranten</term> von der <orgName
+                    ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3740">Polizeidirektion</orgName>
+                <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> eine <hi rend="u">Frist von 14 Tagen zum vorübergehenden
+                    Aufenthalt gewährt, während der diese Vereinigungen versuchen den größten Teil der</hi>
+                <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term><hi rend="u"> in andere europäische
+                    Staaten resp. nach Übersee umzusiedeln.</hi></p>
+            <p>Für den Landespräsidenten:</p>
+            <p>[Unterschrift]</p>
+            <p><!--An das <orgName>Ministerium für auswärtige Angelegenheiten</orgName></p>
+      <p>/II.Sektion/ --></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-WL1375B307_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Anonymous, letter regarding emigration from Czechoslovakia after the November Pogrom and the lengthy visa process</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Christine Schmidt</persName>
+				</author>
+				<author>
+					<persName>Daniela Bartáková</persName>
+				</author>
+				<author>
+					<persName>Jessica Green</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
+							Genocide</repository>
+						<collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_1375#desc-eng">Kristallnacht Reports (coll.
+							1375)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Kristallnacht Reports (coll. 1375), B. 307. <textLang
+						mainLang="de">Original in German.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Netherlands</placeName>
+						<location>
+							<geo>52.25 5.75</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Netherlands"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>New York</placeName>
+						<location>
+							<geo>40.71427 -74.00597</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/5128581/new-york-city.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/New_York_City"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>United States of America</placeName>
+						<location>
+							<geo>39.76 -98.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6252001/united-states.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Vereinigte_Staaten"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Czechoslovakia</placeName>
+						<location>
+							<geo>50.08292 14.46672</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Czechoslovakia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dachau concentration camp</placeName>
+						<location>
+							<geo>48.2699 11.4683</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Jerusalem</placeName>
+						<location>
+							<geo>31.76904 35.21633</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/281184/jerusalem.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Jerusalem"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Amsterdam</placeName>
+						<location>
+							<geo>52.37403 4.88969</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2759794/amsterdam.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Amsterdam"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rotterdam</placeName>
+						<location>
+							<geo>51.9225 4.47917</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2747891/rotterdam.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Rotterdam"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Hamburg</placeName>
+						<location>
+							<geo>53.57532 10.01534</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2911298/hamburg.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Hamburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Berlin</placeName>
+						<location>
+							<geo>52.52437 13.41053</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2950159/berlin.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Berlin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Detroit</placeName>
+						<location>
+							<geo>42.33143 -83.04575</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/4990729/detroit.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Detroit"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Grand Duchy of Luxembourg</placeName>
+						<location>
+							<geo>49.75 6.16667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2960313/grand-duchy-of-luxembourg.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Luxembourg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kingdom of Sweden</placeName>
+						<location>
+							<geo>62 15</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2661886/kingdom-of-sweden.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Sweden"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Brazil</placeName>
+						<location>
+							<geo>-10 -55</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3469034/federative-republic-of-brazil.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Brazil"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Frankfurt am Main</placeName>
+						<location>
+							<geo>50.11552 8.68417</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2925533/frankfurt-am-main.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Frankfurt"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Oriental Republic of Uruguay</placeName>
+						<location>
+							<geo>-33 -56</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3439705/oriental-republic-of-uruguay.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Uruguay"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Argentine Republic</placeName>
+						<location>
+							<geo>-34 -64</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3865483/argentine-republic.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Argentina"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Kristallnacht, 1938</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-360"/>
+						</linkGrp></item>
+					<item><name>Emigration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-203"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item><name>Theft</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-309"/>
+						</linkGrp></item>
+					<item><name>Synagogue burning</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-646"/>
+						</linkGrp></item>
+					<item><name>Letters</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-843"/>
+						</linkGrp></item>
+					<item><name>Ships</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-129"/>
+						</linkGrp></item>
+					<item><name>Radio broadcasts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-850"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Occupation authorities</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1032"/>
+						</linkGrp></item>
+					<item><name>Government ministries and offices</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1110"/>
+						</linkGrp></item>
+					<item><name>Jewish holidays</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-754"/>
+						</linkGrp></item>
+					<item><name>Newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1069"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Schools</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1134"/>
+						</linkGrp></item>
+					<item><name>Pogroms and riots</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-346"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Destruction</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-356"/>
+						</linkGrp></item>
+					<item><name>Bank accounts</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-931"/>
+						</linkGrp></item>
+					<item><name>Banks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-930"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Books</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-683"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Passports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+					<item><name>Visas</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1146"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Healthcare</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-280"/>
+						</linkGrp></item>
+					<item><name>Old people's home</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-314"/>
+						</linkGrp></item>
+					<item><name>Refugee camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-321"/>
+						</linkGrp></item>
+					<item><name>Refugees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item><name>Wartime period</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1348"/>
+						</linkGrp></item>
+					<item><name>Angehӧrigen</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-121"/>
+						</linkGrp></item>
+					<item><name>Cemeteries</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-747"/>
+						</linkGrp></item>
+					<item><name>Graves</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-748"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Prayers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-737"/>
+						</linkGrp></item>
+					<item><name>Trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-940"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Confiscation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-584"/>
+						</linkGrp></item>
+					<item><name>Prisons</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-669"/>
+						</linkGrp></item>
+					<item><name>Transportation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-939"/>
+						</linkGrp></item>
+					<item><name>Release from detention</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-619"/>
+						</linkGrp></item>
+					<item><name>Laws</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-950"/>
+						</linkGrp></item>
+					<item><name>Kreisleiter</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1178"/>
+						</linkGrp><note><p>A leader of a "Kreis" (county) in the Nazi party.</p></note></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Embassies and consulates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1118"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Registration</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1136"/>
+						</linkGrp></item>
+					<item><name>Shipping companies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-926"/>
+						</linkGrp></item>
+					<item><name>Businesses</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-924"/>
+						</linkGrp></item>
+					<item><name>Finanzämter</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1153"/>
+						</linkGrp></item>
+					<item><name>Investigations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1135"/>
+						</linkGrp></item>
+					<item><name>Transfer of funds</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-219"/>
+						</linkGrp></item>
+					<item><name>Finance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-934"/>
+						</linkGrp></item>
+					<item><name>Taxes and levies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1047"/>
+						</linkGrp></item>
+				</list>
+				<listOrg>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>Schutzpolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-428"/>
+						</linkGrp>
+						<note><p>City or municipal police.</p></note>
+					</org>
+					<org>
+						<orgName>Schutzstaffel</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-429"/>
+						</linkGrp>
+						<note><p>Founded in 1925</p><p>The Schutzstaffel was a small detachment was formed in 1925 to provide security for Hitler.
+								Beginning in 1929, under the tutelage of Heinrich Himmler, the SS was enlarged and became an independent entity
+								(1944-07) within the Nazi Party. In 1934, it effectively eliminated its rival, the SA, during the Night of the Long
+								Knives. The SS was composed of the Gestapo, Kriminalpolizei, Waffen-SS,and Totenkopfverbaende. All police agencies
+								were brought under the control of the SS in 1936. The Nuremberg Tribunal declared the SS to be a criminal organization
+								for the ‘persecution and extermination of Jews’, brutality and murder of inmates in concentration camps, excesses in
+								their administration of occupied territories, exploitation of slave labor, and mistreatment of POWs.</p></note>
+					</org>
+					<org>
+						<orgName>Nationalsozialistische Frauenschaft</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-780"/>
+						</linkGrp>
+						<note><p>Founded in 1931</p><p>The Nationalsozialistische Frauenschaft was founded in 1933, from 1935-03 the Frauenschaft was
+								officially part of the NSDAP.</p></note>
+					</org>
+					<org>
+						<orgName>Devisenstelle</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-005233"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1938-12-29">1938-12-29</date>, <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"
+					>Netherlands</placeName>, <placeName ref="http://www.geonames.org/5128581/new-york-city.html">New York</placeName>, <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">United States</placeName>, <placeName
+					ref="http://www.geonames.org/8505031/czechoslovakia.html">Czechoslovakia</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Third Reich</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-360">Kristallnacht, 1938</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203">Emigration</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758">Synagogue</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-309">Theft</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-646">Synagogue burning</term>
+				<idno>EHRI-ET-WL1375B307</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>A letter from an unidentified person and their mother after they emigrated from Czechoslovakia to New York City in December 1938
+					following the events of the November Pogrom. The author describes the destruction of synagogues and Jewish properties they
+					witnessed on November 10, 1938, and their subsequent journey to the US following a lengthy process to secure visas.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-WL1375B307_01.jpg"/>
+			<p>B. 307</p>
+			<p><placeName ref="http://www.geonames.org/5128581/new-york-city.html">New York City</placeName>, <date when="1938-12-29">29. Dez.
+					1938</date></p>
+			<p>Meine Lieben,</p>
+			<p>Unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Luftpostbriefe</term> von hier werdet Ihr
+				inzwischen erhalten haben, woraus Ihr entnehmen konntet, dass wir nun hier gut angekommen sind. In diesem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> erwӓhnte ich, dass ich Euch eigentlich
+				auf dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">Schiff</term> schreiben wollte, was jedoch
+				infolge einer ziemlich stürmischen Überfahrt nicht geschehen ist. Ich will nun mein Vorhaben nachholen und Euch schildern, was seit
+				der Krise mit der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechei</placeName> bei uns vorgegangen ist.
+				Dies kann ich natürlich nur in ganz grossen Zügen tun, da ich sonst einen ganzen Roman schreiben müsste.</p>
+			<p>Wie Ihr wisst, sind wir am <date when="1938-10-10">10.Oktober</date> nach X. Übergesiedelt. Der Grund hierfür war, dass ich in Z. unter
+				keinen Umstӓnden mehr bleiben wollte. Als die Mobilmachung angeordnet wurde, ging in Z. die Rederei, sofern es zum Krieg kommt,
+				bekommen die Juden den Hals abgeschnitten, da sie am Kriegsausbruch die Schuldigen seien. Dies wurde verschiedenen Bekannten von
+				anstӓndigen Leuten zugetragen und hatten verschiedene Bekannte in diesem Tagen auch Z. verlassen. Wir machten dies jedoch nicht, doch
+				war man Tag und Nacht am <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-850" type="subject">Radio</term>, was kommen
+				wird. Zunӓchst betrachtete ich diese Sache als Rederei, und hat sich ja alles zum Guten reregelt, da es nicht zum Krieg kam. Daraufhin
+				habe ich mich kurzerhand entschlossen, nur noch mӧbliert zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">wohnen</term>, damit man bei derartigen Situationen beweglicher ist. Wir stellten also unsere Mӧbel beim Spediteur
+				unter und mieteten zwei mӧblierte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Zimmer</term>. In
+				X. war ich immer hinterher bei dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">Ӓmtern</term>
+				[sic], dass unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+					>Auswanderungsvorbereitungen</term> vorwӓrts gehen. Dies ist aber alles viel schwieriger und langweiliger wie früher, da man auf
+				viel mehr <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">Ӓmtern</term> Sachen erledigen muss. Wir
+				hatten auf den <date when="1938-12-28">28. Dez.</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">Schiff</term> belegt [sic] und wollten mit A.
+				zusammen fahren. Dies haben wir jedoch infolge der Ereignisse geӓndert.</p>
+			<p>Bevor ich nun von den Ereignissen am <date when="1938-11-10">10. Nov.</date> (genau 4 Wochen nach unserer Übersiedlung nach X) erzӓhle,
+				mӧchte ich erwӓhnen, dass auf dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">Schiff</term> eine
+				einfache aber ganz besonders erhebende <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject"
+					>Chanuka</term> Feier [sic] stattfand. Ein Herr, der schon fünf Jahre in <placeName
+					ref="http://www.geonames.org/281184/jerusalem.html">Jerusalem</placeName> lebt und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">Redakteur</term> gewesen sein soll, hielt eine
+				Ansprache und dessen Motto mӧchte ich vor meiner Schilderung als Überschrift nehmen und zwar auch deshalb, weil Du lb.... und auch Du
+				lb... geschrieben haben, wir wollen vergessen was war. Sicherlich muss man vorwӓrts schauen, aber ich mӧchte Euch doch, nachdem Ihr
+				das Folgende gelesen habt, anheim stellen, ob es nicht richtig ist, das Gewesene nicht zu vergessen, sondern dies auch die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinder</term> spӓerhin wissen zu lassen.</p>
+			<p>Das Motto der Rede des Herrn lautete:</p>
+			<p><q>Kinder Israels vergesset nicht, was Amalek Euch angetan hat.</q></p>
+			<p>Bisher haben wir dies nur aus der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Schule</term>
+				gewusst, aber jetzt wissen wir, was es heisst, einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-346" type="subject"
+					>Pogrom</term> durchzumachen, bei dem die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+					>Tempel</term> zerstӧrt wurden. Am <date when="1938-11-10">10. Nov.</date> Fuhr ich morgens mit dem Auto zum Spediteur in die
+				Stadt, um wegen der Lifts verschiedenes zu erledigen. Ich fuhr an einem jüdischen Juweliergeschӓft vorbei und waren an demselben die
+				Lӓden geschlossen und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">Glasscherben</term> lagen auf
+				der Strasse. Ich dachte mir, es sei ein Einbruch gewesen, denn man hatte zu Hause moch nichts</p>
+			<pb n="2" facs="EHRI-ET-WL1375B307_02.jpg"/>
+			<p>gehӧrt, was vorgeht. Auf meinem Wege zum Spediteur sah ich dann, wie an den jüdischen Geschӓften die Fenster <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">eingeschlagen</term> wurden und die Ware teils auf die
+				Strasse <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">geworfen</term> wurde. Kurzum es begegneten
+				mir Trupps von ca. 15-20 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term> mit Ӓxten und
+				Pickeln dabei, welche die Sachen zusammen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject"
+					>schlugen</term> [sic]. Als ich beim Spediteur ankam, prasselten an der Klauss (fromme <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogue</term>), welche direkt neben diesem Büro
+				ist, die Fensterscheiben herunter. Innen war schon viel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-356"
+					type="subject">zerstӧrt</term> und schauten viel Neugierige durch die mit Ӓxten <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">zusammengeschlagene</term> Tür.</p>
+			<p>Dies war also zunӓchst mein Erlebnis am Morgen auf dem Wege in die Stadt. Man war zunӓchst der Meinung, die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term> und Geschӓfte werden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">zerstӧrt</term> und damit ist alles erledigt.
+				Daraufhin wollte ich aber schnellstens den Spediteur und auch unsere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">Schiffskarten</term> bezahlen, damit wir
+				gegebenenfalls plӧtzlich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">abreisen</term> konnten.
+				Ich telefonierte mit <placeName ref="http://www.geonames.org/2759794/amsterdam.html">Amsterdam</placeName> mit...., da man hӧrte, es
+				sei nicht so leicht, dort hinein zu kommen. Aus diesem Grunde buchte ich sofort um auf die <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Hollӓndische</placeName> Linie, da ich ja zur <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">Einschiffung</term> nach <placeName
+					ref="http://www.geonames.org/2747891/rotterdam.html">Rotterdam</placeName> musste. Bei Benutzung der Amerikanischen Linie hӓtte
+				nӓmlich passieren kӧnnen, das die <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"
+					>Hollӓnder</placeName> würden sagen, wir sollen uns in <placeName ref="http://www.geonames.org/2911298/hamburg.html"
+					>Hamburg</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">einschiffen</term>.</p>
+			<p>Inzwischen wurden die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-931" type="subject">Konten von Juden</term>
+				besonders überwacht. Über unser Guthaben in Z... zu verfügen, gelang erst nach verschiedenen Telefongesprӓchen und nachdem ich den
+				Spediteur auch veranlasst hatte, zu telefonieren. Trotzdem musste der Betrag für den Lift erst von der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> und <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Kreisleitung</orgName> genehmigt werden. Bei der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Bank</term> konnte man über sein Guthaben auch nicht
+				frei verfügen und musste man ӧfters kleine Betrӓge holen. Ebenso war von der Bankenvereinigung in <placeName
+					ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> ein Erlass heraussen, dass Juden ihre Effekten nicht
+				verkaufen dürften, um Kursstürze zu vermeiden. Effekten durfte man nur bis zu RM 1000.- Wert verkaufen, wenn auf dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-931" type="subject">Konto</term> kein Guthaben mehr war. Aus diesem Grunde
+				brauchte ich mein Guthaben auf, damit ich von meinen Papieren für RM 1000.- verkaufen konnte. Man musste sehen, wie man sich
+				durchlaborierte, da oft mittags schon wieder andere Anweisungen da waren als morgens.</p>
+			<p>Vom Spediteur fuhr ich nach <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hause</term> und brachte
+				die Neuigkeit aus der Stadt mit. Daraufhin holte ich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>Lebensmittel</term> zu unseren <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+					>Hausleuten</term>, da wir ja in Folge der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject"
+					>Demolierung</term> des jüdischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>Restaurants</term> nicht mehr wie bisher dort <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>essen</term> konnten. Einen guten Bekannten besuchte ich bei dieser Gelegenheit, da er zu Mutter telefoniert hatte, ich soll
+				nicht in die Stadt gehen. Als ich bei diesem war, kam noch ein Herr und brachte uns die Nachricht, dass diese Trupps nun auch in die
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Privatwohnungen</term> gingen und dort alles
+				kurz und klein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">schlagen</term> würden, und die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> würden <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term> werden. Daraufhin fuhr ich sofort zur
+				Mutter nach <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hause</term> und bereitete sie und
+				unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hausleute</term> auf einen evtl. Besuch
+				dieser Gesellschaft vor. Als ich hinter den Vorhӓngen dann auf Posten stand, kam auch solch ein Trupp durch unsere Strasse, ging
+				jedoch an unserem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Haus</term> vorbei und um die
+				Ecke. Drei Hӓuser neben unserer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> sahen
+				wir dann die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Bücher</term>, Kissen, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleider</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hausrat</term> etc. durch die Fenster auf die Strasse
+				fliegen. In diesen Minuten hiess es dann zu handeln. Mutter hatte keine Ruhe, ich soll nicht in der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> bleiben. Demzufolge fuhr ich eine
+				Zeitlang [sic] mit dem Auto kreuz und quer in X. umher und sah, dass diese <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">Zerstӧungen</term> in den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> nun voll im Gange waren. Ich stellte
+				nun das Auto zu anderen auf der Strasse, da man sich im Auto nicht mehr sicher fühlte.</p>
+			<p>Als ich nun zu Fuss mit der Aktentasche, in welcher unsere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141"
+					type="subject">Pӓsse</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visen</term>
+				für <placeName ref="http://www.geonames.org/6252001/united-states.html">USA</placeName>. waren [sic], umherlief, musste ich mich
+				natürlich zusammennehmen, um nicht wegzulaufen, wenn mir solch ein Trupp in die Quere kam. Es</p>
+			<pb n="3" facs="EHRI-ET-WL1375B307_03.jpg"/>
+			<p>blieb mir nichts anderes übrig, als mit den Zuschauern mitzulaufen und mich dann allmӓhlich wieder zu verduften. Obwohl ich mich immer
+				in der Nӓhe der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> aufhielt, war es mir
+				doch nicht recht, Mama allein bei den alten Leuten in der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+					type="subject">Wohnung</term> zu wissen. Ich telefonierte Mama und wir trafen uns in der Stadt, da es hier so ziemlich vorbei war
+				und die Trupps nun mehr in die Wohnviertel gingen. Mama kam sofort, für jeden eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Wurst</term> und ein Stück <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Brot</term> als <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Mittagessen</term> dabei. Wir fuhrern am Mӧbellager
+				vorbei und sahen, dass hier nichts passiert war. (Wie ich spӓter hӧrte, wollten sie dort auch alles zerstӧren, jedoch konnte dies der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">arische</term> Spediteur verhüten.) Nun
+				entschlossen wir uns nach Z. zu fahren, da wir ja nicht wussten, ob es in X. nur ӧrtliche Massnahmen seien. Ohnedies war Mutter an
+				diesem Tage zum Arzt nach Z. bestellt, da er die Wunde an der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280"
+					type="subject">Hand frisch verbinden</term> wollte. Wir riefen in Z an und erfuhren, dass B. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">Verhaftet</term> war. Wir wussten jedoch nicht, dass
+				alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> geholt werden sollten, denn sein
+				Angstellter war am Telephon. Unterwegs verzehrten wir das, was Mama mitgebracht hatte, im Auto. In Z. rief ich bei Bekannten an und
+				erfuhr, dass dort die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> auch geholt
+				seien und in den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> dasselbe war. Wir
+				entschlossen uns, zunӓchst einmal nach Y..... zu fahren und wenn es geht, von dort aus zum Arzt nach X. In Y erfuhren wir dann bei
+				...., dass die Juden sofort bis abends die Stadt verlassen müssen. ... war nicht geholt und gerade in unserem Beisein kam ein <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName>, bei dem er unterschreiben musste, dass er die Stadt
+				bis abends verlӓsst. Wir fuhren dann zu Onkel C., der auch am Packen war und nach ...... abends fuhr. (Er ist mit Tante inzwischen in
+					<placeName ref="http://www.geonames.org/4990729/detroit.html">Detroit</placeName> eingetroffen). C. und D. Nahmen wir nach X zu
+				deren Bekannten mit. Abends als wir wieder in X eingetroffen waren, riefen wir unsere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Hausleute</term> an und erfahren, dass dort in der
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> nichts vorgekommen war. Der Tag
+				war also zu Ende und wir fuhren in die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+					>Wohnung</term> zurück. Man hӧrte, dass nachmittags alles abgeblasen sei, jedoch traute man nicht, ob nicht doch noch jemand
+				kommen kӧnnte, der einen holt, da man ja vergessen wurde. Mitunter schlief man nicht, konnte nicht essen vor Aufregung oder man
+				schlief fest und konnte auch essen vor Aufregung.</p>
+			<p>Jetzt konnte man jedoch erst Elend sehen. Es kamen stӓndig leute aus ... in X und anderen Stӓdeten an, da doch die Juden aus dem Gau
+				.... ausgewiesen waren. Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject">Altersheim</term> in ...
+				wurde ausgebrannt und kamen die alten Leute nach ..... ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314"
+					type="subject">jüdische Altersheim</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject"
+					>Krankenhaus</term>. Es wurden Matratzen, Wӓsche etc. schnellstens gesammelt und das Heim, an dem nichts passiert war, war das
+				reine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-321" type="subject">Flüchtlingslager</term> und derart überfüllt,
+				dass die Matratzen auf dem Boden lagen für die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject"
+					>Flüchtlinge</term>. Wer Bekannte hatte ausserhalb, suchte zu diesen zu kommen um Schlafgelegenheit und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> zu haben. Bei uns kamen auch dauernd
+				Leute an, bis sie allmӓhlich Bekannte erreichen konnten. Die Leute kamen mit einem kleinen Kӧfferchen oder einem Bündel, - wie man im
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1348" type="subject">Krieg</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlingsbilder</term> gesehen hat. Es wird Euch
+				ja sicherlich interessieren, was in ..... alles vorgegangen ist und man hat so allerhand erfahren, da dauernd Leute kamen. Schlimm war
+				es, da viele nicht wusstenn, wo ihre <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-121" type="subject"
+					>Angehӧrigen</term> und Bekannten hinwaren. Es hat sich alles derart überstürzt, dass sich jeder um seine Sachen zunӓchst kümern
+				musste und oft hat man dann zufӓllig jemand getroffen, der einem wieder Auskunft geben konnte, wo die anderen waren. Von .... haben
+				wir nun folgendes durch die Bekannten die von ... kamen, erfahren.</p>
+			<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> stand morgens schon in <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">Flammen</term> und sei nachts schon Petroleum zu
+				diesem Zwecke hineingegossen worden. Nachdem diese <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject"
+					>ausgebrannt</term> war, wurde die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+					>Synagogue</term> gesprengt, dieselbe ist nur noch ein Steinahufen mit einem Bretterzaun umgeben. Am <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Friedhof</term> ist nichts geschehen</p>
+			<pb n="4" facs="EHRI-ET-WL1375B307_04.jpg"/>
+			<p>und waren wir Sonntags [sic] vor unserer Ausreise nochmals auf Papas <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748"
+					type="subject">Grab</term> und auf dem der Grosseltern. Am <date when="1938-12-06">6. Dezember</date> waren es zehn Jahre, dass
+				Papa <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">gestorben</term> ist und konnte ich diesmal
+				nicht zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Kaddischsagen</term> in eine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> gehen, da diese alle <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">zerstӧrt</term> waren. Am <date when="1938-12-07">7.
+					Dezember</date> sind wir nachts um 2 Uhr nach <placeName ref="http://www.geonames.org/2759794/amsterdam.html"
+					>Amsterdam</placeName> gefahren in ...., da ich mittags noch eine Besprechung hatte und ich nach derselben nicht lӓnger in
+					<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschland</placeName> bleiben wollte. In ....
+				wurden die Leute ausgewiesen uns mussten mittags .... verlassen. Bevor sie jedoch zum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">Zuge</term> durften, war an der Perronsperre eine
+				Kontrolle für die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> durch <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>. und für die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> durch die <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-780">Frauenschaft</orgName>. Den Juden wurde dabei der Schmuck sowie das
+				Geld bis auf einen kleinen Betrag <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">abgenommen</term>,
+				sodass diese so ziemlich mitellos ankamen. Die Leute waren froh, ihr Leben gerettet zu haben, die Bilder waren schrecklich. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> waren <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term> und die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> kamen in dieser Verfassung mit den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kindern</term> an. Auch wusste man zunӓchst nicht,
+				wohin die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> gebracht wurden und was sie
+				mit diesen vorhatten. In .... wurde ein Teil der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>Mӓnner</term> ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">Gefӓngnis</term> und die
+				anderen in das jüdische Kaffee gebracht. In dem Kaffee lagen sie zunӓchst auf Stroh und sollen sie auch dort nicht so schӧn behandelt
+				worden sein. Von da wurden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">die Mӓnner</term> nach
+				... und dann nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">abtransportiert</term>. Drei <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> unter anderen auch .... hatten ihr <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> für <placeName
+					ref="http://www.geonames.org/6252001/united-states.html">USA</placeName> und wurden deshalb in ..... <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">entlassen</term>.</p>
+			<p>Zunӓchst traute sich niemand mehr nach .... zurück. Eines Tages jedoch wurden die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlinge</term> in ..... von der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> wieder ausgewiesen und sollten zurück nach ihrem
+				früheren Wohnort. Man wusste also nicht, was die Leute eigentlich machen sollten und hatte jede Stadt ihre eigenen Anordnungen, denn
+				von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">Gesetzen</term> war ja nicht mehr zu reden. In
+				... war es besonders schӧn, denn der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1178">Kreisleiter</term> ist ein
+				besonderer Held in dieser Art. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term>
+				waren fast alle mehr oder weniger <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demoliert</term>
+				und nicht zu wenig gestohlen. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>
+				durften zunӓchst in die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demolierten</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> und wussten nicht, wo anfangen mit
+				aufrӓumen. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">wohnungen</term> waren durch die
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> versiegelt und musste man dort
+				erst den Schlüssel bekommen, damit man hineinkonnte [sic]. Mama war mit ...., die ӧfter bei uns war und mit .... in .... bei
+				Verwandten mit der Schwiegermutter wohnte .... Sie musste auch nach ... zur <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>, bis sie in die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> konnten. In dieser <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> hatten sie vergessen, zu <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demolieren</term> und hatten wir auch hierhin Dusel,
+				da wir dort unsere Uhr etc. liegen hatten, denn ich hatte diese Sachen noch nicht in ...., da ich am Anfang, solange Mama im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">Krankenhaus</term> war, bei .... und auch in ....
+				wohnte. Ich hatte in ... das reinste <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject"
+					>Anwaltsbüro</term>, nachdem die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>
+				erfahren hatten, ich sei nicht geholt worden, und ich hatte immer zu tun ausser meinen Sachen, Gesuche zu schreiben für Bekannte an
+				die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> wegen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">Entlassung</term> der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhafteten</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term>. Die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mӓnner</term> wurden mitunter auch <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">entlassen</term>, wenn diese zum <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term> vorgeladen waren. Hier hӧrte ich
+				auch, ..... sei <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">entlassen</term> worden, ich weiss
+				nicht, ob es stimmt, jedoch kann es auch sein, da er auch seine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203"
+					type="subject">Auswanderung</term> nach <placeName ref="http://www.geonames.org/6252001/united-states.html">USA</placeName>. [sic]
+				betrieben hat. Bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">Demolierung</term> bekam der
+				alte X., der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">herzkrank</term> war, einen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Herzschlag</term>. Y soll im <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Konzentrationslager</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">gestorben</term> sein. P. soll auf der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschossen</term> worden sein.</p>
+			<p>Was alles passiert ist, konnte man überhaupt nicht feststellen und schwirrten natürlich in diesen Tagen allerhand Gerüchte in der
+				Aufregung umher, die sich spӓter als falsch herausstellten. Ich selbst konnte</p>
+			<pb n="5" facs="EHRI-ET-WL1375B307_05.jpg"/>
+			<p>nicht mehr nach .... bis zu dem Sonntag vor unserer Ausreise. Es wurde mir von Bekannnten und auch von jemand auf der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Kreisleitung</orgName>, mit dem ich telefonierte, abgeraten, nach
+				.... zu gehen. Bei uns im Huas ist die erste Etage an ein Militӓrbüro vermietet. In der zweiten Etage wurde am Korridor die grosse
+				Scheibe eingeschlagen und gingen die feinen Herren weiter, nachdem sie sahen, dass unsere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> leer war. In der dritten Etage hӓtten
+				sie die Mӧbel auch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demoliert</term>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frau</term> ... war zu ihren Verwandten gefahren. Die
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> ist an einen Feldwebel vermietet
+				und hatte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frau</term> .... die Absicht, die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> aufzugeben, nachdem wir nach ....
+				gezogen waren.</p>
+			<p>Vom <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Friedhof</term> gingen wir an dem Sonntag zu
+				...., die an diesem Tage da war. .... ist auch in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp"
+					>Dachau</placeName> und .... mit .... bei ihren Eltern. Der Vater von ihr war auch geholt, jedoch wieder <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-619" type="subject">entlassen</term>, wӓhrend der Bruder noch geholt war.
+				Wie die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> bei .... aussah, ist kaum zu
+				schildern. Die schweren Mӧbel waren zu Brennholz zusammengehackt, die Bilder aufgeschlitzt, alles Geschirr und Spiegel in tausend
+				Stücke geschlagen. Dieses Durcheinander lag in allen Zimmern umher. An Wӓsche war nur da, was alt und dreckig war, ebenso an Anzügen.
+				Silber und was neu war, fehlte alles. Es ist nicht vorzustellen, wie es aussah und kӧnnt Ihr durch meine Schilderungen Euch nicht
+				vorstellen, wie die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demolierten</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> aussahen. Es hat auch keinen Zweck,
+				es weiter zu erzӓhlen, sonst findet man kein Ende. Bei ..... haben wir gegessen, und ich ist [sic] auch bei diesem, viel <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demoliert</term>.</p>
+			<p>...... ging mit seiner Familie nach ... zu dem Schwager und war auch bei uns im Logis. Er wird jetzt unterwegs sein hierher und hatte
+				zuerst die Absicht, bis Abgang des Dampfers nach <placeName ref="http://www.geonames.org/2960313/grand-duchy-of-luxembourg.html"
+					>Luxemburg</placeName> zu gehen, wo .... hin <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject"
+					>ausgewandert</term> ist. Onkel .... war auch noch bei uns und haben sie ihm auch alles <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demoliert</term> [sic]. Er will auch hierher, hat
+				jedoch eine hohe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1136" type="subject">Registrierungsnummer</term> beim
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term>. Die Bürgschaft hat er durch
+				Elsbeth und deren Bekannten.</p>
+			<p>In .... waren wir eine Nacht, da ich unter Tag keine Zeit hatte und jeden Tag unterwegs war wegen der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Auswanderung</term>. Dort hatten sie keine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">demoliert</term> und Kurt wurde auch nicht geholt.
+				Tante Frieda soll nӓchstens nach <placeName ref="http://www.geonames.org/2661886/kingdom-of-sweden.html">Schweden</placeName> zu ....
+				Für [sic] .... hat .... die Bürgschaft gesorgt. Für .... und .... hat es noch nicht mit der Bürgschaft geklappt, jedoch hoffen wir,
+				auch dies fertigzubringen, denn diese haben eine niedrige Nummer beim <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term>. Wir hoffen, dass es gelingen wird,
+				diesselben bald herauszubekommen.</p>
+			<p>In .... traf ich .... aus <placeName ref="http://www.geonames.org/2759794/amsterdam.html">Amsterdam</placeName> auf der Strasse und kam
+				er gleich mittags zu mir. Ich erzӓhlte ihm, dass wir das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">Visum</term> für <placeName ref="http://www.geonames.org/6252001/united-states.html">USA</placeName> haben und nach
+					<placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> wollen. Er schrieb mir von zu
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Haus</term> gleich einen <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Einladungsbrief</term> und hatte ich auch einen von
+				... auf mein Telefongesprӓch hin. Mit uns fuhr nach <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html"
+					>Holland</placeName> auch Familie ...... Er war zur Vorladung beim <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term>. Er hatte es dort aber nicht schlecht
+				und war er froh, nicht in das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+					>Konzentrationslager</term> zu kommen.</p>
+			<p>Jetzt mӧchte ich aber aufhӧren mit Schilderung dieser schӧnen Sachen, da ich heirher noch Seiten schreiben kӧnnte und dies keinen Zweck
+				hat. Nach diesen Zeilen kӧnnt Ihr Euch ein Bild machen, unter was für feinen Leuten wir gelebt haben. Sicherlich gibt es auch noch
+				anstӓndige dort, jedoch ist es einmal Tatsache, dass in <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschland</placeName></p>
+			<pb n="6" facs="EHRI-ET-WL1375B307_06.jpg"/>
+			<p>so etwas im 20. Jahrhundert passiert ist.</p>
+			<p>Ihr werdet sicherlich nun auch verstehen, warum ich eingangs das Motto des Redners bei der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Chanukafeier</term> auf dem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">Schiff</term> zitiert habe und mӧchte nur nochmals
+				erwӓhnen, dass diese Vorkommnisse nicht nur unsere Generation sondern auch die folgenden gut im Gedӓtnis behalten sollen und etwas
+				derartiges kein Jude vergessen soll.</p>
+			<p><q>Kinder Israels vergesst nicht, was Amalek Euch angetan hat.</q></p>
+			<p>Jetzt will ich aber kurz noch erwӓhnen, was in dieser Zeit für die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203"
+					type="subject">Auswanderung</term> alles zu erledigen war. Dies will ich aber nicht tun, um Euch mitzuteilen, was ich alles zu tun
+				hatte, sondern damit Ihr verstehen kӧnnt, wenn Ihr evtl. Euch Gedanken macht, es hӓtte dies oder jenes noch erledigt werden
+				kӧnnen.</p>
+			<p> Wie Ihr wisst, waren wir am <date when="1938-08-09">9. August</date> beim <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term> auf Grund der von .... besorgten
+				Bürgschaft vorgeladen. Da noch eine Formalitӓt bei den Bürgschaften zu erledigen war, bekamen wir unsere <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visen</term> erst am <date when="1938-09-12">12.
+					September</date>. Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Schreiben</term> ans
+					<placeName ref="http://www.geonames.org/3469034/federative-republic-of-brazil.html">brasilianische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term> habe ich selbstredend seinerzeit
+				sofort in <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> abgegeben. Seinerzeit sagte
+				mir der Sekretӓr beim <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulat</term>, es kӧnnte
+				drei Monate dauern und Mama soll froh sein, wenn sie überhaupt das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">Visum</term> bekӓme, da es nur ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843"
+					type="subject">Empfehlungsschreiben</term> sein. Wie ich euch ja mitgeteilt habe, hat Mama das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> noch erhalten und erübrigt sichs [sic],
+				hierüber nochmals zu schreiben.</p>
+			<p>Ausserdem habe ich die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Einwanderung</term> nach
+					<placeName ref="http://www.geonames.org/3439705/oriental-republic-of-uruguay.html">Uruguay</placeName> betrieben. Hierfür habe ich
+				für uns beide auch ca. 1000,-- bereits ausgegeben. Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">Visum</term> sollte erst in <placeName ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>
+				erteilt werden und sagte mir der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsul</term> in
+					<placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName>, ich solle alles packen und dann
+				nach <placeName ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> fahren. Dort bekӓme ich nach Erledigung
+				verschiedener Formalitӓten das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term>. In
+				dieser Zeit war aber auch die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Sache</term> mit
+					<placeName ref="http://www.geonames.org/3865483/argentine-republic.html">Argentinien</placeName>, dass nӓmlich die Leute alles
+				vorbereitet hatten und dann kam die Sperre und die Leute erhielten das <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> in <placeName
+					ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> nicht und hatten die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnung</term> aufgegeben und kein <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term>.</p>
+			<p>Aus diesem Grunde war mir die Sache mit <placeName ref="http://www.geonames.org/3439705/oriental-republic-of-uruguay.html"
+					>Uruguay</placeName> etwas riskant und konnte ich hierfür das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">Visum</term> in <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> nicht
+				vor der Packerei erhalten. Dies ist ja nun erledigt und habe ich diese Unterlagen mitgenommen, wenn man sie evtl. einmal brauchen
+				kann.</p>
+			<p>Mama hatte also in diesen kritischen Tagen zunӓchst ihr <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146"
+					type="subject">Visum</term> für <placeName ref="http://www.geonames.org/6252001/united-states.html">USA</placeName> und ich
+				dasselbe. Nach <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> mussten wir noch
+				verschiedene Male bis Mama das <placeName ref="http://www.geonames.org/3469034/federative-republic-of-brazil.html"
+					>brasilianische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visum</term> erhalten hat. Wir waren z.B. in
+					<placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> an einem Tage, als sie dort immer
+				noch Leute <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhafteten</term>, obwohl die Aktion,
+				wie sie das Ganze nannten, abgeblasen sein sollte. Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118"
+					type="subject">Konsul</term> von <placeName ref="http://www.geonames.org/3439705/oriental-republic-of-uruguay.html"
+					>Uruguay</placeName> bat mich, ich sollte sofort nach <placeName ref="http://www.geonames.org/2911298/hamburg.html"
+					>Hamburg</placeName> fahren und mit dem nӓchsten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject"
+					>Schiff</term> ausreisen, denn in <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName>
+				würdn sie immer noch Leute holen. Es bedurfte natürlich allerhand Anstrengung, in dieser Zeit nicht den Kopf zu verlieren. Auf den
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">Konsulaten</term> und auf den Büros der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-926" type="subject">Schifffahrtslinien</term> sah man die Juden in
+				Schlangen stehen und waren die Gesichter dieser gehetzten Menschen fürchterlich anzusehen.</p>
+			<p>Über die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Visenfrage</term> seid Ihr nun orientiert.
+				Nun waren noch die Lifts abzufertigen, da wir ja das Glück hatten, dass unsere Mӧbel nicht zusammengeschlagen wurden. Da wir am <date
+					when="1938-10-10">10. Oktober</date> nach .... übergesiedelt waren, war für uns die <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-005233">Devisenstelle</orgName> in .... zustӓndig und ist diesem Amt
+				konziliater als die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005233">Devisenstelle</orgName> in .... Bachdem
+				wir vier Wochen in ...... gemeldet waren, hatte ich die Absicht, für die Packerlaubnis in ...... einzureichen. Das Geschirr und die
+				Wӓsche wurden beim Umzug in ...</p>
+			<pb n="7" facs="EHRI-ET-WL1375B307_07.jpg"/>
+			<p>schon für den Lift richtig verpackt. Nach dem <date when="1938-11-10">10. November</date> reichte ich also die Liste, was wir
+				mitnehmen, sofort in .... ein, da man erst einige Zeit in .... wohnen musste, um da zustӓandig zu sein. Wir hatten bei einer jüdischen
+				Familie verschiedene elektrische Gerӓte gekauft, jedoch wurden am <date when="1938-11-10">10.11.</date> inzwischen die Leute <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term>. Nachdem wir alsdann die gekauften
+				Sachen von den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject">Geschӓftsinhaber</term> erhalten hatten, mussten wir
+				hierfür nochmals eine Nachtragsliste einreichen. Ich wollte für mich noch Photosachen kaufen, jedoch wurde mir die Mitnahme von der
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005233">Devisenstelle</orgName> abgelehnt. Abgabe für die neuen
+				Sachen hatten wir an die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Golddiskontbank</term> sehr
+				wenig zu bezahlen und sind wir hierbei ganz günstig weggekommen.</p>
+			<p>Wie Du wiesst, hatte ich für uns beide ja den Unbedenklichkeitsschein vom <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1153" type="subject">Finanzamt</term> .... und der Stadt .... Man hӧrte
+				nun, Unbedenklichkeitsscheine würden keine mehr ausgeteilt werden und müssten die Leute vor der Ausstellung erst die 20% Kontribution
+				bezahlen. Wie ich Euch aber geschrieben habe, konnte man auch keine Papiere verkaufen und mit was sollte ich also diese 20% und
+				ausserdem die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Reichsfluchtsteuer</term> für Mama,
+				die auch von mir nicht bezahlt wurde, bezahlen. Sicherheit ist ja durch die Sperre da, ich liess ja die Unbedenklichkeitsscheine immer
+				wieder prolongieren. In diesen Tagen ging man aber nur mit Zagen zu irgendeiner <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">Behӧrde</term>, denn man wusste ja nicht, ob man
+				nicht doch noch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term> werden kann, wenn
+				man dort gesehen wird. In der .... gingen sie auch dazu über, in letzter Zeit erst noch eine Buchprüfung zu machen. Dann kam
+				gewӧhnlich noch die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1135" type="subject">Zollfahndung</term>, die alle
+				Ausgaben und alles bis auf die Nieren prüfte.</p>
+			<p>Ich liess also von den in Hӓnden habenden Unbedenklichkeitsscheinen Photokopien mit notarieller Beglaubigung machen und operierte mit
+				diesen Unterlagen. Zu der Devisenstelle nach ..... musste ich des ӧfteren und erhielt dann die Erlaubnis, dass Mama packen kann,
+				jedoch bei mir seien noch Rückfragen. Nach verschiedenen Vorsprachen [sic] bei der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-005233">Devisenstelle</orgName> sagte mir der Beamte, sie würden mich
+				nicht kennen. Auf Grund des Unbedenklichkeitsscheines brachte ich es dann fertig, dass ich auch packen konnte. Als er mir jedoch
+				sagte, die Rückfrage sei noch nicht erledigt, hatte man schon wieder die Meinung, man kӧnnte mich <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaften</term>.</p>
+			<p>Als wir die Packgenehmigung hatten, packten wir gleich am übernӓchsten Tag die beiden Lifts und die Koffer und liessen alles nach
+					<placeName ref="http://www.geonames.org/2747891/rotterdam.html">Rotterdam</placeName> absenden. ..... hatte ich schon durch einen
+				Notar Vollmacht über alles zusenden lassen und verabredete mit ihm, dass ich ihm von <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> aus schreibe. Als dann sollte er beim
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1153" type="subject">Finanzamt</term> die Reichsfluchtsteuer und die
+				20% Kontribution erledigen. Ich warte nun auf Antwort, ob er dies erledigt hat. Von <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> aus schrieb ich ihm, nachdem die Lifts
+				in <placeName ref="http://www.geonames.org/2747891/rotterdam.html">Rotterdam</placeName> eingegangen waren, dmait diese nicht evtl.
+				zurückgehalten werden kӧnnen. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-219" type="subject">Transferieren</term>
+				konnten wir nichts unter diesen Umstӓnden und sagte man mir, dass vorübergehend keine <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">Sperrmark</term> zu verkaufen seien. In <placeName
+					ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> hӧrte ich jedoch, es ginge und will ich
+				sehen, was nach Bezahlung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1047" type="subject">Steuern</term> durch
+				.... noch übrig bleibt und was und wie etwas zu transferieren ist.</p>
+			<p>In <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Holland</placeName> waren wir eine Woche und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-129" type="subject">schifften</term> uns am <date when="1938-12-13">13.
+					ds.</date> in <placeName ref="http://www.geonames.org/2747891/rotterdam.html">Rotterdam</placeName> ein.</p>
+		</body>
+	</text>
+</TEI>

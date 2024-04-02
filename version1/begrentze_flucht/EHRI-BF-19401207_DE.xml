@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-02-28T11:10:29+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19401207_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Flüchtlingsbericht über Ignaz (Hynek) Fischer an die Polizeidirektion in Prag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1420#desc-eng">Polizeipräsidium Prag II</collection>
+                        <idno>1941-1950, F 919/11, Fischer Hynek, K. 2186</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Polizeipräsidium Prag II, 1941-1950, F 919/11, Fischer Hynek, K. 2186. <textLang mainLang="cs">Original auf
+                        Tschechisch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Österreich</placeName>
+                        <location>
+                            <geo>47.33333 13.33333</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Mährisch Ostrau (Ostrava)</placeName>
+                        <location>
+                            <geo>49.83465 18.28204</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3068799/ostrava.html"/>
+                            <link type="desc" target="http://de.wikipedia.org/wiki/Ostrava"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Tschechoslowakei</placeName>
+                        <location>
+                            <geo>50.08292 14.46672</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Flüchtling</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+                        </linkGrp></item>
+                    <item><name>Reichsdeutsche</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1171"/>
+                        </linkGrp></item>
+                    <item><name>Staatsangehörigkeit</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1147"/>
+                        </linkGrp></item>
+                    <item><name>Juden, Jüdinnen und jüdisches Leben</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+                        </linkGrp></item>
+                    <item><name>Flucht</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person xml:id="ehri_bf_fischer_ignaz">
+                        <persName>Fischer, Ignaz</persName>
+                        <note><p>07.12.1913 - 1986</p>Ignaz (Hynek) Fischer spielt als Stürmer bei Hakoah Wien und in den 1930er Jahren als Legionär
+                            in der Tschechoslowakei. "Nasi" Fischer blieb nach dem Anschluss in der Tschechoslowakei und wurde später am 12.09.1942
+                            nach Theresienstadt deportiert. Er ist im Theresienstädter Propagandafilm als Fußballer zu sehen. Am 01.10.1944 wurde
+                            Ignaz Fischer nach Auschwitz deportiert. Er überlebte die Shoah und starb 1986.</note>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="ehri_bf_staatspolizeiamt_in_teplitz">
+                        <orgName>Staatspolizeiamt in Teplitz Schönau (Teplice-Šanov)</orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1940-12-07">7. Dezember 1940</date>
+                <placeName>Prag (Praha)</placeName>
+                <orgName>Polizeipräsidium Prag</orgName><idno>EHRI-BF-19401207</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="Schicksale"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p>Bericht des <orgName ref="#ehri_bf_staatspolizeiamt_in_teplitz">Staatspolizeiamtes in <placeName
+                            ref="http://www.geonames.org/3064288/teplice.html">Teplitz-Schönau</placeName></orgName> über einen <term
+                        ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtling</term> aus <placeName
+                        ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> Nr.: 698.744/40 vom <date
+                        when="1940-12-07">7.12.1940</date> über <persName ref="#ehri_bf_fischer_ignaz">Ignaz Fischer</persName>, geb. am <date
+                        when="1913-12-07">7.12.1913</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, <term
+                        ref="https://portal.ehri-project.eu/keywords/ehri_terms-1171" type="subject">reichsdeutscher</term>
+                    <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">Staatsbürger</term>
+                    <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term> Glaubens über seine <term
+                        ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term> von <placeName
+                        ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> nach <placeName
+                        ref="http://www.geonames.org/3068799/ostrava.html">Ostrau</placeName> am 1.7.1938 und seinen Status als <term
+                        ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtling</term> in der <placeName
+                        ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName>. Der Bericht gibt Auskunft zu den
+                    personenbezogenen Daten von <persName ref="#ehri_bf_fischer_ignaz">Ignaz Fischer</persName> und seine Flucht von <placeName
+                        ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> in die <placeName
+                        ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName>.</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><pb n="1" facs="EHRI-BF-19401207_01.jpg"/></p>
+        </body>
+    </text>
+</TEI>

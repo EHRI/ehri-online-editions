@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP001_CS">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Alexander Schmiedt, the experiences from Kaufering and Dachau</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Magdalena Sedlická</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+
+			</publicationStmt>
+
+			<sourceDesc>
+
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Prague</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Prague"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaufering III concentration camp</placeName>
+						<location>
+							<geo>48.0833 10.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-226"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaufering VI concentration camp</placeName>
+						<location>
+							<geo>48.0833 10.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-230"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dachau concentration camp</placeName>
+						<location>
+							<geo>48.2699 11.4683</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Terezin Ghetto</placeName>
+						<location>
+							<geo>50.51027778 14.14972222</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Auschwitz II-Birkenau concentration camp</placeName>
+						<location>
+							<geo>50.0371 19.1752</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-2"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Olomouc</placeName>
+						<location>
+							<geo>49.59552 17.25175</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3069011/olomouc.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Olomouc"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Vienna</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Salzburg</placeName>
+						<location>
+							<geo>47.79941 13.04399</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2766824/salzburg.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Salzburg"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaufering II concentration camp</placeName>
+						<location>
+							<geo>48.0833 10.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-225"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaufering I concentration camp</placeName>
+						<location>
+							<geo>48.0833 10.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-224"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Kaufering V concentration camp</placeName>
+						<location>
+							<geo>48.0833 10.8833</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-229"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>United States of America</placeName>
+						<location>
+							<geo>39.76 -98.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/6252001/united-states.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/Vereinigte_Staaten"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Documentation Action (in Prague)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Transports from Terezín</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267"/>
+						</linkGrp></item>
+					<item><name>Deportation trains</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-522"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-567"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_hungarians"><name>Hungarians (ascribed nationality)</name></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Factories</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-929"/>
+						</linkGrp></item>
+					<item><name>Roll calls</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-487"/>
+						</linkGrp></item>
+					<item><name>Physicians</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-287"/>
+						</linkGrp></item>
+					<item><name>Camp and ghetto personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-477"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Kapos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-485"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Typhus</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-493"/>
+						</linkGrp></item>
+					<item><name>Camp hospitals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-491"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Lice</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213"/>
+						</linkGrp></item>
+					<item><name>Evacuation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-623"/>
+						</linkGrp></item>
+					<item><name>Air-raids</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1105"/>
+						</linkGrp></item>
+					<item><name>Allies</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1029"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Liberation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-573"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_schmiedt_alexander">
+						<persName>Schmiedt, Alexander</persName>
+						<note><p>1921–?</p><p>Later name Shlomo Schmiedt. Before the war he lived in Prague. In 1942 he was deported to the
+								Theresienstadt (Terezín) ghetto, from which he was sent in autumn 1944 to Auschwitz-Birkenau. After the war he was one
+								of the important co-workers of the Documentation campaign (Dokumentační akce). Later Schmiedt emigrated to
+							Israel.</p></note>
+					</person>
+					<person>
+						<persName>Lindenbaum, Max (* 18.5.1914)</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1613340"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Himmler, Heinrich</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000181"/>
+						</linkGrp>
+						<note>
+							<p>07/10/1900 23/05/1945</p>
+							<p>Various positions, most influential: Reichsführer SS (RFSS), head of the Deutsche Polizei (German police), directly
+								subordinated to Hitler. Also: "Reichskommissar für die Festigung Deutschen Volkstums" (RKF) for the Occupied Eastern
+								Territories, since 25 Aug 1943 also Minister of the Interior, and since 1944 additionally commander of the reserve
+								army (Befehlshaber des Ersatzheeres).</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_kratkova_marta">
+						<persName>Kratková, Marta</persName>
+						<note><p>1908–?</p><p>In summer 1943 she was deported to the Theresienstadt (Terezín) ghetto, from where she was sent to
+								Auschwitz-Birkenau. After the war she was one of the co-workers of the Documentation campaign (Dokumentační akce). In
+								1949 Kratková emigrated to Israel.</p></note>
+					</person>
+					<person xml:id="ehri_et_weinberger_robert">
+						<persName>Weinberger, Robert</persName>
+						<note><p>1913–1977</p><p>Born in Brno. Active in the Zionist movement. He was deported in 1941 to the Theresienstadt (Terezín)
+								ghetto, where he was imprisoned until the liberation. From autumn 1944 he became a member of the Jewish Council of the
+								Elders. After the war he was one of the co-workers of the Documentation campaign (Dokumentační akce). When Zeev
+								(Vilém) Shek left to Israel, Weiberger took over the leading role in the project. In 1949 he and his wife have also
+								decided to emigrate to Israel.</p></note>
+					</person>
+					<person xml:id="ehri_et_shek_zeev">
+						<persName>Shek, Zeev</persName>
+						<note><p>1920–1978</p><p>Born in Olomouc. Active in the Zionist movement, member of Maccabi Hatzair. In 1943 he was deported
+								to the Theresienstadt (Terezín) ghetto, where he became one of the Hechalutz leaders. In autumn 1944 he was
+								transported to Auschwitz-Birkenau. After the war he became one of the main initiator of the Documentation campaign
+								(Dokumentační akce). In 1946 he emigrated to Palestine, where he worked for the Ministry of Foreign Affairs and in the
+								diplomatic services. In 1967 Sheck was appointed as the Israeli Ambassador in Vienna. In 1977 he was sent to serve as
+								the Israeli Ambassador in Rome, where he has died one year later.</p></note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>SS-Totenkopfverbände</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-1092"/>
+						</linkGrp>
+						<note><p>The SS-Hauptamt was founded in 1935, it was the Supreme Command of the Allgemeine SS, SS-Verfügungstruppe and
+								SS-Totenkopfverbände.</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-08-24">24. 8. 1945</date>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">Dokumentační akce</term>, <persName
+					ref="#ehri_et_schmiedt_alexander">Alexander Schmiedt</persName>, <placeName ref="http://www.geonames.org/3067696/prague.html"
+					>Prague</placeName>
+				<idno>EHRI-ET-JMP001</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Alexander (Shlomo) Schmiedt, which became a part of the “documentation campaign” in Prague. Schmiedt was deported from
+					Prague to the Theresienstadt Ghetto in July 1942, from where he was sent to Auschwitz in the fall of 1944. He was liberated in the
+					Kaufering concentration camp. After the war, Schmiedt became one of the main co-workers of the “documentation campaign” in Prague
+					and later emigrated to Israel.</p>
+			</abstract>
+
+
+
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-JMP001_01.jpg"/>
+			<p>V <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>, <date when="1945-08-24">24. VIII. 1945</date></p>
+
+			<p>Protokol</p>
+
+			<p><persName ref="#ehri_et_schmiedt_alexander">Alex. <hi rend="letter-spacing: 2px">Schmiedt</hi></persName>, nar. <date when="1921-01-27"
+					>27. I. 1921</date>, bývalý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězeň</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">konc. táborů</term>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-226">Kaufering III</placeName>, <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-230" type="camp">Türkheim</placeName> a <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName>. <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Praha II.</placeName>, <placeName
+					ref="http://www.geonames.org/3067696/prague.html">Biskupská</placeName> 5, nár. žid., povol. úředník.</p>
+
+			<p>Od <date when="1942-07">července 1942</date> do konce <date when="1944-09">září 1944</date> jsem byl v <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>. Jel jsem prvním z <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovních</term>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportů do</term>
+				<placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Osvěčimi</placeName>, kde jsem byl 5 dní. <date
+					when="1944-10-05">5. října</date> jsme byli vtěsnáni do <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">dobytčáků</term> a jeli jsme přes <placeName
+					ref="http://www.geonames.org/3069011/olomouc.html">Olomouc</placeName>, <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Vídeň</placeName>, a <placeName
+					ref="http://www.geonames.org/2766824/salzburg.html">Salcburk</placeName> do <placeName type="camp"
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-225">Kauferingu</placeName>. Na cestu, která trvala 3 dny, jsme měli 1 ½
+				kg-ový bochník <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term>, 10 dkg <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarinu</term> a 10 dkg <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">salámu</term>. Byli jsme však šťastni, že necháváme
+				hrozný <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Osvěčím</placeName> za sebou. Na <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-225">kauferingském</placeName> nádraží byl náš <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transport</term> /asi 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term> z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>/ rozdělen a já jsem přišel spolu
+				s asi 500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term> do <q><term type="camp"
+						ref="https://portal.ehri-project.eu/keywords/ehri_camps-226">3.lágru</term></q>. První 2-3 týdny to bylo snesitelné. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Jídla</term> sice nebylo mnoho, ale měli jsme ještě
+				určitý tělesný fond, a proto jsme příliš <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-569"
+					>nehladověli</term>. S rostoucí zimou se však také stále zmenšoval příděl <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potravin</term> a v <date when="1944-11"
+					>listopadu</date>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřel</term> první náš kamarád <persName
+					ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1613340" type="victim">Meir Lindenbaum</persName>. Pak
+				se již řetěz <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocí</term>, bídy a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">úmrtí</term> nepřetrhl. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508">Tábor</term> čítal asi 1800 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>, většinou <term type="subject"
+					ref="#ehri_et_nationalities_hungarians">maďarských</term> Židů, a kdo neuměl maďarsky, byl skoro ztracen. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Bydlili</term> jsme v t. zv. <q><foreign xml:lang="de"
+						>Erdbunker</foreign></q> – dlouhé, podzemní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+					>baráky</term> s jedním oknem, dvě řady prken na spaní, uprostřed komín a kamínka. Každý <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězeň</term> měl deku, misku a lžíci. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracoval</term> jsem v t. zv. <q><foreign
+						xml:lang="de">Holzmann</foreign></q> – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>komandu</term> – <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">výkop v lese</term>. Po
+				několika týdnech <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> měla většina kamarádů
+				nohy pokryté boláky a omrzlé, takže se stěží dotáhli na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">pracoviště</term>. Byla to stavba obrovské muniční <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">továrny</term>, vlastně celého města, skrytého v lese.
+				Les byl asi 2 km vzdálen od našeho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábora</term>.
+				V prvních měsících jsi musel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovat</term>, i když
+				jsi měl otevřené, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">hnisavé rány</term> a vysokou
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">horečku</term>. Každého dne se přinášely z <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">komand</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvoly</term> kamarádů, kteří <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřeli</term> v <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term>. Později se situace <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term> trochu zlepšila, za to však se o
+				mnoho zhoršila situace <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravovací</term>. Na začátku
+				jsme <q>fasovali</q> asi 37 dkg <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> denně,
+				k tomu <q><foreign xml:lang="de">Zulagy</foreign></q> /2 dkg <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">margarinu</term>, nebo plátek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>salámu</term>, kousek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sýra</term>, špetku <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">másla</term>, lžíci <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">marmelády</term> nebo umělého <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">medu</term>/ a litr vodové <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévky</term> večer. Mimo to dostávali <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracující</term> asi 20 dkg <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> s <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarinem</term> a teplou vodu /<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévku</term>/ v poledne na <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovišti</term>. Ke konci odpadly přídavky pro <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracující</term> a příděl <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> kolísal mezi 15-25 dkg denně. Denní
+				program vyhlížel asi takto: ¾ 5 budíček, ½ 6 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject"
+					>apel</term>, 7 odchod do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>, 6 návrat
+					z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">komanda</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">apel</term>, fronta před kuchyní. O 9 hod. se v
+					<q>bunkrech</q> zhasínalo. To byly ovšem program a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">strava</term> obyčejného <q><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+						>häftlinga</term></q>. Blokový, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject"
+					>lékařský</term> a ostatní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">táborový
+					personál</term> měl velké výhody jak v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+					>jídle</term>, tak v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytování</term> a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836">oblečení</term>. <q><distinct type="camp_language"
+						>Lägerältester</distinct></q>, jeho zástupce a vrchní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485"
+					type="subject">kápové</term> byli <q><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+						>árijci</term></q>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bydleli</term> zvlášť a
+				dávali si zvlášť vařit. Jako všude byl i zde velký strach před <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">infekčními</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocemi</term>
+				<pb n="2" facs="EHRI-ET-JMP001_02.jpg"/> a hlavně před skvrnitým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493"
+					type="subject">tyfem</term>, Těžce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+					>nemocní</term> byli transportováni do <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject"
+						>Krankenlágru</term></q>. Každý z nás věděl, že naděje, vrátiti se odtamtud, je mizivá. Většina <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term> dodávalo <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">komandu</term>
+				<q>Moll</q>, kde byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> podmínky
+				nesnesitelné. Po cestě trvající 1 ½ se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>pracovalo</term> 12 hodin s půlhodinovou přestávkou a znovu 1 ½ hodiny <q>domů</q>. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Práce</term> byla těžká /nošení cementových pytlů,
+				betonování apod./ a jediná <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">strava</term> při ní byla
+				miska studeného <q>čaje</q> z trávy. Nejsilnější tam nevydrželi déle, než 3 týdny. Přišlo tam o život mnoho našich nejlepších <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">lidí</term>, hlavně z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-224" type="camp">1. lágru</placeName>. Celkem se z 1500 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>, kteří přijeli do <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-225">kauferingských</placeName>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">táborů</term> vrátilo /dle mého odhadu/ 40-50. <date
+					when="1945-03-08">8. března</date> odcházel z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-226" type="camp"
+					>3. lágru</placeName> transport do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-230" type="camp"
+					>Türkheimu</placeName>
+				<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-229" type="camp">5. lágr</placeName>
+				<note type="gloss">Kaufering - Lager V was Utting, Lager VI was Türkheim</note>. Byl jsem též do něj začleněn a byl jsem tomu rád,
+				neboť jsem si říkal, že to nikde nemůže být horší, než v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225"
+					type="camp">Kauferingu</placeName>. První dny jsem toho litoval, neboť jsme strašně <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569">hladověli</term>, pak se však <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831">poměry</term> zlepšily a v posledních týdnech jsme měli skoro každý
+				den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">brambory</term> na loupačku – nejideálnější
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">táborové</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term>, neboť mimo to, že lépe sytilo, než
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévka</term>, obsahovalo jako vedlejší produkt
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bramborové slupky</term>, kterých se po případě
+				s trochou štěstí a drzosti dalo nasbírati u <q>kapitalistů</q>, někdy celé miska. První tři týdny v <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-230" type="camp">Türkheimu</placeName> jsem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracoval </term> – byli jsme na rozdíl od ostatních
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">lágrů</term> hlídání jen <q><orgName
+						ref="https://portal.ehri-project.eu/authorities/ehri_cb-1092">todťáky</orgName></q>, a když jsme měli štěstí, byli to Češi,
+				jichž tam bylo poměrně mnoho. Pak jsem však už byl tak zesláblý a vyčerpán, že mne <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékař</term> uznal <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">marod</term></q>, a dal mne do <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">krankenbloku</term></q>. Koncem <date
+					when="1945-03">března</date> vypukl v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject"
+					>táboře</term> skvrnitý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyf</term>. Počet <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term> rostl den ze dne šílenou rychlostí a
+				nakonec <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékaři</term> již ani neprohlíželi a
+				jednoduše každého, kdo měl přes 38 horečky, strčili do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493"
+					type="subject">tyfového</term> baráku. Já měl tenkrát silný <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">průjem</term>, a jelikož jsem měl též <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+					type="subject">horečku</term>, musel jsem též k <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+						type="subject">tyfusákům</term></q>. Nepomohly žádné protesty a žádný křik. Pak jsem se už ovšem <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyfu</term> neubránil, boj proti legiím <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213" type="subject">vší</term> byl naprosto beznadějný a
+				předem prohraný. Ležel jsem 10 dní ve vysoké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+					>horečce</term> a začal jsem se zotavovati právě, když přišel rozkaz k <term type="subejct"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623">evakuaci</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábora</term>. Kdo byl schopen chůze, vydal se na
+				cestu pěšky, my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocní</term> jsme byli dopraveni
+				auty do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-224" type="camp">Landsbergu /1. lágr/</placeName>. Tam jsem
+				prožil dva hrozné dny v nepopsatelné špíně a skoro bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+					type="subject">jídla</term> /v tu dobu jsem vážil asi 45 kg při výšce 187 cm/. Konečně se i ten <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">tábor</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-623">evakuoval</term>, a ačkoli jsem se sotva na nohou
+				držel, došel, či spíše dolezl jsem k nádraží u <q>Holzmanna</q>, vzdáleného asi 3 kilometry. Tam jsme byli naloženi do <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-522">dobytčáků</term> a já jsem si s posledním vypětím
+				energie vybojoval místo v krytém vagoně, neboť jsem se obával deště a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject">náletů</term>. Tyto obavy byly naprosto oprávněny.
+				Jeli jsme vzdálenost 30 km z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-224" type="camp"
+					>Landsbergu</placeName> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName>
+				dva dny a dvě noci, poslední den a noc za neustálého, prudkého deště. Zažili jsme též několik těžkých <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1105" type="subject">náletů</term> – <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1029" type="subject">američtí</term> letci nás zřejmě považovali za
+				vojenský transport. Mnoho jich cestou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">uteklo</term>,
+				já jsem však byl příliš slabý a z vagonu jsem se nehnul ani za nejprudší palby. Vyjelo nás z <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-224" type="camp">Landsbergu</placeName> asi 3000 a do <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName> nás dojelo asi 1000 živých. Cestou
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">uteklo</term> asi 200. Číslo jsou ovšem nepřesná
+				a můj vlastní odhad. V <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">Dachau</placeName> jsme <pb
+					n="3" facs="EHRI-ET-JMP001_03.jpg"/> ještě v noci /<date when="1945-04-28">28. dubna</date>/ prodělali desinfekci a pak jsem spal
+				15 hodin jako zabitý. Spal, ačkoliv celou noc neustávalo ostřelování města a ačkoliv se dopoledne příštího dne boj přenesl dokonce do
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábora</term>. To se jej zúčastnili činně již i
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňové</term> a odpoledne zavlál nad hlavní
+				strážní věží prapor <placeName ref="http://www.geonames.org/6252001/united-states.html">USA</placeName>. Naši <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvoboditelé</term> nepřišli příliš brzo, neboť, jak
+				jsme se později dozvěděli, nařídil <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000181">Himmler</persName> ve
+				zvláštním rozkaze <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">postříleti</term> všechny
+					<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177" type="camp">dachovské</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">vězně</term> večer <date when="1945-04-29">29. dubna</date>.</p>
+
+			<p>
+				<persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName>
+			</p>
+
+			<p>Podpisy svědků:</p>
+
+			<p>
+				<persName ref="#ehri_et_kratkova_marta">Marta Kratková</persName>
+			</p>
+
+			<p>
+				<persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName>
+			</p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>: <persName
+					ref="#ehri_et_shek_zeev">Zeev Scheck</persName></p>
+			<p>
+				<date when="1945-08-21">21. VIII. 1945</date>
+			</p>
+
+			<p>Za archiv: <persName ref="#ehri_et_schmiedt_alexander">Alex Schmiedt</persName></p>
+		</body>
+	</text>
+</TEI>

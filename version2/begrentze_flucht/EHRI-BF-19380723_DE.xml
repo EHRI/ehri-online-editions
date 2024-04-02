@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19380723_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de"><q>Flüchtlinge an der Grenze abgeschoben</q>, Presseartikel des Prager Tagblatts</title>
+				<title xml:lang="en"><q>Refugees deported at the border</q>, press article from the Prager Tagblatt</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+				<bibl>Flüchtlinge an der Grenze abgeschoben, Prager Tagblatt, Nr. 71 (23. Juli 1938). <textLang mainLang="de">Original auf
+						Deutsch.</textLang></bibl>
+
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-07-23">23. Juli 1938</date>
+				<idno>EHRI-BF-19380723</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Presse</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<pb facs="EHRI-BF-19380723_01.jpg" n="1"/>
+				<!--<p>Prager Tagblatt Nr. 171</p>-->
+				<p><term ref="#t304" type="subject">Flüchtlinge</term> an die Grenze abgeschoben</p>
+				<p>In <placeName ref="#moravia">Mähren</placeName></p>
+				<p><placeName ref="#brno">Brünn</placeName>. Die <placeName ref="#brno">Brünner</placeName>
+					<term ref="#t1119" type="subject">Polizei</term> verhaftete 25 <term ref="#t304" type="subject">Flüchtlinge</term> aus <placeName
+						ref="#republic-of-austria">Österreich</placeName>, die gestern angekommen waren und das Meldeamt aufgesucht hatten, um eine
+					vorübergehende Aufenthaltsbewilligung zu erreichen. Vier der Verhafteten wurden später wieder freigelassen, 21 Personen sowie zwei
+						<term ref="#t304" type="subject">Flüchtlinge</term>, die bereits gestern verhaftet worden waren, dürften an die Grenze
+					überstellt worden sein. Die Polizei erklärt auf Anfrage, daß sie sich nicht mehr in <placeName ref="#brno">Brünn</placeName>
+					befinden. Unter den abgeschobenen <term ref="#t302" type="subject">Emigranten</term> befinden sich mehrere Jugendliche von etwa 16
+					Jahren. Die Verhaftungen erfolgten ohne weiteres Verhör und werden mit <term ref="#t234" type="subject">unerlaubten
+						Grenzübertritt</term> begründet, obzwar die <term ref="#t1119" type="subject">Polizei</term> sich in diesem Fall bisher meist
+					mit den Verhängungen von Geldstrafen begnügte. Seit Anfang Juli sind in <placeName ref="#brno">Brünn</placeName> etwa 80 bis 100
+					Personen verhaftet worden; ein wesentlicher Teil von ihnen wurde abgeschoben, doch steht fest, daß einige von ihnen sich wieder
+					sich wieder auf <placeName ref="#czechoslovakia">tschechoslowakisches</placeName> Gebiet zurückgewandt haben. Die <orgName
+						ref="#ehri_bf_zentralstelle_bruenn">Zentralstelle für Flüchtlingsfürsorge</orgName> hat sich mit Depeschen an den <persName
+						ref="#p000030">Präsidenten der Republik</persName>, an Ministerpräsident Doktor <persName ref="#ehri_bf_hodza_milan"
+						>Hodža</persName> und an Innenminister <persName ref="#ehri_bf_cerny_josef">Černy</persName> gewandt.</p>
+				<p>Aus <placeName ref="#znojmo">Znaim</placeName> wird berichtet, daß 19 Personen, die dieser Tage verhaftet worden waren, weil sie
+					die <term ref="#t234" type="subject">Grenze ohne Papiere überschritten</term> hatten, gestern an die Grenze abgeschoben wurden.
+					Eine junge <term ref="#t825" type="subject">Frau</term>, die bei <placeName ref="#satov">Schattau</placeName> auf <placeName
+						ref="#czechoslovakia">tschechoslowakisches</placeName> Gebiet kam und dort zusammenbrach, wurde von <placeName
+						ref="#czechoslovakia">tschechoslowakischen</placeName>
+					<term ref="#t1125" type="subject">Gendarmen</term> gepflegt. Da sie nicht transportfähig war, wurde ihr eine vorübergehende
+					Aufenthaltserlaubnis erteilt.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

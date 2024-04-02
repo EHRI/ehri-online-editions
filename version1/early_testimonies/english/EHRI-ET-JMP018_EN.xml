@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP018_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Isaak Berner, the persecution of Jews in the Riga ghetto</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Magdalena Sedlická</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</repository>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="de">Original in German.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Riga</placeName>
+						<location>
+							<geo>56.946 24.10589</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/456172/riga.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Riga"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Latvia</placeName>
+						<location>
+							<geo>57 25</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/458258/republic-of-latvia.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Latvia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ghettos</placeName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Salaspils</placeName>
+						<location>
+							<geo>56.86014 24.36544</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/455898/salaspils.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Salaspils"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Lithuania</placeName>
+						<location>
+							<geo>55.41667 24</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/597427/republic-of-lithuania.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lithuania"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Riga-Kaiserwald concentration camp</placeName>
+						<location>
+							<geo>56.95 24.1</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-788"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Germany</placeName>
+						<location>
+							<geo>51.5 10.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2921044/federal-republic-of-germany.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Germany"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Uherské Hradiště</placeName>
+						<location>
+							<geo>49.06975 17.45969</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3063739/uherske-hradiste.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Uhersk%C3%A9_Hradi%C5%A1t%C4%9B"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Documentation Action (in Prague)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>SS men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1216"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Housing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-837"/>
+						</linkGrp></item>
+					<item><name>Forced labour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-556"/>
+						</linkGrp></item>
+					<item><name>Shearing of beards</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-599"/>
+						</linkGrp></item>
+					<item><name>Persecution of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-642"/>
+						</linkGrp></item>
+					<item><name>Violent attacks on Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-345"/>
+						</linkGrp></item>
+					<item><name>Synagogues</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-758"/>
+						</linkGrp></item>
+					<item><name>Synagogue burning</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-646"/>
+						</linkGrp></item>
+					<item><name>Rabbis</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-735"/>
+						</linkGrp></item>
+					<item><name>Murder</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-532"/>
+						</linkGrp></item>
+					<item><name>Men</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Population transfer</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1173"/>
+						</linkGrp></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Arbeitskommando</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-489"/>
+						</linkGrp></item>
+					<item><name>Food and eating</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-832"/>
+						</linkGrp></item>
+					<item><name>Wachmaenner (Camp guards)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-480"/>
+						</linkGrp></item>
+					<item><name>Evacuation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-623"/>
+						</linkGrp></item>
+					<item><name>Transports</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Labour camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-508"/>
+						</linkGrp></item>
+					<item><name>Diseases</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-292"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Aryan</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-373"/>
+						</linkGrp><note><p>A racist term refering to people of nordic origin.</p></note></item>
+					<item><name>Prisoners of war</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-511"/>
+						</linkGrp></item>
+					<item><name>Murder pits</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1321"/>
+						</linkGrp></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Camp and ghetto personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-477"/>
+						</linkGrp></item>
+					<item><name>Death camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-498"/>
+						</linkGrp></item>
+					<item><name>Camp inmates</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-483"/>
+						</linkGrp></item>
+					<item><name>Medical personnel</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-286"/>
+						</linkGrp></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_berner_isaak">
+						<persName>Berner, Isaak</persName>
+					</person>
+					<person xml:id="ehri_et_stieglitz_robert">
+						<persName>Stieglitz, Robert</persName>
+					</person>
+					<person xml:id="ehri_et_eljaschow_michael">
+						<persName>Eljaschow, Michael (lawyer, Council of the Elders in the Riga ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_mincs_vladimir">
+						<persName>Mincs, Vladimir</persName>
+						<linkGrp>
+							<link type="desc" target="http://www.yivoencyclopedia.org/article.aspx/Mincs_Vladimirs"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_kaugert">
+						<persName>Kaugert (Riga)</persName>
+					</person>
+					<person xml:id="ehri_et_minsker">
+						<persName>Minsker (Council of the Elders in the Riga ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_blumenthal">
+						<persName>Blumenthal (Council of the Elders in the Riga ghetto)</persName>
+					</person>
+					<person xml:id="ehri_et_schulze">
+						<persName>Schulze (SS, Riga ghetto)</persName>
+					</person>
+					<person>
+						<persName>Jeckeln, Friedrich</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000196"/>
+						</linkGrp>
+						<note>
+							<p>02/02/1895 - 03/02/1946</p>
+							<p>SS-Obergruppenführer. 1933 Chief of police in Brunswick, 1940 HSSPF West in Düsseldorf; 1941 HSSPF of "Heeresgebiet
+								Süd" (Ukraine); 1941 HSSPF Nord und Ostland. Responsible i.A. for mass murders of Jews in Kamenez-Podolsk, Babi Jar
+								and the Riga Ghetto.</p>
+						</note>
+					</person>
+					<person>
+						<persName>Lange, Rudolf</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000244"/>
+						</linkGrp>
+						<note>
+							<p>18/04/1910 - 1945</p>
+							<p>Lawyer, SS- Standartenführer. Commander of Einsatzkommando 2; later KdS (der Sicherheitspolizei und des SD) in Latvia;
+								Wannsee Conference participant</p>
+						</note>
+					</person>
+					<person xml:id="ehri_et_krause_kurt">
+						<persName>Krause, Kurt</persName>
+					</person>
+					<person xml:id="ehri_et_roschmann_eduard">
+						<persName>Roschmann, Eduard</persName>
+						<linkGrp>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Eduard_Roschmann"/>
+						</linkGrp>
+					</person>
+					<person xml:id="ehri_et_fischerova_marta">
+						<persName>Fischerová, Marta (Documentation campaign in Prague)</persName>
+					</person>
+					<person xml:id="ehri_et_weinberger_robert">
+						<persName>Weinberger, Robert</persName>
+						<note><p>1913–1977</p><p>Born in Brno. Active in the Zionist movement. He was deported in 1941 to the Theresienstadt (Terezín)
+								ghetto, where he was imprisoned until the liberation. From autumn 1944 he became a member of the Jewish Council of the
+								Elders. After the war he was one of the co-workers of the Documentation campaign (Dokumentační akce). When Zeev
+								(Vilém) Shek left to Israel, Weiberger took over the leading role in the project. In 1949 he and his wife have also
+								decided to emigrate to Israel.</p></note>
+					</person>
+					<person xml:id="ehri_et_tressler_harald">
+						<persName>Tressler, Harald</persName>
+						<note><p>1922–1998</p><p>Later name Harry Tarsi. Before his deportation in 1941 to the Theresiensatdt (Terezín) ghetto he
+								worked at the Jewish religious community in Prague. In autumn 1944 he was deported to Auschwitz-Birkenau. After the
+								war Tarsi was one of the co-workers of the Documentation campaign (Dokumentační akce). In 1949 he emigrated with his
+								wife to Israel.</p></note>
+					</person>
+					<person xml:id="ehri_et_munk_max">
+						<persName>Munk, Max</persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>International Committee of the Red Cross</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-419"/>
+						</linkGrp>
+						<note><p>1863/present</p><p>The International Committee of the Red Cross was founded in 1863 as a humanitarian organization to
+								moderate between belligerents and to monitor application of humanitarian international law. This body was charged to
+								oversee humane conditions in POW camps among civilian internees during wartime, but gained limited access to
+								concentration camps. With the exception of two visits to Dutch inmates interned at Buchenwald in 1940, and the
+								inspection of Theresienstadt at the behest of the Danish government (where they were fooled in by the SS in 1944), the
+								Red Cross was never able to enter concentration camps until late in the war. The ICRC did not take great initiatives
+								to intervene on behalf of the Jews for fear losing its credibility with the Axis Powers, thus losing its position to
+								work on behalf of POWs and civilian internees. In 1995, ICRC president, Cornelio Sommaruga, finally admitted his
+								agency’s inaction during the Holocaust.</p></note>
+					</org>
+					<org>
+						<orgName>Geheime Staatspolizei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp>
+						<note><p>As the chief executive agency charged with fighting internal ‘enemies of the state’, the Gestapo functioned as the
+								Third Reich’s main surveillance and terror instrument, first within Germany and later in the territories occupied by
+								Germany. After 1933 the Gestapo became part of a complex apparatus of state and party police agencies.</p></note>
+					</org>
+					<org>
+						<orgName>The Red Army</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-004583"/>
+						</linkGrp>
+						<note><p>The Soviet Army</p></note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657">Dokumentační akce</term>, <persName
+					ref="#ehri_et_berner_isaak">Isaak Berner</persName>, <idno>EHRI-ET-JMP018</idno></creation>
+
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Isaak Berner, which became a part of the “documentation campaign” in Prague. Berner describes the beginning of the
+					Nazi occupation in Riga and the persecution of Jews that followed. In October 1941, Jews from Riga were forced to moved out to the
+					newly established ghetto in the suburbs, of which Berner describes the living conditions. Most of the ghetto inmates were murdered
+					during a massacre in the winter of 1941.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="EHRI-ET-JMP018_01.jpg"/>
+
+			<p>Statement</p>
+			<p>Recorded with: <persName ref="#ehri_et_berner_isaak">Berner Isaak</persName>, born: <date when="1909-06-18">18.6.1909</date> in
+					<placeName ref="http://www.geonames.org/456172/riga.html">Riga</placeName></p>
+
+			<p>On <date when="1941-07-01">July 1st, 1941</date>, the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Germans</term> came to <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>. On <date when="1941-07-02">July 2nd</date>, an auxiliary
+					<placeName ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvian</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> troop was formed. They wore green
+				armbands on their sleeves with a skull on. The first thing this auxiliary troop did was to stop Jews in the street, to humiliate them,
+				to throw Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> out of their <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">apartments</term> and to force them to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">Work</term> was done clearing up, where the aim was not so much that
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> was done, but much more to tyrannise
+				the Jews. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-599" type="subject">Beards were pulled out</term>, the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> had their hair cut off, <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-642">beaten</term> and kicked, the people stayed lying on
+				the floor. On <date when="1941-07-03">July 3rd</date>, the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">apartments</term> of the Jews began to be <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345">ransacked</term>. On <date when="1941-07-06">July 6th</date>, all the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term> in <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">were set on fire</term>. I can testify under oath
+				that many <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-735">rabbis</term>, cantors, temple assistants
+				and families that lived in the neighbourhood of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+					>synagogues</term> were forced into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">burning
+					synagogues</term> and suffocated and <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+					>burnt</term> alive. Shortly afterwards, the mass arrests began amongst the Jewish population. Over a short period, 3000-4000 Jews
+				disappeared, I don’t know what happened to these people. All of the Jews that were still free had to register daily at the prefecture
+				and were sent to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, where they were – of
+				course – tormented in the worst ways possible. At the beginning of <date when="1941-09">September</date>, Prefect <persName
+					ref="#ehri_et_stieglitz_robert">Stieglitz</persName> – a repatriated <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">German</term> who had come back to <placeName
+					ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvia</placeName> – gathered all the leading Jewish <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> and told them to form a Jewish committee.
+				The members were the lawyer Dr. <persName ref="#ehri_et_eljaschow_michael">Eljachow</persName>, Dr. <persName
+					ref="#ehri_et_mincs_vladimir">Minz</persName>
+				<note type="gloss">Uncertain, whether he means Vladimir Mincs.</note>, <persName ref="#ehri_et_kaugert">Kaugert</persName>, <persName
+					ref="#ehri_et_minsker">Winzker</persName>, Dr. <persName ref="#ehri_et_blumenthal">Blumfeld</persName>. Their task was: arranging
+				for the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173">relocation</term> of the Jews in <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName> to the working-class suburb of <placeName
+					ref="http://www.geonames.org/456172/riga.html">Letgaler</placeName>, an area where originally 3000-4000 had lived. In this cramped
+				area, in the small, low <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">rooms</term>, 30-40,000
+				people had to find <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">accommodation</term>. We had to
+				give our <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">apartments</term> to the people moving out
+				of the working-class area without any compensation, and were only allowed to take essentials with us that we could carry; special
+				permission was needed if you wanted to take, for example, a cupboard with you. If it was a good piece of furniture, then the
+				permission wasn’t granted. The <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173">relocation</term>
+				had to be carried out by <date when="1941-10-15">October 15th</date>, the <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="ghetto">ghetto</placeName> was then fenced in, surrounded by
+					<term type="subject" ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvian</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, the Jews were segregated and the tragedy
+				of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> began.</p>
+			<p>Already in the first days, many Jews who only got too close to the fence were <q><term
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term> attempting to <term type="subject"
+						ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">escape</term></q>. Shots were fired into windows that were
+				supposedly the black-out was not good enough, many people <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745">died</term> as a result. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-489">Work commandos</term> left daily. Anyone who was halfway able to
+				tried to avoid it, as returning to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>
+				could be deadly. You were checked at the gate, searches were undertaken and most were beaten; <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were not spared. <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Groceries</term> and essentials were supplied by 14
+				shops, but the allocation got less and less every week. Security was provided by the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-480">Jewish Police</term>. On <date when="1941-11-20">November
+				18th</date>, it was arranged that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>
+				would be <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-623">evacuated</term> and everyone would be
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transferred</term> to a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">work camp</term>. When Dr <persName
+					ref="#ehri_et_eljaschow_michael">Eljachow</persName> asked what would happen to the old and the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-292">sick</term>, an SA man named <persName ref="#ehri_et_schulze"
+					>Schulze</persName> answered bluntly that anyone who was unable to march would be <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">shot</term>. We were allowed to take 20 kg of luggage with us. We
+				believed that were really going to be taken to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject"
+					>work camp</term>.</p>
+			<p>On <date when="1941-11-20">November 20th</date>, <placeName ref="http://www.geonames.org/458258/republic-of-latvia.html"
+					>Latvian</placeName> workers came and isolated a small section of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. <pb n="2" facs="EHRI-ET-JMP018_02.jpg"
+				/> We didn’t know why they had done it, but on <date when="1941-11-23">November 23rd</date>, all of the strong <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> were forced into this isolated section. On
+					<date when="1941-11-30">November 30th</date>, the <q>grosse Aktion</q> (big action) began. At 6pm, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and old people – with or without luggage
+				– were <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-642">driven out</term> of their <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">apartments</term>. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345">Blows</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-345">kicks</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shooting</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">murder</term> were the tactics used to prompt the terrified people.
+				People stayed on the streets for the whole night, until 6am, in the frost, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569">hungry</term> and many poorly dressed. A group of 1000 people were
+				marched on foot along the <placeName ref="http://www.geonames.org/456172/riga.html">Moskauer Strasse</placeName> (<placeName
+					ref="http://www.geonames.org/456172/riga.html">Moscow Street</placeName>) under the strict supervision of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>.</p>
+			<p>Nobody was allowed to watch, even <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term>
+				weren’t allowed to look out of the window as shots were immediately fired. This <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623">evacuation</term> lasted until <date when="1941-12-09">December 9th,
+					1941</date>. During this time, those of us in the isolated part of the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-56">ghetto</term> heard that Russian <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-511">prisoners of war</term> were digging <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321">pits</term> outside of town by Quadrat in <placeName
+					ref="http://www.geonames.org/455898/salaspils.html">Salasplis</placeName> and in the Bickernjaken woods. We couldn’t find out
+				initially what they were for. We found out from farmers that lived nearby and from the statements of those who had been able to <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-204">escape</term>: The <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-521">transports</term> with the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> (and also several <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> too) were forced to the <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1321">pits</term> and <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">mown down</term> with machine guns. The screaming and wailing of the
+				poor victims was so harrowing, that many farmers on the immediate area couldn’t sleep for days. In this action, around 27,000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, around 3000 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> between 1 and 13 years as well as
+				4000-5000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> who were less able to work were
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">murdered</term>. The whole Aktion was led by
+				General <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000196">Jeckeln</persName>, who was based in the Knight’s
+				Hall in <placeName ref="http://www.geonames.org/456172/riga.html">Riga</placeName> with his accomplices, Dr <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000244">Lange</persName> and the SA man <persName ref="#ehri_et_schulze"
+					>Schulze</persName>. To the character of General <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000196"
+					>Jeckeln</persName> I want to add: when several Jews were sent to his house to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> for him, he didn’t like two of them. Out
+				of nowhere he <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">shot</term> them. After the end of the
+				Aktion, nearly 5000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> and around 270 <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> who had been able to <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-262">hide</term> during the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-623">evacuation</term> remained in the small isolated section of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. I was the <distinct
+					type="camp_language">camp elder</distinct> at the time and got permission from the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477">commandants</term> to bring the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> into a special block, and later other
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> from <placeName
+					ref="http://www.geonames.org/597427/republic-of-lithuania.html">Latvia</placeName> came as well. There was a total of 500-600
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> in the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825">women</term>’s block. The new <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477">commandant</term> was called <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Obersturmführer</term>
+				<persName ref="#ehri_et_krause_kurt">Krauss</persName>, his assistant was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216">Scharführer</term>
+				<persName ref="#ehri_et_roschmann_eduard">Roschmann</persName>. The <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">camp</term> was designated a barrack/<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">work camp</term> and all the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">inmates</term> had to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> without rest. Three shops were set up and
+				we received <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food rationing</term> cards, concerning
+				goods, there was only that which was left over from the shops in the large <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. Almost everyone went to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> every day. The large <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> was taken over by a trust, and the
+				property found there was sold in packages for 15 marks to the local population, whole wagons full of clothes were sent to <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Germany</term> as winter assistance from the
+					<placeName ref="http://www.geonames.org/458258/republic-of-latvia.html">Latvian</placeName> people. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS men</term> kept the best things for themselves.
+				Three days after the annihilation action, 13-14,000 Jews from <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Germany</term> (<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>) were brought to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> that we had cleared out. They were
+				brought from <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159">Germany</term> to Szirotowa in first
+				and second-class carriages and given coffee there by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject"
+					>nurses</term> from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">Red Cross</orgName>. They had been
+				given permission to bring luggage with them from <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+					>Germany</term> and so arrived quite well-equipped. In Szirotowa they were sorted with blows and beatings. The <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-826">men</term> were mostly sent to <placeName
+					ref="http://www.geonames.org/455898/salaspils.html">Salaspils</placeName> to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">work</term>/<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-498" type="subject">annihilation</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-498" type="subject">camp</term>, some of the old people were <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-532">shot</term> in Szirotowa, the rest were brought as
+				mentioned into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. All of their
+				luggage was stolen and they lived from what they got from us. It was strictly forbidden, that we left the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">work camp</term> and went into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>, and the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">inhabitants</term> of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> were also not allowed to come into
+				contact with us. We went to <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">work</term> every day.
+				Every Jew in the barrack <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">camp</term> had to deliver
+				money, valuables, stocks and gold. We surrendered 115,000 marks and a fortune in gold, jewellery and diamonds. The <pb n="3"
+					facs="EHRI-ET-JMP018_03.jpg"/> worth is difficult to estimate, but it was a fortune. Eight days later, the first two Jews were
+				publically <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-541">hanged</term> in the barrack <term
+					type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">camp</term>. One was found to have 60 pfennigs and the
+				other 1 mark. After the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">execution</term> was carried
+				out, the Jews were ordered to carry out another collection of money, golds and valuables, as it was clear that not everything had been
+				handed over. We immediately carried out another collection and raised 80,000 marks. As a personal gift for the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-477">Commandant</term>
+				<persName ref="#ehri_et_krause_kurt">Krause</persName>, we kept some diamonds, a gold clock and cigarette case to one side for him. It
+				was said, that he refused the gift and threw it into the basket with all the other things. A constable said later, that <persName
+					ref="#ehri_et_krause_kurt">Krause</persName> took enough things that he could live from them for 100 years.</p>
+			<p>The <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-541">hangings</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shootings</term> in the <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567">camp</term> hadn’t stopped; for every small infraction, someone had
+				to pay with their <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-745">life</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">executions</term> by hanging had to be carried out by
+				the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-480">Jewish Police</term> who were left in the
+				barrack <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>. The <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> in <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName> carried out many arrests amongst us, especially from important
+				businessmen or industrial people. These people disappeared and never came back. Within a year, 1000 Jews had been <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killed</term>. The <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> existed until <date>1943-06</date>.
+				Thereafter, it was disbanded and we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+					>housed</term> in groups at the companies that we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+					type="subject">working</term> for, in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+					>barracks</term> and under stricter guard.</p>
+			<p>Some of the <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-483">people</term> were taken to the newly
+				founded <q><placeName type="camp" ref="https://portal.ehri-project.eu/keywords/ehri_camps-788">Kaiserwalde</placeName></q>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">concentration camp</term> near <placeName
+					ref="http://www.geonames.org/456172/riga.html">Riga</placeName>. <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-832">Food</term> was quite scarce in the factory <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>, but there was enough to keep you alive
+				and not have to <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-569">starve</term>. As the <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Russians</orgName> approached, we were taken to <placeName
+					ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> and <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-837">housed</term> in a <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496">concentration camp</term>.</p>
+
+			<p>Statement copied from the original.</p>
+
+			<p>Protokol opsala: <persName ref="#ehri_et_fischerova_marta">Marta Fischerová</persName></p>
+			<p>Podpis</p>
+
+			<p>Podpis svědků:</p>
+
+			<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">dokumentační akci</term> přijal:
+					<persName ref="#ehri_et_weinberger_robert">Weinberger</persName></p>
+
+			<p>Za archiv přijal: <persName ref="#ehri_et_tressler_harald">Tressler</persName></p>
+
+			<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> dán k
+				dispozici panem <persName ref="#ehri_et_munk_max">Maxem Munkem</persName>, <placeName
+					ref="http://www.geonames.org/3063739/uherske-hradiste.html">Uherské Hradiště</placeName></p>
+		</body>
+	</text>
+</TEI>

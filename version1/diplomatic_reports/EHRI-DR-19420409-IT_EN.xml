@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2019-08-26T08:24:16+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19420409-IT_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Paolo Cortese on the “Jewish Question” in Slovakia in 1942</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Diplomatic Reports</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/it">Italy </country>
+						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
+							Affari Esteri</repository>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, AG. Uff. IV., Posizione S.E. 27.869, busta S, fasc. Slovacchia.
+						<textLang mainLang="en">Original in Italian.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Bratislava</placeName>
+						<location>
+							<geo>48.14816 17.10674</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3060972/bratislava.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Bratislava"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Slovakia</placeName>
+						<location>
+							<geo>48.66667 19.5</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3057568/slovak-republic.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Slovakia"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Holy See</placeName>
+						<location>
+							<geo>41.90225 12.4533</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3164670/state-of-the-vatican-city.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vatican_City"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Katowice</placeName>
+						<location>
+							<geo>50.25841 19.02754</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3096472/katowice.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Katowice"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>General Governorate</placeName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/units/de-002624-staatlakt-0_0-12-5"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Press</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1068"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish measures</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-337"/>
+						</linkGrp><note>
+							<p>Anti-Jewish acts performed with or without appropriate legislation.</p>
+						</note></item>
+					<item><name>Local population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-637"/>
+						</linkGrp></item>
+					<item><name>Attitude of the local population</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-813"/>
+						</linkGrp></item>
+					<item><name>Jews and Jewish life</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Roman Catholic Church</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-767"/>
+						</linkGrp></item>
+					<item><name>Government</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-948"/>
+						</linkGrp></item>
+					<item><name>Deportations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-518"/>
+						</linkGrp></item>
+					<item><name>Anti-Jewish orders and decrees</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542"/>
+						</linkGrp></item>
+					<item><name>Economics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-918"/>
+						</linkGrp></item>
+					<item><name>German state</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1152"/>
+						</linkGrp></item>
+					<item><name>Opposition</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-954"/>
+						</linkGrp><note>
+							<p>Does not refer to parliamentary opposition</p>
+						</note></item>
+					<item><name>The Jewish Question</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-351"/>
+						</linkGrp></item>
+					<item><name>Newspapers</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1069"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_dr_cortese_paolo">
+						<persName>Cortese, Paolo</persName>
+					</person>
+					<person>
+						<persName>Mach, Alexander</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000261"/>
+						</linkGrp>
+						<note>
+							<p>11.10.1902 - 15.10.1980</p>
+							<p>Slovak nationalist politician. Member of the Hlinka Slovak People´s Party. Minister of Internal Affairs of Slovak
+								republic (1940), Main Commander of Hlinka Guard (1939). Sentenced to 25 years in prison by the post-WWII National
+								Court in Bratislava. Released from prison in 1968.</p>
+						</note>
+					</person>
+					<person>
+						<persName>Tuka, Vojtech</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000413"/>
+						</linkGrp>
+						<note>
+							<p>04.07.1880 - 20.08.1946</p>
+							<p>Prime minister in the collaborationist Slovak government during WWII. Played an important role in the deportations of
+								Slovak Jews.</p>
+						</note>
+					</person>
+					<person>
+						<persName>Tiso, Josef</persName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000789"/>
+						</linkGrp>
+						<note>
+							<p>Slovak politician and Roman Catholic priest who led Slovakia from 1939 to 1945.</p>
+						</note>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Foreign ministry of Italy</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-005042"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Hlinkova slovenská l’udová strana (Hlinka Slovak People’s Party)</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-471"/>
+						</linkGrp>
+						<note>
+							<p>Wartime Slovakia was run by a triumvirate of anti-Semitic leaders who supported most of Nazi Germany’s racial policies.
+								Father Jozef Tiso, a Roman Catholic priest, was the country’s president. Vojtech Tuka, the prime minister and foreign
+								minister, was also head of the Nástupists, the radical wing of the Hlinkova slovenská l’udová strana. Alexander Mach,
+								Slovakia’s propaganda minister, headed the Hlinka garda (Hlinka Guards), the armed Nazi-Fascist wing of the HSLS. This
+								triumvirate gradually transformed Slovakia into a Fascist state.</p>
+						</note>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1942-04-09">9.4.1942</date>
+				<placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName>
+				<persName ref="#ehri_dr_cortese_paolo">Cortese, Paolo</persName>
+				<idno>EHRI-DR-19420409-IT</idno>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<!--<p>EHRI-DR-19420409-IT_EN</p>
+      <p>Report of the envoy in Bratislava, Paolo Cortese, to the Italian Foreign Ministry.</p>
+      <p>Cable No. 1290/287</p>
+      <p>R. Legation of Italy</p>-->
+			<pb n="1" facs="EHRI-DR-19420409-IT_01.jpg"/>
+			<p>Addressed to Royal <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042">Ministry of Foreign Affairs</orgName>,
+				Rome.</p>
+			<p>Bratislava, 9th April 1942, Year XX</p>
+			<p/>
+			<p>Re: Jewish question</p>
+			<p>The coldness with which the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> Catholic <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> has greeted the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-Jewish action</term> of Minister of Interior
+					<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000261">Mach</persName> is an indication of the mood of the
+					<placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakian</placeName> Catholic <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-637" type="subject">population</term> which, particularly in the
+				provinces, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-813" type="subject">feels no ill</term> will towards <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> and because of their meekness and
+				religious upbringing disagrees with the violent methods used by the men carrying out the expulsion decrees. There have even been
+				instances in which local authorities have not carried out or carried out only partially the ministerial orders. As many as three
+				prefects have been deposed or recalled and subjected to an enquiry. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-767"
+					type="subject">Church</term> authorities have also objected to the methods employed. It has been reported that the Minister of
+					<placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName> to the <placeName
+					ref="http://www.geonames.org/3164670/state-of-the-vatican-city.html">Vatican</placeName> has been here, and there have been
+				rumours about a note from the Secretariat of State to the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+					>Slovakian</placeName> Legation. There has indeed been such a step and the Chargé d’Affaires of the Holy See here has repeatedly
+				seen the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000413">Prime Minister</persName> and Minister for
+				Foreign Affairs on this issue. Also, there have been critical voices against <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000261">Mach</persName> within the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> itself, coming from his colleagues
+				of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-471">Slovakian people’s party</orgName></p>
+			<pb n="2" facs="EHRI-DR-19420409-IT_02.jpg"/>
+			<p>Nonetheless, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">forced exodus</term> of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> has continued and continues still. It is
+				illegal, as no law authorizing it exists. There is – for now – only a <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">bill</term> approved a few days ago by
+				the Council of Minister which has still to be submitted to Parliament. The full powers granted by Parliament to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> in 1940 to proceed against <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> cannot possibly apply to the issue of the
+				exodus. As I have learned from Minister <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000261">Mach</persName>
+				himself, of the 90,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who were in
+					<placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName> on 25th March last (in 1939 there were
+				120,000, 30,000 of whom have voluntarily left the country after the establishment of the independent Slovak State), 13,000 have been
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> these past weeks to the
+					<placeName ref="http://www.geonames.org/3096472/katowice.html">Katowice</placeName> area and to the <placeName
+					ref="https://portal.ehri-project.eu/units/de-002624-staatlakt-0_0-12-5">General Governorate</placeName> and those remaining will
+				follow in the course of the next 6 months. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000261">Mach</persName>
+				told me “The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> were dominating our <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-918" type="subject">economy</term>”, and ended by saying that to remedy
+				such a state of affairs, the time for half measures is over.</p>
+			<p>When he was accused of having acted because forced to do so by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152"
+					type="subject">Germans</term>, the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000261">Minister of
+					Interior</persName> declared to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject"
+					>press</term>, as reported with Cable no. 1095/245 from <date when="1942-03-27">27th March</date>, that the expulsion of <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> had been decided “spontaneously and with
+				full persuasion”.</p>
+			<p>I have been told by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">German</term> Minister here
+				that his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> had not used any pressure
+				but had simply made a suggestion that had been accepted.</p>
+			<p>As far as I know, the <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000789">President of the Republic</persName>
+				has done his utmost to mitigate the harshness of the methods employed for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">exodus</term> and made use, despite a strong <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-954" type="subject">opposition</term> from the <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000413">Prime Minister</persName> himself, of the right to discriminate
+				granted him by the “Jewish Code” in order to save a great many persons from expulsion. Clearly, if <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000789">President Tiso</persName> has not done more and has even
+				prevented a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> controversy on the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish question</term> from breaking out (all that
+				appeared in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term>, belatedly, were two
+				critical articles in the Catholic <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">newspapers</term>
+				Slovak and Slovenska Pravda), this is due to the fact that he finds himself unable to oppose the will of the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">Reich</term>, which has in <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000413">Tuka</persName> and in <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000261">Mach</persName>, <pb n="3" facs="EHRI-DR-19420409-IT_03.jpg"/>
+				particularly in regard to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish
+				question</term>, willing and convinced executors. It is also likely that Monsignor <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000789">Tiso</persName> judges that under any circumstances he can be
+				more useful to his people in the presidential chair than elsewhere.</p>
+			<p><persName ref="#ehri_dr_cortese_paolo">Cortese</persName></p>
+			<p> </p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19400116_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Radiotelegramm von Richard Weich in Lemberg an die IKG Wien betreffend mögliche Emigration</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten
+					Juden.</edition>
+				<author>
+					<persName>Winfried Garscha</persName>
+				</author>
+				<author>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+				<sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<publisher>
+					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
+							Wien</repository>
+						<idno>A/W 2747</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+				<list>
+					<item><name>Transporte</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-521"/>
+						</linkGrp></item>
+					<item><name>Frauen</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_nisko_engel_emil">
+						<persName>Engel, Emil</persName>
+						<linkGrp>
+							<link type="desc" target="https://portal.ehri-project.eu/authorities/jc_persons-2563396"/>
+						</linkGrp>
+						<note>
+							<p>Emil Engel wurde 1881 in Wien geboren. Er war ab 1926 Vorstandsmitglied der IKG Wien. Von 1928 bis 1940 leitete er als
+								Amtsvorstand die Fürsorgeabteilung der IKG Wien. Emil Engel flüchtete 1940 mit seiner Familie in die USA. Er arbeitete
+								als Buchhalter in New York und starb 1958.</p>
+						</note>
+					</person>
+					<person xml:id="ehri_nisko_weich_richard">
+						<persName>Weich, Richard</persName>
+						<note>
+							<p>Richard Weich wurde 1896 in Neunkirchen geboren. Er arbeitete als Automonteur und Ungeziefervertilger in Wien und lebte
+								vor dem „Anschluss“ 1938 mit seiner Frau und seiner Tochter in der Amerlingstraße 17 in Wien. Am 20. Oktober 1939
+								wurde er nach Nisko deportiert. Richard Weich kam im Holocaust um.</p>
+						</note>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place>
+						<placeName>Lemberg</placeName>
+						<location>
+							<geo>49.83826 24.02324</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702550/lviv.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Lviv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wien</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Vienna"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1940-01-16">16. Jänner 1940</date>
+				<persName ref="#ehri_nisko_weich_richard">Richard Weich</persName><idno>EHRI-NISKO-19400116</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>IKG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>21 <placeName ref="http://www.geonames.org/702550/lviv.html">LWOW</placeName> 548 34/33 11 2130 FK =</p>
+			<p>ELT = <persName ref="#ehri_nisko_engel_emil">Emil Engel</persName>. Seitenstätteng 4 <placeName
+					ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> =</p>
+			<p>Beide <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Polentransporte</term> ersuchen um Intervention
+				wegen Ermoeglichung urspruenglich geplanter Einreisen in Emigrationsländer eventuell kurzen Aufenthalt dort zu diesem Zweck <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> sollen abwarten =</p>
+			<p><persName ref="#ehri_nisko_weich_richard">Richard Weich</persName>
+				<placeName ref="http://www.geonames.org/702550/lviv.html">Lwow</placeName> Restante</p>
+			<p>4+</p>
+		</body>
+	</text>
+</TEI>

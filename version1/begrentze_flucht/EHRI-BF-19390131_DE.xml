@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-02-28T11:10:29+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19390131_DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meldeunterlagen Hugo Guttmanns</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/at-001982">Dokumentationsarchiv des österreichischen
+                            Widerstandes</repository>
+                        <collection>Kündigungsakten</collection>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>DÖW, Bestand Kündigungsakten. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <list>
+                    <item><name>Polizei</name><linkGrp>
+                            <link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+                        </linkGrp></item>
+                </list>
+                <listPerson>
+                    <person>
+                        <persName>Guttmann, Hugo</persName>
+                        <note><p>09.11.1893 - 1942</p>Hugo Guttmann und seiner Frau Hedwig (5.8.1892 - 1942) wurde mit 1. August 1938 ihre Wohnung in
+                            Wien mit Kündigungsrund "nichtarier" gekündigt. Anfang 1939 fliehen Hugo und Hedwig Guttmann über Budweis nach Prag. Am
+                            11.8.1942 wurde das Ehepaar von Prag nach Theresienstadt deportiert. Am 26.10.1942 wurden sie zusammen nach Auschwitz
+                            deportiert. Hugo und Hedwig Guttmann wurden im Holocaust ermordet.</note>
+                        <linkGrp>
+                            <link type="normal" target="https://www.holocaust.cz/databaze-obeti/obet/91399-hugo-guttmann/"/>
+                        </linkGrp>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="ehri_bf_MA21">
+                        <orgName>städtischen Wohnhäuserverwaltung (Magistrats-Abteilung 21)</orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1939-01-31">31. Jänner 1939</date>
+                <placeName>Wien</placeName>
+                <orgName>Zentralmeldungsamt</orgName><idno>EHRI-BF-19390131</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="vertreibungspolitik"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p>Formular der <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Polizeidirektion</term> in
+                        <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, Zentralmeldungsamt vom <date when="1939-01-01"
+                        >31.1.1939</date> zur Beantwortung der amtlichen Anfrage der <orgName ref="#ehri_bf_MA21">städtischen Wohnhäuserverwaltung
+                        (Magistrats-Abteilung 21)</orgName> vom <date when="1938-12-17">17. Dezember 1938</date> über den gegenwärtigen Wohnort von
+                        <persName ref="https://www.holocaust.cz/databaze-obeti/obet/91399-hugo-guttmann/">Hugo Guttmann</persName>.</p>
+                <p>Das Formular gibt Auskunft über den Wohnort bis zum <date when="1938-08-01">1.8.1938</date> in <placeName
+                        ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> 10, Laxenburgerstraße 49-57/1/7, den letzten Wohnort
+                        <persName ref="https://www.holocaust.cz/databaze-obeti/obet/91399-hugo-guttmann/">Hugo Guttmann</persName> in <placeName
+                        ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> XVIII, Martinstraße 1/13 und den Abgang an einen
+                    unbekannten Ort am <date when="1939-01-10">10.1.1939</date> sowie eine amtliche Meldeanfrage der <orgName ref="#ehri_bf_MA21"
+                        >Magistratsabteilung 21</orgName> über den Verbleib von <persName>Hugo Guttmann</persName> vom <date when="1939-01-31"
+                        >31.1.1939</date>. Der Akt beinhaltet personenbezogene Daten von <persName>Hugo Guttmann</persName> sowie seine Melde- bzw.-
+                    Abmeldedaten.</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><pb n="1" facs="EHRI-BF-19390131_01.jpg"/><!-- Amtliche Meldeanfrage der <orgName>Magistratsabteilung 21</orgName></p>
+      <p>der <orgName>städt. Wohnhausverwaltung</orgName></p>
+      <p>Bartensteingasse 7, 2. Stiege, 4. Stock</p>
+      <p>X/S29/38 <date when="1938-12-17">17. Dezember 1938</date> --></p>
+        </body>
+    </text>
+</TEI>

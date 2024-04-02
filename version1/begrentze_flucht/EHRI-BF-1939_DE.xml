@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-08T13:51:57+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-1939_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>G.E.R. Gedye über die antijüdischen Ausschreitungen nach dem "Anschluss"</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+				<author>
+					<persName>Michal Frankl</persName>
+				</author>
+				<author>
+					<persName>Wolfgang Schellenbacher</persName>
+				</author>
+				<sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="name"><title>G.E.R. Gedye</title>, <bibl type="monograph"><title><emph rend="italic">G. E. R. Gedye, Die Bastionen fielen.
+								Wie der Faschismus Wien und Prag überrannte.</emph></title> (<bibl type="place"> Wien</bibl>: <bibl type="publisher"
+							>Danubia-Verlag</bibl>
+						<date when="1947">1947</date>), S. 288-294.</bibl>
+					<textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+				<listPlace>
+					<place>
+						<placeName>Österreich</placeName>
+						<location>
+							<geo>47.33333 13.33333</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2782113/republic-of-austria.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/%C3%96sterreich"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Wien</placeName>
+						<location>
+							<geo>48.20849 16.37208</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Tschechoslowakei</placeName>
+						<location>
+							<geo>50.08292 14.46672</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/8505031/czechoslovakia.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Tschechoslowakei"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Praterstern</placeName>
+						<location>
+							<geo>48.21864 16.39276</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2768416/bahnhof-praterstern.html"/>
+							<link type="desc" target="https://en.wikipedia.org/wiki/Praterstern"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lundenburg (Břeclav)</placeName>
+						<location>
+							<geo>48.75897 16.88203</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3078773/breclav.html"/>
+							<link type="desc" target="http://de.wikipedia.org/wiki/B%C5%99eclav"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Nordbahnhof</placeName>
+						<location>
+							<geo>48.21851 16.3924</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/2761339/bahnhof-wien-nord.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Prag</placeName>
+						<location>
+							<geo>50.08804 14.42076</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/Prag"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Dachau</placeName>
+						<location>
+							<geo>48.26 11.43402</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_camps-177"/>
+							<link type="desc" target="https://de.wikipedia.org/wiki/KZ_Dachau"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Juden und jüdisches Leben</name>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-864"/>
+						</linkGrp></item>
+					<item><name>Antijüdische Maßnahmen</name>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-337"/>
+						</linkGrp></item>
+					<item><name>Männer</name>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-826"/>
+						</linkGrp></item>
+					<item><name>Frauen</name>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Kinder</name>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Hakenkreuz</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-369"/>
+						</linkGrp></item>
+					<item><name>Arbeit</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Flüchtlinge</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-304"/>
+						</linkGrp></item>
+					<item><name>Propaganda</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-986"/>
+						</linkGrp></item>
+					<item><name>Polizei</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Pass</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1141"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person>
+						<persName>Dollfuss, Engelbert</persName>
+						<note><p>1892 - 1934</p>Bundeskanzler Österreichs zwischen 1932 bis 1934. Regierte ab März 1933 diktatorisch bis zu seiner
+							Ermordung durch österreichische Nationalsozialisten im Juli 1934 den von ihm mitgegründeten austrofaschistischen
+								<q>Ständestaat</q>.</note>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000850"/>
+						</linkGrp>
+					</person>
+					<person>
+						<persName>Schuschnigg, Kurt</persName>
+						<note><p>1897 - 1977</p>Regierte zwischen Juli 1934 und dem Anschluss Österreichs an Deutschland im März 1938 diktatorisch als
+							Bundeskanzler des austrofaschistischen Österreichs.</note>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_pers-000768"/>
+						</linkGrp>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org>
+						<orgName>Innenministerium der Tschechoslowakei</orgName>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749"/>
+						</linkGrp>
+					</org>
+					<org>
+						<orgName>Sturmabteilung</orgName>
+						<note>
+							<p>1921 - 1945</p>
+							<p>Die Sturmabteilung, der paramilitärische Flügel der NSDAP, wurde 1921 gegründet. Zunächst setzte sie sich hauptsächlich
+								aus deutschen Veteranen des Ersten Weltkriegs, Milizangehörigen und anderen Personen zusammen, die sowohl der Weimarer
+								Republik als auch der kommunistische Partei ablehnend gegenüberstanden. Ihre terroristischen Aktionen gegen
+								GegnerInnen erhöhte auch die öffentliche Wahrnehmung der NS-Bewegung, sowohl vor als auch nach Hitlers Machtaufstieg.
+								Nachdem sich das NS-Regime etabliert hatte, begann das Regime die störende Vorgehensweise der SA zunehmend als
+								Bedrohung wahrzunehmen. Hitler stimmte der Ermordung der höheren Führungsschicht der SA zu, die im Röhm Putsch oder
+								der „Nacht der langen Messer“ vornehmlich durch die SS durchgeführt wurde.</p>
+						</note>
+						<linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-358"/>
+						</linkGrp>
+					</org>
+					<org xml:id="ehri_bf_vaterlaendische_front">
+						<orgName>Vaterländische Front</orgName>
+						<note><p>20. 5. 1933 - 1938</p>Die vom diktatorisch regierendem Bundeskanzler Engelbert Dollfuß gegründete Vaterländische
+							Front (VF) hatte „die politische Zusammenfassung aller Staatsangehörigen“ in Österreich zum Ziel. Nach der Ausschaltung
+							der demokratischen Strukturen und dem Verbot der übrigen Parteien fungierte die VF in Anlehnung an die italienische
+							Nationale Faschistische Partei als Einheitspartei.</note>
+						<linkGrp>
+							<link type="normal" target="#ehri_bf_vaterlaendische_front"/>
+						</linkGrp>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1947">1947</date>
+				<placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+				<idno>EHRI-BF-1939</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Erinnerungen und Interviews</term>
+				</keywords>
+				<catRef target="Fluchtberichte"/>
+				<catRef target="Anschluss"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p> [...] Auf dem <placeName ref="http://www.geonames.org/2761339/bahnhof-wien-nord.html">Ostbahnhof</placeName><note type="gloss"
+					>Gemeint: Nordbahnhof</note> wurde ein Zug gefüllt, der aus so vielen Waggons bestand, wie die Lokomotiven eben noch zur Grenze
+				abschleppen konnten; dann folgte sogleich der nächste. Die Fahrgäste verlangten, dass man so bald wie möglich abfahren sollte, aber
+				auf den Eisenbahnen gab es, wie überall, Naziverräter. Die Tränen der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und Flüche der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Männer</term> blieben unbeachtet. Dann kamen die
+					<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName>-Leute, nur halbuniformiert, bloß halbbewaffnet,
+				aber alle mit den gefürchteten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-369" type="subject"
+					>Hakenkreuzbinden</term> angetan, siegestrunken, heiser vor Siegesgebrüll und dürstend nach Rache. Mit Hundepeitschen in der Hand
+				gingen sie von Waggon zu Waggon und zwangen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+					>Männer</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinder</term>, wieder auszusteigen. Wie Vieh wurden
+				diese vom Bahnsteig weg ins Gefängnis getrieben. Die Zurückgebliebenen wurden dann in aller Öffentlichkeit ihrer Wertsachen beraubt –
+				Geld, Schmuck, Uhren und Pelze, nichts entging den Banditen. Endlich, nach Stunden voll tödlicher Angst, setzte sich der Zug mit
+				seinen vor Furcht zitternden Passagieren langsam in Bewegung, um sie nach <placeName
+					ref="http://www.geonames.org/3078773/breclav.html">Lundenburg</placeName> in die Freiheit zu bringen. Aber ihr Leidensweg hatte
+				erst begonnen. Schon nach zwanzig Minuten hielt der Zug plötzlich auf offener Strecke. Aus der Dunkelheit tauchten Fackeln und
+				Laternen auf; Abteilungen von <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName>-Männern stürmten die
+				Waggons, besetzten alle Ausgänge und zwangen den Lokomotivführer, nach <placeName ref="http://www.geonames.org/2761369/vienna.html"
+					>Wien</placeName> zurückzukehren. Dort wurden die Fahrgäste neuerlich perlustriert und neue Opfer aus dem Zug geschleppt. Endlich
+				war auch das vorbei und jene, die die Kontrolle heil überstanden hatten, begannen zum dritten Male die Reise. Der lange, überfüllte
+				Zug bewegte sich nur langsam vorwärts; jeden Augenblick mussten die Passagiere fürchten, neuerlich aufgehalten zu werden. Endlich
+				kamen die Lichter von <placeName ref="http://www.geonames.org/3078773/breclav.html">Lundenburg</placeName> in Sicht, und der Zug hielt
+				auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischem</placeName> Gebiet. Noch musste man die
+					<placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName> Zoll- und Passkontrolle über
+				sich ergehen lassen. Die Beamten trugen bereits <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-369" type="subject"
+					>Hakenkreuzbinden</term>, waren hier aber praktisch machtlos. Dann kam die <placeName
+					ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechische</placeName> Kontrolle. „Alle Personen mit <placeName
+					ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1141" type="subject">Pässen</term> haben auszusteigen und sich in den
+				Wartesaal zu begeben“, hieß es. Die <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreicher</placeName>
+				kamen dieser Weisung nicht ohne Befürchtungen nach. Bei der Tür des Wartesaales stand <placeName
+					ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechische</placeName>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> , die sie zwar ein-, aber nicht
+				wieder hinausließ. Sie mussten lange warten, bis sie zuletzt den Zug nach <placeName ref="http://www.geonames.org/3067696/prague.html"
+					>Prag</placeName> davonfahren sahen. Dann trat der Chef der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+					type="subject">Polizei</term> ein und sagte mit lauter Stimme: „Ich habe eben vom <orgName
+					ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749">Innenministerium</orgName> die Weisung
+				erhalten, dass alle <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreicher</placeName> ohne Ausnahme
+				bei der Grenze zurückzuweisen sind. Sie müssen alle hier warten und mit dem nächsten Zug zurückfahren.“ Einer der Fahrgäste, der sich
+				im Wartesaal befand und durch eine List entkam, erzählte mir später in <placeName ref="http://www.geonames.org/3067696/prague.html"
+					>Prag</placeName>, dass die Szenen, die dieser Erklärung folgten, so schrecklich waren, dass er sich gar nicht an sie zu erinnern
+				wagte. Unter den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlingen</term> gab es sehr
+				viele, deren Leben in Gefahr war. Einige, deren Namen ich kenne, wurden von dort fast direkt nach <placeName
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName> gebracht. [...]</p>
+			<p>[...] Von meinem Büro am Petersplatz konnte ich auch Wochen hindurch den Lieblingssport des Nazimobs beobachten: <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdische</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Männer</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> wurden gezwungen, auf allen vieren
+				kriechend, den Gehsteig mit einer scharfen Lauge zu reiben, die ihnen die Haut verbrannte, so dass sie sich sofort in
+				Spitalsbehandlung begeben mussten. Unter <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000850"
+					>Dollfuß</persName> und <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000768">Schuschnigg</persName> war es
+				einige Male vorgekommen, dass Nazis, die man beim Schmieren von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-369"
+					type="subject">Hakenkreuzen</term> erwischt hatte, von der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+					type="subject">Polizei</term> gezwungen worden waren, diese wieder mit schwarzer Farbe zu übermalen oder die Zettel
+				zusammenzukehren, die sie in den Straßen gestreut hatten – eine milde und angemessene Maßnahme, die man kaum eine Strafe nennen
+				konnte. Die Fürsprecher der Nazi im Ausland versuchten, zwischen dieser Maßnahme und den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337">Reibpartien</term> der <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> eine Parallele zu ziehen. Aber zwischen
+				ihnen bestand keine Parallele. Während die Nazi am frühen Morgen, ehe es noch viele Leute auf den Straßen gab, herausgeholt wurden, um
+				die Spuren ihrer eigenen illegalen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-986">Propaganda</term> zu beseitigen,
+				wurden die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> gezwungen, in den
+				belebtesten Straßen und zu einer Zeit, da der Verkehr am größten und die Arbeit für sie daher am peinlichsten war, die Überreste der
+				völlig legalen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-986">Wahlpropaganda</term> der letzten Regierung, mit der
+				sie selbst nichts zu tun gehabt hatten, zu beseitigen. Ich hatte selbst gesehen, wie unmittelbar nach der Ankündigung der
+				Volksabstimmung Mitglieder der <orgName ref="#ehri_bf_vaterlaendische_front">Vaterländischen</orgName> Jugendorganisation über Weisung
+					<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000768">Schuschniggs</persName> auf Gehsteigen das
+				Kruckenkreuz schmierten und mit Schablonen das Porträt <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000768"
+					>Schuschniggs</persName> auf Häusermauern malten. Jetzt aber wurden tagtäglich <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Männer</term>, von der <orgName
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName> aus Geschäften, Büros und Wohnungen geholt und <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337">gezwungen</term>, inmitten einer sich drängenden, stichelnden und
+				lachenden Menge von „goldenen <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> Herzen“ mit
+				Ausreibbürsten, auf allen vieren kriechend, stundenlang die Gehsteige zu reiben, in dem hoffnungslosen Versuch, die Spuren der
+					<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000768">Schuschnigg</persName>-<term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-986">Propaganda</term> zu beseitigen. (Wo es keine Kruckenkreuze
+				wegzuwaschen gab, malten sie die Nazis selbst auf den Gehsteig, um den <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> so eine Arbeit zu schaffen.) Von Zeit zu
+				Zeit johlte die Menge vor Vergnügen auf. Dies bedeutete dann, dass einer der SA-Männer höhnisch gesagt hatte „Sie brauchen frisches
+				Wasser“ und dabei einen Kübel voll Schmutzwasser über sein Opfer gegossen hatte. Die erste <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-337">Reibpartie</term> sah ich auf dem <placeName
+					ref="http://www.geonames.org/2768416/bahnhof-praterstern.html">Praterstern</placeName>. Sie musste das Bild <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-000768">Schuschniggs</persName> entfernen, das mit einer Schablone auf
+				den Sockel eines Monuments gemalt worden war. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName>-Leute
+				schleppten einen bejahrten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term> Arbeiter
+				und seine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frau</term> durch die beifallklatschende
+				Menge. Tränen rollten der alten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frau</term> über die
+				Wangen, und während sie starr vor sich hinsah und förmlich durch ihre Peiniger hindurchblickte, konnte ich sehen, wie der alte <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term>, dessen Arm sie hielt, versuchte, ihre
+				Hand zu streicheln. „<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term> für die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>, endlich <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term> für die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>!“ heulte die Menge. „Wir danken unserem
+				Führer, er hat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term> für die <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> beschafft!“</p>
+		</body>
+	</text>
+</TEI>

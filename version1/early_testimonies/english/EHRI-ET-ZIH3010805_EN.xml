@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-ZIH3010805_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Meier Lenc, the experiences of the Sokal dweller in the ghetto, in hiding and in the Soviet partisan unit</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>EHRI Edition of Early Holocaust Testimony</edition>
+				<author>
+					<persName>Michał Czajka</persName>
+				</author>
+				<author>
+					<persName>Marta Wojas</persName>
+				</author>
+				<author>
+					<persName>Dagmara Chełstowska</persName>
+				</author>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+						<repository ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</repository>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll.
+							301)</collection>
+
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Historical Institute in Warsaw, Holocaust Survivor Testimonies (coll. 301), Mejer Lencow Testimony (301/805). <textLang
+						mainLang="pl">Original in Polish.</textLang></bibl>
+
+				<listPlace>
+					<place>
+						<placeName>Sokal</placeName>
+						<location>
+							<geo>50.47438 24.28288</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/693301/sokal.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Sokal"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Volhynia</placeName>
+						<location>
+							<geo>51 26</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/689067/volhynia.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Galicia</placeName>
+						<location>
+							<geo>49.5 23</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/562153/galicia.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Józefka</placeName>
+						<location>
+							<geo>50.39254 18.97047</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/3097097/jozefka.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Gruszów</placeName>
+						<location>
+							<geo>51.08681 23.25419</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/771320/gruszow.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Hrusz%C3%B3w"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Ukraine</placeName>
+						<location>
+							<geo>49 32</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/690791/ukraine.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Ukraine"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Staryy Poryts’k</placeName>
+						<location>
+							<geo>50.62967 24.49151</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/8424459/staryy-poryts-k.html"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lviv</placeName>
+						<location>
+							<geo>49.83826 24.02324</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/702550/lviv.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lviv"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Rava-Rus’ka</placeName>
+						<location>
+							<geo>50.23079 23.62825</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/695781/rava-rus-ka.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Rava-Ruska"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Biłgoraj</placeName>
+						<location>
+							<geo>50.54114 22.72204</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/775922/bilgoraj.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Bi%C5%82goraj"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Lublin</placeName>
+						<location>
+							<geo>51.25 22.56667</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/765876/lublin.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Lublin"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Warsaw</placeName>
+						<location>
+							<geo>52.22977 21.01178</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/756135/warsaw.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Warsaw"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Republic of Belarus</placeName>
+						<location>
+							<geo>53 28</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/630336/republic-of-belarus.html"/>
+							<link type="desc" target="http://en.wikipedia.org/wiki/Belarus"/>
+						</linkGrp>
+					</place>
+					<place>
+						<placeName>Il’kovychi</placeName>
+						<location>
+							<geo>50.52393 24.31385</geo>
+						</location>
+						<linkGrp>
+							<link type="normal" target="http://www.geonames.org/707692/il-kovychi.html"/>
+						</linkGrp>
+					</place>
+				</listPlace>
+				<list>
+					<item><name>Ghettos</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-545"/>
+						</linkGrp></item>
+					<item><name>Work</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-943"/>
+						</linkGrp></item>
+					<item><name>Ghetto liquidation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-551"/>
+						</linkGrp></item>
+					<item><name>Hiding places</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-265"/>
+						</linkGrp></item>
+					<item><name>Armed resistance</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1095"/>
+						</linkGrp></item>
+					<item><name>Third Reich</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1159"/>
+						</linkGrp></item>
+					<item><name>Wars</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1080"/>
+						</linkGrp></item>
+					<item><name>German Occupation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-633"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_ukrainians"><name>Ukrainians (ascribed nationality)</name></item>
+					<item><name>Hiding</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-262"/>
+						</linkGrp></item>
+					<item><name>Transfer of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-575"/>
+						</linkGrp><note><p>Transfer from one place to another or one camp to another.</p></note></item>
+					<item><name>Concentration camps</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-496"/>
+						</linkGrp></item>
+					<item><name>Living conditions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-831"/>
+						</linkGrp></item>
+					<item><name>Attacks</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-604"/>
+						</linkGrp></item>
+					<item><name>Hunger</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-569"/>
+						</linkGrp></item>
+					<item><name>Jewish collaborators</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-117"/>
+						</linkGrp></item>
+					<item><name>Round ups (razzias, Aktionen)</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-550"/>
+						</linkGrp></item>
+					<item><name>Pogroms and riots</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-346"/>
+						</linkGrp></item>
+					<item><name>Women</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-825"/>
+						</linkGrp></item>
+					<item><name>Children</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-824"/>
+						</linkGrp></item>
+					<item><name>Attitude toward the Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-815"/>
+						</linkGrp></item>
+					<item><name>Orphans</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-327"/>
+						</linkGrp></item>
+					<item><name>Prisoners</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-650"/>
+						</linkGrp></item>
+					<item><name>Gestapo</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/authorities/ehri_cb-350"/>
+						</linkGrp></item>
+					<item><name>Escape</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-204"/>
+						</linkGrp></item>
+					<item><name>Illegal Border crossing</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-234"/>
+						</linkGrp></item>
+					<item xml:id="ehri_et_nationalities_uzbeks"><name>Uzbeks (ascribed nationality)</name></item>
+					<item><name>Executions</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-541"/>
+						</linkGrp></item>
+					<item><name>Humiliation of Jews</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-555"/>
+						</linkGrp></item>
+					<item><name>Interrogations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-634"/>
+						</linkGrp></item>
+					<item><name>Torture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-562"/>
+						</linkGrp></item>
+					<item><name>Hanging</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-542"/>
+						</linkGrp></item>
+					<item><name>Graves</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-748"/>
+						</linkGrp></item>
+					<item><name>Death</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-745"/>
+						</linkGrp></item>
+					<item><name>Clothings</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-836"/>
+						</linkGrp></item>
+					<item><name>Acts of retaliation</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-602"/>
+						</linkGrp></item>
+					<item><name>Animals</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-811"/>
+						</linkGrp></item>
+					<item><name>Aid refusal</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-277"/>
+						</linkGrp></item>
+					<item><name>Agriculture</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-932"/>
+						</linkGrp></item>
+					<item><name>Partisans organisations</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-241"/>
+						</linkGrp></item>
+					<item><name>Uniforms</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1091"/>
+						</linkGrp></item>
+					<item><name>Police</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1119"/>
+						</linkGrp></item>
+					<item><name>Arrests</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-598"/>
+						</linkGrp></item>
+					<item><name>Hospitals and Clinics</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-282"/>
+						</linkGrp></item>
+					<item><name>Nationalists</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-977"/>
+						</linkGrp></item>
+					<item><name>Medals of Honour</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-1093"/>
+						</linkGrp></item>
+					<item><name>Memorial sites</name><linkGrp>
+							<link type="normal" target="https://portal.ehri-project.eu/keywords/ehri_terms-716"/>
+						</linkGrp></item>
+				</list>
+				<listPerson>
+					<person xml:id="ehri_et_lencow_mejer">
+						<persName>Lencow, Mejer</persName>
+						<note><p>Born 1926 in Ilkowice.</p></note>
+					</person>
+					<person xml:id="ehri_et_lencow_nachman">
+						<persName>Lencow, Nachman</persName>
+					</person>
+					<person xml:id="ehri_et_awiezu_rozi">
+						<persName>Rozi, Awiezu</persName>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1945-09-04">1945</date>, <persName ref="#ehri_et_lencow_mejer">Mejer Lencow</persName>, <placeName
+					ref="http://www.geonames.org/693301/sokal.html">Sokal</placeName>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545">ghettos</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">forced labour</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-551">ghetto liquidation</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265">hiding places</term>, <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215">partisans</term>
+				<idno>EHRI-ET-ZIH3010805</idno></creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Meier Lenc, who lived in the Sokal Ghetto until its liquidation and then escaped to the “Aryan side”. He was captured
+					by German police and later ran away from the grave he had been forced to dig for himself. He spent several months in Kuczków
+					village and later joined a Soviet partisan unit.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><persName ref="#ehri_et_lencow_mejer">Meier Lenz</persName> Testimony (doc. 301/805)</p>
+
+			<p>Original, manuscript, 6 pages, 225 x 285 mm, Polish language</p>
+
+			<p><pb n="1" facs="EHRI-ET-ZIH3010805_01.jpg"/> Autobiography</p>
+
+			<p><q><foreign xml:lang="yi">Mein Iberliebung</foreign></q>
+				<note type="gloss">(Yiddish) – my survival</note></p>
+			<p>by <persName ref="#ehri_et_lencow_mejer">Lenz Meier</persName> son of <persName ref="#ehri_et_lencow_nachman">Nachman</persName>, born
+					<date when="1926-11-10">1926 (November 10</date>) in <placeName ref="http://www.geonames.org/693301/sokal.html">Sokal</placeName>.
+				Since he was 7 years old until the Soviet-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+					>German</term>
+				<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080">war</term> he went to school. During the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">occupation</term> he was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">forced to work</term> for various bestrzelecs: <note
+					type="gloss">Probably „bandits”; exact meaning has not been established</note><term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term> and <term type="subject"
+					ref="#ehri_et_nationalities_ukrainians">Ukrainian</term> ones.</p>
+			<p>Apart from that, I had to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hide</term> from the
+					<foreign xml:lang="ru">jewrejski</foreign>
+				<note type="gloss">(Rus.) - Jewish</note> militiamen who wanted to catch and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-575" type="subject">send</term> me to a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term>.</p>
+			<p>In <date when="1942-09">September 1942</date> we were taken to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+					type="subject">ghetto</term>:</p>
+			<p>In the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> (<foreign xml:lang="de"
+					>Ordnungsdienstmänner</foreign>) came every day (at 5 a.m.); they smashed doors and windows, rushed into the small, dark <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">apartment</term> and frequently <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-604" type="subject">beat me up</term> with <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hunting crops</term> (for <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">trying to take a piece of bread</term> with me), and
+				they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">took me for labor</term>. At <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-604" type="subject">people were beaten</term> by the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> on the one hand, and by a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-117" type="subject">Jewish militiaman</term> on the other. After <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> we were herded back to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>, where I had to stand guard all night,
+				to prevent an unexpected <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">action</term></q>.</p>
+			<p>On <date when="1942-10-28">28. 10. 1942</date> they made a <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-346"
+						type="subject">pogrom</term></q> against us, that is an action, in which they took my father; I managed to get to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">attic</term>; I found a 60 cm3 hen house there, where
+				I stayed all day.</p>
+			<p>At about 2 p.m. a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> with a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">little child</term> in her arms climbed to the attic
+				where I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hidden</term> with my sisters, and sat
+				near the hen house. Presently the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term> began
+				to cry; <q><foreign xml:lang="de">Schupo men</foreign></q>
+				<note type="gloss">in the text: „szybowcy”</note>soon heard him and ran to the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">attic</term>. In the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">attic</term> they took that <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> as well as 20 other <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">people who were hiding</term> in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">attic</term> (that <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> begged a Schupo man: <q><foreign
+						xml:lang="yi">Mein liber Heer, los mich liejben</foreign></q>, <note type="gloss">(Yiddish) - My dear sir, please, let us
+					live.</note>and he answered: <q><foreign xml:lang="de">mir musn mach ein zwek mit di Judn alle <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-815" type="subject"> kaput</term></foreign></q>) <note
+					type="gloss">(Yiddish) – We must achieve one goal: finish off all Jews.</note> Me in my hen house and my sisters under <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">planks</term> remained in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">attic</term>. At night we went down; our daddy was
+				gone, that is the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> had taken him. And
+				we became <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">orphans</term>.</p>
+			<p><pb n="3" facs="EHRI-ET-ZIH3010805_03.jpg"/> And so, as a poor <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650"
+					type="subject">prisoner</term> - a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-327" type="subject">young
+					orphan</term> – I had to go on suffering and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>working for the fascists.</term></p>
+			<p>In <date when="1943-03">March 1943</date> I was taken to a <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-350"
+					type="subject">Gestapo</term>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Lager</term> in <placeName
+					ref="http://www.geonames.org/693301/sokal.html">Sokal</placeName>. In the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Lager</term> I had to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> all day, and at night drunk <term
+					ref="https://portal.ehri-project.eu/authorities/ehri_cb-350" type="subject">Gestapo</term> men came, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-604" type="subject">beat us</term> mercilessly and they even <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-604" type="subject">beat some people to death.</term></p>
+			<p>On <date when="1943-06-27">27. 6. 1943</date> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+					>Germans</term> made <placeName ref="http://www.geonames.org/693301/sokal.html">Sokal</placeName>
+				<q>Judenfrei</q></p>
+			<p>I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> from the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Lager</term> and <foreign xml:lang="ru"
+					>naprawiłem</foreign>
+				<note type="gloss">(Rus.) – took direction</note>to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject"
+					>run away</term> to <placeName ref="http://www.geonames.org/689067/volhynia.html">Volhynia</placeName>. And so I had to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">cross the border</term>: <placeName
+					ref="http://www.geonames.org/689067/volhynia.html">Volhynia</placeName> – <placeName
+					ref="http://www.geonames.org/562153/galicia.html">Galicia</placeName>. I was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">crossing the border</term> near the village of
+					<placeName ref="http://www.geonames.org/3097097/jozefka.html">Józefka</placeName>:</p>
+			<p>The night was dark; it was very dark; I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">crossing
+					that border</term> at 11.30 p.m. and I ran into a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+					type="subject">German</term> ambush, which consisted of 35 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+					type="subject">Germans</term> and <term type="subject" ref="#ehri_et_nationalities_uzbeks">Uzbeks</term>. They lighted the field
+				with [signal] rockets; I began to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">run away</term>
+				from the place. They surrounded me and began <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-533" type="subject">to
+					shoot</term> at me. I didn’t pay attention to that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-533"
+					type="subject">shooting</term> (as I knew very well it was death all the same) so I began to <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">run away</term> even faster. I ran until two <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> grabbed me by the hands and neck.</p>
+			<p>Soon, more <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> and <term type="subject"
+					ref="#ehri_et_nationalities_uzbeks">Uzbeks</term>
+				<foreign xml:lang="ru">izmienniki Rod’iny</foreign>
+				<note type="gloss">(Rus.) – traitors of the state – text written in Cyrillic alphabet</note>came running and they dragged me to
+					<placeName ref="http://www.geonames.org/3097097/jozefka.html">Józefka</placeName> to the station – the border one, where they
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-555" type="subject">stripped me naked and beat me terribly</term>
+				and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">wrote a report</term>. I didn’t answer the
+				questions so they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">beat me all the harder</term> till
+				5 a.m. Then the commanding officer of the <foreign xml:lang="ru">zastawa</foreign>
+				<note type="gloss">(Rus.) – a border station</note>came and said I should be <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-542" type="subject">hanged</term>. Then they talked between themselves and
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">I was sentenced to be shot</term>.</p>
+			<p>At 5.30 I was led out under the escort of 2<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+					>Germans</term> and 2 <term type="subject" ref="#ehri_et_nationalities_uzbeks">Uzbeks</term> and the commanding officer himself,
+				and they drove me to the forest to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shoot</term>
+				me.</p>
+			<p>In the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-538" type="subject">forest</term> they surrounded me; they gave me
+				a shovel, and the commanding officer outlined a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject"
+					>pit</term> for my size and told me to dig.</p>
+			<p>So I turned to the <term type="subject" ref="#ehri_et_nationalities_uzbeks">Uzbeks</term> and said <foreign xml:lang="ru">Shto ya vam
+					sdelal? Za shto vy budete mne molodogo strelyat’?</foreign>
+				<note type="gloss">(Rus.) – What have I done to you? Why are you going to shoot me, a youngster? – text written in Cyrillic
+					alphabet</note> And they answer <foreign xml:lang="ru">Ladno, kopay</foreign>. <note type="gloss">(Rus.) – OK., dig! – text
+					written in Cyrillic alphabet.</note></p>
+			<p><pb n="5" facs="EHRI-ET-ZIH3010805_05.jpg"/> So I decided to take my revenge before <term type="subject"
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745">death</term>. Then they told me to take off my <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">jacket</term>.</p>
+			<p>I stood the shovel in front of the commanding officer, took off my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+					type="subject">jacket</term> and handed it to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject"
+					>German</term>. I took the shovel into my hands, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-602" type="subject"
+					>sprang up to the commanding officer</term> and chopped his head open. That moment the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">fryc</term>
+				<note type="gloss">(Rus.) - a pejorative term for a German</note>came down to the ground; I jumped over him, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">sprang</term> 2-3 m away, got caught on a bush and
+				fell. Suddenly, I heard shots; I jumped to my feet and wanted to run further so that the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> wouldn’t catch me alive and cut me up,
+				but only shoot me during the flight (from behind).</p>
+			<p>I broke 20 to 30 meters away from them and saw I was still alive and would be able to run away perhaps. So I began to run faster. I
+				flew like a bird between the bushes. I had run some 2 km, so I stopped to find out where I was. Where should I run? I crawled under a
+				bush, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">covered</term> myself with moss so that nobody
+				would notice me. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">lay</term> there for a few
+				minutes; suddenly, I hear a clatter of a wagon; I look and see a farmer driving one <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-811" type="subject">horse</term>; he’s driving very slowly and looking all
+				around him. I sneaked out of those <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">bushes</term>,
+				went up to the road and asked him very quietly: Which way should I go to <placeName ref="http://www.geonames.org/771320/gruszow.html"
+					>Gruszów</placeName>, mister? The farmer pointed it out to me. So I ask him: And what are those houses near here?</p>
+			<p>The farmer answered: It’s the border station in Szarpańce. So I ask the where is that border? So the farmer turned around and showed me
+				a plate with the inscription <q><foreign xml:lang="de">Grenze</foreign></q>, <note type="gloss">(Ger.) – border</note>that was stuck
+				to a thick oak.</p>
+			<p>So I thought to myself <q>Oh God, I’ve run more than 2 km and I’m still on that damned border; I’ve almost run into another damned Nazi
+					station.</q></p>
+			<p><pb n="6" facs="EHRI-ET-ZIH3010805_06.jpg"/> I also asked the farmer to give me something to cover myself with, as I was naked. But the
+				farmer wouldn’t give me anything. He only said: run away quick because some <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> are coming near here. I ran across
+				that forest, ran out into the fields and reached <placeName ref="http://www.geonames.org/771320/gruszow.html">Gruszów</placeName>. I
+				went to several cabins there. I pretended to be a <term type="subject" ref="#ehri_et_nationalities_ukrainians">Ukrainian</term>
+				running away from a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">German Lager</term>. I asked
+				several farmers to give me something to put on, but nobody took <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-277"
+					type="subject">pity</term> on me. I asked if the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159"
+					type="subject">Germans</term> came [there] or the police. So they told me nobody came there except for Banderites. After all, it
+				was <foreign xml:lang="uk">samostyjna <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraina</placeName></foreign>!
+					<note type="gloss">(Ukr.) – independant Ukraine</note></p>
+			<p>So I thought to myself: <q>I’ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">run away</term> from
+					one hell but got into another.</q> I left the village, went into the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">fields</term>. I saw a scarecrow in the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">hemp</term>; I took that scarecrow; took off its torn
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">jacket</term>, cap and a piece of thin wire; I
+				went into the rye, dusted that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">uniform</term>, sewed
+				it up with the wire (as I didn’t have a needle) and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+					type="subject">uniform</term> was ready.</p>
+			<p>When I put that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">uniform</term> on, I felt much better
+				- better than in good <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> when I left the
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>. I pulled the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">cap</term> over my head; I let the visor down on my
+				eyes; the bottom got torn and my hair hung on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+					>cap</term>. Dressed in that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">uniform</term>, I
+				went to look for employment. I went to Kuczków in <placeName ref="http://www.geonames.org/8424459/staryy-poryts-k.html"
+					>Poryck</placeName> district. I was in Kuczków as a servant for 3 months.</p>
+			<p>After the 3 months I joined <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-241" type="subject">Soviet partisans</term>
+				of <q><foreign xml:lang="ru">Kowpak’s Otryad</foreign></q>
+				<note type="gloss">(Rus.) – Kovpak’s detachment. General Semyon Kovpak was a famous Soviet partisan commander, active in
+					Ukraine.</note> I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1091" type="subject">uniformed</term> and
+				armed right away.</p>
+			<p>I went with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1095" type="subject">partisans</term> to the vicinity of
+					<placeName ref="http://www.geonames.org/702549/l-vivs-ka-oblast.html">Lwów</placeName>. On the way we fought with Banderites,
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policemen</term> and <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term>. While crossing the <placeName
+					ref="http://www.geonames.org/562153/galicia.html">Galicia</placeName>-<placeName
+					ref="http://www.geonames.org/689067/volhynia.html">Volhynia</placeName> border the same <term type="subject"
+					ref="#ehri_et_nationalities_uzbeks">Uzbeks</term> that caught me on the border when I was <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">running away</term> from the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> were taken to <foreign xml:lang="ru"
+					>plen</foreign> (<note type="gloss">Rus.) – taken prisoner.</note>
+				<persName ref="#ehri_et_awiezu_rozi">Awiezu Rozi</persName> (an <term type="subject" ref="#ehri_et_nationalities_uzbeks"
+				>Uzbek</term>), who stood guard over me when I was arrested, was with them.</p>
+			<p><pb n="7" facs="EHRI-ET-ZIH3010805_07.jpg"/> Near <placeName ref="http://www.geonames.org/695781/rava-rus-ka.html">Rawa
+					Ruska</placeName> the 1st and 4th regiment were given the order to seize 2 villages and a railroad station, and to chase the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> away from there. After the railroad
+				station was taken, I met the <term type="subject" ref="#ehri_et_nationalities_uzbeks">Uzbek</term>
+				<persName ref="#ehri_et_awiezu_rozi">Awiezu Rozi</persName> Shargarinsky district, III international, Uzbek SSR, <note type="gloss"
+					>III International is the name of unidentified locality (Shargarinsky district didn’t exist)</note> who guarded me when I was
+					<term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-598">arrested</term> in <placeName
+					ref="http://www.geonames.org/3097097/jozefka.html">Józefka</placeName>. But <persName ref="#ehri_et_awiezu_rozi">Awiezu</persName>
+				was already a more decent man at the time, as he fought with us against the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term>.</p>
+			<p>Then <persName ref="#ehri_et_awiezu_rozi">Awiezu</persName> told me what happened when I ran away.</p>
+			<p><persName ref="#ehri_et_awiezu_rozi">Awiezu</persName> relates: The commanding officer whose head I chopped open lay at the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-538" type="subject">pit</term> I was digging for about half an hour.</p>
+			<p>That <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term> who was holding my jacket fell
+				into the pit as he was running after me and broke his rifle. And the rest ran after me. Then they came [back], took the wounded
+				commanding officer and carried him to <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-282"
+					>hospital</term>. After 3 days the commanding officer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+					type="subject">died</term> in <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-282"
+				>hospital</term>.</p>
+			<p>Those <term type="subject" ref="#ehri_et_nationalities_uzbeks">Uzbeks</term> who escorted me for the <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shooting</term> were <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">killed</term>. <persName ref="#ehri_et_awiezu_rozi"
+					>Awiezu</persName> was with me in the same regiment for more than a year and he was my good buddy.</p>
+			<p><pb n="8" facs="EHRI-ET-ZIH3010805_08.jpg"/> From <placeName ref="http://www.geonames.org/695781/rava-rus-ka.html">Rawa
+					Ruska</placeName> we went to <placeName ref="http://www.geonames.org/775922/bilgoraj.html">Biłgoraj</placeName>; we approached
+					<placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName>, <placeName
+					ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>; we went to the border of Eastern Prussia through the Western
+				Ukraine and <placeName ref="http://www.geonames.org/630336/republic-of-belarus.html">Byelorussia</placeName>. In <placeName
+					ref="http://www.geonames.org/630336/republic-of-belarus.html">Byelorussia</placeName> we met the front.</p>
+			<p>I was on the front for 6 months. Then, as a veteran master sergeant, I was sent to the <placeName
+					ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName> to fight <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-977" type="subject">Ukrainian nationalists</term>. Awarded medals:
+						<q><foreign xml:lang="ru">Krasnaya Zviezda</foreign></q>, <q><foreign xml:lang="ru">Za odvahu</foreign></q> medal and
+						<q><foreign xml:lang="ru">Partyzana Otechestvennoy voiny 1 stepeni</foreign></q>
+				<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1093" type="subject">medal</term>. <note type="gloss">(Rus.) – „Red
+					Star”, „For Bravery”, „Partisan of the Homeland War, first degree”</note></p>
+			<p>After a few months I managed to come to <placeName ref="http://www.geonames.org/3097097/jozefka.html">Józefka</placeName> with my squad
+				(otdelenije). We went to the forest; they found the pit that I had dug for myself. And I told my boys that I had been supposed to be
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">killed</term> and buried in that pit. As a <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-716" type="subject">memorial</term>, the squad fired a salute from their
+				awtomats <note type="gloss">(Rus.) – an automatic (gun or rifle)</note>and rifles.</p>
+			<p>In a few weeks I was wounded as a master sergeant.</p>
+			<p><persName ref="#ehri_et_lencow_mejer">Lencow Majer</persName> syn <persName ref="#ehri_et_lencow_nachman">Nachmana</persName></p>
+			<p>Born on <date when="1926-09-10">10. 9. 1926</date> in <placeName ref="http://www.geonames.org/707692/il-kovychi.html"
+					>Ilkowice,</placeName>
+				<placeName ref="http://www.geonames.org/693301/sokal.html">Sokal</placeName> dis.[rict], <placeName
+					ref="http://www.geonames.org/702550/lviv.html">Lwów</placeName> voiv.[odship] <note type="gloss">The account contains a great
+					number of spelling errors and Russian borrowings</note></p>
+		</body>
+	</text>
+</TEI>

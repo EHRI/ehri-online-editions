@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--EHRI ODT to TEI convertor: 2018-01-08T13:51:57+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-19400503">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Polizeiliches Führungszeignis Hugo Guttmanns</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</edition>
+                <author>
+                    <persName>Michal Frankl</persName>
+                </author>
+                <author>
+                    <persName>Wolfgang Schellenbacher</persName>
+                </author>
+                <sponsor>Zukunftsfonds der Republik Österreich</sponsor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="https://portal.ehri-project.eu/countries/cz">Tschechische Republik</country>
+                        <repository ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</repository>
+                        <collection ref="https://portal.ehri-project.eu/units/cz-002286-1420#desc-eng">Polizeipräsidium Prag II</collection>
+                        <idno>1931-1940, Sign. G 1179/6 Guttmann Hugo, K. 6136</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                </msDesc>
+                <bibl>Nationalarchiv Prag, Polizeipräsidium Prag II, 1931-1940, G 1179/6 Guttmann Hugo, K. 6136. <textLang mainLang="de">Original auf
+                        Deutsch.</textLang></bibl>
+                <listPlace>
+                    <place>
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo>48.20849 16.37208</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/2761369/vienna.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Wien"/>
+                        </linkGrp>
+                    </place>
+                    <place>
+                        <placeName>Prag (Praha)</placeName>
+                        <location>
+                            <geo>50.08804 14.42076</geo>
+                        </location>
+                        <linkGrp>
+                            <link type="normal" target="http://www.geonames.org/3067696/prague.html"/>
+                            <link type="desc" target="https://de.wikipedia.org/wiki/Prag"/>
+                        </linkGrp>
+                    </place>
+                </listPlace>
+                <listPerson>
+                    <person>
+                        <persName>Guttmann, Hugo</persName>
+                        <note><p>09.11.1893 - 1942</p>Hugo Guttmann und seiner Frau Hedwig (5.8.1892 - 1942) wurde mit 1. August 1938 ihre Wohnung in
+                            Wien mit Kündigungsrund "nichtarier" gekündigt. Anfang 1939 fliehen Hugo und Hedwig Guttmann über Budweis nach Prag. Am
+                            11.8.1942 wurde das Ehepaar von Prag nach Theresienstadt deportiert. Am 26.10.1942 wurden sie zusammen nach Auschwitz
+                            deportiert. Hugo und Hedwig Guttmann wurden im Holocaust ermordet.</note>
+                        <linkGrp>
+                            <link type="normal" target="https://www.holocaust.cz/databaze-obeti/obet/91399-hugo-guttmann/"/>
+                        </linkGrp>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1940-05-03">3. Mai 1940</date>
+                <placeName>Prag</placeName>
+                <orgName>Polizeipräsidium</orgName><idno>EHRI-BF-19400503</idno>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>staatliche Dokumente</term>
+                </keywords>
+                <catRef target="Schicksale"/>
+            </textClass>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><pb n="1" facs="EHRI-BF-19400503_01.jpg"/><!-- Gesch. Zahl: 224936 --></p>
+            <p>Zeugnis - - Vysvědčení </p>
+            <p>Die <orgName><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">Polizeidirektion</term></orgName>
+                bestätigt, daß hierorts über</p>
+            <p><persName ref="https://www.holocaust.cz/databaze-obeti/obet/91399-hugo-guttmann/">Hugo Israel Guttmann</persName></p>
+            <p>am <date when="1893-11-09">9. November im Jahre 1893</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html"
+                    >Wien</placeName></p>
+            <p>Bezirk <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> geb., nach dtto</p>
+            <p>Bezirk <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zuständig., wohnhaft in <placeName
+                    ref="http://www.geonames.org/3067696/prague.html">Prag</placeName> I</p>
+            <p>Benediktská 6 nichts strafbares vorgefunden wurde.</p>
+            <p>Dieses Zeugnis wird <del>ihm</del> – <del>ihr</del> zwecks Auswanderung ausgefolgt</p>
+            <p><placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>, am <date when="1940-05-03">3.V.1940</date></p>
+            <p><!-- [VYPRAVENO (ausgefertigt) – <date when="1940-05-04">4.V.1940</date>] --></p>
+        </body>
+    </text>
+</TEI>

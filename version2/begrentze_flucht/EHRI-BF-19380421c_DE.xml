@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-19380421c_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de"><q>Schiffsasyl inmitten der Donau</q>, Presseartikel des Večerní české slovo</title>
+				<title xml:lang="en"><q>Ship asylum in the middle of the Danube</q>, press article from Večerní české slovo</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Funded by</resp>
+					<name>Zukunftsfonds der Republik Österreich</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://www.ehri-project.eu/">BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im
+					Krisenjahr 1938</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+				<bibl>Lodní asyl uprostřed Dunaje. Večerní České slovo, Nr. 93 (21. April 1938). <textLang mainLang="cs">Original auf
+						Tschechisch.</textLang></bibl>
+
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1938-04-21">21. April 1938</date>
+				<idno>EHRI-BF-19380421c</idno>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Presse</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik/burgenland"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<pb facs="EHRI-BF-19380421c_01.jpg" n="1"/>
+				<p>Romantik auf der <q>schönen blauen <placeName ref="#danube-river">Donau</placeName></q> geht weiter.</p>
+				<p>Schiffsasyl inmitten der <placeName ref="#Q1653">Donau</placeName>.</p>
+				<p>Vertriebene in Autos weggebracht, andere sind auf einem Dampfer untergekrochen.</p>
+				<p>In der Nacht auf Sonntag transportierten <placeName ref="https://portal.ehri-project.eu/countries/at">österreichische</placeName>
+					Angehörige der <orgName ref="#g358">SA</orgName> wie bereits in der Večerní České Slovo vermeldet, 51 unerwünschte Personen in
+					Booten auf die kleine <placeName ref="#ehri_bf_theben_donauinsel">Donauinsel</placeName> bei <placeName ref="#devin"
+						>Theben</placeName>. Diese Ausgestoßenen wurden nach <placeName ref="https://portal.ehri-project.eu/countries/at"
+						>Österreich</placeName> zurückgeschickt, aber damit hatte ihr Irrweg und die Romantik auf der <placeName ref="#danube-river"
+						>Donau</placeName> noch kein Ende. <orgName ref="#g358">SA</orgName>-Männer verluden sie wieder in Autos und brachten sie
+					irgendwohin hinter die <term ref="#ehri_bf_grenze">Grenze</term>. Es ist nicht bekannt, in welchen Staat versucht wird, sie
+					abzuschieben. Ein anderes Häufchen <term ref="#t101" type="subject">jüdischer Bürger</term> aus dem <placeName ref="#burgenland"
+						>Burgenland</placeName> wurde in den Wald auf der <placeName ref="#hungary">ungarischen</placeName> Seite der <placeName
+						ref="#danube-river">Donau</placeName> bei <placeName ref="#bratislava">Pressburg</placeName> hinausgefahren, wo es eine sehr
+					kalte Nacht erlebte. Zurück durften sie nicht, nach <placeName ref="#hungary">Ungarn</placeName> und auch zu uns haben sie keinen
+					Zutritt. Der Fluss war der Ausweg. Die <placeName ref="#danube-river">Donau</placeName> ist ein internationaler Strom und so ist
+					es möglich hier gewissermaßen außerhalb der <term ref="#ehri_bf_grenze">Staatsgrenzen</term> zu leben. Mit Zustimmung der
+						<placeName ref="#hungary">ungarischen</placeName> Behörden lud ein <placeName ref="#republic-of-france"
+						>französischer</placeName> Schleppdampfer die Vertriebenen ein und gewährte ihnen <term ref="#t837" type="subject"
+						>Unterkunft</term> an Deck. <placeName ref="#bratislava">Pressburger</placeName> Bürger spendeten Decken und <term ref="#t832"
+						type="subject">Lebensmittel</term> und der Dampfer verwandelte sich in ein Asyl auf einem neutralen Fluss. Er ankert inmitten
+					des Flusses und wartet, bis sich entscheidet, was aus seiner menschlichen Ladung wird. Die Romantik auf der <placeName
+						ref="#danube-river">Donau</placeName> nimmt zu. Es ist wohl ein Wahrzeichen für unsere ganze Epoche, die die lebhaftesten
+					Phantasien überflügelt.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
