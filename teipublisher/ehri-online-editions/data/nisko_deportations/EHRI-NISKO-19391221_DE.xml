@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19391221_DE_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Jüdische Gemeinde Mährisch Ostrau an die IKG Wien betreffend die Versorgung von Nisko-Deportierten mit Sanitätsmaterial</title>
+				<title xml:lang="en">Jewish Community of Mährisch Ostrau to the IKG Vienna regarding the supply of medical supplies to Nisko deportees</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Winfried Garscha</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<idno>A/W 2747</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1939-12-21">21. Dezember 1939</origDate>
+				<persName ref="#ehri_nisko_kraemer_salo">Salo Krämer</persName>
+				<origPlace ref="http://www.geonames.org/3068799/ostrava.html">Ostrava</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>IKG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p>Mähr.-Ostrau, den 21.12.1939</p>
+					<p>An die <orgName ref="#ehri_nisko_ikg_wien">Israelitische Kultusgemeinde Wien</orgName> II</p>
+					<p>Es dürfte Ihnen bekannt sein, dass unsere <orgName ref="#ehri_nisko_jg_ostrau">Kultusgemeinde</orgName> an das Umsiedlungslager in <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Sanitätsmaterial</term> für annähernd RM 40.000,-- bereits abgegeben hat.</p>
+					<p>Das in <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName> befindliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">sanitäre Material</term> wird an alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>, die es benötigen, abgegeben, gleichgiltig, ob es sich um <placeName ref="http://www.geonames.org/3068799/ostrava.html">Ostrauer</placeName>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> oder andere handelt. Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdische</term> Lagerkommando fordert die Zusendung von weiterem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Sanitätsmaterial</term> an und wir fragen Sie an, ob Sie in der Lage sind, uns einen Teil des angeforderten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Materials</term> zur Verfügung zu stellen. Wir haben bei der Besorgung von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Sanitätsmaterial</term> Schwierigkeiten und nehmen an, dass es Ihnen möglich sein wird, uns auszuhelfen, dies
+						umsomehr, als ja Ihre Angehörigen von uns bisher in reichstem Masse versorgt wurden.</p>
+					<p>In Frage käme in erster Linie Verbandstoff, Jod, Alkaloide, Kampfer, Kakaobutter und eine grössere Anzahl von Präparaten, die wir Ihnen angeben werden, wenn wir Ihr prinzipielles Einverständnis erhalten haben.</p>
+					<p>Da wir anfangs <date when="1940-01">Jänner</date> das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Material</term> hinaussenden, bitten wir um rascheste Rückantwort und begrüssen Sie mit treujüdischem Schalom</p>
+					<p><persName ref="#ehri_nisko_kraemer_salo">Salo Krämer</persName></p>
+					<p>Vorsitzender der <orgName ref="#ehri_nisko_jg_ostrau">israel. Kultusgemeinde</orgName></p>
+					<p/>
+					<p>Eingangsstempel <date when="1939-12-24">24.12.1939</date></p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

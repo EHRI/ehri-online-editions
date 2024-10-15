@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About Diplomatic Reports</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">Diplomatic Reports</h1>
+                        <ul>
+                            <li>
+                                <a href="#id1">Introduction</a>
+                            </li>
+                            <li>
+                                <a href="#id2">Editorial Standards and Technical Implementation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+                <h1 id="id1">Introduction</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <p>
+<p>
+                                            <strong>
+                                                <span/>
+                                            </strong>
+                                        </p>
+<p>
+                                            <strong>
+                                                <span/>
+                                            </strong>
+                                        </p>
+<p style="text-align:center;">
+                                            <strong>
+                                                <span>Frank Bajohr</span>
+                                            </strong>
+                                        </p>
+<p>Research on the role of diplomats with respect to the persecution of Jews during the Holocaust has mostly focused on some prominent figures such as Jan Karski, Chiune Sugihara or Raoul Wallenberg who were involved in the rescue of Jews in the Second World War or used their position to inform the Allies of the murder of the European Jews. However, until now, only scant attention has been paid to one of diplomats’ most crucial professional duties: reporting on and informing their own states’ foreign ministries about important developments in the countries in which they are stationed. Most foreign ministries explicitly request such reports on a regular basis.</p>
+<p>These reports’ special value for historiography derives from the hybrid position diplomats occupy. On the one hand, diplomats move within the orbit of power and have regular contact with influential politicians and numerous decision-makers in their host countries. On the other hand, they are distanced observers––gazing in from the outside––who look at the situation in these countries through a foreign and, at times, ethnological lens. Unlike journalists, writers and tourists, diplomats do not stay in these settings only for a short period. Rather, most remain in a given country for several years.</p>
+<p>Some years ago, a project on the reports of diplomats stationed in Nazi Germany showcased the value of diplomatic reports for the analysis of Nazism in general and the persecution of Jews and the Holocaust in particular.<a href="#_ftn1" name="_ftnref1">
+                                                <span>[1]</span>
+                                            </a> Contrary to what one might have expected, the reports not only dealt with foreign affairs or issues relating to their respective citizens in Germany, but also contained numerous noteworthy analyses of the dictatorial constitution of the “Third Reich”, its inner workings, the attitude of the broad mass of the German people, and the dynamics of anti-Jewish policies and persecution. Many diplomats stationed in Nazi Germany realized surprisingly early on that National Socialist antisemitism would not remain restricted to the passing a few limiting statutes against the Jewish minority and the mere assigning of a lower legal status for Jews within the majority society. They pointed to the radical quality of anti-Jewish measures and to an antisemitism that did not remain within the “normal” bounds of mere prejudices. The diplomats who were still in Germany during the war years were even well-informed about the mass murder of Jews.</p>
+<p>On the whole, these diplomatic reports confirmed the existence of widespread informal information networks about ‘the open secret’ of the Holocaust.</p>
+<p>This was the reason why the EHRI consortium decided to continue research on diplomatic reports in the Second World War and the time of the Holocaust, with a project initiated by the Center for Holocaust Studies at the Leibniz Institute for Contemporary History in Munich. This EHRI project expands the former work on Nazi Germany both geographically and analytically. It broadens the geographical focus beyond the borders of Germany and conceives of the persecution and murder of the Jews as a European development to which various European countries actively contributed. Whereas the project on Germany predominantly focused on diplomatic reports from adversaries of the Third Reich like France, Great Britain or the USA, the EHRI project takes the diplomatic correspondence of German allies like Italy, Japan, Hungary and Slovakia into view, supplemented by the reports of US American diplomats until the end of 1941 and the reports of diplomats from the neutral countries of Sweden and Denmark. A steady stream of detailed reports and appraisals reached the foreign ministries of all seven countries. Eventually, visitors of the online-edition will find a selection of typical diplomatic reports from all of these countries and a country-specific introduction with basic information on major results and findings.</p>
+<p>Throughout the 1930s, and especially in the years just before the Second World War, most diplomats had been confronted with the impact of the persecution of the Jews, for example, due to their formal capacity to issue visas. Even though the persecution of the Jews generated feelings of sympathy and compassion among some diplomatic observers, there were also fears of an imminent large wave of immigrants landing on their doorstep. The result was that most – though not all – diplomats tended to adopt a restrictive approach to the issuing of visas. In this, of course, they were acting in accordance with the expectations and regulations of their own governments.</p>
+<p>Japanese diplomats, for example, were especially strict in this respect, apart from Chiune Sugihara, the Acting Consul in Kaunas, Lithuania, who issued thousands of transit visas to Jewish refugees. However, most of his colleagues acted differently, in part through a sense of loyalty to their German allies, but partially also motivated by a wish to avoid bothersome work with a stream of Jewish applicants. Thus, the Japanese Consul General in Vienna, Akira Yamaji, even sent a plea home to the Japanese government to completely ban the entry of Jewish refugees into Japan. His Hamburg colleague Hiroshi Kawamura, Consul General in Hamburg, espoused a basic view that showed little compassion: “persons constituting a nuisance for Germany” should best be viewed “likewise a nuisance for Japan”.<a href="#_ftn2" name="_ftnref2">
+                                                <span>[2]</span>
+                                            </a>
+                                        </p>
+<p>Anti-Jewish regulations and laws played an important role in the diplomatic reports of almost all countries since many European states implemented these laws, in particular after 1938. The Italian race laws of 1938, the large number of Romanian anti-Jewish regulations promulgated in 1937/38 or the second Jewish law in Hungary 1939 were striking examples of the wave of antisemitism sweeping across many European states on the eve of war and the Holocaust. Undoubtedly, Nazi Germany served as a role model in this respect, and a Danish diplomat described Nazism as a “primus motor” for the rise of antisemitism in Europe.</p>
+<p>Yet most of the diplomats from neutral countries saw many antisemitic regulations as deeply rooted in the domestic political environments of the respective countries. In the wake of the world economic crisis, these states instrumentalized antisemitism for various purposes and followed the idea of an ethnically homogenous nation-state by oppressing unwanted minorities. Despite a comparable antisemitic orientation, some allies of Germany like Hungary did not follow the German path entirely faithfully and demonstrated a degree of independence from Berlin with respect to anti-Jewish policy. However, some conflicts with Nazi Germany were not motivated by the desire to protect Jews. For example, Hungarian efforts to obtain access to the assets of Hungarian Jews living abroad were driven by material motives: “For Budapest, the wealth of the Jews was more important than their lives”.<a href="#_ftn3" name="_ftnref3">
+                                                <span>[3]</span>
+                                            </a>
+                                        </p>
+<p>Traditionally, the large majority of diplomats belongs to the upper classes with mostly conservative to liberal-conservative views. Diplomats are not used to thinking in racist and aggressively antisemitic terms. The relationships of diplomats to their host country, but also within the diplomatic corps, were founded primarily on mutual respect as representatives and agents of their own country. Racist categories fundamentally contradict the diplomatic culture based on mutual esteem and displays of honor. Established hierarchies in the world of diplomats are based primarily on “distinctions” (Bourdieu), and not on categories like racism and antisemitism. However, at the same time, diplomats did voice anti-Jewish prejudices in their reports. Even ostentatious compassion with the persecuted Jews and indignation over their persecution could certainly go hand-in-hand with antisemitic views. It is no surprise that Italian diplomats spoke of a “Jewish race” since they represented a state with racist and antisemitic legislation. This is also true for diplomats from Slovakia, Hungary and other nations with antisemitic laws and regulations, but even American and Swedish diplomats adopted the linguistic patterns of the governments of their host countries and referred to a Jewish “question” or Jewish “problem” that had to be solved. Therefore, antisemitic laws and regulations had a paradoxical effect: they confirmed and certified a Jewish “problem” they had created in the first place.</p>
+<p>In the war years, diplomatic reports increasingly dealt with the deportation and murder of Jews, as the selection of reports below demonstrates. As far as the Holocaust in the war years is concerned, the reports confirm the existence of widespread informal networks, passing on information about the Holocaust. The former project on diplomatic reports from Nazi Germany had already provided us with some striking cases. For example, in June 1942, the Swiss Consul General Franz-Rudolf von Weiss in Cologne reported on a deportation transport from Cologne to Eastern Europe: “My source of information, who represents the German agency in this Jewish question, assumes that this transport has in the meantime been gassed [<em>vergast</em>], since no news about its whereabouts has subsequently been received here in Cologne.”<a href="#_ftn4" name="_ftnref4">
+                                                <span>[4]</span>
+                                            </a> Already, by June 1942, the word “gassed” was apparently so widespread that this consul, who also sent on to Bern photos of mass executions in Eastern Europe which had been “leaked” to him by German acquaintances, did not need to add any further explanation. In October 1943, he noted: “In regard to how they are dealing with the Jewish question, the information is leaking out ever more that all the evacuated Jews have been murdered”.</p>
+<p>The following reports from the EHRI sample of reports also ascertain that many diplomats were well informed about massacres and murderous actions since 1941.</p>
+<p>For example, Arvid Richert, the Swedish ambassador in Berlin, informed his government in 1941 about the deportations of Jews from Germany and massacres at the Eastern front. The Swedish Consul General in Vienna reported to him in November 1942 that, “there can be no doubt any more that masses [of Jews] have been killed by gassing, machine-gun fire and asphyxiation (by shutting the victims in hermetically sealed wagons) and that many succumbed to diseases and ordeals”.<a href="#_ftn5" name="_ftnref5">
+                                                <sup>[5]</sup>
+                                            </a>
+                                        </p>
+<p>The Italian ambassador Alfieri also openly reported on the fate of Jews after their deportation which, by 1942/43 at the latest, was an open secret for all diplomats. Some reports like those of the Slovak diplomat Ivan Milecz also refer to massacres committed by non-German perpetrators like the pogrom in Iași in June 1941, committed by Romanian forces. All of the following documents remind us of the European dimension of the Holocaust and are arguments for the further integration of Holocaust history into a European political and social history in the first half of the twentieth century.</p>
+<p/>
+<p>
+                                            <a href="#_ftnref1" name="_ftn1">
+                                                <span>[1]</span>
+                                            </a> See: Frank Bajohr/Christoph Strupp (eds.), <em>Fremde Blicke auf das „Dritte Reich“. Berichte ausländischer Diplomaten über Herrschaft und Gesellschaft in Deutschland 1933-1945</em> (Wallstein: Göttingen 2011). The project investigated the diplomatic reports of the following countries: USA, Great Britain, France, Poland, Denmark, Switzerland, Italy, Japan, Argentina and Costa Rica.</p>
+<p>
+                                            <a href="#_ftnref2" name="_ftn2">
+                                                <span>[2]</span>
+                                            </a> Ibid, p. 297, 301.</p>
+<p>
+                                            <a href="#_ftnref3" name="_ftn3">
+                                                <span>[3]</span>
+                                            </a> Quoted from the introduction on Hungary by László Csösz.</p>
+<p>
+                                            <a href="#_ftnref4" name="_ftn4">
+                                                <span>[4]</span>
+                                            </a> For this and the following quote, see: Bajohr/Strupp (eds.), <em>Fremde Blicke</em>, p. 34, 577.</p>
+<p>
+                                            <a href="#_ftnref5" name="_ftn5">
+                                                <span>[5]</span>
+                                            </a> Einar Ytterberg to Arvid Richert, November 14, 1942, RA UD, Beskickningsarkiv Berlin. F1 c:17. See the introduction on Swedish reports by Olof Bortz.</p>
+           </p> </div>
+                            </div>
+           <div>
+               <h1 id="id2">Editorial Standards and Technical Implementation</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <h2 style="text-align:center;"/>
+<p>
+                                        <strong/>
+                                    </p>
+<p>The edition chooses a broad approach to ‘Diplomatic Reports’, including brief telegrams, thorough examinations or multi-perspective accounts written by diplomats, consuls and other staff members of the diplomatic service. The recipients varied and included foreign ministries, ministries of the interior, other members of diplomatic delegations or even the head of state directly. Though often detailed, the events described in the reports were not necessarily witnessed or experienced by the authors firsthand. Oftentimes, they relay information received from a variety of sources: published laws and declarations, press reviews, descriptions of private individuals or people on business trips, confidential exchanges with public officials in the respective countries, as well as reports by members of diplomatic delegations from other countries. While synthesizing their knowledge, the reports provide deep insight into their knowledge and, at least to a degree, their assessment of the persecution and, eventually, murder of the European Jews during WWII. In this context, special attention was paid to the reports from German-occupied as well as -influenced countries of eastern and south-eastern Europe, in which the Holocaust largely unfolded.</p>
+<p>At times, the focus on measures against the Jews is the sole content of a reports, in others, there are a number of topics addressed in the letters as well. Where it provided useful/necessary contextualization, these sections were included into the edition as well.</p>
+<p>All documents are available in English translation (including the English transcription of the American reports). For the majority of documents, it was possible to include a scan of the original document. For the sake of clarity and good readability, formal elements of the documents have been omitted as far as possible and summarised in the metadata of the documents. The requirements for the EHRI edition software followed the real-world editorial process, including the selection of documents, their transcription, annotation and translation. The goal is to provide the reader with contextual information, by referring to authority sets (EHRI terms, Geonames, etc.) and further explanations as well as utilize the documents as research data which can be reused and aggregated with other documents in the future.</p>
+<p>Like the <a href="https://early-testimony.ehri-project.eu/">online edition on Early Holocaust Testimony</a>, documents published in the EHRI online edition of the Diplomatic Reports are encoded in the Text Encoding Initiative (TEI) P5 standard, which is a widely adopted format for digital editions.</p>
+<p>The annotation of documents consists primarily of tagging and linking words or expressions in the documents, using links to established controlled vocabularies (using EHRI for Holocaust-related entities; Geonames for geographic information, online encyclopedias such as Wikipedia for biographical data on diplomats, etc.). The annotation was done in common text editors where the entities were linked using URLs. Once the annotating and text editing was finalised, the documents were converted to the TEI XML format. The team used an open source tool <em>Odette</em> for this purpose. The TEI files produced in this way were checked by editors and cleansed of any unwanted formatting in the XML editor <em>Oxygen</em>. An EHRI-TEI-enrichment utility created normalised entries for linked entities in the TEI header (using the EHRI API, Geonames metadata and other resources).</p>
+<p>The resulting TEI documents are then uploaded to the <em>Omeka</em> web publication platform and the EHRI Editions plugin automatically populated the database based on the content of the XML file. The TEI tagged entities control the faceted browsing and allow filtering by entities such as locations, terms, etc. The edition uses an Omeka theme developed for EHRI, which adapts the interface to display TEI-based texts and shows annotations and other contextual information. Interactive map presentations were created based on the TEI data. For this, the <em>Omeka</em> plugin <em>Neatline</em> was used, which, among other functionalities, allows to read the text next to a map and thus follow the narrative in space.</p>
+<p>For each document in the edition, the following features – if available – are displayed: Meta data, translated document text – scan of the original document – map with the borders of April 1939 and 1942 displaying the geographic entities named in the text – references to the EHRI Portal.</p>
+                                </div>    </div>
+           </div>
+                     </div>   </section>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                        </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

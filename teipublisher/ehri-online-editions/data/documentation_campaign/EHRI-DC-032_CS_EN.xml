@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DC-032_CS_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Jiří Lauscher, drawings of a model of the Erdbunker houses in the Terezín Ghetto, including a report</title>
+				<title xml:lang="de">Jiří Lauscher, Zeichnungen eines Modells der Erdbunkerhäuser im Theresienstadter Ghetto, inklusive Bericht</title>
+				<title xml:lang="cs">Jiří Lauscher, kresby modelu Erdbunkerových domů v terezínském ghettu včetně reportáže</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín Ghetto</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, </creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Jiří Lauscher briefly describes the technical parameters of the rooms in the Terezín Ghetto and attaches a drawing as an example.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-032_01.png" n="1"/>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>, dne <date when-iso="1945-11-15">15. listopadu 1945</date></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">DOKUMENTAČNÍ AKCE</term></p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-400">Jewish Agency for Palestine</orgName></p>
+					<p>EZRA KOMITÉT PRO ČSR</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName> V., <placeName ref="http://www.geonames.org/3067696/prague.html">Josefovská 7</placeName>. tel. 620-02</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1055" type="subject">Statistické</term> údaje k <q>pokoji</q></p>
+					<p>Přednostní lepší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytování</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">pokoje</term> atd.)</p>
+					<p>počet <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytovaných</term>: 12</p>
+					<p>rozměry: 6 x 4 m … 34 m2 t.j. 2 m2 na 1 osobu (teoreticky) po odečtení inventáře v rozměru 10.7 m2 zbývá fakticky <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">obytná</term> plocha na 1 osobu … 1.1 m2</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">prostor</term>: 6 x 4 x 3.20 m … 76.8 m3 (teoreticky)po odečtení obsahu inventáře asi 4.8 m3 zbývá faktický <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">prostor</term> 72 m3 pro 12 osobčili 6 m3 pro 1 osobu na 12 hodin na 1 osobu a na 1 hodinu ….. 0.5 m3 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">vzduchu</term>!</p>
+					<p>vzhledem k nedostatečnému zásobování uhlím bývala okna většinou zavřena.</p>
+					<p>Modelář:</p>
+					<p><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<pb facs="EHRI-DC-032_02.png" n="2"/>
+					<p><date when="1945-11-16">16. XI. 1945</date></p>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">Alex Schmiedt</persName></p>
+					<pb facs="EHRI-DC-032_03.png" n="3"/>
+					<p>Protokol</p>
+					<p>sepsaný s panem <persName ref="#ehri_dc_lauscher_jiri">Jiřím Lauscherem</persName>, nar. <date when="1901-09-15">15. 9. 1901</date> v <placeName ref="https://www.geonames.org/3064268/terezin.html">Terezíně</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytem</term> v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> VII., <placeName ref="http://www.geonames.org/3067696/prague.html">Heřmanova 43</placeName>,
+						národnosti židovské, povoláním soukromý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1111" type="subject">úředník</term>, bývalým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněm</term> z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentr.</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>.</p>
+					<p>Předávám různé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">umělecko</term> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">průmyslové</term> výrobky, jejichž unikáty byly vyrobeny v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> jako dárkové předměty. Podle těchto vzorů vyrobil jsem větší počet předmětů pro <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">dokumentační akci</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">akci</term>.</p>
+					<p>Podpis:</p>
+					<p><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName></p>
+					<p>Protokol přijal:</p>
+					<p><persName ref="#ehri_dc_schickova_helena">Helena Schicková</persName></p>
+					<p>Podpis svědků: <persName ref="#ehri_dc_saxlova_edita">Dita Saxlová</persName></p>
+					<p><persName ref="#ehri_dc_gerzonova_berta">Berta Gerzonová</persName></p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">dokumentační akci</term> přijal:</p>
+					<p>
+						<persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Za archiv:</p>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+					<p><date when="1945-10-19">19. 10. 1945</date></p>
+					<pb facs="EHRI-DC-032_04.png" n="4"/>
+					<p>Modely <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">pokoje</term> jsou v přesném měřítku 1:10. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Pokoj</term> představuje <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytování</term> přednostní např. pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">mládež</term>, pokud nebyli umístěni v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">domovech</term>.</p>
+					<p>Modely <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">obydlí</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Erdbunkeru</term> jsou v měřítku 1:20. Stavba střechy je zjednodušena, neboť se v této velikosti špatně provádí do podrobnosti. Náčrtek znázorňuje skutečnou konstrukci. Práce není dílenská,
+						nýbrž modely jsou zhotoveny primitivními pomůckami.</p>
+					<pb facs="EHRI-DC-032_05.png" n="5"/>
+					<p><note type="gloss">[samostatný list nákresu <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Erdbunkeru</term></q>]</note></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-032_01.png" n="1"/>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, on <date when="1945-11-15">November 15th, 1945</date></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">DOCUMENTATION CAMPAIGN</term></p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-400">Jewish Agency for Palestine</orgName>.</p>
+					<p>EZRA COMMITTEE FOR THE CSR</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> V., <placeName ref="http://www.geonames.org/3067696/prague.html">Josefovská 7</placeName>. tel. 620-02</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1055" type="subject">Statistics</term> on the <q>rooms</q></p>
+					<p>Preferential better <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housing</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children’s</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">rooms</term>, etc.)</p>
+					<p>Number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">inhabitants</term>: 12</p>
+					<p>Size: 6 x 4 m … 34 sq. m. i.e. 2 sq. m. per person (theoretically) after subtracting the furniture, sized 10.7 sq. m., the actual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residential</term> area per person is … 1.1 sq. m.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">space</term>: 6 x 4 x 3.20 m … 76.8 m3 (theoretically), after subtracting the furniture, sized about 4.8 m3, the actual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">space</term> is 72 m3 for 12 peopleor 6 m3 per person for 12 hours for 1 person and for 1 hour ….. 0.5 m3 of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">air</term>!</p>
+					<p>Due to insufficient supplies of coal, the windows often remained closed.</p>
+					<p>Modeller:</p>
+					<p><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<pb facs="EHRI-DC-032_02.png" n="2"/>
+					<p><date when="1945-11-16">16. XI. 1945</date></p>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">Alex Schmiedt</persName></p>
+					<pb facs="EHRI-DC-032_03.png" n="3"/>
+					<p>Statement</p>
+					<p>Written with Mr. <persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName>, born <date when="1901-09-15">15. 9. 1901</date> in <placeName ref="https://www.geonames.org/3064268/terezin.html">Theresienstadt</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residing</term> in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> VII., <placeName ref="http://www.geonames.org/3067696/prague.html">Heřmanova 43</placeName>,
+						Jewish nationality, profession private <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1111" type="subject">civil servant</term>, former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentr</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>.</p>
+					<p>I am handing over various <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">applied</term> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">art</term> articles modeled on the originals that were manufactured in
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> as gifts. I have created a large number of these articles for the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">documentation campaign</term>.</p>
+					<p>Signature:</p>
+					<p><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName></p>
+					<p>Statement accepted by:</p>
+					<p><persName ref="#ehri_dc_schickova_helena">Helena Schicková</persName></p>
+					<p>Signature of witnesses: <persName ref="#ehri_dc_saxlova_edita">Dita Saxlová</persName></p>
+					<p><persName ref="#ehri_dc_gerzonova_berta">Berta Gerzonová</persName></p>
+					<p>On behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">documentation campaign</term>:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>On behalf of the archive:</p>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+					<p><date when="1945-10-19">19. 10. 1945</date></p>
+					<pb facs="EHRI-DC-032_04.png" n="4"/>
+					<p>Model of a <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> at an exact scale of 1:10. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> shows preferential <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housing</term>, for example for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">youths</term> if they weren’t placed in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">houses</term>.</p>
+					<p>Model of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housing</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Erdbunker</term> at a scale of 1:20. The roof has been simplified because at this
+						size the details wouldn’t be seen. The sketch depicts the actual building. It was not produced in a workshop. The models have been created with primitive tools.</p>
+					<pb facs="EHRI-DC-032_05.png" n="5"/>
+					<p><note type="gloss">[single page with the <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Erdbunker</term></q> sketch]</note></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

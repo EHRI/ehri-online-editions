@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19380429_CS">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="cs">Vypovězení Kiwe Chaima Mardera z Rakouska</title>
+				<title xml:lang="en">Deportation of Kiwe Chaim Marder from Austria</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005578">United States Holocaust Memorial Museum</orgName><address>
+								<street>100 Raoul Wallenberg Place, S.W.</street>
+								<postCode>DC 20024-2126</postCode>
+								<settlement>Washington</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn607481">RG-15.372, Selected records of the Ministry of Foreign Affairs in Warsaw Ministerstwo Spraw Zagranicznych w Warszawie (Sygn. 322)</collection>
+						<idno>č. 11966</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>US Holocaust Memorial Museum, RG-15.372, Selected records of the Ministry of Foreign Affairs in Warsaw Ministerstwo Spraw Zagranicznych w Warszawie (Sygn. 322), č. 11966. Opis. <textLang mainLang="de">Originál německy.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-04-29">29. dubna 1938</origDate>
+				<origPlace ref="http://www.geonames.org/2761369/vienna.html">Vídeň</origPlace>
+				<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-836">Geheime Staatspolizei, Staatspolizeileitstelle Wien</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>úřední dokumenty</term>
+				</keywords>
+				<catRef target="geschichte/polen"/>
+			</textClass>
+			<langUsage>
+				<language ident="cs">česky</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<!--<p>
+        <hi rend="color_808080">Odpis!</hi>
+      </p>
+      
+      <p>
+        <hi rend="color_808080">Geheime Staatspolizei</hi>
+      </p>
+      <p>
+        <hi rend="color_808080">Staatspolizeileitstelle Wien</hi>
+      </p>
+      <p>
+        <hi rend="color_808080">Morzinplatz 4</hi>
+      </p>
+      
+      <p>
+        <hi rend="color_808080">Wien, den 29. April 1938</hi>
+      </p>
+      
+      <p>
+        <hi rend="color_808080">II D 903/38</hi>
+      </p>-->
+					<p><placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polskému</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1118" type="subject">generálnímu konzulátu</term> ve <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName>.</p>
+					<p>Věc: <persName ref="#ehri_bf_marder_kiwe_chaim">Kiwe Chaim Marder</persName>, nar. 24. VIII. 1910, Kaminka, Polsko, bytem byl II. Grosse Schiffgasse č. 21.</p>
+					<p>Odsun z Rakouska.</p>
+					<p>S odvoláním na dopis z 29. III. 1938, č. 5371/38/1, mám tu čest oznámit, že <persName ref="#ehri_bf_marder_kiwe_chaim">Kiwe Chaim Marder</persName> byl dne 24. března 1938 z ohledu veřejného pořádku a bezpečnosti odsunut z Rakouska a 29. března 1938 u obce <placeName ref="http://www.geonames.org/2762687/unterretzbach.html">Unter Retzbach</placeName> vyhoštěn ze země.</p>
+					<!--<p>podpis /L/</p>-->
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

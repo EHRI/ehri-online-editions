@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About Nisko Deportations</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">Nisko deportations</h1>
+                        <ul>
+                            <li>
+                                <a href="#id1">Einleitung</a>
+                            </li>
+                            <li>
+                                <a href="#id2">Die Online Edition "Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939"</a>
+                            </li>
+                            <li>
+                                <a href="#id3">Sammellager Gänsbachergasse</a>
+                            </li>
+                            <li>
+                                <a href="#id4">Herangehensweise und technische Umsetzung</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+  
+<div id="primary">          
+<h1 id="id1">Einleitung</h1>
+<p>
+                                        <strong>Wolfgang Schellenbacher</strong>
+                                    </p>
+<p>Die Online-Dokumenten-Edition „Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939“ führt Dokumente aus unterschiedlichen Archiven zu den Transporten von fast <span>1600 jüdischen Männern </span>aus Wien nach Nisko im Oktober 1939 zusammen.</p>
+<p>Sie wurde in Kooperation mit der European Holocaust Research Infrastructure (EHRI) auf der durch die Forschungsinfrastruktur errichteten Plattform für Online-Editionen erstellt. Dies ermöglicht auch eine Verknüpfung zu den Sammlungsbeschreibungen im EHRI Portal sowie eine Leseoption aller Dokumente über Landkarten. Die Online-Edition beinhaltet Dokumente zur Vorgeschichte der Transporte ebenso wie Dokumente zum Alltag und dem weiteren Schicksal der Deportierten.</p>
+<p>Während das Hauptaugenmerk in der Forschung zur Nisko-Aktion lange darauf lag, die Transporte als erstes Versuchsprojekt für die späteren Massendeportationen der jüdischen Bevölkerung zu betrachten, liegt der Fokus dieser Dokumenten-Edition auf den seltenen Ego-Dokumenten der Deportierten: Als wichtigste Quelle diente dabei die Korrespondenz der Deportierten mit der Jüdischen Gemeinde in Wien, die sich heute im Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem wiederfinden.</p>
+<p>Diese Briefe geben Einblick in die verzweifelte Lage und den „Alltag“ der Deportierten zwischen Herbst 1939 und März 1940 und verdeutlichen ihre Auseinandersetzungen mit der IKG Wien. Wie Andrea Löw herausstrich, deutete sich in diesen Briefen bereits der spätere Konflikt zwischen den jüdischen RepräsentantInnen und der „normalen“ jüdischen Bevölkerung in den Ghettos an. Zusätzlich zeigen Dokumente aus diesem Bestand zum Sammellager in der Gänsbachergasse die Geschichte des nicht abgegangenen dritten Nisko-Transportes, die Dieter Hecht in der Edition ebenso beschriebt wie den Alltag der Internierten.</p>
+<p>Diese Materialien wurden um Beschreibungen der wenigen Überlebenden aus Opferfürsorgeakten ergänzt, die auf ihre Deportation, Vertreibung und Inhaftierung in Sowjetische Gulags eingehen. Diese Dokumente verdeutlichen auch die geringe Rolle, die die Stadt Nisko für die Deportierten und Vertriebenen der Wiener Nisko-Transporte spielten. Wie auch die automatisiert erstellten Karten in der Online-Edition zeigen, spielte der große Raum zwischen Nisko und der sowjetisch-deutschen Demarkationslinie, der als „Nirgendwo“ oder „Niemandsland“ wahrgenommen wurde, eine bedeutendere Rolle im Alltag der Deportierten.</p>
+<p>Zusätzlich wurden Ego-Dokumente aus dem DÖW, den Arolsen Archives, dem United States Holocaust Memorial Museum bzw. dem Slowakischen Nationalarchiv hinzugefügt. Diese zeigen bislang unbekannte Versuche einzelner Deportierter, eine mögliche Ausreise in die Slowakei zu organisieren. Die Dokumente verweisen darüber hinaus auf ein bislang aus österreichischer Perspektive gänzlich unerforschtes Kapitel der Deportierten in Nisko: Sie zeigen, dass österreichische Flüchtlinge, die im Protektorat Böhmen und Mähren im Flüchtlingslager Eibenschütz (Ivančice) interniert waren, am 27. Oktober 1939 über Ostrava nach Nisko geschickt und dort vertrieben wurden. NS-Dokumente zur Organisation und zum Ablauf der Transporte wurden aus dem DÖW und dem Landesgericht Wien aufgenommen.</p>
+<p>Die Online-Dokumenten-Edition „Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939“ versteht sich als nicht abgeschlossenes Projekt, das kontinuierlich um neue Dokumente erweitert werden soll.</p>
+
+    <h1 id="id2">Die Online Edition "Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939"</h1>
+
+<p style="text-align:center;">
+                                            <strong>Wolfgang Schellenbacher</strong>
+                                        </p>
+<p/>
+<p>Die Edition „Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939“ führt Dokumente aus mehreren Archiven zur Deportation und zum Schicksal der fast 1600 nach Nisko verschleppten Wiener Juden zusammen. Sie wurde vom Dokumentationsarchiv des österreichischen Widerstandes in Kooperation mit der European Holocaust Research Infrastructure (EHRI) auf der durch die Forschungsinfrastruktur errichteten Plattform für Online-Editionen erstellt. Dies ermöglicht eine Verknüpfung zu den Sammlungsbeschreibungen im EHRI Portal sowie eine Leseoption aller Dokumente über Landkarten. Neben einer Volltextsuche zu allen Dokumenten enthält die Edition kurze Einleitungstexte zur Nisko-Aktion. Über die Indices kann die Edition auch nach dem Interesse der LeserInnen durchsucht und automatisch neu angeordnet werden. Alle Dokumente wurden transkribiert, in TEI bearbeitet und verlinkt. Zu Personen, Organisationen, Orten und Schlagwörtern in den Dokumenten finden LeserInnen dadurch optional weiterführende Informationen. Die Online-Edition beinhaltet Unterlagen zur Vorgeschichte der Transporte ebenso wie zum weiteren Schicksal der Deportierten. Während das Hauptaugenmerk in der Forschung zur Nisko-Aktion lange auf der Geschichte der Transporte als Probelauf für die späteren Massendeportationen der jüdischen Bevölkerung lag, richtet die neue Dokumentenedition ihre Aufmerksamkeit auf die Deportierten und ihre Erfahrungen: Als Teil der Edition wurde erstmals <a href="https://nisko-transports.ehri-project.eu/exhibits/show/liste-wiener-juden-in-nisko">eine Liste aller Teilnehmer der Nisko-Transporte erstellt und veröffentlicht</a>. Die Namen der im Holocaust umgekommenen Personen sind mit der Opferdatenbank des DÖW verlinkt. Zusätzlich wurden zu mehr als 150 Deportierten, deren Namen in den Dokumenten der Edition aufscheinen, Kurzbiografien erstellt. Dies wurde ist vor allem für Dokumente wichtig, die über Kleingruppen von Personen berichten, die im Gebiet zwischen Nisko und der deutsch-sowjetischen Demarkationslinie strandeten.</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Auch bei der Auswahl der Dokumente der Edition stehen seltene Ego-Dokumente der Deportierten im Mittelpunkt: Als wichtigste Quelle diente die Korrespondenz der Deportierten mit der Jüdischen Gemeinde in Wien, die sich heute im Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem wiederfindet. Viele dieser Briefe geben Einblick in das Schicksal der aus Wien deportierten Männer, ihre verzweifelte Lage und ihren „Alltag“ zwischen Herbst 1939 und März 1940: Ein Großteil von ihnen wurde nach der Ankunft vertrieben und versuchte über die deutsch-sowjetische Demarkationslinie zu flüchten. Ein weiterer Teil blieb im Gebiet zwischen Nisko und der Demarkationslinie zurück und war auf jüdische Hilfsorganisationen angewiesen. Auch Siegmund Flieger wandte sich am 13. Dezember 1939 im Namen von 35 Männern, die im Oktober 1939 von Wien nach Nisko deportiert worden waren, in einem Hilfegesuch aus Bełżec an die IKG Wien:</p>
+<p style="text-align:center;">„<em>Unsere Leute sind krank, durch Hunger und Strapazen vollständig entkräftet, wir hungern und frieren ohne warme Wäsche und leben unter einer Bevölkerung, die uns unfreundlich gegenübersteht und von der wir nicht nur keine Unterstützung zu erwarten haben, sondern die uns überdies fortwährend Hindernisse in den Weg legt. Wir können weder vor noch zurück, da alle Grenzen für uns hermetisch abgeschlossen sind.</em>“</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Siegmund Flieger wurde 1902 als Sohn von Jacob Herz Flieger und Agathe Flieger geb. Bellak in Wien geboren.<a href="#_ftn2">
+                                                <span>[1]</span>
+                                            </a> Er arbeitete als Kellner und wohnte in der Schrottgießergasse 3 in Wien-Leopoldstadt. Im Mai 1938 füllte er bei der IKG Wien einen Auswanderungsfragebogen aus, in der Hoffnung, seine Auswanderung Richtung Nord- oder Südamerika organisieren zu können.<a href="#_ftn3">
+                                                <span>[2]</span>
+                                            </a>
+                                            <sup> </sup>Am 20. Oktober 1939 wurde er von Wien nach Nisko deportiert. Seine 1902 in Bruckmühl geborene Frau Ernestine wurde nach der Deportation ihres Mannes nach Nisko für einen geplanten dritten Nisko-Transport im Sammellager in der Gänsbachergasse 3 interniert. Nachdem Siegmund Flieger wie die meisten Deportierten aus der Gegend um Nisko vertrieben worden war, gelangte er mit einer Gruppe von Wiener Deportierten nach Bełżec, von wo aus er mit der IKG Wien in Kontakt trat. Im April 1940 kehrte er – wie insgesamt fast 200 Personen der Wiener Nisko-Deportierten – nach Wien zurück. Am 1. Mai 1943 wurde er mit seiner Frau und seiner Tochter von Wien nach Theresienstadt deportiert und von dort im September 1944 nach Auschwitz überstellt. Über Sachsenhausen gelangte er am 26. Februar 1945 nach Mauthausen, wo er die Befreiung erlebte. Seine Frau und seine Tochter kamen im Holocaust um. Siegmund Flieger heiratete erneut und wanderte 1950 mit seiner Familie nach Brasilien aus.<a href="#_ftn4">
+                                                <span>[3]</span>
+                                            </a>
+                                        </p>
+<p>Briefe aus dem Gebiet um Nisko an die IKG Wien verdeutlichen auch die Auseinandersetzungen zwischen den Deportierten und der IKG Wien. Wie die Historikerin Andrea Löw herausstrich, deutete sich in diesen Briefen bereits der spätere Konflikt zwischen den jüdischen RepräsentantInnen und der „normalen“ jüdischen Bevölkerung in den Ghettos an.<a href="#_ftn5">
+                                                <span>[4]</span>
+                                            </a>
+                                        </p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Dokumente aus dem Bestand der IKG Wien geben auch Auskunft zum Sammellager in der Gänsbachergasse und zum nicht abgegangenen dritten Nisko-Transport, dessen Geschichte <a href="https://nisko-transports.ehri-project.eu/exhibits/show/einleitung/gaensbachergasse">Dieter Hecht in einem einleitenden Text in der Edition</a> beschreibt. Eine Schilderung der ZimmerkommandantInnen des Sammellagers vom 22. November 1939 zeigt die verzweifelte Situation dieser Jüdinnen und Juden und verdeutlicht auch Konflikte mit dem Personal der IKG:</p>
+<p style="text-align:center;">„[...] <em>haben wir festgestellt, dass durch die Beistellung von hausfremden Ordnern die Leute das Gefühl haben, Sträflinge zu sein. Es ist daher nicht zu vermeiden, dass die Leute murren und des Glaubens sind, Gefangene der Kultusgemeinde zu sein.</em>“</p>
+<p>
+                                            <span/>
+                                        </p>
+Eine der unterzeichnenden Zimmerkommandantinnen war Rafaela (Rachela) Huschak geb. Flach. Sie wurde 1895 in Fryštát geboren und heiratete 1920 in Wien den um ein Jahr jüngeren Chauffeur Leo Huschak.<a href="#_ftn7">
+                                            <span>[5]</span>
+                                        </a> 1921 wurde die Tochter Margarete geboren, 1927 folgte die Geburt des Sohnes Hans. Zum Zeitpunkt des „Anschlusses“ Österreichs an NS-Deutschland lebte die Familie in einer Zimmer-Küche-Wohnung in der städtischen Wohnhausanlage im Pernestorfer Hof in der Troststraße 68–70 in Wien-Favoriten. Als das Wiener Wohnungsamt Ende Juni 1938 rund 2000 Kündigungsverfahren gegen jüdische MieterInnen von Gemeindewohnungen anstrengte, wurde auch Leo Huschak die Wohnung per 31. Juli 1938 gekündigt. Zwar erreichte die Familie eine Verlängerung der Räumungsfrist<a href="#_ftn8">
+                                            <span>[6]</span>
+                                        </a>, musste aber Ende Oktober 1938 endgültig die Wohnung verlassen und in die Barackensiedlung in der Hasenleiten (Baracke 33) übersiedeln. In den folgenden Monaten suchte die Familie vergeblich Ausreisemöglichkeiten nach Kolumbien, Palästina oder Shanghai.<a href="#_ftn9">
+                                            <span>[7]</span>
+                                        </a> Am 20. Oktober 1939 wurde Rafaela Huschaks Mann nach Nisko deportiert, wo sich seine Spur verliert. Ab Anfang November 1939 war sie mit ihren Kindern im Sammellager in der Gänsbachergasse untergebracht und sollte mit dem dritten Transport von Wien nach Nisko deportiert werden. Der Transport wurde gestoppt, endgültig durften die Internierten das Sammellager jedoch erst am 8. Februar 1940 verlassen.<a href="#_ftn10">
+                                            <span>[8]</span>
+                                        </a> Rafaela Huschak lebte mit ihren Kindern zuletzt in der Servitengasse 5/16 in Wien-Alsergrund. Am 15. Februar 1941 wurden sie nach Opole deportiert. Rafaela, Margarete und Hans Huschak kamen im Holocaust um. Die Korrespondenz aus dem Archiv der IKG Wien wurde um Beschreibungen der wenigen Überlebenden aus Opferfürsorgeakten ergänzt, die auf ihre Deportation, Vertreibung und Inhaftierung in sowjetischen Gulags eingehen. Die Dokumente verdeutlichen auch die geringe Rolle, die der Ort Nisko für die Deportierten und Vertriebenen der Wiener Nisko-Transporte spielte. Wie auch die automatisiert erstellten Karten in der Online-Edition zeigen, spielte der große Raum zwischen Nisko und der sowjetisch-deutschen Demarkationslinie, der als „Nirgendwo“ oder „Niemandsland“ wahrgenommen wurde, eine bedeutendere Rolle für die Deportierten als das Lager in Zarzecze bei Nisko, in dem nur ein kleiner Teil von ihnen unterkam. Zusätzlich wurden Ego-Dokumente aus dem DÖW, den Arolsen Archives, dem United States Holocaust Memorial Museum bzw. dem Slowakischen Nationalarchiv in die Edition aufgenommen. Diese zeigen unter anderem bislang kaum betrachtete Versuche einzelner Deportierter, eine mögliche Ausreise in die Slowakei zu organisieren.<a href="#_ftn11">
+                                            <span>[9]</span>
+                                        </a> Ein Brief des 1912 in Wien geborenen Damenschneiders Leo Quittner an seinen Cousin in der Slowakei zeigt eine dieser vergeblichen Bemühungen:<p/>
+<p style="text-align:center;">„<em>Ich könnte von hier in die Slovakei kommen, wenn Du mir die Einreise verschaffen möchtest. Ich habe viele Kollegen, die von ihren Verwandten in die Slovakei angefordert werden. Du brauchst für mich nicht sorgen, ich bringe mich dann schon durch [...].</em>“</p>
+<p>Quittner kehrte 1940 aus der Gegend um Nisko nach Wien zurück. Am 26. Februar 1941 wurde er von Wien nach Opole deportiert. Leo Quittner kam im Holocaust um.</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Mehrere Dokumente der neuen Online-Edition verweisen auf ein bislang gänzlich unerforschtes Kapitel: die Deportation österreichischer Juden aus dem Internierungslager Eibenschütz (Ivančice) im Protektorat Böhmen und Mähren nach Nisko. Deutlich wird dies durch eine Korrespondenz zum Schicksal von Josef Schloß. Am 13. Dezember 1939 stellte das Internationale Komitee vom Roten Kreuz (IKRK) eine Anfrage an das Deutsche Rote Kreuz zu seinem Aufenthaltsort. Das Deutsche Rote Kreuz leitete die Anfrage an die Gestapo weiter.</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Josef Schloß wurde 1916 in Wien als Sohn der TextilunternehmerInnen Victor und Malvine Schloß geboren.<a href="#_ftn14">
+                                                <span>[10]</span>
+                                            </a> Er lebte gemeinsam mit seinen Eltern in der Weißgerber Lände 8 in Wien-Landstraße. Ende November 1935 zog er nach Brünn und arbeitete dort für das Textilunternehmen Aron &amp; Jakob Löw-Beer. Er erhielt eine Aufenthaltsgenehmigung für die Tschechoslowakei bis Ende 1938. Bis 1939 wohnte er in der Altbrünnergasse 7.<a href="#_ftn15">
+                                                <span>[11]</span>
+                                            </a> Am 8. Juli 1939 wurde er als ausländischer Flüchtling in das Lager Eibenschütz (Ivančice) eingewiesen. Am 13. April 1940 beantwortete die Gestapo in Berlin die Anfrage des Roten Kreuzes:</p>
+<p style="text-align:center;">„<em>Der Jude Joseph Schloß war vom 8. 7. 39 bis 26. 10. 39 in dem aus Mitteln der Kul-</em>
+                                            <em>tusgemeinde Brünn erhaltenen Arbeitslager für Juden in Eibenschitz bei Brünn untergebracht. Am 26. 10. 39 erfolgte seine Abschiebung [handschriftlich: Ausweisung] nach Nisko im Generalgouvernement.</em>“</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Josef Schloß’ weiteres Schicksal ist unbekannt. Seine Eltern Viktor und Malvine Schloß sowie seine Schwester Olga Pisinger überlebten den Holocaust im Exil in Großbritannien.</p>
+<p/>
+<p>NS-Dokumente zur Organisation der Nisko-Aktion und zur Abfertigung der Transporte wurden aus dem DÖW und dem Landesgericht Wien in die Online-Dokumentenedition aufgenommen.</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Diese Dokumente zeigen etwa die Suche Adolf Eichmanns nach einem geeigneten Deportationsziel oder beleuchten wie jüdische Funktionäre aus Wien und Prag (Berthold Storfer, Julius Boschan, Richard Friedmann, Benjamin Murmelstein, Jacob Edelstein, Maurycy Moses Grün) auf Anordnung Eichmanns am ersten Nisko-Transport teilnehmen mussten.</p>
+<p>
+                                            <span/>
+                                        </p>
+<p>Die Online-Dokumentenedition Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939 versteht sich nicht als abgeschlossenes Projekt. Die Edition wird kontinuierlich um neue Dokumente erweitert. Die innovative digitale Datendarstellung der Online-Dokumentenedition soll WissenschafterInnen bei einer weiteren Erforschung der Nisko-Transporte aus Wien und des Schicksals dieser deportierten Wiener Juden unterstützen und Ausgangspunkt für neue Forschungen und neue Forschungsfragen sein.</p>
+<p/>
+<p/>
+<p>
+                                            <a href="#_ftnref1">
+                                                <span>[1]</span>
+                                            </a> Geburtsbuch der IKG Wien.</p>
+<p>
+                                            <a href="#_ftnref2">
+                                                <span>[2]</span>
+                                            </a> Archiv der IKG Wien, A/W 2589,66.</p>
+<p>
+                                            <a href="#_ftnref3">
+                                                <span>[4]</span>
+                                            </a> Brasilianisches Nationalarchiv, Einwanderungskarten, 1900–1965, Siegmund Flieger.</p>
+<p>
+                                            <a href="#_ftnref4">
+                                                <span>[4]</span>
+                                            </a> Andrea Löw, „Die Lage ist unter diesen Umständen sehr unsicher“. Briefe deportierter Wiener Juden vom Herbst 1939 bis zum Frühjahr 1940 an die Israelitische Kultusgemeinde Wien, in: Christine Schindler (Hrsg., im Auftrag des DÖW), Nisko 1939. Die Schicksale der Juden aus Wien, Wien 2020 (= Jahrbuch 2020), S. 207–227, S. 227.</p>
+<p>
+                                            <a href="#_ftnref5">
+                                                <span>[5]</span>
+                                            </a> Matriken der IKG Wien.</p>
+<p>
+                                            <a href="#_ftnref6">
+                                                <span>[6]</span>
+                                            </a> Kündigungsakt Leo Huschak. DÖW, DB „Kündigungsgrund Nichtarier“.</p>
+<p>
+                                            <a href="#_ftnref7">
+                                                <span>[7]</span>
+                                            </a> Auswanderungsfragebogen Leo Huschak, Archiv der IKG Wien, A/W 2589,104.</p>
+<p>
+                                            <a href="#_ftnref8">
+                                                <span>[8]</span>
+                                            </a> Jonny Moser, Nisko. Die ersten Judendeportationen, Wien 2012, S. 139.</p>
+<p>
+                                            <a href="#_ftnref9">
+                                                <span>[9]</span>
+                                            </a> Eine Beschreibung der Auswirkungen der Ausreise tschechischer Juden auf die Versuche der Wiener Nisko-Deportierten siehe in: Moser, Nisko, S. 141 f.</p>
+<p>
+                                            <a href="#_ftnref10">
+                                                <span>[10]</span>
+                                            </a> Geburtsbuch der IKG Wien.</p>
+<p>
+                                            <a href="#_ftnref11">
+                                                <span>[11]</span>
+                                            </a> Auswanderungsfragebogen Josef Schloß, Archiv der IKG Wien, A/W 2589,8.</p>
+                                    
+
+                            
+    <h1 id="id3">Sammellager Gänsbachergasse</h1>
+
+<p style="text-align:center;">
+                                        <strong>Dieter Hecht</strong>
+                                    </p>
+<p>Im Jahr 1866 hat die Gemeinde Wien das Areal gekauft und ein Obdachlosenheim mit angeschlossenen Werkstätten errichtet. Ab 1925 wurde im Rahmen eines Um- und Ausbaus des Hauses unter dem Wiener Stadtrat Julius Tandler die Arbeit in den Werkstätten eingestellt. Das Haus 10., Gänsbachergasse 3 (heute: 3., Gänsbachergasse 3) verfügte mit dem Heim in der Arsenalstraße 9 über insgesamt 1.980 Betten.<a href="#_ftn1">
+                                            <span>[1]</span>
+                                        </a> Auch unter dem austro-faschistischen Regime diente das Haus als Obdachlosenheim der Stadt Wien. Der „Anschluss“ ändert zunächst nichts an der Nutzung des Hauses. Erst von Oktober 1939 bis Februar 1940 diente das Obdachlosenheim, das nahe dem Aspangbahnhof lag, als Sammellager für Deportationen in das geplante „Judenreservat“ Nisko am San (im Generalgouvernement).<a href="#_ftn2">
+                                            <span>[2]</span>
+                                        </a> Am 20. und 26. Oktober 1939 gingen zwei Transporte mit ca. 1.600 Männern vom Aspangbahnhof nach Nisko ab. Einige Tage zuvor hatten die NS-Behörden bereits etwa 900 Männer aus Ostrava nach Nisko deportiert, die ein Barackenlager im nahe gelegenen Zarzecze errichten sollten.<a href="#_ftn3">
+                                            <span>[3]</span>
+                                        </a>
+                                    </p>
+<p>Adolf Eichmann und Alois Brunner versuchten lange, weitere Deportationen aus Wien nach Nisko durchzuführen. Zunächst verschoben sie den dritten Transport lediglich um eine Woche. Die jüdischen Transport- und Waggonleiter sollten sich am 30. Oktober am Aspangbahnhof mit Gepäck einfinden. Am 1. November verlautbarte die IKG in einem Schreiben, dass der Transport am Samstag, dem 4. November abgehen würde. Bereits einen Tag zuvor hatten sich alle eingeteilten 750 Personen – diesmal viele Frauen und Kinder – mit Gepäck im ehemaligen Obdachlosenheim einzufinden. Da Eichmann und Brunner keine Genehmigung für den Transport erhielten, blieben die meisten bis Februar 1940 im Obdachlosenheim inhaftiert.<a href="#_ftn4">
+                                            <span>[4]</span>
+                                        </a>
+                                    </p>
+<p>Die für den dritten Transport Vorgesehenen wurden getrennt nach Geschlechtern in zehn Zimmern untergebracht. Die Kinder blieben bei den Frauen. Harry Merl erinnerte sich, dass er mit seiner Mutter Sabine getrennt von seinem Vater Wilhelm untergebracht worden war. Sabine Merl arbeitete in der Gänsbachergasse als Sekretärin, Wilhelm Merl als Schlosser.<a href="#_ftn5">
+                                            <span>[5]</span>
+                                        </a> Zwei Briefe vom 12. November 1939 an Josef Löwenherz dokumentieren das Schicksal der inhaftierten Frauen besonders eindrücklich: Rosa Breitenfeld schildert in ihrem Brief ihre verzweifelte Lage und den Wunsch vieler Frauen, endlich zu ihren nach Nisko deportierten Männern gelangen zu können. Laut Breitenfelds Bericht waren im Saal Nr. 2 19 Frauen interniert, darunter drei Frauen mit Kindern. In einem privaten Nachsatz bat sie Löwenherz, nach Abgang des Transports seiner Tochter Ada, die damals schon in den USA lebte, zu berichten, dass sie zu ihrem Mann gefahren sei, damit Ada dies Breitenfelds Schwägerin mitteilen könne. Am selben Tag schrieben die zehn Zimmerkommandanten und -kommandantinnen einen 4-seitigen Brief an Josef Löwenherz, in dem sie die Situation in der Gänsbachergasse ausführlich beschrieben. Unter den Unterzeichneten waren sieben Frauen, d.h., die Mehrheit der Zimmer bzw. Säle war von Frauen belegt, was auf mehrheitlich Frauen als Internierte hinweist. Insgesamt dürften sich zu diesem Zeitpunkt 815 Personen, darunter 47 Kinder in der Gänsbachergasse aufgehalten haben. Die Schilderung der ZimmerkommandantInnen zeigt abermals, wie verzweifelt sich die Situation für die Jüdinnen und Juden in der Gänsbachergasse darstellte. Die Unsicherheit, ob und wohin sie transportiert würden, und die mangelnde Perspektive ließen sie verzweifeln. Im Gegensatz zum Brief von Rosa Breitenfeld wurde in diesem auf „erschreckende Mitteilungen“ von Männern aus dem ersten und zweiten Transport hingewiesen, weshalb viele Frauen, die sich freiwillig gemeldet hatten, nicht mehr nach Polen fahren wollten.<a href="#_ftn6">
+                                            <span>[6]</span>
+                                        </a>
+                                    </p>
+<p>
+                                        <span/>
+                                    </p>
+
+<p>Dank dieses Briefes wird klar, dass für die Überwachung und Versorgung sowohl Personal der Israelitischen Kultusgemeinde als auch weiterhin das Personal des Obdachlosenheims herangezogen wurde. Die Sympathie der Inhaftierten lag eindeutig beim „arischen“ Personal. An den ca. 20 jüdischen Ordern wurde kritisiert, dass sie keine Rücksicht auf die Internierten nähmen und kein Verständnis für die Situation hätten. Im Brief wurden die Ordner heftig kritisiert, vor allem, weil sie sich beim Essen reichlich bedienten. Die Internierten der Gänsbachergasse verstanden nicht, dass die Kultusgemeinde durch die „Zentralstelle für jüdische Auswanderung“ gezwungen wurde, Angestellte für die Regelung des Lageralltags abzustellen. Vielmehr forderten sie, das Geld statt für die Ordner in die Ausstattung der Frauen mit Kleidern, Unterwäsche und Schuhen zu investieren. Noch schwerwiegendere Kritik übten sie an der Auswahl der Personen für den Transport, viele hatten körperliche Gebrechen und waren nicht fähig, schwere körperliche Arbeit zu leisten.<a href="#_ftn7">
+                                            <span>[7]</span>
+                                        </a>
+                                    </p>
+<p>Nachdem die Internierten im Januar und Februar 1940 frei gelassen worden waren, diente die Gänsbachergasse wieder als Obdachlosenheim. Im Oktober 1942 wurde das Obdachlosenheim für die Gestapo geräumt. Ende Oktober verwendete die Gestapo die Gänsbachergasse als Sammellager für Jüdinnen und Juden aus ganz Europa, die gegen sogenannte Templer, Angehörige einer evangelisch-pietistischen deutschen Sekte, die im 19. Jahrhundert nach Palästina ausgewandert waren, ausgetauscht werden sollten. Hierbei handelte es sich um den zweiten deutsch-palästinensischen Zivilgefangenenaustausch.<a href="#_ftn8">
+                                            <span>[8]</span>
+                                        </a> Die Verhandlungen zwischen den britischen und deutschen Behörden zogen sich in die Länge. Neben britischen Staatsangehörigen sollten 125 Jüdinnen und Juden ausgetauscht werden. Als „Sammelort“ innerhalb des Deutschen Reichs wurde Wien ausgewählt. Die Juden wurden in der Gänsbachergasse im ersten Stock in einem großen Luftschutzraum und in drei weiteren Sälen untergebracht. Bereits am Weg nach Wien durften sie ohne „Judenstern“ reisen. Auch in Wien konnte sie sich ohne „Judenstern“ in der Stadt bewegen. Die Angestellten der Stadt Wien sollten im Auftrag der Gestapo Anwesenheitskontrollen durchführen, lehnten dies aber aus Personalmangel ab. Da es drei Mahlzeiten am Tag gab, kamen die Jüdinnen und Juden immer zu den Mahlzeiten in die Gänsbachergasse. Der Transport nach Palästina sollte am 29. Oktober 1942 abgehen. Am 8. November um 21:50 fuhren letztendlich 137 Personen vom Wiener Südbahnhof Richtung Istanbul, darunter 70 Jüdinnen und Juden und britische Staatsbürger. Deutlich weniger als vereinbart, weil 55 der ursprünglich ausgewählten Jüdinnen und Juden bereits ermordet worden waren, darunter Chawa Simche aus Wien, die mit ihren Geschwistern bereits am 12. Mai 1942 nach Izbica deportiert und dort ermordet worden war. Die Namen der Ermordeten wurden von der Liste gestrichen, darunter etwa Hannah Korman aus Radom, die Mutter des 15-jährigen Israel Sumer Korman, der allein fahren konnte. Zu den Passagieren zählte auch die Berliner Religionslehrerin Blanka Alperowitz-Katz (1883-1958). Drei Krankenschwestern, zwei Polizisten und drei zivile Beamte begleiteten den Zug. Für die Jüdinnen und Juden gab es auch Schlafwagen und Verpflegung im Zugrestaurant. Korman und Alperowitz-Katz berichteten in ihren Erinnerungen über ihre Reise über Wien nach Palästina.<a href="#_ftn9">
+                                            <span>[9]</span>
+                                        </a>
+                                    </p>
+<p>Im Sommer 1944 wurde das Obdachlosenheim in der Gänsbachergasse als Durchgangslager für einen Teil der rund 6.000 ungarisch-jüdischen Zwangsarbeiterinnen und Zwangsarbeiter verwendet, die über Strasshof nach Wien gebracht worden waren. Von der Gänsbachergasse 3 wurden die Arbeitskräfte an die Arbeitgeber verteilt. Die abermalige Nutzung des Obdachlosenheims hatte sicherlich damit zu tun, dass die Gänsbachergasse nahe dem Ostbahnhof und vielen Gewerbe- und Industriebetrieben in Simmering (11. Bezirk) und Favoriten (10. Bezirk) lag. Den Berichten von Betroffenen zufolge war die Situation in der Gänsbachergasse viel besser als in Strasshof, sowohl was die Verpflegung als auch den freundlichere Umgangston der Angestellten betraf.<a href="#_ftn10">
+                                            <span>[10]</span>
+                                        </a> In der Nachkriegszeit verwendete die Stadt Wien das Haus wieder als Obdachlosen- und Asylheim.</p>
+
+<p>
+                                        <a href="#_ftnref1">
+                                            <span>[1]</span>
+                                        </a> Karl Sablik, Julius Tandler: Mediziner, Sozialreformer, Frankfurt am Main ²2010, S. 247-248; <span>Mitteilungen aus Statistik und Verwaltung der Stadt Wien. Geschäftsgruppe Stadtplanung, Wien 1926, S. 73.</span>
+                                    </p>
+<p>
+                                        <a href="#_ftnref2">
+                                            <span>[2]</span>
+                                        </a> Jonny Moser, Nisko. Die ersten Judendeportationen, Wien 2012.</p>
+<p>
+                                        <a href="#_ftnref3">
+                                            <span>[3]</span>
+                                        </a> Hans Safrian, Die Eichmann-Männer, Wien 1993, S. 77-78. Vgl. Dieter J. Hecht/Eleonore Lappin-Eppel/Michaela Raggam-Blesch, Topographie der Shoah. Gedächtnisorte des zerstörten jüdischen Wien, Wien 2015, S. 454.</p>
+<p>
+                                        <a href="#_ftnref4">
+                                            <span>[4]</span>
+                                        </a> Joseph Löwenherz Collection am Leo Baeck Institute, AR 25055, Aktennotizen vom 30. 10. 1939, 1. 11. 1939, 8. 11. 1939; Rundschreiben der Kultusgemeinde, 1. 11. 1939; Archiv der Israelitischen Kultusgemeinde Wien, Bestand Jerusalem, A/W 2737; Doron Rabinovici, Instanzen der Ohnmacht. Wien 1938-1945. Der Weg zum Judenrat, Frankfurt/Main, 2000, S. 208-209.</p>
+<p>
+                                        <a href="#_ftnref5">
+                                            <span>[5]</span>
+                                        </a> Pascal Merl, Harry Israel Merl – Persönliche Erinnerungen eines jüdischen Kindes im</p>
+<p>historischen Kontext der Zeit des Nationalsozialismus in Wien, Universität Linz Bachelorarbeit, Linz 2014, S. 16-17.</p>
+<p>
+                                        <a href="#_ftnref6">
+                                            <span>[6]</span>
+                                        </a> <span>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747</span>.</p>
+<p>
+                                        <a href="#_ftnref7">
+                                            <span>[7]</span>
+                                        </a> <span>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747</span>.</p>
+<p>
+                                        <a href="#_ftnref8">
+                                            <span>[8]</span>
+                                        </a> Alexandra Wenck, Zwischen Menschenhandel und „Endlösung“. Das Konzentrationslager Bergen-Belsen, Berlin 2020, S. 11.</p>
+<p>
+                                        <a href="#_ftnref9">
+                                            <span>[9]</span>
+                                        </a> Klaus Hillenbrand, Der Ausgetauschte. Die außergewöhnliche Rettung des Israel Sumer Korman, Frankfurt/Main 2010, Kapitel I, Kapitel VI. Vgl. Blanka Alperowitz/Klaus Hillenbrand (Hg.), Die letzten Tage des deutschen Judentums (Berlin Ende 1942), Berlin 2017, S. 101-106.</p>
+<p>
+                                        <a href="#_ftnref10">
+                                            <span>[10]</span>
+                                        </a> Eleonore Lappin-Eppel, Ungarisch-Jüdische Zwangsarbeiter und Zwangsarbeiterinnen in Österreich 1944/45. Arbeitseinsatz – Todesmärsche – Folgen, Wien 2010, S. 91-92.</p>
+                               
+                       
+
+<h1 id="id4">Herangehensweise und technische Umsetzung</h1>
+                                    <p>
+                                        <span>Die Online-Edition „Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939“ versteht die veröffentlichten Dokumente nicht nur als wichtige Informationsquellen, sondern auch als einzigartige Textdokumente. Soweit möglich wurden die Dokumente daher in ihrer Gesamtheit veröffentlicht. Zusätzlich stellt die Edition die Scans des Originaldokuments zur Verfügung. Dies macht eine Reproduktion der Form der Dokumente in den ranskriptionen überflüssig. Der Briefkopf oder die Aktenzahlen wurden ebenso wenig in den Transkriptionen sichtbar gemacht wie Stempel. </span>Eindeutige Tippfehler, die keine Auswirkung auf das Verständnis oder die Interpretation des Dokuments haben, wurden stillschweigend behoben. Falsche Schreibweisen von Ortsnamen wurden im Original belassen - die Verlinkung zu Geonames zeigt den jeweils korrekten Ort an.</p>
+<p>
+                                        <span>Die HerausgeberInnen entschieden sich für eine detaillierte Kommentierung der Dokumente. Derartige Kommentierungen bietet den Lesern kontextbezogene Informationen, indem sie sich auf Autoritätssätze (EHRI-Begriffe, Ghettos, Lager, Organisationen, Geonames usw.) und weitere neu angelegte Erläuterungen beziehen. Dadurch können jederzeit weiterführende Informationen zu Organisationen oder zu handelnden Personen aufgerufen werden. Darüber hinaus ermöglichen diese Kommentierungen, die Dokumente als Forschungsdaten zu behandeln, die in Zukunft wiederverwendet und mit anderen Dokumenten aggregiert werden können.</span>
+                                        <span/>
+                                    </p>
+<p>
+                                        <span>Die Dokumente wurden im Standard Text Encoding Initiative (TEI) P5 kodiert – einem weit verbreiteten Format für digitale Editionen. Die EHRI-Editionen sind zwar flexibel, setzen aber auf Bezüge zu Namen, Daten, Orten und Personen (TEI-Modul namesdates).</span>
+                                    </p>
+<p>
+                                        <span>Trotz zahlreicher Ansätze zur Online-Veröffentlichung von TEI-Dokumenten entsprach keine verfügbare Lösung den Anforderungen der EHRI digitalen Editionen. Das EHRI Team entschied sich daher, eine eigene Reihe von Tools und eine Front-End-Plattform auf Basis einer einfachen, aber leistungsfähigen bestehenden Open-Source-Software, Omeka, und seine Neatline Mapping Plugin zu entwickeln. Dieser Satz von Software-Werkzeugen ist modular und kann kombiniert oder auf verschiedene Weise erweitert werden, um die Bedürfnisse bestimmter Editionen zu passen. Die Anforderungen an die EHRI-Edition-Software folgten dem realen Redaktionsprozess, einschließlich der Auswahl der Dokumente, ihrer Transkription, Kommentierung und Übersetzung.</span>
+                                    </p>
+<p>
+                                        <span>Wie bisherige Editionen, die die EHRI online Plattform für Editionen nutzten, legt auch die Online-Edition „Von Wien ins Nirgendwo: Die Nisko-Deportationen 1939“ den Schwerpunkt darauf, dem verlinkten Datenparadigma zu folgen und Links zu etablierten kontrollierten Vokabularen zu verwenden (EHRI für Holocaust-bezogene Entitäten; Geonames für geographische Informationen usw.). Die Kommentierung von Dokumenten besteht daher in erster Linie darin, Wörter oder Ausdrücke in den Dokumenten zu markieren und zu verlinken. Die Kommentierung wurde in gewöhnlichen Texteditoren vorgenommen, in denen die Entitäten mittels URLs verlinkt wurden. Nachdem die Kommmentierung und die Textbearbeitung abgeschlossen waren, wurden die Dokumente in das TEI-XML-Format konvertiert. Das Team nutzte dazu ein Open-Source-Tool Odette, das vom EHRI-Team um ein Stylesheet erweitert wurde, um die Typen von Entitäten zu erkennen und diese basierend auf den als Referenzen verwendeten URLs entsprechend zu kodieren. Die so erzeugten TEI-Dateien wurden von Editoren überprüft und von unerwünschten Formatierungen bereinigt. Ein EHRI-TEI-Anreicherungs-Dienstprogramm erstellte normalisierte Einträge für verknüpfte Einheiten im TEI-Header (unter Verwendung der EHRI-API, Geonames Metadaten und anderer Ressourcen). Diese wurden anschließend verwendet, um die facettierten Navigations- und Kartendarstellungen zu steuern.</span>
+                                        <span/>
+                                    </p>
+<p>
+                                        <span>Die resultierenden TEI-Dokumente wurden auf die Omeka-Webpublikationsplattform von EHRI hochgeladen und das EHRI Editions Plugin befüllte automatisch die Datenbank basierend auf dem Inhalt der XML-Datei. Anhand der TEI-Daten wurden interaktive Kartenpräsentationen erstellt.</span>
+</p>
+                     </div>
+                            </div>   </section>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                        </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

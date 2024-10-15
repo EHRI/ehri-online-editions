@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-JMP009_CS_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Herta Bondyová, description of harsh living conditions in Bergen-Belsen</title>
+				<title xml:lang="de">Herta Bondyová, Beschreibung der harten Lebensbedingungen in Bergen-Belsen</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1945-05-27">27. 5. 1945</origDate>, <persName ref="#ehri_et_bondyova_herta">Herta Bondyová</persName>, <origPlace ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Herta Bondyová describing in a literary way what followed after her deportation from Auschwitz to Bergen-Belsen. She tells emotionally the stories of her fellow prisoners and points out the harsh living conditions in the camp.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP009_01.jpg" n="1"/>
+					<head>
+						<date when="1945-05-27">27. 5. 1945</date>
+					</head>
+					<p>Mrzne. Nuceně se choulíme zimou a hladem bez slámy ve vagonech. Nevadí. Hlavně že jedeme pryč odsud, kde život více jak na vlásku – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Osvětim</placeName>. Chceme ještě žít, zatím všechny. Vždyť nás zbylo tak
+						málo.</p>
+					<p>Mrzne. Vystupujeme. Jakoby nás opouštěla letargie, najednou tisíce otázek. Jak dlouho jsme byly na cestě? Věčnost. Cesta lesem, tichem, přírodou? Jak dlouho jsme přírodu neviděly? Léta. Kde jsme? Co bude?</p>
+					<p>A hle, tabulka: <q><foreign xml:lang="de">Kr.Gef.Lager</foreign>
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-42">Bergen-Belsen</placeName></q>. Cože, jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-511" type="subject">váleční zajatci</term>? <q>To by bylo báječné</q>, rozumují <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">děvčata</term> a tak pomalu začínáme míti zájem o náš osud.</p>
+					<p>Došly jsme. Překrásná daleká vřesoviště v plném květu temně fialová, v nich štíhlé krásné zelené borovice nás ševelem vítají, to usměvavé slunce v plné své kráse na jasném zimním nebi – snad není ani možno, abychom šly na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrt</term>. Není to možno? Chacha.</p>
+					<p>Co je to? Několik velkých cirkusových <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stanů</term>. <q>To jsou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubikace</term> asi pro 12000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term></q>. Na zemi, jedna na druhé, uchvatitelka pod sebou trochu slámy, slabá nic než deku. Punčochy nejsou… kalhoty jen kdo měl štěstí… a mrzne den ze dne víc – vždyť je <date when="1944-11">listopad</date>.</p>
+					<p>Snad existuje něco a někdo v nebi, kdo již nemůže vidět tisíce ubohých vychrtlých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> svlékat a mýti se v přírodě a vody je tak spoře a žádný hadr na osušení a zatím co se myješ ukradne ti
+						někdo poslední kousek hadru do dřeváku. Hrozivě se zbarvilo nebe, vítr roznáší předzvěst katastrofy. Plachty stanů se nadouvají. Je večer.</p>
+					<p>Mimoděk si vzpomenu na knihu <q>Když nastaly deště</q> a cítím, že se blíží něco velikého. Již jen blesky osvětlují krajinu hrozivě temnou, již jen meluzinu, ne slova sousedky slyšíš – plachty se vzdouvají víc a více a v jejich boji s dřevěnými pilíři zaniká nářek našich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term> a o pomoc volání. Najednou každá žijeme pro sebe. Kdo nemyslíte na své nejbližší? Rozhodná hodina nadešla.</p>
+					<p>Hlavní stožár stanu povolil, plachty a dřevo sjíždějí mezi těla – panika, křik, nářek,… Evo, Nito, Anči, Valino – <hi rend="letter-spacing: +2px">žijete</hi>? Cože Helga? ... A ráno se osvětlilo kdo nás opustily. Ze všech dvanácti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stanů</term> zůstal stát jediný silně poškozený.</p>
+					<p>Této hrůzné noci, ve které leckteré z nás vlasy prokvetly, následovalo 36 hodin <q>na volném vzduchu</q> než jsme si směly zříditi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráky</term> dosud neobydlené, kde jsme ve třípatrových
+						kavalcích spaly 2 na jedné posteli a měly každá jedinou deku, pod sebou tenký slamníček. A zde jsme prožívaly <date when="1944-12">prosinec</date>, celkem bez oděvu, bez lžíce a kapesníku a jako děti jsme se těšily na Štědrý večer, kdy bychom snad mohly dostat o kousek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> více.</p>
+					<p>Kolem <date when="1944-12-12">12. prosince</date> se roznesly pověsti, že se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábor</term> bude likvidovati a pod. a skoro denně se vybíraly větší i menší skupiny, které byly poslány na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term>. Zajímavo, že my <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Češky</term> jsme vždy disciplinovaně nastupovaly zatím co <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">vězeňkyně</term> jiných národností se soustavně vyhýbaly, kličkovaly apod. Do <date when="1944-12-20">20. prosince</date> jsme vybrány nebyly – nikdo nás nechtěl, byly jsme příliš zubožené. <q>Teď
+							máme přes svátky pokoj</q>, rozumovala jsem, ale měly jsme štěstí. Právě <date when="1944-12-24">24. prosince</date>, kdy jsme <pb facs="EHRI-ET-JMP009_02.jpg" n="2"/> byly tolik zklamané, že nebylo o chlup <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> více, nás <q>vybrali</q> a proslýchalo se, že pojedeme teprve <date when="1945-01-20">20. ledna</date>. <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Češky</term> měly jako pracovní síly dobré jméno.</p>
+					<p><date when="1945-01">Leden</date> v tomto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táboře</term> byl strašný. Neustále dojížděly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transporty</term> a
+						nebylo rána, aby před každým barákem nebyla kupa <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvých</term> nahých /ty šaty na nich byly to nejcennější/ těl, pro které pravidelně přijížděl žebřiňák. Neustále se vracely z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocné</term> v takovém stavu, že opravdu jen kosti sem dovlekly k uložení. Tak se také vrátila naše přítelkyně Dr. <persName ref="#ehri_et_wolfova">Wolfová</persName>, která ještě před 14 dny
+						byla na nohou a nyní nemohla ani z postele – byla jedna rána… Vší přibývalo a s nimi i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyfu</term>. Bloky pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">churavé</term> byly pečetěmi spočítaných hodin života.</p>
+					<p>A včera byl <date when="1945-01-20">20. leden</date> a my nejedeme. Co je? Jsme odsouzeny zde <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">pomříti</term>? Nesmíme naše kosti ještě v naději donésti do jiného kraje? Alespoň ještě jednou se
+						pořádně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">najíst</term> a umýt – a pak Bohu poručeno.</p>
+					<p>Je <date when="1945-01-31">31. leden</date>, je <date when="1945-02-08">8. únor</date>. Zajisté je <placeName ref="http://www.geonames.org/2937959/dessau.html">Desava</placeName>, kam jedeme, srovnaná se zemí... Ale nastal zázrak. <date when="1945-02-10">10. února</date> při
+						rozdávání poslední tuřínové <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévky</term> v příšerném transportním bloku, kde dostat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term> znamenalo
+						výhru v loterii, přišel rozkaz. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Děvčata</term>, jedeme. Kdo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">nejedl</term> nedostane, není čas /to aby personál
+						bloku se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">najedl</term> ještě více/.</p>
+					<p>Nastupujeme. Hanka, jedna z našich nejlepších, není vybrána, ale nemůže bez nás žít, patří již k ubohým vysíleným. Snažíme se vzíti je s sebou. Vpašuje se mezi nás. Je vylovena a vrácena. Neohroženě na nejistých nohou opět zkouší, ale je <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">esesmanem</term> bita až se odvracíme. Loučíme se bolnými pohledy. Hanko, naše sportovkyně, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">děvče</term>, které
+						jsi měla tolik odvahy a ještě nedávno jsi nám celé večery recitovala, na kterou čeká Tvá malá dceruška – buď s Bohem. A Evo, která jsi s ní žila a tak krásně o ni pečovala, nejsme méně smutny nežli Ty. Vzmuž se. Vykračujeme o poledni a rády se pohledem loučíme s hroznými
+						bloky, blokovými, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">apely</term>.</p>
+					<p>Co nás čeká? Dáme se překvapit.</p>
+					<p><persName ref="#ehri_et_bondyova_herta">Herta Bondyová</persName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Praha II.</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Lodecká</placeName> 3.</p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP009_01.jpg" n="1"/>
+					<head>
+						<date when="1945-05-27">27. 5. 1945</date>
+					</head>
+					<p>It’s freezing. We are forced to huddle together, cold and hungry with no hay in the railway cars. It doesn’t matter. The main thing is that we’re going away from here, where life hangs by a thread – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName>. We want to live, so far all of us still do. So few of us are left.</p>
+					<p>It’s freezing. We get off the train. As if our lethargy had left us, all at once a thousand questions. How long have we been travelling? An eternity. Did we travel through forests, silence, nature? How long has it been since we’ve seen nature? Years. Where are we? What will
+						happen?</p>
+					<p>There, a sign: <q><foreign xml:lang="de">Kr.Gef.Lager</foreign>
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-42">Bergen-Belsen</placeName></q>. What, we’re <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-511" type="subject">prisoners of war</term>? <q>That would be wonderful,</q> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term> speculate, and we slowly become interested in our fate.</p>
+					<p>We’ve arrived. Stunning, vast moorlands in full bloom, dark purple, with beautifully green thin pines greet us with their rustling. A smiling sun in its full beauty in a clear winter sky – it can’t be possible that we are going to our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">deaths</term>. Not possible? Haha.</p>
+					<p>What is it? Several large circus <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">tents</term>. <q>They’re <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">quarters</term> for about 12,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>.</q> On the ground, one on top of another. The stronger one has seized some hay to sleep on, the weak one has nothing but a blanket. There are no socks… only the lucky ones have
+						pants… and it grows more freezing by the day – it’s <date when="1944-11">November</date>.</p>
+					<p>Maybe something or someone exists in heaven who can no longer look at the thousands of wretched, emaciated <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> undress and wash themselves outside, and there’s so little water and no
+						rags to dry yourself with, and while you’re washing yourself someone steals your last piece of rag in their wooden clog. The sky turned a menacing color, the wind foreshadows a catastrophe. The tent canvases bulge. It’s the evening.</p>
+					<p>The book <q>The Rains Came</q> comes to me unbidden and I feel that something big is coming. Only lightning illuminates the terrifyingly dark landscape, you can’t hear your neighbor speak over the wailing wind – the canvases are billowing out more and more and the cries of the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> and our calls for help vanish in the canvases’ struggle with the wooden pillars. Suddenly, each of us is living for herself alone. Who isn’t thinking about their loved ones? Our
+						time has come.</p>
+					<p>The main pole of the tent has become loose, the canvases and the wood slide between our bodies – panic, screaming, wailing,… Eva, Nita, Anča, Valina – <hi rend="letter-spacing: +2px">are you alive</hi>? What, Helga? . . . In the morning, it became clear who didn’t make it. Out
+						of the twelve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">tents</term>, only one, badly damaged, remained standing.</p>
+					<p>This terrible night, during which the hair of many of us went white with fear, was followed by 36 hours <q>in the fresh air</q> before we set ourselves up in as yet unsettled <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>,
+						where we slept in three-tier bunks, 2 in each bed, and each with only one blanket, beneath us a thin straw mattress. Here, we lived through <date when="1944-12">December</date> with no clothes, spoon, or handkerchief, and like children we looked forward to Christmas when we
+						could perhaps receive an extra piece of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>.</p>
+					<p>Around <date when="1944-12-12">December 12th</date>, a story started to go around that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> would be liquidated. Almost every day, larger and smaller groups would be selected and sent
+						to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. Interestingly, we <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Czechs</term> always boarded in an orderly manner, while female
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">prisoners</term> of other nationalities were constantly eluding, dodging, etc. We weren’t selected until <date when="1944-12-20">December 20th</date> – nobody wanted us, we were too weak.
+							<q>We’ll be left in peace over the holidays,</q> I speculated, but we were lucky. On <date when="1944-12-24">December 24th</date>, when we <pb facs="EHRI-ET-JMP009_02.jpg" n="2"/> were so disappointed because we didn’t get even an extra crumb of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>, they <q>selected</q> us and we heard that we were to leave on <date when="1945-01-20">January 20th</date>. <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Czech women</term> had a reputation of being good workers.</p>
+					<p><date when="1945-01">January</date> in this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> was horrible. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Transports</term> arrived constantly and
+						not a single morning went by when there wasn’t a heap of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> naked bodies (the most valuable thing about them was their clothes) in front of the barracks. A wagon came by regularly to
+						collect them. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Sick</term> women were constantly returning from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in such a state that they were just
+						dragging their bones back to bed. This is how our friend Dr. <persName ref="#ehri_et_wolfova">Wolfová</persName> returned. Fourteen days ago she was on her feet and now she couldn’t even get out of bed – she was covered in wounds… We were increasingly beset by lice, and,
+						along with them, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhus</term>. Blocks for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> were the seals of the numbered days of your life.</p>
+					<p>Yesterday was <date when="1945-01-20">January 20th</date> and we still haven’t left. What? Are we sentenced to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">die</term> here? Don’t we have to drag our bones to another region? At least to
+						properly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term> and wash ourselves – and then let God’s will be done.</p>
+					<p>It’s <date when="1945-01-31">January 31th</date>, it’s <date when="1945-02-08">February 8th</date>. <placeName ref="http://www.geonames.org/2937959/dessau.html">Dessau</placeName>, where we are going, has certainly been levelled. . . A miracle occurred. On <date when="1945-02-10">February 10th</date>, while the last turnip <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> was being doled out inside the horrible transport block, where getting <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> meant winning the lottery, an order came. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Girls</term>, we’re leaving. Those who haven’t <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eaten</term> yet won’t get anything, there’s no time (so that the block staff can <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term> even more).</p>
+					<p>We board. Hanka, one of our best, is not selected, but she can’t live without us, she’s one of the poor exhausted ones. We try to take her with us. She sneaks in with us. She’s fished out and returned. On shaky legs, she fearlessly tries again, but she’s beaten by an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS man</term> until we look away. We say goodbye with painful looks. Hanka, our athlete, our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girl</term> who was
+						so brave and not long ago recited things to us all night long, your little daughter is waiting for you – be with God. And Eva, who lived with her and took care of her so sweetly, we are no less sad than you. Have courage. We’re setting off at noon and happy to cast a last
+						glance at the terrible blocks, wardens, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll calls</term>.</p>
+					<p>What lies ahead for us? It shall be a surprise.</p>
+					<p><persName ref="#ehri_et_bondyova_herta">Herta Bondyová</persName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Prague II</placeName>., <placeName ref="http://www.geonames.org/3067696/prague.html">Lodecká</placeName> 3.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

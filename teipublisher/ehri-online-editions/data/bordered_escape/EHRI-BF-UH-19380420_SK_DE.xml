@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19380420_SK_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="sk">Zemské četnické velitelství v Bratislavě o vyhánění Židů přes maďarsko-československou hranici</title>
+				<title xml:lang="de">Gendarmerie-Landeskommandos in Bratislava über die Vertreibung von Jüdinnen und Juden über die ungarisch-tschechoslowakische Grenze</title>
+				<title xml:lang="en">Regional Gendarmerie Headquarters in Bratislava about the expulsion of Jews across the Hungarian-Czechoslovak border</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938 </orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</orgName><address>
+								<street>Archivní 2257/4</street>
+								<postCode>149 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+						<idno>Sign. 225-1186-16, Fol. 33</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16, Fol. 33. Abschrift. <textLang mainLang="sk">Originál Slowakisch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-04-20">20. dubna 1938</origDate>
+				<origPlace ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</origPlace>
+				<orgName>Zemské četnické velitelství Bratislava</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>úřední dokumenty</term>
+				</keywords>
+				<catRef target="schmuggel"/>
+			</textClass>
+			<langUsage>
+				<language ident="sk">slovensky</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="sk">
+					<pb facs="EHRI-UH-19380420_1.jpg" n="1"/>
+					<!--      <p>Odpis.</p>      <p>
+        <hi rend="u">Zemské <term type="subject"
+            ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">četnícke</term>
+          veliteľstvo <placeName ref="http://www.geonames.org/3060972/bratislava.html"
+            >Bratislava</placeName></hi>
+      </p>      <p>[...]</p>
+-->
+					<p>Veliteľstvo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četníckého</term> oddelenia <hi rend="u"><placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName>.</hi></p>
+					<p>[...]</p>
+					<p>Podľa sdelenia prezídia krajinského úradu sú robené pokusy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-192" type="subject">prepašovať</term> cez <placeName ref="http://www.geonames.org/719819/hungary.html">maďarské</placeName> územie <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakúskych</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">občanov</term> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">židov</term> na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čs</placeName>. územie a to v okrese <placeName ref="http://www.geonames.org/3057757/samorin.html">šamorínskom</placeName>. Takýmto pokusom musí byť v každom prípade zabránené. Okresný náčelník v <placeName ref="http://www.geonames.org/3057757/samorin.html">Šamoríne</placeName> dostal už príslušné pokyny od krajinského úradu.</p>
+					<p>K zosilneniu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četnícky</term> staníc na pohraničí v okrese <placeName ref="http://www.geonames.org/3057757/samorin.html">šamorinskom</placeName> vyžiadejte si na prechodnú dobu ihneď telefonicky
+						od veliteľstva <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četníckeho</term> oddeleni v <placeName ref="http://www.geonames.org/3057124/trnava.html">Trnave</placeName> 9 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četníkov</term>, ak je možné slobodných, z ktorých zadelte 4 do <placeName ref="http://www.geonames.org/3058117/podunajske-biskupice.html">Buskupic pri Dunaji</placeName>, 2 do <placeName ref="http://www.geonames.org/3057757/samorin.html">Šamorína</placeName> a 3 do <placeName ref="http://www.geonames.org/3061224/bac.html">Báčfy</placeName>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Četníctvu</term> buď nariadené, aby intenzívne a nepretržite obchádzalo hranice a v každom prípade zabránilo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">nedovolenému príchodu</term>
+						<placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakúschých</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">občanov</term> - židov na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čs</placeName>. územie. Pri strážení hraníc nech <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četníctvo</term> postupuje v dohode s <orgName ref="#ehri_bf_finanzwache">pohraničnou finančnou strážou</orgName> a vzájmne nech sa podporujú.</p>
+					<p>[...]</p>
+					<p>Zemský <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četnícky</term> veliteľ</p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-BF-19380420_1.jpg" n="1"/>
+					<p><!--Abschrift.</p>
+      <p>
+        <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+          >Landesgendarmeriekommando</term>
+        <placeName ref="http://www.geonames.org/3060972/bratislava.html">Pressburg</placeName>
+      </p>
+      <p>[...]--></p>
+					<p>Kommandantur der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmerieabteilung</term>
+						<placeName ref="http://www.geonames.org/3060972/bratislava.html">Pressburg</placeName>.</p>
+					<p>[...]</p>
+					<p>Nach Angaben des Präsidiums der Landesbehörde werden Versuche unternommen, <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdische</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">Bürger</term> über das <placeName ref="http://www.geonames.org/719819/hungary.html">ungarische</placeName> Gebiet auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čsl.</placeName> Gebiet zu schmuggeln, und das im Kreis <placeName ref="http://www.geonames.org/3057757/samorin.html">Sommerein</placeName>. Ein solcher Versuch muss auf jeden Fall vermieden werden. Der Bezirkshauptmann von <placeName ref="http://www.geonames.org/3057757/samorin.html">Sommerein</placeName> erhielt bereits diesbezügliche Anweisungen durch die Landesbehörde.</p>
+					<p> </p>
+					<p>Für eine Übergangszeit wird ab sofort telefonisch um Verstärkung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmerieposten</term> an der Grenze im Bezirk <placeName ref="http://www.geonames.org/3057757/samorin.html">Sommerein</placeName> ersucht, aus der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmeriekommandantur</term>
+						<placeName ref="http://www.geonames.org/3057124/trnava.html">Tyrnau</placeName> sind 9 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmen</term> sobald als möglich freizumachen, von denen 4 auf <placeName ref="http://www.geonames.org/3058117/podunajske-biskupice.html">Bischdorf</placeName>, 2 auf <placeName ref="http://www.geonames.org/3057757/samorin.html">Sommerein</placeName> und 3 auf <placeName ref="http://www.geonames.org/3061224/bac.html">Báčfa</placeName>
+						aufzuteilen sind.</p>
+					<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmerie</term> wird angewiesen, die Grenze intensiv und kontinuierlich zu patrouillieren und auf jeden Fall die Ankunft <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischer</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">Bürger</term> auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čsl.</placeName> Gebiet zu verhindern. Bei der Bewachung der Grenze möge die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmerie</term> auf eine Vereinbarung mit der <orgName ref="#ehri_bf_finanzwache">Grenzfinanzgarde</orgName> in gegenseitiger Unterstützung setzen.</p>
+					<p>[...]</p>
+					<p>Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Landesgendarmeriekommandant</term></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

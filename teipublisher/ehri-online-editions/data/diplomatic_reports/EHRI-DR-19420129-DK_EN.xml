@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DR-19420129-DK_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Vilhelm Voight Broch informs about the deportation of Anna Wimmer from Vienna to Poland in 1942</title>
+				<title xml:lang="de">Vilhelm Voight Broch informiert über die Deportation von Anna Wimmer von Wien nach Polen im Jahr 1942</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Diplomatic Reports</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </orgName><address>
+								<street>Rigsdagsgaarden 9</street>
+								<postCode>DK-1218</postCode>
+								<settlement>Copenhagen</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/dk">Denmark</country>
+							</address></institution>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Rigsarkivet, 37.H1, Gestandtskab Østrig 1967, aflevering 1. <textLang mainLang="en">Original in Danish.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1942-01-29">29.01.1942</origDate>
+				<origPlace ref="https://www.geonames.org/2761369/vienna.html">Vienna</origPlace>
+				<persName ref="#ehri_dr_broch_vilhelm_voight">Broch, Vilhelm Voight</persName>
+			</creation>
+			<langUsage>
+				<language ident="da"/>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<p>In response to your letter of 22 December, in which you request the Consulate General to search for your sister, Miss <persName ref="#ehri_dr_wimmer_anna">Anna Wimmer</persName>, assuming that you are a <placeName ref="http://www.geonames.org/2623032/kingdom-of-denmark.html">Danish</placeName> citizen, we hereby inform you that it is true that Miss Wimmer left for <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> together with a <persName ref="#ehri_dr_Stark_Family">Family Stark</persName> in <date when="1941-10">October of 1941</date>.</p>
+					<p>At the <orgName ref="#ehri_dr_ikg_wien">Israeli Cultural Commemoration Centre</orgName>, <placeName ref="https://www.geonames.org/2761369/vienna.html">Vienna</placeName>, I., Seitenstettengasse 2/4, the Consulate General has learned that you can contact 'An den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">Aeltesten</term> der Juden, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513" type="ghetto">Lizmannstadt, Ghetto</placeName>, Polen’, which then probably through the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-868" type="subject">Jewish organizations</term> in question will be able to provide information about your sister's present address.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1187" type="subject">Consulate General</term> shall add that no further action can be taken in this matter, unless special instructions are received from the Royal Commission.</p>
+					<p>Ministry of Foreign Affairs in Copenhagen.</p>
+					<p>P. G. V. Vice Consul, signed <persName ref="#ehri_dr_broch_vilhelm_voight">V.V. Broch</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

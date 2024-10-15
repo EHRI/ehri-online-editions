@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19400212_DE_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Nisko-Deportierte aus Zamosc an die IKG Wien mit der Bitte um Unterstützung</title>
+				<title xml:lang="en">Nisko deportees from Zamosc to the IKG Vienna with a request for support</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Winfried Garscha</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<idno>A/W 2747</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1940-01-09">12. Februar 1940</origDate>
+				<origPlace ref="http://www.geonames.org/753866/zamosc.html">Zamocs</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>IKG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p>An die löb. <orgName ref="#ehri_nisko_ikg_wien">Israelitische Kultusgemeinde Wien</orgName></p>
+					<p/>
+					<p>Die nachstehend angeführten Personen, welche sich alle gegenwärtig in <placeName ref="http://www.geonames.org/753866/zamosc.html">Zamosc</placeName> befinden, bitten Sie um dringendste <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term>, da wir uns alle in größter Notlage befinden und keinen Ausweg mehr haben.</p>
+					<p>Dieses Ansuchen ist aufgebaut auf dem Wunsch uns mit Hilfe der beiliegenden bestätigten Erklärung des Jüdischen Komitee in <placeName ref="http://www.geonames.org/753866/zamosc.html">Zamosc</placeName> bei der <orgName ref="#ehri_nisko_devisenstelle_wien">Devisenstelle
+							Wien</orgName> den zu erlangenden Hilfsbetrag ehestens hierorts einzusenden.</p>
+					<p>Wir erteilen gleichzeitig hiermit der <orgName ref="#ehri_nisko_ikg_wien">israelitischen Kultusgemeinde Wien</orgName> Vollmacht dieses Ansuchen für uns bei der <orgName ref="#ehri_nisko_devisenstelle_wien">Devisenstelle Wien</orgName> zu überreichen. Wir glauben keine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Fehlbitte</term> getan zu haben.</p>
+					<p>Wir ersuchen den uns bewilligten Betrag sofort an Herrn Salomon Wittlin, Funktionär der jüdischen Kultusgemeinde, <placeName ref="http://www.geonames.org/753866/zamosc.html">Zamosc</placeName>, Kollontaja 2 einzusenden und danken im Voraus für Ihre Bemühungen</p>
+					<p/>
+					<p/>
+					<p><persName ref="#ehri_nisko_kohn_hugo">Hugo Kohn</persName>, <placeName ref="http://www.geonames.org/2772614/gemeindebezirk-leopoldstadt.html">Wien II.</placeName> Novaragasse 45</p>
+					<p><persName ref="#ehri_nisko_jellinek_max">Max Jellinek</persName>
+						<placeName ref="http://www.geonames.org/2772614/gemeindebezirk-leopoldstadt.html">Wien II.</placeName> Blumauergasse 22/5</p>
+					<p><persName ref="#ehri_nisko_spitzer_michael">Michael Spritzer</persName>
+						<placeName ref="http://www.geonames.org/2772614/gemeindebezirk-leopoldstadt.html">Wien II.</placeName> Herminengasse 13/4</p>
+					<p><persName ref="#ehri_nisko_brueck_alfred">Alfred Brück</persName>
+						<placeName ref="http://www.geonames.org/2776488/hernals.html">Wien 17.</placeName> Santergasse 34</p>
+					<p><persName ref="#ehri_nisko_freund_alfred">Alfred Freund</persName>
+						<placeName ref="http://www.geonames.org/8063098/favoriten.html">Wien X.</placeName> Alxingergasse 97</p>
+					<p><persName ref="#ehri_nisko_lazar_hermann_josef">Lazar Hermann</persName>
+						<placeName ref="http://www.geonames.org/2772614/gemeindebezirk-leopoldstadt.html">Wien II.</placeName> Czerningasse 6/20</p>
+					<p><persName ref="#ehri_nisko_kornthal_jankie_jakob">Jakob Kornthal</persName>
+						<placeName ref="http://www.geonames.org/2781400/gemeindebezirk-brigittenau.html">Wien XX.</placeName> Hannovergasse 10/33</p>
+					<p><persName ref="#ehri_nisko_geiduschek_ernst">Geiduschek Ernst</persName>
+						<placeName ref="http://www.geonames.org/2782729/gemeindebezirk-alsergrund.html">Wien IX.</placeName> D’Orsaygasse 11/I/10</p>
+					<p><persName ref="#ehri_nisko_matzner_viktor">Matzner Viktor</persName>
+						<placeName ref="http://www.geonames.org/2771706/meidling.html">Wien XII.</placeName> Schönbrunnerstraße 185/I</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

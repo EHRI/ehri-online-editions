@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DC-029_CS_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Josef Klaber, report on the "ladybirds" ("berušky") in the Terezín Ghetto</title>
+				<title xml:lang="de">Josef Klaber, Bericht über die „Marienkäfer“ („berušky“) im Ghetto Theresienstadt</title>
+				<title xml:lang="cs">Josef Klaber, zpráva o beruškách v terezínském ghettu</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josef Klaber</persName>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín Ghetto</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, </creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Josef Klaber provides a report on the "ladybirds" ("berušky") in the Terezín Ghetto, i.e. German women who searched the Jews from the arriving transports and confiscated illegal items, such as money, tobacco, jewelry, and contraband.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-029_01.png" n="1"/>
+					<p>Protokol</p>
+					<p>sepsaný dne <date when="1945-12-10">10. 12. 1945</date> s panem <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josefem Klábrem</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">kapitánem</term> v. v., <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytem</term> v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> III., <placeName ref="http://www.geonames.org/3067696/prague.html">Újezd 15</placeName></p>
+					<p>3 – 5 <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německých</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> z <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřic</placeName>, patřící ke straně <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">NSDAP</orgName> bylo prvním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandantem</term> Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000368">Seidlem</persName> určeno při přijíždějících <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportech</term> prohlížeti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> a odebírati jim nedovolené věci, t. j. peníze, kuřivo, šperky a tzv.
+						Kontrabant. Mimo toho byly určeny k prohlídkám <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubikací</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kasárnách</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">domech</term>, nejméně 3 x týdně. Byly za to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandaturou</term> dobře honorovány. Mohu tuto skupinu nazvat
+						privilegovanou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">zlodějskou</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">lupičskou</term> bandou, podporovanou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmany</term>, hlavně Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000368">Seidlem</persName>, který je toho času zajištěn ve <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName> a o jehož vydání <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">československým</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">soudům</term> bylo požádáno a žaloba by měla býti rozšířena také v tom smyslu, co se týče t. zv. berušek, které jméno si zasloužily hned po prvních dnech své činnosti. Přišly z <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřic</placeName> a byl jim přidělen i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">četník</term>, později jeden nebo dva od <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkové služby</orgName>, kteréžto orgány nesměly vkročit do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">místnosti</term>, kde se berušky
+						zdržovaly. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">Prohlídky</term> prováděly tyto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> podle své vůle a způsobem, jak jsem již naznačil. Bylo to
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">zlodějství</term> a pirátství. Nejen, že zabavovaly peníze a kuřivo, které nikdy nepotvrdily a nekonsignovaly, našly tu a tam také černé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">dopisy</term> nebo spisy, za které pak Židé pykali na <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">pevnosti</placeName> nebo v jiných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborech</term>. Mimo toho drancovaly kufry a batohy a vybíraly si hlavně dámské <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">punčochy</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">prádlo</term>, ale také hodinky a podobné předměty. Z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">poživatin</term>, které měli internovaní uschovány pro své
+						malé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>, vybíraly si, co se jim zalíbilo, nešetřily, nýbrž hodovaly z cizího a konec konců v mnoha případech ostatní zničily buď politím <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vodou</term>, dokonce snad i močí, zkrátka <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">vandalismus</term>. Když jsme se tu a tam pokoušeli s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">židovským</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">starším</term> intervenovat, resp. oznámit tyto případy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">veliteli</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">tábora</term>, odpověděl tento, že to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">neukradly</term> berušky, nýbrž spolubydlící Židé. Prokázaly se však
+						jednotlivé případy. Jedna z těchto, nebo snad více <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">nekradlo</term> si tolik věcí, že při prohlídce, vykonané <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Němci</placeName> v <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřicích</placeName>, našli u jedné z nich asi 80 hodinek, asi 100 párů ženských hedvábných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">punčoch</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">prádlo</term>, apod. Pokud je mi známo, byla jedna z nich za to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">potrestána</term>. Sledovali jsme také naši
+							<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkovou službu</orgName> v mnoha případech, jak se zacházelo s kufry napěchovanými zabaveným zbožím, které naše orgány musely po provedených <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">prohlídkách</term> odnášet na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">komandaturu</term>. Zjistili jsme, že jedna z těchto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> chodila před odevzdáním věcí do splavového mlýna za <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">pevností</placeName>, kde měla spojení s kupci,
+						kterým část <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">ukradených</term> věcí prodávala. Stížnosti se množily. Když měla přijet mezinárodní komise, uznal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> za vhodné zastavit jejich funkci z obavy, že by toto počínání mohlo býti u mezinárodní komise důvodem k pozastavení. To bylo ovšem již r. <date when="1944">1944</date>.</p>
+					<p>Až do té doby mohu opakovat jen to, co jsem již řekl, že to byla privilegovaná a pod záštitou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandanta</term> vedená <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">zlodějská</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">lupičská</term> banda.</p>
+					<p>Podpis:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-029_01.png" n="1"/>
+					<p>Statement</p>
+					<p>Written on <date when="1945-12-10">10. 12. 1945</date> with Mr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josef Klábr</persName>, retired <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">captain</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residing</term> in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> III., <placeName ref="http://www.geonames.org/3067696/prague.html">Újezd 15</placeName></p>
+					<p>3-5 <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> from <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName>, belonging to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">NSDAP</orgName>, were demanded by the first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">camp commander</term> Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000368">Seidl</persName> to search the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> on the arriving <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> and go through and confiscate any illegal items, i.e. money,
+						tobacco, jewelry, and so-called contraband. They were also told to search the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housing</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">houses</term> at least 3 x week. They were well paid for this by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandatur</term>. I call this group a privileged <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">thief</term>’s and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">robber</term> gang, supported by
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-men</term>, especially Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000368">Seidl</persName>, who is currently in custody in <placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>. A suit was filed to hand him over to the <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czechoslovak</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1127" type="subject">courts</term>, and the suit was supposed to be broadened to include the so-called ladybirds, who earned their name right from the start. They came from <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName> and a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">policeman</term> was assigned to them, and later only one or two from the <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp guards</orgName>, who couldn’t enter the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">rooms</term> where the ladybirds were rummaging. These
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">searched</term> according to their own judgement and in the manner I have already described. It was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">robbery</term> and piracy. Not only did they confiscate money and tobacco, which they never confirmed and never consigned, but they also here and there found some illegal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letters</term> or
+						documents that led to Jews being sent to the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">fortress</placeName> or other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>. Besides that, they looted suitcases and bags, and took away mostly women’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">stockings</term> and
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">underwear</term>, but also watches and other similar items. From the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> that the interned had saved
+						for their small <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> they selected whatever they liked, they didn’t save, but feasted on what other people had and in many cases destroyed the rest by pouring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">water</term> or even urine on top of it, in short, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">vandalism</term>. When we sometimes tried to intervene with our
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">elder</term> or notify the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">commander</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">camp</term>, he answered that it wasn’t the ladybirds who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">stole</term>, but the Jewish fellow inhabitants. Only a few cases were confirmed. One or maybe more <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">stole</term> so many things that, during a search by <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germans</placeName> in <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName>, they found about 80 watches, about 100 pairs of women’s silk <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">stockings</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">underwear</term>, etc. in the possession of one of them. As far as I know, one of them was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">punished</term>. We
+						also observed how our <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp guard</orgName> in many cases stuffed luggage full of confiscated goods, which our authorities had to take to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">komandatur</term> after <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">searching</term> it. We found out that one of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, before handing the goods over, took the things to the mill behind the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">fortress</placeName>, where
+						she had dealings with a buyer who she sold part of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">stolen</term> things to. Complaints mounted. When the international committee was supposed to arrive, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> thought it would be a good idea to put an end to it out of fear that this conduct could be a reason for the international committee to terminate the camp. That was in <date when="1944">1944</date>.</p>
+					<p>I can only repeat what I have said. It was a privileged <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">thieve</term>’s and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">robber</term> gang under the
+						protection of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term>.</p>
+					<p>Signature:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

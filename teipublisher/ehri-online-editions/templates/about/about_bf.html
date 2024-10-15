@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About Bordered Escape</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <div>
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">Begrentze Flucht</h1>
+                        <ul>
+                            <li>
+                                <a href="#id1">Über die Edition</a>
+                            </li>
+                            <li>
+                                <a href="#id2">Forschungsstand</a>
+                            </li>
+                            <li>
+                                <a href="#id3">Methodologie</a>
+                            </li>
+                            <li>
+                                <a href="#id4">Standards und technische Umsetzung</a>
+                            </li>
+                            <li>
+                                <a href="#id5">Neu in der Edition</a>
+                            </li>
+                            <li>
+                                <a href="#id6">Impressum</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+                <h1 id="id1">Über die Edition</h1>
+
+<div id="primary">
+<div class="exhibit-description">
+    <p>
+                                        <span>Die Flucht und Vertreibung über die österreichisch-tschechoslowakische Grenze und die zunehmend restriktive Flüchtlingspolitik der Tschechoslowakei, die 1938 zur Grenzsperre für österreichischen Jüdinnen und Juden führte, stellt ein wichtiges, aber zugleich bislang vernachlässigtes Kapitel der österreichisch-tschechoslowakischen Geschichte sowie der Geschichte der Shoah dar.</span>
+                                    </p>
+<p>
+                                        <span>Trotz des Stellenwerts der Tschechoslowakei als eines der bedeutendsten Exilländer für die vertriebenen jüdischen ÖsterreicherInnen wurden die Flucht und die Rolle, welche die Grenzregion dabei eingenommen hatte, in beiden Ländern nur ungenügend wissenschaftlich aufgearbeitet und sind in der Öffentlichkeit kaum bekannt.</span>
+                                    </p>
+<p>
+                                        <span>Basierend auf umfangreichen Recherchen und Forschungen führt die Edition zum ersten Mal österreichische und tschechische Archivmaterialien zusammen, ergänzt sie mit Dokumenten aus anderen Ländern und ermöglicht dadurch, neue Perspektiven und eine detaillierte Erforschung der Flüchtlingspolitik sowie des Flüchtlingsstroms im Krisenjahr 1938.</span>
+                                    </p>
+                                </div>
+                            </div>
+<h1 id="id2">Forschungsstand</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <p>Obwohl das Thema der Flüchtlinge und der Flüchtlingspolitik seit den 1960er-Jahren für die historiographische Auseinandersetzung mit der Reaktionen der westlichen Demokratien auf den Holocaust eine wichtige Rolle spielt, wurde der Ausweisung, Flucht und Flüchtlingspolitik zwischen Österreich und der Tschechoslowakei im Jahre 1938 bislang nur mangelnde Aufmerksamkeit gewidmet. Eine genauere Auseinandersetzung mit jenen vorwiegend jüdischen österreichischen Flüchtlingen, die zwischen dem „Anschluss“ 1938 und der sogenannten „Zerschlagung der „Rest-Tschechei“ im März 1939 aus Österreich in die ČSR geflohen waren, steht - mit Ausnahme des Buches <em>Unsichere Zuflucht</em> von Kateřina Čapková und Michal Frankl - also noch gänzlich aus. Daneben beschränkte sich die Forschung bislang überhaupt nur auf einige kürzere Artikel, vorwiegend in tschechischen oder slowakischen Publikationen. <a class="footnote-ref" id="sdfootnote1-ref" href="#sdfootnote1">1</a>Während Čapková und Frankl – v.a. basierend auf den Quellen in Archiven in der Tschechischen Republik – die tschechoslowakische Flüchtlingspolitik 1938 untersuchten <a class="footnote-ref" id="sdfootnote3-ref" href="#sdfootnote3">2</a>, blieben gerade zur Geschichte der Flüchtlinge aus Österreich noch viele Fragen offen.</p>
+<p>In beiden Ländern wurde das Flüchtlingsthema vor allem im Bezug auf die Nationalgeschichte erforscht und rezipiert. Flüchtlinge wurden dabei als politische KämpferInnen betrachtet, die für die Zukunft ihres Landes wirkten und die Heimat mit sich trugen. Im Falle der Tschechoslowakei gehörten sie zu dem teils idealisierten Bild eines demokratischen und toleranten Landes inmitten nationalistischer autoritärer Regime. Die Geschichte der mehrheitlich jüdischen Flüchtlinge des Jahres 1938 entsprach diesen Paradigmen kaum.</p>
+<p>Publikationen zu Flüchtlingen in der Tschechoslowakei waren stark auf die Flucht aus Deutschland nach der Machtübernahme der Nationalsozialisten ab 1933 ausgerichtet oder weitgehend auf die Aktivitäten von politisch aktiven Flüchtlingen und bekannten KünstlerInnen und Intellektuellen beschränkt, während die Schicksale und der Alltag von Flüchtlingen, die abseits der politisch-kulturellen Elite standen, gänzlich zu fehlen scheint. <a class="footnote-ref" id="sdfootnote2-ref" href="#sdfootnote2">3</a> Ebenso wurde die Flucht bislang kaum in einen breiteren, europäischen Kontext der Flüchtlingspolitik der Zwischenkriegsjahre gesetzt.</p>
+<p>In der Tschechischen Republik wurde das Thema der österreichischen Flüchtlinge in die ČSR bislang durch die HistorikerInnengemeinde oder in der Öffentlichkeit kaum rezipiert. Dieses Versäumnis hängt nicht zuletzt mit der Tatsache zusammen, dass die Erste Tschechoslowakische Republik (1918-1938) als Vorbild für die tschechoslowakische bzw. tschechische Demokratie nach 1989 verstanden wird. Die Ausweisung der jüdischen Flüchtlinge widerspräche diesem Bild deutlich.</p>
+<p>In Österreich wurde zwar die Verfolgung der Jüdinnen und Juden einschließlich der verschiedenen Gruppen der Exil-Österreicher detailliert erforscht, die Flüchtlinge in die ČSR wurden jedoch fast vollständig außer Acht gelassen. Diese Forschungslücke hängt u.a. auch mit der allgemein nicht zufriedenstellenden Aufarbeitung der Flüchtlingspolitik der Staaten im Osten des ehemaligen NS-Deutschland zusammen. Bisherige Publikationen über österreichische Flüchtlinge in der Tschechoslowakei beschränkten sich vornehmlich auf das politische Exil nach den Februarkämpfen 1934. Dabei standen in den ersten Jahrzehnten nach dem Zweiten Weltkrieg persönliche Erinnerungen und Lebensberichte politisch verfolgter Personen im Zentrum der Publikationen. <a class="footnote-ref" id="sdfootnote4-ref" href="#sdfootnote4">4</a>
+                                    </p>
+<p>Auch die bereits 1980 begonnene Dokumentationsreihe<em> Österreicher im Exil</em> des <em> Dokumentationsarchivs des Österreichischen Widerstandes</em> (DÖW) erfasste in der Auswahl der Beispiele immer wieder Dokumente zu Flüchtlingen in der Tschechoslowakei. Ein eigener Band liegt jedoch bislang weder zur Tschechoslowakei noch zu einem anderen Nachbarstaat Österreichs vor. <a class="footnote-ref" id="sdfootnote5-ref" href="#sdfootnote5">5</a> In den letzten Jahrzehnten erschien darüber hinaus eine Reihe wissenschaftlicher Arbeiten zum Exil und der illegalen Tätigkeit sozialdemokratischer Funktionäre bzw. der Funktionäre der<em> Revolutionären Sozialisten</em> und des<em> Schutzbundes</em> um das <em> Auslandsbüro der österreichischen Sozialdemokraten</em> (<em>ALÖS</em> ) in Brünn. <a class="footnote-ref" id="sdfootnote6-ref" href="#sdfootnote6">6</a> Die Flucht im Krisenjahr 1938 blieb jedoch bislang gänzlich unbearbeitet.</p>
+<p>Einen wichtigen Beitrag zur Erforschung der ungarischen Politik gegenüber jüdischen Flüchtlingen leistete Kinga Frojimovics, die hierbei auch auf einige Aspekte zu den in die Tschechoslowakei ausgewiesenen burgenländischen Jüdinnen und Juden einging. <a class="footnote-ref" id="sdfootnote7-ref" href="#sdfootnote7">7</a> Das Großprojekt des Instituts für Zeitgeschichte München „Die Verfolgung und Ermordung der Juden durch das nationalsozialistische Deutschland 1933-1945“ legte zwar unlängst mit dem Band 3 „Deutsches Reich und Protektorat 1939-1941“ einen wichtigen Beitrag zur Verfolgung der deutschen Jüdinnen und Juden vor. <a class="footnote-ref" id="sdfootnote8-ref" href="#sdfootnote8">8</a>Dabei wurde die Vertreibung der österreichischen Jüdinnen und Juden zwischen März 1938 und März 1939 in das anfangs für die jüdischen ÖsterreicherInnen wohl wichtigste Exilland jedoch bislang nicht bearbeitet.</p>
+<p class="footnote">
+                                        <a id="sdfootnote1" href="#sdfootnote1-ref">1</a> – Siehe etwa: Johnny<em> Moser</em>, Československo ako ciel’ úteku Rakúskych Židov (Die Tschechoslowakei als Fluchtziel österreichsicher Juden), in: Institut Judaistiky University Komenského v Bratislave (Hg.), Židovská komunita na Slovensku. Obdobie autonómie. Porovnanie s vtedajšími udalost’ami v Rakousku, Bratislava 1999, S. 86-88; Wilma A. <em> Iggers</em>, Die Emigration der deutschen und österreichiischen Juden in der Tschechoslowakei, in: Jörg K.<em> Hoensch</em>, Stanislav <em> Biman</em>, L’ubomír<em> Lipták (Hg.)</em>, Judenemanzipation – Antisemitismus – Verfolgung in Deutschland, Österreich-Ungarn, den Böhmischen Ländern und der Slowakei, Essen 1999 (= Veröffentlichungen der Deutsch-Tschechischen und Deutsch-Slowakischen Historikerkommission Bd. 6; zugleich: Veröffentlichungen des Instituts für Kultur und Geschichte der Deutschen im östlichen Europa Bd. 13).</p>
+<p class="footnote">
+                                        <a id="sdfootnote3" href="#sdfootnote3-ref">2</a> – Kateřina<em> Čapková</em>, Michal<em> Frankl</em>, Nejisté útočiště. Československo a uprchlíci před nacismem, 1933–1938, Praha 2008. [Kateřina Čapková, Michal Frankl, Unsichere Zuflucht. Die Tschechoslowakei und ihre Flüchtlinge aus NS-Deutschland und Österreich 1933-1938 (= Reihe Jüdische Moderne; Bd. 13), Köln-Weimar-Wien 2012.]</p>
+<p class="footnote">
+                                        <a id="sdfootnote2" href="#sdfootnote2-ref">3</a> – Siehe etwa: Gertruda<em> Albrechtová</em>, Zur Frage der deutschen antifaschistischen Emigrationsliteratur im tschechoslowakischen Asyl, <em> Historica</em>, 1964, Nr. 8, S. 177-233; Miroslav<em> Beck</em>, Jiří<em> Veselý</em>, <em> Exil und Asyl. Antifaschistische deutsche Literatur in der Tschechoslowakei, 1933-1938. </em> Berlin 1981; Heinz<em> Spielmann</em>, Kokoschka in Prag, in: Peter <em> Becher</em>, Peter<em> Heumos</em> (Hg.), Drehscheibe Prag. Zur deutschen Emigration in der Tschechoslowakei 1933-1939. München 1992, S. 87-96; Jan M <em>Tomeš</em>, John Heartfield und der Künstlerverein Mánes, in: ebenda.</p>
+<p class="footnote">
+                                        <a id="sdfootnote4" href="#sdfootnote4-ref">4</a> – Siehe etwa: Joseph<em> Buttinger</em>, Am Beispiel Österreichs. Ein geschichtlicher Beitrag zur Krise der sozialistischen Bewegung, Köln 1953; Otto<em> Bauer</em>, Die illegale Partei, Paris 1939. Julius <em> Deutsch</em>, Ein weiter Weg. Lebenserinnerungen, Zürich-Leipzig-Wien 1960; Otto<em> Leichter</em>, Zwischen zwei Diktaturen. Österreichs Revolutionäre Sozialisten 1934 – 1938, Wien-Frankfurt-Zürich 1968; Beppo Beyerl, Die Gleichzeitigkeit des Ungleichzeitigen. Mein Brünn, in: Literatur und Kritik, November 2007.</p>
+<p class="footnote">
+                                        <a id="sdfootnote5" href="#sdfootnote5-ref">5</a> – Bislang erschienen in der Reihe<em> Österreicher im Exil</em> Bände zur Sowjetunion, den USA, Mexiko, Belgien, Frankreich und Großbritannien.</p>
+<p class="footnote">
+                                        <a id="sdfootnote6" href="#sdfootnote6-ref">6</a> – Siehe etwa: Karl R.<em> Stadler</em>, Opfer verlorener Zeiten. Geschichte der Schutzbund Emigration 1934, Wien 1974; Christoph <em> Höslinger</em>, Die ‚Brünner Emigration‘ als diplomatischer Konfliktstoff zwischen Wien und Prag, in: Thomas<em> Winkelbauer</em> (Hg.), Kontakte und Konflikte. Horn – Waidhofen an d. Thaya 1993, S. 413-428; Vojtěch<em> Blodig</em>, „Die tschechoslowakischen politischen Parteien und die Unterstützung der deutschen und österreichischen Emigration in den 30er Jahren“, in: Peter<em> Glotz</em> (Hg.), München <em> 1938</em>. Das Ende des alten Europa. Essen 1990, S. 251-270; Kateřina<em> Čapková</em>, Michal<em> Frankl</em>, Nejisté útočiště. Československo a uprchlíci před nacismem, 1933–1938, Praha 2008; Barry <em> McLoughlin</em>, Hans<em> Schafranek</em>, Walter<em> Szevera</em> ,<em> Aufbruch – Hoffnung – Endstation</em>, Wien 1997; Manfred <em> Marschalek</em>, Untergrund und Exil. Österreichs Sozialisten zwischen 1934 und 1945, Wien 1989; <em> Dokumentationsarchiv des Österreichsichen Widerstandes</em> (Hg.) unter Bearbeitung von Barry<em> McLoughlin</em>, Hans <em> Schafranek,</em> Österreicher im Exil. Sowjetunion 1934 – 1945, Wien 1999. Ernst<em> Hanisch,</em> Der große Illusionist, Otto Bauer (1881 - 1938), Wien 2011. Darüber hinaus ist das <em> Gedenkbuch Österreichischer Stalin-Opfer</em> von Barry McLoughlin und Josef Vogl in Vorbereitung, das sich auch mit den Schutzbund-Mitgliedern beschäftigen, die über die Tschechoslowakei in die Sowjetunion geflohen waren.</p>
+<p class="footnote">
+                                        <a id="sdfootnote7" href="#sdfootnote7-ref">7</a> – Kinga<em> Frojimovics</em>, I Have been a Stranger in a Strange Land: The Hungarian State and Jewish Refugees in Hungary, 1933-1945, Jerusalem 2007.</p>
+<p class="footnote">
+                                        <a id="sdfootnote8" href="#sdfootnote8-ref">8</a> – Siehe: <em> Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933–1945: Deutsches Reich und Protektorat September 1939 - September 1941. </em> Band 3. Bearb. von Andrea Löw. 2012.</p>
+<p>
+                                        <em>Der beschriebene Forschungsstand bezieht sich auf den Zeitpunkt der Veröffentlichung der Online-Edition im Frühjahr 2018.</em>
+                                    </p>
+                                </div>    </div>
+<h1 id="id3">Methodologie</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <p>Die Edition “BeGrenzte Flucht - Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938” definiert sich thematisch und basiert auf einer Zusammenführung von verschiedenen Dokumententypen aus Archiven in mehreren Ländern. Die Auswahl der Dokumente orientiert sich an den durch die Herausgeber formulierten Forschungsfragen und den identifizierten historiographischen Lücken.</p>
+<p>Amtliche Berichte, Korrespondenzen und diplomatische Noten sind ebenso enthalten wie Berichte und Dokumente jüdischer Hilfsorganisationen. Ausgewählte Zeitungsartikel illustrieren die Reaktionen der Öffentlichkeit sowie die Übertreibung der angeblichen Gefahr und antisemitische Interpretationen der Flucht.</p>
+<p>Von großer Bedeutung sind Dokumente, die über die persönlichen Fluchterfahrungen und die Fluchtrouten Zeugnis ablegen. Die Herausgeber wählten dazu vor allem (selten) überlieferte Protokolle, die tschechoslowakische Behörden mit den österreichischen Flüchtlingen aufnahmen. Obzwar kurz und in bürokratischer Sprache gehalten, bieten sie doch wichtige Angaben über das Handeln und die Schicksale der Flüchtlinge und ihre Interaktion mit Behörden und anderen Akteuren. Um die Perspektiven der Fliehenden besser erfassen zu können, entschieden sich die Herausgeber auch Zeitzeugenberichte aus der Zeit nach dem Ende des Zweiten Weltkriegs in die Edition aufzunehmen, vor allem Oral History Interviews und in seltenen Fällen auch Auszüge aus veröffentlichten Erinnerungen.</p>
+<p>Die Texte wurden transkribiert, mithilfe der Ressourcen der European Holocaust Research Infrastructure (EHRI) und des Portals Geonames.org annotiert, und im Standardformat TEI kodiert (für Details über die technische Umsetzung siehe den Abschnitt <a href="tech">Standards und technische Umsetzung</a>). Das Layout der Originale sowie verschiedene Markierungen und handschriftliche Notizen wurden in den Transkriptionen nur begrenzt wiedergegeben und sind auf wichtige Merkmale für das Verständnis und die Interpretation beschränkt. Nach Möglichkeit enthält die Edition auch Reproduktionen der Originaldokumente, aus denen die Form ersichtlich ist. Zwecks Übersichtlichkeit und guter Lesbarkeit wurden formelle Elemente der Dokumente soweit möglich ausgelassen und in den Metadaten der Dokumente zusammengefasst.</p>
+<p>Während tschechische und slowakische Dokumente ins Deutsche übersetzt wurden, beließen die Herausgeber die englischsprachige Dokumente im Original. In den Übersetzungen wurden Abkürzungen zum besseren Verständnis in den meisten Fällen ausgeschrieben. Beide Sprachversionen sind in der Benutzeroberfläche nebeneinander abrufbar.</p>
+<p>Die Ortsnamen, für die mehrere Sprachvarianten existieren, wurden in den Transkripten auf Deutsch angegeben und in der Kontextinformation zusätzlich mit ihren jeweiligen tschechischen, slowakischen oder ungarischen Namensversionen ergänzt. Nur für große Städte mit allgemein bekannten deutschen Ortsnamen (wie Prag oder Brünn) wurde nur die deutsche Version angegeben.</p>
+<p>Eindeutige Tippfehler, die keine Auswirkung auf das Verständnis oder die Interpretation des Dokuments haben, wurden stillschweigend behoben.</p>
+                                </div>    </div>
+<h1 id="id4">Standards und technische Umsetzung</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <p>Der wissenschaftliche Apparat wurde soweit wie möglich unter Verwendung der digitalen Ressourcen der <a href="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</a> (EHRI) erstellt.</p>
+<p>EHRI, ein internationales Forschungskonsortium, das aus Mitteln des FP7- bzw. Horizon 2020 Programms der Europäischen Union finanziert wird, zielt auf eine Verbesserung des Zugangs zu verstreuten Holocaustrelevanten Archivsammlungen, bietet Normdatensätze an, entwickelt neue Methoden digitaler Historiographie und unterstützt die Holocaust-Forschungsgemeinschaft.</p>
+<p>Die hohe Qualität der EHRI-Beschreibungen von Archiven, Sammlungen, Schlagworten, Lager und Ghettos sowie Organisationen und Einzelpersonen machte es nicht nur möglich, verlässliche Informationen in die Edition aufzunehmen, sondern erlaubte es darüber hinaus, zu den Ressourcen der Forschungsinfrastruktur zu verlinken.</p>
+<p>Für Ortsnamen verwendete das Projekt das frei zugängliche Portal Geonames.org. Dies machte nicht nur die Verlinkung zu autoritativen Einträgen möglich, sondern erlaubte auch, die in die Edition integrierten Dokumente durch Geo-Referenzierung kartografisch zu verorten.</p>
+<p>Die Daten wurden in XML/TEI (Text Encoding Initiative) im P5 Format, einem de facto Standard für textbasierte Editionen, kodiert. Eine Untergruppe von Metadatenelementen wurde speziell aufbauend auf dem TEI Namesdates Module definiert.</p>
+<p>Der editorielle Prozess folgte dem Linked Data Paradigma: Zuerst markierten die Editoren Begriffe in den Dokumenten durch die Verwendung von Verlinkungen zu autoritativen Wortverzeichnissen und Datensätzen (z.B. durch Verlinkung zu den URLs im EHRI-Portal). Eine Konvertierung unter Verwendung von <a href="https://github.com/oeuvres/Odette">Odette</a> und eines XSL-Stylesheets mit EHRI-Regeln erstellte TEIs aus den LibreOffice Dokumenten. Das Stylesheet erkennt unterschiedliche Typen von markierten Begriffen anhand ihrer URL (z.B. dass ein link zu Geonames.org einen Ort bezeichnet und daher in TEI als &lt;placeName&gt; ausgegeben wird).</p>
+<p>Nach einem Clean-Up der TEI Kodierung und der manuellen Kodierung von Metadaten im TEI-Header, extrahierte ein Dienstprogramm, das eigens für EHRI Editionen entwickelt wurde, die über die Geoname RDF records und die <a href="https://portal.ehri-project.eu/api">EHRI API</a> verfügbaren Informationen und fügte angereicherte normalisierte Einträge für Orte, Schlagworte, Organisationen und Personen im TEI-Header. Für Orte holte das Dienstprogramm auch Koordinaten heraus, was es möglich macht, diese auf einer Karte anzuzeigen.</p>
+<p>Das Frontend der Edition basiert auf der Omeka open-source Web-Plattform, die weitgehend von Museen, Archiven und kulturellen Einrichtungen verwendet wird, um digitale Sammlungen zu publizieren. Dabei wurde ein TEI Editionen-Plugin für Omeka verwendet, das durch das EHRI-Projekt entwickelt wurde und es erlaubt, Einträge aus den hochgeladenen TEI-Files in Omeka zu erstellen und mit Metadaten zu befüllen.</p>
+<p>Die in TEI markierten Entitäten steuern das Facetted Browsing und erlauben es, nach Entitäten wie Orte, Begriffen etc. zu filtern. Die Edition verwendet ein für EHRI entwickeltes Omeka Theme, welches das Interface an die Anzeige von TEI basierten Texten anpasst und Annotationen und andere kontextuellen Informationen anzeigt.</p>
+<p>Die Edition legt einen Schwerpunkt auf die kartenbasierte Visualisierung der Bewegungsbahnen von Flucht und die Interaktionen im Grenzgebiet wie auch im Landesinneren. Dafür wurde das Omeka Plugin Neatline verwendet, das es, neben anderen Funktionalitäten, erlaubt, den Text neben einer Karte zu lesen und somit dem Narrativ im Raum zu folgen.</p>
+                                </div>    </div>
+<h1 id="id5">Neu in der Edition</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <p>Als digitales Projekt versteht sich die Edition nicht als endgültig abgeschlosen und soll auch in Zukunft durch zusätzliche Dokumente ergänzt werden.</p>
+                                </div>
+                            </div>
+        
+        <h1 id="id6">Impressum</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                    <p>
+                                        <b>BeGrenzte Flucht</b>
+                                    </p>
+<p>Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</p>
+<p>
+                                        <i>Digitale Edition</i>
+                                    </p>
+<p/>
+<p>
+                                        <span>Herausgeber: Michal Frankl, Wolfgang Schellenbacher</span>
+                                    </p>
+<p>
+                                        <span>Übersetzung aus dem Tschechischen und Slowakischen: Annette Kraus</span>
+                                    </p>
+<p>
+                                        <span>Webdesign: Lukáš Opekar (Sinfin)</span>
+                                    </p>
+<p>
+                                        <span>Programmierung: Michael Bryant (Kings College London), Štěpán Opekar (Sinfin)</span>
+                                    </p>
+<p/>
+<p>
+                                        <span>2018</span>
+                                    </p>
+<p/>
+<p>
+                                        <span>Gefördert durch:<a href="http://www.zukunftsfonds-austria.at/">Zukunftsfonds der Republik Österreich</a>über das <a href="http://www.jewishmuseum.cz">Jüdische Museum in Prag</a>
+                                        </span>
+                                    </p>
+<p>
+                                        <span>Mit Unterstützung der <a href="https://ehri-project.eu/">European Holocaust Research Infrastructure</a>
+                                        </span>
+                                    </p>
+<p/>
+<p>
+                                        <span>
+                                            <span>Die Herausgeber danken den folgenden KollegInnen für Hinweise zu Dokumenten</span>: RobertKnight,Ines Koeltzsch,Ursula Mindler</span>
+                                    </p>
+                                </div>    </div>
+            </div>
+                            </section>
+                        </div>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                        </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

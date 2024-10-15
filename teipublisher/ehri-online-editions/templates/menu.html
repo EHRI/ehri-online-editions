@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-toolbar class="menubar">
+    <a href="${app}/index.html" class="logo" data-template="pages:parse-params">
+    <img src="resources/images/ehri_illustration.jpg" width="50" style="padding-right:1em;"/>
+    </a>
+    <a href="${app}/index.html" class="logo" data-template="pages:parse-params"/>
+    <pb-media-query query="min-width: 1024px">
+        <a href="${app}/index.html" data-template="pages:parse-params">Home</a>
+        <paper-menu-button>
+                    <a href="#" slot="dropdown-trigger">
+                <pb-i18n key="collection.title">Collections</pb-i18n>
+            </a>
+                    <paper-listbox slot="dropdown-content">
+                                        <a href="${app}/index_facets.html?collection=bordered_escape" data-template="pages:parse-params">
+                                        <paper-item>
+                    <img src="resources/images/bordered_escape.jpg" width="50" style="padding: 0.5em;"/>   
+                        <pb-i18n key="collection.bordered_escape.title">Bordered Escape</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/index_facets.html?collection=early_testimonies" data-template="pages:parse-params">
+                                        <paper-item>
+                    <img src="resources/images/early_testimonies.jpg" width="50" style="padding: 0.5em;"/>   
+                        <pb-i18n key="collection.early_testimonies.title">Early Holocaust Testimonies</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/index_facets.html?collection=diplomatic_reports" data-template="pages:parse-params">
+                                        <paper-item>
+                    <img src="resources/images/diplomatic_reports.jpg" width="50" style="padding: 0.5em;"/>
+                        <pb-i18n key="collection.diplomatic_reports.title">Diplomatic Reports</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/index_facets.html?collection=nisko_deportations" data-template="pages:parse-params">
+                                        <paper-item>
+                    <img src="resources/images/nisko_deportations.png" width="50" style="padding: 0.5em;"/>
+                        <pb-i18n key="collection.nisko_deportations.title">Nisko Deportations</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/index.html?collection=documentation_campaign" data-template="pages:parse-params">
+                                        <paper-item>
+                    <img src="resources/images/documentation_campaign.jpg" width="50" style="padding: 0.5em;"/>
+                        <pb-i18n key="collection.documentation_campaign.title">Documentation Campaign</pb-i18n>
+                                        </paper-item>
+                                        </a> 
+                                        
+                                        <a href="${app}/index.html?collection=indexes" data-template="pages:parse-params">
+                                        <paper-item>
+                    <img src="resources/images/indexes.png" width="50" style="padding: 0.5em;"/>
+                                <pb-i18n key="collection.indexes.title">Indexes of the EHRI Online Editions</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                    </paper-listbox>
+                </paper-menu-button>
+        <pb-restricted login="login">
+            <paper-menu-button>
+                <a slot="dropdown-trigger">
+                    <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                </a>
+                <paper-listbox slot="dropdown-content">
+                    <paper-item data-template="pages:edit-odd-list"/>
+                    <paper-item>
+                        <pb-download url="api/apps/download">
+                            <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <a href="${app}/api.html" data-template="pages:parse-params" target="_blank">API Documentation</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://cdn.tei-publisher.com/" target="_blank">Webcomponents API</a>
+                    </paper-item>
+                </paper-listbox>
+            </paper-menu-button>
+        </pb-restricted>
+   </pb-media-query>
+   
+   <paper-menu-button>
+                    <a href="#" slot="dropdown-trigger">
+                <pb-i18n key="collection.about.title">About</pb-i18n>
+            </a>
+                    <paper-listbox slot="dropdown-content">
+                    <!--
+                                        <a href="${app}/about.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.annotations.title">General</pb-i18n>
+                                        </paper-item>
+                                        </a> -->
+                    
+                                        <a href="${app}/about/about_bf.html" data-template="pages:parse-params">
+                                        <paper-item> 
+                        <pb-i18n key="collection.bordered_escape.title">Bordered Escape</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/about/about_et.html" data-template="pages:parse-params">
+                                        <paper-item> 
+                        <pb-i18n key="collection.early_testimonies.title">Early Holocaust Testimonies</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/about/about_dr.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.diplomatic_reports.title">Diplomatic Reports</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/about/about_nisko.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.nisko_deportations.title">Nisko Deportations</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/about/about_dc.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.docu_campaign.title">Documentation Campaign</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                    </paper-listbox>
+                </paper-menu-button>
+                
+    <paper-menu-button>
+                    <a href="#" slot="dropdown-trigger">
+                <pb-i18n key="collection.history.title">History</pb-i18n>
+            </a>
+                    <paper-listbox slot="dropdown-content">
+                    
+                                        <a href="${app}/history/history_bf.html" data-template="pages:parse-params">
+                                        <paper-item> 
+                        <pb-i18n key="collection.bordered_escape.title">Bordered Escape</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/history/history_et.html" data-template="pages:parse-params">
+                                        <paper-item> 
+                        <pb-i18n key="collection.early_testimonies.title">Early Holocaust Testimonies</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/history/history_dr.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.diplomatic_reports.title">Diplomatic Reports</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/history/history_nisko.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.nisko_deportations.title">Nisko Deportations</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                        
+                                        <a href="${app}/history/history_dc.html" data-template="pages:parse-params">
+                                        <paper-item>
+                        <pb-i18n key="collection.docu_campaign.title">Documentation Campaign</pb-i18n>
+                                        </paper-item>
+                                        </a>
+                                    </paper-listbox>
+                </paper-menu-button>
+
+    <!-- Search input -->
+    <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+    <pb-media-query query="min-width: 1024px">
+       <pb-lang name="lang" data-template="pages:languages"/>
+       <pb-login id="login" group="tei"/>
+    </pb-media-query>
+    
+    <pb-media-query query="(max-width: 1023px)">
+        <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+    </pb-media-query>
+    <div id="menubar-after" style="display: none;"/>
+    <paper-dialog id="downloadDialog">
+        <h2>
+            <pb-i18n key="dialogs.generatingFile">Generating file ...</pb-i18n>
+        </h2>
+        <paper-dialog-scrollable>
+            <pb-i18n key="dialogs.downloadMessage"/>
+        </paper-dialog-scrollable>
+        <div class="buttons">
+            <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                <pb-i18n key="dialogs.close">Close</pb-i18n>
+            </paper-button>
+        </div>
+    </paper-dialog>
+</app-toolbar>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19391015_DE_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de"><hi rend="bold">Telegramm Eichmanns aus Krakau an die Zentralstelle in Mährisch Ostrau betreffend Nisko als Deportationsziel</hi>
+				</title>
+				<title xml:lang="en"><hi rend="bold">Telegram from Eichmann from Krakow to the central office in Moravian Ostrava regarding Nisko as a deportation target</hi></title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Winfried Garscha</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName> Landesgericht (LG) Wien</orgName><address>
+								<street/>
+								<postCode/>
+								<settlement/>
+								<country/>
+							</address></institution>
+						<idno>22d Vr 1812-80</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Landesgericht (LG) Wien, 22d Vr 1812-80, Beiakt 3. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1939-10-15">15. Oktober 1939</origDate>
+				<origPlace ref="http://www.geonames.org/3094802/krakow.html">Krakau</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>LG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p>+ <placeName ref="http://www.geonames.org/3094802/krakow.html">Krakau</placeName> Nr. 330 15/10 1203 = BRU =</p>
+					<p>= An <persName ref="#ehri_nisko_guenther_rolf">SS-Hauptsturmführer Guenther</persName>, Greko <placeName ref="http://www.geonames.org/3068799/ostrava.html">Maehrisch Ostrau</placeName>.=</p>
+					<p>= Eisenbahnstation fuer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> ist <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko am San</placeName>. – Ankomme in <placeName ref="http://www.geonames.org/3068799/ostrava.html">Maehr.-Ostrau</placeName> heute Sonntag.=</p>
+					<p>Gez. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann, SS-Hstuf</persName> +</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

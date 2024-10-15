@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19420219_DE_CS">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Arisierungsakte zu dem über die Donau vertriebenen Aladar Reisner, 1942</title>
+				<title xml:lang="cs">Arizační dokument o Aladaru Reisnerovi, vyhnaném přes Dunaj</title>
+				<title xml:lang="en">Act of Aryanization for Aladar Reisner, who was expelled across the Danube, 1942</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001860">Burgenländisches Landesarchiv (Landeshauptmannschaft Niederösterreich)</orgName><address>
+								<street>Landhaus alt, Europaplatz 1</street>
+								<postCode>7000</postCode>
+								<settlement>Eisenstadt</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/at-001860-1000704#desc-deu">Arisierungsakten</collection>
+						<idno>Sign. 1466</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Burgenländisches Landesarchiv, Arisierungsakten des nördl. Burgenlandes, Sign. 1466. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1942-02-19">19. Februar 1942</origDate>
+				<origPlace>Kittsee</origPlace>
+				<orgName>Landeshauptmannschaft Niederösterreich</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="Burgenland"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p>Arisierungsakt zu Reisner Aladar, der auf die Donau nach Theben (Devín) getrieben wurde. Bestätigung des Bürgermeisters von Kittsee über die Eintragung von Aladar Reisner in die Heimatrolle und seinen "Umzug" nach dem "Anschluss".</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-BF-19420219_01.jpg" n="1"/>
+					<p>Der Bürgermeister <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>.</p>
+					<p>Bestätigung.</p>
+					<p>Ich bestätige, dass der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jude</term>
+						<persName ref="#ehri_bf_reisner_aladar">Reisner Aladar</persName> in <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName> 265 vor dem Umbruch in hiesiger Heimatrolle eingetragen war, und nach dem Umbruch ins Ausland, unbekannt wohin, verzogen
+						ist.</p>
+					<p><placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>, <date when="1942-02-19">19. Feber 1942</date>.</p>
+					<p>Der Bürgermeister</p>
+					<!--<p>[Unterschrift]</p>-->
+				</div>
+				<div type="translation" xml:lang="cs">
+					<pb facs="EHRI-UH-19420219_01.jpg" n="1"/>
+					<p>Starosta <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>.</p>
+					<p>Potvrzení.</p>
+					<p>Potvrzuji, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Žid</term>
+						<persName ref="#ehri_bf_reisner_aladar">Reisner Aladar</persName> byl před převratem v <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName> 265 zapsán ve zdejší evidenci občanů a po převratu se odstěhoval do zahraničí, neznámo kam. </p>
+					<p><placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>, <date when="1942-02-19">19. února 1942</date>.</p>
+					<p>Starosta</p>
+					<!--<p>[Unterschrift]</p>-->
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

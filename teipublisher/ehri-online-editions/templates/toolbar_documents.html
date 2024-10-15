@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-toolbar class="toolbar" sticky="sticky">
+                        
+                            <pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
+                                <paper-button raised="raised">
+            <hi style="font-weight:bold;">
+                <pb-i18n key="letters.previous">PREVIOUS PAGE</pb-i18n>
+            </hi>
+        </paper-button>
+                            </pb-navigation>
+                        <a href="${app}/index.html?collection=${collection}" data-i18n="[title]browse.${collection}.title" title="" data-template="pages:parse-params">
+                                <paper-icon-button icon="icons:folder-open"/>
+                            </a>
+                            <paper-button id="tocToggle" class="toc-toggle">
+                            <iron-icon icon="icons:toc"/>
+        <pb-i18n key="letters.contents">TABLE OF CONTENTS</pb-i18n>
+    </paper-button>
+                            <paper-menu-button raised="raised">
+                            <!-- Bouton pour dérouler les métadonnées -->
+                                <a href="#" slot="dropdown-trigger">
+                                <iron-icon icon="icons:subject"/>
+                                    <pb-i18n key="letters.metadata">METADATA</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                            <paper-button id="tocToggle-fr" class="toc-toggle" raised="raised">FR
+                            </paper-button>
+                            <paper-button id="tocToggle-en" class="toc-toggle" raised="raised">EN
+                            </paper-button>
+                            <paper-button id="tocToggle-de" class="toc-toggle" raised="raised">DE
+                            </paper-button>
+                            </paper-listbox>
+                            </paper-menu-button>
+                            <paper-menu-button>
+                            <!-- Bouton pour avoir des informations sur les couleurs dans le texte -->
+                            <a href="#" slot="dropdown-trigger">
+                                <iron-icon icon="icons:info"/>
+                                    <pb-i18n key="letters.help">DISPLAY</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                <ul>
+                                <p style="text-decoration: underline; font-weight: bold;">"Entities" view</p>
+                                <p>The named entities mentioned in the text<br/> (person, place, organization, work, term) are<br/> highlighted in <hi style="font-weight:bold;">bold</hi>.</p></ul>
+                                </paper-listbox>
+                            </paper-menu-button>
+                            <paper-menu-button>
+                            <a href="#" slot="dropdown-trigger">
+                            <iron-icon icon="icons:create"/>
+                                    <pb-i18n key="letters.citation">CITATION</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                <pb-view id="citation" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                    <pb-param name="mode" value="citation"/>
+                                </pb-view>
+                                </paper-listbox>
+                            </paper-menu-button>
+                            <paper-menu-button>
+                            <a href="#" slot="dropdown-trigger">
+                            <iron-icon icon="icons:copyright"/>
+                                    <pb-i18n key="letters.licence">LICENCE</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                <pb-view id="licence" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                    <pb-param name="mode" value="licence"/>
+                                </pb-view>
+                                </paper-listbox>
+                            </paper-menu-button>
+                            
+                            <pb-restricted login="login">
+                                <pb-ajax subscribe="transcription" emit="transcription" url="${app}/api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
+                                    <h3 slot="title">
+                                        <pb-i18n key="menu.admin.recompile"/>
+                                    </h3>
+                                    <paper-icon-button icon="icons:refresh"/>
+                                </pb-ajax>
+                            </pb-restricted>
+                            <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
+                            <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
+                            <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
+                                <paper-button raised="raised">
+            <hi style="font-weight:bold;">
+                <pb-i18n key="letters.next">NEXT PAGE</pb-i18n>
+            </hi>
+        </paper-button>
+                                </pb-navigation>
+                            <!--<paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>-->
+                            <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
+                        </app-toolbar>

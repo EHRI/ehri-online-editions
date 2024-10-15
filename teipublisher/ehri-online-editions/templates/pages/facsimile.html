@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+    <title data-template="config:app-title"/>
+    <meta name="description" content="Documents"/>
+    <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script type="module" src="pb-leaflet-map.js" data-template="pages:load-components"/>
+    <style>
+       
+        body {
+            --pb-view-height: calc(100vh - 220px);
+            --pb-splash-image-size: 360px auto;
+            --pb-splash-background-color: black;
+                }
+                
+        .splash {
+            background-image: url("../../ressources/images/github.svg"); 
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            visibility: hidden;
+            opacity: 0;
+            background-color: #3f004f;
+            background-position: center center;
+            background-size: var(--pb-splash-image-size);
+            background-repeat: no-repeat;
+            transition: visibility 0s linear 300ms, opacity 300ms;
+        }
+        pb-page[unresolved]~.splash {
+            visibility: visible;
+            opacity: 1;
+            transition: visibility 0s linear 0s, opacity 300ms;
+        }
+
+        pb-view {
+            font: var(--pb-base-font);
+        }
+        
+        #title-view1 {
+                font-size: 20px;
+                margin: 3% 0;
+                text-align: center;
+                }
+        
+        #view1 {
+            flex: 3 0;
+            max-width: 60vw;
+            margin: 8px 16px;
+            height: var(--pb-view-height);
+            overflow: auto;
+        }
+
+        .content-body {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin: 0 10px;
+        }
+
+        aside {
+            flex: 1 0;
+            min-width: 360px;
+            max-width: 480px;
+            margin-right: 16px;
+            height: var(--pb-view-height);
+            overflow: auto;
+        }
+        
+        pb-facsimile {
+            flex: 1 0;
+            min-width: 360px;
+            max-width: 480px;
+            margin-right: 16px;
+            height: var(--pb-view-height);
+            overflow: auto;
+        }
+
+        aside pb-highlight {
+            display: block;
+            width: 100%;
+            padding: 0 2px;
+        }
+
+        pb-leaflet-map {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #citation {
+            color: white;
+        }
+        
+        #add {
+            text-align: right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        <pb-document id="document1" data-template="pages:pb-document"/>
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+            <app-header-layout>
+                <app-header slot="header" fixed="fixed">
+                    <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                    <app-toolbar data-template="lib:include" data-template-path="templates/toolbar_documents.html"/>
+                </app-header>
+                
+                            
+                    <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                            <pb-load id="toc" url="api/document/{doc}/contents?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="toc" load-once="load-once">
+                                <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                            </pb-load>
+                        </div>
+                    </pb-drawer>
+                    
+                    <pb-drawer toggle="tocToggle-fr" class="tocDrawer" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                        <!-- Déroule les métadonnées en français -->
+                            <h3>Métadonnées</h3>
+                            <pb-view id="metadata" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                <pb-param name="mode" value="metadata-fr"/>
+                            </pb-view>
+                        </div>
+                    </pb-drawer>
+
+                    <pb-drawer toggle="tocToggle-en" class="tocDrawer" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                        <!-- Déroule les métadonnées en anglais -->
+                            <h3>Metadata</h3>
+                            <pb-view id="metadata" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                <pb-param name="mode" value="metadata-en"/>
+                            </pb-view>
+                        </div>
+                    </pb-drawer>
+                    
+                    <pb-drawer toggle="tocToggle-de" class="tocDrawer" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                        <!-- Déroule les métadonnées en allemand -->
+                            <h3>Metadaten</h3>
+                            <pb-view id="metadata" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                <pb-param name="mode" value="metadata-de"/>
+                            </pb-view>
+                        </div>
+                    </pb-drawer>
+
+                                    <section class="breadcrumbs">
+                    <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt" view="single">
+                        <pb-param name="mode" value="title"/>
+                    </pb-view>
+                </section>
+                <main class="content-body">
+                    <pb-panel emit="transcription">
+                                <!-- Added to the toolbar -->
+                            
+                                <template title="Translation">
+                    <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription" xpath="//div[@type='transcription']/div[@type='translation']">
+                    <pb-param name="mode" value="entities"/>
+                    </pb-view>
+                                </template>
+                                <template title="Original version">
+                                    <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription" xpath="//div[@type='transcription']/div[@type='original']">
+                        <pb-param name="mode" value="entities"/>
+                        </pb-view>
+                                </template>
+                            </pb-panel>
+                    <pb-facsimile id="facsimile" base-uri="https://api.nakala.fr/iiif/" default-zoom-level="0" show-navigation-control="show-navigation-control" show-navigator="show-navigator" subscribe="transcription"/>
+                    <aside>
+                        <pb-leaflet-map fit-markers="" subscribe="transcription" access-token="pk.eyJ1Ijoid29sZmdhbmdtbSIsImEiOiJjam1kMjVpMnUwNm9wM3JwMzdsNGhhcnZ0In0.v65crewF-dkNsPF3o1Q4uw">
+                        </pb-leaflet-map>
+                        </aside>
+                </main>
+            </app-header-layout>
+        </app-drawer-layout>
+    </pb-page>
+    <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+</body>
+
+</html>

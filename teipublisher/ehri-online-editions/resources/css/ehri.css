@@ -1,0 +1,241 @@
+body {
+    --pb-popover-theme: "light-border";
+    --pb-popover-max-width: 480px;
+    --pb-popover-font-size: 14px;
+    --pb-popover-line-height: 1.2;
+    --pb-popover-placement: "auto";
+    --pb-popover-fallback-placement: "top right left";
+    --pb-color-primary: #131821;
+    --pb-color-inverse: #F0F0F0;
+    --pb-color-lighter: #8d0050;
+    --pb-color-focus: #f6a623;
+    --pb-header-background-image: none;
+    --pb-drawer-background-color: var(--pb-color-inverse);
+    --pb-menubar-background-color: #8d0050;
+    --pb-menubar-background-image: none;
+    --pb-menubar-color: var(--pb-color-inverse);
+    --pb-toolbar-background-color: #DEE2E6;
+    --pb-toolbar-background-image: none;
+    --pb-toolbar-color: var(--pb-color-primary);
+    --pb-highlight-color: #ff9e00;
+    color: #131821;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+app-toolbar {
+    --app-toolbar-font-size: 16px;
+}
+
+
+app-toolbar pb-search {
+    --pb-search-label-color: #F0F0F0;
+    --pb-search-input-color: #F0F0F0;
+    --pb-search-focus-color: #485265;
+    padding-left: 20px;
+}
+
+.drawer-content {
+    overflow: auto;
+    height: 100%;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+pb-collapse {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+pb-collapse[open] {
+  background-color: green;
+}
+
+.drawer-content pb-collapse h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.drawer-content paper-listbox {
+    margin: 0;
+}
+
+.toolbar {
+    justify-content: space-between;
+    background-color: #3f004f;
+    color: #ffffff;
+}
+
+.toolbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.toolbar paper-listbox {
+    background-color: #3f004f;
+    color: #ffffff;
+    padding: 5px;
+    width: 100%;
+}
+
+.menubar {
+    justify-content: space-between;
+    background-color: #8d0050;
+    color: white;
+    --pb-search-suggestions-color: white;
+    --pb-search-suggestions-background: #8d0050;
+}
+
+.menubar pb-media-query {
+    flex: 1 0;
+}
+
+.menubar paper-menu-button {
+    margin: auto 6px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menubar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menubar p {
+    color: white;
+}
+
+.menubar paper-listbox {
+    background-color: #8d0050;
+}
+
+.menubar .gitlab {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.menubar .gitlab img {
+    height: 32px;
+}
+
+pb-lang {
+    text-align: right;
+    flex: 1 0;
+    --pb-lang-item-color: black;
+    --pb-lang-label-color: white;
+    --pb-lang-input-color: white;
+}
+
+.menubar paper-item {
+    background-color: #8d0050;
+    color: white;
+    margin: 0;
+}
+
+pb-drawer {
+    top: 128px;
+    background-color: #f8f9fa;
+    overflow: auto;
+    height: calc(100vh - 128px);
+}
+
+.breadcrumbs {
+    margin: 10px 0 0 20px;
+}
+
+pb-view {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    position: relative;
+    line-height: 1.5;
+    color: #131821;
+}
+
+footnotes {
+    color: red;
+}
+
+pb-popover {
+    text-align: left !important;
+}
+
+pb-progress {
+    width: 100%;
+}
+
+.toc {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+.toc pb-link a {
+    color: #131821;
+    text-decoration: none;
+}
+
+.toc li>pb-link {
+    margin-left: 28px;
+}
+
+.toc ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toc ul ul {
+    margin-left: 28px;
+}
+
+.toc li {
+    margin-bottom: 1em;
+}
+
+.toc li:first-child {
+    margin-top: .5em;
+}
+
+.version {
+    text-align: right;
+    font-size: 0.9em;
+    padding: 1em;
+    color: #131821;
+}
+
+.version span {
+    font-weight: bold;
+}
+
+.presentation {
+    display: flex;
+    text-align: justify;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #3f004f;
+}
+
+.splash {
+    background-image: url("../../ressources/images/github.svg"); 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #3f004f;
+    background-position: center center;
+    background-size: var(--pb-splash-image-size);
+    background-repeat: no-repeat;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+}

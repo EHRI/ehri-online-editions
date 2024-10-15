@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About Documentation Campaign</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">Documentation Campaign</h1>
+                        <ul>
+                            <li>
+                                <a href="#content">Content, Methodology and Editorial Standards</a>
+                            </li>
+                            <li>
+                                <a href="#imprint">Imprint</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+            <h1 id="content">Content, Methodology and Editorial Standards</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>The testimonies published in this EHRI online edition were created within the framework of the so-called Documentation Campaign (Dokumentační akce) in Czechoslovakia, one of the earliest postwar projects to document the events of the Shoah by collecting evidence, documents, and witness testimonies. The founder of this initiative was <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Zeev Schek</a>, a pre-war Zionist and survivor of the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a> and <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a>, who later emigrated to Palestine (see the <a href="/exhibits/show/about/sheck-introduction">introduction by his son Daniel Shek</a>).</p>
+<p>Taking inspiration from his wartime clandestine documentation of the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, Schek and a few of his former fellow prisoners launched an ambitious Czechoslovak Jewish documentation effort. The Documentation Campaign in Prague (hereinafter DC; for its detailed history, see the <a href="/exhibits/show/about/veselska-introduction">introduction by Magda Veselská</a>) was established with the assistance of the <a href="https://portal.ehri-project.eu/authorities/ehri_cb-400">Jewish Agency for Palestine</a> (Sochnut) and the Ezra committee, and was conducted with the support of the Jewish Religious Community (hereinafter JRC) in Prague. The collection effort was carried out by a small group of young and enthusiastic Zionist activists, all freshly liberated from ghettos and camps, for whom documenting the destruction was a necessary first step towards the renewal of the Jewish nation in Palestine. Taking inspiration from the Budapest documentation efforts, they gathered lists of antisemitic publications, anti-Jewish laws, documents, photographs, testimonies, as well as artwork including literary depictions of persecution. They collected the wartime documents still left in the offices and storage rooms of the JRC and travelled to the former <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a> and other places of persecution to secure surviving materials. They cooperated with Czechoslovakia’s investigation of Nazi crimes and provided, within the context of the denationalization and expulsion of Bohemian and Moravian Germans, materials for exhibitions documenting Nazi crimes. They worked closely with Jewish communities in the Bohemian Lands and appealed in JRC bulletins to the Jewish public to provide documentation of persecution.</p>
+<p>Although limited in staff and scope, as well as in the amount of the collected material, the DC was aware of the context of its work, especially from the perspective of Jewish nationalism. In a report to the Jewish Agency in August 1945, Schek implored its donors to “urgently” organize a meeting of committee representatives from all states where such documentation was taking place.</p>
+<p>The DC was in operation for only a short period of time, from June 1945 until May 1946. When Zeev Schek emigrated to Palestine in 1946, he took some of the documents and testimonies with him and handed them over to the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/il-002782">Zionist Central Archives</a>
+                                    </span>and then to the Jewish Historical Archives (now the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/il-002781">Central Archives for the History of the Jewish people</a>
+                                    </span>). In 1976, Schek’s sources were transferred toYad Vashem. Fragments of the material also found their way to the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/il-002777">Beit Theresienstadt memorial, museum, and archives</a>
+                                    </span>in Givat Haim, which Schek had helped create. As per an agreement made before he emigrated, copies of some materials and documents with a clear relationship to Czechoslovakia remained in the country and are stored in the Archives of the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</a>
+                                    </span>.</p>
+<p>Survivor testimonies constitute a key aspect of the assembled documentation. Even though the documents vary in style, the preferred format was a short, factual report. The testimonies today held in the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</a>
+                                    </span>and in the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</a>
+                                    </span> make up only a small portion of the documentation collected, especially in comparison with other documentation committees.<sup>
+                                        <a id="footnote1-ref" href="#footnote1">1</a>
+                                    </sup> It seems that the Prague activists took a different approach than the grassroots Jewish ethnographic and documentation campaigns. The collection of testimonies is not entirely systematic—some were recorded when witnesses visited the small office of the DC at the Prague JRC; some were requested due to eye-witness knowledge of specific events; yet others were sent in by those who had read or heard about the activities of the committee. No binding methodology or catalog of questions appears to have been followed during the interviews. When possible, general guidelines regarding form were to be followed: “(…) <em>1. Draw up a short and factual subjective report, which includes everything that the prisoner in question experienced from arrest to liberation. 2. If the prisoner has witnessed a specific event, create a separate statement according to their testimony for the collection of material related to the concentration camp in question. 3. Collect works (poems, diaries) from concentration camps. The actions of the Jewish Agency not only have documentary, but also political, significance for us. (...).</em>“<sup>
+                                        <a id="footnote2-ref" href="#footnote2">2</a> </sup>Four copies of the report were to be produced, each of which had to be signed by the eye-witness, the person taking down the testimony, and two witnesses. Most were compiled in 1945 and 1946 in either Czech or German.</p>
+<p>The EHRI online edition makes available 68 reports collected within the DC and stored in the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</a>
+                                    </span>and in the<span>
+                                        <a href="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</a>
+                                    </span>, of which 41 were typed in Czech and 27 in German. It contains over five hundred pages of transcripts in their original languages, which are (among other contextual information) accompanied by English translations and scans of archival documents. The editors purposely left out 18 reports from the DC that which were published in previous EHRI online editions on the <span>
+                                        <a href="https://early-testimony.ehri-project.eu/">early postwar Holocaust documentation in Europe</a>
+                                    </span>. In future, the editorial team will expand the edition with additional archival sources (photos, documents) related to the witnesses who provided the DC with their reports.</p>
+<p>
+                                    <span style="text-decoration:underline;">Technical Implementation:</span>
+                                </p>
+<p>The DC digital edition is part of the <span>
+                                        <a href="https://www.ehri-project.eu/ehri-online-editions">EHRI online platform</a>
+                                    </span>, which is facilitated by new EHRI tools for digital editing and use. The improved EHRI vocabularies and descriptions generate displayed contextual information. EHRI editions use links to established controlled vocabularies (EHRI for Holocaust-related entities; GeoNames for geographic information, etc.) wherever possible.</p>
+<p>The documents published in the EHRI digital editions are encoded in the Text Encoding Initiative (TEI) P5 standard. While TEI is multi-layered and can be very complex, it is widely adopted and considered a standard format for digital editions of texts of all kinds.</p>
+<p>The EHRI team opted to use the Omeka web publishing platform for the documentary editions due to its compliance with standards (Dublin Core) and extensibility, as well as for the functionality of the Neatline maps plugin. By default, however, Omeka was not capable of displaying TEI, nor of extracting structured information from XML sources. For this reason, the EHRI team originally developed the Omeka Classic plugin for the digital editions.</p>
+<p>Where location information is available with geographic coordinates, an automatically generated interactive map is displayed, created through the Omeka Neatline plugin. Its full screen version, which users can access through a link, provides the text of the document alongside a map, allowing users to follow the narrative of the document within the geographical space.</p>
+<p/>
+<h3>NOTES</h3>
+<p>
+                                    <a id="footnote1" href="#footnote1-ref">1</a> ‒ <span style="font-weight:400;"/>For a comparison of early postwar documentation and testimonies in the European context, see Sharon Kangisser Cohen, <span>
+                                        <a href="https://early-testimony.ehri-project.eu/exhibits/show/about/kangisser-cohen-introduction">
+                                            <em>Who? Where? and How? Establishing the Story: Early Recollections of a Devastating Past</em>
+                                        </a>
+                                    </span>, Early Holocaust Testimony Digital Edition;Laura Jockusch, <em>Collect and Record! Jewish Holocaust Documentation in Early Postwar Europe</em> (Oxford: Oxford University Press, 2012).</p>
+<p>
+                                    <a id="footnote2" href="#footnote2-ref">2</a>
+                                    <a href="#sdfootnote1-ref"/> ‒ <span style="font-weight:400;"/>Yad Vashem Archives, O.7.cz (Documentation regarding the Jews of Bohemia and Moravia, mainly during the Holocaust), file no. 263, item ID: 3698935.</p>
+<p/>
+<h3>
+                                    <strong>SOURCES</strong>
+                                </h3>
+<p>Yad Vashem Archives, O.7.cz (Documentation regarding the Jews of Bohemia and Moravia, mainly during the Holocaust), file no. 263–274; 388–392.</p>
+<p>Magda Veselská, ‘Early Documentation of the Shoah in the Czech Lands: The Documentation Project and the Prague Jewish Museum (1945–1947)’, <em>Judaica Bohemiae</em> 52, no. 1 (2017): 47–85.</p>
+                            </div>    </div>
+
+<h1 id="imprint">Imprint</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>
+                                    <strong>EHRI-3 Work Package 10: "Thematic layers across collections"</strong>
+                                </p>
+<p>
+                                    <b>Chief editors</b>
+                                    <span style="font-weight:400;">: Michal Frankl, Magdalena Sedlická</span>
+                                </p>
+<p>
+                                    <b>Editors</b>
+                                    <span style="font-weight:400;">: Hana Dauš</span>
+                                </p>
+<p>
+                                    <b>Introductions</b>
+                                    <span style="font-weight:400;">: Peter Hallama, Jan Láníček, Magdalena Sedlická, Daniel Shek, Magda Veselská</span>
+                                </p>
+<p>
+                                    <b>Translators</b>
+                                    <span style="font-weight:400;">: Caroline Kovtun, Molly Roza</span>
+                                </p>
+<p>
+                                    <b>Language editor</b>
+                                    <span style="font-weight:400;">: Wolfgang Schellenbacher</span>
+                                </p>
+<p>
+                                    <b>Webdesign</b>
+                                    <span style="font-weight:400;">: Lukáš Opekar (Sinfin)</span>
+                                </p>
+<p>
+                                    <b>Programming</b>
+                                    <span style="font-weight:400;">: Michael Bryant</span>
+                                </p>
+<p>
+                                    <b>Partner institution</b>
+                                    <span style="font-weight:400;">: <a href="https://www.mua.cas.cz/en">Masaryk Institute and Archives of the Czech Academy of Sciences</a> (CZ)</span>
+                                </p>
+<p/>
+<p>
+                                    <b>2023</b>
+                                </p>
+<p>
+                                    <b/>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The digital edition was created within the <a href="https://www.ehri-project.eu/">European Holocaust Research Infrastructure project (EHRI)</a>, which is funded by the European Commission under the FP7 and Horizon 2020 programmes.</span>
+                                </p>
+                            </div>    </div>
+                            </div>
+                        </section>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                        </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

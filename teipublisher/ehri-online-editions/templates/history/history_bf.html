@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>History Bordered Escape</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">Flucht in die Tschechoslowakei</h1>
+                        <ul>
+                            <li>
+                                <a href="#id1">Die tschechoslowakische Flüchtlingspolitik vor dem „Anschluss“</a>
+                            </li>
+                            <li>
+                                <a href="#id2">Der „Anschluss“ Österreichs</a>
+                            </li>
+                            <li>
+                                <a href="#id3">Grenzsperre</a>
+                            </li>
+                            <li>
+                                <a href="#id4">Illegalität</a>
+                            </li>
+                            <li>
+                                <a href="#id5">Die Flucht der „polnischen“ Jüdinnen und Juden</a>
+                            </li>
+                            <li>
+                                <a href="#id6">Ausweisung der burgenländischen Jüdinnen und Juden</a>
+                            </li>
+                            <li>
+                                <a href="#id7">Hilfsorganisationen</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+            <h1>Flucht in die Tschechoslowakei</h1>
+
+<div id="primary">
+<div class="exhibit-description">
+    <p>Geschichtliche Übersicht über die Flucht der jüdischen ÖsterreicherInnen in die Tschechoslowakei und Guide durch die in der Edition enthaltenen Dokumente.</p>
+                            </div>
+
+</div>
+
+<h1 id="id1">Die tschechoslowakische Flüchtlingspolitik vor dem „Anschluss“</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>Der „Anschluss“ Österreichs und die tausenden – meist jüdischen – Flüchtlinge katalysierten eine dramatische Änderung der tschechoslowakischen Flüchtlingspolitik. <a name="sdfootnote1anc" href="#sdfootnote1sym" class="footnote-ref">
+                                        <sup>1</sup>
+                                    </a> Die Tschechoslowakei wurde ab 1933 zu einem zumindest partiell toleranten Zufluchtsort für Menschen aus NS-Deutschland - ab dem Februar 1934 auch aus Österreich. Sie reagierte wie die meisten europäischen Länder: Flüchtlingen fiel es in den ersten Jahren relativ einfach, die Grenzen zu überschreiten, viel schwieriger erwies sich aber ihre längerfristige Perspektive im Exil. Aufgrund der Wirtschaftskrise und nationalistischen Kampagnen kontrollierte die Regierung die Beschäftigung von AusländerInnen und lehnte generell die Vergabe von Arbeitsbewilligungen ab. Das 1935 in der Tschechoslowakei erlassene Gesetz über den Aufenthalt von Ausländern verlangte von Personen, die sich auf tschechoslowakischem Staatsgebiet länger als zwei Monate aufhielten, eine Bewilligung, die regelmäßig erneuert werden musste.</p>
+<p>Ab Mitte der 1930er Jahre wurde die liberale Politik der zeitweiligen Duldung schrittweise zurückgenommen und letztendlich abgeschafft. 1937 signalisierte die geplante und nur zum Teil durchgeführte Konzentrierung der deutschen Flüchtlinge in ärmeren Bezirken der Böhmisch-Mährischen Höhen (Vysočina), in denen die Flüchtlinge in einem weniger freundlichen Umfeld gewesen wären und kaum Unterstützung gefunden hätten, den wachsenden Einfluss NS-Deutschlands, die zunehmend restriktive Flüchtlingspolitik sowie die wachsende Bedeutung der Sprache der Staatssicherheit für die Behandlung und die räumliche Distribution der Flüchtlinge. Als sich die außenpolitische Lage der Tschechoslowakei verschlechterte und der Nationalismus im Land stärker wurde, beschränkten die Behörden den Handlungsspielraum der deutschen und österreichischen Emigration, was unter anderem auch die Propaganda gegen das NS-Regime und den Schmuggel von Drucksachen über die Grenze erschwerte. 1938 wurde das Land von den Exilgruppen nicht mehr als sicher erachtet – so organisierte z. B. die Leitung der deutschen Sozialdemokratie im Exil (SoPaDe) ihren schrittweisen Umzug nach Paris.</p>
+<p>Parallel dazu bewegte sich aber die tschechoslowakische Flüchtlingspolitik in Richtung Ethnonationalismus. Während es für Jüdinnen und Juden aus Deutschland in den ersten Jahren nach 1933 relativ einfach war, in die Tschechoslowakei zu gelangen und dort auch geduldet werden, verschlechterte sich ihre Lage ab 1935. Einerseits lag dies daran, dass es für jüdische Hilfsorganisationen immer schwieriger wurde, die weitere Emigration dieser Flüchtlinge zu organisieren. Zusätzlich führte der arabische Aufstand in Palästina zu einer Beschränkung der jüdischen Immigration. Die Toleranz gegenüber den nicht von politischen Organisationen betreuten Jüdinnen und Juden basierte ab 1933 auf einem ungeschriebenen Vertrag, nachdem die Flüchtlinge nicht lange im Land verbleiben würden und weiter auswandern sollten. Noch wichtiger war die Ausbürgerung der sich im Ausland befindlichen deutschen Jüdinnen und Juden. Die Nürnberger Gesetze machten Jüdinnen und Juden zu Reichsangehörigen statt zu StaatsbürgerInnen und die strikte Anwendung des Ausbürgerungsgesetzes von 1933 verunmöglichte die Rückkehr der Flüchtlinge nach NS-Deutschland. Dies trug dazu bei, dass flüchtenden Jüdinnen und Juden aus NS-Deutschland, bzw. später aus Österreich, nicht mehr als Flüchtlinge betrachtet wurden. Der Entzug der Staatsbürgerschaft machte sie zu unerwünschten MigrantInnen und reaktivierte die Stereotype von „Ostjuden“, die bei tschechoslowakischen sowie auch österreichischen Beamten – nicht zuletzt wegen der Flüchtlinge im Ersten Weltkrieg – tief verankert waren.</p>
+<p>Die allgemeine Verhinderung der Immigration von Jüdinnen und Juden wurde erstmals nur drei Monate vor dem “Anschluss” Österreichs an den Flüchtenden aus Rumänien getestet. Zur Jahreswende 1937/38 zeigten sich die Tschechoslowakei, Österreich und andere Länder äußerst besorgt über die Verfolgung der Jüdinnen und Juden und KommunistInnen in Rumänien, nachdem die kurzlebige rumänische Regierung unter der Leitung von Octavian Goga eine Reihe antijüdischer Maßnahmen eingeführt hatte.</p>
+<p/>
+                                <p>Im Unterschied zu Österreich verband die Tschechoslowakei mit Rumänien eine gemeinsame Grenze an der Karpatoukraine/Maramureş, die auf beiden Seiten von stark religiösen jüdischen Gemeinden bewohnt war. Obwohl nur einzelne Fälle von rumänischen Flüchtlingen in der Tschechoslowakei belegt werden konnten, reagierten tschechoslowakische Behörden und die Presse alarmiert auf die vage Möglichkeit der Fluchtwelle von Zehn- oder Hunderttausenden Jüdinnen und Juden und jüdischen KommunistInnen - einem antisemitischen Drohbild. Anfang Jänner 1938 führte das Außenministerium die Visumspflicht für rumänische StaatsbürgerInnen ein, obwohl Rumänien noch zur “Kleinen Entente” und damit zu den tschechoslowakischen Verbündeten gehörte. <a name="sdfootnote2anc" href="#sdfootnote2sym" class="footnote-ref">
+                                        <sup>2</sup>
+                                    </a>
+                                </p>
+<div id="sdfootnote1">
+<p class="footnote">
+                                        <a name="sdfootnote1sym" href="#sdfootnote1anc">1</a> Detailliert zur tschechoslowakischen Flüchtlingspolitik in den 1930er Jahren: Kateřina Čapková und Michal Frankl, <em> Unsichere Zuflucht: Die Tschechoslowakei und ihre Flüchtlinge aus NS-Deutschland und Österreich 1933-1938 </em> , 1. Aufl. (Köln: Böhlau, 2012). Dort auch weitere Literatur zum Thema.</p>
+</div>
+<div id="sdfootnote2">
+<p class="footnote">
+                                        <a name="sdfootnote2sym" href="#sdfootnote2anc">2</a> Michal Frankl, „‚Židovstvo ztrácí své základy‘. Československo a rumunská uprchlická krize (1937-1938)“, <em>Terezínské studie a dokumenty</em>, 2005, 297–309.</p>
+</div>
+<p/>
+                            </div>    </div>
+<h1 id="id2">Der „Anschluss“ Österreichs: Verfolgung und Vertreibung</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>Der „Anschluss“ Österreichs an NS-Deutschland im März 1938 markierte den Beginn der massenhaften Entrechtung, Enteignung, Vertreibung und Ermordung der jüdischen Bevölkerung sowie das Ende des österreichischen Staates, der seit 1933/34 durch Engelbert Dollfuß und Kurt Schuschnigg diktatorisch regiert wurde. Im März 1933 schaltete die Regierung Dollfuß mit Hilfe einer Lücke in der parlamentarischen Geschäftsordnung das österreichische Parlament aus. Die Anwendung des Kriegswirtschaftlichen Ermächtigungsgesetzes <sup>
+                                        <a name="sdfootnote1anc" href="#sdfootnote1sym">
+                                            <sup>1</sup>
+                                        </a>
+                                    </sup> von 1917 schränkte die demokratischen Grundrechte stark ein und ebnete den Weg zu einem „autoritären Ständestaat“ nach Vorbild des italienischen Faschismus. <sup>
+                                        <a name="sdfootnote2anc" href="#sdfootnote2sym">
+                                            <sup>2</sup>
+                                        </a>
+                                    </sup> Der Republikanischen Schutzbund, der militärische Flügel der ArbeiterInnenbewegung, wurde am 31. März 1933 ebenso verboten wie die Kommunistische Partei am 26. Mai 1933. Die zunehmenden Spannungen entluden sich schließlich in den Februarkämpfen 1934, die sich rasch von Linz über die meisten industriellen Gebiete Österreichs ausbreiteten, schnell und hart niedergeschlagen wurden und Hunderte Tote und Verletzte forderten. Anschließend wurden sämtliche sozialdemokratischen Organisationen, allen voran die SDAP und die Freien Gewerkschaften, verboten. Neun Mitglieder des Republikanischen Schutzbundes wurden hingerichtet, Massenverhaftungen und Einlieferungen in Gefängnisse und Anhaltelager verfügt.</p>
+<p>Aufgrund dieser aussichtslosen Lage und der Angst vor Verfolgung durch das autoritäre Dollfuß-Regime entschlossen sich etwa 2000 FebruarkämpferInnen und sozialdemokratische und kommunistische FunktionärInnen zur Flucht in die Tschechoslowakei, wo sich die Behörden gegenüber den politischen Flüchtlingen aus Österreich 1934 großteils wohlwollend verhielten. Für die Fluchthilfe sowie den Schmuggel von Propagandamaterialien griffen die Flüchtlinge auf bereits vorhandene Schmuggelnetzwerke zurück und bauten v.a. an der Grenze Richtung Znaim (Znojmo) und entlang der March Schmuggelrouten aus, die später auch durch die jüdischen Flüchtlinge 1938 für die Flucht in die Tschechoslowakei verwendet wurden wie etwa ein Artikel der Národní politika vom 1. April 1938 zeigt: „Die Schließung der österreichischen Grenzen für die dortigen Staatsangehörigen, vornehmlich jüdischen Glaubens, hat viele der verfolgten Personen offensichtlich nicht an der Flucht gehindert. Sie fliehen vornehmlich in der Nacht über den Fluss March, in dem Grenzabschnitt, wo der Schmuggelverschiedenster Art schon immer florierte.“</p>
+<p/>
+<p>Zum Zeitpunkt des „Anschlusses“ lebten auf dem Gebiet des ehemaligen Österreichs etwa 206 000 Personen, die durch die „Nürnberger Gesetze“ des NS-Regimes als Juden definiert wurden.</p>
+<p>Dem „Anschluss“ folgte die sukzessive Ausgrenzung, Entrechtung und Enteignung der österreichischen Jüdinnen und Juden. In den folgenden Wochen und Monaten traten eine Reihe von Verordnungen und Erlässe in Kraft, die Jüdinnen und Juden aus allen Bereichen des öffentlichen Leben drängten: Neben einer Reihe diskriminierender Verordnungen, die den täglichen Handlungsspielraum der jüdischen Bevölkerung stark einschränkten, verlor ein Großteil der jüdischen Bevölkerung den Arbeitsplatz, jüdische Kinder durften keine öffentlichen Schulen mehr besuchen, jüdische Mieter wurden im Sommer 1938 aus Gemeindebauten gekündigt, später wurden auch private Mietverhältnisse aufgelöst und Wohnungen „arisiert“ <sup>
+                                        <a name="sdfootnote3anc" href="#sdfootnote3sym">
+                                            <sup>3</sup>
+                                        </a>
+                                    </sup> .</p>
+<p>
+                                    <a name="_GoBack"/> Neben jüdischen Prominenten und Funktionären der Israelitischen Kultusgemeinde (IKG) gehörten Jüdinnen und Juden fremder bzw. ohne Staatsangehörigkeit – v.a. sogenannte „Ostjuden“ – zur ersten Zielscheine staatlicher Gewalt.</p>
+<p>In Wien lebten etwa 185 000 Menschen, die als Jüdinnen und Juden galten. Die IKG Wien wurde nach dem Anschluss aufgelöst und im Mai in veränderter Struktur wiedereröffnet. Ihre Hauptaufgabe lag nun in der Linderung der Not der Verfolgten durch Fürsorgemaßnahmen, der Vorbereitung auf die Auswanderung durch Umschulungen und der Organisation der Massenflucht in Kooperation mit dem NS-Regime. Die Bedeutung der Jüdischen Gemeinde Wien für Hilfeleistungen für Jüdinnen und Juden für das tägliche Leben und die „Ausreise“ aus dem Deutschen Reich geht aus einer Reihe von Ansuchen um Hilfeleistungen und Bittschreiben hervor. Bis zum Einsetzen der Massendeportationen, die in Wien bereits im Februar und März 1941, also früher als in anderen Gebieten des Deutschen Reiches einsetzten, konnten nahezu 135 000 ÖsterreicherInnen fliehen.</p>
+<p>Der „Anschluss“ Österreichs an NS-Deutschland im März 1938 markierte jedoch nicht nur das Ende des österreichischen Staates, sondern war auch endgültiger Wendepunkt der bereits erodierenden Migrationsmechanismen der meisten europäischen Staaten. Ähnlich wie die Tschechoslowakei, in der das Innenministerium bereits am 11. März ein allgemeines Einreiseverbot für österreichische Flüchtlinge aussprach, führte der „Anschluss“ in den meisten europäischen Staaten zu einer massiven Verschärfung der Flüchtlingspolitik. Staaten wie Großbritannien oder die Schweiz führten eine Visumspflicht für österreichische StaatsbürgerInnen ein. Innerhalb kurzer Zeit schlossen auch die anderen Nachbarstaaten Österreichs ihre Grenzen für jüdische Flüchtlinge. Trotz der sofort einsetzenden Grenzsperre wurde die Tschechoslowakei neben dem Vereinigten Königreich, den USA und Palästina, zum wichtigsten Fluchtort österreichsicher Jüdinnen und Juden.</p>
+<p>Die politischen Veränderungen durch das „Münchner Abkommen“ im September bzw. die Besetzung Böhmens und Mährens im März 1939 ließen jedoch die Tschechoslowakei für viele österreichische Flüchtlinge von einem Fluchtziel zu einer Transitstation auf dem Weg in andere Exilländer wie Großbritannien, Frankreich, Belgien oder die USA werden. Etwa 2300 österreichische Flüchtlinge wurden später aus dem Gebiet der ehemaligen Tschechoslowakei, wie auch aus vielen anderen Ländern Europas, in die Ghettos, Konzentrations- und Vernichtungslager deportiert und ermordet, was in der Edition etwa anhand das Schicksals des Ehepaars Guttmann verdeutlicht wird. Insgesamt wurden ca. 66 500 österreichische Jüdinnen und Juden im Holocaust ermordet.</p>
+<div id="sdfootnote1">
+<p class="footnote">
+                                        <a name="sdfootnote1sym" href="#sdfootnote1anc">1</a> <sup/>
+                                        <sup/> Das Gesetz vom 24. Juli 1917, mit dem die Regierung ermächtigt wird, aus Anlass der durch den Kriegszustand verursachten außerordentlichen Verhältnisse die notwendigen Verfügungen auf wirtschaftlichem Gebiete zu treffen.</p>
+</div>
+<div id="sdfootnote2">
+<p class="footnote">
+                                        <a name="sdfootnote2sym" href="#sdfootnote2anc">2</a> <sup/>
+                                        <sup/> Zur Rolle des österreichischen Regimes zwischen 1934 und 1938 siehe u. a.: Wolfgang Neugebauer, Emmerich Tálos (eds.), <em>„Austrofaschismus“: Beiträge über Politik und Kultur 1934-1938</em> , (Wien: Lit-Verlag 1988). Emmerich Tálos, <em> Das austrofaschistische Herrschaftssystem in Österreich 1933-1938 </em> , (Berlin-Münster-Wien: Lit-Verlag 2013). Florian Wenninger, Lucile Dreidemy (eds.), <em> Das Dollfuß/Schuschnigg-Regime 1933-1938: Vermessung eines Forschungsfeldes </em> , (Wien-Köln-Weimar: Böhlau 2013). Ilse Reiter-Zatloukal, Christiane Rothländer, Pia Schölnberger (Eds.), <em> Österreich 1933-1938: Interdisziplinäre Annäherungen an das Dollfuß-/Schuschnigg-Regime </em> , (Wien-Köln-Weimar: Böhlau 2012).</p>
+</div>
+<div id="sdfootnote3">
+<p class="footnote">
+                                        <a name="sdfootnote3sym" href="#sdfootnote3anc">3</a> <sup/>
+                                        <sup/> Siehe ausführlich: Herbert Exenberger, Johann Koss, Brigitta Ungar-Klein (eds): <em> Kündigungsgrund Nichtarier Die Vertreibung jüdischer Mieter aus den Wiener Gemeindebauten in den Jahren 1938-1939 </em> , (Wien: Picus, 1996).</p>
+</div>
+                            </div>    </div>
+<h1 id="id3">Grenzsperre</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>In der Nacht von 11. auf den 12. März 1938 erreichte ein Schnellzug aus Österreich, in dem sich viele Flüchtlinge befanden, die tschechoslowakische Grenze bei Lundenburg (Břeclav). Den etwa 300 österreichischen StaatsbürgerInnen wurde angeordnet, den Zug zu verlassen und sie wurden in einen Wartesaal gezwungen. <a name="sdfootnote1anc" href="#sdfootnote1sym" class="footnote-ref">
+                                        <sup>1</sup>
+                                    </a> Richard A. Bermann, ein zur österreichischen “Kanzlerdiktatur” oppositioneller Journalist, beschrieb diesen als einen „gefängnisähnlichen Saal“: Diese Metapher dürfte weniger mit der Beschreibung eines tatsächlichen Ortes zu tun haben, sondern vielmehr ein symbolischer Ausdruck Bermanns Überraschung und Enttäuschung über das unverständliche Vorgehen der demokratischen Tschechoslowakei gewesen sein. Während sich Bermann als politischer Flüchtling verstand, der sich – wie aus einem Telegramm an den tschechoslowakischen Präsidenten Edvard Beneš ersichtlich – auf die demokratische Tradition und den Humanismus der Tschechoslowakei berief, wurde er als unerwünschter jüdischer Migrant behandelt.</p>
+<p>
+<p>Ähnliche Erfahrung machten auch Flüchtlinge, die versuchten, mit dem Auto in die Tschechoslowakei zu gelangen, z. B. über den Grenzübergang Berg (in Richtung Bratislava). Zu den Schwierigkeiten gehörten auch die strikten Kontrollen an der österreichischen Seite, die vor allem die Ausfuhr von Geld und Wertsachen verhindern sollten.</p>
+<p>Die tschechoslowakischen Reaktionen in den ersten Tagen nach dem „Anschluss“ sind anhand der Aufzeichnungen der telefonischen Nachrichten im Präsidium der Landesbehörde Brünn gut dokumentiert. Schon am 11. März erließ das Innenministerium in Prag ein allgemeines Einreiseverbot für österreichische Flüchtlinge. Zugleich instruierte das Ministerium die Landesbehörden, die Grenze für alle österreichischen StaatsbürgerInnen zu sperren. Am 12. März wurde diese Anordnung präzisiert, indem sie jene österreichischen StaatsbürgerInnen davon ausnahm, die „nachweislich dauerhaft in der Tschechoslowakei niedergelassen sind oder hier Immobilienbesitz, vor allem Fabrikbetriebe haben, oder auf glaubwürdige Weise nachweisen, dass sie aus Gründen in die Tschechoslowakei reisen, die im Hinblick auf die hiesigen Wirtschaftsinteressen notwendigerweise berücksichtigt werden müssen […].“ Die Anordnungen sind allgemein formuliert und betrafen alle ÖsterreicherInnen, die Furcht vor einer möglichen “Fluchtwelle” von Jüdinnen und Juden ist jedoch in der offiziellen Korrespondenz klar ersichtlich.</p>
+<p/>
+<p>Die Grenzsperre für österreichische StaatsbürgerInnen wurde bis zum “Münchener Abkommen” nicht aufgehoben. Im Frühling und Sommer 1938 – in jener Zeit, in der die Grenze zunehmend mit dem Aufbau der Bunker militarisiert wurde – waren die tschechoslowakischen Grenzpolizisten damit beschäftigt, österreichische Flüchtlinge aufzuhalten und zurückzuschicken. Die Wiesen und Wälder in Südmähren sowie die sumpfigen Donauufer in der Slowakei wurden zu einem einzigen großen Fahndungsgebiet.</p>
+<p>In Folge des “Anschlusses” führten zahlreiche Staaten wie z. B. die Schweiz oder Großbritannien eine Visumspflicht für österreichische StaatsbürgerInnen ein. Das Visum war ein Mittel der Fernkontrolle, das es ermöglichte, unerwünschte AusländerInnen schon weit vor der eigenen Grenze an einer Weiterreise zu hindern. Mit dem Umtausch der österreichischen in reichsdeutsche Pässe war jedoch diese Strategie nicht mehr effektiv und mehrere Staaten weigerten sich aus wirtschaftlichen und diplomatischen Gründen, eine Visumspflicht für Deutschland einzuführen. Schweizerische Verhandlungen mit NS-Deutschland im Oktober 1938 mündeten in die Markierung der Pässe der deutschen Juden mit dem Stempel “J”. <a name="sdfootnote2anc" href="#sdfootnote2sym" class="footnote-ref">
+                                            <sup>2</sup>
+                                        </a>
+                                    </p>
+<p>Tschechoslowakischen Behörden standen einem ähnlichen Dilemma gegenüber: Mit dem vorgesehenen Umtausch der österreichischen Pässe in reichsdeutsche Pässe würden die Grenzmaßnahmen unwirksam. Gleichzeitig war eine Einführung einer allgemeinen Visumspflicht für deutsch StaatsbürgerInnen aufgrund der sich verschlechternden Beziehungen mit NS-Deutschland problematisch und hätte auch wirtschaftliche Folgen nach sich gezogen. Daher führten das Innen- und Außenministerium ein System inoffizieller Visen: Das tschechoslowakische Konsulat in Wien gab ehemaligen österreichischen StaatsbürgerInnen “Empfehlungen” aus, die ihnen den Grenzübertritt erlaubten. An Juden wurden solche Einreisebewilligungen kaum ausgegeben.</p>
+<p/>
+<p>Bald beschwerte sich das Konsulat über Fälschungen dieser Einreiseerlaubnisse und führte letztendlich eine verbesserte und fälschungssichere Form ein. Zugleich wies das Konsulat auf verzweifelte Versuche österreichischer Jüdinnen und Juden hin, die in der Tschechoslowakei geboren waren oder dort früher gelebt hatten, unter Vorgabe falscher Angaben von ihren alten Heimatgemeinden Bestätigungen für den Erhalt der tschechoslowakischen Staatsbürgerschaft. Solche Berichte zeigen, wie die Praxis der Grenzsperre und der restriktiven Flüchtlingspolitik die verfolgten Jüdinnen und Juden in die Illegalität zwangen.</p>
+<p/>
+<div class="exhibit-block layout-text">
+                                        <div id="sdfootnote1">
+<p class="footnote">
+                                                <a name="sdfootnote1sym" href="#sdfootnote1anc">1</a> Vgl. auch Stephan Templ, „Der Zug war voll. Wie die Tschechoslowakei 1938 Flüchtlinge abwies“, Neue Zürcher Zeitung, Nr. 57 (9. März 2002): 34.</p>
+</div>
+<div id="sdfootnote2">
+<p class="footnote">
+                                                <a name="sdfootnote2sym" href="#sdfootnote2anc">2</a> Heinz Roschewski, <em> Rothmund und die Juden. Eine historische Fallstudie des Antisemitismus in der schweizerischen Flüchtlingspolitik, 1933-1957 </em> (Basel - Frankfurt am Main: Schweizerischer Israelitischer Bund - Helbing &amp; Lichtenhahn, 1997); <em> Die Schweiz und die Flüchtlinge zur Zeit des Nationalsozialismus </em> (Bern: Unabhängige Expertenkommision Schweiz - Zweiter Weltkrieg, 1999).</p>
+</div> </div>
+                                </p>
+                            </div>   </div>
+
+<h1 id="id4">Illegalität</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>Die ersten Rückweisungen, vor allem die Abweisung der Reisenden aus dem Zug vom 11. auf dem 12. März 1938, zeigte schnell die gewünschte abschreckende Wirkung: In Wien verbreitete sich bald die Nachricht, dass österreichische Staatsbürger kaum noch legal über die Grenze kämen. Um so mehr nahmen die illegalen Versuche zu. Die Abriegelung der Grenze zeigt daher auch, wie solche Maßnahmen illegale Reaktionen und Verhaltensweisen förderten. Die erprobten Schmuggelwege und Netzwerke, die früher vor allem zur Beförderung illegaler Güter, politischer Druckwerke und politischer Flüchtlinge verwendet wurden, wurden jetzt reaktiviert.</p>
+<p>Entlang der tschechoslowakisch-österreichischen Grenze fanden die illegalen Grenzübertritte vor allem im niederösterreichisch-südmährischen Bereich statt, am häufigsten zwischen Retz in Österreich und Znaim (Znojmo) in der Tschechoslowakei. Die Wahl dieses Grenzabschnitts hatte nicht nur mit der relativ zugänglichen Landschaft zu tun, sondern wahrscheinlich auch mit den existierenden Schmuggelnetzwerken.</p>
+<p>Die illegalen Wege wurden aber nicht nur von AkteurInnen wie SchmugglerInnen oder politischen AktivistInnen verwendet. Auch die Polizei bzw. – nach dem „Anschluss“ – die SA führte unerwünschte AusländerInnen zur Grenze und schickte sie unter der Androhungen, im Falle der Rückkehr erschossen zu werden, auf die andere Seite. So beschreibt etwa Felix Stiastny seine Flucht aus Wien: Nachdem ihm die legale Reise mit der Bahn versperrt wurde, fuhr er mit dem Autobus zur tschechoslowakischen Grenze und versuchte nach Znaim zu gelangen. In Kleinhaugsdorf wurde er von uniformierten Männern, die er als SS beschrieb, aufgehalten und nach Wertsachen durchsucht. Am Abend wurde er mit anderen Flüchtlingen in kleineren Gruppen heimlich über die Grenze geschickt. Er und der Großteil seiner Gruppe wurden beim ersten Versuch von tschechoslowakischen Grenzpolizisten zurückgeschickt. Stiastny versuchte es sofort erneut und gelang diesmal nach Znaim, wo ihm die jüdische Gemeinde eine Fahrkarte nach Olmütz (Olomouc) kaufte, wo seine Tante lebte.</p>
+<p/>
+<p>Die schnelle Beförderung der Flüchtlinge aus dem Grenzgebiet beweist, dass sich die jüdischen Gemeinden der außerordentlichen Natur dieses Raumes bewusst waren, in dem sich militärische Verteidigungsmaßnahmen, Angst vor Spionen mit der Ausländerpolitik verknüpften. Darüber hinaus war die erst 1918 entstandene tschechoslowakisch-österreichische Grenze neu – und durchschnitt zahlreiche familiäre, gesellschaftliche bzw. wirtschaftliche Verbindungen.</p>
+<p>Viele, wahrscheinlich sogar die meisten, illegalen Grenzübertritte waren jedoch nicht erfolgreich. In einem extremen Fall berichtete die Polizei in Bratislava über den Selbstmord eines jüdischen Flüchtlings, der – zusammen mit einem Schmuggler – von der tschechoslowakischen Grenzwache erwischt wurde. Die Abweisungspraxis beeinträchtigte auch die Quellenlage: Mit jenen Flüchtlingen, die in der Grenzzone (etwa 15 Kilometer von der Grenzlinie entfernt) aufgehalten und zurückgeschickt wurden, musste kein Protokoll aufgenommen werden. Soweit bekannt, registrierten tschechoslowakische Behörden nicht einmal die Namen der auf diese Weise kurzerhand zurückgeschickten Flüchtlinge.</p>
+<p/>
+<p>Eine Zeit lang war es möglich, mit dem regulären Flugverkehr in die Tschechoslowakei zu gelangen. In einigen Fällen, so fand die Prager Polizei heraus, kamen Reisende am Flughafen Prag-Ruzyně mit einem Transfer-Ticket (z. B nach Amsterdam) an und tauchten statt ihrer Weiterreise in der Stadt unter. Die Flucht mit dem Flugzeug war (wie der Luftverkehr im Allgemeinen) ein neues Phänomen und die Behörden rechneten offensichtlich kaum mit der Möglichkeit, dass jene Reisenden, die sich die teuren Flugtickets leisten konnten, illegal einreisen würden. Auch die Flughafen-Grenze war neu und die Flüchtlings-„Krise“ trug zu ihrer Festigung bei.</p>
+<p/>
+<p>Jüdinnen und Juden mit tschechoslowakischer Staatsbürgerschaft waren eine spezifische Gruppe der Flüchtlinge aus Österreich. Der “Anschluss” trug auch zur Destabilisierung der außenpolitischen Lage der Tschechoslowakei bei, was sich unter anderem an dem schwachen Schutz der tschechoslowakischen jüdischen StaatsbürgerInnen zeigte, die in Österreich leben. Zahlreiche Berichte des tschechoslowakischen Justizministerium, die Noten des Außenministeriums sowie Protokolle zu einzelnen Flüchtlingen belegen die Kündigungen, Zwangsräumungen ihrer Wohnungen und Geschäfte, die Gewalt und die direkte Vertreibung.</p>
+                            </div>
+</div>
+<h1 id="id5">Die Flucht der „polnischen“ Jüdinnen und Juden</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>Einer bestimmten Gruppe von Jüdinnen und Juden wurde der Grenzübertritt erlaubt: jenen Personen mit polnischer Staatsbürgerschaft und gültigen polnischen Reisedokumenten. In der Zwischenkriegszeit befanden sich in Österreich, insbesondere in Wien, zahlreiche Jüdinnen und Juden, die ursprünglich aus dem Gebiet des späteren polnischen Staates stammten und nie die österreichische Staatsbürgerschaft erlangten. Viele flohen im Ersten Weltkrieg vor der russischen Offensive und aus Angst vor Pogromen und fanden im Landesinneren, vor allem in Österreich, Böhmen und Mähren, Zuflucht. Während des Krieges und nach Kriegsende wurden sie zum Ziel gehässiger antisemitischen Kampagnen, durch die – unter anderem – auch der Charakter der Staatsbürgerschaft in den neuen Nationalstaaten geformt wurde. In Österreich wurden Flüchtlinge aus Galizien explizit von der Staatsbürgerschaft ausgeschlossen und der sozialdemokratische Landeshauptmann von Niederösterreich und Wien, Albert Sever ordnete im Sommer 1919 eine Ausweisung der noch verbleibenden jüdischen Flüchtlinge an.<a name="sdfootnote1anc" href="#sdfootnote1sym" class="footnote-ref">
+                                        <sup>1</sup>
+                                    </a>
+                                </p>
+<p>Die Kampagnen gegen die jüdischen Flüchtlinge aus dem Ersten Weltkrieg förderten die Ausweisungsphantasien (ironisch verarbeitet z. B. von Hugo Bettauer in „Die Stadt ohne Juden“), die nach dem „Anschluss“ schnell reaktiviert werden konnten. Wie auch in Deutschland nach dem Jänner 1933 wurden „Ostjuden“ zur ersten Zielscheibe der Gewalt der SA und der Polizei. Sie wurden aus ihren Wohnungen ausgewiesen und ihre Geschäfte wurden gesetzwidrig und oftmals spontan beschlagnahmt. Häufig erschien eine Gruppe von SA-Mitgliedern, demolierte die Einrichtung und verlangte Zahlungen oder Sachspenden. Die SA oder die Polizei befahl ihnen, binnen einer kurzen Frist Deutschland zu verlassen.</p>
+<p/>
+<p>Für die Tschechoslowakei galten die “polnischen” Jüdinnen und Juden als unerwünschte Gruppe. Die gehässigen Kampagnen gegen die Flüchtlinge aus dem Ersten Weltkrieg und das Bild des “Ostjuden” prägten die behördliche Praxis gegen diese Gruppe mit. Nach dem “Anschluss” erlaubte die Tschechoslowakei jenen Flüchtlinge die Durchreise bis zur polnischen Grenze, die über gültige polnische Reisedokumente verfügten. Nachdem die Behörden fast panisch ein Untertauchen dieser Jüdinnen und Juden auf tschechoslowakischem Gebiet befürchteten, ordnete das Innenministerium an, sie in Lundenburg (Břeclav) immer zum Ausstieg aus dem Zug zu zwingen und begleiteten sie in regelmäßigen Abständen unter polizeilicher Bewachung bis zur polnischen Grenze.</p>
+<p>Es handelte sich dabei um keine kleine Gruppe. Die telefonischen Berichte an die Landesbehörde Brünn vom März 1938 zeigen eine Zahl von etwa fünfzig bis Hundert polnischen Jüdinnen und Juden, die auf diese Weise täglich nach Polen, “zurückkehrten”. Insgesamt wurden dadurch tausende, wohl etwa 5000, Ausgewiesene über die Tschechoslowakei geschleust. Die erzwungene “Rückkehr” der “polnischen” jüdischen BürgerInnen, die in Österreich lebten, wurde zum Anlass einer Revision des polnischen Staatsbürgerschaftsgesetzes, die noch im März vom polnischen Sejm (Parlament) gesetzlich festgelegt wurde: Die im Ausland lebenden polnischen BürgerInnen, die sich angeblich dem Heimatland entfremdet hatten, wurden damit denaturalisiert.<a name="sdfootnote2anc" href="#sdfootnote2sym" class="&#34;footnote-ref">
+                                        <sup>2</sup>
+                                    </a>
+                                </p>
+<p/>
+<div id="sdfootnote1">
+<p class="footnote">
+                                        <a name="sdfootnote1sym" href="#sdfootnote1anc">1</a> Beatrix Hoffmann-Holter, „Abreisendmachung“. Jüdische Kriegsflüchtlinge in Wien 1914 bis 1923 (Wien - Köln - Weimar: Böhlau, 1995).</p>
+</div>
+<div id="sdfootnote2">
+<p class="footnote">
+                                        <a name="sdfootnote2sym" href="#sdfootnote2anc">2</a> Vgl. vor allem Jerzy Tomaszewski, <em>Auftakt zur Vernichtung</em> (Osnabrück: Fibre, 2002).</p>
+</div>
+                            </div>    </div>
+<h1 id="id6">Ausweisung der burgenländischen Jüdinnen und Juden</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>Die SA verhielt sich gegenüber den Jüdinnen und Juden im Burgenland ähnlich wie gegenüber den „polnischen“ Jüdinnen und Juden. In dieser „neuen“ Grenzregion mit unsicherer Identität, die erst nach dem Ersten Weltkrieg Österreich zugeordnet worden war, wurden Jüdinnen und Juden, wie z. B. auch im Sudetenland nach dem „Münchner Abkommen“, als Nicht-StaatsbürgerInnen behandelt.<a name="sdfootnote1anc" href="#sdfootnote1sym" class="footnote-ref">
+                                        <sup>1</sup>
+                                    </a> Studien über “Borderlands” bewiesen, dass gerade in den Grenzregionen oft die charakteristischen Merkmale der Nation und der Staatsbürgerschaft ausgehandelt und visualisiert werden. Kleinere Gruppen burgenländischer Jüdinnen und Juden wurden über die nahen Grenzen in die Tschechoslowakei, nach Ungarn und Jugoslawien vertrieben. Alle drei Nachbarstaaten reagierten mit Grenzsperren und schickten die Vertriebenen zurück.</p>
+<p>Die Radikalität und die Geschwindigkeit der burgenländischen Ausweisungspraxis sowie der restriktive Charakter der Flüchtlingspolitik der Nachbarstaaten wird durch den Fall der Jüdinnen und Juden aus Kittsee und Pama verdeutlicht, die in der Nacht von 16. auf 17. April 1938 durch die SA aus ihren Häusern geholt und in der Dunkelheit auf Fischerbooten über die Donau auf die tschechoslowakische Seite geschmuggelt wurden. Die Gruppe von etwa fünfzig Personen, einschließlich alter Menschen und Kinder, wurde in der Nähe von Bratislava auf einer Insel unterhalb der tschechoslowakischen Ortschaft Theben (Devín) durchnässt in der Kälte ihrem Schicksal überlassen. Als die Vertriebenen am nächsten Tag von der tschechoslowakischen Gendarmerie entdeckt wurden, erlaubte man der orthodoxen jüdischen Gemeinde in Bratislava, die österreichischen Jüdinnen und Juden mit koscherem Essen zu versorgen; danach wurden sie jedoch über die Schubstation in Bratislava wieder nach Österreich auf kurzem Weg ausgewiesen. Ähnliche Vorgänge wiederholten sich anschließend an der österreichisch-ungarischen Grenze und ein Teil dieser Menschen verblieb in elenden Bedingungen im Niemandsland im Antonienhof (in der Nähe des Dreiländerecks).</p>
+<p/>
+<p>Letztendlich sah sich die orthodoxe jüdische Gemeinde in Bratislava (wie unter anderem aus den Erinnerungen von Aron Grünhut klar wird) gezwungen, die Vertriebenen auf einem Schleppboot unterzubringen, das beim ungarischen Ort Rajka an der Donau ankerte. Die Donau galt als internationales Gewässer, auf dem kein Staat den Aufenthalt der Vertriebenen verhindern konnte. Die Versorgung wurde von den Jüdinnen und Juden in Rajka übernommen und erfolgte unter stillschweigender Duldung der ungarischen Behörden. Auf dem Boot fanden auch andere aus dem Burgenland ausgewiesene Gruppen Unterschlupf.</p>
+<p/>
+<p>Wie aus dem Zeitzeugenbericht von Izchak Roth hervorgeht, waren die Lebensbedingungen an Bord vor allem für ältere Menschen unerträglich. Wegen des Raummangels konnten nicht alle Insassen zur selben Zeit schlafen, sondern wechselten sich in Schichten ab. Für Kinder organisierte die Gruppe Unterricht - vor allem Hebräischunterricht. Noch schlimmer war das Gefühl, von der ganzen Welt verlassen zu sein, wovon auch die Appelle an Hilfsorganisationen Auskunft geben. Erst nach vier Monaten gelang es den Hilfsorganisationen – vor allem der HICEM – im August 1938 unter Druck der ungarischen Regierung <a name="sdfootnote2anc" href="#sdfootnote2sym" class="footnote-ref">
+                                        <sup>2</sup>
+                                    </a> die Auswanderung für diese Flüchtlingsgruppe nach Palästina und in die Vereinigten Staaten zu organisieren.</p>
+<p/>
+<p>Der erzwungene Aufenthalt der burgenländischen Jüdinnen und Juden auf dem Donau-Schleppkahn belegt die Bedeutung des Niemandslands für die Flüchtlingserfahrung des Jahres 1938. Die zwischen den Grenzen gefangene Gruppen, die oft auf den Feldern über mehrere Wochen ausharren mussten, hatten nicht nur mit der Grenzsperre für jüdische Flüchtlinge zu tun, sondern auch mit der Verunsicherung der jüdischen Staatsbürgerschaft in Ostmitteleuropa im Kontext der Grenzrevisionen und Ausbürgerung der Jüdinnen und Juden aus NS-Deutschland. <a name="sdfootnote3anc" href="#sdfootnote3sym" class="footnote-ref">
+                                        <sup>3</sup>
+                                    </a>
+                                </p>
+<div id="sdfootnote1">
+<p class="footnote">
+                                        <a name="sdfootnote1sym" href="#sdfootnote1anc">1</a> Gert Tschögl, Barbara Tobler, und Alfred Lang, Hrsg., <em>Vertrieben. Erinnerungen burgenländischer Juden und Jüdinnen</em> (Wien: Mandelbaum, 2004).</p>
+</div>
+<div id="sdfootnote2">
+<p class="footnote">
+                                        <a name="sdfootnote2sym" href="#sdfootnote2anc">2</a> Kinga Frojimovics, <em> I Have Been a Stranger in a Strange Land. The Hungarian State and Jewish Refugees in Hungary, 1933-1945 </em> (Jerusalem: International Institute for Holocaust Research, Yad Vashem, 2007).</p>
+</div>
+<div id="sdfootnote3">
+<p class="footnote">
+                                        <a name="sdfootnote3sym" href="#sdfootnote3anc">3</a> Michal Frankl, “No Man’s Land: Moving Borders and Shifting Citizenship in 1938 East-Central Europe,” <em>Simon Dubnow Jahrbuch</em>, im Druck.</p>
+</div>
+                            </div>    </div>
+<h1 id="id7">Hilfsorganisationen</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>Die 1938 flüchtenden Jüdinnen und Juden waren für ihre tagtäglichen Bedürfnisse, die Unterstützung bei Behörden und vor allem die Auswanderung zunehmend von Hilfsorganisationen abhängig. In der Tschechoslowakei der 1930er Jahren sorgten private, entlang konfessionellen oder politischen Linien gegründete Komitees für die Flüchtlinge, die kaum staatliche Unterstützung erhielten. Nur nach dem Münchener Abkommen im September 1938 eröffnete das Sozialministerium ein Institut für Flüchtlingsfürsorge (Ústav pro péči o uprchlíky), das sich vor allem um ethnisch tschechische Flüchtlinge kümmerte. Dementsprechend schwierig war die soziale Lage der Flüchtlinge in der Tschechoslowakei, sofern sie nicht durch Familienangehörige versorgt wurden.</p>
+<p>Jüdische Flüchtlinge waren vor allem von den Diensten der jüdischen Hilfsorganisationen, wie dem jüdischen Sozialinstitut in Prag sowie von der Unterstützung der lokalen israelitischen Kultusgemeinden abhängig. In Brünn - wahrscheinlich in der Tradition der Flüchtlingshilfe aus dem Ersten Weltkrieg - wurde 1938, an der Liga für Menschenrechte eine zentrale Hilfsstelle errichtet, in der jüdische Fürsorge und verschiedene Logen zusammenarbeiteten.<a name="sdfootnote1anc" href="#sdfootnote1sym" class="footnote-ref">
+                                        <sup>1</sup>
+                                    </a>Die lokalen Initiativen waren in die transnationalen jüdischen und nichtjüdischen Hilfsnetzwerke eingebettet. Die jüdischen Gemeinden und andere Hilfsstellen waren bald von den Bedürfnissen überfordert und ihre finanziellen Mittel reichten trotz Unterstützung des JOINT nicht aus. Die jüdische HICEM bot Hilfe bei der Organisation der Auswanderung an, die aber zur Zeit der Konferenz von Évian immer schwieriger wurde.</p>
+<p/>
+<p>Trotz der materiellen Schwierigkeiten galt die größte Sorge 1938 dem Grenzübertritt und dem legalen Erhalt einer Aufenthaltsgenehmigung in dem zunehmend intoleranten Aufnahmestaat. Oft gaben die Behörden den Flüchtlingen eine kurze Frist zur Ausreise, die kaum einzuhalten war. So protestierte in Juli 1938 die Brünner Hilfsstelle gegen die Ausweisung einer Anzahl jüdischer Flüchtlinge durch die Brünner Polizei. Solche Proteste sowie auch die Appelle der tschechoslowakischen wie auch der ausländischen Organisationen für die am Schleppkahn gestrandeten burgenländischen Jüdinnen und Juden blieben jedoch üblicherweise ohne Erfolg.</p>
+<p/>
+<p>In dieser Situation sahen auch jüdische Hilfsorganisationen Flüchtlingslager als eine vorübergehende Lösung der sonst ausweglosen Situation. So plante z. B. das Sozialinstitut der jüdischen Kultusgemeinden von Groß-Prag die Unterstellung von 700 Flüchtlingen ins Lager in Svatobořice in Südmähren. Dieses von der tschechoslowakischen Regierung ab 1937 geplante und umgebaute Lager galt ursprünglich als Ersatz für die gescheiterte Konzentrierung der deutschen Flüchtlinge an der Böhmisch-Mährischen Höhen. Das Lager Svatobořice wurde jedoch erst kurz vor dem Münchner Abkommen eröffnet und beherbergte daher hauptsächlich Flüchtlinge aus den an NS-Deutschland annektierten tschechoslowakischen Grenzgebieten.</p>
+<p/>
+<p>Viele österreichische Flüchtlinge wurden später, nach dem Münchner Abkommen oder nach der Besetzung der Böhmischen Länder durch NS-Deutschland, in einem Lager in Eibenschütz (Ivančice) interniert. Das Lager Eibenschütz lag direkt hinter der neuen tschechoslowakisch-deutschen Grenze in Südmähren und wurde durch die Brünner jüdische Gemeinde in einer verlassenen Lederfabrik errichtet, um Unterkunft für Flüchtlinge aus dem Niemandsland an der Demarkationslinie zu finden. Später fanden jedoch zahlreiche staatenlose und andere Flüchtlinge Zuflucht an diesem Ort, von wo aus sie mithilfe der jüdischen Organisationen versuchten auszuwandern. Die verbliebenen Flüchtlinge wurden später in die Ghettos und Vernichtungslager deportiert.</p>
+<div id="sdfootnote1">
+<p class="footnote">
+                                        <a name="sdfootnote1sym" href="#sdfootnote1anc">1</a> Vgl. Text von Kateřina Čapková in Kateřina Čapková und Michal Frankl, Unsichere Zuflucht: Die Tschechoslowakei und ihre Flüchtlinge aus NS-Deutschland und Österreich 1933-1938 (Köln: Böhlau, 2012), 278-287.</p>
+</div>
+                            </div>    </div>
+                            </div>
+                        </section>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                        </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

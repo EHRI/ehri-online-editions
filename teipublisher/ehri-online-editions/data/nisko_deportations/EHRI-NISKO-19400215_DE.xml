@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-NISKO-19400215_DE_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Radiotelegramm von Paul Bettelheim in Lemberg an die IKG Wien betreffend Einreisemöglichkeiten</title>
+				<title xml:lang="en">Radio telegram from Paul Bettelheim in Lemberg to the IKG Vienna regarding entry options</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Winfried Garscha</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<idno>A/W 2747</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1940-02-15">15. Februar 1940</origDate>
+				<origPlace ref="http://www.geonames.org/702550/lviv.html">Lwiw</origPlace>
+				<persName ref="#ehri_nisko_bettelheim_paul">Paul Bettelheim</persName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>IKG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p>+ 651 <placeName ref="http://www.geonames.org/702550/lviv.html">LWOW</placeName> 622 33 15 1350 FK =</p>
+					<p>ELT = <orgName ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName>
+						<placeName ref="#ehri_nisko_seitenstettengasse">Seitenstettengasse 4 Wien</placeName></p>
+					<p>Arbeitet unbedingt dringend an Beschaffung von Einreisen fuer uns Herkommen der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> undenkbar da keine Existenz Antwortet auf schnellstem Wege fuer alle <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> =</p>
+					<p><persName ref="#ehri_nisko_bettelheim_paul">Paul Bettelheim</persName>
+						<placeName ref="http://www.geonames.org/702550/lviv.html">Lwow</placeName> Hetmanska 6</p>
+					<p>Original <persName ref="#ehri_nisko_loewenherz_josef">Dr. L.</persName></p>
+					<p>Kopie A.V. <persName ref="#ehri_nisko_engel_emil">Engel</persName></p>
+					<p><persName ref="#ehri_nisko_murmelstein_benjamin">Dr. Mur</persName></p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

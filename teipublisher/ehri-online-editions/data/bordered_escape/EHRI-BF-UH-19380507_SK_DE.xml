@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19380507_SK_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="cs">Krajinský úrad v Bratislavě o přeložení burgenlandských uprchlíků na jinou loď</title>
+				<title xml:lang="de">Bericht über die Verlegung der ausgewiesenen Jüdinnen und Juden auf ein anderes Schiff</title>
+				<title xml:lang="en">Regional Office in Bratislava about the transfer of Burgenland refugees to another ship</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938 </orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</orgName><address>
+								<street>Archivní 2257/4</street>
+								<postCode>149 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+						<idno>Sign. 225-1186-16/25</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16/25. <textLang mainLang="cs">Originál česky.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1938-05-07">7. května 1938</origDate>
+				<orgName ref="#ehri_bf_ku_bratislava">Krajinský úrad v Bratislavě</orgName>
+				<origPlace ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>úřední dokumenty</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik/burgenland"/>
+			</textClass>
+			<langUsage>
+				<language ident="sk">slovensky</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="sk">
+					<!--<p><orgName>PREZÍDIUM KRAJINSKÉHO ÚRADU</orgName> V <placeName
+          ref="http://www.geonames.org/3060972/bratislava.html">BRATISLAVE</placeName> .</p>
+      <p>
+        Čís. 27.157/1938 prez. 
+      </p>
+      <p><placeName ref="http://www.geonames.org/3060972/bratislava.html">BRATISLAVA</placeName>,
+        dňa <date when="1938-05-07">7 mája 1938</date>.</p>-->
+					<p>Udalosti v <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakúsku</placeName>.</p>
+					<p rend="center"><orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749">Prezídiu ministerstva vnútra</orgName></p>
+					<p rend="right"><hi rend="u">V</hi>  <placeName ref="http://www.geonames.org/3067696/prague.html">Prahe</placeName>. </p>
+					<p>K telefonickej zpráve podanej dňa <date when="1938-05-04">4.mája 1938</date> pánu odborovému radcovi <persName ref="#ehri_bf_matejka">Dr Matejkovi</persName> sa oznamuje podľa hlásenia <term ref="#ehri_bf_bezirksbehoerden">okresného úradu</term> v <placeName ref="http://www.geonames.org/3057757/samorin.html">Šamoríne</placeName> ďalej toto:</p>
+					<p>Dňa <date when="1938-05-04">4.mája 1938</date> odpoludnia doviezla motorová loď princ "Andrej" <placeName ref="http://www.geonames.org/390903/hellenic-republic.html">grécku</placeName> vlečnú loď, ktorá má nápis "Leartis" a je bez vlajky, menšia síce, ale pre ubytovanie <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">židovských</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrantov</term> pohodlnejšia ako pôvodná <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">francúzska</placeName> vlečná loď. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Židia</term> z <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">francúzskej</placeName> lodi boli preložení do lodi "Leartis". Potom sa motorový čln so starým <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">francúzskym</placeName> vlečným člnom vrátil smerom k <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislave</placeName>. Nová vlečná loď, na ktorej teraz sú <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">židovskí</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">uprchlíci</term> ubytovaní, bola prikotvená na tom istom mieste pri <placeName ref="http://www.geonames.org/719819/hungary.html">maďarskom</placeName> brehu, kde bola loď <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">francúzska</placeName>.</p>
+					<p>K tomu poriečny plavebný úrad v <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislave</placeName> /<persName>Ing. Karlický</persName>/ sdelil, že <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">francúzska</placeName> vlečná loď
+						"Guyenne", na ktorej povodne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">židovskí uprchlíci</term> boli ubytovaní, bola podľa hlásenia poriečneho plavebného úradu pritiahnutá zpät do <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavy</placeName> a je teraz prikotvená prázdna v zimnom prístave.</p>
+					<p>D‘alej sdelil, že loď "Leartis" patrí <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">francúzskej</placeName> plavebnej spoločnosti SSND. Riaditeľ tejto plavebnej spoločnosti slúbil poriečnemu plavebnému úradu v <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislave</placeName>, že loď "Leartis" nechá prikotvenú u <placeName ref="http://www.geonames.org/719819/hungary.html">maďarského</placeName> brehu a že bez vedomia poriečneho plavebného úradu sa s touto loďou nič
+						nepodnikne.</p>
+					<p rend="center">Za krajinského prezidenta:</p>
+					<p rend="center">[podpis]</p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<!--<p>PRÄSIDIUM DER LANDESBEHÖRDE IN PRESSBURG.
+      </p>
+      <p>Nr. 27.157/1938 Präs. </p>
+      <p><placeName ref="http://www.geonames.org/3060972/bratislava.html">PRESSBURG</placeName>, den
+          <date when="1938-05-07">7. Mai 1938</date>.</p>-->
+					<p>Geschehnisse in <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName>.</p>
+					<p>An das Präsidium des <orgName ref="https://portal.ehri-project.eu/admin/authorities/ehri_cb-001713">Innenministeriums</orgName></p>
+					<p>In  <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>. </p>
+					<p>In Ergänzung zur telefonischen Nachricht vom <date when="1938-05-04">4. Mai 1938</date> an Herrn Sektionsrat <persName ref="#ehri_bf_matejka">Dr Matejka</persName> wird nach Meldung der <term ref="#ehri_bf_bezirksbehoerden">Bezirksbehörde</term> in <placeName ref="http://www.geonames.org/3057757/samorin.html">Sommerein</placeName> weiterhin folgendes gemeldet:</p>
+					<p>Am <date when="1938-05-04">4. Mai 1938</date> nachmittags führte das Motorboot Prinz "Andrej" ein <placeName ref="http://www.geonames.org/390903/hellenic-republic.html">griechisches</placeName> Schleppschiff ein, das die Aufschrift "Leartis" trägt und nicht beflaggt ist, zwar
+						kleiner, aber für die Unterbringung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> bequemer als das ursprüngliche <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französische</placeName> Schleppschiff. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> wurden von dem <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französischen</placeName> Schiff auf das Schiff „Leartis“ verlegt. Dann kehrte das Motorboot
+						mit dem alten <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französischen</placeName> Schleppboot nach <placeName ref="http://www.geonames.org/3060972/bratislava.html">Pressburg</placeName> zurück. Das neue Schleppschiff, auf dem die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term> Flüchtlinge nun untergebracht sind, wurde am selben Ort am <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Ufer verankert, wo sich das
+							<placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französische</placeName> Schiff befand.</p>
+					<p>Dazu teilte die Flussschifffahrtsbehörde in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Pressburg</placeName> /<persName ref="#EHRI-BF-19380507_2">Ing. Karlický</persName>/ mit, dass das <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französische</placeName> Schleppschiff "Guyenne", auf dem die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">jüdischen Flüchtlinge</term> ursprünglich untergebracht waren,
+						nach dem Bericht der Flussschifffahrtsbehörde zurück nach <placeName ref="http://www.geonames.org/3060972/bratislava.html">Pressburg</placeName> gezogen wurde und nun leer im Winterhafen verankert liegt.</p>
+					<p>Weiterhin teilte er mit, dass das Schiff "Leartis" der <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französischen</placeName> Schifffahrtsgesellschaft SSND gehört. Der Direktor dieser Schifffahrtsgesellschaft versprach der Flussschifffahrtsbehörde
+						in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Pressburg</placeName>, dass er das Schiff "Leartis" am <placeName ref="http://www.geonames.org/719819/hungary.html">ungarischen</placeName> Ufer verankert lässt und dass mit diesem Schiff nichts ohne das
+						Wissen der Flussschifffahrtsbehörde unternommen wird.</p>
+					<p>Für den Landespräsidenten:</p>
+					<p>[Unterschrift]</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

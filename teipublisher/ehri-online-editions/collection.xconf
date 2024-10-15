@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dbk="http://docbook.org/ns/docbook">
+     <fulltext default="none" attributes="false"/>
+        <lucene>
+            <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
+            <text match="/tei:TEI/tei:text">
+                <ignore qname="tei:div"/>
+                
+                <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
+                <field name="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
+                <field name="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
+                <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <field name="date" expression="nav:get-metadata(ancestor::tei:TEI,'date')" type="xs:date"/>
+                <field name="file" expression="util:document-name(.)"/>
+                <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <field name="institution" expression="nav:get-metadata(ancestor::tei:TEI, 'institution')"/>
+                <field name="status" expression="nav:get-metadata(ancestor::tei:TEI, 'status')"/>
+                <field name="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
+                
+                <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
+                <facet dimension="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
+                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'date'), '-')" hierarchical="yes"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="institution" expression="nav:get-metadata(ancestor::tei:TEI, 'institution')"/>
+                <facet dimension="status" expression="nav:get-metadata(ancestor::tei:TEI, 'status')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
+                <facet dimension="topic" expression="nav:get-metadata(ancestor::tei:TEI, 'topic')"/>
+            </text>
+            
+
+            <text qname="tei:div">
+                <ignore qname="tei:div"/>
+                <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
+                <facet dimension="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
+                <facet dimension="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" hierarchical="yes"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="institution" expression="nav:get-metadata(ancestor::tei:TEI, 'institution')"/>
+                <facet dimension="status" expression="nav:get-metadata(ancestor::tei:TEI, 'status')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::tei:TEI, 'keyword')"/>
+                <facet dimension="topic" expression="nav:get-metadata(ancestor::tei:TEI, 'topic')"/>
+            </text>
+
+            <text qname="tei:head"/>
+            <text match="//tei:titleStmt/tei:title"/>
+            <text match="//tei:msDesc/tei:head"/>
+            
+            <text qname="dbk:article">
+                <ignore qname="dbk:section"/>
+                <field name="title" expression="nav:get-metadata(., 'title')"/>
+                <field name="file" expression="util:document-name(.)"/>
+                
+                <facet dimension="genre" expression="nav:get-metadata(., 'genre')" hierarchical="yes"/>
+                <facet dimension="from" expression="nav:get-metadata(., 'from')"/>
+                <facet dimension="to" expression="nav:get-metadata(., 'to')"/>
+                <facet dimension="language" expression="nav:get-metadata(., 'language')"/>
+                <facet dimension="date" expression="nav:get-metadata(., 'date')" hierarchical="yes"/>
+                <facet dimension="place" expression="nav:get-metadata(., 'place')"/>
+                <facet dimension="institution" expression="nav:get-metadata(., 'institution')"/>
+                <facet dimension="status" expression="nav:get-metadata(., 'status')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(., 'keyword')"/>
+                <facet dimension="topic" expression="nav:get-metadata(., 'topic')"/>
+            </text>
+    
+            <text qname="dbk:section">
+                <ignore qname="dbk:section"/>
+                <facet dimension="genre" expression="nav:get-metadata(ancestor::dbk:article, 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::dbk:article, 'language')"/>
+                <facet dimension="from" expression="nav:get-metadata(ancestor::dbk:article, 'from')"/>
+                <facet dimension="to" expression="nav:get-metadata(ancestor::dbk:article, 'to')"/>
+                <facet dimension="date" expression="nav:get-metadata(ancestor::dbk:article, 'date')" hierarchical="yes"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::dbk:article, 'place')"/>
+                <facet dimension="institution" expression="nav:get-metadata(ancestor::dbk:article, 'institution')"/>
+                <facet dimension="status" expression="nav:get-metadata(ancestor::dbk:article, 'status')"/>
+                <facet dimension="keyword" expression="nav:get-metadata(ancestor::dbk:article, 'keyword')"/>
+                <facet dimension="topic" expression="nav:get-metadata(ancestor::dbk:article, 'topic')"/>
+            </text>
+            <text qname="dbk:title"/>
+        </lucene>
+    </index>
+</collection>

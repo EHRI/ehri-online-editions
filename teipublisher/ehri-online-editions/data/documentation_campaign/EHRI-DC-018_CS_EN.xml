@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DC-018_CS_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Zeev Scheck, The Violin</title>
+				<title xml:lang="de">Zeev Scheck, Die Violine</title>
+				<title xml:lang="cs">Zeev Scheck, Housle</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <persName ref="#ehri_dc_shek_zeev">Zeev Scheck</persName>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Auschwitz-Birkenau</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Prisoners</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS men</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Zeev Scheck lyrically describes his recollections of an old Jewish prisoner from Lithuania, who managed to smuggle his violin into the Auschwitz-Birkenau camp, but was later caught and tortured by an SS member.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-018_01.png" n="1"/>
+					<p>Housle</p>
+					<p>Stáli jsme seřazeni v 5tistupech v předsíni <q>lázní</q> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>. Uvítací přednáška <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáka</term>,
+						která mimo jiných přívětivých slov obsahovala odpověď na otázku, co si smíme z našich věcí ponechat, byla zakončena rázně germánských <q>Nichts</q>, které nepřipouštělo žádných nedorozumění…</p>
+					<p>Před malou chvílí bylo možno pozorovat ještě jednotlivce, s dostatečnou duchapřítomností, jak přendávají z torny různé věci do baťohu, z baťohu do kapes <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">kalhot</term> a obráceně; to podle toho,
+						jaké domněnky se roztrušovaly o tom, co nám bude ponecháno a co bude nutno odevzdat. Na naše zavazadla, která zůstala ve vlaku, již nikdo nepomýšlel. Odložili jsme tedy věci a začali jsme se svlékat. V určitém smyslu osudné <q>nichts</q> bylo ulehčením. A přece jen jsem v
+						jednom okamžiku zaváhal. To, když jsem z náprsní kapsy vytáhl malou kresbičku, o které jsem doufal, že mne bude provázet kamkoli…</p>
+					<p>A tu jsem zpozoroval, že vedle mne stojí starý <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">litevský</placeName> Žid. Bůh sám ví, proč jej nevzal k sobě do nebe kratší cestou přímo na nádraží při roztřiďování a proč jej odsoudil k tomu, projíti
+						napřed peklem nejstrašnějším… Stál tedy vedle mne a pod jednou paží držel housle v plátěném obalu a pod druhou malý pytlíček s řemínky na modlení. Pozoroval jsem jej ze strany, jak se sklání k svým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatům</term>, jako by nevěděl: co vzít a co nechat. Jednou klesá ruka s houslemi, po druhé s řemínky. Konečně se rozhodl. Položil pytlík s řemínky, přikryl jej <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">košilí</term> a
+						vztyčil se s houslemi pod paží. Vida, že jej pozoruji, začervenal se a šeptal, jako by se omlouval: <q>I na nich se budu modlit, věřte mi, i na nich. Pán Bůh odpustí…</q></p>
+					<p>Většina z nás, kteří jsme byli nacpáni do místnosti, se přece jen odhodlala to nebo ono propašovati. Jeden knížku, druhý obrázek milé a starý <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">litevský</placeName> Žid housle.</p>
+					<p>Ale když jsem viděl, jak první – žádající o svolení ponechati si bibli – je zfackován a jak bible letí oknem, když jsem viděl, jak fotografie milé toho dalšího je za řehotu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáka</term> trhána,
+						podíval jsem se na svůj obrázek, podíval jsem se na něj tak, že si jej oči obkreslily do nejhlubšího místa duše a uložil papír mezi ostatní věci, odnášeje si podobu na místě, kam jedině ani ruka <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáka</term> neuměla zasáhnout. Podobně jako já udělala většina lidí. Postupovali jsme pomalu. Byli jsme již těsně před prohlížejícím <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSákem</term>, když jsem zjistil, že
+							<placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">Litevec</placeName> ještě stále drží v třesoucí se paži své housle. Prošel jsem rychle prohlídkou. Když jsem se ohlédl, spatřil jsem starce, jak šeptá špatnou němčinou: <q>Nechte mi ty housle,
+							staré, bezcenné housle, jako já, starý a bezcenný člověk. Nechte mi ty housle.</q> Všichni stáli v místnosti strnulí hrůzou. Dá jej <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">zbičovat</term> jako toho, který chtěl propašovat prsten,
+						nebo jej pošle zpátky Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000272">Mengelemu</persName>, jako důkaz omylu, který se mu stal při třídění?</p>
+					<p>Ale <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSák</term> zprvu jen, jako by žasl nad bezpříkladnou odvahou a drzostí starce, po chvíli na něj zařval: <q>Hau ab!</q> a ukázal prstem, aby šel dále. Stařec se třásl na celém těle. V ruce
+						držel pevně svoje housle.</p>
+					<pb facs="EHRI-DC-018_02.png" n="2"/>
+					<p>Nevěděli jsme, pohnulo-li <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSákem</term> svědomí, nebo měl-li jiné ďábelské myšlenky, věděli jsme však všichni, že historie starce a houslí není ještě skončena.</p>
+					<p>Mám Vám vykládat, kolik lstí, šikovnosti a odvahy bylo ještě zapotřebí k tomu, propašovat housle až do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">lágru</term>? Rád bych Vám to napsal, ale nenalézám slov. Jak každý kápo, který nás
+						seřazoval, po nich šahal, jak je stařec schovával před holičem, jak se proplétal mezi řadami sprch, kryje je vždy jednou částí těla, aby nezmokly, jak slíbil poloviční porci své chudé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">večeře</term> vyžranému <q>Stubendienstu</q>, aby mu je schoval během <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">apelu</term> a jak konečně uléhal s houslemi na kavalec, objímaje je jako milenku…</p>
+					<p>Ale večer přinesl rozuzlení. Většina lidí již spala, když vrazil dovnitř <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSák</term> z lázní a zařval ve své mateřštině něco, co nelze do jiné kulturní řeči přeložit: „Der Saujud mit der Geige,
+						her. Aber flott, flott.“ Stařec slezl z postele a pomalu šel.</p>
+					<p>Nevím podrobněji, co bylo dál. Jen z pokoje Blockältestra bylo slyšet řev, a pak hra na housle, pak zase řev, pak vyběhl 13letý <q>Läfer</q>, svedený chlapec, nahý ven a bylo slyšet zpitého <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáka</term> zpívat. A pak zavelel: <q>SPIEL WENN'S JUDENBLUT VOM MESSER SPRITZT</q> a když bylo ticho, zahřměl: <q>Hraj, co Ti poručím, nebo Ti to předvedu názorně.</q> A pak bylo slyšet <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">rány</term>, křik… Trvalo to ještě půl hodiny. Konečně se objevil starý <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">litevský</placeName> Žid s boulí pod okem, s poškrábaným obličejem a šel pomalu k svému kavalci. Ale v ruce držel svoje
+						housle.</p>
+					<p>Sedl se na kavalec. Šeptal: <q>Bůh mě potrestal. Neuposlechl jsem výzvu proroka. Na březích babylonských seděli a plakali, vzpomínající na Sion</q> a zaštkal. <q>Já však jsem zpíval a hrál písně radosti v zemi cizinců. Pán Bůh mě potrestal…</q> Ale náhle se vztyčil a jal se
+						vší silou tlouci houslemi do kavalce. Chtěli jsme ho zadržet, ale nedal se a mlátil a bil jako šílený dřevo o dřevo, až mu zůstal v ruce jen pahýl. A při každém úderu přísahal: <q>Již nikdy, nikdy nezahraji.</q> Pak klesl na kavalec a tiše plakal…</p>
+					<p>Myslím, že mu bylo dáno dodržeti přísahu. Naposled jsem ho viděl v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-224" type="camp">Dachau-Kauferingu</placeName> ležet na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tyfovém</term> bloku. Ošetřující <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékař</term> – <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Čech</placeName> – mi o něm řekl: <q>Divný člověk, fantazíruje z
+							horečky celé věty <persName ref="#ehri_dc_eitel_mendelssohn_bartholdy_felix">Mendelsohnova</persName> houslového koncertu. Ale /ukázal pohybem významně na hlavu/ to víte, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">skvrnitý
+							tyf</term>, je to zlá <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemoc</term></q>.</p>
+					<p>Od té doby jsem ho neviděl.</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Vilém Zeev Scheck</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-018_01.png" n="1"/>
+					<p>The Violin</p>
+					<p>We stood in rows of 5 at the entrance to the <q>baths</q> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>. The welcome lecture delivered by an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term>, which contained, among other friendly words, the answer to the question as to what belongings we would be allowed to keep, was concluded with a forceful Germanic utterance of <q>Nichts,</q> brooking no misunderstanding…</p>
+					<p>Only a short while ago, it was still possible to observe people, with sufficient presence of mind, transfer things from bag to rucksack, from rucksack to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pants</term> pocket, and vice versa,
+						depending on what we all assumed would or wouldn’t be taken from us. Nobody spared a thought to our luggage, which had been left on the train. So we set our things aside and began to undress. In a certain sense, the fateful <q>nichts</q> was a relief. Still, at one point, I
+						hesitated, pulling out of my breast pocket a small drawing that I hoped would accompany me wherever I went…</p>
+					<p>That’s when I noticed that an old <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName> Jew was standing next to me. Only God knows why he wasn’t taken to heaven right at the train station during the sorting process, but instead was
+						condemned to go through the most terrible hell first… He stood next to me, holding a violin in a canvas case under one arm and a small bag with prayer straps under the other. I watched him from the side as he bent down to his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, as if he didn’t know what to keep and what to leave. First the hand with the violin dropped down, then the hand with the straps. He finally made up his mind. He laid down the sack
+						with the straps, covered it with his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shirt</term>, and stood upright with the violin under his arm. Noticing that I was observing him, he blushed and whispered, as if apologizing: <q>I will pray
+							over it, too, believe me, over it, too. The Lord God will forgive…</q></p>
+					<p>Most of us crammed into this room were determined to smuggle in this or that item. One a book, the other a picture of a loved one, and the old <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName> Jew a violin.</p>
+					<p>But when I saw the first person in line ask permission to keep a bible being slapped and seeing the bible fly out the window, when I saw the photograph of the loved one of the man behind him torn up by the laughing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term>, I took a good look at my picture, gazed at it in such a way that my eyes projected it onto the deepest part of my soul, and placed the paper among my other things, taking its
+						likeness to a place beyond the reach of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term>’s hand. Most of us did what I had just done. The line moved very slowly. When we were just in front of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> checking us, I discovered that the <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName> was still holding his violin in his trembling
+						hands. They searched me rather quickly and when I looked back, I saw the old man whispering in broken German: <q>Let me keep my violin, this old worthless violin, like me, an old and worthless man. Let me keep my violin.</q> Everyone in the room stood frozen in horror. Would
+						he be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">flogged</term> like the one who had tried to smuggle in a ring, or would he be sent back to Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000272">Mengele</persName> as proof of the mistake he had made during the sorting process?</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> was first dumbstruck at the unprecedented action and insolence of the old man, but then shouted at him: <q>Hau ab!</q> and pointed his finger, ordering him to go forward. The
+						old man trembled all over and held his violin firmly in his hands.</p>
+					<pb facs="EHRI-DC-018_02.png" n="2"/>
+					<p>We didn’t know whether the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> had had a pang of conscience or was perhaps spurred on by more evil thoughts, but all of us knew that the story of the old man and the violin was far from
+						over.</p>
+					<p>Should I even bother to tell you how much guile, cleverness, and courage it took to smuggle a violin into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>? I’d love to convey it in writing, but I don’t have the words to do so.
+						Every capo who lined us up wanted to grab them. The old man hid them from the barber and weaved through the rows of showers, always covering them with one part of his body so they wouldn’t get wet. He promised half of his meager <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">dinner</term> to the greedy <q>Stubendienst</q> in exchange for hiding them during the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll call</term>. Then,
+						finally, he laid down with his violin on the cot, hugging it to him as he would a lover…</p>
+					<p>It all unraveled in the evening. Most people were already sleeping when the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> from the baths burst in and shouted something in his native language that cannot be translated into any
+						other cultured language: <q>Der Saujud mit der Geige, her. Aber flott, flott.</q> The old man got up from his bed and slowly walked out.</p>
+					<p>I don’t know in detail what happened after that. You could hear screaming from the Blockältester’s room, then the sound of a violin being played, then screams again, then a 13-year-old <q>Läufer</q>, a seduced boy, ran naked out of the room and we could hear the drunk <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> singing. Then he shouted: <q>SPIEL WENN'S JUDENBLUT VOM MESSER SPRITZT.</q> When he got no response, he thundered: <q>Play what I order you to play or you'll get what’s coming to
+							you.</q> We heard <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">blows</term> and screams… this went on for half an hour. Finally, the old <placeName ref="https://www.geonames.org/597427/republic-of-lithuania.html">Lithuanian</placeName>
+						Jew returned with a bump under his eye, scratches all over his face, and he walked slowly back to his cot, still holding the violin in his hands.</p>
+					<p>He sat down on the cot and whispered: <q>God has punished me. I ignored the call of the prophet. They were sitting on the shores of Babylon and weeping, remembering Zion</q> he wailed. <q>I sang and played songs of joy in the land of strangers. The Lord God has punished
+							me…</q> He suddenly stood up and began to beat his violin against his cot with all his might. We wanted to stop him, but he wouldn’t let us. He kept on breaking and beating it like a madman, wood against wood, until only a stump remained in his hand. With every blow, he
+						swore: <q>I’ll never, ever play again.</q> Then he sank down on his cot and silently wept…</p>
+					<p>I believe he was fated to uphold his oath. I last saw him in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-224" type="camp">Dachau-Kaufering</placeName>, lying in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">typhus</term> block. The attending <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term>, a <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czech</placeName>, had this to say about him: <q>A strange man. He
+							fantasizes whole movements of <persName ref="#ehri_dc_eitel_mendelssohn_bartholdy_felix">Mendelssohn’s</persName> violin concerto in his feverish state.</q> Pointing to his head, he went on: <q>you know, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">spotted typhus</term> is an evil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">disease</term></q>.</p>
+					<p>I never saw him again.</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Vilém Zeev Scheck</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-ET-ZIH30100905_PL_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Anzelm Landesmann, the life of a Jewish boy in hiding in the Ukrainian village</title>
+				<title xml:lang="de">Anzelm Landesmann, das Leben eines jüdischen Jungen im Versteck im ukrainischen Dorf</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michał Czajka</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Marta Wojas</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Dagmara Chełstowska</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</orgName><address>
+								<street>Tłomackie 3/5</street>
+								<postCode>00-090</postCode>
+								<settlement>Warsaw</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll. 301)</collection>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Historical Institute in Warsaw, Holocaust Survivor Testimonies (coll. 301), Anzelm Landesman Testimony (301/905). <textLang mainLang="pl">Original in Polish.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="#ehri_et_landesman_anzelm">Anzelm Landesman</persName>, <persName ref="#ehri_et_gliksztejn_ida">Ida Gliksztajn</persName>, <origPlace ref="http://www.geonames.org/693700/skalat.html">Skalat</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">round ups (razzias, Aktionen)</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">hiding places</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="pl">Polish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Anzelm Landesmann regarding his wounding during the deportation of Jews from Skalat, his escape together with his brother from a transport to Belzec, after which they parted, his work on a farm until 1944, when the area was liberated by the Red Army, and his return to
+					Skalat.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="pl">
+					<!--<p>Relacja <persName ref="#ehri_et_landesman_anzelm">Anzelma Landesmanna</persName> (sygn.
+        301/905)</p>
+      <p>Maszynopis, 1 strona, 210 x 295 mm, jęz. polski</p>-->
+					<pb facs="EHRI-ET-ZIH3010905_01.jpg" n="1"/>
+					<p>II. <persName ref="#ehri_et_landesman_anzelm">Anzelm Landesmann</persName>. Lat 12. Pochodzi ze <placeName ref="http://www.geonames.org/693700/skalat.html">Skałatu</placeName>. Ma dwóch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">braci</term>, jeden jest kapralem w <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">Wojsku</term> Polskim, a drugi, lat 17, dał się ochrzcić i został u <term ref="#ehri_et_nationalities_ukrainians">Ukraińców</term> w okolicach
+							<placeName ref="http://www.geonames.org/693700/skalat.html">Skałatu</placeName>. <persName ref="#ehri_et_landesman_anzelm">Anzelm</persName> zwany przez <term ref="#ehri_et_nationalities_ukrainians">Ukraińców</term>
+						<q><persName ref="#ehri_et_landesman_anzelm">Jaśko</persName></q> przyjechał do <placeName ref="http://www.geonames.org/3099230/gliwice.html">Gliwic</placeName> z transportem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1226" type="subject">repatriantów</term> i oddany został do Domu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Dziecka</term> w <placeName ref="http://www.geonames.org/3101619/chorzow.html">Chorzowie</placeName>.</p>
+					<p><persName ref="#ehri_et_landesman_anzelm">Janek opowiada</persName>:</p>
+					<p>U nas było siedmioro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dzieci</term>. Wstałem rano. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">Akcja</term>. Ja <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">uciekłem</term> tędy, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">mama</term> tędy, młodszy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">brat</term> tędy. Gdy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">uciekłem</term>, <term ref="#ehri_et_nationalities_germans">Niemiec</term> strzelił za mną i ranił mnie w głowę. Upadłem. Myśleli, że jestem nieżywy i
+						wszyscy deptali po mnie, ja nawet nie sapałem i leżałem. <term ref="#ehri_et_nationalities_germans">Niemcy</term> pojechali, ja wstałem i poszedłem do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">szpitala</term>, gdzie mi owiązali głowę.
+						Wróciłem do domu, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">rodziców</term> już nie było i byłem u gospodarza znajomego. Później znów przyszli <term ref="#ehri_et_nationalities_germans">Niemcy</term>, złapali mnie do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">bóżnicy</term> i na auto i do <placeName ref="http://www.geonames.org/691650/ternopil.html">Tarnopola</placeName>. Z <placeName ref="http://www.geonames.org/691650/ternopil.html">Tarnopola</placeName> wszystkich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">wywieziono</term> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-41" type="camp">Bełżca</placeName>. Siostra moja <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">uciekła</term> z auta i padła ubita kulą. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Uciekła</term> w dzień i dlatego się jej nie udało, dlatego ja i brat
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">uciekliśmy</term> wieczorem. <term ref="#ehri_et_nationalities_germans">Niemiec</term> strzelił, ranił brata w nogę, a mnie w twarz. /<persName ref="#ehri_et_landesman_anzelm">Janek</persName> jest dwa razy raniony w głowę i w twarz./ Myśmy jednak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">uciekli</term> i chodziliśmy tylko w nocy. Co robić...? My się rozeszli, brat w jedną stronę, ja w drugą. Poszedłem
+						na wieś i zaszedłem do chaty. <term ref="#ehri_et_nationalities_ukrainians">Ukraińców</term> było tylko dwoje, ja im mówiłem, że jestem z <placeName ref="http://www.geonames.org/709611/drohobych.html">Drohobycza</placeName>, że tam <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">głód</term> i ja tam pracuję. Powiedziałem jednak, że tu chcę pracować. Ucieszyli się, że będę pasł krowy. Dobrze mówiłem po ukraińsku, bo w domu bawiłem się z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dziećmi</term> sąsiadów. Umiałem pacierz po polsku i ukraińsku. Służyłem u nich, zapomniałem po żydowsku, ale czasem w stajni chciałem powiedzieć do konia coś po żydowsku, ale w gardle coś mi
+						stanęło i nie pozwoliło. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1115" type="subject">Sołtys</term> przeszedł i pytał, jak się nazywa mój <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">ojciec</term>, moja <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">matka</term>. Ja mówię: Michał i Nastusia. Wymyśliłem imię i dla dziadka, i dla babki. Raz pasłem krowy, słyszę, ktoś śpiewa, <foreign xml:lang="ukr">hołos</foreign> /głos/ znajomy. Podbiegam do
+						szosy, patrzę – mój brat, podniosłem rękę, płaczę, krzyczę, stanął, zeszedł z wozu, też płakał. Potem pojechał dalej i już ani razu brata nie widziałem. Służyłem tak do zimy <date when="1944">1944</date> roku. Później przyszli <orgName ref="https://www.google.com/url?q=https://portal.ehri-project.eu/authorities/ehri_cb-004583">Sowieci</orgName>, ja myślałem, że nikogo z Żydów nie ma, ale pojechałem do <placeName ref="http://www.geonames.org/693700/skalat.html">Skałatu</placeName> zobaczyć nasz dom,
+						patrzę, a tu mój wujek spaceruje ulicą, on mnie przywiózł do <placeName ref="http://www.geonames.org/3099230/gliwice.html">Gliwic</placeName>.</p>
+					<p>Protokołowała: <persName ref="#ehri_et_gliksztejn_ida">Gliksztejn Ida</persName>. <placeName ref="http://www.geonames.org/3101950/bytom.html">Bytom</placeName>.</p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<!--<p><persName ref="#ehri_et_landesman_anzelm">Anzelm Landesmann</persName> Testimony (doc.
+        301/905)</p>
+      <p>Typescript, 1 page, 210 x 295 mm, Polish language</p>-->
+					<pb facs="EHRI-ET-ZIH3011713_01.jpg" n="1"/>
+					<p>
+						<persName ref="#ehri_et_landesman_anzelm">Anzelm Landesmann</persName>. Twelve years old. He comes from <placeName ref="http://www.geonames.org/693700/skalat.html">Skałat</placeName>. He has two brothers, one is a corporal in the Polish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">Army</term> and the other, 17 years old, was baptized and stayed with the <term ref="#ehri_et_nationalities_ukrainians" type="subject">Ukrainians</term> in the vicinity of <placeName ref="http://www.geonames.org/693700/skalat.html">Skałat</placeName>. <persName ref="#ehri_et_landesman_anzelm">Anzelm</persName>, called <persName ref="#ehri_et_landesman_anzelm">Jaśko</persName> by the <term ref="#ehri_et_nationalities_ukrainians" type="subject">Ukrainians</term>, arrived in <placeName ref="http://www.geonames.org/3099230/gliwice.html">Gliwice</placeName> with the transport of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1226" type="subject">repatriates</term> and was sent to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term>’s Home in <placeName ref="http://www.geonames.org/3101619/chorzow.html">Chorzów</placeName>.</p>
+					<p><persName ref="#ehri_et_landesman_anzelm">Janek</persName> recounts:</p>
+					<p>There were seven <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in our [family]. I got up in the morning. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">action</term>. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">ran away</term> this way, Mom that way, younger brother this way. When I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">running away</term> a <term ref="#ehri_et_nationalities_germans" type="subject">German</term> shot after me, he wounded me in the head. I fell. They thought I was dead and everybody trampled on me, I didn’t even gasp and was just lying. The <term ref="#ehri_et_nationalities_germans" type="subject">Germans</term> left, I got up and went to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> where they bandaged my head. I returned home, parents were no more and I was with a farmer I knew. Then the <term ref="#ehri_et_nationalities_germans" type="subject">Germans</term> came again, caught me [and took me] to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> and [loaded me] onto a truck and [took me] to <placeName ref="http://www.geonames.org/691650/ternopil.html">Tarnopol</placeName>. From <placeName ref="http://www.geonames.org/691650/ternopil.html">Tarnopol</placeName> everyone was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">deported</term>
+						to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-41" type="camp">Bełżec</placeName>. My sister <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> from the truck and fell shot by a bullet. She <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">ran away</term> during the day, that’s why she didn’t make it, that’s why my brother and I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> in the
+						evening. A <term ref="#ehri_et_nationalities_germans" type="subject">German</term> fired, wounded my brother in the leg and myself in the face (<persName ref="#ehri_et_landesman_anzelm">Janek</persName> was wounded twice, in the head and in the face). But we did manage to
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> and we walked at night only. What to do…? We split, my brother went in one direction, I in the other. I went to the countryside and entered a house. There was only a <term ref="#ehri_et_nationalities_ukrainians" type="subject">Ukrainian</term> couple, I told them that I was from <placeName ref="http://www.geonames.org/709611/drohobych.html">Drohobycz</placeName>, that there is <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">hunger</term> there and that I worked there. But I told them that I wanted to work here. They were glad that I would herd cows. I spoke good Ukrainian because at home I used to play with the
+						neighbors’ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. I knew how to pray in Polish and in Ukrainian. I worked for them, I forgot Yiddish but sometimes I wanted to say something in Yiddish to a horse in the stable but
+						something would block my throat and wouldn’t let me. A village head came and asked for the names of my father and mother. I said: Michał and Natusia [Nastusia]. I made up names for my grandpa and grandma. Once, I was herding cows and I heard someone singing, a familiar
+							voice.<note place="bottom">Anzelm Landesmann used a Ukrainian word for ‘voice.’</note> I run to the road, I look, it’s my younger brother, I raised my hand, I weep, shout, he stopped, climbed down the cart, he wept too. Then he drove on and I never saw my brother again. I
+						worked like this until the winter of <date when="1944">1944</date>. Then the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Soviets</orgName> came and I thought there were no Jews left but I went to <placeName ref="http://www.geonames.org/693700/skalat.html">Skałat</placeName> to see our house, I look and my uncle is walking down the street and he brought me to <placeName ref="http://www.geonames.org/3099230/gliwice.html">Gliwice</placeName>.</p>
+					<p>Record taken by <persName ref="#ehri_et_gliksztejn_ida">Gliksztejn Ida</persName>. <placeName ref="http://www.geonames.org/3101950/bytom.html">Bytom</placeName>.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

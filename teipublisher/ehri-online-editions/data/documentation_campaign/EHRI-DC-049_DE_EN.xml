@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-DC-049_DE_EN">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Emil Utitz, on the lecture series in the Terezín Ghetto</title>
+				<title xml:lang="de">Emil Utitz, über die Vortragsreihe im Ghetto Theresienstadt</title>
+				<title xml:lang="cs">Emil Utitz o cyklu přednášek v terezínském ghettu</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín collection</collection>
+						<idno>inventory number 320a (Dr. Emil Utitz’s lecture report from Terezín)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín collection, inv. no 343. <textLang mainLang="de">Original in German.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1946-02-16">16. 2. 1946</origDate>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín Ghetto</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Lectures</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Brief report on the lecture series that took place between 1943 and 1945 in the Terezín Ghetto. Utitz shortly describes the structure and content of the lectures.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-DC-049_01.png" n="1"/>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vortragswesen</term></p>
+					<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, am <date when="1945-07-31">31.7.1945</date></p>
+					<p>Das <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vortragswesen</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName></p>
+					<p>Das <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vortragswesen</term> begann im Sommer <date when="1942">1942</date> und endete im <date when="1945-05">Mai 1945</date>. Es vollzog sich zur Gänze im Rahmen der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-854" type="subject">Freizeitgestalltung</term>.</p>
+					<p>Das Bedürfnis nach <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträgen</term> war sehr stark. 40 - 50.000 <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Ghettoinsassen</placeName>,
+						unter ihnen viele tausend <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-798" type="subject">Intelektuelle</term>, verlangten gebieterisch nach geistiger Anregung. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">Jugendlichen</term>, seit Jahren ohne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Schulung,</term> verlangten dringendst weitere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Ausbildung</term>. Die
+						verschiedenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1058" type="subject">Fachleute</term> den Austausch ihrer Erfahrungen usw. Sehr erschwerend kam der Zustand dazu, dass durch die vorgesetzte Behörde jede Form von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Unterricht</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">freiwissenschaftlicher</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-607" type="subject">Forschung verboten</term> war. So musste in der Programmangabe immer wieder zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">Tarnung</term> gegriffen werden
+						und die Verantwortung von den Trägern der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">Veranstaltungen</term> selber übernommen werden. Ein besonderes Wort des Dankes gebührt den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-914" type="subject">Jugendbetreuern</term>, deren weit überwiegende Mehrzahl heute <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">tot</term> ist. Sie nahmen unter selbstlosen
+						Einsatz ihrer Persönlichkeit immer wieder das Risiko auf sich, um der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">Jugend</term> wenigstens ein Minimum der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Bildung</term> zu vermitteln. Auch die gesamten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Sprachkurse</term>, die im Sinne einer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Auswanderung</term>
+						wünschenswert erschienen, konnten nur unter der Flagge von <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträgen </term>segeln. Da ferner <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Veröffentlichungen</term> jeder Art <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-607" type="subject">verboten</term> waren, war es nur möglich, Ergebnisse <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">wissenschaftlichen</term> oder <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">künstlerischen</term> Schaffens lediglich in Form von <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträgen</term> bzw. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">Rezitationen</term> mitzuteilen. So hatte also das <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vortragswesen</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> eine wesentlich weitere Funktion als unter normalen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Umständen</term> und zerfiel deswegen in folgenden Abteilungen:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">Wissenschaftliche</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträge</term>:</p>
+					<p>Ihren Mittelpunkt bildeten die verschiedenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">wissenschaftlichen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">Gesellschaften</term>, z.B. die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1128" type="subject">juristische</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">Gesellschaft</term>, das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medizinische</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Fortbildungswesen</term>, die Abteilung Technik, der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">wissenschaftliche</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">Zirkel</term>, der in vierzehntägigen Sitzungen alle Probleme des <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstädter</placeName> Daseins
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">wissenschaftlich</term> zu untersuchen trachtete.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Sprachvorträge</term>:</p>
+					<p>Neben der behördlich allein gestatteten <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName> Sprache konnten wir doch zahlreiche <placeName ref="http://www.geonames.org/3077311/czechia.html">tschechische</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträge</term> veranstalten, ferner <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträge</term>, <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englischer</placeName>, <placeName ref="http://www.geonames.org/6252001/united-states.html">amerikanischer</placeName>, <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">französischer</placeName>, <placeName ref="http://www.geonames.org/3175395/repubblica-italiana.html">italienischer</placeName>, <placeName ref="http://www.geonames.org/294640/state-of-israel.html">hebräischer</placeName> und <placeName ref="http://www.geonames.org/294640/state-of-israel.html">jiddischer</placeName> Sprache.</p>
+					<p>Jüdische <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträge</term></p>
+					<p>Besonderer Wert wurde selbstverständlich darauf gelegt, das jüdische Problem nach allen seinen Möglichkeiten hin zur Diskussion zu bringen.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">Rezitationen</term>:</p>
+					<p>Teils hier verfasster, teils vorhandener <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">Dichtungen</term>. Es erscheint uns ein schuldiger Akt der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-800" type="subject">Pietät</term>, des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">jungen</term> einheimischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-681" type="subject">Dichters</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1495300" type="victim">Georg Kafka</persName> zu gedenken. Seine ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">Verse</term>, die von hoher Begabung
+						zeugten, brachte er hier zum <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträge</term>. Im <date when="1944-05">Mai</date> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term>
+						<date when="1944-05">1944</date> musste er von hier fort und fand bald darauf ein jämmerliches Ende.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">Vereinswesen</term>:</p>
+					<p>Kleine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">Kreise</term> gleichsinnig Interessierter, die in Form von <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträgen</term> mit
+						Aussprachen ihre Veranstaltungen abhielten, z. B. sozial <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">geschulte</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term>, Naturfreunde.</p>
+					<pb facs="EHRI-DC-049_02.png" n="2"/>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Unterhaltungsvorträge</term>:</p>
+					<p>leichterer Art zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-854" type="subject">Ausspannung</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-854" type="subject">Erholung</term>. Der Besuch der anfangs einsetzte, steigerte sich
+						derart, dass schon im Winter <date when="1943">1943</date>/<date when="1944">1944</date> ein <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vortragszyklus</term> über schwere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">philosophische</term> Probleme trotz bittere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">Kälte</term> und Unwirtlichkeit des Raumes gegen 400 ständige Zuhörer
+						hatte. In mancher Woche fanden annähernd 100 <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vorträge</term> statt.</p>
+					<p>Ungeachtet aller Hindernisse, der ständigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-662" type="subject">Bedrohung</term> der Existenz und der erbärmlichen Dürftigkeit des Daseins, blieb der starke Drang nach ernster geistiger Nahrung ungebrochen.
+						Ergreifend, ja geradezu erhebend war es, wenn am Vorabend katastrophaler <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> Veranstalter und Publikum Trost und Haltung suchten und gewannen aus <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Darbietungen</term> echt <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">künstlerischer</term> oder <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">wissenschaftlicher</term> Natur.</p>
+					<p>Das <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Vortragswesen</term></p>
+					<p>Leiter:</p>
+					<p>Univ. Prof. Dr. <persName ref="#ehri_dc_utitz_emil">Emil Utitz</persName> m. p.</p>
+					<p>Sekretärin:</p>
+					<p><persName ref="#ehri_dc_goldschmiedt_kathe">Käthe Goldschmiedt</persName> m. p.</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal:</p>
+					<p>Za archiv přijal:</p>
+					<p>Opis: <persName ref="#ehri_dc_bondy_ruth">R. Brammerová</persName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>, dne <date when="1946-02-16">16. února 1946</date>.</p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-049_01.png" n="1"/>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Lecture Series</term></p>
+					<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <date when="1945-07-31">31.7.1945</date></p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Lecture</term> Series in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName></p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lecture</term> series began in the summer of <date when="1942">1942</date> and ended in <date when="1945-05">May 1945</date>. It took place entirely within the framework of
+						leisure activities (Freizeitgestalltung).</p>
+					<p>The demand for <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lectures</term> was very high. 40-50,000 <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> inmates, among
+						them many thousands of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-798" type="subject">intellectuals</term>, begged for mental stimulation. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young people</term>, who had
+						been without <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">schooling</term> for years, urgently needed further <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term>. The various <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1058" type="subject">experts</term> exchanged their experiences, etc. It was very aggravating when it became clear that the superior authority had banned any form of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">teaching</term> and independent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-607" type="subject">scientific research</term>. Therefore, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">camouflage</term> had to be used again and again in formulating the program descriptions and responsibility for managing the events themselves had to be taken over. A special word of thanks goes
+						to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-914" type="subject">youth workers</term>, the vast majority of whom are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> today. They selflessly took on great
+						personal risk again and again to give the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young people</term> at least a bit of education. Even the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">language
+							courses</term>, which seemed desirable in hope of future <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigration</term>, could only pass under the flag of <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lectures</term>. Furthermore, since <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">publications</term> of any kind were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-607" type="subject">prohibited</term>, it was only possible to communicate the results of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">scientific</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">artistic</term> work in the form of <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lectures</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">recitations</term>. Thus, the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lecture series</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> had a much wider function than it would have had under normal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">circumstances</term> and
+						was divided into the following departments:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">Scientific Lectures</term>:</p>
+					<p>Various <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">scientific societies</term> made up its core, e.g. the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1128" type="subject">legal society</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medical education system</term>, the technical department, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">scientific circle</term>, which tried in 14-day
+						sessions to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">scientifically</term> examine all the problems of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> existence.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Language Lectures</term>:</p>
+					<p>In addition to the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> language, the only one permitted by the authorities, we were able to hold numerous <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Czech lectures</term>, as well as lectures in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName>,
+							<placeName ref="http://www.geonames.org/6252001/united-states.html">American</placeName>, <placeName ref="http://www.geonames.org/3017382/republic-of-france.html">French</placeName>, <placeName ref="http://www.geonames.org/3175395/repubblica-italiana.html">Italian</placeName>, <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Hebrew</placeName> and <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Yiddish</placeName>.</p>
+					<p>Jewish <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Lectures</term>:</p>
+					<p>Of course, special emphasis was placed on bringing the Jewish problem with all its possibilities to the forefront for discussion.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">Recitations</term>:</p>
+					<p>Partly written here, partly existing poetry and verse. It seems to us a guilty act of filial <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-800" type="subject">piety</term> to commemorate the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young</term> native <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-681" type="subject">writer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1495300" type="victim">Georg Kafka</persName>. He brought his first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-680" type="subject">verses</term>, which attested to his high
+						gifts, to <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lectures</term> here. He had to leave here by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> in <date when="1944-05">May 1944</date> and soon met a miserable end.</p>
+					<p>Social Clubs:</p>
+					<p>Small <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1196" type="subject">circles</term> of people with similar interests, held in the form of <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">lectures</term> with
+						speeches, e.g. socially educated <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, nature lovers.</p>
+					<pb facs="EHRI-DC-049_02.png" n="2"/>
+					<p>Entertainment Lectures:</p>
+					<p>Lighter fare for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-854" type="subject">relaxation</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-854" type="subject">recreation</term>. Attendance, which began from nothing, increased so much
+						that even in the winter of <date when="1943">1943</date>/<date when="1944">1944</date> a lecture cycle on serious philosophical problems, despite the bitter cold and inhospitable nature of the room, had about 400 devoted listeners. In some weeks nearly 100 lectures took
+						place.</p>
+					<p>Despite all the obstacles, the constant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-662" type="subject">threat</term> to existence and the miserable poverty of existence, the strong urge for serious mental sustenance remained unbroken. It was moving, indeed
+						uplifting when, on the eve of catastrophic transports, the organizers and the audience sought <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">solace</term> and composure and was rewarded with performances of a genuinely <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">artistic</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-671" type="subject">scientific</term> nature.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-194" type="subject">Lecture Series</term></p>
+					<p>Leader:</p>
+					<p>Univ. Prof. Dr. <persName ref="#ehri_dc_utitz_emil">Emil Utitz</persName> m. p.</p>
+					<p>Secretary:</p>
+					<p><persName ref="#ehri_dc_goldschmiedt_kathe">Käthe Goldschmiedt</persName> m. p.</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal:</p>
+					<p>Za archiv přijal:</p>
+					<p>Opis: <persName ref="#ehri_dc_bondy_ruth">R. Brammerová</persName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>, dne <date when="1946-02-16">16. února 1946</date>.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

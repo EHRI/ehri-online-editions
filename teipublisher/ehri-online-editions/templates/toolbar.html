@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-toolbar class="toolbar" sticky="sticky">
+    <paper-icon-button id="tocToggle" class="toc-toggle" icon="icons:view-list"/>
+    <a href="${app}/index.html?collection=${collection}" data-i18n="[title]browse.${collection}.title" title="" data-template="pages:parse-params">
+        <paper-icon-button icon="icons:folder-open"/>
+    </a>
+    <pb-restricted login="login">
+        <pb-ajax subscribe="transcription" emit="transcription" url="${app}/api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
+            <h3 slot="title">
+                <pb-i18n key="menu.admin.recompile"/>
+            </h3>
+            <paper-icon-button icon="icons:refresh"/>
+        </pb-ajax>
+    </pb-restricted>
+    <paper-menu-button>
+                            <a href="#" slot="dropdown-trigger">
+                            <iron-icon icon="icons:copyright"/>
+                                    <pb-i18n key="letters.licence">LICENCE</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                <pb-view id="licence" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                    <pb-param name="mode" value="licence"/>
+                                </pb-view>
+                                </paper-listbox>
+                            </paper-menu-button>
+    <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
+    <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
+    <pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
+        <paper-icon-button icon="icons:chevron-left"/>
+    </pb-navigation>
+    <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
+        <paper-icon-button icon="icons:chevron-right"/>
+    </pb-navigation>
+    <!-- Lien pour voir le XML enlevé car déjà disponible avec le bouton "Download"
+    <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>-->
+    <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
+</app-toolbar>

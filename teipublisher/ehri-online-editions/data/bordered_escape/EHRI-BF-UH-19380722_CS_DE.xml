@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19380722_CS_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="cs">Telegram Pomocného ústředí pro uprchlíky v Brně ministru vnitra Janu Černému ohledně zadržení 19 židovských uprchlíků z Rakouska</title>
+				<title xml:lang="de">Telegramm der Brünner Zentralhilfsstelle für Flüchtlinge an den čsl. Ministerpräsidenten Milan Hodža über die Verhaftung von 19 jüdischen Flüchtlingen aus Österreich</title>
+				<title xml:lang="en">Telegram from the Help Center for Refugees in Brno to Minister of the Interior Jan Černá regarding the detention of 19 Jewish refugees from Austria</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938 </orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</orgName><address>
+								<street>Archivní 2257/4</street>
+								<postCode>149 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+						<idno>Sign. 225-1186-16, Fol. 139</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16, Fol. 139. <textLang mainLang="cs">Originál česky.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-07-22">22. července 1938</origDate>
+				<origPlace>Brno</origPlace>
+				<orgName ref="#ehri_bf_zentralstelle_bruenn">Pomocné ústředí pro uprchlíky, Brno</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Hilfsorganisationen</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik"/>
+				<catRef target="hilfsorganisationen"/>
+			</textClass>
+			<langUsage>
+				<language ident="cs">česky</language>
+			</langUsage>
+			<!--<abstract>
+        <p>Das Telegramm der Brünner Zentralhilfsstelle für Flüchtlinge richtet sich an den
+          tschechoslowakischen Innenminister mit der Bitte um Hilfe für 19 österreichische
+          Flüchtlinge, die im Juli 1938 in der Gegend um Znaim (Znojmo) ohne Papiere über die Grenze
+          gekommen waren. Die Flüchtlinge wurden einen Tag später von der Polizei wieder an die
+          österreichische Grenze gestellt. Eine Frau aus der Gruppe brach zusammen und blieb zur
+          medizinischen Versorgung vorerst in der ČSR.</p>
+      </abstract>-->
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-UH-19380722_01.jpg" n="1"/>
+					<!--<p>
+        <hi>Druh.........TELEGRAM Došel pod čislem 4121</hi>
+      </p>-->
+					<p>Pan <ref target="http://data.ehri-project.eu/thesaurus/concept/1110">ministr vnitra</ref>
+						<persName ref="#ehri_bf_cerny_jan">dr j cerny</persName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">praha</placeName></p>
+					<p><placeName ref="http://www.geonames.org/3078610/brno.html">Brno</placeName> /2 1990 46 22 1942=</p>
+					<p>=pane ministre <placeName ref="http://www.geonames.org/3078610/brno.html">brnenska</placeName> a zahranicni policie zatyka zidovske <term ref="http://data.ehri-project.eu/thesaurus/concept/304" type="subject">uprchliky</term> z <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouska</placeName> dnes v <placeName ref="http://www.geonames.org/3078610/brno.html">brne</placeName> bylo <term ref="http://data.ehri-project.eu/thesaurus/concept/598" type="subject">zatceno</term> 19 <term ref="http://data.ehri-project.eu/thesaurus/concept/203" type="subject">emigrantu</term> vcera doslych prosime jmenem lidskosti o propusteni a o poskytnuti prechodneho asylu tem nestastnym</p>
+					<p><orgName ref="#ehri_bf_zentralstelle_bruenn">pomocne ustredi pro <term ref="http://data.ehri-project.eu/thesaurus/concept/304" type="subject">uprchliky</term></orgName></p>
+					<p><placeName ref="http://www.geonames.org/3078610/brno.html">brno</placeName>
+						<placeName ref="#ehri_bf_brno_bratislavska">bratislavska</placeName> 4</p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-BF-19380722_01.jpg" n="1"/>
+					<!-- <p>Druh.........TELEGRAM Došel pod čislem 4121</p> -->
+					<p>Herrn ministerpräsidenten dr <persName ref="#ehri_bf_hodza_milan">milan hodža</persName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">prag</placeName></p>
+					<p><placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> /2 1990 46 22 1942=</p>
+					<p>=herr ministerpräsident die <placeName ref="http://www.geonames.org/3078610/brno.html">brünner</placeName> und die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">ausländerpolizei</term> verhaften jüdische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">flüchtlinge</term> aus <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreich</placeName> heute wurden in <placeName ref="http://www.geonames.org/3078610/brno.html">brünn</placeName> 19 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigranten</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598">festgenommen</term> gestern angekommene wir bitten im namen der menschlichkeit um die Entlassung und um vorübergehendes asyl für diese unglücklichen</p>
+					<p><orgName ref="#ehri_bf_zentralstelle_bruenn">hilfszentrale für flüchtlinge</orgName></p>
+					<p><placeName ref="http://www.geonames.org/3078610/brno.html">brünn</placeName>
+						<placeName ref="#ehri_bf_brno_bratislavska">bratislavska</placeName> 4</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About Early Holocaust Testimonies</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+<!-- language selector -->
+<pb-lang name="lang" data-template="pages:languages"/>
+</pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+</app-toolbar>
+                </app-header>
+            
+            <main>
+            <div id="primary">
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+<h1 class="main-title">Early Holocaust Testimonies</h1>
+<ul>
+<li>
+    <a href="#id1">Introduction</a>
+</li>
+<li>
+    <a href="#id2">What is an early Holocaust testimony?</a>
+</li>
+<li>
+    <a href="#id3">Editorial standards and technical implementation</a>
+</li>
+<li>
+    <a href="#id4">Who? Where? and How? Establishing the Story: Early Recollections of a Devastating Past</a>
+</li>
+<li>
+    <a href="#id5">Imprint</a>
+</li>
+</ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+    <h1 id="id1">Introduction</h1>
+
+<p>Recently, a number of historians rediscovered the early documentation of the Holocaust. They explored the activities of Jewish activists during the war and the frantic efforts of survivors to collect documents and archives, artifacts and testimonies about the persecution and extermination of European Jews. Most prominently, Laura Jockusch uncovered the neglected history of several early Jewish documentation projects, comparatively examining them to reconstruct the agency of Holocaust survivors for whom bringing together the evidence was part of their post-war return to life.<sup>
+        <a class="sdfootnoteanc" name="sdfootnote1anc" href="#sdfootnote1sym">
+            <sup>1</sup>
+        </a>
+    </sup> Jockusch and others disputed the absence of interest, or the “silence” of survivors, Jewish communities and others.<sup>
+        <a class="sdfootnoteanc" name="sdfootnote2anc" href="#sdfootnote2sym">
+            <sup>2</sup>
+        </a>
+    </sup> On the contrary, the scope of the early post-WWII documentation seemed to be overwhelming. New research also contributed to uncover the details of Holocaust documentation and remembrance in the Eastern Europe and even during the period of state socialism.<sup>
+        <a class="sdfootnoteanc" name="sdfootnote3anc" href="#sdfootnote3sym">
+            <sup>3</sup>
+        </a>
+    </sup>
+</p>
+<p>Estimated 18 thousand testimonies have been recorded and eight thousand questionnaires (and perhaps many more) collected by the Jewish activists, or z<i>amlers</i>, across Europe, in Palestine/Israel, the United States and elsewhere. Some were collected in large-scale documentation projects, such as the one of the Munich committee active especially in the DP-camps, or the DEGOB project in post-WWII Hungary. Others were initiatives of individuals who documented and paid tribute to the Jewish communities decimated during the Holocaust. Some were based on an elaborate methodology whereas others were compiled with a limited knowledge and only a short preparation. Yet, for many future scholars, these weren’t the documents they were looking for.</p>
+<p>For decades, this large body of testimony fell between the cracks of the changing patterns of Holocaust research. The early historians (as those in other fields of historical research) were more focused on factual evidence and gave more weight to “perpetrator” documents rather than to accounts based on memory and often recorded in haste. On the other hand, for later historians who paid more attention to the decision making, identity and narratives of the “victims”, the short protocols taken around 1945 were too factual, lacking the rich content, subjectivity and scope of later oral histories.</p>
+<p/>
+<p>
+    <a name="_GoBack"/> For the European Holocaust Research Infrastructure (EHRI), the early documentation is an important subject which aligns with its critical approach to Holocaust archives and research in the provenance of the historical materials. Moreover, EHRI made the “victims” documents (in their different forms – from testimonies to documents of the Jewish communities and “Jewish councils”) one of its focus areas. Among other activities, EHRI organized two comparative workshops (in 2012 and 2014) which allowed archivists and historians discussed different aspects of early Holocaust documentation.</p>
+<p/>
+<p>While containing only a limited set of carefully selected and edited documents, the EHRI Edition of Early Holocaust Testimony aims to draw scholarly attention to the underused testimonies originating from different countries and projects and located today in different archives. As a digital publication, it understands itself as a “life edition” which can be extended in the future to encompass further collections and offer a larger number of early accounts taken by Holocaust survivors and other activists.</p>
+<div id="sdfootnote1">
+<p class="sdfootnote">
+        <a class="sdfootnotesym" name="sdfootnote1sym" href="#sdfootnote1anc">1</a> Laura Jockusch, <i>Collect and Record! Jewish Holocaust Documentation in Early Postwar Europe</i> (Oxford University Press, USA, 2012).</p>
+</div>
+<div id="sdfootnote2">
+<p class="sdfootnote">
+        <a class="sdfootnotesym" name="sdfootnote2sym" href="#sdfootnote2anc">2</a> David Cesarani and Eric J. Sundquist, eds., <i>After the Holocaust. Challenging the Myth of Silence</i> (London; New York: Routledge, 2012); Regina Fritz, Éva Kovács, and Béla Rásky, eds., <i>Als der Holocaust noch keinen Namen hatte. Zur frühen Aufarbeitung des NS-Massenmordes an den Juden = Before the Holocaust had its name. Early confrontations of the Nazi mass murder of the Jews</i>, Beiträge zur Holocaustforschung des Wiener Wiesenthal Instituts für Holocaust-Studien 2 (Wien: Wiener Wiesenthal Institut für Holocaust-Studien / new academic press, 2016); Samuel D. Kassow, <i>Who Will Write Our History? Emanuel Ringelblum, the Warsaw Ghetto, and the Oyneg Shabes Archive</i>, The Helen and Martin Schwartz Lectures in Jewish Studies (Bloomington: Indiana University Press, 2007); Hasia R. Diner, <i>We Remember with Reverence and Love. American Jews and the Myth of Silence after the Holocaust, 1945</i>–<i>1962</i> (NYU Press, 2010); Natalia Aleksiun, ‘The Central Jewish Historical Commission in Poland, 1944–1947’, <i>Polin</i> 22 (2008): 74–97; Alan Rosen, <i>The Wonder of Their Voices. The 1946 Holocaust Interviews of David Boder</i> (Oxford University Press, USA, 2012); Boaz Cohen, ‘The Children’s Voice: Postwar Collection of Testimonies from Child Survivors of the Holocaust’, <i>Holocaust and Genocide Studies</i> 21, no. 1 (2007): 73–95.</p>
+</div>
+<div id="sdfootnote3">
+<p class="sdfootnote">
+        <a class="sdfootnotesym" name="sdfootnote3sym" href="#sdfootnote3anc">3</a> See for instance: Stephan Stach, ‘Geschichtsschreibung und politische Vereinnahmungen: Das Jüdische Historische Institut in Warschau 1947–1968’, <i>Jahrbuch des Simon-Dubnow-Instituts / Simon Dubnow Institute Yearbook</i> 7 (2008): 401–31; Peter Hallama and Stephan Stach, eds., <i>Gegengeschichte. Zweiter Weltkrieg und Holocaust im ostmitteleuropäischen Dissens</i> (Leipzig: Leipziger Universitätsverlag, 2015); Peter Hallama, <i>Nationale Helden und jüdische Opfer. Tschechische Repräsentationen des Holocaust</i>, Schnittstellen. Studien zum östlichen und südöstlichen Europa 1 (Göttingen: Vandenhoeck &amp; Ruprecht, 2015).</p>
+</div>
+
+
+    <h1 id="id2">What is an early Holocaust testimony?</h1>
+
+
+<p>
+    <span>How to select documents to be included in the edition, what establishes an </span>
+    <b>early</b>
+    <span> Holocaust account, and what can be considered a </span>
+    <b>testimony</b>
+    <span> in the first place? These were the questions confronted by the editorial team consisting of EHRI partner institutions, the Jewish Museum in Prague, The Wiener Library for the Study of the Holocaust &amp; Genocide, Jewish Historical Institute in Warsaw, Hungarian Jewish Archives, Yad Vashem and later the Masaryk Institute and Archives of the Czech Academy of Sciences.</span>
+</p>
+<p>
+    <span>In the preliminary discussions, the edition team decided in favour of inclusivity as to the time of creation as well as the variety of documents which can be considered a testimony. Rather than to prefer a specific idea, we wanted to represent the diversity of early accounts of the Holocaust.</span>
+</p>
+<p>
+    <span>The experts from the relevant collection holding institutions (who, at the beginning at least, participated in the EHRI work package “New views on digital archives”) were asked to select a sample from their archives which best represent the early testimony. Variety of types of documents was explicitly encouraged - from protocols with survivors to questionnaires to letters testifying in a more formal way about the persecution. A testimony, for that purpose, was any document which aimed to capture in some form the experience of the Holocaust and record its events for others.</span>
+</p>
+<p>
+    <span>Taking into consideration the types of sources represented in the testimony collections, the team decided to capture a broader time span as well. For the purpose of this edition, “early” corresponds to any eyewitness account of the persecution of Jews from the Nazi takeover of power in Germany in 1933 to roughly the Eichmann Trial in Jerusalem in 1961 which invested the history of the Shoah and the testimony of survivors with a new meaning, and increased attention.</span>
+</p>
+<p>
+    <span>Some collections, such as the DEGOB (Hungarian Jewish Archives), the Documentation Campaign (Jewish Museum in Prague) and the Polish Jewish Historical Comission (Jewish Historical Institute in Warsaw) strictly present only immediate and early post WWII protocols with survivors.</span>
+</p>
+<p>
+    <span>On the other hand, the Wiener Library represents the wider time span of the early testimony. It includes both pre-WWII documents (for example those from the collection of “Kristallnacht” reports from 1938) as well as protocols based on interviews with survivors living in the United Kingdom and taken until the late 1950s (such as the report of Ursula Finke regarding her underground life in Berlin).</span>
+</p>
+<p>
+    <span>A similar approach was also adopted also by Yad Vashem, given the variety of its testimony collections, from the war-time Ball-Kaduri protocols to the post-WWII testimonies collected in the DP camps in Germany.</span>
+</p>
+<p>
+    <span>To increase accessibility and allow for easier comparison, the edition provides all testimonies in English. Yet, Holocaust documentation was a multi-lingual effort which the edition is designed to reflect. Alongside with English, researchers can switch to the original languages and read the text languages such as French, Dutch, German, Czech, Polish, Hungarian, etc.</span>
+</p>
+<p>
+    <span>Currently, the EHRI team is working on a set of more than thirty Yiddish testimonies, which should be added to the edition during 2020.</span>
+</p>
+<p>
+    <span>Since the edition is intentionally focused on representing a typology (and diversity) of Holocaust testimony from the early period, no effort was made to achieve a thematically balanced set of documents. The edition also aimed to capture the characteristics of written testimony and doesn't include audio or video interviews with the Holocaust survivors.</span>
+</p>
+<p>
+    <span>In short, the edition was designed to represent the diversity - in forms, situations, languages, etc. - which itself was a result of a search for appropriate forms of capturing the extreme experience of exclusion, persecution and murder, moreover in a period when the emotional traces of what we today call the Holocaust were still fresh. And as a digital and online publication, as an open-ended and ongoing effort, the edition also captures our growing understanding of the richness of the early Holocaust testimony.</span>
+</p>
+    <h1 id="id3">Editorial standards and technical implementation</h1>
+
+
+<p>
+    <span>The editorial approach to the edition respects the testimonies not only as an important sources of information, but also as unique textual documents. As much as possible, the documents are published in their entirety to allow their reading from start to end. Moreover, the editors also reproduced its format and materiality, including the headers and footers which made clear its function and providing a scan of the original document. Special tool was developed to generate workclouds from the encoded (TEI) documents (to be added soon).</span>
+</p>
+<p>
+    <span>The editors decided in favour of a detailed annotation of documents which serves two main functions: 1. It provides readers with contextual information, by referring to authority sets (EHRI terms, ghettos, camps, organizations, Geonames, etc.) and further explanations. 2. It allows to treat the documents as research data which can be reused and aggregated with other documents in the future.</span>
+</p>
+<p>
+    <span>Documents published in the EHRI online edition of the early Holocaust testimonies are encoded in the Text Encoding Initiative (TEI) P5 standard – a widely adopted format for digital editions. The particular TEI dialect can differ depending on the characteristics and needs of a particular edition. While allowing for flexibility, the EHRI editions, however, rely on the use of references to names, dates, places and people (TEI module namesdates).</span>
+</p>
+<p>
+    <span>Despite numerous existing approaches to the publication of TEI documents online, no available solution fitted the requirements of EHRI digital edition. The team therefore opted to develop its own set of tools and a front-end platform based on a simple but powerful existing open source software, Omeka, and its Neatline mapping plugin. This set of software tools is modular and can be combined or extended in different ways to fit the needs of specific editions. The requirements for the EHRI edition software followed the real-world editorial process, including the selection of documents, their transcription, annotation and translation.</span>
+</p>
+<p>
+    <span>EHRI online edition of early Holocaust testimonies puts emphasis on following the linked data paradigm, using links to established controlled vocabularies (EHRI for Holocaust-related entities; Geonames for geographic information, etc.). The annotation of documents, therefore, consists primarily of tagging and linking words or expressions in the documents. The annotation was done in common text editors where the entities were linked using URLs. Once the annotating and text editing was finalised, the documents were converted to the TEI XML format. The team used an open source tool Odette for this purpose and extended its stylesheet to recognise the types of entities and encode them accordingly based on the URLs used as references. The TEI files produced in this way were checked by editors and cleansed of any unwanted formatting. An EHRI-TEI-enrichment utility created normalised entries for linked entities in the TEI header (using the EHRI API, Geonames metadata and other resources) and which were later used to drive the faceted browse and map visualisations.</span>
+</p>
+<p>
+    <span>The resulting TEI documents are then uploaded to the Omeka web publication platform and the EHRI Editions plugin automatically populated the database based on the content of the XML file. Interactive map presentations were created based on the TEI data.</span>
+</p>
+
+    <h1 id="id4">Who? Where? and How? Establishing the Story: Early Recollections of a Devastating Past</h1>
+
+<p/>
+<p>
+    <strong>Sharon Kangisser Cohen</strong>
+</p>
+<p>
+    <strong>Yad Vashem</strong>
+</p>
+<p/>
+<p>Research on oral accounts – which include oral history, narrative interviews, and survivor testimony – repeatedly argues that the context in which the narration takes place is central to understanding the construction of the individual’s story. The preeminent oral historian Alessandro Portelli wrote that “oral sources are not to be thought of in terms of nouns and objects but in terms of verbs and processes; not the memory and the tale but the remembering and the telling.” <a class="footnote-ref" href="#sdfootnote1">1</a> The story as told by the individual survivor is his or her memory and interpretation of the event, which is in a state of constant negotiation and dialogue. The meaning the individuals attribute to their past is arguably influenced by various factors, including the sociopolitical context in which their self is being negotiated and constructed. These factors include evolving cultural interpretations of the Holocaust, the image and role of the survivors in society, and the established tropes and narratives through which experience is communicated. The survivors’ relationship to the past could also be influenced by internal cues, such as their age at the time of retelling, their psychological and emotional state at the time of retelling, and the greater context of their lives, such as subsequent episodes in their lives which may have impacted on their understanding and interpretation of their personal past. The process of retelling is also influenced by the nature of the interview process: how the interview is conducted, what types of questions are asked, and how the witness understands the questions.</p>
+<p>Survivor testimonies created in the immediate postwar period are invaluable documents, not only because, for many of these survivors, it was one of the first opportunities to create what Henry Greenspan argued was the attempt to “make a story” out of something that was “not a story” <a class="footnote-ref" href="#sdfootnote2">2</a> – in other words to give a coherent and meaningful account of a period of emotional turmoil and physical devastation. <a class="footnote-ref" href="#sdfootnote3">3</a> It also captures the survivor at a specific point in time: a few months after their liberation from the clutches of death and cruelty. During these first months following liberation, the survivors found themselves in the moments between emerging from the horror and having to rejoin the free world and rebuild their lives. During these months, the full extent of what happened during the war was not always known and particularly the fate of their loved ones was for many unclear. The testimonies created during this time capture a context that is wider than the individuals’ story and perspective and provide researchers with a window into the social, cultural, and political realities of that time.</p>
+<p>The following project presents selected testimonies from four important testimony collections, namely: the DEGOB, the Wiener Library, The Jewish Museum in Prague (Documentation Campaign collection), and the Jewish Historical Commission, which were initiated in different countries in the first months and decades after the Shoah. The aim of this introduction is to raise points to consider when reading these early texts and in particular to think about whether early testimonies have a unique structure or convey a particular meaning or interpretation of this difficult past.</p>
+<p>One of the most significant issues to take into account with the earlier testimonies relates to the question of the extent of the editing process to which these texts have been subjected. Because we have limited documentation regarding this issue, it is difficult to say whether these early testimonies are solely based on the words of the individual interviewees. It is fair to say that these texts were co-constructed texts which reflect the core stories of experience and personal memory, yet may not include all of the memories or interpretations of the individual. Researchers working with these depositions therefore need to bear in mind the imperatives of the institution that directed the given project as well as the role and perspective of the individual interviewers when writing up the interviews. In producing these texts, the interviewers could have been influenced by their personal or institutional concerns. Nevertheless, within these short and fragmented texts, nuggets of experiences are recalled and shared that provide scholars with valuable insights into the period, including issues that the victims faced and how they responded to these. The scenes, images, and behaviors that are recalled originate then and not now. They reveal memories that have remained significant in the minds and memories of those who recall them. They can be viewed as what Robert Kraft has termed “core memories,” namely “the representation of the original phenomenal experience in the form of perceptual, emotional, and physiological experience: visual images, sounds, smells, tastes, emotions, and bodily sensations – as vivid and as compelling as dreams.” This is different from “narrative memory,” which “is constructed from the images in core memory shaped in accordance with narrative conventions and conveyed primarily in language.” <a class="footnote-ref" href="#sdfootnote4">4</a>
+</p>
+<p>The early depositions are relatively short in comparison to testimonies that were given later; ranging mostly from one to a few typed, single-spaced pages, they focus on the individual’s survival story, often including near-death escapes. There is very little recollection of the prewar years, which is probably a reaction to the aim of the given project, which for the most part aimed to reconstruct wartime experiences. In some of the interviews, the first line or two hint at the socioeconomic situation of the family, but the religious or ideological position of the family is rarely disclosed. The depositions usually begin with a few sentences recounting the outbreak of the war, then proceed to the main focus of the war story and the individual’s account of survival, sometimes ending with a few thoughts or comments about the survivor’s current situation. Alongside the chronological narration, there is also the recounting of how the interviewee “explains” their survival: the moments, events, and decisions made which facilitated their continued escape from death.</p>
+<p>Each of the collections created in the postwar period were constructed in different geographical locations and therefore articulate collective experiences – before, during, and after the war. The DEGOB collection captures the experience of the Holocaust in Hungary, which for most Hungarian Jews involved a short period of incarceration in ghettoes and deportation to the death camp of Auschwitz-Birkenau, where most were murdered on arrival. Those who survived and gave testimony usually spoke about antisemitic activities and legislation in Hungary before the occupation, the deportation to camps, their time as prisoners in the camp, and their liberation following the death marches westwards. The depositions collected by the Jewish Historical Commission and part of the collection of the Jewish Historical Institute (JHI) articulate the varied experiences of Polish Jews under Nazi occupation: the initial assault after the invasion, ghettoization for an extended period of time, deportation to labor and death camps, death marches, and liberation. The JHI collections include the stories of those who managed to find shelter and were rescued by Poles, who also tell of experiences of betrayal and local antisemitism. The Wiener Library’s collection for the most part encapsulates the stories of the early years of persecution in Germany and Austria and the complicated and harrowing escape from Europe. The collection of the Prague Documentation Campaign is eclectic not only in the way the statements are constructed, but also in the reflection of varied experiences during the war, although the majority in this online collection relate to the deportations to Theresienstadt and subsequently to Auschwitz-Birkenau. These statements for the most part take on the structure of a witness statement, which attempt to give historical descriptions and details and which were verified by a “witness” and the head of the documentation campaign, Zeev Scheck, and the archive representative, Alex Schmiedt. Each collection therefore represents a collective experience which differ significantly from each other and yet articulate shared memories of physical and emotional suffering and torment.</p>
+<p>Many of the early depositions given at the Wiener Library provide researchers and scholars with a unique perspective – the first years after the Nazi takeover and the assault on Jewish life culminating in the November Pogrom and the survivors’ individual escapes from Europe. The main narrative of these accounts relate to the sudden blow that German and Austrian Jews experienced, who were trapped in an increasingly unrecognizable reality which forced them to take huge strides to adapt and create a semblance of normality and stability. These testimonies are invaluable as they provide a window into the terror of these earlier years which are largely absent in testimonies of those who did manage to escape before Nazi anti-Jewish policy radicalized, culminating in deportation to ghettos, camps, and mass murder. These depositions reclaim the trauma of the initial years of increasing Nazi terror, brutality, and restrictions, without knowing how Nazi persecution would continue to unfold. Characteristic of these early accounts is the anxiety these individuals felt in facing chaos, the unknown, and a way of life that was dissolving quickly before their eyes. As one of the interviewees from the Wiener Library’s collection recalls the November Pogrom:</p>
+<p>“As I stood guard behind the curtains, one of these gangs did indeed come down on our street, however passed us by and turned round the corner. We then saw books, cushions, clothes, household goods etc. flying out of the windows onto the street three houses down from our home. It was essential to act in these minutes. Mutter kept saying I should not stay at home. I therefore spent some time driving here and there around X. and saw that the destruction was fully underway in the homes, I parked the car next to others on the road because I did not feel safe in the car any longer.” </p>
+<div class="editions-item">
+<p>From the depositions of camp survivors from the JHI and DEGOB collections, there appears to be a consistent narrative pattern which is inherently chronological but also durational in the telling of the stages of survival: the first moments of the Nazi occupation, the increasing restrictions with a particular emphasis on financial losses, the process of ghettoization, the selections, deportation to death and/or labor camps, the death marches, and the moment of liberation. However, the main focus of these accounts is on camp life and the routine, which are explained with particular emphasis on the lack of food, extreme weather conditions, the cruelty of the guards, and the anxiety surrounding selections. One of the interviewees describing incarceration in Auschwitz exclaims:</p>
+<p>“There were frequent selections, which always caused terrible anxiety as we already knew what they meant, why flames were coming out of the chimneys of the crematorium day and night… We got out of Auschwitz that [which] meant constant anxiety."</p>
+    <div class="editions-item">
+<p>Many of the depositions give a chaotic account of the last period of the war, during which the victims were herded to numerous places, subject to increasingly difficult conditions and the harrowing experience of random killing and death as liberation approached. Having lacked adequate clothing and food, survivors recount their desperation as their physical and mental strength declined. From these short depositions it becomes clear that the physical assault of the wartime years is the focus of the suffering. Memories of beatings, torture, starvation, extreme weather, inhumane work, and standing for hours stands at the forefront of their memories. Survivors’ memories from the early postwar period are predominantly sensory.</p>
+<p>Another feature of the early accounts is the survivors’ impulse to recount stories that demonstrate the extremity of human behavior and experience. While for the most part, these depositions give a chronological account of their survival, many of them include “small,” self-contained stories that stand out for the teller. It appears that these smaller stories either demonstrate acts of extreme cruelty or kindness, which arguably reflect the victims’ predicament during the Shoah: vulnerability and almost complete dependence on the behavior and attitudes of others. These depositions often relate stories which recount the endless cruelties not only experienced by themselves but by others around them. These “small stories” reveal the psychological torment in not only enduring their own suffering but witnessing the abuse of others. It could be argued that witnessing such wanton acts of cruelty would only deepen their own anxiety as to what was horrifyingly possible. An example of this is taken from the JHI collection:</p>
+<p>“One particular situation remains etched in my memory. Nearby, there was a very rich German delicatessen. The owner’s daughter, very pretty, the picture of health, slapped a Jewish child in the face, dressed in rags, who had asked for a piece of bread.”</p>
+        <div class="editions-item">
+<p>Stories of acts of kindness and compassion are shared as well as moments of reprieve or even joy. Most of the depositions make it clear when the survivors were fortunate enough to experience better conditions or even have a positive experience which gave them hope or resilience. In one of the Wiener Library depositions, the survivor relates the situation after being deported to a camp:</p>
+<p>“…personally, I acquired for the first time a positive attitude towards the Jewish part of my life. Previously I had felt the kind of ‘Jewish antisemitism’ which, I believe, was often found in some sections of German Jewry. I lost this feeling completely through the intimate contact with other camp inmates, some of whom had physically and mentally strong Jewish characteristics.”</p>
+            <div class="editions-item">
+<p>The survivors’ imperative to give testimony of individual behavior during the war stemmed from the need to identify and punish the perpetrators and acknowledge the rescuers. Thus, an important feature of these early accounts is the listing of the names of perpetrators, including their rank and involvement in the torture and murder of Jews. In a testament given by Dr. Walter Löbner, which is part of the collection from the Prague Documentation Campaign, he declares:</p>
+<p>“As I want to play my part in making sure that those responsible are punished, I want to make the names of several perpetrators that I know available to the commendable investigating authorities.” </p>
+                <div class="editions-item">
+<p>The statements given to the Prague Documentation Campaign were particularly detailed in listing the names and roles of the perpetrators. The statement given by Regina Lebensfeldová-Hofstädterová lists the full names and positions of the perpetrators in Auschwitz. She also reveals some of their techniques in exercising total control over the population.</p>
+<p>“Lachmann was a small, thin man and looked very pale, he would often put on prisoner clothing, go into the camp, and spend the night there, in order to hear from prisoners who didn’t recognize him what was going on in the camp. <br/>After such undercover work, there were always many prisoners who would be doomed to death.”</p>
+<p>Many of the survivorsname the individuals, for the most part compatriots and neighbors, who acted cruelly and stole their possessions. These statements reflect the intimacy of cruelty and greed during the early years of the occupation.</p>
+<p>As one of the interviewees explained, as a result of theft and plunder at the hands of the local population:</p>
+<p>“We went into the ghetto with a few pieces of underwear and one set of clothes.”</p>
+<p>Survivors were also motivated to recall the loss of their wealth and property in the hope that some financial compensation and restitution could be achieved. Unlike later testimonies, early postwar depositions do not describe the religious or social life of their families and communities before the war. However, many describe their socioeconomic status and how it was ruined even before the Nazi takeover. For example, many of the interviewees in the DEGOB collection describe the greed of their Hungarian neighbors and later officials – who formally through a series of expropriation laws, but also informally through looting, mercilessly robbed the Jews.</p>
+<p>As part of this discussion, descriptions of the initial assault on the Jewish community informs researchers about the increasing humiliation and impoverishment of the Jews which would undoubtedly affect their ability to survive as their conditions worsened and they became increasingly dependent on the authorities for their survival. <br/>Alongside memories of the tormentors, there are also descriptions of the individuals who were active in helping the survivors. Interestingly, in some of the interviews, the relationship between the rescuer and the survivors is explored. In one particularly detailed account, Julia (Maria) Stern-Abraham, </p>
+<p>who together with her daughter was saved by a German civil servant in Lemberg/Lviv during the war, described the nature of their relationship, which became one of mutual dependence and help. In the early accounts, the survivors are clear about the rescuers’ motivations and are also empathic to the rescuers’ anxieties and difficulties in having made the decision to help them. Interestingly, in these early accounts, the rescuers are not presented as heroes, but rather as individuals who decided to extend help to those in need and who throughout the period of rescue faced continual pressure and fear.</p>
+<p>The statements given to the Documentation Campaign have a distinctive quality – the imperative to make a testament in which the historical events are recorded. In his statement, Hanuš Gibián gave the exact time and location of a mass shooting by the SS of 42 Jews who had been caught hiding in the Slovak mountains. He provided the following details:</p>
+<p>“This happened on November 1, 1944, at 13:00 in the gap between Kozí Chrbát and Prašiva in the Lower Tatra Mountains, near the village of Hiadel.”</p>
+<p>In the early postwar period, most survivors had no knowledge regarding the fate of their loved ones, friends, and communities, unless they had witnessed their murder. In most of the accounts, the last time the survivors saw their parents or relatives is usually recounted, and in many cases the last words, instruction, or interaction is recalled. Recollections of the suffering and death of those around them was one of the primary motivations for giving testimony: Survivors felt an obligation to retell their suffering in order to tell the world what had happened. It was not only for the sake of creating the historical record, but also to give testimony for the majority of the victims whose stories would not be told and remembered.</p>
+<p>In this period, many survivors hoped that they would be reunited. As one of the survivors stated when asked what his plans were:</p>
+<p>“Future plans? I do not know. First, I would like to find out where there are surviving members of my family, and I will make plans only afterwards.”</p>
+<p>From the statements given to the Prague Documentation Campaign, the issue of information, awareness, and reflection becomes evident in a powerful statement given by Heda Grabová, a professional opera singer who was instrumental in the creation of the significant cultural life in the ghetto. In her statement, she remarked:</p>
+<p>“In the summer of 1944, Theresienstadt seemed like an El Dorado in Europe, a place where there are no airstrikes, no fronts, in short, no dangers threatened it. […] Then, around April 20, the first transport of the so-called pajama wearers from Buchenwald arrived in Theresienstadt and our eyes were opened. We discovered the true reality and that day all of the singing, playing, and distracting ourselves stopped. We were in no mood to sing.”</p>
+<p>Lastly, the interviewees often related the inadequacy of their deposition in fully reflecting what they had experienced. In the words of one of the interviewees from the Wiener Library collections, which is echoed in some of the other statements:</p>
+<p>“I cannot describe here in a few short lines all the dreadful and horrible things that I experienced just five months ago. Even if I were to speak about it for years, it would be impossible to relate everything that I suffered personally.”</p>
+<p>There was also an awareness on the part of the survivors that they were not able to write and include everything that they went through in their statements. In the words of Regina Lebensfeldová-Hofstädterová:</p>
+<p>“There are many things that happened in the camp and in the office that I don’t feel able to write down at the moment.”</p>
+<p>Early postwar testimonies can be seen as the beginning of a journey into the survivors’ understanding of what they had experienced. It involves the collection of information and awareness of their individual, communal, and collective fate. It concerns itself with gathering information for the purposes of postwar restitution, justice, and commemoration. Establishing and telling the story is a primary concern; coming to terms with it and making sense of it, if at all possible, is a life-long project. For many of these survivors, these narrations would be the first of many – both formal and informal – which would move from short, descriptive accounts of how the individual survived to longer accounts in which survivors would not only recount what happened but begin to think about why it happened and how their wartime experiences affected the rest of their lives. In retelling, they would also keep trying to find ways to describe what survivors would often call the “indescribable”. Over the decades, most of the survivors would gather more information regarding what had happened during the war and learn of the fates of their loved ones. They would try and integrate their traumatic past into the rest of their lives. In the creation of a life story in which the different parts of their selves are explored and presented, they speak more about the worlds before the war which were lost and the ones that ought to be built in the future in order to create a memorial to and warning against destruction.</p>
+<p>In this introduction, I attempted to identify some of the characteristics of early postwar testimonies and therefore related to elements in each interview which articulate the central concerns and imperatives of the interviewees during this period of time. I hereby identified elements within the particular testimony and constructed a dialogue between the collections. However, it is important to point out my own research position regarding testimony: When using testimonies in research, it is crucial that interviews need to be read in their entirety. The narrative and dynamics of how the individual remembers and makes sense of their past evolves during the telling and can be noticed only when the entire script is read. While comparing interviews is valuable in order to see differences and patterns and in creating collective memories of an experience, identifying and isolating fragments within the general narrative may strip the interview of its context which arguably removes or reduces the survivor’s meaning. One of the important attributes of survivor testimony is that it gives the victims a voice and personalizes his or her suffering, therefore listening to the entire account is a crucial element in our moral obligation towards the witness and in the relational contract established at the time of the interview.</p>
+<div>
+<h3>Notes</h3>
+<p class="footnote">
+<a href="#sdfootnote1-ref">1</a> ‒ Alessandro <em>Portelli</em>,The order has been carried out: History, memory, and meaning of a Nazi massacre in Rome, Springer 2016.</p>
+</div>
+<div/>
+<p class="footnote">
+<a href="#sdfootnote2-ref">2</a> ‒ Henry <em>Greenspan</em>, On listening to Holocaust survivors: Recounting and life history, Praeger Publishers 1998, p. xviii.</p>
+<div/>
+<p class="footnote">
+<a href="#sdfootnote3-ref">3</a> ‒ Testimonials and depositions were not the only means through which survivors attempted to communicate their pasts. Presumably, survivors would have spent a lot of time speaking amongst themselves, yet this is a dynamic which is not preserved.</p>
+<div>
+<p class="footnote">
+<a href="#sdfootnote4-ref">4</a> ‒ Robert Nathaniel <em>Kraft</em>, Memory perceived: Recalling the Holocaust, Praeger Publishers/Greenwood Publishing Group 2002, p. 26.</p>
+</div>
+<div/>
+                </div>    </div>
+
+    <h1 id="id5">Imprint</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                    <p>
+<strong>EHRI-2 Work Package 12: "New views on digital archives"</strong>
+                    </p>
+<p>
+<strong>Chief editors:</strong> Michal Frankl, Magdalena Sedlická, Wolfgang Schellenbacher</p>
+<p>
+<strong>Editors:</strong> Daniela Bartáková, Michał Czajka, Jessica Green, Kat Hubschmann, Gábor Kádár, Yehudit Levin, <span>Martina Ravagnan, </span>Daphna Sehayek, Christine Schmidt, <span>Miriam Schulz, </span>Zoltán Vagi, Marta Wojas</p>
+<p>
+<strong>Introduction</strong>: Sharon Kangisser Cohen</p>
+<p>
+<strong>Translators</strong>: Yochanan Amichai, Jennifer Carvill Schellenbacher, Akvilė Grigoravičiūtė, Caroline Kovtun, Natalia Krynicka, Rebecca Wolpe</p>
+<p>
+<strong>Language editor</strong>: Tim Corbett</p>
+<p>
+<strong>Webdesign</strong>: Lukáš Opekar</p>
+<p>
+<strong>Programming</strong>: Michael Bryant, Štěpán Opekar</p>
+<p>
+<strong>Partner institutions</strong>: <a href="http://www.jhi.pl/en">Emanuel Ringelblum Jewish Historical Institute (PL)</a>, <a href="https://www.jewishmuseum.cz/en/info/visit/">Jewish Museum in Prague (CZ)</a>, <a href="http://www.archivportal.hu/en/archives-of-hungary/hungarian-jewish-archives/">Hungarian Jewish Archives (HU)</a>, <a href="https://www.kcl.ac.uk">King’s College London (UK)</a>, <a href="https://www.mua.cas.cz/en">Masaryk Institute and Archives of the Czech Academy of Sciences (CZ)</a>, <a href="https://www.yadvashem.org/">Yad Vashem, the Holocaust Martyrs’ and Heroes’ Remembrance Authority (IL)</a>, <a href="https://www.wienerlibrary.co.uk/">The Wiener Library for the Study of the Holocaust &amp; Genocide (UK)</a>
+                    </p>
+<p>
+<strong>2020</strong>
+                    </p>
+<p>The digital edition was created within the <a href="https://www.ehri-project.eu/">European Holocaust Research Infrastructure project (EHRI)</a>, which is funded by the European Commission under the FP7 and Horizon 2020 programmes.</p>
+                </div>    </div>
+
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+</section>
+</div>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+</footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

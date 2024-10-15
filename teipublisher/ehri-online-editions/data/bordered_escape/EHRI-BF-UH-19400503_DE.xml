@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19400503_DE">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Polizeiliches Führungszeignis Hugo Guttmanns</title>
+				<title xml:lang="en">Police clearance certificate for Hugo Guttmann</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</orgName><address>
+								<street>Archivní 2257/4</street>
+								<postCode>149 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1420#desc-eng">Polizeipräsidium Prag II</collection>
+						<idno>1931-1940, Sign. G 1179/6 Guttmann Hugo, K. 6136</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Polizeipräsidium Prag II, 1931-1940, G 1179/6 Guttmann Hugo, K. 6136. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1940-05-03">3. Mai 1940</origDate>
+				<origPlace>Prag</origPlace>
+				<orgName>Polizeipräsidium</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="Schicksale"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p><pb facs="EHRI-UH-19400503_01.jpg" n="1"/><!-- Gesch. Zahl: 224936 --></p>
+					<p>Zeugnis - - Vysvědčení </p>
+					<p>Die <orgName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizeidirektion</term></orgName> bestätigt, daß hierorts über</p>
+					<p><persName ref="https://www.holocaust.cz/databaze-obeti/obet/91399-hugo-guttmann/">Hugo Israel Guttmann</persName></p>
+					<p>am <date when="1893-11-09">9. November im Jahre 1893</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName></p>
+					<p>Bezirk <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> geb., nach dtto</p>
+					<p>Bezirk <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zuständig., wohnhaft in <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName> I</p>
+					<p>Benediktská 6 nichts strafbares vorgefunden wurde.</p>
+					<p>Dieses Zeugnis wird <del rend="strikethrough">ihm</del> – <del rend="strikethrough">ihr</del> zwecks Auswanderung ausgefolgt</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>, am <date when="1940-05-03">3.V.1940</date></p>
+					<p><!-- [VYPRAVENO (ausgefertigt) – <date when="1940-05-04">4.V.1940</date>] --></p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

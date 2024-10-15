@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>History Documentation Campaign</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/ehri.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+            body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #3f004f;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">Documentation Campaign</h1>
+                        <ul>
+                            <li>
+                                <a href="#zeev">Zeev Schek’s Documentation Campaign</a>
+                            </li>
+                            <li>
+                                <a href="#parents">The Story of My Parents</a>
+                            </li>
+                            <li>
+                                <a href="#jewish">Jewish Religious Communities in the Bohemian Lands After 1945</a>
+                            </li>
+                            <li>
+                                <a href="#ethnic">Ethnic Homogenization and Its Impact on Jews in the Bohemian Lands After 1945</a>
+                            </li>
+                            <li>
+                                <a href="#memory">Holocaust Memory in Early Postwar Czechoslovakia</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                
+            <div class="container">
+            <h1 id="zeev">Zeev Schek’s Documentation Campaign</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>
+                                    <strong>Magda Veselská</strong>
+                                </p>
+<h2>
+                                    <b/>
+                                </h2>
+<h2>
+                                    <strong>The Early Days of the Documentation Campaign<span style="font-weight:400;">
+                                            <sup>
+                                                <a id="footnote1-ref" href="#footnote1">1</a>
+                                            </sup>
+                                        </span>
+                                    </strong>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">The effort to document the persecution of the Jews by collecting authentic documents and papers produced in the Protectorate Bohemia and Moravia began while the Second World War was still raging. These activities were conducted by the staff of the Jewish Religious Community in Prague<sup>
+                                            <a id="footnote2-ref" href="#footnote2">2</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> (Židovská náboženská obec v Praze, hereafter JRCP) as the office responsible for all persons affected by the Nuremberg Race Laws within the borders of the Protectorate of Bohemia and Moravia,<sup>
+                                            <a id="footnote3-ref" href="#footnote3">3</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> as well as in the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, where most of the Protectorate’s Jews were deported, beginning at the end of the year 1941.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">In<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a>, this work was primarily carried out by the people who had been on the very first transports in November and December 1941 and were involved in building up the organization and structure of the ghetto from the very beginning, worked for its self-government, and had access to documents. Their motives varied from wanting to document the founding and development of the ghetto, its typical features, and life within it, the work of the members of its self-government, specific groups of prisoners or individuals and important phenomena to later capturing the course and extent of the catastrophe or collecting evidence and testimony for later use after the war. Still others wanted to keep alive the memory of their life in the ghetto, of their friends and fellow prisoners.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Some collectors likely thought about the future use of these authentic documents from <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a>, i.e. to create a record of the persecution of Czech Jews. For example, Josef Polák (1905–1965), an employee of the ghetto’s central registration office, published rescued material such as various summaries and statistics after the war, firstly in collaboration with the journalist Zdeněk Lederer (1920–1981),<sup>
+                                            <a id="footnote4-ref" href="#footnote4">4</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> and later with the lawyer Karel Lagus (1903–1979).<sup>
+                                            <a id="footnote5-ref" href="#footnote5">5</a>
+                                        </sup> </span>
+                                    <span style="font-weight:400;">
+                                        <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000003">H. G. Adler</a> (1910–1988), who was deported to <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> in February 1942, also relied on the authentic documents collected in the ghetto.<sup>
+                                            <a id="footnote6-ref" href="#footnote6">6</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Others collected mementos for their own private use, such as Hermann Weisz (1907–1974), who maintained scrapbooks<sup>
+                                            <a id="footnote7-ref" href="#footnote7">7</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;">, or who held on to documentation of specific phenomena—culture and sports that presented the human face of the ghetto and the activities in which they participated (the collection of posters and various invitations on cultural and sports events in the ghetto of Karel Heřman/Hermann, 1905–1953).<sup>
+                                            <a id="footnote8-ref" href="#footnote8">8</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> These collections acquired secondary source value for Shoah research only once they were made public, as did the private archives of individuals living outside of the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, such as that of Věra (Erika) Pokorná (1911–1990), who was in an intermarriage.<sup>
+                                            <a id="footnote9-ref" href="#footnote9">9</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Deportees to <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> collected not only documents, but also amassed knowledge that they later used in their professional work. Two names stand out: the psychologist and philosopher <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000814">Emil Utitz</a> (1883–1956) and the physician Lilly Pokorná (1894–1974).<sup>
+                                            <a id="footnote10-ref" href="#footnote10">10</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<h2>
+                                    <b/>
+                                </h2>
+<p/>
+<h2>
+                                    <strong>The History of the Documentation Campaign and Its Staff</strong>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">Already in the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Yochanan Zeev Schek</a> (1920–1978) began to collect documents, especially those related to the cultural and educational activities of the Zionists and their youth program, something that was extremely important to them. He likely put together a collection containing art and literature as well as documents on the work of the Jewish self-government during the year 1944. After he was deported to <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a> in the fall of 1944, his future wife Alisa continued with the effort (more about this in Daniel Shek’s introduction). After liberation, she brought the preserved documents to Prague, where <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> had returned to fromKaufering. His experience of other concentration camps, in which he apparently came to realize the extent and impact of the catastrophe that had befallen European Jewry, spurred him to decide to continue collecting documents of what had happened during the war in a systematic way and on a much larger scale, so that “</span>
+                                    <i>
+                                        <span style="font-weight:400;">with the last remnant of the faith that I still cherish for life, I could put it behind me in a way that could make future Jewish generations draw the appropriate conclusions.”</span>
+                                    </i>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote11-ref" href="#footnote11">11</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<h6>
+                                    <div class="item-file image-png">
+                                        <a class="download-file" href="https://ehri-editions-dc.s3.eu-central-1.amazonaws.com/fullsize/a77c721ffb1fe13b6f3a712e01049eeb.jpg">
+                                            <img class="thumb" src="https://ehri-editions-dc.s3.eu-central-1.amazonaws.com/thumbnails/a77c721ffb1fe13b6f3a712e01049eeb.jpg" alt="Sheck_portrétní.png" title="Sheck_portrétní.png"/>
+                                        </a>
+                                    </div> <span>Zeev Schek. Courtesy of Rachel Shek.</span>
+                                </h6>
+<p>
+                                    <span style="font-weight:400;">He divided the documents pertaining to the Bohemian Lands into groups under a heading entitled </span>
+                                    <b>Documentation Campaign </b>
+                                    <span style="font-weight:400;">(hereafter Campaign) in cooperation with the Budapest office of </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-400">
+                                        <span style="font-weight:400;">Sochnut</span>
+                                    </a>
+                                    <span style="font-weight:400;"> as follows: 1) anti-Jewish literature, articles, and newspaper clippings from the period of the Second Czechoslovak Republic and Protectorate; 2) documents related to anti-Jewish regulations that were issued by “superior authorities,” i.e. the Nazi </span>
+                                    <i>
+                                        <span style="font-weight:400;">Zentralstelle für jüdische Auswanderung</span>
+                                    </i>
+                                    <span style="font-weight:400;"> and Gestapo, including all forms and printed material, etc.; 3) scholarly and artistic works that were produced in defiance of the Nazi terror, and documentation of cultural activities; 4) photographic documentation of desecrated cemeteries, destroyed synagogues, concentration camps, and the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>; 5) testimonies of former prisoners as documentation of Nazi atrocities in order to preserve the memory of the dead and to provide evidence for bringing the perpetrators to justice.<sup>
+                                            <a id="footnote12-ref" href="#footnote12">12</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> He actively sought out deeds that could be interpreted as acts of inner revolt and resistance to Nazi oppression (literary or scholarly works) and considered the future, primarily promotional usage of the collected material. Of great importance to him was the documents’ potential to achieve punishment of the war crimes, which was an actual issue after the Second World War.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">To achieve his goals, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> assembled a small team at the beginning of July 1945, united by its identification with the Zionist movement, age, mutual friendships, wartime experience, and gradually cemented intention to emigrate to Palestine. The team’s makeup changed over time. Task of </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP001">
+                                        <span style="font-weight:400;">Alexander Schmiedt</span>
+                                    </a>
+                                    <span style="font-weight:400;"> was to seek out survivors willing to provide testimonies, especially among the members of the Zionist community, and he also maintained the Campaign’s archive.<sup>
+                                            <a id="footnote13-ref" href="#footnote13">13</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The testimonies were generally recorded by Marta Krátká and Berta Gerzonová, and their authenticity was confirmed by Harry Tarsi and his companion from the Stab transport<sup>
+                                            <a id="footnote14-ref" href="#footnote14">14</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> and <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Zeev Schek’s</a> pre-war friend fromOlomouc, Robert Ludvík Weinberger, who was involved in the research into wartime anti-Jewish legislation.<sup>
+                                            <a id="footnote15-ref" href="#footnote15">15</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The Campaign’s main typists were Helena Schicková, Marta Fischerová, Edita Saxlová, and, starting in early 1946, the future writer and translator <a href="https://www.memoryofnations.eu/en/bondyova-ruth-1923">Ruth Bondy</a>. Jiří Lauscher made models of <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> and <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a>. <a href="https://www.memoryofnations.eu/en/livni-mordechaj-1926">Mordechaj Livni’s</a> job was to </span>
+                                    <i>
+                                        <span style="font-weight:400;">“search for and gather Nazi documents that were mainly to be found in the cellar of the Gestapo headquarters inPrague.“ </span>
+                                    </i>
+                                    <span style="font-weight:400;">He also gathered material directly in <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a>. Specialists, such as the commercial photographer <a href="https://fotografmagazine.cz/en/?magazine=fred-kramer">Fred Kramer</a> (1913–1994)<sup>
+                                            <a id="footnote16-ref" href="#footnote16">16</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> or the physician Erich Nasch, who helped gather documents on concentration camps in Austria and Germany in the fall of 1945, were employed to conduct specific tasks.<sup>
+                                            <a id="footnote17-ref" href="#footnote17">17</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Funding for the Campaign’s work was provided by the Ezra Committee inPrague.<sup>
+                                            <a id="footnote18-ref" href="#footnote18">18</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> also managed to procure support from other institutions as well. For instance, <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2043705">Karel Stein</a> (1906–1961), the Chairman of the Jewish Religious Community in Prague and member of the Council of Jewish Religious Communities in the Czech and Moravian-Silesian Lands, wanted to work very closely with the Campaign. Both institutions saw the documentation of wartime events as extremely important, as they felt responsible for preserving witness testimonies and for public awareness of the fate of the Jews during the Second World War. However, they didn’t have the means or capacity to work independently because they were also dealing with repatriation and helping survivors, as well as defending the interests of Czech Jews in their negotiations with the Czechoslovak state, often in property issues (more about this in <a href="https://documentation-campaign.ehri-project.eu/exhibits/show/about/lanicek-introduction">Jan Láníček’s introduction</a>). But they offered the Campaign a different kind of support—offices, technical facilities, the mediation of contacts with renewed Jewish communities in Bohemia and Moravia and with other institutions, and last but not least representation when dealing with the authorities. Although <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> was in continuous negotiations with theBudapest </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-400">
+                                        <span style="font-weight:400;">Sochnut</span>
+                                    </a>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote19-ref" href="#footnote19">19</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> and shared its ideals and opinions, the office didn’t get back to him for a long time despite urgent reminders and personal pleas due to a lack of clarity about the internal situation and the delineation of competencies. This was a source of frustration for <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a>, especially when others, such as The <a href="https://portal.ehri-project.eu/authorities/ehri_cb-1051">World Jewish Congress</a>, were eminently interested in his work and results.<sup>
+                                            <a id="footnote20-ref" href="#footnote20">20</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;">In order to save time, he agreed to cooperate with the JRCP</span> <span style="font-weight:400;">in early August 1945.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The first postwar issue of the revived </span>
+                                    <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote21-ref" href="#footnote21">21</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;">published at the beginning of September 1945 featured a report about the Campaign working on behalf of </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-400">
+                                        <span style="font-weight:400;">Sochnut</span>
+                                    </a>
+                                    <span style="font-weight:400;"> and collecting </span>
+                                    <i>
+                                        <span style="font-weight:400;">“everything that recalled the Nazi terror in the occupied territory”</span>
+                                    </i>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote22-ref" href="#footnote22">22</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> for the Prague Jewish community. The documents destined for the JRCP</span> <span style="font-weight:400;">were to be stored in the</span>
+                                    <a href="https://portal.ehri-project.eu/institutions/cz-002279">
+                                        <span style="font-weight:400;">Jewish Museum in Prague</span>
+                                    </a>
+                                    <span style="font-weight:400;">,<sup>
+                                            <a id="footnote23-ref" href="#footnote23">23</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> which was administered by the community. The person appointed to manage this process was the previously mentioned <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000003">H. G. Adler</a>. The rules of cooperation between the Campaign, the JRCP, and the </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/cz-002279">
+                                        <span style="font-weight:400;">Jewish Museum in Prague</span>
+                                    </a>
+                                    <span style="font-weight:400;"> were agreed upon in the middle of October 1945.<sup>
+                                            <a id="footnote24-ref" href="#footnote24">24</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">While this was happening, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> was already cooperating with Jewish communities in Bohemia and Moravia, which he called on to collect relevant documents, artworks, and brief but factual survivor testimonies.<sup>
+                                            <a id="footnote25-ref" href="#footnote25">25</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The Jewish community in<a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek’s</a> home town of Olomouc was one such participant. Elsewhere, it was individuals who took up the work, such as Bruno Bock inBrno, who confirmed the authenticity of the testimonies of </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP013">
+                                        <span style="font-weight:400;">Ruth Morgensternová</span>
+                                    </a>
+                                    <span style="font-weight:400;"> and Leo Herzog, or Traudl Lichtensternová inMariánské Lázně.<sup>
+                                            <a id="footnote26-ref" href="#footnote26">26</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The gathering of documents in<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> continued, and <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> was approached by individuals who had managed to collect and hide papers during the war<sup>
+                                            <a id="footnote27-ref" href="#footnote27">27</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> or who had begun collecting testimonies in peacetime. Among them were Rabbi <a href="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1054925">Richard Feder</a> of Kolín (1875–1970), who wrote about his wartime experience and internment in <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> and included the fates of his fellow believers from Kolín in one of the first ever postwar books on Czech Jews during the Second World War.<sup>
+                                            <a id="footnote28-ref" href="#footnote28">28</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Max Munk had his own personal reasons for participating in the effort. He collected testimonies on topics that affected him the most—life inBuchenwald (Gustav Herzog and Josef Fried), but also for example <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a>, which he only knew from secondhand accounts (reports by Max Borger and Vilém Baum). He also asked survivors to submit stories about his brother MUDr. <a href="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Erich Munk</a>. Other testimonies were obtained and recorded apparently by chance whenever he had the opportunity: a native of Riga recalled his experiences in the city’s ghetto (</span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP018">
+                                        <span style="font-weight:400;">Isak Berner</span>
+                                    </a>
+                                    <span style="font-weight:400;">), someone else the Jaworzno camp (Paul Heller), etc. He stopped working after handing over his records to the Campaign, but apparently helped transport part of the Campaign archive to Palestine, where he joined his wife and children in September 1946.<sup>
+                                            <a id="footnote29-ref" href="#footnote29">29</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">At the end of October 1945, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> decided to join forces on documenting the events of the Shoah with the colleagues from Slovakia, where, unlike in Bohemia or Moravia, it was possible to document the armed resistance movement, e.g. the Jews’ involvement in the Slovak National Uprising. Due to the limited timeframe, it’s not possible to determine whether closer cooperation actually took place.<sup>
+                                            <a id="footnote30-ref" href="#footnote30">30</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> also tried to establish contacts with similar initiatives in other countries, as he considered the coordination of joint efforts to be a crucial endeavor, but according to available information it appears that he was unsuccessful.<sup>
+                                            <a id="footnote31-ref" href="#footnote31">31</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">In the middle of December 1945, at <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek’s</a> suggestion,the JRCP</span> <span style="font-weight:400;">published another report in </span>
+                                    <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, in which it appealed anew to the Jewish communities outside of Prague to be active and cooperative.<sup>
+                                            <a id="footnote32-ref" href="#footnote32">32</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> At the time, discussions about how the collected material would be divided were already underway because <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> was preparing to emigrate to Palestine. In February 1946, he asked the chairman of the JRCP, <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2043705">Karel Stein</a>, to continue with the collecting of documents even after the end of the Campaign and gave him the portion of the material destined for the </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/cz-002279">
+                                        <span style="font-weight:400;">Jewish Museum</span>
+                                    </a>
+                                    <span style="font-weight:400;">.<sup>
+                                            <a id="footnote33-ref" href="#footnote33">33</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> He took part of the documents for Palestine when he emigrated.<sup>
+                                            <a id="footnote34-ref" href="#footnote34">34</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The Campaign officially finished their activities due to financial limitations on May 31st, 1946.<sup>
+                                            <a id="footnote35-ref" href="#footnote35">35</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The remaining material was brought to Palestine with the help of friends over the course of 1946.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">According to the agreement arranged by Leo Hermann in October 1945, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> handed over the Campaign’s materials to Georg Herlitz, the director of the <a href="https://portal.ehri-project.eu/institutions/il-002782">Zionist Central Archives</a>, until further notice.<sup>
+                                            <a id="footnote36-ref" href="#footnote36">36</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The collection was subsequently kept inthe Jewish Historical Archives (now the <a href="https://portal.ehri-project.eu/institutions/il-002781">Central Archives for the History of the Jewish People, CAHJP</a>) inJerusalem, where it was rudimentarily sorted. Only in 1976 did <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> transfer it to the </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/il-002798">
+                                        <span style="font-weight:400;">Yad Vashem Archives</span>
+                                    </a>
+                                    <span style="font-weight:400;">, but as the <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Zeev Schek</a> (</span>
+                                    <i>
+                                        <span style="font-weight:400;">Osef Zeev Shek</span>
+                                    </i>
+                                    <span style="font-weight:400;">) collection, and not the Documentation Campaign collection (</span>
+                                    <i>
+                                        <span style="font-weight:400;">Osef Mifal ha-dokumentatziya</span>
+                                    </i>
+                                    <span style="font-weight:400;">), which some of <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek’s</a> colleagues saw as being at odds with the project’s original intent.<sup>
+                                            <a id="footnote37-ref" href="#footnote37">37</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> It’s kept in the fonds O.7.cz (Czech Republic), where the nature of the documents and a note on the handover from the<a href="https://portal.ehri-project.eu/institutions/il-002781">CAHJP</a> serve as guidelines for identifying the inventory, and O.64 (<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a>); according to the inventory, the collection is listed under files 1–110. Individual files may also appear in the</span>
+                                    <a href="https://portal.ehri-project.eu/institutions/il-002777">
+                                        <span style="font-weight:400;">Beit Terezin Archive</span>
+                                    </a>
+                                    <span style="font-weight:400;"> since the Sheks significantly contributed to its founding and to the creation of its collections.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<h2>
+                                    <b/>
+                                </h2>
+<h2>
+                                    <strong>The Nature of the Collected Material</strong>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">The Campaign’s first results were summarized in the above-mentioned report published in the September 1945 issue of </span>
+                                    <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">. Over the course of the summer of 1945, its staff managed to collect some of the anti-Jewish literature and periodicals that had come out during the occupation, as well as 2,000 various forms and printed matter that documented the orders issued by the superior authorities and their implementation. On the basis of excerpts from the Collection of Laws and Regulations and information from sectoral ministries, it also collected all of the anti-Jewish regulations proclaimed during the Protectorate of Bohemia and Moravia. It achieved its objective of collecting literary and art works fromconcentration camps, photographic reports from <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a> and Terezín, and documentation of destroyed synagogues and cemeteries, such as Julius Lederer’s coverage ofBřeznice. The report also mentioned the testimonies of former camp prisoners as evidence of Nazi atrocities. Some of these were taken down in the Campaign’s office in Prague, while others were copies of existing texts like those by H. Vinohradský.<sup>
+                                            <a id="footnote38-ref" href="#footnote38">38</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> They can be identified according to their more-or-less uniform style of arrangement. Some are given identification numbers, even though from the recorded data it seems that they were numbered simultaneously (reports with a lower number have a later date), but the numerical order is far from complete. The name of the person who recorded the testimony, who witnessed it, and who accepted it on behalf of the Documentation Campaign can be found in the footer. Apart from a few exceptions, the contents of which are more akin to an attempt at a summary or memoir (e.g. the reminiscences of Cäcilie Friedmannová or Erich Nasch), the testimonies, in accordance with the Campaign’s guidelines, are brief and concise accounts of wartime events, a good example of which is Marianna Meissnerová’s statement.<sup>
+                                            <a id="footnote39-ref" href="#footnote39">39</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Depending on their content, they can be divided into several groups.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Based on the preserved material, it appears that the priority wasn’t to simply document what happened in Terezín, a camp through which most of the Protectorate’s Jews at some point passed, but also to focus on other concentration, extermination, and labor camps and ghettos where Czech Jews were persecuted. Some witnesses spoke about the first transports from the Protectorate Bohemia and Moravia to Łódź, Minsk, etc., among them </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP012">
+                                        <span style="font-weight:400;">Karel Abeles</span>
+                                    </a>
+                                    <span style="font-weight:400;"> or Leo Herzog. The majority of those who had lived through Terezín gloss over their imprisonment in theghetto and begin their accounts with the moment of their departure or summarize it in one or two sentences. Some concentrate on describing the next transport or internment in another camp like Otto Friedländer, Otto Kalwo, Benjamin Lewin, </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP001">
+                                        <span style="font-weight:400;">Alexander Schmiedt</span>
+                                    </a>
+                                    <span style="font-weight:400;">, </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP002">
+                                        <span style="font-weight:400;">Zdeněk and Jiří Steiner</span>
+                                    </a>
+                                    <span style="font-weight:400;">, or Evžen Schönfeld, while others concentrate on a specific act or event, such as </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP015">
+                                        <span style="font-weight:400;">Hanuš Gibián</span>
+                                    </a>
+                                    <span style="font-weight:400;">, H. Safirstein, or <a href="https://blog.ehri-project.eu/2016/03/11/testimony-of-valerie-straussova/">Valerie Straussová</a>. It’s possible that the Campaign’s staff believed that the circumstances of life in Terezín were sufficiently well-known among the survivors. Moreover, several accounts of the ghetto were published after the war. Their documentation of the ghetto therefore was more about gathering extensive testimonies on a particular activity, area, or phenomenon, especially if it could be interpreted as resistance to persecution (culture, education, etc.)—see the statements submitted by </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP008">
+                                        <span style="font-weight:400;">Heda Grabová</span>
+                                    </a>
+                                    <span style="font-weight:400;">, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-002535">Willy Groag</a>, </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP020">
+                                        <span style="font-weight:400;">Heinrich Klang</span>
+                                    </a>
+                                    <span style="font-weight:400;">, Otto Muneles, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Zeev Schek</a>, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000814">Emil Utitz</a>, or information on the so-called “Schleuze.” Still others recounted specific events and their experience of them, like Jan Bondy or the report by an unknown author on the census of prisoners in the Bohušovice Basin.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Many testimonies comment on a specific act, event, aspect, person or their fate (most often the circumstances of their death). Taken in their entirety, they create a mosaic of various situations and individual lives (see </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP014">
+                                        <span style="font-weight:400;">Ota Klinger's</span>
+                                    </a>
+                                    <span style="font-weight:400;"> recollection of the death of <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP014">Jan </a>
+                                        <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP014">Hermann</a>
+                                        <em>).</em> Some interviewees provided multiple accounts on various topics (e.g. <a href="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293">Josef Kláber</a>, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000451">Erich Kulka</a>, </span>
+                                    <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP014">
+                                        <span style="font-weight:400;">Ota Klinger</span>
+                                    </a>
+                                    <span style="font-weight:400;">). Some of the statements were taken down onsite: in the middle of August 1945 <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> took part in the exhumation of the graves of death march victims in Teplá and questioned a number of witnesses on the spot. Logs and reports were also made by Weinberger and Nasch during their previously mentioned trip to Austria and Germany to visit the former concentration camps, hospitals, and DP camps there. In addition, the Campaign’s staff received many suggestions to procure certain testimonies in the overall effort to punish war crimes.<sup>
+                                            <a id="footnote40-ref" href="#footnote40">40</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">At the end of October 1945, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> was asked by the London </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-400">
+                                        <span style="font-weight:400;">Sochnut</span>
+                                    </a>
+                                    <span style="font-weight:400;"> to document in detail the activities of leading Zionist workers (<a href="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Jakob Edelstein</a>, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000199">Franz Kahn</a>, <a href="https://portal.ehri-project.eu/authorities/jc_persons-2563393">Otto Zucker</a>, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Erich Munk</a>, and others). Documenting the Zionist movement was nothing new for the Campaign (see the testimony of <a href="https://documentation-campaign.ehri-project.eu/items/show/107">Erika Wolfová</a>).<sup>
+                                            <a id="footnote41-ref" href="#footnote41">41</a>
+                                        </sup> </span>
+                                    <span style="font-weight:400;">
+                                        <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> writes: </span>
+                                    <i>
+                                        <span style="font-weight:400;">“I know very well that won’t help any of them, but it should be known under what terrible circumstances various people took responsibility on themselves. I am aware that this was often not for ideal but material reasons, but I also know how many of them showed themselves to be truly great in specific cases.”</span>
+                                    </i>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote42-ref" href="#footnote42">42</a>
+                                        </sup>
+                                    </span> <span style="font-weight:400;">People’s memories of <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Jakob Edelstein</a>, in particular, were collected (see the testimonies of <a href="https://early-testimony.ehri-project.eu/document/EHRI-ET-JMP005">Erich Kulka</a> or <a href="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293">Josef Kláber</a>), but some of those addressed were unable or unwilling to revisit their traumatic experiences.<sup>
+                                            <a id="footnote43-ref" href="#footnote43">43</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The agreement between the Campaign and the JRCP</span> <span style="font-weight:400;">on the division of the documents into those to be transferred to Palestine and those that would remain inPrague was in essence a general one. Copies were to be made of alldocuments, with the understanding that the original would be kept where it was of greater value to the local community—documents on the activity of the JRCP</span> <span style="font-weight:400;">would stay inPrague, the documents important to the Zionist movement in Palestine. Any duplicates were to be divided.<sup>
+                                            <a id="footnote44-ref" href="#footnote44">44</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> However, a comparison of what is now kept at the <a href="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</a> and in the archive of the <a href="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</a> has shown that the terms of the agreement have not been fulfilled. It’s possible that copies or duplicates of all of the documents were not made in time and over the decades losses may have occurred in both collections. Shek wrote in 1947 that the Campaign’s staff </span>
+                                    <i>
+                                        <span style="font-weight:400;">“succeeded in securing the larger part for Palestine.”</span>
+                                    </i>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote45-ref" href="#footnote45">45</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The set of regular reports on the wartime activities of the JRCP</span> <span style="font-weight:400;">addressed to the superior office, the Nazi Zentralstelle für jüdische Auswanderung and their correspondence, the files of some Moravian Jewish communities, the Campaign’s files, and specific witness statements are only kept in <a href="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem</a>.<sup>
+                                            <a id="footnote46-ref" href="#footnote46">46</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> In terms of the <a href="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</a>’s archive, only the Campaign’s stamp or copyright mark allows for the unambiguous identification of the Campaign’s documents. For unmarked documents, secondary clues or other leads have to be relied upon.<sup>
+                                            <a id="footnote47-ref" href="#footnote47">47</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Unfortunately, identifying the original collection of the Campaign, including its later additions, especially in view of the subsequent handling of both collections and the mutual sharing of copies, has proven impossible.</span>
+                                </p>
+<p/>
+<h2>
+                                    <b/>
+                                </h2>
+<h2>
+                                    <strong>Summary</strong>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">Just like in many other European countries, many people in the Protectorate of Bohemia and Moravia sought to record what happened during the occupation by collecting authentic documents both while the war was still ongoing and immediately after liberation. Such activities in the Bohemian Lands, however, were fairly specific and have few things in common with other European initiatives, particularly those described by Laura Jockusch.<sup>
+                                            <a id="footnote48-ref" href="#footnote48">48</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">From the outset, the group around <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Zeev Schek</a> focused on documenting the work of the Zionists. Through the material they collected, they wanted to inform future generations of their firm stance and deliberate actions, loyalty to their ideals even in the harsh conditions of the ghetto, and active resistance to oppression and persecution by educating the young and promoting cultural activities. Later on, Schek himself coined the term </span>
+                                    <i>
+                                        <span style="font-weight:400;">meri le-lo neshek</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (resistance without weapons),<sup>
+                                            <a id="footnote49-ref" href="#footnote49">49</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> and even after war concentrated on documenting related phenomena and actions. For Zionist institutions, the Campaign also documented prominent members of the movement, its heroes, and focused on providing pictorial documentation of sites of persecution for promotional and informational purposes. Additionally, it sought to record the fate of Czech Jews not held prisoner in the Terezín Ghetto by drawing on examples.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Collecting documents inTerezín was the manifestation of an active outlook on life, a refusal to give in, a faith in the future and in the survival of the Jewish people, and the belief that life would go on after the war. Unlike the traumatization of the collectors in other countries that Jockusch writes about, the Campaign’s staff maintained this attitude even after the war. Despite the immensity of the tragedy that befell the Jewish population of Bohemia and Moravia, <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> and his colleagues represented the active and objective approach, all while looking ahead towards life in the Jewish state.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Time constraints, as the Campaign only operated in the Bohemian Lands for several months, and the insufficient expertise of its staff led it to refrain from assessing its own material. Most of the Campaign’s members hailed from a generation that had taken up their professions or specializations after the war; a majority was only a little over 20 years of age at the time. None were historians or representatives of other humanities disciplines; only the lawyer Robert Weinberger was able to make use of his pre-war education. <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Schek</a> acted in a more intuitive way and, in many cases, responded to the possibilities available to him. His attempts at establishing contacts with other European documentation initiatives, with whom he could confer about methodology and share experiences, seem to have gone unanswered. At home, he could find only limited direct inspiration, for instance in the gathering of witness testimonies for the Extraordinary People’s Courts.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Despite these limitations, the Campaign was able to put together an important collection of sources, which continues to be actively expanded not only by the two institutions where parts of it were deposited, i.e. the </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/il-002798">
+                                        <span style="font-weight:400;">Yad Vashem Archives</span>
+                                    </a>
+                                    <span style="font-weight:400;"> and the </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/cz-002279">
+                                        <span style="font-weight:400;">Jewish Museum inPrague</span>
+                                    </a>
+                                    <span style="font-weight:400;">, but also by other memorials and archives established after the war (e.g. </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/cz-002302">
+                                        <span style="font-weight:400;">Terezín Memorial</span>
+                                    </a>
+                                    <span style="font-weight:400;"> or </span>
+                                    <a href="https://portal.ehri-project.eu/institutions/il-002777">
+                                        <span style="font-weight:400;">Beit Terezin</span>
+                                    </a>
+                                    <span style="font-weight:400;">). Although the documents have been copied, duplicated, and shared countless times, the collections are complementary and only when taken as a whole do they provide a comprehensive picture.</span>
+                                </p>
+<h3>NOTES</h3>
+<p>
+                                    <a id="footnote1" href="#footnote1-ref">1</a> ‒ <span style="font-weight:400;">This text is based on a detailed study on the early postwar documentation of the Shoah in the Bohemian Lands, see Magda Veselská, “Early Documentation of the Shoah in the Czech Lands: The Documentation Project and the Prague Jewish Museum (1945–1947)” </span>
+                                    <i>
+                                        <span style="font-weight:400;">Judaica Bohemiae</span>
+                                    </i>
+                                    <span style="font-weight:400;"> 52, no. 1 (2017): 47–85.</span>
+                                </p>
+<p>
+                                    <a id="footnote2" href="#footnote2-ref">2</a> ‒ <span style="font-weight:400;">Renamed the Jewish Council of Elders in Prague from January 1943.</span>
+                                </p>
+<p>
+                                    <a id="footnote3" href="#footnote3-ref">3</a> ‒ <span style="font-weight:400;">For example, see the activities of Hanuš Aschermann (1914–1944), a worker in the emigration department of the JRCP and member of the Czech-Jewish movement, described by a witness, see the Archives of the Jewish Museum in Prague (AJMP), Oral History Collection, Interview no. 404 (Z. P., woman).</span>
+                                </p>
+<p>
+                                    <a id="footnote4" href="#footnote4-ref">4</a> ‒ <span style="font-weight:400;">Zdenek Lederer, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Ghetto Theresienstadt</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (London: Edward Goldston &amp; Son Ltd., 1953).</span>
+                                </p>
+<p>
+                                    <a id="footnote5" href="#footnote5-ref">5</a> ‒ <span style="font-weight:400;">Karel Lagus, Josef Polák, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Město za mřížemi</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Praha: Naše vojsko, 1964).</span>
+                                </p>
+<p>
+                                    <a id="footnote6" href="#footnote6-ref">6</a> ‒ <span style="font-weight:400;">E.g. Hans Günther Adler, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Theresienstadt. 1941–1945. Das Antlitz einer Zwangsgemeinschaft, Geschichte Soziologie Psychologie</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Tübingen: Mohr, 1955).</span>
+                                </p>
+<p>
+                                    <a id="footnote7" href="#footnote7-ref">7</a> ‒ <span style="font-weight:400;">Today, part of the collection O.64 (Theresienstadt Collection) in theYad Vashem Archives (YVA).</span>
+                                </p>
+<p>
+                                    <a id="footnote8" href="#footnote8-ref">8</a> ‒ <span style="font-weight:400;">Jana Štefaniková, ‘Karel Herrmanns Tätigkeit in Theresienstadt in den Jahren 1941–1944. Die Heřman-Sammlung und ihr Schicksal’, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Theresienstädter Studien und Dokumente</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 2004: 72–135.</span>
+                                </p>
+<p>
+                                    <a id="footnote9" href="#footnote9-ref">9</a> ‒ <span style="font-weight:400;">AJMP, Documents of Persecution, inv. no. 78, box 38.</span>
+                                </p>
+<p>
+                                    <a id="footnote10" href="#footnote10-ref">10</a> ‒ <span style="font-weight:400;">Emil Utitz, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Psychologie života vterezínském koncentračním táboře</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Praha: Dělnické nakladatelství, 1947); Lilly Pokorná, ‘Die Lungentuberkulose im Konzentrationslager Theresienstadt im Vergleich mit der bei Häftlingen in anderen deutschen Konzentrationslagern’, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Tuberk-Arzt</span>
+                                    </i>
+                                    <span style="font-weight:400;"> 4 (1950): 406–414.</span>
+                                </p>
+<p>
+                                    <a id="footnote11" href="#footnote11-ref">11</a> ‒ <span style="font-weight:400;">YVA, O.7.cz (Documentation regarding the Jews of Bohemia and Moravia, mainly during the Holocaust), file no. 267. Letter from Zeev Schek to Traudl Lichtensternová, 10. 12. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote12" href="#footnote12-ref">12</a> ‒<span style="font-weight:400;">YVA, O.7.cz, file no. 263. Letter from the Documentation Campaign to Emerich Klein, editor of ‘Ichud’, 31. 7. 1945. </span>
+                                </p>
+<p>
+                                    <a id="footnote13" href="#footnote13-ref">13</a> ‒<span style="font-weight:400;">YVA, O.7.cz, file no. 263. Report for the Secretariat of the JRC, 27. 7. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote14" href="#footnote14-ref">14</a> ‒ <span style="font-weight:400;">Transport St (Stab, so-called štáb) from Prague to Terezín from 4. 12. 1941. Prisoners from this group formed a substantial part of the first leadership of the Jewish self-government (e.g. Jakob Edelstein or Otto Zucker).</span>
+                                </p>
+<p>
+                                    <a id="footnote15" href="#footnote15-ref">15</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Letter from the Campaign to the Personnel Office, 6. 3. 1945; Ibid. Letter from R. Weinberger to Z. Schek, 18. 3. 1946.</span>
+                                </p>
+<p>
+                                    <a id="footnote16" href="#footnote16-ref">16</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 267. Credentials for Max Lieben; Ibid. Credentials for Fred Kramer.</span>
+                                </p>
+<p>
+                                    <a id="footnote17" href="#footnote17-ref">17</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Message from the Campaign to the Secretariat of the JRC, 2. 10. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote18" href="#footnote18-ref">18</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 268. Letters from The Jewish Agency for Palestine, ‘Ezra’ committee inBratislava to the Campaign, 6. 9. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote19" href="#footnote19-ref">19</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Record for the JRC Leadership, 27. 7. 1945. </span>
+                                </p>
+<p>
+                                    <a id="footnote20" href="#footnote20-ref">20</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Letter from the Campaign to Salomon Adler-Rudel, 19. 10. 1945. The first response of the London Sochnut only informed Schek that he must await the decision of the headquarters inJerusalem, see YVA, O.7.cz, file no. 268. Letter from the Jewish Agency for Palestine to the Campaign (translated into Czech), 23. 10. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote21" href="#footnote21-ref">21</a> ‒ <span style="font-weight:400;">Newsletter of the JRCP.</span>
+                                </p>
+<p>
+                                    <a id="footnote22" href="#footnote22-ref">22</a> ‒ <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 1. 9. 1945, p. 8. Documentation Campaign of the JRCP. Schek regularly informed the JRCP about his work, see YVA, O.7.cz, file no. 263. Message from the Campaign to the Leadership, 5. 8. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote23" href="#footnote23-ref">23</a> ‒<span style="font-weight:400;">On the history of the Jewish Museum in Prague, see Magda Veselská, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Archa paměti. Cesta pražského židovského muzea pohnutým 20. stoletím</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Praha: Academia, 2012); same author, ‘“The Museum of an Extinct Race” – Fact vs. Legend: A Contribution to the Topic of the So-Called Jewish Councils in Central Europe’, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Judaica Bohemiae</span>
+                                    </i>
+                                    <span style="font-weight:400;"> 51, no. 1 (2016): 41–83.</span>
+                                </p>
+<p>
+                                    <a id="footnote24" href="#footnote24-ref">24</a> ‒ <span style="font-weight:400;">AJMP, Jewish Museum in Prague 1945–1960, inv. no. 4, box 35. List of people who worked with the Jewish Central Museum on October 1st, 1945; YVA, O.7.cz, file no. 263. Letter from the Campaign to Štěpán Barber, 18. 10. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote25" href="#footnote25-ref">25</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Letter from the Campaign to the JRC inOlomouc, 20. 8. 1945. It refers to previous correspondence.</span>
+                                </p>
+<p>
+                                    <a id="footnote26" href="#footnote26-ref">26</a> ‒ <span style="font-weight:400;">E.g. YVA, O.7.cz, file no. 267. Letters for Traudl Lichtensternová-Holubová, 26. 10. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote27" href="#footnote27-ref">27</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Report for the Leadership of the JRC, 27. 7. 1945. On the activities ofindividuals, see YVA, O.7.cz, file no. 268. Karl Basch, Vermerk. Betrifft: Statistisches und sonstiges Material über das Konz. Lager Theresienstadt, 21. 7. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote28" href="#footnote28-ref">28</a> ‒ <span style="font-weight:400;">Richard Feder, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Židovská tragedie. Dějství poslední</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Kolín: Literární a umělecké sbírky města Kolína, 1947).</span>
+                                </p>
+<p>
+                                    <a id="footnote29" href="#footnote29-ref">29</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 265. Letter [from Harry Tarsi] to Zeev Schek, 8. 4. 1946.</span>
+                                </p>
+<p>
+                                    <a id="footnote30" href="#footnote30-ref">30</a> ‒ <span style="font-weight:400;">For example, see YVA, O.7.cz, file no. 267. Record of the meeting on the work of the Documentation Campaign in Bratislava on October 30th, 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote31" href="#footnote31-ref">31</a> ‒ <span style="font-weight:400;">E.g. YVA, O.7.cz, file no. 263. Letter from the Campaing to Komisja historyczna wojwodzka zydowska Lodz [sic], 10. 8. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote32" href="#footnote32-ref">32</a> ‒ <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 15. 12. 1945, p. 32. Documentation Campaign.</span>
+                                </p>
+<p>
+                                    <a id="footnote33" href="#footnote33-ref">33</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 263. Record for Dr. Stein, 6. 2. 1946.</span>
+                                </p>
+<p>
+                                    <a id="footnote34" href="#footnote34-ref">34</a> ‒ <span style="font-weight:400;">Beit Terezin Archives (BTA), Zeev Shek Collection (571), inv. no. 16. </span>
+                                    <i>
+                                        <span style="font-weight:400;">Toldot ‘Mifal ha-dokumentatzia’ (Osef Zeev Shek)</span>
+                                    </i>
+                                    <span style="font-weight:400;">, undated (after 1976).</span>
+                                </p>
+<p>
+                                    <a id="footnote35" href="#footnote35-ref">35</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 265. Letter from the Campaign to the JRCP, 21. 5. 1946. </span>
+                                </p>
+<p>
+                                    <a id="footnote36" href="#footnote36-ref">36</a> ‒ <span style="font-weight:400;">See, for example. YVA, O.7.cz, file no. 268. Translation of a letter from The Jewish Agency for Palestine (The Zionist Central Archive, Georg Herlitz) to the Campaign, 23. 11. 1945; YVA, O.7.cz, file no. 265. Letter from the Campaign to The Zionist Central Archive, 5. 12. 1946. </span>
+                                </p>
+<p>
+                                    <a id="footnote37" href="#footnote37-ref">37</a> ‒ <span style="font-weight:400;">BTA, 571, inv. no. 16. </span>
+                                    <i>
+                                        <span style="font-weight:400;">Toldot ‘Mifal ha-dokumentatzia’ (Osef Zeev Shek)</span>
+                                    </i>
+                                    <span style="font-weight:400;">, undated (after 1976); also Zeev Shek, </span>
+                                    <span style="font-weight:400;">‘</span>
+                                    <span style="font-weight:400;">Edut le-dorot</span>
+                                    <span style="font-weight:400;">‘, </span>
+                                    <span style="font-weight:400;">Felix Weltsch (ed.)</span>
+                                    <span style="font-weight:400;">, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Prag ve-Jerushalayim. Sefer le-zekher Leo Hermann</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Jerusalem, 1954), 70. Ruth Bondy stated that the group that founded the Beit Terezin memorial had counted on Schek depositing the Campaign’s collection there, which didn’t happen; she called it a disappointment. Author’s interview withRuth Bondy about the Documentation Campaign, 10. 10. 2007.</span>
+                                </p>
+<p>
+                                    <a id="footnote38" href="#footnote38-ref">38</a> ‒ <span style="font-weight:400;">The author hasn’t yet been identified.</span>
+                                </p>
+<p>
+                                    <a id="footnote39" href="#footnote39-ref">39</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 267: As far as the statements were concerned, </span>
+                                    <i>
+                                        <span style="font-weight:400;">“we are mainly concerned with things characteristic of a certain camp, i.e. the number of prisoners, housing conditions, food conditions, mortality, special events, selection, etc.“</span>
+                                    </i>
+                                    <span style="font-weight:400;"> writes the Campaign in a letter to Herta Bondyová, 24. 9. 1945. YVA, O.7.cz, file no. 263: These were to be </span>
+                                    <i>
+                                        <span style="font-weight:400;">“short and factual subjective statements</span>
+                                    </i>
+                                    <span style="font-weight:400;">,” Record on the statements for the Documentation Campaign, 21. 8. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote40" href="#footnote40-ref">40</a> ‒ <span style="font-weight:400;">E.g. YVA, O.7.cz, file no. 268. Record of the CJRC to the Campaign with a request to interview witnesses about the Terezín “ladybugs” Elfriede Pavlištová and Elfriede Hübschová, 15. 11. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote41" href="#footnote41-ref">41</a> ‒ <span style="font-weight:400;">E.g. YVA, O.7.cz, file no. 263. Letters from the Campaign to Lola Manzoni in Vienna, 21. 1. 1946, with a question about Desider Friedmann, Robert Stricker, and Aron Menzser.</span>
+                                </p>
+<p>
+                                    <a id="footnote42" href="#footnote42-ref">42</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 267. Letter from Zeev Schek to Traudl Lichtensternová, 10. 12. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote43" href="#footnote43-ref">43</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 268. Letter from Traudl Lichtensternová to Zeev Schek, 19. 11. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote44" href="#footnote44-ref">44</a> ‒ <span style="font-weight:400;">ABT, 571, inv. no. 16. </span>
+                                    <i>
+                                        <span style="font-weight:400;">Toldot ‘Mifal ha-dokumentatzia’ (Osef Zeev Shek)</span>
+                                    </i>
+                                    <span style="font-weight:400;">, undated (after 1976). Elsewhere, Schek characterizes it as an international or local value, see YVA, O.7.cz, file no. 264. Message from the Campaign to the Legal Division (Dr. Zimmer), 16. 10. 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote45" href="#footnote45-ref">45</a> ‒ <span style="font-weight:400;">YVA, O.7.cz, file no. 269. Zeev Shek, Collection of Documents – Committee of Documentation, undated [1947].</span>
+                                </p>
+<p>
+                                    <a id="footnote46" href="#footnote46-ref">46</a> ‒ <span style="font-weight:400;">YVA O.7.cz, file no. 30; O.7.cz, file no. 40; O.7.cz, file no. 42–43; O.7.cz, file no. 83 (Moravian Jewish communities); O.7.cz, file no. 53–63 (regular reports to the JRCP); O.7.cz, file no. 84–85; O.7.cz, file no. 109–111 (Zentralstelle); O.7.cz, file no. 263–270 (Campaign archive); O.7.cz, file no. 219–228; O.7.cz, file no. 230–262 (statements). For more, see YVA, O.7.cz, file no. 254. Eduard de Wind, Aussagen über die gynäkologischen Experimente, die von März 1943 bis August 1944 im K. L. Auschwitz durchgeführt wurden (copy), undated.</span>
+                                </p>
+<p>
+                                    <a id="footnote47" href="#footnote47-ref">47</a> ‒ <span style="font-weight:400;">See, for example, AJMP, Terezín collection, inv. no. 343, box. 140. Debora Placzek, Magdeburger Barracs or B V or Main Street No 2 Theresienstadt, with whom Max Munk put the Campaignin contact with, as we know from the cited correspondence.</span>
+                                </p>
+<p>
+                                    <a id="footnote48" href="#footnote48-ref">48</a> ‒ <span style="font-weight:400;">Laura Jockusch, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Collect and Record! Jewish Holocaust Documentation in Early Postwar Europe</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Oxford: Oxford University Press, 2012).</span>
+                                </p>
+<p>
+                                    <a id="footnote49" href="#footnote49-ref">49</a> ‒ <span style="font-weight:400;">ABT, 571, inv. no. 26. Zeev Shek, ‘Meri le-lo neshek (Revolt without Arms). Education and Culture at the Terezin Ghetto (Theresienstadt)’, copy of an article in an undated publication.</span>
+                                </p>
+                            </div>    </div>
+
+<h1 id="parents">The Story of My Parents</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>
+                                    <strong>Daniel Sheck</strong>
+                                </p>
+<p>
+                                    <strong/>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The story of my parents, Ze'ev Shek and Alisa Shek (née Ehrmann), is a Holocaust story with a happy ending. A rare and inspiring story. To both of them, each in their own way, an invisible hand brought forth a drop from the small and miserly cup of miracles that delivered children, women, and men from the horror the Nazis set upon Europe and all of human history. The same wondrous hand later reunited them—after snatching Ze’ev from the grasp of the Angel of Death, who, after a long chase through various labor camps and death camps, had nearly caught up with him at the Kaufering concentration camp. This same hand completed its mission by letting my parents fulfill their Zionist dream, a dream of making aliyah, having a family, and building the state.</span>
+                                </p>
+<h6>
+                                    <div class="item-file image-png">
+                                        <a class="download-file" href="https://ehri-editions-dc.s3.eu-central-1.amazonaws.com/fullsize/2991936077d07eabd8a59b5a6d763bbf.jpg">
+                                            <img class="thumb" src="https://ehri-editions-dc.s3.eu-central-1.amazonaws.com/thumbnails/2991936077d07eabd8a59b5a6d763bbf.jpg" alt="Scheck_wedding.png" title="Scheck_wedding.png"/>
+                                        </a>
+                                    </div>
+                                    <span>Wedding photography of Alisa and Ze'ev Shek, November 1947. Courtesy of Rachel Shek.</span>
+                                </h6>
+<p>
+                                    <span style="font-weight:400;">Ze’ev, who grew up in a strictly Jewish orthodox family in the Moravian town of Olomouc, was in Prague when the Nazis invaded Czechoslovakia. He had settled there to pursue his dreams of Zionism and his fondness for soccer, as he liked to describe his decision to leave his family and religious way of life. By the time he was deported to the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, he was already in a relationship with Alisa, who would become his wife and partner until his death in 1978, at the young age of 58.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">From the moment he arrived at the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, he became obsessed with the need to document what was going on around him, as if he had anticipated that the Nazis would try to cover up and that the rest of the world would refuse to believe the atrocities happening across Europe. This was a mortally dangerous task, since the Nazis knew as well that there might come a day of reckoning for them, and so, collecting any kind of documentation was strictly forbidden. And yet, with the help of Alisa, he managed to safeguard all kinds of documents, from worthless ghetto-money to proclamations by the ghetto commander.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">When he joined his mother on a transport to <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a>, he made Alisa promise to continue this task, which she meticulously did until the liberation of the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a> by the Red Army. She also began keeping a diary</span>
+                                    <span style="font-weight:400;">, <sup>
+                                            <a id="footnote1-ref" href="#footnote1">1</a>
+                                        </sup> which was </span>
+                                    <a href="https://collections.ushmm.org/search/catalog/bib258904">
+                                        <span style="font-weight:400;">published</span>
+                                    </a>
+                                    <span style="font-weight:400;"> a few years ago by <a href="https://portal.ehri-project.eu/institutions/il-002777">Beit Terezin</a> in Israel and is an important and unique source of information about the last months of the ghetto. She abruptly stopped writing when news about her beloved’s probable death reached her after the liberation. The information turned out to be false and she and Ze’ev reunited in Prague and went on to emigrate to Israel.</span>
+                                </p>
+<h6>
+                                    <div class="item-file image-png">
+                                        <a class="download-file" href="https://ehri-editions-dc.s3.eu-central-1.amazonaws.com/fullsize/c24100d3ca396fcd3f25c60af4ccd5fd.jpg">
+                                            <img class="thumb" src="https://ehri-editions-dc.s3.eu-central-1.amazonaws.com/thumbnails/c24100d3ca396fcd3f25c60af4ccd5fd.jpg" alt="Scheck_working.png" title="Scheck_working.png"/>
+                                        </a>
+                                    </div>
+                                    <span>Ze'ev Sheck. Courtesy of Rachel Shek.</span>
+                                </h6>
+<p>
+                                    <span style="font-weight:400;">Ze’ev’s obsession with documentation did not end with the war. Upon his return to Prague, he promptly began to gather the documents he and Alisa had safeguarded and many more items from other sources. These efforts continued well into the 1950s, including during his posting as a diplomat at the Israeli embassy in Prague, and he found ways to ship dozens and dozens of boxes to Israel, where they are safely archived at the <a href="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</a> and <a href="https://portal.ehri-project.eu/institutions/il-002777">Beit Terezin</a>. He considered the “ingathering of the archives” no less important than the “ingathering of the exiles” (encouraging Jews from around the world to immigrate to Israel). There is evidence that throughout his career he never stopped asking people to hand over their personal archives to the relevant institutions in Israel.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Not surprisingly, he was also among the founders of <a href="https://portal.ehri-project.eu/institutions/il-002777">Beit Terezin</a> in Israel, a place of living memory and documentation of this very unique episode of the history of the Holocaust.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">However, he was not one to live his life in the past. Far from that. He chose what is a fundamentally optimistic profession – diplomacy – where he could put the Zionist ardor of his youth to precious service for the young Jewish state. The Holocaust was never a taboo subject in our home. It was present, not as a threatening shadow, but rather the opposite. Perhaps as a source of strength and as proof that life, in spite of everything, is worth living to the fullest. This was the spirit of the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>: unarmed resistance and the triumph of the spirit, with a little Czech humor mixed in.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">My father developed mental strengths and a grandeur that astound us to this day. Thus, he volunteered, as part of his functions in the Israeli Foreign Ministry, to be part of the delegation that conducted the negotiations for establishing diplomatic relations with Germany. Courage and greatness of spirit were required of my parents to receive in our home in Jerusalem the first German ambassador, </span>
+                                    <a href="https://en.wikipedia.org/wiki/Rolf_Friedemann_Pauls">
+                                        <span style="font-weight:400;">Rolf Pauls</span>
+                                    </a>
+                                    <span style="font-weight:400;">. For my parents this was not about forgiveness or pardon, but about a sober understanding that it was the right thing to do -right on the national level as well as on the human personal level. Each, in their own way, had turned a page. Not because they wanted to forget the disaster they and millions of others had experienced, but because they understood that it is not possible to change the already-written pages of history, whereas it is indeed possible to fill the blank pages of the future with better things.</span>
+                                </p>
+<div>
+<h3>Notes</h3>
+<p>
+                                        <a id="footnote1" href="#footnote1-ref">1</a> ‒ Partly reprinted in: Alisah Shek, ‘Tagebuch (Oktober 1944 - Mai 1945)‘, <em>Theresienstädter Studien und Dokumente</em>, 1994: 169-206; see also: Alisa Ehrmann-Shek, <em>Ich denke an einen ewigen Sommer: Tagebuch und Zeichnungen aus Theresienstadt</em>, 1944/45 (Wien: Schlebrügge. Editor, 2018).</p>
+</div>
+                            </div>    </div>
+
+<h1 id="jewish">Jewish Religious Communities in the Bohemian Lands After 1945</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>
+                                    <b>Jan Láníček, University of New South Wales, Sydney<br/>
+                                    </b>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">In September 1945, </span>
+                                    <a href="https://sfi.usc.edu/video/kurt-wehle-postwar-life-czechoslovakia">
+                                        <span style="font-weight:400;">Kurt Wehle</span>
+                                    </a>
+                                    <span style="font-weight:400;">, Secretary of the Council of Jewish Religious Communities in Bohemia, Moravia, and Silesia<sup>
+                                            <a id="footnote1-ref" href="#footnote1">1</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> (hereafter the Council), closed his opening remarks on the role of Jewish Religious Communities (hereafter JRC) after the war with the following words: “Always and in every era, the JRC in Prague was present and performed the tasks assigned to it in an exemplary manner. We have no doubt that even now, after liberation, on the ruins of Prague and the Czech Jewry, the JRC in Prague will diligently fulfil its tasks for the benefit of the Jews and of the state.”<sup>
+                                            <a id="footnote2-ref" href="#footnote2">2</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> He thus articulated the central position of the Jewish community leadership in the renewal of Jewish life after 1945, in the personal and material restitution of the survivors, and in the relationship between the Jewish communities and the Czechoslovak state.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Representatives of the Jewish communities believed that it was their task to support the survivors in their efforts to begin a new life after the war, a truly Herculean effort. The Jewish community in Czechoslovakia immediately after the war was less than 15 percent of what it had been before 1939. Fewer than 25,000 Jews now lived in the Bohemian Lands, and in Slovakia about 30,000.<sup>
+                                            <a id="footnote3-ref" href="#footnote3">3</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Most suffered from significant health and psychological problems, lacked adequate housing and social security, and encountered major problems in their efforts to rejoin the postwar society (see the <a href="https://documentation-campaign.ehri-project.eu/exhibits/show/about/sedlicka-introduction">introduction by Magdalena Sedlická</a>), all while the specter of antisemitism and Czech ethnic nationalism frequently lurked in the background.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Before the German occupation, the JRC had focused purely on religious, educational, and charitable activities.<sup>
+                                            <a id="footnote4-ref" href="#footnote4">4</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> In 1945, it became evident that these institutions would have to extend their range of activities far beyond their pre-war scope, because they effectively remained the only functioning Jewish organizational structures in the Bohemian Lands. Apart from religious services, therefore, they had to focus on the physical, social, and economic recuperation of the survivors and repatriates, negotiate with Czechoslovak authorities about the restitution of community property and property owned by individual Jews, provide the survivors with legal advice and answer enquiries from all over the world about the fate of thousands of individuals. Because of the lack of direct political Jewish representation in the government and state institutions, the new JRC also became the main political body that claimed to represent Jews in the Bohemian Lands. They made numerous interventions and entered into lengthy negotiations with the government to secure the position of the Jews in the country. Alongside all these activities, they also supported efforts to document the persecution of the Jews during the war, collect evidence for trials, and commemorate those who perished in the ghettos and concentration camps (see the introduction by Magda Veselská).<sup>
+                                            <a id="footnote5-ref" href="#footnote5">5</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The postwar Jewish communities in the Bohemian Lands initially lacked experienced leaders as well as the trust of the survivors. The wartime Czech Jewish and Czech Zionist leadership had been almost completely wiped out. </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855">
+                                        <span style="font-weight:400;">Jakob Edelstein</span>
+                                    </a>
+                                    <span style="font-weight:400;">, a Zionist and the first elder of the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, had been deported to <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a> in December 1943 and executed together with his family in June 1944. The Nazis also murdered the remaining Jewish leaders, including </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-1951990">
+                                        <span style="font-weight:400;">František Weidmann</span>
+                                    </a>
+                                    <span style="font-weight:400;">, </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255">
+                                        <span style="font-weight:400;">Otto Zucker</span>
+                                    </a>
+                                    <span style="font-weight:400;">, </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000857">
+                                        <span style="font-weight:400;">Hannah Steiner</span>
+                                    </a>
+                                    <span style="font-weight:400;">, </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000199">
+                                        <span style="font-weight:400;">František Kahn</span>
+                                    </a>
+                                    <span style="font-weight:400;">, and Salomon Krämer, upon their arrival in <a href="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz-Birkenau</a> in the autumn of 1944.<sup>
+                                            <a id="footnote6-ref" href="#footnote6">6</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Other prewar Czechoslovak Jewish leaders had permanently settled abroad—in Palestine, Great Britain, and the United States. Furthermore, the ties between the Jewish community and their representatives had been severely harmed during the occupation. For many Jews, the Jewish Councils had been the puppets of the Nazi administration and this resentment persisted even after liberation. On several occasions, members of the leadership defended themselves in public and tried to persuade the anxious community that they were doing their utmost to secure equal rights and support the survivors.<sup>
+                                            <a id="footnote7-ref" href="#footnote7">7</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> At the same time, survivors soon realized that they needed the support of the JRC when trying to reestablish their lives.<sup>
+                                            <a id="footnote8-ref" href="#footnote8">8</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> It was an uneasy relationship, which, however, worked for the benefit of the community.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The renewal of the Jewish community structures in the Bohemian Lands was in large part the work of </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Arnošt Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;">, who had returned to Czechoslovakia from Britain, where between 1941 and 1945 he had served as a member of the Czechoslovak State Council—a quasi parliament created by President </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000030">
+                                        <span style="font-weight:400;">Edvard Beneš</span>
+                                    </a>
+                                    <span style="font-weight:400;"> in exile.<sup>
+                                            <a id="footnote9-ref" href="#footnote9">9</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> This appointment had equipped </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;"> with the necessary confidence and contacts that aided him in leading the Jewish community. Immediately upon his return to Czechoslovakia, </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;"> recognized the need to create a Jewish community structure in Bohemia and Moravia that would promptly coordinate the distribution of social assistance to the repatriates.<sup>
+                                            <a id="footnote10-ref" href="#footnote10">10</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Eventually, approximately 53 local JRCs in Bohemia and Moravia were created.<sup>
+                                            <a id="footnote11-ref" href="#footnote11">11</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Many had very low membership numbers, and some never functioned properly or even ceased to exist soon after they were officially renewed.<sup>
+                                            <a id="footnote12-ref" href="#footnote12">12</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The JRCs in the borderlands (in the former Sudetenland) could often be reestablished only thanks to the arrival of Jewish repatriates from Subcarpathian Ruthenia—a territory ceded to the Soviet Union in June 1945.<sup>
+                                            <a id="footnote13-ref" href="#footnote13">13</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The new postwar reality also demanded a more centralized structure that would facilitate the renewal of Jewish life. In early September 1945, representatives of the Jewish communities elected the Council, an umbrella organization representing the Jews in the Bohemian Lands. </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;"> was elected its chairman. He could rely on the cooperation and support of activists who had survived the war in occupied Europe. From the Zionist camp, </span>
+                                    <a href="https://sfi.usc.edu/video/kurt-wehle-postwar-life-czechoslovakia">
+                                        <span style="font-weight:400;">Kurt Wehle</span>
+                                    </a>
+                                    <span style="font-weight:400;">, a young lawyer from Jablonec nad Nisou, became the secretary. He proved to be a tireless fighter for the rights of Jewish survivors, using his legal skills in negotiations with the Czechoslovak authorities.<sup>
+                                            <a id="footnote14-ref" href="#footnote14">14</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The Assimilationist camp was represented by Julius Lederer, a nearly 75-year-old veteran of Jewish politics in Bohemia and Moravia, and František Fuchs, an active member of the Social Democratic Party and Holocaust survivor, who had also worked for the Prague JRC early in the war.<sup>
+                                            <a id="footnote15-ref" href="#footnote15">15</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> After </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer’s</span>
+                                    </a>
+                                    <span style="font-weight:400;"> election to the Council, the chairmanship of the Prague JRC was assumed by the lawyer </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2043705">
+                                        <span style="font-weight:400;">Karel Stein</span>
+                                    </a>
+                                    <span style="font-weight:400;">, another member of the Zionist camp. During the occupation, before he was deported to <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> and then to <a href="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</a>, </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2043705">
+                                        <span style="font-weight:400;">Stein</span>
+                                    </a>
+                                    <span style="font-weight:400;"> had led the provincial department (</span>
+                                    <i>
+                                        <span style="font-weight:400;">venkovské oddělení</span>
+                                    </i>
+                                    <span style="font-weight:400;">) of the Prague JRC.<sup>
+                                            <a id="footnote16-ref" href="#footnote16">16</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The establishment of a united Jewish Community organization and the equal representation of Zionists and Assimilationists signified a fundamental shift in the Jewish politics of the Bohemian Lands, and contrasted with its previous long history of infighting.<sup>
+                                            <a id="footnote17-ref" href="#footnote17">17</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> In the borderlands, some of the leading positions were taken up by representatives of Jewish orthodoxy who came from Subcarpathian Ruthenia and until 1945 didn’t represent any significant group in the Bohemian Lands. Furthermore, the Council and other Jewish bodies decided to look after the interests of all Jews who had been affected by persecution (based on the Nuremberg Laws), not only those who would have been members of prewar Jewish religious communities.<sup>
+                                            <a id="footnote18-ref" href="#footnote18">18</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> They realized that because of the wartime terror, every individual who had been affected by the Nazi policies, many of them without surviving relatives and family networks, had special needs and required long-term support, which the Czechoslovak state could not provide.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The agenda of the JRC was constantly expanding and the Council soon had to create an extensive administrative apparatus. In the first days after liberation alone, hundreds of letters arrived from overseas, enquiring about the fate of family members and friends and bombarding the newly opened offices, taking up the majority of the administration’s time. In two years, between November 1945 and October 1947, the Council received 125,000 letters and telegrams, and dispatched 75,000 letters and 4,000 telegrams.<sup>
+                                            <a id="footnote19-ref" href="#footnote19">19</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Another problem that troubled the Council from the very beginning was a lack of financial resources. Initially, survivors received extra food from the local population and in hospitals, and were allocated new apartments (mostly vacated by expelled Germans, though often large groups of survivors had to share one apartment).<sup>
+                                            <a id="footnote20-ref" href="#footnote20">20</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> However, such help was short-lived and the Jewish community soon had to search for other sources. In 1946, the Council was successful in obtaining 60 million Czech crowns from the Czechoslovak government, part of the so-called ‘<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> Estate’ (</span>
+                                    <i>
+                                        <span style="font-weight:400;">Terezínská podstata</span>
+                                    </i>
+                                    <span style="font-weight:400;">—the clothes or money left behind by Jews who had been deported from the Protectorate Bohemia and Moravia during the war), but even these funds were insufficient and unsustainable.<sup>
+                                            <a id="footnote21-ref" href="#footnote21">21</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Because they lacked available assets and survivors couldn’t contribute to the social funds, the Council’s efforts were largely dependent on western humanitarian organizations, in particular the </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-347">
+                                        <span style="font-weight:400;">American Jewish Joint Distribution Committee</span>
+                                    </a>
+                                    <span style="font-weight:400;"> (hereafter the </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-347">
+                                        <span style="font-weight:400;">Joint</span>
+                                    </a>
+                                    <span style="font-weight:400;">). Between 1945 and 1948 the </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/ehri_cb-347">
+                                        <span style="font-weight:400;">Joint</span>
+                                    </a>
+                                    <span style="font-weight:400;"> remained the primary sponsor of the Council’s activities, including its social services.<sup>
+                                            <a id="footnote22-ref" href="#footnote22">22</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Social services for survivors soon took up most of the Council’s agenda. The social department of the Council saw to the health of the survivors (many of whom were infected with tuberculosis), and established nursing homes, orphanages, and recreation centers for young people. They distributed clothes and other appliances from confiscated Jewish property left behind by the Germans. They also supported survivors with immediate financial help and provided monthly subsidies to those unable to sustain themselves.<sup>
+                                            <a id="footnote23-ref" href="#footnote23">23</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Within a year, most of the Jews in the Bohemian Lands no longer needed any support from the community.<sup>
+                                            <a id="footnote24-ref" href="#footnote24">24</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Last but not least, the Council looked after the religious needs of the community, though they had to cope with a lack of experienced rabbis, a problem that was resolved only in 1947, when Rabbi </span>
+                                    <a href="https://en.wikipedia.org/wiki/Gustav_Sicher">
+                                        <span style="font-weight:400;">Gustav Sicher</span>
+                                    </a>
+                                    <span style="font-weight:400;"> returned from Palestine to take up the office of Chief Rabbi of Bohemia.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">In an analysis of the situation in postwar Czechoslovakia written almost forty years after the events, </span>
+                                    <a href="https://sfi.usc.edu/video/kurt-wehle-postwar-life-czechoslovakia">
+                                        <span style="font-weight:400;">Wehle</span>
+                                    </a>
+                                    <span style="font-weight:400;"> concluded that, despite the difficulties that the Council had to cope with at that time, including the passivity or obstructionism of the new political establishment, by early 1948 the Jewish community in the country was on its way to a full recovery.<sup>
+                                            <a id="footnote25-ref" href="#footnote25">25</a>
+                                        </sup>
+                                    </span> <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;"> was also optimistic about the future. As he remarked in an October 1947 speech: “We, too, believe in a good future for the Jews in Czechoslovakia, if the world is at peace. We base our optimism on the nature of the Czech people, their intelligence, traditional humanism,<sup>
+                                            <a id="footnote26-ref" href="#footnote26">26</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> education, and adaptability. As a part of them, we want, despite all the hardship, to cross over into a better future.”<sup>
+                                            <a id="footnote27-ref" href="#footnote27">27</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> All this was possible only thanks to the strenuous efforts of the activists and community leaders who managed to revive the community structures from the ashes of the Holocaust. However, the situation soon changed. The first postwar Council continued its work until the Communist takeover in February 1948. Shortly afterwards, the newly-formed Action Committee cleansed </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;"> and his colleagues from their ranks and elected a new community leadership, which abandoned the independent and self-confident Jewish politics of the Bohemian Lands. Most of those involved in rebuilding the community, including </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-jmp-167">
+                                        <span style="font-weight:400;">Frischer</span>
+                                    </a>
+                                    <span style="font-weight:400;">, </span>
+                                    <a href="https://sfi.usc.edu/video/kurt-wehle-postwar-life-czechoslovakia">
+                                        <span style="font-weight:400;">Wehle</span>
+                                    </a>
+                                    <span style="font-weight:400;">, and </span>
+                                    <a href="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2043705">
+                                        <span style="font-weight:400;">Stein</span>
+                                    </a>
+                                    <span style="font-weight:400;">, soon emigrated to the West or to the State of Israel. In the end, also most of the survivors decided to leave Czechoslovakia forever.</span>
+                                </p>
+<p/>
+<h3>NOTES</h3>
+<p>
+                                    <a id="footnote1" href="#footnote1-ref">1</a> ‒ <span style="font-weight:400;">In Czech: </span>
+                                    <i>
+                                        <span style="font-weight:400;">Rada židovských náboženských obcí vzemích České a Moravskoslezské</span>
+                                    </i>
+                                    <span style="font-weight:400;">.</span>
+                                </p>
+<p>
+                                    <a id="footnote2" href="#footnote2-ref">2</a> ‒ <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 1. 9. 1945, p. 4.</span>
+                                </p>
+<p>
+                                    <a id="footnote3" href="#footnote3-ref">3</a> ‒ <span style="font-weight:400;">Petr Sedlák, ‘Židé včeských zemích vletech 1945–1949’, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Terezínské studie a dokumenty,</span>
+                                    </i>
+                                    <span style="font-weight:400;"> 2008: 13–45; Ivica Bumová, ‘The Jewish Community After 1945: Struggle for Civic and Social Rehabilitation,’ </span>
+                                    <i>
+                                        <span style="font-weight:400;">Holocaust as a Historical and Moral Problem of the Past and the Present: Collection of Studies from the Conference </span>
+                                    </i>
+                                    <span style="font-weight:400;">(Bratislava: Dokumentačné stredisko holokaustu, 2008), 253–278. Büchler estimated the number of Jews in postwar Slovakia at 32,000; see Yehoshua Büchler, ‘Reconstruction Efforts in Hostile Surroundings – Slovaks and the Jews after World War II, David Bankier (ed.), </span>
+                                    <i>
+                                        <span style="font-weight:400;">The Jews are Coming Back: The Return of the Jews to their Countries of Origin after WWII</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Jerusalem: Yad Vashem, 2005), 257. For the Bohemian Lands, the estimate from mid-1947 sets the number at 24,658 Jews, which included all those persecuted during the war, including those who didn’t belong to a religious community.</span>
+                                </p>
+<p>
+                                    <a id="footnote4" href="#footnote4-ref">4</a> ‒ <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 1. 9. 1945, p. 2.</span>
+                                </p>
+<p>
+                                    <a id="footnote5" href="#footnote5-ref">5</a> ‒ <span style="font-weight:400;">Magda Veselská, ‘Early Documentation of the Shoah in the Czech Lands: The Documentation Project and the Prague Jewish Museum (1945–1947),’ </span>
+                                    <i>
+                                        <span style="font-weight:400;">Judaica Bohemiae</span>
+                                    </i>
+                                    <span style="font-weight:400;"> 52, no. 1 (2017): 47–85; Sarah A. Cramsey, ’Saying Kaddish in Czechoslovakia: Memorialization, the Jewish Tragedy and the “Tryzna”, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Journal of Modern Jewish Studies </span>
+                                    </i>
+                                    <span style="font-weight:400;">7, no. 1 (2008): 35–50.</span>
+                                </p>
+<p>
+                                    <a id="footnote6" href="#footnote6-ref">6</a> ‒ <span style="font-weight:400;">On the wartime Jewish leadership, see: Livia Rothkirchen, ‘Czech and Slovak Wartime Jewish Leadership: Variants in Strategy and Tactics,’ Michael Berembaum, Abraham J. Peck (ed.), </span>
+                                    <i>
+                                        <span style="font-weight:400;">The Holocaust and History: The Known, the Unknown, the Disputed, and the Re-examined </span>
+                                    </i>
+                                    <span style="font-weight:400;">(Bloomington: Indiana University Press), 629–46; Livia Rothkirchen, </span>
+                                    <i>
+                                        <span style="font-weight:400;">The Jews of Bohemia and Moravia</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Lincoln and Jerusalem: University of Nebraska Press and Yad Vashem, 2005), 116–137.</span>
+                                </p>
+<p>
+                                    <a id="footnote7" href="#footnote7-ref">7</a> ‒ <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 28. 2. 1946, p. 10f.</span>
+                                </p>
+<p>
+                                    <a id="footnote8" href="#footnote8-ref">8</a> ‒ <span style="font-weight:400;">Blanka Soukupová, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Židé v českých zemích po šoa. Identita poraněné paměti</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Bratislava: Marenčin PT, 2016), 48.</span>
+                                </p>
+<p>
+                                    <a id="footnote9" href="#footnote9-ref">9</a> ‒ <span style="font-weight:400;">Jan Láníček, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Arnošt Frischer and the Jewish Politics of Early 20</span>
+                                    </i>
+                                    <i>
+                                        <span style="font-weight:400;">th</span>
+                                    </i>
+                                    <i>
+                                        <span style="font-weight:400;">-Century Europe</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (London: Bloomsbury, 2017).</span>
+                                </p>
+<p>
+                                    <a id="footnote10" href="#footnote10-ref">10</a> ‒<span style="font-weight:400;">Security Services Archive (ABS), Jewish Organizations fond (425), Call No. 425-231-1. Frischer to SVŽČ, 3 June 1945.</span>
+                                </p>
+<p>
+                                    <a id="footnote11" href="#footnote11-ref">11</a> ‒ <span style="font-weight:400;">Petr Sedlák, ‘Obnovování a organizace židovských náboženských obcí v Českých zemích po skončení druhé světové války,’ </span>
+                                    <i>
+                                        <span style="font-weight:400;">Židé a Morava 12</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (2006): 191–213. The number of JRCs isn’t exactly clear and it also fluctuated over time. In November 1945, Frischer claimed that there were in fact 59 Jewish Communities in the Bohemian Lands and 105 in Slovakia. </span>
+                                    <i>
+                                        <span style="font-weight:400;">Věstník ŽNOP</span>
+                                    </i>
+                                    <span style="font-weight:400;">, 15. 12. 1945, p. 26.</span>
+                                </p>
+<p>
+                                    <a id="footnote12" href="#footnote12-ref">12</a> ‒<span style="font-weight:400;"> P. Sedlák, ‘Obnovování a organizace židovských náboženských obcí’: 192f.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote13" href="#footnote13-ref">13</a> ‒ Kateřina Čapková, ‘Dilemmas of Minority Politics: Jewish Migrants in Postwar Czechoslovakia and Poland,’ Francoise S. Ouzan and Manfred Gerstenfeld (ed.), <i>Postwar Jewish Displacement and Rebirth, 1945</i>–<i>1967</i>, (Leiden: Brill Academic Publishers, 2014), 64.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote14" href="#footnote14-ref">14</a> ‒ Kurt Wehle, ‘The Jews of Bohemia and Moravia: 1945–1948,’ Avigdon Dagan (ed.), <i>The Jews of Czechoslovakia: Historical Studies and Surveys</i>, vol. III (Philadelphia: The Jewish Publication Society of America, 1984), 499–530.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote15" href="#footnote15-ref">15</a> ‒ <i>Věstník ŽNOP</i>, 1. 8. 1946, p. 71; <i>Věstník ŽNOP</i>, 1. 8. 1956, p. 4.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote16" href="#footnote16-ref">16</a> ‒ <i>Věstník ŽNOP</i>, 28. 10. 1945, p. 23.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote17" href="#footnote17-ref">17</a> ‒ <i>Věstník ŽNOP</i>, 1. 10. 1945, p. 11f.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote18" href="#footnote18-ref">18</a> ‒ K. Čapková, ‘Dilemmas of Minority Politics’: 69.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote19" href="#footnote19-ref">19</a> ‒ <i>Věstník ŽNOP</i>, 14. 11. 1947, p. 326.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote20" href="#footnote20-ref">20</a> ‒ ABS, 425-231-1, Frischer to the SVŽČ, 3 June 1945; Yad Vashem Archives, O.59/91, Frischer to Zajitschkova, 15 July 1945; Peter Heumos, ‘Rückkehr ins Nichts: Leo Herrmanns Tagebuchaufzeichnungen über seine Reise nach Prag und die Lage der Juden in der Tschechoslowakei im Herbst 1945,’ <i>Bohemia</i> Vol. 27, No. 2 (1986): 296.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote21" href="#footnote21-ref">21</a> ‒ </span>
+                                    <span style="font-weight:400;">ABS, 425-231-2, Minutes of a meeting between Frischer and Trobe (Joint), 18 January 1946. ABS, 425-231-2, ‘Otázky, které je nutno projednat s ministrem Šoltészem;’ The Jewish Council in Prague to the Ministry of Job Security and Social Welfare, 3 October 1945.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote22" href="#footnote22-ref">22</a> ‒ <i>Věstník ŽNOP</i>, 1. 8. 1946, p. 66.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote23" href="#footnote23-ref">23</a> ‒ United States Holocaust Memorial Museum, RG-67.014M, reel 107, H101/9, Stephen Barber’s report on Czechoslovakia, September 1945.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote24" href="#footnote24-ref">24</a> ‒ <i>Věstník</i>, 15. 12. 1946, p. 139.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote25" href="#footnote25-ref">25</a> ‒ K. Wehle, ‘The Jews of Bohemia and Moravia: 1945–1948’: 525. Archives of the Jewish Museum Prague, Oral History Collection, Interview no. 151, (K. W., man).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote26" href="#footnote26-ref">26</a> ‒ </span>
+                                    <span style="font-weight:400;">This is a reference to the first Czechoslovak president Tomáš Garrigue Masaryk.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote27" href="#footnote27-ref">27</a> ‒ <i>Věstník ŽNOP</i>, 6. 11. 1947, p. 314f.</span>
+                                </p>
+                            </div>    </div>
+
+<h1 id="ethnic">Ethnic Homogenization and Its Impact on Jews in the Bohemian Lands After 1945</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>
+                                    <b>Magdalena Sedlická, </b>
+                                    <a href="https://portal.ehri-project.eu/institutions/cz-002278">
+                                        <b>Masaryk Institute and Archives of the Czech Academy of Sciences</b>
+                                    </a>
+                                </p>
+<h2>
+                                    <b/>
+                                </h2>
+<h2>
+                                    <b>Ethnic Homogenization and Its Impact on Jews in the Bohemian Lands After 1945</b>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">Czechoslovak Jews held high hopes for a better life after the end of the Second World War. Memoirs from the period express the deep sadness from losing so many of their loved ones and of their disappointment in the majority population’s attitude towards them. What was the new Czechoslovakia to which the Jewish survivors returned really like? What did they have to do to fully integrate into society, and was this really possible? The period after the end of the Second World War was full of uncertainty and change for Czechoslovak Jews returning home mostly from concentration camps, tours of duty in foreign armies, or countries to which they had emigrated. The main Czechoslovak politicians, led by Edvard Beneš, became strong advocates of the new republic’s national homogenization. Any efforts by Jews to have their minority rights acknowledged were seen as a potentially dangerous precedent.<sup>
+                                            <a id="footnote1-ref" href="#footnote1">1</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Philipp Ther, writing about the immediate postwar years, characterizes this time as a utopia of national homogeneity.<sup>
+                                            <a id="footnote2-ref" href="#footnote2">2</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> According to Matěj Spurný, the unreliability of minorities became the dominant topic of the social discourse, leading to political decisions and grave consequences.<sup>
+                                            <a id="footnote3-ref" href="#footnote3">3</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Survivors didn’t return to the ethnically tolerant republic that they remembered. While the main political leaders worked on ensuring moral and legal continuity with the First Republic, they also distanced themselves from some of its principles, which ended up being of vital importance to Jewish citizens. The Second World War left deep wounds in the society, and the postwar atmosphere was marked by fervent nationalism, a growing thirst for revenge, and the desire to punish the guilty. Following article will focus mainly on two groups of Jews in Czechoslovakia, which were affected the most by the changes of the state minority policy: Jews from the territories that had been ceded to the Soviet Union (Subcarpathian Ruthenia) in June 1945 and “German Jews”</span>
+                                    <span style="font-weight:400;">.<sup>
+                                            <a id="footnote4-ref" href="#footnote4">4</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<h2>
+                                    <b/>
+                                </h2>
+<h2>
+                                    <b>Equal Citizens? “German Jews” and the Efforts to Integrate Into the Majority Society</b>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">In the Bohemian Lands, roughly twenty thousand Jews survived the Second World War and about two thousand could be categorized as “German Jews.”<sup>
+                                            <a id="footnote5-ref" href="#footnote5">5</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> During this tense time, when Germans were being collectively associated with Nazism, their full integration into society primarily depended on whether they retained or regained Czechoslovak citizenship.<sup>
+                                            <a id="footnote6-ref" href="#footnote6">6</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> This was an key instrument of the state, which in the postwar years was the deciding factor for who was integrated into the national community and who was protected by basic civil rights.<sup>
+                                            <a id="footnote7-ref" href="#footnote7">7</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Initially, Jews who declared German nationality in the census of 1930 weren’t the only ones in a difficult situation, but also German-speaking Jews with Jewish nationality faced many problems. Especially at the local government level, there was considerable chaos and uncertainty about how to approach the question of citizenship. Jews were frequently seen as Germans and faced social rejection and discrimination.<sup>
+                                            <a id="footnote8-ref" href="#footnote8">8</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The Constitutional Decree of the President of the Republic No. 33/1945 Coll. of August 2nd, 1945, stated that Czechoslovak citizens of German or Hungarian nationality who hadn’t committed any crimes against the Czech and Slovak nation, remained loyal to the Czechoslovak republic, fought for liberation, or were the victims of Nazi terror could retain their Czechoslovak citizenship.<sup>
+                                            <a id="footnote9-ref" href="#footnote9">9</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> If one of these categories applied, the person had six months to submit an application to the district national committee. The final decision on the granting of an exception fell to the Ministry of the Interior,<sup>
+                                            <a id="footnote10-ref" href="#footnote10">10</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> but the burden of proof was borne by the applicants. If their request was granted, they received a certificate of citizenship. However, it’s important to note that while laws and regulations did indeed matter, all the difference could make how they were interpreted by the ministries and local authorities.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The topic of citizenship in postwar Czechoslovakia was closely linked to the issue of language. The new republic was to be a state of Czechs and Slovaks; anyone else was supposed to adapt or leave. German speakers were automatically suspect and had to prove why they should be considered “Czech” when they didn’t speak the state language. “German Jews” often didn’t conform to this new concept of Czechoslovak citizenship, and, instead of granting them a certificate of state and national reliability, officials accused them of so-called Germanization. This made them part of the category “Germans”, often with existential consequences since, if a “German Jew” didn’t obtain an exception, they were no longer considered Czechoslovak citizens, couldn’t receive state support, and, as Germans, could even be forcibly deported. Kateřina Čapková, who drew on UNRRA sources for her article, believes that, in reality, a number of “German Jews” were indeed expelled by the authorities, however, it’s impossible to determine the exact number of such deportees.<sup>
+                                            <a id="footnote11-ref" href="#footnote11">11</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Jewish survivors reflect on this difficult situation in their memoirs. Mrs. M. Z., who survived the war with her mother, was constantly discriminated against upon their return. In her testimony, she mentions: “The worst part was that I was once again labeled as something other. This is a very sad chapter because the war was over […].”<sup>
+                                            <a id="footnote12-ref" href="#footnote12">12</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> After a bad experience, when officials advised her to voluntarily emigrate to Germany and thereby save herself the trouble that lay ahead for her if she stayed, she asked the legal department of the Jewish Religious Community in Prague for advice. She tried to get help obtaining food ration stamps for Czechs, at first unsuccessfully. “[…] I always thought that the legal department could get this authorization for two women, over thirty of whose family members had perished in concentration camps and who received German food rations and so wherever they go for milk all they hear is Deutsche, Deutsche</span>
+                                    <span style="font-weight:400;">.<sup>
+                                            <a id="footnote13-ref" href="#footnote13">13</a>
+                                        </sup> The Germans have fled, there are no Germans here, as Jewish women we are the only Germans in Prague […].”<sup>
+                                            <a id="footnote14-ref" href="#footnote14">14</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> In October 1947, Mrs. M. Z. moved to the United States. Traveling through Germany, the most frequent final destination of the “German Jews” was either America or Palestine.<sup>
+                                            <a id="footnote15-ref" href="#footnote15">15</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<h2>
+                                    <b/>
+                                </h2>
+<h2>
+                                    <b>Unwanted Neighbors? Jewish Optants from Subcarpathian Ruthenia</b>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">Another group of Jews who faced difficulties integrating into society were Jews from Subcarpathian Ruthenia, who had decided to remain in Czechoslovakia after the Second World War. In the treaty concluded between Czechoslovakia and the Soviet Union in June 1945, people with Czech and Slovak nationality from the ceded area were given the opportunity to select Czechoslovak citizenship.<sup>
+                                            <a id="footnote16-ref" href="#footnote16">16</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Former members of the Czechoslovak army in exile of Russian and Ukrainian nationality and their families also had to apply. Applications were submitted to the Ministry of the Interior, an office authorized by the ministry, or to the Czechoslovak embassy. Each applicant was given a temporary certificate and until his or her case was resolved the person was considered a Czechoslovak citizen.<sup>
+                                            <a id="footnote17-ref" href="#footnote17">17</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Applicants of Jewish nationality weren’t explicitly mentioned in the text of the treaty and their position was initially unclear. Jewish optants were in real danger of being returned to their original homes, which were now in the area annexed by the Soviets. In December 1945, the Prime Minister’s office adopted a resolution that gave Czechoslovaks of Jewish nationality citizenship rights if they hadn’t committed the crime of Germanization or Hungarianization. Applicants were subsequently evaluated using a checklist of so-called objective characteristics, for instance the information they had put down in the pre-war census, their membership in associations, and knowledge of Czech or Slovak language. In the event that Jewish optants from Subcarpathian Ruthenia didn’t meet these conditions, their rejection notification was sent to the district national committee, which arranged for the applicants to be transported to the USSR repatriation center in Letná in Prague.<sup>
+                                            <a id="footnote18-ref" href="#footnote18">18</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">In addition to their legal uncertainty, optants often faced the distrust of their new neighbors. Society frequently viewed them collectively as a foreign element and feared their alleged difference. Local media also reported about the rejection of these newcomers. Members of the border association National Unity of North Bohemia published the </span>
+                                    <i>
+                                        <span style="font-weight:400;">Náš Hraničář</span>
+                                    </i>
+                                    <span style="font-weight:400;">
+                                        <sup>
+                                            <a id="footnote19-ref" href="#footnote19">19</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> journal, in which they openly printed who was welcome in the region and who they considered a foreign element. As Christianne Brenner has pointed out, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Náš Hraničář</span>
+                                    </i>
+                                    <span style="font-weight:400;"> differentiated between Jews who had come to the borderlands from the interior and Jewish optants. Although Jews from the interior were blamed for their closeness to Germans, it was theoretically possible for them to become part of the new state of Czechs and Slovaks; Jews from Subcarpathian Ruthenia were denied this option. The reason for their arrival was said to be purely economic, selfish, or even criminal, and so it was assumed that they wouldn’t be loyal citizens of the republic, but unproductive people who wanted to live at the expense of the Czech nation.<sup>
+                                            <a id="footnote20-ref" href="#footnote20">20</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> In its reports, the Council of the Jewish Religious Communities in the Bohemia, Moravia and Silesia (hereafter the Council)<sup>
+                                            <a id="footnote21-ref" href="#footnote21">21</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> strongly urged Jews originally from Subcarpathian Ruthenia to behave in a manner beyond reproach to prove to the population that they were adaptable, which would facilitate their integration and the official process for remaining in Czechoslovakia.<sup>
+                                            <a id="footnote22-ref" href="#footnote22">22</a>
+                                        </sup>
+                                    </span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">Looking back on their experience, many applicants for permission to remain in Czechoslovakia emphasize that they had always felt themselves to be Czechoslovak citizens and, after the loss of Subcarpathian Ruthenia, it was only natural for them to remain as such.<sup>
+                                            <a id="footnote23-ref" href="#footnote23">23</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Most of the interviews show that one of the key factors in their decision to apply was fear of the Soviets—how they would treat Jews and what would happen under their rule.<sup>
+                                            <a id="footnote24-ref" href="#footnote24">24</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> Czechoslovakia was still perceived as a country that guaranteed democratic freedoms, including the right to practice the religion of one’s choice. Survivor J. W. explains: “I wanted to go to Mukachevo to see if any of my family members were still alive, but when I got as far as Brno I saw Soviet soldiers everywhere. I met Jews who had left Subcarpathian Ruthenia and were from Mukachevo, and they told me what was happening there.”<sup>
+                                            <a id="footnote25-ref" href="#footnote25">25</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> For those and similar reasons, the obvious choice for many of them was to stay in Czechoslovakia.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">The role of Carpathian Jews in reviving and maintaining religious practices in many Jewish communities, especially those in the borderlands, is often seen in a positive light in the scholarly literature and memoirs of witnesses.<sup>
+                                            <a id="footnote26-ref" href="#footnote26">26</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> For them, membership in a Jewish community wasn’t just a formality as was frequently the case with Czech Jews. After the Second World War, these optants helped re-establish Jewish communities inDěčín, Teplice, Karlovy Vary, Cheb, Liberec, Ústí nad Labem, and many other towns. It’s estimated that they constituted approximately 40%<sup>
+                                            <a id="footnote27-ref" href="#footnote27">27</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> of the postwar Jewish population in the Bohemian Lands, and so their remaining in the country was a priority for the representatives of the Council.<sup>
+                                            <a id="footnote28-ref" href="#footnote28">28</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"/>
+                                </p>
+<h2>
+                                    <b>Conclusion</b>
+                                </h2>
+<p>
+                                    <span style="font-weight:400;">The postwar era was extremely nationalistic, the mood in the Czechoslovak society strongly anti-German and anti-Hungarian as in many other European countries. The change in the state’s policy towards minorities had an enormous impact on the Jewish community. Leading political representatives believed in the dysfunctionality of the First Republic’s system of minority protection—Czechoslovakia was to become a homogeneous ethnic state, a territory for Czechs and Slovaks only.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">In the postwar period, the Jewish inhabitants of Czechoslovakia and its neighboring countries faced similar problems, one of which was the distrust of the majority population. Jews were once again confronted with beliefs that they represented a foreign element, that they behaved in a suspicious manner, and were disloyal. Adapting to the postwar reality was difficult for survivors and filled them with feelings of uprootedness, loneliness, and disillusionment, but there were also important differences between the European countries. The situation of Jews in the Bohemian Lands was in no way ideal or simple, yet the main obstacles they faced were bureaucratic in nature. Being denied a certificate of state and national reliability or not receiving Czech citizenship had serious existential consequences, i.e. being downgraded to a second-class citizen. The “German Jews” were in danger of being deported and Jewish optants of being returned to territories now under Soviet control. Fortunately, however, Jews in the Bohemian Lands weren’t victims of physical attacks, and most of the abuse they suffered was in the form of verbal assaults, insults, and vulgar epithets. No openly anti-Semitic violence occurred in the Bohemian Lands as it did in neighboring Poland<sup>
+                                            <a id="footnote29-ref" href="#footnote29">29</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;">, Hungary<sup>
+                                            <a id="footnote30-ref" href="#footnote30">30</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> or in the Slovak part of the republic.<sup>
+                                            <a id="footnote31-ref" href="#footnote31">31</a>
+                                        </sup>
+                                    </span>
+                                    <span style="font-weight:400;"> The rescinding of civil rights for minorities affected all ethnic groups, not only Jews.</span>
+                                </p>
+<p/>
+<h3>NOTES</h3>
+<p>
+                                    <a id="footnote1" href="#footnote1-ref">1</a> ‒ Jan Láníček, <i>Československý exil a holocaust: Arnošt Frischer, člen československé Státní rady vLondýně a jeho činnost na pomoc Židům vokupované Evropě</i> (Praha: FF UK, 2008), 27.</p>
+<p>
+                                    <a id="footnote2" href="#footnote2-ref">2</a> ‒ Philipp Ther, <i>Temná strana národních států. Etnické čistky vmoderní Evropě</i> (Praha: Argo, 2017), 158; 198.</p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote3" href="#footnote3-ref">3</a> ‒ Matěj Spurný, <i>Nejsou jako my. Česká společnost a menšiny vpohraničí (1945–1960)</i> (Praha: Antikomplex, 2011), 130.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote4" href="#footnote4-ref">4</a> ‒ I believe that it’s impossible to clearly determine who were “Czechs” and who were “German Jews.” For the sake of clarification, I use the term “Czech Jews” to refer to everyone who claimed Czech nationality or whose preferred language was Czech, although I realize that this isn’t a precise definition. Those who claimed German nationality or spoke German I denote as “German Jews.” In other cases, where for whatever reasons these definitions can’t be used, I treat on a case-by-case basis.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote5" href="#footnote5-ref">5</a> ‒ Archives of the Jewish Museum in Prague (AJMP), fond of the The Jewish Religious Community in Prague (JRCP), box 15, Inv. No. 147. Speech by Dr. Kurt Wehle, secretary of the Council of Jewish Religious Communities in the Czech and Moravian-Silesian Lands at the Assembly of Delegates in October 1947; Estimates of the number of who put down German nationality on the census in 1930 vary. Jan Láníček states that there were between 2,000 to 3,000 of them, cf. J. Láníček, ‘What Did It Mean to Be Loyal? Jewish Survivors in Post-War Czechoslovakia in a Comparative Perspective‘, <i>Australian Journal of Politics and History</i>, no. 3 (2014): 393; Chad Bryant estimates that they numbered between 1,500 and 2,000; Chad Bryant, <i>Praha včerném. Nacistická vláda a český nacionalismus</i> (Praha: Argo, 2012), 232.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote6" href="#footnote6-ref">6</a> ‒ </span>
+                                    <span style="font-weight:400;">For more on expulsion of Germans from Czechoslovakia, see Adrian von Arburg, Tomáš Dvořák, David Kovařík (ed.), </span>
+                                    <i>
+                                        <span style="font-weight:400;">Německy mluvící obyvatelstvo v Československu po roce 1945</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Brno: Matice moravská, 2010); Adrian von Arburg, Tomáš Staněk (ed.), </span>
+                                    <i>
+                                        <span style="font-weight:400;">Vysídlení Němců a proměny českého pohraničí 1945–1951. Dokumenty z českých archivů, duben – srpen/září 1945: „Divoký odsun“ a proměny a počátky osídlování</span>
+                                    </i>
+                                    <span style="font-weight:400;">, vol. II/1 (Středokluky: SUSA, 2011).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote7" href="#footnote7-ref">7</a> ‒ M. Spurný, <i>Nejsou jako my</i>, 192.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote8" href="#footnote8-ref">8</a> ‒ For more, see Magdalena Sedlická, <i>„Není přítel jako přítel.“ Židé vnárodním státě Čechů a Slováků 1945–1948</i> (Praha: Academia, 2021), 69–104.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote9" href="#footnote9-ref">9</a> ‒ Kateřina Čapková, ‘Národně nespolehliví?! Německy hovořící Židé vPolsku a vČeskoslovensku bezprostředně po druhé světové válce‘, <i>Soudobé dějiny</i> 22, no. 1–2 (2015): 81.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote10" href="#footnote10-ref">10</a> ‒ Ibid.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote11" href="#footnote11-ref">11</a> ‒ The article mentions dozens, perhaps even hundreds of people. Cf. Kateřina Čapková, ‘Between Expulsion and Rescue: The Transports for German-Speaking Jews of Czechoslovakia in 1946‘, <i>Holocaust and Genocide Studies</i> 32, no. 1 (2018): 83; For more on the same topic, see K. Čapková, ‘Národně nespolehliví?!‘: 97.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote12" href="#footnote12-ref">12</a> ‒ AJMP, Oral History Collection, Interview no. 435 (M. Z., woman).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote13" href="#footnote13-ref">13</a> ‒ Germans, Germans.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote14" href="#footnote14-ref">14</a> ‒ Ibid.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote15" href="#footnote15-ref">15</a> ‒ K. Čapková, ‘Národně nespolehliví?!‘: 98.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote16" href="#footnote16-ref">16</a> ‒ Karel Kaplan, Alexandra Špiritová (eds.), <i>ČSR a SSSR 1945–1948. Dokumenty mezivládních jednání</i> (Brno: Doplněk, 1997), 75–78.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote17" href="#footnote17-ref">17</a> ‒ Jaroslav Vaculík, <i>Poválečná reemigrace a usídlování zahraničních krajanů</i> (Brno: Masarykova Univerzita. Pedagogická fakulta, 2002), 162.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote18" href="#footnote18-ref">18</a> ‒ Jaroslav Vaculík, ‘Židé zPodkarpatské Rusi jako optanti pro československé státní občanství vletech 1945–1947‘, Ludmila Nesládková (ed.), <i>Akce Nisko vhistorii „konečného řešení židovské otázky“</i> (Ostrava: Rondo, 1995), 293.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote19" href="#footnote19-ref">19</a> ‒ Border Guardian.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote20" href="#footnote20-ref">20</a> ‒ Christiane Brenner, <i>Mezi Východem a Západem. České politické diskurzy 1945–1948</i> (Praha: Argo, 2015), 213–215.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote21" href="#footnote21-ref">21</a> ‒ Rada židovských náboženských obcí vzemích České a Moravskoslezské.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote22" href="#footnote22-ref">22</a> ‒ Security Services Archive,fond Jewish Organizations – 425, Call No. 425-234-2. Zápis ze schůze výboru Rady ŽNO konané dne 24. 3. 1946.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote23" href="#footnote23-ref">23</a> ‒ AJMP, Oral History Collection, Interview no. 25 (H. M., woman).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote24" href="#footnote24-ref">24</a> ‒ AJMP, Oral History Collection, Interview no. 1130 (M. Ch., woman).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote25" href="#footnote25-ref">25</a> ‒ AJMP, Oral History Collection, Interview no. 211 (J. W., man).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote26" href="#footnote26-ref">26</a> ‒ Blanka Soukupová, <i>Židé včeských zemích po šoa. Identita poraněné paměti</i> (Bratislava: Marenčin PT, 2016), 103.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote27" href="#footnote27-ref">27</a> ‒ </span>
+                                    <span style="font-weight:400;">Kateřina Čapková, ‘Dilemmas on Minority Politics: Jewish Migrants in Postwar Czechoslovakia and Poland‘, F. S. Ouzan, M. Gerstenfeld (ed.), </span>
+                                    <i>
+                                        <span style="font-weight:400;">Postwar Jewish Displacement and Rebirth 1945–1967</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Leiden; Boston: Brill, 2014), 66.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote28" href="#footnote28-ref">28</a> ‒ Data on the number of Carpathian Jews in Czechoslovakia vary. The most frequent approximate estimate is six to eight thousand in Bohemia and Moravia, cf. Petr Sedlák, ‘Židé v českých zemích 1945–1949‘, <i>Terezínské studie a dokumenty</i>, 2008: 26; Jan Láníček estimates it at 8,500, cf. Jan Láníček, <i>Czechs, Slovaks and the Jews, 1938–1948. Beyond Idealisation and Condemnation</i> (New York: Palgrave Macmillan, 2013), 147; the 1946 report of the World Jewish Congress cites between eight and nine thousand, cf. American Jewish Archives, Cincinnati, fond World Jewish Congress Records, 1918–1982, Czechoslovakia, box H 99, Inv. No. 17, Jewish Representative Committee; Sarah A. Cramsey cites eight thousand, cf. Sarah A. Cramsey, <i>Uncertain Citizenship: Jewish Belonging and the Ethnic Revolution in Poland and Czechoslovakia, 1938–1948</i> (Berkeley: University of California, 2014), 116; the Slovak number is estimated at two thousand individuals, see Yeshayahu A. Jelinek, <i>The Carpathian Diaspora. The Jews of Subcarpathian Rus´ and Mukachevo</i> (New York: Columbia University Press, 2007), 328.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote29" href="#footnote29-ref">29</a> ‒ </span>
+                                    <span style="font-weight:400;">See, for example, Anna Cichopek-Gajraj, </span>
+                                    <i>
+                                        <span style="font-weight:400;">Beyond Violence. Jewish Survivors in Poland and Slovakia, 1944–1948</span>
+                                    </i>
+                                    <span style="font-weight:400;"> (Cambridge: Cambridge university Press, 2014).</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote30" href="#footnote30-ref">30</a> ‒ Péter Apor, ‘The Lost Deportations and the Lost People of Kunmadaras: A Pogrom in Hungary, 1946‘, <i>Hungarian Historical Review</i> 2, no. 3 (2013): 566–604; Petr Balla, ‘Maďarsko‘, Kateřina Králová, Hana Kubátová (ed.), <i>Návraty. Poválečná rekonstrukce židovských komunit vzemích středovýchodní, jihovýchodní a východní Evropy </i>(Praha: Karolinum, 2016), 115–128; Miroslav Kmeť, Bernadeta Ottmárová, ‘Khistórii prejavov antisemitizmu vMaďarsku vpovojnovom období (1945–1948)‘, <i>Acta Historica Neosoliensia</i> 13 (2010): 111–129.</span>
+                                </p>
+<p>
+                                    <span style="font-weight:400;">
+                                        <a id="footnote31" href="#footnote31-ref">31</a> ‒ See Hana Kubátová, ‘On the Image of the Jews in Postwar Slovakia‘, <i>The</i>
+                                        <i>Annual of Language &amp; Politics and Politics of Identity</i>9 (2015): 71–85; Monika Vrzgulová, Hana Kubátová a kol., <i>Podoby antisemitismu vČechách a na Slovensku ve 20. a 21. století</i> (Praha: Karolinum, 2017); Yehoshua R. Büchler<i>, </i>‘Reconstruction Efforts in Hostile Surroundings – Slovaks and Jews after World War II‘, David Bankier (ed.), <i>The Jews Are Coming Back. The Return of the Jews to their Countries of Origin after WWII</i> (New York-Oxford: Berghahn Books, 2005), 257–276;Ivica Bumová, ‘Židia na Slovensku po druhej svetovej vojne‘, Monika Vrzgulová (ed.), <i>Vybrané aspekty ametódy vzdelávania oholokauste na Slovensku</i> (Bratislava: Metodicko-pedagogické centrum, 2013), 40–50.</span>
+                                </p>
+                            </div>    </div>
+
+<h1 id="memory">Holocaust Memory in Early Postwar Czechoslovakia</h1>
+
+    <div id="exhibit-blocks">
+        <div class="exhibit-block layout-text">
+                                <p>
+                                    <strong>Peter Hallama, Université Paris 1 Panthéon-Sorbonne</strong>
+                                </p>
+<p>
+                                    <strong/>
+                                </p>
+<p>As recent scholarship has demonstrated, it was not only in the 1960s, with the <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000107">Eichmann</a> trial, or in the 1980s, with <a href="https://portal.ehri-project.eu/authorities/ehri_pers-001624">Claude Lanzmann’s</a> “Shoah,” that the memory of the Holocaust emerged.<sup>
+                                        <a id="footnote1-ref" href="#footnote1">1</a>
+                                    </sup> From the immediate postwar period and onwards, different actors, most of them Jewish survivors, sought to bear witness to the persecution and murder of the Jews during the Second World War and did so in different ways—by publishing eyewitness and literary accounts of their own suffering, producing films, writing about the Holocaust in the press (mostly, but not exclusively, in the media of the reestablished Jewish communities), collecting material about the persecution of the Jews, and working to create the first monuments and memorials in public spaces and in Jewish cemeteries.<sup>
+                                        <a id="footnote2-ref" href="#footnote2">
+                                            <span>2</span>
+                                        </a>
+                                    </sup>
+                                </p>
+<p>Why, then, has the idea of a blank space in Holocaust memory and of survivors’ “silence” circulated for such a long time?<sup>
+                                        <a id="footnote3-ref" href="#footnote3">
+                                            <span>3</span>
+                                        </a>
+                                    </sup> The reasons must be sought in the perceptions and attitudes of the society at large rather than within Holocaust memory itself. Postwar nationalism and narratives of wartime heroism have contributed to the marginalization of Nazi antisemitism and the Holocaust as minor aspects of the history of the Second World War, externalizing them as parts of German and Jewish history, but not of respective “national” historical narratives.</p>
+<p>In postwar Czechoslovakia, these dynamics were more pronounced since the Second World War was seen as the culmination of the age-old conflict between Czechs and Germans in the Bohemian Lands. The indifference of Czech postwar society towards the fate of their fellow Jewish citizens was evident already at the very end of the war. Moreover, Jews in postwar Czechoslovakia had to face two major accusations—they were either passive victims during the war or, even worse, a nationally “unreliable” and disloyal element. Indeed, the fact that, in the past, a portion of the Jewish population in the Bohemian Lands had spoken German and/or had identified with German nationality contributed to the stereotype of Jews as Germans, i.e. foreign elements and enemies of the Czech nation—an important aspect of Czech antisemitism since the 19<sup>th</sup> century.<a href="#_ftn4"/>
+                                    <sup>
+                                        <a id="footnote4-ref" href="#footnote4">4</a>
+                                    </sup>The result was that commemorating the Holocaust did not make any sense in the nationalist atmosphere of the early postwar period. For the reconstruction of the Czechoslovak state, the only meaningful thing was the memory of Czech and Slovak suffering and “patriotic” resistance during the Second World War.</p>
+<p>Numerous representatives and Jewish community members criticized this indifference towards the Holocaust in the immediate postwar years. The Czech-Jewish author František Langer, for instance, reported in 1946 that many in the society were focusing on the suffering of the non-Jewish Czechs during the war and all too quickly forgetting, leading to the “easy exclusion of the fate of the Jews from the consciousness of other people.”<sup>
+                                        <a id="footnote5-ref" href="#footnote5">
+                                            <span>5</span>
+                                        </a>
+                                    </sup> In a similar way, Štěpán Engel, a regular contributor to the publications of the Council of Jewish Religious Communities in postwar Czechoslovakia, spoke about “statistical forgetfulness,” i.e. the tendency to omit Jewish victims in Czechoslovak reports about the Second World War.<sup>
+                                        <a id="footnote6-ref" href="#footnote6">
+                                            <span>6</span>
+                                        </a>
+                                    </sup> Many Jewish survivors who returned to their hometowns from ghettos, concentration camps, or exile experienced hostility. They perceived this, too, as an “injustice, when you read everywhere of the atrocities that people have suffered, and the poor Jews are not mentioned anywhere.”<sup>
+                                        <a id="footnote7-ref" href="#footnote7">
+                                            <span>7</span>
+                                        </a>
+                                    </sup> <a href="https://portal.ehri-project.eu/authorities/ehri_pers-000738">Zeev Shek</a> also observed this indifference, noticing in August 1945 that “people have already gotten bored of reading concentration camp reports and the exhumation of corpses leaves them cold.”<sup>
+                                        <a id="footnote8-ref" href="#footnote8">
+                                            <span>8</span>
+                                        </a>
+                                    </sup> He therefore insisted that it was a “Jewish duty” to document the Nazi persecution and murder of the Jews, since Czech authorities were only interested in recording the Nazi persecution of Czechs and Slovaks and in the history of Czechoslovak resistance.<sup>
+                                        <a id="footnote9-ref" href="#footnote9">
+                                            <span>9</span>
+                                        </a>
+                                    </sup> The Czechoslovak state and society did not forbid expressions of Holocaust remembrance, at least until the Communist takeover in 1948, but they took no notice of the specific persecution the Jews had been subjected to. This resulted in a sort of separation of the “Czech” and “Jewish” memory of the Second World War, which can be observed since 1945 and, to a certain extent, still persists today.<sup>
+                                        <a id="footnote10-ref" href="#footnote10">
+                                            <span>10</span>
+                                        </a>
+                                    </sup>
+                                </p>
+<p>One example perfectly illustrates this assessment: the <a href="https://portal.ehri-project.eu/institutions/cz-002302">Terezín memorial</a>.<sup>
+                                        <a id="footnote11-ref" href="#footnote11">
+                                            <span>11</span>
+                                        </a>
+                                    </sup> Terezín, or Theresienstadt, has a double meaning in the Czech context, corresponding to its dual role in the history of the Second World War. It has a “<a href="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">Small Fortress</a>,” i.e. the former Gestapo prison for the Czech national (and communist) resistance, and a “<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Main Fortress</a>,” commonly called the “<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Theresienstadt Ghetto</a>,” associated with the Holocaust and the Nazi persecution of the Jews. In the immediate postwar period, Jewish survivors wanted to preserve the site of the former ghetto and the town of <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> as a “memorial for all time.”<sup>
+                                        <a id="footnote12-ref" href="#footnote12">
+                                            <span>12</span>
+                                        </a>
+                                    </sup> Therefore, the Council of Jewish Religious Communities in Czechoslovakia, in cooperation with the <a href="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</a>, appointed the so-called “Terezín commission.” Its priority was preserving the “Jewish cemetery” outside the fort’s walls, where the early victims of the ghetto had been buried before the crematorium was built (in this same cemetery). Another project was the creation of a memorial on the banks of the Ohře River, where, in 1944, the Nazis had dumped the ashes of more than 20,000 Jewish victims. The plans of this commission included the unveiling of commemorative plaques in the town of Terezín and the installation of panels at the town’s main road, informing visitors and passersby about the history of the former <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>. The “<a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín</a> commission” even proposed setting up a museum in the town of Terezín that would commemorate the history of the former Jewish ghetto and would preserve the accommodations from the time of the ghetto in an “authentic” way.</p>
+<p>However, when in 1947 the official <a href="https://portal.ehri-project.eu/institutions/cz-002302">Terezín Memorial</a> was eventually established, it was done on the site of the <a href="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">Small Fortress</a>. Following the strong wave of patriotism in the immediate postwar period, the memorial was named the “<a href="https://portal.ehri-project.eu/institutions/cz-002302">Memorial of National Suffering.</a>” The “National Cemetery” was built in front of the <a href="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">Small Fortress</a>, where, in the future, major events, especially national rallies commemorating the Second World War every May, were organized. Nowhere was it mentioned that the majority of the human remains buried in the “National Cemetery” were Jewish victims of the ghetto.</p>
+<p>The plans of the Jewish community to unveil commemorative plaques and to build a museum could not be realized. Suggestions to underscore the high number of Jewish victims buried in the “National Cemetery” fell on deaf ears. Already in 1946, representatives of the Jewish community had stated that the atmosphere in the town was characterized by indifference toward the memory of the Holocaust. Many Czechs who began to resettle in the town of Terezín in 1946 tried to acquire or reacquire houses. Their attempts to hastily renovate them frustrated the idea of preserving the objects for a museum.<sup>
+                                        <a id="footnote13-ref" href="#footnote13">
+                                            <span>13</span>
+                                        </a>
+                                    </sup>
+                                </p>
+<p>Finally, only two sites served as reminders of the history of the Jewish <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">ghetto in Terezín</a>. A small monument could be erected by the Ohře River, but any reference to Jewish victims was removed in 1946. The site was not generally accessible because it was part of a military zone. The “Jewish Cemetery” with the crematorium represented, therefore, one of the main “lieux de mémoire” of the Holocaust for the post-war Jewish community in Czechoslovakia. Yet, both sites remained marginal—they were not perceived as an integral part of the official <a href="https://portal.ehri-project.eu/institutions/cz-002302">Terezín Memorial</a> and it was only owing to the efforts of the Jewish community that these sites were maintained. Moreover, both stood outside the fortress of Terezín and were thus hardly visible to visitors and passersby.</p>
+<p>The situation in post-war Terezín reminds us of the obstacles that the memory of the Holocaust encountered in Czechoslovak society at large. The patriotic, nationalistic, and ethnocentric perception of the war led to the marginalization of the Holocaust and to a clear separation between “our” Czech and “their” Jewish history. The Second World War was perceived as a prolongation and climax of the eternal conflict between Czechs and Germans. The Jews merged with the Czech victims; no clear distinction was made between the <a href="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">Small</a> and the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Main Fortress</a>; and the number of prisoners of the Small Fortress was exaggerated in order to balance, or even invert, the quantitative importance of the two parts of Terezín.<sup>
+                                        <a id="footnote14-ref" href="#footnote14">
+                                            <span>14</span>
+                                        </a>
+                                    </sup> According to most publications from the early postwar period, the prisoners of “Terezín”—in the singular form, as if Terezín had been one camp—were “Czech people” and “patriots,” suffering and fighting for the Czech homeland, “dying so that the Czech nation may live.”<sup>
+                                        <a id="footnote15-ref" href="#footnote15">
+                                            <span>15</span>
+                                        </a>
+                                    </sup>
+                                </p>
+<p>This marginalization of Holocaust memory in Czech society did not, however, lead to its suppression, and that is true, too, for the period following the Communist takeover in February 1948. For instance, Jewish survivors in Czechoslovakia met every year at the Jewish cemetery in Terezín to commemorate the Holocaust. They erected numerous commemorative plaques and memorials in Jewish cemeteries all over Czechoslovakia, and Jewish writers and journalists continued to publish accounts of the Holocaust. The exhibition of children’s drawings from the <a href="https://portal.ehri-project.eu/keywords/ehri_ghettos-449">Terezín Ghetto</a>, which the <a href="https://portal.ehri-project.eu/institutions/cz-002279">State Jewish Museum in Prague</a> had prepared in the 1950s, met with international success. Nevertheless, it was not until the 1990s that larger segments of Czech society took notice of these manifestations of Holocaust memory.</p>
+<p/>
+<h3>NOTES</h3>
+<p>
+                                    <a id="footnote1" href="#footnote1-ref">1</a> ‒ Laura Jockusch, <em>Collect and Record! Jewish Holocaust Documentation in Early Postwar Europe</em> (Oxford: Oxford University Press, 2012); Imke Hansen, <em>“Nie wieder Auschwitz!” Die Entstehung eines Symbols und der Alltag einer Gedenkstätte 1945-1955</em> (Göttingen: Wallstein, 2015); Regina Fritz, Eva Kovács, Béla Rásky (eds.), <em>Before the Holocaust Had Its Name: Early Confrontations with the Nazi Mass Murder of the Jews / Als der Holocaust noch keinen Namen hatte: Zur frühen Aufarbeitung des NS-Massenmords an Jüdinnen und Juden</em> (Vienna: New Academic Press, 2016); Simon Perego, <em>Pleurons-les: Les Juifs de Paris et la commémoration de la Shoah (1944-1967) </em>(Ceyzérieu: Champ Vallon, 2020); Kata Bohus, Peter Hallama, Stephan Stach (eds.), <em>Growing in the Shadow of Antifascism. Remembering the Holocaust in State-Socialist Eastern Europe</em> (Budapest: Central European University Press, 2022)</p>
+<p>
+                                    <a id="footnote2" href="#footnote2-ref">2</a> ‒ For all the different forms of Holocaust memory in early postwar Czechoslovakia, see, among others, Peter Hallama, <em>Nationale Helden und jüdische Opfer. Tschechische Repräsentationen des Holocaust</em> (Göttingen: Vandenhoeck &amp; Ruprecht, 2015); Lisa A. Peschel, ‘A Joyful Act of Worship’: Survivor Testimony on Czech Culture in the Terezín Ghetto and Postwar Reintegration in Czechoslovakia, 1945-48’, <em>Holocaust and Genocide Studies </em>26, no. 2 (2012): 209<em>–</em>228; Michal Frankl, ‘The Sheep of Lidice. The Holocaust and the Construction of Czech National History’, John-Paul Himka and Joanna Beata Michlic (eds.), <em>Bringing the Dark Past to Light. The Reception of the Holocaust in Postcommunist Europe</em>, ed. (Lincoln: University of Nebraska Press, 2013), 166–194; Elisa-Maria Hiemer, Jiří Holý, Agata Firlej, Hana Nichtburgerová (eds.), <em>Handbook of Polish, Czech, and Slovak Holocaust Fiction. Works and Contexts</em> (Berlin: De Gruyter, 2021)</p>
+<p>
+                                    <a id="footnote3" href="#footnote3-ref">3</a> ‒ For the pioneers who began to challenge this “myth of silence,” see Hasia R. Diner, <em>We Remember with Reverence and Love: American Jews and the Myth of Silence after the Holocaust, 1945-1962</em> (New York: New York University Press, 2009); David Cesarani, Eric J. Sundquist (eds.), <em>After the Holocaust: Challenging the Myth of Silence</em> (London: Routledge, 2012).</p>
+<p>
+                                    <a id="footnote4" href="#footnote4-ref">4</a> ‒ Magdalena Sedlická, <em>Ethnic Homogenization and Its Impact on Jews in the Bohemian Lands After 1945</em>, in this edition; Magdalena Sedlická, ‘Němečtí Židé’ v Československu v letech 1945-1948’, <em>Historie – Otázky – Problémy </em>8, no. 1 (2016): 120<em>–</em>131; Kateřina Čapková, ‘Germans or Jews? German-Speaking Jews in Poland and Czechoslovakia after World War II’, <em>Kwartalnik Historii Żydów / Jewish History Quarterly</em> 246, no. 2 (2013): 348<em>–</em>362.</p>
+<p>
+                                    <a id="footnote5" href="#footnote5-ref">5</a> ‒ Frant[išek] Langer, ‘Zapomínání’, <em>Věstník Židovské obce náboženské v Praze </em>8, no. 15 (1946): 138<em>– </em>139.</p>
+<p>
+                                    <a id="footnote6" href="#footnote6-ref">6</a> ‒ Št.E. [Štěpán Engel], ‘Zapomnětlivá statistika’, <em>Věstník Židovské obce náboženské v Praze </em>9, no. 3 (1947): 28<em>–</em>29.</p>
+<p>
+                                    <a id="footnote7" href="#footnote7-ref">7</a> ‒ Central Archives for the History of the Jewish People (CAHJP), P 209/14. Letter from Lotta [Lotte Liebsteinová] to Gustav Sicher, 1. 7. 1946.</p>
+<p>
+                                    <a id="footnote8" href="#footnote8-ref">8</a> ‒ Yad Vashem Archives (YVA), O.7cz (Documentation regarding the Jews of Bohemia and Moravia, mainly during the Holocaust), file no. 263, fol. 161-162. Letter from Zeev Shek to R. Adler [Salomon Adler-Rudel], 29. 8. 1945.</p>
+<p>
+                                    <a id="footnote9" href="#footnote9-ref">9</a> ‒ Peter Hallama, ‘Theresienstadt – das Golgota der tschechischen Nation? Externalisierung und Marginalisierung des Holocaust in der Tschechoslowakei der unmittelbaren Nachkriegsjahre, Regina Fritz, Eva Kovács, Béla Rásky (eds.), <em>Als der Holocaust noch keinen Namen hatte: Zur frühen Aufarbeitung des NS-Massenmords an Jüdinnen und Juden</em>, (Vienna: New Academic Press, 2016), 399<em>–</em>421.</p>
+<p>
+                                    <a id="footnote10" href="#footnote10-ref">10</a> ‒ See also Tomas Sniegon, ‘Their Genocide, or Ours? The Holocaust as a Litmus Test of Czech and Slovak Identities’, Klas-Göran Karlsson, Ulf Zander (eds.), <em>Echoes of the Holocaust. Historical Cultures in Contemporary Europe</em>, (Lund: Nordic Academic Press, 2003), 177–200.</p>
+<p>
+                                    <a id="footnote11" href="#footnote11-ref">11</a> ‒ For the following, see Hallama, <em>Nationale Helden und jüdische Opfer</em>, 81-93.</p>
+<p>
+                                    <a id="footnote12" href="#footnote12-ref">12</a> ‒ Archives of the Jewish Museum in Prague (AJMP), fonds Hana Volavková, box 44. Letter from the Council of Jewish Religious Communities (Kurt Wehle) to Hana Volavková, 12. 6. 1946.</p>
+<p>
+                                    <a id="footnote13" href="#footnote13-ref">13</a> ‒ YVA, O.64 (Theresienstadt Collection), no. 109, fol. 20-22. Letter from Jiří Vogel and Erich Kohn to the Council of Jewish Religious Communities in Czechoslovakia, 22. 6. 1946.</p>
+<p>
+                                    <a id="footnote14" href="#footnote14-ref">14</a> ‒ In today’s estimates, about 32,000 prisoners were incarcerated in the Small Fortress. Early postwar accounts often speak of 90,000 or more prisoners. See, for instance, ‘Terezín v číslech’, <em>Služba repatriantům</em>, no. 20 (1945): 4; Gustav Hajčík, Jaroslav Volejník, <em>Nezapomínáme. Fakta a data o památných dnech a událostech boje proti fašismu </em>(Praha: Naše Vojsko, 1956).</p>
+<p>
+                                    <a id="footnote15" href="#footnote15-ref">15</a> ‒ See, among many others, ‘Kalvarie českého národa’, <em>Hlas osvobozených </em>2, no. 20 (1946): 3.</p>
+                            </div>    </div>
+                            </div>
+                            </section>
+        </main>
+                <footer class="version"> App: v<span data-template="pages:version"/> / web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                        </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div/>
+                <div class="splash">
+            <img style="display: block; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="resources/images/ehri_illustration.jpg" width="550"/>
+        </div>
+    </body>
+
+</html>

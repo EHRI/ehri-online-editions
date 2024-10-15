@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EHRI-BF-UH-19380728_CS">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="cs">Zpráva Pomocného ústředí pro uprchlíky v Brně</title>
+				<title xml:lang="en">Report of the Help Center for Refugees in Brno</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938 </orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005578"> United States Holocaust Memorial Museum </orgName><address>
+								<street>100 Raoul Wallenberg Place, S.W.</street>
+								<postCode>DC 20024-2126</postCode>
+								<settlement>Washington</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn566632"> Records of the Executive Committee of the World Jewish Congress Paris (Fond 1190) </collection>
+						<idno>Reel 13, Opis 1, Delo 290</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl> US Holocaust Memorial Museum, RG-15.372, Records of the Executive Committee of the World Jewish Congress, Paris Exekutivkomitee des Jüdischen Weltkongresses, Paris (Fond 1190), mikrofilm 13, opis 1, delo 290. <textLang mainLang="de">Originál německy.</textLang>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1938-07-28">27. července 1938</origDate>
+				<orgName ref="#ehri_bf_zentralstelle_bruenn">Pomocné ústředí pro uprchlíky</orgName>
+				<origPlace ref="http://www.geonames.org/3078610/brno.html">Brno</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>pomocné organizace</term>
+				</keywords>
+				<catRef target="hilfsorganisationen"/>
+			</textClass>
+			<langUsage>
+				<language ident="cs">česky</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="no_facs" n="1"/>
+					<!--<p>Brünn, 28. Juli 1938</p>-->
+					<p>Milý dr. <ref target="#ehri_gf_barber_stephen">Barber</ref>e:</p>
+					<p>V odpověď na Váš dopis z 26. července Vám tímto zasíláme několik údajů a děkujeme Vám za Vaši přímluvu, jíž je nám velice zapotřebí. Máme momentálně zde v <placeName ref="http://www.geonames.org/3078610/brno.html">Brně</placeName> velmi obtížnou situaci. Počet <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrantů</term> se za poslední měsíc více než zdvojnásobil. To znamená: 25. června bylo u nás 372 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrant</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">ů</term>, o něž jsme pečovali, 25. července evidujeme 847 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrantů</term> v naší péči,
+						z nichž je 210 Čechoslováků, zbytek je</p>
+					<p>381 <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakušanů</placeName>[,]</p>
+					<p>26 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">říšsk</term>ých Němců,</p>
+					<p>230 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">bez</term> státní příslušnosti.</p>
+					<p>Jelikož na každého <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigranta</term> potřebujeme, jak víte, denně nejméně 7.-- Kč, v průměru však 8 korun, znamená to mít na každodenní výdaje finanční prostředky ve výši 6 800 Kč, tedy měsíčně
+						cca 200 000.-- Kč. Je zcela vyloučené, abychom zde tento obnos shromáždili. V úvahu je třeba vzít i to, že nejsou započteny mimořádné výdaje, jako např. léčebné náklady pro nemocné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigranty</term>, cestovní náklady atd., nemluvě ani</p>
+					<pb facs="no_facs" n="2"/>
+					<p>o nákladech na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">vystěhování</term> do zámoří, které činí 5 000.-- Kč na osobu, v některých případech však ještě více.</p>
+					<p>Dosavadní měsíční výtěžek naší <placeName ref="http://www.geonames.org/3078610/brno.html">brně</placeName>nské sbírky činí cca 65 000.-- Kč, včetně podílu velkých průmyslových podniků, ve sbírce sice ještě pokračujeme, stěží však dosáhneme nějakého významnějšího navýšení.
+						Vidíte tedy, že naše finanční prostředky vystačují v současné době jen na jednu třetinu potřeby. Malou část schodku prozatím pokrývají měsíční příspěvky <ref target="#ehri_bf_zno_brno">nábožensk</ref>é obce ve výši cca 24 000.-- Kč, která též zajišťuje stravu pro část <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrantů</term>, asi pro 300 lidí. Pokud tedy okamžitě nepřijde naléhavě nezbytná pomoc, stojíme skutečně na prahu katastrofy.</p>
+					<p>To je finanční stránka problému. Stejně tak neuspokojivé a svými důsledky ještě osudovější je chování úřadů. Brněnské policejní ředitelství zadrželo od minulého pátku téměř všechny osoby, které byly přihlášeny, celkem 60 osob, z nichž bylo nyní 12 odsunuto do Rakouska, 6 do
+							<placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName> a pěti odsun do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName> hrozí. Ostatní se dostali na svobodu jen díky té náhodě, že jednomu
+						anglickému a jednomu americkému novináři a jedné švýcarské novinářce – jelikož byli vybaveni doporučeními nejvyšších míst našeho státu –</p>
+					<pb facs="no_facs" n="3"/>
+					<p>se ve dvou po sobě následujících dnech podařilo dosáhnout u policejního prezidenta toho, že vyhoštění bylo zrušeno. Nyní se praxe zadržování lidí bohužel zase obnovila, ode dneška je ve vazbě např. jedna profesorka vídeňského Chajesova gymnasia, dále jedna 50letá žena s těžkou
+						cukrovkou a srdeční chorobou, jeden mladý muž trpící těžkým nervovým onemocněním a rovněž dva lidé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1217" type="subject">bez</term> státní příslušnosti, vyhoštění z <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídně</placeName>, s příkazem policejního prezidia, aby byli v pondělí odsunuti do Polska. Jde zčásti o <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakušany</placeName>, zčásti o lidi bez
+						státní příslušnosti, z nichž někteří museli z Vídně uprchnout, jiní byli vyhoštěni. Všechny intervence ohledně těchto lidí, policií nahodile vybraných, zůstaly bez výsledku.</p>
+					<p>Momentálně se jedná o tom, že většina emigrantů by byla umístěna do bývalé zaopatřovatelny města <placeName ref="http://www.geonames.org/3078610/brno.html">Brna</placeName> ve <placeName ref="http://www.geonames.org/3064587/svatoborice.html">Svatobořicích, okres
+							Kyjov</placeName>. Objekt má být údajně už adaptován a za deset dní mají přijít pokyny z <ref target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749">ministerstva</ref>. Zda je to správné, nedokážeme dnes ještě posoudit.</p>
+					<p>Projekt <placeName ref="http://www.geonames.org/3064587/svatoborice.html">Svatobořice</placeName> by ovšem pro tento okamžik neznamenal žádné ulehčení, nýbrž ztížení finanční situace, neboť zařízení, postele atd. by si vyžádaly obnos 200.000.-- Kč. (Má tam být možnost ubytovat
+						500 až 800 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrantů</term>.) Minulý týden, kdy začalo zatýkání, jsme se depešemi opět obrátili na prezidenta <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000030">Beneš</persName>e, ministerského předsedu dr. <ref target="https://cs.wikipedia.org/wiki/Milan_Hodža">Hodžu</ref> a ministra <ref target="https://cs.wikipedia.org/wiki/Josef_Černý_(politik)">Černého</ref> s prosbou, aby byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">emigrantům</term></p>
+					<pb facs="no_facs" n="4"/>
+					<p>zu gewähren. Ein positives Ergebnis hat diese Telegrammaktion bis heute nicht gehabt.</p>
+					<p>Wir bitten Sie lieber Dr. <persName ref="#ehri_gf_barber_stephen">Barber</persName> alle diese Daten den zuständigen Stellen vorzulegen. Sie sehen worin die Hilfe bestehen müsste:</p>
+					<p>poskytnut přechodný azyl. Pozitivní výsledek tato akce s telegramy dodnes nemá.</p>
+					<p>Prosíme Vás, milý dr. <ref target="#ehri_gf_barber_stephen">Barber</ref>e, abyste všechny tuto údaje předložil příslušným místům. Sám vidíte, v čem by měla spočívat pomoc:</p>
+					<p>1./ Naléhavě nezbytná peněžní pomoc[,]</p>
+					<p>2./ co nejrychlejší obstarání možnosti vystěhování,</p>
+					<p>3./ apel na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Československo</placeName>, aby byl rakouským uprchlíkům až do vystěhování poskytnut azyl. Určitou záruku za toto vystěhování musejí převzít všechny státy.</p>
+					<p>Význam problému pro Československo jsme podrobně vylíčili v našem prvním memorandu pro <ref target="#ehri_bf_evian_conference">konferenci v Evian</ref>u. Prosíme Vás, abyste v návaznosti na úvahy tam obsažené působil v našem smyslu.</p>
+					<!--
+      <p rend="color_999999">Wir danken Ihnen vielmals und begrüssen Sie herzlichst</p>
+      <p rend="color_999999">für die</p>
+      <p rend="color_999999">Pomocné ústředí pro uprchlíky</p>
+      <p rend="color_999999">Zentralhilfsstelle für Flüchtlinge</p>
+      <p rend="color_999999"/>
+      <p rend="color_999999">P.S. Lieber Dr. Barber: Prof. <ref
+          target="https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&amp;load=1263"
+          >Rišanek</ref> hat sich sofort nach seiner Ankunft mit uns in Verbindung gesetzt und
+        Verschiedenes für uns zu erwirken versucht, leider ohne Erfolg.</p>-->
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
