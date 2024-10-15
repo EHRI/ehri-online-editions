@@ -1,125 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19440419-DK_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Lauritz Bolt Bolt-Jørgensen on anti-Jewish laws in Hungary in 1944</title>
+				<title xml:lang="de">Lauritz Bolt Bolt-Jørgensen über antijüdische Gesetze in Ungarn im Jahr 1944</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/dk">Denmark </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </orgName><address>
+								<street>Rigsdagsgaarden 9</street>
+								<postCode>DK-1218</postCode>
+								<settlement>Copenhagen</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/dk">Denmark</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Rigsarkivet, 151. D. 2, Gruppeordnede sager. <textLang mainLang="en">Original in Danish.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1942-05-27">27.05.1942</date>
-				<placeName ref="#budapest">Budapest</placeName>
+				<origDate when="1942-05-27">27.05.1942</origDate>
+				<origPlace ref="https://www.geonames.org/3054643/budapest.html">Budapest</origPlace>
 				<persName ref="#ehri_dr_bolt-joergensen_bolt_lauritz">Bolt-Jørgensen, Lauritz Bolt</persName>
-				<idno>EHRI-DR-19440419-DK</idno>
 			</creation>
+			<langUsage>
+				<language ident="da"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="HUN1.jpg" n="1"/>
-				<p>Shortly after the appointment of the Cabinet <persName ref="#p000404">Sztojay</persName> they announced on the <date
-						when="1944-03-31">31<hi rend="sup">st</hi></date> in the <placeName ref="#hungary">Hungarian</placeName> Government <term
-						ref="#t812" type="subject">Gazette</term> a couple of decrees containing stricter <term ref="#t542" type="subject"
-						>provisions</term> in the already applicable provisions concerning the position of the <term ref="#t864" type="subject"
-						>Jews</term> in the <placeName ref="#hungary">Hungarian</placeName> Society, cf. legation report No. 106 of <date
-						when="1942-03-07">27.3.42</date> and later.</p>
-				<p>In accordance with the first decree (Appendix 1), every <term ref="#t864" type="subject">Jew</term>, regardless of <term
-						ref="#t858" type="subject">gender</term>, from the age of 6, outside the home is instructed to wear a tailored canary <term
-						ref="#t338" type="subject">yellow star</term> of fabric with a diameter of l0 cm on the left chest of the garment. The basis
-					for who is qualified as a <term ref="#t864" type="subject">Jew</term> is the <term ref="#t365" type="subject">racial protection
-						law</term> of <date when="1941">1941</date>. This does not apply to <term ref="#t864" type="subject">Jews</term> who received
-					higher <term ref="#t1076" type="subject">military</term> decoration for <term ref="#t1086" type="subject">participation</term> in
-					the <term ref="#ehri_dr_First_World_War" type="subject">First World War</term>, who are 75 percent <term ref="#t1080"
-						type="subject">war</term>
-					<term ref="#t545" type="subject">invalids</term>, as well as <term ref="#t864" type="subject">Jews</term> who have been honoured
-					for their actions during the <term ref="#ehri_dr_hungarian_revolution" type="subject">Hungarian Revolution</term> of <date
-						when="1919">1919</date> and the relinquishment of state territory from the <term ref="#ehri_dr_little_entente" type="subject"
-						>Little Ententes States</term> after the World War.</p>
-				<p>By a Decree of the <date when="1944-04-05">5<hi rend="sup">th</hi></date> of this month (Appendix 2), the exceptions were expanded
-					to include <term ref="#t864" type="subject">Jews</term> living in <term ref="#t375" type="subject">marriages</term> with <term
-						ref="#t373" type="subject">non-Jews</term>, and widows of <term ref="#t373" type="subject">non-Jews</term>. The exemptions
-					further include those <term ref="#t1149" type="subject">foreign Subjects</term> living in <placeName ref="#hungary"
-						>Hungary</placeName> who are able to document their foreign <term ref="#t1147" type="subject">nationality</term> through the
-					foreign authorities. The necessary certificate is based on an application submitted by the relevant Foreign Representation.</p>
-				<pb facs="HUN2.jpg" n="2"/>
-				<p>In accordance with the Decrees of the <date when="1944-03-31">31<hi rend="sup">st</hi></date> (Appendix 1), <term ref="#t864"
-						type="subject">Jews</term> are <term ref="#t339" type="subject">prohibited</term> from having <term ref="#t373" type="subject"
-						>non-Jews</term> as housekeepers. The prohibition includes service people of all kinds who perform a regular personal service
-					for <term ref="#t333" type="subject">money</term>.</p>
-				<p>Furthermore, the <term ref="#t864" type="subject">Jews</term> who are <term ref="#t897" type="subject">employees of the State and
-						Municipal Service</term> as well as the National <term ref="#t930" type="subject">Bank</term>, Credit Unions, etc. are
-					dismissed. The Authorizations for <term ref="#t864" type="subject">Jewish</term> Notaries, Interpreters, <term ref="#t899"
-						type="subject">Jewish Lawyers</term>, etc. <term ref="#t665" type="subject">expire</term> on <date when="1944-05-31">31
-						May</date> of this year and are excluded from the Attorneys Chambers.</p>
-				<p><term ref="#t864" type="subject">Jews</term>, who are <term ref="#t712" type="subject">members</term> of the <term ref="#t1068"
-						type="subject">Press</term> Chamber and the Chamber of Performing <term ref="#t673" type="subject">Arts</term>, must resign
-					before <date when="1944-04-30">30 April</date> of this year.</p>
-				<p>At the same time, <term ref="#t864" type="subject">Jews</term> who own Motor Vehicles (Passenger Cars, Cargo Trucks, and
-					Motorcycles, etc.) are required to report these to the Ministry of Commerce.</p>
-				<p>On the 29<hi rend="sup">th</hi> they announced a decree according to which <term ref="#t864" type="subject">Jews</term> have to
-					report their Telephones.</p>
-				<p>According to a Decree of the 8<hi rend="sup">th</hi> ds. The <term ref="#t864" type="subject">Jews</term> are obliged to report
-					their <term ref="#t849" type="subject">Radio Devices</term>.</p>
-				<p>By Decree of the <date when="1944-04-06">6<hi rend="sup">th</hi></date> of this month, the <term ref="#t864" type="subject"
-						>Jews</term> who carry the <term ref="#t338" type="subject">yellow Star</term> are prohibited from using Motor Vehicles,
-					including Taxis. Nor has the before mentioned <term ref="#t864" type="subject">Jews</term> access to the use of <term ref="#t940"
-						type="subject">railways</term>, Passenger Ships, and Motor omnibus; special permits for an exemption for a specific time can
-					be given by the <term ref="#t1119" type="subject">police</term> and the <term ref="#t1124" type="subject">gendarmerie</term>.</p>
-				<p>The Government has taken precautions - which do not take the form of a Decree, but on the <date when="1944-04-06">6<hi rend="sup"
-							>th</hi></date> of this month, the <q>Budapester Nachrichten</q>
-					<term ref="#t1068" type="subject">Press</term> Service referred to the complete <term ref="#t628" type="subject">exclusion</term>
-					of <term ref="#t864" type="subject">Jews</term> from the <term ref="#t816" type="subject">business community</term>. It is
-					anticipated that all <term ref="#t902" type="subject">Jewish employment</term> will cease by <date when="1944-10-01">1
-						October</date>.</p>
-				<pb facs="HUN3.jpg" n="3"/>
-				<p>On the <date when="1944-04-16">16<hi rend="sup">th</hi></date> of this month, a Decree concerning the registration and <term
-						ref="#t585" type="subject">blocking</term> of the <term ref="#t888" type="subject">Jews’ fortune</term> was announced
-					(Appendix 3). Hereafter, the <term ref="#t864" type="subject">Jews</term> must report their total <term ref="#t887" type="subject"
-						>assets</term> to the relevant <term ref="#t1153" type="subject">financial authorities</term> with the exception of their
-					personal home, household items, and clothing, if their total value does not exceed 10,000 Pengö. What you are obligated to notify
-					includes Art objects, Blankets, Table silver, and other Luxury items. In addition to small change, the <term ref="#t864"
-						type="subject">Jews</term> must also report their <term ref="#t887" type="subject">land property</term>. Shares and Bonds
-					must, before the notification is made, be deposited in a <term ref="#t930" type="subject">bank</term>. <term ref="#t864"
-						type="subject">Jewish</term>
-					<term ref="#t930" type="subject">bank</term> boxes are blocked, and the Owner must declare their contents. All <term ref="#t864"
-						type="subject">Jewish</term> claims on savings, <term ref="#t930" type="subject">Bank</term> Books and Current Accounts are
-					reported and blocked; of these <term ref="#t585" type="subject">blocked</term> receivables, a total of 1,000 Pengö can be paid
-					monthly to the Owner. The <term ref="#t864" type="subject">Jews</term> are responsible to transfer their whole salary to a <term
-						ref="#t930" type="subject">bank</term> or savings <term ref="#t930" type="subject">bank</term>; these amounts are blocked. The
-					Minister of Industry has the authority to <term ref="#t585" type="subject">block</term>
-					<term ref="#t864" type="subject">Jewish</term>
-					<term ref="#t933" type="subject">trading</term> and <term ref="#t890" type="subject">industrial companies’</term> raw material and
-					inventory as well as business inventory.</p>
-				<p>Enclosed is a cutting of <q>Pester Lloyd</q> of 18 of this month. (Appendix 4), containing the reproduction of some of the
-					statements made by the Secretary of State and the Ministry of the Interior, regarding further impending precautions, including the
-						<term ref="#t1427" type="subject">practice of Jewish doctors</term> and the future conditions of <term ref="#t552"
-						type="subject">Jewish Settlement</term> in <placeName ref="#budapest">Budapest</placeName>.</p>
-				<p><persName ref="#ehri_dr_bolt-joergensen_bolt_lauritz">Lauritz Bolt Bolt-Jørgensen </persName>(1882-1967)</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="HUN1.jpg" n="1"/>
+					<p>Shortly after the appointment of the Cabinet <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000404">Sztojay</persName> they announced on the <date when="1944-03-31">31<hi rend="sup">st</hi></date> in the <placeName
+							ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> Government <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-812" type="subject">Gazette</term> a couple of decrees containing stricter <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">provisions</term> in the already applicable provisions concerning the position of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>
+						in the <placeName ref="http://www.geonames.org/719819/hungary.html">Hungarian</placeName> Society, cf. legation report No. 106 of <date when="1942-03-07">27.3.42</date> and later.</p>
+					<p>In accordance with the first decree (Appendix 1), every <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term>, regardless of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-858" type="subject">gender</term>, from the age of
+						6, outside the home is instructed to wear a tailored canary <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">yellow star</term> of fabric with a diameter of l0 cm on the left chest of the garment. The basis for who is qualified as a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term> is the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">racial protection law</term> of <date when="1941">1941</date>. This does not apply to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who received higher <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1076" type="subject">military</term> decoration for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1086" type="subject">participation</term> in the <term ref="#ehri_dr_First_World_War" type="subject">First World War</term>, who are 75 percent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080"
+							type="subject">war</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-545" type="subject">invalids</term>, as well as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who have been honoured for their actions during the <term
+							ref="#ehri_dr_hungarian_revolution" type="subject">Hungarian Revolution</term> of <date when="1919">1919</date> and the relinquishment of state territory from the <term ref="#ehri_dr_little_entente" type="subject">Little Ententes States</term> after the World War.</p>
+					<p>By a Decree of the <date when="1944-04-05">5<hi rend="sup">th</hi></date> of this month (Appendix 2), the exceptions were expanded to include <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> living in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriages</term> with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jews</term>, and widows of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jews</term>. The exemptions further include those <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">foreign Subjects</term> living in <placeName
+							ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName> who are able to document their foreign <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">nationality</term> through the foreign authorities. The necessary certificate is
+						based on an application submitted by the relevant Foreign Representation.</p>
+					<pb facs="HUN2.jpg" n="2"/>
+					<p>In accordance with the Decrees of the <date when="1944-03-31">31<hi rend="sup">st</hi></date> (Appendix 1), <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339"
+							type="subject">prohibited</term> from having <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jews</term> as housekeepers. The prohibition includes service people of all kinds who perform a regular personal service for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-333" type="subject">money</term>.</p>
+					<p>Furthermore, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-897" type="subject">employees of the State and Municipal Service</term> as well as the National
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Bank</term>, Credit Unions, etc. are dismissed. The Authorizations for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> Notaries, Interpreters,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">Jewish Lawyers</term>, etc. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-665" type="subject">expire</term> on <date when="1944-05-31">31 May</date> of this year and are
+						excluded from the Attorneys Chambers.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, who are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-712" type="subject">members</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068"
+							type="subject">Press</term> Chamber and the Chamber of Performing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">Arts</term>, must resign before <date when="1944-04-30">30 April</date> of this year.</p>
+					<p>At the same time, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who own Motor Vehicles (Passenger Cars, Cargo Trucks, and Motorcycles, etc.) are required to report these to the Ministry of Commerce.</p>
+					<p>On the 29<hi rend="sup">th</hi> they announced a decree according to which <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> have to report their Telephones.</p>
+					<p>According to a Decree of the 8<hi rend="sup">th</hi> ds. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are obliged to report their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-849" type="subject">Radio
+							Devices</term>.</p>
+					<p>By Decree of the <date when="1944-04-06">6<hi rend="sup">th</hi></date> of this month, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who carry the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338"
+							type="subject">yellow Star</term> are prohibited from using Motor Vehicles, including Taxis. Nor has the before mentioned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> access to the use of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-940" type="subject">railways</term>, Passenger Ships, and Motor omnibus; special permits for an exemption for a specific time can be given by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+							type="subject">police</term> and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1124" type="subject">gendarmerie</term>.</p>
+					<p>The Government has taken precautions - which do not take the form of a Decree, but on the <date when="1944-04-06">6<hi rend="sup">th</hi></date> of this month, the <q>Budapester Nachrichten</q>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">Press</term> Service referred to the complete <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-628" type="subject">exclusion</term> of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-816" type="subject">business community</term>. It is anticipated that all <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-902" type="subject">Jewish employment</term> will cease by <date when="1944-10-01">1 October</date>.</p>
+					<pb facs="HUN3.jpg" n="3"/>
+					<p>On the <date when="1944-04-16">16<hi rend="sup">th</hi></date> of this month, a Decree concerning the registration and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">blocking</term> of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-888" type="subject">Jews’ fortune</term> was announced (Appendix 3). Hereafter, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> must report their total <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">assets</term> to the relevant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1153" type="subject">financial authorities</term> with the exception of their personal home, household
+						items, and clothing, if their total value does not exceed 10,000 Pengö. What you are obligated to notify includes Art objects, Blankets, Table silver, and other Luxury items. In addition to small change, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+							type="subject">Jews</term> must also report their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">land property</term>. Shares and Bonds must, before the notification is made, be deposited in a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term> boxes are blocked, and the Owner must declare their contents. All <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> claims on savings,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">Bank</term> Books and Current Accounts are reported and blocked; of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">blocked</term> receivables, a
+						total of 1,000 Pengö can be paid monthly to the Owner. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are responsible to transfer their whole salary to a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930"
+							type="subject">bank</term> or savings <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term>; these amounts are blocked. The Minister of Industry has the authority to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585"
+							type="subject">block</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-933" type="subject">trading</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-890" type="subject">industrial companies’</term> raw material and inventory as well as business inventory.</p>
+					<p>Enclosed is a cutting of <q>Pester Lloyd</q> of 18 of this month. (Appendix 4), containing the reproduction of some of the statements made by the Secretary of State and the Ministry of the Interior, regarding further impending precautions, including the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">practice of Jewish doctors</term> and the future conditions of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">Jewish Settlement</term> in <placeName
+							ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName>.</p>
+					<p><persName ref="#ehri_dr_bolt-joergensen_bolt_lauritz">Lauritz Bolt Bolt-Jørgensen </persName>(1882-1967)</p>
+				</div>
 			</div>
 		</body>
 	</text>

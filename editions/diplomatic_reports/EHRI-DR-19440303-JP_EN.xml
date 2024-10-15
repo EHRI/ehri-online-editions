@@ -1,59 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19440303-JP_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Consul Yamaguchi on the situation of Jews in Vienna</title>
+				<title xml:lang="de">Konsul Yamaguchi zur Lage der Juden in Wien</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Early Holocaust Testimony</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials
-							(JACAR)</repository>
-						<collection>Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue]
-							B04013207600-10500. </collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials (JACAR)</orgName><address>
+								<street>Sumitomo Fudosan Hongo Building 10F</street>
+								<postCode>3-22-5</postCode>
+								<settlement>Tokyo</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
+							</address></institution>
+						<collection>Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue] B04013207600-10500. </collection>
 						<idno>12:2-6.</idno>
 					</msIdentifier>
 				</msDesc>
-				<bibl>Japan Center for Asia Historical Materials (JACAR), Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of
-					Nationalities: The Jewish Issue] B04013207600-10500, 12:2-6. <textLang mainLang="en">Original in Japanese.</textLang></bibl>
+				<bibl>Japan Center for Asia Historical Materials (JACAR), Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue] B04013207600-10500, 12:2-6. <textLang mainLang="en">Original in Japanese.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1944-03-03">March 3, 1944</date>
-				<placeName ref="#vienna">Vienna</placeName>
+				<origDate when="1944-03-03">March 3, 1944</origDate>
+				<origPlace ref="http://www.geonames.org/2761369/vienna.html">Vienna</origPlace>
 				<persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName>
-				<idno>EHRI-DR-19440303-JP</idno></creation>
+			</creation>
+			<langUsage>
+				<language ident="ja"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>From: Consul <persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName> (<placeName ref="#vienna">Vienna</placeName>)</p>
-				<p>To: Foreign Minister <persName ref="#ehri_dr_mamoru_shigemitsu">Shigemitsu Mamoru</persName> (<placeName ref="#tokyo"
-						>Tokyo</placeName>)</p>
-				<p>
-					<date when="1944-02-29">Since 29</date>th of last month, the control of <term ref="#t864" type="subject">Jews</term> in <placeName
-						ref="#vienna">Vienna</placeName> has become even harsher. </p>
-				<p> The following is what we learned in extreme confidentiality. Those who <term ref="#t582" type="subject">married Jews</term> are
-					confined to<term ref="#t553" type="subject"> certain houses</term>; Those with <term ref="#t374" type="subject">mixed Jewish
-						blood</term> are not allowed to join the <orgName ref="#g388">Arbeitsfront</orgName> or are <term ref="#t332" type="subject"
-						>expelled</term> from it.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<p>From: Consul <persName ref="#ehri_dr_yamaguchi">Yamaguchi</persName> (<placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName>)</p>
+					<p>To: Foreign Minister <persName ref="#ehri_dr_mamoru_shigemitsu">Shigemitsu Mamoru</persName> (<placeName ref="http://www.geonames.org/1850147/tokyo.html">Tokyo</placeName>)</p>
+					<p>
+						<date when="1944-02-29">Since 29</date>th of last month, the control of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in <placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> has become even harsher. </p>
+					<p> The following is what we learned in extreme confidentiality. Those who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-582" type="subject">married Jews</term> are confined to<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-553" type="subject">
+							certain houses</term>; Those with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">mixed Jewish blood</term> are not allowed to join the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-388">Arbeitsfront</orgName> or are
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">expelled</term> from it.</p>
+				</div>
 			</div>
 		</body>
 	</text>

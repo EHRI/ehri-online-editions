@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-058_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Georg Feyl, on the death march victims buried in the city of Teplá (protocol no. 6)</title>
+				<title xml:lang="de">Georg Feyl, auf dem Todesmarsch in der Stadt Tepl beigesetzte Opfer (Protokoll Nr. 6)</title>
+				<title xml:lang="cs">Georg Feyl, oběti pochodu smrti pohřbené ve městě Teplá (protokol č. 6)</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="de">Original in German.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945-08-12">12. 8. 1945</origDate>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Prisoners</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Murder</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Cemeteries</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Death marches</term>, <origPlace ref="http://www.geonames.org/3070820/mesto.html">Teplá</origPlace>,
+					<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">Burials</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Brief statement by Georg Feyl, provisor of the Teplá abbey monastery, who claimed to know very little about the circumstances of the death march and mass killing in the city of Teplá.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-DC-058_01.png" n="1"/>
+					<p>Protokoll Nr. 6</p>
+					<p><date when="1945-08-12">12. 8. 1945</date></p>
+					<p>Protokoll</p>
+					<p>aufgenommen mit <persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-730" type="subject">Provisor</term> im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-728" type="subject">Kloster</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-729" type="subject">Stift</term>
+						<placeName ref="http://www.geonames.org/3070820/mesto.html">Teplá</placeName>, Nationalität deutsch.</p>
+					<p><persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName> gibt an, er wisse über die ganze Angelegenheit sehr wenig. Alle Anweisungen hätte Baumeister <persName ref="#ehri_dc_kroy_frantisek">Kroy</persName> gegeben /: derzeit in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Haft</term> :/. Er wisse nichts darüber, dass Menschen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">totgeschlagen</term> wurden, doch ist ihm bekannt, dass
+						viele <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> in <placeName ref="http://www.geonames.org/3070820/mesto.html">Teplá</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">gestorben</term> sind. Er selbst protestierte dagegen, dass die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> auf offenem Felde verscharrt
+						werden und hätte die Ansicht vertreten, man müsste sie doch am <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Friedhof</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject"> begraben</term>, auch wenn es Andersgläubige sind. Den Platz am <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">Friedhof</term>, wo die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">Leichen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">verscharrt</term> wurden, hätte Baumeister <persName ref="#ehri_dc_kroy_frantisek">Kroy</persName> angegeben. Die Aussagen des Letzteren, der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-730" type="subject">Prior</term> oder das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-728" type="subject">Kloster</term> hätten diesbezüglich irgendwelche <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">Anordnungen</term> gegeben, lehnt <persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName> entschieden ab.</p>
+					<p>Protokoll aufgenommen durch <persName ref="#ehri_dc_shek_zeev">W. Zeew Scheck</persName> in Anwesenheit von <persName ref="#ehri_dc_ternerova_dorit">Dorit Terner</persName>.</p>
+					<p>Namen der Zeugen und Geburtsdaten:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">William Zeev Scheck</persName>
+						<date when="1920-05-13">13. 5. 1920</date></p>
+					<p><persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName>, Provisor, <date when="1894-06-02">2. 6. 1894</date></p>
+					<p><persName ref="#ehri_dc_ternerova_dorit">Ternerová Dorit</persName>
+						<date when="1925-09-28">28. 9. 1925</date></p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-DC-058_01.png" n="1"/>
+					<p>Protocol No. 6</p>
+					<p><date when="1945-08-12">12. 8. 1945</date></p>
+					<p>Protocol</p>
+					<p>recorded <persName ref="#ehri_dc_feyl_georg">with Georg Fey</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-730" type="subject">Provisor</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-728" type="subject">monastery</term>
+						<placeName ref="http://www.geonames.org/3070820/mesto.html">Teplá</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-729" type="subject">Abbey</term>, nationality German.</p>
+					<p><persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName> says he knows very little about the whole matter. All instructions were given by Baumeister <persName ref="#ehri_dc_kroy_frantisek">Kroy</persName> /:Currently in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">custody</term>:/. He knew nothing about people being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killed</term>, but he is aware that many <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> in <placeName ref="http://www.geonames.org/3070820/mesto.html">Teplá</placeName>. He himself protested that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650"
+							type="subject">inmates</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">buried</term> in the open field and had argued that they should be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject"
+							>buried</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">cemetery</term>, even if they were of a different faith. The place at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject"
+							>cemetery</term> where the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">corpses</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">buried</term> had been designated by Baumeister <persName
+							ref="#ehri_dc_kroy_frantisek">Kroy</persName>. <persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName> resolutely refuses <persName ref="#ehri_dc_kroy_frantisek">Kroy’s</persName> statement that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-730"
+							type="subject">prior</term> or the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-728" type="subject">monastery</term> would have given any orders in this matter.</p>
+					<p>Protocol recorded by <persName ref="#ehri_dc_shek_zeev">W. Zeew Scheck</persName> in the presence of <persName ref="#ehri_dc_ternerova_dorit">Dorit Terner</persName>.</p>
+					<p>Names and Birthdates of Witnesses:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">William Zeev Scheck</persName>
+						<date when="1920-05-13">13. 5. 1920</date></p>
+					<p><persName ref="#ehri_dc_feyl_georg">Georg Feyl</persName>, Provisor, <date when="1894-06-02">2. 6. 1894</date></p>
+					<p><persName ref="#ehri_dc_ternerova_dorit">Ternerová Dorit</persName>
+						<date when="1925-09-28">28. 9. 1925</date></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

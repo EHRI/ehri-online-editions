@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-039_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Otto Muneles, on library work in the Terezín Ghetto</title>
+				<title xml:lang="de">Otto Muneles über die Bibliotheksarbeit im Ghetto Theresienstadt</title>
+				<title xml:lang="cs">Otto Muneles o knihovnické práci v terezínském ghettu</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín collection</collection>
+						<idno>inventory number 321d (Dr. Otto Muneles’s report: Library work in Terezín)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín collection, inv. no 321d. <textLang mainLang="de">Original in German.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origPlace ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín Ghetto</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Libraries</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Judaica</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Books</term>, <origDate when="1945-05">May 1945</origDate>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Otto Muneles was a Czech Hebraist, who was deported to the Terezín Ghetto in summer 1943. In the protocol he reports about his work assignment in so called Talmudkommando, in which the prisoners sorted and catalogued Hebrew books and titles related to Judaism.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-DC-039_01.png" n="1"/>
+					<p>Bericht über die <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Bücherfassungs</term></q>-Arbeiten</p>
+					<p>Der an das <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Ghetto Theresienstadt</placeName> zu Händen des Herrn Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1145704" type="victim"
+							>Murmelstein</persName> ergangene Sonderauftrag der <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Bücherfassung</term></q> stellte die Aufgabe, die in der nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+							type="ghetto">Theresienstadt</placeName> erfolgten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Büchersendung</term> enthaltenen hebräischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject"
+							>Bücher</term> nach den für die preußischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Staatsbibliotheken</term> geltenden Instruktionen zu katalogisieren.</p>
+					<p>Zur Charakterisierung der Schwierigkeiten, mit denen dieser Auftrag verbunden war, seien nur nachstehende Umstände erwähnt.</p>
+					<p>Bei den Mitarbeitern handelte es sich um Personen, die wohl die hebräische Sprache verstanden und die auch im Allgemeinen befähigt waren, die vorgeschriebene Transkription durchzuführen, doch hatten sie nur zum geringsten Teil umfassendere Kenntnisse einzelner <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">Literaturzweige</term>, keineswegs jedoch wirkliches Wissen auf dem Gebiet der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräischen
+						Bibliographie</term>.</p>
+					<p>Ferner wirkte sich sehr ungünstig der Raummangel aus.</p>
+					<p>Zur Zusammenstellung der umfangreichen Serienwerke wie <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Talmud</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Dezisoren</term>, Bibelausgaben usw. und
+						zur restlosen Erfassung der zahlreichen Doubletten wäre eine Aufstellung des gesamten Materials unumgänglich notwendig gewesen, da bei den durch die Verhältnisse vorgeschriebene Vorgänge, wo der Inhalt nur weniger Kisten gleichzeitig auf dem Arbeitsplatze aufgestellt werden
+						konnte, jeglicher Überblick über die weiteren, noch vorhandenen Teile fehlte. Wohl wurden die von früheren Besitzern angebrachten Signaturen, die das Zusammengehörige bezeichneten, dabei beachtet, doch war auch dies kein untrügliches Merkmal, da aus praktischen Gründen – den
+						früheren Besitzern lagen bibliographische Gesichtspunkte meist fern – zur Ergänzung unkompletter Exemplare Teile anderer Ausgaben verwendet wurden.</p>
+					<p>Schließlich sei erwähnt, dass der von den Auftraggebern in Aussicht gestellte bibliographische Material nicht übersandt wurde: erst im Laufe der Arbeit wurden aus dem durchgehenden Material diesbezügliche Werke ausgesondert und für die Katalogisierung verwendet.</p>
+					<p>Wie mangelhaft aber trotz aller Bemühungen der Apparat blieb, wird deutlich, wenn erwähnt wird, dass von <persName ref="#ehri_dc_steinschneider_moritz">Steinschneider's</persName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Ha-maskir</term></q>, <persName ref="#ehri_dc_benjacob_isaac_ben_jacob">Benjakob's</persName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Ogar</term></q>, <persName ref="#ehri_dc_zedner_joseph">Zedner's</persName> und <persName ref="#ehri_dc_cowley_arthur">Cowley's</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Kataloge</term> vollständig fehlten, von der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-711" type="subject">Zeitschrift</term> für <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräische Bibliographie</term> einige Bände nicht vorhanden waren, von <persName ref="#ehri_dc_wiener_shmuel">Wienr's</persName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Kohillat Mosche</term></q> nur das erste Heft aus.</p>
+					<p>Wie aus dem oben skizzierten Auftrag ersichtlich, sonderte sich die Beschäftigung mit dem nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> gesandten Material in zwei Hauptteile: die genaue Katalogisierung
+						der in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräischer Schrift</term> und Sprache abgefassten Werke und die Sonderung des übrigen Materials nach Sondergebieten, d.h. Handschriften, die nur kurz erfasst wurden, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräische Zeitschriften</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Zeitschriften in hebräischer Schrift</term> und nicht <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräischer Sprache</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Werke in hebräischer Schrift</term> und nicht <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräischer Sprache</term>, sonstige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Zeitschriften</term> und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Werke</term>.</p>
+					<pb facs="EHRI-DC-039_02.png" n="2"/>
+					<p>Das gesamte Material befand sich in 581 Kisten, die successive an die Arbeitsstätte gebracht wurden, daselbst entweder zum Katalogisieren aufgestellt wurden oder, falls sich der Auftrag nicht darauf bezog, gezählt und umgepackt wurden.</p>
+					<p>Da sich ein beträchtlicher Teil der Kisten in einem Zustande befand, der eine weitere Verwendung unmöglich machte und Mangel an Kistenmaterial herrschte, stellte sich die Notwendigkeit heraus, umfangreiche Serienwerke in Bündel zu packen. Auch mussten die vorhandenen Kisten
+						durch Verpackung der größtmöglichen Anzahl von Büchern in viel ökonomischerer Weise ausgenützt werden, als dies vielfach in den eingesandten Kisten der Fall gewesen war. Eine Anzahl von Kisten, die durch die Aufschrift <q>Ottilien-Kirche</q> als katholische <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">Spezialliteratur</term> bezeichnet waren, wurde nicht an die Arbeitsstätte gebracht. Außerdem blieb im <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-591">Lager
+							Ravellin</placeName> XVIII eine Anzahl nicht in Kisten gepackter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Bücher</term> zurück – zum größten Teil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-711" type="subject"
+							>Zeitschriften</term> in deutscher Sprache.</p>
+					<p>Das nicht erfasste <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Buchmaterial</term> befindet sich in 108 Kisten im <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-591">Lager Ravelin XVIII</placeName> und
+						beläuft sich auf ungefähr 12000 Bände. Am Arbeitsplatze befinden sich noch 4 derartige Kisten und an den zuletzt gelieferten schwarzen Kisten 6 Stück /die Nummern 342, 347, 352, 365, 369, 371/ im Ganzen 10 Kisten; dazu kommen 8 alte Kisten mit <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Zeitschriften</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Handschriften</term>.</p>
+					<p>Was nun das Katalogisieren selbst anbelangt, wurden instruktionsgemäß die Titel nach den Autoren alphabetisch geordnet; für die Namensaufnahme der Verfasser galt die Vorschrift, die bei 1800 lebenden nach den hebr. Vornamen, die von da ab nach den Familiennamen zu ordnen, die
+						biblischen nach den Titeln in der Vulgata anonym und Serienwerke in die alphabetische Namensordnung einzureihen.</p>
+					<p>Die Signierung begann mit Jc 3001, die höchste Nummer ist 19.225. Unter dieser Zahl ist von 16.225 Signaturen 28.245 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Bücher</term> erfasst; Doubletten bekamen im allgemeinen die gleiche
+						Signatur.</p>
+					<p>Erfasst wurde dieses <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Büchermaterial</term> auf 25.807 Hauptkarteizetteln und 15.061 Verweiszetteln.</p>
+					<p>Im Laufe der Arbeit stellte es sich als vorteilhaft heraus, auch eine nach den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Büchertiteln</term> angeordnete Kartei anzulegen, die in 17.379 Karteiblättern vorliegt, zusammen 58.247
+						Karteizettel.</p>
+					<p>Jeder Hauptkarteizettel erhielt auf der Rückseite die aus dem verfügbaren bibliographischen Apparate ersichtlichen näheren Bestimmungen. Erwähnt seien noch nachstehende Werke:</p>
+					<p><persName ref="#ehri_dc_steinschneider_moritz">Steinschneider</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Katalog</term> der Bodleiana, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">bibliogr.
+							Handbuch</term> /Sprachwissenschaft, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">Geschichtsliteratur</term>, Übersetzungen und eine Reihe kleinerer Arbeiten/</p>
+					<p><persName ref="#ehri_dc_roest_meijer_marcus">Roest</persName>: Rosenthaliana – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Katalog und Beth sefer</term></p>
+					<p><persName ref="#ehri_dc_fuerst_julius">Fürst</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">bibl. Jud.</term> /vielfach/</p>
+					<p><persName ref="#ehri_dc_zeitlin_william">Zeitlin</persName>: Bibl. Post Mendelsohniana</p>
+					<p><persName ref="#ehri_dc_wachstein_bernhard">Wachstein</persName>: <placeName ref="https://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Kultusgemeinde</term> /<persName ref="#ehri_dc_cohn_salo">Salo Cohnsche</persName> Schenkung/ und <placeName ref="https://www.geonames.org/2761369/vienna.html">Wiener</placeName> Publizistik</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-711" type="subject">Zeitschrift</term> für hebr. Bibliografie /soweit vorhanden/</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Kirjat sefer</term> /bis <date when="1938">1938</date>/<date when="1939">1939</date>/</p>
+					<p>Spezialverzeichnis der schönen Literatur in der <placeName ref="https://www.geonames.org/281184/jerusalem.html">Jerusalemer</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Nationalbibliothek</term></p>
+					<p><persName ref="#ehri_dc_funer">Füner</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Kneset Jisrael</term></p>
+					<p><persName ref="#ehri_dc_eisenstein">Eisenstein</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Dor we-choschanew</term></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Jewish Encyclop. und Encyklop. Judaica /I – X/</term></p>
+					<p><persName ref="#ehri_dc_lowenstein_leopold">Löwenstein</persName>
+						<placeName ref="https://www.geonames.org/2923544/fuerth.html">Fürth</placeName>, <persName ref="#ehri_dc_weinberg_magnus">Weinberger</persName>
+						<note type="gloss">Weinberg</note>
+						<placeName ref="https://www.geonames.org/2824841/sulzbach.html">Sulzbach</placeName>, <persName ref="#ehri_dc_biberfeld_eduard">Biberfeld</persName>
+						<placeName ref="https://www.geonames.org/2892794/karlsruhe.html">Karlsruhe</placeName> und eine ganze Reihe sonstiger Monographien.</p>
+					<pb facs="EHRI-DC-039_03.png" n="3"/>
+					<p>Gegen Ende der Arbeit wurde <persName ref="#ehri_dc_friedberg_bernhard">Friedberg</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Beth eked sefarim</term>, aus der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706"
+							type="subject">Zentralbibliothek</term> entliehen und vollständig durchgearbeitet. In diesem Exemplar sowie in einer Reihe der erwähnten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Bücher</term> wurden die vorhandenen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Bücher</term> durch Abstreichen kenntlich gemacht.</p>
+					<p>Dieser bibliographische Apparat befindet sich in nachstehender Anordnung daselbst:</p>
+					<p>Schwarze Kiste Nr. 366 Hauptkartei – u. Verweiszettel J – Z</p>
+					<p>Schwarze Kiste Nr. 367 Hauptkartei – u. Verweiszettel A - H</p>
+					<p>Schwarze Kiste Nr. 374 Titelkartei A - R</p>
+					<p>Schwarze Kiste Nr. 374 Titelkartei J – Z</p>
+					<p>Dieses signierte Material befindet in 257 Kisten und 237 Bündeln im <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-591">Lager Ravellin XVIII</placeName>.</p>
+					<p>An der Arbeitsstätte befinden sich noch 12 alte Kisten – besonders sei zu erwähnen die mit Signatur <q>T.49 H. W. W. – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">hebräische Zeitschriften</term></q>, die 4 Incunabeln und eine Reihe
+						bemerkenswerter, wertvoller Einbände enthalten – dazu die schwarzen Kisten Nr. 321, 336, 340, 343, zusammen 16 Kisten und 6 Bündel.</p>
+					<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <date when="1945-05-13">13. 5. 1945</date></p>
+					<p>Gez. Dr. <persName ref="#ehri_dc_muneles_otto">Muneles</persName></p>
+					<p><persName ref="#ehri_dc_muneles_otto">Muneles</persName></p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Za archiv přijal</p>
+					<pb facs="EHRI-DC-039_04.png" n="4"/>
+					<pb facs="EHRI-DC-039_05.png" n="5"/>
+					<pb facs="EHRI-DC-039_06.png" n="6"/>
+					<pb facs="EHRI-DC-039_07.png" n="7"/>
+					<pb facs="EHRI-DC-039_08.png" n="8"/>
+					<pb facs="EHRI-DC-039_09.png" n="9"/>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-039_01.png" n="1"/>
+					<p>Report on the <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">book</term>-entry</q> work</p>
+					<p>Delivered to the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt Ghetto</placeName> to the hands of Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1145704" type="victim"
+							>Murmelstein</persName>, the special order given for the <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">book</term> collection</q> set the task of cataloging the Hebrew <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">books</term> contained in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">book</term> shipment to <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> according to the instructions applicable to the Prussian state <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">libraries</term>.</p>
+					<p>To characterize the difficulties associated with this order, only the following circumstances must be mentioned.</p>
+					<p>The collaborators were persons who did understand the Hebrew language and who were generally competent to carry out the required transcription, but they had only the slightest extensive knowledge of individual branches of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">literature</term> and in no way actual knowledge of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Hebrew bibliography</term>.</p>
+					<p>Furthermore, the lack of space had a very unfavorable effect.</p>
+					<p>In order to compile the extensive series of works such as the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Talmud</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Decisors</term>, Bible editions,
+						etc., and to completely record the numerous duplicates, it would have been absolutely necessary to list all the material, since the processes prescribed by the circumstances, where the contents could only placed in a few boxes at the workplace at any given time, any overview
+						of the other, still existing parts was missing. The signatures applied by previous owners, which denoted what belonged together, were taken into account, but they were not an infallible feature either, since for practical reasons - bibliographical aspects were mostly alien to
+						the previous owners - parts of other editions were used to supplement incomplete copies.</p>
+					<p>Finally, it should be mentioned that the bibliographical material promised by the clients was not sent: only in the course of the work were relevant works selected from the continuous material and used for cataloging.</p>
+					<p>How inadequate the apparatus remained despite all efforts becomes clear when it is mentioned that <persName ref="#ehri_dc_steinschneider_moritz">Steinschneider's</persName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Ha-maskir</term></q>, <persName ref="#ehri_dc_benjacob_isaac_ben_jacob">Benjakob's</persName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Ogar</term></q>, and <persName ref="#ehri_dc_zedner_joseph">Zedner's</persName> and <persName ref="#ehri_dc_cowley_arthur">Cowley's</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">catalogs</term> were completely missing, some volumes of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-711" type="subject">journal</term> for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Hebrew bibliography</term> were not available, only the first issue of <persName ref="#ehri_dc_wiener_shmuel">Wienr's</persName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Kohillat Mosche</term></q>.</p>
+					<p>As can be seen from the commission outlined above, dealing with the material sent to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> was divided into two main parts: the precise cataloging of the works written
+						in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Hebrew script</term> and language, and the classification of the remaining material according to special areas, i. e. manuscripts that were only briefly recorded, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Hebrew magazines</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">magazines in Hebrew script</term> and non-Hebrew language, works in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Hebrew script</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">non-Hebrew language</term>, other <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">magazines</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">works</term>.</p>
+					<pb facs="EHRI-DC-039_02.png" n="2"/>
+					<p>All the material was in 581 boxes, which were successively brought to the work site, where they were either set out for cataloging or, if the order did not refer to them, counted and repacked.</p>
+					<p>Since a considerable number of the boxes were in a condition that made further use impossible and there was a lack of box material, it became necessary to pack extensive series works in bundles. Also, the existing crates had to be used in a much more economical way by packing
+						the largest possible number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">books</term> as compared to what was often the case with the crates sent in. A number of boxes labeled <q>Ottilien-Kirche</q> as special Catholic <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">literature</term> were not brought to the workplace. In addition, a number of unpacked <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">books</term> remained in
+						the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-591">Ravellin XVIII camp</placeName> - mostly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-711" type="subject">magazines</term> in German.</p>
+					<p>The unrecorded <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">book</term> material is in 108 boxes in the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-591">Ravelin XVIII camp</placeName> and amounts to
+						approximately 12,000 volumes. There are still 4 such boxes at the workplace and 6 of the last black boxes delivered /numbers 342, 347, 352, 365, 369, 371/ in total 10 boxes; there are also 8 old boxes with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762"
+							type="subject">magazines</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">manuscripts</term>.</p>
+					<p>As for the cataloging itself, as instructed, the titles were arranged alphabetically by author; For the names of the authors, the rule was to arrange those living around 1800 according to the Hebrew first names, those from then on according to the family names, the biblical
+						anonymous according to the titles in the Vulgate and serial works in alphabetical order by name.</p>
+					<p>Signing started with Jc 3001, the highest number is 19,225. This number includes 28,245 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">books</term> out of 16,225 signatures; Duplicates were generally given the same signature.</p>
+					<p>This <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">book material</term> was recorded on 25,807 main index cards and 15,061 reference slips.</p>
+					<p>In the course of work it turned out to be beneficial to create an index arranged according to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">book</term> titles, which is available on 17,379 index sheets, for 58,247 index sheets
+						altogether.</p>
+					<p>On the reverse side of each main card index, the more detailed provisions can be seen from the available bibliographic apparatus. The following works are also worth mentioning:</p>
+					<p><persName ref="#ehri_dc_steinschneider_moritz">Steinschneider</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Catalog</term> of the Bodleiana, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject"
+							>bibliogr. handbook</term> /linguistics, historical <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-679" type="subject">literature</term>, translations and a number of smaller works/</p>
+					<p><persName ref="#ehri_dc_roest_meijer_marcus">Roest</persName>: Rosenthaliana - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">Catalog and Beth sefer</term></p>
+					<p><persName ref="#ehri_dc_fuerst_julius">Fürst</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-683" type="subject">bibl. Jew.</term> /many/</p>
+					<p><persName ref="#ehri_dc_zeitlin_william">Zeitlin</persName>: Biblical Post Mendelsohniana</p>
+					<p><persName ref="#ehri_dc_wachstein_bernhard">Wachstein</persName>: <placeName ref="https://www.geonames.org/2761369/vienna.html">Viennese</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">religious community</term> /<persName ref="#ehri_dc_cohn_salo">Salo Cohn</persName> donation/ and <placeName ref="https://www.geonames.org/2761369/vienna.html">Viennese</placeName>
+						journalism</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-711" type="subject">Journal</term> for Hebrew bibliography /if available/</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Kiryat sefer</term> /until <date when="1938">1938</date>/<date when="1939">1939</date>/</p>
+					<p>Special Index of Fiction in the National <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Library</term> of <placeName ref="https://www.geonames.org/281184/jerusalem.html">Jerusalem</placeName></p>
+					<p><persName ref="#ehri_dc_funer">Füner</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Kneset Israel</term></p>
+					<p><persName ref="#ehri_dc_eisenstein">Eisenstein</persName>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Dor we-choschanew</term></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Jewish Encyclop. and Encyclops. Judaica /I – X/</term></p>
+					<p><persName ref="#ehri_dc_lowenstein_leopold">Löwenstein</persName>
+						<placeName ref="https://www.geonames.org/2923544/fuerth.html">Fürth</placeName>, <persName ref="#ehri_dc_weinberg_magnus">Weinberger</persName>
+						<note type="gloss">Weinberg</note>
+						<placeName ref="https://www.geonames.org/2824841/sulzbach.html">Sulzbach</placeName>, <persName ref="#ehri_dc_biberfeld_eduard">Biberfeld</persName>
+						<placeName ref="https://www.geonames.org/2892794/karlsruhe.html">Karlsruhe</placeName> and a whole series of other monographs.</p>
+					<pb facs="EHRI-DC-039_03.png" n="3"/>
+					<p>Towards the end of the work, <persName ref="#ehri_dc_friedberg_bernhard">Friedberg</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Beth eked sefarim</term>, was borrowed from the central <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">library</term> and worked through in full. In this copy as well as in a number of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">books</term> mentioned, the
+						existing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">books</term> were marked by crossing them off.</p>
+					<p>This bibliographical apparatus is located there in the following order:</p>
+					<p>Black box No. 366 main index and reference slips J – Z</p>
+					<p>Black box No. 367 main index and reference slips A - H</p>
+					<p>Black Box No. 374 Title Index A - R</p>
+					<p>Black Box No. 374 Title Index J – Z</p>
+					<p>This signed material is in 257 cases and 237 bundles in the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-591">Ravellin XVIII camp</placeName>.</p>
+					<p>At the workplace there are still 12 old boxes - particularly worth mentioning are those with the signature <q>T.49 H. W. W. - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-762" type="subject">Hebrew Journals</term></q>, which contain 4 incunabula and a number
+						of remarkable, valuable bindings - plus the black boxes No. 321, 336, 340, 343, together 16 cases and 6 bundles.</p>
+					<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <date when="1945-05-13">May 13, 1945</date></p>
+					<p>signed Dr. <persName ref="#ehri_dc_muneles_otto">Muneles</persName></p>
+					<p><persName ref="#ehri_dc_muneles_otto">Muneles</persName></p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Za archiv přijal</p>
+					<pb facs="EHRI-DC-039_04.png" n="4"/>
+					<pb facs="EHRI-DC-039_05.png" n="5"/>
+					<pb facs="EHRI-DC-039_06.png" n="6"/>
+					<pb facs="EHRI-DC-039_07.png" n="7"/>
+					<pb facs="EHRI-DC-039_08.png" n="8"/>
+					<pb facs="EHRI-DC-039_09.png" n="9"/>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

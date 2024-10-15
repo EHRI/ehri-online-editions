@@ -1,49 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19410719-IT_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Renato Bova Scoppa on the “Jewish problem in Romania” in 1941</title>
+				<title xml:lang="de">Renato Bova Scoppa über das „Judenproblem in Rumänien“ im Jahr 1941</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/it">Italy </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
-							Affari Esteri</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli Affari Esteri</orgName><address>
+								<street>Piazzale della Farnesina, 1</street>
+								<postCode>00196</postCode>
+								<settlement>Roma</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, AG Uff IV. Posizione S.E. 27.869, busta R, fasc. Romania.
-						<textLang mainLang="en">Original in Italian.</textLang></bibl>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, AG Uff IV. Posizione S.E. 27.869, busta R, fasc. Romania. <textLang mainLang="en">Original in Italian.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1941-08-21">19.7.1941</date>
-				<placeName ref="#bucharest">Bucharest</placeName>
+				<origDate when="1941-08-21">19.7.1941</origDate>
+				<origPlace ref="http://www.geonames.org/683506/bucharest.html">Bucharest</origPlace>
 				<persName ref="#ehri_dr_scoppa_bova">Bova Scoppa</persName>
-				<idno>EHRI-DR-19410719-IT</idno>
 			</creation>
+			<langUsage>
+				<language ident="it"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p><!--EHRI-DR-19410719-IT_EN</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<p><!--EHRI-DR-19410719-IT_EN</p>
       <p/>
       <p>Report of the envoy in Bucharest, Renato Bova Scoppa, to the Ministry of Foreign Affairs on
         <date when="1941-08-21">19.7.1941</date>. The report was forwarded to the General Directorates of Demography and Race and
@@ -52,34 +73,30 @@
       <p>R. Legation of Italy, Bucharest</p>
       <p>Cable No. 3314/1371</p>
       <p>Classified--></p>
-				<pb facs="EHRI-DR-19410719-IT_01.jpg" n="1"/>
-				<p>Addressed to R. <orgName ref="#g005042">Ministry of Foreign Affairs</orgName>, <placeName ref="#rome">Rome</placeName>.</p>
-				<p>Bucharest, <date when="1941-07-19">19th July 1941</date>/XIX</p>
-				<p>Re: <term ref="#t815" type="subject">Jewish problem</term> in <placeName ref="#romania">Romania</placeName></p>
-				<p>The reconquest of <placeName ref="#bukovina">Bukovina</placeName> and of <placeName ref="#bessarabia">Bessarabia</placeName>, where
-						<term ref="#t872" type="subject">Jewish communities</term> are particularly numerous, has prompted the <term ref="#t948"
-						type="subject">Government</term> to adopt draconian <term ref="#t337" type="subject">anti-Jewish measures</term>.</p>
-				<p>The <term ref="#t864" type="subject">Jewish</term>-<term ref="#t1000" type="subject">Communist</term> uprisings in <placeName
-						ref="#galati">Galatz</placeName> and in <placeName ref="#iasi">Jassy</placeName> last month (my telegrams no. 699 and 704 of
-					29th and 30th June last and no. 707 of 1st inst. ) had already resulted in savage <term ref="#t601" type="subject"
-						>repressions</term> of a markedly <term ref="#t337" type="subject">anti-Semitic</term> nature.</p>
-				<p>Now, although it has not been officially declared, the problem of <term ref="#t349" type="subject">cleansing</term> the eastern
-						<placeName ref="#romania">Romanian</placeName> territories of <term ref="#t864" type="subject">Jews</term> is being tackled
-					resolutely and the Authorities in charge strive to solve it as thoroughly as possible and do not hesitate to employ even the most
-					drastic <term ref="#t542" type="subject">means</term>. Reportedly <term ref="#t518" type="subject">deportations</term>, expulsions
-					and even <term ref="#t541" type="subject">executions</term> are fairly large in numbers. Since news of this had already begun to
-					leak out in the other regions of <placeName ref="#romania">Romania</placeName> as well, it has been considered advisable today to
-					make the following official announcement which attempts to give a plausible reason for events that are actually quite
-					different.</p>
-				<p><q>Having ascertained that the <term ref="#t864" type="subject">Jews</term> of <placeName ref="#galicia">Galicia</placeName> are
-						trying by all available means to enter <placeName ref="#romania">Romania</placeName>
-						<term ref="#t200" type="subject">illegally</term>, General <persName ref="#p000010">Antonescu</persName> has ordered that the
-						entry of these <term ref="#t864" type="subject">elements</term> into <placeName ref="#romania">Romanian</placeName> territory
-						be absolutely forbidden. <term ref="#t864" type="subject">Jews</term> who have crossed the border or who will attempt to do so
-						will be considered <pb facs="EHRI-DR-19410719-IT_02.jpg" n="2"/> as spies and shot. Border guards who allow or are not
-						sufficiently alert to prevent this <term ref="#t200" type="subject">immigration</term> from happening will be punished as
-						accomplices and shot like the guilty <term ref="#t200" type="subject">immigrants</term>.</q></p>
-				<p><persName ref="#ehri_dr_scoppa_bova">R. Bova Scoppa</persName></p>
+					<pb facs="EHRI-DR-19410719-IT_01.jpg" n="1"/>
+					<p>Addressed to R. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042">Ministry of Foreign Affairs</orgName>, <placeName ref="http://www.geonames.org/3169070/rome.html">Rome</placeName>.</p>
+					<p>Bucharest, <date when="1941-07-19">19th July 1941</date>/XIX</p>
+					<p>Re: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-815" type="subject">Jewish problem</term> in <placeName ref="http://www.geonames.org/798549/romania.html">Romania</placeName></p>
+					<p>The reconquest of <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukovina</placeName> and of <placeName ref="http://www.geonames.org/618569/bessarabia.html">Bessarabia</placeName>, where <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872"
+							type="subject">Jewish communities</term> are particularly numerous, has prompted the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> to adopt draconian <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337"
+							type="subject">anti-Jewish measures</term>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1000" type="subject">Communist</term> uprisings in <placeName ref="http://www.geonames.org/677697/galati.html"
+							>Galatz</placeName> and in <placeName ref="http://www.geonames.org/675810/iasi.html">Jassy</placeName> last month (my telegrams no. 699 and 704 of 29th and 30th June last and no. 707 of 1st inst. ) had already resulted in savage <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-601" type="subject">repressions</term> of a markedly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-Semitic</term> nature.</p>
+					<p>Now, although it has not been officially declared, the problem of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-349" type="subject">cleansing</term> the eastern <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> territories of
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> is being tackled resolutely and the Authorities in charge strive to solve it as thoroughly as possible and do not hesitate to employ even the most drastic <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">means</term>. Reportedly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportations</term>, expulsions and even <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">executions</term> are fairly large in numbers. Since news of this had already begun to leak out in the other regions of <placeName ref="http://www.geonames.org/798549/romania.html"
+							>Romania</placeName> as well, it has been considered advisable today to make the following official announcement which attempts to give a plausible reason for events that are actually quite different.</p>
+					<p><q>Having ascertained that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> of <placeName ref="http://www.geonames.org/562153/galicia.html">Galicia</placeName> are trying by all available means to enter <placeName
+								ref="http://www.geonames.org/798549/romania.html">Romania</placeName>
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-200" type="subject">illegally</term>, General <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000010">Antonescu</persName> has ordered that the entry of these <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">elements</term> into <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> territory be absolutely forbidden. <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who have crossed the border or who will attempt to do so will be considered <pb facs="EHRI-DR-19410719-IT_02.jpg" n="2"/> as spies and shot. Border guards who allow or are not
+							sufficiently alert to prevent this <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-200" type="subject">immigration</term> from happening will be punished as accomplices and shot like the guilty <term
+								ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-200" type="subject">immigrants</term>.</q></p>
+					<p><persName ref="#ehri_dr_scoppa_bova">R. Bova Scoppa</persName></p>
+				</div>
 			</div>
 		</body>
 	</text>

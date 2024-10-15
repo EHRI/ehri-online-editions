@@ -1,98 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19400413_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400413_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="de">Auskunft der Gestapo Berlin an das Deutsche Rote Kreuz zum Aufenthaltsort von Josef Schlosz </title>
-				<title xml:lang="en">Information from the Gestapo Berlin to the German Red Cross about the whereabouts of Josef Schlosz</title>
+				<title xml:lang="en">Information from the Gestapo Berlin to the German Red Cross about the whereabouts of Josef Schlosz </title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/de">Deutschland</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/de-002409"> Arolsen Archives: International Center on Nazi
-							Persecution</repository>
-						<collection ref="https://portal.ehri-project.eu/units/de-002409-de_its_3_1_1">Registrierung und Betreuung von DPs innerhalb
-							und außerhalb von Lagern</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/de-002409"> Arolsen Archives: International Center on Nazi Persecution</orgName><address>
+								<street>Grosse Allee 5-9</street>
+								<postCode>34454</postCode>
+								<settlement>Bad Arolsen</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/de">Germany</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/de-002409-de_its_3_1_1">Registrierung und Betreuung von DPs innerhalb und außerhalb von Lagern</collection>
 						<idno>8801600.</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Arolsen Archives: International Center on Nazi Persecution, 8801600. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1940-04-13">13. April 1940</date>
-				<placeName ref="#berlin">Berlin</placeName>
-				<idno>EHRI-NISKO-19400413</idno>
+				<origDate when="1940-04-13">13. April 1940</origDate>
+				<origPlace ref="http://www.geonames.org/2950159/berlin.html">Berlin</origPlace>
 			</creation>
 			<langUsage>
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>An das</p>
-				<p>Präsidium des <orgName ref="#g004659">Deutschen Rote Kreuzes</orgName></p>
-				<p>Führungsstab</p>
-				<p> </p>
-				<p><placeName ref="#berlin">Berlin</placeName> SW 11</p>
-				<p> </p>
-				<p>Betr.: <term ref="#t620" type="subject">Schutzhaft</term>
-					<persName ref="#ehri_nisko_schlosz_josef">Joseph Schloß</persName>. Geb. <date when="1916-06-04">24.6.16</date>
-					<placeName ref="#vienna">Wien</placeName>.</p>
-				<p>Bezug: Schreiben v. <date when="1940-02-20">20.2.1940</date> – VII Ch- Grl./Stu.</p>
-				<p>Der <term ref="#t864" type="subject">Jude</term>
-					<persName ref="#ehri_nisko_schlosz_josef">Joseph Schloß</persName> war vom 8.7.39 bis <date when="1939-10-26">26.10.39</date> in
-					dem aus Mitteln der <orgName ref="#ehri_nisko_ikg_brno">Kultusgemeinde Brünn</orgName> erhaltenen <term ref="#t508" type="subject"
-						>Arbeitslager</term> für <term ref="#t864" type="subject">Juden</term> in <placeName ref="#ivancice">Eibenschitz</placeName>
-					bei <placeName ref="#brno">Brünn</placeName> untergebracht. Am <date when="1939-10-26">26.10.39</date> erfolgte <persName
-						ref="#ehri_nisko_schlosz_josef">seine</persName>
-					<term ref="#t518" type="subject">Abschiebung</term> [handschriftl: <term ref="#t518">Ausweisung</term>] nach <placeName
-						ref="#nisko">Nisko</placeName> im Generalgouvernement.</p>
-				<p> </p>
-				<p>Heil Hitler!</p>
-				<p>Im Auftrage:</p>
-				<p>[Unterschrift unleserlich]</p>
+				<div type="original" xml:lang="de">
+					<p>An das</p>
+					<p>Präsidium des <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004659">Deutschen Rote Kreuzes</orgName></p>
+					<p>Führungsstab</p>
+					<p> </p>
+					<p><placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> SW 11</p>
+					<p> </p>
+					<p>Betr.: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-620" type="subject">Schutzhaft</term>
+						<persName ref="#ehri_nisko_schlosz_josef">Joseph Schloß</persName>. Geb. <date when="1916-06-04">24.6.16</date>
+						<placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>.</p>
+					<p>Bezug: Schreiben v. <date when="1940-02-20">20.2.1940</date> – VII Ch- Grl./Stu.</p>
+					<p>Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jude</term>
+						<persName ref="#ehri_nisko_schlosz_josef">Joseph Schloß</persName> war vom 8.7.39 bis <date when="1939-10-26">26.10.39</date> in dem aus Mitteln der <orgName ref="#ehri_nisko_ikg_brno">Kultusgemeinde Brünn</orgName> erhaltenen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Arbeitslager</term> für <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> in <placeName ref="http://www.geonames.org/3074615/ivancice.html"
+							>Eibenschitz</placeName> bei <placeName ref="http://www.geonames.org/3078610/brno.html">Brünn</placeName> untergebracht. Am <date when="1939-10-26">26.10.39</date> erfolgte <persName ref="#ehri_nisko_schlosz_josef">seine</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Abschiebung</term> [handschriftl: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518">Ausweisung</term>] nach <placeName ref="http://www.geonames.org/763829/nisko.html"
+							>Nisko</placeName> im Generalgouvernement.</p>
+					<p> </p>
+					<p>Heil Hitler!</p>
+					<p>Im Auftrage:</p>
+					<p>[Unterschrift unleserlich]</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

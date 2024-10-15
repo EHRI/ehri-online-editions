@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19380319_CS_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="cs">Telefonická hlášení Zemskému úřadu v Brně o událostech na rakouské hranici, 19. března 1938</title>
+				<title xml:lang="de">Telefonische Nachrichten an die Landesbehörde Brünn über die Vorgänge an der österreichischen Grenze, 19. März 1938</title>
+				<title xml:lang="en">Telephone reports to the Land Office in Brno about events on the Austrian border, March 19, 1938</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938 </orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002230">Moravský zemský archiv</orgName><address>
+								<street>Palachovo náměstí 1.</street>
+								<postCode>625 00</postCode>
+								<settlement>Brno</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection>B40 - Zemský úřad Brno, presidium</collection>
+						<idno>Nr. 17886/1938, K. 292</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Moravský zemský archiv, B40 - Zemský úřad Brno, presidium, čj. 17886/1938, K. 292. <textLang mainLang="cs">Originál česky.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-03-19">19. března 1938</origDate>
+				<origPlace>Brno</origPlace>
+				<orgName>Zemský úřad Brno</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>úřední dokumenty</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik"/>
+			</textClass>
+			<langUsage>
+				<language ident="cs">česky</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-UH-19380319_01.jpg" n="1"/>
+					<p>[...]</p>
+					<p>Osob s <ref target="https://portal.ehri-project.eu/countries/pl">polským</ref> průjezdním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">visem</term> projelo celkem 105.</p>
+					<p>[...]</p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-BF-19380319_01.jpg" n="1"/>
+					<p>[...]</p>
+					<p>Insgesamt sind 105 Personen mit einem <placeName ref="https://portal.ehri-project.eu/countries/pl">polnischen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Durchgangsvisum</term> durchgereist.</p>
+					<p>[...]</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

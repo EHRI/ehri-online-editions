@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP005_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Erich Schön, the death of Jacob Edelstein and his family in Auschwitz</title>
+				<title xml:lang="de">Erich Schön, der Tod von Jacob Edelstein und seiner Familie in Auschwitz</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945-10-26">26. 10. 1945</origDate>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>, <persName ref="#ehri_et_kulka_erich">Erich Schön (later name Kulka)</persName>, <origPlace
+					ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Erich Schön (later called Kulka), a Czech-Israeli writer and historian, which became a part of the “documentation campaign” in Prague. In 1939 he was arrested by the Gestapo and was later imprisoned in the Dachau, Sachsenhausen, and Auschwitz concentration camps. He
+					describes the fate and murder of Jacob Edelstein and his family in Auschwitz. Edelstein was the former Elder of the Jewish Council in the Theresienstadt Ghetto.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP005_01.jpg" n="1"/>
+					<p rend="center">
+						<hi rend="letter-spacing: +2px">Protokol</hi>
+					</p>
+					<p>Sepsaný s panem <hi rend="letter-spacing: +2px"><persName ref="#ehri_et_kulka_erich">Erichem Schönem</persName></hi>, nar. <date when="1911-02-18">18. 2. 1911</date>, bytem ve <placeName ref="http://www.geonames.org/3062339/vsetin.html">Vsetíně</placeName>, Žerotínova 992,
+						býv. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněm</term> z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">konc. táborů</term>
+						<placeName ref="http://www.geonames.org/3065525/spilberk.html">Spielberg</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-685"
+							>Hamburg-Neuengamme</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Osvěnčím</placeName> a <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>, povoláním <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-4" type="subject">úředník</term>, národnosti české.</p>
+					<p>Zpráva o tragickém osudu rodiny <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakuba Edelsteina</persName>.</p>
+					<p>Dne <date when="1943-12-20">20. prosince 1943</date> přijelo z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského ghetta</placeName> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2"
+							>Osvienčíma-Birkenau</placeName> asi 5.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>, většinou <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Židů českých</term>. Byli dodáni do zvláštního, t.zv. českého <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného tábora v Birkenau</term>, úsek <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B-II-B</term>.</p>
+					<p>Mezi nimi byla i rodina <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakuba Edelsteina</persName> z <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName>.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName> sám i a ještě třemi společníky byl však na <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">osvěnčímském</placeName>
+						nádraží vyvolán z <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportu</term> a dopraven autem do ústředního tábora <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Osvětim I.</placeName></p>
+					<p>Tam byli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">uvězněni</term> na bloku č. 11, t. zv. <q>Bunker</q>, který sloužil jako vyšetřovací <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězení</term> pro
+						táborové <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-350" type="subject">Gestapo</term>, t. zv. Politische Abteilung. Málokdo odtamtud vyšel živ. Byly tam nejrůznější druhy mučíren, jimiž od obviněných vynucovali ať již pravdivá nebo nepravdivá vyznání. Na
+						nádvoří tohoto bloku se konaly rozsudky <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrti</term>.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> byl několikrát <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">vyslýchán</term> a obviněn, že umožnil <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">útěk</term> několika lidí z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského ghetta</placeName>.</p>
+					<p>Mezitím byla jeho rodina v táboře <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B-II-b</term>. Jeho <persName ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">manželka</persName> pracovala v <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-595" type="subject">dětském domově</term>, jehož vedoucím byl <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirsch</persName>. Dařilo
+						se jí, její matce a <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296634" type="victim">dítěti</persName> poměrně dobře. Prostřednictvím <persName ref="#ehri_et_jakub">Jakuba</persName>, který byl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">dozorcem</term> na bloku č. 11 podařilo se nám navázati spojení mezi <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakubem
+							Edelsteinem</persName> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Osvienčímě I</placeName>., a jeho rodinou v <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Birkenau</term>. Byly tajnou cestou
+						vyměněny <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">dopisy</term>.</p>
+					<p>Někdy v <date when="1944-02">únoru 1944</date> přijel do <placeName ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594">Osvěnčíma-Birkenau</placeName> vysoký důstojník <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject"
+							>SS</term> od <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">RSHA</orgName>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName>. Mluvil s <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirschem</persName>, <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1485316" type="victim">Janowitzem</persName>, informoval se na poměry v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">táboře</placeName> a nechal si zavolat <persName
+							ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">manželku</persName>
+						<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinovu</persName>.</p>
+					<p>Ptal se jí, jak se jí daří a má-li nějakou prosbu. Ptal se jí také, ví-li o svém <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">manželi</persName>. Prosila, aby jí bylo umožněno <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">manžela</persName> vidět. Přislíbil to na pozdější dobu a vyzval jí, aby svému <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855"
+							type="victim">muži</persName> napsala <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">dopis</term>, který slíbil doručit, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855"
+							type="victim">Edelstein</persName> je prý někde v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Říši</term>.</p>
+					<p>Asi za měsíc po jeho odjezdu došlo k prvé <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">likvidaci</term> českého <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného
+							tábora</term>. Dne <date when="1944-03-08">8. března</date> bylo <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">zničeno</term> 3860 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+							>mužů</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> v <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">plynových komorách</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoria</term> I a II, z <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transportu</term> z <date when="1943-09-07">7.</date> a <date
+							when="1943-09-09">9. září 1943</date>.</p>
+					<p>Dověděli jsme se, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňové</term> českého <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného tábora</term> mají po půlroční <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">karanténě</term> nařízeno <q><distinct type="camp_language"><foreign xml:lang="de">Sonderbehandlung /SB/</foreign></distinct></q>. Druhá <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">likvidace</term> se dle toho očekávala na <date when="1944-06-20">20. června 1944</date>.</p>
+					<pb facs="EHRI-ET-JMP005_02.jpg" n="2"/>
+					<p>K této druhé <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">likvidaci</term> došlo o něco později, byla však zahájena přesně dne <date when="1944-06-20">20. června</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">zničením</term> rodiny <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinovy</persName>, což se událo následovně:</p>
+					<p>Dne <date when="1944-06-20">20. června</date> odpoledne přijelo uzavřené <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězeňské</term> auto /zelený anton/ před blok č. 11 v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Osvienčíně I</placeName>. Doprovázející <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> z Politische Abteilung žádal vydání <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakuba Edelsteina</persName> a jeho společníků. K <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">dozorci</term> prohlásil, že budou
+						propuštěni do <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného tábora</term> českého a vzali s sebou i jejich osobní kartotéky. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinovi</persName> řekli, že půjde ke své rodině.</p>
+					<p>Autem byli odvezení, ale ne do <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného tábora</term>, nýbrž do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoria</term> III
+							v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>.</p>
+					<p>Totéž auto jelo pak do <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného tábora</term>, odkud mělo odvést <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim"
+							>Edelsteinovu</persName>
+						<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">manželku</persName> a jeho rodinu. Toho dne ležela <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim"
+							>manželka</persName>
+						<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">E.</persName> těžce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocná</term> na bloku č. 32. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Lékař</term> odmítl ji vydat s odůvodněním, že je transportu neschopná. Auto odjelo zpět.</p>
+					<p>Po několika minutách se auto vrátilo s přísným rozkazem <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-294" type="subject">velitele</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">tábora</placeName>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001244">Schwarzhubera</persName>, že <persName ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">Edelsteinová</persName> s rodinou má býti ihned vydána v takovém stavu, jak je.</p>
+					<p>Byli odvezeni rovněž do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoria</term> III. Tam byli potom všichni v popravčí síni <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">zastřeleni</term> a v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoriu</term> spáleni.</p>
+					<p>Tuto zprávu můžete si ověřiti ještě u očitých svědků, kteří se rovněž vrátili:</p>
+					<p><persName ref="#ehri_et_muller_filip">Filip Müller</persName>, <placeName ref="http://www.geonames.org/3057685/sereg.html">Sered n. Váhom</placeName>, který viděl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">popravu</term> v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoriu</term> III., <persName ref="#ehri_et_neumann_josef">Josef Neumann</persName>, <placeName ref="http://www.geonames.org/3056508/zilina.html ">Žilina</placeName>, který byl vězněn na bloku
+						11 v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Osvienčíně</placeName> a mluvil s <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakubem Edelsteinem</persName>.</p>
+					<p>Podpis:</p>
+					<p>
+						<persName ref="#ehri_et_kulka_erich">Erich Schön</persName>
+					</p>
+					<p>Protokol přijala:</p>
+					<p>
+						<persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName>
+					</p>
+					<p>Podpis svědků:</p>
+					<p>
+						<persName ref="#ehri_et_schickova_helena">Helena Schicková</persName>
+					</p>
+					<p>
+						<persName ref="#ehri_et_fischerova_marta">Marta Fischerová</persName>
+					</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal:</p>
+					<p>
+						<persName ref="#ehri_et_shek_zeev">Scheck</persName>
+					</p>
+					<p>Za archiv přijal:</p>
+					<p>
+						<persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName>
+					</p>
+					<p>
+						<date when="1945-10-26">26. X. 1945</date>
+					</p>
+					<p> </p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP005_01.jpg" n="1"/>
+					<p>
+						<hi rend="letter-spacing: +2px">Statement</hi>
+					</p>
+					<p>Written with Mr. <hi rend="letter-spacing: +2px"><persName ref="#ehri_et_kulka_erich">Erich Schön</persName></hi>, born <date when="1911-02-18">18. 2. 1911</date>, residing in <placeName ref="http://www.geonames.org/3062339/vsetin.html">Vsetín</placeName>, Žerotínova 992,
+						former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>
+						<placeName ref="http://www.geonames.org/3065525/spilberk.html">Spielberg</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-177">Dachau</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-685"
+							>Hamburg-Neuengamme</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</placeName> and <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>, profession <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-4" type="subject">clerk</term>, Czech nationality.</p>
+					<p>Report on the tragic fate of <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein’s</persName> family.</p>
+					<p>On <date when="1943-12-20">December 20th, 1943</date>, roughly 5,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, most of them <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Czech Jews</term>, arrived in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz-Birkenau</placeName> from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt ghetto</placeName>. They were placed in the special so-called Czech
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Family Camp in Birkenau</term>, section <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B-II-B</term>.</p>
+					<p>Amongst them was the family of <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName> from <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>.</p>
+					<p>However, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName>, together with three companions, was called away from the <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transport</term> at the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName> train station and brought by car to the main camp <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Auschwitz I</placeName>.</p>
+					<p>Here, they were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">imprisoned</term> in block no. 11, the so-called <q>Bunker</q>, which was used as an investigation <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">prison</term> by the camp <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-350" type="subject">Gestapo</term>, the so-called Politische Abteilung. Few made it out alive from there. It contained all kinds of instruments of torture, which were
+						used to force either true or false confessions from the accused. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Executions</term> took place in the courtyard of this block.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">interrogated</term> several times and accused of enabling the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> of several people from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt ghetto</placeName>.</p>
+					<p>Meanwhile, his family was in camp <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B-II-b</term>. His <persName ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">wife</persName> worked at the <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-595" type="subject">children’s home</term>, which was overseen by <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirsch</persName>.
+						She, along with her mother and <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296634" type="victim">child</persName> was faring quite well. Through <persName ref="#ehri_et_jakub">Jakub</persName>, who was a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">guard</term> in block no. 11, we managed to put <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName>
+							in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Auschwitz I</placeName> in contact with his family in <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Birkenau</term>. Two <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">letters</term> were exchanged in secret.</p>
+					<p>Sometime in <date when="1944-02">February 1944</date>, high-ranking <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> officer <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> of the
+							<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">RSHA</orgName> arrived in <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Auschwitz-Birkenau</term>. He spoke with  <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirsch</persName> and <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1485316" type="victim">Janowitz</persName>, was briefed on
+						the conditions in the <term ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="subject">camp</term>, and asked to see <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein’s</persName>
+						<persName ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">wife</persName>.</p>
+					<p>He asked her how she was doing and whether she had a request. He also asked her whether she knew about her <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">husband</persName>. She requested to be allowed to see her
+							<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">husband</persName>. He promised she would be able to do so at a later date and asked her to write a <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">letter</term> to her <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">husband</persName>, which he promised to deliver.
+							<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> was supposedly somewhere in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Reich</term>.</p>
+					<p>About one month after his departure, the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">liquidation</term> of the Czech <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Family
+							Camp</term> took place. On <date when="1944-03-08">March 8th</date>, 3,860 men, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>children</term> from the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transports</term> of <date when="1943-09-07">September 7th</date> and <date when="1943-09-09">9th, 1943</date>, were <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">annihilated</term> in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">gas chambers</term> of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">Crematorium</term> I and II.</p>
+					<p>We found out that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> of the Czech <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Family Camp</term> were ordered <q><distinct
+								type="camp_language"><foreign xml:lang="de">Sonderbehandlung (SB)</foreign></distinct></q> after being in <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">quarantine</term> for half a year. According to this, the second
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">liquidation</term> was then expected on <date when="1944-06-20">June 20th, 1944</date>.</p>
+					<pb facs="EHRI-ET-JMP005_02.jpg" n="2"/>
+					<p>The second <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-698" type="subject">liquidation</term> took place a short time later, but it it began exactly on <date when="1944-06-20">June 20th</date> with the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">annihilation</term> of the <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> family, which happened like this:</p>
+					<p>On <date when="1944-06-20">June 20th</date> in the afternoon, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prison</term> transport vehicle (paddy wagon) arrived in front of block no. 11 in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-1">Auschwitz I</placeName>. The escorting <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> man from Politische Abteilung requested that <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName> and his companions be brought to him. He told the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">guard</term>
+						that they would be released to the Czech <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Family Camp</term> and took their personal files with them. They told <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> that he would go to his family.</p>
+					<p>They were taken away by car, but not to the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Family Camp</term>. In fact, they were brought to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject"
+							>Crematorium</term> III in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>.</p>
+					<p>The same car then drove to the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">Family Camp</term>, from where it was supposed to take <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855"
+							type="victim">Edelstein’s</persName>
+						<persName ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">wife</persName> and his family. That same day, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">E</persName>.’s <persName
+							ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">wife</persName>, gravely <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term>, lay in block no. 32. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> refused to release her with the explanation that she was unable to be transported. The car left.</p>
+					<p>A few minutes later, the car returned with a strict order by <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001244">Schwarzhuber</persName>, the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-294" type="subject"
+							>commander</term> of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">camp</placeName>, that Mrs. <persName ref="https://portal.ehri-project.eu/terezin-victims-person-iti-1296998">Edelstein</persName> and her family must be released immediately in
+						the state that she was in.</p>
+					<p>They were also brought to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">Crematorium</term> III. There, all of them were then <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot to death</term> in the
+						execution hall and burned in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">crematorium</term>.</p>
+					<p>This statement can be verified by the eyewitnesses who have returned:</p>
+					<p><persName ref="#ehri_et_muller_filip">Filip Müller</persName>, <placeName ref="http://www.geonames.org/3057685/sereg.html">Sered n. Váhom</placeName>, who saw the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">execution</term> in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">Crematorium</term> III., <persName ref="#ehri_et_neumann_josef">Josef Neumann</persName>, <placeName ref="http://www.geonames.org/3056508/zilina.html">Žilina</placeName>, was was a prisoner in
+						block 11 in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</placeName> and spoke with <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName>.</p>
+					<p>Signature:</p>
+					<p>
+						<persName ref="#ehri_et_kulka_erich">Erich Schön</persName>
+					</p>
+					<p>Statement was accepted by:</p>
+					<p>
+						<persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName>
+					</p>
+					<p>Signatures of witnesses:</p>
+					<p>
+						<persName ref="#ehri_et_schickova_helena">Helena Schicková</persName>
+					</p>
+					<p>
+						<persName ref="#ehri_et_fischerova_marta">Marta Fischerová</persName>
+					</p>
+					<p>On behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term>:</p>
+					<p>
+						<persName ref="#ehri_et_shek_zeev">Scheck</persName>
+					</p>
+					<p>On behalf of the archive:</p>
+					<p>
+						<persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName>
+					</p>
+					<p><date when="1945-10-26">26. X. 1945</date></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,96 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19401105-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Leland B. Morris on antisemitic measures in German-occupied countries in 1940</title>
+				<title xml:lang="de">Leland B. Morris über antisemitische Maßnahmen in den deutsch besetzten Ländern im Jahr 1940</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
-							II</repository>
-						<collection>RG 59 - Confidential U.S. State Department Central Files: Germany, Internal Affairs 1930-1941, Frederick, Md. 1984
-							(Microfilm): Washington 1982 (Microfilm-Edition): </collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration II</orgName><address>
+								<street>8601 Adelphi Road</street>
+								<postCode>MD 20740-6001</postCode>
+								<settlement>Maryland</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection>RG 59 - Confidential U.S. State Department Central Files: Germany, Internal Affairs 1930-1941, Frederick, Md. 1984 (Microfilm): Washington 1982 (Microfilm-Edition): </collection>
 						<idno>Doc. 860F.4016/68</idno>
 					</msIdentifier>
 				</msDesc>
-				<bibl>National Archives and Records Administration II, Records of the Department of State relating to internal affairs of
-					Czechoslovakia 1910-1944, Washington 1982 (Mikrofilm-Edition), Doc. 860F.4016/68, p. 1-3. <textLang mainLang="en">Original in
-						English.</textLang></bibl>
+				<bibl>National Archives and Records Administration II, Records of the Department of State relating to internal affairs of Czechoslovakia 1910-1944, Washington 1982 (Mikrofilm-Edition), Doc. 860F.4016/68, p. 1-3. <textLang mainLang="en">Original in English.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1940-11-05">November 5, 1940</date>
-				<placeName ref="#berlin">Berlin</placeName>
+				<origDate when="1940-11-05">November 5, 1940</origDate>
+				<origPlace ref="http://www.geonames.org/2950159/berlin.html">Berlin</origPlace>
 				<persName ref="#ehri_dr_Morris_Leland_B.">Morris, Leland B.</persName>
-				<idno>EHRI-DR-19401105-US</idno>
 			</creation>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>In adverting to reports from this Mission with respect to <term ref="#t337" type="subject">anti-Semitic measures</term> in <term
-						ref="#t1181" type="subject">German-occupied countries</term>, I have the honor to submit hereunder in summary form a
-					description of <term ref="#t337" type="subject">measures</term> recently announced in the <term
-						ref="#ehri_dr_nationalities_germans">German</term>
-					<term ref="#t1068" type="subject">press</term> directed against the <term ref="#t896" type="subject">Jewish population</term> of
-						<term ref="#t1181" type="subject">occupied</term>
-					<placeName ref="#republic-of-france">France</placeName>, the <placeName ref="#kingdom-of-the-netherlands">Netherlands</placeName>,
-						<placeName ref="#kingdom-of-belgium">Belgium</placeName> and Northern France, <placeName ref="#alsace">Alsace</placeName>, the
-						<orgName ref="#g681">General Government</orgName> (of <placeName ref="#republic-of-poland">Poland</placeName>), and <placeName
-						ref="#slovak-republic">Slovakia</placeName>. […]</p>
-				<p><orgName ref="#g681">General Government</orgName> (of <placeName ref="#republic-of-poland">Poland</placeName>): In view of the
-					heavy <term ref="#t552" type="subject">migration</term> of <term ref="#t896" type="subject">population</term> into the new <term
-						ref="#t864" type="subject">Jewish</term><term ref="#t545" type="subject">ghetto</term> in <placeName ref="#warsaw"
-						>Warsaw</placeName>, the period for the completion of voluntary establishment there by <term ref="#t864" type="subject"
-						>Jewish</term>
-					<term ref="#t820" type="subject">families</term> from other quarters of the city has been extended through <date when="1940-11-15"
-						>November 15</date>. At the same time the limits of the <term ref="#t545" type="subject">ghetto</term> have been enlarged to
-					take in certain additional blocks and it is feared that this enlargement may mean the <term ref="#t552" type="subject">moving
-						into</term> the <term ref="#t545" type="subject">ghetto</term> of <term ref="#t864" type="subject">Jews</term> not as yet
-					resident in <placeName ref="#warsaw">Warsaw</placeName>. It has also been decided to force the transfer of <term ref="#t864"
-						type="subject">Jewish</term> owned and operated <term ref="#t937" type="subject">industrial plants</term> into the <term
-						ref="#t545" type="subject">ghetto</term> and the removal from the <term ref="#t545" type="subject">ghetto</term> of many such
-					enterprises carried on therein by <term ref="#ehri_dr_gentile">non-Jews</term>. There are taking place conversations between the
-					owners of such plants as to whether an exchange of ownership cannot be effected in a manner acceptable to both the <term
-						ref="#t864" type="subject">Jews</term> and <term ref="#ehri_dr_gentile">non-Jews</term>. The authorities express the hope that
-					this extension of the <term ref="#t545" type="subject">ghetto</term> idea to include <term ref="#t937" type="subject">industrial
-						enterprises</term> may be carried out without undue delay.</p>
-				<p><placeName ref="#slovak-republic">Slovakia</placeName>: A decree is reported to be under preparation by the <orgName
-						ref="#ehri_dr_government_slovakian">Slovakian Government</orgName> which will block <term ref="#t864" type="subject"
-						>Jewish</term><term ref="#t931" type="subject"> accounts in banking</term> establishments and will make obligatory the deposit
-					of all securities belonging to <term ref="#t864" type="subject">Jewish</term> persons or <term ref="#t922">enterprises</term>.
-					Payments to <term ref="#t864" type="subject">Jews</term> will only be possible through such <term ref="#t931" type="subject"
-						>blocked accounts</term> and <term ref="#t864" type="subject">Jews</term> will only be allowed to withdraw up to a maximum of
-					5,000 crowns per week on the basis of a special and individual permit from their <term ref="#t931" type="subject">blocked
-						accounts</term>.</p>
-				<p>The above developments indicate that <term ref="#ehri_dr_nationalities_germans">German</term>
-					<term ref="#t337" type="subject">anti-Semitic measures</term> are rapidly being put into effect in the <term ref="#t1181"
-						type="subject">occupied territories</term>. At the same time the <term ref="#ehri_dr_nationalities_germans">German</term>
-					<term ref="#t1068" type="subject">press</term> publishes articles reporting somewhat similar <term ref="#t337" type="subject"
-						>measures</term> in <placeName ref="#romania">Rumania</placeName>, <placeName ref="#federal-republic-of-yugoslavia"
-						>Jugoslavia</placeName>, <placeName ref="#republic-of-bulgaria">Bulgaria</placeName> and <term
-						ref="#ehri_dr_countries_vichy_france">unoccupied France</term>. There appears, consequently, to be a definite program of
-					carrying <term ref="#ehri_dr_nationalities_germans">German</term>
-					<term ref="#t329" type="subject">anti-Semitism</term> beyond the <term ref="#ehri_dr_nationalities_germans">German</term> borders
-					into such countries as come into the <term ref="#t1028" type="subject">German sphere of influence</term>.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<p>In adverting to reports from this Mission with respect to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-Semitic measures</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">German-occupied
+							countries</term>, I have the honor to submit hereunder in summary form a description of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">measures</term> recently announced in the <term ref="#ehri_dr_nationalities_germans">German</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> directed against the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jewish population</term> of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">occupied</term>
+						<placeName ref="http://www.geonames.org/3017382/republic-of-france.html">France</placeName>, the <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Netherlands</placeName>, <placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html"
+							>Belgium</placeName> and Northern France, <placeName ref="http://www.geonames.org/3038033/alsace.html">Alsace</placeName>, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-681">General Government</orgName> (of <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>), and <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName>. […]</p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-681">General Government</orgName> (of <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>): In view of the heavy <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">migration</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">population</term> into the new <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> in <placeName ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>, the
+						period for the completion of voluntary establishment there by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-820" type="subject">families</term> from other quarters of the city has been extended through <date when="1940-11-15">November 15</date>. At the same time the limits of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> have been enlarged to take in certain additional blocks and it is feared that this enlargement may mean the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-552"
+							type="subject">moving into</term> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> not as yet resident in <placeName
+							ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>. It has also been decided to force the transfer of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> owned and operated <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">industrial plants</term> into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> and the removal from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> of many such enterprises carried on therein by <term ref="#ehri_dr_gentile">non-Jews</term>. There are taking place conversations between the owners of such plants as to whether an
+						exchange of ownership cannot be effected in a manner acceptable to both the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> and <term ref="#ehri_dr_gentile">non-Jews</term>. The authorities express the hope that this extension of
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> idea to include <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-937" type="subject">industrial enterprises</term> may be carried out without undue delay.</p>
+					<p><placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName>: A decree is reported to be under preparation by the <orgName ref="#ehri_dr_government_slovakian">Slovakian Government</orgName> which will block <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-931" type="subject"> accounts in banking</term> establishments and will make obligatory the deposit of all securities
+						belonging to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> persons or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-922">enterprises</term>. Payments to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> will only be possible through such <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-931" type="subject">blocked accounts</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> will only be allowed to withdraw up to a maximum of 5,000 crowns per week on the basis of a special and individual permit from their <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-931" type="subject">blocked accounts</term>.</p>
+					<p>The above developments indicate that <term ref="#ehri_dr_nationalities_germans">German</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-Semitic measures</term> are rapidly being put into effect in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">occupied territories</term>. At the same
+						time the <term ref="#ehri_dr_nationalities_germans">German</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term> publishes articles reporting somewhat similar <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">measures</term> in <placeName
+							ref="http://www.geonames.org/798549/romania.html">Rumania</placeName>, <placeName ref="http://www.geonames.org/7500737/federal-republic-of-yugoslavia.html">Jugoslavia</placeName>, <placeName ref="http://www.geonames.org/732800/republic-of-bulgaria.html"
+							>Bulgaria</placeName> and <term ref="#ehri_dr_countries_vichy_france">unoccupied France</term>. There appears, consequently, to be a definite program of carrying <term ref="#ehri_dr_nationalities_germans">German</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">anti-Semitism</term> beyond the <term ref="#ehri_dr_nationalities_germans">German</term> borders into such countries as come into the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1028" type="subject">German sphere of influence</term>.</p>
+				</div>
 			</div>
 		</body>
 	</text>

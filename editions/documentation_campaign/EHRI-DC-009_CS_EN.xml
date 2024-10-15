@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-009_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Julius Lederer, history and destruction of the Jewish cemetery in Březnice</title>
+				<title xml:lang="de">Julius Lederer, Geschichte und Zerstörung des jüdischen Friedhofs in Březnice</title>
+				<title xml:lang="cs">Julius Lederer, historie a zničení židovského hřbitova v Březnici</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Jewish
+					cemeteries</term>, <origPlace ref="http://www.geonames.org/3078683/breznice.html">Březnice</origPlace>, <origDate when="1945-11">November 1945</origDate>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Julius Lederer, the Chairman of the postwar Council of the Jewish Communities in Bohemia and Moravia-Silesia, provides a brief overview of the history of the Jewish cemetery in Březnice, starting in 1500 until its partial demolition and destruction by Hitlerjugend and the Nazis
+					during World War II.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-009_01.png" n="1"/>
+					<p>V <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnici</placeName>, dne <date when="1945-11-26"> 26. listopadu 1945</date></p>
+					<p><persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName> v <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnici</placeName></p>
+					<p>Došlo <date when="1945-10-29">29. 10. 1945</date></p>
+					<p>Titl.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-400">Jewish Agency for Palestine</orgName> Ezra Komitét pro <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> v <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Praze</placeName></p>
+					<p>K <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">dopisu</term> Vašemu ze dne 9. t. m. značka <persName ref="#ehri_dc_shek_zeev">ZS</persName>/<persName ref="#ehri_dc_schickova_helena">Schi</persName>. Mohu odpověděti teprve dnes, jelikož jsem
+						byl nucen konati šetření, abych Vám mohl podati přesné údaje.</p>
+					<p>Podle urbáře panství <placeName ref="http://www.geonames.org/3078683/breznice.html">březnického</placeName> z roku <date when="1577">1577</date> odváděli tomuto panství židé v <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnici</placeName> usedlí různé
+						dávky. Podle sdělení předsedy spolku rodáků a přátel města <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> a okolí v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>, pana tajemníka <persName
+							ref="#ehri_dc_furst_ludvik">Ludvíka Fürsta</persName>, nalézá se v našich spisech města <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> záznam z let ještě starších, kde se jedná o pozemek poblíž židovských <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">hrobů</term>, z toho soudí pan <persName ref="#ehri_dc_furst_ludvik">Fürst</persName>, jenž se studiem dějin města <placeName ref="http://www.geonames.org/3078683/breznice.html"
+							>Březnice</placeName> velice intensivně zabývá, že již kolem roku <date when="1500">1500</date> žili v <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnici</placeName> židé a že zde, v místech, kde jest <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">židovský</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitov</term>, již židé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">pohřbívali</term>, byť by snad tehdy ještě místo to nebylo ohraničeno jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitov</term>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Hřbitov</term> sestává ze dvou neoddělených částí, z nichž stará část má asi 270 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">náhrobků</term>, z části již
+						nečitelnými nápisy opatřených, novější část asi 150 náhrobků. Na staré části jest plocha bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">náhrobků</term>, na níž se dávno již <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">nepohřbívá</term>, jelikož nikdo neví, zda tam nebylo v dávno minulých dobách již <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">pohřebiště</term>. Na nové části
+						se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">pohřbívalo</term> až do odchodu židů z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>, t. j. do roku <date when="1942"
+							>1942</date>.</p>
+					<p>V zimě roku <date when="1941">1941</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">pobořili</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">hoši</term> z <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">Hitlerjugend</orgName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+							>ubytovaní</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">novostavbě</term> zdejších <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">obecných</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">měšťanských</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">škol</term>, část <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitovní</term> zdi a provozovali na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitově</term> zimní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">sporty</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709"
+							type="subject">lyžaření</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">sáňkování</term>, apod., při čemž <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">zporáželi</term> 19 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">náhrobních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">kamenů</term> z části na staré, z části na nové <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitovní</term> ploše. Na jaře <date when="1942">1942</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">vloupali</term> se členové <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">Hitlerjugend</orgName> do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750"
+							type="subject">hřbitova</term> utržením zámku u vrat a pod vedením svých <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-195" type="subject">vychovatelů</term> a jsouce opatřeni tyčemi a lany řádili na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitově</term> způsobem přímo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">vandalským</term>. Výsledek této akce jest následovný: Na starém <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">pohřebišti</term> jest 8 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">náhrobků</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">povalených</term>, 21 násilně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">poražených</term> a 1 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">přeražený</term>, na nové části <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitova</term> jest netknutý pouze jediný <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">náhrobek</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">poražených</term> jest 152 a z toho přeražených 7. Hrozná to podívaná, jakmile se zpráva o <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">zpustošení</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitova</term> roznesla, putovaly celé zástupy lidu na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitov</term> a dávali svému rozhořčení nad tak surovým
+						postupem <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">nacistické</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">mládeže</orgName> hlasitý projev. Na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitově</term> jest také</p>
+					<pb facs="EHRI-DC-009_02.png" n="2"/>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">modlitebna</term>, která po invasi <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německých</placeName> hord skýtá žalostný obraz. Dveře jsou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">prolomeny</term>, mříže v oknech <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">vyrvány</term>, kazatelna <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">rozbitá</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-739" type="subject">modlitební</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-739" type="subject">tabule</term>, jež byly na zdech umístěny, jsou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">roztrhány</term> a rámy z nich spáleny, <placeName
+							ref="http://www.geonames.org/3077311/czechia.html">české</placeName> i hebrejské nápisy z plechových písmen sestávající, ze zdí strhány, kamenné ozdoby z průčelí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">sházeny</term>, plech, jímž
+						byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">modlitebna</term> kryta, z části rozerván. Dílo těchto Kulturträgerů popsati nelze, to se musí vidět!</p>
+					<p>Zdejší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">náboženské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">obec</term>, kdysi slavná a pro svou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-761" type="subject">ješivu</term> známá, bývalé sídlo krajského <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabína</term>
+						<placeName ref="http://www.geonames.org/3067711/prachen.html">Prácheňského</placeName> kraje, druhdy početná, měla v době vybavení <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> jen malý počet členů, z nichž v <placeName
+							ref="http://www.geonames.org/3078683/breznice.html">Březnici</placeName> samé bydlelo 29 osob a v nejbližších okolí 13, celkem tedy 42 osob, do <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> gravitujících. Z toho počtu vrátili jsme se
+						dva, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bratr</term> můj a já. Přesto ale bychom chtěli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitov</term> uvésti do řádného stavu, dosud nám však není
+						známo, zda-li a jakým způsobem by to bylo možno.</p>
+					<p>Podávaje Vám tuto zprávu, doufám, že jsem přání Vašemu vyhověl a poroučím se Vám v dokonalé úctě.</p>
+					<p><persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName></p>
+					<p>Zprávu podal <persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName> v <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnici</placeName>, místopředseda <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Rady Ž.N.O. v
+							Čechách a na Moravě</term>.</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Za archiv přijal:</p>
+					<p><persName ref="#ehri_dc_tressler_harald">Tressler</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-009_01.png" n="1"/>
+					<p>In <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName>, on <date when="1945-11-26">November, 26th 1945</date></p>
+					<p><persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName> in <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName></p>
+					<p>Received <date when="1945-10-29">29. 10. 1945</date></p>
+					<p>Titl. <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-400">Jewish Agency for Palestine</orgName> Ezra Committee for the <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">CSR</placeName> in <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Prague</placeName></p>
+					<p>I have not been able to answer your <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from the 9th of this month bearing the sign <persName ref="#ehri_dc_shek_zeev">ZS</persName>/<persName ref="#ehri_dc_schickova_helena"
+							>Schi</persName>. until today because I have needed to make an inquiry so that I can provide you with the right information.</p>
+					<p>According to the urbarium of the domain of <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> from <date when="1577">1577</date>, Jews in <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> had to pay various
+						taxes. In the statement of the chairman of the society of natives and friends of the town of <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> and the surroundings of <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Prague</placeName>, secretary <persName ref="#ehri_dc_furst_ludvik">Ludvík Fürst</persName>, he says that he has found in the records of the town of <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> entries from previous years that
+						concerned a plot near Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">graves</term>. Mr. <persName ref="#ehri_dc_furst_ludvik">Fürst</persName>, who has been studying the history of <placeName
+							ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> very closely, takes this to mean that Jews have been living in <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> since the year <date when="1500">1500</date> and
+						have been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">burying</term> their dead in the place where there is now a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>, although at the time the place was not marked as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> consists of two connected sections. The older section has about 270 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">gravestones</term>, many
+						of them with illegible markings, and the newer section has about 150 gravestones. In the older section, there is an area without any <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">gravestones</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">Burials</term> have not taken place there in a long time because nobody knows whether there was even a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">burial
+							ground</term> there in the past. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-805" type="subject">Burials</term> took place in the new section until the Jews were deported to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+							type="ghetto">Theresienstadt</placeName>, i.e. until the year <date when="1942">1942</date>.</p>
+					<p>In the winter of <date when="1941">1941</date>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">boys</term> from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">Hitlerjugend</orgName>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housed</term> in the local <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">newly built</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">elementary</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">middle</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school</term>, partly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">demolished</term> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750"
+							type="subject">cemetery</term> wall and engaged in winter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">sports</term>, such as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">skiing</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">sledding</term>, etc. at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>, and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">knocked over</term> 19 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">gravestones</term>, some in the old and some in the new section of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>. In the spring of <date when="1942">1942</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">Hitlerjugend</orgName> members <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">broke into</term> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> by breaking the gate lock. Led and by their <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-195" type="subject">instructors</term> and armed with rods and ropes, they rampaged around the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> like
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">vandals</term>. The result of their actions was as follows: in the old <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">burial ground</term> 8 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">gravestones</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">knocked over</term>, 21 were violently <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">run over</term> and 1 was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">broken</term>, in the newer section of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> only a single <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-749" type="subject">headstone</term> remains untouched, 152 haven been <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">knocked down</term>, 7 of which have also been broken. A terrible sight. When the news of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347" type="subject">devastation</term>
+						of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> spread, crowds of people went to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> and loudly vented their outrage over
+						the cruel actions of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">Nazi</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-317">youth</orgName>. There is also</p>
+					<pb facs="EHRI-DC-009_02.png" n="2"/>
+					<p>a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">chapel</term> at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>, which is in a pitiful state after the invasion of the <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> horde. The doors are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">broken</term>, the bars in the windows have been <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">ripped out</term>, the pulpit is <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">damaged</term>, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-739" type="subject">prayer</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-739" type="subject">panels</term> that hung on the walls were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">torn</term> and their frames burned, <placeName
+							ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName> and Hebrew signs made out of metal letters were ripped from the wall, the stone decorations on the facade were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-350" type="subject">taken
+							down</term>, the metal that covered the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">chapel</term> was partly torn off. The damage that these Kulturträgers caused cannot be described, it must be seen to be believed!</p>
+					<p>The local <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">religious</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">community</term>, once famous for its <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-761" type="subject">yeshiva</term>, was the seat of the regional <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Rabbi</term> of the <placeName ref="http://www.geonames.org/3067711/prachen.html">Prácheňský</placeName> region. It used to have many members, but only a small number when they were sent away on
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term>. Twenty-nine people lived in <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> and 13 in its surrounding area, i.e. a total of 42 people
+						belonging to <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName>. Out of those, only two returned, my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term> and I. We would like to return the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term> to its former state, but we do not know whether this will be possible.</p>
+					<p>I hope that this report has satisfied your question and I remain yours faithfully,</p>
+					<p><persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName></p>
+					<p>The report was given in <placeName ref="http://www.geonames.org/3078683/breznice.html">Březnice</placeName> by <persName ref="#ehri_dc_lederer_julius">Julius Lederer</persName>, Chairman of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject"
+							>Council of the Jewish Communities in Bohemia and Moravia-Selesia</term>.</p>
+					<p>On behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term>:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>On behalf of the archive:</p>
+					<p><persName ref="#ehri_dc_tressler_harald">Tressler</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

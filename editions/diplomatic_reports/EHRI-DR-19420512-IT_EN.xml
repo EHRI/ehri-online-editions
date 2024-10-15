@@ -1,160 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19420512-IT_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Raimondo Giustiniani on the "Jewish problem in Croatia” in 1942</title>
+				<title xml:lang="de">Raimondo Giustiniani über das „Judenproblem in Kroatien“ im Jahr 1942</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
-							Affari Esteri</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli Affari Esteri</orgName><address>
+								<street>Piazzale della Farnesina, 1</street>
+								<postCode>00196</postCode>
+								<settlement>Roma</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, Gabinetto, Armistizio Pace, busta 1507, fasc. AG Croazia 35.
-						<textLang mainLang="en">Original in Italian.</textLang></bibl>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, Gabinetto, Armistizio Pace, busta 1507, fasc. AG Croazia 35. <textLang mainLang="en">Original in Italian.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1942-05-12">12.5.1942</date>
-				<placeName ref="#zagreb">Zagreb</placeName>
+				<origDate when="1942-05-12">12.5.1942</origDate>
+				<origPlace ref="http://www.geonames.org/3186886/zagreb.html">Zagreb</origPlace>
 				<persName ref="#ehri_dr_giustiniani_raimondo">Giustiniani, Raimondo</persName>
-				<idno>EHRI-DR-19420512-IT</idno>
 			</creation>
+			<langUsage>
+				<language ident="it"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<!--<p>EHRI-DR-19420512-IT_EN</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<!--<p>EHRI-DR-19420512-IT_EN</p>
       <p>Report of the 1st Secretary of the Legation Zagreb, Raimondo Giustiniani, of <date
           when="1942-05-12">12.5.1942</date> for the Italian Ministry of Foreign Affairs.</p>
       <p>R. Legation of Italy</p>
       <p>Cable No. 2365/588</p>-->
-				<pb facs="EHRI-DR-19420512-IT_01.jpg" n="1"/>
-				<p>Addressed to R. <orgName ref="#g005042">Ministry of Foreign Affairs</orgName>, <placeName ref="#rome">Rome</placeName></p>
-				<p>M <persName ref="#p000287">Mussolini</persName></p>
-				<p>Zagreb, <date when="1942-05-12">12th May 1942</date>, Year XX</p>
-				<p>Re: <term ref="#t351">The Jewish problem</term> in <placeName ref="#republic-of-croatia">Croatia</placeName></p>
-				<p>A year after the start of the anti-Jewish campaign undertaken by the <term ref="#g359" type="subject">Ustashe Regime</term> when
-					they came to power, and now that the <placeName ref="#republic-of-croatia">Croatian</placeName> racial policy has been normalized
-					within a framework of strict legality, assessing the situation may be of some interest.</p>
-				<p>Croatian <term ref="#t328" type="subject">racism</term> is based on and finds its justification in paragraph XI of the <term
-						ref="#g359" type="subject">Ustashe</term> Principles of 1933 that for the first time mentions <q>Croatian blood</q>.</p>
-				<p>From this source derives the law-decree of <date when="1941-04-30">30th April 1941</date> on the <term ref="#t373" type="subject"
-						>Aryan race</term>, the fundamental text of <placeName ref="#republic-of-croatia">Croatian</placeName> racism.</p>
-				<p>According to that <term ref="#t950" type="subject">law</term>, all persons are considered <term ref="#t864" type="subject"
-						>Jewish</term>:</p>
-				<p>l) if they have at least three ancestors in the second degree who belong to the <term ref="#t864" type="subject">Jewish
-					race</term>;</p>
-				<p>2) if they have two ancestors of the <term ref="#t864" type="subject">Jewish race</term>, namely in the following instances:</p>
-				<p>a) if on the date of the <date when="1941-04-10">10th April 1941</date> they belonged to the <term ref="#t864" type="subject"
-						>Jewish</term> religion or if they later converted to that <term ref="#t724" type="subject">religion</term>,</p>
-				<p>b) if they have a spouse who is considered <term ref="#t864" type="subject">Jewish</term>,</p>
-				<p>c) if after the present decree has come into force they have entered into <term ref="#t741" type="subject">matrimony</term> with a
-					person having two or more ancestors in the second degree belonging to the <term ref="#t864" type="subject">Jewish race</term>,
-					also the children issued from such a marriage,</p>
-				<p>d) if they are the illegitimate children of a <term ref="#t864" type="subject">Jew</term>,</p>
-				<pb facs="EHRI-DR-19420512-IT_02.jpg" n="2"/>
-				<p>3) if they were born outside the territory of the Independent State of <placeName ref="#republic-of-croatia">Croatia</placeName>
-					from parents who do not trace their origins to the Independent State of <placeName ref="#republic-of-croatia">Croatia</placeName>,
-					if at the date of <date when="1941-04-10">10th April 1941</date> they belonged to the Jewish religion or if they have at least two
-					ancestors in the second degree belonging to the <term ref="#t864" type="subject">Jewish race</term>, or if they are considered
-					Jews by the law of the country from where they originate.</p>
-				<p>4) if after the present decree came into force they enter into <term ref="#t741" type="subject">matrimony</term> with a non-Aryan
-					person.</p>
-				<p>5) if they are the illegitimate children of a <term ref="#t864" type="subject">Jewish woman</term>.</p>
-				<p>Persons belonging to the <term ref="#t864" type="subject">Jewish race</term> do not enjoy citizenship rights and are therefore
-					banned from taking part in economic, social, youth, sports and cultural activities and organizations of the <term
-						ref="#ehri_dr_nationalities_croatians" type="subject">Croatian People</term> in general, and more particularly in literature,
-					journalism, sculpture, music, theatre and cinema.</p>
-				<p>The <term ref="#t542" type="subject">law-decree</term> of <date when="1941-04-30">30th April 1941</date> must be considered
-					together with the other <term ref="#t542" type="subject">decree</term> instituting the <q>Political Commission on Race</q>, which
-					delivers opinions and offers suggestions on all cases in which the racial status is in doubt, and with the other, <q>On the
-						Protection of <term ref="#t373" type="subject">Aryan</term> Blood and the Honour of the <term
-							ref="#ehri_dr_nationalities_croatians" type="subject">Croatian People</term></q>, which absolutely forbids marriage
-					between <term ref="#t864" type="subject">Jews</term> or persons not belonging to the <term ref="#t373" type="subject">Aryan</term>
-					race and persons of the <term ref="#t373" type="subject">Aryan race</term> and punishes with great severity extramarital relations
-					between the <term ref="#t864" type="subject">Jew</term> or a person not of <term ref="#t373" type="subject">Aryan</term> blood and
-					female persons of <term ref="#t373" type="subject">Aryan origin</term>.</p>
-				<p>In addition to these legislative measures there is also a body of police regulations concerning <term ref="#t864" type="subject"
-						>Jews</term>, the main being:</p>
-				<p><term ref="#t864" type="subject">Jews</term> are banned from living in certain parts of town</p>
-				<p>their personal property is confiscated without compensation</p>
-				<p>they are forbidden to keep radios and telephones</p>
-				<p>male Jews aged from 16 to 60 must have themselves entered in special registers</p>
-				<p>they must all, irrespective of age and gender, wear a special badge on the chest and on the back</p>
-				<p>they must observe a special curfew</p>
-				<p>they are forbidden to loiter in the streets in the city centre, and may only pass through</p>
-				<p>they are banned from entering public establishments, etc.</p>
-				<pb facs="EHRI-DR-19420512-IT_03.jpg" n="3"/>
-				<p>Having thus determined the legal status of persons belonging to the <term ref="#t864" type="subject">Jewish race</term>, it became
-					necessary to settle all attendant economic matters.</p>
-				<p>A first step was therefore to declare null and void all contracts entered into between Jews and between Jews and others in the 60
-					days preceding the declaration of the Independent State of <placeName ref="#republic-of-croatia">Croatia</placeName>, if the value
-					of the contract was over 100,000 Dinars and if it had not been subsequently approved by the Ministry of Justice.</p>
-				<p>Almost at the same time a <term ref="#t542" type="subject">law-decree</term> was issued whereby all businesses that were entirely
-					or partially owned by <term ref="#t864" type="subject">Jews</term> as well as those in which one or more Jews were sitting on the
-					Board of Directors or had managerial posts were considered <q>Jewish</q>.</p>
-				<p>That same decree ordered Jews, persons of <term ref="#t373" type="subject">Aryan origin</term> joined in matrimony with Jews,
-					foreign Jews who were on Croatian territory as of <date when="1941-06-05">5th June 1941</date> and <term ref="#t889"
-						type="subject">Jewish businesses</term> to report their assets as well as all changes of ownership that had occurred after
-						<date when="1941-02-10">10th February 1941</date>.</p>
-				<p>With this decree any alienation of <term ref="#t887" type="subject">Jewish property</term>, as well as the transfer of Jewish
-					businesses, of stocks, of shares in consortia and other property rights was made impossible, since any contract of whatever kind
-					required the approval of the <orgName ref="#g004345">Ministry of National Economy</orgName>.</p>
-				<p>Jewish businesses thus confiscated by the State might be managed by the State itself, or be either leased, sold or liquidated in
-					favour of the Treasury. The final decision in all these cases lies with the <orgName ref="#g004345">Ministry of National
-						Economy</orgName>.</p>
-				<p>Lastly, with the Decree of <date when="1941-10-10">10th October 1941</date>, the authority on all matters concerning the estates of
-					individual <term ref="#t864" type="subject">Jews</term> or of <term ref="#t889" type="subject">Jewish businesses</term> has been
-					assigned to the <q>State Department for Reconstruction</q> which may, with a discretionary decision that admits no recourse,
-					nationalize the assets of any <term ref="#t864" type="subject">Jew</term> as well as of any Jewish business and determine what
-					compensation, if any, shall be paid and how.</p>
-				<p>The estates thus acquired can be assigned to the Independent State of Croatia or to the State Department for Reconstruction.</p>
-				<pb facs="EHRI-DR-19420512-IT_04.jpg" n="4"/>
-				<p>Recently this Department, as well as the Political Commission on Race, have been eliminated and all authority in matters concerning
-					Jewish economic questions and the assessment of race has been transferred to the <orgName ref="#g001789">Ministry of
-						Finance</orgName>, Office for Nationalized Assets, and the Ministry of Interior Affairs respectively.</p>
-				<p>The implementation of all these measures has not, in truth, been very easy.</p>
-				<p>Croatian public opinion, being insufficiently prepared for a racial campaign and still wary of the new Regime, but most of all
-					shaken by a string of illegal acts carried out by unscrupulous <term ref="#g359" type="subject">Ustashe officials</term>, had a
-					rather negative reaction against these anti-Jewish measures and watched the course of events with great scepticism.</p>
-				<p>From a technical point of view, moreover, the State Department for Reconstruction, which ought to have been the buttress of the
-					entire system, and whose task it was basically to centralize and draw up an inventory of all <term ref="#t887" type="subject"
-						>Jewish property</term>, proved decidedly inferior to the task they had been entrusted with, both because their offices were
-					disorganized and because its officials had absolutely no experience in such matters.</p>
-				<p>This state of affairs was taken advantage of by elements of the German ethnic group in <placeName ref="#republic-of-croatia"
-						>Croatia</placeName> who, through their financial organizations, were able to acquire legally the main formerly Jewish
-					businesses.</p>
-				<p>Lastly, as to the present situation of <term ref="#ehri_dr_nationalities_croatians" type="subject">Croats</term> who own formerly
-						<term ref="#t887" type="subject">Jewish property</term>, it must be pointed out that they have acquired it in many different
-					ways but mainly through a system of fictitious sales carried out for the benefit of persons appointed by the State to the task of
-					managing said property.</p>
-				<p>Of the 40,000 Jews who, it has been estimated, were living in Croatian territory, only approx. 6,000 are left, almost all interned
-					in <term ref="#t496" type="subject">concentration camps</term> or assigned to farm work or to land reclamation. Of the rest, some
-					have managed to emigrate and some must be considered <q>missing</q>.</p>
-				<p>The Jewish problem can therefore be considered virtually solved in the Independent State of <term
-						ref="#ehri_dr_nationalities_croatians" type="subject">Croatia</term>; a few issues still remain pending, such for instance as
-					mixed marriages, <pb facs="EHRI-DR-19420512-IT_05.jpg" n="5"/> but they too will soon be dealt with and settled.</p>
-				<p><persName ref="#ehri_dr_giustiniani_raimondo">Giustiniani</persName></p>
+					<pb facs="EHRI-DR-19420512-IT_01.jpg" n="1"/>
+					<p>Addressed to R. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042">Ministry of Foreign Affairs</orgName>, <placeName ref="http://www.geonames.org/3169070/rome.html">Rome</placeName></p>
+					<p>M <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000287">Mussolini</persName></p>
+					<p>Zagreb, <date when="1942-05-12">12th May 1942</date>, Year XX</p>
+					<p>Re: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351">The Jewish problem</term> in <placeName ref="http://www.geonames.org/3202326/republic-of-croatia.html">Croatia</placeName></p>
+					<p>A year after the start of the anti-Jewish campaign undertaken by the <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-359" type="subject">Ustashe Regime</term> when they came to power, and now that the <placeName
+							ref="http://www.geonames.org/3202326/republic-of-croatia.html">Croatian</placeName> racial policy has been normalized within a framework of strict legality, assessing the situation may be of some interest.</p>
+					<p>Croatian <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-328" type="subject">racism</term> is based on and finds its justification in paragraph XI of the <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-359" type="subject">Ustashe</term> Principles
+						of 1933 that for the first time mentions <q>Croatian blood</q>.</p>
+					<p>From this source derives the law-decree of <date when="1941-04-30">30th April 1941</date> on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan race</term>, the fundamental text of <placeName
+							ref="http://www.geonames.org/3202326/republic-of-croatia.html">Croatian</placeName> racism.</p>
+					<p>According to that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term>, all persons are considered <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>:</p>
+					<p>l) if they have at least three ancestors in the second degree who belong to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish race</term>;</p>
+					<p>2) if they have two ancestors of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish race</term>, namely in the following instances:</p>
+					<p>a) if on the date of the <date when="1941-04-10">10th April 1941</date> they belonged to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> religion or if they later converted to that <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-724" type="subject">religion</term>,</p>
+					<p>b) if they have a spouse who is considered <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>,</p>
+					<p>c) if after the present decree has come into force they have entered into <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">matrimony</term> with a person having two or more ancestors in the second degree belonging to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish race</term>, also the children issued from such a marriage,</p>
+					<p>d) if they are the illegitimate children of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term>,</p>
+					<pb facs="EHRI-DR-19420512-IT_02.jpg" n="2"/>
+					<p>3) if they were born outside the territory of the Independent State of <placeName ref="http://www.geonames.org/3202326/republic-of-croatia.html">Croatia</placeName> from parents who do not trace their origins to the Independent State of <placeName
+							ref="http://www.geonames.org/3202326/republic-of-croatia.html">Croatia</placeName>, if at the date of <date when="1941-04-10">10th April 1941</date> they belonged to the Jewish religion or if they have at least two ancestors in the second degree belonging to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish race</term>, or if they are considered Jews by the law of the country from where they originate.</p>
+					<p>4) if after the present decree came into force they enter into <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">matrimony</term> with a non-Aryan person.</p>
+					<p>5) if they are the illegitimate children of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish woman</term>.</p>
+					<p>Persons belonging to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish race</term> do not enjoy citizenship rights and are therefore banned from taking part in economic, social, youth, sports and cultural activities and organizations
+						of the <term ref="#ehri_dr_nationalities_croatians" type="subject">Croatian People</term> in general, and more particularly in literature, journalism, sculpture, music, theatre and cinema.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">law-decree</term> of <date when="1941-04-30">30th April 1941</date> must be considered together with the other <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">decree</term> instituting the <q>Political Commission on Race</q>, which delivers opinions and offers suggestions on all cases in which the racial status is in doubt, and with the
+						other, <q>On the Protection of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> Blood and the Honour of the <term ref="#ehri_dr_nationalities_croatians" type="subject">Croatian People</term></q>, which absolutely forbids marriage
+						between <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> or persons not belonging to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> race and persons of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan race</term> and punishes with great severity extramarital relations between the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term> or a person not
+						of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> blood and female persons of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan origin</term>.</p>
+					<p>In addition to these legislative measures there is also a body of police regulations concerning <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, the main being:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are banned from living in certain parts of town</p>
+					<p>their personal property is confiscated without compensation</p>
+					<p>they are forbidden to keep radios and telephones</p>
+					<p>male Jews aged from 16 to 60 must have themselves entered in special registers</p>
+					<p>they must all, irrespective of age and gender, wear a special badge on the chest and on the back</p>
+					<p>they must observe a special curfew</p>
+					<p>they are forbidden to loiter in the streets in the city centre, and may only pass through</p>
+					<p>they are banned from entering public establishments, etc.</p>
+					<pb facs="EHRI-DR-19420512-IT_03.jpg" n="3"/>
+					<p>Having thus determined the legal status of persons belonging to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish race</term>, it became necessary to settle all attendant economic matters.</p>
+					<p>A first step was therefore to declare null and void all contracts entered into between Jews and between Jews and others in the 60 days preceding the declaration of the Independent State of <placeName ref="http://www.geonames.org/3202326/republic-of-croatia.html"
+							>Croatia</placeName>, if the value of the contract was over 100,000 Dinars and if it had not been subsequently approved by the Ministry of Justice.</p>
+					<p>Almost at the same time a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">law-decree</term> was issued whereby all businesses that were entirely or partially owned by <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> as well as those in which one or more Jews were sitting on the Board of Directors or had managerial posts were considered <q>Jewish</q>.</p>
+					<p>That same decree ordered Jews, persons of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan origin</term> joined in matrimony with Jews, foreign Jews who were on Croatian territory as of <date when="1941-06-05">5th June 1941</date> and
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject">Jewish businesses</term> to report their assets as well as all changes of ownership that had occurred after <date when="1941-02-10">10th February 1941</date>.</p>
+					<p>With this decree any alienation of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">Jewish property</term>, as well as the transfer of Jewish businesses, of stocks, of shares in consortia and other property rights was made impossible, since any
+						contract of whatever kind required the approval of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004345">Ministry of National Economy</orgName>.</p>
+					<p>Jewish businesses thus confiscated by the State might be managed by the State itself, or be either leased, sold or liquidated in favour of the Treasury. The final decision in all these cases lies with the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004345"
+							>Ministry of National Economy</orgName>.</p>
+					<p>Lastly, with the Decree of <date when="1941-10-10">10th October 1941</date>, the authority on all matters concerning the estates of individual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> or of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-889" type="subject">Jewish businesses</term> has been assigned to the <q>State Department for Reconstruction</q> which may, with a discretionary decision that admits no recourse, nationalize the assets of any <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term> as well as of any Jewish business and determine what compensation, if any, shall be paid and how.</p>
+					<p>The estates thus acquired can be assigned to the Independent State of Croatia or to the State Department for Reconstruction.</p>
+					<pb facs="EHRI-DR-19420512-IT_04.jpg" n="4"/>
+					<p>Recently this Department, as well as the Political Commission on Race, have been eliminated and all authority in matters concerning Jewish economic questions and the assessment of race has been transferred to the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-001789">Ministry of Finance</orgName>, Office for Nationalized Assets, and the Ministry of Interior Affairs respectively.</p>
+					<p>The implementation of all these measures has not, in truth, been very easy.</p>
+					<p>Croatian public opinion, being insufficiently prepared for a racial campaign and still wary of the new Regime, but most of all shaken by a string of illegal acts carried out by unscrupulous <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-359" type="subject"
+							>Ustashe officials</term>, had a rather negative reaction against these anti-Jewish measures and watched the course of events with great scepticism.</p>
+					<p>From a technical point of view, moreover, the State Department for Reconstruction, which ought to have been the buttress of the entire system, and whose task it was basically to centralize and draw up an inventory of all <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">Jewish property</term>, proved decidedly inferior to the task they had been entrusted with, both because their offices were disorganized and because its officials had absolutely no experience in
+						such matters.</p>
+					<p>This state of affairs was taken advantage of by elements of the German ethnic group in <placeName ref="http://www.geonames.org/3202326/republic-of-croatia.html">Croatia</placeName> who, through their financial organizations, were able to acquire legally the main formerly
+						Jewish businesses.</p>
+					<p>Lastly, as to the present situation of <term ref="#ehri_dr_nationalities_croatians" type="subject">Croats</term> who own formerly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">Jewish property</term>, it must be pointed out that they have
+						acquired it in many different ways but mainly through a system of fictitious sales carried out for the benefit of persons appointed by the State to the task of managing said property.</p>
+					<p>Of the 40,000 Jews who, it has been estimated, were living in Croatian territory, only approx. 6,000 are left, almost all interned in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term> or assigned to farm work or to
+						land reclamation. Of the rest, some have managed to emigrate and some must be considered <q>missing</q>.</p>
+					<p>The Jewish problem can therefore be considered virtually solved in the Independent State of <term ref="#ehri_dr_nationalities_croatians" type="subject">Croatia</term>; a few issues still remain pending, such for instance as mixed marriages, <pb
+							facs="EHRI-DR-19420512-IT_05.jpg" n="5"/> but they too will soon be dealt with and settled.</p>
+					<p><persName ref="#ehri_dr_giustiniani_raimondo">Giustiniani</persName></p>
+				</div>
 			</div>
 		</body>
 	</text>

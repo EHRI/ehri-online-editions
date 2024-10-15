@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19380810_EN_CS" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Herbert Samuel an Marie Schmolka über die Auswanderung einer Gruppe burgenländischer Jüdinnen und Juden</title>
+				<title xml:lang="cs">Herbert Samuel Marii Schmolkové ohledně vystěhování skupiny burgenlandských Židů</title>
+				<title xml:lang="en">Herbert Samuel to Marie Schmolka about the emigration of a group of Jews from Burgenland</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and Genocide</orgName><address>
+								<street>29 Russell Square</street>
+								<postCode>WC1B 5DP</postCode>
+								<settlement>London</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/gb-003348-wl_608">Council for German Jewry: correspondence (microfilm)</collection>
+						<idno>Coll. 608, folder 2</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Council for German Jewry: correspondence, Sign. Coll. 608, folder 2. <textLang mainLang="en">Original auf Englisch</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-08-10">10. August 1938</origDate>
+				<origPlace>London</origPlace>
+				<orgName>Council for German Jewry</orgName>
+				<persName ref="#ehri_bf_samuel_herbert_louis">Samuel, Herbert Louis</persName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>Hilfsorganisationen</term>
+				</keywords>
+				<catRef target="Hilfsorganisationen und Interventionen"/>
+			</textClass>
+			<langUsage>
+				<language ident="en">Englisch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="en">
+					<p><!--<date when="1938-08-10">10th August, 1938</date>.--></p>
+					<p>Dear Mrs. <persName ref="#ehri_bf_schmolka_marie">Schmolka</persName>,</p>
+					<p>I have received your letter of <date when="1938-08-02">August 2nd</date>, written on behalf of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-395">Hicem</orgName> of <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, and
+						relating to the tragic position of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> from the <placeName ref="http://www.geonames.org/2781194/burgenland.html">Burgenland</placeName> on board of the <q>Laortis</q>. The Committee
+						of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-449">Council for German Jewry</orgName> carefully considered the matter, but could not accept the proposal made to them that they should contribute £4,000 for the rescue of four <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>. This is far in excess of any grant that has been previously made, and we felt that we should not be justified, in view of the many other claims that we must endeavour to meet, to
+						expend so large a sum for the benefit of such a small number of persons. I much regret that I do not feel able to ask the Committee to reconsider this decision.</p>
+					<p>Yourse sincerely,</p>
+					<p><persName ref="#ehri_bf_samuel_herbert_louis">SAMUEL.</persName></p>
+				</div>
+				<div type="translation" xml:lang="cs">
+					<p><!--<date when="1938-08-10">10th August, 1938</date>.--></p>
+					<p>Vážená paní <persName ref="#ehri_bf_schmolka_marie">Schmolková</persName>,</p>
+					<p>Potvrzuji, že jsem obdržel váš dopis ze 2. srpna, napsaný jménem <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-395">Hicemu</orgName> v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>, který se týká tragické situace <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Židů</term> z <placeName ref="http://www.geonames.org/2781194/burgenland.html">Burgenlandu</placeName> na palubě Laortisu. Vedení <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-449">Výboru pro pomoc německému židovstvu</orgName> záležitost pečlivě zvážilo, ale bohužel nemohlo přijmout jemu předložený návrh přispět £4,000 na záchranu čtyř rodin. Výše tohoto příspěvku by výrazně převyšovala
+						všechny doposud udělené a převážilo stanovisko, že ve světle množství dalších žádostí, které všechny pečlivě zvažujeme, by vynaložení tak velké částky ku prospěchu tak malého počtu osob nebylo ospravedlnitelné. S politováním Vám tedy musím oznámit, že nejsem nyní v pozici,
+						která by mě opravňovala požádat Výbor o přehodnocení svého rozhodnutí.</p>
+					<p>V úctě,</p>
+					<p>
+						<persName ref="#ehri_bf_samuel_herbert_louis">SAMUEL.</persName>
+					</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

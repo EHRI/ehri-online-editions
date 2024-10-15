@@ -1,115 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19400302-JP_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Toyohara Yukio on the persecution of Jews in Germany in 1940</title>
+				<title xml:lang="de">Toyohara Yukio über die Judenverfolgung in Deutschland im Jahr 1940</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Early Holocaust Testimony</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials
-							(JACAR)</repository>
-						<collection>Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue]
-							B04013207600-10500</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/jp-006512">Japan Center for Asia Historical Materials (JACAR)</orgName><address>
+								<street>Sumitomo Fudosan Hongo Building 10F</street>
+								<postCode>3-22-5</postCode>
+								<settlement>Tokyo</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/jp">Japan</country>
+							</address></institution>
+						<collection>Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue] B04013207600-10500</collection>
 						<idno>9:147-148.</idno>
 					</msIdentifier>
 				</msDesc>
-				<bibl>Japan Center for Asia Historical Materials (JACAR), Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of
-					Nationalities: The Jewish Issue] B04013207600-10500, 9:147-148. <textLang mainLang="en">Original in Japanese.</textLang></bibl>
+				<bibl>Japan Center for Asia Historical Materials (JACAR), Minzoku mondai kankei zakken: Yudayajin mondai [Documents on the Issus of Nationalities: The Jewish Issue] B04013207600-10500, 9:147-148. <textLang mainLang="en">Original in Japanese.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1940-03-02">March 2, 1940</date>
-				<placeName ref="#manzhouli">Manzhouli</placeName>
+				<origDate when="1940-03-02">March 2, 1940</origDate>
+				<origPlace ref="http://www.geonames.org/2035836/manzhouli.html">Manzhouli</origPlace>
 				<persName ref="#ehri_dr_yukio_toyohara">Yukio, Toyohara</persName>
-				<idno>EHRI-DR-19400302-JP</idno></creation>
+			</creation>
+			<langUsage>
+				<language ident="ja"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>From: Consul <persName ref="#ehri_dr_yukio_toyohara">Toyohara Yukio</persName> (<placeName ref="#manzhouli"
-					>Manzhouli</placeName>)</p>
-				<p>To: Ambassador <persName ref="#ehri_dr_umezu_yoshijirō">Umezu Yoshijirō</persName> (<placeName ref="#shinkyo-ri"
-						>Shinkyō</placeName>)</p>
-				<p>CC: <term ref="https://portal.ehri-project.eu/institutions/jp-005465">MOFA Tokyo</term></p>
-				<p>Re: Situation of <term ref="#t642" type="subject">Persecution of Jews</term> in <placeName ref="#federal-republic-of-germany"
-						>Germany</placeName></p>
-				<p>Information gathered by the Foreign Affairs Section here for your reference. </p>
-				<list rend="1" type="ol">
-					<item> General Situation </item>
-				</list>
-				<p rend="margin noindent"> Due to the outbreak of second great war in Europe the <term ref="#t642" type="subject">persecution of
-						Jews</term> in <placeName ref="#federal-republic-of-germany">Germany</placeName> has become intensified recently. At last the
-						<term ref="#t864" type="subject">Jews</term> feel their <term ref="#t809" type="subject">living</term> to be under <term
-						ref="#t662" type="subject">threat</term> and have no choice but to seek <term ref="#t204" type="subject">refuge</term> abroad. </p>
-				<list rend="1" type="ol">
-					<item>
-						<term ref="#t687" type="subject">Testimonies</term>
-					</item>
-				</list>
-				<p rend="margin noindent"> Main <term ref="#t687" type="subject">testimonies</term> are as follows </p>
-				<list rend="a" type="ol">
-					<item>Due to the clandestine <term ref="#t195" type="subject">collaboration</term> of <term ref="#t864" type="subject">Jews</term>
-						living in <placeName ref="#federal-republic-of-germany">Germany</placeName> and those in other countries, <placeName
-							ref="#federal-republic-of-germany">Germany</placeName> ended up losing the <term ref="#t1049" type="subject">economic
-							warfare</term> during the first great war in Europe. In view of this, the <term ref="#t1032" type="subject"
-							>authorities</term> are trying to avoid a repetition of such a scenario by driving them out of the country. However, there
-						are about two million <term ref="#t864" type="subject">Jews</term> in the country, and many occupy important places in
-						society. Therefore, it is not easy to expel them. However, without expulsion, it will be difficult to ensure Germany’s <term
-							ref="#t918" type="subject">economy</term> in a long-term war. In my view, to make them leave <placeName
-							ref="#federal-republic-of-germany">Germany</placeName> voluntarily, [the authorities] are using methods such as denying
-						them jobs and making their life extremely <term ref="#t615" type="subject">restricted</term> so as to expect the <term
-							ref="#t864" type="subject">Jews</term> to leave. Basically, the <term ref="#t864" type="subject">Jews</term> do not have
-						their own country and only engage in self-interest. Lacking patriotism, they are to have any sacrifice for the sake of
-						interest/profit. For the sake of Germany, they are merely seeing [our war] to have nothing to do with them; worse, their
-						deep-seated economic power is destroying Germany’s <term ref="#t1049" type="subject">wartime control economy</term>. </item>
-				</list>
-				<p rend="margin noindent">(told by a <term ref="#ehri_dr_nationalities_germans">German</term> named Peistein bound for <placeName
-						ref="#tokyo">Tokyo</placeName> ) </p>
-				<list rend="a" type="ol">
-					<item>Although more than two million <term ref="#t864" type="subject">Jews</term> in <placeName ref="#federal-republic-of-germany"
-							>Germany</placeName> like us have faced all kinds of <term ref="#t642" type="subject">persecution</term> by the <term
-							ref="#ehri_dr_nationalities_germans">German</term>
-						<term ref="#t1176" type="subject">authorities</term> in recent years, we have tried hard to make a living. With the outbreak
-						of the war in Europe, their methods have become more stringent and violent. At last, our <term ref="#t831" type="subject"
-							>living</term> is coming under <term ref="#t662" type="subject">threat</term>, and we have reached the point of having no
-						choice but to seek <term ref="#t204" type="subject">refuge</term> abroad. Words cannot describe the ways of <term ref="#t642"
-							type="subject">persecuting us Jews</term>. Under the <term ref="#t834" type="subject">ration system</term> of life
-						necessities, compared to ordinary <term ref="#ehri_dr_nationalities_germans">Germans</term>, [we receive] one fourth of all
-							<term ref="#t832" type="subject">food</term> except bread and one package of 50 cigarette each month. No sweets, alcohol
-						or similar items is given. It is worse when it comes to entertainment. We cannot go to the cinema or restaurant because they
-						post <q>No <term ref="#t864" type="subject">Jews</term> Allowed</q> outside. When withdrawing money, we are limited to the
-						amount for purchasing those life necessities and cannot freely access our savings. </item>
-				</list>
-				<p rend="margin hanging">At the personal level, the <term ref="#t642" type="subject">persecution</term> is even more severe.
-					Association with <term ref="#ehri_dr_nationalities_germans">Germans</term> is strictly forbidden, and even <term ref="#t824"
-						type="subject">kids</term> are not allowed to play with <term ref="#ehri_dr_nationalities_germans">German</term>
-					<term ref="#t824" type="subject">kids</term>. Although in legal terms we are not expelled from the country, the method used goes
-					against humanity and arouses (uncontrollable) anger. </p>
-				<p rend="margin hanging">(told by a <term ref="#t864" type="subject">Jewish</term> merchant named <persName ref="#ehri_dr_Frinkle"
-						>Frinkle</persName> bound for <placeName ref="#shanghai">Shanghai</placeName>)</p>
-				<list rend="1" type="ol">
-					<item>My Opinion</item>
-				</list>
-				<p rend="margin noindent">Given the situation described above, there is a need to closely monitor the movement of <term ref="#t864"
-						type="subject">Jews</term> in <term ref="#t505" type="subject">transit</term> through our city.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<p>From: Consul <persName ref="#ehri_dr_yukio_toyohara">Toyohara Yukio</persName> (<placeName ref="http://www.geonames.org/2035836/manzhouli.html">Manzhouli</placeName>)</p>
+					<p>To: Ambassador <persName ref="#ehri_dr_umezu_yoshijirō">Umezu Yoshijirō</persName> (<placeName ref="http://www.geonames.org/1837029/shinkyo-ri.html">Shinkyō</placeName>)</p>
+					<p>CC: <term ref="https://portal.ehri-project.eu/institutions/jp-005465">MOFA Tokyo</term></p>
+					<p>Re: Situation of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">Persecution of Jews</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName></p>
+					<p>Information gathered by the Foreign Affairs Section here for your reference. </p>
+					<list rend="1" type="ol">
+						<item> General Situation </item>
+					</list>
+					<p rend="margin noindent"> Due to the outbreak of second great war in Europe the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">persecution of Jews</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+							>Germany</placeName> has become intensified recently. At last the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> feel their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-809" type="subject">living</term> to be
+						under <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-662" type="subject">threat</term> and have no choice but to seek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">refuge</term> abroad. </p>
+					<list rend="1" type="ol">
+						<item>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Testimonies</term>
+						</item>
+					</list>
+					<p rend="margin noindent"> Main <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">testimonies</term> are as follows </p>
+					<list rend="a" type="ol">
+						<item>Due to the clandestine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-195" type="subject">collaboration</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> living in <placeName
+								ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> and those in other countries, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> ended up losing the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-1049" type="subject">economic warfare</term> during the first great war in Europe. In view of this, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term> are
+							trying to avoid a repetition of such a scenario by driving them out of the country. However, there are about two million <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in the country, and many occupy important places in
+							society. Therefore, it is not easy to expel them. However, without expulsion, it will be difficult to ensure Germany’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-918" type="subject">economy</term> in a long-term war. In my view, to make them leave
+								<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> voluntarily, [the authorities] are using methods such as denying them jobs and making their life extremely <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-615" type="subject">restricted</term> so as to expect the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> to leave. Basically, the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> do not have their own country and only engage in self-interest. Lacking patriotism, they are to have any sacrifice for the sake of interest/profit. For the sake of Germany, they
+							are merely seeing [our war] to have nothing to do with them; worse, their deep-seated economic power is destroying Germany’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1049" type="subject">wartime control economy</term>. </item>
+					</list>
+					<p rend="margin noindent">(told by a <term ref="#ehri_dr_nationalities_germans">German</term> named Peistein bound for <placeName ref="http://www.geonames.org/1850147/tokyo.html">Tokyo</placeName> ) </p>
+					<list rend="a" type="ol">
+						<item>Although more than two million <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> like us have faced all kinds of <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">persecution</term> by the <term ref="#ehri_dr_nationalities_germans">German</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1176" type="subject">authorities</term> in recent years, we have tried hard to make a living. With the outbreak of the war in Europe, their methods have become more stringent and violent. At last, our <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">living</term> is coming under <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-662" type="subject">threat</term>, and we have reached the point of having no choice but to seek
+								<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">refuge</term> abroad. Words cannot describe the ways of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">persecuting us Jews</term>. Under the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">ration system</term> of life necessities, compared to ordinary <term ref="#ehri_dr_nationalities_germans">Germans</term>, [we receive] one fourth of all <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> except bread and one package of 50 cigarette each month. No sweets, alcohol or similar items is given. It is worse when it comes to entertainment. We cannot go to the cinema or
+							restaurant because they post <q>No <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> Allowed</q> outside. When withdrawing money, we are limited to the amount for purchasing those life necessities and cannot freely access our
+							savings. </item>
+					</list>
+					<p rend="margin hanging">At the personal level, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-642" type="subject">persecution</term> is even more severe. Association with <term ref="#ehri_dr_nationalities_germans">Germans</term> is strictly forbidden, and even
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">kids</term> are not allowed to play with <term ref="#ehri_dr_nationalities_germans">German</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">kids</term>. Although in legal terms we are not expelled from the country, the method used goes against humanity and arouses (uncontrollable) anger. </p>
+					<p rend="margin hanging">(told by a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> merchant named <persName ref="#ehri_dr_Frinkle">Frinkle</persName> bound for <placeName ref="http://www.geonames.org/1796236/shanghai.html"
+							>Shanghai</placeName>)</p>
+					<list rend="1" type="ol">
+						<item>My Opinion</item>
+					</list>
+					<p rend="margin noindent">Given the situation described above, there is a need to closely monitor the movement of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-505"
+							type="subject">transit</term> through our city.</p>
+				</div>
 			</div>
 		</body>
 	</text>

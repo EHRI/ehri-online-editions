@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-008_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Jiří Lauscher, his pre-war life</title>
+				<title xml:lang="de">Jiří Lauscher, sein Vorkriegsleben</title>
+				<title xml:lang="cs">Jiří Lauscher, jeho předválečný život</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject"
+					>Zionists</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Jiří Lauscher briefly describes his pre-war life and career. He mainly recounts his Zionist activities. In 1920, he travelled to the United States for Hachshara at a fruit farm in California. In 1925, he was sent by the Czechoslovak Zionist leadership to Palestine to help with the
+					construction of new homes for arriving Jewish families. In 1930, he returned to Czechoslovakia, where he specialized in making wooden toys.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-008_01.png" n="1"/>
+					<p><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName>, nar. <date when="1901-09-14">14. 9. 1901</date> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, příslušný do <placeName
+							ref="https://www.geonames.org/3064268/terezin.html">Terezína</placeName>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Školy</term>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Obecná</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject"
+							>měšťanská</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">obchodní</term> pokračovací.</p>
+					<p>Vyučen v kanceláři železáren a válcoven plechu <date when="1915">1915</date> – <date when="1920">1920</date>.</p>
+					<p><date when="1920">1920</date> jsem jel do <placeName ref="http://www.geonames.org/6252001/united-states.html">Spojených</placeName>
+						<placeName ref="http://www.geonames.org/6252001/united-states.html">států</placeName> za úmyslem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">hachšará</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-932"
+							type="subject">ovocnářství</term> v <placeName ref="http://www.geonames.org/11071615/southern-california.html">Kalifornii</placeName>. Za účelem vpravení se do tamějších poměrů, zůstal jsem nejdříve u <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+							type="subject">příbuzných</term> v <placeName ref="http://www.geonames.org/5128581/new-york-city.html">Novém</placeName>
+						<placeName ref="http://www.geonames.org/5128581/new-york-city.html">Yorku</placeName>. Trpěl jsem aklimatizací a nechtěl jsem zakrátko v <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Erecu</placeName> prodělati tutéž potíž, proto jsem se vrátil do
+							<placeName ref="http://www.geonames.org/6255148/europe.html">Evropy</placeName> a vstoupil do 1. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">řemeslnické</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">kvucá</term>
+						<placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">čsl.</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Hechalucu</term> v <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olomouci</placeName> jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject"
+							>bednář</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">tesař</term> v <placeName ref="http://www.geonames.org/3068501/pavlovice-u-prerova.html">Pavlovicích</placeName> /<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">lihovar</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">drožďárna</term>/. Po jednoroční <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">práci</term> jsem byl povolán na Merkas <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Hechaluc</term>, kde jsem <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">sloužil</term></q> svůj povinný rok, organizoval zprostředkovatelnu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">práce</term> a výbavy pro chalucim na
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">alijah</term>. Po jednoroční činnosti v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Hechalucu</term> jsem byl přidělen na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">přeškolovací</term> letní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">tábor</term> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827"
+							type="subject">mládež</term>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004815">Techelet</orgName>-<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004815">Lavanu</orgName> /800 lidí/ ve <placeName ref="http://www.geonames.org/3065398/stara-libava.html"
+							>Staré</placeName>
+						<placeName ref="http://www.geonames.org/3065398/stara-libava.html">Libavě</placeName> u Došova u <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olomouce</placeName>, kde jsem jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057"
+							type="subject">tesař</term> s několika <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">přeškolenými</term> chaverim vyrobil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kavalce</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kuchyňské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">zařízení</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">latríny</term>, atd., později jsem byl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">proviantmistrem</term> a vůbec technickým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">pracovníkem</term>.</p>
+					<p>Po odchodu z <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName> nebyl již <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Merkas</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Hechalucu</term>, neboť chaverim odjeli do <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Erecu</placeName>, tak jsme převzali jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">pracující</term> chalucim vaad do <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mor</placeName>. <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html"
+							>Ostravy</placeName>, kde byla založena rovněž <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">řemeslnická</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">kvucá</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Pracoval</term> jsem v dílně <persName ref="#ehri_dc_pilar_ferdinand">Ferd. Pilař</persName> v
+							<placeName ref="http://www.geonames.org/3071025/marianske-hory.html">Mar</placeName>. <placeName ref="http://www.geonames.org/3071025/marianske-hory.html">Horách</placeName>, večer v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject"
+							>Hechalucu</term>. Od <date when="1924-09">září 1924</date> do <date when="1925-01">ledna 1925</date>. Pak jsem byl poslán do <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavy</placeName>, kde živořila <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">zahradnická</term> skupina <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Hechalucu</term>. Ještě jeden chaver a já jsme měli za úkol zajistit jejich <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">obživu</term>, co se nám taky pomocí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">sionistického</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">vedení</term> v <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mor</placeName>. <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Ostravě</placeName>
+						/Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1496899" type="victim">Kahn</persName>/ podařilo. V <date when="1925-03">březnu 1925</date> jsem byl povolán nutně do <placeName ref="http://www.geonames.org/294640/state-of-israel.html"
+							>Erecu</placeName>, kde byl nedostatek lidí.</p>
+					<p>V <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Erecu</placeName> jsem ihned začal se stavbou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráku</term> v <placeName
+							ref="http://www.geonames.org/295221/-en-gannim.html">En Ganim</placeName>, kde jsme byli prozatímně usazeni a po krátké době jsem byl přidělen první skupině v <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Emeku</placeName>, která měla připravovat
+						hitjašvut naší skupiny, a to spolu s první skupinu <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-328">Hašomer</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-328">Hacair</orgName> z <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>. Po slibných začátcích v <placeName ref="http://www.geonames.org/295740/afula.html"
+							>Afule</placeName> /<placeName ref="http://www.geonames.org/294640/state-of-israel.html">Izrael</placeName>/ nastal v r. <date when="1926">1926</date> těžké všeobecná krise a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject"
+							>nezaměstnanost</term>, takže jsme strhli stany a našli v <placeName ref="http://www.geonames.org/294801/haifa.html">Haifě</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">práci</term> jednak na stavbě <placeName ref="http://www.geonames.org/294579/mount-carmel.html">Karmelu</placeName> a později drenáž v Mifraz <placeName
+							ref="http://www.geonames.org/295721/acre.html">Akko</placeName>. Až v r. <date when="1927">1927</date> došlo ke spojení se skupinou Achvá, která se částečně rozešla k hitjašvut v <placeName ref="http://www.geonames.org/293640/sarid.html">Saridu</placeName>.</p>
+					<p>Tam jsem stavěl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráky</term> nové a převzané z <placeName ref="http://www.geonames.org/295221/-en-gannim.html">Ejn Ganim</placeName>. Brzy jsme začli první stavbu velkého <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">chlévu</term>, několik kurníků, líheň, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">dětský</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">domov</term>, obranné zařízení <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1040" type="subject">kolonie</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">cesty</term>, vrtbu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">studně</term>. Dále jsme převzali stavby v sousedství /<placeName
+							ref="http://www.geonames.org/295004/ginnegar.html">Ginegar</placeName>/ a později v <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Emek</placeName>
+						<placeName ref="http://www.geonames.org/294640/state-of-israel.html">Hajarden</placeName>, <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Beth</placeName>
+						<placeName ref="http://www.geonames.org/294640/state-of-israel.html">Sera</placeName>. Od té doby byl již dostatek stavební <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">práce</term> ve vlastní <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1040" type="subject">osadě</term>, takže jsem až do r. <date when="1930">1930</date> zůstal v <placeName ref="http://www.geonames.org/293640/sarid.html">Saridu</placeName>. U všech stavebních <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">prací</term> jsem byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">vedoucím</term> /ovšem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057"
+							type="subject">pracujícím</term>/ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">odborníkem</term>, kromě dozoru <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">technika</term> od Hanhalá Zionit. Pro
+						těžkou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">malárii</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tropiku</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tercienu</term> jsem jel do <placeName ref="http://www.geonames.org/6255148/europe.html"
+							>Evropy</placeName>, kde jsem pro případ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">úmrtí</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodině</term> zůstal, aniž bych se vzdal návratu.
+						Nastoupil jsem místo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">vedoucího</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">továrny</term> na vydělávání a barvení kožešin v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>. R. <date when="1938">1938</date>/<date when="1939">39</date> jsem
+						se specializoval na výrobu dřevěných hraček pro výrobu v <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Erec</placeName>. K <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">alijá</term> již nedošlo. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Pracoval</term> jsem 2 roky v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">továrně</term> na výrobu hraček, poslední rok jako parťák židovské skupiny 20 osob,
+						až do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term>. V <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> jsem byl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">tesařem</term> a příležitostně jsem vyráběl na příkaz Produkce pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> hračky, resp. jejich návrhy a
+						modely, dále modely útočné vozby <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německé</placeName>, atd. Věnoval jsem se též památkovému zboží a absolvoval jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866"
+							type="subject">kurs</term> hračkářský v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>.</p>
+					<pb facs="EHRI-DC-008_02.png" n="2"/>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">AS</persName></p>
+					<p><date when="1945-11-16">16. XI. 1945</date></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-008_01.png" n="1"/>
+					<p><persName ref="#ehri_dc_lauscher_jiri">Jiří Lauscher</persName>, born <date when="1901-09-14">14. 9. 1901</date> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, resident in <placeName
+							ref="https://www.geonames.org/3064268/terezin.html">Theresienstadt</placeName>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Schools</term>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">village</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134"
+							type="subject">town</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">business</term> continuing.</p>
+					<p>Trained in the office of the ironworks and rolling mill <date when="1915">1915</date>-<date when="1920">1920</date>.</p>
+					<p>In <date when="1920">1920</date>, I travelled to the <placeName ref="http://www.geonames.org/6252001/united-states.html">United</placeName>
+						<placeName ref="http://www.geonames.org/6252001/united-states.html">States</placeName> to do a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">Hachshara</term> at a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-932"
+							type="subject">fruit farm</term> in <placeName ref="http://www.geonames.org/11071615/southern-california.html">California</placeName>. In order to get used to the conditions there, I first stayed with some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+							type="subject">relatives</term> in <placeName ref="http://www.geonames.org/5128581/new-york-city.html">New</placeName>
+						<placeName ref="http://www.geonames.org/5128581/new-york-city.html">York</placeName>. I was homesick and I didn’t want to go through the same trouble in <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Eretz</placeName>, and so I returned to <placeName
+							ref="http://www.geonames.org/6255148/europe.html">Europe</placeName> and enrolled in the 1st <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">craft</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">kibbutz</term> of the <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czechoslovak</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">HeHalutz</term> in <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olomouc</placeName> as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject"
+							>cooper</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">carpenter</term> in <placeName ref="http://www.geonames.org/3068501/pavlovice-u-prerova.html">Pavlovice</placeName> (<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">distillery</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">yeast plant</term>). After <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">working</term> for a year, I was sent to Merkas <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">HeHalutz</term>, where I <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">served</term></q> my mandatory year, organized the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">employment</term> office and put together travel packs for
+						chalutzim for their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">aliyah</term>. After working for a year for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">HeHalutz</term>, I was sent to the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004815">Techelet</orgName>-<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004815">Lavan</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">retraining</term> summer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">camp</term> for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827"
+							type="subject">young</term> (800 people) in <placeName ref="http://www.geonames.org/3065398/stara-libava.html">Stará</placeName>
+						<placeName ref="http://www.geonames.org/3065398/stara-libava.html">Libava</placeName> near Došov by <placeName ref="http://www.geonames.org/3069011/olomouc.html">Olomouc</placeName>, where, as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057"
+							type="subject">cooper</term> with several <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-913" type="subject">retrained</term> chaverim, I made <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">pallets</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kitchen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">equipment</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">latrines</term>, etc., and later I was a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">rations master</term> and a technical <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">worker</term>.</p>
+					<p>After leaving <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Merkas</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">HeHalutz</term> was no more, because the chaverim had gone to <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Eretz</placeName>, and so we took the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">working</term> chalucim vaad to <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mor</placeName>. <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html"
+							>Ostrava</placeName>, where there was also a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">craft</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-920" type="subject">kibbutz</term>. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> in <persName ref="#ehri_dc_pilar_ferdinand">Ferd. Pilař</persName>’s workshop in
+							<placeName ref="http://www.geonames.org/3071025/marianske-hory.html">Mar</placeName>. <placeName ref="http://www.geonames.org/3071025/marianske-hory.html">Hory</placeName>, and in the evenings in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871"
+							type="subject">HeHalutz</term>. From <date when="1924-09">September 1924</date> to <date when="1925-01">January 1925</date>. I was then sent to <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName>, where the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">HeHalutz</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">gardening</term> group was struggling. A chaver and I were tasked with providing them with a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">livelihood</term>,
+						which we managed to do with the help of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">Zionist</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">leadership</term> in <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mor</placeName>. <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html"
+							>Ostrava</placeName> (Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1496899" type="victim">Kahn</persName>). In <date when="1925-03">March, 1925</date>, I was urgently sent to <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Eretz</placeName>, because there weren’t enough people.</p>
+					<p>In <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Eretz</placeName>, I immediately began constructing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">homes</term> in <placeName
+							ref="http://www.geonames.org/295221/-en-gannim.html">En</placeName>
+						<placeName ref="http://www.geonames.org/295221/-en-gannim.html">Ganim</placeName>, where we were temporarily stationed. After a short while, I was assigned to the first group in <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Emek</placeName>, where our
+						group’s hityashvut was supposed to be prepared in cooperation with the first group of <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-328">Hashomer</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-328">Hatzair</orgName> from <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. After a promising beginning in <placeName ref="http://www.geonames.org/295740/afula.html"
+							>Afula</placeName> (<placeName ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName>), the crisis and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">unemployment</term> of <date when="1926">1926</date> hit, and so
+						we took down the tents and found <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> in <placeName ref="http://www.geonames.org/294801/haifa.html">Haifa</placeName> building on <placeName
+							ref="http://www.geonames.org/294579/mount-carmel.html">Carmel</placeName> and later draining in Mifraz <placeName ref="http://www.geonames.org/295721/acre.html">Acre</placeName>. In <date when="1927">1927</date>, the Achva group, which partially broke up, joined with the
+						hityashvut in <placeName ref="http://www.geonames.org/293640/sarid.html">Sarid</placeName>.</p>
+					<p>There, I built new and inspired by <placeName ref="http://www.geonames.org/295221/-en-gannim.html">Ein Ganim</placeName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">houses</term>. We soon started working on the construction of a large <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">cowshed</term>, several chicken coops, a hatchery, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">children’s</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-315" type="subject">home</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1040" type="subject">colony</term>’s system of defense, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">roads</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bore holes</term>. We also took over the buildings in neighboring <placeName
+							ref="http://www.geonames.org/295004/ginnegar.html">Ginegar</placeName> and later in <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Emek</placeName>
+						<placeName ref="http://www.geonames.org/294640/state-of-israel.html">HaYarden</placeName>, <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Beth</placeName>
+						<placeName ref="http://www.geonames.org/294640/state-of-israel.html">Sera</placeName>. Since then, there was enough construction <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> in our own <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1040" type="subject">settlement</term>, and so I remained in <placeName ref="http://www.geonames.org/293640/sarid.html">Sarid</placeName> until <date when="1930">1930</date>. I was the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">head</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">expert</term> for all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">construction work</term> (although I was still actively <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">working</term>), besides overseeing the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">technician</term> from Hanhala Zionit. After surviving a bad case of
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tropical</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tertian</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">malaria</term>, I travelled to <placeName ref="http://www.geonames.org/6255148/europe.html">Europe</placeName>, where I remained due to a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term>, without giving up on the possibility of returning. I got a job as the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">head</term> of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term> that tanned and colored furs in <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>. In <date when="1938">1938</date>-<date when="1939">39</date>, I specialized in wooden toys that would be manufactured in <placeName ref="http://www.geonames.org/294640/state-of-israel.html"
+							>Eretz</placeName>. But <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">aliyah</term> could not take place. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> for 2 years in toy <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-929" type="subject">factory</term>, and in the last year as a member of a group of about 20 Jewish people up until I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+							>transported</term>. In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, I was a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">cooper</term> and I was occasionally
+						ordered to manufacture toys for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, or rather design and create the models for them, as well as models of <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> attack vehicles, etc. I devoted myself to conservation and took a toy-making <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-866" type="subject">course</term> in
+							<placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>.</p>
+					<pb facs="EHRI-DC-008_02.png" n="2"/>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">AS</persName></p>
+					<p><date when="1945-11-16">16. XI. 1945</date></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

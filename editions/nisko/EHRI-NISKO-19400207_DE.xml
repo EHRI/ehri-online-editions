@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19400207_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400207_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,56 +8,62 @@
 				<title xml:lang="en">Viennese shop stewards in the Zarzecze camp to Julius Boschan and the IKG Vienna</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
-							Wien</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>A/W 2747</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1940-02-07">7. Februar 1940</date>
-				<placeName ref="#zarzecze">Zarzecze</placeName><idno>EHRI-NISKO-19400207</idno>
+			<creation><origDate when="1940-02-07">7. Februar 1940</origDate>
+				<origPlace ref="http://www.geonames.org/753760/zarzecze.html">Zarzecze</origPlace>
 			</creation>
 			<textClass>
 				<keywords>
@@ -69,48 +75,44 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p><orgName ref="#ehri_nisko_zentralstelle_nisko">Zentralstelle für jüd. Umsiedlung</orgName></p>
-				<p><placeName ref="#zarzecze">Barackenlager Nisko am San</placeName>.</p>
-				<p><date when="1940-02-07">7.II.1940</date>.</p>
-				<p/>
-				<p>Sehr geehrter Herr <persName ref="#ehri_nisko_boschan_julius">Boschan</persName></p>
-				<p>ein gestern eingetretener, wie uns scheint günstiger Umstand, lässt es uns notwendig erscheinen unseren vorgestrigen Brief, diesen
-					zweiten folgen zu lassen, um Sie am Laufenden zu halten.</p>
-				<p>Zu vörderst eine rein persönliche Angelegenheit. Wir haben im Wege <placeName ref="#vienna">Wiener</placeName> Korrespondenz mit
-					Bedauern erfahren, dass Sie erkrankt sind, hoffen Sie schon genesen und übermitteln Ihnen jedenfalls unsere besten Wünsche.</p>
-				<p>Gestern geschah folgendes:</p>
-				<p>Durch <placeName ref="#ostrava">Ostrauer</placeName> Korrespondenz erfuhren wir, dass es den Herren <persName
-						ref="#EHRI-NISKO-19400207_1">Dr. Bohrer</persName>, <persName ref="#EHRI-NISKO-19400207_2">Dr. Dische</persName> und <persName
-						ref="#EHRI-NISKO-19400207_3">Ettinger</persName> gelungen sei, die Einreise des <placeName ref="#sosnowiec"
-						>Sosnowitzer</placeName>
-					<term ref="#t567" type="subject">Lagers</term> in die <placeName ref="#slovak-republic">Slowakei</placeName> durchzusetzen und
-					dass diese Herren auch sich liebenswürdiger Weise anheischig gemacht haben, ein gleiches für die <placeName ref="#nisko"
-						>Niskoer</placeName> Gruppe zu erwirken. Ueber unsere Initiative gelang es unser[em] sehr verehrten Herr <persName
-						ref="#ehri_nisko_eisler_emil">Prof. Eisler</persName>, bei der Lagerkommandatur zu erwirken, dass 2 unserer Herren (Baumeister
-						<persName ref="#ehri_nisko_bellak_otto">Ing. Bellak</persName> und <persName ref="#EHRI-NISKO-19400207_5">Jakob
-						Salomonowicz</persName>) nach <placeName ref="#krakow">Krakau</placeName> fahren dürfen um von dort mit den <placeName
-						ref="#sosnowiec">Sosnowitzer</placeName> Herren in Fühlung zu treten, Informationen einzuholen und zweckdienliches zu
-					veranlassen. Wir bitten Sie hochgeehrter Herr <persName ref="#ehri_nisko_boschan_julius">Boschan</persName> Ihre Bemühungen auch
-					in dieser Richtung wirksam werden zu lassen, hauptsächlich dahingehend, die finanziellen Verbindungen für die <term ref="#t203"
-						type="subject">Einreise</term> der <placeName ref="#vienna">Wiener</placeName> in die <placeName ref="#slovak-republic"
-						>Slowakei</placeName> im Wege der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> durchzuführen. Es ist
-					selbstverständlich auch geboten, dass auch Sie für uns um diese Einreise einreichen, da doch oberster Grundsatz bleibt, dass es in
-					erster Linie der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> unterliegt unsere Aus- und <term ref="#t203"
-						type="subject">Einreisemöglichkeiten</term> zu betreiben. Wir sind überzeugt, hochgeehrter Herr <persName
-						ref="#ehri_nisko_boschan_julius">Boschan</persName>, dass Sie diesen ersten Versuch aus eigener Initiative zu erreichen, mit
-					allen zur Verfügung stehenden Mitteln unterstützen werden, denn über den prekären Stand unserer Situation hier hat Sie ja unser
-					Vorschreiben genügend ins Bild gesetzt. In der Sachlage geboten ist, dass Ihre <term ref="#t276" type="subject"
-						>Unterstützung</term> resp. <term ref="#t276" type="subject">Hilfsaktion</term> tunlichst sofort in die Wege geleitet
-					werde.</p>
-				<p>Wir danken Ihnen im Voraus herzlichst und begrüssen Sie mit kameradschaftlichem Schalom</p>
-				<p>Die Vertrauensleute der <placeName ref="#vienna">Wiener</placeName> im Lager <placeName ref="#zarzecze">Zarzecze</placeName></p>
-				<p><persName ref="#ehri_nisko_kowler_hermann">Ing. Kowler</persName> m.p. <persName ref="#ehri_nisko_hamburger_walter"
-						>Hamburger</persName>
-					<persName ref="#EHRI-NISKO-19400207_6">Ing. Kurz</persName></p>
+				<div type="original" xml:lang="de">
+					<p><orgName ref="#ehri_nisko_zentralstelle_nisko">Zentralstelle für jüd. Umsiedlung</orgName></p>
+					<p><placeName ref="http://www.geonames.org/753760/zarzecze.html">Barackenlager Nisko am San</placeName>.</p>
+					<p><date when="1940-02-07">7.II.1940</date>.</p>
+					<p/>
+					<p>Sehr geehrter Herr <persName ref="#ehri_nisko_boschan_julius">Boschan</persName></p>
+					<p>ein gestern eingetretener, wie uns scheint günstiger Umstand, lässt es uns notwendig erscheinen unseren vorgestrigen Brief, diesen zweiten folgen zu lassen, um Sie am Laufenden zu halten.</p>
+					<p>Zu vörderst eine rein persönliche Angelegenheit. Wir haben im Wege <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> Korrespondenz mit Bedauern erfahren, dass Sie erkrankt sind, hoffen Sie schon genesen und übermitteln Ihnen jedenfalls unsere
+						besten Wünsche.</p>
+					<p>Gestern geschah folgendes:</p>
+					<p>Durch <placeName ref="http://www.geonames.org/3068799/ostrava.html">Ostrauer</placeName> Korrespondenz erfuhren wir, dass es den Herren <persName ref="#EHRI-NISKO-19400207_1">Dr. Bohrer</persName>, <persName ref="#EHRI-NISKO-19400207_2">Dr. Dische</persName> und <persName
+							ref="#EHRI-NISKO-19400207_3">Ettinger</persName> gelungen sei, die Einreise des <placeName ref="http://www.geonames.org/3085128/sosnowiec.html">Sosnowitzer</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lagers</term> in die <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slowakei</placeName> durchzusetzen und dass diese Herren auch sich liebenswürdiger Weise anheischig
+						gemacht haben, ein gleiches für die <placeName ref="http://www.geonames.org/763829/nisko.html">Niskoer</placeName> Gruppe zu erwirken. Ueber unsere Initiative gelang es unser[em] sehr verehrten Herr <persName ref="#ehri_nisko_eisler_emil">Prof. Eisler</persName>, bei der
+						Lagerkommandatur zu erwirken, dass 2 unserer Herren (Baumeister <persName ref="#ehri_nisko_bellak_otto">Ing. Bellak</persName> und <persName ref="#EHRI-NISKO-19400207_5">Jakob Salomonowicz</persName>) nach <placeName ref="http://www.geonames.org/3094802/krakow.html"
+							>Krakau</placeName> fahren dürfen um von dort mit den <placeName ref="http://www.geonames.org/3085128/sosnowiec.html">Sosnowitzer</placeName> Herren in Fühlung zu treten, Informationen einzuholen und zweckdienliches zu veranlassen. Wir bitten Sie hochgeehrter Herr
+							<persName ref="#ehri_nisko_boschan_julius">Boschan</persName> Ihre Bemühungen auch in dieser Richtung wirksam werden zu lassen, hauptsächlich dahingehend, die finanziellen Verbindungen für die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203"
+							type="subject">Einreise</term> der <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> in die <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slowakei</placeName> im Wege der <orgName ref="#ehri_nisko_ikg_wien">Wiener
+							Kultusgemeinde</orgName> durchzuführen. Es ist selbstverständlich auch geboten, dass auch Sie für uns um diese Einreise einreichen, da doch oberster Grundsatz bleibt, dass es in erster Linie der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName>
+						unterliegt unsere Aus- und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Einreisemöglichkeiten</term> zu betreiben. Wir sind überzeugt, hochgeehrter Herr <persName ref="#ehri_nisko_boschan_julius">Boschan</persName>, dass Sie diesen ersten
+						Versuch aus eigener Initiative zu erreichen, mit allen zur Verfügung stehenden Mitteln unterstützen werden, denn über den prekären Stand unserer Situation hier hat Sie ja unser Vorschreiben genügend ins Bild gesetzt. In der Sachlage geboten ist, dass Ihre <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-276" type="subject">Unterstützung</term> resp. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-276" type="subject">Hilfsaktion</term> tunlichst sofort in die Wege geleitet werde.</p>
+					<p>Wir danken Ihnen im Voraus herzlichst und begrüssen Sie mit kameradschaftlichem Schalom</p>
+					<p>Die Vertrauensleute der <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> im Lager <placeName ref="http://www.geonames.org/753760/zarzecze.html">Zarzecze</placeName></p>
+					<p><persName ref="#ehri_nisko_kowler_hermann">Ing. Kowler</persName> m.p. <persName ref="#ehri_nisko_hamburger_walter">Hamburger</persName>
+						<persName ref="#EHRI-NISKO-19400207_6">Ing. Kurz</persName></p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

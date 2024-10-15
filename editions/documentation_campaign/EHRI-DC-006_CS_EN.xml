@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-006_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Ota Klinger, description of the harsh conditions in Auschwitz-Birkenau</title>
+				<title xml:lang="de">Ota Klinger, Beschreibung der harten Bedingungen in Auschwitz-Birkenau</title>
+				<title xml:lang="cs">Ota Klinger, popis drsných podmínek v Auschwitz-Birkenau</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<persName ref="#ehri_dc_klinger_ota">Ota Klinger</persName>, <origDate when="1945-11-19">19. 11. 1945</origDate>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Auschwitz-Birkenau</origPlace>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Torture</term>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Ota Klinger describes what he experienced in Auschwitz-Birkenau, where he was deported in December 1943. His report is brief and mainly focuses on his forced labor in the potato kitchen and on the torture practices of the SS men and Polish capos.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-006_01.jpg" n="1"/>
+					<p>Protokol</p>
+					<p>sepsaný s p. <persName ref="#ehri_dc_klinger_ota">Otou Klingrem</persName>, nar. <date when="1910-07-17">17. 7. 1910</date>, bytem v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> I., <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Betlémská</placeName> ul. 8., bývalým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněm</term> z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborů</term> v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětíně</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-851" type="camp">Schwarzheide</placeName>, národnosti <placeName ref="http://www.geonames.org/3077311/czechia.html">české</placeName>, povoláním úředník.</p>
+					<p>Dne <date when="1941-11-30">30. listopadu 1941</date> odjel jsem <placeName ref="http://www.geonames.org/3067696/prague.html">pražským</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem AK II</term> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>, kde jsem byl do <date when="1943-12">prosince
+							1943</date>, kdy jsem byl poslán <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětína</placeName>. Při nočním příjezdu do
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvěčína</placeName> odvedli nás z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">nákladních vozů</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňové</term> za asistence <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáků</term>. Již po cestě nás upozornili, že o všechno, co si vezeme s sebou
+						přijdeme a že nás čeká pravděpodobně osud milionů z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynových komor</term>. Pro velký příliv <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term>
+						žili jsme v této myšlence 2 dny v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sauně</term>, kde se nám naskýtaly nejhroznější obrazy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">utrpení</term> a bídy.
+						Hromady zmrzlých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">mrtvol</term>, krvácejících lidí, kteří byli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">postříleni</term> při opouštění <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">dřevěných baráků</term>. Cestou ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">vlaku</term> a i zde jsme <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">trpěli</term> nepopsatelnou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">žízní</term>. Ze zoufalství sbírali jsme vše, co mělo nějakou cenu, abychom vylákali
+						něco k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">pití</term>. Tak za zlato, brilianty nebo peníze, dostali jsme šálek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">čaje</term>. V <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinném</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">táboře</term>, kam jsme později přišli, našli jsme spoustu svých známých, které jsme pro jejich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject"
+							>podvýživu</term> stěží poznávali. Byl to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>, který přijel dne <date when="1943-09-06">6. září 1943</date>. Byli jsme s nimi do <date when="1944-03-07">7. března 1944</date>,
+						kdy šel celý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject">plynu</term>, ač jim bylo řečeno, že jedou do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">pracovního</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábora</term> v <placeName ref="http://www.geonames.org/3096372/kedzierzyn-kozle.html">Heidebreck</placeName>.</p>
+					<p>V té době jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracoval</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">bramborárně</term>, kde bezmezně <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">terorizoval</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">vedoucí</term>
+						<placeName ref="https://www.geonames.org/798544/republic-of-poland.html">Polák</placeName>
+						<persName ref="#ehri_dc_lada_vaclav">Vacek</persName> /<persName ref="#ehri_dc_lada_vaclav">Václav Lada</persName>/ i s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSákama</term>, dohlížejícíma v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kuchyni</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracovali</term> jsme od 4 h ráno do 6 h, někdy do 8 h večer bez přestávky, kromě možnosti <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sníst</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">oběd</term>. Zdálo-li se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> tempo <persName ref="#ehri_dc_lada_vaclav">Vackovi</persName> pomalé,
+						vzal hůl a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">řezal</term> hlava nehlava jednoho za druhým. Ačkoli sám <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">kradl</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">brambory</term> na celé pytle a vynášel z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kuchyně</term> ze skromných <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">přídělů</term> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězně</term> desítky kil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">cukru</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarínu</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-189" type="subject">vyměňoval</term> za kuřivo a šperky, které mu měly umožnit
+						prostopášný život, stačilo, aby u loupajících <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">bramborářů</term> našel jednu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bramboru</term> v kapse nebo v
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévce</term>, uschovanou pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">příslušníky</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiny</term> dotyčného <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">loupaře</term>, aby ukájel své <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">sadistické</term> choutky nepopsatelným způsobem. Nařídil třeba <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňovi</term>, aby si dal <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bramboru</term> do úst, udělal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">dřep</term> na stoličce, vzal další stoličku do rukou a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">cvičil</term>. Když nešťastník nemohl dále, používal <persName ref="#ehri_dc_lada_vaclav">Vacek</persName> buď hole, nebo strhl kovovou část lopaty a násadou nemilosrdně hlava nehlava <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">utloukal</term>. Byl-li <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězeň</term> vůbec ještě schopen nějakého pohybu, nechal otáčeti ho kolem lopaty tak
+						dlouho, až dostal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">závrať</term>. Pak ho polil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vodou</term>, kopal a takto k <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrti</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">utrápeného</term>, rozříceného, hodil v <date>lednu</date> za velkého <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">mrazu</term> do nádrže s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">ledovou</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vodou</term>, kde se měly prát <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">brambory</term>. Pak ho vyhodil z <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">bramborárny</term> a nechal za velikého <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">mrazu</term> odejít do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>. Pochopitelně, že i ten nejsilnější a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">nejzdravější</term> podlehl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">zápalu</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">plic</term>.</p>
+					<p>Za jednu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévku</term> jsme se hlásili, abychom mohli večer udělati tak zvanou čistku po 100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">loupačích</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">brambor</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">tuřínu</term>. Vše bylo vypočteno na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">týrání</term>. Tak i zde jsme vrhali nesčetné hektolitry <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vody</term> na podlahu a stačilo, aby <placeName
+							ref="https://www.geonames.org/798544/republic-of-poland.html">Polák</placeName> nebo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> našli na podlaze jednu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">šlupku</term> od <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">brambor</term> a nařídili sport. Pro potěšení <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáků</term> připojili k tomu
+						obyčejně i sport <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kuchyňských</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term>. S několika kgovým /5-7/ dřevěným česlem nechali běžet odsouzence kolem kotlů, při čemž musel dělat cviky jako dřep, nieder-auf, k zemi a vzhůru. Dali cvičit před otevřenými ohništi
+						kotlů. Když <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězeň</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">omdlel</term>, byl polit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vodou</term> a musel cvičit při těžkém <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">bití</term> dále. Mnoho lidí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">nežilo</term> dlouho po takovém sportu.</p>
+					<pb facs="EHRI-DC-006_02.jpg" n="2"/>
+					<p>Zajímavá byla tak zvaná <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">Fassung</term>. Z <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">rodinného</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">tábora</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II</term> dojížděli jsme do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-507" type="subject">Männerlágru</term>, kde jsme fasovali <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">poživatiny</term> na jeden týden pro 10.000 lidí z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>. Jeli jsme jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">koňské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">spřežení</term>, většinou v klusu. A právě tak jsme museli nakládat pytle s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">moukou</term> a jinýma <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">poživatinama</term>, za pilného svištění holí. Tak jsme museli třeba za 5 minut naložit 35 centů <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">mouky</term> na
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">vůz</term> za nepopsatelného vypětí sil a táhnout <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">vůz</term> do vedlejšího <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Bití</term> bylo tak kruté, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">vězeň</term> klesl pod kůl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">vozu</term>, byl přejet těžkým nákladem. Pochopitelné následky byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">fraktura</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">vnitřní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">krvácení</term>, a pod.</p>
+					<p>Vlastnoruční podpis:</p>
+					<p><persName ref="#ehri_dc_klinger_ota">Klinger Ota</persName></p>
+					<p>Protokol přijala:</p>
+					<p><persName ref="#ehri_dc_gerzonova_berta">B. Gerzonová</persName></p>
+					<p>Podpis svědků:</p>
+					<p><persName ref="#ehri_dc_lebovic_simon_alexander">Lebovič Simon Alexander</persName></p>
+					<p><persName ref="#ehri_dc_widder_max">Max Widder</persName></p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">akci</term> přijal: <date when="1945-11-19">19. 11. 1945</date></p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Za archiv: <persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-006_01.jpg" n="1"/>
+					<p>Statement</p>
+					<p>Written with Mr. <persName ref="#ehri_dc_klinger_ota">Ota Klinger</persName>, born <date when="1910-07-17">17. 7. 1910</date>, residing in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> I., <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Betlémská</placeName> ul. 8., former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+							type="ghetto">Theresienstadt</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, and <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-851" type="camp">Schwarzheide</placeName><term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>, <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName> nationality, profession clerk.</p>
+					<p>On <date when="1941-11-30">November 30th, 1941</date>, I departed on the <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">AK II transport </term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, where I remained until <date when="1943-12"
+							>December, 1943</date>, when I was sent via <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>. When we arrived in
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> at night, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term>, assisted by <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term>, led us from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">freight trains</term>. On the way, they warned us that everything we took with us
+						would be taken away and that we would likely meet the same fate as the millions who had perished in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">gas chambers</term>. Due to the large numbers of arriving <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term>, we lived with this thought for 2 days in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sauna</term>, where the most terrible <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">suffering</term> and misery occured. Piles of frozen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">corpses</term>, bleeding people who were <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> while leaving the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">wooden buildings</term>. On the way from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> and here as well we <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">suffered</term> from an indescribable <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">thirst</term>. In desperation, we collected anything we could to squeeze out any drops to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">drink</term>. In
+						exchange for gold, diamonds, or money, we got a cup of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">tea</term>. In the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">family</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">camp</term>, in which we were later placed, we found many of our friends, but we barely recognized them because they were so <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnourished</term>. That was the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> that arrived on <date when="1943-09-06">September 6th,
+							1943</date>. We were with them until <date when="1944-03-07">March 7th, 1944</date>, when the whole <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> was sent to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-534" type="subject">gas chamber</term>, although they were told that they would be sent to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labor</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term> in <placeName ref="http://www.geonames.org/3096372/kedzierzyn-kozle.html">Heidebreck</placeName>.</p>
+					<p>At the time, I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">potato kitchen</term>, where I was continuously <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">terrorized</term> by its <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">leader</term> (a <placeName ref="https://www.geonames.org/798544/republic-of-poland.html"
+							>Pole</placeName> named <persName ref="#ehri_dc_lada_vaclav">Vacek</persName>) (<persName ref="#ehri_dc_lada_vaclav">Václav Lada</persName>) and by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term> overseeing the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kitchen</term>. We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> from 4 in the morning to 6, or sometimes 8, in the evening without stopping,
+						except for when we could <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">lunch</term>. If <persName ref="#ehri_dc_lada_vaclav">Vacek</persName> thought we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">working</term> too
+						slowly, he would take a cane and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">beat</term> all of us. Although he himself <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">stole</term> whole bags of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potatoes</term> and took from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kitchen</term> kilos of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sugar</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">margarine</term> that were designated as meager <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">rations</term> for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-189"
+							type="subject">exchanged</term> them for tobacco and jewels, allowing him to live a debauched life, all it took for him to satisfy his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">sadistic</term> whims in the cruelest ways was for him
+						to find in the pockets of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">potato peelers</term>, or in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> left aside for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">peeler</term>’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+							>members</term>, a single <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potato</term>. Then he would order the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> to put the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potato</term> in his mouth, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">squat</term> on a stool, pick up another stool in his hands, and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-709" type="subject">exercise</term>. When the poor man could no longer continue, <persName ref="#ehri_dc_lada_vaclav">Vacek</persName> would use a cane or he would break off the metal part of a shovel and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">hit</term> him with the shaft. If the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> was still able to move, he would make him spin around the
+						shovel until he got <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">dizzy</term>. Then he would pour <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">water</term> all over him and kick the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">tortured</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">to the brink of death</term>, collapsed man, throw him into a tub full of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">ice cold</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">water</term> that was used to wash <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potatoes</term> in <date>January</date> when it was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">freezing</term> cold. Then, he kicked him out of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">potato kitchen</term> and let him return to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">freezing</term> cold weather. Even the strongest and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">healthiest</term> succumbed to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">pneumonia</term>.</p>
+					<p>For one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> we would volunteer in the evenings to clean up after 100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potato</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">turnip</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">peelers</term>. Everything was worked out to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">torture</term> us. We would cast countless hectoliters of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">water</term> onto the floor and if the <placeName
+							ref="https://www.geonames.org/798544/republic-of-poland.html">Pole</placeName> or the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> would find a single <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">potato</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">peel</term> they would order us to play sports. To the delight of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term>, they would get the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kitchen</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> to play the game with us. With a several kilo (5-7) heavy wooden object, they
+						ordered the condemned to run around a cauldron. They had to perform certain drills, such as squats, nieder-auf, to the ground and back up. They made them exercise in front of the open fire in the cauldrons. If the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">fainted</term>, they poured <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">water</term> on him and he would have to continue exercising while being severely
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">beaten</term>. Many people <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">didn’t live</term> much longer after this game.</p>
+					<pb facs="EHRI-DC-006_02.jpg" n="2"/>
+					<p>The so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">Fassung</term> was also interesting. We would commute from the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">family</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">camp</term> to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-507" type="subject">Männerlager</term>, where they handed out enough <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">foodstuffs</term> for a week for 10,000 people from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> to us. We traveled back <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">yoked</term> like <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">horses</term>, generally at a trot. This is how we had to load bags of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">flour</term> and other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">foodstuffs</term> while we were continually whipped with canes. We had to load 35 cents of
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">flour</term> onto the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">cart</term> in 5 minutes, which was unbelievably difficult for us, and then pull the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">cart</term> all the way to the neighboring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">beatings</term> were so cruel that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> would collapse under the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">cart</term> and be run over by the heavily laden vehicle. They would end up with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">fractures</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">internal</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">bleeding</term>, etc.</p>
+					<p>Signature:</p>
+					<p><persName ref="#ehri_dc_klinger_ota">Klinger Ota</persName></p>
+					<p>Statement accepted by:</p>
+					<p><persName ref="#ehri_dc_gerzonova_berta">B. Gerzonová</persName></p>
+					<p>Signature of witnesses:</p>
+					<p><persName ref="#ehri_dc_lebovic_simon_alexander">Lebovič Simon Alexander</persName></p>
+					<p><persName ref="#ehri_dc_widder_max">Max Widder</persName></p>
+					<p>On behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Campaign</term>: <date when="1945-11-19">19. 11. 1945</date></p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>On behalf of the archive: <persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

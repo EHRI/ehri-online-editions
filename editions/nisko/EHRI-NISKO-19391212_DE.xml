@@ -1,65 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19391212_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19391212_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title xml:lang="de">Emil Eisler an die IKG Wien bezüglich möglichen Geldüberweisugen aus Wien an die Nisko-Deportierten</title>
-				<title xml:lang="en">Emil Eisler to the IKG Vienna regarding possible money transfers from Vienna to the Nisko deportees</title>
+				<title xml:lang="de"><hi rend="bold">Emil Eisler an die IKG Wien bezüglich möglichen Geldüberweisugen aus Wien an die Nisko-Deportierten</hi>
+				</title>
+				<title xml:lang="en"><hi rend="bold">Emil Eisler to the IKG Vienna regarding possible money transfers from Vienna to the Nisko deportees</hi></title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
-							Wien</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>A/W 2747.</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf
-						Deutsch.</textLang>
+				<bibl>Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1939-12-12">12. Dezember 1939</date>
-				<placeName ref="#nisko">Nisko</placeName>
-				<idno>EHRI-NISKO-19391212</idno>
+			<creation><origDate when="1939-12-12">12. Dezember 1939</origDate>
+				<origPlace ref="http://www.geonames.org/763829/nisko.html">Nisko</origPlace>
 			</creation>
 			<textClass>
 				<keywords>
@@ -71,29 +76,33 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p><hi rend="paragraphdefaultfont">Betrifft</hi>: <term ref="#t1048" type="subject">Geldueberweisung</term><hi
-						rend="paragraphdefaultfont"> nach</hi>
-					<placeName ref="#EHRI-NISKO-19391212_1">Russland</placeName></p>
-				<p/>
-				<p rend="bullet_points">Von unseren im russischen Interessengebiet /<placeName ref="#lviv">Lemberg</placeName><hi
-						rend="paragraphdefaultfont">, etc./ sich</hi> befindlichen Freunden hoeren wir, dass sich dieselben in arger Geldverlegenheit
-					befinden. Wir koennen ihnen von hier aus selbstverständlich weder mit Geld noch mit Ausruestung helfen und bitten Sie unter
-					Hinweis auf unser gleichlautendes Schreiben die Frage zu pruefen, ob und in welcher <hi rend="paragraphdefaultfont">Weise</hi>
-					<term ref="#t1048" type="subject">Geldueberweisungen</term> nach Russland moeglich wären.</p>
-				<p rend="bullet_points">Ich kann mir denken, dass die Schwierigkeiten hier wesentlich groesser <hi rend="paragraphdefaultfont">sein
-						werden, als bei</hi>
-					<term ref="#t1048" type="subject">Geldsendungen</term><hi rend="paragraphdefaultfont"> an uns, doch muesste sich –</hi>
-					<hi rend="paragraphdefaultfont">vielleicht mit internationaler Hilfe, etwa</hi>
-					<orgName ref="#g419">Rotes Kreuz</orgName><hi rend="paragraphdefaultfont"> etc. – ein Weg finden</hi> lassen.</p>
-				<p rend="bullet_points">Ich bitte auch diese Frage sehr dringend zu behandeln und ueber das Resultat Ihrer Untersuchungen mich zu
-					verstaendigen.</p>
-				<p rend="bullet_points">Schalom</p>
-				<p rend="bullet_points"><persName ref="#ehri_nisko_eisler_emil">Eisler</persName></p>
-				<p rend="bullet_points">Hrn. <persName ref="#ehri_nisko_engel_emil">Amtsvorstand Engel</persName>!</p>
+				<div type="original" xml:lang="de">
+					<p><seg rend="absatzstandardschriftart">Betrifft</seg>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1048" type="subject">Geldueberweisung</term><seg rend="absatzstandardschriftart"> nach</seg>
+						<placeName ref="#EHRI-NISKO-19391212_1">Russland</placeName></p>
+					<p/>
+					<p rend="aufzahlungszeichen hanging">Von unseren im russischen Interessengebiet /<placeName ref="http://www.geonames.org/702550/lviv.html">Lemberg</placeName><seg rend="absatzstandardschriftart">, etc./ sich</seg> befindlichen Freunden hoeren wir, dass sich dieselben in arger
+						Geldverlegenheit befinden. Wir koennen ihnen von hier aus selbstverständlich weder mit Geld noch mit Ausruestung helfen und bitten Sie unter Hinweis auf unser gleichlautendes Schreiben die Frage zu pruefen, ob und in welcher <seg rend="absatzstandardschriftart">Weise</seg>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1048" type="subject">Geldueberweisungen</term> nach Russland moeglich wären.</p>
+					<p rend="aufzahlungszeichen hanging">Ich kann mir denken, dass die Schwierigkeiten hier wesentlich groesser <seg rend="absatzstandardschriftart">sein werden, als bei</seg>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1048" type="subject">Geldsendungen</term><seg rend="absatzstandardschriftart"> an uns, doch muesste sich –</seg>
+						<seg rend="absatzstandardschriftart">vielleicht mit internationaler Hilfe, etwa</seg>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">Rotes Kreuz</orgName><seg rend="absatzstandardschriftart"> etc. – ein Weg finden</seg> lassen.</p>
+					<p rend="aufzahlungszeichen hanging">Ich bitte auch diese Frage sehr dringend zu behandeln und ueber das Resultat Ihrer Untersuchungen mich zu verstaendigen.</p>
+					<p rend="aufzahlungszeichen hanging">Schalom</p>
+					<p rend="aufzahlungszeichen hanging"><persName ref="#ehri_nisko_eisler_emil">Eisler</persName></p>
+					<p rend="aufzahlungszeichen hanging">Hrn. <persName ref="#ehri_nisko_engel_emil">Amtsvorstand Engel</persName>!</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

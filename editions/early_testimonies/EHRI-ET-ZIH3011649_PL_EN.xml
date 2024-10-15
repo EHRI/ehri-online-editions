@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-ZIH3011649_PL_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Abraham Peller, extermination of Jews in Biecz</title>
+				<title xml:lang="de">Abraham Peller, Judenvernichtung in Biecz</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michał Czajka</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Marta Wojas</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Dagmara Chełstowska</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</orgName><address>
+								<street>Tłomackie 3/5</street>
+								<postCode>00-090</postCode>
+								<settlement>Warsaw</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll. 301)</collection>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Historical Institute in Warsaw, Holocaust Survivor Testimonies (coll. 301), Abraham Peller Testimony (301/1649). <textLang mainLang="pl">Original in Polish.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="#ehri_et_peller_abraham">Abraham Peller</persName>, <persName ref="#ehri_et_bauminger_roza">Róża Bauminger</persName>, <origPlace ref="http://www.geonames.org/776053/biecz.html">Biecz</origPlace>, <placeName ref="http://www.geonames.org/764343/moszczenica.html"
+					>Moszczenica</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-630" type="subject">extortions</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">murder of Jews</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-550" type="subject">round ups (razzias, Aktionen)</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="pl">Polish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Abraham Peller regarding the fate of the Jews of Biecz under the German occupation, describing executions and liquidation of the ghetto in August 1942. In February 1942, the author survived an execution in which his family perished and he found shelter with Adela
+					Jędrzejowska in Moszczenica.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="pl">
+					<!-- <p>Relacja <persName ref="#ehri_et_peller_abraham">Abrahama Pellera</persName> (sygn.
+        301/1649)</p>
+      <p>Oryginał, rękopis, 2 strony 210 x 295 mm, 1 strona 210 x 140 mm, język polski</p>-->
+					<p><pb facs="EHRI-ET-ZIH3011649_01.jpg" n="1"/><persName ref="#ehri_et_peller_abraham">Abraham Peller</persName></p>
+					<p>Urodzony w <placeName ref="http://www.geonames.org/764274/mszanka.html">Mszance</placeName> (powiat <placeName ref="http://www.geonames.org/771804/gorlice.html">Gorlice</placeName>) <date when="1894">1894</date></p>
+					<p>Zamieszkały w<placeName ref="http://www.geonames.org/7533250/biecz.html"> Bieczu</placeName> koło <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasła</placeName>
+						<note type="gloss">protokołowała</note>
+						<persName ref="#ehri_et_bauminger_roza">Róża Bauminger</persName></p>
+					<p>Akcje w <placeName ref="http://www.geonames.org/7533250/biecz.html">Bieczu</placeName></p>
+					<p>Z początku podczas okupacji było w naszym miasteczku spokojnie. <date when="1942-01-03">3 stycznia 1942</date> zaczęły się ekscesy. <term ref="#ehri_et_nationalities_germans">Niemcy</term> wpadli do kilku mieszkań żydowskich i <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zastrzelili</term> 8 ludzi, którzy im przypadkowo wpadli w ręce. Nazwiska tych ludzi: dwaj bracia <persName ref="#ehri_et_heller">Heller</persName>, <persName ref="#ehri_et_bornstein"
+							>Bornstein</persName> z <placeName ref="http://www.geonames.org/3093133/lodz.html">Łodzi</placeName>, <persName ref="#ehri_et_gilowa">Gilowa</persName> z <placeName ref="http://www.geonames.org/3093133/lodz.html">Łodzi</placeName>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">żona</term> krawca, matka trojga <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dzieci</term>, <persName ref="#ehri_et_itzinger_chaim">Chaim Itzinger</persName>
+						z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">córką</term>
+						<persName ref="#ehri_et_itzinger_regina">Reginą</persName>, <persName ref="#ehri_et_czesniower_izak">Izak Cześniower</persName>. Był to tak zwany „kontyngent miastowy”. Podobne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mordy</term>
+						miały miejsce w okolicznych miastach: w <placeName ref="http://www.geonames.org/771804/gorlice.html">Gorlicach</placeName> i innych. Jakaś <term ref="#ehri_et_nationalities_poles">Polka</term> z <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasła</placeName>
+						doniosła, że <persName ref="#ehri_et_zucker">doktor Zucker</persName> z <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasła</placeName> był komisarzem za czasów <term ref="#ehri_et_nationalities_soviets">sowieckich</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Zastrzelono</term> go z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">żoną</term> na miejscu, a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">córki</term> przywieziono do <placeName ref="http://www.geonames.org/776053/biecz.html">Biecza</placeName>. Po drodze kazano im wysiąść i <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zastrzelono</term> koło mojego domu. Mój <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">syn</term> pobiegł po <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lekarza</term>, bo jedna z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">dziewcząt</term> żyła jeszcze, ale jej stan był beznadziejny i po pół godzinie <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">umarła</term>, a komendant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policji polskiej</term>
+						<persName ref="#ehri_et_fornalik_ignacy">Ignacy Fornalik</persName> doniósł na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policję</term>, że Żydzi ratowali <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+							type="subject">dziewczynę</term> skazaną na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">śmierć</term> i <date when="1942-02-16">16 lutego 1942</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">policjanci polscy</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">zaaresztowali</term> tych <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">chłopców</term> i ich <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodziny</term>. Ja zostałem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">zaaresztowany</term> z <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">synem</term>. Szantażowali nas, by wyłudzić pieniądze. Otrzymali większą sumę, <persName ref="#ehri_et_spielman">Spielmana</persName> zwolnili od razu, mnie mieli wypuścić wieczorem, a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">chłopców</term> w nocy. W międzyczasie przyjechało <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">gestapo</orgName> i kazali sprowadzić z powrotem <persName
+							ref="#ehri_et_spielman">Spielmana</persName> z całą <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodziną</term>, a prócz tego <persName ref="#ehri_et_schnaps_hinda">Hindę Schnaps</persName> z dwoma <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">synami</term> i moją <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodzinę</term> złożoną z siedmiu osób. Skazańców skuwano po dwóch i o 7 wieczór wszystkich
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">rozstrzelono</term>. Byłem ostatni w kolei i patrzałem na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">śmierć</term> moich najbliższych. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Zastrzelono</term>
+						<persName ref="#ehri_et_spielman">Spielmana</persName>, do którego byłem przykuty. Zwalił się na ziemię, zalany krwią, <pb facs="EHRI-ET-ZIH3011649_02.jpg" n="2"/> pociągnął mnie za sobą. Leżałem w kałuży krwi. <term ref="#ehri_et_nationalities_germans" type="subject"
+							>Niemcy</term> byli pewni, że <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">nie żyję</term>, lecz dla pewności <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">strzelili</term> mi w ramię. Następnie
+						kazali uprzątnąć <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">trupy</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policjantom polskim</term>. Ci zdejmowali kajdanki z rąk <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">trupów</term>, a gdy przerwali robotę, skorzystałem z
+						ich odejścia, podniosłem się i ociekając krwią zawlokłem się do okolicznej wsi, 20 kilometrów, do <placeName ref="http://www.geonames.org/764343/moszczenica.html">Moszczenicy</placeName>, do chłopki <persName ref="#ehri_et_jedrzejewska_adela">Adeli Jędrzejewskiej</persName>,
+						która zachowała się bardzo ofiarnie i dała mi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">schronienie</term>.</p>
+					<p>Od naocznych świadków dowiedziałem się, że <date when="1942-02-18">18 lutego</date> zabrano 100 Żydów z <placeName ref="http://www.geonames.org/776053/biecz.html">Biecza</placeName>, przetrzymano 4 dni w <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669"
+							type="subject">więzieniu</term>, odebrano im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">pieniądze</term>, a po 4-ch dniach <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zastrzelono</term> 69-ciu
+							(<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodzinę</term>
+						<persName ref="#ehri_et_schutzer">Schützer</persName>, <persName ref="#ehri_et_gewurz">Gewürz</persName>, <persName ref="#ehri_et_kleinman">Kleinman</persName>, <persName ref="#ehri_et_wagschaller">Wagschaller</persName>). Okazało się, że <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policja polska</term> urządziła tę akcję na własną rękę i gdy przyszedł telefon od <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">gestapo</orgName> z <placeName
+							ref="http://www.geonames.org/770293/jaslo.html">Jasła</placeName>, zdołali już <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">uśmiercić</term> 31 ofiar. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject"
+							>Policja polska</term> szantażowała ludność żydowską i wyłudzili 250 tysięcy złotych, w przeciwnym razie grozili podobną akcją. W kilka miesięcy później <term ref="#ehri_et_nationalities_germans">Niemcy</term> zabrali 14 Żydów rzekomo za to, że ich bracia byli <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1009" type="subject">komunistami</term> i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">rozstrzelali</term>. Nazwiska ofiar: <persName ref="#ehri_et_schneider"
+						>Schneider</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodzina</term> z 5-ciu osób, <persName ref="#ehri_et_kurz">Kurz</persName>, <persName ref="#ehri_et_jakobowicz">Jakóbowicz</persName>, <persName ref="#ehri_et_wagschal"
+							>Wagschal</persName> z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">żoną</term>.</p>
+					<p><date when="1942-08">W sierpniu 1942</date> nastąpiła <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">akcja likwidacyjna</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Zastrzelono</term> na miejscu
+						170 ofiar i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">pochowano</term> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-747" type="subject">cmentarzu</term> żydowskim 700 ludzi załadowano do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">wagonów</term> i wysłano do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-41" type="camp">Bełżca</placeName>. Tych, którzy się <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">ukryli</term>, wyłapywała <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">polska policja</term> i oddała w ręce <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">gestapo</orgName>. <pb facs="EHRI-ET-ZIH3011649_03.jpg" n="3"/> Ja z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">bratem</term> i 2-ma Żydami byliśmy <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">ukryci</term> u <persName ref="#ehri_et_jedrzejewska_adela">Jędrzejewskiej</persName>. W tej wiosce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">ukrywało
+							się</term> jeszcze około 70 Żydów. Komendant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policji polskiej</term> w tej wiosce, <persName ref="#ehri_et_bednarz">Bednarz</persName> dostał rozkaz urządzenia obławy na Żydów <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">ukrywających się</term> w okolicy. Dał nam znać o grożącym nam niebezpieczeństwie i opuściliśmy <placeName ref="http://www.geonames.org/764343/moszczenica.html">Moszczenicę</placeName>, a
+						nazajutrz zebrał 70-ciu chłopów i kazał im z widłami szukać Żydów po strychach. Oczywiście nie znaleźli ani jednego Żyda. <persName ref="#ehri_et_bednarz">Bednarz</persName> kilka razy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">uratował
+							Żydów</term> z narażeniem własnego życia. Szantażowano go i komisarz <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">polskiej policji</term>
+						<persName ref="#ehri_et_kazmierczak">Kaźmierczak</persName> oddalił go z tej wsi (<placeName ref="http://www.geonames.org/765673/luzna.html">Łużna</placeName>) i przeniesiono go do <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasła</placeName>. Obecnie <persName
+							ref="#ehri_et_bednarz">Bednarz</persName> jest burmistrzem w <placeName ref="http://www.geonames.org/7534761/blazejow.html">Blasdorf</placeName><note type="gloss">Blasdorf bei Schömberg, obecnie - Błażejów</note> koło <placeName
+							ref="http://www.geonames.org/3096779/kamienna-gora.html">Kamiennej Góry</placeName>.</p>
+					<p><note type="gloss">podpis</note>
+						<persName ref="#ehri_et_peller_abraham">Peller Abraham</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<!--<p><persName ref="#ehri_et_peller_abraham">Abraham Peller</persName> Testimony (doc.
+        301/1649)</p>
+      <p>Original, manuscript, 2 pages 210 x 295 mm, 1 page 210 x 140 mm, Polish language.</p>-->
+					<p><pb facs="EHRI-ET-ZIH3011649_01.jpg" n="1"/>
+						<persName ref="#ehri_et_peller_abraham">Abraham Peller</persName></p>
+					<p>Born at <placeName ref="http://www.geonames.org/764274/mszanka.html">Mszanka</placeName> (the <placeName ref="http://www.geonames.org/771804/gorlice.html">Gorlice</placeName> county) in <date when="1894">1894</date></p>
+					<p>Residing at <placeName ref="http://www.geonames.org/776053/biecz.html">Biecz</placeName>, near <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasło</placeName> [recorded by] <persName ref="#ehri_et_bauminger_roza">[Róża] Bauminger</persName></p>
+					<p>Actions in <placeName ref="http://www.geonames.org/776053/biecz.html">Biecz</placeName></p>
+					<p>In the early days of the occupation it was quiet in our town. But on <date when="1942-01-03">January 3, 1942</date>, the excesses began. The <term ref="#ehri_et_nationalities_germans" type="subject">Germans</term> raided several Jewish homes and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">shot</term> 8 people who happened to fall into their hands. The names of these people are: two <persName ref="#ehri_et_heller">Heller</persName> brothers, <persName ref="#ehri_et_bornstein"
+							>Bornstein</persName> from <placeName ref="http://www.geonames.org/3093133/lodz.html">Łódź</placeName>, <persName ref="#ehri_et_gilowa">Gilowa</persName> from <placeName ref="http://www.geonames.org/3093133/lodz.html">Łódź</placeName>, a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">wife</term> of a tailor and mother of three <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, <persName ref="#ehri_et_itzinger_chaim">Chaim
+							Itzinger</persName> with his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">daughter</term>
+						<persName ref="#ehri_et_itzinger_regina">Regina</persName>, and <persName ref="#ehri_et_czesniower_izak">Izak Cześniower</persName>. It was the so-called <q>town quota</q>. Similar acts of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+							>homicide</term> took place in the nearby towns: in <placeName ref="http://www.geonames.org/771804/gorlice.html">Gorlice</placeName>, and others. Some <term ref="#ehri_et_nationalities_poles" type="subject">Polish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> from <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasło</placeName> informed that <persName ref="#ehri_et_zucker">Dr Zucker</persName> of <placeName
+							ref="http://www.geonames.org/770293/jaslo.html">Jasło</placeName> had been a commissar during the times of the <term ref="#ehri_et_nationalities_soviets" type="subject">Soviets</term>. He and his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+							type="subject">wife</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">shot</term> on the spot, and their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">daughters</term> were taken to <placeName
+							ref="http://www.geonames.org/776053/biecz.html">Biecz</placeName>. They were ordered to get out of the car and were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">shot</term> near my house. My <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">son</term> ran to fetch a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> because one of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term> was still alive, but her state was hopeless, and she <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> half an hour later. <persName
+							ref="#ehri_et_fornalik_ignacy">Ignacy Fornalik</persName>, commandant of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish police</term>, informed the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+							type="subject">police</term> that some Jews had tried to save a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girl</term> who had been sentenced to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+							>death</term>, and on <date when="1942-02-16">February 16, 1942</date>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish policemen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">boys</term> and their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819"
+							type="subject">families</term>. My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">son</term> and I were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term>, too. They blackmailed us to
+						swindle us out of money, and they got a pretty large sum. <persName ref="#ehri_et_spielman">Spielman</persName> was freed immediately, I was to be released in the evening, and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">boys</term> at
+						night. But in the meantime the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> arrived, and they ordered to have <persName ref="#ehri_et_spielman">Spielman</persName> and his entire <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> brought back, and apart from them also <persName ref="#ehri_et_schnaps_hinda">Hinda Schnaps</persName> with her two <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+							type="subject">sons</term> and my entire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> of seven. All of us were handcuffed in pairs, and at 7 pm everybody was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">shot</term>. I was at the very rear, and looked at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> of my <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term>. Then they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">shot</term>
+						<persName ref="#ehri_et_spielman">Spielman</persName>, who was handcuffed with me. He tumbled down, all covered with blood, <pb facs="EHRI-ET-ZIH3011649_02.jpg" n="2"/> and I fell with him. I was lying in a puddle of blood, and the <term ref="#ehri_et_nationalities_germans"
+							type="subject">Germans</term> thought that I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term>, but they shot me in the arm just to make sure. Then they ordered <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish policemen</term> to take the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">bodies</term> away. They removed our handcuffs, and when they went away for a
+						break, I took advantage of their absence, raised myself and, dripping blood, managed to drag myself to the village of <placeName ref="http://www.geonames.org/764343/moszczenica.html">Moszczenica</placeName>, 20 kilometres away, to a <term ref="#ehri_et_nationalities_poles"
+							type="subject">Polish</term> peasant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term>, <persName ref="#ehri_et_jedrzejewska_adela">Adela Jędrzejewska</persName>, who was very generous towards me and gave me <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-265" type="subject">shelter</term>.</p>
+					<p>I learnt from eye-witnesses that on <date when="1942-02-18">February 18</date>, 100 Jews were taken from <placeName ref="http://www.geonames.org/776053/biecz.html">Biecz</placeName>. They were kept in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669"
+							type="subject">prison</term> for 4 days, their money was confiscated, and after 4 days 69 of them were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">shot</term> (the <persName ref="#ehri_et_schutzer">Schützer</persName>, <persName
+							ref="#ehri_et_gewurz">Gewürz</persName>, <persName ref="#ehri_et_kleinman">Kleinman</persName> and <persName ref="#ehri_et_wagschaller">Wagschaller</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>). It turned out that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish police</term> was responsible for organising this action, and
+						when they got a phone call from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> from <placeName ref="http://www.geonames.org/770293/jaslo.html">Jasło</placeName>, they had already <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">killed</term> 31 people. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish police</term> blackmailed the Jews and they swindled 250 thousand zlotys out
+						of them, saying that if they didn’t pay, another similar action would be carried out. A few months later the <term ref="#ehri_et_nationalities_germans" type="subject">Germans</term> took and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+							>shot</term> 14 other Jews. Allegedly, the charge against them was was that their brothers were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1000" type="subject">communists</term>. The names of some of the victims are: <persName ref="#ehri_et_schneider"
+							>Schneider</persName>, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> of five, <persName ref="#ehri_et_kurz">Kurz</persName>, <persName ref="#ehri_et_jakobowicz">Jakóbowicz</persName>, and <persName
+							ref="#ehri_et_wagschal">Wagschal</persName> with his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">wife</term>.</p>
+					<p>In <date when="1942-08">August 1942</date> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">liquidation</term> action took place. 170 people were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term> on
+						the spot and buried at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Jewish cemetery</term>. 700 people were loaded onto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">cattle cars</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">transported</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-41" type="camp">Bełżec</placeName>. Those who managed to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hide</term> were hunted down by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish police</term> and turned over to the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>. <pb facs="EHRI-ET-ZIH3011649_03.jpg" n="3"/> I and my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">brother</term> and two other Jews were <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hiding</term> at <persName ref="#ehri_et_jedrzejewska_adela">Jędrzejewska’s</persName> home, and around 70 other Jews were in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262"
+							type="subject">hiding</term> in the same village. The commandant of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish police</term> in that village, <persName ref="#ehri_et_bednarz">Bednarz</persName>, was ordered to conduct a
+						search for the Jews <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hiding</term> in the area. He warned us against the danger we were in, and we left <placeName ref="http://www.geonames.org/764343/moszczenica.html">Moszczenica</placeName>.
+						On the following day, he assembled 70 peasants with pitchforks, and ordered them to look for Jews in the attics. They certainly failed to find a single Jew. <persName ref="#ehri_et_bednarz">Bednarz</persName> risked his life several times to save Jews. He was blackmailed, and
+						then removed by the commissar of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polish police</term> from that particular village (of <placeName ref="http://www.geonames.org/765673/luzna.html">Łużna</placeName>) to <placeName
+							ref="http://www.geonames.org/770293/jaslo.html">Jasło</placeName>. At present <persName ref="#ehri_et_bednarz">Bednarz</persName> is a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1006" type="subject">mayor</term> in <placeName
+							ref="http://www.geonames.org/7534761/blazejow.html">Blasdorf</placeName>
+						<note type="gloss">Blasdorf bei Schömberg, Polish name: <placeName ref="http://www.geonames.org/7534761/blazejow.html">Błażejów</placeName>.</note> near <placeName ref="http://www.geonames.org/3096779/kamienna-gora.html">Kamienna Góra</placeName>.</p>
+					<p>[signed by] <persName ref="#ehri_et_peller_abraham">Abraham Peller</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

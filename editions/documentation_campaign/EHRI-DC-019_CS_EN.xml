@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-019_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Erich Nasch, report on the Jewish women liberated by the Americans in Volary during the death march</title>
+				<title xml:lang="de">Erich Nasch, Bericht über die von den Amerikanern während des Todesmarsches in Volary befreiten jüdischen Frauen</title>
+				<title xml:lang="cs">Erich Nasch, zpráva o židovských ženách osvobozených Američany ve Volarech během pochodu smrti</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 81(Documentation action)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 81. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origPlace ref="http://www.geonames.org/3062593/volary.html">Volary</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName>, <persName
+					ref="#ehri_dc_weinberger_robert">Robert Weinberger</persName>, <origDate when="1945-10">October 1945</origDate>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Erich Nasch and Robert Weinberger, co-workers of the Documentation campaign, visited several former labor and concentration camps in Austria and Germany a few months after the war to gather evidence about the events of the Holocaust. Before crossing the Czechoslovak border, they
+					stopped in Volary, where Nasch examined Jewish patients in the local hospital and wrote a report on his findings. According to his report, 160 women and children were in Volary at the time of its liberation. Most were sick and had to be treated, and 14 remained in the local
+					hospital and were examined by Nasch, who proposed further treatment for them.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-019_01.png" n="1"/>
+					<p>Ve <placeName ref="http://www.geonames.org/3062593/volary.html">Volarech</placeName> dne <date when="1945-10-20">20. 10. 1945</date></p>
+					<p>MUDr. <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">XVIII</placeName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Cukrovarnická 71</placeName></p>
+					<p>Titl.</p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">Joint American Distribution Committee</orgName>,</p>
+					<p>Přípravný výbor k rukám Dra <persName ref="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2014949">Adolfa Beneše</persName>,</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha V</placeName>.</p>
+					<p>Věc: vyšetření o stavu židovských pacientek v místní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnici</term> ve <placeName ref="http://www.geonames.org/3062593/volary.html">Volarech</placeName></p>
+					<p>V den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobození</term>
+						<placeName ref="http://www.geonames.org/6252001/united-states.html">Američany</placeName> nacházelo se ve <placeName ref="http://www.geonames.org/3062593/volary.html">Volarech</placeName> 160 židovských <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+							type="subject">žen</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">dívek</term>, které se sem dostaly po <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pochodu</term> z různých <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>. Převážná většina z nich byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocná</term>, takže byly v ošetření zdejší <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnice</term>. 35 bylo tak vážně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term>, že jejich pobyt trval delší dobu. Před dvěma měsíci
+						navrhoval vedoucí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékař</term>
+						<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Němec</placeName> Dr. <persName ref="#ehri_dc_ruge">Ruge</persName>, který jako primář ošetřuje, převoz 35 jmenovaných do <placeName ref="http://www.geonames.org/2658434/switzerland.html"
+							>Švýcarska</placeName>. Mezitím se však další počet buď uzdravil a nebo na vlastní popud vrátil domů, případně byl <placeName ref="http://www.geonames.org/6252001/united-states.html">Američany</placeName> převezen do <placeName
+							ref="http://www.geonames.org/2951839/bavaria.html">Bavorska</placeName> /viz příloha/, takže t.č. se nachází v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocničním</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">léčení</term> zde 14 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827"
+							type="subject">dívek</term>. Mimo ně byl soukromě ve <placeName ref="http://www.geonames.org/3062593/volary.html">Volarech</placeName> pět <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">dívek</term> propuštěných z <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnice</term>.</p>
+					<p>Povšechně jsem zjistil, že o pacientky je dosti dobře postaráno, co se týče <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařského</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">ošetření</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">léků</term> /nedostává se jim pouze <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">penicilin</term>, který dostávaly ze začátku od <placeName ref="http://www.geonames.org/6252001/united-states.html">Američanů</placeName>/ a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravování</term>. Ačkoli byly do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnice</term> přijaty v zoufalém stavu <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživy</term>, zotavily se do dneška dosti dobře. Ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravování</term> nastala před dvěma dny změna tím, že
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnice</term> nepodléhá již <placeName ref="http://www.geonames.org/6252001/united-states.html">Američanům</placeName>, nýbrž zdejším <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-124" type="subject">civilním</term> úřadům, takže asi dosavadní dávky dodrženy nebudou. Velmi špatně je postaráno o jejich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+							>ošacení</term>. Všechny by potřebovaly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">prádlo</term>, teplé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šaty</term>, vlněné věci, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pláště</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">klobouky</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+							>ponožky</term> nebo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">punčochy</term> a zejména <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">boty</term>. Zdejší Národní výbor prý jim nedává ani <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatenky</term>, ani poukaz na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatstvo</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">obuv</term>.</p>
+					<p>Jde o následující pacientky:</p>
+					<p><persName ref="#ehri_dc_kahlich_lilly">Kahlich Lilly</persName>, 36 roků, svob., <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od roku
+							<date when="1942">1942</date>. Diagnosa: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">průjmy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminóza</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">hostec</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">kloubový</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">edémy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>slabost</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">krevního</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">oběhu</term>. Není ještě vyléčena. Chtěla by do <placeName ref="http://www.geonames.org/2657896/zuerich.html">Curychu</placeName>, protože tam má <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">strýce</term>. Chtěla by nějaký čas stráviti ve <placeName ref="http://www.geonames.org/2658434/switzerland.html">Švýcarsku</placeName>, aby se tam uzdravila. Indikace pro změnu podnebí jest jenom
+						relativní.</p>
+					<p><persName ref="#ehri_dc_kartusch_regina">Kartusch Regina</persName>, 25 roků, svob., <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsko</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od
+						r. <date when="1942">1942</date>. Diagnosa: poranění hlavy a levého stehna granátovými střepy s následující <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">obrnou</term> levého n. peronaei. Rána na hlavě ještě nezahojena. Potřebuje <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">ortopedickou</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">obuv</term>. Chce se se svou přítelkyní <persName ref="#ehri_dc_hochmann_rosa">Hochmannovou Rosou</persName> do <placeName ref="http://www.geonames.org/294640/state-of-israel.html"
+							>Palestiny</placeName>.</p>
+					<p><persName ref="#ehri_dc_hochmann_rosa">Hochmann Rosa</persName>, 30 roků, svobod. <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsko</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od r.
+							<date when="1942">1942</date>. Diagnosa: poranění levé lopatky ramenní granátovým střepem, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">osteomyelitis</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569"
+							type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminóza</term>, omezená pohyblivost levého ramena. Má <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sestru</term> v
+							<placeName ref="http://www.geonames.org/2782058/bad-gastein.html">Bad Gastein</placeName> /<placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakousko</placeName>/, chce se k ní dostat a odtud do <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Palestiny</placeName>. Potřebuje <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">ortopedickou</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">obuv</term> pro hallux valgus.</p>
+					<pb facs="EHRI-DC-019_02.png" n="2"/>
+					<p><persName ref="#ehri_dc_ebbe_hanni">Ebbe Hanni</persName>, 24 roků, svob., <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německo</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od
+						r. <date when="1938">1938</date>. Diagnosa: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminóza</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">průjmy</term>, omrznutí obou nohou lehčího stupně. Zotavila se. Má přátele v <placeName ref="http://www.geonames.org/2657896/zuerich.html">Curychu</placeName> a chce se tam dostat. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Lékařská</term> indikace k tomu není.</p>
+					<p><persName ref="#ehri_dc_ebbe_lea">Ebbe Lea</persName>, 20 roků, svob., <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německo</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od r.
+							<date when="1938">1938</date>. Diagnosa: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhus</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">abdominalis</term>, omrznutí pravé nohy, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>. Potřebuje ortopedickou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">obuv</term>, chce zpátky do <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německa</placeName>, nechce však do sběrného <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábora</term>.</p>
+					<p><persName ref="#ehri_dc_ebbe_nelly">Ebbe Nelly</persName>, 23 roků, svob., <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německo</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od
+						r. <date when="1938">1938</date>. Diagnosa: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminóza</term>, stav po zánětu pohrudnice,
+						chce se svou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sestrou</term>
+						<persName ref="#ehri_dc_ebbe_lea">Leou</persName> taktéž do <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německa</placeName>.</p>
+					<p><persName ref="#ehri_dc_ebbe_dora">Ebbe Dora</persName>, 17 roků, svob., <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německo</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od
+						r. <date when="1938">1938</date>. Diagnosa: floridní aktivní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tuberkulosa</term> plic, intermitující horečka, silná <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">anaemie</term>, t. č. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term> neschopná. Převoz do <placeName ref="http://www.geonames.org/2658434/switzerland.html">Švýcarska</placeName> velmi žádoucí za
+						předpokladu, že se natolik zotaví, aby vydržela <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>.</p>
+					<p><persName ref="#ehri_dc_auslander_eva">Ausländer Eva</persName>, 15 roků, svob. PKR, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od r. <date when="1944">1944</date>. Diagnosa: <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">průjmy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>avitaminóza</term>, omrznutí obou nohou 3. stupně, která vedla k amputaci levé nohy ve dvou třetinách bérce a k amputaci všech prstů pravé nohy. Rány nejsou dosud zahojeny. Případ je obzvláště tragický vzhledem k mladému věku <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">děvčete</term>. Má v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bratra</term>, který <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1214" type="subject">studuje</term> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134"
+							type="subject">gymnásiu</term> / <persName ref="#ehri_dc_auslander_tibor">Tibor Ausländer</persName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">XIX</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Malířská</placeName> 1/. Potřebovala by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">máslo</term>,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ovoce</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">čokoládu</term>. Navrhuji po dohodě s <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bratrem</term> pobyt ve <placeName ref="http://www.geonames.org/2658434/switzerland.html">Švýcarsku</placeName> na dva měsíce. Potřebuje později prothesi. Má <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">příbuzné</term> v <placeName ref="http://www.geonames.org/6252001/united-states.html">Americe</placeName>.</p>
+					<p><persName ref="#ehri_dc_gergely_johanna">Gergely Johanna</persName>, 19 roků, vdaná, Jugosl., Diagnosa: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">chudokrevnost</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">průjmy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosa</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">obrna</term> levé poloviny těla neznámého původu. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Choroba</term> jest psychicky nadstavena, mívá nervové záchvaty.
+						Chce za <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">rodiči</term> do <placeName ref="http://www.geonames.org/3054643/budapest.html">Budapeště</placeName>.</p>
+					<p><persName ref="#ehri_dc_hauptmann_bina">Hauptmann Bina</persName>, 23 roků, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsko</placeName>, svob., <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od
+						roku <date when="1942">1942</date>. Diagnosa: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">průjmy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminóza</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>, omrznutí obou nohou až 3. stupně, ztráta posledních článků všech prstů obou nohou. Potřebuje <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject"
+							>ortopedickou</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">obuv</term>. Chce do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>, aby tam <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+							type="subject">pracovala</term>.</p>
+					<p><persName ref="#ehri_dc_herschkop_fely">Herschkop Fely</persName>, 21 roků, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsko</placeName>, svob., <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od r.
+							<date when="1942">1942</date>. Diagnosa: omrznutí obou nohou se ztrátou malíku na levé noze, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživa</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">avitaminóza</term>. Prodělala <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">žloutenku</term>. Po uzdravení si chce najít <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">práci</term> v
+							<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německu</placeName>.</p>
+					<p><persName ref="#ehri_dc_halberstamm_schajna">Halberstamm Schajna</persName>, 20 roků, svob., <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsko</placeName>. Diagnosa: omrznutí obou nohou, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">průjmy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminóza</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569"
+							type="subject">podvýživa</term>. Prodělala exsudativní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">zánět</term> pohrudnice. Má <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sestru</term> v
+							<placeName ref="http://www.geonames.org/3077882/cesky-tesin.html">Českém</placeName>
+						<placeName ref="http://www.geonames.org/3077882/cesky-tesin.html">Těšíně</placeName>, chce se dostat do <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německa</placeName>, a potom do <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Palestiny</placeName>.</p>
+					<p><persName ref="#ehri_dc_friedmann_veronika">Friedmann Veronika</persName>, 21 roků, svob., <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsko</placeName>. Diagnosa: stav po miliární <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">tuberkulose</term>, febrilní záchvaty Meniére, nechuť k jídlu. Převoz do <placeName ref="http://www.geonames.org/2658434/switzerland.html">Švýcarska</placeName> nutně indikován.</p>
+					<pb facs="EHRI-DC-019_03.png" n="3"/>
+					<p>list 2.</p>
+					<p><persName ref="#ehri_dc_reinfeld_paula">Reinfeld Paula</persName>, 32 roků, provd., <placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgie</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězněna</term> od
+						r. <date when="1942">1942</date>. Diagnosa: po silné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">podvýživě</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">slabost</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">srdeční</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">oběhu</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">krevního</term> s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">edémy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">amenorrhoee</term>. Vrátí se do <placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgie</placeName>, kde má <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">manžela</term>.</p>
+					<p>Úhrnem navrhuji, aby byl umožněn pobyt ve <placeName ref="http://www.geonames.org/2658434/switzerland.html">Švýcarsku</placeName> ze <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">zdravotních</term> důvodů těmto pacientkám:</p>
+					<p><persName ref="#ehri_dc_ebbe_dora">Ebbe Dora</persName></p>
+					<p><persName ref="#ehri_dc_auslander_eva">Ausländer Eva</persName></p>
+					<p><persName ref="#ehri_dc_friedmann_veronika">Friedmann Veronika</persName>.</p>
+					<p>Dále navrhuji, aby všechny pacientky byly vybaveny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatstvem</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">prádlem</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">obuví</term>, aby dostaly přilepšení ke <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravě</term> a menší podporu v penězích. Dále budiž jim poskytnuta pomoc
+						při jejich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1226" type="subject">repatriaci</term>, resp. vystěhování.</p>
+					<p>Své údaje bych doplnil po svém návratu ústně.</p>
+					<p>Dr. <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName></p>
+					<pb facs="EHRI-DC-019_04.png" n="4"/>
+					<p><date when="1945-10-19">19. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName> – <placeName ref="http://www.geonames.org/3068160/pilsen.html">Plzeň</placeName> – <placeName ref="http://www.geonames.org/3062888/vimperk.html">Vimperk </placeName>– <placeName
+							ref="http://www.geonames.org/3062593/volary.html">Volary</placeName></p>
+					<p><date when="1945-10-20">20. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName> – <placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Vyšší</placeName>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Brod</placeName> – <placeName ref="http://www.geonames.org/3064830/studanky.html">Studánky</placeName> st. hran. – <placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Vyšší</placeName>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Brod</placeName></p>
+					<p><date when="1945-10-21">21. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Vyšší</placeName>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Brod</placeName> – <placeName ref="http://www.geonames.org/3064830/studanky.html">Studánky</placeName> st. hran. – <placeName ref="http://www.geonames.org/2762518/urfahr.html">Urfahr</placeName> – <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName> – <placeName ref="http://www.geonames.org/2892267/katzdorf.html">Katzdorf</placeName></p>
+					<p><date when="1945-10-22">22. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/2892267/katzdorf.html">Katzdorf</placeName> – <placeName ref="http://www.geonames.org/2762518/urfahr.html">Urfahr</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-595" type="camp">Linec</placeName> –
+							<placeName ref="http://www.geonames.org/2778436/gmunden.html">Gmunden</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-573" type="camp">Ebensee</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184"
+							type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Išl</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-573" type="camp">Ebensee</placeName></p>
+					<p><date when="1945-10-23">23. 10. 1945</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-573" type="camp">Ebensee</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Išl</placeName></p>
+					<p><date when="1945-10-24">24. 10. 1945</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Išl</placeName> – <placeName ref="http://www.geonames.org/2766824/salzburg.html">Salcburk</placeName> – st. hranice – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186"
+							type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186" type="camp">Tölz</placeName></p>
+					<p><date when="1945-10-25">25. 10. 1945</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186" type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186" type="camp">Tölz</placeName></p>
+					<pb facs="EHRI-DC-019_05.png" n="5"/>
+					<p><placeName ref="http://www.geonames.org/3062593/volary.html">Wallern</placeName>, den <date when="1945-10-20">20. 10. 1945</date></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Ortslazarett</term>
+						<placeName ref="http://www.geonames.org/3062593/volary.html">Wallern</placeName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-124" type="subject">Civil</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Hospital</term>
+						<placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName></p>
+					<p>To.</p>
+					<p>Dr. <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName>,</p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">American Joint Distribution Committee</orgName>,<placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName></p>
+					<p>We communicate with you concerning the 35 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young</term> jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> suffering from several consequences of
+						their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">tortures</term> in former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>, that following <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> have been discharged from our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term>. They have been sent to <placeName ref="http://www.geonames.org/2867714/munich.html">Munich</placeName> and we do not know anything about their actual state.</p>
+					<p><persName ref="#ehri_dc_berkowicz_bluma">Berkowicz, Bluma</persName></p>
+					<p><persName ref="#ehri_dc_dembska_netka">Dembska, Netka</persName></p>
+					<p><persName ref="#ehri_dc_dawidowicz_lanka">Dawidowicz, Lanka</persName></p>
+					<p><persName ref="#ehri_dc_friescher_hedwig">Friescher, Hedwig</persName></p>
+					<p><persName ref="#ehri_dc_fischl_hinda">Fischl, Hinda</persName></p>
+					<p><persName ref="#ehri_dc_glucksmann_rosa">Glücksmann, Rosa</persName></p>
+					<p><persName ref="#ehri_dc_gross_zilli">Gross, Zilli</persName></p>
+					<p><persName ref="#ehri_dc_haber_ida">Haber, Ida</persName></p>
+					<p><persName ref="#ehri_dc_hefter_fella">Hefter, Fella</persName></p>
+					<p><persName ref="#ehri_dc_lenzner_sofia">Lenzner, Sofia</persName></p>
+					<p><persName ref="#ehri_dc_liebermann_reisla">Liebermann, Reisla</persName></p>
+					<p><persName ref="#ehri_dc_lichtenstein_edith">Lichtenstein, Edith</persName></p>
+					<p><persName ref="#ehri_dc_lichtenstein_katalin">Lichtenstein, Katalin</persName></p>
+					<p><persName ref="#ehri_dc_menkers_emilia">Menkers, Emilia</persName></p>
+					<p><persName ref="#ehri_dc_mortkowicz_renia">Mortkowicz, Renia</persName></p>
+					<p><persName ref="#ehri_dc_olmer_sarah">Olmer, Sarah</persName></p>
+					<p><persName ref="#ehri_dc_ptaschnik_rosa">Ptaschnik, Rosa</persName></p>
+					<p><persName ref="#ehri_dc_vogel_balla">Vogel, Balla</persName></p>
+					<p><persName ref="#ehri_dc_wolf_sala">Wolf, Sala</persName></p>
+					<p><persName ref="#ehri_dc_zielonedrzero_hana">Zielonedrzero, Hanka</persName></p>
+					<p><persName ref="#ehri_dc_felsen_rut">Felsen, Rutka</persName></p>
+					<p><persName ref="#ehri_dc_gotzler_judith">Götzler, Juditha</persName></p>
+					<p><persName ref="#ehri_dc_gronner_anna">Gronner, Anna</persName></p>
+					<p><persName ref="#ehri_dc_sterner_zilli">Sterner, Zilli</persName></p>
+					<p>Dr. <persName ref="#ehri_dc_ruge">Ruge</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-019_01.png" n="1"/>
+					<p>In <placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName> on <date when="1945-10-20">October 20th, 1945</date></p>
+					<p>Dr. <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">XVIII</placeName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Cukrovarnická 71</placeName></p>
+					<p>Title</p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">Joint American Distribution Committee</orgName>,</p>
+					<p>Preparatory committee, for the attention of Dr. <persName ref="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-2014949">Adolf Beneš</persName>,</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague V</placeName>.</p>
+					<p>In re: Health examination of the Jewish patients in the local <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> in <placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName></p>
+					<p>On the day we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberated</term> by the <placeName ref="http://www.geonames.org/6252001/united-states.html">Americans</placeName>, there were 160 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">children</term> in <placeName ref="http://www.geonames.org/3062593/volary.html"
+							>Volary</placeName> who had arrived after being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marched</term> here from various <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>. Most were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>, and so they were treated at the local <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term>. 35 were seriously <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term> and required a lengthy hospital stay. Two months ago, the head <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term>, a <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> named Dr. <persName ref="#ehri_dc_ruge">Ruge</persName>, had sent 35 of the
+						women and children to <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> to convalesce. In the meantime, however, more had recovered or decided to go home, or were taken to <placeName ref="http://www.geonames.org/2951839/bavaria.html"
+							>Bavaria</placeName> by the <placeName ref="http://www.geonames.org/6252001/united-states.html">Americans</placeName> (see the appendix), and so there are currently 14 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">children</term> who are still being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">treated</term> at the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> here, not counting the five <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young girls</term> who have been privately released from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> in <placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName>.</p>
+					<p>I have learned that the patients are generally well taken care of in terms of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">medical</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">treatments</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medication</term> (the only one they don’t have is <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">penicillin</term>, which they had been receiving from the <placeName ref="http://www.geonames.org/6252001/united-states.html">Americans</placeName>), and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>. Although they were admitted to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> in a terrible state of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, they have all recovered well. Two days ago, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> was transferred from the
+							<placeName ref="http://www.geonames.org/6252001/united-states.html">Americans</placeName> to the control of the local <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-124" type="subject">civilian</term> authorities, and so the current food <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">rations</term> will likely not be met. None have received proper <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term>. They all need <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">underwear</term>, warm <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, woolen things, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">coats</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">hats</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+							>socks</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">stockings</term>, and especially <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term>. The local National Committee allegedly has not
+						been giving them any <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing ration cards</term>, or a voucher for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term>.</p>
+					<p>These are the patients in question:</p>
+					<p><persName ref="#ehri_dc_kahlich_lilly">Kahlich Lilly</persName>, 36 years old, single, <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czechoslovakia</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1942">1942</date>. Diagnosis: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">rheumatoid</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">arthritis</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">edema</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">poor</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">blood</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">circulation</term>. Not yet recovered. She’d like to go to <placeName ref="http://www.geonames.org/2657896/zuerich.html">Zurich</placeName> because she has an <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">uncle</term> there. She would like to spend some time in <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> and recuperate there. Medical indication for a
+						change of environment is still relative.</p>
+					<p><persName ref="#ehri_dc_kartusch_regina">Kartusch Regina</persName>, 25 years old, single, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1942">1942</date>. Diagnosis: a head injury and injury to her left thigh caused by grenade fragments that resulted in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">paralysis</term> of the left leg
+						muscles. The wound has not yet healed. She needs <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">orthopedic</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">footwear</term>. She wants to go to <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Palestine</placeName> with her friend <persName ref="#ehri_dc_hochmann_rosa">Hochmannova
+							Rosa</persName>.</p>
+					<p><persName ref="#ehri_dc_hochmann_rosa">Hochmann Rosa</persName>, 30 years old, single. <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1942">1942</date>. Diagnosis: injury to the left shoulder blade caused by grenade fragments, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">osteomyelitis</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>, limited mobility of the left shoulder. She has a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sister</term> in <placeName ref="http://www.geonames.org/2782058/bad-gastein.html">Bad Gastein</placeName> (<placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+							>Austria</placeName>), she wants to go to her and then to <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Palestine</placeName>. She needs <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">orthopedic</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">footwear</term> for bunions.</p>
+					<pb facs="EHRI-DC-019_02.png" n="2"/>
+					<p><persName ref="#ehri_dc_ebbe_hanni">Ebbe Hanni</persName>, 24 years old, single, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1938">1938</date>. Diagnosis: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, first-degree frostbite on both feet. She has recovered. She has friends in <placeName ref="http://www.geonames.org/2657896/zuerich.html">Zurich</placeName> and wants to go
+						there. There is no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medical</term> indication for it.</p>
+					<p><persName ref="#ehri_dc_ebbe_lea">Ebbe Lea</persName>, 20 years old, single, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1938">1938</date>. Diagnosis: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhus</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">abdominalis</term>, frostbite on her right foot, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>. Needs orthopedic <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">footwear</term>, wants to return to <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>, but doesn’t want to be in a collective <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>.</p>
+					<p><persName ref="#ehri_dc_ebbe_nelly">Ebbe Nelly</persName>, 23 years old, single, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1938">1938</date>. Diagnosis: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>,
+						has just recovered from a pleural infection, wants to return to <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> with her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sister</term>
+						<persName ref="#ehri_dc_ebbe_lea">Lea</persName>.</p>
+					<p><persName ref="#ehri_dc_ebbe_dora">Ebbe Dora</persName>, 17 years old, single, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1938">1938</date>. Diagnosis: active <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tuberculosis</term> of the lungs, intermittent fever, strong <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">anemia</term>, i.e. unable to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transported</term>. Moving to <placeName
+							ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> is very desirable, but must be recovered enough to handle the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>.</p>
+					<p><persName ref="#ehri_dc_auslander_eva">Ausländer Eva</persName>, 15 years old, single, PKR, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">imprisoned</term> since <date when="1944">1944</date>. Diagnosis: <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">avitaminosis</term>, third-degree frostbite on both feet that led to the amputation of two thirds of her lower leg and all of the toes on her right foot. Her wounds have not healed yet. Her case is all the more tragic due to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">girl</term>’s young age. She has a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term> in <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Prague</placeName> who is a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">high school</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1214" type="subject">student</term> (<persName ref="#ehri_dc_auslander_tibor">Tibor Ausländer</persName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">XIX</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Malířská</placeName> 1). She needs <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">butter</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">fruit</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chocolate</term>. I recommend, upon agreement with her <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term>, a two-month stay in <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName>. She will later need a prosthesis. She has <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">relatives</term> in <placeName ref="http://www.geonames.org/6252001/united-states.html">America</placeName>.</p>
+					<p><persName ref="#ehri_dc_gergely_johanna">Gergely Johanna</persName>, 19 years old, married, Yugoslavian, Diagnosis: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">anemia</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">malnutrition</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">avitaminosis</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">paralysis</term> of the left side of the body for unknown reasons. Her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>illness</term> has a psychological component, she suffers from attacks of the nerves. She wants to join her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> in <placeName ref="http://www.geonames.org/3054643/budapest.html"
+							>Budapest</placeName>.</p>
+					<p><persName ref="#ehri_dc_hauptmann_bina">Hauptmann Bina</persName>, 23 years old, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>, single, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1942">1942</date>. Diagnosis: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, third-degree frostbite on both feet, loss of the distal phalanges of all toes on both feet. Needs <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280"
+							type="subject">orthopedic</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">footwear</term>. Want to go to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943"
+							type="subject">work</term>.</p>
+					<p><persName ref="#ehri_dc_herschkop_fely">Herschkop Fely</persName>, 21 years old, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>, single, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1942">1942</date>. Diagnosis: frostbite on both feet and the loss of the pinky toe on the left foot, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>. Has had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">hepatitis</term>. After recovery wants to find <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>.</p>
+					<p><persName ref="#ehri_dc_halberstamm_schajna">Halberstamm Schajna</persName>, 20 years old, single, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>. Diagnosis: frostbite on both feet, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diarrhea</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">avitaminosis</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569"
+							type="subject">malnutrition</term>. Recovered from an exsudative pleural <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">infection</term>. Has a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+							>sister</term> in <placeName ref="http://www.geonames.org/3077882/cesky-tesin.html">Český</placeName>
+						<placeName ref="http://www.geonames.org/3077882/cesky-tesin.html">Těšín</placeName>, wants to go to <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName> and then to <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Palestine</placeName>.</p>
+					<p><persName ref="#ehri_dc_friedmann_veronika">Friedmann Veronika</persName>, 21 years old, single, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>. Diagnosis: recovered from miliary <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tuberculosis</term>, Meniére’s disease, loss of appetite. Transfer to <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> urgently indicated.</p>
+					<pb facs="EHRI-DC-019_03.png" n="3"/>
+					<p>page 2</p>
+					<p><persName ref="#ehri_dc_reinfeld_paula">Reinfeld Paula</persName>, 32 years old, married, <placeName ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgian</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject"
+							>imprisoned</term> since <date when="1942">1942</date>. Diagnosis: recovered from severe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">malnutrition</term>, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">weak</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">cardiac</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">blood circulation</term> with <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">edema</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">amenorrhoea</term>. She will return to <placeName
+							ref="http://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName> where she has a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term>.</p>
+					<p>I propose and prescribe stays in <placeName ref="http://www.geonames.org/2658434/switzerland.html">Switzerland</placeName> for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">health</term> reasons for the following patients:</p>
+					<p><persName ref="#ehri_dc_ebbe_dora">Ebbe Dora</persName></p>
+					<p><persName ref="#ehri_dc_auslander_eva">Ausländer Eva</persName></p>
+					<p><persName ref="#ehri_dc_friedmann_veronika">Friedmann Veronika</persName>.</p>
+					<p>I furthermore propose that all patients be given <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">underwear</term>, and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term>, that their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">nutrition</term> be improved, and that they receive some monetary support. They also need
+						help with their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1226" type="subject">repatriation</term> or moving away.</p>
+					<p>Upon my return, I will submit more information orally.</p>
+					<p>Dr. <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName></p>
+					<pb facs="EHRI-DC-019_04.png" n="4"/>
+					<p><date when="1945-10-19">19. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> – <placeName ref="http://www.geonames.org/3068160/pilsen.html">Pilsen</placeName> – <placeName ref="http://www.geonames.org/3062888/vimperk.html">Vimperk </placeName>– <placeName
+							ref="http://www.geonames.org/3062593/volary.html">Volary</placeName></p>
+					<p><date when="1945-10-20">20. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName> – <placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Vyšší</placeName>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Brod</placeName> – <placeName ref="http://www.geonames.org/3064830/studanky.html">Studánky</placeName> state border – <placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Vyšší</placeName>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Brod</placeName></p>
+					<p><date when="1945-10-21">21. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Vyšší</placeName>
+						<placeName ref="http://www.geonames.org/3062184/vyssi-brod.html">Brod</placeName> – <placeName ref="http://www.geonames.org/3064830/studanky.html">Studánky</placeName> state border – <placeName ref="http://www.geonames.org/2762518/urfahr.html">Urfahr</placeName> – <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName> – <placeName ref="http://www.geonames.org/2892267/katzdorf.html">Katzdorf</placeName></p>
+					<p><date when="1945-10-22">22. 10. 1945</date>
+						<placeName ref="http://www.geonames.org/2892267/katzdorf.html">Katzdorf</placeName> – <placeName ref="http://www.geonames.org/2762518/urfahr.html">Urfahr</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-595" type="camp">Linz</placeName> –
+							<placeName ref="http://www.geonames.org/2778436/gmunden.html">Gmunden</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-573" type="camp">Ebensee</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184"
+							type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Ischl</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-573" type="camp">Ebensee</placeName></p>
+					<p><date when="1945-10-23">23. 10. 1945</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-573" type="camp">Ebensee</placeName> – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Ischl</placeName></p>
+					<p><date when="1945-10-24">24. 10. 1945</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-184" type="camp">Ischl</placeName> – <placeName ref="http://www.geonames.org/2766824/salzburg.html">Salzburg</placeName> – state border – <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186"
+							type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186" type="camp">Tölz</placeName></p>
+					<p><date when="1945-10-25">25. 10. 1945</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186" type="camp">Bad</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-186" type="camp">Tölz</placeName></p>
+					<pb facs="EHRI-DC-019_05.png" n="5"/>
+					<p><placeName ref="http://www.geonames.org/3062593/volary.html">Wallern</placeName>, <date when="1945-10-20">20. 10. 1945</date></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Ortslazarett</term>
+						<placeName ref="http://www.geonames.org/3062593/volary.html">Wallern</placeName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-124" type="subject">Civil</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">Hospital</term>
+						<placeName ref="http://www.geonames.org/3062593/volary.html">Volary</placeName></p>
+					<p>To.</p>
+					<p>Dr. <persName ref="#ehri_dc_nasch_erich">Erich Nasch</persName>,</p>
+					<p><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">American Joint Distribution Committee</orgName>,<placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName></p>
+					<p>We communicate with you concerning the 35 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-827" type="subject">young</term> jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> suffering from several consequences of
+						their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">tortures</term> in former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>, that following <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> have been discharged from our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term>. They have been sent to <placeName ref="http://www.geonames.org/2867714/munich.html">Munich</placeName> and we do not know anything about their actual state.</p>
+					<p><persName ref="#ehri_dc_berkowicz_bluma">Berkowicz, Bluma</persName></p>
+					<p><persName ref="#ehri_dc_dembska_netka">Dembska, Netka</persName></p>
+					<p><persName ref="#ehri_dc_dawidowicz_lanka">Dawidowicz, Lanka</persName></p>
+					<p><persName ref="#ehri_dc_friescher_hedwig">Friescher, Hedwig</persName></p>
+					<p><persName ref="#ehri_dc_fischl_hinda">Fischl, Hinda</persName></p>
+					<p><persName ref="#ehri_dc_glucksmann_rosa">Glücksmann, Rosa</persName></p>
+					<p><persName ref="#ehri_dc_gross_zilli">Gross, Zilli</persName></p>
+					<p><persName ref="#ehri_dc_haber_ida">Haber, Ida</persName></p>
+					<p><persName ref="#ehri_dc_hefter_fella">Hefter, Fella</persName></p>
+					<p><persName ref="#ehri_dc_lenzner_sofia">Lenzner, Sofia</persName></p>
+					<p><persName ref="#ehri_dc_liebermann_reisla">Liebermann, Reisla</persName></p>
+					<p><persName ref="#ehri_dc_lichtenstein_edith">Lichtenstein, Edith</persName></p>
+					<p><persName ref="#ehri_dc_lichtenstein_katalin">Lichtenstein, Katalin</persName></p>
+					<p><persName ref="#ehri_dc_menkers_emilia">Menkers, Emilia</persName></p>
+					<p><persName ref="#ehri_dc_mortkowicz_renia">Mortkowicz, Renia</persName></p>
+					<p><persName ref="#ehri_dc_olmer_sarah">Olmer, Sarah</persName></p>
+					<p><persName ref="#ehri_dc_ptaschnik_rosa">Ptaschnik, Rosa</persName></p>
+					<p><persName ref="#ehri_dc_vogel_balla">Vogel, Balla</persName></p>
+					<p><persName ref="#ehri_dc_wolf_sala">Wolf, Sala</persName></p>
+					<p><persName ref="#ehri_dc_zielonedrzero_hana">Zielonedrzero, Hanka</persName></p>
+					<p><persName ref="#ehri_dc_felsen_rut">Felsen, Rutka</persName></p>
+					<p><persName ref="#ehri_dc_gotzler_judith">Götzler, Juditha</persName></p>
+					<p><persName ref="#ehri_dc_gronner_anna">Gronner, Anna</persName></p>
+					<p><persName ref="#ehri_dc_sterner_zilli">Sterner, Zilli</persName></p>
+					<p>Dr. <persName ref="#ehri_dc_ruge">Ruge</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,78 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19421116-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Samuel W. Honaker on the anti-Jewish laws implemented in Bulgaria in 1942</title>
+				<title xml:lang="de">Samuel W. Honaker über die 1942 in Bulgarien eingeführten antijüdischen Gesetze</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
-							II</repository>
-						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Bulgaria 1910-1944, Washington,
-							1982 (Microfilm)</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration II</orgName><address>
+								<street>8601 Adelphi Road</street>
+								<postCode>MD 20740-6001</postCode>
+								<settlement>Maryland</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Bulgaria 1910-1944, Washington, 1982 (Microfilm)</collection>
 						<idno>Doc. 874.4016/ill.</idno>
 					</msIdentifier>
 				</msDesc>
-				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of
-					Bulgaria 1910-1944, Washington, 1982 (Microfilm): Doc. 874.4016/ill. <textLang mainLang="en">Original in
-					English.</textLang></bibl>
+				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of Bulgaria 1910-1944, Washington, 1982 (Microfilm): Doc. 874.4016/ill. <textLang mainLang="en">Original in English.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1942-08-29">August 29, 1942</date>
-				<placeName ref="#istanbul">Istanbul</placeName>
+			<creation><origDate when="1942-08-29">August 29, 1942</origDate>
+				<origPlace ref="http://www.geonames.org/745044/istanbul.html">Istanbul</origPlace>
 				<persName ref="#ehri_dr_honacker_samuel_w.">Honaker, Samuel W.</persName>
-				<idno>EHRI-DR-19421116-US</idno></creation>
+			</creation>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="R 87-11 17 (35)" n="8"/>
-				<p><!--Samuel W. Honaker, Transmitting Bulgarian Anti-Jewish Law of August 29, 1942, with Comments, Istanbul, 16.11.1942, S. 8. Records of the Department of State relating to internal affairs of Bulgaria 1910-1944, Washington 1982 (Mikrofilm-Edition): Dokument 874.4016/???.--></p>
-				<p>„Reports received from <placeName ref="#sofia">Sofia</placeName> on <date when="1942-11-13">November 13, 1942</date>, indicate that
-					this <term ref="#t335" type="subject">law</term> is being rigorously enforced. Previous reports that there was some lenity in the
-					enforcement of the law applied only to a small number of <term ref="#t804" type="subject">Christian Jews</term> with regard to
-					wearing the <term ref="#t338" type="subject">Star of David</term>. Also some postponement was found necessary due to the physical
-					impossibility of moving so many <term ref="#t864" type="subject">Jews</term> into the <term ref="#t545" type="subject"
-						>ghetto</term> or <term ref="#t518" type="subject">deporting</term> them at one time. A prominent <term ref="#t1427"
-						type="subject">Jewish surgeon</term> arrived in <placeName ref="#istanbul">Istanbul</placeName> from<placeName ref="#sofia">
-						Sofia</placeName> on <date when="1942-11-12">November 12</date> after having been <term ref="#t608" type="subject">deprived of
-						his right to practice his profession</term>. He owned and operated a <term ref="#t870" type="subject">hospital and
-						clinic</term>, which is forbidden to <term ref="#t864" type="subject">Jews</term> in accordance with Article 33 of the <term
-						ref="#t335" type="subject">Law</term>. All his <term ref="#t585" type="subject">property</term> was taken away from him.
-					Actually this man is a <term ref="#t767">Catholic</term> and has been such for thirty-five years. He declared that the reason for
-					his severe treatment is the <term ref="#t813" type="subject">jealousy</term> of <term ref="#ehri_dr_nationalities_bulgarians"
-						>Bulgarian</term>
-					<term ref="#t287" type="subject">surgeons and doctors</term> who take this means of ridding themselves of competition.</p>
-				<p>As has already been mentioned several thousand <term ref="#t864" type="subject">Jews</term> are now in the process of being <term
-						ref="#t518" type="subject">deported</term> from <placeName ref="#sofia">Sofia</placeName>. Where they will be sent is not
-					known. They are supposed to be <term ref="#t518" type="subject">deported</term> to towns and villages in <placeName
-						ref="#republic-of-bulgaria">Bulgaria</placeName> but some high placed persons believe many of them will be <term ref="#t518"
-						type="subject">deported</term> to <placeName ref="#republic-of-poland">Poland</placeName>. Some think they will be put in
-						<term ref="#t496" type="subject">concentration camps</term> inside of <placeName
-						ref="http://www.geonames.org/search?q=bulgarien&amp;country=">Bulgaria</placeName> where many will eventually die of <term
-						ref="#t292" type="subject">disease</term> and <term ref="#t569" type="subject">starvation</term>. Others, including the <term
-						ref="#t1427" type="subject">surgeon</term> referred to above, think that a large proportion of them will be <term ref="#t541"
-						type="subject">shot</term>, as they have been in <placeName ref="#belgrade">Belgrade</placeName> and other cities. In any
-					case, the content of the law, together with the severity with which it is being enforced show that its purpose is the complete
-					destruction of the <term ref="#t872" type="subject">Jewish community</term> in <placeName ref="#sofia">Sofia</placeName>.“</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="R 87-11 17 (35)" n="8"/>
+					<p><!--Samuel W. Honaker, Transmitting Bulgarian Anti-Jewish Law of August 29, 1942, with Comments, Istanbul, 16.11.1942, S. 8. Records of the Department of State relating to internal affairs of Bulgaria 1910-1944, Washington 1982 (Mikrofilm-Edition): Dokument 874.4016/???.--></p>
+					<p>„Reports received from <placeName ref="http://www.geonames.org/727011/sofia.html">Sofia</placeName> on <date when="1942-11-13">November 13, 1942</date>, indicate that this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">law</term> is being
+						rigorously enforced. Previous reports that there was some lenity in the enforcement of the law applied only to a small number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-804" type="subject">Christian Jews</term> with regard to wearing the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Star of David</term>. Also some postponement was found necessary due to the physical impossibility of moving so many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+							type="subject">Jews</term> into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deporting</term> them at one time. A prominent <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">Jewish surgeon</term> arrived in <placeName ref="http://www.geonames.org/745044/istanbul.html">Istanbul</placeName> from<placeName ref="http://www.geonames.org/727011/sofia.html">
+							Sofia</placeName> on <date when="1942-11-12">November 12</date> after having been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-608" type="subject">deprived of his right to practice his profession</term>. He owned and operated a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-870" type="subject">hospital and clinic</term>, which is forbidden to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in accordance with Article 33 of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">Law</term>. All his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">property</term> was taken away from him. Actually this man is a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-767">Catholic</term> and has been such for thirty-five years. He declared that the reason for his severe treatment is the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-813" type="subject"
+							>jealousy</term> of <term ref="#ehri_dr_nationalities_bulgarians">Bulgarian</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">surgeons and doctors</term> who take this means of ridding themselves of competition.</p>
+					<p>As has already been mentioned several thousand <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are now in the process of being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> from
+							<placeName ref="http://www.geonames.org/727011/sofia.html">Sofia</placeName>. Where they will be sent is not known. They are supposed to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> to towns and villages in
+							<placeName ref="http://www.geonames.org/732800/republic-of-bulgaria.html">Bulgaria</placeName> but some high placed persons believe many of them will be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> to <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. Some think they will be put in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term> inside of <placeName
+							ref="http://www.geonames.org/search.html?q=bulgarien&amp;country=">Bulgaria</placeName> where many will eventually die of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">disease</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">starvation</term>. Others, including the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">surgeon</term> referred to above, think that a large proportion of them
+						will be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term>, as they have been in <placeName ref="http://www.geonames.org/792680/belgrade.html">Belgrade</placeName> and other cities. In any case, the content of the law, together with
+						the severity with which it is being enforced show that its purpose is the complete destruction of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish community</term> in <placeName ref="http://www.geonames.org/727011/sofia.html"
+							>Sofia</placeName>.“</p>
+				</div>
 			</div>
 		</body>
 	</text>

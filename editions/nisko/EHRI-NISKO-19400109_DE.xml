@@ -1,68 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19400109_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400109_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title xml:lang="de">Vorstand der JKG Lublin an die IKG Wien betreffend die in der Gemeinde gemeldeten Wiener Juden und deren
-					kritische Lage</title>
-				<title xml:lang="en">Board of the JKG Lublin to the IKG Vienna regarding the Viennese Jews registered in the community and their
-					critical situation</title>
+				<title xml:lang="de">Vorstand der JKG Lublin an die IKG Wien betreffend die in der Gemeinde gemeldeten Wiener Juden und deren kritische Lage</title>
+				<title xml:lang="en">Board of the JKG Lublin to the IKG Vienna regarding the Viennese Jews registered in the community and their critical situation</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
-							Wien</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>A/W 2747</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1940-01-09">9. Jänner 1940</date>
+				<origDate when="1940-01-09">9. Jänner 1940</origDate>
 				<orgName ref="#ehri_nisko_jkg_lublin">JKG Lublin</orgName>
-				<placeName ref="#lublin">Lublin</placeName>
-				<idno>EHRI-NISKO-19400109</idno>
+				<origPlace ref="http://www.geonames.org/765876/lublin.html">Lublin</origPlace>
 			</creation>
 			<textClass>
 				<keywords>
@@ -74,60 +77,60 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="EHRI-NIKSO-19400109_01.jpg" n="1"/>
-				<p><placeName ref="#lublin">Lublin</placeName>, dn. <date>9. Januar 1940</date> r.</p>
-				<p>An die <orgName ref="#ehri_nisko_ikg_wien">Israelitische Kultusgemeinde Wien</orgName></p>
-				<p>In Erledigung Ihrer w. Zuschrift vom <date when="1939-12-29">29.XII.1939</date> (Zeichen - <persName
-						ref="#ehri_nisko_boschan_julius">Boschan</persName>/F) können wir Ihnen nur die 15 Namen der in <placeName ref="#lublin"
-						>Lublin</placeName> sich befindlichen <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t864" type="subject">Juden</term> angeben, die sich im Zuge der von uns geführten <term ref="#t304" type="subject"
-						>Flüchtlingsregistrierung</term> bei der <orgName ref="#ehri_nisko_jkg_lublin">Gemeinde</orgName> gemeldet haben.</p>
-				<p>Über die event. sich in Umgebung befindlichen <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t864" type="subject">Juden</term> haben wir leider gar keine Kenntnis u. können wir deswegen Ihnen mit keinerlei
-					Angaben dienen:</p>
-				<p>Die Namen der obgenannten sind folgende:</p>
-				<p>1/ <persName ref="#ehri_nisko_bluehbaum_benno">Beno Blumbaum</persName>, 23 J.</p>
-				<p>2/ <persName ref="#ehri_nisko_jura_abraham">Jura Abraham</persName>, 53 J.</p>
-				<p>3/ <persName ref="#ehri_nisko_acht_robert">Acht Robert</persName>, 37 J.</p>
-				<p>4/ <persName ref="#ehri_nisko_wald_armin">Wald Armin</persName>, 50 J.</p>
-				<p>5/ <persName ref="#ehri_nisko_schiffmann_ephraim">Schiffmann Efraim</persName>, 63 J.</p>
-				<p>6/ <persName ref="#ehri_nisko_klumak_josef">Klumak Josef</persName>, 48 J.</p>
-				<p>7/ <persName ref="#ehri_nisko_bauer_rudolf">Bauer Rudolf</persName>, 56 J.</p>
-				<p>8/ <persName ref="#ehri_nisko_gruenthal_robert">Grünthal Robert</persName>, 51 J.</p>
-				<p>9/ <persName ref="#ehri_nisko_heller_josef">Heller Israel-Josef</persName>, 53 J.</p>
-				<p>10/ <persName ref="#ehri_nisko_herlinger_jakob">Herlinger Jakob</persName>, 54 J.</p>
-				<p>11/ <persName ref="#ehri_nisko_kohn_jakob">Kohn Jakob</persName>,</p>
-				<p>12/ <persName ref="#ehri_nisko_schoenhof_hugo">Schönhof Hugo</persName>, 66 J.</p>
-				<p>13/ <persName ref="#ehri_nisko_stepper_max">Stepper Max</persName>, 51 J.</p>
-				<p>14/ <persName ref="#ehri_nisko_weiss_karl">Weiss Israel Karl</persName>, 57 J.</p>
-				<p/>
-				<p>Wir erachten es für unsere Pflicht zu bemerken, dass die genannten sich in einer höchst kritischen materiellen Lage befinden.</p>
-				<p>Wir nützen die Gelegenheit aus, um unserer tiefen Verwunderung Ausdruck zu geben, dass die <orgName ref="#ehri_nisko_ikg_wien">Isr.
-						Kultusgemeinde Wien</orgName> in Ihrem Schreiben vom <date when="1939-12-29">29.12. v.J.</date> mit keinem Worte von einer
-					event. Hilfe Ihrerseits für die aus <placeName ref="#vienna">Wien</placeName> stammenden <term ref="#t864" type="subject"
-						>Juden</term> erwähnt. Dieses Verhalten gegenüber Ihrer eigenen Leute ist nicht nur für uns unverständlich - sondern steht
-					auch im krassen Widerspruch mit den uns von den <placeName ref="#vienna">Wiener</placeName> delegierten /die hier persönlich an
-					Ort u. Stelle waren/.</p>
-				<pb facs="EHRI-NIKSO-19400109_02.jpg" n="2"/>
-				<p>gegebenen Versprechungen, dass der <term ref="#t864" type="subject">jüdischen</term> - sich derzeit in einer so schweren u.
-					kritischen Lage befindlichen <orgName ref="#ehri_nisko_jkg_lublin">Kultusgemeinde in Lublin</orgName> - alles was wir aus unseren
-					- sehr armen Geldbeständen - für die <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t304" type="subject">Flüchtlinge</term> ausgeben werden - prompt mit Dankbarkeit retourniert werden wird.</p>
-				<p>Darauf sich stützend - haben wir sowohl den in <placeName ref="#belzec">Belzec</placeName> bei der Sowjetgrenze - wie auch den in
-						<placeName ref="#lublin">Lublin</placeName> sich befindlichen <placeName ref="#vienna">Wienern</placeName> Unterstützungen
-					erteilt, deren Gesamtbetrag 1000 Zl. bereits überschritten hat.</p>
-				<p>Nun werden Sie wohl gefl. verstehen, dass wir darüber unsere Verwunderung aussprechen müssen - sowie auch, dass wir in Zukunft die
-					Behandlung den <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t864" type="subject">Juden</term> gegenüber unsererseits von dem Einhalten des uns gegebenen Versprechens abhängig
-					machen werden.</p>
-				<p>Hochachtungsvoll</p>
-				<p>Präses des Vorstandes</p>
-				<p>Präses der Berat. Kommission</p>
-				<p>[Eingangsstempel <date when="1940-01-14">14.1.1940</date>]</p>
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-NIKSO-19400109_01.jpg" n="1"/>
+					<p><placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName>, dn. <date>9. Januar 1940</date> r.</p>
+					<p>An die <orgName ref="#ehri_nisko_ikg_wien">Israelitische Kultusgemeinde Wien</orgName></p>
+					<p>In Erledigung Ihrer w. Zuschrift vom <date when="1939-12-29">29.XII.1939</date> (Zeichen - <persName ref="#ehri_nisko_boschan_julius">Boschan</persName>/F) können wir Ihnen nur die 15 Namen der in <placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName>
+						sich befindlichen <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> angeben, die sich im Zuge der von uns geführten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlingsregistrierung</term> bei der <orgName
+							ref="#ehri_nisko_jkg_lublin">Gemeinde</orgName> gemeldet haben.</p>
+					<p>Über die event. sich in Umgebung befindlichen <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> haben wir leider gar keine Kenntnis u. können wir deswegen Ihnen mit keinerlei Angaben dienen:</p>
+					<p>Die Namen der obgenannten sind folgende:</p>
+					<p>1/ <persName ref="#ehri_nisko_bluehbaum_benno">Beno Blumbaum</persName>, 23 J.</p>
+					<p>2/ <persName ref="#ehri_nisko_jura_abraham">Jura Abraham</persName>, 53 J.</p>
+					<p>3/ <persName ref="#ehri_nisko_acht_robert">Acht Robert</persName>, 37 J.</p>
+					<p>4/ <persName ref="#ehri_nisko_wald_armin">Wald Armin</persName>, 50 J.</p>
+					<p>5/ <persName ref="#ehri_nisko_schiffmann_ephraim">Schiffmann Efraim</persName>, 63 J.</p>
+					<p>6/ <persName ref="#ehri_nisko_klumak_josef">Klumak Josef</persName>, 48 J.</p>
+					<p>7/ <persName ref="#ehri_nisko_bauer_rudolf">Bauer Rudolf</persName>, 56 J.</p>
+					<p>8/ <persName ref="#ehri_nisko_gruenthal_robert">Grünthal Robert</persName>, 51 J.</p>
+					<p>9/ <persName ref="#ehri_nisko_heller_josef">Heller Israel-Josef</persName>, 53 J.</p>
+					<p>10/ <persName ref="#ehri_nisko_herlinger_jakob">Herlinger Jakob</persName>, 54 J.</p>
+					<p>11/ <persName ref="#ehri_nisko_kohn_jakob">Kohn Jakob</persName>,</p>
+					<p>12/ <persName ref="#ehri_nisko_schoenhof_hugo">Schönhof Hugo</persName>, 66 J.</p>
+					<p>13/ <persName ref="#ehri_nisko_stepper_max">Stepper Max</persName>, 51 J.</p>
+					<p>14/ <persName ref="#ehri_nisko_weiss_karl">Weiss Israel Karl</persName>, 57 J.</p>
+					<p/>
+					<p>Wir erachten es für unsere Pflicht zu bemerken, dass die genannten sich in einer höchst kritischen materiellen Lage befinden.</p>
+					<p>Wir nützen die Gelegenheit aus, um unserer tiefen Verwunderung Ausdruck zu geben, dass die <orgName ref="#ehri_nisko_ikg_wien">Isr. Kultusgemeinde Wien</orgName> in Ihrem Schreiben vom <date when="1939-12-29">29.12. v.J.</date> mit keinem Worte von einer event. Hilfe
+						Ihrerseits für die aus <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> stammenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> erwähnt. Dieses Verhalten gegenüber Ihrer eigenen Leute ist nicht nur
+						für uns unverständlich - sondern steht auch im krassen Widerspruch mit den uns von den <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> delegierten /die hier persönlich an Ort u. Stelle waren/.</p>
+					<pb facs="EHRI-NIKSO-19400109_02.jpg" n="2"/>
+					<p>gegebenen Versprechungen, dass der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term> - sich derzeit in einer so schweren u. kritischen Lage befindlichen <orgName ref="#ehri_nisko_jkg_lublin">Kultusgemeinde in Lublin</orgName> -
+						alles was wir aus unseren - sehr armen Geldbeständen - für die <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">Flüchtlinge</term> ausgeben werden - prompt mit Dankbarkeit retourniert werden wird.</p>
+					<p>Darauf sich stützend - haben wir sowohl den in <placeName ref="http://www.geonames.org/7576105/belzec.html">Belzec</placeName> bei der Sowjetgrenze - wie auch den in <placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName> sich befindlichen <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Wienern</placeName> Unterstützungen erteilt, deren Gesamtbetrag 1000 Zl. bereits überschritten hat.</p>
+					<p>Nun werden Sie wohl gefl. verstehen, dass wir darüber unsere Verwunderung aussprechen müssen - sowie auch, dass wir in Zukunft die Behandlung den <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> gegenüber unsererseits von dem Einhalten des uns gegebenen Versprechens abhängig machen werden.</p>
+					<p>Hochachtungsvoll</p>
+					<p>Präses des Vorstandes</p>
+					<p>Präses der Berat. Kommission</p>
+					<p>[Eingangsstempel <date when="1940-01-14">14.1.1940</date>]</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

@@ -1,120 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19431111-DK_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en"> Unknown author on "The Jewish Question in Germany" in 1943</title>
+				<title xml:lang="de"> Unbekannter Autor zum Thema „Die Judenfrage in Deutschland“ im Jahr 1943</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/dk">Denmark</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </orgName><address>
+								<street>Rigsdagsgaarden 9</street>
+								<postCode>DK-1218</postCode>
+								<settlement>Copenhagen</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/dk">Denmark</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Rigsarkivet, 140. N. 33a, Gruppeordnede sager. <textLang mainLang="en">Original in Danish.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1943-11-01">01.11.1943</date>
-				<placeName ref="#copenhagen">Copenhagen</placeName><idno>EHRI-DR-19431111-DK</idno>
+				<origDate when="1943-11-01">01.11.1943</origDate>
+				<origPlace ref="https://www.geonames.org/2618425/copenhagen.html">Copenhagen</origPlace>
 			</creation>
+			<langUsage>
+				<language ident="da"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="EHRI-DR-19431025_01.jpg" n="1"/>
-				<p>The <term ref="#t351" type="subject">Jewish question</term> in <placeName ref="http://www.geonames.org/maps/wikipedia_52.5167_13.4"
-						>Germany</placeName>.</p>
-				<p>During the period from spring 1940 to Spring 1943, the <term ref="#t864" type="subject">Jews</term> in Germany were <term
-						ref="#t518" type="subject">deported</term>. The <term ref="#t518" type="subject">deportation</term> began in <placeName
-						ref="#szczecin">Stettin</placeName> in <date when="1940-02">February 1940</date> and is now largely completed, so that all the
-					elderly (originally over 65, now over 70 years) came to <placeName ref="#l29">Theresienstadt</placeName> in the <ref
-						target="https://portal.ehri-project.eu/keywords/admindistricts-212">Bohemia-Moravian Protectorate</ref>, whose former
-					population had been <term ref="#t1173" type="subject">evacuated</term>. The city, which originally had 20 to 25,000 inhabitants,
-					now contains approx. 50,000 <term ref="#t864" type="subject">Jews</term>. However, because of the fact that the population
-					consists only of the Old people, the passing is still very large. Young <term ref="#t864" type="subject">Jews</term> have been
-					deployed to <term ref="#t488" type="subject">work</term> in various locations in the eastern areas. The deportation has been
-					practiced somewhat differently in the different regions of <placeName ref="http://www.geonames.org/maps/wikipedia_52.5167_13.4"
-						>Germany</placeName>.</p>
-				<p>The exceptions that apply to certain areas of the <term ref="#t337" type="subject">measures</term> against the <term ref="#t864"
-						type="subject">Jews</term> under the legislation, with regard to <term ref="#t864" type="subject">Jews</term> married to <term
-						ref="#t373" type="subject">Aryans</term>, have not been fully observed during the Deportations. The Jewish spouse in such a
-						<term ref="#t375" type="subject">marriage</term> is usually spared only when he or she lives with the <term ref="#t373"
-						type="subject">Aryan partner</term> or with any <term ref="#t374" type="subject">common Children</term>, as a rule, there is
-					no difference as to whether the children are minors or adults.</p>
-				<p>Thus, there are several cases where Jewish men married to <term ref="#t373" type="subject">Aryan</term> women have been deported,
-					however, there are no cases where Jewish women married to <term ref="#t373" type="subject">Aryan</term> men were deported. There
-					must also have been cases in which the Jewish spouse has been deported after the <term ref="#t375" type="subject">couple's</term>
-					only son has <term ref="#t1086" type="subject">fallen</term> in the war, which otherwise <term ref="#t365" type="subject">in
-						Jewish laws</term> justifies a privileged position. This is motivated by the fact that the <term ref="#t520" type="subject"
-						>exception from deportation</term> can only be justified on the grounds of the spouse or children, and that this consideration
-					no longer applies when the child does not live at home, cf. above, or has fallen in the war.</p>
-				<p>Although <term ref="#t365" type="subject">Jewish law</term> in principle applies only to <term ref="#t864" type="subject"
-						>Jews</term>, there are so many special provisions in the <term ref="#t581" type="subject">Practice of Mischlinge</term>
-						(<term ref="#t374" type="subject">Half and Quarter Jews</term>) that they must be regarded as a special class. In addition, in
-					all areas where the Administration’s decisions are decisive, the principle of the <term ref="#t329" type="subject">anti-Jewish
-						attitude</term> must be considered. <pb facs="EHRI-DR-19431025_02.jpg" n="2"/> Within leading circles, there are two
-					movements, one that wants to restrict the <term ref="#t365" type="subject">Jewish laws</term> to the real <term ref="#t864"
-						type="subject">Jews</term>, and one more radical that wants to <term ref="#t349" type="subject">liberate</term> Germany from
-					both <term ref="#t864" type="subject">Jews</term> and <q><term ref="#t374" type="subject">Bastards</term></q>.</p>
-				<p>Which movement ultimately prevails is impossible to say, but the radical direction in recent times seems to assert itself, in
-					particular, the provision introduced in 1942, whereby <term ref="#t374" type="subject">half Jews</term> are <term ref="#t664"
-						type="subject">excluded</term> from the army, could be fatal. One has to consider, that the definition of the concept of <term
-						ref="#t1147" type="subject">citizenship</term> links to the right to exercise <term ref="#t1059" type="subject">civil
-						rights</term> such as <term ref="#t1086" type="subject">military service</term> and labor service. Therefore <term ref="#t374"
-						type="subject">Mischlinge</term>, who fail to serve, are <term ref="#t659" type="subject">prevented from enjoying civil
-						rights</term>.</p>
-				<p>[…]</p>
-				<p>Despite the fact that there is no prohibition in the <term ref="#t365" type="subject">Legislature</term> of <term ref="#t374"
-						type="subject">Quarter Jews</term> marrying non-Jews, the <q><orgName ref="#ehri_dr_standesamt">Standesämter</orgName></q>
-					refuse to marry such persons unless there is a special permit.</p>
-				<p>The limited access of the <term ref="#t374" type="subject">Mischlinge</term> to - in the case of <term ref="#t374" type="subject"
-						>Half Jews</term>, total exclusion from - the <term ref="#t842" type="subject">higher education</term> (including vocational
-					schools) may in the future have the most fateful consequences, with <term ref="#t374" type="subject">Half Jews</term> subsequently
-					missing the prerequisite for becoming anything but unskilled <term ref="#t902" type="subject">workers</term>.</p>
-				<p><term ref="#t374" type="subject">Mischlinge</term> are excluded from owning an <term ref="#t946" type="subject">inheritance
-						farm</term>, requiring <term ref="#t627" type="subject">Aryan descent since 1800</term>. With regard to other land estates,
-					there is no prohibition, but in practice, <term ref="#t374" type="subject">Mischlinge</term> will generally be <term ref="#t333"
-						type="subject">forced out</term> of possession of such property, the same applies to non-Jewish spouses of <term ref="#t864"
-						type="subject">Jews</term>.</p>
-				<p><term ref="#t375" type="subject">Mischlinge and non-Jewish spouses</term> have free access to private businesses. Another thing is
-					that in Practice they will often be <term ref="#t585" type="subject">pushed out</term> of <term ref="#t924" type="subject"
-						>Companies</term> of any significance, especially in the <term ref="#t938" type="subject">armour industry</term> – companies
-					owned them or within which they play a large role will be excluded from public order.</p>
-				<pb facs="EHRI-DR-19431025_03.jpg" n="3"/>
-				<p>There are still <term ref="#t852" type="subject">rumours</term> in <placeName ref="#berlin">Berlin</placeName> of further <term
-						ref="#t337" type="subject">measures taken against the Jews</term>, e.g., it states that a <term ref="#t582" type="subject"
-						>law</term> must be drawn up, requiring <term ref="#t347" type="subject">Aryans</term> who are married to <term ref="#t864"
-						type="subject">Jews</term> to divorce. After that, the <term ref="#t365" type="subject">Jewish law</term> in its full extent
-					could be put into effect also for the group of <term ref="#t864" type="subject">Jews</term> who have hitherto been allowed to stay
-					because they were married to <term ref="#t373" type="subject">Aryans</term>. Furthermore, <term ref="#t852" type="subject"
-						>rumours</term> have been spread regarding certain measures against <term ref="#t374" type="subject">half Jews</term>. In
-					particular, it is said that <term ref="#t374" type="subject">Mischlinge</term> in cities, where the housing demand is high due to
-					the devastation caused by <term ref="#t1083" type="subject">airstrikes</term>, should be evicted from their <term ref="#t660"
-						type="subject">apartments</term>. Whether this will happen is impossible to predict. However, with some anxiety, it has been
-					noted that the <term ref="#t342" type="subject">Campaign</term> against the <term ref="#t864" type="subject">Jews</term> in the
-						<term ref="#t341" type="subject">Press</term> has now been intensified again. However, for the first time, lately, <term
-						ref="#t347" type="subject">Mischlinge</term> has been referred to as <q>Bastards</q>. The fact that the <term ref="#t581"
-						type="subject">Mischling problem</term> is to a significant degree an upper-class problem; since the <term ref="#t375"
-						type="subject">mixed marriages</term> have mainly taken place within the bourgeoisie, there could also be an unfortunate
-					impact on the position of the <term ref="#t374" type="subject">Mischlinge</term>.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="EHRI-DR-19431025_01.jpg" n="1"/>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-351" type="subject">Jewish question</term> in <placeName ref="http://www.geonames.org/maps/wikipedia_52.5167_13.4.html">Germany</placeName>.</p>
+					<p>During the period from spring 1940 to Spring 1943, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in Germany were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term>. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term> began in <placeName ref="http://www.geonames.org/3083829/szczecin.html">Stettin</placeName> in <date when="1940-02">February 1940</date> and is now largely completed, so that
+						all the elderly (originally over 65, now over 70 years) came to <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-29">Theresienstadt</placeName> in the <ref target="https://portal.ehri-project.eu/keywords/admindistricts-212">Bohemia-Moravian
+							Protectorate</ref>, whose former population had been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1173" type="subject">evacuated</term>. The city, which originally had 20 to 25,000 inhabitants, now contains approx. 50,000 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>. However, because of the fact that the population consists only of the Old people, the passing is still very large. Young <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> have been deployed to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-488" type="subject">work</term> in various locations in the eastern areas. The deportation has been
+						practiced somewhat differently in the different regions of <placeName ref="http://www.geonames.org/maps/wikipedia_52.5167_13.4.html">Germany</placeName>.</p>
+					<p>The exceptions that apply to certain areas of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">measures</term> against the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> under the legislation,
+						with regard to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> married to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term>, have not been fully observed during the Deportations. The
+						Jewish spouse in such a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriage</term> is usually spared only when he or she lives with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan
+							partner</term> or with any <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">common Children</term>, as a rule, there is no difference as to whether the children are minors or adults.</p>
+					<p>Thus, there are several cases where Jewish men married to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> women have been deported, however, there are no cases where Jewish women married to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> men were deported. There must also have been cases in which the Jewish spouse has been deported after the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375"
+							type="subject">couple's</term> only son has <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1086" type="subject">fallen</term> in the war, which otherwise <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">in Jewish laws</term>
+						justifies a privileged position. This is motivated by the fact that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-520" type="subject">exception from deportation</term> can only be justified on the grounds of the spouse or children, and that this
+						consideration no longer applies when the child does not live at home, cf. above, or has fallen in the war.</p>
+					<p>Although <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">Jewish law</term> in principle applies only to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, there are so many special provisions in the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-581" type="subject">Practice of Mischlinge</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Half and Quarter Jews</term>) that they must be regarded as a special class.
+						In addition, in all areas where the Administration’s decisions are decisive, the principle of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-329" type="subject">anti-Jewish attitude</term> must be considered. <pb facs="EHRI-DR-19431025_02.jpg" n="2"/>
+						Within leading circles, there are two movements, one that wants to restrict the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">Jewish laws</term> to the real <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject"
+							>Jews</term>, and one more radical that wants to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-349" type="subject">liberate</term> Germany from both <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> and <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Bastards</term></q>.</p>
+					<p>Which movement ultimately prevails is impossible to say, but the radical direction in recent times seems to assert itself, in particular, the provision introduced in 1942, whereby <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half
+							Jews</term> are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-664" type="subject">excluded</term> from the army, could be fatal. One has to consider, that the definition of the concept of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147"
+							type="subject">citizenship</term> links to the right to exercise <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1059" type="subject">civil rights</term> such as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1086" type="subject">military
+							service</term> and labor service. Therefore <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Mischlinge</term>, who fail to serve, are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-659" type="subject">prevented from
+							enjoying civil rights</term>.</p>
+					<p>[…]</p>
+					<p>Despite the fact that there is no prohibition in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">Legislature</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Quarter Jews</term> marrying non-Jews,
+						the <q><orgName ref="#ehri_dr_standesamt">Standesämter</orgName></q> refuse to marry such persons unless there is a special permit.</p>
+					<p>The limited access of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Mischlinge</term> to - in the case of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Half Jews</term>, total exclusion from - the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">higher education</term> (including vocational schools) may in the future have the most fateful consequences, with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374"
+							type="subject">Half Jews</term> subsequently missing the prerequisite for becoming anything but unskilled <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-902" type="subject">workers</term>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Mischlinge</term> are excluded from owning an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-946" type="subject">inheritance farm</term>, requiring <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-627" type="subject">Aryan descent since 1800</term>. With regard to other land estates, there is no prohibition, but in practice, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"
+							>Mischlinge</term> will generally be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-333" type="subject">forced out</term> of possession of such property, the same applies to non-Jewish spouses of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">Mischlinge and non-Jewish spouses</term> have free access to private businesses. Another thing is that in Practice they will often be <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">pushed out</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject">Companies</term> of any significance, especially in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-938" type="subject">armour industry</term> – companies owned them or within which they play a large role will be excluded from public order.</p>
+					<pb facs="EHRI-DR-19431025_03.jpg" n="3"/>
+					<p>There are still <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-852" type="subject">rumours</term> in <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> of further <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337"
+							type="subject">measures taken against the Jews</term>, e.g., it states that a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-582" type="subject">law</term> must be drawn up, requiring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347"
+							type="subject">Aryans</term> who are married to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> to divorce. After that, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">Jewish law</term> in
+						its full extent could be put into effect also for the group of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who have hitherto been allowed to stay because they were married to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term>. Furthermore, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-852" type="subject">rumours</term> have been spread regarding certain measures against <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">half Jews</term>. In particular, it is said that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Mischlinge</term> in cities, where the housing demand is high due
+						to the devastation caused by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1083" type="subject">airstrikes</term>, should be evicted from their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">apartments</term>. Whether this
+						will happen is impossible to predict. However, with some anxiety, it has been noted that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-342" type="subject">Campaign</term> against the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+							type="subject">Jews</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-341" type="subject">Press</term> has now been intensified again. However, for the first time, lately, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-347"
+							type="subject">Mischlinge</term> has been referred to as <q>Bastards</q>. The fact that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-581" type="subject">Mischling problem</term> is to a significant degree an upper-class problem; since the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">mixed marriages</term> have mainly taken place within the bourgeoisie, there could also be an unfortunate impact on the position of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Mischlinge</term>.</p>
+				</div>
 			</div>
 		</body>
 	</text>

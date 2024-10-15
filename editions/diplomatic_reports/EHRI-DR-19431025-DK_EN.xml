@@ -1,70 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19431025-DK_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Hans Henning Schrøder on the persecution of Jews in Norway in 1943</title>
+				<title xml:lang="de">Hans Henning Schrøder über die Judenverfolgung in Norwegen im Jahr 1943</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/dk">Denmark </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </orgName><address>
+								<street>Rigsdagsgaarden 9</street>
+								<postCode>DK-1218</postCode>
+								<settlement>Copenhagen</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/dk">Denmark</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Rigsarkivet Danish National Archives. <textLang mainLang="en">Original in Dansk.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1943-10-25">25.10.1943</date>
-				<placeName ref="#kingdom-of-norway">Norway</placeName>
+				<origDate when="1943-10-25">25.10.1943</origDate>
+				<origPlace ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norway</origPlace>
 				<persName ref="#ehri_dr_schroeder_hans_henning">Schrøder, Hans Henning</persName>
-				<idno>EHRI-DR-19431025-DK</idno></creation>
+			</creation>
+			<langUsage>
+				<language ident="da"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>Doc 8</p>
-				<p>The <term ref="#t542" type="subject">precautions</term> taken against the <term ref="#t864" type="subject">Jews</term> in
-						<placeName ref="#kingdom-of-norway">Norway</placeName>, from the beginning, were directed mainly towards <term ref="#t583"
-						type="subject">Full Jews</term>. Full Jews are understood as persons whose parents were both of <term ref="#t864"
-						type="subject">Jewish</term> descent and persons belonging to the <term ref="#t872" type="subject">Mosaic Faith
-					Society</term>. On the other hand, all such persons were also subject to the precautions taken and it did not play any role,
-					whether he was <term ref="#t375" type="subject">married</term> to a <term ref="#t373" type="subject">non-Jew</term> or in a
-					marriage to a non-Jew with children. Exceptions to this rule were probably, both so that some <term ref="#t374" type="subject"
-						>Half-Jews</term> may have been <term ref="#t518" type="subject">deported</term>, and so that <term ref="#t864" type="subject"
-						>Full-Jews</term>who have been married to non-Jews have been allowed to stay in the country. Thus, in three <term ref="#t496"
-						type="subject">Concentration Camps</term> in Norway, there are various <term ref="#t864" type="subject">Jews</term>, all of
-					whom are full Jews. Of these camps, <placeName ref="#tonsberg">Tønsberg</placeName> with approx. 50 <term ref="#t483"
-						type="subject">interned</term> was the largest. Interned half-Jews are found in <placeName ref="#l952" type="camp"
-						>Grini</placeName>, but these are not interned because of their descent, but because charges of some kind have been raised
-					against them.</p>
-				<p><term ref="#t864" type="subject">Jews</term> who are Norwegian citizens have been interned on the <term ref="#t594" type="subject"
-						>request</term> of the Germans, but on the other side, the Germans have agreed that no more <term ref="#t575" type="subject"
-						>deportation</term> will take place from <placeName ref="#kingdom-of-norway">Norway</placeName> of <term ref="#t864"
-						type="subject">Jews</term> who are <placeName ref="#kingdom-of-norway">Norwegian</placeName> citizens. Furthermore, the German
-					authorities have agreed to disregard wealth <term ref="#t584" type="subject">confiscation</term> in cases where a <term
-						ref="#t864" type="subject">Jewish</term> man is detained in a concentration camp or deported, and a non-<term ref="#t864"
-						type="subject">Jewish</term> wife must now seek self-employment.</p>
-				<p>Furthermore, <term ref="#t864" type="subject">Jews</term> over the age of 65 are set free.</p>
-				<p><date when="1943-10-25">October 25 1943</date>.</p>
-				<p><persName ref="#ehri_dr_schroeder_hans_henning">Hans Henning Schrøder</persName></p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<p>Doc 8</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">precautions</term> taken against the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in <placeName
+							ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norway</placeName>, from the beginning, were directed mainly towards <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-583" type="subject">Full Jews</term>. Full Jews are understood as persons whose
+						parents were both of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> descent and persons belonging to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Mosaic Faith Society</term>. On the
+						other hand, all such persons were also subject to the precautions taken and it did not play any role, whether he was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">married</term> to a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">non-Jew</term> or in a marriage to a non-Jew with children. Exceptions to this rule were probably, both so that some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374"
+							type="subject">Half-Jews</term> may have been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term>, and so that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Full-Jews</term>who have been
+						married to non-Jews have been allowed to stay in the country. Thus, in three <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Concentration Camps</term> in Norway, there are various <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, all of whom are full Jews. Of these camps, <placeName ref="http://www.geonames.org/3134331/tonsberg.html">Tønsberg</placeName> with approx. 50 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">interned</term> was the largest. Interned half-Jews are found in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-952" type="camp">Grini</placeName>, but these are not interned
+						because of their descent, but because charges of some kind have been raised against them.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who are Norwegian citizens have been interned on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-594" type="subject">request</term> of the Germans, but on the other
+						side, the Germans have agreed that no more <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-575" type="subject">deportation</term> will take place from <placeName ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norway</placeName> of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> who are <placeName ref="http://www.geonames.org/3144096/kingdom-of-norway.html">Norwegian</placeName> citizens. Furthermore, the German authorities have agreed to disregard wealth
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">confiscation</term> in cases where a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> man is detained in a concentration camp or deported, and
+						a non-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> wife must now seek self-employment.</p>
+					<p>Furthermore, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> over the age of 65 are set free.</p>
+					<p><date when="1943-10-25">October 25 1943</date>.</p>
+					<p><persName ref="#ehri_dr_schroeder_hans_henning">Hans Henning Schrøder</persName></p>
+				</div>
 			</div>
 		</body>
 	</text>

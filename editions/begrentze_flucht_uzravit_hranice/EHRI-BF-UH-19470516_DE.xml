@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19470516_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Eidesstattliche Erklärung Ignaz (Hynek) Fischers für die Mitgliedschaft im KZ-Verband</title>
+				<title xml:lang="en">Affidavit from Ignaz (Hynek) Fischer for membership in the concentration camp association</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001982">Dokumentationsarchiv des österreichischen Widerstandes</orgName><address>
+								<street>Altes Rathaus, Wipplingerstr. 6-8</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<collection>KZ-Verband</collection>
+						<idno>Sign. 20100/2439</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>DÖW, KZ-Verband, Sign. 20100/2439. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1947-05-16">16. Mai 1947</origDate>
+				<origPlace>Wien</origPlace>
+				<orgName>KZ-Verband</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="Schicksale"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<!-- TRANSLATE -->
+				<p>Eidesstattliche Erklärung des <orgName ref="#ehri_bf_kz_verband">KZ-Verbandes</orgName> vom <date when="1947-09-26">26.9.1947</date> durch den Fußballtrainer <persName ref="#ehri_bf_fischer_ignaz">Ignaz Fischer</persName>, geb. am <date when="1913-12-07">7.12.1913</date> in
+						<placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, wohnhaft in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> 8, Piaristengasse 1/6. Die Erklärung gibt Auskunft über die persönlichen Daten und die Verfolgung von
+						<persName ref="#ehri_bf_fischer_ignaz">Ignaz Fischer</persName> bzw. die Haftzeit in der NS-Zeit im <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-758">Ghetto Theresienstadt</placeName> und in <placeName
+						ref="https://portal.ehri-project.eu/keywords/ehri_camps-0">Auschwitz</placeName>.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p><pb facs="EHRI-UH-19470516_01.jpg" n="1"/><pb facs="EHRI-UH-19470516_02.jpg" n="2"/></p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

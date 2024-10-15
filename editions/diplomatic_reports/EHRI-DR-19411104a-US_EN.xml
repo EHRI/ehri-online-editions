@@ -1,96 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19411104a-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Franklin Mott Gunther on “Recent Developments in the Situation of the Jews in Rumania” in 1941</title>
+				<title xml:lang="de">Franklin Mott Gunther über „Neueste Entwicklungen in der Lage der Juden in Rumänien“ im Jahr 1941</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
-							II</repository>
-						<collection>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to
-							internal affairs of Romania 1910-1944, Wilmington, Del. 1981 (Microfilm):</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration II</orgName><address>
+								<street>8601 Adelphi Road</street>
+								<postCode>MD 20740-6001</postCode>
+								<settlement>Maryland</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of Romania 1910-1944, Wilmington, Del. 1981 (Microfilm):</collection>
 						<idno>Doc. 871.4016/287</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of
-					Romania 1910-1944, Wilmington, Del. 1981 (Microfilm): Doc. 871.4016/287, p. 2-4. Printed in FRUS 1941, vol. II, p. 871-874.
-						<textLang mainLang="en">Original in English.</textLang></bibl>
+				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of Romania 1910-1944, Wilmington, Del. 1981 (Microfilm): Doc. 871.4016/287, p. 2-4. Printed in FRUS 1941, vol. II, p. 871-874. <textLang mainLang="en"
+						>Original in English.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1941-11-04">November 4, 1941</date>
-				<placeName ref="#bucharest">Bucharest</placeName>
+				<origDate when="1941-11-04">November 4, 1941</origDate>
+				<origPlace ref="http://www.geonames.org/683506/bucharest.html">Bucharest</origPlace>
 				<persName ref="#ehri_dr_gunther">Gunther, Franklin Mott Gunther</persName>
-				<idno>EHRI-DR-19411104a-US</idno>
 			</creation>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="R 6456-39 (134)" n="2"/>
-				<p>The <orgName ref="#g003223">Department</orgName> is already aware that the <term ref="#t1036" type="subject">military
-						occupation</term> of <placeName ref="#bessarabia">Bessarabia</placeName> and northern <placeName ref="#bukovina"
-						>Bucovina</placeName> was followed by the <term ref="#t614" type="subject">establishment of Jews in ghettos</term> in the
-					larger cities, and that large numbers, particularly from <placeName ref="#bessarabia">Bessarabia</placeName>, were gradually <term
-						ref="#t623" type="subject">evacuated</term> into the territory lying beyond the <placeName ref="#dniester">Dniester
-						River</placeName>. These <term ref="#t337" type="subject">measures</term> were carried out under appalling conditions and
-					accompanied by innumerable kinds of frightfulness, including <term ref="#t660" type="subject">robbery</term>, <term ref="#t570"
-						type="subject">starvation</term>, <term ref="#t532" type="subject">killings</term> and other brutalities. Only a relatively
-					small number of <term ref="#t864" type="subject">Jews</term> are believed now to be left in <placeName ref="#bessarabia"
-						>Bessarabia</placeName> – estimates vary from ten to thirty thousand out of a total of just over two hundred thousand residing
-					there prior to the <term ref="#t1036" type="subject">Russian seizure</term> of <placeName ref="#bessarabia">Bessarabia</placeName>
-					in <date when="1940-06">June 1940</date> – while in <placeName ref="#bukovina">Bucovina</placeName> there are, according to
-					reliable <term ref="#t864" type="subject">Jews</term>, some fifteen to twenty thousand <term ref="#t864" type="subject"
-						>Jews</term> now awaiting <term ref="#t518" type="subject">deportation</term> eastward to <placeName ref="#transnistria"
-						>Transnistria</placeName> and other parts of the <placeName ref="#ukraine">Ukraine</placeName>. A great many, undoubtedly tens
-					of thousands, have already been thus <term ref="#t623" type="subject">evacuated</term>.</p>
-				<pb facs="R 6456-39 (135)" n="3"/>
-				<p>During the past three weeks evidence has been accumulating – first in the form of vague <term ref="#t852" type="subject"
-						>rumors</term> and unconfirmed reports, then through increasingly substantial sources of information and finally in exchange
-					of <term ref="#t843" type="subject">letters</term> between Marshal <persName ref="#p000010">Antonescu</persName> and the <term
-						ref="#t892" type="subject">head</term> of the local <term ref="#t872" type="subject">Jewish community</term> – that such as
-					remains of the <term ref="#t896" type="subject">Jewish population</term> in <placeName ref="#bukovina">Bucovina </placeName>and
-						<placeName ref="#bessarabia">Bessarabia</placeName> is being <term ref="#t623" type="subject">evacuated</term> eastward into
-					the war-devastated territory of the <placeName ref="#ukraine">Ukraine</placeName> under conditions so appalling that they would
-					seem to afford a substantial share of the <term ref="#t623" type="subject">evacuees</term> little chance to <term ref="#t561"
-						type="subject">survive</term>. Persistent reports have reached me daily regarding these unfortunate <term ref="#t1207"
-						type="subject">people</term> – <term ref="#t826" type="subject">men</term>, <term ref="#t825" type="subject">women</term> and
-						<term ref="#t824" type="subject">children</term>, including the old and ill – who, given only a few hours notice with the
-					right to take with them only a meager ten kilograms of <term ref="#t887" type="subject">belongings</term> and the equivalent of
-					two dollars in money – the <term ref="#t686" type="subject">stories</term> almost invariably add that these <term ref="#t887"
-						type="subject">belongings</term> and the money are taken from them en route – have been herded eastward on foot or in carts or
-					box-cars, to war-swept regions where buildings have been razed and <term ref="#t832" type="subject">food</term> and other <term
-						ref="#t833" type="subject">supplies</term> destroyed or removed and where winter weather will soon prevail. This modern <term
-						ref="#t616" type="subject">Captivity</term> would seem deliberately calculated to serve a program of virtual <term ref="#t529"
-						type="subject">extermination</term> and, even if the persistent <term ref="#t852" type="subject">rumors</term> that the <term
-						ref="#t623" type="subject">evacuees</term> in numberless cases are <term ref="#t655" type="subject">plundered</term> of their
-						<term ref="#t887" type="subject">belongings</term>, that dozens and hundreds are <term ref="#t536" type="subject">shot</term>
-					en route, pushed off bridges or dead of exhaustion, are greatly exaggerated or untrue, it seems certain that many thousands will
-					perish. Of course, as suggested in the last paragraph of my telegram first cited above, many of these reports and <term
-						ref="#t852" type="subject">rumors</term> are unconfirmed and must be classified as hearsay, or even <term ref="#t986"
-						type="subject">propaganda</term> by interested persons [...] but I am bound to say that even the minimum of truth that I am
-					sure lies in <pb facs="R 6456-39 (136)" n="4"/> these <term ref="#t686" type="subject">stories</term> is sufficient to give grave
-						<term ref="#t173" type="subject">concern to the civilized world</term>.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="R 6456-39 (134)" n="2"/>
+					<p>The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-003223">Department</orgName> is already aware that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1036" type="subject">military occupation</term> of <placeName
+							ref="http://www.geonames.org/618569/bessarabia.html">Bessarabia</placeName> and northern <placeName ref="http://www.geonames.org/571096/bukovina.html">Bucovina</placeName> was followed by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-614"
+							type="subject">establishment of Jews in ghettos</term> in the larger cities, and that large numbers, particularly from <placeName ref="http://www.geonames.org/618569/bessarabia.html">Bessarabia</placeName>, were gradually <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term> into the territory lying beyond the <placeName ref="http://www.geonames.org/565888/dniester.html">Dniester River</placeName>. These <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">measures</term> were carried out under appalling conditions and accompanied by innumerable kinds of frightfulness, including <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660"
+							type="subject">robbery</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-570" type="subject">starvation</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">killings</term> and other brutalities. Only a relatively
+						small number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> are believed now to be left in <placeName ref="http://www.geonames.org/618569/bessarabia.html">Bessarabia</placeName> – estimates vary from ten to thirty thousand out
+						of a total of just over two hundred thousand residing there prior to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1036" type="subject">Russian seizure</term> of <placeName ref="http://www.geonames.org/618569/bessarabia.html">Bessarabia</placeName> in
+							<date when="1940-06">June 1940</date> – while in <placeName ref="http://www.geonames.org/571096/bukovina.html">Bucovina</placeName> there are, according to reliable <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>, some fifteen
+						to twenty thousand <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> now awaiting <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term> eastward to <placeName
+							ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName> and other parts of the <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName>. A great many, undoubtedly tens of thousands, have already been thus <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term>.</p>
+					<pb facs="R 6456-39 (135)" n="3"/>
+					<p>During the past three weeks evidence has been accumulating – first in the form of vague <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-852" type="subject">rumors</term> and unconfirmed reports, then through increasingly substantial sources of information and
+						finally in exchange of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letters</term> between Marshal <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000010">Antonescu</persName> and the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-892" type="subject">head</term> of the local <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish community</term> – that such as remains of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jewish population</term> in <placeName ref="http://www.geonames.org/571096/bukovina.html">Bucovina </placeName>and <placeName ref="http://www.geonames.org/618569/bessarabia.html"
+							>Bessarabia</placeName> is being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term> eastward into the war-devastated territory of the <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName> under
+						conditions so appalling that they would seem to afford a substantial share of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuees</term> little chance to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-561"
+							type="subject">survive</term>. Persistent reports have reached me daily regarding these unfortunate <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1207" type="subject">people</term> – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826"
+							type="subject">men</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, including the old and ill – who, given only a
+						few hours notice with the right to take with them only a meager ten kilograms of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">belongings</term> and the equivalent of two dollars in money – the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">stories</term> almost invariably add that these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">belongings</term> and the money are taken from them en route –
+						have been herded eastward on foot or in carts or box-cars, to war-swept regions where buildings have been razed and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> and other <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">supplies</term> destroyed or removed and where winter weather will soon prevail. This modern <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">Captivity</term>
+						would seem deliberately calculated to serve a program of virtual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject">extermination</term> and, even if the persistent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-852"
+							type="subject">rumors</term> that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuees</term> in numberless cases are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">plundered</term> of their
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">belongings</term>, that dozens and hundreds are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">shot</term> en route, pushed off bridges or dead of
+						exhaustion, are greatly exaggerated or untrue, it seems certain that many thousands will perish. Of course, as suggested in the last paragraph of my telegram first cited above, many of these reports and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-852"
+							type="subject">rumors</term> are unconfirmed and must be classified as hearsay, or even <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-986" type="subject">propaganda</term> by interested persons [...] but I am bound to say that even the minimum of truth
+						that I am sure lies in <pb facs="R 6456-39 (136)" n="4"/> these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">stories</term> is sufficient to give grave <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-173" type="subject"
+							>concern to the civilized world</term>.</p>
+				</div>
 			</div>
 		</body>
 	</text>

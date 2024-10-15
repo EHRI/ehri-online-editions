@@ -1,134 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19420615-DK_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Otto Carl Mohr on "The Position of the Jews" in Ostland in 1942</title>
+				<title xml:lang="de">Otto Carl Mohr über „Die Lage der Juden“ im Ostland 1942</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/dk">Denmark </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/dk-002313"> Rigsarkivet Danish National Archives </orgName><address>
+								<street>Rigsdagsgaarden 9</street>
+								<postCode>DK-1218</postCode>
+								<settlement>Copenhagen</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/dk">Denmark</country>
+							</address></institution>
 					</msIdentifier>
 				</msDesc>
 				<bibl>Rigsarkivet, 140.J.11a, Gruppeordnede sager. <textLang mainLang="en">Original in Danish.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1942-06-15">15.06.1942</date>
-				<placeName ref="#berlin">Berlin</placeName>
+				<origDate when="1942-06-15">15.06.1942</origDate>
+				<origPlace ref="https://www.geonames.org/2950159/berlin.html">Berlin</origPlace>
 				<persName ref="#ehri_dr_mohr_otto_carl">Mohr, Otto Carl</persName>
-				<idno>EHRI-DR-19420615-DK</idno>
 			</creation>
+			<langUsage>
+				<language ident="da"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="EHRI-DR-19420615_01" n="1"/>
-				<p>Just like the <placeName ref="http://www.geonames.org/maps/wikipedia_52.5167_13.4">German Empire</placeName>, a number of special
-						<term ref="#t1033" type="subject">provisions</term> apply to <term ref="#t864" type="subject">Jews</term> in <term
-						ref="#t1181" type="subject">Ostland</term>. These Regulations are only to a very limited extent drawn up by the <term
-						ref="#t1112" type="subject">administrative Authorities. </term> Thus, only a single related regulation is seen to have been
-					issued by the <orgName ref="#g485">Minister of State for the Occupied Eastern Territories</orgName>, see below under B.VIII, and
-					the Office of the Commissioner of the Interior essentially confines himself to an Order of <date when="1941-10-13">13
-						October</date> of the previous year, regarding the Treatment of <term ref="#t888" type="subject">Jewish Wealth</term> in the
-					State Commission of <term ref="#t1181" type="subject">Ostland</term>. The Area Commissioners or the Self-<term ref="#t948"
-						type="subject">Government</term> administrative Authorities have drafted the vast majority of provisions, and many of these
-					Provisions are hardly published. As a result, the contents of the <term ref="#t542" type="subject">regulations</term> in question
-					are more difficult to access for the legation, and there may also be some minor differences in the rules at the various locations.
-					In the following, the legation will refer to some of the <term ref="#t337" type="subject">special provisions</term> applicable to
-					the <term ref="#t864" type="subject">Jews</term> of <term ref="#t1181" type="subject">Ostland</term>. Because of the foregoing, it
-					is not certain that all the rules made <pb facs="EHRI-DR-19420615_02" n="2"/> under B. IV to VII apply throughout <term
-						ref="#t1181" type="subject">Ostland</term>. However, the envoy has intended to refrain from conducting an examination of the
-					extent to which they are applicable everywhere, as their applicability in most places is undoubted, and it is probably more the
-					general principles which have been adopted by the <term ref="#t1032" type="subject">authorities</term>. The following draws upon
-					some of the <term ref="#t337" type="subject">Special Provisions</term> of Interest.</p>
-				<p>A. So far there is no <term ref="#t365" type="subject">provision</term> for what is meant by the term '<term ref="#t864"
-						type="subject">Jew</term>'.</p>
-				<p>However, one would assume that the rules of this term in <term ref="#t1181" type="subject">Ostland</term>, are similar to the <term
-						ref="#t952" type="subject">ones</term> used in <term ref="#t1159?dlid=deu" type="subject">Germany</term>. […]</p>
-				<pb facs="EHRI-DR-19420615_03" n="3"/>
-				<p>B.I. The <persName ref="#p000254">Commissioner of State</persName> issued on <date when="1941-10-13">13 October</date> of the
-					previous year a decree on Treatment of <term ref="#t887" type="subject">Jewish assets</term> in the <ref
-						target="https://portal.ehri-project.eu/keywords/admindistricts-74">Reich Commissariat Ostland</ref>, stating that all the
-						<term ref="#t888" type="subject">wealth</term> of the <term ref="#t864" type="subject">Jewich population</term> has been
-					subject to <term ref="#t585" type="subject">seizure</term>, commissarial administration and <term ref="#t584" type="subject"
-						>confiscation</term> in accordance with the provisions contained in the device. This includes <term ref="#t887" type="subject"
-						>assets</term> of all kinds, such as real estate and movable property with all accessories and claims, rights and all kinds of
-					interests.</p>
-				<p><term ref="#t333" type="subject">The right of confiscation</term> is the responsibility of the Commissioner of State or the
-					authority, which he announces. It may include individual persons or the <term ref="#t872" type="subject">Jews</term> as a whole,
-					and it may be restricted to individual <term ref="#t887" type="subject">property</term>. Excluded from the seizure is the part of
-					the household deemed necessary for the personal life and cash, <term ref="#t930" type="subject">bank</term> and savings deposits
-					and securities at a total value of 100 Reichsmark. […]</p>
-				<pb facs="EHRI-DR-19420615_05" n="5"/>
-				<p>Even before the Completion of the administrative <term ref="#t951" type="subject">order</term> of <date when="1941-10-13">13
-						October</date> of the previous year, There were within the various areas of which <term ref="#t1181" type="subject"
-						>Ostland</term> consists, local regulations, which had been drawn up, imposing a registration requirement for all <term
-						ref="#t887" type="subject">Jewish property</term> and prohibiting the <term ref="#t872" type="subject">Jews</term> from
-					disposing of their property.</p>
-				<pb facs="EHRI-DR-19420615_06" n="6"/>
-				<p>II. In the cities, the <term ref="#t864" type="subject">Jewich population</term> lives in special <term ref="#t545" type="subject"
-						>Jewish neighbourhoods</term>, separated from the rest of the city by high barricades. <term ref="#t546" type="subject">Within
-						the Ghetto</term>, the <term ref="#t872" type="subject">Jews</term> are allowed to move freely, but they are prohibited from
-					leaving the confined areas and could be sentenced to the death penalty if they do so and do not have special permission. The <term
-						ref="#t872" type="subject">Jews</term> living in the <term ref="#t545" type="subject">ghettos</term> belong to their own
-					administration, choosing a kind of <term ref="#t579" type="subject">Jewish Council</term>, which through its <term ref="#t554"
-						type="subject">chairman</term> is obliged to receive the orders of the <term ref="#t477" type="subject">authorities</term>
-					concerning the <term ref="#t872" type="subject">Jews</term>. The Chairman is responsible for the execution of such orders. All the
-						<term ref="#t872" type="subject">Jews</term> shall always obey the authorities’ provisions, which he issues.</p>
-				<p>III. All <term ref="#t872" type="subject">Jews</term> are committed to wear a yellow <term ref="#t338" type="subject">Star of
-						David</term>, 8 to 10 cm in diameter on their chest - in for example <placeName ref="#republic-of-lithuania"
-						>Lithuania</placeName> also on their back.</p>
-				<p>IV. All <term ref="#t872" type="subject">Jews</term> that are able to <term ref="#t556" type="subject">work</term> must do so. They
-					are employed through the Employment Office. For the work done by the <term ref="#t872" type="subject">Jews</term>, the employers
-					must pay a <term ref="#t1050" type="subject">tariff wage</term>, but the labour profits are <term ref="#t1048" type="subject">not
-						paid directly</term>, but they are paid to the authorities. These then pay what the <term ref="#t872" type="subject"
-						>Jews</term> have earned for the work done to the Council mentioned under II, which in then settles with the individual.</p>
-				<p>V. <term ref="#t872" type="subject">Jews</term> must not employ <term ref="#t373" type="subject">Aryan people</term> or give them
-					shelter, a <term ref="#t1045" type="subject">provision</term> that has a special significance for Jews in the <term ref="#t944"
-						type="subject">country area</term>.</p>
-				<pb facs="EHRI-DR-19420615_07" n="7"/>
-				<p>VI. The <term ref="#t872" type="subject">Jews</term> are prohibited from using all <term ref="#t939" type="subject">public
-						transport</term>. They are also <term ref="#t594" type="subject">prohibited</term> from staying in any public facility and
-					park, visiting any <term ref="#t1071" type="subject">public venue</term>, restaurant, places of amusement, museums, theatres and
-					bathing places. In <placeName ref="#republic-of-lithuania">Lithuania</placeName>, they are not allowed to walk on the sidewalk,
-					but are forced to use the right-hand side of the street thus two Jews are not allowed to walk beside each other but must follow
-					one another.</p>
-				<p>The special permits required for bicycling in <term ref="#t1181" type="subject">Ostland</term> must not be issued to Jews.</p>
-				<p>VII. For the <term ref="#t864" type="subject">Jewish population</term>, special <term ref="#t834" type="subject">food cards</term>
-					have been issued for which, in general, only <term ref="#t569" type="subject">half</term> of the rations given to the rest of the
-					native population are given. Generally, they have to make their purchases in certain designated stores. […]</p>
-				<p>VIII. According to the Prime Minister's Decree of <date when="1941-12-19">19 December 1941</date> on the Establishment and
-					Construction of a <term ref="#t1152" type="subject">German</term> Jurisdiction in the <term ref="#t1181" type="subject">Occupied
-						Eastern Areas</term> (§ 5), Jews do not have remedies against a <term ref="#t1152" type="subject">German</term> court
-					decision. Nor can they petition for a resumption of a case or require a <term ref="#t1213" type="subject">judge</term> to vacate
-					his seat on grounds of disobedience.</p>
-				<p>According to one of the <ref target="https://portal.ehri-project.eu/keywords/admindistricts-86">Commissioner-General of the
-						Reval</ref> issued on <date when="1942-03-03">March 3, 1942</date>, the Order for the Provisional Execution of Justice through
-					the country's own judicial authorities (§ 4), all <term ref="#t899" type="subject">Jews</term>, <term ref="#t864" type="subject"
-						>Jewish</term>
-					<q><term ref="#t374" type="subject">Mischlinge</term></q> or persons who are <term ref="#t582" type="subject">
-						<pb facs="EHRI-DR-19420615_08" n="8"/> married to Jews</term> or in a straight line, excluded from any undertaking in the
-					national administration of justice.</p>
-				<p><persName ref="#ehri_dr_mohr_otto_carl">Otto Carl Mohr</persName></p>
-				<p/>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="EHRI-DR-19420615_01" n="1"/>
+					<p>Just like the <placeName ref="http://www.geonames.org/maps/wikipedia_52.5167_13.4.html">German Empire</placeName>, a number of special <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1033" type="subject">provisions</term> apply to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term>. These Regulations are only to a very limited extent drawn up by the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1112" type="subject">administrative Authorities. </term> Thus, only a single related regulation is seen to have been issued by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-485">Minister of
+							State for the Occupied Eastern Territories</orgName>, see below under B.VIII, and the Office of the Commissioner of the Interior essentially confines himself to an Order of <date when="1941-10-13">13 October</date> of the previous year, regarding the Treatment of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-888" type="subject">Jewish Wealth</term> in the State Commission of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term>. The Area Commissioners or the Self-<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-948" type="subject">Government</term> administrative Authorities have drafted the vast majority of provisions, and many of these Provisions are hardly published. As a result, the contents of the <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">regulations</term> in question are more difficult to access for the legation, and there may also be some minor differences in the rules at the various locations. In the following,
+						the legation will refer to some of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">special provisions</term> applicable to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term>. Because of the foregoing, it is not certain that all the rules made <pb facs="EHRI-DR-19420615_02" n="2"/> under B. IV to VII apply throughout <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term>. However, the envoy has intended to refrain from conducting an examination of the extent to which they are applicable everywhere, as their applicability in most places is
+						undoubted, and it is probably more the general principles which have been adopted by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">authorities</term>. The following draws upon some of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">Special Provisions</term> of Interest.</p>
+					<p>A. So far there is no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">provision</term> for what is meant by the term '<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jew</term>'.</p>
+					<p>However, one would assume that the rules of this term in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term>, are similar to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-952" type="subject">ones</term> used in
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159?dlid=deu" type="subject">Germany</term>. […]</p>
+					<pb facs="EHRI-DR-19420615_03" n="3"/>
+					<p>B.I. The <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000254">Commissioner of State</persName> issued on <date when="1941-10-13">13 October</date> of the previous year a decree on Treatment of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">Jewish assets</term> in the <ref target="https://portal.ehri-project.eu/keywords/admindistricts-74">Reich Commissariat Ostland</ref>, stating that all the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-888" type="subject">wealth</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewich population</term> has been subject to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-585" type="subject">seizure</term>, commissarial administration and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584?dlid=eng" type="subject">confiscation</term> in accordance with the provisions
+						contained in the device. This includes <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">assets</term> of all kinds, such as real estate and movable property with all accessories and claims, rights and all kinds of interests.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-333" type="subject">The right of confiscation</term> is the responsibility of the Commissioner of State or the authority, which he announces. It may include individual persons or the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> as a whole, and it may be restricted to individual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject">property</term>. Excluded from the seizure is the
+						part of the household deemed necessary for the personal life and cash, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-930" type="subject">bank</term> and savings deposits and securities at a total value of 100 Reichsmark. […]</p>
+					<pb facs="EHRI-DR-19420615_05" n="5"/>
+					<p>Even before the Completion of the administrative <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-951" type="subject">order</term> of <date when="1941-10-13">13 October</date> of the previous year, There were within the various areas of which <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term> consists, local regulations, which had been drawn up, imposing a registration requirement for all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-887" type="subject"
+							>Jewish property</term> and prohibiting the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> from disposing of their property.</p>
+					<pb facs="EHRI-DR-19420615_06" n="6"/>
+					<p>II. In the cities, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewich population</term> lives in special <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">Jewish neighbourhoods</term>, separated from the
+						rest of the city by high barricades. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-546" type="subject">Within the Ghetto</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> are allowed to move freely, but
+						they are prohibited from leaving the confined areas and could be sentenced to the death penalty if they do so and do not have special permission. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> living in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettos</term> belong to their own administration, choosing a kind of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Jewish Council</term>, which through its
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">chairman</term> is obliged to receive the orders of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-477" type="subject">authorities</term> concerning the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term>. The Chairman is responsible for the execution of such orders. All the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> shall always obey
+						the authorities’ provisions, which he issues.</p>
+					<p>III. All <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> are committed to wear a yellow <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">Star of David</term>, 8 to 10 cm in diameter on their chest -
+						in for example <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuania</placeName> also on their back.</p>
+					<p>IV. All <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> that are able to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> must do so. They are employed through the Employment Office. For
+						the work done by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term>, the employers must pay a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1050" type="subject">tariff wage</term>, but the labour profits are <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1048" type="subject">not paid directly</term>, but they are paid to the authorities. These then pay what the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> have earned
+						for the work done to the Council mentioned under II, which in then settles with the individual.</p>
+					<p>V. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> must not employ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan people</term> or give them shelter, a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1045" type="subject">provision</term> that has a special significance for Jews in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">country area</term>.</p>
+					<pb facs="EHRI-DR-19420615_07" n="7"/>
+					<p>VI. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews</term> are prohibited from using all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-939" type="subject">public transport</term>. They are also <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-594" type="subject">prohibited</term> from staying in any public facility and park, visiting any <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1071" type="subject">public venue</term>, restaurant,
+						places of amusement, museums, theatres and bathing places. In <placeName ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuania</placeName>, they are not allowed to walk on the sidewalk, but are forced to use the right-hand side of the street thus two Jews
+						are not allowed to walk beside each other but must follow one another.</p>
+					<p>The special permits required for bicycling in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Ostland</term> must not be issued to Jews.</p>
+					<p>VII. For the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish population</term>, special <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">food cards</term> have been issued for which, in general, only
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">half</term> of the rations given to the rest of the native population are given. Generally, they have to make their purchases in certain designated stores. […]</p>
+					<p>VIII. According to the Prime Minister's Decree of <date when="1941-12-19">19 December 1941</date> on the Establishment and Construction of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">German</term> Jurisdiction in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1181" type="subject">Occupied Eastern Areas</term> (§ 5), Jews do not have remedies against a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1152" type="subject">German</term> court decision. Nor can
+						they petition for a resumption of a case or require a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1213" type="subject">judge</term> to vacate his seat on grounds of disobedience.</p>
+					<p>According to one of the <ref target="https://portal.ehri-project.eu/keywords/admindistricts-86">Commissioner-General of the Reval</ref> issued on <date when="1942-03-03">March 3, 1942</date>, the Order for the Provisional Execution of Justice through the country's own judicial
+						authorities (§ 4), all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">Jews</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">Mischlinge</term></q> or persons who are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-582" type="subject">
+							<pb facs="EHRI-DR-19420615_08" n="8"/> married to Jews</term> or in a straight line, excluded from any undertaking in the national administration of justice.</p>
+					<p><persName ref="#ehri_dr_mohr_otto_carl">Otto Carl Mohr</persName></p>
+					<p/>
+				</div>
 			</div>
 		</body>
 	</text>

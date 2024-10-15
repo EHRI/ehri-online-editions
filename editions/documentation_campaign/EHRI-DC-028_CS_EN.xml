@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-028_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Josef Klaber, report on Jacob Edelstein, Ota Zucker, and Erich Munk</title>
+				<title xml:lang="de">Josef Klaber, Bericht über Jacob Edelstein, Ota Zucker und Erich Munk</title>
+				<title xml:lang="cs">Josef Klaber, zpráva o Jacobu Edelsteinovi, Otovi Zuckerovi a Erichu Munkovi</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josef Klaber</persName>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín Ghetto</origPlace>, <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Jacob Edelstein</persName>, <persName
+					ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Erich Munk</persName>, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Ota Zucker</persName>, </creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Josef Klaber provides a report on Jacob Edelstein (chairman of the Council of Elders in the Terezín Ghetto), Ota Zucker (member of the Council of Elders in the Terezín Ghetto), and Erich Munk (member of the Council of Elders in the Terezín Ghetto). He describes their activities
+					and behavior towards the inmates of the Ghetto.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-028_01.png" n="1"/>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein Jaakov</persName> pocházel z východu a pokud je mi známo, byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">sionistickou</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">organizací</term> poslán do řečnické <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">školy</term> do <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Vídně</placeName> a jako přesvědčený <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">sionista</term> bojoval za splnění těchto idejí. Nejlepším jeho přítelem byl Dr. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1496899" type="victim">Kahn</persName>, co se ukázalo také při odchodu <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelsteina</persName> do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. Tím, že <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName> již v <placeName ref="http://www.geonames.org/763829/nisko.html"
+							>Nisku</placeName> a později v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> měl příležitost stýkati se s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">vedoucími</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term> od <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle für jüdische Auswanderung</orgName>, naučil se díky své prozíravosti a inteligenci učiniti
+						hlavně v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> mnoho, co se jeho nástupcům a ostatním pak už tak nedařilo. Jeho budovatelská práce v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> v zájmu Židovstva může se nazvat pionýrskou. Pomáhal, kde mohl i v případech, kde mu hrozilo nebezpečí ze strany <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. Po příchodu Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epsteina</persName> a <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelsteina</persName> z nichž první byl dosazen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> na jeho místo, povstala nedorozumění mezi těmito činiteli a
+							<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName> znechucen jednáním a postupem hlavně Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epsteina</persName>, chtěl
+						se vzdáti své funkce a nemohl již tak zasahovat, jak to činíval předtím. Uškodilo to bohužel - avšak ne vinou <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelsteina</persName> nýbrž poměry - celku <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>.</p>
+					<p>Byl neúmorný ve své práci, přijal každého s jeho prosbou nebo stížností a nakonec odpykal svou dobrou práci <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportací</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+							type="subject">smrtí</term>.</p>
+					<p>Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Otto Zucker</persName></p>
+					<p>Při odchodu do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName> s tzv. štábem bylo pořádané krátké rozloučení, při kterém <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+							>zemřelý</term> Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1951990" type="victim">Weidmann</persName> vylíčil charakter jak <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelsteina</persName>, tak
+						Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zuckera</persName> a podotkl, že i když jsou téhož přesvědčení jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject"
+							>sionisté</term>, jsou v nich rozdíly, kde na jedné straně <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName> jako snad citověji založený, <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> jako drsnější, ale že tyto dvě osoby jsou určeny pro vybudování <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+							>ghetta</term> a zajisté to bude k dobru všem, poněvadž jsou to dvě povahy různé, ale v hlavním bodu si budou rozumět. Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> byl snad drsnější
+						povahy jako <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>, ale i on pracoval neúmorně a nezištně na zbudování a zlepšení <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetta</term>. Věnoval
+						se nejen určené <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">práci</term>, nýbrž i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">umění</term>, jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">hudba</term> atd. V jeho společnosti se pohybovali <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-677" type="subject">umělci</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-798" type="subject">učenci</term>, u kterých ve chvílích, které měl volné pro svůj soukromý život, nalezl část svého života. Také u něho dostavilo se příchodem Dr. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epsteina</persName> a Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelsteina</persName> znechucení a rozpory, které těžce snesl tak, jak
+							<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>.</p>
+					<p>Celkem řečeno byl Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> právě tak jako <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>, i když - jak
+						již z počátku řečeno - citově drsnější, povahy.</p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Erich Munk</persName></p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Munka</persName> označil bych - jak byl charakterizován při jedné schůzce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-manů</term> v Kameradschaftsheimu,
+						kde byli jednotlivě všichni vedoucí dle jejich povahy a chování a kde byl <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Munk</persName> označen myslím <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000368">Seidlem</persName>
+						nebo <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Güntherem</persName>, že spolkli pravítko - jako: přímý člověk. Byla to jeho nejlepší charakteristika. Co učinil hned v prvních dnech <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName> jako vedoucí <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-8">zdravotnictví</orgName>, může myslím posoudit jen ten, který s
+						ním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">pracoval</term>. Z ničeho vybudoval <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-8">zdravotnictví</orgName> na takovém stupni, že zachránil
+						tisíce před <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrtí</term>. Pracoval jen v zájmu věci, nikdy z osobních důvodů. tak, že ke konci jeho práce vyskytla se u něho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">tuberkulóza</term>, ze které se musel několik měsíců léčit. Všemi prostředky pracoval tak, že se mu podařilo hned z počátku dosáhnout, že dostal dostatečný počet <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">léků</term>,
+						když <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Němce</placeName> neúprosně upozorňoval na nebezpečí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-492" type="subject">epidemií</term>, kterým se dá čelit jen, bude-li
+						dostatek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">léčiv</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">místnosti</term> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">nemocné</term> atd. Také on doplatil, jako ostatní vedoucí, za svou nezištnou práci <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrtí</term>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-028_01.png" n="1"/>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein Jaakov</persName> came from the east and, as far as I know, was sent to an oratory <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">school</term> in
+							<placeName ref="http://www.geonames.org/2761369/vienna.html">Vienna</placeName> by a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">zionist</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-871" type="subject">organization</term> and, as a confirmed <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">zionist</term>, fought for the fulfilment of the cause. His best friend
+						was Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1496899" type="victim">Kahn</persName>, which became apparent when <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName> was leaving for
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. Since <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName> had the opportunity already in <placeName
+							ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName> and later in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> to associate with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject"
+							>leading</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term> from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Central Office for Jewish Emigration</orgName>, thanks to his foresight and intelligence, he learned to
+						push more things in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> through than his successors and others could manage. His constructive work in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> in the interest of Jewishness can be called pioneering. He helped wherever he could, even in cases when he was in great danger from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. After the arrival of Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epstein</persName> and <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelstein</persName>, the first of which was installed by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> to his post, the two officials became mired in a
+						misunderstanding and <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>, disgusted by the behavior and work of Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim"
+							>Epstein</persName> in particular, wanted to resign his position and could no longer intervene as he could before. Unfortunately, this had negative consequences, which were not caused by <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100"
+							>Edelstein</persName>, but by the overall conditions in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>.</p>
+					<p>He was relentless in his work, accepted anyone’s request or complaint and in the end redeemed himself for his good work on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>.</p>
+					<p>Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Otto Zucker</persName></p>
+					<p>During the departure to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> with the so-called Staff for short goodbyes, during which the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+							type="subject">deceased</term> Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1951990" type="victim">Weidmann</persName> described the character of <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100"
+							>Edelstein</persName> as well as Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> and noted that even though they are confirmed <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-907" type="subject">zionists</term>, there are differences between them. On the one hand <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName> is more emotional, while
+							<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> is harsher, but these two types are necessary for the building of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+							type="subject">ghetto</term> and it will be to the benefit of all, because they are two different personalities, but understand one another when it comes to the main issues. Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255"
+							type="victim">Zucker</persName> is perhaps harsher than <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>, but even he worked tirelessly and selflessly on the building and improvement of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. He devoted himself not only to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> that was determined for him, but also to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-673" type="subject">art</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">music</term>, etc. He kept company with <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-677" type="subject">artists</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-798" type="subject">scholars</term>, for whom he found time for in his scant free moments. He too, after the
+						arrival of Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epstein</persName> and Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000286">Murmelstein</persName> began to argue and feel
+						disgusted, which he took badly, just like <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>.</p>
+					<p>In short, Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> was just like <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>, although, as I stated
+						earlier, he had an more emotionally harsh character.</p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Erich Munk</persName></p>
+					<p>I would describe Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Munk</persName> as he was characterized during an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-member</term> meeting in the
+						Kameradschaftsheimu, where all of the heads were present according to their character and behavior and where <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001064">Munk</persName> was called by <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000368">Seidl</persName> or <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName>, who were sticklers for the rules, a direct person. It was his best characteristic. What he
+						got done during his first days in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> as the head of <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-8">health
+							care</orgName>, can only be judged by someone who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> with him. Out of nothing he created a <orgName
+							ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-8">health care</orgName> system at such a high level that he saved thousands from their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">deaths</term>. He
+						worked only in the public’s interest, and never for personal gain. Towards the end of his term he contracted <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tuberculosis</term>, and had to be treated for it for several months. He worked using
+						all of the resources at his disposal and managed to get a sufficient quantity of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medicine</term> when he relentlessly notified the <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germans</placeName> of the danger of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-492" type="subject">epidemics</term>, which ones can be stopped if there is enough <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medicine</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">rooms</term> for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">sick</term>, etc. Like the other leaders, he paid for his selfless work with his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">life</term>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

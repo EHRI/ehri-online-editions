@@ -1,96 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19411007-IT_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title xml:lang="en">Casto Caruso on increasingly harsher measures against Jews in the Protectorate of Bohemia and Moravia in
-					1941</title>
+				<title xml:lang="en">Casto Caruso on increasingly harsher measures against Jews in the Protectorate of Bohemia and Moravia in 1941</title>
+				<title xml:lang="de">Casto Caruso über immer härtere Maßnahmen gegen Juden im Protektorat Böhmen und Mähren im Jahr 1941</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
-							Affari Esteri</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli Affari Esteri</orgName><address>
+								<street>Piazzale della Farnesina, 1</street>
+								<postCode>00196</postCode>
+								<settlement>Roma</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, A.G. Uff IV., Posizione S.E. 27.869 S, fasc. Slovacchia.
-						<textLang mainLang="en">Original in Italian.</textLang></bibl>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, A.G. Uff IV., Posizione S.E. 27.869 S, fasc. Slovacchia. <textLang mainLang="en">Original in Italian.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1941-10-07">7.10.1941</date>
-				<placeName ref="#prague">Prague</placeName>
+				<origDate when="1941-10-07">7.10.1941</origDate>
+				<origPlace ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
 				<persName ref="#ehri_dr_caruso_casto">Caruso, Casto</persName>
-				<idno>EHRI-DR-19411007-IT</idno>
 			</creation>
+			<langUsage>
+				<language ident="it"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<!--<p>EHRI-DR-19411007-IT_EN</p>
-      <p>Report by the <placeName ref="#italian-republic"
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<!--<p>EHRI-DR-19411007-IT_EN</p>
+      <p>Report by the <placeName ref="http://www.geonames.org/3175395/italian-republic.html"
           >Italian</placeName> Consul General in Prague, <persName ref="#ehri_dr_casto_caruso">Casto Caruso</persName>, for the Ministry of
-        Foreign Affairs in <placeName ref="#rome"
+        Foreign Affairs in <placeName ref="http://www.geonames.org/3169070/rome.html"
           >Rome</placeName> and the Italian Embassy in <placeName
-          ref="#berlin">Berlin</placeName> on <date
+          ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> on <date
           when="1941-10-07">7 October 1941</date>. <orgName
-          ref="#g005042">The Ministry of Foreign
+          ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042">The Ministry of Foreign
           Affairs</orgName> in Rome, Section AG IV, forwarded the report on <date when="1941-10-22"
           >22 October</date> to the General Directorate for Demography and Race and the General
         Directorate of Public Security (AGR) in the <orgName
-          ref="#g005305">Ministry of the
-          Interior.</orgName></p>
-      <p>Cable no. 2035/623</p>
+          ref="https://portal.ehri-project.eu/authorities/ehri_cb-005305">Ministry of the
+          Interior.</orgName></p>      <p>Cable no. 2035/623</p>
       <p>R. Consulate General of <placeName
-          ref="#italian-republic">Italy</placeName></p>-->
-				<pb facs="EHRI-DR-19411007-IT_01.jpg" n="1"/>
-				<p>Addressed to R. <orgName ref="#g005042">Ministry of Foreign Affairs</orgName>, <placeName ref="#rome">Rome</placeName></p>
-				<p>R. Embassy of Italy, <placeName ref="#berlin">Berlin</placeName></p>
-				<p><placeName ref="#prague">Prague</placeName>, <date when="1941-10-07">7th October 1941</date>, Year XIX</p>
-				<p>Re: Harsher <term ref="#t542" type="subject">measures</term> against <term ref="#t864" type="subject">Jews</term> in the <placeName
-						ref="#l64">Protectorate of Bohemia and Moravia</placeName>.</p>
-				<p>Following a decision by the Representative of the <orgName ref="#g001395">Reichsprotektor</orgName>, further important measures
-					against the Jews and their sympathizers have been taken and were made known by the Chief of the <orgName ref="#g350">Security
-						Police</orgName> by means of a letter sent to the <ref
-						target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749">Protectorate’s Ministry of
+          ref="http://www.geonames.org/3175395/italian-republic.html">Italy</placeName></p>-->
+					<pb facs="EHRI-DR-19411007-IT_01.jpg" n="1"/>
+					<p>Addressed to R. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042">Ministry of Foreign Affairs</orgName>, <placeName ref="http://www.geonames.org/3169070/rome.html">Rome</placeName></p>
+					<p>R. Embassy of Italy, <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, <date when="1941-10-07">7th October 1941</date>, Year XIX</p>
+					<p>Re: Harsher <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-542" type="subject">measures</term> against <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> in the <placeName
+							ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protectorate of Bohemia and Moravia</placeName>.</p>
+					<p>Following a decision by the Representative of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001395">Reichsprotektor</orgName>, further important measures against the Jews and their sympathizers have been taken and were made known by the Chief of the
+							<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Security Police</orgName> by means of a letter sent to the <ref target="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3749">Protectorate’s Ministry of
 						Interior</ref>.</p>
-				<p>The attitude of the <term ref="#t872" type="subject">Jews in Prague</term> and in other towns of Bohemia and Moravia was judged to
-					have been provocative immediately after the badge with the <term ref="#t338" type="subject">yellow star</term> was introduced,
-					before and after the recent developments in the local situation.</p>
-				<p>It is true that they ostentatiously displayed their badge and walked in the streets in great numbers, giving the impression, as I
-					have already reported, that they felt reciprocal <term ref="#t297" type="subject">support</term> with the local population.</p>
-				<p>The letter of the Chief of the Security Police to the Ministry of Interior has not been published in full, but the main measures
-					that have been decreed are reportedly the following:</p>
-				<p>1)<space rend="tab"> </space>All <term ref="#t758" type="subject">synagogues</term> and all Jewish prayer rooms are to be
-					closed.</p>
-				<p>2)<space rend="tab"> </space>The compulsory wearing of the yellow star is to be extended to some <term ref="#t544" type="subject"
-						>categories of Jews</term> who are not required to wear it in the Reich.</p>
-				<p>3)<space rend="tab"> </space>All Jews are threatened with <term ref="#t552" type="subject">removal from the towns</term>, <pb
-						facs="EHRI-DR-19411007-IT_02.jpg" n="2"/> presumably in order to collect them in <term ref="#t496" type="subject"
-						>concentration or labour camps</term>.</p>
-				<p>4)<space rend="tab"> </space>Members of the <orgName ref="#g412">State Police</orgName> have been instructed to act <q>against all
-						those who in the street or in public establishments should with ostentatious <term ref="#t297" type="subject"
-							>friendliness</term> associate with Jews wearing the star.</q></p>
-				<p>I enclose the translation of the articles published in the local papers on this issue.</p>
-				<p><persName ref="#ehri_dr_caruso_casto">Casto Caruso</persName></p>
-				<p> </p>
+					<p>The attitude of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jews in Prague</term> and in other towns of Bohemia and Moravia was judged to have been provocative immediately after the badge with the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">yellow star</term> was introduced, before and after the recent developments in the local situation.</p>
+					<p>It is true that they ostentatiously displayed their badge and walked in the streets in great numbers, giving the impression, as I have already reported, that they felt reciprocal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">support</term>
+						with the local population.</p>
+					<p>The letter of the Chief of the Security Police to the Ministry of Interior has not been published in full, but the main measures that have been decreed are reportedly the following:</p>
+					<p>1)<space rend="tab"> </space>All <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term> and all Jewish prayer rooms are to be closed.</p>
+					<p>2)<space rend="tab"> </space>The compulsory wearing of the yellow star is to be extended to some <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-544" type="subject">categories of Jews</term> who are not required to wear it in the Reich.</p>
+					<p>3)<space rend="tab"> </space>All Jews are threatened with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">removal from the towns</term>, <pb facs="EHRI-DR-19411007-IT_02.jpg" n="2"/> presumably in order to collect them in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration or labour camps</term>.</p>
+					<p>4)<space rend="tab"> </space>Members of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-412">State Police</orgName> have been instructed to act <q>against all those who in the street or in public establishments should with ostentatious <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">friendliness</term> associate with Jews wearing the star.</q></p>
+					<p>I enclose the translation of the articles published in the local papers on this issue.</p>
+					<p><persName ref="#ehri_dr_caruso_casto">Casto Caruso</persName></p>
+					<p> </p>
+				</div>
 			</div>
 		</body>
 	</text>

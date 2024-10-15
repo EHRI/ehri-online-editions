@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP002_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Jiří and Zdeněk Steiner, description of living conditions in so called family camp in Auschwitz-Birkenau and on Nazi medical experiments</title>
+				<title xml:lang="fr">Jiří und Zdeněk Steiner, Beschreibung der Lebensbedingungen im sogenannten Familienlager in Auschwitz-Birkenau und über medizinische Experimente der Nazis</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945-09-04">4. 9. 1945</origDate>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>, <persName ref="#ehri_et_steiner_jiri">Jiří Steiner</persName>, <persName ref="#ehri_et_steiner_zdenek"
+					>Zdeněk Steiner</persName>
+				<origPlace ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of the brothers Zdeněk and Jiří Steiner, which became a part of the “documentation campaign” in Prague. They were deported from Prague to the Theresienstadt Ghetto in September 1943, from where they were sent to the so-called family camp in Auschwitz-Birkenau. Most of
+					the prisoners who arrived to Auschwitz in this particular transport were murdered half a year later, in March 1944. Jiří and Zdeněk Steiner survived due to the fact that they were twin brothers and therefore became subjects of Nazi medical experiments in the camp.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP002_01.jpg" n="1"/>
+					<p rend="letter-spacing: +2px">Protokol</p>
+					<p>sepsaný se <persName ref="#ehri_et_steiner_zdenek">Zdenkem</persName> a <persName ref="#ehri_et_steiner_jiri">Jiřím <hi rend="letter-spacing: +2px">Steinerovými</hi></persName>, nar. <date when="1929-05-20">20. 5. 1929</date> v <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>, příslušnými do <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName>, bývalými <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězni</term>
+							z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborů</term> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> a <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětině</placeName>, bytem v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze XI.</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Vratislavova
+							13</placeName>, národnosti <term ref="#ehri_et_nationalities_czechs" type="subject">české</term>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Odjeli</term> jsme z <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Terezína</placeName> dne <date when="1942-12-22">22. 12. 1942</date> spolu s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiči</term> a větší částí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject"
+							>příbuzenstva</term>. 8 ½ měsíců jsme byli v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, kde se nám vedlo jakž, takž. Z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+							type="ghetto">Terezína</placeName> jsme <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">odjeli</term> dne <date when="1943-09-06">6. září 1943</date> a po útrapné dvoudenní cestě přistáli jsme konečně na Neu-berunském
+						nádraží. Odtamtud nás odvedli do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračního tábora</term> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>. Bylo nám řečeno, že se
+						jedná jen o <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">karanténu</term>. Po obvyklých ceremoniích, jako koupel, tetování (dostali jsme číslo 147742 a 147743), navlečení do starých <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">hader</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> třeba do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">šatstva</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">dospělých</term>) byli jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytováni</term> v <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">táboře B II b</term>, kde jsme strávili celých 6 měsíců. Tam jsme zažili mnoho. Zásluhou <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredyho Hirsche</persName> byl zřízen <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-595" type="subject">dětský domov</term>. Nám <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětem</term> se vedlo o něco lépe než <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">dospělým</term>, protože jsme nemuseli chodit do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">strava</term> byla o něco lepší a později i <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatstvo</term>. Tak plynul život v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">birkenauském</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-595" type="subject">dětském táboře</term> za hrozně těžkých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">podmínek</term>. V <date when="1943-12">prosinci</date>
+						došel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékař</term>. (V každém <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">táboře</term> byl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">barák</term> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocné</term> a nad několika takovými <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">baráky</term> byl vždy jeden německý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékař</term>, který obyčejně mnoho neuměl, jedině, jak přivést co možná
+						nejvíce lidí do hrobu.) Kývnutím prstu rozhodoval Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> o životě a smrti, jako ve starověku Nero. Tento pověstný <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287"
+							type="subject">lékař</term> zajímal se velice o nás <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">dvojčata</term>, což bylo vlastně naší záchranou přesto, že jsme strašně mnoho prodělali. Jednou se Dr. <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> podíval na nás blíže, pak ale <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">onemocněl</term> na skvrnitý <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyf</term>. Našimi mučiteli byli mimo něj ještě <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSák</term>
+						<persName ref="#ehri_et_buntrock_fritz">Buntrock</persName>, který nejraději bil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>. Jeden z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject"
+							>SSmanů</term>, pravděpodobně nějaký <term ref="#ehri_et_nationalities_russians" type="subject">ruský</term> vyzvědač, který dopomohl jednomu z našich lidí k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">útěku</term>, byl po svém
+						návratu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">zastřelen</term> jinými <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáky</term>.</p>
+					<p>Mezitím přišel osudný <date when="1944-03">březen</date>, který nám vzal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiče</term> a všechny milé, to jediné, co jsme v životě ještě měli. Již začátkem <date when="1944-03">měsíce</date> se
+						proslýchalo, že celý <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transport</term>, který přijel v <date when="1943-09">září 1943</date>, pojede do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508"
+							type="subject">pracovního tábora</term> v <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-211">Heidebreck</placeName>. A skutečně. <date when="1944-03-05">5. března</date> byly nám rozdány <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">korespondenční</term> lístky, na kterých jsme svým příbuzným museli napsat, že jsme zdrávi a že se nám vede dobře. Tyto <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">lístky</term> šly s datem <date when="1944-03-25">25</date>. – <date when="1944-03-27">27. března</date>. O našem odjezdu jsme nesměli vůbec psát. <date when="1944-03-06">6.
+							března</date> ráno, po obvyklém : <q><foreign xml:lang="de">Blockälteste antreten</foreign></q> přišel rozkaz, že celý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> musí ihned nastoupit v dolejší části <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>. Odtud nás odvedli do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II a</placeName>. Proslýchalo se všechno možné, n.př., že se nejedná o <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">pracovní transport</term>, nýbrž o <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">komín</term>, ale nevěřili jsme tomu, protože jsme to považovali za nemožné. Čekali jsme celý den a večer nám bylo řečeno, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+							type="subject">transport</term> nemůže odjet, protože má být <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-148" type="subject">vyreklamováno</term> 100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject"
+							>osob</term>. Tato zpráva způsobila, že se strašně zhoršila nálada. Hrozná noc beze spánku otřásla strašně našima nervama. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Lidé</term>, nejvyšší mírou rozrušeni, nevěnovali se teď už ničemu,
+						každý si přál jen ukončení té nejistoty, <date when="1944-03-07">7. března</date> v poledne volání: <q><foreign xml:lang="de">Ordnung am Block, Raportführer <persName ref="#ehri_et_buntrock_fritz">Buntrock</persName> geht</foreign></q>. A skutečně vstoupil, četl jména
+						několika <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařů</term>, a pak jsme slyšeli svá jména. Strašně jsme se lekli, protože <persName ref="http://www.holocaust.cz/databaze-obeti/obet/126948-pavel-steiner/" type="victim"
+							>otcovo</persName> jméno nebylo čteno a <persName ref="http://www.holocaust.cz/databaze-obeti/obet/126732-jana-steinerova/" type="victim">matka</persName> nebyla na bloku. <persName ref="#ehri_et_buntrock_fritz">Buntrock</persName> ujistil <persName
+							ref="http://www.holocaust.cz/databaze-obeti/obet/126948-pavel-steiner/" type="victim">otce</persName>, že se do večera shledáme, a byli jsme odvedeni do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II b</term>. Tam teprve jsme se dověděli, oč se jedná. Bylo nás <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">dvojčat</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařů</term> dohromady 32 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term>. Nás <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495"
+							type="subject">dvojčata</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-148" type="subject">vyreklamoval</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName>, protože měl o nás zájem, jak již bylo řečeno. Příštího dne se přišel na nás podívat. Když jsme mu sdělili, že naši <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiče</term> odjeli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term>, řekl: <q><foreign xml:lang="de">Schade</foreign></q>. Mezitím jsme ale
+						zjistili, že v noci odjela auta <pb facs="EHRI-ET-JMP002_02.jpg" n="2"/> směrem ke <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoriu</term>. <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594"
+							type="subject">Tábor</term> byl prázdný a jen z komína <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematoria</term> šlehaly plameny. Na tento obraz nikdy nezapomeneme. Přesto jsme nevěřili, že naši <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiče</term> již <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">nežijí</term>. Časem ale jsme se přece dověděli pravdu od jednoho <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékaře</term>, člena <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1391" type="subject">Sonderkommanda</term>, který k této <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> byl přinucen. Den na to přijel <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> a převezl nás autem do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">cikánského tábora</placeName>, kde měl svou stanici. Tam nás přesně změřil, zvážil, změřil délku a šířku prstů a nehtů, délku a šířku nosu a vůbec všeho, co se změřit a zvážit dalo. Zapsal si taky odstín barvy
+						vlasů a pleti, důkladně nás prohlédl, vzal nám otisky prstů na rukou i nohou. Tuto práci konal sám, nikomu ji nesvěřil. Pak nás dali do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term> a život plynul dále. Dostali jsme 2
+						litry <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévky</term> denně, jinak byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">strava</term> jako před tím. Byli jsme taky fotografováni a
+						roentgenováni. Nervy, oči, zuby a uši nám museli prohlédnout naši, židovští <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékaři</term>, kteří za správnost prohlídky ručili životem.</p>
+					<p><date when="1944-07-01">1. 7.</date> šel první <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II b</term>. Mezitím přijel v <date when="1944-05">květnu</date> ještě jeden <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject"
+							>transport</term> z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>, 7 ½ tisíc <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">lidí</term>. V <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">táboře</term> bylo tehdy 12.500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osob</term> a z toho jelo na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> 3.000. Všichni ostatní byli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">spálení</term> ve 2 nocech. My jsme byli převezení do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">B II f</placeName>. V novém <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">táboře</placeName> nám <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495"
+							type="subject">brali krev</term>, což našim zesláblým tělům nedělalo vůbec dobře. Jeden strašný zážitek nám utkvěl v paměti: Jeden z našich mučitelů, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborový</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékař</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001165">Thilo</persName> dělal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekci</term>, tj. výběr <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">lidí</term> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">krematorium</term> a napsal nás taky. Pocit, který jsme při tom měli, se nedá vůbec popsat. Na štěstí se o tom dověděl <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> a zachránil nás, protože nás ještě potřeboval.</p>
+					<p>Blížila se fronta a v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">táboře</placeName> zavládla lepší nálada. V té době jsem se stal <distinct type="camp_language">Piplem</distinct> v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term>, tj. běžcem, takže se mi materiálně vedlo o něco lépe. Pak přišla zima a nový rok, který byl už o něco radostnější, jelikož někdy bylo slyšet už dunění děl. Proslýchalo se o
+						likvidaci <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">tábora</placeName>, ale stále k tomu nedocházelo. Konečně <date when="1945-01-16">16. ledna</date> odvedli první <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject"
+							>transport pěšky</term> z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau</placeName>. Na to několik rozčilujících dnů, jelikož šel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> za <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term>. Šlo se dobrovolně a nás <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> nechali nakonec, taky proto, že jsme jít nechtěly. 60 km
+						se šlo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pěšky</term> za zimy a mrazu, špatně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">oblečeni</term> a za <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hladu</term>. Čekali jsme, jelikož nám bylo řečeno, že pro nás přijedou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">vlaky</term>. A tak jsme se dočkali <date
+							when="1945-01-20">20. ledna</date>, ve který den poslední <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> opustil <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">tábor</placeName>. Teď začla
+						pro nás krásná doba. Šli jsme, kam jsme chtěli, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jedli</term> jsme, co jsme chtěli, a dělali taky, co nám napadlo. Prohlédli jsme si tábor <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáků</term>, zkrátka, měli jsme se dobře. 5 dní jsme byli bez dozoru. Poté se objevila skupina SD – manů, kteří nás ještě chtěli <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">odpravit</term>, ale nedostali se již k tomu. I oni prchli, a tak jsme tam zůstali do <date when="1945-01-27">27. ledna</date>, kdy nás <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">zabrala</term> vítězná <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Rudá armáda</orgName>.</p>
+					<p><date when="1945-03-27">27. března</date> nás převzala <term ref="#ehri_et_nationalities_czechs" type="subject">česká</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-779" type="subject">Svobodova armáda</term>, s kterou jsme přijeli taky do <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName>. Z celé <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiny</term> 18ti osob nás zůstalo na živu 3.</p>
+					<p>Protokol přijal: <persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName> Podpis :</p>
+					<p>
+						<persName ref="#ehri_et_steiner_jiri">Jiří Steiner</persName>
+					</p>
+					<p>
+						<persName ref="#ehri_et_steiner_zdenek">Zdeněk Steiner</persName>
+					</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">dokumentační akci</term> přijal: <date when="1945-09-04">4. IX. 1945</date>
+						<persName ref="#ehri_et_shek_zeev">Scheck</persName></p>
+					<p>Za archiv přijal : <persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP002_01.jpg" n="1"/>
+					<p rend="letter-spacing: +2px">Statement</p>
+					<p>written with <persName ref="#ehri_et_steiner_zdenek">Zdeněk</persName> and <persName ref="#ehri_et_steiner_jiri">Jiří <hi rend="letter-spacing: +2px">Steiner</hi></persName>, born <date when="1929-05-20">20. 5. 1929</date> in <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, residents of <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> in
+							the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term> of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> and <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, residing in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague XI.</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Vratislavova</placeName> 13, <term ref="#ehri_et_nationalities_czechs" type="subject">Czech</term> nationality.</p>
+					<p>We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">left</term> <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> bound for <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Theresienstadt</placeName> on <date when="1942-12-22">22. 12. 1942</date> together with our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">parents</term> and a great number of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">relatives</term>. We spent 8½ months <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, where things had been so-so for us. We
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">left</term> <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on <date when="1943-09-06">September 6th,
+							1943</date>, and, after a miserable two-day journey, we finally arrived at the Neu-Berun train station. From there, they took us to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camp</term> in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>. We were told that it was only a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-168" type="subject">quarantine</term>. After the usual procedures,
+						such as a bath and a getting a tattoo (we were given the numbers 147742 and 147743), we were clothed in old <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">rags</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">children</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">adult</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term>) and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housed</term> in <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">camp B II b</term>, where we spent 6 whole months. We experienced so much in this place. Through the efforts of <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirsch</persName>, a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-595" type="subject">children’s home</term> was established. We <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were better off than the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">adults</term> because we didn’t have to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> was a little bit better, and, later, our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> were better as well. Such was our life in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-595" type="subject">children’s camp</term> under extremely harsh <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term>. A <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> arrived in <date when="1943-12">December</date> (each <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> had a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">building</term> for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> and a single German <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term>, who generally didn’t know how to do much else besides sending as many people as possible to their graves, served several of these <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">buildings</term>). With a wave of his fingers, Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> decided who lived and who died, just like Nero did
+						in ancient times. This renowned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> was very interested in us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">twins</term>, which was actually what
+						saved us despite the fact that we came down with so many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">illnesses</term>. Once, Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> took a closer
+						look at us, but then he <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">contracted</term> spotted <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhus</term>. In addition to him, we were tortured by the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term>
+						<persName ref="#ehri_et_buntrock_fritz">Buntrock</persName>, who had a preference for beating <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>. Another <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+							type="subject">SSman</term>, probably a <term ref="#ehri_et_nationalities_russians" type="subject">Russian</term> spy, who helped one of our people <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>, was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term> by other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS officers</term> after he returned.</p>
+					<p>In the meantime, the fateful month of <date when="1944-03">March</date> began. This month took away our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">parents</term> and all of our closest friends — the only thing that we still had in our
+						lives. At the start of the <date when="1944-03">month</date>, it was rumored that the entire <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transport</term> that had arrived in <date when="1943-09">September 1943</date> would
+						be taken to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labor camp</term> in <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-211">Heidebreck</placeName>. And that’s exactly what happened. On <date
+							when="1944-03-05">March 5th</date>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">postcards</term> on which we were supposed to write to our relatives that we were healthy and doing fine were handed out. These <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">cards</term> were sent dated <date when="1944-03-25">March 25</date>th-<date when="1944-03-27">27</date>th. We weren’t allowed to write about our departure. On the morning of <date
+							when="1944-03-06">March 6th</date>, as usual: <q><foreign xml:lang="de">Blockälteste antreten</foreign></q> — an order for the entire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> to go to the lower section of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> immediately. From there they took us to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">B II a</placeName>. There were so many rumors going about, for example that it wasn’t a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor transport</term>, but a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">chimney</term>. We didn’t believe it because we thought it was impossible. We waited all day, and in the evening we were told that the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> couldn’t depart because 100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">persons</term> were to be <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-148" type="subject">reclaimed</term>. This news greatly disturbed us. A terrible sleepless night wreaked havoc with our nerves. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">people</term>, who were now extremely distraught, didn’t pay attention to anything; everyone just wished for this uncertainty to end. Midday, on <date when="1944-03-07">March 7th</date>, a call: <q><foreign xml:lang="de">Ordnung am Block, Raportführer
+									<persName ref="#ehri_et_buntrock_fritz">Buntrok</persName> geht.</foreign></q> And he really came, read the names of several <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctors</term>, and then we heard our names. We became
+						very frightened, because <persName ref="http://www.holocaust.cz/databaze-obeti/obet/126948-pavel-steiner/" type="victim">father's</persName> name wasn’t read, and <persName ref="http://www.holocaust.cz/databaze-obeti/obet/126732-jana-steinerova/" type="victim"
+							>mother</persName> wasn’t present on the block. <persName ref="#ehri_et_buntrock_fritz">Buntrok</persName> assured <persName ref="http://www.holocaust.cz/databaze-obeti/obet/126948-pavel-steiner/" type="victim">father</persName> that we would see one another in the
+						evening, and we were taken to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II b</term>. There, we found out what it was really all about. There were 32 of us in total, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject"
+							>twins</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctors</term> combined. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-148" type="subject">reclaimed</term> us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">twins</term> because he was interested in us, as we’ve already mentioned. He
+						came to see us the next day. When we told him that our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">parents</term> had left on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>, he said:
+								<q><foreign xml:lang="de">Schade</foreign></q>. In the meantime, we found out that the cars had driven off during the night ¨ <pb facs="EHRI-ET-JMP002_02.jpg" n="2"/> in the direction of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501"
+							type="subject">crematorium</term>. The <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">camp</term> was empty; flames shot up from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject"
+							>crematorium</term>. We will never forget this scene. But we didn’t believe that our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">parents</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subejct"
+							>dead</term>. However, we soon found out the truth from a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> who was a member of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1391" type="subject"
+							>Sonderkommando</term>, who was forced to do this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> arrived the following day, and
+						took us by car to the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Roma camp</placeName>, which was where his station was. There, he precisely measured and weighed us, measured the length and width of our fingers and nails, the length and width of our
+						noses, and anything else that could be measured and weighed. He also took down the color of our hair and skin. He carefully inspected us. He took fingerprints of our hands and feet. He worked alone; he never entrusted anyone else with the tasks he was performing. Then they
+						brought us to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term> and life went on. We received 2 liters of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> per day, otherwise the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> was the same as before. We were also photographed and x-rayed. Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctors</term>, who
+						guaranteed the correctness of the examinations with their lives, had to examine our nerves, eyes, teeth, and ears.</p>
+					<p>The first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">B II b</term> left on <date when="1944-07-01">1. 7.</date> In the meantime, another <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267"
+							type="subject">transport</term> from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> with 7½ thousand <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">people</term> arrived
+						in <date when="1944-05">May</date>. This brought the number of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">people</term> in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-594" type="subject">camp</term>
+						to 12,500, 3,000 of whom left to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. The rest were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">incinerated</term> within 2 nights. We were taken to
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">B II f</placeName>. In this new <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">camp</placeName>, they <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">drew our blood</term>, which made our weakened bodies feel even worse. There is one horrible experience that we will never forget: one of our torturers, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-001165">Thilo</persName>, was making a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selection</term>, i.e. choosing the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">people</term> who would be sent to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">crematorium</term>, and he took our names down. What we felt when he did
+						this cannot be described. Fortunately, <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000569">Mengele</persName> heard this and saved us because he still needed us.</p>
+					<p>The front was approaching and the mood in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">camp</placeName> lifted. During this time, I became a <distinct type="camp_language">Pipel</distinct> in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Krankenbau</term>, i.e. a runner, and so I was slightly better off. But then came winter and a new year, which was happier because we could hear the thunder of cannons. A rumor went around that
+						the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">camp</placeName> was going to be liquidated, but nothing happened. Finally, on <date when="1945-01-16">January 16th</date>, they led the first <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">transport on foot</term> out of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>. The following days were extremely vexing, because one <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> after another departed. Everyone left voluntarily and we <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were the last to leave,
+						partly because we didn’t want to go. People had to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">walk</term> 60 km in the cold and frost, poorly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+							>clothed</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hungry</term>. We expected to be told that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">trains</term> would come pick us up. We
+						finally got what we wanted on <date when="1945-01-20">January 20th</date>, the day the last <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSman</term> left the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2"
+							type="camp">camp</placeName>. This was a wonderful time for us. We went wherever we wanted, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ate</term> whatever we wanted, did whatever we felt like doing. We roamed around the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> camp. In short, we were having a great time. We went without supervision for 5 days. Then, a group of SDmen arrived. They wanted to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">do us in</term>, but didn’t get the chance. They, too, fled, and so we stayed until <date when="1945-01-27">January 27th</date>, when the victorious <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Red Army</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">took over</term>.</p>
+					<p>On <date when="1945-03-27">March 27th</date>, the <term ref="#ehri_et_nationalities_czechs" type="subject">Czech</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-779" type="subject">Svoboda’s Army</term> took charge of us and brought us to <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>. Out of our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> of 18, only 3 of us survived.</p>
+					<p>Statement accepted by: <persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName></p>
+					<p>Signature:</p>
+					<p>
+						<persName ref="#ehri_et_steiner_jiri">Jiří Steiner</persName>
+					</p>
+					<p>
+						<persName ref="#ehri_et_steiner_zdenek">Zdeněk Steiner</persName>
+					</p>
+					<p>Accepted on behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term> by: <date when="1945-09-04">4. IX. 1945</date>
+						<persName ref="#ehri_et_shek_zeev">Scheck</persName></p>
+					<p>Accepted on behalf of the archive: <persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

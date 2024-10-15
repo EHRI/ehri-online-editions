@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP015_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Hanuš Gibián, the experiences in Nováky labour camp (Slovakia) and hiding in the mountains</title>
+				<title xml:lang="de">Hanuš Gibián, die Erlebnisse im Arbeitslager Nováky (Slowakei) und das Verstecken in den Bergen</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945-11-19">19. 11. 1945</origDate>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>, <persName ref="#ehri_et_gibian_hanus">Hanuš Gibián</persName>, <origPlace
+					ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Hanuš Gibian, which became a part of the “documentation campaign” in Prague. Gibian was imprisoned together with his wife and son in the Nováky labor camp in Slovakia. During the Slovak National Uprising in the fall of 1944, they escaped from the camp and hid in the
+					mountains near Banská Bystrica. In November 1944, they were caught by German troops. Gibian describes the execution of more than forty Jews. He was shot and survived only due to the fact that he pretended to be dead.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP015_01.jpg" n="1"/>
+					<p>Protokol</p>
+					<p>sepsaný s <persName ref="#ehri_et_gibian_hanus">Hanušem <hi rend="letter-spacing: +2px">Gibianem</hi></persName>, nar. <date when="1902-08-15">15. 8. 1902</date> v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName>, z <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">pracovního tábora</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2026" type="camp">Nováky</placeName>, okr. <placeName ref="http://www.geonames.org/3057999/okres-prievidza.html">Prijevica</placeName>, <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+							>Slovensko</placeName>, bytem v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze I.</placeName>, <placeName ref="http://www.geonames.org/3067696/prague.html">Rybná</placeName> 8, národnosti <term ref="#ehri_et_nationalities_czechs" type="subject"
+							>české</term>, povoláním bankovní úředník.</p>
+					<p>Od roku <date when="1941">1941</date> do <date when="1944-09">září 1944</date> žil jsem se svojí dvoučlennou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodinou</term> /: manželka a syn :/ v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">táboře</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2026" type="camp">Nováky</placeName>, okres <placeName ref="http://www.geonames.org/3057999/okres-prievidza.html">Prijevica</placeName>, <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+							>Slovensko</placeName>. Tam jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracoval</term> ve stavební správě. Byli jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytování</term> v dřevěných
+						barácích, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodiny</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bydlely</term> pohromadě, svobodní zvlášť. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Stravovací</term> podmínky byly ucházející. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Tábor</term> byl zpočátku pod dozorem <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-397">Hlinkovy gardy</orgName>, která se vyznačovala surovostí. Později byla <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-397">Hlinkova garda</orgName> vystřídána <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">slovenskými</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">četníky</term>. V <date when="1944-09">září 1944</date>, začátkem <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">slovenského</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">povstání</term>, byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábor</term> zrušen a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">židovští občané</term> tohoto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábora</term> směli se volně pohybovati na prostoru ovládaném <placeName ref="http://www.geonames.org/3057568/slovak-republic.html"
+							>slovenskou</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-497">národní radou</orgName>.</p>
+					<p>Následkem postupného obsazení <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovenska</placeName>
+						<term ref="https://portal.ehri-project.eu/authorities/ehri_cb-438" type="subject">německou armádou</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">prchli</term> jsme s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">rodinou</term> do okolí <placeName
+							ref="http://www.geonames.org/3061186/banska-bystrica.html">Banské Bystrice</placeName>, kde jsem až do <date when="1944-10-28">28. října 1944</date> pracoval ve státní rafinerii v <placeName ref="http://www.geonames.org/3060335/dubove.html">Dubové</placeName>. Když se
+							<term ref="https://portal.ehri-project.eu/authorities/ehri_cb-438" type="subject">německá armáda</term> blížila k <placeName ref="http://www.geonames.org/3061186/banska-bystrica.html">Banské Bystrici</placeName>, byli jsme nuceni <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">ukrýti</term> se ve <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">slovenských</placeName> horách. Po třídenním bloudění bez cíle, po kterém <term
+							ref="#ehri_et_nationalities_germans" type="subject">Němci</term> dvakrát na nás stříleli, byli jsme <date when="1944-01-01">1. 11. 1944</date> chyceni. <term ref="#ehri_et_nationalities_germans" type="subject">Němečtí</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">esesáci</term> soustředili nás na jedné louce, ptali se nás, zdali jsme Židé, přičemž lidé, kteří se mohli vykázat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+							type="subject">árijskými</term> papíry, byli propuštěni. Židé byli vyzváni, ihned odevzdat hodinky, peníze a všechno cenné, co měli při sobě, při čemž <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">esesáci</term> se vyjádřili, že to už
+						nebudeme potřebovat. Potom nás dal velitel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> odtransportovat s upozorněním, že nás doprovodí hlídka 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject"
+							>vojáků</term>, a že se nám nic nestane. Cestou z hor dolů přibyli ještě 4 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">esesáci</term>, takže jich celkem bylo 6. Vedli nás na jednu louku, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">esesáci</term> zůstali pozadu a dali nám příkaz, abychom šli směrem na <placeName ref="http://www.geonames.org/3061186/banska-bystrica.html">Banskou Bystrici</placeName> a zůstali pohromadě. Když
+						jsme se vzdálili asi 10 kroků, začali na nás zezadu střílet. Stříleli tak dlouho, až všichni /: 42 osob :/ zůstali v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvém</term> neb polomrtvém stavu ležet. Pak prohlíželi každou jednotlivou
+						osobu, vzali si ještě, co se jim líbilo, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zavraždili</term> každého, kdo ještě nebyl úplně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtev</term> ranou
+						do hlavy. Já jsem se vydal za <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvého</term>, rovněž jedna 14 letá <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">holčička</term>, která byla přikryta pláštěm
+						svého otce, zázrakem se zachránila. Bylo to <date when="1944-11-01">1. listopadu 1944</date> ve 13 hodin v sedle mezi <placeName ref="http://www.geonames.org/3059328/kozi-chrbat.html">Kozím Chrbátem</placeName> a <placeName ref="http://www.geonames.org/3058043/prasiva.html"
+							>Prašivou</placeName> v <placeName ref="http://www.geonames.org/3058517/nizke-tatry.html">Nízkých Tatrách</placeName>, blízko obci <placeName ref="http://www.geonames.org/3060117/hiadel.html">Hiadel</placeName>.</p>
+					<p>Protokol přijala: Vlastnoruční podpis:</p>
+					<p><persName ref="#ehri_et_kratkova_marta">Marta Kratková</persName></p>
+					<p><persName ref="#ehri_et_gibian_hanus">Hanuš Gibian</persName></p>
+					<p>Podpis svědků:</p>
+					<p><persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName></p>
+					<p><persName ref="#ehri_et_mull_jan">Jan Müll</persName>
+						<note type="gloss">uncertain</note></p>
+					<p><persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName></p>
+					<p><persName ref="#ehri_et_liewerand_karel">Karel Liewerand</persName></p>
+					<p>Za archiv: <persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term></p>
+					<p><date when="1945-11-19">19. XI. 1945</date></p>
+					<p><persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP015_01.jpg" n="1"/>
+					<p>Statement</p>
+					<p>written with <persName ref="#ehri_et_gibian_hanus">Hanuš <hi rend="letter-spacing: +2px">Gibian</hi></persName>, born <date when="1902-08-15">15. 8. 1902</date> in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, in the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2026" type="camp">Nováky</placeName> <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labor camp</term>, <placeName ref="http://www.geonames.org/3057999/okres-prievidza.html"
+							>Prijevica</placeName> district, <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName>, residing in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague I.</placeName>, <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Rybná</placeName> 8, <term ref="#ehri_et_nationalities_czechs" type="subject">Czech</term> nationality, occupation bank clerk.</p>
+					<p>From <date when="1941">1941</date> to <date when="1944-09">September 1944</date>, I lived with my two-member <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> (wife and son) in the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2026" type="camp">Nováky</placeName> <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term>, <placeName ref="http://www.geonames.org/3057999/okres-prievidza.html"
+							>Prijevica</placeName> district, <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName>. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> there in the construction administration. We were
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housed</term> in wooden buildings; <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">families</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">lived</term> together, the unmarried separately. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> was fair. At first, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term> was supervised by <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-397">Hlinka’s guards</orgName>, who were extremely cruel. Later, <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-397">Hlinka’s guards</orgName> were replaced by <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovak</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">policemen</term>. In <date when="1944-09">September 1944</date>, at the beginning of the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovak</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">uprising</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term> was abolished and the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Jewish inhabitants</term> of this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term> were allowed to move freely throughout the space occupied by the
+							<placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovak</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-497">National Council</orgName>.</p>
+					<p>As a result of the gradual occupation of <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakia</placeName> by the <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-438" type="subject">German army</term>, I <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> together with my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-819" type="subject">family</term> to the area around <placeName
+							ref="http://www.geonames.org/3061186/banska-bystrica.html">Banská Bystrica</placeName>, where I worked in the state refinery in <placeName ref="http://www.geonames.org/3060335/dubove.html">Dubová</placeName> until <date when="1944-10-28">October 28th 1944</date>. When the
+							<term ref="https://portal.ehri-project.eu/authorities/ehri_cb-438" type="subject">German army</term> approached <placeName ref="http://www.geonames.org/3061186/banska-bystrica.html">Banská Bystrica</placeName>, we were forced to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hide</term> in the <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovak</placeName> mountains. After wandering aimlessly for three whole days, during which the <term
+							ref="#ehri_et_nationalities_germans" type="subject">Germans</term> twice shot at us, we were captured on <date when="1944-11-01">1. 11. 1944</date>. <term ref="#ehri_et_nationalities_germans" type="subject">German</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term> gathered all of us together in a meadow and asked us if we were Jews. Those who could provide papers proving they were <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> were released. The Jews were told to immediately hand over their watches, money, and all of the valuables that they had on them. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term> told us that we would no longer need them. Then, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> leader ordered us to be transported
+						and notified us that a patrol of 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">soldiers</term> would accompany us, promising that nothing would happen to us. On our way down from the mountains, we were joined by 4 more <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term>, so there was a total of 6. They took us to a meadow where the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSmen</term> hung back and ordered
+						us to walk toward <placeName ref="http://www.geonames.org/3061186/banska-bystrica.html">Banská Bystrica</placeName> and to stay together. After we had gone forward for about 10 steps, they began to shoot us in the back. They fired until everyone (42 people) lay <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> or half-dead. They then examined each body and took whatever they liked, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">murdered</term> anyone
+						who wasn’t <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> yet with a shot to the dead. I pretended to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> as well as a 14-year-old <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">girl</term> who was covered by her father’s overcoat. By a miracle, she was saved. This happened on <date when="1944-11-01">November 1st, 1944</date>, at 13:00 in the gap between <placeName
+							ref="http://www.geonames.org/3059328/kozi-chrbat.html">Kozí Chrbát</placeName> and <placeName ref="http://www.geonames.org/3058043/prasiva.html">Prašiva</placeName> in the <placeName ref="http://www.geonames.org/3058517/nizke-tatry.html">Lower Tatra Mountains</placeName>,
+						near the village of <placeName ref="http://www.geonames.org/3060117/hiadel.html">Hiadel</placeName>.</p>
+					<p>Signature:</p>
+					<p><persName ref="#ehri_et_kratkova_marta">Marta Kratková</persName></p>
+					<p><persName ref="#ehri_et_gibian_hanus">Hanuš Gibian</persName></p>
+					<p>Signatures of witnesses:</p>
+					<p><persName ref="#ehri_et_gerzonova_berta">Berta Gerzonová</persName></p>
+					<p><persName ref="#ehri_et_mull_jan">Jan Müll</persName>
+						<note type="gloss">uncertain</note></p>
+					<p><persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName></p>
+					<p><persName ref="#ehri_et_liewerand_karel">Karel Liewerand</persName></p>
+					<p>On behalf of the archive: <persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term></p>
+					<p><date when="1945-11-19">19. XI. 1945</date></p>
+					<p><persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

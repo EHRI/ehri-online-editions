@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-026_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Otto Friedländer, description of living conditions in the Baukommando Zossen (Wulkow camp)</title>
+				<title xml:lang="de">Otto Friedländer, Beschreibung der Lebensverhältnisse im Baukommando Zossen (Lager Wulkow)</title>
+				<title xml:lang="cs">Otto Friedländer, popis životních podmínek v Baukommando Zossen (tábor Wulkow)</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="#ehri_dc_friedlander_otta">Otto Friedländer</persName>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Wulkow</origPlace>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín
+					Ghetto</placeName>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, </creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Otto Friedländer was deported from the Terezín Ghetto to the Wulkow labor camp (Baukommando Zossen). He describes the harsh living conditions in the camp, the hunger, the illnesses, and the torture of the camp's inmates.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-026_01.png" n="1"/>
+					<p>Protokol o <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Baukommando</term>
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Zossen</placeName></q></p>
+					<p>sepsaný s <persName ref="#ehri_dc_friedlander_otta">Otou Friedländrem</persName>, nar. <date when="1925-03-14">14. 3. 1925</date>, bytem <placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName> XIX., <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Sochařská 13</placeName></p>
+					<p>Dne <date when="1944-03-02">2. 3. 1944</date> odešel z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> o 2 00 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužích</term> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+							type="subject">stavbu</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráků</term> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Wulkow u Trebnitz</placeName> na trati <placeName
+							ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>-<placeName ref="http://www.geonames.org/3095057/kostrzyn-nad-odra.html">Küstrin</placeName>, místo asi 50 km vzdálené od <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlína</placeName>.
+						První tři neděle byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábor</term> pod vedením <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obersturmbannführera</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmanna</persName>, pak pod vedením <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obersturmführerem</term>
+						<persName ref="#ehri_dc_stuschka_franz">Stuschkou</persName>. Dále tam byli <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Unterstürmführer</term>
+						<persName ref="#ehri_dc_hardenberger">Hardenberger</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Oberscharführeři</term>
+						<persName ref="#ehri_dc_hanke">Hanke</persName> a <persName ref="#ehri_dc_stiasny">Stiastni</persName> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Scharführer</term>
+						<persName ref="#ehri_dc_proschek">Proschek</persName>. Dále asi 20 <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-437">Waffen</orgName>-<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-437">SS</orgName> jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">dozorci</term>. První dobou byl dostatek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídla</term>, asi do <date when="1944-09">září 1944</date>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracovní</term> doba po dobu prvních 2 měsíců byla 12 hodin, pak po celé léto 14 hodin.</p>
+					<p>Od <date when="1944-09">září 1944</date> byl v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">táboře</term> velký nedostatek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potravin</term>. Zacházení bylo ze
+						začátku ucházející, postupně se však zhoršovalo. Od podzimu <date when="1944">1944</date> bylo na denní pořádku <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">bití</term> /klacky, gumovými obušky s železnými konci atd./ Oblíbený sport: dřepy
+						nad prknem probitým hřebíky. V zimě stání bosi a jen v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">kalhotách</term> bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">košil</term> po celé noci, při 15
+						stupních pod nulou, stání na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">ledě</term> a polévání studenou vodou. Po celý den chození bos ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">sněhu</term>,
+						sbírání skla nebo hřebíků ústy, sezení po práci v kleci rozměru 40 x 60 x 80 cm.</p>
+					<p>O záminky, které bývaly předstírány, nebyla nikdy nouze. Tak musely na příklad <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>, jelikož prý byly <q>líné</q>, koncem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818"
+							type="subject">mrazivého</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">deštivého</term> měsíce <date when="1944-11">listopadu 1944</date> lézt po břiše po zemi a shrabovat rukama <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">bláto</term> po celém dvoře, což trvalo asi 4 hodiny.</p>
+					<p>Tyto t.zv. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">tresty</term> jsou jen ukázka z bohatého repertoáru pana <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obersturmführera</term>
+						<persName ref="#ehri_dc_stuschka_franz">Stuschky</persName>.</p>
+					<p>Nejvyšší stav v táboře byl v <date when="1944-09">září 1944</date>, a to asi 260 lidí. Během <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">podzimu</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject"
+							>zimy</term> odešlo asi 45 lidí jako <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">trestné</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term></q> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-847" type="camp">Oranienburgu</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvěčíma</placeName> nebo <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">Malou pevnost</placeName>. Z těchto lidí se jen asi 10 vrátilo.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Ubytovací</term> poměry: Ze začátku, ačkoli bylo v noci pod nulou, se spalo v lese venku. Pak se spalo v dřevěných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">boudách</term>, do kterých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">pršelo</term>. V létě byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábor</term> asi 4 měsíce v pískové
+						jámě, která byla asi 8 m hluboká a rozměru asi 13 x 30m. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Kuchyně</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">latrína</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">studně</term> byly od sebe vzdálené asi 1 m. Když toto nelidské <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bydlení</term> začalo ohrožovat <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">zdraví</term> osazenstva a tím i blízké vesnice, zakázala <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">zdravotní</term> komise <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábor</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">obývat</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Bydlelo</term> se pak v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">barácích</term>, v zimě samozřejmě <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">netopených</term>.</p>
+					<p>Postrachem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábora</term> byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">marodka</term>. Byla to dřevěná <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bouda</term> /mezi prkny 2 cm díry/ bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">oken</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">dveře</term> stále otevřeny. V lednu, kdy byly velké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">zimy</term>, bylo na <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">marodce</term></q> asi 20 stupňů pod nulou. Pacient nedostával první 3 dni <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jíst</term> /jen vodovou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévku</term>/ a pak jen půl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">menáže</term>. Tímto opatřením mělo býti zabráněno <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocem</term>.</p>
+					<p>Ve <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Wulkowě</placeName> se stavěly pro <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">Reichssicherheizshauptamt</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kanceláře</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">byty</term> na místě úplně odlehlém, schovaném v lese. Po dostavení první <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Baustelle</term> začal <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">RSH</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">Amt</orgName> úřadovat pod vedením <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obergruppenführerem</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000283">Müllera</persName>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Stavěla</term> se pak druhá <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">Baustelle</term> a poté ještě další malá <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Baustelle</term> /jen 3 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráky</term> a přepychově
+						zařízené/ asi pro vedení <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">strany</orgName>, protože <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stavbu</term> třikrát navštívil a prohlížel zástupce <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Führera</persName> ve <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">straně</orgName>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000052">Bohrmann</persName>.</p>
+					<pb facs="EHRI-DC-026_02.png" n="2"/>
+					<p>Po přistání parašutistů u <placeName ref="http://www.geonames.org/3095057/kostrzyn-nad-odra.html">Küstrina</placeName> – asi <date when="1945-01-28">28. ledna 1945</date> – byly vyhozeny Aktenbunkry do povětří a ostatní akta spálena. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Tábor</term> byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuován</term>
+						<date when="1945-02-02">2. února 1945</date> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">dobytčích</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">vozech</term> asi po 75 osobách do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. Cesta trvala 8 dní s proviantem, o kterém bylo
+						řečeno, že musí stačit na 3 dni /před tím již nebyl v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">táboře</term> asi týden žádný <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term>/. Cesta asi
+						1000 km přes <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>-<placeName ref="http://www.geonames.org/2911522/halle-saale.html">Halle</placeName>-<placeName ref="http://www.geonames.org/2805615/wuerzburg.html">Würzburg</placeName>-<placeName
+							ref="http://www.geonames.org/2861650/nuernberg.html">Norimberg</placeName>-<placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Tábor</term>
+						<placeName ref="http://www.geonames.org/2837549/schnarchenreuth.html">Schnarchenreuth</placeName> u <placeName ref="http://www.geonames.org/2902768/hof.html">Hofu</placeName> v <placeName ref="http://www.geonames.org/2951839/bavaria.html">Bavorsku</placeName> /od <date
+							when="1944-03-13">13. března 1944</date> do <date when="1945-04-22">22. dubna 1945</date>/ byl veden pod stejným dozorem a za stejných podmínek jako <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Baukommando</term>
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Zossen</placeName></q>. Při <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuaci</term> se <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Baukommando</term>
+						<placeName ref="http://www.geonames.org/2902768/hof.html">Hof</placeName> vrátilo pěšky za 8 dní přes <placeName ref="http://www.geonames.org/2929226/ore-mountains.html">Krušné Hory</placeName>-<placeName ref="http://www.geonames.org/3073803/karlovy-vary.html">Karlovy
+							Vary</placeName>-<placeName ref="http://www.geonames.org/3077685/chomutov.html">Chomutov</placeName> /280 km/ do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>.</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>, dne <date when="1945-08-10">10. srpna 1945</date></p>
+					<p><persName ref="#ehri_dc_friedlander_otta">Otto Friedländer</persName></p>
+					<p>Protokol přijala:</p>
+					<p><persName ref="#ehri_dc_kratkova_marta">Marta Kratková</persName></p>
+					<p>Podpis svědků:</p>
+					<p><persName ref="#ehri_dc_weinberger_robert">Robert Weinberger</persName></p>
+					<p><persName ref="#ehri_dc_shek_alisa">Alice Ehrmannová</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>: <persName ref="#ehri_dc_shek_zeev">Zeev Scheck</persName></p>
+					<p>Za archiv: <persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName>
+						<date when="1945-08-11">11. VIII. 1945</date></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-026_01.png" n="1"/>
+					<p>Statement on the <q><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Zossen</placeName>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Baukommando</term></q></p>
+					<p>written with <persName ref="#ehri_dc_friedlander_otta">Otto Friedländer</persName>, born <date when="1925-03-14">14. 3. 1925</date>, residing in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> XIX., <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Sochařská 13</placeName></p>
+					<p>On <date when="1944-03-02">2. 3. 1944</date>, I left <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> with
+						200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">construct</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">buildings</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Wulkow near Trebnitz</placeName> on the <placeName
+							ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>-<placeName ref="http://www.geonames.org/3095057/kostrzyn-nad-odra.html">Küstrin</placeName> line, about 50 km from <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>. For the
+						first three weeks, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> was led by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obersturmbannführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName>, then by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obersturmführer</term>
+						<persName ref="#ehri_dc_stuschka_franz">Stuschka</persName>. Also with us were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Unterstürmführer</term>
+						<persName ref="#ehri_dc_hardenberger">Hardenberger</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Oberscharführers</term>
+						<persName ref="#ehri_dc_hanke">Hanke</persName> and <persName ref="#ehri_dc_stiasny">Stiastni</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Scharführer</term>
+						<persName ref="#ehri_dc_proschek">Proschek</persName>, and about 20 <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-437">Waffen</orgName>-<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-437">SS</orgName> as <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1438" type="subject">guards</term>. When we started we had enough <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, until about <date when="1944-09">September 1944</date>.
+						The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> day for the first 2 months was 12 hours, and then 14 for the entire summer.</p>
+					<p>Since <date when="1944-09">September 1944</date> there had been a terrible <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> shortage in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+							>camp</term>. We were treated fairly at first, but it gradually worsened. Since fall <date when="1944">1944</date>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">beatings</term> (sticks, rubber batons with metal ends, etc.) were a daily
+						occurrence. Favorite sports: squats over a board with nails. In the winter, standing barefoot all night only in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pants</term> and no <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shirts</term> in 15 degree below zero weather, standing on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">ice</term>, and having cold water poured over us.
+						Walking barefoot all day in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">snow</term>, collecting glass or nails with our mouths, sitting in a 40 x 60 x 80 cm cage after work.</p>
+					<p>The excuses they used were limitless. At the end of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">freezing</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">rainy</term>
+						<date when="1944-11">November in 1944</date>, for instance, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, since they had apparently been <q>lazy,</q> had to crawl on their stomachs all over the courtyard and scoop <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">mud</term> with their bare hands, which took about 4 hours.</p>
+					<p>These so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">punishments</term> are only an example of the rich repertoire of Mr. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obersturmführer</term>
+						<persName ref="#ehri_dc_stuschka_franz">Stuschka</persName>.</p>
+					<p>The population of the camp peaked in <date when="1944-09">September 1944</date> with about 260 people. In the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">fall</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818"
+							type="subject">winter</term> about 45 people left on <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">penal</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term></q> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-847" type="camp">Oranienburg</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, or the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-jmp-49">Small Fortress</placeName>. Only 10 people returned.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Housing</term> conditions: in the beginning, although the temperature fell below zero at night, we slept outside in the woods. Then we slept in wooden <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">shacks</term> that leaked when it <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">rained</term>. In the summer, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> spent about 4 months in a 13 x 30 m sandy hole about 8 m deep. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kitchen</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">latrine</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">well</term> were about 1 m away from one another. When this inhuman <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">living situation</term> began to threaten the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">health</term> of the population and thus the nearby village, the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">health</term> committee forbid further <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">living</term> in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>. We then <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">lived</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">houses</term>, of course <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">unheated</term> during the winter.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">sickroom</term> was the terror of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>. It was a wooden <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">shed</term> (with a 2 cm hole between two planks) without <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">windows</term> and constantly open <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">doors</term>. In January, when it was very <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">cold</term>, it was about 20 degrees below zero in the <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">sickroom</term>.</q> The patient wouldn’t get anything to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term> in the first 3 days (only a watery <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term>) and then only half a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">portion</term>. These measures were supposed to stop the spread of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diseases</term>.</p>
+					<p>In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Wulkow</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">offices</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">apartments</term> were being built for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">Reich Security Main Office</orgName> in a remote location hidden in the woods. After the first <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">building</term> was built, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">RSH</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-427">Amt</orgName> began working under the leadership of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Obergruppenführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000283">Müller</persName>. The next <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">building</term> was being <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">built</term> and then another, and then several other small <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">buildings</term> (only 3 luxuriously furnished <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">houses</term>) likely for <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">party</orgName> leaders, because the <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000185">Führer</persName>’s deputy in the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">party</orgName>, <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000052"
+							>Bohrmann</persName>, visited and toured the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">construction site</term> three times.</p>
+					<pb facs="EHRI-DC-026_02.png" n="2"/>
+					<p>After the parachutists landed in <placeName ref="http://www.geonames.org/3095057/kostrzyn-nad-odra.html">Kostrzyn</placeName> – about <date when="1945-01-28">January 28th, 1945</date> – the Aktenbunkers were blown up and the other documents burned. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term> on <date when="1945-02-02">February 2nd, 1945</date>, and we were put on <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">cattle</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">cars</term> about 75 person per car back to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. The journey lasted 8 days with
+						provisions that we were told would suffice for 3 days. (Before this, there hadn’t been any <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+							>camp</term> for about a week). The <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>-<placeName ref="http://www.geonames.org/2911522/halle-saale.html">Halle</placeName>-<placeName ref="http://www.geonames.org/2805615/wuerzburg.html"
+							>Würzburg</placeName>-<placeName ref="http://www.geonames.org/2861650/nuernberg.html">Norimberg</placeName>-<placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> journey was approx. 1,000 km long.</p>
+					<p>The <placeName ref="http://www.geonames.org/2837549/schnarchenreuth.html">Schnarchenreuth</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> near <placeName ref="http://www.geonames.org/2902768/hof.html">Hof</placeName> in <placeName ref="http://www.geonames.org/2951839/bavaria.html">Bavaria</placeName> (from <date
+							when="1944-03-13">March 13th, 1944</date> to <date when="1945-04-22">April 22nd, 1945</date>) had the same guards and same conditions as <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Baukommando</term>
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2793" type="camp">Zossen</placeName>.</q> During the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuation</term>, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-489" type="subject">Baukommando</term>
+						<placeName ref="http://www.geonames.org/2902768/hof.html">Hof</placeName> returned on foot in 8 days via <placeName ref="http://www.geonames.org/2929226/ore-mountains.html">Krušné Hory</placeName>-<placeName ref="http://www.geonames.org/3073803/karlovy-vary.html">Karlovy
+							Vary</placeName>-<placeName ref="http://www.geonames.org/3077685/chomutov.html">Chomutov</placeName> (280 km) to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>.</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, on <date when="1945-08-10">August 10th, 1945</date></p>
+					<p><persName ref="#ehri_dc_friedlander_otta">Otto Friedländer</persName></p>
+					<p>Statement accepted by:</p>
+					<p><persName ref="#ehri_dc_kratkova_marta">Marta Kratková</persName></p>
+					<p>Signature of witnesses:</p>
+					<p><persName ref="#ehri_dc_weinberger_robert">Robert Weinberger</persName></p>
+					<p><persName ref="#ehri_dc_shek_alisa">Alice Ehrmannová</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>: <persName ref="#ehri_dc_shek_zeev">Zeev Scheck</persName></p>
+					<p>On behalf of the archive: <persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName>
+						<date when="1945-08-11">11. VIII. 1945</date></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

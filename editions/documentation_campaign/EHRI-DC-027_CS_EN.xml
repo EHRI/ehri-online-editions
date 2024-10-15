@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-027_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Josef Klaber, report on Dr. Karl Löwenstein</title>
+				<title xml:lang="de">Josef Klaber, Bericht über Dr. Karl Löwenstein</title>
+				<title xml:lang="cs">Josef Klaber, zpráva o dr. Karlu Löwensteinovi</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín Ghetto</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josef Klaber</persName>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</origPlace>, <term
+					ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Karl Löwenstein</persName>, </creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Josef Klaber provides a report on Karl Löwenstein, the head of the Security Department in the Terezín Ghetto. He describes his activities, behavior towards the prisoners, and his position in the ghetto.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-027_01.png" n="1"/>
+					<p>Protokol</p>
+					<p>sepsaný dne <date when="1945-12-10">10. 12. 1945</date> s panem <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josefem Klábrem</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886"
+							type="subject">kapitánem</term> v. v. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytem</term> v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> III., <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Újezd 15</placeName></p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName>, jehož příchod z <placeName ref="http://www.geonames.org/2017370/russian-federation.html">ruského</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-600" type="ghetto">Minsku</placeName>, kde byl tzv. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">policejním</term> prefektem od r. <date when="1941">1941</date>, byl nám
+						záhadou, poněvadž hned po svém příchodu byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">uvězněn</term>, nikoliv jako každý jiný <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-618" type="subject">vězeň</term>, byl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">uvězněn</term>, řekněme separován od ostatních a dostal do své <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">cely</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">postel</term> s bílými <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">prostěradly</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">peřinou</term> a dostával dvojí zlepšenou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravu</term>. Dostával denně z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">komandatury</term>
+						<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německé</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">noviny</term>, které musel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">židovský</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">starší</term> denně na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">komandatuře</term> vyzvednout a doručit mu prostřednictvím <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1124" type="subject">četnictva</term>. Již v <date when="1942-05">květnu 1942</date>, když Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim"
+							>Löwenstein</persName> napsal dlouhý dopis do <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlína</placeName> na <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-822">nejvyšší</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-822">úřad</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-822">SS</orgName> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">židovské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">vystěhovalectví</term>, přijeli v <date when="1942-10">říjnu</date> z <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlína</placeName> vedoucí Dr. <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> a <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName>. Dlouho s Dr. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwensteinem</persName> na jeho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">cele</term> rozmlouvali a téhož nebo příštího dne oznámil
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">židovskému</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">staršímu</term>, že Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> musí obdržet významné místo v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettu</term>, načež byl jmenován vedoucím celé <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">bezpečnostní služby</orgName>. V této činnosti
+						zahájil Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> nejdříve výcvik prušáckého systému. Nalezl si mnoho agentů, kteří mu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200"
+							type="subject">donášeli</term> a měl to privilegium, že mohl kdykoliv navštívit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandanta</term>, ačkoli dosud mohl tak učinit pouze <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">židovský</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">starší</term>, nebo jiné osoby v doprovodu posledně jmenovaného. Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim"
+							>Löwenstein</persName>, jak se sám vyjádřil, byl u štábu <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německého</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1108" type="subject">námořnictva</term> jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">nadporučík</term>, byl prý <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">poručníkem</term>
+						<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německého</placeName> prince <persName ref="#ehri_dc_eitel_friedrich">Eitela</persName>, s kterým byl – jak se sám vyjádřil – ve spojení od <placeName
+							ref="http://www.geonames.org/2852458/potsdam.html">Postupimi</placeName>, až do jeho odvolání do <placeName ref="http://www.geonames.org/2017370/russian-federation.html">ruského</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-600" type="ghetto">Minsku</placeName>. O jeho činnosti v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-600" type="ghetto">Minsku</placeName> vyjadřoval se velmi zdrženlivě, vyprávěl
+						však, že tam bylo mnoho Židů <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">popraveno</term> a každý den ten nebo onen od <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1394" type="subject">velitelů</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1394" type="subject">SS</term> z nicotných důvodů, nebo i bez důvodu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">zastřelen</term>.</p>
+					<p>Pak byl poslán do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>, pravděpodobně <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapem</orgName>, které ho chtělo vyměnit, nebo z jeho funkce
+						odstranit, snad i zachránit. Byl prý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">míšenec</term>, dal se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">rozvést</term> od své židovské <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">manželky</term> a měl v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> svoji bývalou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">tchýni</term> paní <persName ref="#ehri_dc_hamburger">Hamburgerovou</persName>, která tam také zemřela.</p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> se také pokoušel a také se mu to z velké části podařilo, získat si oblibu u svých podřízených, vymáhaje pro ně různé výhody. Na druhé straně ale
+						byl podle svého prušáckého <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1077" type="subject">vojenského</term> výcviku nejen přísný, nýbrž <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">trestal</term> za malé přestupky své
+						podřízené 6-nedělním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězením</term>, vyloučením z řad <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkové služby</orgName>. Členové
+							<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkové služby</orgName>, kteří byli z velké části bývalí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject">vojáci</term>, resp. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">poddůstojníci</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">důstojníci</term> bývalé <placeName
+							ref="https://www.geonames.org/8505031/czechoslovakia.html">československé</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1077" type="subject">armády</term>, byli doplňováni, ev. vyměňováni za podobné <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německého</placeName> národa. Nezdráhal se ani
+						přijmout do řad <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">bezpečnostní služby</orgName> jednoho nebo dva bývalé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">členy</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, kteří přišli do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName> jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">míšenci</term>, a pod. Jeden z nich musel být po krátké době vyloučen, protože se ukázalo, že je <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject"
+						>zlodějem</term>.</p>
+					<p>Na druhé straně informoval Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandaturu</term> o věcech vnitřních a o osobách, hlavně z řad <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">rady</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">starších</term> tak, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> byl vždy dobře informován, co se děje. Dostal se do rozporu, jak s
+						prvním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">židovským</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">starším</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelsteinem</persName>, později s Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epsteinem</persName> a Ing. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zuckerem</persName> a jinými a neváhal napsati své smýšlení o těchto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject"
+							>Lagerkomandantovi</term>. Podařilo se v jednom nebo dvou případech <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">dopisy</term> tyto zachytit. Nebyly odevzdány na určené místo. Rozpory s <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">vedoucími</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">činiteli</term> z řad <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">rady</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">starších</term> vedly k tomu, že byli pak skoro všichni bývalí členové <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkové služby</orgName>
+						posláni do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zahynuli</term>.</p>
+					<pb facs="EHRI-DC-027_02.png" n="2"/>
+					<p>V r. <date when="1944">1944</date> pak učinilo několik členů <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkové služby</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">udání</term> na Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwensteina</persName>, začež byl pak tento židovským soudem
+						odsouzen na 3 měsíce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vězení</term>. Ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">vazbě</term> byl mu pak <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">trest</term>, za <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">dopis</term>, který se pokoušel poslat <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandantovi</term> prodloužen o další měsíc. O činnosti a důvodech, proč bylo učiněno <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">trestní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">oznámení</term> na Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwensteina</persName> nechť podají zprávu vrátivší se členové
+							<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">pořádkové služby</orgName> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> pan <persName ref="#ehri_dc_katz"
+							>Katz</persName>, p. Ing. <persName ref="#ehri_dc_neumann">Neumann</persName>, p. <persName ref="#ehri_dc_soss">Soss</persName>.</p>
+					<p>Že by se byl Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> choval k Židovstvu zvlášť přívětivě, nemůže se tvrditi. Byla to spíše jeho ješitnost než vůle sloužiti a pomáhati Židům. Na druhé
+						straně ale zase chtěl pomoci <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandantovi</term>, o čemž se jednou vyjádřil, že má těžké postavení, poněvadž má určité povinnosti k <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">lagerkomandatuře</term>, která mu přichází v mnohém vstříc. Z jeho chování nebyl zřejmý jeho cit pro Židovstvo a jeho utrpení, spíše jeho osobní zájem.</p>
+					<p>Podpis:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-027_01.png" n="1"/>
+					<p>Statement</p>
+					<p>written on <date when="1945-12-10">10. 12. 1945</date> with Mr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1098293" type="victim">Josef Kláber</persName>, retired <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886"
+							type="subject">captain</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residing</term> in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> III., <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Újezd 15</placeName></p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName>, whose arrival from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-600" type="ghetto">Minsk</placeName> in <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>, where he had been a so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">police</term> prefect since <date when="1941">1941</date>, was a mystery to
+						us, because he was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">imprisoned</term> right after his arrival, but not as a regular <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-618" type="subject">prisoner</term>. He was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">imprisoned</term>, or rather separated from the others, and had a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bed</term> with white <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">sheets</term> and a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">comforter</term> in his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616"
+							type="subject">cell</term> and received better <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>. Every day he received <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1069" type="subject">newspapers</term> from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">kommandatura</term> that a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">elder</term> had to pick up at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">kommandatura</term> and then hand them over to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1124" type="subject">police</term>, who delivered them to him. In <date when="1942-05">May 1942</date>, when Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239"
+							type="victim">Löwenstein</persName> wrote a long letter to <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-822">highest</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-822">office</orgName> of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-822">SS</orgName> for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">emigration</term>, commanders Dr. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> and <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName> arrived in <date when="1942-10">October</date> from <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>. They spoke with Dr. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> in his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">cell</term> for a long time and that very same day or the next
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> announced to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Elder</term>, that Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> must get an important post in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>, upon which he was appointed head of the entire <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">security service</orgName>. Dr.
+							<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> began by training the Prussian system. He found many agents who would be his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200"
+							type="subject">informants</term> and he had the privilege of being able to visit the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> anytime, something that only the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">elder</term> could have done until then, or another person accompanied by him. Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim"
+							>Löwenstein</persName>, as he himself said, was a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">first lieutenant</term> in the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1108" type="subject">navy</term>, he was supposedly the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">guardian</term> of the <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> prince <persName ref="#ehri_dc_eitel_friedrich">Eitel</persName>, with whom he was – as he said himself – in connection since <placeName
+							ref="http://www.geonames.org/2852458/potsdam.html">Postupim</placeName> until he was called away to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-600" type="ghetto">Minsk</placeName> in <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>. He spoke with restraint about his activities in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-600" type="ghetto">Minsk</placeName>, but said that many Jews were <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">executed</term> there and that every day this one or that one was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term> by the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1394" type="subject">leaders</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1394" type="subject">SS</term> for petty reasons or none at all.</p>
+					<p>He was then sent to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, probably by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>, who wanted to replace him or remove
+						him from office, maybe even save him. He was supposedly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">mixed race</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">divorced</term> his Jewish <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">wives</term>, and his former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother-in-law</term> Mrs. <persName ref="#ehri_dc_hamburger">Hamburgerová</persName>
+						was also in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, where she also passed away.</p>
+					<p>Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> also tried and in a large part succeeded in being popular among his subordinates, acquiring various advantages for them. On the other hand,
+						given his Prussian <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1077" type="subject">military</term> training, he was not only strict, but for small infractions of his subordinates he issued <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653"
+							type="subject">punishments</term> of 6-week <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">prison terms</term>, expulsion from the <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp
+							guards</orgName>. Members of the <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp guards</orgName>, most of whom were former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1097" type="subject"
+							>soldiers</term>, or rather the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">non-commissioned officers</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-886" type="subject">officers</term> of the former
+							<placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czechoslovak</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1077" type="subject">army</term>, were supplemented or replaced by a similarly ranked <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> national. He was also
+						willing to accept one or two former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">members</term> who had come to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> as <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject">mixed race</term> individuals to the ranks of the <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp guards</orgName>, etc. One of them was
+						shortly thereafter expelled because it turned out that he was a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">thief</term>.</p>
+					<p>On the other hand, Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> informed the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandatur</term> about
+						internal affairs and people, mainly from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">council</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">elders</term> and so the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> was always well informed about what was going on. He got into a dispute with the first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject"
+							>Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">elder</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000100">Edelstein</persName>, later with Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-342720" type="victim">Epstein</persName> and Ing. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zucker</persName> and others, he didn’t hesitate to write down his thoughts about these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject"
+							>Lagerkomandants</term>. One or two of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letters</term> were intercepted. They weren’t handed over to the right place. Struggles with the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">main</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-554" type="subject">leaders</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579" type="subject">council</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-579"
+							type="subject">elders</term> led to almost all of the former members of <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp guards</orgName> being sent to <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> where they <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term>.</p>
+					<pb facs="EHRI-DC-027_02.png" n="2"/>
+					<p>In the year <date when="1944">1944</date>, several members of the<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11"> camp guards</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">denounced</term> Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName>, upon which he was sentenced to 3 months in
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">jail</term> by a Jewish court. In <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-616" type="subject">jail</term>, for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> that he tried to send to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term> his <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">punishment</term> was lengthened by two months. To know the activities and reasons why a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">criminal</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-200" type="subject">complaint</term> about Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> was filed, the returning members of
+						the <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-11">camp guards</orgName> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> Mr. <persName ref="#ehri_dc_katz"
+							>Katz</persName>, Mr.. Ing. <persName ref="#ehri_dc_neumann">Neumann</persName>, and Mr. <persName ref="#ehri_dc_soss">Soss</persName> should submit reports.</p>
+					<p>It can’t be said that Dr. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-511239" type="victim">Löwenstein</persName> treated the Jews in a particularly friendly manner. It was more his vanity than his will to serve and help Jews. On the
+						other hand, though, he wanted to help the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">Lagerkomandant</term>, about which he once said that he has a difficult position because he has certain responsibilities towards the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">lagerkomandatur</term>, which was much more accommodating towards him. His behavior didn’t betray his feelings towards Jewishness and his suffering, rather his personal interest.</p>
+					<p>Signature:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term>: <persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

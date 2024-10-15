@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-1939_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-1939_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,56 +8,62 @@
 				<title xml:lang="en">Information sheet for the upcoming transports to Poland</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001982"> Dokumentationsarchiv des österreichischen
-							Widerstandes (DÖW), </repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001982"> Dokumentationsarchiv des österreichischen Widerstandes (DÖW), </orgName><address>
+								<street>Altes Rathaus, Wipplingerstr. 6-8</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>Sammlung Projekt Holocaustopfer</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Dokumentationsarchiv des österreichischen Widerstandes (DÖW), Sammlung Projekt Holocaustopfer. <textLang mainLang="de">Original
-						auf Deutsch.</textLang>
+				<bibl>Dokumentationsarchiv des österreichischen Widerstandes (DÖW), Sammlung Projekt Holocaustopfer. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1939">1939</date>
-				<idno>EHRI-NISKO-1939</idno>
+				<origDate when="1939">1939</origDate>
 			</creation>
 			<textClass>
 				<keywords>
@@ -69,45 +75,41 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p><!--Merkblatt für die bevorstehenden <term
-          ref="#t521" type="subject"
+				<div type="original" xml:lang="de">
+					<p><!--Merkblatt für die bevorstehenden <term
+          ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
           >Transporte</term> nach Polen</p>--></p>
-				<p> </p>
-				<p>1. Mit der Führung eines jeden <term ref="#t521" type="subject">Transportes</term> wird ein Transportleiter von der Amtsdirektion
-					der <orgName ref="#ehri_nisko_ikg_wien">Israelitischen Kultusgemeinde Wien</orgName> bestellt, dem so viel Waggonleiter
-					unterstellt werden, als der Zug Personenwagen enthält; aus der Mitte der Waggonleiter wird einer mit der Vertretung des
-					Transportleiters in dessen Verhinderungsfall betraut.</p>
-				<p>2. Der Transportleiter und die Waggonleiter haben sich 24 Stunden vor Abgang des Zuges in der <orgName ref="#ehri_nisko_ikg_wien"
-						>Israelitischen Kultusgemeinde Wien</orgName>, <placeName ref="#ehri_nisko_seitenstettengasse">I., Seitenstettengasse
-						4</placeName>, Zimmer 8, einzufinden und dieses Merkblatt, sowie besondere Weisungen entgegenzunehmen.</p>
-				<p>3. Dem Transportleiter unterstehen auch die den Zug begleitenden <term ref="#t1427" type="subject">Ärzte</term>.</p>
-				<p>4. Jeder <term ref="#t521" type="subject">Transport</term> umfasst rund 1000 Personen, welche auf die einzelnen Waggons (60-64
-					Personen pro Waggon) aufgeteilt werden.</p>
-				<p>Der Transportleiter bekommt 24 Stunden vor Abgang des Zuges die gesamte Liste der <term ref="#t519" type="subject"
-						>Teilnehmer</term>, gegliedert nach einzelnen Waggons. Überdies erhält er eine Namenskartei aller <term ref="#t519"
-						type="subject">Teilnehmer</term> nach dem Alphabet geordnet. Jeder Waggonleiter bekommt eine Liste der <term ref="#t519"
-						type="subject">Mitreisenden</term> seines Wagens. Die einzelnen <term ref="#t519" type="subject">Teilnehmer</term> erhalten 24
-					Stunden vor Zugsabgang von der <orgName ref="#ehri_nisko_ikg_wien">Israelitischen Kultusgemeinde Wien</orgName> die Verständigung,
-					zu welcher Stunde sie sich auf dem Bahnhofe (<placeName ref="#ehri_nisko_aspangbahnhof">Aspangbhf</placeName>) einzufinden und
-					welche Waggons sie zu besteigen haben.</p>
-				<p>5. Der Transportleiter, die Waggonleiter und die zugeteilten <term ref="#t1427" type="subject">Ärzte</term> haben sich zwei Stunden
-					vor Zugsabgang auf dem Bahnhof einzufinden; die <term ref="#t519" type="subject">Reiseteilnehmer</term> eine Stunde vor
-					Zugsabgang.</p>
-				<p>Jeder Waggonleiter verliest sofort nach Eintreffen der <term ref="#t519" type="subject">Mitreisenden</term> die Namen der in dem
-					unter seiner Leitung stehenden Waggon mitreisende <term ref="#t519" type="subject">Passagiere</term> und überwacht deren
-					Einsteigen und die Verstauung des Gepäcks.</p>
-				<p>Die Einteilung der <term ref="#t519" type="subject">Passagiere</term> wird derart erfolgen, dass Ehepaare und Familienmitglieder
-					zusammen reisen, wogegen alleinstehende <term ref="#t825" type="subject">Frauen</term> und <term ref="#t825" type="subject"
-						>Mädchen</term> möglichst in gesonderten Abteilen untergebracht werden.</p>
-				<p>Die Namen der fehlenden <term ref="#t519" type="subject">Reiseteilnehmer</term> werden dem Transportleiter eine Viertelstunde vor
-					der angekündigten Abfahrtszeit bekannt gegeben.</p>
-				<p>6. Jeder Reiseleiter ist berechtigt, Reisegepäck im Gesamtgewicht bis zu 50 kg mitzunehmen, doch darf es sich nicht um Sperrgüter
-					handeln. Die Mitnahme von Gold, Juwelen usw. ist strengstens verboten. Hingegen darf jeder Reiseteilnehmer bis 300 RM in barem
-					Gelde mitführen.</p>
+					<p> </p>
+					<p>1. Mit der Führung eines jeden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transportes</term> wird ein Transportleiter von der Amtsdirektion der <orgName ref="#ehri_nisko_ikg_wien">Israelitischen Kultusgemeinde Wien</orgName> bestellt, dem
+						so viel Waggonleiter unterstellt werden, als der Zug Personenwagen enthält; aus der Mitte der Waggonleiter wird einer mit der Vertretung des Transportleiters in dessen Verhinderungsfall betraut.</p>
+					<p>2. Der Transportleiter und die Waggonleiter haben sich 24 Stunden vor Abgang des Zuges in der <orgName ref="#ehri_nisko_ikg_wien">Israelitischen Kultusgemeinde Wien</orgName>, <placeName ref="#ehri_nisko_seitenstettengasse">I., Seitenstettengasse 4</placeName>, Zimmer 8,
+						einzufinden und dieses Merkblatt, sowie besondere Weisungen entgegenzunehmen.</p>
+					<p>3. Dem Transportleiter unterstehen auch die den Zug begleitenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">Ärzte</term>.</p>
+					<p>4. Jeder <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> umfasst rund 1000 Personen, welche auf die einzelnen Waggons (60-64 Personen pro Waggon) aufgeteilt werden.</p>
+					<p>Der Transportleiter bekommt 24 Stunden vor Abgang des Zuges die gesamte Liste der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term>, gegliedert nach einzelnen Waggons. Überdies erhält er eine Namenskartei aller <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> nach dem Alphabet geordnet. Jeder Waggonleiter bekommt eine Liste der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Mitreisenden</term> seines
+						Wagens. Die einzelnen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> erhalten 24 Stunden vor Zugsabgang von der <orgName ref="#ehri_nisko_ikg_wien">Israelitischen Kultusgemeinde Wien</orgName> die Verständigung, zu welcher
+						Stunde sie sich auf dem Bahnhofe (<placeName ref="#ehri_nisko_aspangbahnhof">Aspangbhf</placeName>) einzufinden und welche Waggons sie zu besteigen haben.</p>
+					<p>5. Der Transportleiter, die Waggonleiter und die zugeteilten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1427" type="subject">Ärzte</term> haben sich zwei Stunden vor Zugsabgang auf dem Bahnhof einzufinden; die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Reiseteilnehmer</term> eine Stunde vor Zugsabgang.</p>
+					<p>Jeder Waggonleiter verliest sofort nach Eintreffen der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Mitreisenden</term> die Namen der in dem unter seiner Leitung stehenden Waggon mitreisende <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Passagiere</term> und überwacht deren Einsteigen und die Verstauung des Gepäcks.</p>
+					<p>Die Einteilung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Passagiere</term> wird derart erfolgen, dass Ehepaare und Familienmitglieder zusammen reisen, wogegen alleinstehende <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Mädchen</term> möglichst in gesonderten Abteilen untergebracht werden.</p>
+					<p>Die Namen der fehlenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Reiseteilnehmer</term> werden dem Transportleiter eine Viertelstunde vor der angekündigten Abfahrtszeit bekannt gegeben.</p>
+					<p>6. Jeder Reiseleiter ist berechtigt, Reisegepäck im Gesamtgewicht bis zu 50 kg mitzunehmen, doch darf es sich nicht um Sperrgüter handeln. Die Mitnahme von Gold, Juwelen usw. ist strengstens verboten. Hingegen darf jeder Reiseteilnehmer bis 300 RM in barem Gelde mitführen.</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP012_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Karel Abeles, on escape from Teplice, interneration in Łódź, Auschwitz and Gusen</title>
+				<title xml:lang="de">Karel Abeles, auf der Flucht aus Teplice, Internierung in Łódź, Auschwitz und Gusen</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945-08-16">16. 8. 1945</origDate>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>, <persName ref="#ehri_et_abeles_karel">Karel Abeles (later name Brožík)</persName>, <origPlace
+					ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Karel Abeles (later name Brožík), which became a part of the “documentation campaign” in Prague. Abeles describes being forced to leave his hometown Teplice in the Czechoslovak borderland in the fall of 1938. His family moved to Prague, from where they were deported
+					to the Łódź ghetto. Abeles describes the harsh living condition in the ghetto, due to which his parents and brother died. In 1944, he was deported to Auschwitz-Birkenau and later to Gusen, where he was liberated.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP012_01.jpg" n="1"/>
+					<p>
+						<hi rend="letter-spacing: +2px">Protokol</hi>
+					</p>
+					<p>sepsaný s <persName ref="#ehri_et_abeles_karel">Karlem <hi rend="letter-spacing: +2px">Abelesem</hi></persName>, nar. <date when="1926-02-04">4. 2. 1926</date>, bývalým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">vězněm</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborů</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodž</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Osvětim</placeName> a <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570"
+							>Mauthausen</placeName>, t. č. bytem v <placeName ref="http://www.geonames.org/3067696/prague.html">Praze XIII., Ruská</placeName> 934, národnosti židovské, povoláním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1214" type="subject">student</term>.</p>
+					<p>Narodil jsem se v <placeName ref="http://www.geonames.org/3064288/teplice.html">Tepl.Šanově</placeName> a byl jsem tam s <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142942-max-abeles/">tatínkem</persName>, <persName
+							ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/">maminkou</persName> a starším <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142947-hanus-abeles/"> bratrem</persName> do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1041" type="subject">odstoupení Sudet</term>. Od <date when="1938-10">října 1938</date> do <date when="1941-10">října 1941</date> bydleli jsme v <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Praze</placeName>. V tomto měsíci začaly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-647" type="subject">registrace</term> Židů a první <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transporty</term> do <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>. Třetím <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transportem</term> byla naše celá rodina odvlečena do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName>. To se stalo následujícím způsobem: Dostali jsme od <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714#desc-deu">Židovské náboženské obce</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-151" type="subject">vyzvání</term> dostavit se <date when="1941-10-23">23. října 1941</date> do <placeName ref="http://www.geonames.org/3067696/prague.html">veletržního Paláce</placeName> v <term
+							ref="http://www.geonames.org/3067696/prague.html" type="placeName">Praze</term> se zavazadlem po 50 kilech na osobu. Zavazadla opatřená naším číslem odvezl špeditér. Po vyřízení formalit, odevzdání bytových klíčů, zlata, stříbra, atd. byly naše občanské legitimace
+						opatřeny razítkem <q><foreign xml:lang="de">Evakuiert</foreign>
+							<date when="1941-10-26">26. 10. 1941</date></q>. Defilovali jsme před <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+						<foreign xml:lang="de">Grupenführerem</foreign> Fidlerem, který nám odebral všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">hudební</term> nástroje a luxusně vyhlížející zavazadla. V 6 hodin ráno jsme nastupovali do osobního vlaku,
+						který odjel z <placeName ref="http://www.geonames.org/3078526/bubenec.html">bubenečského</placeName> nádraží o 13. hod. Jeli jsme divnou tratí, a sice přes <placeName ref="http://www.geonames.org/2935022/dresden.html">Drážďany</placeName>, <placeName
+							ref="http://www.geonames.org/2918987/goerlitz.html">Görlitz</placeName>, <placeName ref="http://www.geonames.org/3093692/legnica.html">Liegnitz</placeName>, <placeName ref="http://www.geonames.org/3081368/wroclaw.html">Vratislav</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodž</placeName>. Cestou nás doprovázelo <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName>. Cesta trvala 32 hodin, a jen jednou byla nám podána voda. Vystoupili jsme na
+						nějakém provisorním nádraží, jak nám později bylo oznámeno, byla to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodž</placeName>. Na rampě nás očekávala židovská policie, která nás seskupila a odvezla do prázdné školní <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">budovy</term>. Tam nás bylo do jedné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">místnosti</term> o rozměru 6 x 6 metrů nacpáno 136 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">osob</term>. Po postupném zlepšení <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytových</term> poměrů zůstalo nás v téže místnosti ještě vždy 78 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">osob</term>. Spali jsme na zemi. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Onemocněl</term> jsem brzo těžkou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">anginou</term> a sotva, že jsem se uzdravil, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">onemocněla</term> moje <persName
+							ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/">maminka</persName> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">zápal plic</term>. Protože <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">nemocnice</term> byly příliš přeplněné, musela po dobu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemoci</term>ležeti na zemi. Deštivé podzimní počasí,
+						abnormálně špatné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytovací</term> poměry, jakož i s tím spojená veliká <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytová</term> frekvence, způsobily
+						značnou nečistotu a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">onemocnění</term>. Po třech nedělích byli jsme všichni <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213" type="subject">zavšivení</term>a
+						nebylo téměř žádných protiopatření.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Snědli</term> jsme své poslední přivezené <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">zásoby</term> a nastal veliký hlad. Dostávali jsme 20 deka <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> a jednu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polívku</term> denně. <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-866" type="subject">Polští Židé</term> nepřicházeli nám vůbec vstříc, ba naopak, nedostávali jsme topivo, které nám náleželo a dostávali jsme méně a horší druhy <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bramborů</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">zeleniny</term> nežli oni. Byli jsme nuceni jíti v noci v zimě na těžké <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>, následkem čehož můj <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142942-max-abeles/">otec</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">onemocněl</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">flegmonou</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřel</term> vysílením již dne <date when="1942-03-05">5. 3. 1942</date>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracoval</term> jsem jako kovář a můj <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142947-hanus-abeles/">bratr</persName> jako brašnář. Začátkem r. <date when="1942">1942</date> bylo
+						veliké vysídlení z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetta</placeName>, následkem čehož se uvolnilo hodně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytů</term> a <q>kolektivy</q> byly postupně
+						rozpuštěny. V <date when="1942-06">červnu 1942</date> dostali jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">byt</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Onemocněl</term> jsem těžkou
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">žloutenkou</term> a zeslábl jsem silně. Byla mi pak po uzdravení přidělena lehčí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> v továrně na
+						výrobu dřevěného zboží. V <date when="1942-08">srpnu 1942</date> bylo 25.000 Židů z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetta</placeName> posláno do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject"
+							>plynových komor</term>. I moje <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/">matka</persName> již byla určena na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transport</term>, ale tím, že jsem
+						podplatil židovský orgán policie, podařilo se mi, <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/">maminku</persName> uvolnit. Její duševní a tělesný stav byl již v této době natolik špatný, že <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřela</term> pak <date when="1942-10-12">12. 10. 1942</date>. Můj <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142947-hanus-abeles/">bratr</persName>, který již tehdy byl připoután
+						k lůžku pro těžkou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tuberkulosu</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745">zemřel</term> po těžkém trápení pak <date when="1942-11-19">19. 11. 1942</date>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">Pochoval</term> jsem svoje 3 nejbližší a nejdražší podle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-756" type="subject">židovského ritu</term>. </p>
+					<p>Nastaly pro mne těžké doby. Musel jsem po 11 hodinové těžké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> sám si prát, vařit a co bylo to nejhorší, nakupovat. Prodával jsem vše, co jsem měl, přikupoval jsem si živobytí a tím
+						jsem se vlastně udržoval. Na podzim <date when="1943">1943</date> bylo povoleno poslati do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetta</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">balíčky</term>. Dostával jsem od svého přítele <persName ref="http://www.holocaust.cz/databaze-obeti/obet/116278-jindrich-prossnitz/">Heinze Prossnitze</persName> z <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName> každý týden <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">balíček</term>, což mne tělesně, ale i duševně povzneslo. V <date when="1944-05">květnu
+							1944</date> začala likvidace <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetta</placeName>, jelikož se blížila fronta. Nevěděli jsme, že útok se zastavil u <placeName ref="http://www.geonames.org/756135/warsaw.html">Varšavy</placeName>.
+						Protože jsme věřili v brzký příchod <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583" type="subject">Rudé armády</term>, neuposlechli jsme výzvě opustiti <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">ukrývali</term> jsme se. Ani kulomety, ani <pb facs="EHRI-ET-JMP012_02.jpg" n="2"/> jiná ostrá opatření proti nám nemohly nás donutit opustiti <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName>. Nastal však strašný hlad a byli jsme tím nuceni, hlásiti se do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transportu</term>. Dne <date
+							when="1944-06-22">22. června 1944</date> odjeli jsme z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodže</placeName> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">dobytčáku</term>, neznámo kam. Přistáli
+						jsme příští ráno na místě, kde jsme jako první spatřili veliké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">komíny</term>, z nichž šlehaly vysoké plameny. Byli jsme <q>uvítání</q>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">vězni</term> ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">vězeňských</term> úborech a když jsem se je ptal, co se v těchto továrnách vyrábí, odpověděli
+						ironickým úsměvem: <q>Čokoláda</q>. Tomu jsem sice nevěřil, ale netušil jsem, že je tam <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">spáleno</term> statisíce našich otců, matek a dětí. Byli jsme v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau u Osvětíma</placeName>. Po <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selekci</term> byli jsme zařazeni jako odborníci mechanici na demontáž sestřelených letadel.
+						Nastal pak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">lágrový</term> život, jak již byl tak často popisován. Viděl jsem hrozné věci. Přišly <placeName ref="http://www.geonames.org/3057568/slovak-republic.html 81">maďarské</placeName>,
+							<placeName ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-865">slovenské</placeName> a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">terezínské transporty</term>. To trvalo do <date when="1945-01"
+							>ledna 1945</date>.</p>
+					<p><term ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583" type="subject">Rusové</term> opět útočili u <placeName ref="http://www.geonames.org/3094802/krakow.html">Krakova</placeName> a ohrožovali silně <placeName
+							ref="http://www.geonames.org/3082777/upper-silesia.html">Horní Slezsko</placeName>. Byli jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuováni</term>
+						<date when="1945-01-18">18. ledna</date>. Vlakové spojení tehdy již neexistovalo a tak jsme se vydali v dřevákách s dvěma dekami a jedním bochníkem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> na cestu. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Pochodovali</term> jsme celou noc a den a opustily nás síly. Držela nás vůle a naděje v brzké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">vysvobození</term>.
+						Po okraji cesty ležely stovky <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvol</term> těch, kteří <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pochodovali</term> před námi a již <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zahynuli</term>. Konečně čtvrtý den jsme někde u <placeName ref="http://www.geonames.org/3096472/katowice.html">Katovic</placeName> nastoupili do vlaku. Namačkali nás 120 o jednoho otevřeného
+						vagonu a aniž bychom byli dostali něco k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlu</term>, jeli jsme 4 dni a 4 noci a byli jsme otupělí jak zvířata. V <placeName ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mor.
+							Ostravě</placeName> a v <placeName ref="http://www.geonames.org/3067580/prerov.html">Přerově</placeName> podávalo nám obyvatelstvo nějaké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> do něj střílelo, ale přece pomáhali, kde mohli. Dne <date when="1945-01-27">27. 1. 1945</date> skončil náš transport <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517"
+							type="subject">smrti</term> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570">Mauthausenu</placeName> u <term ref="http://www.geonames.org/2772400/linz.html" type="placeName">Linze</term>. Aniž bychom byli dostali nějaké <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term>, musili jsme ihned pod horkou sprchu a poté nás vyháněli v nahém a mokrém stavu do ledové vichřice. Hodiny jsme čekali, než nás pustili do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bloku</term>. 1.200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">osob</term> do jednoho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">baráku</term>. 4 neděle jsem nespal. Češi tam byli velice solidární a vypomáhali <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlem</term>, kde bylo jen možné. V <date when="1945-02">únoru 1945</date> byl jsem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">odtransportován</term> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-585">Gusenu</placeName>. Tam jsem zažil vrchol všeho. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracovali</term> jsme v letecké továrně Messerschmitt, pod zemí, za hrozných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">životních podmínek</term>: málo <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídla</term>, málo spánku, špína, těžká a dlouho trvající <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>, ve špatném vzduchu, bití a zima. Není
+						třeba uvést detaily. Stačí snad skutečnost, že během 3 měsíců <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábor</term> musel být znovu naplněn novými <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>pracovními</term> silami, jelikož osazenstvo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřelo</term>
+						<q>přirozenou</q>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrtí</term>. Znamená to, že v každém bloku o 800 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">lidech</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">zahynulo</term> denně průměrně 10 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term>. V době nejhorší, kdy i mne začaly opustily síly, nastalo naše
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobození</term>: <date when="1945-05-05">5. května</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1029" type="subject">Američané</term> odzbrojili naši stráž a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">vězňové</term> opustili hromadně <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">tábor</term>. Našel jsem úkryt v českém civilním <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">pracovním táboře</term> v <placeName
+							ref="http://www.geonames.org/2772400/linz.html">Linci</placeName>, kde jsem se rychle zotavil.</p>
+					<p>Dne <date when="1945-05-18">18. května 1945</date> vrátil jsem se do <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName>. Z mého vzdálenějšího příbuzenstva se nikdo nevrátil. Jsem jediný žijící v naší rodině, jejíž členové zůstali v Evropě.</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>, <date when="1945-08-16">16. VIII. 1945</date>
+						<persName ref="#ehri_et_abeles_karel">Karel Abeles</persName></p>
+					<p>Protokol přijala: </p>
+					<p>
+						<persName ref="#ehri_et_kratkova_marta">Marta Kratková</persName>
+					</p>
+					<p><persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName> Podpisy svědků</p>
+					<p>
+						<persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName>
+					</p>
+					<p>
+						<persName ref="#ehri_et_ehrmannova_alice_renata">Alice Ehrmannová</persName>
+					</p>
+					<p>Za archiv:<persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName></p>
+					<p><date when="1945-08-18">18. 8. 1945</date></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP012_01.jpg" n="1"/>
+					<p rend="center">
+						<hi rend="letter-spacing: +2px">Statement</hi>
+					</p>
+					<p>Written with <persName ref="#ehri_et_abeles_karel">Karel <hi rend="letter-spacing: +2px">Abeles</hi></persName>, born <date when="1926-02-04">4. 2. 1926</date>, former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">prisoner</term> of the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodz</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Auschwitz</placeName>, and <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570"
+							>Mauthausen</placeName>, currently residing in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague XIII., Ruská</placeName> 934, Jewish nationality, profession <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1214" type="subject"
+							>student</term>.</p>
+					<p>I was born in <placeName ref="http://www.geonames.org/3064288/teplice.html ">Tepl.Šanov</placeName>, where I lived with my <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142942-max-abeles/" type="victim">father</persName>, <persName
+							ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/" type="victim">mother</persName>, and older <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142947-hanus-abeles/" type="victim">brother</persName> until the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1041" type="subject">Sudetenland was annexed</term>. From <date when="1938-10">October 1938</date> until <date when="1941-10">October 1941</date> we lived in <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>. That month, Jews were required to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-647" type="subject">register</term> and the first <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transports</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> took place. Our entire family left on the third <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">transport</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodz</placeName>. It happened like this: we received a <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-151" type="subject">summons</term> from the <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Jewish Community</orgName> to come to the <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Trade Fair Palace</placeName> in  <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> on <date when="1941-10-23">October 23rd, 1941</date>, with a luggage limit of 50 kilograms per person. Our
+						carrier brought our luggage, which was labelled with our number. After all of the formalities had been dealt with (handing over the keys to our apartment, and all of our gold, silver, etc.), our citizenship cards were stamped with <q><foreign xml:lang="de">Evakuiert</foreign>
+							<date when="1941-10-26">26. 10. 1941</date>.</q> We marched past <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+						<foreign xml:lang="de">Grupenführer</foreign> Fidler, who took away all of our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">musical</term> instruments and any luggage that looked fancy. At 6 o’clock in the morning, we boarded a passenger
+						train that departed from the  <placeName ref="http://www.geonames.org/3078526/bubenec.html">Bubeneč</placeName> train station at 1 o’clock in the afternoon. It traveled along a strange route through <placeName ref="http://www.geonames.org/2935022/dresden.html"
+							>Dresden</placeName>, <placeName ref="http://www.geonames.org/2918987/goerlitz.html">Görlitz</placeName>, <placeName ref="http://www.geonames.org/3093692/legnica.html">Liegnitz</placeName>, <placeName ref="http://www.geonames.org/3081368/wroclaw.html"
+							>Vratislav</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodz</placeName>. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> accompanied us on this journey. The train ride lasted 32 hours, and
+						we were given water only once. We got out on some sort of provisional platform. We later learned that this was <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodz</placeName>. The Jewish police was waiting for us on the ramp, and it split us into
+						groups and took us to an empty school <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">building</term>. There, 136 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">people</term> were stuffed into a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> measuring 6x6 meters. Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">living</term> conditions improved, and thereafter 78 people would stay in
+						this room. We slept on the floor. I soon became <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">angina</term>. Right after I got better, my
+							<persName ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/">mother</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">came down with</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">pneumonia</term>. Because the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">hospitals</term> were too full, she had to lie on the floor while she was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>. The rainy autumn weather, the abnormal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">accommodations</term>, and the overcrowded <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">living</term> conditions produced a lot filth and made many people <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>. After three weeks, we were all
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-213" type="subject">lice-infested</term> and there was practically nothing we could do to prevent it.</p>
+					<p>We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ate</term> the last of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">food</term> we brought with us and then went hungry. We received 20 decagrams of
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> and one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term> per day. The <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-866" type="subject">Polish Jews</term> didn’t help us, not a bit. We didn’t get the fuel for heating that we were allotted and received less and worse kinds of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">potatoes</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vegetables</term> than they did. We were forced to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> hard at night during the winter, and as a consequence my <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142942-max-abeles/" type="victim">father</persName> became <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term> with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">phlegmon</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+							type="subject">died</term> of exhaustion on <date when="1942-03-05">5. 3. 1942</date>. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> as a blacksmith and my <persName
+							ref="http://www.holocaust.cz/databaze-obeti/obet/142947-hanus-abeles/" type="victim">brother</persName> as a leatherworker. At the beginning of <date when="1942">1942</date>, there were mass deportations from the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName>, which emptied many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">apartments</term>, and the <q>collectives</q> were gradually shut down. In <date
+							when="1942-06">June 1942</date>, we were given an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">apartment</term>. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">contracted</term> a bad case of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">hepatitis</term> and I became severely weak. When I got better, I was assigned easier <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in a factory
+						that manufactured wooden products. In <date when="1942-08">August 1942</date>, 25,000 Jews from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName> were sent to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499"
+							type="subject">gas chambers</term>. My <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/" type="victim">mother</persName> was also supposed to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject"
+							>transported</term>, but I bribed the Jewish police, and so I managed to free my <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142950-vilemina-abelesova/" type="victim">mother</persName>. But her mental and physical condition was very poor at the time, and
+						she <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> on <date when="1942-10-12">12. 10. 1942</date>. My <persName ref="http://www.holocaust.cz/databaze-obeti/obet/142947-hanus-abeles/" type="victim">brother</persName>, who at the
+						same time was tied to a bed with serious <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">tuberculosis</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> after having suffered greatly on <date
+							when="1942-11-19">19. 11. 1942</date>. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-746" type="subject">buried</term> the 3 closest and dearest people to me according to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-756"
+							type="subject">Jewish funeral custom</term>.</p>
+					<p>This was a very difficult time for me. After an 11 hour <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> shift, I had to wash my own laundry, cook my own meals, and, worse, do my own shopping. I sold everything that I had, I earned
+						my living, and that’s how I supported myself. In the autumn of <date when="1943">1943</date> we were given permission to send <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">parcels</term> to the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName>. I received a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-716" type="subject">parcel</term> from my friend <persName
+							ref="http://www.holocaust.cz/databaze-obeti/obet/116278-jindrich-prossnitz/" type="victim">Heinz Prossnitz</persName> from <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> every week, which elevated my spirits as well as made me feel good
+						physically. The liquidation of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName> began in <date when="1944-05">May 1944</date>, since the front was advancing. But we didn’t know that the line of attack stopped at <placeName
+							ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>. Because we believed that the <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583" type="subject">Red Army</term> would arrive soon, we ignored the order to leave the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hid</term>. Neither machine guns, nor <pb facs="EHRI-ET-JMP012_02.jpg" n="2"/> any other harsh measures
+						against us couldn’t force us to leave the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">ghetto</placeName>. We were terribly hungry and this forced us to report ourselves for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+							type="subject">transport</term>. On <date when="1944-06-22">June 22nd, 1944</date>, we left <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-513">Lodz</placeName> in a cattle car, destination unknown. The next morning, we arrived at a place where the
+						first thing we saw were giant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">chimneys</term> with tall flames shooting up from them. We were <q>greeted</q> by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject"
+							>prisoners</term> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">prison</term> garb and when I asked them what is being produced in the factories, they replied with ironic smiles: <q>chocolate</q>. I didn’t believe that, but I had no
+						idea that hundreds of thousands of our fathers, mothers, and children were being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-501" type="subject">burnt</term> in them. We were in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2">Birkenau
+							near Auschwitz</placeName>. After the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selection</term> process, we were sent to work as expert mechanics and dismantled airplanes that had been shot down. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Camp</term> life, as has often been described, set in. I witnessed terrible things. <placeName ref="http://www.geonames.org/3057568/slovak-republic.html 81">Hungarian</placeName>, <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-865" type="subject">Slovak</term>, and <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">Theresienstadt transports</term> arrived. This lasted until <date
+							when="1945-01">January 1945</date>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583" type="subject">Russians</term> once again attacked near <placeName ref="http://www.geonames.org/3094802/krakow.html">Krakow</placeName> and threatened <placeName
+							ref="http://www.geonames.org/3082777/upper-silesia.html">Upper Silesia</placeName>. We were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term> on <date when="1945-01-18">January 18th</date>. The train connection didn’t exist
+						any longer and so we set out in wooden shoes with blankets and one loaf of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> for the journey. We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject"
+							>walked</term> all night and day and our strength disappeared. The only thing we had left was our will and the hope of being <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberated</term> soon. Hundreds of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> bodies of those who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marched</term> before us and had already <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> lay at the edge of the roads. Finally, on the fourth day, we boarded a train somewhere near <placeName ref="http://www.geonames.org/3096472/katowice.html">Katowice</placeName>. They
+						squeezed 120 of us into one open car and, without giving us anything to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term>, we rode for 4 days and 4 nights. We were numb, like animals. In <placeName
+							ref="http://www.geonames.org/3070328/moravska-ostrava.html">Mor. Ostrava</placeName> and <placeName ref="http://www.geonames.org/3067580/prerov.html">Přerov</placeName>, the inhabitants gave us some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">food</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> shot at them, but this didn’t stop them and they helped us however they could. On <date when="1945-01-27">27. 1. 1945</date>, our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">death</term> transport ended in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570">Mauthausen</placeName> near <placeName ref="http://www.geonames.org/2772400/linz.html"
+							>Linz</placeName>. Without getting anything to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">eat</term>, they sent us off to the hot showers and then they made us run naked and wet into an ice storm. We waited for hours until they let
+						us into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">block</term>. There were 1,200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">people</term> in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">building</term>. I didn’t sleep for 4 weeks. The Czechs there stuck together and helped us get <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>
+						whenever possible. In <date when="1945-02">February 1945</date>, I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transported</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-585">Gusen</placeName>. This was
+						the worst I have ever suffered. We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in the underground Messerschmitt airplane factory under terrible <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831"
+							type="subject">conditions</term>: not enough <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, little sleep, dirt, back-breaking and long <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>labor</term>, bad air, beatings, and cold. I don’t need to go into the details, just the fact that in 3 months the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term> had to take up a whole new <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workforce</term> because the previous one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> a <q>natural</q>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> is enough. This means that in each block, which had 800 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">people</term>, an average of 10 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">prisoners</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> every day. When I was at my worst, when my strength was starting to leave me, we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject"
+							>liberated</term>: on <date when="1945-05-05">May 5th</date> the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1029" type="subject">Americans</term> disarmed our guards and all of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650"
+							type="subject">prisoners</term> left the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">camp</term>. I found shelter in the Czech civilian <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labor
+							camp</term> in <placeName ref="http://www.geonames.org/2772400/linz.html">Linz</placeName>, where I quickly recovered.</p>
+					<p>On <date when="1945-05-18">May 18th, 1945</date>, I returned to <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>. None of my relatives returned. I am the only living member from the part of my family that remained in Europe.</p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">In Prague</placeName>, on <date when="1945-08-16">16. VIII. 1945</date>
+						<persName ref="#ehri_et_abeles_karel">Karel Abeles</persName></p>
+					<p>Statement was accepted by:</p>
+					<p>
+						<persName ref="#ehri_et_kratkova_marta">Marta Kratková</persName>
+					</p>
+					<p><persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName></p>
+					<p>Signatures of witnesses</p>
+					<p>
+						<persName ref="#ehri_et_weinberger_robert">Robert Weinberger</persName>
+					</p>
+					<p>
+						<persName ref="#ehri_et_ehrmannova_alice_renata">Alice Ehrmannová</persName>
+					</p>
+					<p>On behalf of the archive: <persName ref="#ehri_et_schmiedt_alexander">Alex. Schmiedt</persName></p>
+					<p><date when="1945-08-18">18. 8. 1945</date></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

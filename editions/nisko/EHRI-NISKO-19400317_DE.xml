@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19400317_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400317_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,56 +8,63 @@
 				<title xml:lang="en">“Nisko-Wiener” in Lviv to the IKG Vienna regarding exit options</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
-							Wien</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>A/W 2747</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1940-03-17">17. März 1940</date>
+			<creation><origDate when="1940-03-17">17. März 1940</origDate>
 				<persName ref="#ehri_nisko_gruenwald_alexander">Alexander Grünwald</persName>
-				<placeName ref="#lviv">Lemberg</placeName><idno>EHRI-NISKO-19400317</idno>
+				<origPlace ref="http://www.geonames.org/702550/lviv.html">Lemberg</origPlace>
 			</creation>
 			<textClass>
 				<keywords>
@@ -69,33 +76,35 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>Wir beziehen uns auf unsere beiden Telegramme an Sie und hoffen, daß unserem heutigen Schreiben nicht dasselbe Schicksal zuteil
-					wird wie diesen und Sie eine Antwort geben werden.</p>
-				<p>Die hiesige Behörde erlaubt den <term ref="#t302" type="subject">Emigranten</term> in anerkennungswerter Weise die Annahme von
-						<term ref="#t943" type="subject">Arbeit</term>, doch kommt mangels Kenntnis der Sprache nur schwerste <term ref="#t943"
-						type="subject">Hilfsarbeit</term> in Frage und diese können wir in unserer heutigen Verfassung bei bestem Willen nicht
-					leisten. Wir können es nicht unterlassen Ihnen mitzuteilen, daß unsere Lage derart geworden ist, daß dringende <term
-						ref="https://portal.ehri-project.eu/ehri_terms-296" type="subject">Hilfe</term> unbedingt geschaffen werden muß. Wir haben
-					schon so viele Verluste aus unseren Reihen zu beklagen und sehen mit Bangen der allernächsten Zeit entgegen, da weitere <term
-						ref="#t745" type="subject">Verluste an Menschenleben</term> bereits sicher geworden sind. Durch körperliche und seelische
-					Strapazen vollkommen heruntergekommen – bar aller Mittel und Kleider – wissen wir nicht wie wir die nächsten Tage überstehen
-					sollen.</p>
-				<p>Wir wenden uns daher mit einem neuerlichen Appell an Sie, uns irgend eine <term ref="#t203" type="subject"
-						>Einreisemöglichkeit</term> zu schaffen, da nur auf Grund einer solchen die hiesige Behörde eine <term ref="#t203"
-						type="subject">Ausreise</term> bewilligt. Ein Großteil unserer Leute hat <term ref="#t1146" type="subject">Affidavits</term>
-					und damit sofortige <term ref="#t203" type="subject">Weiterreisemöglichkeit</term>, doch besteht hier keine Gelegenheit vor einem
-					amerik. Konsulat wegen Erhalt eines <term ref="#t1146" type="subject">Visums</term> zu erscheinen.</p>
-				<p>Bei etwas gutem Willen wird und muß es Ihnen gelingen für uns Rettung zu schaffen, die nur dann Sinn hat, wenn sie sofort gefunden
-					wird.</p>
-				<p>Für die <placeName ref="#nisko">Nisko</placeName>-<placeName ref="#vienna">Wiener</placeName></p>
-				<p><persName ref="#ehri_nisko_gruenwald_alexander">Grünwald</persName></p>
-				<p>Anschrift</p>
-				<p><persName ref="#ehri_nisko_jellinek_siegfried">Siegfried Jellinek</persName></p>
-				<p><placeName ref="#lviv">Lwow</placeName> Steczowskiego 3</p>
+				<div type="original" xml:lang="de">
+					<p>Wir beziehen uns auf unsere beiden Telegramme an Sie und hoffen, daß unserem heutigen Schreiben nicht dasselbe Schicksal zuteil wird wie diesen und Sie eine Antwort geben werden.</p>
+					<p>Die hiesige Behörde erlaubt den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> in anerkennungswerter Weise die Annahme von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term>, doch
+						kommt mangels Kenntnis der Sprache nur schwerste <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Hilfsarbeit</term> in Frage und diese können wir in unserer heutigen Verfassung bei bestem Willen nicht leisten. Wir können es nicht unterlassen
+						Ihnen mitzuteilen, daß unsere Lage derart geworden ist, daß dringende <term ref="https://portal.ehri-project.eu/ehri_terms-296" type="subject">Hilfe</term> unbedingt geschaffen werden muß. Wir haben schon so viele Verluste aus unseren Reihen zu beklagen und sehen mit Bangen
+						der allernächsten Zeit entgegen, da weitere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Verluste an Menschenleben</term> bereits sicher geworden sind. Durch körperliche und seelische Strapazen vollkommen heruntergekommen – bar aller
+						Mittel und Kleider – wissen wir nicht wie wir die nächsten Tage überstehen sollen.</p>
+					<p>Wir wenden uns daher mit einem neuerlichen Appell an Sie, uns irgend eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Einreisemöglichkeit</term> zu schaffen, da nur auf Grund einer solchen die hiesige Behörde eine <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Ausreise</term> bewilligt. Ein Großteil unserer Leute hat <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject">Affidavits</term> und damit sofortige <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Weiterreisemöglichkeit</term>, doch besteht hier keine Gelegenheit vor einem amerik. Konsulat wegen Erhalt eines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1146" type="subject"
+							>Visums</term> zu erscheinen.</p>
+					<p>Bei etwas gutem Willen wird und muß es Ihnen gelingen für uns Rettung zu schaffen, die nur dann Sinn hat, wenn sie sofort gefunden wird.</p>
+					<p>Für die <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName>-<placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName></p>
+					<p><persName ref="#ehri_nisko_gruenwald_alexander">Grünwald</persName></p>
+					<p>Anschrift</p>
+					<p><persName ref="#ehri_nisko_jellinek_siegfried">Siegfried Jellinek</persName></p>
+					<p><placeName ref="http://www.geonames.org/702550/lviv.html">Lwow</placeName> Steczowskiego 3</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

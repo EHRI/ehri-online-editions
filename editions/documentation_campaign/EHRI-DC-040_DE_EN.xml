@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-040_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">František Fischhof, on observing Jewish rites in Kaufering</title>
+				<title xml:lang="de">František Fischhof über die Einhaltung jüdischer Riten in Kaufering</title>
+				<title xml:lang="cs">Františka Fischhofa, o dodržování židovských obřadů v Kauferingu</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="de">Original in German.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945-10-17">17. X. 1945</origDate>, <origPlace ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kaufering</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-724" type="subject">Religion and faith</term>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-756" type="subject">Judaism</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Brief report by František Fischhof on observing Jewish rites in Kaufering.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-DC-040_01.png" n="1"/>
+					<p>Protokoll</p>
+					<p>aufgenommen mit Herrn <persName ref="#ehri_dc_fischhof_frantisek">Franz Fischhof</persName></p>
+					<p>geb am: <date when="1898-01-13">13. I. 1898</date></p>
+					<p>in: <placeName ref="http://www.geonames.org/716935/nyiregyhaza.html">Satmar</placeName></p>
+					<p>wohnhaft in: <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName> VII., <placeName ref="https://www.geonames.org/3067696/prague.html">U Smaltovny</placeName> 27.</p>
+					<p>gewesener <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftling</term>: <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauferring 4</placeName> und <placeName
+							ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Ottilien</placeName>.</p>
+					<p>Herr <persName ref="#ehri_dc_fischhof_frantisek">Fischhof</persName> gibt an, dass er bestrebt war, die im Block des <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Lagers</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauferring 4</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">verstorbenen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Männer</term> nach streng jüdischem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Brauch</term> zu reinigen /<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Taharot</term>/. Auch wurde täglich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Minian</term> gemacht und die Jahrzeiten [sic!] der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Alt - Neusynagoge</term> abgehalten. So wurde also die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Alt - Neusynagoge</term>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Al - Tanai</term></q> auch im <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">KZ</placeName> verwirklicht.</p>
+					<p><persName ref="#ehri_dc_fischhof_frantisek">Fischhof</persName></p>
+					<p>eigenhändige Unterschrift </p>
+					<p>Protokoll aufgenommen:</p>
+					<p><persName ref="#ehri_dc_fischerova_marta">Marta Fischerová</persName></p>
+					<p>Unterschrift der Zeugen:</p>
+					<p>Für die <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentationsaktion</term>:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Für das Archiv: <date when="1945-10-17">17. X. 1945</date></p>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-040_01.png" n="1"/>
+					<p>Protocol</p>
+					<p>recorded with Mr. <persName ref="#ehri_dc_fischhof_frantisek">Franz Fischhof</persName></p>
+					<p>born on: <date when="1898-01-13">13. I. 1898</date></p>
+					<p>in: <placeName ref="http://www.geonames.org/716935/nyiregyhaza.html">Satmar</placeName></p>
+					<p>living in: <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName> VII., <placeName ref="https://www.geonames.org/3067696/prague.html">U Smaltovny</placeName> 27.</p>
+					<p>former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmate</term>: <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauferring 4</placeName> and <placeName
+							ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Ottilien</placeName>.</p>
+					<p>Mr. <persName ref="#ehri_dc_fischhof_frantisek">Fischhof</persName> states that he endeavored to cleanse the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">men</term> who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+							type="subject">died</term> in his block of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">camp</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauferring 4</placeName> according to strict Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">customs</term> /<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Taharot</term>/. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Minian</term> were also assembled daily and the anniversaries of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old - New Synagogue</term> were observed. Thus, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old - New Synagogue</term>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Al - Tanai</term></q> was also realized in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">concentration camp</placeName>.</p>
+					<p><persName ref="#ehri_dc_fischhof_frantisek">Fischhof</persName></p>
+					<p>personal signature</p>
+					<p>Recorded by:</p>
+					<p><persName ref="#ehri_dc_fischerova_marta">Marta Fischerová</persName></p>
+					<p>Signature of the witnesses:</p>
+					<p>For the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>For the archive: <date when="1945-10-17">17. X. 1945</date></p>
+					<p><persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

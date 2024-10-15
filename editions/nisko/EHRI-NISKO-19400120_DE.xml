@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19400120_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400120_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,59 +8,63 @@
 				<title xml:lang="en">Letter from Leo Quittner from Nisko to his cousin Julius Deutelbaum in Slovakia</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/sk">Slowakei</country>
-						<repository ref="https://portal.ehri-project.eu/units/us-005578-irn78788"> United States Holocaust Memorial Museum
-							(USHMM)</repository>
-						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn78788">Ústredná kancelária autonómnych ortodoxných
-							židovských náboženských obcí, ŽNO (Zentralkanzlei der autonomen orthodoxen jüdischen Kultusgemeinde, ŽNO)</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005578">United States Holocaust Memorial Museum (USHMM)</orgName><address>
+								<street>100 Raoul Wallenberg Place, S.W.</street>
+								<postCode>DC 20024-2126</postCode>
+								<settlement>Washington</settlement>
+								<country ref="us">United States of America</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/us-005578-irn78788">Ústredná kancelária autonómnych ortodoxných židovských náboženských obcí, ŽNO (Zentralkanzlei der autonomen orthodoxen jüdischen Kultusgemeinde, ŽNO)</collection>
 						<idno>RG-57.016, Ordner 66, 418</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>United States Holocaust Memeorial Museum (USHMM), Ústredná kancelária autonómnych ortodoxných židovských náboženských obcí
-					(ŽNO), RG-57.016, Ordner 66, 418. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				<bibl>United States Holocaust Memeorial Museum (USHMM), Ústredná kancelária autonómnych ortodoxných židovských náboženských obcí (ŽNO), RG-57.016, Ordner 66, 418. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1940-01-20">20.01.1940</date>
-				<idno>EHRI-NISKO-19400120</idno>
+				<origDate when="1940-01-20">20.01.1940</origDate>
 			</creation>
 			<textClass>
 				<keywords>
@@ -72,33 +76,36 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="EHRI-NISKO-19390120_01.jpg" n="1"/>
-				<p><placeName ref="#nisko">Nisko</placeName>
-					<date when="1940-01-20">20.I.1940</date>.</p>
-				<p> </p>
-				<p>Lieber Cousin!</p>
-				<p> </p>
-				<p>Du wirst sehr erstaunt sein von mir heute Post zu bekommen. Ich befinde mich hier in <placeName ref="#republic-of-poland"
-						>Polen</placeName> in einem <term ref="#t567" type="subject">Umschulungslager</term>. Bitte sei mir nicht böse, wenn ich heute
-					mit einer dringenden Bitte an Dich herantrete. Ich könnte von hier in die <placeName ref="#slovak-republic">Slovakei</placeName>
-					kommen, wenn Du mir die <term ref="#t203" type="subject">Einreise</term> verschaffen möchtest. Ich habe viele Kollegen, die von
-					ihren Verwandten in die <placeName ref="#slovak-republic">Slovakei</placeName> angefordert werden. Du brauchst für mich nicht
-					sorgen, ich bringe mich dann schon durch, auch bekomme ich dann von dem Hilfsverein <orgName ref="#ehri_nisko_joint"
-						>Joint</orgName> 50 Pfund. Bitte sei so lieb und erledige mir die Einreise, es ist sehr dringend........... Meine Eltern <note
-						place="bottom" type="gloss">Helene (Ilona) Quittner, geb. am 13. März 1878, und Julius (Gyula) Quittner, geb. am 7. Juni 1866,
-						lebten vor dem "Anschluss" 1938 in der Geibelgasse 17 in Wien, später in die Talgasse 8. Sie wurden am 26. Februar 1941
-						gemeinam mit ihrem Sohn Leo von Wien nach Opole deportiert. Helene und Julius Quittner kamen im Holocaust um.</note>sind noch
-					in <placeName ref="#vienna">Wien</placeName>. Gehe auch zur <orgName ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName> und zeige
-					diese Karte, bitte bringe auch alle anderen Verwandten von uns in Kenntnis. Ich bin schon seit <date when="1939-11-01">1.
-						Nov.</date> hier./.............</p>
-				<p> </p>
-				<p>Dein Cousin: <persName ref="#ehri_nisko_quittner_leo">Leo Quittner</persName></p>
-				<p> </p>
-				<p> </p>
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-NISKO-19390120_01.jpg" n="1"/>
+					<p><placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName>
+						<date when="1940-01-20">20.I.1940</date>.</p>
+					<p> </p>
+					<p>Lieber Cousin!</p>
+					<p> </p>
+					<p>Du wirst sehr erstaunt sein von mir heute Post zu bekommen. Ich befinde mich hier in <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polen</placeName> in einem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+							>Umschulungslager</term>. Bitte sei mir nicht böse, wenn ich heute mit einer dringenden Bitte an Dich herantrete. Ich könnte von hier in die <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakei</placeName> kommen, wenn Du mir die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">Einreise</term> verschaffen möchtest. Ich habe viele Kollegen, die von ihren Verwandten in die <placeName ref="http://www.geonames.org/3057568/slovak-republic.html">Slovakei</placeName>
+						angefordert werden. Du brauchst für mich nicht sorgen, ich bringe mich dann schon durch, auch bekomme ich dann von dem Hilfsverein <orgName ref="#ehri_nisko_joint">Joint</orgName> 50 Pfund. Bitte sei so lieb und erledige mir die Einreise, es ist sehr dringend........... Meine
+						Eltern <note place="bottom" type="gloss">Helene (Ilona) Quittner, geb. am 13. März 1878, und Julius (Gyula) Quittner, geb. am 7. Juni 1866, lebten vor dem "Anschluss" 1938 in der Geibelgasse 17 in Wien, später in die Talgasse 8. Sie wurden am 26. Februar 1941 gemeinam mit
+							ihrem Sohn Leo von Wien nach Opole deportiert. Helene und Julius Quittner kamen im Holocaust um.</note>sind noch in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>. Gehe auch zur <orgName ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName>
+						und zeige diese Karte, bitte bringe auch alle anderen Verwandten von uns in Kenntnis. Ich bin schon seit <date when="1939-11-01">1. Nov.</date> hier./.............</p>
+					<p> </p>
+					<p>Dein Cousin: <persName ref="#ehri_nisko_quittner_leo">Leo Quittner</persName></p>
+					<p> </p>
+					<p> </p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

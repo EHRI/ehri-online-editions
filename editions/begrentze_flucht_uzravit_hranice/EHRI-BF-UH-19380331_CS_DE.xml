@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19380331_CS_DE" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="cs">Československé ministerstvo vnitra o vyhánění rakouských Židů do Československa</title>
+				<title xml:lang="de">Tschechoslowakisches Innenministeriums über die Vertreibung österreichischer Jüdinnen und Juden über die tschechoslowakische Grenze</title>
+				<title xml:lang="en">The Czechoslovak Ministry of the Interior on the expulsion of Austrian Jews to Czechoslovakia</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Hranice útěku. Rakouští uprchlíci na československých hranicích v roce 1938 </orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</orgName><address>
+								<street>Archivní 2257/4</street>
+								<postCode>149 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+						<idno>Sign. 225-1186-16, Fol. 41-42</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-16, Fol. 41-42. <textLang mainLang="cs">Originál česky.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-03-31">31. března 1938</origDate>
+				<origPlace>Praha</origPlace>
+				<orgName>Ministerstvo vnitra v Praze</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>úřední dokumenty</term>
+				</keywords>
+				<catRef target="fluechtlingspolitik/burgenland"/>
+			</textClass>
+			<langUsage>
+				<language ident="cs">česky</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-UH-19380331_1.jpg" n="1"/>
+					<!-- <p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+          >Ministerstvo vnitra</term>.</p>      <p>Odd. A.</p>      <p>Č. 245/38.</p>-->
+					<p>Věc: <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouští</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">židovští uprchlíci</term> - pokus o jejich přepravu do <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>.</p>
+					<p>Dne <date when="1938-03-31">31. března 1938</date> o 14 hod. upozornil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1004" type="subject">posl.</term>
+						<persName ref="#ehri_bf_klein">Klein</persName>, že na hranici <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">československo</placeName>-<placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouské</placeName> u <placeName
+							ref="http://www.geonames.org/3060972/bratislava.html">Bratislavy</placeName> v pohraniční stanici <placeName ref="http://www.geonames.org/10291382/berg.html">Berg</placeName> jsou na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+							>československém</placeName> území deložováni <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">židovští uprchlíci</term> vyhoštění z <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouska</placeName>, jejichž
+						stav jest beznadějný a žádal za vyšetření a podle možnosti za ochranu pro ně.</p>
+					<p><orgName ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Presidium zemského úřadu</orgName> v <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavě</placeName>, jemuž bylo uloženo věc vyšetřiti, podalo dne <date when="1938-04-01">1. dubna
+							1938</date> o 9 hod. dopolední (u telefonu oficiál <persName ref="#ehri_bf_francik">Frančik</persName>) tuto zprávu:</p>
+					<p>"Dne <date when="1938-03-30">30. března 1938</date> l 17.50 hod. bylo na <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouskou</placeName> pasovou kontrolu v <placeName ref="http://www.geonames.org/2781897/berg.html">Bergu</placeName> dopraveno
+						autokarem a nákladním autem asi 40 osob <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouské</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">státní příslušnosti</term> a židovského původu (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>), pocházejících z <placeName ref="http://www.geonames.org/2779324/frauenkirchen.html"
+							>Frauenkirchen v Burgenlandu</placeName>. Motorová vozidla zůstala s nimi státi na <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouském</placeName> celním úřadě v <placeName ref="http://www.geonames.org/2781897/berg.html">Bergu</placeName>.
+						Zároveň s těmito osobami přijel osobním nájemním autem značky S-371 <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čsl</placeName>. státní příslušník <persName ref="#ehri_bf_haberfeld_pavel">Pavel Haberfeld</persName>, nar. <date when="1911-01-13">13.
+							ledna 1911</date> v <placeName ref="http://www.geonames.org/3058202/piestany.html">Piešťanech</placeName>, příslušný do <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavy</placeName> a bytem v <placeName
+							ref="http://www.geonames.org/3060972/bratislava.html">Bratislavě</placeName>, <placeName>Štefanovičova ul</placeName>. č. 6.</p>
+					<p><persName ref="#ehri_bf_haberfeld_pavel">Haberfeld</persName> přišel v průvodu <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouského</placeName> finančního orgánu na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+							>čsl</placeName>. pasovou kontrolní stanici v <placeName ref="http://www.geonames.org/10291382/berg.html">Bergu</placeName> a dožadoval se vpuštění všech uvedených <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">osob</term>, které prý
+						byly z <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouska</placeName> vykázány, do <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>. To bylo mu však odepřeno. <persName>Haberfeld</persName> se proto vrátil s
+							<placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouským</placeName> finančním orgánem zpět na území <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouské</placeName>.</p>
+					<p>Asi o 20 hod., rovněž dne <date when="1938-03-30">30. března 1938</date>, byly zmíněné a z <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouska</placeName> vykázané <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject"
+							>osoby</term> dopraveny <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouskými</placeName> finančními orgány na cestu vedoucí směrem ke <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName>, kde při jednom stohu v
+						po- <pb facs="EHRI-UH-19380331_2.jpg" n="2"/> li byly rozděleny do skupin po třech a tyto trojice měly býti dopraveny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegálně přes čsl. hranice</term> do <placeName
+							ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>. Jelikož <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čsl</placeName>. hranice jsou přísně střeženy, nebylo možno dotčené <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">osoby</term> k nám dopraviti, a proto k ránu na <date when="1938-03-31">31. března 1938</date> byly odvezeny na <placeName ref="http://www.geonames.org/719819/hungary.html">maďarské</placeName>
+						hranice, kde po částech je <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">rakouské</placeName> finanční orgány převedly do <placeName ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName>.</p>
+					<p>Zmíněných asi 40 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">osob</term> nachází se nyní na policejním komisařství v <placeName ref="http://www.geonames.org/3057792/rusovce.html">Orosváru v Maďarsku</placeName>.</p>
+					<p>Podle hlášení <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čsl.</placeName> pasové kontrolní stanice v <placeName ref="http://www.geonames.org/10291382/berg.html">Bergu</placeName> jest údajně v obci <placeName
+							ref="http://www.geonames.org/2769242/parndorf.html">Parndorf v Rakousku</placeName> připraven již další transport <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">osob židovského původu</term> k přepravení přes <placeName
+							ref="http://www.geonames.org/8505031/czechoslovakia.html">čsl.</placeName> hranice. V důsledku toho policejní ředitelství v <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavě</placeName> sesílilo stráž na státní hranici.</p>
+					<p><orgName ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110">Zemský úřad</orgName> v <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavě</placeName> uvědomil o věci státně policejní úřady v <placeName
+							ref="http://www.geonames.org/3057379/sturovo.html">Parkáni</placeName> a v <placeName ref="http://www.geonames.org/3059436/komarno.html">Komárně</placeName>, jakož i okresní úřady v <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislavě</placeName> a
+						v <placeName ref="http://www.geonames.org/3058897/malacky.html">Malackách</placeName> s pokynem, aby učinily přísná opatření by přestupu jmenovaných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">osob</term> přes hranice z <placeName
+							ref="http://www.geonames.org/719819/hungary.html">Maďarska</placeName> a z <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouska</placeName> bylo každým spůsobem zabráněno."</p>
+					<p>Dr. <persName ref="#ehri_bf_sp">Sp</persName>.</p>
+					<p><!-- <orgName>Presidiu ministerstva vnitra</orgName>.</p>      <p>Odděl. C</p>      <p>Odděl. 5</p>      <p><orgName>Ministerstvu zahraničních věcí</orgName>, politické sekci,
+          <placeName>Dejvice</placeName> - přímo.</p>      <p><orgName>Ministerstvu financí</orgName> (k rukám p. vrch. odbor. rady Dr.
+          <persName>Koukala</persName>).--></p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-BF-19380331_1.jpg" n="1"/>
+					<!-- <p><term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110"
+          >Ministerstvo vnitra</term>.</p>      <p>Odd. A.</p>      <p>Č. 245/38.</p>-->
+					<p>Betreff: <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreichische</placeName> jüdische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Flüchtlinge</term> – Versuch ihrer Beförderung in die <placeName
+							ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>.</p>
+					<p>Am <date when="1938-03-31">31. März 1938</date> um 14 Uhr machte Dienstmann <persName ref="#ehri_bf_klein">Klein</persName> darauf aufmerksam, dass sich an der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakisch</placeName>-<placeName
+							ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Grenze bei <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> in der Grenzstation <placeName ref="http://www.geonames.org/10291382/berg.html"
+							>Berg</placeName> auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischem</placeName> Gebiet aus <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> ausgewiesene, delogierte jüdische <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Flüchtlinge</term> befinden, deren Lage hoffnungslos ist, und beantragte Ermittlungen und nach Möglichkeit Schutz für sie.</p>
+					<p>Das <term ref="hhttps://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">Präsidium der Landesbehörde</term> in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName>, dem auferlegt wurde, die Sache zu untersuchen, erstattete am
+							<date when="1938-04-01">1. April 1938</date> um 9 Uhr vormittags (am Telefon Offizial <persName ref="#ehri_bf_francik">Frančik</persName>) folgenden Bericht:</p>
+					<p>“Am <date when="1938-03-30">30. März 1938</date> um 17.50 Uhr wurden etwa 40 Personen <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischer</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1149" type="subject">Staatsangehörigkeit</term> und jüdischer Herkunft (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Männer</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinder</term>), aus <placeName ref="http://www.geonames.org/2779324/frauenkirchen.html"
+							>Frauenkirchen im Burgenland</placeName> abstammend, mit einem Reisebus und einem Lieferwagen zur <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Passkontrolle in <placeName
+							ref="http://www.geonames.org/2781897/berg.html">Berg</placeName> befördert. Die Kraftfahrzeuge mit ihnen blieben bei der <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Zollbehörde in <placeName
+							ref="http://www.geonames.org/2781897/berg.html">Berg</placeName> stehen. Zur gleichen Zeit wie diese Personen traf in einem gemieteten Personenwagen mit dem Kennzeichen S-371 auch der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+							>tschechoslowakische</placeName> Staatsangehörige <persName ref="#ehri_bf_haberfeld_pavel">Pavel Haberfeld</persName> ein, geboren am <date when="1911-01-13">13. Januar 1911</date> in <placeName ref="http://www.geonames.org/3058202/piestany.html">Piešťany</placeName>,
+						heimatberechtigt in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> und wohnhaft in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName>, <placeName>Štefanovičova-Str.</placeName> Nr. 6.</p>
+					<p><persName ref="#ehri_bf_haberfeld_pavel">Haberfeld</persName> kam in Begleitung eines <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Finanzorgans zur <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+							>tschechoslowakischen</placeName> Passkontrollstation in <placeName ref="http://www.geonames.org/10291382/berg.html">Berg</placeName> und verlangte die Einlassung aller angeführten Personen, die angeblich aus <placeName
+							ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> ausgewiesen wurden, in die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName>. Dies wurde ihm jedoch verweigert. <persName
+							ref="#ehri_bf_haberfeld_pavel">Haberfeld</persName> und das <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichische</placeName> Finanzorgan kehrten deshalb auf <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+							>österreichisches</placeName> Gebiet zurück.</p>
+					<p>Etwa um 20 Uhr, ebenfalls am <date when="1938-03-30">30. März 1938</date>, wurden die erwähnten und aus <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> ausgewiesenen Personen von <placeName
+							ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Finanzorganen auf den Weg Richtung <placeName ref="http://www.geonames.org/2774348/kittsee.html">Kittsee</placeName> befördert, wo sie bei einem Schober im Feld<pb
+							facs="EHRI-BF-19380331_2.jpg" n="2"/> in Gruppen zu drei Personen aufgeteilt wurden. Diese Dreiergruppen sollten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-234" type="subject">illegal über die tschechoslowakische Grenze</term> in die <placeName
+							ref="http://www.geonames.org/8505031/czechoslovakia.html">ČSR</placeName> befördert werden. Weil die <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischen</placeName> Grenzen streng überwacht werden, war es nicht möglich, die besagten
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Personen</term> zu uns zu befördern, und deshalb wurden sie am <date when="1938-03-31">31. März 1938</date> gegen Morgen zur <placeName ref="http://www.geonames.org/719819/hungary.html"
+							>ungarischen</placeName> Grenze abtransportiert, wo sie die <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">österreichischen</placeName> Finanzorgane etappenweise nach <placeName ref="http://www.geonames.org/719819/hungary.html"
+							>Ungarn</placeName> überführten.</p>
+					<p>Die erwähnten etwa 40 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Personen</term> befinden sich derzeit auf dem Polizeikommissariat in <placeName ref="http://www.geonames.org/3057792/rusovce.html">Karlburg</placeName>.</p>
+					<p>Nach der Meldung der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischen</placeName> Passkontrollstation in <placeName ref="http://www.geonames.org/10291382/berg.html">Berg</placeName> steht in der Ortschaft <placeName
+							ref="http://www.geonames.org/2769242/parndorf.html">Pandorf in Österreich</placeName> angeblich bereits ein weiterer Transport von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Personen jüdischer Herkunft</term> zur Beförderung über die
+							<placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakische</placeName> Grenze bereit. Infolgedessen hat die Polizeidirektion in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> die Bewachung an der
+						Staatsgrenze verstärkt.</p>
+					<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">Landesbehörde</term> in <placeName ref="http://www.geonames.org/3060972/bratislava.html">Bratislava</placeName> hat die staatlichen Polizeibehörden in <placeName
+							ref="http://www.geonames.org/3057379/sturovo.html">Gockern</placeName> und in <placeName ref="http://www.geonames.org/3059436/komarno.html">Komorn</placeName>, sowie die Bezirksbehörden in <placeName ref="http://www.geonames.org/3060972/bratislava.html"
+							>Bratislava</placeName> und in <placeName ref="http://www.geonames.org/3058897/malacky.html">Malatzka</placeName> über die Angelegenheit verständigt und sie angewiesen, strenge Maßnahmen zu ergreifen um den Übertritt der genannten <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-101" type="subject">Personen</term> über die Grenze aus <placeName ref="http://www.geonames.org/719819/hungary.html">Ungarn</placeName> und aus <placeName
+							ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> in jedem Fall zu verhindern.“</p>
+					<p>Dr. <persName ref="#ehri_bf_sp">Sp.</persName></p>
+					<p><!-- <orgName>Presidiu ministerstva vnitra</orgName>.</p>      <p>Odděl. C</p>      <p>Odděl. 5</p>      <p><orgName>Ministerstvu zahraničních věcí</orgName>, politické sekci,
+          <placeName>Dejvice</placeName> - přímo.</p>      <p><orgName>Ministerstvu financí</orgName> (k rukám p. vrch. odbor. rady Dr.
+          <persName>Koukala</persName>).--></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

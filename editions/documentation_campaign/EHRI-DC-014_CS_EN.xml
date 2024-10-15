@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-014_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Valerie Straussová, the death of a group of Jewish women in Upper Silesia</title>
+				<title xml:lang="de">Valerie Straussová, der Tod einer Gruppe jüdischer Frauen in Oberschlesien</title>
+				<title xml:lang="cs">Valerie Straussová, smrt skupiny židovských žen v Horním Slezsku</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<persName ref="#ehri_dc_straussova_valerie">Valerie Straussová</persName>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>, <origDate when="1945-07-23">23. 7. 1945</origDate>, <origPlace
+					ref="https://portal.ehri-project.eu/keywords/ehri_camps-2858" type="camp">Schlesiersee</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Death marches</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Valerie Straussová was deported in autumn 1944 from the Terezín Ghetto to Auschwitz-Birkenau, where she was selected for forced labor and sent to Sława (Schlesiersee), a sub-camp of Gross-Rosen. At the end of January 1945, the camp was evacuated and she was forced on a death march
+					with other inmates, during which a number of prisoners froze to death. Near Łupice (Osweide), around forty inmates who were unable to continue marching were shot and buried in a mass grave. Straussová was also shot, but wasn’t fatally wounded. She escaped and fled to the village
+					of Wijewo, where she received help from the local inhabitants. Over time, she gave several testimonies, the first of which was for the Documentation campaign. She was also a witness at the trial of Karl Rahm, the former commander of the Terezín Ghetto. Her testimony was also used
+					in the Nuremberg trials.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-014_01.png" n="1"/>
+					<p>Protokol</p>
+					<p>sepsaný s <persName ref="#ehri_dc_straussova_valerie">Valerií Straussovou</persName>, roz. <persName ref="#ehri_dc_straussova_valerie">Kantorovou</persName>, nar. <date when="1907-06-25">25. 6. 1907</date>, bývalým <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněm</term> z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětím</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2858" type="camp">Schlesiersee</placeName>, t. č. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytem</term> v <placeName ref="http://www.geonames.org/8378780/praha-12.html"
+							>Praze</placeName> XII., v <placeName ref="http://www.geonames.org/8378780/praha-12.html">Horní stromce 5</placeName>.</p>
+					<p>Já podepsaná <persName ref="#ehri_dc_straussova_valerie">Valerie Straussová,</persName> roz. <persName ref="#ehri_dc_straussova_valerie">Kantorová</persName>, nar. <date when="1907-06-25">25. 6. 1907</date> ve <placeName ref="http://www.geonames.org/2761369/vienna.html"
+							>Vídni</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">dcera</term>
+						<persName ref="#ehri_dc_kantor_evzen">Evžena</persName> a <persName ref="#ehri_dc_kantorova_emilie">Emilie Kantorových</persName>, <placeName ref="http://www.geonames.org/3077311/czechia.html">československá</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">občanka</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytem</term> v <placeName ref="http://www.geonames.org/8378780/praha-12.html">Praze</placeName>
+						XII, v <placeName ref="http://www.geonames.org/8378780/praha-12.html">Horní stromce 5</placeName>. podávám po své návratu dne <date when="1945-07-13">13. července 1945</date> z různých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+							>koncentračních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term> toto pravdivé vylíčení svých osudů. Prohlašuji na svoji čest, že jsem nic nepřidala a nic nevymyslela.</p>
+					<p>Dne <date when="1942-02-12">12. 2. 1942</date> odjela jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term> do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetta</term> v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, kde jsem pobyla až do <date when="1944-10-04">4. 10. 1944</date>. V <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Terezíně</placeName> jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovala</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">galanterní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-549" type="subject">dílně</term>, jako uklízečka v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">komandatuře</term>, jako protokolantka v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">ambulanci</term> a byla jsem též na dvouměsíční <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">lesní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> v <placeName ref="https://www.geonames.org/3072699/krivoklat.html">Křivoklátě</placeName>. Můj <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+							>muž</term> byl v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">zaměstnán</term> jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">hudebník</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-546"
+							type="subject">kavárně</term>. Dne <date when="1944-09-28">28. září 1944</date> odjel z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term>. Řeklo se nám, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term> odjíždějí hodinu za <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> do <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německa</placeName>. O týden později jsem byla jako jeho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žena</term> povolána do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term> a odjela jsem v domněnce, že jedu za ním. Všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> se tlačily jako divé do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">vlaku</term> a každá byla šťastná, když se tam dostala. Jelo s námi též mnoho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>. Když jsme se blížili k
+							<placeName ref="http://www.geonames.org/2935022/dresden.html">Drážďanům</placeName>, chystali jsme se k vystupování. Jaké bylo však naše zklamání, když jsme <placeName ref="http://www.geonames.org/2935022/dresden.html">Drážďany</placeName> přejeli a viděli jsme, že jedeme
+						na východ. Jeli jsme místo jedné, dvacet čtyři hodiny, až jsme stanuli ve stanici <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětím</placeName>. Tam museli jsme vystoupiti bez zavazadel a hned před <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">vlakem</term> nastalo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">třídění</term>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+							type="subject">ženy</term> s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětmi</term> a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">staří</term> vpravo, my bezdětní vlevo. Tenkráte
+						jsme ještě nevěděli, co to znamená vpravo (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">plynová</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">komora</term>). Byly jsme odvedeny do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">umýváren</term>, kde nám byly odňaty všechny naše věci, které jsme měly na
+						sobě, byly jsme ostříhány do hola, odvedeny pod <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">sprchy</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">oblečeny</term> do starých <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">hadrů</term>. Potom nastal všem již dobře známý, nervy trhající v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračním</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táboře</term>. Po 5 dnech byly jsme znovu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">tříděny</term> a odvedeny k <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">vlaku</term>. Dostaly jsme potom lepší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">hadry</term> a byly jsme poslány na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> do <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německa</placeName>. Jely jsme do stanice <placeName
+							ref="http://www.geonames.org/3085637/slawa.html">Schlesiersee</placeName> v severovýchodním <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Slezsku</placeName>, nedaleko <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+							>polských</placeName> hranic. Ze stanice šly jsme asi 2 hodiny pěšky a byly jsme umístěny na dvou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">statcích</term> po 1.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825"
+							type="subject">ženách</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Ubytovaly</term> nás do dvou velkých <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stodol</term> na slámu. Hned příští den
+						ráno dostaly jsme lopaty a rýče a šly jsme kopat zákopy proti tankům, 3 ½ metrů hluboké. Pro nás <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> to byla velmi těžká <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídla</term> jsme dostávaly velmi málo, takže jsme záhy velmi zhubly. Koncem <date when="1944-10"
+							>října</date> najela mi jedna <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">dívka</term> při <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> trakařem na nohu. Měla jsem malou odřeninu,
+						které jsem nevěnovala pozornost. Za několik dnů mně však noha velmi rozbolela, opuchla a vznikla malá <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">flegmóna</term>. Tato se zhoršila a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařka</term> mi musela ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stodole</term> provést <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">operativní</term> zákrok. Vysoká <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">horečka</term> po incizi klesla, nemohla jsem však vůbec stoupnout na nohu a tři
+						neděle jsem lezla po čtyřech. Jakmile mi bylo trochu lépe, musela jsem na domácí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>. Loupala jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+							>brambory</term>. Ve 4 hodiny ráno jsem vstávala a do večera jsem musela loupat. Za dva dny jsem dostala 40 stupňů <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">horečky</term>, velké píchání na pravé straně na prsou, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">kašel</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">lékařka</term> konstatovala <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">zápal</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">plic</term>. Jelikož zábaly ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">studené</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stodole</term> nebyly možné a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">medikamentů</term> v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táboře</term> nebylo, byla jsem přenechaná osudu. Neměla jsem ležet. Seděla jsem tedy opřena o <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">ledovou</term> zeď
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stodoly</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatech</term>. (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">Pláště</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">boty</term> byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocným</term> odňaty pro zdravé) Přikrytá jsem byla erární
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">přikrývkou</term>. Po 10 dnech <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">zápal</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">plic</term> jako zázrakem zmizel, zato ale se zhoršila rána na noze, která velmi hnisala. Asi <date when="1945-01-10">10. ledna</date> byly <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocné</term> přestěhovány do rychle postaveného dřevěného <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráku</term>. Před stěhováním musely jsme odevzdati
+						vše, co jsme měly na sobě a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">umýti</term> se, abychom do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráku</term> nepřinesly <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">vši</term>, kterých jsme tehdy měly nadbytek. Do nového <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráku</term> šly jsme tedy úplně nahé a bylo nám slíbeno,
+						že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šaty</term> po <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">desinfekci</term> zase dostaneme. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Umytím</term> jsme se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">vší</term> ovšem nezbavily.</p>
+					<pb facs="EHRI-DC-014_02.png" n="2"/>
+					<p>V <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráku</term> to bylo už mnohem lepší. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Spaly</term> jsme na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">palandách</term> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">slamnících</term>, vždy dvě a dvě přikryté jednou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dekou</term>. Byla nám strašná <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">zima</term>. <date when="1945-01-22">22. ledna</date> jsme slyšely, že fronta je
+						vzdálená od nás jen 20 km. Mluvilo se o <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuaci</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Nemocné</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> mají zůstat v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táboře</term>. Byly jsme šťastná a doufaly jsme, že nás <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Rusové</placeName> brzy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobodí</term>. Těšily jsme se však příliš záhy. Asi v 7 h večer vešel <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německý</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">komandant</term> a nařídil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evakuaci</term> všech přítomných, i těžce <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term>. Situace byla zoufalá, protože jsme ležely všechny nahé. Nastala velká panika a každá se snažila opatřit si něco. Prosila jsem naši představenou o nějaké <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šaty</term>, ale marně. V poslední chvíli darovala mi jedna z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">ošetřovatelek</term> letní <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatečky</term>, které jsem navlékla na nahé tělo. Na nohy omotala jsem si kusy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pokrývky</term>, ačkoli to byla
+						sabotáž a šťastnou náhodou ulovila jsem 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pokrývky</term>. Jednu uvázala jsem si do pasu jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">sukni</term>,
+						druhou jsem si dala přes ramena. Dostala jsem taky <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dřeváky</term>. Mnoho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> šlo na boso a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">omrzly</term> jim nohy. Když jsme vešly na dvůr, držely jsme se sotva na nohou. Byl velký <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">mráz</term> a mnoho
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">sněhu</term>. Na cestě nám dali jeden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chléb</term>, který byl určen na 3 dny. Pak nás seřadili do 5stupů a
+						nastal <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pochod</term>. Nemohla jsem jít, protože jsem před tím ležela skoro 10 neděl, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> mně však stále
+						proháněl a hrozil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zastřelením</term>. Tak jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pochodovaly</term> celou noc až do příštího dne odpoledne. Na
+						cestě mnoho z nás <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřelo</term> nebo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zmrzlo</term>. Ve 3 hodiny příštího odpoledne přišly jsem k lesíku, 4 km
+						před <placeName ref="http://www.geonames.org/3092695/lupice.html">Ostweide</placeName>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Komandant</term> nařídil, všem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">nemocným</term>, aby si sedli, že brzy přijede pro ně z <placeName ref="http://www.geonames.org/3092695/lupice.html">Ostweide</placeName> vůz. Zdravé pokračovaly v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject"
+							>pochodu</term>. Usedla jsem na okraj lesa do příkopu a byla jsem ráda, že nemusím dále. Věřila jsem, že vůz přijede, ačkoliv jiné tvrdily, že se stane něco jiného. Zůstalo nás tam asi 40 a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject"
+							>lékařka</term>, která si zapsala naše jména. Měly jsme s sebou taky 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">mrtvoly</term>. Asi 60 m od kraje lesa kopali <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428"
+							>Schupo</orgName> nějakou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámu</term>. Domnívala jsem se, že je to pro naše 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">mrtvoly</term>. Když se však
+						setmělo a my jsme se už vzdaly, že vůz přijede, přiskočili 2 <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> k nám, chytli asi 6 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a hnali je
+						voláním <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeiten</term> – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeiten</term></q> k jámě. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Ženy</term> křičely a chtěly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">utéci</term>, v tom jsme však slyšely výstřely a pak ticho. Teď jsme věděly, že vůz
+						nikdy nepřijede a co nás čeká. Za chvíli přišli si <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> pro dalších 6 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">obětí</term>. Byla jsem ve 3. skupině.
+						Smířila jsem se s osudem a byla jsem naprosto klidná. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> přišel ke mně, chytl mně za rameno a řval: <q>Komm.</q> Řekla jsem mu: <q>Okamžik, dám jen <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chléb</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pokrývku</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">lékařce</term> pro druhé, vždyť to už nebudu potřebovat.</q> Odvětil mi, vida, že jsem zcela klidná: <q>To můžeš.</q> Šla jsem tedy k <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">lékařce</term>, poděkovala jsem jí za <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term>, kterou měla s mým vyléčením a předala jsem jí zbytek <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">pokrývku</term>. Šla jsem pak klidně se svým <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">vrahem</term> k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámě</term>. Tam leželo asi již 13 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">mrtvol</term>. Posadil několik <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> na vykopanou hlínu z <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term>, mně a dvěma <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženám</term> rozkázal, abychom se obrátily k němu zády. Nejdříve <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">zastřelil</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> u <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term> a pak přišla řada na nás. Stála jsem uprostřed. Byla krásná měsíční noc. Hleděla jsem
+						na měsíc a myslela jsem si: jaká škoda, že musím <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřít</term> a nikdo se nedozví, co se v těchto místech stalo. Teď teprve jsem chápala, jak je krásné žít, přesto všechno, co jsme již
+						prodělaly. V tom výstřel a moje sousedka vpravo se skácela k zemi. Druhý výstřel a ucítila jsem prudkou bolest v šíji na pravé straně. Skácela jsem se k zemi, ani na moment ale nepozbyla vědomí. Bylo mi divné, že nejsem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvá</term> a čekala jsem na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrt</term>. Za chvíli ale jsem poznala, že výstřel nebyl <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrtelný</term>. Cítila jsem, jak krev mi teče z rány a položila jsem ruku rychle pod šíji. To trvalo okamžik. Mezitím byla sousedka na levé straně již zastřelena. Dostala jsem strašný strach, že
+						budu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">zaživa</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">zakopána</term>. Slyšela jsem rozmluvu dvou střílejících <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName>, kteří stáli těsně za mnou. Jejich rozmluva byla
+						zajímavá. Jeden nás chtěl hodit ihned do jámy, druhý zase říkal, až budou všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">mrtvé</term>, až pak je <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject"
+							>lékařka</term> svlékne a hodí do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term>. <q>Těžce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocné</term>, které byly přivezeny na trakařích,
+								<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">umlátíme</term> pažbou na trakaři,</q> říkal jeden <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName>. Po této rozmluvě se vzdálili od <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term>, aby si od kraje lesa přivedli další <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">oběti</term>. Bez rozmyšlení jsem se obrátila a odlézala jsem po
+						všech čtyřech dále do lesa. Myslela jsem, že je lépe, když po mně střelí ještě jednou, najdou-li mě, je to lepší, než být <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">zahrabána</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">zaživa</term>. Byla jasná noc a nalézali jsme se ve vysokém lese, takže jsem se nemohla dobře <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">skrýt</term>.
+						Odlezla jsem jen několik metrů od <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">skryla</term> jsem se za strom. Teď teprve jsem byla rozčílená.
+						Viděla jsem, jak <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> žene k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámě</term> další <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>. Slyšela jsem výstřely a poznala jsem, že mě vůbec nepostrádají, ba mně ani nehledají. Slyšela jsem, jak dokončovali své</p>
+					<pb facs="EHRI-DC-014_03.png" n="3"/>
+					<p>dílo, jak <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> svlékali, házeli do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámu</term> zahazovali. Co se stalo s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">lékařkou</term> jsem nevěděla. Pak jsem asi <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">usnula</term>, protože jsem neviděla, jak odcházeli od <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámy</term>. Probudila jsem se a viděla jsem z dálky po
+						silnici jít <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> s trakaři, na kterých měli asi naložené <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šatstvo</term> po <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">zastřelených</term>. Věděla jsem, že jsem zachráněná. Vydala jsem se na cestu. Obešla jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">jámu</term> a přešla
+						státní silnici, která vede ze <placeName ref="http://www.geonames.org/3085637/slawa.html">Schlesiersee</placeName> do <placeName ref="http://www.geonames.org/3092695/lupice.html">Ostweide</placeName>. Odpoledne jsem pozorovala, že jezdí protější silnicí od lesa <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německé</placeName> tanky. Myslela jsem, že je tam fronta a že tam co nevidět potkám <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Rusy</placeName>. Dala jsem se tedy touto
+						silnicí. Šla jsem asi 10 minut, když jsem viděla na kraji silnice velkou hromadu slámy. Rozhrnula jsem slámu vlezla jsem do hromady a brzy jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">usnula</term>. Byla jsem vyčerpaná. Celou minulou
+						noc jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pochodovaly</term>, noha strašně bolela, k tomu ještě nová rána na šíji, která první den málo bolela. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+							>Spala</term> jsem až do rána, pak jsem se vydala na cestu. Šla jsem krásnými lesy, podle tankových kolejí a nikoho jsem nepotkávala. Byla jsem strašně unavená, bála jsem se ale sednout si do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818"
+							type="subject">sněhu</term>, abych <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">neusnula</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">neumrzla</term>. K večeru jsem našla rozbořenou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stodolu</term> se slámou, ve které jsem přenocovala. Ráno jsem šla dále a teprve k poledni došlo jsem úplně vyčerpaná do malé vísky. Šla jsem do prvního <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">domku</term> s prosbou, smím-li si tam odpočinout a ke své radosti jsem shledala, že jsem v <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polsku</placeName>. Dali mi
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term> a příští den se o mně postaral <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1006" type="subject">starosta</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Šaty</term>, které byly prosáklé krví jsme spálili a darovali mi teplé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">prádlo</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">šaty</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">přikrývky</term>. Dostala jsem přidělenou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">místnost</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">domě</term>, který <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Němci</placeName> opustili. <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polská</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">děvčata</term> mně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">zatopila</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">pokoji</term> a nosila mi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Lékaře</term> ve vesnici nebylo. Každý den chodila
+						ale ke mně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">ošetřovatelka</term>, která mi vyměňovala obvazy na noze a na šíji. Měla jsem velké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">bolesti</term>, v
+						noci jsem nemohla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">spát</term>. 5 dní po mém příchodu do vesnice, t. j. týden po mém poranění přišli <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Rusové</placeName> do
+						vesnice a byla jsem konečně úplně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobozena</term>. Týden později převezla mně <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">polská</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">ošetřovatelka</term> do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnice</term> ve <placeName ref="http://www.geonames.org/2806523/wolfstein.html"
+							>Wolsteině</placeName>. Měla jsem tedy 14 dní po mém postřelení první odbornou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">lékařskou</term> pomoc. V <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject"
+							>nemocnici</term> jsem se měla velmi dobře, rychle jsem se zotavovala a rány se mi hojily. <date when="1945-03-18">18. března</date> převzali mně z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnice</term>
+						<placeName ref="http://www.geonames.org/2017370/russian-federation.html">Rusové</placeName> a odvezli mně do <placeName ref="http://www.geonames.org/7533428/swiebodzin.html">Schwiebusu</placeName>, kde jsem pak pomáhala v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">nemocnici</term>. Zůstala jsem pak ve službách <placeName ref="http://www.geonames.org/2017370/russian-federation.html">ruského</placeName> komanda, které jezdilo za bojující <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">ruskou</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">armádou</orgName>. Po skončení <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">vojny</term> byla jsem ze služeb propuštěna a dopravena <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1226" type="subject">repatriačním</term> výborem do <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName> v <date when="1945-07">červenci</date>.</p>
+					<p>V <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> jsem zjistila, že se mi nevrátil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">manžel</term>, ani <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">rodiče</term> a ani <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sestra</term> s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+							type="subject">mužem</term>. Vrátil se mi pouze <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bratr</term>. Před svým odjezdem do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Terezína</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">pracovala</term> jsem v kanceláři <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-928" type="subject">pojišťovny</term>, kde hodlám zase <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">pracovat</term>.</p>
+					<p>Znám přesně místo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">popravy</term> 40 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">žen</term> a jsem ochotná toto místo příslušným orgánům ukázat.</p>
+					<p><persName ref="#ehri_dc_straussova_valerie">Valerie Straussová</persName></p>
+					<p>V <placeName ref="http://www.geonames.org/3067696/prague.html">Praze</placeName> dne <date when="1945-07-23">23. července 1945</date></p>
+					<pb facs="EHRI-DC-014_04.png" n="4"/>
+					<p>Protokol přijala:</p>
+					<p><persName ref="#ehri_dc_gerzonova_berta">Berta Gerzonová</persName></p>
+					<p>Podpis svědků:</p>
+					<p><persName ref="#ehri_dc_fischerova_marta">Marta Fischerová</persName></p>
+					<p><persName ref="#ehri_dc_saxlova_edita">Dita Saxlová</persName></p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>Za archiv přijal:</p>
+					<p><persName ref="#ehri_dc_tressler_harald">Tresssler</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-014_01.png" n="1"/>
+					<p>Statement</p>
+					<p>written with <persName ref="#ehri_dc_straussova_valerie">Valerie Straussová</persName>, née <persName ref="#ehri_dc_straussova_valerie">Kantorová</persName>, born <date when="1907-06-25">25. 6. 1907</date>, former <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2858" type="camp">Schlesiersee</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>, currently <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residing</term> in <placeName ref="http://www.geonames.org/8378780/praha-12.html"
+							>Prague</placeName> XII., on <placeName ref="http://www.geonames.org/8378780/praha-12.html">Horní stromka 5</placeName>.</p>
+					<p>I, the undersigned <persName ref="#ehri_dc_straussova_valerie">Valerie Straussová,</persName> née <persName ref="#ehri_dc_straussova_valerie">Kantorová</persName>, born <date when="1907-06-25">25. 6. 1907</date> in <placeName ref="http://www.geonames.org/2761369/vienna.html"
+							>Vienna</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughter</term> of <persName ref="#ehri_dc_kantor_evzen">Evžen</persName> and <persName ref="#ehri_dc_kantorova_emilie">Emilie Kantorovi</persName>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">citizen</term> of <placeName ref="http://www.geonames.org/3077311/czechia.html">Czechoslovakia</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject"
+							>residing</term> in <placeName ref="http://www.geonames.org/8378780/praha-12.html">Prague</placeName> XII, on <placeName ref="http://www.geonames.org/8378780/praha-12.html">Horní stromka 5</placeName>, am giving, after my return on <date when="1945-07-13">July 13th,
+							1945</date>, from various <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>, this true and faithful account of my experiences. I swear on my honor that I have neither invented nor exaggerated the statement that I am about to give.</p>
+					<p>On <date when="1942-02-02">February 12th, 1942</date>, I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transported</term> to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term> in
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, where I remained until <date when="1944-10-04">October 4th, 1944</date>. In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+							type="ghetto">Theresienstadt</placeName>, I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">haberdasher's</term> workshop, as a cleaning
+						lady in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">SS command</term>, as a typist in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">hospital</term>, and I spent two months doing <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">forest</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in <placeName ref="https://www.geonames.org/3072699/krivoklat.html">Křivoklát</placeName>. My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject"
+							>husband</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> as a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-692" type="subject">musician</term> in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-546" type="subject">coffeehouse</term>. On <date when="1944-09-28">September 28th, 1944</date>, he left
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>. We were told that the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> were going one hour away from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>. A week later, as his <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">wife</term>, I was placed on a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> and I left thinking that I would be reunited with him. All of the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> pushed their way onto the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> and each of us was happy to have been selected. Many
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> also went with us. When we approached <placeName ref="http://www.geonames.org/2935022/dresden.html">Dresden</placeName>, we prepared to disembark. How great was our
+						disappointment when we rode through <placeName ref="http://www.geonames.org/2935022/dresden.html">Dresden</placeName> without stopping and saw that we were going east. Instead of riding for an hour, we rode for twenty-four until we reached the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> train station. Here, we had to get off the train without our luggage and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selection
+							process</term> took place right in front of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> with <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">elderly</term> on the right, us childless women on the left. At the time,
+						we still didn’t know what being sent to the right meant (the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">gas</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">chamber</term>). We were taken to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">washrooms</term>, where everything we had on was taken away, our heads
+						were shaved, we were led to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">showers</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothed</term> in old <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">rags</term>. And then the familiar, nerve-wrenching life in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> began. After 5 days, we went through another <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">selection</term> and were taken to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term>. We were given better <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term> and sent to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>. We rode until we reached the <placeName
+							ref="http://www.geonames.org/3085637/slawa.html">Schlesiersee</placeName> train station in northeast <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Silesia</placeName>, not far from the <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName> border. From the station we walked for about 2 hours. They put us up in two <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">farms</term>, 1,000 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> in each building. They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housed</term> us in two large <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barns</term> for storing hay. The next morning, we were given shovels and spades and we dug 3 ½ meters deep anti-tank trenches. It was extremely hard <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> for us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and there was very little <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, and so we quickly lost a lot of weight. At the end of <date when="1944-10">October</date>, one of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+							>girls</term> bumped into my leg with a wheelbarrow. I had a small scrape that I didn’t think was serious. Several days later, my leg started hurting, swelled up, and developed a small <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>phlegmon</term>. It gradually got worse and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term> had to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">operate</term> on me in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barn</term>. After the incision, my high <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">fever</term> came down, but I couldn’t stand on my leg, and so for three
+						weeks I crawled around on all fours. As soon as I got better, I was sent to perform domestic <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor</term>. I peeled <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">potatoes</term>. I would get up at 4 in the morning and peeled potatoes until the evening. Two days later, I developed a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">fever</term> of 40 degrees, shooting pain on the right
+						side of my chest, and I started <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">coughing</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">doctor</term> diagnosed me with <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">pneumonia</term>. Since wrapping my chest would have been impossible in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">cold</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barn</term> and there was no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">medicine</term> in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>, I was left to my own fate. I was not allowed to lie down, and so I sat, leaning against the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject"
+							>icy</term> wall of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stable</term> wearing only my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> (<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">coats</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term> were taken away from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> and given to the healthy). I was covered with a camp-issued <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blanket</term>. Ten days later, my <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">pneumonia</term> disappeared as if by a miracle, but the injury on my leg got worse and started to fester. Around <date when="1945-01-10">January 10th</date>, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> were moved into quickly built wooden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>. Before we moved, we had to hand over everything
+						we wore and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">wash</term> ourselves so that we wouldn’t bring <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">lice</term>, which we were completely infested with,
+						into the new <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">building</term>. We entered the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">building</term> completely naked and they promised to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-280" type="subject">disinfect</term> our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> and give them back to us. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Washing</term>, however, didn’t rid us of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">lice</term>.</p>
+					<pb facs="EHRI-DC-014_02.png" n="2"/>
+					<p>Our situation was much improved in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>. We <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">slept</term> in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bunk beds</term> on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">straw mattresses</term>, two to a bed and covered by a single <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blanket</term>. We were so <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">cold</term>. On <date when="1945-01-22">January 22nd</date>, we heard that the
+						battlefront was only 20 km away from us. There were rumors that we would be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuated</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Sick</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> were to remain in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>. We were happy and hoped that the <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Russians</placeName> would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberate</term> us soon. But we rejoiced too soon. At about 7 o’clock in the evening, a <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">commander</term> entered and ordered everyone to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuate</term>, including the seriously <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term>. The situation was desperate, because all of us were lying in bed completely naked. We started to panic and each of us tried to find something to wear. I begged our superior for some
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, but it was all in vain. At the last minute, one of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">nurses</term> gave me a summer <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dress</term> that I threw over my naked body. I wound strips ripped from a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blanket</term> around my legs, even
+						though this was sabotage, and I managed to snag 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blankets</term>. I tied one around my waist like a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+							>skirt</term>, and wrapped the other around my shoulders. I was given a pair of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clogs</term>. Many <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject"
+							>women</term> were barefoot and their feet <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">became frostbitten</term>. When we walked out into the courtyard we could barely stand up. It was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">freezing</term> and there was a lot of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">snow</term>. For our journey, they gave us a loaf of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> that was supposed to last us three days. Then they filled us into lines of 5 and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">march</term>
+						began. I wasn’t able to walk because I had been sick in bed for almost 10 weeks, but the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> kept forcing me and threatening to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shoot</term> me. And so we <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marched</term> all night until the afternoon of the next day. On the way, many of us
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> or <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">froze</term> to death. At 3 o’clock the next day we came to a forest that was about 4 km
+						before <placeName ref="http://www.geonames.org/3092695/lupice.html">Ostweide</placeName>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">commander</term> ordered all of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> to sit down. A vehicle would be coming from <placeName ref="http://www.geonames.org/3092695/lupice.html">Ostweide</placeName> to pick them up soon. The healthy continued <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marching</term>. I sat down on the edge of the forest by a ditch and was happy that I didn’t have to keep going. I believed that the vehicle would arrive, although others claimed that something
+						else would happen. There were about 40 of us here, in addition to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">doctor</term>, who took down our names. There were also 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515"
+							type="subject">corpses</term>. About 60 m from the edge of the forest, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> were digging a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>.
+						I thought that it was for our 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">corpses</term>. When it got dark and we had given up all hope that the vehicle would come, 2 <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428"
+							>Schupo</orgName> came up to us, grabbed about six <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> and forced them toward the hole, shouting <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+								>arbeiten</term> – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeiten</term>.</q> The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> screamed and wanted to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>, but then we heard shots and then silence. Now we knew for sure that there was no vehicle and what truly awaited us. After a while, the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> came for the next 6 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">victims</term>. I was part of the 3rd group. I was reconciled with my fate and was
+						absolutely calm. A <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> came up to me, grabbed me by the shoulder, and shouted: <q>Komm.</q> I said to him: <q>Just a moment, I’ll just give my <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blanket</term> to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286"
+								type="subject">doctor</term> to hand out to the others since I won’t be needing them anymore.</q> He answered, seeing that I was totally calm: <q>You may.</q> And so I went up to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject"
+							>doctor</term> and thanked her for her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> and for treating me and gave her the rest of my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+							>bread</term> and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">blanket</term>. I then walked peacefully with my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">murderer</term> up to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>. About 13 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">corpses</term> lay in it. He made several <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> sit down on the mound of earth dug from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>, and ordered me and two other <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> to turn our backs to him. First, he <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term> the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term> and then it was our turn. I stood in the middle. It was a beautiful moonlit night.
+						I gazed up at the moon and thought to myself: what a pity that I have to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">die</term> and nobody will ever know what happened here. It was at this moment that I finally understood how beautiful it
+						is to be alive, even after all that we’d been through. And then a shot rang out and the woman to my right fell to the ground. And then a second shot and I felt a sharp pain on the left side of my neck. I collapsed onto the ground, but never lost consciousness. It felt strange
+						to not be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term> yet, but waiting for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>. I soon realized that the shot had not been <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">fatal</term>. I felt the blood flowing from my wound and I quickly placed a hand on my neck. It all happened within an instant. In the meantime, the woman on my left side was shot. I began to be
+						afraid that I would be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">buried</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">alive</term>. I heard the conversation between two of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> who had shot us and were now standing right
+						behind me. They had a very interesting conversation. One wanted to throw us into the hole right away, and the second said that they needed to wait until all of us were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term>, and then the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">doctor</term> would strip us and throw us into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>. <q>The seriously <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term> ones, who were brought here on wheelbarrows, those we’ll <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">beat to death</term> with our rifle
+							butts,</q> said one of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName>. When their conversation was over, they walked away from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term> to
+						bring more <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject">victims</term> from the edge of the forest. Without thinking, I turned over and crawled away into the forest on all fours. I thought to myself that it’s better if they shoot me again
+						if they find me than to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">buried</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-563" type="subject">alive</term>. The night was clear and we were in a forest with tall trees, and so there was nowhere for me to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject"
+							>hide</term>. I crawled a couple meters away from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-262" type="subject">hid</term> behind a tree. Now, I began
+						to be upset. I saw the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> force more <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> toward the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>. I heard shots and realized that they didn’t know I was missing and weren’t even looking for me. I heard them finish their</p>
+					<pb facs="EHRI-DC-014_03.png" n="3"/>
+					<p>task, strip the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term>, throw them into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>, and fill up the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>. I don’t know what happened to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">doctor</term>. Then I must have fallen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">asleep</term>, because I didn’t see them walk away from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term>. I woke up and saw from a distance the
+							<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schupo</orgName> walking down the road with a wheelbarrow likely loaded with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> taken from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">people who were shot</term>. I knew that I was saved. I started walking away. I went around the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-539" type="subject">hole</term> and
+						crossed the main road that goes from <placeName ref="http://www.geonames.org/3085637/slawa.html">Schlesiersee</placeName> to <placeName ref="http://www.geonames.org/3092695/lupice.html">Ostweide</placeName>. In the afternoon, I observed <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> tanks riding away from the forest on the other side of the road. I thought that the frontline must be there and that I would meet up with the <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Russians</placeName> any minute. And so I headed out on this road. After walking for about 10 minutes, I saw a large haystack on the side of the road. I crawled inside of it and soon <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">fell asleep</term>. I was exhausted. We had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marched</term> the whole previous night, my leg was badly hurting, and
+						to top it off my new neck wound, which hurt a little the first day. I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">slept</term> until the morning and then headed out again. I walked through beautiful forests, along tank tracks, and didn’t
+						meet a soul. I was terribly tired, but I was afraid to sit down in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">snow</term>. I didn’t want to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">fall
+							asleep</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">freeze to death</term>. As the evening approached, I chanced upon a crumbling <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barn</term>
+						for hay, where I spent the night. In the morning, I walked on and around noon I finally entered a small village, utterly exhausted. I went into the first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term> and asked if they would
+						allow me to rest here. I was delighted to hear that I was in <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. They gave me <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> and the next day
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1006" type="subject">mayor</term> took care of me. We burned my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, which were soaked with blood, and they gave me
+						warm <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term>, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dress</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">blankets</term>. I was given a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term> that the <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germans</placeName> had abandoned. <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">girls</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-818" type="subject">lit the fire</term> in my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">room</term> and brought me <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>. The village didn’t have a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">doctor</term>. Every day, a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">nurse</term> came to check up on me and changed the bandages on my leg and neck. I was in great <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">pain</term> and
+						couldn’t <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sleep</term> at night. Five days after my arrival in the village, i.e. a week after I was injured, the <placeName ref="http://www.geonames.org/2017370/russian-federation.html"
+							>Russians</placeName> came to the village and I was finally truly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberated</term>. A week later, a <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">nurse</term> took me to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> in <placeName ref="http://www.geonames.org/2806523/wolfstein.html"
+							>Wolstein</placeName>. Fourteen days after I was shot was the first time I received <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">medical</term> assistance. I felt much better in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term>, I quickly recuperated, and my wounds healed up. On <date when="1945-03-18">March 18th</date>, the <placeName ref="http://www.geonames.org/2017370/russian-federation.html"
+							>Russians</placeName> picked me up from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term> and took me to <placeName ref="http://www.geonames.org/7533428/swiebodzin.html">Schwiebus</placeName>, where I helped out in the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-282" type="subject">hospital</term>. I remained in the service of a <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russian</placeName> unit that rode out to assist the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Russian</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Army</orgName> in combat. After my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">military service</term>, I was discharged from duty and taken to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1226" type="subject">repatriation</term> committee in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> in <date when="1946-07">July</date>.</p>
+					<p>Once in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, I found out that neither my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term>, nor my <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term>, and neither my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sister</term> nor her <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term>, had returned. Only my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term> came back. Before I left for <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">worked</term> in an <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-928" type="subject">insurance</term> office, and I plan on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">working</term> there again.</p>
+					<p>I know the exact location where the 40 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">executed</term>, and I am willing to show it to the
+						relevant authorities.</p>
+					<p><persName ref="#ehri_dc_straussova_valerie">Valerie Straussová</persName></p>
+					<p>In <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> on <date when="1945-07-23">July 23rd, 1945</date></p>
+					<pb facs="EHRI-DC-014_04.png" n="4"/>
+					<p>Statement accepted by:</p>
+					<p><persName ref="#ehri_dc_gerzonova_berta">Berta Gerzonová </persName></p>
+					<p>Signature of witnesses:</p>
+					<p><persName ref="#ehri_dc_fischerova_marta">Marta Fischerová</persName></p>
+					<p><persName ref="#ehri_dc_saxlova_edita">Dita Saxlová</persName></p>
+					<p>On behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term>:</p>
+					<p><persName ref="#ehri_dc_shek_zeev">Scheck</persName></p>
+					<p>On behalf of the archive:</p>
+					<p><persName ref="#ehri_dc_tressler_harald">Tresssler</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,59 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-194711_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-194711_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title xml:lang="de">Liste zurückgekehrter Nisko-Deportierter in der Zeitung Mahnruf</title>
-				<title xml:lang="en">List of returned Nisko deportees in the Mahnruf newspaper</title>
+				<title xml:lang="de"><hi rend="bold">Liste zurückgekehrter Nisko-Deportierter in der Zeitung Mahnruf</hi>
+				</title>
+				<title xml:lang="en"><hi rend="bold">List of returned Nisko deportees in the newspaper Mahnruf</hi></title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
-					<msIdentifier/>
+					<msIdentifier></msIdentifier>
 				</msDesc>
-				<bibl> Liste der 1947 zurückgekehrten Nisko-Deportierten, Mahnruf, November 1947. <textLang mainLang="cs">Original auf
-						Deutsch.</textLang>
+				<bibl type="Artikel">
+					Liste der 1947 zurückgekehrten Nisko-Deportierten, Mahnruf, November 1947. <textLang mainLang="cs">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1947-11">November 1947</date>
-				<placeName ref="#vienna">Wien</placeName>
-				<idno>EHRI-NISKO-194711</idno>
+			<creation><origDate when="1947-11">November 1947</origDate>
+				<origPlace ref="http://www.geonames.org/2761369/vienna.html">Wien</origPlace>
 			</creation>
 			<textClass>
 				<keywords>
@@ -65,64 +67,46 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>An die Angehörigen von <placeName ref="#nisko">NISKO</placeName>-<term ref="#t519" type="subject">Deportierten</term></p>
-				<p>Auskunft über Verbleib von <placeName ref="#nisko">NISKO</placeName>-<term ref="#t519" type="subject">Deportierten</term> erteilt
-					das Wanderungsreferat der <orgName ref="#ehri_nisko_ikg_wien">Israelitischen Kultusgemeinde Wien</orgName> jeden Montag von 9 bis
-					11 Uhr vormittags.</p>
-				<p/>
-				<p>Bisher sind folgende Kameraden zurückgekommen:</p>
-				<p/>
-				<p><persName ref="#ehri_nisko_aschner_erwin">Aschner Erwin</persName>, 16. Wichtelgasse 5, <persName ref="#ehri_nisko_bauer_friedrich"
-						>Bauer Friedrich</persName>, 20. Meldemannstraße 25, <persName ref="#ehri_nisko_baumann_rudolf">Baumann Rudolf</persName>, 20.
-					Denisgasse 40/12, <persName ref="#ehri_nisko_bem_jakob">Bem Jakob</persName>, 5. Margaretenstraße 102/14, <persName
-						ref="#ehri_nisko_benedek_alexander">Benedek Alexander</persName>, 4. Wiedner Spital, <persName ref="#EHRI-NISKO-194711_1"
-						>Braun Paul</persName>, 2. Tempelgasse 3, <persName ref="#ehri_nisko_braunwald_hans">Braunwald Hans</persName>, 9. Glasergasse
-					24/1, <persName ref="#ehri_nisko_bruell_leopold">Brüll Leopold</persName>, 19. Sieveringerstraße 245, <persName
-						ref="#ehri_nisko_diamant_schie">Diamant Schie</persName>, 2. Tempelgasse 3/16, <persName ref="#ehri_nisko_faigenbaum_richard"
-						>Faigenbaum Richard</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_fink_richard">Fink Richard</persName>, 19.
-					Sieveringerstraße 245, <persName ref="#ehri_nisko_fischl_ernst">Fischl Ernst</persName>, 2. Große Mohrengasse 35/17, <persName
-						ref="#ehri_nisko_flaschner_oskar">Flaschner Oskar</persName>, 12. Eichholzgasse 33/7, <persName
-						ref="#ehri_nisko_frankenstein_egon">Frankenstein Egon</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_gerstl_julius"
-						>Gerstl Julius</persName>, 9. Rotenlöwengasse 16/10, <persName ref="#ehri_nisko_gingold_isidor">Gingold Isidor</persName>, 8.
-					Laudongasse 44/22, <persName ref="#EHRI-NISKO-194711_2">Großbach Chaim</persName>, 2. Castellezgasse 20/11, <persName
-						ref="#ehri_nisko_gruenfeld_moritz">Grünfeld Moritz</persName>, 3, Kölblgasse 32/6, <persName ref="#EHRI-NISKO-194711_3"
-						>Herschkowitz Max</persName>, 2. Untere Augartenstraße 35, <persName ref="#ehri_nisko_hirschl_hugo">Hirschl Hugo</persName>,
-					16. Thaliastraße 41/6, <persName ref="#ehri_nisko_hitner_Richard">Hitner Richard</persName>, 2. Untere Augartenstraße 35,
-						<persName ref="#ehri_nisko_hoffmann_fritz">Hoffmann Fritz</persName>, 13. Tratzenbergstraße 29, <persName
-						ref="#EHRI-NISKO-194711_4">Inger Wilhelm</persName>, 2. Tempelgasse 3, <persName ref="#ehri_nisko_koch_fritz">Koch
-						Fritz</persName>, 7. Lerchenfeldergürtel 4/11, <persName ref="#ehri_nisko_kolm_ernst">Kolm Ernst</persName>, 2. Czerningasse
-					6/20, <persName ref="#ehri_nisko_koenigsberg_david">Königsberg David</persName>, 2. Malzgasse 16, <persName
-						ref="#ehri_nisko_kornitzer_fritz">Kornitzer Fritz</persName>, 1. Schottenring 25, <persName ref="#ehri_nisko_krakauer_jakob"
-						>Krakauer Jakob</persName>, 2. Untere Augartenstraße 35/14, <persName ref="#ehri_nisko_krassototzky_samuel">Krassatotzky
-						Samuel</persName>, 19. Sieveringerstraße 245, <persName ref="#ehri_nisko_kuerzer_friedrich">Kuerzer Fritz</persName>, 4.
-					Gußhausstraße 4, <persName ref="#ehri_nisko_laser_heinrich">Laser Heinrich</persName>, 2. Untere Augartenstraße 35, <persName
-						ref="#ehri_nisko_lederer_robert">Lederer Robert</persName>, 7. Urban-Loritz-Platz 8/5/63, <persName ref="#ehri_nisko_kihn_leo"
-						>Kihn Leo</persName>, 20. Meldemannstraße 25, <persName ref="#ehri_nisko_lerech_ernst">Lerech Ernst</persName>, 11.
-					Zippererstraße 23-27/16/4, <persName ref="#ehri_nisko_meutner_leopold">Meutner Leopold</persName>, Wiedner Spital, <persName
-						ref="#ehri_nisko_pick_siegfried">Pick Siegfried</persName>, 2. Schrottgießergasse 5, <persName
-						ref="#ehri_nisko_pollak_siegfried">Dr. Pollak Siegfried</persName>, Wiedner Spital, <persName ref="#ehri_nisko_preiss_rafael"
-						>Preis Rafael</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_pulgram_hermann">Pulgram Hermann</persName>, 19.
-					Sieveringerstraße 245, <persName ref="#ehri_nisko_pulitzer_oskar">Pulitzer Oskar</persName>, 8. Lederergasse 30/3, <persName
-						ref="#ehri_nisko_reischer_leon">Reischer Leon</persName>, 5. Rechte Wienzeile 37/7, <persName
-						ref="#ehri_nisko_reisfeld_ignatz">Reisfeld Ignaz</persName>, 2. Untere Augartenstraße 35, <persName
-						ref="#ehri_nisko_reismann_paul">Reismann Paul</persName>, 20, Streffleurgasse 5/19, <persName
-						ref="#ehri_nisko_rosenzweig_siegfried">Rosenzweig Siegfried</persName>, 21. Schillgasse 9/4, <persName
-						ref="#ehri_nisko_salaman_leo">Salzmann Leo</persName>, 2. Taborstraße 7, <persName ref="#ehri_nisko_schaffer_salomon">Schaffer
-						Salomon</persName>, 13. Hietzinger Hauptstraße 135/1, <persName ref="#ehri_nisko_schlesinger_viktor">Schlesinger
-						Viktor</persName>, 6. Mariahilferstraße 99/13, <persName ref="#ehri_nisko_schnapp_josef">Schnapp Josef</persName>, 9.
-					Müllnergasse 33/12, <persName ref="#ehri_nisko_silber_heinrich">Silber Heinrich</persName>, 2. Untere Augartenstraße 35, <persName
-						ref="#ehri_nisko_sonnenfeld_leopold">Sonnenfeld Leopold</persName>, Perchtoldsdorf, Wienergasse 76a, <persName
-						ref="#ehri_nisko_spira_markus">Spira Markus</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_spitzer_alfred">Spitzer
-						Alfred</persName>, 7. Neustiftgasse 54/12, <persName ref="#ehri_nisko_vogel_josef">Vogel Josef</persName> und <persName
-						ref="#ehri_nisko_vogel_leopold">Leopold</persName>, 2. Untere Augartenstraße 35, <persName ref="#ehri_nisko_weiner_karl"
-						>Weisser Karl</persName>, 2. Tempelgasse 3, <persName ref="#ehri_nisko_winkler_josef">Winkler Josef</persName>, 2. Sebastian
-					Kneipp-Gasse 8/8, <persName ref="#ehri_nisko_wolf_hans">Wolff Hans</persName>, 20. Treustraße 64/18, <persName
-						ref="#ehri_nisko_stricker_arthur">Stricker Arthur</persName>, 2. Herminengasse 10/10, <persName
-						ref="#ehri_nisko_schwimmer_ernst">Schwimmer Ernst</persName>, 2. Franz Hochedlinger-Gasse 17/4</p>
+				<div type="original" xml:lang="de">
+					<p>An die Angehörigen von <placeName ref="http://www.geonames.org/763829/nisko.html">NISKO</placeName>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Deportierten</term></p>
+					<p>Auskunft über Verbleib von <placeName ref="http://www.geonames.org/763829/nisko.html">NISKO</placeName>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Deportierten</term> erteilt das Wanderungsreferat der <orgName ref="#ehri_nisko_ikg_wien"
+							>Israelitischen Kultusgemeinde Wien</orgName> jeden Montag von 9 bis 11 Uhr vormittags.</p>
+					<p/>
+					<p>Bisher sind folgende Kameraden zurückgekommen:</p>
+					<p/>
+					<p><persName ref="#ehri_nisko_aschner_erwin">Aschner Erwin</persName>, 16. Wichtelgasse 5, <persName ref="#ehri_nisko_bauer_friedrich">Bauer Friedrich</persName>, 20. Meldemannstraße 25, <persName ref="#ehri_nisko_baumann_rudolf">Baumann Rudolf</persName>, 20. Denisgasse 40/12,
+							<persName ref="#ehri_nisko_bem_jakob">Bem Jakob</persName>, 5. Margaretenstraße 102/14, <persName ref="#ehri_nisko_benedek_alexander">Benedek Alexander</persName>, 4. Wiedner Spital, <persName ref="#EHRI-NISKO-194711_1">Braun Paul</persName>, 2. Tempelgasse 3, <persName
+							ref="#ehri_nisko_braunwald_hans">Braunwald Hans</persName>, 9. Glasergasse 24/1, <persName ref="#ehri_nisko_bruell_leopold">Brüll Leopold</persName>, 19. Sieveringerstraße 245, <persName ref="#ehri_nisko_diamant_schie">Diamant Schie</persName>, 2. Tempelgasse 3/16,
+							<persName ref="#ehri_nisko_faigenbaum_richard">Faigenbaum Richard</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_fink_richard">Fink Richard</persName>, 19. Sieveringerstraße 245, <persName ref="#ehri_nisko_fischl_ernst">Fischl Ernst</persName>, 2. Große Mohrengasse
+						35/17, <persName ref="#ehri_nisko_flaschner_oskar">Flaschner Oskar</persName>, 12. Eichholzgasse 33/7, <persName ref="#ehri_nisko_frankenstein_egon">Frankenstein Egon</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_gerstl_julius">Gerstl Julius</persName>, 9.
+						Rotenlöwengasse 16/10, <persName ref="#ehri_nisko_gingold_isidor">Gingold Isidor</persName>, 8. Laudongasse 44/22, <persName ref="#EHRI-NISKO-194711_2">Großbach Chaim</persName>, 2. Castellezgasse 20/11, <persName ref="#ehri_nisko_gruenfeld_moritz">Grünfeld Moritz</persName>,
+						3, Kölblgasse 32/6, <persName ref="#EHRI-NISKO-194711_3">Herschkowitz Max</persName>, 2. Untere Augartenstraße 35, <persName ref="#ehri_nisko_hirschl_hugo">Hirschl Hugo</persName>, 16. Thaliastraße 41/6, <persName ref="#ehri_nisko_hitner_Richard">Hitner Richard</persName>, 2.
+						Untere Augartenstraße 35, <persName ref="#ehri_nisko_hoffmann_fritz">Hoffmann Fritz</persName>, 13. Tratzenbergstraße 29, <persName ref="#EHRI-NISKO-194711_4">Inger Wilhelm</persName>, 2. Tempelgasse 3, <persName ref="#ehri_nisko_koch_fritz">Koch Fritz</persName>, 7.
+						Lerchenfeldergürtel 4/11, <persName ref="#ehri_nisko_kolm_ernst">Kolm Ernst</persName>, 2. Czerningasse 6/20, <persName ref="#ehri_nisko_koenigsberg_david">Königsberg David</persName>, 2. Malzgasse 16, <persName ref="#ehri_nisko_kornitzer_fritz">Kornitzer Fritz</persName>, 1.
+						Schottenring 25, <persName ref="#ehri_nisko_krakauer_jakob">Krakauer Jakob</persName>, 2. Untere Augartenstraße 35/14, <persName ref="#ehri_nisko_krassototzky_samuel">Krassatotzky Samuel</persName>, 19. Sieveringerstraße 245, <persName ref="#ehri_nisko_kuerzer_friedrich"
+							>Kuerzer Fritz</persName>, 4. Gußhausstraße 4, <persName ref="#ehri_nisko_laser_heinrich">Laser Heinrich</persName>, 2. Untere Augartenstraße 35, <persName ref="#ehri_nisko_lederer_robert">Lederer Robert</persName>, 7. Urban-Loritz-Platz 8/5/63, <persName
+							ref="#ehri_nisko_kihn_leo">Kihn Leo</persName>, 20. Meldemannstraße 25, <persName ref="#ehri_nisko_lerech_ernst">Lerech Ernst</persName>, 11. Zippererstraße 23-27/16/4, <persName ref="#ehri_nisko_meutner_leopold">Meutner Leopold</persName>, Wiedner Spital, <persName
+							ref="#ehri_nisko_pick_siegfried">Pick Siegfried</persName>, 2. Schrottgießergasse 5, <persName ref="#ehri_nisko_pollak_siegfried">Dr. Pollak Siegfried</persName>, Wiedner Spital, <persName ref="#ehri_nisko_preiss_rafael">Preis Rafael</persName>, 9. Seegasse 9, <persName
+							ref="#ehri_nisko_pulgram_hermann">Pulgram Hermann</persName>, 19. Sieveringerstraße 245, <persName ref="#ehri_nisko_pulitzer_oskar">Pulitzer Oskar</persName>, 8. Lederergasse 30/3, <persName ref="#ehri_nisko_reischer_leon">Reischer Leon</persName>, 5. Rechte Wienzeile
+						37/7, <persName ref="#ehri_nisko_reisfeld_ignatz">Reisfeld Ignaz</persName>, 2. Untere Augartenstraße 35, <persName ref="#ehri_nisko_reismann_paul">Reismann Paul</persName>, 20, Streffleurgasse 5/19, <persName ref="#ehri_nisko_rosenzweig_siegfried">Rosenzweig
+							Siegfried</persName>, 21. Schillgasse 9/4, <persName ref="#ehri_nisko_salaman_leo">Salzmann Leo</persName>, 2. Taborstraße 7, <persName ref="#ehri_nisko_schaffer_salomon">Schaffer Salomon</persName>, 13. Hietzinger Hauptstraße 135/1, <persName
+							ref="#ehri_nisko_schlesinger_viktor">Schlesinger Viktor</persName>, 6. Mariahilferstraße 99/13, <persName ref="#ehri_nisko_schnapp_josef">Schnapp Josef</persName>, 9. Müllnergasse 33/12, <persName ref="#ehri_nisko_silber_heinrich">Silber Heinrich</persName>, 2. Untere
+						Augartenstraße 35, <persName ref="#ehri_nisko_sonnenfeld_leopold">Sonnenfeld Leopold</persName>, Perchtoldsdorf, Wienergasse 76a, <persName ref="#ehri_nisko_spira_markus">Spira Markus</persName>, 9. Seegasse 9, <persName ref="#ehri_nisko_spitzer_alfred">Spitzer
+							Alfred</persName>, 7. Neustiftgasse 54/12, <persName ref="#ehri_nisko_vogel_josef">Vogel Josef</persName> und <persName ref="#ehri_nisko_vogel_leopold">Leopold</persName>, 2. Untere Augartenstraße 35, <persName ref="#ehri_nisko_weiner_karl">Weisser Karl</persName>, 2.
+						Tempelgasse 3, <persName ref="#ehri_nisko_winkler_josef">Winkler Josef</persName>, 2. Sebastian Kneipp-Gasse 8/8, <persName ref="#ehri_nisko_wolf_hans">Wolff Hans</persName>, 20. Treustraße 64/18, <persName ref="#ehri_nisko_stricker_arthur">Stricker Arthur</persName>, 2.
+						Herminengasse 10/10, <persName ref="#ehri_nisko_schwimmer_ernst">Schwimmer Ernst</persName>, 2. Franz Hochedlinger-Gasse 17/4</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

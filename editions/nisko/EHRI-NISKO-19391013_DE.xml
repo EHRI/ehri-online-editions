@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19391013_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19391013_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,56 +8,62 @@
 				<title xml:lang="en">Note on Eichmann's orders regarding Jewish officials in the first Nisko transport</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository> Landesgericht (LG) Wien</repository>
+						<institution><orgName> Landesgericht (LG) Wien</orgName><address>
+								<street/>
+								<postCode/>
+								<settlement/>
+								<country/>
+							</address></institution>
 						<idno>22d Vr 1812-80</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Landesgericht (LG) Wien, 22d Vr 1812-80, Beiakt 3. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1939-10-13">13. Oktober 1939</date>
-				<placeName ref="#ostrava">Ostrava</placeName>
-				<idno>EHRI-NISKO-19391013</idno>
+			<creation><origDate when="1939-10-13">13. Oktober 1939</origDate>
+				<origPlace ref="http://www.geonames.org/3068799/ostrava.html">Ostrava</origPlace>
 			</creation>
 			<textClass>
 				<keywords>
@@ -69,27 +75,33 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p>Auf Anordnung von <persName ref="#p000564">SS-H’Stuf. Eichmann</persName> sind die <term ref="#t864" type="subject"
-						>jüdischen</term> Funktionäre</p>
-				<p> </p>
-				<p><persName ref="#ehri_nisko_storfer_berthold">Storfer</persName></p>
-				<p><persName ref="#ehri_nisko_boschan_julius">Boschan</persName></p>
-				<p><persName ref="#ehri_nisko_friedmann_richard">Friedmann</persName></p>
-				<p><persName ref="#ehri_nisko_murmelstein_benjamin">Murmelstein</persName></p>
-				<p><persName ref="#ehri_nisko_edelstein_jacob">Edelstein</persName></p>
-				<p><persName ref="#ehri_nisko_gruen_maurycy">Grün</persName></p>
-				<p>nach <placeName ref="#ostrava">Mähr. Ostrau</placeName> abzustellen, da sie an dem ersten <term ref="#t518" type="subject"
-						>Transport</term> teilnehmen sollen. Die <orgName ref="#ehri_nisko_zentralstelle_wien">Zentralstelle für jüdische Auswanderung
-						in Wien</orgName> und <orgName ref="#ehri_nisko_zentralstelle_prag">Prag</orgName> wurde angewiesen, die notwendigen
-					Formalitäten zu erledigen und den Juden aufzugeben, sich am Montag, den <date when="1939-10-16">16. Okt. 1939</date>, im Laufe des
-					Tages in <placeName ref="#ostrava">Mähr. Ostrau</placeName> in der <orgName ref="#g005318">Staatspolizei</orgName>-Außenstelle bei
-						<persName ref="#ehri_nisko_guenther_rolf">SS-H’Stuf. Günther</persName> zu melden.</p>
-				<p>Die <term ref="#t864" type="subject">Juden</term> sollen weiter angewiesen werden, die notwendige <term ref="#t836" type="subject"
-						>Wäsche</term> und <term ref="#t836" type="subject">Kleidung</term> für den Zeitraum von mindestens 4 Wochen mitzunehmen.</p>
+				<div type="original" xml:lang="de">
+					<p>Auf Anordnung von <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">SS-H’Stuf. Eichmann</persName> sind die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term> Funktionäre</p>
+					<p> </p>
+					<p><persName ref="#ehri_nisko_storfer_berthold">Storfer</persName></p>
+					<p><persName ref="#ehri_nisko_boschan_julius">Boschan</persName></p>
+					<p><persName ref="#ehri_nisko_friedmann_richard">Friedmann</persName></p>
+					<p><persName ref="#ehri_nisko_murmelstein_benjamin">Murmelstein</persName></p>
+					<p><persName ref="#ehri_nisko_edelstein_jacob">Edelstein</persName></p>
+					<p><persName ref="#ehri_nisko_gruen_maurycy">Grün</persName></p>
+					<p>nach <placeName ref="http://www.geonames.org/3068799/ostrava.html">Mähr. Ostrau</placeName> abzustellen, da sie an dem ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Transport</term> teilnehmen sollen. Die <orgName
+							ref="#ehri_nisko_zentralstelle_wien">Zentralstelle für jüdische Auswanderung in Wien</orgName> und <orgName ref="#ehri_nisko_zentralstelle_prag">Prag</orgName> wurde angewiesen, die notwendigen Formalitäten zu erledigen und den Juden aufzugeben, sich am Montag, den <date
+							when="1939-10-16">16. Okt. 1939</date>, im Laufe des Tages in <placeName ref="http://www.geonames.org/3068799/ostrava.html">Mähr. Ostrau</placeName> in der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005318">Staatspolizei</orgName>-Außenstelle bei
+							<persName ref="#ehri_nisko_guenther_rolf">SS-H’Stuf. Günther</persName> zu melden.</p>
+					<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> sollen weiter angewiesen werden, die notwendige <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Wäsche</term> und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleidung</term> für den Zeitraum von mindestens 4 Wochen mitzunehmen.</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19380311a_DE_CS" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Telegramm von Richard A. Bermann aus Lundenburg an Präsident Edvard Beneš</title>
+				<title xml:lang="cs">Telegram Richarda A. Bermanna z Břeclavi prezidentu Edvardu Benešovi</title>
+				<title xml:lang="en">Telegram from Richard A. Bermann from Lundenburg to President Edvard Beneš</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002286">Nationalarchiv Prag</orgName><address>
+								<street>Archivní 2257/4</street>
+								<postCode>149 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002286-1075">Innenministerium I – Präsidium</collection>
+						<idno>Sign. 225-1186-19, Fol. 57</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Nationalarchiv Prag, Innenministerium I – Präsidium, Sign. 225-1186-19, Fol. 57. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-03-11">11. März 1938</origDate>
+				<origPlace>Lundenburg (Břeclav)</origPlace>
+				<persName>Richard A. Bermann</persName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>persönliche Dokumente</term>
+				</keywords>
+				<catRef target="geschichte/grenzsperre"/>
+				<catRef target="geschichte/oesterreich_bis_1938"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-BF-19380311a_1.jpg" n="1"/>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName> 10 <placeName ref="http://www.geonames.org/6290257/prazsky-hrad.html">Hrad</placeName></p>
+					<p><date when="1938-03-12">12. III. 1938</date></p>
+					<note type="gloss">Poststempel.</note>
+					<!--
+      <p>f]</p>      <p> Druh.........TELEGRAM Došel pod čislem 205 [...]</p> -->
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-105" type="subject">Praesident</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000030">dr benes</persName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">prag</placeName></p>
+					<p>=+ <placeName ref="http://www.geonames.org/3078773/breclav.html">breclav</placeName> /2 121 34/32 12 0504 =</p>
+					<p>= im namen der an der grenzstation <placeName ref="http://www.geonames.org/3078773/breclav.html">breclav</placeName> aufgehaltenen <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">oesterreichischen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject">fluechtlinge</term> und im eigenen apelliere ich an die menschlichkeit der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischen</placeName> demokratie
+							<persName ref="#ehri_bf_bermann_richard_a">arnold hoellriegel</persName> redakteur der stunde</p>
+					<p>passname dr <persName ref="#ehri_bf_bermann_richard_a">bermann</persName> =+</p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-UH-19380311a_1.jpg" n="1"/>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName> 10 <placeName ref="http://www.geonames.org/6290257/prazsky-hrad.html">Hrad</placeName></p>
+					<p><date when="1938-03-12">12. III. 1938</date></p>
+					<note type="gloss">Poštovní razítko.</note>
+					<!--
+      <p>f]</p>      <p> Druh.........TELEGRAM Došel pod čislem 205 [...]</p> -->
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-105" type="subject">Prezident</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000030">dr Beneš</persName>
+						<placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName></p>
+					<p>=+ <placeName ref="http://www.geonames.org/3078773/breclav.html">Břeclav</placeName> /2 121 34/32 12 0504 =</p>
+					<!--      <p>= im namen der an der grenzstation <placeName
+          ref="http://www.geonames.org/3078773/breclav.html">breclav</placeName> aufgehaltenen
+          <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+          >oesterreichischen</placeName>
+        <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-304" type="subject"
+          >fluechtlinge</term> und im eigenen apelliere ich an die menschlichkeit der <placeName
+          ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakischen</placeName>
+        demokratie <persName ref="#ehri_bf_bermann_richard_a">arnold hoellriegel</persName>
+        redakteur der stunde</p>
+-->
+					<p>= Jménem rakouských běženců zadržovaných v pohraniční stanici <placeName ref="http://www.geonames.org/3078773/breclav.html">Břeclav</placeName> i svým apeluji na lidskost <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">československé</placeName>
+						demokracie. <persName ref="#ehri_bf_bermann_richard_a">Arnold Hoellriegel</persName>, redaktor Die Stunde</p>
+					<p>jméno v pase dr <persName ref="#ehri_bf_bermann_richard_a">bermann</persName> =+</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

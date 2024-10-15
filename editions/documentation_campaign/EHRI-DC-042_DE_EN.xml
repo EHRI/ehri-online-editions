@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-042_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Paul Heller, on the inmates and forced labor in Jaworzno, a sub-camp of Auschwitz</title>
+				<title xml:lang="de">Paul Heller über die Häftlinge und Zwangsarbeit in Jaworzno, einem Außenlager von Auschwitz</title>
+				<title xml:lang="cs">Paul Heller o vězních a nucených pracích v Jaworznu, dílčím táboře Osvětimi</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="de">Original in German.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origPlace ref="https://portal.ehri-project.eu/keywords/ehri_camps-33" type="camp">Jaworzno</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">forced labour</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831"
+					type="subject">living conditions</term>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS men</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="de">German</language>
+			</langUsage>
+			<abstract>
+				<p>Short report by Paul Heller on Jaworzno, a sub-camp of Auschwitz-Birkenau. Heller describes the harsh living conditions in the camp, forced labor, and the situation of the inmates. He also focuses on the names of the main perpetrators and the SS men running the camp.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-DC-042_01.png" n="1"/>
+					<p>Dr. <persName ref="#ehri_dc_heller_paul">Paul Heller</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Arzt</term>, geb. <date when="1914-08-08">8. August 1914</date> in <placeName ref="https://www.geonames.org/3077685/chomutov.html"
+							>Komotau</placeName>, <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Č.S.R.</placeName></p>
+					<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-33" type="camp">Jaworzno</placeName>.:/<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Nebenlager</term> des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496"
+							type="subject">K.L</term>. <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>.</p>
+					<p><date when="1943-06">Juni 1943</date> bis <date when="1945-01">Januar 1945</date>: 3000 überwiegend jüdische <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> /<placeName
+							ref="https://www.geonames.org/798544/republic-of-poland.html">Polen</placeName>, <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Griechen</placeName>, <placeName ref="https://www.geonames.org/3017382/republic-of-france.html">Franzosen</placeName>,
+							<placeName ref="https://www.geonames.org/2802361/kingdom-of-belgium.html">Belgier</placeName>, <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Tschechen</placeName>/ müssen unter in zivilisierten Ländern unfassbaren <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Verhältnissen</term> in stillgelegten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">Kohlengruben</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeiten</term>. Wöchentlich 5-7 tödliche Unfälle, mindestens weitere 6 bis 8 Unfälle, die zur dauernden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-326" type="subject"
+							>Invalidität</term> führten. Täglich schwerste <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Misshandlungen</term> durch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">deutsche</term> Steiger und
+						Nauer, wobei wöchentlich 2-3 Fälle letal enden. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hunger</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">rationen</term>. Nach Erschöpfung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term>, die ungefähr nach drei Monaten zur völligen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitsunfähigkeit</term> führt, werden diese Menschen nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName> zur <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-533" type="subject">Vergasung</term> gebracht, an deren Stelle neue Juden in die Hölle untertags geschafft. Erst im letzten halben Jahre musste man mit den <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlingen</term> etwas rücksichtsvoller umgehen, da das Menschenreservoire leer wurde. Die verantwortlichen Männer heißen:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Obersturmführer</term>
+						<persName ref="#ehri_dc_pfutze_bruno">Bruno Pfütze</persName> aus <placeName ref="https://www.geonames.org/2879139/leipzig.html">Leipzig</placeName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Unterscharführer</term>
+						<persName ref="#ehri_dc_olejak_hans">Hans Olejek</persName> aus <placeName ref="http://www.geonames.org/3103437/bielice.html">Bielitz</placeName>, O.S.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Unterscharführer</term>
+						<persName ref="#ehri_dc_krauss_paul">Paul Krauss</persName> aus <placeName ref="https://www.geonames.org/2940132/chemnitz.html">Chemnitz</placeName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Rottenführer</term>
+						<persName ref="#ehri_dc_tausgrau_ewald">Ewald Tausegrau</persName>
+						<note type="gloss">Tausgrau</note> aus O.S.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Unterscharführer</term>
+						<persName ref="#ehri_dc_hablesreiter_otto">Otto Habelsreiter</persName>
+						<note type="gloss">Hablesreiter</note> aus <placeName ref="https://www.geonames.org/3062439/vrchlabi.html">Hohenelbe</placeName>, <placeName ref="https://www.geonames.org/3077311/czechia.html">Böhmen</placeName>.</p>
+					<p>Besondere Vorkommnisse dieses <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term>:</p>
+					<p><date when="1943-11">November 1943</date>: Durch 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">reichsdeutsche</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> /<persName ref="#ehri_dc_werner">Werner</persName> aus <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, <persName
+							ref="#ehri_dc_brodniewicz_bruno">Bruno Brodniewicz</persName> aus <placeName ref="http://www.geonames.org/3088171/poznan.html">Posen</placeName>, wohnhaft <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName> /wurden 52 <placeName
+							ref="https://www.geonames.org/798544/republic-of-poland.html">polnische</placeName> und <placeName ref="https://www.geonames.org/3077311/czechia.html">tschechische</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> angezeigt, sie hätten begonnen einen Graben unterhalb des Zaunes auszuwerden [sic!], in welchem sie <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204"
+							type="subject">flüchten</term> wollten. Hierauf wurden alle 52 sofort in den Bunker gebracht und das Vorkommen dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Reichsführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000181">Himmler</persName> gemeldet. Dieser bestimmte für die Hälfte der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term>, also 26, die sofortige
+						Vollstreckung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Todes</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-653" type="subject">strafe</term> in Anwesenheit der ganzen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagerbelegschaft</term>. Die übrigen werden in andere <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> zur langsamen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject">Vernichtung</term> verschleppt. Im <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> mussten die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> sofort einen Galgen errichten. Aus <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> kam der verantwortliche Mann, /<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Haupsturmführer</term>
+						<persName ref="#ehri_dc_schwarz">Schwarz</persName> aus <placeName ref="https://www.geonames.org/2867714/munich.html">München</placeName>/und inszenierte in furchtbarer Art ein sadistisches Schauspiel. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650"
+							type="subject">Mithäftlinge</term> sollten die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Exekution</term> vornehmen. Da sich bis auf den besagten <persName ref="#ehri_dc_brodniewicz_bruno">Bruno Brodniewicz</persName> alle weigerten
+						diese Handlung auszuführen, wurden sie mit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Peitschen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Gewehrkolgenschlägen</term> dazu gezwungen. Alle
+						26 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term>, von denen mir nur der Namen <persName ref="#ehri_dc_pfleger">Pfleger</persName> aus <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName>
+						erinnerlich ist, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">starben</term> würdig unter Hochrufen auf die <placeName ref="https://www.geonames.org/798544/republic-of-poland.html">polnische</placeName> und <placeName
+							ref="https://www.geonames.org/8505031/czechoslovakia.html">tschechoslowakische</placeName> Freiheit. <date when="1943-06">Juli 1943</date>: 1000 <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">griechische</placeName> Juden aus <placeName
+							ref="https://www.geonames.org/734077/thessaloniki.html">Saloniki</placeName> kommen am <date when="1943-07-02">2. Juli</date> ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>. Am Ende des Monates sind es nur mehr 400 und
+						im <date when="1943-09">September</date> bloss 64. Alle anderen sind <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">gestorben</term>, zur Hälfte etwa an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>Erschöpfungskrankheiten</term>, die übrigen zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Tode</term> geprügelt, ein Teil <q>auf der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschossen</term></q>, oder als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitsunfähig</term> nach <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName> in die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">Gaskammer</term> gebracht.</p>
+					<p><date when="1943-07">Juni 1943</date> - <date when="1945-01">Januar 1945</date>. Der durchschnittliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagerbestand</term> ist 3000-3500 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term>, aber im Laufe von 18 Monaten gingen 13.574 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> durch das<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"> Lager</term>. Es sind somit 90% <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">ums Leben gekommen</term>. </p>
+					<p><date when="1943-10">Oktober 1943</date>: Ein betrunkener <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Posten</term> schiesst in der Nacht ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>.
+						2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> werden verletzt. Dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Lagerführer</term> sind solche Vorfälle unangenehm, da er den <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1085" type="subject">Befehl</term> hat, im Interesse des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeitseinsatzes</term> solche Vorfälle zu vermeiden. Der billigste Ausweg
+						ist: man lässt die beiden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">sterben</term>, als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Todesursache</term> wird eingetragen <q>auf der <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Flucht</term>
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschossen</term></q>. Der damalige Sanitätsscharführer weigert sich den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1085" type="subject">Befehl</term> auszuführen. Er wird
+						in einen schlechteren Dienst versetzt und der genannte <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS U.Scharführer</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1085" type="subject">befiehlt</term> die verletzten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> in den <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">Am</term>-</p>
+					<pb facs="EHRI-DC-042_02.png" n="2"/>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">bulanzraum</term> zu bringen, wo er sie nicht etwa <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschießt</term>, sondern <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erwürgt</term>. Bei den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlingen</term> handelt es sich um polnische Juden im Alter von 22-25 Jahren. Die Namen
+						sind mir nicht mehr erinnerlich. Bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">Evakuierung</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-33" type="camp">Jaworznos</placeName> wurden sämtliche Akten vernichtet.</p>
+					<p><date when="1945-01">Januar 1945</date>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">Evakuierung</term> des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term> wegen der raschen Annäherung der
+							<placeName ref="https://www.geonames.org/8354411/union-of-soviet-socialist-republics.html">russischen</placeName> Front. Nur die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">kranken</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> müssen allein und ohne Pfleger zurückbleiben. Ob es gelungen ist den Plan der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject"
+							>Vernichtung</term> des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagers</term> samt den dort zurückgebliebenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlingen</term> durchzuführen,
+						entzieht sich meiner Kenntnis. 3200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> begeben sich auf den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Marsch</term>, 400 bleiben zurück. Die
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> bekommen als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Marsch</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ration</term> 400 g <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Brot</term>, 25 g <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">Margarine</term> und 50 g <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Wurst</term>. Die Stärke der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Begleitmannschaft</term> ist 300
+						Mann, also auf je 10 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-Posten</term>. Drei Tage und Nächte wird ohne jeden Aufenthalt
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marschiert</term>. Wer nicht weiter kann, wird <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschossen</term>. Manche <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> versuchen zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">fliehen</term>, was aber bloss zwei Glücklichen gelingt. Alle anderen wurden beim
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">Fluchtversuch</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">erschossen</term>. Etwa 1000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> blieben so innerhalb von drei Tagen auf der Strecke. Der weitere
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Marsch</term> bis zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross-Rosen</placeName> bei <placeName ref="http://www.geonames.org/3084440/strzegom.html">Striegau</placeName> verlangt innerhalb 10 Tagen weitere 1200 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term>. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">Erschossenen</term> säumen die <placeName
+							ref="https://www.geonames.org/3082777/upper-silesia.html">oberschlesischen</placeName> Strassen. Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">Marschtempo</term> ist nun etwas langsamer geworden, aber da <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> nur für sich sorgt und den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlingen</term> keine <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Nahrung</term> zur Verfügung stellt, bleibt viele, viele erschöpft liegen und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">sterben</term> durch die Kugeln der
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross-Rosen</placeName> bleiben die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftlinge</term> 4 Tage in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Pferdeställen</term> zusammengepfercht. Läuse, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">Krankheiten</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">Hunger</term> - Weitere 700 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745"
+							type="subject">Tote</term>. Von <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross-Rosen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">Bahntransport</term> nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>. Von den 300 hier angekommen sind 235 derart herabgekommen,
+						dass sie bis zum <date when="1945-02-11">11. Februar</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">starben</term>. Nur 65 erlebten die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">Befreiung</term> durch die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1078" type="subject">amerikanische Armee</term>. Unter diesen sind viele in einem so schlechten Zustande, dass deren Rückkehr in die Heimat nicht wahrscheinlich ist.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> dal k dispozici pan <persName ref="#ehri_dc_munk_max">Max Munk</persName>, <placeName ref="https://www.geonames.org/3063739/uherske-hradiste.html">Uherské
+							Hradiště</placeName>.</p>
+					<p>Opsáno dle originálu.</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal:</p>
+					<p><persName ref="#ehri_dc_weinberger_robert">Weinberger</persName></p>
+					<p>Opsala:</p>
+					<p>Za archiv:</p>
+					<p><persName ref="#ehri_dc_tressler_harald">Tressler</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-042_01.png" n="1"/>
+					<p>Dr. <persName ref="#ehri_dc_heller_paul">Paul Heller</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-287" type="subject">Physician</term>, b. <date when="1914-08-08">August 8, 1914</date> in <placeName
+							ref="https://www.geonames.org/3077685/chomutov.html">Komotau</placeName>, <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Č.S.R.</placeName></p>
+					<p><placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-33" type="camp">Jaworzno</placeName>.:/<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Subcamp</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496"
+							type="subject">K.L</term>. <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>.</p>
+					<p><date when="1943-06">June 1943</date> to <date when="1945-01">January 1945</date>: 3,000 mostly Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> /<placeName ref="https://www.geonames.org/798544/republic-of-poland.html"
+							>Poles</placeName>, <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Greeks</placeName>, <placeName ref="https://www.geonames.org/3017382/republic-of-france.html">French</placeName>, <placeName
+							ref="https://www.geonames.org/2802361/kingdom-of-belgium.html">Belgians</placeName>, <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czechs</placeName>/ have to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>work</term> in disused <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">coal mines</term> under unbelievable <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term> in civilized countries.
+						Weekly 5-7 fatal accidents, at least another 6 to 8 accidents resulting in permanent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-326" type="subject">disability</term>. Daily severe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562"
+							type="subject">mistreatment</term> by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term> Steiger and Nauer, with weekly 2-3 cases fatal. Starvation <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834"
+							type="subject">rations</term>. After exhaustion of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>, which leads to total inability to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>work</term> after about three months, these people are brought to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName> for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-533" type="subject">gassing</term>,
+						in their place new Jews made to hell during the day. Only in the last half year you had to deal with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> a little more considerate, since the human reservoir was empty. The
+						responsible men are called:</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Obersturmführer</term>
+						<persName ref="#ehri_dc_pfutze_bruno">Bruno Pfütze</persName> from <placeName ref="https://www.geonames.org/2879139/leipzig.html">Leipzig</placeName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Unterscharführer</term>
+						<persName ref="#ehri_dc_olejak_hans">Hans Olejek</persName> from <placeName ref="http://www.geonames.org/3103437/bielice.html">Bielitz</placeName>, O.S.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Unterscharführer</term>
+						<persName ref="#ehri_dc_krauss_paul">Paul Krauss</persName> from <placeName ref="https://www.geonames.org/2940132/chemnitz.html">Chemnitz</placeName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Rottenführer</term>
+						<persName ref="#ehri_dc_tausgrau_ewald">Ewald Tausegrau</persName>
+						<note type="gloss">Tausgrau</note> from O.S.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS Unterscharführer</term>
+						<persName ref="#ehri_dc_hablesreiter_otto">Otto Habelsreiter</persName>
+						<note type="gloss">Hablesreiter</note> from <placeName ref="https://www.geonames.org/3062439/vrchlabi.html">Hohenelbe</placeName>, <placeName ref="https://www.geonames.org/3077311/czechia.html">Bohemia</placeName>.</p>
+					<p>Special occurrences of this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>:</p>
+					<p><date when="1943-11">November 1943</date>: By 2 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">reichsdeutsche</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> /<persName ref="#ehri_dc_werner">Werner</persName> from <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, <persName
+							ref="#ehri_dc_brodniewicz_bruno">Bruno Brodniewicz</persName> from <placeName ref="http://www.geonames.org/3088171/poznan.html">Poznań</placeName>, living <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>/ 52 <placeName
+							ref="https://www.geonames.org/798544/republic-of-poland.html">Polish</placeName> and <placeName ref="https://www.geonames.org/3077311/czechia.html">Czech</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> were reported, they had begun to dig out a ditch below the fence, in which they wanted to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject"
+							>escape</term>. Then all 52 were immediately brought into the bunker and the occurrence reported to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">Reichsführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000181">Himmler</persName>. This determined for the half of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>, i.e. 26, the immediate execution of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> penalty in the presence of the entire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> staff. The rest are taken to other <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term> for slow <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject">destruction</term>. In the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> had to erect the gallows immediately. From <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> came the responsible man, /Haupsturmführer <persName ref="#ehri_dc_schwarz">Schwarz</persName> from <placeName ref="https://www.geonames.org/2867714/munich.html"
+							>Munich</placeName>/ and staged a sadistic spectacle in a terrible way. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Detainees</term> should carry out the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+							type="subject">execution</term>. Since all except the said <persName ref="#ehri_dc_brodniewicz_bruno">Bruno Brodniewicz</persName> refused to carry out this action, they were forced to do so with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562"
+							type="subject">whips</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">rifle strokes</term>. All 26 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>, of whom I remember only the
+						name of <persName ref="#ehri_dc_pfleger">Pfleger</persName> from <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> worthily calling for <placeName
+							ref="https://www.geonames.org/798544/republic-of-poland.html">Polish</placeName> and <placeName ref="https://www.geonames.org/8505031/czechoslovakia.html">Czechoslovak</placeName> freedom. <date when="1943-07">July 1943</date>: 1,000 <placeName
+							ref="https://www.geonames.org/390903/hellenic-republic.html">Greek</placeName> Jews from <placeName ref="https://www.geonames.org/734077/thessaloniki.html">Salonika</placeName> arrive at the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+							>camp</term> on <date when="1943-07-02">2 July</date>. At the end of the month, there are only 400 and only 64 in <date when="1943-09">September</date>. All the others have <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term>, half
+						of them suffering from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">fatigue</term>, the rest beaten to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>, some <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">run</term></q>, or taken to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-499" type="subject">gas chamber</term> as incapacitated for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>.</p>
+					<p><date when="1943-06">June 1943</date> - <date when="1945-01">January 1945</date>. The average stock is 3000-3500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>, but within 18 months 13,574 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> went through the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-33" type="camp">Jaworzno</placeName>. Thus, 90% have <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term>.</p>
+					<p><date when="1943-10">October 1943</date>: A drunken <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">post</term> shoots into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">camp</term> at night. 2 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> are injured. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">camp leader</term> is uncomfortable with such incidents as he has <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1085" type="subject">orders</term> to avoid such incidents in the interest of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor</term>. The cheapest way out is to let the two
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">die</term>, as the cause of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> is registered <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">run</term></q>. The then Sanitätsscharführer refuses to carry out the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1085" type="subject">order</term>. He is placed in a worse service and the same <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1188" type="subject">SS U.Scharfuhrer</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1085" type="subject">orders</term> the injured <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> to bring in</p>
+					<pb facs="EHRI-DC-042_02.png" n="2"/>
+					<p>the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">ambulance room</term>, where he does not <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shoot</term> them, but <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">strangles</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> are <placeName ref="https://www.geonames.org/798544/republic-of-poland.html"
+							>Polish</placeName> Jews aged 22-25 years. The names are no longer remembered. During the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">evacuation</term> of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-33"
+							type="camp">Jaworzno</placeName> all files were destroyed.</p>
+					<p><date when="1945-01">January 1945</date>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-623" type="subject">Evacuation</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> because of the rapid approach of
+						the <placeName ref="https://www.geonames.org/8354411/union-of-soviet-socialist-republics.html">Russian</placeName> front. Only the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> are left alone and without a nurse. Whether it was possible to carry out the plan of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-529" type="subject"
+							>extermination</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> together with the detained <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> there is beyond my
+						knowledge. 3,200 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> are on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">march</term>, 400 remain behind. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> receive 400g <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term>, 25g <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">margarine</term> and 50g <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sausage</term>. The strength of the accompanying team is 300 men, so for every 10 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650"
+							type="subject">inmates</term> one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS post</term>. Three days and nights are <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">marched</term> without any
+						stay. Who can not continue, is <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term>. Some <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> try to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>, but only two lucky ones succeed. All others were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shot</term> while trying to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>. About 1,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> were left behind within three days. The further <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">march</term> to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross-Rosen</placeName> near <placeName ref="http://www.geonames.org/3084440/strzegom.html">Striegau</placeName> demands within 10 days another 1,200 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term> line the streets of <placeName
+							ref="https://www.geonames.org/3082777/upper-silesia.html">Upper Silesia</placeName>. The pace of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">march</term> has now slowed somewhat, but as the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> only cares for themselves and provides no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmates</term>, many, many are left exhausted and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">die</term> by the bullets of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. In <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross-Rosen</placeName>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650"
+							type="subject">inmates</term> remain crammed together in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">horse stables</term> for 4 days. Lice, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>diseases</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">hunger</term> - another 700 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term>. From <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross-Rosen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">rail transport</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>. Of the 300 here, 235 have come down so much that they <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> until <date when="1945-03-11">February 11th</date>. Only 65 experienced the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberation</term> by the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1078" type="subject">American army</term>. Among these, many are in such poor condition that their return home is unlikely.</p>
+					<p>For the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term> from Mr. <persName ref="#ehri_dc_munk_max">Max Munk</persName>, <placeName ref="https://www.geonames.org/3063739/uherske-hradiste.html"
+							>Uherské Hradiště</placeName>.</p>
+					<p>Transcribed according to the original.</p>
+					<p>For the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>:</p>
+					<p><persName ref="#ehri_dc_weinberger_robert">Weinberger</persName></p>
+					<p>Transcribed by:</p>
+					<p>For the archive:</p>
+					<p><persName ref="#ehri_dc_tressler_harald">Tressler</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

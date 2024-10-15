@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-1946_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-1946_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,55 +8,63 @@
 				<title xml:lang="en">Concept by Ernst Kolm about the Nisko campaign</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Nisko. Das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/admin/institutions/at-001982">Dokumentationsarchiv des österreichischen
-							Widerstandes (DÖW)</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/admin/institutions/at-001982">Dokumentationsarchiv des österreichischen Widerstandes (DÖW)</orgName><address>
+								<street/>
+								<postCode/>
+								<settlement/>
+								<country/>
+							</address></institution>
 						<idno>Dokumentationsarchiv des österreichischen Widerstandes (DÖW), Sign. 2528</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl><textLang mainLang=""/></bibl>
-
-
+				<bibl>
+					<textLang mainLang=""></textLang>
+				</bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1946">1946</date>
-				<idno>EHRI-NISKO-1946</idno>
+				<origDate when="1946">1946</origDate>
 			</creation>
 			<textClass>
 				<keywords>
@@ -68,193 +76,149 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 			<abstract>
-				<p>Das ungezeichnete Konzept wurde vom Wiener Ernst Kolm (früher Kohn, geb. 7. 1. 1892) 1946 verfasst. Kolm war jüdischer
-					Transportleiter des 1. Wiener Nisko-Transports. Er leitete mehrere Monate die Krankenstation in Pyscnicza bzw. kümmerte sich um
-					geordnete Fluchtrouten über die sowjetische Grenze. Während dieser Zeit stand er in Kontakt mit der jüdischen "Selbstverwaltung"
-					des Lagers Zarzecze.</p>
+				<p>Das ungezeichnete Konzept wurde vom Wiener Ernst Kolm (früher Kohn, geb. 7. 1. 1892) 1946 verfasst. Kolm war jüdischer Transportleiter des 1. Wiener Nisko-Transports. Er leitete mehrere Monate die Krankenstation in Pyscnicza bzw. kümmerte sich um geordnete Fluchtrouten über die
+					sowjetische Grenze. Während dieser Zeit stand er in Kontakt mit der jüdischen "Selbstverwaltung" des Lagers Zarzecze.</p>
 			</abstract>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="EHRI-BF-1946_01.jpg" n="1"/>
-				<p>Im Sommer <date when="1939">1939</date> wurden im Auftrag der <orgName ref="#ehri_nisko_zentralstelle_wien">Zentralstelle für
-						jüdische Auswanderung</orgName>, <placeName ref="#vienna">Wien</placeName> IV. Prinz Eugenstrasse bei der <orgName
-						ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> Registrierungen der in <placeName ref="#vienna">Wien</placeName>
-					lebenden <term ref="#t864" type="subject">Juden</term> durchgeführt. - Auf Grund eines Aufrufes hatten sich die <placeName
-						ref="#vienna">Wiener</placeName>
-					<term ref="#t864" type="subject">Juden</term>, in alphabethischer Folge, an hierzu bestimmten Tagen im Gebäude der <orgName
-						ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName> einzufinden und es wurde dort eine genaue Aufnahme der eigenen
-					Personalien, als auch der der Familienangehörigen vorgenommen. -</p>
-				<p>Im <date when="1939-10">Oktober 1939</date> erhielten nun eine grosse Anzahl <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t864" type="subject">Juden</term> und zwar durchwegs <term ref="#t826" type="subject">Männer</term> die Verständigung
-					seitens der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName>, dass sie laut behördlichem Auftrag zur Umsiedlung
-					bestimmt sind und zur Entgegennahme von Weisungen sich zu der in der Vorladung bestimmten Zeit in der <orgName
-						ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName> einzufinden haben, wobei das Nichterscheinen unter Strafe gestellt war.
-					-</p>
-				<p>Die Erschienenen wurden belehrt, dass sie zu einem sogenannten „<term ref="#t521" type="subject">Umsiedlungsransport</term>“
-					eingeteilt sind, der nach <placeName ref="#republic-of-poland">Polen</placeName> geht, wo ihnen in einer von der polnischen
-					Zivilbevölkerung verlassenen Gegend, Haus und Hof zugewiesen wird und dass dann später die Familienangehörigen angefordert und
-					nachgeschickt werden. - Die zu diesen <term ref="#t521" type="subject">Transporten</term> Eingeteilten wurden von einer ärztlichen
-					Untersuchungskommission unter Leitung des H. <persName ref="#ehri_nisko_loewenstein_heinrich">Med. Rates Löwenstein</persName>
-					untersucht und fast durchwegs als transportfähig befunden. -</p>
-				<p>Bei der Einteilung zu den <term ref="#t521" type="subject">Transporten</term> wurde auf bereits in Händen befindliche
-					Ausreisemöglichkeiten (<term ref="#t870" type="subject">Affidavits</term> usw.), sowie auf bestehende <term
-						ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-375" type="subject">Mischehen</term> u.s.w. keinerlei Rücksicht
-					genommen. -</p>
-				<pb facs="EHRI-BF-1946_02.jpg" n="2"/>
-				<p>Den <term ref="#t519" type="subject">Transportteilnehmern</term> wurde noch bekanntgegeben, dass sie Gepäck im Umfang von 50 kg und
-					Bargeld bis zu RM 300.- frei mitnehmen können. -</p>
-				<p>Es wurden noch <term ref="#t521" type="subject">Transportleiter</term> und Waggonleiter bestimmt, die dahin belehrt wurden, dass
-					sich an Ort und Stelle bereits Funktionäre der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> befinden, die
-					die <term ref="#t521" type="subject">Transporte</term> erwarten und in die Quartiere führen werden. -</p>
-				<p>Es gingen auf diese Weise von <placeName ref="#vienna">Wien</placeName> zwei <term ref="#t521" type="subject">Transporte</term> ab
-					und zwar</p>
-				<p>am <date when="1939-10-20">20. Oktober 1939</date> der erste mit 912 <term ref="#t826" type="subject">Mann</term> und</p>
-				<p>am <date when="1939-10-23">23. Oktober 1939</date> der zweite mit 669 <term ref="#t826" type="subject">Mann</term></p>
-				<p>insgesamt 1581 <term ref="#t826" type="subject">Mann</term></p>
-				<p>wobei die Anzahl der <term ref="#t519" type="subject">Teilnehmer</term> des zweiten <term ref="#t521" type="subject"
-						>Transportes</term> nicht ganz genau angegeben werden kann. (Die Anzahl des ersten <term ref="#t521" type="subject"
-						>Transportes</term> mit 912 <term ref="#t826" type="subject">Mann</term> stimmt auf Grund der verfügbaren Transportlisten,
-					während vom zweiten <term ref="#t521" type="subject">Transport</term> nur unvollständiges Material vorhanden ist) -</p>
-				<p>Die Abfertigung dieser beiden <term ref="#t521" type="subject">Transporte</term> erfolgte an den obangeführten Tagen am <placeName
-						ref="#ehri_nisko_aspangbahnhof">Aspangbahnhof</placeName> unter Bewachung der <orgName ref="#g429">SS</orgName> und jedem
-						<term ref="#t521" type="subject">Transport</term> war ein Zug <placeName ref="#vienna">Wiener</placeName>
-					<orgName ref="#g428">Schutzpolizei</orgName> mitgegeben. In jedem Waggon machte ein <term ref="#t1119" type="subject"
-						>Polizist</term> mit Waffe Dienst. -</p>
-				<p>Ein dritter <term ref="#t521" type="subject">Transport</term> wurde inzwischen bereits als gemischter <term ref="#t521"
-						type="subject">Transport</term>, also auch <term ref="#t825" type="subject">Frauen</term> und <term ref="#t824" type="subject"
-						>Kinder</term>, zusammengestellt und in <placeName ref="#vienna">Wien</placeName>
-					<placeName ref="#ehri_nisko_gaensbachergasse">Gänsbachergasse</placeName> lagermässig kaserniert, kam jedoch nicht zum <term
-						ref="#t521" type="subject">Abtransport</term>. -</p>
-				<p>Beide <term ref="#t521" type="subject">Transporte</term>, also der erste und zweite <term ref="#t521" type="subject"
-						>Transport</term> wurden über <placeName ref="#breclav">Lundenburg</placeName>-<placeName ref="#prerov"
-						>Prerau</placeName>-<placeName ref="#ostrava">Mähr. Ostrau</placeName>-<placeName ref="#krakow">Krakau</placeName> nach <hi
-						rend="underline"><placeName ref="#nisko">NISKO am San</placeName></hi> geleitet und dort auswaggoniert. - Der erste <term
-						ref="#t521" type="subject">Transport</term> kam am <date when="1939-10-23">23.</date>, der zweite am <date when="1939-10-26"
-						>26. Oktober 1939</date> in dieser Station an. -</p>
-				<p>
-					<pb facs="EHRI-BF-1946_03.jpg" n="3"/>
-				</p>
-				<p>An Stelle von Funktionären der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> erwartete <orgName ref="#g429"
-						>SS</orgName> unter Kommando des <persName ref="#ehri_nisko_dannecker_theodor">Oberscharführers Dannecker</persName>
-					(Vertreter des SS-Hauptsturmführer <persName ref="#p000564">Eichmann</persName>) die <term ref="#t521" type="subject"
-						>Transporte</term>.</p>
-				<p>Während der Fahrt, die natürlich unter strengster Bewachung der begleitenden <term ref="#t1119" type="subject">Polizei</term>
-					stand, wurde den <term ref="#t521" type="subject">Transportleitern</term> Auftrag erteilt:</p>
-				<p>1. Alle Gelder von den <term ref="#t519" type="subject">Transportteilnehmern</term> einzuheben und mit einer genauen Liste dem
-					Transportkommando zu melden,</p>
-				<p>2. alle <term ref="#t587" type="subject">Personaldokumente</term> in hierzu zur Verfügung gestellte Umschläge zu geben und auf
-					jedem Umschlag Name des <term ref="#t519" type="subject">Transportteilnehmers</term> zu setzen und diese Belege dem
-					Transportkommando zu übergeben.—</p>
-				<p>Zu Punkt 1. wird erklärt, dass im Sinne der in <placeName ref="#vienna">Wien</placeName> erteilten Instruktionen ein Umtausch der
-					Reichsmark in Zloty zu einem Kurs 1 zu 2 erfolgen wird. - Dieser Umtausch wurde beim 1. <term ref="#t521" type="subject"
-						>Transport</term> nicht in diesem Sinne durchgeführt. Das ganze Geld wurde <persName ref="#ehri_nisko_dannecker_theodor"
-						>Oberscharführer Dannecker</persName> abgeliefert und zwar RM <note place="end">Anzahl hier und bei der nächsten Anführung von
-						RM nicht eingetragen</note> der hierfür eine Quote von Zloty 150.- pro <term ref="#t519" type="subject"
-						>Transportteilnehmer</term>, ohne Rücksicht auf den tatsächlich von dem einzelnen <term ref="#t519" type="subject"
-						>Teilnehmer</term> abgegebenen Betrag bestimmte.— Beim 1. <term ref="#t521" type="subject">Transport</term> ging demnach ein
-					Betrag von RM nicht zur Umwechslung, der laut Erklärung d. <persName ref="#p000088">Oberscharführer D.</persName> zur Deckung der
-					Transportkosten beim <orgName ref="#g429">SS</orgName>-Kommando verblieben ist. - Beim 2. <term ref="#t521" type="subject"
-						>Transport</term> soll die Umwechslung weisungsgemäss erfolgt sein. -</p>
-				<p>Zu Punkt 2 wird erklärt, dass durch die <term ref="#t587" type="subject">Abnahme der Personaldokumente</term> die Transportler
-					keinerlei Ausweispapiere mehr bei sich hatten. -</p>
-				<p>Die Auswaggonierung vollzog sich derart, dass gruppenweise immer drei Waggons <pb facs="EHRI-BF-1946_04.jpg" n="4"/>auswaggoniert
-					wurden, das Gepäck wurde auf bereitgestellte landesübliche Fuhrwerke verladen und diese Gruppen marschierten unter Bewachung von
-						<term ref="#t1216" type="subject">SS-Leuten</term> und <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t1119" type="subject">Polizei</term> ab. -</p>
-				<p>Die Weiterleitung erfolgte über den damals hoch angeschwollenen San nach <placeName ref="#zarzecze">Zarzecze</placeName>, wo auf
-					einer sumpfigen Anhöhe, zum San abhängend, bereits einige Tage vorher (am <date when="1939-10-20">20. Oktober 1939</date>) der
-					erste <term ref="#t521" type="subject">Transport</term> von <term ref="#t864" type="subject">Juden</term> aus <placeName
-						ref="#ostrava">Mährisch Ostrau</placeName>, gleichfalls nur <term ref="#t826" type="subject">Männer</term>, eingetroffen war.—
-					Bei diesem <term ref="#t521" type="subject">Transport</term> befanden sich die Funktionäre aus <placeName ref="#vienna"
-						>Wien</placeName> und zwar <persName ref="#ehri_nisko_murmelstein_benjamin">Dr. Murmelstein</persName>, <persName
-						ref="#ehri_nisko_gruen_maurycy">Dr. Grün</persName>, <persName ref="#ehri_nisko_boschan_julius">Boschan</persName>, Edelmann,
-					Feldmann, waren aber nicht zu sehen. -</p>
-				<p>Auf dieser Anhöhe wurde bereits mit der Errichtung von Notbaracken durch die <placeName ref="#ostrava">Mähr. Ostrauer</placeName>
-					<term ref="#t519" type="subject">Teilnehmer</term> gearbeitet, wobei bemerkt wird, dass dieser <term ref="#t521" type="subject"
-						>Transport</term> aus 1000 Mann bestand, jedoch nur mehr ca. 400 im zu errichtenden <term ref="#t567" type="subject"
-						>Lager</term> anwesend waren. -</p>
-				<p>Die <term ref="#t519" type="subject">Teilnehmer</term> der beiden <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t521" type="subject">Transporte</term> wurden jedoch nicht ins <term ref="#t567" type="subject">Lager</term> geführt,
-					sondern entlang des <term ref="#t567" type="subject">Lagers</term> auf der Landstrasse weiter geführt, wobei durch das <term
-						ref="#t567" type="subject">Lager</term>
-					<orgName ref="#g429">SS</orgName>-Kommando (<persName ref="#ehri_nisko_post_johannes">Sturmbannführer Post</persName>) von beiden
-						<term ref="#t521" type="subject">Transporten</term> 198 Mann zurückbehalten wurden.— Alle anderen <term ref="#t519"
-						type="subject">Teilnehmer</term> wurden in Gruppen weitergeführt, auf einer Wiese, ca. 6 km nördlich des <term ref="#t567"
-						type="subject">Lagers</term>, zwischen <placeName ref="#klyzow">Klyzow</placeName> und <placeName ref="#pysznica"
-						>Pysznica</placeName>, aufgestellt, mussten den Fuhrleuten, durchwegs <term ref="#ehri_nisko_nationalities_poles"
-					>Polen</term>, zwischen Zloty 10 und 20.- für die Gepäckbeförderung bezahlen und erhielten dann den Auftrag sofort
-					weiterzumarschieren. Innerhalb zweier Stunden darf niemand mehr in der Gegend angetroffen werden, wobei sowohl seitens der
-						<orgName ref="#g429">SS</orgName>-Eskorte, als auch seitens der <term ref="#t1119" type="subject">Polizeimannschaft</term>
-					durch Abgabe von Schüssen Nachdruck verliehen wurde. -</p>
-				<p>Die Folge war, dass die Leute <pb facs="EHRI-BF-1946_05.jpg" n="5"/>zum grössten Teil unter Zurücklassung ihrer Gepäckstücke
-					fluchtartig gegen Norden, Richtung <placeName ref="#lublin">Lublin</placeName> weiterzogen, wobei sie auf ihrem Weitermarsch, der
-					meistens in kleineren Gruppen erfolgte, wiederholt von der Landbevölkerung überfallen und ausgeraubt wurden. -</p>
-				<p>Hierzu wird bemerkt, dass vom ersten <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t521" type="subject">Transport</term>, nach durchgeführter Verjagung der <term ref="#t519" type="subject"
-						>Transportteilnehmer</term> über 400 herrenlose Gepäckstücke in das <term ref="#t567" type="subject">Lager</term>
-					<placeName ref="#zarzecze">Zarzecze</placeName> zurückgeführt wurden und dem <orgName ref="#g429">SS</orgName>-Lagerkommando
-					übergeben werden mussten.— Beim zweiten <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t521" type="subject">Transport</term> war das Gepäck in Güterwaggons verladen, die <term ref="#t519" type="subject"
-						>Transportteilnehmer</term> wurden zum allergrössten Teil ohne ihr Gepäck davongejagt und das Gepäck verblieb beim <orgName
-						ref="#g429">SS</orgName>-Kommando in <placeName ref="#nisko">Nisko</placeName>.—</p>
-				<p>Unter Berücksichtigung, dass von beiden <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t521" type="subject">Transporten</term> nur 198 <term ref="#t519" type="subject">Teilnehmer</term> im <term
-						ref="#t567" type="subject">Lager</term>
-					<placeName ref="#zarzecze">Zarzecze</placeName> zurückbehalten wurden, sind die restlichen <term ref="#t519" type="subject"
-						>Teilnehmer</term> und zwar 1383 Menschen zum überwiegenden Teil ohne ihr Gepäck als Freiwild weitergewandert, wiederholt von
-					der Landbevölkerung überfallen und beraubt und haben den einzig ihnen offenstehenden Weg genommen, nämlich über die Grenze nach
-						<placeName>Russland</placeName> zu gehen.</p>
-				<p>Sie kamen mit mehr oder weniger beschwerlichen Umständen über die Grenze und hielten sich meistens in den grösseren und kleineren
-					Städten des ehemaligen <placeName ref="#galicia">Galiziens</placeName> auf (<placeName ref="#lviv">Lemberg</placeName>, <placeName
-						ref="#ternopil">Tarnopol</placeName>, <placeName ref="#ivano-frankivsk">Stanislau</placeName>, u.s.w.), wo sie zum Teil <term
-						ref="#t943" type="subject">Arbeit</term> fanden und durch ca. 6 Monate unbehelligt leben konnten.-</p>
-				<p>Im Sommer <date when="1940">1940</date> erfolgte seitens der russ. Behörden eine Registrierung unter folgenden Umständen:</p>
-				<p>1. Option für <placeName>Russland</placeName>, als russ. Staatsbürger</p>
-				<p>2. Rückkehr</p>
-				<p>3. Ausland.</p>
-				<p>Ein geringer Teil hat die Optionserklärung abgegeben. -</p>
-				<p>Die Mehrheit meldete sich für eine Rückkehr, mit der Begründung Familienangehörige zurückgelassen zu haben, mit denen sie ja
-					zusammensein wollen, wenige auch zur Ausreise ins Ausland, soweit sie Ausreisemöglichkeiten, (Affidavits, usw.) hatten. -</p>
-				<p>Die Optanten wurden nach und nach in irgend einer Form in Dienst gestellt.-</p>
-				<p>Alle anderen, die sich zu Punkt 2 und 3 gemeldet hatten, wurden zu <term ref="#t521" type="subject">Transporten</term>
-					zusammengestellt, meistens in der Nacht eingeholt, und in das Tiefe des Landes, weit nach Osten, zum grössten Teil nach Sibirien
-					in <term ref="#t567" type="subject">Arbeitslager</term> unter Aufsicht der NKWD abtransportiert.-</p>
-				<p>Die <term ref="#t556">Arbeit</term> in diesen <term ref="#t567" type="subject">Lagern</term> war eine ungemein schwere und der
-					Grossteil der Menschen dieser <term ref="#t556">Arbeit</term> physisch nicht gewachsen. -</p>
-				<p>Die Motive für die Angabe bei der Registrierung laut Punkt 2 und 3 wurden jedoch so ausgelegt, dass diese Menschen als „sozial
-					gefährliche Elemente“ behandelt wurden, für<pb facs="EHRI-BF-1946_06.jpg" n="6"/> welche Sorte ein Aufenthalt von 3 bis 8 Jahren
-					in einem <term ref="#t567" type="subject">Lager</term> bestimmt wurde, wobei nach Ablauf dieser Frist eine weitere
-					Spezialverfügung abzuwarten ist, so dass heute noch der Grossteil dieser Menschen sich in solchen <term ref="#t567" type="subject"
-						>Lagern</term> befinden. -</p>
-				<p>Von den 1383 Menschen sind bis heute</p>
-				<p>22 Personen</p>
-				<p>nach <placeName ref="#vienna">Wien</placeName> zurückgekehrt. - Es sind also noch</p>
-				<p>1361 <placeName ref="#vienna">Wiener</placeName></p>
-				<p>ohne Berücksichtigung der sicherlich seit 1939 erfolgten <term ref="#t745">Todesfälle</term>, in <placeName>Russland</placeName>. -
-					Von einigen sind die Anschriften bereits bekannt. -</p>
-				<p>Die 22 Rückkehrer aus den beiden <placeName ref="#vienna">Wiener</placeName>
-					<term ref="#t521" type="subject">Transporten</term> fordern nun für sich und für alle noch Zurückkehrenden aus diesen <term
-						ref="#t521" type="subject">Transporten</term>, die gleiche Behandlung und Einstellung, wie wenn sie effektiv in einem <term
-						ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-496" type="subject">Konzentrationslager</term> gewesen wären. -
-					Sie waren effektiv vom Jahre <date when="1939">1939</date> bis <date when="1946">1946</date> in einem <term ref="#t567"
-						type="subject">Lager</term>. - Sie sind auch nicht als einfache <term ref="#t302" type="subject">Emigranten</term> zu
-					behandeln, da sie nicht freiwillig über die Grenze gingen, sondern zwangsweise abtransportiert wurden. -</p>
-				<p>Von diesen 22 Personen sind bereits <note n="3" place="end">Anzahl hier und bei der nächsten Anführung von Personen
-						unleserlich</note> Personen durch Anhaltungen in <term ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-496"
-						type="subject">Konzentrationslagern</term> vor ihrer <term ref="#t518" type="subject">Deportierung</term> nach <placeName
-						ref="#nisko">Nisko</placeName> bereits Mitglieder des <orgName ref="#ehri_nisko_kz_verband">KZ-Verbandes</orgName>, so dass
-					nur für den Rest von Personen die Aufnahme in den <orgName ref="#ehri_nisko_kz_verband">KZ-Verband</orgName> gefordert wird. -</p>
-				<p>Die 22 Rückkehrer fordern aber auch, dass sofort die nötigen Schritte unternommen werden, dass</p>
-				<p>1. über die noch restlichen 1361 <placeName ref="#vienna">Wiener</placeName> Nachforschungen in <placeName>Russland</placeName>
-					eingeleitet werden und</p>
-				<p>2. alles vorgekehrt wird, dass die sofortige Entlassung der noch in <placeName>Russland</placeName> befindlichen Ueberlebenden
-					dieser beiden <term ref="#t521" type="subject">Transporte</term> und deren Rückkehr nach <placeName ref="#vienna">Wien</placeName>
-					durchgeführt wird. -</p>
-				<p>Auf Grund der vorhandenen Aufzeichnungen kann eine Namensliste zu diesem Zwecke beigestellt werden. -</p>
-				<p> </p>
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-BF-1946_01.jpg" n="1"/>
+					<p>Im Sommer <date when="1939">1939</date> wurden im Auftrag der <orgName ref="#ehri_nisko_zentralstelle_wien">Zentralstelle für jüdische Auswanderung</orgName>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> IV. Prinz Eugenstrasse bei der <orgName
+							ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> Registrierungen der in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> lebenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>
+						durchgeführt. - Auf Grund eines Aufrufes hatten sich die <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>, in alphabethischer Folge, an hierzu bestimmten Tagen im Gebäude der <orgName ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName> einzufinden und es wurde dort eine genaue Aufnahme
+						der eigenen Personalien, als auch der der Familienangehörigen vorgenommen. -</p>
+					<p>Im <date when="1939-10">Oktober 1939</date> erhielten nun eine grosse Anzahl <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> und zwar durchwegs <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Männer</term> die Verständigung seitens der <orgName ref="#ehri_nisko_ikg_wien"
+							>Wiener Kultusgemeinde</orgName>, dass sie laut behördlichem Auftrag zur Umsiedlung bestimmt sind und zur Entgegennahme von Weisungen sich zu der in der Vorladung bestimmten Zeit in der <orgName ref="#ehri_nisko_ikg_wien">Kultusgemeinde</orgName> einzufinden haben, wobei
+						das Nichterscheinen unter Strafe gestellt war. -</p>
+					<p>Die Erschienenen wurden belehrt, dass sie zu einem sogenannten „<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Umsiedlungsransport</term>“ eingeteilt sind, der nach <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+							>Polen</placeName> geht, wo ihnen in einer von der polnischen Zivilbevölkerung verlassenen Gegend, Haus und Hof zugewiesen wird und dass dann später die Familienangehörigen angefordert und nachgeschickt werden. - Die zu diesen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> Eingeteilten wurden von einer ärztlichen Untersuchungskommission unter Leitung des H. <persName ref="#ehri_nisko_loewenstein_heinrich">Med. Rates Löwenstein</persName>
+						untersucht und fast durchwegs als transportfähig befunden. -</p>
+					<p>Bei der Einteilung zu den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> wurde auf bereits in Händen befindliche Ausreisemöglichkeiten (<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-870"
+							type="subject">Affidavits</term> usw.), sowie auf bestehende <term ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-375" type="subject">Mischehen</term> u.s.w. keinerlei Rücksicht genommen. -</p>
+					<pb facs="EHRI-BF-1946_02.jpg" n="2"/>
+					<p>Den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Transportteilnehmern</term> wurde noch bekanntgegeben, dass sie Gepäck im Umfang von 50 kg und Bargeld bis zu RM 300.- frei mitnehmen können. -</p>
+					<p>Es wurden noch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transportleiter</term> und Waggonleiter bestimmt, die dahin belehrt wurden, dass sich an Ort und Stelle bereits Funktionäre der <orgName ref="#ehri_nisko_ikg_wien">Wiener
+							Kultusgemeinde</orgName> befinden, die die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> erwarten und in die Quartiere führen werden. -</p>
+					<p>Es gingen auf diese Weise von <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zwei <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> ab und zwar</p>
+					<p>am <date when="1939-10-20">20. Oktober 1939</date> der erste mit 912 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term> und</p>
+					<p>am <date when="1939-10-23">23. Oktober 1939</date> der zweite mit 669 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term></p>
+					<p>insgesamt 1581 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term></p>
+					<p>wobei die Anzahl der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> des zweiten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transportes</term> nicht ganz genau angegeben werden kann.
+						(Die Anzahl des ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transportes</term> mit 912 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Mann</term> stimmt auf Grund der verfügbaren Transportlisten,
+						während vom zweiten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> nur unvollständiges Material vorhanden ist) -</p>
+					<p>Die Abfertigung dieser beiden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> erfolgte an den obangeführten Tagen am <placeName ref="#ehri_nisko_aspangbahnhof">Aspangbahnhof</placeName> unter Bewachung der <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> und jedem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> war ein Zug <placeName ref="http://www.geonames.org/2761369/vienna.html"
+							>Wiener</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-428">Schutzpolizei</orgName> mitgegeben. In jedem Waggon machte ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizist</term> mit Waffe Dienst. -</p>
+					<p>Ein dritter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> wurde inzwischen bereits als gemischter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term>, also auch <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Kinder</term>, zusammengestellt und in <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>
+						<placeName ref="#ehri_nisko_gaensbachergasse">Gänsbachergasse</placeName> lagermässig kaserniert, kam jedoch nicht zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Abtransport</term>. -</p>
+					<p>Beide <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term>, also der erste und zweite <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> wurden über <placeName
+							ref="http://www.geonames.org/3078773/breclav.html">Lundenburg</placeName>-<placeName ref="http://www.geonames.org/3067580/prerov.html">Prerau</placeName>-<placeName ref="http://www.geonames.org/3068799/ostrava.html">Mähr. Ostrau</placeName>-<placeName
+							ref="http://www.geonames.org/3094802/krakow.html">Krakau</placeName> nach <hi rend="underline"><placeName ref="http://www.geonames.org/763829/nisko.html">NISKO am San</placeName></hi> geleitet und dort auswaggoniert. - Der erste <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> kam am <date when="1939-10-23">23.</date>, der zweite am <date when="1939-10-26">26. Oktober 1939</date> in dieser Station an. -</p>
+					<p>
+						<pb facs="EHRI-BF-1946_03.jpg" n="3"/>
+					</p>
+					<p>An Stelle von Funktionären der <orgName ref="#ehri_nisko_ikg_wien">Wiener Kultusgemeinde</orgName> erwartete <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> unter Kommando des <persName ref="#ehri_nisko_dannecker_theodor">Oberscharführers
+							Dannecker</persName> (Vertreter des SS-Hauptsturmführer <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName>) die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term>.</p>
+					<p>Während der Fahrt, die natürlich unter strengster Bewachung der begleitenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> stand, wurde den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+							>Transportleitern</term> Auftrag erteilt:</p>
+					<p>1. Alle Gelder von den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Transportteilnehmern</term> einzuheben und mit einer genauen Liste dem Transportkommando zu melden,</p>
+					<p>2. alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-587" type="subject">Personaldokumente</term> in hierzu zur Verfügung gestellte Umschläge zu geben und auf jedem Umschlag Name des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519"
+							type="subject">Transportteilnehmers</term> zu setzen und diese Belege dem Transportkommando zu übergeben.—</p>
+					<p>Zu Punkt 1. wird erklärt, dass im Sinne der in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> erteilten Instruktionen ein Umtausch der Reichsmark in Zloty zu einem Kurs 1 zu 2 erfolgen wird. - Dieser Umtausch wurde beim 1. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> nicht in diesem Sinne durchgeführt. Das ganze Geld wurde <persName ref="#ehri_nisko_dannecker_theodor">Oberscharführer Dannecker</persName> abgeliefert und zwar RM <note
+							place="end">Anzahl hier und bei der nächsten Anführung von RM nicht eingetragen</note> der hierfür eine Quote von Zloty 150.- pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Transportteilnehmer</term>, ohne Rücksicht auf den
+						tatsächlich von dem einzelnen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> abgegebenen Betrag bestimmte.— Beim 1. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> ging
+						demnach ein Betrag von RM nicht zur Umwechslung, der laut Erklärung d. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000088">Oberscharführer D.</persName> zur Deckung der Transportkosten beim <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Kommando verblieben ist. - Beim 2. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> soll die Umwechslung weisungsgemäss erfolgt sein. -</p>
+					<p>Zu Punkt 2 wird erklärt, dass durch die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-587" type="subject">Abnahme der Personaldokumente</term> die Transportler keinerlei Ausweispapiere mehr bei sich hatten. -</p>
+					<p>Die Auswaggonierung vollzog sich derart, dass gruppenweise immer drei Waggons <pb facs="EHRI-BF-1946_04.jpg" n="4"/>auswaggoniert wurden, das Gepäck wurde auf bereitgestellte landesübliche Fuhrwerke verladen und diese Gruppen marschierten unter Bewachung von <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS-Leuten</term> und <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizei</term> ab. -</p>
+					<p>Die Weiterleitung erfolgte über den damals hoch angeschwollenen San nach <placeName ref="http://www.geonames.org/753760/zarzecze.html">Zarzecze</placeName>, wo auf einer sumpfigen Anhöhe, zum San abhängend, bereits einige Tage vorher (am <date when="1939-10-20">20. Oktober
+							1939</date>) der erste <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> aus <placeName
+							ref="http://www.geonames.org/3068799/ostrava.html">Mährisch Ostrau</placeName>, gleichfalls nur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">Männer</term>, eingetroffen war.— Bei diesem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> befanden sich die Funktionäre aus <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> und zwar <persName ref="#ehri_nisko_murmelstein_benjamin">Dr.
+							Murmelstein</persName>, <persName ref="#ehri_nisko_gruen_maurycy">Dr. Grün</persName>, <persName ref="#ehri_nisko_boschan_julius">Boschan</persName>, Edelmann, Feldmann, waren aber nicht zu sehen. -</p>
+					<p>Auf dieser Anhöhe wurde bereits mit der Errichtung von Notbaracken durch die <placeName ref="http://www.geonames.org/3068799/ostrava.html">Mähr. Ostrauer</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> gearbeitet, wobei bemerkt wird, dass dieser <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> aus 1000 Mann bestand, jedoch nur
+						mehr ca. 400 im zu errichtenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term> anwesend waren. -</p>
+					<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> der beiden <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> wurden jedoch nicht ins <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term> geführt, sondern entlang des <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lagers</term> auf der Landstrasse weiter geführt, wobei durch das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Kommando (<persName ref="#ehri_nisko_post_johannes">Sturmbannführer Post</persName>) von beiden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+							>Transporten</term> 198 Mann zurückbehalten wurden.— Alle anderen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> wurden in Gruppen weitergeführt, auf einer Wiese, ca. 6 km nördlich des <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lagers</term>, zwischen <placeName ref="http://www.geonames.org/768978/klyzow.html">Klyzow</placeName> und <placeName ref="http://www.geonames.org/760871/pysznica.html">Pysznica</placeName>,
+						aufgestellt, mussten den Fuhrleuten, durchwegs <term ref="#ehri_nisko_nationalities_poles">Polen</term>, zwischen Zloty 10 und 20.- für die Gepäckbeförderung bezahlen und erhielten dann den Auftrag sofort weiterzumarschieren. Innerhalb zweier Stunden darf niemand mehr in der
+						Gegend angetroffen werden, wobei sowohl seitens der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Eskorte, als auch seitens der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Polizeimannschaft</term>
+						durch Abgabe von Schüssen Nachdruck verliehen wurde. -</p>
+					<p>Die Folge war, dass die Leute <pb facs="EHRI-BF-1946_05.jpg" n="5"/>zum grössten Teil unter Zurücklassung ihrer Gepäckstücke fluchtartig gegen Norden, Richtung <placeName ref="http://www.geonames.org/765876/lublin.html">Lublin</placeName> weiterzogen, wobei sie auf ihrem
+						Weitermarsch, der meistens in kleineren Gruppen erfolgte, wiederholt von der Landbevölkerung überfallen und ausgeraubt wurden. -</p>
+					<p>Hierzu wird bemerkt, dass vom ersten <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term>, nach durchgeführter Verjagung der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Transportteilnehmer</term> über 400 herrenlose Gepäckstücke
+						in das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term>
+						<placeName ref="http://www.geonames.org/753760/zarzecze.html">Zarzecze</placeName> zurückgeführt wurden und dem <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Lagerkommando übergeben werden mussten.— Beim zweiten <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> war das Gepäck in Güterwaggons verladen, die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Transportteilnehmer</term> wurden zum
+						allergrössten Teil ohne ihr Gepäck davongejagt und das Gepäck verblieb beim <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName>-Kommando in <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName>.—</p>
+					<p>Unter Berücksichtigung, dass von beiden <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> nur 198 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> im <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term>
+						<placeName ref="http://www.geonames.org/753760/zarzecze.html">Zarzecze</placeName> zurückbehalten wurden, sind die restlichen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> und zwar 1383 Menschen zum überwiegenden Teil ohne
+						ihr Gepäck als Freiwild weitergewandert, wiederholt von der Landbevölkerung überfallen und beraubt und haben den einzig ihnen offenstehenden Weg genommen, nämlich über die Grenze nach <placeName>Russland</placeName> zu gehen.</p>
+					<p>Sie kamen mit mehr oder weniger beschwerlichen Umständen über die Grenze und hielten sich meistens in den grösseren und kleineren Städten des ehemaligen <placeName ref="http://www.geonames.org/562153/galicia.html">Galiziens</placeName> auf (<placeName
+							ref="http://www.geonames.org/702550/lviv.html">Lemberg</placeName>, <placeName ref="http://www.geonames.org/691650/ternopil.html">Tarnopol</placeName>, <placeName ref="http://www.geonames.org/707471/ivano-frankivsk.html">Stanislau</placeName>, u.s.w.), wo sie zum Teil
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">Arbeit</term> fanden und durch ca. 6 Monate unbehelligt leben konnten.-</p>
+					<p>Im Sommer <date when="1940">1940</date> erfolgte seitens der russ. Behörden eine Registrierung unter folgenden Umständen:</p>
+					<p>1. Option für <placeName>Russland</placeName>, als russ. Staatsbürger</p>
+					<p>2. Rückkehr</p>
+					<p>3. Ausland.</p>
+					<p>Ein geringer Teil hat die Optionserklärung abgegeben. -</p>
+					<p>Die Mehrheit meldete sich für eine Rückkehr, mit der Begründung Familienangehörige zurückgelassen zu haben, mit denen sie ja zusammensein wollen, wenige auch zur Ausreise ins Ausland, soweit sie Ausreisemöglichkeiten, (Affidavits, usw.) hatten. -</p>
+					<p>Die Optanten wurden nach und nach in irgend einer Form in Dienst gestellt.-</p>
+					<p>Alle anderen, die sich zu Punkt 2 und 3 gemeldet hatten, wurden zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> zusammengestellt, meistens in der Nacht eingeholt, und in das Tiefe des Landes, weit nach Osten, zum grössten
+						Teil nach Sibirien in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Arbeitslager</term> unter Aufsicht der NKWD abtransportiert.-</p>
+					<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">Arbeit</term> in diesen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lagern</term> war eine ungemein schwere und der Grossteil der Menschen dieser <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556">Arbeit</term> physisch nicht gewachsen. -</p>
+					<p>Die Motive für die Angabe bei der Registrierung laut Punkt 2 und 3 wurden jedoch so ausgelegt, dass diese Menschen als „sozial gefährliche Elemente“ behandelt wurden, für<pb facs="EHRI-BF-1946_06.jpg" n="6"/> welche Sorte ein Aufenthalt von 3 bis 8 Jahren in einem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term> bestimmt wurde, wobei nach Ablauf dieser Frist eine weitere Spezialverfügung abzuwarten ist, so dass heute noch der Grossteil dieser Menschen sich in solchen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lagern</term> befinden. -</p>
+					<p>Von den 1383 Menschen sind bis heute</p>
+					<p>22 Personen</p>
+					<p>nach <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> zurückgekehrt. - Es sind also noch</p>
+					<p>1361 <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName></p>
+					<p>ohne Berücksichtigung der sicherlich seit 1939 erfolgten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745">Todesfälle</term>, in <placeName>Russland</placeName>. - Von einigen sind die Anschriften bereits bekannt. -</p>
+					<p>Die 22 Rückkehrer aus den beiden <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term> fordern nun für sich und für alle noch Zurückkehrenden aus diesen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporten</term>, die
+						gleiche Behandlung und Einstellung, wie wenn sie effektiv in einem <term ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-496" type="subject">Konzentrationslager</term> gewesen wären. - Sie waren effektiv vom Jahre <date when="1939">1939</date> bis <date
+							when="1946">1946</date> in einem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">Lager</term>. - Sie sind auch nicht als einfache <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-302" type="subject">Emigranten</term> zu
+						behandeln, da sie nicht freiwillig über die Grenze gingen, sondern zwangsweise abtransportiert wurden. -</p>
+					<p>Von diesen 22 Personen sind bereits <note n="3" place="end">Anzahl hier und bei der nächsten Anführung von Personen unleserlich</note> Personen durch Anhaltungen in <term ref="https://portal.ehri-project.eu/admin/keywords/ehri_terms-496" type="subject"
+							>Konzentrationslagern</term> vor ihrer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Deportierung</term> nach <placeName ref="http://www.geonames.org/763829/nisko.html">Nisko</placeName> bereits Mitglieder des <orgName
+							ref="#ehri_nisko_kz_verband">KZ-Verbandes</orgName>, so dass nur für den Rest von Personen die Aufnahme in den <orgName ref="#ehri_nisko_kz_verband">KZ-Verband</orgName> gefordert wird. -</p>
+					<p>Die 22 Rückkehrer fordern aber auch, dass sofort die nötigen Schritte unternommen werden, dass</p>
+					<p>1. über die noch restlichen 1361 <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName> Nachforschungen in <placeName>Russland</placeName> eingeleitet werden und</p>
+					<p>2. alles vorgekehrt wird, dass die sofortige Entlassung der noch in <placeName>Russland</placeName> befindlichen Ueberlebenden dieser beiden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporte</term> und deren Rückkehr nach <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> durchgeführt wird. -</p>
+					<p>Auf Grund der vorhandenen Aufzeichnungen kann eine Namensliste zu diesem Zwecke beigestellt werden. -</p>
+					<p> </p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

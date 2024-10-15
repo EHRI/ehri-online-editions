@@ -1,124 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19430604-IT_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Dino Alfieri on the Situation in the General Government in 1943</title>
+				<title xml:lang="de">Dino Alfieri über die Situation im Generalgouvernement im Jahr 1943</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli
-							Affari Esteri</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/it-002863">Archivio Storico Diplomatico del Ministero degli Affari Esteri</orgName><address>
+								<street>Piazzale della Farnesina, 1</street>
+								<postCode>00196</postCode>
+								<settlement>Roma</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/it">Italy</country>
+							</address></institution>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, Affari Politici 1923-1945, Polonia, busta 18. <textLang
-						mainLang="en">Original in Italian.</textLang></bibl>
+				<bibl>Archivio Storico Diplomatico del Ministero degli Affari Esteri, Affari Politici 1923-1945, Polonia, busta 18. <textLang mainLang="en">Original in Italian.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1943-06-04">4.6.1943</date>
-				<placeName ref="#berlin">Berlin</placeName>
+				<origDate when="1943-06-04">4.6.1943</origDate>
+				<origPlace ref="http://www.geonames.org/2950159/berlin.html">Berlin</origPlace>
 				<persName ref="#ehri_dr_alfieri_dino">Alfieri, Dino</persName>
-				<idno>EHRI-DR-19430604-IT</idno>
 			</creation>
+			<langUsage>
+				<language ident="it"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<!--<p>EHRI-DR-19430604-IT_EN</p>      
-      <p>Report of the Ambassador in <placeName ref="#berlin"
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<!--<p>EHRI-DR-19430604-IT_EN</p>      
+      <p>Report of the Ambassador in <placeName ref="http://www.geonames.org/2950159/berlin.html"
         >Berlin</placeName>, <persName ref="#ehri_dr_alfieri_dino">Dino Alfieri</persName>, to the <orgName
-          ref="#g005042">Foreign
+          ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042">Foreign
         Ministry</orgName>, <date when="1943-06-04">4.6.1943</date></p>   
       <p>Cable No. 8466/1429</p>-->
-				<pb facs="EHRI-DR-19430604-IT_01.jpg" n="1"/>
-				<p>R. Embassy of <placeName ref="#italian-republic">Italy</placeName></p>
-				<p>Addressed to R. <orgName ref="#g005042"> Ministry of Foreign Affairs</orgName></p>
-				<p>Very confidential</p>
-				<p>[Handwritten initials in red pencil:] M [<persName ref="#p000287">Mussolini</persName>] V [visto = seen]</p>
-				<p>Berlin, <date when="1943-06-04">4th June 1943</date></p>
-				<p>Re: Situation in the <term ref="#t1191" type="subject">General Governorate</term></p>
-				<p>Ref.: My Cable No. 8190/1374 of 28th May last</p>
-				<p>The Inspector of the <term ref="#t964" type="subject">Fasci</term> in <placeName ref="#federal-republic-of-germany"
-						>Germany</placeName>, who has returned from a brief visit to <placeName ref="#warsaw">Warsaw</placeName>, has sent me the
-					following report on the situation in the <term ref="#t1191" type="subject">Generalgouvernement</term> General Governorate:</p>
-				<p>“After the latest <term ref="#t604" type="subject">air-raids</term> by the <term ref="#t1000" type="subject">Bolsheviks</term>, the
-					town appears very much <term ref="#t356" type="subject">damaged</term>. It is estimated that the <orgName ref="#g404">German
-						bombings</orgName>, when Warsaw was conquered, damaged 15-20% of the buildings, and the damage inflicted by the Bolsheviks is
-					estimated to be the same. This means that 30-40% of the buildings are almost totally destroyed, every couple of hundred meters one
-					comes upon large open spaces covered with rubble. […]</p>
-				<pb facs="EHRI-DR-19430604-IT_02.jpg" n="2"/>
-				<p>In the <term ref="#t545" type="subject">ghetto</term>, a vast area right in the <placeName ref="#l1106" type="ghetto">centre of
-						town</placeName> and <term ref="#t552" type="subject">separated</term> from it only by a high wall built for this purpose,
-					when <term ref="#t1032" type="subject">German authorities</term> requested that a few thousand <term ref="#t864" type="subject"
-						>Jews</term> should be sent out to <term ref="#t556" type="subject">work</term> in factories, the Jews refused to obey the
-						<term ref="#t201" type="subject">order</term>, saying that they had not heard again from the Jews that had previously <term
-						ref="#t551" type="subject">left the ghetto</term>, As we know, <term ref="#t254" type="subject">a war</term> ensued that is
-					still continuing. On the one side <term ref="#t872" type="subject">the Jews</term>, of whom there are still perhaps about 15,000
-					and who have dug themselves in inside the ghetto, building underground bunkers up to thirty meters deep, <term ref="#t1095"
-						type="subject">powerfully armoured</term> and equipped with heavy and light machine guns, who are supported and led by <term
-						ref="#t240" type="subject">Bolsheviks</term> sent from <placeName ref="#moscow">Moscow</placeName>, and have huge stockpiles
-					of food and ammunition that could last them for years of fighting. On the other, <orgName ref="#g437">SS</orgName> units who
-					systematically and without needlessly endangering the lives of their soldiers advance from house to house, following even the
-					sewers and the underground canals where fighting goes on, and subdue <term ref="#t246" type="subject">resistance</term>. The
-						<orgName ref="#g350">Gestapo</orgName> Chief told me that he expects to <term ref="#t255" type="subject">subdue all
-						resistance</term> within a few weeks.</p>
-				<p>In this climate, while the population is being bombarded from the sky, mined underground by the <term ref="#t1081" type="subject"
-						>fighting</term> within the ghetto and by the ghetto’s <term ref="#t1215" type="subject">emissaries</term> (<term ref="#t1009"
-						type="subject">Communists</term> and Jews who have managed to leave the ghetto and are hiding in town) and forced on the
-					ground to rely on the <term ref="#t1051" type="subject">black market</term> to survive among all kinds of threats, <term
-						ref="#t240" type="subject">secret organizations</term> of Communists and Jews flourish, as well as others by Polish
-					nationalists, both of which try to prepare the revolt and for the time being want to cause terror among the ruling group.</p>
-				<p>The organizers warn the <term ref="#t1032" type="subject">German rulers</term> and those <placeName ref="#republic-of-poland"
-						>Poles</placeName> that are believed to <term ref="#t223" type="subject">sympathize</term> with them that they will be <term
-						ref="#t541" type="subject">liquidated</term>, and every day <pb facs="EHRI-DR-19430604-IT_03.jpg" n="3"/> there are murders
-					taking place in circumstances worthy of a crime thriller. I have seen Gestapo chiefs and <orgName ref="#g407">Nazi party</orgName>
-					leaders, always in civilian clothes, going around with their revolver at the ready. I have noticed that when they have to go
-					somewhere, they resort to stratagems to mislead those who might be following them. […]</p>
-				<p>During my stay in Warsaw I have contacted local leaders of the General Governorate, of the Nazi party, of the Gestapo, of Russian
-					and Polish circles close to the <term ref="#t1032" type="subject">German occupying authorities</term>. […]</p>
-				<pb facs="EHRI-DR-19430604-IT_04.jpg" n="4"/>
-				<p>These same people suggest that a solution might be found by transforming the struggle, which right now has taken on the character
-					of an exclusively German struggle against <placeName ref="#russian-federation">Russia</placeName>, thus endowing <persName
-						ref="#p000463">Stalin</persName> with a pedestal as Russia’s <term ref="#t1065" type="subject">saviour</term>, and having it
-					revert, as the <persName ref="#p000287">Duce</persName> had suggested, to its true essence: the struggle of Europe, led by the
-						<term ref="#t1027" type="subject">Axis</term>, against Bolshevism.</p>
-				<p>For this struggle one could rely on the organization of some millions of Russians who would fight even more fanatically than <term
-						ref="#t1027" type="subject">Axis</term> troops against the <term ref="#t240" type="subject">Bolsheviks</term> to free their
-					fatherland from <term ref="#t240" type="subject">Bolshevism</term>. To this <placeName ref="#russian-federation"
-						>Russia</placeName> military organization, the armed forces of the <term ref="#t1027" type="subject">Axis</term> ought to
-					provide the structure and, most importantly, the reserves.</p>
-				<p>To make the military struggle of the <term ref="#t1027" type="subject">Axis</term> against <term ref="#t240" type="subject"
-						>Bolshevism</term> feasible in this manner one would have to establish, as a fundamental prerequisite, the <term
-						ref="#t1021?dlid=deu" type="subject">political conditions</term> for the cooperation of all anti-Bolshevik Polish and
-						<placeName ref="#russian-federation">Russia</placeName> peoples on a political platform that might look like this: Russia to
-					the <placeName ref="#russian-federation">Russia</placeName> – <placeName ref="#republic-of-poland">Poland</placeName> to the
-					Poles, both obviously under the <term ref="#t597" type="subject">control</term> of the <term ref="#t1027" type="subject"
-						>Axis</term> powers and their allies; <term ref="#t1080" type="subject">war</term> against <term ref="#t240" type="subject"
-						>Bolshevism</term>; <term ref="#t536" type="subject">war against Jews</term>; recognition of private <term ref="#t945"
-						type="subject">property</term>; a controlled freedom of <term ref="#t933" type="subject">trade</term>.”</p>
-				<p>The Royal Ambassador</p>
-				<p><persName ref="#ehri_dr_alfieri_dino">Alfieri</persName>
-				</p>
-				<p> </p>
+					<pb facs="EHRI-DR-19430604-IT_01.jpg" n="1"/>
+					<p>R. Embassy of <placeName ref="http://www.geonames.org/3175395/italian-republic.html">Italy</placeName></p>
+					<p>Addressed to R. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005042"> Ministry of Foreign Affairs</orgName></p>
+					<p>Very confidential</p>
+					<p>[Handwritten initials in red pencil:] M [<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000287">Mussolini</persName>] V [visto = seen]</p>
+					<p>Berlin, <date when="1943-06-04">4th June 1943</date></p>
+					<p>Re: Situation in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">General Governorate</term></p>
+					<p>Ref.: My Cable No. 8190/1374 of 28th May last</p>
+					<p>The Inspector of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">Fasci</term> in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>, who has returned from a brief visit to <placeName
+							ref="http://www.geonames.org/756135/warsaw.html">Warsaw</placeName>, has sent me the following report on the situation in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1191" type="subject">Generalgouvernement</term> General Governorate:</p>
+					<p>“After the latest <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-604" type="subject">air-raids</term> by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1000" type="subject">Bolsheviks</term>, the town appears very much <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-356" type="subject">damaged</term>. It is estimated that the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-404">German bombings</orgName>, when Warsaw was conquered, damaged 15-20% of the
+						buildings, and the damage inflicted by the Bolsheviks is estimated to be the same. This means that 30-40% of the buildings are almost totally destroyed, every couple of hundred meters one comes upon large open spaces covered with rubble. […]</p>
+					<pb facs="EHRI-DR-19430604-IT_02.jpg" n="2"/>
+					<p>In the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>, a vast area right in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-1106" type="ghetto">centre of town</placeName> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-552" type="subject">separated</term> from it only by a high wall built for this purpose, when <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">German authorities</term> requested
+						that a few thousand <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> should be sent out to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in factories, the Jews refused to obey the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-201" type="subject">order</term>, saying that they had not heard again from the Jews that had previously <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">left the ghetto</term>,
+						As we know, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-254" type="subject">a war</term> ensued that is still continuing. On the one side <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">the Jews</term>, of whom there are
+						still perhaps about 15,000 and who have dug themselves in inside the ghetto, building underground bunkers up to thirty meters deep, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1095" type="subject">powerfully armoured</term> and equipped with heavy and light
+						machine guns, who are supported and led by <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-240" type="subject">Bolsheviks</term> sent from <placeName ref="http://www.geonames.org/524901/moscow.html">Moscow</placeName>, and have huge stockpiles of food and
+						ammunition that could last them for years of fighting. On the other, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-437">SS</orgName> units who systematically and without needlessly endangering the lives of their soldiers advance from house to house,
+						following even the sewers and the underground canals where fighting goes on, and subdue <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-246" type="subject">resistance</term>. The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350"
+							>Gestapo</orgName> Chief told me that he expects to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-255" type="subject">subdue all resistance</term> within a few weeks.</p>
+					<p>In this climate, while the population is being bombarded from the sky, mined underground by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1081" type="subject">fighting</term> within the ghetto and by the ghetto’s <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">emissaries</term> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1009" type="subject">Communists</term> and Jews who have managed to leave the ghetto and are hiding in town) and
+						forced on the ground to rely on the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1051" type="subject">black market</term> to survive among all kinds of threats, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-240" type="subject">secret
+							organizations</term> of Communists and Jews flourish, as well as others by Polish nationalists, both of which try to prepare the revolt and for the time being want to cause terror among the ruling group.</p>
+					<p>The organizers warn the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">German rulers</term> and those <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poles</placeName> that are believed to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-223" type="subject">sympathize</term> with them that they will be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">liquidated</term>, and every day <pb
+							facs="EHRI-DR-19430604-IT_03.jpg" n="3"/> there are murders taking place in circumstances worthy of a crime thriller. I have seen Gestapo chiefs and <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">Nazi party</orgName> leaders, always in civilian
+						clothes, going around with their revolver at the ready. I have noticed that when they have to go somewhere, they resort to stratagems to mislead those who might be following them. […]</p>
+					<p>During my stay in Warsaw I have contacted local leaders of the General Governorate, of the Nazi party, of the Gestapo, of Russian and Polish circles close to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1032" type="subject">German occupying
+							authorities</term>. […]</p>
+					<pb facs="EHRI-DR-19430604-IT_04.jpg" n="4"/>
+					<p>These same people suggest that a solution might be found by transforming the struggle, which right now has taken on the character of an exclusively German struggle against <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName>, thus
+						endowing <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000463">Stalin</persName> with a pedestal as Russia’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1065" type="subject">saviour</term>, and having it revert, as the <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000287">Duce</persName> had suggested, to its true essence: the struggle of Europe, led by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis</term>, against Bolshevism.</p>
+					<p>For this struggle one could rely on the organization of some millions of Russians who would fight even more fanatically than <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis</term> troops against the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-240" type="subject">Bolsheviks</term> to free their fatherland from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-240" type="subject">Bolshevism</term>. To this <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName> military organization, the armed forces of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis</term> ought to provide the structure and, most
+						importantly, the reserves.</p>
+					<p>To make the military struggle of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis</term> against <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-240" type="subject">Bolshevism</term> feasible in this manner one would
+						have to establish, as a fundamental prerequisite, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1021?dlid=deu" type="subject">political conditions</term> for the cooperation of all anti-Bolshevik Polish and <placeName
+							ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName> peoples on a political platform that might look like this: Russia to the <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russia</placeName> – <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> to the Poles, both obviously under the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-597" type="subject">control</term> of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1027" type="subject">Axis</term> powers and their allies; <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> against <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-240" type="subject">Bolshevism</term>; <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">war against Jews</term>; recognition of private <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-945" type="subject">property</term>; a controlled freedom of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-933" type="subject">trade</term>.”</p>
+					<p>The Royal Ambassador</p>
+					<p><persName ref="#ehri_dr_alfieri_dino">Alfieri</persName>
+					</p>
+					<p> </p>
+				</div>
 			</div>
 		</body>
 	</text>

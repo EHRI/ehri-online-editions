@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-193911_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-193911_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,61 +8,64 @@
 				<title xml:lang="en">Three Nisko deportees to the IKG Vienna with a request for support</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
-							Wien</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>A/W 2747</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf
-						Deutsch.</textLang>
+				<bibl>Archiv der Israelitischen Kultusgemeinde (IKG) Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1939-11">November 1939</date>
-				<placeName ref="#pysznica">Pysznica</placeName>
-				<persName ref="#ehri_nisko_fischel_julius">Julius Fischel</persName>, <persName ref="#ehri_nisko_robitscher_heinrich">Heinrich
-					Robitscher</persName>, <persName ref="#ehri_nisko_goldschmidt_josef">Josef Goldschmidt</persName>
-				<idno>EHRI-NISKO-193911</idno>
+				<origDate when="1939-11">November 1939</origDate>
+				<origPlace ref="http://www.geonames.org/760871/pysznica.html">Pysznica</origPlace>
+				<persName ref="#ehri_nisko_fischel_julius">Julius Fischel</persName>, <persName ref="#ehri_nisko_robitscher_heinrich">Heinrich Robitscher</persName>, <persName ref="#ehri_nisko_goldschmidt_josef">Josef Goldschmidt</persName>
 			</creation>
 			<textClass>
 				<keywords>
@@ -74,44 +77,42 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="EHRI-BF-193911_01.jpg" n="1"/>
-				<p>An das Präsiudium der <orgName ref="#ehri_nisko_ikg_wien">Isr. Kultusgemeinde Wien</orgName></p>
-				<p>Wir erlauben uns dem löbl. Präsidium eine Bitte zu unterbreiten und dieselbe durch folgende Ausführungen zu unterstützen.</p>
-				<p>Wir befanden uns wegen dauernder Arbeitsunfähigkeit als Pfleglinge der Gemeinde <placeName ref="#vienna">Wien</placeName> im
-						<placeName ref="#krankenhaus-hietzing">Versorgungshaus Lainz</placeName>, von wo wir als <term ref="#t864" type="subject"
-						>Juden</term> im Dezember v. J. in das Städt. Dauerheim, <placeName ref="#vienna">Wien</placeName> X. überstellt wurden und wo
-					wir uns bis <date when="1939-10-26">26. Okt. 1939</date> befanden.</p>
-				<p>Im Zuge der <term ref="#t518" type="subject">Umsiedlungs-Aktion</term> wurden wir am <date when="1939-10-26">26. Okt.</date> mit
-					einem Auto aus der geschlossenen Fürsorge geholt, zur <orgName ref="#ehri_nisko_ikg_wien">I.K.</orgName> begleitet, wo wir zu
-					unserem Erstaunen das schier Unmögliche erfuhren, daß wir in den <placeName ref="#republic-of-poland">Polen</placeName>-<term
-						ref="#t521" type="subject">Transport</term>, der noch am selben Tag abgeht, eingereiht sind.</p>
-				<p>Nach Erfüllung der Formalitäten (Pass, Photogr. etc.) blieb uns kaum noch Zeit, unsere Effekten zu holen, geschweige von unseren
-					Angehörigen, die heute noch um unser Schicksal bangen, Abschied zu nehmen.</p>
-				<p>Das Zehrgeld von RM 15, das wir von der <orgName ref="#ehri_nisko_ikg_wien">I.K.</orgName> erhielten, war bald erledigt da wir,
-					nachdem wir kaum gehfähig, die nicht unbeträchtlichen Spesen für uns u. das Gepäck hievon bestreiten mußten.</p>
-				<pb facs="EHRI-BF-193911_02.jpg" n="2"/>
-				<p>Wir stehen nun seit längerer Zeit hier blank [da] und wir halten es für überflüssig, die Lage, in der wir uns befinden, näher zu
-					skizzieren.</p>
-				<p>In Kenntnis dessen, daß eine Überweisung von Geld im Wege der <orgName ref="#ehri_nisko_ikg_wien">I.K.</orgName> möglich ist,
-					richten wir an Sie die dringende Bitte, durch umgehende Überweisung des Höchstbetrages an jeden der Unterzeichneten helfend
-					einzugreifen. Die erbetene Unterstützung ist umso dringlicher, als wir von unseren Angehörigen, die unter den gegebenen
-					Verhältnissen selbst in Notlage sind, eine Hilfe in dieser Hinsicht nicht erwarten können.</p>
-				<p>Wir hoffen, daß Sie unserer Lage Verständnis entgegenbringen und durch Erfüllung unserer Bitte die Verbundenheit zum Ausdruck
-					bringen.</p>
-				<p>Im vorhinein danken</p>
-				<p><persName ref="#ehri_nisko_goldschmidt_josef">Josef Goldschmidt</persName>, geb. <date when="1889-11-18">18. Nov. 1889</date>,
-						<placeName ref="#vienna">Wien</placeName></p>
-				<p><persName ref="#ehri_nisko_fischel_julius">Julius Fischel</persName>, geb. <date when="1883-05-10">10. Mai 1883</date>, <placeName
-						ref="#vienna">Wien</placeName></p>
-				<p><persName ref="#ehri_nisko_robitscher_heinrich">Heinrich Robitscher</persName>, geb. <date when="1884-02-18">19. Febr. 1884</date>,
-						<placeName ref="#vienna">Wien</placeName></p>
-				<p>per <orgName ref="#ehri_nisko_zentralstelle_nisko">Zentralstelle für jüd. Umsiedlung Nisko a/San</orgName>, <placeName
-						ref="#pysznica">Piszanica</placeName>, <placeName ref="#republic-of-poland">Polen</placeName>
-				</p>
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-BF-193911_01.jpg" n="1"/>
+					<p>An das Präsiudium der <orgName ref="#ehri_nisko_ikg_wien">Isr. Kultusgemeinde Wien</orgName></p>
+					<p>Wir erlauben uns dem löbl. Präsidium eine Bitte zu unterbreiten und dieselbe durch folgende Ausführungen zu unterstützen.</p>
+					<p>Wir befanden uns wegen dauernder Arbeitsunfähigkeit als Pfleglinge der Gemeinde <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> im <placeName ref="http://www.geonames.org/7288327/krankenhaus-hietzing.html">Versorgungshaus Lainz</placeName>, von wo
+						wir als <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> im Dezember v. J. in das Städt. Dauerheim, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> X. überstellt wurden und wo wir uns bis <date
+							when="1939-10-26">26. Okt. 1939</date> befanden.</p>
+					<p>Im Zuge der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Umsiedlungs-Aktion</term> wurden wir am <date when="1939-10-26">26. Okt.</date> mit einem Auto aus der geschlossenen Fürsorge geholt, zur <orgName ref="#ehri_nisko_ikg_wien"
+							>I.K.</orgName> begleitet, wo wir zu unserem Erstaunen das schier Unmögliche erfuhren, daß wir in den <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polen</placeName>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+							type="subject">Transport</term>, der noch am selben Tag abgeht, eingereiht sind.</p>
+					<p>Nach Erfüllung der Formalitäten (Pass, Photogr. etc.) blieb uns kaum noch Zeit, unsere Effekten zu holen, geschweige von unseren Angehörigen, die heute noch um unser Schicksal bangen, Abschied zu nehmen.</p>
+					<p>Das Zehrgeld von RM 15, das wir von der <orgName ref="#ehri_nisko_ikg_wien">I.K.</orgName> erhielten, war bald erledigt da wir, nachdem wir kaum gehfähig, die nicht unbeträchtlichen Spesen für uns u. das Gepäck hievon bestreiten mußten.</p>
+					<pb facs="EHRI-BF-193911_02.jpg" n="2"/>
+					<p>Wir stehen nun seit längerer Zeit hier blank [da] und wir halten es für überflüssig, die Lage, in der wir uns befinden, näher zu skizzieren.</p>
+					<p>In Kenntnis dessen, daß eine Überweisung von Geld im Wege der <orgName ref="#ehri_nisko_ikg_wien">I.K.</orgName> möglich ist, richten wir an Sie die dringende Bitte, durch umgehende Überweisung des Höchstbetrages an jeden der Unterzeichneten helfend einzugreifen. Die erbetene
+						Unterstützung ist umso dringlicher, als wir von unseren Angehörigen, die unter den gegebenen Verhältnissen selbst in Notlage sind, eine Hilfe in dieser Hinsicht nicht erwarten können.</p>
+					<p>Wir hoffen, daß Sie unserer Lage Verständnis entgegenbringen und durch Erfüllung unserer Bitte die Verbundenheit zum Ausdruck bringen.</p>
+					<p>Im vorhinein danken</p>
+					<p><persName ref="#ehri_nisko_goldschmidt_josef">Josef Goldschmidt</persName>, geb. <date when="1889-11-18">18. Nov. 1889</date>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName></p>
+					<p><persName ref="#ehri_nisko_fischel_julius">Julius Fischel</persName>, geb. <date when="1883-05-10">10. Mai 1883</date>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName></p>
+					<p><persName ref="#ehri_nisko_robitscher_heinrich">Heinrich Robitscher</persName>, geb. <date when="1884-02-18">19. Febr. 1884</date>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName></p>
+					<p>per <orgName ref="#ehri_nisko_zentralstelle_nisko">Zentralstelle für jüd. Umsiedlung Nisko a/San</orgName>, <placeName ref="http://www.geonames.org/760871/pysznica.html">Piszanica</placeName>, <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+							>Polen</placeName>
+					</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

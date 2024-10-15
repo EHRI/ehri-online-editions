@@ -1,75 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-1940130-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Franklin Mott Gunther on the murder of Jews in Romania in 1941</title>
+				<title xml:lang="de">Franklin Mott Gunther über die Ermordung von Juden in Rumänien im Jahr 1941</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
-							II</repository>
-						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Romania 1910-1944, Wilmington,
-							Del. 1981 (Microfilm)</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration II</orgName><address>
+								<street>8601 Adelphi Road</street>
+								<postCode>MD 20740-6001</postCode>
+								<settlement>Maryland</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection>RG 59 - Records of the U. S. Department of State relating to internal affairs of Romania 1910-1944, Wilmington, Del. 1981 (Microfilm)</collection>
 						<idno>Doc. 871.4016/253</idno>
 					</msIdentifier>
 				</msDesc>
-				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of
-					Romania 1910-1944, Wilmington, Del. 1981 (Microfilm): Doc. 871.4016/253.<textLang mainLang="en"> Original in
-					English.</textLang></bibl>
+				<bibl>National Archives and Records Administration II, RG 59, Records of the U. S. Department of State relating to internal affairs of Romania 1910-1944, Wilmington, Del. 1981 (Microfilm): Doc. 871.4016/253.<textLang mainLang="en"> Original in English.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
-			<creation><date when="1941-01-30">January 30, 1941</date>
-				<placeName ref="#bucharest">Bucharest</placeName>
+			<creation><origDate when="1941-01-30">January 30, 1941</origDate>
+				<origPlace ref="http://www.geonames.org/683506/bucharest.html">Bucharest</origPlace>
 				<persName ref="#ehri_dr_gunther">Gunther, Franklin Mott</persName>
-				<idno>EHRI-DR-19410130-US</idno></creation>
+			</creation>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="NN" n="1"/>
-				<p>Please transmit also to the <term ref="#p000335">President</term>.</p>
-				<p>Although wholesale sacking and <term ref="#t655" type="subject">pillaging</term> were, of course, the <term ref="#t339"
-						type="subject">order</term> of the day, reports are now reaching me of appalling <term ref="#t345" type="subject">brutality to
-						the Jews</term> of <placeName ref="#bucharest">Bucharest</placeName> during the recent uprising of <term ref="#t1159"
-						type="subject">German</term> and <term ref="#t971" type="subject">Communist</term> inspired elements of the <orgName
-						ref="#g454">Iron Guard</orgName>. The <placeName ref="#republic-of-turkey">Turkish</placeName>
-					<term ref="#t1007" type="subject">Ambassador’s</term> estimate of two hundred eighty four <term ref="#t536" type="subject">Jews
-						wantonly killed</term> in the slaughter house near the <term ref="#t864" type="subject">Jewish</term> quarter is the most
-					conservative in numbers. He blamed primarily the savage <term ref="#ehri_dr_macedo_romanians" type="subject">Macedo
-						Romanians</term>, otherwise known as <term ref="#ehri_dr_macedo_romanians" type="subject">Kutzovlachs</term>. But according to
-					a reliable <term ref="#t864" type="subject">Jewish</term><term ref="#t224" type="subject">informant </term> of mine up to
-					yesterday noon seven hundred twenty-seven <term ref="#t751" type="subject">burial permits for Jews</term> in the common <term
-						ref="#t748" type="subject">grave</term> in the <term ref="#t750" type="subject">Jewish cemetery</term> have been applied for.
-					The slaughter house certainly did figure in as <pb facs="R 6456-39 (66)" n="2"/> much as I have it indirectly from an engineer
-					working there that when he reported for work the next day he found sixty <term ref="#t864" type="subject">Jewish</term><term
-						ref="#t515" type="subject"> corpses</term> on the hooks used for carcasses and all skinned. The quantity of blood about would
-					seem to indicate that they had been <term ref="#t562" type="subject">skinned alive</term>.</p>
-				<p>The above estimate takes no account of the much larger number of those wounded, maimed or beaten beyond recognition by the brutes
-					and footpads of the <orgName ref="#g454">Iron Guard</orgName>. Ignorant primitive young savages whose dull vengeful minds
-					responded to the <term ref="#t601" type="subject">German-controlled</term> and inspired <term
-						ref="ehri_dr_nationalities_romanians">Romanian</term>
-					<term ref="#t341" type="subject">press</term> of <term ref="#t357" type="subject">repetitive slogans and shibboleths</term> of
-						<term ref="#t864" type="subject">Jewish</term> and <term ref="#t864" type="subject">Jewish</term>
-					<placeName ref="#england">English</placeName> alleged inimical evil doings. It makes one sick at heart to be accredited to a
-					country where such things can happen even though the real faults of inspiration and encouragement lie elsewhere.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="NN" n="1"/>
+					<p>Please transmit also to the <term ref="https://portal.ehri-project.eu/authorities/ehri_pers-000335">President</term>.</p>
+					<p>Although wholesale sacking and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">pillaging</term> were, of course, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-339" type="subject">order</term> of the day, reports are now
+						reaching me of appalling <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">brutality to the Jews</term> of <placeName ref="http://www.geonames.org/683506/bucharest.html">Bucharest</placeName> during the recent uprising of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">German</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-971" type="subject">Communist</term> inspired elements of the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-454">Iron Guard</orgName>. The <placeName ref="http://www.geonames.org/298795/republic-of-turkey.html">Turkish</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1007" type="subject">Ambassador’s</term> estimate of two hundred eighty four <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-536" type="subject">Jews wantonly killed</term> in the slaughter house near
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> quarter is the most conservative in numbers. He blamed primarily the savage <term ref="#ehri_dr_macedo_romanians" type="subject">Macedo Romanians</term>, otherwise known as
+							<term ref="#ehri_dr_macedo_romanians" type="subject">Kutzovlachs</term>. But according to a reliable <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-224"
+							type="subject">informant </term> of mine up to yesterday noon seven hundred twenty-seven <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-751" type="subject">burial permits for Jews</term> in the common <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">grave</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Jewish cemetery</term> have been applied for. The slaughter house certainly did figure in as
+							<pb facs="R 6456-39 (66)" n="2"/> much as I have it indirectly from an engineer working there that when he reported for work the next day he found sixty <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term><term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-515" type="subject"> corpses</term> on the hooks used for carcasses and all skinned. The quantity of blood about would seem to indicate that they had been <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">skinned alive</term>.</p>
+					<p>The above estimate takes no account of the much larger number of those wounded, maimed or beaten beyond recognition by the brutes and footpads of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-454">Iron Guard</orgName>. Ignorant primitive young savages
+						whose dull vengeful minds responded to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-601" type="subject">German-controlled</term> and inspired <term ref="ehri_dr_nationalities_romanians">Romanian</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-341" type="subject">press</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-357" type="subject">repetitive slogans and shibboleths</term> of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jewish</term>
+						<placeName ref="http://www.geonames.org/6269131/england.html">English</placeName> alleged inimical evil doings. It makes one sick at heart to be accredited to a country where such things can happen even though the real faults of inspiration and encouragement lie
+						elsewhere.</p>
+				</div>
 			</div>
 		</body>
 	</text>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP007_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Zeev Scheck, the fate of children prisoners in the Theresienstadt ghetto</title>
+				<title xml:lang="de">Zeev Scheck, das Schicksal der Kinderhäftlinge im Ghetto Theresienstadt</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original is in German. Protocol is a Czech translation.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1946-01-29">29. 1. 1946</origDate>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>, <persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName>, <origPlace
+					ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Zeev Scheck, initiator of the “documentation campaign” in Prague. Scheck describes the situation of children in the Theresienstadt Ghetto and the role of Egon Redlich and Fredy Hirsch in the educational system of the ghetto, which he explains in detail. Most of the
+					children in Theresienstadt were placed in so-called children’s and youth homes run by teachers and tutors, who looked after the mental and physical development of the children and offered them a meaningful use of their free time. Scheck also offers a brief statistic relating to
+					the children prisoners of the ghetto.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP007_01.jpg" n="1"/>
+					<p>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Děti</term>
+					</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Děti</term> přijely do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName> hned prvními <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-268" type="subject">transporty</term> z <placeName ref="http://www.geonames.org/3078610/brno.html">Brna</placeName> a <placeName ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName>
+						v roku <date when="1941">1941</date>. Zásluhou <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1753649" type="victim">Gondy Redlicha</persName> a <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810"
+							type="victim">Fredy Hirsche</persName>, kteří věrni tradici hnutí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládeže</term>, z kterého vyšli, ihned se ujali těchto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">dětí</term> a prosazovali pro ně v nejhorším lepší podmínky, vznikly brzo první speciální místnosti pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> a později v <date when="1942-02">únoru 1942</date> první
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">dětský domov</term>. A našlo se také několik lidí ve vedení <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetta</placeName>, kteří
+						pochopili zodpovědnost, kterou jsme vůči <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětem</term> měli a snažili se jim život v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghettě</placeName>
+						všemožně ulehčit. Byl to především opět náš <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName>, který v těžké a zodpovědné diskusi v <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-512">Radě starších</orgName>, kde se jednalo o zásadu, komu má být <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">krajíček</term> zkrácen a komu přidán, odvážnou a jasnou analysou
+						přispěl k rozhodnutí ve prospěch <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>, snad trochu nezvyklému a krutému, v neprospěch <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject"
+							>starých</term>, ale z tehdejšího hlediska jedinému správnému; ve prospěch lepší budoucnosti židovského národa. A toto rozhodnutí <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-512">Rady starších</orgName> jakoby se přenášelo do všech <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubikací</term>, kuchyní a ulic, všude byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> zahrnovány zvláštní péčí, všude jim byly poskytovány výhody
+						a byl-li v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> možný radostný pohled, byl to pohled na radostně si hrající <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term>,
+						poměrně dobře a na oko bezstrarostně vypadající. Kdo ale pracoval v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětmi</term>,
+						ten ví, že se někdy oko toho <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dítěte</term> divně zalesklo, ten zná pohled, v kterém bylo tolik <q>proč</q>, a na který žádný vychovatel neznal své <q>proto</q>, ten ví, že <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> v noci probuzející se, otevíraly oči a zavíraly do prázdné tmy, ten slyšel někdy jejich tichý pláč, pro který nebylo léku, ten zná komplikace a tragiku židovského <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dítěte</term> a jeho duše, pro jejíž uklidnění ještě nebyla napsána žádná psychologická učebnice.</p>
+					<p>Tak se vyvíjel v <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domovech</term> život pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> odděleně od ostatních podle zásad
+						kolektivní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">výchovy</term> tvořily jednotlivé pokoje uzavřené <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domovy</term>, které si řídily
+						rozvrh celého dne. Mimo vyučování byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> zaměstnány domácími pracemi a pořádaly časté večery s programem. Opatrovníci <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">bydleli</term> společně s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětmi</term>, tak že mohli podstatně ovlivňovat celý jejich život. Bohužel, bylo jen velmi málo kvalifikovaných sil a leckdy neschopnost opatrovníka
+						zavinovala v <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domově</term> těžkou krizi. Péče o <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> od 4 – 18 let v <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domovech</term> vykazovala v době největšího počtu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, t.j. v létě <date when="1943">1943</date>, 2300 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>. O <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> do 4 let pečovalo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">zdravotnictví</term>, které je umisťovala jednak v <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domově</term> pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">kojence</term>; jednak v domově pro <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">batolata</term> spolu s matkami a personálem. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Děti</term> nebyly však nuceny <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">stěhovat</term> se do <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domovů</term>. O <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> mimo <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domovy</term> se starala otevřená péče o <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládež</term>. Instituce otevřené péče se skládaly z <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domova</term> pro matky a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> /bez personálu/, dále z české, německé a hebrejské školky, kterou navštěvovalo více než 500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>dětí</term>. Otevřenou péči o <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládež</term> prováděly také sociální sestry, které pravidelně navštěvovaly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>děti</term>, zjišťovaly jejich zdravotní stav a obstarávaly jim v rámci možností vše potřebné. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Děti</term> ve věku do 14 let, bydlící u rodičů, docházely denně do útulku, kde měly přes
+						přísný zákaz <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapa</orgName>, dík odvaze a obětavosti opatrovníků za nejtěžších okolností, vyučování. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Mládež</term> nad 14
+						let, bydlící buď u rodičů nebo v <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">domovech</term> podléhala <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní povinnosti</term>. K tomu
+						účelů bylo zřízeno v úzké spolupráci s referátem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládeže</term> a <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3">ústředím práce</orgName>
+						zvláštní oddělení pro začlenění <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládeže</term> do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovního</term> procesu. V létě <date when="1943"
+							>1943</date> bylo v tomto oddělení zaregistrováno celkem 1673 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Mladiství</term> byli začleňováni
+						hlavně do oborů, kde měli možnost něčemu se do budoucího naučiti, na př. do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">zemědělství</term> a zahrada, řemesla a produkce, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791"
+							type="subject">zdravotnictví</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">výchova</term>. O tuto <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládež</term>
+						<pb facs="EHRI-ET-JMP007_02.jpg" n="2"/> starala se ještě specielně učňovská komise, která po ukončení výcviku konala také učňovské zkoušky. Byla také zřízena v rámci osvětové činnosti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>dětská</term>
+						<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-70">knihovna</orgName> do 13 let a <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-70">knihovna</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">mládeže</term> pro starší. Kromě etických a praktických cílů <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">výchovných</term> snažilo se <orgName
+							ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-9">oddělení pro mládež</orgName> povzbuditi uvědomění <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> a zameziti mravní úpadek v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghettě</placeName> stále se prohlubující. Poukazování na slavnější minulost židovského národa a na život a práci v budoucnosti snažili se opatrovníci neutralisovat neutěšenost a beznadějnost
+						jejich situace.</p>
+					<p>Bohužel i tato námaha byla marná. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transporty</term> stále přicházející a odcházející, nařízení, šikány, vše to nedalo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">dítěti</term> klid. Celkem prošlo <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezínem</placeName> asi 15000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">Transport na východ</term> znamenal rozsudek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrti</term>, s počátku bylo možno chrániti <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> do 12 let. Postupně však byla věková hranice snižována a v <date when="1944-10">říjnu 1944</date> byla odeslána i <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">nemluvňata</term>.</p>
+					<p>V <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> zůstalo v zimě <date when="1944">1944</date>-<date when="1945">1945</date> 1068 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>dětí</term> a po ukončení války vrátilo se z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborů</term> ne více než 100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> nad
+						14 let. A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> pod 14 let, pokud nebyly mezi těmi šťastnými, které zůstaly v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>,
+						se nevrátily žádné.</p>
+					<p>Všechna snaha a práce, všechna péče po stránce duševní a tělesné, všechna <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">výchova</term> individuelní a kolektivní nevedly k žádnému výsledku. Mohly usnadnit <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětem</term> pobyt v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghettu</placeName>.</p>
+					<p><hi rend="letter-spacing: +2px">Nemohly</hi>
+						<hi rend="letter-spacing: +2px">odvrátit</hi>
+						<hi rend="letter-spacing: +2px">jejich</hi>
+						<hi rend="letter-spacing: +2px">hrozný</hi>
+						<hi rend="letter-spacing: +2px">osud</hi>.</p>
+					<p><persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName>.</p>
+					<p>Za <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> přijal: <persName ref="#ehri_et_weinberger_robert">Weinberger</persName></p>
+					<p>Za archiv přijal: <persName ref="#ehri_et_tressler_harald">Tressler</persName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Praha</placeName>, <date when="1946-01-29">29. ledna 1946</date>.</p>
+					<p>Opis: <persName ref="#ehri_et_brammerova_r">R. Brammerová</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP007_01.jpg" n="1"/>
+					<p>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term>
+					</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> arrived in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> right with the first <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-268" type="subject">transports</term> from <placeName ref="http://www.geonames.org/3078610/brno.html">Brno</placeName> and <placeName ref="http://www.geonames.org/3067696/prague.html"
+							>Prague</placeName> in <date when="1941">1941</date>. Thanks to <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1753649" type="victim">Gonda Redlich</persName> and <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1459810" type="victim">Fredy Hirsch</persName>, who, faithful to the tradition of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">youth</term> movement that
+						they were part of when they were young, immediately brought these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> under their wing and procured better conditions for them in this worst of places, the first special rooms for
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were soon created and, later, in <date when="1942-02">February 1942</date>, the first <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190"
+							type="subject">Home for Children</term>. Several people from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> administration understood the responsibility we had towards the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and we tried to find all kinds of ways to make their life in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> easier.
+						It was once again our <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Jakub Edelstein</persName> who, in the difficult and important discussion at the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-512">Council of Elders</orgName> over whose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">slice of bread</term> would be shortened or whose portion increased, swayed the decision
+						in favor of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> with his courageous and lucid analysis. This perhaps unusually and cruelly disadvantaged the <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">old</term>, but at the time it was the right thing to do; it guaranteed a better future for the Jewish nation. This decision by the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-512">Council of Elders</orgName> trickled down to all of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>, kitchens, and streets. Everywhere, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> came under special care, they were given advantages, and if there was a happy sight in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Theresienstadt</placeName>, it was surely the happily playing <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, who seemed so carefree. But those who worked in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> knew how sometimes a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child’s</term> eyes would glisten, knew the look that asked <q>why?</q> to which no caretaker knew an appropriate <q>because</q>, knew that when the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> woke up at night they opened their eyes and saw an empty darkness, sometimes heard their silent crying that no medicine could cure, knew the complications and tragedy of a Jewish
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">child</term> and its soul. No textbook of psychology exists yet that can teach us how to soothe them.</p>
+					<p>For the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, life in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">homes</term> was led separately from the rest. In accordance
+						with the principles of collective <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term>, the individual rooms constituted closed <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject"
+							>homes</term>, which set and managed their daily schedule. Besides their lessons, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> had to do domestic work and organized frequent evening programs. The caretakers <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">lived</term> with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and thus they could significantly influence their whole lives.
+						Unfortunately, there were very few qualified people, and the caretaker's incompetence sometimes led to a difficult crisis in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">home</term>. When the number of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> reached its peak, i.e. in the summer of <date when="1943"
+							>1943</date>, there were 2,300 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> aged 4-18 receiving child care in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject"
+							>homes</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">Health services</term> took care of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> younger than age 4, placing them either
+						in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">home</term> for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">infants</term> or in the home for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">toddlers</term> together with their mothers and the staff. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> were not forced to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">move</term> into the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">homes</term>. The open <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">youth</term> care looked after <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> who were outside of the <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">homes</term>. The institution of open care consisted of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">home</term> for mothers
+						and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> (without a staff), and Czech, German, and Hebrew kindergartens, attended by more than 500 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>children</term>. Social nurses were also part of the open youth care. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> regularly visited them, and the nurses performed health check-ups and arranged all that was necessary
+						for them, within the realm of possibilities. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Children</term> up to age 14 who lived with their parents went to the shelters every day, where they attended lessons in the most difficult
+						circumstances thanks to the courage and devotion of the caretakers in the face of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>’s strict orders against them. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">Young people</term> over age 14 who lived either with their parents or in <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">homes</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556"
+							type="subject">forced to work</term>. To facilitate this, a special section for the integration of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">young people</term> into the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor</term> process was created in close cooperation with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">youth</term> section and <orgName
+							ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-3">labor office</orgName>. In the summer of <date when="1943">1943</date>, a total of 1,673 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject"
+							>children</term> were registered in this section. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">Young people</term> were assigned the type of work that would allow them to learn something, for example in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-14386" type="subject">agriculture</term> and gardening, crafts and production, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-791" type="subject">healthcare</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-189" type="subject">education</term>. These <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">young people</term>
+						<pb facs="EHRI-ET-JMP007_02.jpg" n="2"/> were also taken care of by a special apprenticeship commission that also administered exams once their training was completed. To help with all of these educational activities, a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children’s</term>
+						<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-70">library</orgName> for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> up to age 13 and a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">young people's</term>
+						<orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-70">library</orgName> for older <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> were established. Besides the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">caretakers</term>’ ethical and practical goals, the <orgName ref="https://portal.ehri-project.eu/keywords/terezin-jewishcouncil-organisation-jmp-9">youth section</orgName> tried to expand the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>’s minds and thus stop the deepening moral decline in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>. By
+						pointing to the Jewish nation’s illustrious past and the life and work of the future, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">caretakers</term> tried to neutralize the dismalness and hopelessness of their situation.</p>
+					<p>Unfortunately, these efforts were in vain. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transports</term> continued to arrive and depart; orders and bullying gave the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">children</term> no peace. Around 15,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> passed through <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Theresienstadt</placeName>. A <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transport to the east</term> meant a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term> sentence. In
+						the beginning, it was possible to protect <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> younger than 12. But this age limit was gradually lowered, and in <date when="1944-10">October 1944</date> even <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">babies</term> were transported.</p>
+					<p>In the winter of <date when="1944">1944</date>-<date when="1945">1945</date>, 1,068 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> remained in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449"
+							type="ghetto">Theresienstadt</placeName>, and after the war no more than 100 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> older than 14 returned from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>. Unless they were among the fortunate who remained in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>,
+						no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> younger than 14 returned.</p>
+					<p>All of the efforts and work, all of the mental and physical care, all of the individual and collective <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">education</term> led nowhere. They could only make the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>’s stay in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> a little easier.</p>
+					<p><hi rend="letter-spacing: +2px">They</hi>
+						<hi rend="letter-spacing: +2px">couldn’t</hi>
+						<hi rend="letter-spacing: +2px">avert</hi>
+						<hi rend="letter-spacing: +2px">their</hi>
+						<hi rend="letter-spacing: +2px">terrible</hi>
+						<hi rend="letter-spacing: +2px">fate</hi>.</p>
+					<p><persName ref="#ehri_et_shek_zeev">Zeev Scheck</persName>.</p>
+					<p>Accepted on behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation campaign</term> by: <persName ref="#ehri_et_weinberger_robert">Weinberger</persName></p>
+					<p>Accepted on behalf of the archive: <persName ref="#ehri_et_tressler_harald">Tressler</persName></p>
+					<p><placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, <date when="1946-01-29">January 29, 1946</date>.</p>
+					<p>Transcript: <persName ref="#ehri_et_brammerova_r">R. Brammerová</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

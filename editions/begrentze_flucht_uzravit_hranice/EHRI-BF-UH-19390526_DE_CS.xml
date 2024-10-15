@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19390526_DE_CS" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Auszug aus der Anklageschrift des Oberreichsanwalts beim Volksgerichtshof gegen Josef Kroupa</title>
+				<title xml:lang="cs">Výňatek z obžalovacího spisu vrchního říšského státního zástupce u Národního tribunálu proti Josefu Kroupovi</title>
+				<title xml:lang="en">Excerpt from the indictment of the senior Reich prosecutor at the People's Court against Josef Kroupa</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001982">Dokumentationsarchiv des österreichischen Widerstandes</orgName><address>
+								<street>Altes Rathaus, Wipplingerstr. 6-8</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<collection>Materialien über Josef KROUPA</collection>
+						<idno>Sign. 4040</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>DÖW, Materialien über Josef KROUPA, Sign 4040. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1939-05-26">26. Mai 1939</origDate>
+				<origPlace>Wien</origPlace>
+				<orgName>Volksgerichtshof</orgName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="Schmuggel und Schleppertum"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<abstract>
+				<p>Die Anklageschrift des Oberreichsanwalts beim Volksgerichtshof (VHGH) 9 J 198/39g gegen Josef Kroupa vor dem VGH beschreibt die Vorgeschichte des Ankgeklagten, seine Kenntnisse der tschechoslowakischen Grenze und den "Judenschmuggel" in die ČSR, den er durchgeführt haben soll.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-BF-19390526_01.jpg" n="1"/>
+					<!-- <p>Der Oberreichsanwalt <placeName ref="http://www.geonames.org/2950159/berlin.html"
+          >Berlin</placeName>, den <date when="1939-05-26">26. Mai 1939</date>.</p>      <p>Beim <orgName>Volksgerichtshof</orgName></p>      <p>9 J 198/39g.</p>-->
+					<p><hi rend="u">Haftsache</hi>!</p>
+					<p rend="center">Anklageschrift</p>
+					<p>Den Kraftwagenführer <persName ref="#ehri_bf_kroupa_josef">Josef KROUPA</persName> aus <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> XVI, Degenstr. 46, geboren am <date when="1904-12-05">5. Dezember 1904</date> in <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, verheiratet, <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName> Reichsangehörigen, nicht bestraft, am <date when="1938-06-18">18. Juni 1938</date>
+						vorläufig festgenommen und seit dem <date when="1938-07-29">29. Juli 1938</date> in Untersuchungshaft im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">Landgerichtsgefängnis</term> zu <placeName
+							ref="http://www.geonames.org/2772400/linz.html">Linz</placeName> an der <placeName ref="http://www.geonames.org/791630/danube-river.html">Donau</placeName>,</p>
+					<p>- bisher ohne Verteidiger,</p>
+					<p>klage ich an,</p>
+					<p>im Jahre <date when="1938">1938</date> in <placeName ref="http://www.geonames.org/2772400/linz.html">Linz</placeName>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> und dem damals <placeName
+							ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName>
+						<placeName ref="http://www.geonames.org/3061344/znojmo.html">Znaim</placeName> fortgesetzt es unternommen zu haben, sich ein Staatsgeheimnis zu verschaffen, um es zu verraten,</p>
+					<p>Verbrechen gegen die §§ 88, 90, 93, 93a StGB.</p>
+					<p>Der Angeschuldigte hat sich im Frühjahr <date when="1938">1938</date> von dem <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName> Nachrichtendienst in <placeName ref="http://www.geonames.org/3061344/znojmo.html">Znaim</placeName>
+						anwerben lassen und im <date when="1938-06">Juni 1938</date> von <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> aus die ihm aufgetragene Ausspähungsfahrt nach <placeName ref="http://www.geonames.org/2772400/linz.html">Linz</placeName>
+						unternommen. Dort hat er geheimhaltungsbedürftige Verhältnisse der <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmacht</orgName> erkundet und einen weiteren Nachrichtenagenten zu werben versucht.</p>
+					<p>
+						<hi rend="u">Wesentliches</hi>
+					</p>
+					<p>[...]</p>
+					<pb facs="EHRI-BF-19390526_02.jpg" n="2"/>
+					<p rend="center">II.</p>
+					<p rend="center">
+						<hi rend="u">Die Vorgeschichte der Tat.</hi>
+					</p>
+					<p>Seine angeblich deutschfreundliche Einstellung hinderte den Angeschuldigten nicht, sich nach dem Umbruch in der <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Ostmark</placeName> in den Dienst der illegalen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">Judenauswanderung</term> zu stellen. Zunächst wandten sich die <placeName ref="http://www.geonames.org/2761369/vienna.html">Wiener</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>
+						<persName ref="#ehri_bf_osterreicher_siegfried">Siegfried Österreicher</persName> und <persName ref="#ehri_bf_wechsler_karl">Karl Wechsler</persName> an ihn und baten unter Hinweis auf seine genaue Kenntnis des Grenzgebiets und auf seine verwandtschaftlichen Beziehungen nach
+						der <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">Tschechoslowakei</placeName>, sie <q>schwarz</q> über die Grenze auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechisches</placeName> Gebiet zu führen. Gegen Zahlung von je
+						50 RM führte der Angeschuldigte diesen Auftrag am <date when="1938-04-17">17. April 1938</date> aus. Bei dem Grenzübertritt in der Nähe von <placeName ref="http://www.geonames.org/7872891/retzbach.html">Retzbach (Ostmark)</placeName> verwandte der Angeschuldigte seinen
+						sudetendeutschen Schwager <persName ref="#ehri_bf_prohaska_alois">Alois Prohaska</persName> aus <placeName ref="http://www.geonames.org/3075706/hnanice.html">Gnadlersdorf</placeName> (damals <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+							>Tschechoslowakei</placeName>) als Führer, nachdem er diesem vorgespiegelt hatte, daß es sich bei seinen beiden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">jüdischen</term> Begleitern um Nationalsozialisten handele, die der <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-897">SdP</orgName>. Material zu überbringen hätten.</p>
+					<p>Vierzehn<pb facs="EHRI-BF-19390526_03.jpg" n="3"/> Tage später brachte der Angeschuldigte allein den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>
+						<persName ref="#ehri_bf_wolf_richard">Richard Wolf</persName> an derselben Stelle über die Grenze und ließ sich hierfür ebenfalls 50 RM bezahlen. Auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischem Gebiet</placeName> wurden beide von
+							<placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName> Finanzbeamten gestellt und nach Zahlung einer Geldstrafe an die Grenze zurückgeschafft, von wo aus der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864"
+							type="subject">Jude</term> erneut heimlich auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechisches Gebiet</placeName> übertrat.</p>
+					<p>Zu Pfingsten <date when="1938">1938</date>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">schmuggelte</term> der Angeschuldigte die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>
+						<persName ref="#ehri_bf_spitz_armin">Armin Spitz</persName> und <persName ref="#ehri_bf_hausknecht_adolf">Adolf Hausknecht</persName> aus <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> über die Grenze und ließ sich hierfür diesmal je 100 RM
+						bezahlen. Während die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term> von <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName> Beamten gestellt wurden, gelang es dem Angeschuldigten, auf
+							<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsches Gebiet</placeName> zu flüchten.</p>
+					<p>Kurz darauf überschritt der Angeschuldigte letztmalig mit dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Juden</term>
+						<persName ref="#ehri_bf_weiss">Weiss</persName> aus <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, der ihm hierfür 50 RM bezahlt hatte, die <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+							>deutsch</placeName>-<placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechische</placeName> Grenze, wurde aber von <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischem</placeName> Militär gestellt und von <placeName
+							ref="http://www.geonames.org/3075706/hnanice.html">Gnadlersdorf</placeName> nach der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">Gendarmeriestation</term>
+						<placeName ref="http://www.geonames.org/3066390/satov.html">Schattau</placeName> gebracht. Über den gewerbsmäßigen Judenschmuggel des Angeschuldigten zeigte man sich auf <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischer</placeName> Seite
+						bestens unterrichtet und stellte ihm eine Kerkerstrafe wegen Verletzung des <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">tschechischen</placeName> Staatsschutzgesetzes in Aussicht. Von <placeName ref="http://www.geonames.org/3066390/satov.html"
+							>Schattau</placeName> aus, wo man ihn nur über die Verhältnisse in <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> ausgefragt hatte, wurde er dem Bezirkskommando in <placeName ref="http://www.geonames.org/3061344/znojmo.html"
+							>Znaim</placeName> zugeführt. [...]</p>
+				</div>
+				<div type="translation" xml:lang="cs">
+					<pb facs="EHRI-UH-19390526_01.jpg" n="1"/>
+					<!-- <p>Der Oberreichsanwalt <placeName ref="http://www.geonames.org/2950159/berlin.html"
+          >Berlin</placeName>, den <date when="1939-05-26">26. Mai 1939</date>.</p>      <p>Beim <orgName>Volksgerichtshof</orgName></p>      <p>9 J 198/39g.</p>-->
+					<p><hi rend="u">Vazební věc</hi>!</p>
+					<p rend="center">Obžalovací spis</p>
+					<p>Žaluji</p>
+					<p>řidiče <persName ref="#ehri_bf_kroupa_josef">Josefa KROUPU</persName> z <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídně</placeName> XVI, Degenstr. 46, narozeného <date when="1904-12-05">5. prosince 1904</date> ve <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName>, ženatého, příslušníka <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Německé říše</placeName>, netrestaného, 18. června 1938 předběžně zadrženého a od 29. července 1938
+						ve vyšetřovací vazbě ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">věznici zemského soudu</term> v <placeName ref="http://www.geonames.org/2772400/linz.html">Linci nad Dunajem</placeName>,</p>
+					<p>- dosud bez obhájce,</p>
+					<p>že se v roce 1938 v <placeName ref="http://www.geonames.org/2772400/linz.html">Linci</placeName>, <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName> a tehdy <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">českém</placeName>
+						<placeName ref="http://www.geonames.org/3061344/znojmo.html">Znojmě</placeName> vytrvale dopouštěl toho, že si zaopatřoval státní tajemství za účelem jeho vyzrazení,</p>
+					<p>zločinu podle §§ 88, 90, 93, 93a Trestního zákoníku.</p>
+					<p>Obviněný se dal na jaře 1938 zverbovat <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">českou</placeName> zpravodajskou službou ve <placeName ref="http://www.geonames.org/3061344/znojmo.html">Znojmě</placeName> a v červnu 1938 se z <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">Vídně</placeName> vydal do <placeName ref="http://www.geonames.org/2772400/linz.html">Lince</placeName> na výzvědnou cestu, jež mu byla uložena. Tam vyzvídal informace o poměrech německého <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-438">Wehrmachtu</orgName>, jež je nutno udržovat v tajnosti a snažil se získat dalšího zpravodajského agenta.</p>
+					<p>[...]</p>
+					<pb facs="EHRI-UH-19390526_02.jpg" n="2"/>
+					<p rend="center">II.</p>
+					<p rend="center"><hi rend="u">Prehistorie činu.</hi>
+					</p>
+					<p>Údajně proněmecké postoje nebránily obviněnému v tom, aby se po převratu ve Východní marce dal do služeb ilegálního <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-880" type="subject">vystěhovalectví Židů</term>. Nejprve se na něj obrátili <placeName
+							ref="http://www.geonames.org/2761369/vienna.html">vídeňští</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Židé</term>
+						<persName ref="#ehri_bf_osterreicher_siegfried">Siegfried Österreicher</persName> a <persName ref="#ehri_bf_wechsler_karl">Karl Wechsler</persName> a s poukazem na jeho důkladnou znalost pohraniční oblasti a na jeho příbuzenské vazby v <placeName
+							ref="http://www.geonames.org/8505031/czechoslovakia.html">Československu</placeName> ho požádali, aby je <q>načerno</q> převedl přes hranice na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">české</placeName> území. Obviněný tento úkol 17. dubna 1938
+						za proplacených 50 ŘM provedl. Při přechodu hranice nedaleko <placeName ref="https://www.geonames.org/7872891/retzbach.html">Retzbachu</placeName> (Východní marka) využil obviněný jako vůdce svého sudetoněmeckého švagra <persName ref="#ehri_bf_prohaska_alois">Aloise
+							Prohasku</persName> z <placeName ref="http://www.geonames.org/3075706/hnanice.html">Hnanic</placeName> (tehdejší Československo), poté co mu namluvil, že jeho židovští průvodci jsou nacionální socialisté, kteří nesou materiál pro <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-897">SdP</orgName>.</p>
+					<p>Čtrnáct<pb facs="EHRI-UH-19390526_03.jpg" n="3"/> dní nato dostal obviněný na tomtéž místě sám přes hranice <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Žida</term>
+						<persName ref="#ehri_bf_wolf_richard">Richarda Wolfa</persName> a dal si za to zaplatit rovněž 50 ŘM. Na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">českém území</placeName> oba zadrželi členové finanční stráže a po zaplacení peněžité pokuty byli
+						dopraveni zpět na hranice, odkud <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Žid</term> opět potají přešel na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">české území</placeName>.</p>
+					<p>O letnicích 1938 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-266" type="subject">propašoval</term> obviněný přes hranice <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Židy</term>
+						<persName ref="#ehri_bf_spitz_armin">Armina Spitze</persName> a <persName ref="#ehri_bf_hausknecht_adolf">Adolfa Hausknechta</persName> z <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídně</placeName> a dal si za to tentokrát zaplatit 100 ŘM. Zatímco <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Židy</term> zadrželi <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">čeští</placeName> finanční strážníci, obviněnému se podařilo uprchnout na <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">německé území</placeName>.</p>
+					<p>Krátce nato překročil obviněný německo-české hranice naposledy, se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Židem</term>
+						<persName ref="#ehri_bf_weiss">Weissem</persName> z <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídně</placeName>, jenž mu za to zaplatil 50 ŘM; obviněný však byl zadržen příslušníky <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html"
+							>české</placeName> armády a z <placeName ref="http://www.geonames.org/3075706/hnanice.html">Hnanic</placeName> dopraven na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119" type="subject">četnickou stanici</term> v <placeName
+							ref="http://www.geonames.org/3066390/satov.html">Šatově</placeName>. Ukázalo se, že o pašování Židů, ze kterého si obviněný udělal živnost, byli na <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">české</placeName> straně velmi dobře informováni a
+						upozornili ho, že za porušení <placeName ref="http://www.geonames.org/8505031/czechoslovakia.html">českého</placeName> Zákona na ochranu republiky ho čeká trest vězení. Za <placeName ref="http://www.geonames.org/3066390/satov.html">Šatova</placeName>, kde se ho vyptali na
+						poměry ve <placeName ref="http://www.geonames.org/2761369/vienna.html">Vídni</placeName>, byl převeden na okresní velitelství ve <placeName ref="http://www.geonames.org/3061344/znojmo.html">Znojmě</placeName>. […]</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

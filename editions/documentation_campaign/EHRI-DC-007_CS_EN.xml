@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-007_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Petr Lang, description of the living conditions in the Litoměřice labor camp</title>
+				<title xml:lang="de">Petr Lang, Beschreibung der Lebensbedingungen im Arbeitslager Leitmeritz</title>
+				<title xml:lang="cs">Petr Lang, popis životních podmínek v litoměřickém pracovním táboře</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1945-07-23">23. 7. 1945</origDate>, <persName ref="#ehri_dc_lang_petr">Petr Lang</persName>, <origPlace ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</origPlace>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+					>Forced labour</term>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Petr Lang describes, in his brief report, the living conditions and daily routine in the Litoměřice labor camp, where he was deported in January 1945.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-007_01.png" n="1"/>
+					<p>Protokol</p>
+					<p>sepsaný s <persName ref="#ehri_dc_lang_petr">Petrem Langem</persName>, nar. <date when="1924-08-21">21. 8. 1924</date>, bývalým <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězněm</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračního</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> v <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřicích</placeName>, národnosti židovské, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">povoláním</term> zámečník.</p>
+					<p>Ze svého bydliště v <placeName ref="http://www.geonames.org/3074199/jihlava.html">Jihlavě</placeName> byl jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportován</term> dne <date when="1942-05-22">22. 5. 1942</date> do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetta</term>. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Pracoval</term> jsem tam skoro celu dobu v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">zemědělství</term>, a tím jsem se tam udržel do podzimních <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> roku <date when="1944">1944</date>.
+						Moji <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">rodiče</term> se udrželi rovněž do té doby, poněvadž můj <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">otec</term> byl uznán jako těžký <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">válečný</term> poškozenec, do podzimních <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> byli však rovněž zařazeni. Moje <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sestra</term> byla poslána <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term> do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětimi</placeName> již dříve.</p>
+					<p>Dne <date when="1944-09-28">28. září 1944</date> byl jsem zařazen do tzv. prvního <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-557" type="subject">dělnického</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term>, který odjel do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvěčíma</placeName>. Tam jsem pobyl do <date when="1944-10-08">8. října
+							1944</date>, kdy jsem jel <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term> dále do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračního</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kauferingu</placeName> 3. Dne <date when="1945-01-05">5. ledna</date> byl z <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kauferingu</placeName> vypraven <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> 850 lidí /: vesměs Židů :/, ke kterému celá řada našich přátel se
+						hlásila dobrovolně, poněvadž se proslýchalo, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> jde do <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřic</placeName> a měli jsme na tom zájem, býti
+						blízko svého domova i <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. Dne <date when="1945-01-07">7. ledna 1945</date> jsme dojeli do <placeName ref="http://www.geonames.org/3071677/litomerice.html"
+							>Litoměřic</placeName> a já jsem tam pak pobyl do <date when="1945-04-24">24. dubna 1945</date>.</p>
+					<p>Když jsme přijeli do <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřic</placeName>, byl tam <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábor</term> v počtu asi 5000 lidí, většinou z <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračního</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> ve <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-341" type="camp">Flossenbürgu</placeName>. Osazenstvo se skládalo většinou z <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poláků</placeName>, z <placeName ref="http://www.geonames.org/2017370/russian-federation.html">ruských</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-511" type="subject">válečných</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-511" type="subject">zajatců</term>, z Jugoslávců a z příslušníků jiných národností, bylo mezi nimi jenom málo Židů. Poměry, které vládly v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567"
+							type="subject">táboře</term> v období našeho příjezdu, jsou charakterizovány číslem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-862" type="subject">úmrtnosti</term> v <date when="1944-12">prosinci 1944</date>, kdy <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zemřelo</term> asi 1800 lidí. Za doby mého pobytu v <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřicích</placeName> přibylo hodně dalších <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwaldu</placeName>, z <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Rosenu</placeName> a z jiných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>. V <date when="1945-04">dubnu 1945</date> obnášel pak stav 9000.</p>
+					<p>Náš <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>, který byl složen ze Židů ze všech <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">kauferingských</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>, byl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubytován</term> na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">bloku</term>, který byl již plně obložen 600 lidmi. K těmto jsme byli ještě my nacpáni. Na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bloku</term> byly čtyřposchoďové <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kavalce</term>, na nichž nebyly ani <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">slamníky</term>, ani <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">deky</term>, jen trochu slámy. Většina <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">zajatců</term> pochopitelně už nenašla místo na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kavalcích</term>, nýbrž musela <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">spát</term> na holé zemi.</p>
+					<p>Náš <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-809" type="subject">denní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-809" type="subject">program</term> vypadal asi takto:</p>
+					<p>Ve 3hod.30 ráno byl budíček.</p>
+					<p>Od 4hod.30 do 7hod.30 jsme museli stát na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">apelu</term>.</p>
+					<p>Od 8hod. do 20hod. byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">doba</term> s nepatrnou polední přestávkou.</p>
+					<p>V 21hod. jsme museli zase stát na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">apelu</term>, který trval nejméně do 22 hod., takže jsme teprve asi ve 23 hod. dostali <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">polévku</term>, svoje hlavní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídlo</term>, a dostali se ke <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">spánku</term> teprve
+						v půlnoci.</p>
+					<p>Nedostatek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">spánku</term>, těžká <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>, s tím spojené vysílení, byly mimo <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">infekční</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemoce</term>, z nichž řádila zejména <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-494" type="subject">úplavice</term>, ale i <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">břišní</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">skvrnitý</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyf</term>, hlavními příčinami vysoké <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-862" type="subject">úmrtnosti</term>. Jako charakteristické číslo uvádí, že z 200 <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínských</placeName> Židů, kteří přijeli do <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřic</placeName> z <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kaufering</placeName>, se vrátili jenom 3, a to <persName ref="#ehri_dc_hardeck_dr.">Dr. Hardeck</persName>, který <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>pracoval</term> jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">ošetřovatel</term> a tím měl poněkud lepší postavení, <persName ref="#ehri_dc_dub_renne">Renné Dub</persName> a já. Mezi <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">obětmi</term>
+						<placeName ref="http://www.geonames.org/3071677/litomerice.html">litoměřického</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračního</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">tábora</term> byla celá řada našich přátel, mimo jiné <persName ref="#ehri_dc_schuster_heinz">Heinz Schuster</persName> a <persName ref="#ehri_dc_korbel_gert">Gert Körbel</persName>.</p>
+					<p>Jak již řečeno, byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">doba</term> 12 hodinová. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Práce</term> byla velmi těžká, pod <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">zemí</term>, sestávala hlavně z nakládání kamenů a jiných těžkých pomocných <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">prací</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Jídla</term> bylo málo, dostávali jsme denně 40 dkg <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">chleba</term>, 1 litr řídké <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">polévky</term> a nepatrné tzv. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">Zulagen</term>, které byly mnohem menší než ku příkladu v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračním</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táboře</term> v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kauferingu</placeName>. Rovněž zacházení bylo velmi špatné, ačkoli jsme se dostali dost málo
+						do styku s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>. Když ovšem zasáhla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>, bylo velmi zle a uvádím, že <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">esesáci</term> měli vycvičené psy, které hnali na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězně</term>. Ale zejména <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">kápové</term> a přední <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">dělníci</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">tloukli</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězně</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">ubili</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">je</term>. Byli to většinou <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poláci</placeName> /: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+							type="subject">árijští</term> :/, kteří se vyznačovali zvláštní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">surovostí</term> a zejména také <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject"
+							>protižidovským</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">postojem</term>.</p>
+					<pb facs="EHRI-DC-007_02.png" n="2"/>
+					<p>Z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">árijských</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term> se chovala k nám dobře jenom část politických <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-618" type="subject">vězňů</term>, zejména <placeName
+							ref="http://www.geonames.org/3077311/czechia.html">českých</placeName>.</p>
+					<p>V <date when="1945-04">dubnu</date> začala pomalá <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">likvidace</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">tábora</term>, přičemž Židé byli posláni do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. Jedním takovým dílčím <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportem</term> jsem i já došel ve zbědovaném stavu do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName> dne <date when="1945-04-24"
+							>24. dubna 1945</date>.</p>
+					<p><persName ref="#ehri_dc_lang_petr">Per Lang</persName></p>
+					<p>Podpisy svědků: <persName ref="#ehri_dc_weinberger_robert">Robert Weinberger</persName></p>
+					<p><persName ref="#ehri_dc_kratkova_marta">Marta Kratková</persName></p>
+					<p><persName ref="#ehri_dc_shek_alisa">Alice Ehrmannová</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační</term><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">akce</term>:<persName ref="#ehri_dc_shek_zeev">Zeev
+							Scheck</persName></p>
+					<p><date when="1945-07-23">23. VII. 1945</date></p>
+					<p>Za archiv: <persName ref="#ehri_dc_schmiedt_alexander">Alex Schmiedt</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-007_01.png" n="1"/>
+					<p>Statement</p>
+					<p>written with <persName ref="#ehri_dc_lang_petr">Petr Lang</persName>, born <date when="1924-08-24">21. 8. 1924</date>, former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoner</term> in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> in <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName>, Jewish nationality, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057"
+							type="subject">profession</term> locksmith.</p>
+					<p>I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> from my home in <placeName ref="http://www.geonames.org/3074199/jihlava.html">Jihlava</placeName> on <date when="1945-05-22">22. 5. 1942</date> to the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghetto</term>. For almost the entire time of my internment there, I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-932" type="subject">farm</term> and this saved me from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> in the fall of <date when="1944">1944</date>. My <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> also held on until then, because my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> was considered a severe <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">wartime</term> invalid, but they were placed on the fall <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> as well. My <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sister</term> was sent to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> on an earlier <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>.</p>
+					<p>On <date when="1944-09-28">September 28th, 1944</date>, I was put on the first so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-557" type="subject">labor</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>, which took us to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>. I stayed there until <date when="1944-10-08">October
+							8th, 1944</date>, when I was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transported</term> to the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kaufering</placeName> 3 <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>. On <date when="1945-01-05">January 5th</date>, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> carrying 850 people (most of them
+						Jews) left <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kaufering</placeName>. Many of our friends volunteered to be placed on it, because it was rumored that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+							type="subject">transport</term> would go to <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName> and we wanted to be closer to home and to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Theresienstadt</placeName>. On <date when="1945-01-07">January 7th, 1945</date>, we arrived in <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName>, where I remained until <date when="1945-04-24">April 24th, 1945</date>.</p>
+					<p>When we arrived in <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName>, there were about 5,000 people in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term>, the majority of them from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-341" type="camp">Flossenbürg</placeName>. The population was composed mostly of <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poles</placeName>, <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russian</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-511" type="subject">prisoners of war</term>, Yugoslavs, and other nationalities. Very few were Jewish. The conditions in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject"
+							>camp</term> after we arrived are characterized by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-862" type="subject">death</term> count in <date when="1944-12">December 1944</date>, when roughly 1,800 people <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term>. During my stay in <placeName ref="http://www.geonames.org/3071677/litomerice.html">Litomerice</placeName>, many other <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> arrived from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Gross</placeName>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-433" type="camp">Rosen</placeName>, and other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>. In <date when="1945-04">April, 1945</date>, the number of people in the camp rose to 9,000.</p>
+					<p>Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>, which consisted of the Jews from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kaufering</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>, was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">housed</term> on a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">block</term> that was already fully occupied with 600 people. We were packed into the same space. Each <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">block</term> had four-tiered <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bunks</term>. There were no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">straw mattresses</term>, no <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">blankets</term>, only a bit of straw. Most of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">prisoners</term> couldn’t find a spot on the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bunks</term>, but had to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sleep</term> on the bare floor.</p>
+					<p>Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-809" type="subject">daily</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-809" type="subject">schedule</term> looked like this:</p>
+					<p>Walk-up call at 3:30 AM.</p>
+					<p>From 4:30 to 7:30 AM we had to stand during <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll call</term>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">day</term> was from 8:00 AM to 8:00 PM with a very short stop at noon.</p>
+					<p>At 9:00 PM we had to stand during <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487" type="subject">roll call</term> again, which lasted until at least 10:00 PM, so we received our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">soup</term>, our main <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">meal</term>, around 11:00 PM and went to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sleep</term> around
+						midnight.</p>
+					<p>Lack of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">sleep</term>, hard <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>, and the exhaustion they caused, were the main reasons for the high <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-862" type="subject">death rate</term>, alongside <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">infectious</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">diseases</term>, especially <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-494" type="subject">dysentery</term> as well as <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">abdominal</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">spotted</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhoid fever</term>. Of the 200 Jews from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> who came to <placeName
+							ref="http://www.geonames.org/3071677/litomerice.html">Litoměřice</placeName> from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kaufering</placeName>, only 3 returned. These were: <persName ref="#ehri_dc_hardeck_dr.">Dr.
+							Hardeck</persName>, who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-286" type="subject">nurse</term>, giving him a slightly better standing, <persName
+							ref="#ehri_dc_dub_renne">Renné Dub</persName>, and I. Many of our friends were among the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term> of the <placeName ref="http://www.geonames.org/3071677/litomerice.html"
+							>Litoměřice</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>, including <persName ref="#ehri_dc_schuster_heinz">Heinz Schuster</persName> and <persName ref="#ehri_dc_korbel_gert">Gert Körbel</persName>.</p>
+					<p>As I previously stated, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">day</term> was 12 hours long. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Work</term> was very hard, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-944" type="subject">underground</term>, and consisted mainly of loading rocks and other backbreaking <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. There wasn’t enough
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, we got 40 dkg of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bread</term> per day, 1 liter of thin <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">soup</term>, and minuscule so-called <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">Zulagen</term>, much less than in the  <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-225" type="camp">Kaufering</placeName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term>. Their treatment of us was also very bad, although we interacted very little with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>.
+						But when the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> did interfere, it was horrible. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> had trained dogs, which they turned on
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term>. It was mostly the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-485" type="subject">capos</term> and head <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-484" type="subject">workers</term> who would <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">beat</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">beat</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">them to death</term>. The <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poles</placeName> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373"
+							type="subject">Aryans</term>) were especially <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">cruel</term> and had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">anti-Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">attitudes</term>.</p>
+					<pb facs="EHRI-DC-007_02.png" n="2"/>
+					<p>Out of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term>, only some of the political <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-618" type="subject">prisoners</term> treated us well, especially the <placeName
+							ref="http://www.geonames.org/3077311/czechia.html">Czechs</placeName>.</p>
+					<p>In <date when="1945-04">April</date>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-567" type="subject">camp</term> was slowly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-551" type="subject">liquidated</term>, and the Jews were sent to
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. I was on one of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term>, arriving in a wretched state in
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on <date when="1945-04-24">April 24th, 1945</date>.</p>
+					<p><persName ref="#ehri_dc_lang_petr">Petr Lang</persName></p>
+					<p>Signature of witnesses: <persName ref="#ehri_dc_weinberger_robert">Robert Weinberger</persName></p>
+					<p><persName ref="#ehri_dc_kratkova_marta">Marta Kratková</persName></p>
+					<p><persName ref="#ehri_dc_shek_alisa">Alice Ehrmannová</persName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation</term><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Campaign</term>:<persName ref="#ehri_dc_shek_zeev">Zeev
+							Scheck</persName></p>
+					<p><date when="1945-07-23">23. VII. 1945</date></p>
+					<p>On behalf of the archive: <persName ref="#ehri_dc_schmiedt_alexander">Alex Schmiedt</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

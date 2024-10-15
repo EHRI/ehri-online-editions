@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-YV3549466_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Ernestine Rosengarten, experiences in Transnistria camps (Ukraine), 1942–1944</title>
+				<title xml:lang="de">Ernestine Rosengarten, Erfahrungen in Transnistrien-Lagern (Ukraine), 1942–1944</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Judith Levin</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Daphna Sehayek</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/il-002798">Yad Vashem Archives</orgName><address>
+								<street>Har Hazikaron</street>
+								<postCode>P.O.B. 3477</postCode>
+								<settlement>Jerusalem</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/il">Israel</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/il-002798-o_1?dlid=eng">The Ball-Kaduri Collection: Contemporary testimonies and reports regarding the Holocaust of the Jews of Germany and Central Europe, 1943-1960 (O.1)</collection>
+						<idno>file no. 3549466</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Yad Vashem Archives, The Ball-Kaduri Collection: Contemporary testimonies and reports regarding the Holocaust of the Jews of Germany and Central Europe, 1943-1960 (O.1), file no. 3549466.<textLang mainLang="de">Original in German.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1958-04">April 1958</origDate>, <origPlace ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</origPlace>, <placeName ref="ehri_et_camp_tarasivka" type="camp">Tarasivka</placeName>, <placeName ref="http://www.geonames.org/712250/bershad.html"
+					>Bershad</placeName>, <placeName ref="ehri_et_camp_ladyzhin" type="camp">Ladyzhin</placeName>, </creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="de">German</language>
+				<language ident="ro">Romanian</language>
+				<language ident="uk">Ukrainian</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony and report of Ernestine Rosengarten, a survivor from Chernivtsi, about the fate of her son Heinz in the camp Tarasivka, Ukraine. The file includes various letters by members of Rosengarten’s family and by Dr. Ball-Kaduri, plus several other documents about the not
+					well-documented forced labor camp Tarasivka.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<pb facs="EHRI-ET-YV3549466_01.jpg" n="1"/>
+					<!--<p>- 1 -</p>-->
+					<p>Bemerkungen von <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<p>Ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Zeugenbericht</term> von <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName>, <placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName></p>
+					<p><q>Vom Schicksal der Juden in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> hinter dem <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName></q></p>
+					<p>Ich überreiche:</p>
+					<p>1/ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Zeugenbericht</term> von <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName> im Original und Abschriften in <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsch</placeName></p>
+					<p>2/ den hebräischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> von <persName ref="#ehri_et_rosengarten_ernestine">E. R.</persName> an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad
+							Vashem</orgName> vom <date when="1955-11-10">10. 11. 1955</date> im Original und Abschriften mit Anlage sowie Photokopie (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Schreiben</term> des <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Militärs</orgName> in <placeName ref="http://www.geonames.org/690791/ukraine.html">ukrainischer</placeName> Sprache vom <date when="1944-10-31">31. Oktober 1944</date></p>
+					<p>3/ <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsche</placeName> Übersetzung des vorstehenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefes</term> mit Anlage</p>
+					<p>4/ Abschriften des <placeName ref="http://www.geonames.org/798549/romania.html">rumänischen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefes</term>, angefertigt vom <persName ref="#ehri_et_rosengarten_leander_philipp" type="subject">Bruder</persName> von <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz
+							Rosengarten</persName>.</p>
+					<p>Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Zeugenaussage</term> der <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> kommt eine besondere Bedeutung zu, weil sie einen der wenigen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Berichte</term> über ein <q>Lager hinter dem <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName></q> darstellt, und ausserdem weil sie einen anderen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> bestätigt und ergänzt.</p>
+					<p>Bisher war nur aus dem ersten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> der Frau <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> vom <date when="1955-11-10">10. 11. 55</date> bekannt, dass es ein <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buch</term> von <persName ref="#ehri_et_dagani_korn_arnold">Arnold Daghani</persName> (Korn) gibt, das das <placeName ref="#ehri_et_camp_tarasivka">Lager Terasiwka</placeName> behandelt und auch
+						Abschnitte über den <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> der <persName ref="#ehri_et_rosengarten_ernestine">Frau R.</persName> enthält. Wir hatten bisher vergeblich versucht, es für die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Bibliothek</term> zu erhalten, da <persName ref="#ehri_et_weinstein_dr">Dr. Weinstein</persName>, der im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject"
+							>Briefe</term> als Besitzer eines <placeName ref="http://www.geonames.org/798549/romania.html">rumänischen</placeName> Exemplar genannt ist, diese früher einmal verliehen hat und sich nicht besinnt an wen, und es nicht zurückerhalten hat. Unsere <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Bibliothek</term> hat sich bisher auch vergeblich bemüht, ein <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englisches</placeName>
+						Exemplar durch den <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1051">Jüdischen Weltkongress</orgName> zu erhalten, mit dessen Hilfe die <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"
+							>englische</placeName> Ausgabe seiner Zeit in <placeName ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> herausgebracht worden sein soll. –</p>
+					<p>Wir haben daraufhin eine Suchnotiz in die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">Zeitung</term> der <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukowinaer</placeName> Juden in <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">Die Stimme</term></q> gegeben, und daraufhin wurde der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">Bibliothek</term> leihweise ein <placeName
+							ref="http://www.geonames.org/798549/romania.html">rumänisches</placeName> Exemplar von <persName ref="#ehri_et_fischer_dr">Dr. Fischer</persName>, welcher bei der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005402">URO</orgName> in <placeName
+							ref="http://www.geonames.org/293397/tel-aviv.html">Tel-Aviv</placeName> arbeitet, zur Verfügung gestellt. Ich selbst hatte aber noch keine</p>
+					<pb facs="EHRI-ET-YV3549466_02.jpg" n="2"/>
+					<!--<p>- 2 -</p>-->
+					<p>Gelegenheit, von dem Inhalt Kenntnis zu nehmen, da es für eine wissenschaftlich Arbeit verliehen ist.</p>
+					<p>Ferner ist mir durch meine <placeName ref="http://www.geonames.org/6255148/europe.html">Europareise</placeName> ein weiterer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> über das <placeName ref="#ehri_et_camp_tarasivka">Lager
+							Terasiwka</placeName> bekannt geworden, der bei der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName> liegt und dessen Verfasser ein Herr <persName ref="#ehri_et_segall_nathan">Segall</persName><note place="bottom">im
+							Original <persName ref="#ehri_et_segall_nathan">Segall</persName>, wahrscheinlich <persName ref="#ehri_et_segall_nathan">Nathan Segall</persName>, ermordet in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> 1943</note> is,</p>
+					<p>der diesen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> in <placeName ref="http://www.geonames.org/625665/mahilyow.html">Moghilew</placeName> geschrieben hat. Aus einem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Begleitbericht</term> eines anderen, nicht genannten Verfassers, geht hervor, dass <persName ref="#ehri_et_segall_nathan">Segall</persName> diesen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> in <placeName ref="http://www.geonames.org/625665/mahilyow.html">Moghilew</placeName> geschrieben hat, wohin er in Begleitung eines <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Mannes aus <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> gekommen war. Der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Mann fuhr dann weiter
+						nach <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukowina</placeName> und <placeName ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName>, um <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term> für
+						die Juden in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> zu suchen, und später</p>
+					<p>kehrte <persName ref="#ehri_et_segall_nathan">Segall</persName> mit dem <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Mann nach dort zurück, und kam, dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject"
+							>Begleitbericht</term> zu Folge, dort bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">Liquidierung</term> des <placeName ref="#ehri_et_camp_tarasivka">Lagers</placeName> am <date when="1943-12-13">13. 12. 1943</date> ums Leben.
+						Wie ich von der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName> hörte, steht die Übersendung dieses <persName ref="#ehri_et_segall_nathan">Segall</persName>-<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686"
+							type="subject">Berichtes</term> an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad Washem</orgName> in der nächsten Sendung von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Zeugenaussagen</term> bevor. Der
+						Name des Verfassers des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Begleitberichtes</term> ist nicht angegeben, und darf von der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName> zur Zeit
+						noch nicht angegeben werden, weil dieser selbst eine Publikation beabsichtigt.</p>
+					<p>Es ist nun hochinteressant, dass der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Oberleutnant <persName ref="#ehri_et_elsasser">Elsässer,</persName> der nach dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686"
+							type="subject">Bericht</term> von Frau <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName>
+						<placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> besuchte und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term> für die Juden in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName>
+						holte, der gleiche ist, der vorher in <placeName ref="http://www.geonames.org/625665/mahilyow.html">Moghilew</placeName> war und über den die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName> den erwähnten <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> besitzt, denn Frau <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> sagte mir im Rahmen ihrer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686"
+							type="subject">Aussage</term>, dass <persName ref="#ehri_et_elsasser">Elsässer</persName> zunächst mit einem Juden namens <persName ref="#ehri_et_segall_nathan">Segall</persName> nach <placeName ref="http://www.geonames.org/625665/mahilyow.html">Moghilew</placeName>
+						gefahren sei, diesen aber nicht weiter mitnehmen konnte, und dann allein mit einem Feldwebel nach <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> gekommen sei. So bestätigt der eine <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> den anderen!</p>
+					<p>Zu der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Aussage</term> der <persName ref="#ehri_et_rosengarten_ernestine">Frau R.</persName> sind noch einige Einzelheiten zu bemerken: Die Annahme der Frau <persName
+							ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName>, dass <persName ref="#ehri_et_elsasser">Elsässer</persName> gleichzeitig der Leiter der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation Todt</orgName> und des Lagers</p>
+					<pb facs="EHRI-ET-YV3549466_03.jpg" n="3"/>
+					<!--<p>- 3 -</p>-->
+					<p>gewesen sei, ist nicht sehr wahrscheinlich, weil im allgemeinen diese Funktionen getrennt waren. Andererseits ist die ganze Aktion von <persName ref="#ehri_et_elsasser">Elsässer</persName> und sein Verhalten etwas einzigartiges. Es ist kein anderer Fall bekannt, dass ein
+							<placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutscher</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Mann oder Offizier eine solche Reise, die doch offenbar offiziell genehmigt oder wenigstens zugelassen war, unternommen hat. Nach den <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Schilderungen</term> von Frau <persName ref="#ehri_et_rosengarten_ernestine">R.</persName> und auch von <persName ref="#ehri_et_segall_nathan">Segall</persName> hat er ferner offenbar in erster
+						Reihe wirklich <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">helfen</term> wollen, und nicht etwa für die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> Geld verdienen oder einen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">Raubzug</term> machen.</p>
+					<p>Es wäre zu erwägen, ob man versuchen sollte, festzustellen, ob er den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">Krieg</term> überlebt hat, und mit ihm in Verbindung treten sollte.</p>
+					<p>[Signatur:] <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName> im <date when="1958-04">April 1958</date></p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<pb facs="EHRI-ET-YV3549466_04.jpg" n="4"/>
+					<!--<p>- 4 -</p>-->
+					<p>Vom Schicksal der Juden im <placeName ref="#ehri_et_camp_tarasivka">Lager Terasiwka</placeName>
+						<q>hinter <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">dem Bug</placeName></q></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Zeugenbericht</term> von Frau <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> in <placeName ref="http://www.geonames.org/295740/afula.html">Afulah</placeName>,
+							<placeName ref="http://www.geonames.org/295740/afula.html">Schikun Owdei Solel Boneh</placeName>,</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Mutter</term> des Ingenieurs <persName ref="#ehri_et_rosengarten_heinz_victor">Victor Heinz Rosengarten</persName>, aufgenommen in <placeName ref="http://www.geonames.org/295740/afula.html"
+							>Afulah</placeName> am <date when="1958-04-07">7. April 1958</date></p>
+					<p>durch <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<p>Ich überreiche zunächst<note place="bottom">im Original gestrichen</note> in <placeName ref="http://www.geonames.org/798549/romania.html">rumänischer</placeName> Abschrift und in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+							>deutscher</placeName> Übersetzung einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> meines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Sohnes</term>
+						<persName ref="#ehri_et_rosengarten_heinz_victor">Victor Heinz</persName> aus dem <placeName ref="#ehri_et_camp_tarasivka">Lager Terasiwka</placeName> vom <date when="1943-09-14">14. 9. 1943</date> mit einer Vorbemerkung von mir. Ich haber ferner bereits in meinem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> vom <date when="1955-11-10">10. November 1955</date> an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad-Washem</orgName> einen kurzen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> über das Schicksal meines <persName ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> gegeben. In Zusammenfassung dieser Angaben und zwecks Mitteilung weiterer Einzelheiten
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">berichte</term> ich:</p>
+					<p>Mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> und seine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Frau</term>
+						<persName ref="#ehri_et_rosengarten_anni">Anni (Hanna</persName>) wurden am <date when="1942-06-14">14. Juni 1942</date> aus ihrem Hause in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> herausgeholt und in das <placeName
+							ref="#ehri_et_camp_ladyzhin">Lager Laidzin</placeName><note place="bottom">Ladyzhin?</note> in <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName> gebracht. Von dort wurden sie zur <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> über den <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName> gebracht. Auf dem Wege kamen sie durch <placeName
+							ref="http://www.geonames.org/712250/bershad.html">Berschad</placeName>, und von dort erhielten wir eine Postkarte mit einem Gruss. Mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> war ein hervorragender Ingenieur, und hinter dem <placeName
+							ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>, wo sie wahrscheinlich in verschiedenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lagern</term> und jedenfalls zuletzt im <placeName
+							ref="#ehri_et_camp_tarasivka">Lager Terasiwka</placeName> waren, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitete</term> er für die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation Todt</orgName>
+						(sowie auch alle anderen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Lagerinsassen</term><note place="bottom">handschriftliche Ergänzung</note>).</p>
+					<p>Mitte oder Ende <date when="1943-10">Oktober 1943</date> kam ein Oberleutnant der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> mit einem Feldwebel aus <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> nach <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>, um Gaben für die Juden in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> zu sammeln. Er wohnte bei dem Gymnasialprofessor <persName ref="#ehri_et_schwarz_baruch"
+							>Schwarz</persName>, dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Vater</term> meiner <persName ref="#ehri_et_rosengarten_anni">Schwiegertochter</persName>, er brachte einen allgemeinen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> (der Juden in .. <note place="bottom">im Original gestrichen</note>) meines <persName ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> an die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">jüdische Gemeinde</term> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> in welchem er um <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term> für alle Juden in <placeName ref="#ehri_et_camp_tarasivka">T.</placeName> bat und einen zweiten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject"
+							>Brief</term> meines <persName ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> an uns. Alles was ich im folgenden <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">berichte</term>, beruht auf <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Angaben</term> dieses Oberleutnants.</p>
+					<p>Er hiess <persName ref="#ehri_et_elsasser">Elsässer</persName>, war im Zivilberuf Bauunternehmer und stammte aus <placeName ref="http://www.geonames.org/2886242/koeln.html">Köln</placeName>. Er kam auf Veranlassung der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Juden</term> im <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName><placeName ref="#ehri_et_camp_tarasivka"> </placeName><placeName ref="#ehri_et_camp_tarasivka">T..,</placeName> um Gaben
+						für sie zu holen. Bei seiner Abfahrt aus <placeName ref="#ehri_et_camp_tarasivka">Tera</placeName>-</p>
+					<pb facs="EHRI-ET-YV3549466_05.jpg" n="5"/>
+					<!--<p>- 5 -</p>-->
+					<p><placeName ref="#ehri_et_camp_tarasivka">siwka</placeName> mit dem Feldwebel nahm er zwei Juden mit, meinen <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> und einen anderen, namens <persName ref="#ehri_et_segall_nathan">Segall</persName>. Mein <persName
+							ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> musste aber am <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName> zurückbleiben, und durfte nicht weiter mitkommen. Der</p>
+					<p>andere, <persName ref="#ehri_et_segall_nathan">Segall</persName>, kam bis <placeName ref="http://www.geonames.org/625665/mahilyow.html">Moghilew</placeName> in <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName> mit, dort musste auch er
+						zurückbleiben. Der Oberleutnant und der Feldwebel fuhren weiter nach <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>.</p>
+					<p><persName ref="#ehri_et_elsasser">Elsässer</persName> war der Leiter einer Gruppe der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation</orgName><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433"> </orgName><orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Todt</orgName>, die hinter dem <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>, in dem von <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html"
+							>Deutschen</placeName> beherrschten Gebiet, Strassen gebaut hat. Da er mächtig war, nehme ich an, dass er auch gleichzeitig der Leiter des <placeName ref="#ehri_et_camp_tarasivka">Lagers T.</placeName> war. Es <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeiteten</term> dort nicht nur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">Juden</term>, die aus <placeName
+							ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName> dorthin gebracht worden waren, sondern noch zwei andere Gruppen, d. h. nicht nur <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukowinaer</placeName> Juden, sondern auch
+							<placeName ref="http://www.geonames.org/690791/ukraine.html">ukrainische</placeName> Juden, die aus der <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName> (<placeName ref="http://www.geonames.org/858911/transnistria.html"
+							>Transnistrien</placeName>) stammten sowie <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">polnische</placeName> Juden. Im ganzen waren es aber nur 300 Personen. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject"
+							>Verhältnisse</term> im <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName> ergeben sich aus dem beigefüten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefe</term> meines <persName ref="#ehri_et_rosengarten_heinz_victor"
+							>Sohnes</persName>.</p>
+					<p><persName ref="#ehri_et_elsasser">Elsässer</persName> brachte einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> der Juden aus <placeName ref="#ehri_et_camp_tarasivka">T.</placeName> an die Gemeinde in <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> mit, mit einem Hilferuf. Er brachte ferner den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> meines <persName
+							ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> mit, dessen Abschrift ich übergeben habe. Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> meines <persName ref="#ehri_et_rosengarten_heinz_victor"
+							>Sohnes</persName> ist <placeName ref="http://www.geonames.org/798549/romania.html">rumänisch</placeName> geschrieben. Da wir sonst immer nur <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsch</placeName> sprachen und schrieben, so
+						kann ich mir das nur so erklären, dass mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> nicht wollte, dass der <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsche</placeName> Offizier den <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> lesen sollte.</p>
+					<p>Die Juden der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Gemeinde</term><placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> haben sich grossartig benommen, obwohl die meisten selbst schon <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-848" type="subject">verarmt</term> waren. Sie haben in grösstem Umfange <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleider</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Schuhe</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">gespendet</term>. Ausserdem hat <persName ref="#ehri_et_elsasser">Elsässer</persName> für die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> im <placeName
+							ref="#ehri_et_camp_tarasivka">Lager</placeName> einen grossen Transport von Champagner, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Schinken</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+							>Speck</term>, neuen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Schuhen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Pelzen</term> mitbekommen, damit die <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> zufrieden war und sich nicht die für die Juden bestimmten Sachen aneignete. Das ganze</p>
+					<p>war eine Sendung von 4-5 Lastwagen. Von (uns persönlich hat <persName ref="#ehri_et_elsasser">El-</persName><note place="bottom">im Original gestrichen</note>) Juwelier Goldstein aus <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> (dessen
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Familie</term> mit meinem <persName ref="#ehri_et_rosengarten_heinz_victor">Sohne</persName> zusammen war) hat <persName ref="#ehri_et_elsasser">Elsässer</persName>, nebst anderen unzähligen
+							Geschenken<note place="bottom">handschriftliche Ergänzung</note>,</p>
+					<pb facs="EHRI-ET-YV3549466_06.jpg" n="6"/>
+					<!--<p>- 6 -</p>-->
+					<p>(<persName ref="#ehri_et_elsasser">sässer</persName><note place="bottom">im Original gestrichen</note>) eine goldene Uhr für sich und anderes für <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Frau</term> und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Tochter</term> als Dank geschenkt bekommen. Von uns persönlich bekam <persName ref="#ehri_et_elsasser">Elsässer</persName> wertvolle Geschenke, Ledersachen, Schmuck u. a.<note place="bottom"
+							>handschriftliche Ergänzung</note></p>
+					<p><persName ref="#ehri_et_elsasser">Elsässer</persName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">berichtete</term> uns weiter: Mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> war sein hervorragendster <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">Arbeiter</term>. Als ein schwerer Abschnitt der technischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> fertiggestellt war, wurde ein grosses
+						Fest gefeiert. <persName ref="#ehri_et_elsasser">Elsässer</persName> hatte durchgesetzt, dass dazu auch mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> und meine <persName ref="#ehri_et_rosengarten_anni">Schwiegertochter</persName> eingeladen ware. Am
+						Ende des Festes wurden <persName ref="#ehri_et_rosengarten_heinz_victor">er</persName> und seine <persName ref="#ehri_et_rosengarten_anni">Frau</persName> mit einem Schlitten ins <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName> zurückgeschickt. Dabei gab <persName
+							ref="#ehri_et_elsasser">Elsässer</persName> dem Kutscher die Weisung: Fahren Sie dahin, wohin Herr <persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten</persName> gefahren sein will. Offenbar wollte er ihm die Gelegenheit geben, über den <placeName
+							ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName> zurück nach <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName> zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject"
+							>flüchten</term>. Aber mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> nutzte das nicht aus. Denn für jeden Juden, der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">flüchtete</term>, wurden 10 andere <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">erschossen</term>. <persName ref="#ehri_et_elsasser">Elsässer</persName> erzählte uns dies, wenn auch nicht ganz so deutlich, und fügte hinzu: So etwas macht ein <persName
+							ref="#ehri_et_rosengarten_heinz_victor">Rosengarten</persName> nicht.</p>
+					<p>Der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> meines <persName ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> war vom <date when="1943-09-14">14. 9. 43</date> datiert, aber meine Angabe in der Vorbemerkung zum
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term>, dass <persName ref="#ehri_et_elsasser">Elsässer</persName> im September zu uns kam, ist ungenau, er kam erst Mitte oder Ende Oktober.</p>
+					<p>Nachdem er mit den ganzen Sachen zurückgefahren war, kam kurze Zeit darauf noch einmal, auf sicherem Wege, eine Nachricht aus <placeName ref="#ehri_et_camp_tarasivka">T.</placeName>, nach <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>,
+						dass man die Sachen dort erhalten habe. Wir haben später immer gesagt, sie könnten die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Esswaren</term> noch nicht einmal aufgegessen haben, da das <placeName ref="#ehri_et_camp_tarasivka"
+							>Lager</placeName> am <date when="1943-12-13">13. 12.</date> liquidiert wurde. (soweit das Datum, welches im später genannten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buche</term> des Herrn <persName
+							ref="#ehri_et_dagani_korn_arnold">Korn</persName> erwähnt ist, richtig ist)<note place="bottom">handschriftliche Ergänzung</note></p>
+					<p>Meine <persName ref="#ehri_et_rosengarten_anni">Schwiegertochter</persName> war einmal an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">Typhus</term> erkrankt und fieberte sehr. Mein <persName ref="#ehri_et_rosengarten_heinz_victor"
+							>Sohn</persName> hat ihr damals den einzigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Rock</term>, den er noch besass, zur Bedeckung gegeben.</p>
+					<p>Schon früher war einmal ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> meines <persName ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> angekommen, deutlich in seiner eigenen Handschrift, der ein Lebenszeichen aus
+							<placeName ref="#ehri_et_camp_tarasivka">T.</placeName> enthielt. Er war auf sehr gutem weissen Briefpapier mit</p>
+					<pb facs="EHRI-ET-YV3549466_07.jpg" n="7"/>
+					<!--<p>- 7 -</p>-->
+					<p>ebenso gutem weissen Umschlag geschrieben und in <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName> zur Post gegeben, und gerichtet an die Adresse seines <persName ref="#ehri_et_schwarz_baruch">Schwiegervaters</persName>, mit Aussenadresse Herrn
+							<persName ref="#ehri_et_schwarz_baruch">B. Schwarz</persName>, Prof. a. D. Das war eine bei uns ganz ungewöhnliche Formulierung in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">reichsdeutschem</placeName> Stil, und ebenso war der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> in diesem Stile abgefasst. Offenbar hatte er ihn einem Offizier, der nach <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschland</placeName> auf
+						Urlaub fuhr, mitgegeben, und der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> sollte bei diesem bei einer Kontrolle nicht auffallen.</p>
+					<p><persName ref="#ehri_et_dagani_korn_arnold">Arnold Korn</persName> (Daghani), der Verfasser des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buches</term>
+						<q>Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grab</term> ist<note place="bottom">handschriftliche Ergänzung</note> im Garten der Kirschen</q>, der das <placeName ref="#ehri_et_camp_tarasivka">Lager Terasiwka</placeName> beschreibt,
+						ist mit<note place="bottom">handschriftliche Ergänzung</note> (bei Gelegenheit eines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">Partisanenangriffs</term><note place="bottom">im Original gestrichen</note>) seiner <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Frau</term><note place="bottom">handschriftliche Ergänzung</note> wenige Tage vor der Liquidierung (mit den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject"
+							>Partisanen</term><note place="bottom">im Original gestrichen</note>) <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">geflüchtet</term>, und soweit uns bekannt lebt er jetzt in <placeName
+							ref="http://www.geonames.org/683506/bucharest.html">Bukarest</placeName>. Er und einige wenige andere sind die einzigen aus diesem <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-561" type="subject">geretteten</term>. In seinem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buche</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">berichtet</term> er auch ziemlich ausführlich über meinen <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName>. Korn war ein Maler und Graphiker, seinem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buche</term> sind auch Zeichnungen beigegeben. Ein <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutscher</placeName> Offizier war an seinen Arbeiten
+						interessiert, und half ihm bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Rettung</term>. Zu den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Geretteten</term> gehörte bei Gelegenheit eines <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">Partisanenangriffs</term><note place="bottom">handschriftliche Ergänzung</note> auch eine <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Familie</term> Semmel,
+						die sich angeblich hier im <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Lande</placeName> aufhalten soll. Vielleicht könnte man sie durch eine Notiz in der Zeitung finden.</p>
+					<p>Mein zweiter <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Sohn</term>, <persName ref="#ehri_et_rosengarten_leander_philipp">Leander Philipp</persName>, kam <date when="1942">1942</date> nach <placeName
+							ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> in verschiedene <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Zwangsarbeitslager</term>. Dorthin hat er eine Postkarte von meinem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Sohn</term>
+						<persName ref="#ehri_et_rosengarten_heinz_victor">Heinz</persName> noch im Jahre <date when="1942">1942</date> erhalten. Das war im Herbst <date when="1942">1942</date>, und diese Karte enthielt die damals erlaubten 7 Zeilen. Die Karte kam noch aus dem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Lager</term> in <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName> und enthielt die flehentliche Bitte, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">Medikamente</term> zu senden.</p>
+					<p>Zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">familiären</term> Seite mache ich die nachstehenden Angaben:</p>
+					<p><persName ref="#ehri_et_rosengarten_adolf_philipowicz">Adolf Rosengarten</persName>, geb. am <date when="1884-04-15">15. 4. 1884</date> in <placeName ref="http://www.geonames.org/707471/ivano-frankivsk.html">Stanislau</placeName>, seit <date when="1887">1887</date> in
+							<placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>, Beruf Eisenbahninspektor, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">gestorben</term> hier im <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Lande</placeName>
+						<date when="1954">1954</date>.</p>
+					<pb facs="EHRI-ET-YV3549466_08.jpg" n="8"/>
+					<!--<p>- 8 -</p>-->
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten, geb. Sternberg</persName> (ich selbst), geboren am <date when="1888-04-25">25. 4. 1888</date> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>.</p>
+					<p><persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName>, geb. in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> am <date when="1908-08-22">22. 8. 1908</date>, gestorben in <placeName
+							ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> am <date when="1943-12-13">13. Dez. 1943</date>. <persName ref="#ehri_et_rosengarten_anni">Anni Rosengarten</persName>, geb. Schwarz, geb. im Jahre <date when="1918">1918</date>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Tochter</term> des Gymnasialprofessor für Physik, Chemie usw., <persName ref="#ehri_et_schwarz_baruch">Baruch Schwarz</persName> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Czernowitz</placeName>.</p>
+					<p><persName ref="#ehri_et_rosengarten_leander_philipp">Leander Philipp Rosengarten</persName>, geb. am <date when="1924-08-29">29. 8. 1924</date> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>.</p>
+					<p>Mein <persName ref="#ehri_et_rosengarten_adolf_philipowicz">Mann</persName> und ich blieben bis zum Jahre <date when="1946">1946</date> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>, wohnten dann von <date when="1946">1946</date> –
+							<date when="1950">1950</date> in <placeName ref="http://www.geonames.org/683506/bucharest.html">Bukarest</placeName>, und wanderten hier im <date when="1950-08">August 1950</date> ein.</p>
+					<p>Mein zweiter <persName ref="#ehri_et_rosengarten_leander_philipp">Sohn</persName> war von <date when="1942">1942</date> – <date when="1944">1944</date> in <placeName ref="http://www.geonames.org/798549/romania.html">rumänischen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Arbeitslagern</term>, blieb dann in <placeName ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName>, und wanderte hier im <date when="1950-12">Dezember 1950</date> ein. Er ist
+						Ingenieur bei Solel Boneh in <placeName ref="http://www.geonames.org/295740/afula.html">Afulah</placeName>, und wohnt <placeName ref="http://www.geonames.org/295740/afula.html">Schikun Owdei Solel Boneh</placeName> in <placeName ref="http://www.geonames.org/295740/afula.html"
+							>Afulah</placeName>.</p>
+					<p>Mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Sohn</term><persName ref="#ehri_et_rosengarten_heinz_victor">Heinz</persName> war <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-916" type="subject">Student</term> der
+						Technischen Hochschule in <placeName ref="http://www.geonames.org/3067696/prague.html">Prag</placeName>, und hat dort als der 8. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-916" type="subject">Student</term> (und erste <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-916" type="subject">jüdische Student</term>) die Examen mit Auszeichnung bestanden.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Ball-Kaduri</persName></p>
+					<p>gez. Ernestine Rosengarten im <date when="1953-04">April 1953</date></p>
+					<p>gez. <persName ref="#ehri_et_rosengarten_leander_philipp">Leander Rosengarten</persName>(<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName>)</p>
+					<pb facs="EHRI-ET-YV3549466_09.jpg" n="9"/>
+					<!--<p>- 9 -</p>-->
+					<p>[<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> in Hebräisch von <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName> an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad
+							Vashem</orgName>, <date when="1955-11-10">10. 11. 1955</date>, s. S. 11 – 12]</p>
+					<pb facs="EHRI-ET-YV3549466_10.jpg" n="10"/>
+					<!--<p>- 10 -</p>-->
+					<p>[Hebräische Übersetzung des <placeName ref="http://www.geonames.org/690791/ukraine.html">ukrainischen</placeName> Anhangs zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> vom <date when="1955-11-10">10. November 1955</date>, s.
+						S. 13]</p>
+					<pb facs="EHRI-ET-YV3549466_11.jpg" n="11"/>
+					<!--<p>- 11 -</p>-->
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> von Frau <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544"
+							>YAD-Washem</orgName> vom <date when="1955-11-10">10. 11. 1955</date></p>
+					<p>(Uebersetzung aus dem Hebräischen)</p>
+					<p>Mein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Sohn</term><persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten, Victor Heinz</persName> und seine Frau <persName ref="#ehri_et_rosengarten_anni">Anni</persName> (Hanna) wurden von
+						ihrem Hause am <date when="1942-06-14">14. Juni 1942</date> von <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> herausgeholt und nach dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject"
+							>Konzentrationslager</term> in <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName>, <placeName ref="#ehri_et_camp_ladyzhin">Lager Laidzin</placeName><note place="bottom">Ladyzhin</note>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">gebracht</term>. Von dort wurden sie durch die Nazis zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> über den <placeName
+							ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">gebracht</term>.</p>
+					<p>Sie kamen an <placeName ref="http://www.geonames.org/712250/bershad.html">Barschad</placeName> vorbei, von wo wir eine Postkarte erhielten. Sie kamen in ein <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsches</placeName>
+						<placeName ref="#ehri_et_camp_tarasivka">Lager</placeName>, das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">Arbeitskräfte</term> für die <q><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation
+							Todt</orgName></q> zu stellen hatte.</p>
+					<p>Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Leben</term> war ganz abscheulich unter der Bewachung der SS, die aus <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-396">Freiwilligen</orgName> aus <placeName
+							ref="http://www.geonames.org/597427/republic-of-lithuania.html">Litauen</placeName> und der <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName> zusammengesetzt war. Das letzte <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName> war in
+							<placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName>. Befehlshaber des <placeName ref="#ehri_et_camp_tarasivka">Lagers</placeName> ein <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutscher</placeName>, <persName
+							ref="#ehri_et_elsasser">Elsässer</persName> (Arbeitsleiter <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">in Deutschland</placeName> im Zivilleben). Er kam nach <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Czernowitz</placeName> im Jahre <date when="1943">1943</date> mit einem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> meines <persName ref="#ehri_et_rosengarten_heinz_victor">Sohnes</persName> an die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Gemeinde</term>
+						<placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> mit der</p>
+					<p>Bitte, den wenigen zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">helfen</term>, die noch am Leben waren. Die Juden, denen es gelungen war, in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> zu
+						bleiben, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">gaben</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Essen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleidung</term>. Die Gegenstände gelangten an die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Bewohner</term> des <placeName ref="#ehri_et_camp_tarasivka">Lagers</placeName> in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName>, aber in Folge des schnellen Fortschrittes der
+							<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Russen</orgName> auf der östlichen Front beschlossen die <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschen</placeName>, das ganze <placeName
+							ref="#ehri_et_camp_tarasivka">Lager</placeName> zu <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">liquidieren</term></q>. Die Durchführung dieser <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject"
+							>Aktion</term> fiel auf die Morgenstunden des <date when="1943-12-13">13. Dezember 1943</date>. Damals kamen auch mein <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> und seine <persName ref="#ehri_et_rosengarten_anni">Frau</persName> um.</p>
+					<p>Aus diesem <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName> wurden nur einige Menschen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-561" type="subject">gerettet</term>, welche durch die <placeName
+							ref="http://www.geonames.org/8354411/union-of-soviet-socialist-republics.html">russischen</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">Partisanen</term> bei einer ihrer Aktionen gegen die <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Deutschen</placeName> mitgenommen wurden. In dem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buche</term>
+						<q>Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grab</term> befindet sich im Garten der Kirschen</q>, das in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"
+							>englischer</placeName> Sprache, sowie in <placeName ref="http://www.geonames.org/798549/romania.html">rumänisch</placeName> unter dem Titel <q>Groapa este intre, livada de visini</q> und das von einem der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-904"
+							type="subject">Geretteten</term> namens <persName ref="#ehri_et_dagani_korn_arnold">Arnold Daghani</persName> (Korn) geschrieben ist, kann</p>
+					<pb facs="EHRI-ET-YV3549466_12.jpg" n="12"/>
+					<!--<p>- 12 -</p>-->
+					<p>man über das Leben in <placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName> lesen. Einige Kapitel dieses <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buches</term>, das in Form eines <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-684" type="subject">Tagebuches</term> geschrieben ist, sind dem Charakter und dem Verhalten meines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Sohnes</term>
+						<persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Rosengarten</persName> gewidmet.</p>
+					<p>Ein Exemplar des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buches</term> befindet sich bei <persName ref="#ehri_et_weinstein_dr">Dr. Weinstein</persName> aus <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Czernowitz</placeName>, heute <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, POB 4003, Herausgeber der Zeitung <q>Die Stimme</q>. Dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buche</term> sind
+						Zeichnungen des Verfassers über Leben und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> im <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName>
+						<placeName ref="#ehri_et_camp_tarasivka">Lager Terasiwka</placeName> beigegeben.</p>
+					<p>Wenn Sie zusätzliche Einzelheiten genauer über eine Anzahl – verhältnismässig wenige – von Juden aus <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> wissen wollen, welche jenseits des <placeName
+							ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bugs</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">gebracht</term> wurden, stehe ich zu Ihrer Verfügung, überzeugt davon, dass jede Einzelheit über diese dunkle Epoche in unseren Tagen dazu dient, das Andenken an unsere <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Opfer</term> künftigen Geschlechtern zu überliefern.</p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Afulah</placeName>, <date when="1955-11-10">10. 11. 55</date> Hochachtungsvoll</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Afulah</placeName></p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Schechunat Owdei Solel Boneh</placeName></p>
+					<pb facs="EHRI-ET-YV3549466_13.jpg" n="13"/>
+					<!--<p>- 13 -</p>-->
+					<p>Anlage zum <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> vom <date when="1955-11-10">10. 11. 1955</date></p>
+					<p>Uebersetzung aus dem <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainischen</placeName> An <persName ref="#ehri_et_rosengarten_adolf_philipowicz">Rosengarten Adolf Philipowicz</persName></p>
+					<p>Stadt <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName></p>
+					<p><placeName ref="http://www.geonames.org/710719/chernivtsi.html">Strasse Georgi Schandri</placeName> Nummer 9, Wohnung 6</p>
+					<p>Mit Rücksicht darauf, dass das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grab</term> Ihrer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Kinder</term> sich im <placeName
+							ref="http://www.geonames.org/689559/vinnyts-ka-oblast.html">Bezirk Winitza</placeName> befindet, müssen Sie, um die Erlaubnis zur Exhumierung zu erhalten, sich an den Kommandanten des <placeName ref="http://www.geonames.org/689559/vinnyts-ka-oblast.html"
+							>Kreises</placeName></p>
+					<p><placeName ref="http://www.geonames.org/689559/vinnyts-ka-oblast.html">Winitza</placeName> wenden</p>
+					<p>M. M. Kommandant <placeName ref="http://www.geonames.org/710720/chernivtsi-oblast.html">Kreis Czernowitz</placeName></p>
+					<p>Kwitanabaski</p>
+					<p>Bemerkungen</p>
+					<p>Nachdem die Russen <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> befreit hatten, wandte sich mein <persName ref="#ehri_et_rosengarten_adolf_philipowicz">Mann</persName> an den Kreiskommandanten von <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> um die Erlaubnis zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1228" type="subject">Exhumierung</term> aller <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748"
+							type="subject">Gräber</term> der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">Ermordeten</term> zu erhalten, die alle zusammen mit unseren <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Kindern</term>
+						beerdigt wurden</p>
+					<p>(weil wir genau den Ort des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grabes</term> ihrer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Brüder</term> wussten).</p>
+					<p>Das Dokument, da ich hier in Photokopie beifüge, ist die einzige Antwort, die wir auf unsere Eingabe erhielten. Das Original befindet sich bei mir.</p>
+					<p><date when="1955-11-10">10. 11. 1955</date></p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<pb facs="EHRI-ET-YV3549466_14.jpg" n="14"/>
+					<!--<p>- 14 -</p>-->
+					<p>Aufzeichnung von Fr. <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName><note place="bottom">handschriftliche Ergänzung</note></p>
+					<p>Der folgende <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term>, in <placeName ref="http://www.geonames.org/798549/romania.html">rumänischer</placeName> Sprache verfasst, wurde von <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Offizier Oberlt.<note place="bottom">Oberleutnant</note>
+						<persName ref="#ehri_et_elsasser">Elsässer</persName> aus <placeName ref="http://www.geonames.org/2886242/koeln.html">Köln</placeName>, Führer des <placeName ref="#ehri_et_camp_tarasivka">KZ-Lagers</placeName><placeName ref="#ehri_et_camp_tarasivka"> </placeName><placeName
+							ref="#ehri_et_camp_tarasivka">Terasiwka</placeName>, Ende <date when="1943-09">September 1943</date> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822"
+							type="subject">Eltern</term> des Ing[enieurs] <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName> s[eligen] A[ndenkens], übermittelt. Oberlt. <persName ref="#ehri_et_elsasser">Elsässer</persName> nahm für alle <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Lagerinsassen</term>, nur Juden, einen grossen Transport von <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleidern</term>, Schuhen und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Esswaren</term> mit. Die Sachen wurden von den noch in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> verbliebenen, zum grossen Teil <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">ausgeraubten</term> Juden gespendet. Um die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Wachen im <placeName ref="#ehri_et_camp_tarasivka">Lager</placeName>
+						günstig zu stimmen, nahm <persName ref="#ehri_et_elsasser">Elsässer</persName> einen grossen Transport von Champagner, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Schinken</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Speck</term>, neuen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Schuhen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">Pelzen</term> mit, welche auch zum grössten Teil von den zurückgebliebenen Juden aufgetrieben wurden. Es waren auch ungezählte Christen, welche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Spenden</term> gaben, und es
+						wäre richtig, zu erwähnen, dass der polnisch-christliche Esswarenfabrikant Podzudek einige hundert Kg. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">geselchte Waren</term></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">spendete</term>. Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Kultusgemeinde</term> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Czernowitz</placeName> nahm trotz der schlimmen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Lage</term> aktiv an der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Sammlung</term> teil.</p>
+					<p>Uebersetzung aus dem <placeName ref="http://www.geonames.org/798549/romania.html">Rumänischen</placeName></p>
+					<p><placeName ref="#ehri_et_camp_tarasivka">Terasiwka</placeName>, <date when="1943-09-14">14. 9. 1943</date></p>
+					<p>Meine Lieben!</p>
+					<p>Meine <persName ref="#ehri_et_rosengarten_anni">Frau</persName> und ich sind noch gesund, der Tod jedoch lauert auf uns jeden Augenblick. Wir sind völlig <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">mittellos</term> und haben nichts zum
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">ankleiden</term>. Schickt uns viel Geld und warme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Sachen</term> für den Winter, für mich und meine <persName
+							ref="#ehri_et_rosengarten_anni">Frau</persName>. Vorigen Winter war meine <persName ref="#ehri_et_rosengarten_anni">Frau</persName> schwer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">krank</term> und habe ich alles verkauft, um sie zu
+						retten und herzustellen. Wir sind beide noch gesund, aber der Tod wartet auf uns jeden Moment. Gebet jede Mühe, jedes Vermögen, selbst wenn es von Fremden erbettelt sein muss, um uns schnellstens auf offiziellem Wege durch Courier <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">hinauszunehmen</term>, jenseits des <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>, nach <placeName ref="http://www.geonames.org/858911/transnistria.html"
+							>Transnistrien</placeName>. Wenn es Euch nicht schnell-</p>
+					<pb facs="EHRI-ET-YV3549466_15.jpg" n="15"/>
+					<!--<p>- 15 -</p>-->
+					<p>stens gelingt, verliert Ihr die Hoffnung, uns wiederzusehen. Die Farben, in denen ich Euch die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Situation</term> beschreibe, sind nicht schwärzer als sie der Realität entsprechen. Selbst Millionen
+						müssten erbettelt werden, um uns <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">hinauszunehmen</term>.</p>
+					<p>Täglich sehen wir den Tod vor Augen. Wenn wir gerettet werden, werde ich alles rückzahlen. Seid sicher darüber. Meine <persName ref="#ehri_et_rosengarten_anni">Frau</persName> ist nicht hier. Ihre Handschrift könnt Ihr auf dem Zettelchen für <persName
+							ref="#ehri_et_fleminger_leopold">Poldi Fleminger</persName> sehen.</p>
+					<p>Nochmal, wenn Ihr uns <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">wiederauferstanden</term> wollet, machet Alles, mehr als das Mögliche. Auf jeden Fall warten wir auf Geld, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">Socken</term>, warme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Wäsche</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Hosen</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Kleider</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">Handschuhe</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">Mützen</term> etc. Wir können ja nicht wissen, wie weit die Möglichkeiten und das selbst von Fremden gesammelte Geld reichen können.</p>
+					<p>Ich habe Vertrauen in Euch, <persName ref="#ehri_et_rosengarten_adolf_philipowicz">Dolin</persName> und <persName ref="#ehri_et_rosengarten_ernestine">Tina</persName> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Vater</term> und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Mutter</term>), <persName ref="#ehri_et_sternberg_willy">Willy</persName> und <persName ref="#ehri_et_rosengarten_leander_philipp">Andy</persName> (<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Schwager</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bruder</term>).</p>
+					<p>Mit starkem Glauben in Euch, mit Liebe</p>
+					<p>Eure Unglücklichen <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz</persName> und <persName ref="#ehri_et_rosengarten_anni">Anny</persName></p>
+					<p>Nochmals: der sichere Tod lauert auf uns jeden Augenblick. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">Rettet</term> uns auf offiziellem Wege, um jeden Preis und auf jedes Risiko. Wir sind überzeugt, dass Ihr unseren letzten Schreium <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term>, im letzten Moment, verstehen werdet.</p>
+					<p>-----</p>
+					<p>Vermerk: Nachdem die Muttersprache <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsch</placeName> war, und bei uns im Hause nur <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutsch</placeName>
+						gesprochen wurde, bin ich überzeugt, dass der einzige Grund dafür, dass der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> von meinem <persName ref="#ehri_et_rosengarten_heinz_victor">Sohne</persName>
+						<placeName ref="http://www.geonames.org/798549/romania.html">rumänisch</placeName> geschrieben wurde, derjenige ist, dass das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Schreiben</term> vom <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">deutschen</placeName> Offizier mitgenommen wurde, und mein seliger <persName ref="#ehri_et_rosengarten_heinz_victor">Sohn</persName> nicht wollte, dass er den Inhalt verstehen sollte.</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<pb facs="EHRI-ET-YV3549466_16.jpg" n="16"/>
+					<!--<p>- 16 -</p>-->
+					<p>[<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Brief</term> von <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz V. Rosengarten</persName> aus <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>, <date when="1943-09-14"
+							>14.9.1943</date>, auf <placeName ref="http://www.geonames.org/798549/romania.html">Rumänisch</placeName>]</p>
+					<p>...</p>
+					<p>Ich unterfertigte <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName>, wohnhaft in <placeName ref="http://www.geonames.org/295740/afula.html">Afulah</placeName> – <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName>
+						<placeName ref="http://www.geonames.org/295740/afula.html">Schikun</placeName><placeName ref="http://www.geonames.org/295740/afula.html"> </placeName><placeName ref="http://www.geonames.org/295740/afula.html">Ovdei Solel Boneh</placeName>, bürge dafür dass diese Abschrift
+						conform dem Original ist.</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<p><date when="1952-05-03">3 / V / 1952</date>.</p>
+					<pb facs="EHRI-ET-YV3549466_17.jpg" n="17"/>
+					<!--<p>- 17 - </p>-->
+					<p>Ergänzungen zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Zeugenaussage</term> von</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<p><q>Hinter dem <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName></q></p>
+					<p>In dieser <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Aussage</term>, die ich vor kurzem überrreicht habe, ist</p>
+					<p>das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buch</term> von <persName ref="#ehri_et_dagani_korn_arnold">Arnold Daghani</persName> (Korn) <q>Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject"
+								>Grab</term> im Garten der Kirschen</q> erwähnt, das, wie Frau <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> mitteilte, in <placeName ref="http://www.geonames.org/798549/romania.html">rumänischer</placeName> Sprache und mit Hilfe des <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1051">Jüdischen Weltkongresses</orgName> in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englischer</placeName> Sprache erschienen sein sollte. Inzwischen
+						hat sich hinsichtlich dieses <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buches</term> folgendes ergeben:</p>
+					<p>1. Wie bei <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad-Washem</orgName> bekannt, hat sich durch eine Suchanzeige in der Zeitung der <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukowiner</placeName> Juden <q>Die Stimme</q> ein
+						Exemplar in <placeName ref="http://www.geonames.org/798549/romania.html">rumänischer</placeName> Sprache bei <persName ref="#ehri_et_fischer_dr">Dr. Fischer</persName><note place="bottom">handschriftliche Ergänzung</note> gefunden, welcher bei der <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-005402">URO</orgName> in <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName> arbeitet, und welcher dieses Exemplar <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">YAD-WASHEM</orgName> leihweise zur Verfügung gestellt hat.</p>
+					<p>2. Jetzt ist mir ein zweites Exemplar bekannt gworden, das sich im <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Lande</placeName> befindet. Frau <persName ref="#ehri_et_litman_litani_dora">Dr. Litani</persName> (Lietmann), die sich bei der Hitachduth
+						Olei Rumania in <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Nachlath Benyamin Str</placeName>. 44 arbeitet, und die auch eine Specialarbeit für <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">YAD-WASHEM</orgName> leistet, besitzt ein <placeName ref="http://www.geonames.org/798549/romania.html">rumänisches</placeName> Exemplar mit einer persönlichen Widmung von <persName
+							ref="#ehri_et_dagani_korn_arnold">Daghani</persName> (Korn). Sie <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">bericht</term>et ferner, dass Korn ein begabter Maler und Graphiker ist, und dass er jetzt in <placeName
+							ref="http://www.geonames.org/683506/bucharest.html">Bukarest</placeName> lebt.</p>
+					<p>3. Der gleichfalls hier im <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Lande</placeName> befindliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Ehemann</term> von Frau Dr. <persName
+							ref="#ehri_et_litman_litani_dora">Litani</persName> gehört zu den Assirei Zion und war in <placeName ref="http://www.geonames.org/683506/bucharest.html">Bukarest</placeName> der Vorsitzende der <placeName ref="http://www.geonames.org/798549/romania.html"
+							>rumänischen</placeName> Abteilung des <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1051">Jüdischen Weltkongresses</orgName>. Mit seiner Hilfe ist das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buch</term> von
+							<persName ref="#ehri_et_dagani_korn_arnold">Daghani</persName>
+						<placeName ref="http://www.geonames.org/798549/romania.html">rumänisch</placeName> erschienen. Das Originalmanuskript ist in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englischer</placeName> Sprache geschrieben,
+						aber beide <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Ehegatten</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">berichten</term>, dass in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englisch</placeName> nur das Originalmanuskript vorlag,
+						dagagen dass eine <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englische</placeName> Ausgabe gedruckt niemals erschienen ist.</p>
+					<p>4. Frau <persName ref="#ehri_et_litman_litani_dora">Dr. Litani</persName> hat gehört, dass das <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englische</placeName> Manuskript sich hier im <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Lande</placeName> bei der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Schwester</term> von <persName ref="#ehri_et_dagani_korn_arnold">Daghani</persName> befinden soll. Sie</p>
+					<pb facs="EHRI-ET-YV3549466_18.jpg" n="18"/>
+					<!--<p>- 18 -</p>-->
+					<p>versucht jetzt, diese Adress ausfindig zu machen, und wenn sie den <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">englischen</placeName> Text findet, will sie sich mit <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">YAD-WASHEM</orgName> in Verbindung setzen.</p>
+					<p>Ich möchte dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Bericht</term> auch noch eine weitere Ergänzung zufügen:</p>
+					<p>Ich habe in dem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Begleitbericht</term> gesagt, dass kein anderer Fall mir bekannt ist, dass ein <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-Mann <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term> für Juden geholt habe. Das ist nicht zutreffend. Ich habe mir Teile des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buches</term> von <persName
+							ref="#ehri_et_dagani_korn_arnold">Daghani</persName> durch Frau <persName ref="#ehri_et_roll">Roll</persName> in <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName> mündlich übersetzen lassen. Frau <persName ref="#ehri_et_roll"
+							>Roll</persName> stammt aus <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName>, und sie kannte nicht wenige der im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Buche</term> erwähnten Personen
+						persönlich. Sie sagte mir, dass nach <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Czernowitz</placeName> verhältnismässig häufig aus der <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukowina</placeName> und aus <placeName
+							ref="http://www.geonames.org/858911/transnistria.html">Transnistrien</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS-</orgName>Leute kamen, die Nachrichten von den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Deportierten</term> brachte, und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Lebensmittel</term> für sie mitnahmen, nicht selten sogar unentgeltlich. Ihr eigener <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Vater</term> war in Djwin
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">interniert</term> und ist dort gestorben, und sie hat ihm durch einen <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS-</orgName>Mann <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">Hilfe</term> geschickt, der kein Entgelt annahm.</p>
+					<p>Ich reiche gleichzeitig die Abschrift des <placeName ref="http://www.geonames.org/798549/romania.html">rumänischen</placeName><note place="bottom">handschriftliche Ergänzung</note><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefes</term>
+						von <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz</persName></p>
+					<p><persName ref="#ehri_et_rosengarten_heinz_victor">Victor Rosengarten</persName> nach, die in der ersten Sendung nicht beigefügt werden konnte.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName> im <date when="1958-06">Juni 1958</date></p>
+					<p>(<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName>)</p>
+					<pb facs="EHRI-ET-YV3549466_19.jpg" n="19"/>
+					<!--<p>– 19 -</p>-->
+					<p>[Handschrift des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefes</term> von <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName> sowie der Ergaenzungen, s. S. 14 – 15]</p>
+					<pb facs="EHRI-ET-YV3549466_20.jpg" n="20"/>
+					<!--<p>– 20 -</p>-->
+					<p>[Handschrift des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefes</term> von <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName> sowie der Ergaenzungen, s. S. 14 – 15]</p>
+					<pb facs="EHRI-ET-YV3549466_21.jpg" n="21"/>
+					<!--<p>- 21 -</p>-->
+					<p>Nachtrag zur <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Aussage</term>
+						<persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName>.</p>
+					<p>In einer in unserem Archiv im Band O-11/12-2 enthaltenen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefabschrift</term> eines <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Briefes</term> des Herrn
+							<persName ref="#ehri_et_jaegerndorf">Jaegerndorf</persName> an <persName ref="#ehri_et_fildermann_dr">Dr. Fildermann</persName> vom Jahre <date when="1944">1944</date> habe ich eine Stelle gefunden, die sich auf die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Familie</term> Ing.<note place="bottom">Ingenieur</note>
+						<persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten</persName> bezieht, sowie auf die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Familie</term>
+						<persName ref="#ehri_et_segall_nathan">Segall</persName>.</p>
+					<p>Die Stelle lautet:</p>
+					<p>Liebe Freunde!</p>
+					<p>... sehe ich mich dennoch veranlasst, Ihnen neuerdings die Angelegenheit der <placeName ref="http://www.geonames.org/691016/tulchyn.html">Tulciner</placeName> Juden wärmstens <note place="bottom">Verb fehlt, wahrscheinlich “zu empfehlen” o. ä.</note> und ich will annehmen,
+						dass er nicht nur diesen Fall mit Ihnen besprochen hat, sondern dass er auch etwas Konkretes mitbringen wird. Ich selbst habe Ihnen noch seinerzeit, nach dem Besuch des Herrn <persName ref="#ehri_et_segall_nathan">Segall</persName>, ausführlich geschrieben und Sie gebeten,
+						dringendst von dort aus an die <placeName ref="http://www.geonames.org/691016/tulchyn.html">Tulciner</placeName> Präfektur einen Auftrag ergehen zu lassen, alle jenseits des <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName> zur <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-557" type="subject">Arbeit</term> beigestellten <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">Juden</term> zurück zu verlangen. Mein diesbezüglicher Antrag blieb leider ohne Erfolg
+						und heute gibt es nichts mehr zurückzuholen. Meine persönliche Intervention in <placeName ref="http://www.geonames.org/691016/tulchyn.html">Tulcin</placeName> in dieser Angelegenheit hatte wohl den Erfolg, dass für die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Familien</term>
+						<persName ref="#ehri_et_segall_nathan">Segall</persName> und Ing. <persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten</persName> der Auftrag erging, sie zurückzuholen, aber leider infolge einer Verkettung von Umständen waren sie zwei Tage vorher mit allen bereits
+						tot ...</p>
+					<p><persName ref="#ehri_et_jaegerndorf">Jaegerndorf</persName></p>
+					<p><date when="1944-02-21">21. Februar 1944</date></p>
+					<p><placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, <date when="1958-12-21">21. 12. 58</date>
+						<note place="bottom">handschriftlich</note></p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName>
+						<note place="bottom">handschriftlich</note></p>
+					<pb facs="EHRI-ET-YV3549466_22.jpg" n="22"/>
+					<!--<p>- 22 -</p>-->
+					<p>[<placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainisches</placeName> Original des Anhangs zum Schreiben vom <date when="1955-11-10">10. November 1955</date>, s. S. 13]</p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-YV3549466_01.jpg" n="1"/>
+					<!--<p>- 1 -</p>-->
+					<p>Remarks by <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<p>A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">testimony</term> by</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName>, <placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName></p>
+					<p><q>The Fate of the Jews in <placeName ref="#ehri_et_camp_tarasivka" type="camp">Tarasivka</placeName> "Beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">River Bug</placeName></q></p>
+					<p>I present:</p>
+					<p>1/ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">Witness report</term> by <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName> in the original and copies in <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName></p>
+					<p>2/ the Hebrew <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> by <persName ref="#ehri_et_rosengarten_ernestine">E. R.</persName> to <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad Vashem</orgName>
+						from <date when="1955-11-10">November 10, 1955</date> in the original and copies with attachment as well as a photocopy (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">military</orgName> in <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainian</placeName> language of <date when="1944-10-31">31 October 31, 1944</date>)</p>
+					<p>3/ <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> translation of the above <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> with attachment</p>
+					<p>4/ Copies of the <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term>, prepared by <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Rosengarten’s</persName>
+						<persName ref="#ehri_et_rosengarten_leander_philipp">brother</persName>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">testimony</term> of <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> is of particular relevance, because it is one of the few <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">reports</term> about a <q>camp beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">river Bug</placeName></q>, and apart from that because it confirms and complements
+						another <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term>.</p>
+					<p>So far it was only known from the first <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of <persName ref="#ehri_et_rosengarten_ernestine">Mrs. Rosengarten</persName> from <date when="1955-11-10">November 10, 1955</date> that
+						there is a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> by <persName ref="#ehri_et_dagani_korn_arnold">Arnold Daghani</persName> (Korn), which deals with the <placeName ref="#ehri_et_camp_tarasivka">camp Tarasivka</placeName>
+						and also contains sections about the <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> of <persName ref="#ehri_et_rosengarten_ernestine">Mrs. Rosengarten</persName>. We had tried in vain so far to obtain it for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-706" type="subject">library</term>, because <persName ref="#ehri_et_weinstein_dr">Dr. Weinstein</persName>, who is mentioned in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject"
+							>letter</term> as the owner of a <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> copy, once lent it to someone and does not remember to whom and did not get it back. Our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706"
+							type="subject">library</term> has so far also tried in vain to obtain an <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName> copy through the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1051">Jewish World Congress</orgName>, which is said to have helped to publish an <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName> edition
+						at that time in <placeName ref="http://www.geonames.org/798549/romania.html">Romania</placeName>. –</p>
+					<p>As a result, we then put a search note in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">newspaper</term> of the <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukovina</placeName> Jews in <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName>
+						<q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-723" type="subject">Die Stimme</term></q>, and subsequently <persName ref="#ehri_et_fischer_dr">Dr. Fischer</persName>, who works at the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005402"
+							>URO</orgName> in <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, lent a <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> copy to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-706"
+							type="subject">library</term>. However,</p>
+					<pb facs="EHRI-ET-YV3549466_02.jpg" n="2"/>
+					<!--<p>- 2 -</p>-->
+					<p>I myself have not yet had the opportunity to take note of the content, as it has been lent for scientific work. –</p>
+					<p>Furthermore, as a result of my trip to <placeName ref="http://www.geonames.org/6255148/europe.html">Europe</placeName> I became aware of another <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> on the <placeName
+							ref="#ehri_et_camp_tarasivka">Tarasivka camp</placeName>, which is located at the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName> and whose author is a Mr. <persName ref="#ehri_et_segall_nathan">Segall</persName><note
+							place="bottom">probably Nathan <persName ref="#ehri_et_segall_nathan">Segall</persName>, murdered in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> 1943</note>, who wrote this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686"
+							type="subject">report</term> in <placeName ref="http://www.geonames.org/625665/mahilyow.html">Mogilev</placeName>. An accompanying <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> by another author, who is not mentioned,
+						shows that <persName ref="#ehri_et_segall_nathan">Segall</persName> wrote this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> in <placeName ref="http://www.geonames.org/625665/mahilyow.html">Mogilev</placeName>, whereto he
+						traveled from <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> in the company of an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> man. The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>
+						man then continued to <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukovina</placeName> and <placeName ref="http://www.geonames.org/798549/romania.html">Romania</placeName> to seek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297"
+							type="subject">help</term> for the Jews in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>, and later <persName ref="#ehri_et_segall_nathan">Segall</persName> returned there with the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090"
+							>SS</orgName> man, and, according to the accompanying <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term>, died there during the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject"
+							>liquidation</term> of the <placeName ref="#ehri_et_camp_tarasivka" type="camp">camp</placeName> on <date when="1943-12-13">December 13, 1943</date>. As I heard from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName>, the
+						transmission of this <persName ref="#ehri_et_segall_nathan">Segall</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> to <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad Vashem</orgName> with the next shipment of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">testimonies</term> is imminent. The name of the author of the accompanying <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> is not given, and must
+						not yet be given by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName>, because he himself intends to publish it. -</p>
+					<p>It is now very interesting that this <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> Lieutenant <persName ref="#ehri_et_elsasser">Elsässer</persName>, who visited <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Chernivtsi</placeName> according to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> of Mrs. <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> and provided <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">help</term> for the Jews in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>, is the same who had previously been in <placeName ref="http://www.geonames.org/625665/mahilyow.html"
+							>Mogilev</placeName> and about whom the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-005046">Wiener Library</orgName> has the mentioned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term>, because Mrs.
+							<persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> told me in the course of her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">testimony</term> that <persName ref="#ehri_et_elsasser">Elsässer</persName> first went to
+							<placeName ref="http://www.geonames.org/625665/mahilyow.html">Mogilev</placeName> with a Jew named <persName ref="#ehri_et_segall_nathan">Segall</persName>, but could not take him further, and then came to <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Chernivtsi</placeName> alone with a sergeant. So one <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> confirms the other!</p>
+					<p>There are some more details to note about Mrs. <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten’s</persName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">statement</term>: the assumption of Mrs. <persName
+							ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> that <persName ref="#ehri_et_elsasser">Elsässer</persName> is at the same time the head of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Todt organization</orgName> and the <placeName
+							ref="#ehri_et_camp_tarasivka">camp</placeName></p>
+					<pb facs="EHRI-ET-YV3549466_03.jpg" n="3"/>
+					<!--<p>- 3 -</p>-->
+					<p>is not very likely, because in general these functions were separate. On the other hand, the whole action of <persName ref="#ehri_et_elsasser">Elsässer</persName> and his behavior is something unique. There is no other case known that a <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> man or officer undertook such a journey, which was apparently officially approved or at least permitted. According to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686"
+							type="subject">descriptions</term> of Mrs. <persName ref="#ehri_et_rosengarten_ernestine">R.</persName> and also of <persName ref="#ehri_et_segall_nathan">Segall</persName> he also seems to have really wanted to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">help</term> in the first place, and not to make money for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> or to go <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">raiding</term>.</p>
+					<p>It would be worth considering whether one should try to determine if he survived the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> and to contact him.</p>
+					<p>[Signature:] <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<p><date when="1958-04">April 1958</date></p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<pb facs="EHRI-ET-YV3549466_04.jpg" n="4"/>
+					<!--<p>- 4 –</p>-->
+					<p>The Fate of the Jews in the <placeName ref="#ehri_et_camp_tarasivka">Tarasivka Camp</placeName>
+						<q>Beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">River Bug</placeName></q></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">Testimony</term> of Mrs <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> in <placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName>, <placeName
+							ref="http://www.geonames.org/295740/afula.html">Shikun Owdei Solel Boneh</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Mother</term> of the engineer <persName ref="#ehri_et_rosengarten_heinz_victor">Victor Heinz
+							Rosengarten</persName>, recorded in <placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName> 7 <date when="1958-04-07">April 7, 1958</date> by <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr Ball-Kaduri</persName></p>
+					<p>First <note place="bottom">crossed out in the original</note>, I present a <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> copy and a <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						translation of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from my son <persName ref="#ehri_et_rosengarten_heinz_victor">Victor Heinz</persName> from the <placeName ref="#ehri_et_camp_tarasivka">Tarasivka camp</placeName>
+						dated <date when="1943-09-14">September 14, 1943</date> with a preliminary remark by myself. In my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of <date when="1955-11-10">November 10, 1955</date> to <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad Vashem</orgName>, I already gave a brief <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">account</term> of my <persName ref="#ehri_et_rosengarten_heinz_victor"
+							>son’s</persName> fate. In summary of this information and for further details, I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term>:</p>
+					<p>My <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> and his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">wife</term>
+						<persName ref="#ehri_et_rosengarten_anni">Anni (Hanna)</persName> were taken out of their home in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> on <date when="1942-06-14">June 14, 1942</date> and taken to the <placeName
+							ref="#ehri_et_camp_ladyzhin">camp Laidzin</placeName><note place="bottom">probably Ladyzhin</note> in <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName>. From there they were taken to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> across the river <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>. On the way they came through <placeName
+							ref="http://www.geonames.org/712250/bershad.html">Bershad</placeName> from there we received a postcard with a greeting. My <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> was an excellent engineer, and beyond the river <placeName
+							ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>, where they were probably in different <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camps</term>, at least in the <placeName ref="#ehri_et_camp_tarasivka"
+							>Tarasivka camp</placeName> in the end, he <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation Todt</orgName> (as all other <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">camp inmates</term> did<note place="bottom">handwritten addition</note>).</p>
+					<p>In the middle or end of <date when="1943-10">October 1943</date>, a senior lieutenant of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> came to <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> with
+						a sergeant from <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> to collect donations for the Jews in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>. He lodged with the grammar school professor <persName ref="#ehri_et_schwarz_baruch"
+							>Schwarz</persName>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> of my <persName ref="#ehri_et_rosengarten_anni">daughter-in-law</persName>, he brought a general <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> (of the Jews in ...<note place="bottom">crossed out in the original</note>) from my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish community</term> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> in which he asked for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">help</term> for all Jews in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>, and a second <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject"
+							>letter</term> from my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> to us.</p>
+					<p>Everything I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> in the following is based on this lieutenant’s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">statements</term>.</p>
+					<p>His name was <persName ref="#ehri_et_elsasser">Elsässer</persName>, in civilian life he was a contractor and came from <placeName ref="http://www.geonames.org/2886242/koeln.html">Cologne</placeName>. He came at the instigation of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">Jews</term> in the <placeName ref="#ehri_et_camp_tarasivka">Tarasivka camp</placeName> to fetch gifts for them. On his departure from</p>
+					<pb facs="EHRI-ET-YV3549466_05.jpg" n="5"/>
+					<!--<p>- 5 -</p>-->
+					<p><placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> with the sergeant he took two Jews with him, my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> and another one called <persName ref="#ehri_et_segall_nathan">Segall</persName>. But my <persName
+							ref="#ehri_et_rosengarten_heinz_victor">son</persName> had to stay on the other side of the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName> and was not allowed to go any further. The other one, <persName ref="#ehri_et_segall_nathan"
+							>Segall</persName>, accompanied him to <placeName ref="http://www.geonames.org/625665/mahilyow.html">Mogilev</placeName> in <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName>, where he also had to stay. The lieutenant and the
+						sergeant continued to <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName></p>
+					<p><persName ref="#ehri_et_elsasser">Elsässer</persName> was the leader of a group of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">organization Todt</orgName>, which was building roads in the <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>-controlled area beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>. Since he was powerful, I assume that he coincidentally was the leader
+						of the <placeName ref="#ehri_et_camp_tarasivka">camp Tarasivka</placeName>, too. It was not only <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">Jews</term> coming from <placeName ref="http://www.geonames.org/858911/transnistria.html"
+							>Transnistria</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">working</term> there but also two other groups, i.e. not only <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukovina</placeName> Jews, but also <placeName
+							ref="http://www.geonames.org/690791/ukraine.html">Ukrainian</placeName> Jews.</p>
+					<p>Jews who came from <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName> (<placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName>), and <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+							>Polish</placeName> Jews. But in total there were only 300 people. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">conditions</term> in the <placeName ref="#ehri_et_camp_tarasivka" type="camp">camp</placeName> can be seen from the
+						enclosed <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> by my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName>.</p>
+					<p><persName ref="#ehri_et_elsasser">Elsässer</persName> brought a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from the Jews in <placeName ref="#ehri_et_camp_tarasivka" type="camp">T.</placeName> to the congregation. in
+							<placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, with a cry for help. He also brought a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from my <persName
+							ref="#ehri_et_rosengarten_heinz_victor">son</persName>, whose transcript I have handed over. My <persName ref="#ehri_et_rosengarten_heinz_victor">son’s</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> is written in <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName>. Since we only ever spoke and wrote <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, so I can only assume that my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> did not want the <placeName
+							ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> officer to read the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term>.</p>
+					<p>The Jews of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">community</term> of <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> behaved magnificently, although most of them were already <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-848" type="subject">impoverished</term>. They <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">donated</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">shoes</term> in large amounts. They also gave <persName ref="#ehri_et_elsasser">Elsässer</persName> a large shipment of champagne, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ham</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bacon</term>, new <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">fur coats</term> for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> in the <placeName ref="#ehri_et_camp_tarasivka">camp</placeName>, so that the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090"
+							>SS</orgName> was satisfied and refrained from taking possession of things intended for the Jews. Overall, it was a shipment of 4-5 trucks. (us personally, <persName ref="#ehri_et_elsasser">El-</persName><note place="bottom">crossed out in the original</note>) The jeweler
+						Goldstein from <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> (whose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">famil</term>y was together with my <persName ref="#ehri_et_rosengarten_heinz_victor"
+							>son</persName>) gave <persName ref="#ehri_et_elsasser">Elsässer</persName>, among other innumerable gifts<note place="bottom">handwritten addition</note>,</p>
+					<pb facs="EHRI-ET-YV3549466_06.jpg" n="6"/>
+					<!--<p>- 6 -</p>-->
+					<p>(<persName ref="#ehri_et_elsasser">sässer</persName><note place="bottom">crossed out in the original</note>) a golden watch for himself and other objects for his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">wife</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughter</term>. From us personally, <persName ref="#ehri_et_elsasser">Elsässer</persName> received valuable gifts, leather goods, jewelry, etc..<note place="bottom">handwritten
+						addition</note></p>
+					<p><persName ref="#ehri_et_elsasser">Elsässer</persName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">told</term> us further: My <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> was his most outstanding <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">worker</term>. When a difficult part of the technical <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> was finished, a big party was celebrated.
+							<persName ref="#ehri_et_elsasser">Elsässer</persName> had succeeded in having my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> and <persName ref="#ehri_et_rosengarten_anni">daughter-in-law</persName> invited. At the end of the festival <persName
+							ref="#ehri_et_rosengarten_heinz_victor">he</persName> and his <persName ref="#ehri_et_rosengarten_anni">wife</persName> were sent back to the <placeName ref="#ehri_et_camp_tarasivka" type="camp">camp</placeName> on a sleigh. <persName ref="#ehri_et_elsasser"
+							>Elsässer</persName> gave the coachman the instruction: <q>Go where Mr. <persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten</persName> wants you to go</q>. Apparently he wanted to give him the opportunity to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> back to <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName> via the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">river
+							Bug</placeName>. But my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> did not take that chance. Because for every Jew who <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">fled</term>, 10 others were <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">shot</term>. <persName ref="#ehri_et_elsasser">Elsässer</persName> told us this, albeit not with these very words, and added: <q>A <persName ref="#ehri_et_rosengarten_heinz_victor"
+								>Rosengarten</persName> does not do such a thing</q>.</p>
+					<p>My <persName ref="#ehri_et_rosengarten_heinz_victor">son’s</persName><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> was dated <date when="1943-09-14">September 14, 1943</date>, but my statement in the preface to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term>, namely that <persName ref="#ehri_et_elsasser">Elsässer</persName> came to us in <date when="1943-09">September</date>, is inaccurate, he didn’t come until mid-<date when="1943-10"
+							>October</date> or late <date when="1943-10">October</date>.</p>
+					<p>After he had travelled back with all this things, a short time later, a message came from <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> to <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, in a safe way, that the things
+						had been received there. We always said later that they could not even have eaten the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> because the <placeName ref="#ehri_et_camp_tarasivka">camp</placeName> was liquidated on <date
+							when="1943-12-13">December 13</date>. (if the date, which is mentioned in the later mentioned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> of Mr. <persName ref="#ehri_et_dagani_korn_arnold">Korn</persName>, is correct<note
+							place="bottom">handwritten addition</note>)</p>
+					<p>My <persName ref="#ehri_et_rosengarten_anni">daughter-in-law</persName> once had a severe <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhoid fever</term>. My <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> gave her the
+						only <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">coat</term> he still owned for covering.</p>
+					<p>Sometime before that, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> had arrived, obviously in his own handwriting, which contained a sign of life from
+							<placeName ref="#ehri_et_camp_tarasivka">T.</placeName>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> was written on very good white stationery</p>
+					<pb facs="EHRI-ET-YV3549466_07.jpg" n="7"/>
+					<!--<p>- 7 -</p>-->
+					<p>and sent in an equally good white envelope from a post office in <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>, and addressed to his <persName ref="#ehri_et_schwarz_baruch">father-in-law</persName>, with the outside address Mr. <persName
+							ref="#ehri_et_schwarz_baruch">B. Schwarz</persName>, Prof. a. D.. This was a very unusual formulation in the style of the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> of the Reich, and the letter was also written in
+						this style. Apparently he had given it to an officer who went on vacation to <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>, and the letter should not be noticed in an inspection.</p>
+					<p><persName ref="#ehri_et_dagani_korn_arnold">Arnold Korn</persName> (Daghani), the author of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term>
+						<q>Das Grab ist <note place="bottom">handwritten addition</note> im Garten der Kirschen</q> (<q>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">grave</term> is in the cherry-orchard</q>), which describes the <placeName
+							ref="#ehri_et_camp_tarasivka">Tarasivka camp</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> (on the occasion of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject"
+							>partisan</term> attack<note place="bottom">crossed out in the original</note>) with his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">wife</term><note place="bottom">handwritten addition</note> a few days before the liquidation (with
+						the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">partisans</term>
+						<note place="bottom">crossed out in the original</note>), and as far as we know he now lives in <placeName ref="http://www.geonames.org/683506/bucharest.html">Bucharest</placeName>. He and a few others are the only ones <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-561" type="subject">rescued</term> from this camp. In his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> he also <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">reports</term> quite extensively about my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName>. Korn was a painter and graphic artist, his <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> contains some drawings, too. A <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> officer was interested in his work and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">helped</term> him with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">rescue</term>. On the occasion of a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">partisan</term> attack<note place="bottom">handwritten addition</note>, among the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-214" type="subject">rescued</term> was the Semmel
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term> who is said to be here in the <placeName ref="http://www.geonames.org/294640/state-of-israel.html">country</placeName>. Perhaps they could be found through an announcement in
+						the newspapers.</p>
+					<p>My second <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term>, <persName ref="#ehri_et_rosengarten_leander_philipp">Leander Philipp</persName>, was sent to <placeName ref="http://www.geonames.org/798549/romania.html">Romania</placeName>
+						to various <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">forced labor camps</term> in <date when="1942">1942</date>. There he received a postcard from my <persName ref="#ehri_et_rosengarten_heinz_victor">son Heinz</persName> as late as
+							<date when="1942">1942</date>. It was in the autumn of <date when="1942">1942</date>, and this card contained the 7 lines allowed at that time. The card was sent from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">camp</term> in
+							<placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName> and contained the imploring request to send <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-285" type="subject">medicaments</term>.</p>
+					<p>About my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term>, I make the following statements:</p>
+					<p><persName ref="#ehri_et_rosengarten_adolf_philipowicz">Adolf Rosengarten</persName>, born <date when="1884-04-15">15. 4. 1884</date> in <placeName ref="http://www.geonames.org/707471/ivano-frankivsk.html">Stanislau</placeName>, since <date when="1887">1887</date> in <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, occupation railway inspector, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">died</term> here in the <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">country</placeName> in <date when="1954">1954</date>.</p>
+					<pb facs="EHRI-ET-YV3549466_08.jpg" n="8"/>
+					<!--<p>- 8 -</p>-->
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName>, née Sternberg (myself), born <date when="1888-04-25">April 25, 1888</date> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>.</p>
+					<p><persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName>, born in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>
+						<date when="1908-08-22">August 22, 1908</date>, died in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> on <date when="1943-12-13">December 13, 1943</date>.</p>
+					<p><persName ref="#ehri_et_rosengarten_anni">Anni Rosengarten, née Schwarz</persName>, born in <date when="1918">1918</date>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">daughter</term> of <persName ref="#ehri_et_schwarz_baruch">Baruch
+							Schwarz</persName> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, a grammar school teacher of physics, chemistry etc..</p>
+					<p><persName ref="#ehri_et_rosengarten_leander_philipp">Leander Philipp Rosengarten</persName>, born <date when="1924-08-29">August 29, 1924</date> in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>.</p>
+					<p>My <persName ref="#ehri_et_rosengarten_adolf_philipowicz">husband</persName> and I stayed in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> until <date when="1946">1946</date>, then lived in <placeName
+							ref="http://www.geonames.org/683506/bucharest.html">Bucharest</placeName> from <date when="1946">1946</date> to <date when="1950">1950</date>, and immigrated here in <date when="1950-09">August 1950</date>.</p>
+					<p>My second <persName ref="#ehri_et_rosengarten_leander_philipp">son</persName> was from <date when="1942">1942</date> - <date when="1944">1944</date> in <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labour camps</term>, then stayed in <placeName ref="http://www.geonames.org/798549/romania.html">Romania</placeName>, and immigrated here in <date when="1950-12">December 1950</date>. He is an
+						engineer with Solel Boneh in <placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName>, and lives <placeName ref="http://www.geonames.org/295740/afula.html">Shikun Ovdei Solel Boneh</placeName> in <placeName ref="http://www.geonames.org/295740/afula.html"
+							>Afula</placeName>.</p>
+					<p>My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term><persName ref="#ehri_et_rosengarten_heinz_victor">Heinz</persName> was a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-916" type="subject">student</term> at the
+						Technical University in <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName>, and as the 8th <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-916" type="subject">student</term> (and first <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-916" type="subject">Jewish student</term>) there he passed the exams with distinction.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Ball-Kaduri</persName></p>
+					<p>signed by <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> in <date when="1953-04">April 1953</date></p>
+					<p>signed <persName ref="#ehri_et_rosengarten_leander_philipp">Leander Rosengarten</persName> (<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName>)</p>
+					<pb facs="EHRI-ET-YV3549466_09.jpg" n="9"/>
+					<!--<p>- 9 -</p>-->
+					<p>[<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Letter</term> in Hebrew by <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName> to <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad
+							Vashem</orgName>, <date when="1955-11-10">November 10, 1955</date>, see pp. 11 – 12]</p>
+					<pb facs="EHRI-ET-YV3549466_10.jpg" n="10"/>
+					<!--<p>- 10 -</p>-->
+					<p>[Hebrew translation of the annex in <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainian</placeName> language to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of <date when="1955-11-10">November 10,
+							1955</date>, see p. 13]</p>
+					<pb facs="EHRI-ET-YV3549466_11.jpg" n="11"/>
+					<!--<p>- 11 -</p>-->
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Letter</term> from Mrs. <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName> to <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad
+							Vashem</orgName> from <date when="1955-11-10">November 10, 1955</date></p>
+					<p>(translation from Hebrew)</p>
+					<p>My <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term><persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten, Victor Heinz</persName>, and his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject"
+							>wife</term><persName ref="#ehri_et_rosengarten_anni">Anni (Hanna)</persName> were taken from their home in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> on <date when="1942-06-14">June 14, 1942</date> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-115" type="subject">brought</term> to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camp</term> in <placeName
+							ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName>, <placeName ref="#ehri_et_camp_ladyzhin">camp Laidzin</placeName><note place="bottom">Ladyzhin</note>. From there the Nazis <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+							type="subject">brought</term> them to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> across the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">river Bug</placeName>.</p>
+					<p>They passed <placeName ref="http://www.geonames.org/712250/bershad.html">Bershad</placeName>, from where we received a postcard. They were sent to a <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName><placeName
+							ref="#ehri_et_camp_tarasivka" type="camp">camp</placeName> which had to provide <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">manpower</term> for the <q><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-433">Organisation
+								Todt</orgName></q>.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">Life</term> was horrible under supervision of the SS, which was composed of <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-396">volunteers</orgName> from <placeName
+							ref="http://www.geonames.org/597427/republic-of-lithuania.html">Lithuania</placeName> and <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName>. The last <placeName ref="#ehri_et_camp_tarasivka">camp</placeName> was in <placeName
+							ref="#ehri_et_camp_tarasivka" type="camp">Tarasivka</placeName>. The commander of the <placeName ref="#ehri_et_camp_tarasivka">camp</placeName> was a <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, <persName
+							ref="#ehri_et_elsasser">Elsässer</persName> (foreman in civilian life in <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</placeName>). He came to <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Chernivtsi</placeName> in <date when="1943">1943</date> with a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">community</term> of <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> asking to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297"
+							type="subject">help</term> the few who were still alive. The Jews who had managed to stay in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">donated</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothing</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">inhabitants</term> of the <placeName ref="#ehri_et_camp_tarasivka">camp</placeName> in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName> received the donation but as a result of the rapid progress of the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Russians</orgName> on the eastern front, the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germans</placeName> decided to <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject">liquidate</term></q> the whole <placeName ref="#ehri_et_camp_tarasivka" type="camp">camp</placeName>. This <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-540" type="subject"
+							>action</term> was carried out in the morning hours of <date when="1943-12-13">13 December 1943</date>, when my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> and his <persName ref="#ehri_et_rosengarten_anni">wife</persName> also died.</p>
+					<p>Only a few people were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-561" type="subject">rescued</term> from this <placeName ref="#ehri_et_camp_tarasivka">camp</placeName>, who were taken away by the <placeName
+							ref="http://www.geonames.org/8354411/union-of-soviet-socialist-republics.html">Russian</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1215" type="subject">partisans</term> during one of their actions against the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">Germans</placeName>.</p>
+					<p>In the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term>
+						<q>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">grave</term> is in the cherry-orchard</q>), written by one of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-904" type="subject">rescued</term>, <persName
+							ref="#ehri_et_dagani_korn_arnold">Arnold Daghani</persName> (Korn), in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName>, and in <placeName ref="http://www.geonames.org/798549/romania.html"
+							>Romanian</placeName> under the title <q>Groapa este intre, livada de visini</q>, one can read</p>
+					<pb facs="EHRI-ET-YV3549466_12.jpg" n="12"/>
+					<!--<p>- 12 -</p>-->
+					<p>about life in <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>. Some chapters of this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term>, written in the form of a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-684" type="subject">diary</term>, are dedicated to the character and behaviour of my <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term>
+						<persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Rosengarten</persName>.</p>
+					<p>A copy of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> can be found at Dr. <persName ref="#ehri_et_weinstein_dr">Weinstein</persName> from <placeName ref="http://www.geonames.org/710719/chernivtsi.html"
+							>Chernivtsi</placeName>, today <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, POB 4003, editor of the newspaper <q>Die Stimme</q>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> is
+						contains additional drawings by the author about life and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in the <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>
+						<placeName ref="#ehri_et_camp_tarasivka">camp Tarasivka</placeName>.</p>
+					<p>If you want to know additional details more precisely about a number - relatively few - of Jews from <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> who were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-115"
+							type="subject">taken</term> beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">river Bug</placeName>, I am at your disposal, being convinced that every detail about this dark epoch in our days will serve to pass on the memory of our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">victims</term> to future generations.</p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName>, <date when="1955-11-10">November 10, 1955</date></p>
+					<p>Respectfully</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName></p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Shchunat Ovdei Solel Boneh</placeName></p>
+					<pb facs="EHRI-ET-YV3549466_13.jpg" n="13"/>
+					<!--<p>- 13 -</p>-->
+					<p>Annex to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of <date when="1955-11-10">November 10, 1955</date></p>
+					<p>Translation from <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainian</placeName> To <persName ref="#ehri_et_rosengarten_adolf_philipowicz">Rosengarten Adolf Philipowicz</persName></p>
+					<p>City of <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName></p>
+					<p><placeName ref="http://www.geonames.org/710719/chernivtsi.html">Georgi Schandri st.</placeName> no. 9, Apartment 6</p>
+					<p>In view of the fact that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">grave</term> of your <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term> is in the <placeName
+							ref="http://www.geonames.org/689559/vinnyts-ka-oblast.html">Vinnica district</placeName>, in order to obtain permission for exhumation, you must contact the <placeName ref="http://www.geonames.org/689559/vinnyts-ka-oblast.html">Vinnica district</placeName> commander</p>
+					<p>M. M. Commander <placeName ref="http://www.geonames.org/710720/chernivtsi-oblast.html">Chernivtsi District</placeName></p>
+					<p>Kwitanabaski</p>
+					<p>Remarks</p>
+					<p>After the Russians had liberated <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, my <persName ref="#ehri_et_rosengarten_adolf_philipowicz">husband</persName> turned to the district commander of <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> to obtain the permission to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1228" type="subject">exhume</term> all the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">graves</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-132" type="subject">murdered</term>, who were all buried together with our <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">children</term></p>
+					<p>(because we knew exactly where their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brothers</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">buried</term>).</p>
+					<p>The document, which I attach here in photocopy, is the only answer we got to our request. The original is with me.</p>
+					<p><date when="1955-11-10">November 10, 1955</date></p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<pb facs="EHRI-ET-YV3549466_14.jpg" n="14"/>
+					<!--<p>- 14 -</p>-->
+					<p>Notes by Mrs. <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName><note place="bottom">handwritten addition</note></p>
+					<p>The following <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term>, written in <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName>, was sent by <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> officer Oberleutnant<note place="bottom">Senior Lieutenant</note>
+						<persName ref="#ehri_et_elsasser">Elsässer</persName> from <placeName ref="http://www.geonames.org/2886242/koeln.html">Cologne</placeName>, leader of the <placeName ref="#ehri_et_camp_tarasivka">Tarasivka concentration camp</placeName>, to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">parents</term> of the engineer <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName> s[eligen] A[ndenkens] in <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> at the end of <date when="1943-09">September 1943</date>. Oberlt. <persName ref="#ehri_et_elsasser">Elsässer</persName> took a large transport of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, shoes and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> with him for all <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">camp inmates</term>, only Jews. The things were donated by the Jews still remaining in <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, most of whom had been
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-655" type="subject">robbed</term>. In order to make the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName> guards in the <placeName ref="#ehri_et_camp_tarasivka"
+							>camp</placeName> more favourable, <persName ref="#ehri_et_elsasser">Elsässer</persName> took with him a large transport of champagne, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">ham</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">bacon</term>, new <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">shoes</term> [and] <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">furs</term>, most of which were found by the remaining Jews. It was also [un]counted Christians who gave <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">donations</term>, and it would be right to mention that the
+						Polish-Christian <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> manufacturer Podzudek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">donated</term> several hundred kilograms of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">smoked goods</term>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish community</term> in <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> actively participated in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">collection</term> despite the bad <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">situation</term>.</p>
+					<p>Translation from <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName></p>
+					<p><placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>, <date when="1943-09-14">September 14, 1943</date></p>
+					<p>My Dearest!</p>
+					<p>My <persName ref="#ehri_et_rosengarten_anni">wife</persName> and I are still healthy yet, but death lurks for us every moment. We are completely <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">destitute</term> and have nothing to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dress</term> in. Send us a lot of money and warm <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term> for the winter, for me and my <persName
+							ref="#ehri_et_rosengarten_anni">wife</persName>. Last winter my <persName ref="#ehri_et_rosengarten_anni">wife</persName> was seriously <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">ill</term> and I sold everything to save and cure her.
+						We are both still healthy, but death awaits us every moment. Go to any trouble, spare no expense, even if it has to be begged for by strangers, to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">get us out</term> as soon as possible by
+						official means through a messenger, beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">river Bug</placeName>, to <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName>. If You do not succeed</p>
+					<pb facs="EHRI-ET-YV3549466_15.jpg" n="15"/>
+					<!--<p>- 15 -</p>-->
+					<p>as soon as possible, You will lose hope of seeing us again. The colours in which I describe the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-831" type="subject">situation</term> to You are not blacker than in reality. Even millions You must get together by
+						begging to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">take us out</term>.</p>
+					<p>Every day we see death before our eyes. If we are saved, I will repay everything. Be sure about this. My <persName ref="#ehri_et_rosengarten_anni">wife</persName> is not here. You can see her handwriting on the note for <persName ref="#ehri_et_fleminger_leopold">Poldi
+							Fleminger</persName>.</p>
+					<p>Again, if you want to see us <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">resurrected</term>, do everything, more than what is possible. In any case, we are waiting for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836"
+							type="subject">money</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">socks</term>, warm <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">clothes</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">trousers</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">dresses</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject"
+							>gloves</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">caps</term>, etc.</p>
+					<p>We cannot know how much the provisions and the money collected from strangers can achieve.</p>
+					<p>I have faith in You, <persName ref="#ehri_et_rosengarten_adolf_philipowicz">Dolin</persName> and <persName ref="#ehri_et_rosengarten_ernestine">Tina</persName> (<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">mother</term>), <persName ref="#ehri_et_sternberg_willy">Willy</persName> and <persName ref="#ehri_et_rosengarten_leander_philipp">Andy</persName> (<term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother-in-law</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term>).</p>
+					<p>With strong faith in You, with love</p>
+					<p>Your unfortunate</p>
+					<p><persName ref="#ehri_et_rosengarten_heinz_victor">Heinz</persName> and <persName ref="#ehri_et_rosengarten_anni">Anny</persName></p>
+					<p>Once again, certain death lurks for us at every moment. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-909" type="subject">Save</term> us by official means, at all costs and at all risks. We are convinced that You will understand our last cry for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">help</term> at the last moment.</p>
+					<p>Note: Since his mother tongue was <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName>, and we only spoke <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> in our house, I am
+						convinced that the only reason that my <persName ref="#ehri_et_rosengarten_heinz_victor">son</persName> wrote the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> in <placeName ref="http://www.geonames.org/798549/romania.html"
+							>Romanian</placeName> is that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> was delivered by a <placeName ref="http://www.geonames.org/2921044/federal-republic-of-germany.html">German</placeName> officer, and my
+							<persName ref="#ehri_et_rosengarten_heinz_victor">son</persName>, God bless him, did not want him to understand the contents.</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<pb facs="EHRI-ET-YV3549466_16.jpg" n="16"/>
+					<!--<p>- 16 -</p>-->
+					<p>[<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">Letter</term> by <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz V. Rosengarten</persName> from <placeName ref="#ehri_et_camp_tarasivka">Tarasivka</placeName>, <date when="1943-09-14"
+							>September 14, 1943</date>; <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> transcription,]</p>
+					<p>…</p>
+					<p>I the undersigned <persName ref="#ehri_et_rosengarten_ernestine">E. Rosengarten</persName>, resident in <placeName ref="http://www.geonames.org/295740/afula.html">Afula</placeName> – <placeName ref="http://www.geonames.org/294640/state-of-israel.html">Israel</placeName>,
+							<placeName ref="http://www.geonames.org/295740/afula.html">Shikun</placeName></p>
+					<p><placeName ref="http://www.geonames.org/295740/afula.html">Ovdei Solel Boneh</placeName>, certify that this copy is in conformity with the original.</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<p><date when="1952-05-03">May 3, 1952</date>.</p>
+					<pb facs="EHRI-ET-YV3549466_17.jpg" n="17"/>
+					<!--<p>- 17 -</p>-->
+					<p>Additions to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">testimony</term> of</p>
+					<p><persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName></p>
+					<p><q>Beyond the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">river Bug</placeName></q></p>
+					<p>In this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">statement</term>, which I recently handed over, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> by <persName
+							ref="#ehri_et_dagani_korn_arnold">Arnold Daghani</persName> (Korn) <q>Das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grab</term> im Garten der Kirschen<note place="bottom">The <term
+									ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grave</term> in the Cherry-Orchard</note></q> is mentioned, which, as Mrs. <persName ref="#ehri_et_rosengarten_ernestine">Rosengarten</persName> said, should have been published in
+							<placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> and, with the help of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1051">World Jewish Congress</orgName>, in <placeName
+							ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName>. In the meantime, the following has emerged with regard to this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject"
+							>book</term>:</p>
+					<p>1. As is known at <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad Vashem</orgName>, a copy in the <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> language was found through an advertisement in the newspaper of the
+							<placeName ref="http://www.geonames.org/571096/bukovina.html">Bukovina</placeName> Jews <q>Die Stimme</q>, in the possession of Dr. <persName ref="#ehri_et_fischer_dr">Fischer</persName><note place="bottom">handwritten addition</note>, who works at the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-005402">URO</orgName> in <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv,</placeName> and who lent this copy to <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad
+							Vashem</orgName>.</p>
+					<p>2. Recently I learned of a second copy in this <placeName ref="http://www.geonames.org/294640/state-of-israel.html">country</placeName>. <persName ref="#ehri_et_litman_litani_dora">Dr. Litani</persName>, who works at Hitachduth Olei Rumania in <placeName
+							ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>, <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Nachlath Benyamin st.</placeName> 44, and who also does special work for <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544">Yad Vashem</orgName>, owns a <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> copy with a personal dedication by <persName ref="#ehri_et_dagani_korn_arnold">Daghani</persName>
+						(Korn). She reports further that Korn is a gifted painter and graphic artist and that he now lives in <placeName ref="http://www.geonames.org/683506/bucharest.html">Bucharest</placeName>.</p>
+					<p>3. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">husband</term> of <persName ref="#ehri_et_litman_litani_dora">Dr. Litani</persName>, who is also here in the <placeName ref="http://www.geonames.org/294640/state-of-israel.html"
+							>country</placeName>, is a member of the Assirei Zion and was the chairman of the <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName> section of the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1051">World Jewish
+							Congress</orgName> in <placeName ref="http://www.geonames.org/683506/bucharest.html">Bucharest</placeName>. With his assistance, <persName ref="#ehri_et_dagani_korn_arnold">Daghani's</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> was published in <placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName>. The original manuscript is written in <placeName
+							ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName>, but both <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">spouses</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> that the original manuscript was available in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName> only,
+						however, an edition printed in <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName> was never published.</p>
+					<p>4. <persName ref="#ehri_et_litman_litani_dora">Dr. Litani</persName> has heard that the <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName> manuscript is said to be here in the <placeName
+							ref="http://www.geonames.org/294640/state-of-israel.html">country</placeName> with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">sister</term> of <persName ref="#ehri_et_dagani_korn_arnold">Daghani</persName>. She</p>
+					<pb facs="EHRI-ET-YV3549466_18.jpg" n="18"/>
+					<!--<p>- 18 -</p>-->
+					<p>now tries to locate the address, and if she finds the <placeName ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">English</placeName> text, she will contact <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-001544"
+							>Yad Vashem</orgName>.</p>
+					<p>I would like to add a further addition to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term>.</p>
+					<p>I said in the accompanying <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">report</term> that no other case was known to me that an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-man had sought <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">help</term> for Jews. That is not correct. I had parts of <persName ref="#ehri_et_dagani_korn_arnold">Daghani</persName>'s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686"
+							type="subject">book</term> translated for me orally by Mrs. <persName ref="#ehri_et_roll">Roll</persName> in <placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv</placeName>. Mrs. <persName ref="#ehri_et_roll">Roll</persName> comes from <placeName
+							ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName>, and she knew quite a few of the people mentioned in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-686" type="subject">book</term> personally. She told me that relatively often
+							<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-men from <placeName ref="http://www.geonames.org/571096/bukovina.html">Bukovina</placeName> and <placeName ref="http://www.geonames.org/858911/transnistria.html">Transnistria</placeName>
+						came to <placeName ref="http://www.geonames.org/710719/chernivtsi.html">Chernivtsi</placeName> who brought news about the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term>, and took <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term> for them, not infrequently even free of charge. Her own <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">father</term> was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">interned</term> in Djwin and died there, and she had sent him <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-297" type="subject">help</term> through an <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS</orgName>-man who did not accept payment.</p>
+					<p>At the same time, I forward the copy of <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten’s</persName><placeName ref="http://www.geonames.org/798549/romania.html">Romanian</placeName><note place="bottom">handwritten addition</note><term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term>, which could not be included in the first shipment.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr. Ball-Kaduri</persName></p>
+					<p>in <date when="1958-06">June 1958</date></p>
+					<p>(<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr Ball-Kaduri</persName>)</p>
+					<pb facs="EHRI-ET-YV3549466_19.jpg" n="19"/>
+					<!--<p>- 19 –</p>-->
+					<p>[Manuscript of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName> and of the additions, pp. 14 – 15]</p>
+					<pb facs="EHRI-ET-YV3549466_20.jpg" n="20"/>
+					<!--<p>- 20 –</p>-->
+					<p>[Manuscript of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> from <persName ref="#ehri_et_rosengarten_heinz_victor">Heinz Victor Rosengarten</persName> and of the additions, pp. 14 – 15]</p>
+					<pb facs="EHRI-ET-YV3549466_21.jpg" n="21"/>
+					<!--<p>- 21 -</p>-->
+					<p>Supplement to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-687" type="subject">statement</term> by <persName ref="#ehri_et_rosengarten_ernestine">Ernestine Rosengarten</persName>.</p>
+					<p>In a transcript of a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of Mr. <persName ref="#ehri_et_jaegerndorf">Jaegerndorf</persName> to <persName ref="#ehri_et_fildermann_dr">Dr. Fildermann</persName> from <date when="1944"
+							>1944</date> contained in our archives in volume O-11/12-2, I found a remark referring to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term> of the engineer <persName ref="#ehri_et_rosengarten_heinz_victor"
+							>Rosengarten</persName> as well as to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term>
+						<persName ref="#ehri_et_segall_nathan">Segall</persName>.</p>
+					<p>The remark reads:</p>
+					<p>Dear friends!</p>
+					<p>... nevertheless, I feel compelled to warmly <note place="bottom">word missing, probably <q>recommend</q></note> to you again the matter of the <placeName ref="http://www.geonames.org/691016/tulchyn.html">Tulcin</placeName> Jews, and I will assume that he has not only
+						discussed this case with you, but that he will also bring something concrete with him. I myself wrote to you in detail at the time, after Mr <persName ref="#ehri_et_segall_nathan">Segall’s</persName> visit, and asked you to send an urgent order from there to the <placeName
+							ref="http://www.geonames.org/691016/tulchyn.html">Tulcin</placeName> Prefecture to demand the return of all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-558" type="subject">Jews</term> who had been sent to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-557" type="subject">work</term> on the other side of the <placeName ref="http://www.geonames.org/697134/pivdennyy-buh.html">Bug</placeName>. Unfortunately, my pertaining request was unsuccessful and today there is
+						nobody left to bring back. My personal intervention in <placeName ref="http://www.geonames.org/691016/tulchyn.html">Tulcin</placeName> in this matter probably was successful in so far that the order was given for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">families</term>
+						<persName ref="#ehri_et_segall_nathan">Segall</persName> and Ing. <persName ref="#ehri_et_rosengarten_heinz_victor">Rosengarten</persName> to bring them back, but unfortunately as a result of a chain of circumstances they were already dead two days before that, just like all
+						the others ...</p>
+					<p><persName ref="#ehri_et_jaegerndorf">Jaegerndorf</persName></p>
+					<p><date when="1944-02-21">February 21, 1944</date>.</p>
+					<p><placeName ref="http://www.geonames.org/293397/tel-aviv.html">Tel Aviv,</placeName>
+						<date when="1958-12-21">December 21., 1958</date>
+						<note place="bottom">handwritten</note></p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000453">Dr Ball-Kaduri</persName>
+						<note place="bottom">handwritten</note></p>
+					<pb facs="EHRI-ET-YV3549466_22.jpg" n="22"/>
+					<!--<p>- 22 -</p>-->
+					<p>[<placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainian</placeName> original of the Annex to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-843" type="subject">letter</term> of <date when="1955-11-10">November 10, 1955</date>, see p. 13]</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

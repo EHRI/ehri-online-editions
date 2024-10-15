@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400116_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Radiotelegramm von Richard Weich in Lemberg an die IKG Wien betreffend mögliche Emigration</title>
+				<title xml:lang="en">Radio telegram from Richard Weich in Lemberg to the IKG Vienna regarding possible emigration</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Winfried Garscha</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Claudia Kuretsidis-Haider</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<idno>A/W 2747</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1940-01-16">16. Jänner 1940</origDate>
+				<persName ref="#ehri_nisko_weich_richard">Richard Weich</persName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>IKG Wien</term>
+				</keywords>
+				<catRef target="IKG Wien"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p>21 <placeName ref="http://www.geonames.org/702550/lviv.html">LWOW</placeName> 548 34/33 11 2130 FK =</p>
+					<p>ELT = <persName ref="#ehri_nisko_engel_emil">Emil Engel</persName>. Seitenstätteng 4 <placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName> =</p>
+					<p>Beide <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Polentransporte</term> ersuchen um Intervention wegen Ermoeglichung urspruenglich geplanter Einreisen in Emigrationsländer eventuell kurzen Aufenthalt dort zu diesem Zweck <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">Frauen</term> sollen abwarten =</p>
+					<p><persName ref="#ehri_nisko_weich_richard">Richard Weich</persName>
+						<placeName ref="http://www.geonames.org/702550/lviv.html">Lwow</placeName> Restante</p>
+					<p>4+</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

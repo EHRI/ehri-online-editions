@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-BF-UH-19380103_DE_CS" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Auftrag der Bezirkshauptmannschaft Bruck a.d.L. an das Gendarmeriepostenkommando in Wolfsthal über die Kontrolle von einreisenden rumänischen Staatsangehörigen</title>
+				<title xml:lang="cs">Příkaz okresního hejtmanství Bruck a.d.L. adresovaný velitelství četnické stanice ve Wolfsthalu o kontrole rumunských státních příslušníků překračujících hranice na vjezdu do země</title>
+				<title xml:lang="en">Order from the district administration Bruck a.d.L. to the gendarmerie post command in Wolfsthal about the control of entering Romanian nationals</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>BeGrenzte Flucht. Die österreichischen Flüchtlinge an der Grenze zur Tschechoslowakei im Krisenjahr 1938</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
+				<funder>Grantová agentura ČR</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Begrentze Flucht</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001965">Niederösterreichisches Landesarchiv</orgName><address>
+								<street>Landhausplatz 1</street>
+								<postCode>3109</postCode>
+								<settlement>St. Pölten</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
+						<collection>Bezirkshauptmannschaft Bruck/L. 1938</collection>
+						<idno>Z. XI/153, Karton 424</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Niederösterreichisches Landesarchiv, BH Bruck/L. 1938, Z. XI/153, Karton 424. <textLang mainLang="de">Original auf Deutsch.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1938-01-03">3. Januar 1938</origDate>
+				<origPlace>Bruck a. d. Leitha</origPlace>
+				<orgName ref="#ehri_bf_bh_bruck">Bezirkshauptmannschaft Bruck a.d.L.</orgName>
+				<persName ref="#ehri_bf_helfert">Helfert (Bezirkshauptmann)</persName>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>staatliche Dokumente</term>
+				</keywords>
+				<catRef target="geschichte/oesterreich_bis_1938"/>
+			</textClass>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<!--
+      <abstract>
+        <p>Die Bezirkshauptmannschaft Bruck an der Leitha erteilte Anfang Jänner 1938 an das
+          Bezirksgendarmeriekommando und alle Gendarmeriepostenkommanden den Auftrag, die Einreise
+          rumänischer Staatsangehöriger mosaischen Glaubens nach Österreich durch genaue
+          Untersuchung entgegenzuwirken. Die autoritäre Übergangsregierung in Rumänien war stark
+          antisemitisch ausgerichtet, weshalb Staaten wie die Tschechoslowakei und Österreich
+          Gegenmaßnahmen für den Fall einer größeren Fluchtbewegung rumänischer Juden nach
+          Mitteleuropa Gegenmaßnahmen zu setzen begannen.</p>
+      </abstract>-->
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2018" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="de">
+					<p><!-- <q><hi rend="u">Bezirkshauptmannschaft</hi>
+          <placeName ref="http://www.geonames.org/2781373/bruck-an-der-leitha.html">Bruck
+            a.d.Leitha</placeName></q>.</p>      <p>ZÄ XI 21--></p>
+					<!--<p>Am <date when="1938-01-03">3. Jänner 1938</date>.</p>-->
+					<p>Einreise <placeName ref="http://www.geonames.org/798549/romania.html">rumänischer</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">Staatsangehöriger</term>. Kontrolle.</p>
+					<!--  <p>An das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+          >Gendarmeriepostenkommando</term></p>      <p>in <placeName ref="http://www.geonames.org/2760895/wolfsthal.html"
+        >Wolfsthal</placeName>.</p>-->
+					<p>[...]</p>
+					<p>Im Hinblicke auf die in den letzten Tagen in <placeName ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> eingesetzten Veränderungen der innerpolitischen Lage ist mit einem Zuströmen von bisher in <placeName
+							ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> ansässigen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Personen jüdischen Glaubens</term> zu rechnen.</p>
+					<p>Es ergeht daher der Auftrag, in Hinkunft nach <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Oesterreich</placeName> einreisende <placeName ref="http://www.geonames.org/798549/romania.html">rumänische</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">Staatsangehörige</term> oder sonst bisher in <placeName ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> wohnhaft gewesene <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Personen mosaischen Glaubens</term> genauestens zu kontrollieren und solche Personen, die über keine ausreichenden Geldmittel verfügen, deren Reisedokumente mangelhaft sind oder von denen
+						angenommen werden kann, dass sie in <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Oesterreich</placeName> dauernd Aufenthalt zu nehmen beabsichtigen, die Einreise nach <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html"
+							>Österreich</placeName> zu verweigern.</p>
+					<!--
+      <p>Der Bezirkshauptmann:</p>      <p>Dr. <persName ref="#ehri_bf_helfert">Helfert</persName>.</p>-->
+					<!-- p>Für die Richtigkeit</p>      <p>der Ausfertigung.</p>      <p>
+        <persName>Haas</persName>
+      </p>      <p>An</p>      <p>Das Bezirks<term type="subject"
+          ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">gendarmeriekommando</term>
+        und alle <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+          >Gendarmeriepostenkommanden</term> ausgenommen <placeName
+          ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName></p>.-->
+				</div>
+				<div type="translation" xml:lang="cs">
+					<p><!-- <q><hi rend="u">Bezirkshauptmannschaft</hi>
+          <placeName ref="http://www.geonames.org/2781373/bruck-an-der-leitha.html">Bruck
+            a.d.Leitha</placeName></q>.</p>      <p>ZÄ XI 21--></p>
+					<!--<p>Am <date when="1938-01-03">3. Jänner 1938</date>.</p>-->
+					<!--      <p>Einreise <placeName ref="http://www.geonames.org/798549/romania.html"
+          >rumänischer</placeName>
+        <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject"
+          >Staatsangehöriger</term>. Kontrolle.</p> 
+          -->
+					<p><placeName ref="http://www.geonames.org/798549/romania.html">Rumunští</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">státní příslušníci</term> na vjezdu do země. Kontrola</p>
+					<!--  <p>An das <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+          >Gendarmeriepostenkommando</term></p>      <p>in <placeName ref="http://www.geonames.org/2760895/wolfsthal.html"
+        >Wolfsthal</placeName>.</p>-->
+					<p>[...]</p>
+					<!--<p>Im Hinblicke auf die in den letzten Tagen in <placeName
+          ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> eingesetzten
+        Veränderungen der innerpolitischen Lage ist mit einem Zuströmen von bisher in <placeName
+          ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> ansässigen <term
+          ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Personen
+          jüdischen Glaubens</term> zu rechnen.</p>-->
+					<p>S ohledem na počínající změny vnitropolitické situace v <placeName ref="http://www.geonames.org/798549/romania.html">Rumunsku</placeName> v posledních dnech je třeba počítat s přílivem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">osob
+							židovské víry</term> usazených dosud v <placeName ref="http://www.geonames.org/798549/romania.html">Rumunsku</placeName>.</p>
+					<!--     <p>Es ergeht daher der Auftrag, in Hinkunft nach <placeName
+          ref="http://www.geonames.org/2782113/republic-of-austria.html">Oesterreich</placeName>
+        einreisende <placeName ref="http://www.geonames.org/798549/romania.html"
+          >rumänische</placeName>
+        <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject"
+          >Staatsangehörige</term> oder sonst bisher in <placeName
+          ref="http://www.geonames.org/798549/romania.html">Rumänien</placeName> wohnhaft gewesene
+          <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Personen
+          mosaischen Glaubens</term> genauestens zu kontrollieren und solche Personen, die über
+        keine ausreichenden Geldmittel verfügen, deren Reisedokumente mangelhaft sind oder von denen
+        angenommen werden kann, dass sie in <placeName
+          ref="http://www.geonames.org/2782113/republic-of-austria.html">Oesterreich</placeName>
+        dauernd Aufenthalt zu nehmen beabsichtigen, die Einreise nach <placeName
+          ref="http://www.geonames.org/2782113/republic-of-austria.html">Österreich</placeName> zu
+        verweigern.</p>-->
+					<p>Vydává se tudíž příkaz, aby <placeName ref="http://www.geonames.org/798549/romania.html">rumunští</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1147" type="subject">státní příslušníci</term> nebo další <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">osoby mojžíšského vyznání</term> do této doby bydlištěm v <placeName
+							ref="http://www.geonames.org/798549/romania.html">Rumunsku</placeName>, kteří vstupují do <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouska</placeName>, byli napříště co nejpečlivěji kontrolováni a těm osobám, jež nedisponují dostatečnými
+						finančními prostředky, jež mají nedostatečné cestovní doklady anebo o nichž se lze domnívat, že se hodlají usadit v <placeName ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakousku</placeName> natrvalo, byl odepřen vstup do <placeName
+							ref="http://www.geonames.org/2782113/republic-of-austria.html">Rakouska</placeName>.</p>
+					<!--
+      <p>Der Bezirkshauptmann:</p>      <p>Dr. <persName ref="#ehri_bf_helfert">Helfert</persName>.</p>-->
+					<!-- p>Für die Richtigkeit</p>      <p>der Ausfertigung.</p>      <p>
+        <persName>Haas</persName>
+      </p>      <p>An</p>      <p>Das Bezirks<term type="subject"
+          ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119">gendarmeriekommando</term>
+        und alle <term type="subject" ref="https://portal.ehri-project.eu/keywords/ehri_terms-1119"
+          >Gendarmeriepostenkommanden</term> ausgenommen <placeName
+          ref="http://www.geonames.org/2760895/wolfsthal.html">Wolfsthal</placeName></p>.-->
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

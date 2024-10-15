@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-DC-003_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">František Fischhof, history of the Old New Synagogue during the Nazi occupation</title>
+				<title xml:lang="de">František Fischhof, Geschichte der Altneuen Synagoge während der Nazi-Besatzung</title>
+				<title xml:lang="cs">František Fischhof, historie Staronové synagogy za nacistické okupace</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>Documentation Campaign</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Documentation Campaign</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_dp">Documents of Persecution</collection>
+						<idno>inventory number 80 (Memoirs, and literary and expert accounts of the persecution period, written after the war)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Documents of Persecution, inv. no 80. <textLang mainLang="cz">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<persName ref="#ehri_dc_fischhof_frantisek">František Fischhof</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogues</term>, <origPlace ref="https://www.geonames.org/3067696/prague.html">Prague</origPlace>, <term
+					ref="https://portal.ehri-project.eu/keywords/ehri_terms-633" type="subject">German occupation</term>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>František Fischhof describes the history of the Old New Synagogue in Prague from the beginning of the Nazi occupation in March 1939 until his deportation to the Terezín Ghetto in March 1943.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-DC-003_04.png" n="4"/>
+					<p>čj 244/45</p>
+					<p>Opis</p>
+					<p>Zpráva</p>
+					<p>od <persName ref="#ehri_dc_fischhof_frantisek">Františka Fischhofa</persName>, bývalý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">vězeň</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">táborů</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvěčím</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauffering IV</placeName> a <placeName ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Ottilien</placeName>.</p>
+					<p>Staronová <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagoga</term> v <placeName ref="https://www.geonames.org/3067696/prague.html">Praze</placeName> za dobu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633"
+							type="subject">německé okupace</term>.</p>
+					<p>Vyhovuji Vaší ct. výzvě a začínám s epizody, které se přihodily v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagoze</term> v <placeName ref="https://www.geonames.org/3067696/prague.html">Praze</placeName>.</p>
+					<p>1./ V noci <date when="1939-03-20">20. března 1939</date> vyvezli čeští <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">fašisté</term> z příkazu <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject"
+							>Němců</term> na střechu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagogy</term> /nejstarší gotická <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagoga</term> v <placeName
+							ref="https://www.geonames.org/6255148/europe.html">Evropě</placeName>/, rozbili okenní tabule a pustili tam konev s 20 l benzinu, hadry namočené v benzinu a dřevitou vlnu, kterou připevnili na drát, do vnitra <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogy</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">zapálili</term> všechno. Ačkoliv hořejší okna začala hořeti, stal se zázrak a silný vítr uhasil
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">oheň</term>. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Česká</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">policie</orgName> vypátrala pachatelé, ale nesměla je však zatknouti.</p>
+					<p>2./ <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Němci</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">fašisté</term> prohledali <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogu</term> a budovu <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">židovské náboženské obce</orgName>, jest - li nejsou někde schovány zbraně,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-587" type="subject">zabavili</term> knihovnu a převedli ji do <q><orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-429">SS</orgName> - Standort - kommandatury</q>. Jednalo se o 30.000 svazků,
+						mezi nimiž byly cenné unikáty a Sonzino - tisky.</p>
+					<p>3./ Na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Šavuot</term> téhož roku byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">modlitba</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Mincha</term> přesunuta o hodinu dřív, takže <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagoga</term> byla výjimečně zavřena již ve 4 h. odpoledne. V 5
+						hodin slyšeli jsme silnou detonaci z domu sousedící se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogou</term>, kde bylo zničeno schodiště a byt domovníkův. Při vyšetření se ukázalo, že puma byla určena pro <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronovou synagogu</term> a pouze tím, že byla uzavřena již ve 4 h. položili ji pachatelé do vedlejšího domu, aby <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>synagoga</term> byla zničena. Dle sdělení <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">policejního komisaře</orgName> znala <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">policie</orgName> pachatele, nesměla však
+						zakročiti. Za to byla postavena na útraty <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">náboženské obce</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">policejní</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">stráž</orgName>, která byla po šesti měsících zakázána.</p>
+					<p>4./ Na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Roš</term> - <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">hašanah</term> 5700/1939 byla razie na židy před <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogami</term> i pro mne si přišli při <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">modlitbě</term> v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagoze</term> a byl jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">zatčen</term> s četnými jinými židy, kteří zrovna chtěli vstoupiti do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogy</term> komisařem <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapa</orgName> Bartlem a odvezen do připravených aut do ústředny <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapa</orgName>. Tam jsme museli státi 2 ½ hodiny obličejem ke stěně, pak nositi těžká břemena po úzkých chodbách a schodech. Po <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-634"
+							type="subject">výslechu</term>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">kriminálním komisařem</orgName> Fuchsem jsem byl propuštěn jako jediný, ostatní byli převezeni na <placeName ref="http://www.geonames.org/3068601/pankrac.html">Pankrác</placeName>, kde byli <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">mučeni</term> hrozbami <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">smrti</term>.</p>
+					<p>5./ Na <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Jom</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Kippur</term> téhož roku jsme byli vyzváni <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">odevzdati</term> přiznání jmění a radia, učinilo se tak až příští den
+						a uklidnili jsme návštěvníky <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagog</term> také tím směrem.</p>
+					<p>6./<date when="1939-10-15">Dne 15. října 1939</date> přišel na návštěvu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Obergruppenführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName>, šéf policie z <placeName ref="https://www.geonames.org/2950159/berlin.html">berlínské</placeName> ústředny, který se zajímal o všechny <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">židovské instituce</term> jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitovy</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758"
+							type="subject">synagogy</term> a šekly. Mimo jiné se ptal, proč se staví v orientu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitovy</term> skaloviště. Unikla mu věta: <q>Když jsem ještě v <placeName
+								ref="http://www.geonames.org/2542007/kingdom-of-morocco.html">Maroku</placeName> pracoval v tajné službě proti židům, viděl jsem jiné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">hroby</term>.</q></p>
+					<p>7./ V <date when="1940-07">červenci 1940</date> přišel komisař <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapa</orgName> Bartl prohlédnouti si <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogu</term> a
+						Starý <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">židovský</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">hřbitov</term>. U <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">hrobu</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabína</term>
+						<persName ref="#ehri_dc_oppenheimer_david">Davida Oppenheima</persName>
+						<note type="gloss">Oppenheimer</note>, jehož bohatá knihovna hebraika a talmudika se nalézá v <placeName ref="https://www.geonames.org/2640729/oxford.html">oxfordské</placeName> universitě, prohodil: <q>Naši kluci dokážou to brzy a přinesou nám knihovnu zpátky.</q></p>
+					<pb facs="EHRI-DC-003_05.png" n="5"/>
+					<p>8./ Dne <date when="1940-07-20">20. července</date> vtrhla skupina <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">fašistické</term> mládeže do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové
+							synagogy</term>, zrovna když se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">modlilo</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Mincha</term>. Vyzval jsem je aby opustili ihned <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogu</term> a hrozil jsem jim <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapem</orgName> a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName>, načež pánové se dali na spěšný útěk.</p>
+					<p>9./ Dne <date when="1940-08-10">10. srpna 1940</date> jsem musil opustiti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">bohoslužbu</term> a dostaviti se k <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject"
+							>Hauptsturmführerovi</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Güntherovi</persName> z <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName>. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164"
+							>Günther</persName> nám oznámil, že se natočí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-703" type="subject">film</term> o židech a že musíme dáti k disposici 100 statistů s vousy a pejot, i s <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-895" type="subject">kantorem</term>, který zná <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">obyčeje</term> a melodie. Poukázali jsme na to, že je to velice těžké, načež prohlásil
+						krátce: <q>Rozkaz musí být splněn.</q> Když se objevil režisér z <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlína</placeName>, aby zahájil zkoušky ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové
+							synagoze</term>, řekl jsem mu, že asi scény nedopadnou dobře, protože schází nálada, nehledě k tomu, že se to celé příčí pietě a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">tradici</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagogy</term>. Upustilo se od snímků ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagoze</term> a <orgName
+							ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">židovská náboženská obec</orgName> byla pověřena provedením a přijetím herců z povolání a dobrovolných statistů.</p>
+					<p>10./ Dne <date when="1940-08-18">18. srpna 1940</date> byla sestřelena ozdoba ze střechy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagogy</term> s odůvodněním, že židovský odznak musí býti odstraněn. Pravidelně se nařídili
+						nová <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">mučení</term> židů ke <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">svátkům</term>.</p>
+					<p>11./ V <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">purimové</term> noci <date when="1941">1941</date> byl první letecký poplach v <placeName ref="https://www.geonames.org/3067696/prague.html">Praze</placeName>. Bylo nařízeno, aby se
+						nekonalo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">vyučování</term> ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">školách</term> a v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogách</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">modlitby</term> v hodinách ranních. Všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogy</term>, až na <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronovou</term> byly zavřeny. Musil jsem za to odpovídati a hájil jsem se, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Megila</term> musí býti přečtena
+						Coram publico. Na to jsem byl propuštěn.</p>
+					<p>12./ Jedné soboty přišel k nám do bytu nějaký <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS Oberführer</term> a požádal mne zdvořile, abych nechal otevříti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>Staronovou synagogu,</term> protože se o ni velice zajímal a jel schválně přes <placeName ref="https://www.geonames.org/3067696/prague.html">Prahu</placeName> z <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlína</placeName> do <placeName
+							ref="https://www.geonames.org/2761369/vienna.html">Vídně</placeName>. Byli jsme velice překvapeni jeho dobrou znalostí <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">židovských</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">obyčejů</term>. Vypravoval nám, že je referentem v úřadě pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-987" type="subject">propagandu</term> a že byl dřív činný u židovského
+						kupce ve <placeName ref="https://www.geonames.org/2761369/vienna.html">Vídni</placeName>, který světil <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">sabat</term>. Chtěl věnovati <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagoze</term> větší částku, což jsem odmítl tím, že by se musela stejně odvésti <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName>. Řekl nám, že je
+						vzdor svému postavení přítelem židů a že upozornil často ve svých referátech na to, že boj proti židům je pouze možný ústně a nikoliv pěstí.</p>
+					<p><q>Od té doby, co <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Němci</term> použili právo pěsti proti židům, ztratili <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">válku</term> a lituji
+							pouze, že mne žádný nebere vážně.</q></p>
+					<p>13./ Erev <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Jom</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Kippur</term>
+						<date when="1941">1941</date> se ptalo vedení, zda - li se smí konati <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">bohoslužba</term>. /V <placeName ref="http://www.geonames.org/3078610/brno.html">Brně</placeName> bylo <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">zatčeno</term> 200 židů, zavlečeni do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausenu</placeName> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">zavražděni</term> během 14ti dnů./ Samozřejmě zakázala <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">bohoslužbu</term>. Nicméně se <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">modlilo</term> denně ráno a večer podle ritu <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagogy</term> a to v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">bytech</term> vrchního <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-895" type="subject">kantora</term>
+						<persName ref="#ehri_dc_hirsch_bernard">Hirsche</persName> a vrchního <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabína</term>.</p>
+					<p>14./ Do <date when="1943-03-01">1. března 1943</date> nám bylo možno <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">zásobiti</term> židy v <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64"
+							>Protektorátu</placeName> s <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">mazzot</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">vínem</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">sádlem</term>, rituelně vyrobenými <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">konservami</term>, lulefy a etrogy. Dárci byly organisace <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">Jointu</orgName> v <placeName ref="https://www.geonames.org/3060972/bratislava.html">Bratislavě</placeName>, <placeName ref="https://www.geonames.org/3054643/budapest.html">Budapešti</placeName>, <placeName
+							ref="http://www.geonames.org/724261/lubotice.html">Lubotice</placeName> a <placeName ref="http://www.geonames.org/671768/oradea.html">Gross Wardein</placeName>.</p>
+					<p>15./ Dne <date when="1941-10-01">1. řijna 1941</date> byly zavřeny všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">školy</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogy</term>.
+						Zařízení přišlo do <placeName ref="https://www.geonames.org/3067696/prague.html">Prahy</placeName>, kde se zřídilo <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">židovské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">museum</term> v příkazu <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000336">Rosenberga</persName> a <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000152">Goebbelse</persName>.</p>
+					<p>16./ <date when="1943-01-12">Dne 12. ledna 1943</date> v noci jsem byl v jednu hodinu probuzen <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">policií</orgName> a bylo mi řečeno, že mám se ihned odebrati do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Staronové synagogy</term>, v jejíž vnitru je silná světelná zář. Při vyšetření se zjistilo, že isolační dráty trpěly mokrem a že se Ner Tamid rozsvítil samočinně. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoga</term> byla tím prazvláštně osvětlena. <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Český policejní inspektor</orgName>, který měl</p>
+					<p>zrovna službu poklepl mi na rameno, řka: <q>Blahopřeji Vám židům, považuji to za symbol, že Bůh Vám pomůže.</q></p>
+					<pb facs="EHRI-DC-003_06.png" n="6"/>
+					<p>Dne <date when="1943-03-01">1. března 1943</date> jsem byl zařazen do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term>, kde jsem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracoval</term> v <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869"
+							type="subject">rabinátě</term> a v M - akci. Uloupené <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabínské</term> knihovny z <placeName ref="https://www.geonames.org/2761369/vienna.html">Vídně</placeName>, <placeName
+							ref="https://www.geonames.org/2759794/amsterdam.html">Amsterodamu</placeName>, <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlína</placeName>, <placeName ref="https://www.geonames.org/756135/warsaw.html">Varšavy</placeName> a <placeName
+							ref="https://www.geonames.org/3081368/wroclaw.html">Vratislavy</placeName> byly přivezeny po stech do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>, tam zpracovány odborníky a katalogizovány, protože
+						judaistický institut v <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlíně</placeName> dle výroku <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmführera</term> Kellnera neměl odborníků. Mezi knihami bylo též asi 50
+						beden benediktského kláštera <placeName ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Ottilien</placeName>. Dne <date when="1944-09-27">27. září 1944</date> jsem byl donucen opustiti tuto krásnou <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term>, protože jsem byl zařazen do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term> do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvěčími</placeName>.</p>
+				</div>
+				<div type="translation" xml:lang="de">
+					<pb facs="EHRI-DC-003_01.png" n="1"/>
+					<p>von <persName ref="#ehri_dc_fischhof_frantisek">Franz Fischhof</persName>, <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName>, gewesener <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">Häftling</term> aus <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauffering IV.</placeName> und <placeName ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Otilien</placeName>.</p>
+					<p>Die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> in <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName> während der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633"
+							type="subject">deutschen Okkupation</term>.</p>
+					<p>Ihrer gesch. Aufforderung nachkommend, beginne ich mit Episoden, welche sich in der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> zu <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName>
+						zugetragen haben.</p>
+					<p>1./ In der Nacht auf den <date when="1939-03-20">20. März 1939</date> haben <placeName ref="https://www.geonames.org/3077311/czechia.html">tschechische</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">Faschisten</term> im Auftrag der <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Deutschen</term> das Dach der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> /der ältesten gotischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term>
+						<placeName ref="https://www.geonames.org/6255148/europe.html">Europas</placeName>/ erklettert, die Dachscheiben eingeschlagen und eine Benzinkanne mit 20 Liter Benzin nebst vielen in Benzin getränkten Hadern und Holzwolle in das Innere der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> mit Draht abgelassen und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">angezündet</term>. Trotzdem die oberen Fenster Feuer fingen, geschah ein
+						Wunder und ein starker Wind verlöschte das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">Feuer</term>. Die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">tschechische</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Polizei</orgName> untersuchte den Fall, forschte die Täter aus, durfte aber keine Verhaftung vornehmen.</p>
+					<p>2./ <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Deutsche</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">Faschisten</term> durchsuchten die <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> und das Gebäude der <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">jüdischen</orgName>
+						<orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Kultusgemeinde</orgName> nach Waffen, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-587" type="subject">nahmen</term> die Bibliothek in Beschlag und überführten sie
+						in die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS – Standortkommandantur</orgName>. Es handelte sich um 30.000 Bände, darunter sehr wertvolle Unikate und Sonzinedrucke.</p>
+					<p>3./ Am <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Schawuot</term>-Feste desselben Jahres wurde das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Minchagebet</term> um eine halbe Stunde vorverschoben,
+						sodass die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> ausnahmsweise bereits um 4 h geschlossen war. Um 5 h hörten wir eine starke Detonation aus dem der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758"
+							type="subject">Synagoge</term> benachbarten Hause, wo das Stiegenhaus und die Hausmeisterwohnung zerstört wurden. Die Untersuchung ergab, dass die Zeitbombe für die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term>
+						bestimmt war und nur weil diese um 4 h bereits geschlossen war, haben die Täter die Bombe ins Nachbarhaus gelegt, um die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> zu treffen. Laut Mitteilung des<orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772"> Polizeikommissars</orgName> des ersten Reviers, kannte <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">die Polizei</orgName> die Täter, durfte aber keine Verhaftung vornehmen. Dafür
+						wurde auf Kosten der <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Kultusgemeinde</orgName> eine <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Polizeiwache</orgName> aufgestellt, welche aber nach 6
+						Monaten verboten wurde.</p>
+					<p>4./ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Rosch-Haschanah</term> 5700 /1939/ fand eine Razzia auf die Juden vor den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term> statt. Auch ich
+						wurde während des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Gebetes</term> aus der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">herausgeholt</term>, zusammen mit einer Anzahl Juden, welche oben die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> betreten wollten, vom
+							<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapokommissar</orgName> Bartl <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term> und in bereitstehenden Autos zur <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapozentrale</orgName> abgeführt. Dort mussten wir 2 ½ Stunden mit dem Gesicht zur Wand stehen, nachher schwere Lastarbeiten auf schmalen Gängen und Treppen im Laufschritt verrichten. Nach dem Verhör durch
+						Kriminalkommissar Fuchs wurde ich als einziger entlassen, während die übrigen Personen in die Strafanstalt <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-250">Pankrác</placeName> überführt wurden, wo sie unter <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">Todesbedrohungen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">gemartert</term> wurden.</p>
+					<p>5./ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Jom Kippur</term> desselben Jahres wurden wir aufgefordert, die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">Vermögensbekenntnisse</term> abzugeben und
+						die Radios <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">abzuführen</term>. Wir taten dies aber erst am nächsten Tag und haben auch die</p>
+					<pb facs="EHRI-DC-003_02.png" n="2"/>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogenbesucher</term> dahingehend beruhigt.</p>
+					<p>6./ Am <date when="1939-10-15">15. Oktober 1939</date>. Besuch des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Obergruppenführers</term> und Chefs der Judenpolizei <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> aus der <placeName ref="https://www.geonames.org/2950159/berlin.html">berliner</placeName> Zentrale, welcher sich für sämtliche <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">jüdische Einrichtungen</term>, wie Z. B. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Friedhof,</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term>, Schekel usw. interessierte. Unter anderem fragte er, weshalb die jüdischen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Friedhöfe</term> im
+						Orient felsenmässig gebaut seien. Es entschlüpfte ihm der Satz: <q>Als ich noch in <placeName ref="http://www.geonames.org/2542007/kingdom-of-morocco.html">Marokko</placeName> im Geheimdienst gegen die Juden arbeitete, sah ich andere <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grüber</term>.</q></p>
+					<p>7./ Im <date when="1940-07">Juli 1940</date> kam <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapokommissar</orgName> Bartl um die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> und den alten <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">jüdischen</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Friedhof</term> zu besichtigen. Am <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">Grabe</term> des <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Rabbi</term>
+						<persName ref="#ehri_et_oppenheimer_david">David Oppenheim</persName>
+						<note type="gloss">Oppenheimer</note> /dessen reichhaltige und wertvolle Bibliothek – Hebraika, Talmudika – sich in der <placeName ref="https://www.geonames.org/2640729/oxford.html">oxforder</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-784" type="subject">Universität</term> befindet/. Sagte er: Unsere Jungens werden es bald schaffen und die Bibliothek heimbringen.</p>
+					<p>8./ Am <date when="1940-07-20">20. Juli 1940</date> stürmte ein Stosstrupp der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">faschistischen</term> Jugend die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>Altneusynagoge</term>, gerade, als das <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Minchagebet</term> abgehalten wurde. Ich forderte die Eindringlinge auf, die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758"
+							type="subject">Synagoge</term> sofort zu verlassen, ansonsten ich die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> bzw. die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName> alarmieren
+						würde. Daraufhin flüchteten die Herrschaften im Laufschritt.</p>
+					<p>9./ Am <date when="1940-08-10">10. August 1940</date> wurde ich vom <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Gottesdienst</term> weggeholt, um mit dem Leiter der <orgName
+							ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">JKG</orgName> Dr. <persName ref="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-1951990">Weidmann</persName>, beim <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Hauptsturmführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName> aus der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName> der Juden im <placeName
+							ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protektorat</placeName>, vorzusprechen <note type="gloss">Part of this sentece is missing in the Czech translation.</note>. <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName> sagte, dass ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-703" type="subject">Judenfilm</term> gedreht werden sollte und wir 100 Statisten mit Bartl und Pejot nebst
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-895" type="subject">Kantor</term>, der die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Riten</term> und Melodien kennt, zur Verfügung stellen müssen. Wir wiesen darauf hin,
+						dass dies technisch schwierig sei, worauf er kurz und bündig erklärte: <q>Befehl muss ausgeführt werden.</q> Als der Regisseur aus <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-1095">Berlin</placeName> kam, um die Proben in der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> durchzuführen, sagte ich ihm, dass keine richtigen Szenen herauskommen könnten, da sie Stimmung fehle. Außerdem widerspreche es der Pietät der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> und ihrer <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Tradition</term>. Von den Aufnahmen in der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> wurde Abstand genommen und die <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">JKG</orgName> wurde mit der Durchführung und
+						Engagement von Berufsschauspielern und freiwilligen Statisten betraut.</p>
+					<p>10./ Am <date when="1940-08-18">18. August 1940</date> wurden die Tauben vom Dache der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> abgeschossen, mit der Begründung, das Wahrzeichen der Juden müsse entfernt werden.
+						Regelmäßig an jedem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Feiertag</term> wurden besondere <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">Quälerei</term> gegen die Juden verordnet.</p>
+					<p>11./ In der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Purimnacht</term>
+						<date when="1941">1941</date> war der erste Fliegeralarm in <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName>. Es wurde angeordnet, dass in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Schulen</term> und <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term> kein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">Unterricht</term>, bzw. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737"
+							type="subject">Andachten</term> am Morgen stattfinden dürften. Alle <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term> mit Ausnahme der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>Altneusynagoge</term> waren geschlossen. Ich wurde zur Verantwortung gezogen und verteidigte mich, dass die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Megila</term> /coram publico/ vorgelesen werden müsse. Daraufhin wurde ich
+						entlassen.</p>
+					<p>12./ Am <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Sabbath</term> kam ein <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS Oberführer</term> zu uns in die Wohnung und ersuchte mich sehr höflich, ich
+						möge die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> öffnen lassen, da er selbst großes Interesse dafür habe und von <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName> über <placeName
+							ref="https://www.geonames.org/3067696/prague.html">Prag</placeName> nach <placeName ref="https://www.geonames.org/2761369/vienna.html">Wien</placeName> reise, um die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> zu
+						besichtigen. Wir waren sehr überrascht, wie gut er die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Sitten</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Gebräuche</term> der Juden kannte.
+						Daraufhin sagte er, er sei Referent im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-987" type="subject">Propaganda</term>-Amt und dass er früher in <placeName ref="https://www.geonames.org/2761369/vienna.html">Wien</placeName></p>
+					<pb facs="EHRI-DC-003_03.png" n="3"/>
+					<p>bei einem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">sabbathaltenden</term> Kaufmann tätig gewesen sei und sich seit dieser Zeit sehr für jüdische Gebräuche interessiere. Er wollte eine größere Spende der <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> zukommen lassen, was ich aber ablehnte mit der Begründung, dass wir die Spenden an die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName>
+						abführen müssten. Er erklärte uns, dass er trotz seiner Stellung ein Freund der Judentums sei und dass er in seinen Referaten der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">NSDAP</orgName> das öfteren darauf hingewiesen hat, dass ein Kampf gegen das
+						Judentum nur in mündlicher Form möglich sei, keineswegs aber mit der Faust. <q>Von dem Zeitpunkt an, da die <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Deutschen</term> das Faustrecht gegen die Juden anwandten, ist der
+								<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">Krieg</term> verloren. Es tut mir leid, dass ich nicht ernst genommen werde.</q></p>
+					<p>13./ Erew <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Jom Kippur</term>
+						<date when="1941">1941</date> hat die Leitung der <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">JKG</orgName> angefragt, ob der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject"
+							>Gottesdienst</term> abgehalten werden dürfte. /In <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-csu-582786">Brünn</placeName> wurden 100 Juden am Erew <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Jom
+							Kippur</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">verhaftet</term>, nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName> gebracht und binnen 14 Tagen <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">ermordet</term>./ Selbstredend hat dies die <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Zentralstelle</orgName> verboten. Trotzdem wurde täglich morgens und abends nach
+						Ritus der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">gebetet</term> und zwar in den <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">Wohnungen</term> des <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-895" type="subject">Oberkantors</term>
+						<persName ref="#ehri_dc_hirsch_bernard">Hirsch</persName> und des <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Oberrabbiners</term>.</p>
+					<p>14./ Es war uns möglich, bis zum <date when="1943-03-01">1. März 1943</date> das Judentum des <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protektorats</placeName> mit <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832"
+							type="subject">Mazzot</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Wein</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Fett</term>, rituell hergestellten <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Fleischkonserven</term> und Lulav und Etrog zu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">versorgen</term>. Die Spender waren der <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">Joint</orgName>, die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">KG</term>
+						<placeName ref="https://www.geonames.org/3060972/bratislava.html">Pressburg</placeName>, <placeName ref="https://www.geonames.org/3054643/budapest.html">Budapest</placeName>, <placeName ref="http://www.geonames.org/724261/lubotice.html">Lubotice</placeName>, und <placeName
+							ref="http://www.geonames.org/671768/oradea.html">Groß-Wardein</placeName>.</p>
+					<p>15./ Am <date when="1941-10-01">1. Oktober 1941</date> wurden sämtliche <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagogen</term> und <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">Schulen</term>
+						gesperrt. Die Einrichtungsgegenstände vom ganzen <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protektorat</placeName> kamen nach <placeName ref="https://www.geonames.org/3067696/prague.html">Prag</placeName> wo ein <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">jüdisches Museum</term> errichtet wurde /Auftrag von <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000336">Rosenberg</persName> und <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000152">Goebbels</persName>/.</p>
+					<p>16./ <date when="1943-01-12">12. Jänner 1943</date>. In der Nacht auf Sonntag um 1 h wurde ich von der <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Polizei</orgName> geweckt, ich möge sofort zur <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Altneusynagoge</term> kommen, weil von Innen Lichtschein zu sehen sei. Die Untersuchung ergab, dass die Isolierungsdrähte durch die Feuchtigkeit Schaden erlitten haben und dass sich das Ner Tamid
+						selbst entzündet hatte und die <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Synagoge</term> ganz eigenartig beleuchtete. Der wachhaltende <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">tschechische
+							Polizeiinspektor</orgName> klopfte mir auf die Schulter und sagte: <q>Ich gratuliere euch Juden, dies betrachte ich als Symbol, dass Gott euch helfen wird.</q></p>
+					<p>Am ersten <date when="1943-03">März 1943</date> wurde ich in einen <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Theresienstadt</placeName> eingereiht. Dort <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">arbeitete</term> ich im <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Rabbinat</term> und in der <q>M –
+							Aktion</q>. Die geraubten Bibliotheken der <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Rabbinerseminare</term> aus <placeName ref="https://www.geonames.org/2761369/vienna.html">Wien</placeName>, <placeName
+							ref="https://www.geonames.org/2759794/amsterdam.html">Amsterdam</placeName>, <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, <placeName ref="https://www.geonames.org/756135/warsaw.html">Warschau</placeName>, <placeName
+							ref="https://www.geonames.org/3081368/wroclaw.html">Breslau</placeName> etc. wurden in Hunderten von Kisten nach <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> gebracht, dort von Fachreferenten bearbeitet
+						und katalogisiert, weil das Judaistische Institut, <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, nach Ausspruch des Leiters <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmführers</term> Dr. Kellner,
+						keine geeigneten Fachleute zur Verfügung hatte. Unter den vielen Bücherkisten befanden sich auch ca 50. Kisten mit Büchern des Benediktinerklosters <placeName ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Ottilien</placeName>.</p>
+					<p>Am <date when="1944-09-27">27. September 1944</date> musste ich diese schöne <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">Arbeit</term> verlassen, da ich in einen <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2"
+							type="camp">Birkenau</placeName> – <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">Transport</term> eingereiht wurde.</p>
+					<p><note type="gloss">Following part is missing in the Czech tramslation:</note>Für die <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentationsaktion</term>: <persName ref="#ehri_dc_weinberger_robert"
+						>Weinberger</persName></p>
+					<p>Für das Archiv: <date when="1945-09-17">17. IX. 1945</date>
+						<persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-DC-003_01.png" n="1"/>
+					<p>Report</p>
+					<p>by <persName ref="#ehri_dc_fischhof_frantisek">Franz Fischhof</persName>, <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName>, former <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">inmate</term> of <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName>, <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-227" type="camp">Kauffering IV.</placeName> and <placeName ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Otilien</placeName>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> in <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName> during the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-633"
+							type="subject">German occupation</term>.</p>
+					<p>In response to your request, I begin with episodes that are related to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> in <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName>.</p>
+					<p>1. / On the night of <date when="1939-03-20">March 20, 1939</date>, <placeName ref="https://www.geonames.org/3077311/czechia.html">Czech</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">fascists</term> working on behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Germans</term> climbed the roof of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> / the oldest Gothic <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> in <placeName
+							ref="https://www.geonames.org/6255148/europe.html">Europe</placeName>/, smashed the window panes on the roof and used a wire to lower a petrol can with 20 liters of petrol, along with many rags and wood wool soaked in petrol, into the interior of the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> and lit it on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">fire</term>. Even though the upper windows caught <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">fire</term>, a miracle occurred and a strong wind extinguished the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-646" type="subject">fire</term>. The <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Czech</orgName>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">police</orgName> investigated the case and the perpetrators but were not allowed to arrest them.</p>
+					<p>2. / <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Germans</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">fascists</term> searched the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> and the building of the <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Jewish Community </orgName>for weapons, occupied the library
+						and turned them into the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-1090">SS Command Location</orgName> [sic]. There were about 30,000 volumes, including very valuable one-of-a-kind pieces and sonzine prints.</p>
+					<p>3. / On the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Shavuot</term> festival of the same year, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Mincha</term> prayer was held half an hour early, so
+						that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> was (unusually) already closed at 4 pm. At 5 o'clock we heard a strong detonation from the house next to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term>, where the stairwell and the caretaker's apartment were destroyed. The investigation found that the time bomb had been intended for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> and that just because it was already closed at 4pm, the perpetrators put the bomb in the house next door to hit the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term>. According to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Police Commissioner</orgName> from the first <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">police</orgName> station, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">police</orgName> knew the perpetrators, but were not allowed to arrest them. As a response, a <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">police guard</orgName> was set up at the expense of the <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Religious Community</orgName>, although this was banned
+						after 6 months.</p>
+					<p>4. / <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Rosh Hashanah</term> 5700 /1939 / a raid was carried out against the Jews in front of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term>.
+						I too was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">taken out</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> during <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">prayers</term>, along with a number of Jews who wanted to enter the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> upstairs, and we were <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> by <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo Commissioner</orgName> Bartl and taken to the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo Headquarters</orgName> in waiting cars. There, we had to face the wall for 2 ½ hours, after which we had to do heavy manual labour in narrow corridors and up and down stairs at a run. After being <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-634" type="subject">interrogated</term> by Detective Inspector Fuchs, I was the only one to be released, while the rest were transferred to the <placeName
+							ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-250">Pankrác</placeName> prison, where they were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-562" type="subject">tortured</term> and received <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death threats</term>.</p>
+					<p>5. / on <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Yom Kippur</term> of the same year we were asked to hand over our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">financial statements</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-584" type="subject">turn in</term> our radios. We didn’t do it until the next day and</p>
+					<pb facs="EHRI-DC-003_02.png" n="2"/>
+					<p>reassured the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue visitors</term>.</p>
+					<p>6. / On <date when="1939-10-15">October 15, 1939</date>. We received a visit from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Obergruppenfuhrer</term> and Chief of the Jewish Police <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000564">Eichmann</persName> from the <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName> headquarters, who was interested in all <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish institutions</term>, including the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term>, shekels, etc. Among other things, he asked why the Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemeteries</term> in the Orient were
+						built into rock faces. The sentence: <q>When I was working in <placeName ref="http://www.geonames.org/2542007/kingdom-of-morocco.html">Morocco</placeName> in the secret service against the Jews, I saw other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748"
+								type="subject">graves</term>,</q> slipped out.</p>
+					<p>7. / In <date when="1940-07">July 1940</date>, <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo Commissioner</orgName> Bartl came to visit the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> and
+						the old <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">Jewish</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-750" type="subject">cemetery</term>. At the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-748" type="subject">tomb</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735"
+							type="subject">Rabbi</term>
+						<persName ref="#ehri_et_oppenheimer_david">David Oppenheim</persName>
+						<note type="gloss">Oppenheimer</note>, which had a rich and valuable library - Hebraika, Talmudika - located at <placeName ref="https://www.geonames.org/2640729/oxford.html">Oxford</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-784" type="subject">University</term> /. He said: Our boys will manage to bring the library home soon.</p>
+					<p>8. / On <date when="1940-07-20">July 20, 1940</date>, a troop of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-964" type="subject">fascist</term> youth stormed the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New
+							Synagogue</term>, just as the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Mincha prayer</term> was being held. I called on the intruders to leave the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>synagogue</term> immediately, otherwise I would alert the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> or the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">central office</orgName>. Then the gentlemen
+						fled at a run.</p>
+					<p>9. / On <date when="1940-08-10">August 10, 1940</date>, I was taken away from <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">worship</term> to meet with the head of the <orgName
+							ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">JKG</orgName> Dr. <persName ref="https://portal.ehri-project.eu/authorities/jc-persons-person-iti-1951990">Weidmann</persName>, at the office of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Hauptsturmführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName> from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Central Office for Jewish Emigration</orgName> in the <placeName
+							ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">protectorate</placeName>, to audition <note type="gloss">Part of this sentece is missing in the Czech translation.</note>. <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164"
+							>Günther</persName> said that a <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-703" type="subject">Jew film</term></q> was going to be made and we would have to provide 100 extras with beards and pejot, along with a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-895" type="subject">cantor</term> who knows the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">rites</term> and melodies. We pointed out that this would be technically difficult, to
+						which he replied succinctly: <q>Orders must be followed.</q> When the director arrived from <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName> to rehearse in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>Old New Synagogue</term> I told him that no proper scenes could come out of there as it lacked atmosphere. Moreover, it was not in keeping with the piety of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> and
+						its <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">tradition</term>. They decided to refrain from recording in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> and the <orgName
+							ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">JKG</orgName> was entrusted with the implementation and engagement of professional actors and volunteer extras.</p>
+					<p>10. / On <date when="1940-08-18">August 18, 1940</date>, the pigeons were shot down from the roof of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term> on the grounds that the symbol of the Jews had to be removed.
+						Regularly, on every <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">holiday</term>, special torments against the Jews were ordered.</p>
+					<p>11. / On <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Purim</term> night in <date when="1941">1941</date>, the first air raid alarm in <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName> occured. It was ordered
+						that no <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-842" type="subject">lessons</term>, or morning <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">devotions</term> take place in <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">schools</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term>. All <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758"
+							type="subject">synagogues</term>, with the exception of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term>, were closed. I was called to account and defended myself for saying that the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">Megila</term> / coram publico / needed to be read. Then I was released.</p>
+					<p>12. / On the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Sabbath</term> an <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS Oberfuhrer</term> came to our apartment and very politely asked me to open the
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term>, as he himself was very interested in it and had travelled via <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName> on his way from
+							<placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName> to <placeName ref="https://www.geonames.org/2761369/vienna.html">Vienna</placeName> to visit the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject"
+							>synagogue</term>. We were very surprised how familiar he was with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">customs</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-736" type="subject">traditions</term>
+						of the Jews. He then said that he was a clerk in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-987" type="subject">propaganda</term> office, that he had previously worked in <placeName ref="https://www.geonames.org/2761369/vienna.html"
+						>Vienna</placeName></p>
+					<pb facs="EHRI-DC-003_03.png" n="3"/>
+					<p>with a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">sabbath-observing</term> merchant and had been very interested in Jewish customs since then. He wanted to send a larger donation to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term>, which I refused, on the grounds that we had to pay the donations to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">central office</orgName>. He
+						explained to us that despite his position, he was a friend of Judaism and that in his lectures to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-407">Nazi Party</orgName> he had often pointed out that a fight against Judaism was only possible in oral
+						form, and under no circumstances with a fist. <q>As soon as the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-431" type="subject">Germans</term> use violence against the Jews, the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> is lost. I am sorry that I am not taken seriously.</q></p>
+					<p>13./ Erew <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">Yom Kippur</term>
+						<date when="1941">1941</date> the leaders of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-754" type="subject">JKG</term> whether the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">service</term> could be held. / In <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Brno</term>, 100 Jews were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> on Erew <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">Yom Kippur</term>, taken to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-570" type="camp">Mauthausen</placeName> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">murdered</term> within 14 days./ Of course, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-635">Central Office</orgName> said they had forbidden it. Nevertheless, morning and
+						evening <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-737" type="subject">prayers</term> were said daily according to rite of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term>, in the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">apartments</term> of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-895" type="subject">Chief Cantor</term>
+						<persName ref="#ehri_dc_hirsch_bernard">Hirsch</persName> and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">Chief Rabbi</term>.</p>
+					<p>14./ We were able to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-833" type="subject">supply</term> the Jews of the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protectorate</placeName> with <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">mazzot</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">wine</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject"
+							>fat</term>, ritually-prepared <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">meat conserves</term> and Lulav and Etrog until <date when="1943-03-01">March 1, 1943</date>. The donors were the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-347">Joint</orgName>, and the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">KG</term>s <placeName ref="https://www.geonames.org/3060972/bratislava.html">Pressburg</placeName>,
+							<placeName ref="https://www.geonames.org/3054643/budapest.html">Budapest</placeName>, <placeName ref="http://www.geonames.org/724261/lubotice.html">Lubotice</placeName>, and <placeName ref="http://www.geonames.org/671768/oradea.html">Groß-Wardein</placeName>.</p>
+					<p>15./ On <date when="1941-10-01">October 1, 1941</date>, all <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogues</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1134" type="subject">schools</term> were closed.
+						The furnishings of the entire <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protectorate</placeName> came to <placeName ref="https://www.geonames.org/3067696/prague.html">Prague</placeName>, where a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">Jewish museum</term> was built / order of <persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000336">Rosenberg</persName> and <persName
+							ref="https://portal.ehri-project.eu/authorities/ehri_pers-000152">Goebbels</persName> /.</p>
+					<p>16./ <date when="1943-01-12">12 January 1943</date>. During the night on Sunday at 1 o'clock I was awakened by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">police</orgName>. I was supposed to come immediately to the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">Old New Synagogue</term>, because light could be seen coming from inside. The investigation revealed that the wire insulation had been damaged by the moisture and that the Ner tamid had
+						self-ignited and illuminated the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-758" type="subject">synagogue</term> quite strangely. The wakeful <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004772">Czech Police Inspector</orgName> patted my
+						shoulder and said, <q>I congratulate you Jews: I see this as a sign that God will help you.</q></p>
+					<p>On the <date when="1943-03-01">first of March, 1943</date>, I was put onto a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>Theresienstadt</placeName>. There I <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">worked</term> in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-869" type="subject">rabbinate</term> and in the <q>M Aktion</q>. The
+						robbed libraries of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-735" type="subject">rabbinical seminaries</term> from <placeName ref="https://www.geonames.org/2761369/vienna.html">Vienna</placeName>, <placeName
+							ref="https://www.geonames.org/2759794/amsterdam.html">Amsterdam</placeName>, <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, <placeName ref="https://www.geonames.org/756135/warsaw.html">Warsaw</placeName>, <placeName
+							ref="https://www.geonames.org/3081368/wroclaw.html">Breslau</placeName> etc., were brought to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> in hundreds of boxes, where they were edited and cataloged by
+						specialists, because the Judaistic Institute, <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, according to the words of its leader, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Sturmführer</term> Dr.
+						Kellner, had no suitable professionals available. Among the many boxes of books were also about 50 boxes with books from the Benedictine monastery of <placeName ref="http://www.geonames.org/3208363/sankt-ottilien.html">St. Ottilien</placeName>.</p>
+					<p>On <date when="1944-09-27">September 27, 1944</date>, I had to leave this beautiful <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">job</term> because I was put onto a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+							type="subject">transport</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Birkenau</placeName>.</p>
+					<p><note type="gloss">Following part is missing in the Czech tramslation:</note>On behalf of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Documentation Campaign</term>: <persName ref="#ehri_dc_weinberger_robert"
+							>Weinberger</persName></p>
+					<p>On behalf of the archive: <date when="1945-09-17">17. IX. 1945</date>
+						<persName ref="#ehri_dc_schmiedt_alexander">Alex. Schmiedt</persName></p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

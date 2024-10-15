@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-JMP011_CS_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Edita Ornsteinová, the history of the Theresienstadt ghetto and the role of Jacob Edelstein</title>
+				<title xml:lang="de">Edita Ornsteinová, die Geschichte des Ghettos Theresienstadt und die Rolle von Jacob Edelstein</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michal Frankl</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Magdalena Sedlická</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Wolfgang Schellenbacher</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/cz-002279">Jewish Museum in Prague</orgName><address>
+								<street>U Staré školy 141/1</street>
+								<postCode>110 00</postCode>
+								<settlement>Prague</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/cz">Czech Republic</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/cz-002279-collection_jmp_shoah_t">Terezín</collection>
+						<idno>inventory number 343 (Testimonies, scholarly papers and artworks dating from after the liberation)</idno>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Museum in Prague, Terezín Collection, inv. no 343. <textLang mainLang="cs">Original in Czech.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<origDate when="1945-11-06">6. 11. 1945</origDate>, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akce</term>, <persName ref="#ehri_et_ornsteinova_edita">Edita Ornsteinová</persName>, <origPlace
+					ref="http://www.geonames.org/3067696/prague.html">Prague</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="cs">Czech</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Edita Ornsteinová, which became a part of the “documentation campaign” in Prague. Ornsteinová describes the history of Theresienstadt from its beginning to the liberation of the ghetto by the Red Army. The core of her testimony revolves around Jacob Edelstein, the
+					Elder of the Jewish Council. According to her, he saved many prisoners through various means. Ornsteinová emphasizes his difficult role and position.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="cs">
+					<pb facs="EHRI-ET-JMP011_01.jpg" n="1"/>
+					<p><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">Dokumentační akci</term> dala k disposici pí. <persName ref="#ehri_et_ornsteinova_edita">Edita Ohrensteinová</persName> došlo dne: <date when="1945-11-06">6. XI. 1945</date></p>
+					<p>Iluse <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName>.</p>
+					<p>Na podzim <date when="1941">1941</date> začala <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deportace</term> židů z bývalého <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject"
+							>Protektorátu</term> do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>; 5.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-650" type="subject">osob</term> z <placeName
+							ref="http://www.geonames.org/3067696/prague.html">Prahy</placeName> a 1.000 z <placeName ref="http://www.geonames.org/3078610/brno.html">Brna</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">odjelo</term> do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">polských</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghett</term>. Písemnými podáními a ústními intervencemi se snažilo tehdejší vedení <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Židovské
+							náboženské obce</orgName> zabrániti dalším <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportům</term> do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>, a vskutku <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">německá</term> místa ujistila, že po těchto 6.000 nebudou další <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">transporty z Protektorátu</term>
+						do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>.</p>
+					<p>Mezitím <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> pracoval dále ve smyslu své koncepce:</p>
+					<p>zastával názor, že naše jediná naděje ve válce je židovská <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> síla. Snažil se přesvědčiti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject"
+							>Němce</term>, že je mnohem výhodnější za <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">války</term>, kdy je zapotřebí každé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> síly,
+						zasadit židy do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> uvnitř <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protektorátu</placeName>. Zpočátku se také zdálo (po <placeName
+							ref="http://www.geonames.org/3068799/ostrava.html">ostravském</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportě</term> do <placeName ref="http://www.geonames.org/3099434/gdansk.html8">Niska</placeName> na podztim <date when="1939">1939</date>), jakoby měl úspěch. A zatím co největší část <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> schopného <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-278" type="subject">židovského obyvatelstva z Německa</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-277" type="subject">Rakouska</term> byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deportována</term> do <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>, z <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Protektorátu</term> nebyly vypravovány <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term> až do <date when="1941-10">října 1941</date>. Byl vytvořen zvláštní židovský pracovní úřad v rámci <orgName
+							ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Židovské náboženské obce v Praze</orgName>, který měl prováděti a zaručiti včleňování židů do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>práce</term>. Když pak vzdor všem snahám se projevila jasně tendence Němců provésti isolaci židů od ostatního obyvatelstva a jejich koncentraci, snažil se <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim"
+							>Edelstein</persName>, aby alespoň vymohl tuto koncentraci na území <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protektorátu</placeName>. Tento pokus se zdánlivě zdařil.</p>
+					<p>Když dne <date when="1941-12-01">1. prosince 1941</date> jela do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName> malá skupina lidí v čele s <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinem</persName> a inž. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim">Zuckrem</persName>, byli všichni
+						přesvědčeni, že se skutečně podaří zabrániti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deportaci</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">protektorátních židů</term> do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName>, podaří-li se vybudovati v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně ghetto</placeName>, jak jsme tehdy mysleli, v podobě Židovského města. Již předem konaly se horečnaté přípravy, plány byly vypracovány do nejmenších podrobností a schváleny <orgName
+							ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3719">Ústřednou pro židovské vystěhovalectví</orgName>. Ale pak dopadlo samozřejmě všechno jinak, než jsme očekávali.</p>
+					<p>Vybudovati židovské město – jaká to iluse! – Když se zavřely za námi poprvé brány <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínských</placeName> kasáren, věděli jsme ihned, že to mělo býti spíše <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">vězení</term> než židovské město. Není tu zapotřebí zabývati se podrobněji tehdejšími poměry. Když v prvních dnech se dostavil do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Hauptsturmführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName> a <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> mu vyčítal podvod, který byl na nás spáchán
+						předstíráním falešných skutečností, odpověděl: <q><foreign xml:lang="de">Jetzt wenn Ihr im Dreck sitzt Juden, zeigt was Ihr könnt!</foreign></q>. A byli jsme rozhodnuti, ukázati, co dovedeme. Předním úkolem bylo vzbuditi vypětím všech sil lidi z jejich lethargie, dělati všude
+						pořádek, aby bylo zabráněno <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">chorobám</term>, zaříditi kuchyně, aby bylo zaručeno <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravování</term>, obstarati
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">matrace</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">slamníky</term>, především pro <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocné</term> a pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">děti</term> a vypracovati se z této špíny v pravém slova smyslu – bez prostředků sice, ale
+						v pevné víře, že to dokážeme. A po prvních hrozných dnech otřesů, vzájemné nenávisti a zatrpklosti, zdálo se, jako bychom měli úspěch. Nějak i tento bezradostný život se zaběhal. Každý už měl svoje místečko ke <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837"
+							type="subject">spaní</term> a pro svoje věci, měl více méně svoji práci a to nejdůležitější: vznikalo smířlivější ovzduší. To byla jedna z největších zásluh <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim"
+							>Edelsteinových</persName>. Skutečně se mu podařilo získati důvěru <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">osazenstva</term>, počáteční nenávist vůči němu a jeho spolupracovníkům se uklidnila, ba získal již sympatie. Postupně
+						získal si srdce všech, každý měl důvěru, že mluví pravdu, že naše věc je též věcí jeho a že zastupoval naše zájmy u <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němců</term> jako žádný druhý. Každý věděl, že k <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinovi</persName> může jíti s jakoukoliv starostí nebo stížností ve dne v noci.</p>
+					<pb facs="EHRI-ET-JMP011_02.jpg" n="2"/>
+					<p>A <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němci</term> viděli právem v <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinovi</persName> nebezpečí pro sebe a obávali se
+						ho jako lidového vůdce, poněvadž se jim nepodařilo přes všechny snahy vytvořiti nepřeklenutelnou propast mezi ním a osazenstvem. Metoda <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němců</term> byla velmi průhledná. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> říkal často: Chtějí nám dáti všechny možné i nemožné výhody, abychom zapomněli, že jsem zástupci židů a abychom cítili spíš svou přináležitost k nim, a
+						především chtějí vypěstovati proti nám nenávist osazenstva. K ilustraci malý příklad. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Jídlo</term> se vařilo ve společné kuchyni. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němci</term> žádali, aby byla zvláštní kuchyň pro vedoucí spolupracovníky tak zvané <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-2" type="subject"
+							>Samosprávy</term> s odůvodněním, že i na vojně důstojníci jsou <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">stravováni</term> jinak než prostí vojíni. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> to odmítl a odpověď byla: <q>Komunistické methody!</q></p>
+					<p>Tak přišel <date when="1942-01">leden 1942</date>: <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">popravy</term> několika <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">obyvatelů tábora</term> pro nepatrné
+						přestoupení <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">táborového</placeName> řádu. <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-2" type="subject">Rada starších</term>, židovští velitelé <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">kasáren</term>, členové pořádkové služby a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">četníci</term> museli býti přítomni. Krátce na to při druhých <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">popravách</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> nebyl přítomen, prohlásil, že se na to nepodívá, a žádal o zproštění ze své funkce, poněvadž za těchto okolností nemohl býti dále <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject">židovským starším</term>. Byl to akt zvláštní osobní statečnosti. Demise přijata nebyla, ale jeho postavení vůči <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+							type="subject">Němcům</term> pochopitelně nebylo zlepšeno.</p>
+					<p>A <date when="1942-01">leden</date> přinesl ještě jednu hroznou věc: první <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transporty z Terezína</term> do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+							>Polska</placeName>. Všechno bylo marné, úmyslem <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němců</term> bylo pouze <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">dopraviti</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">protektorátní židy</term> do <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polska</placeName> přes <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-505" type="subject">sběrný tábor</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName>. Nač jsme jeli dobrovolně do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>? Ale na takové úvahy nebyl
+						čas, museli jsme pomoci, jak se dalo. A byli jsme zase chudší o jednu ilusi.</p>
+					<p>Jak by bylo možno zabrániti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportům</term>? <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> pokračoval ve své
+						teorii o včleňování židů do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>. Musíme dokázati důležitost židovské <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> síly pro
+							<placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protektorát</placeName>. Abychom prolomili zamýšlenou koncentraci židů, musíme poslati <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term>
+						sily do míst mimo <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName> a musíme dostati zakázky od <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">arijských</term> firem. Musíme
+						vybudovati v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghettu</placeName> dílny a závod, snad nám to pomůže. Byl to nerovný boj s obrovskou přesilou. Podařilo se poslati <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> skupinu do <placeName ref="http://www.geonames.org/3073699/kladno.html">kladenských</placeName> a <placeName ref="http://www.geonames.org/3068830/oslavany.html "
+							>oslavanských</placeName> dolů, na stavbu silnice u <placeName ref="http://www.geonames.org/3077916/ceske-budejovice.html">Českých Budějovic</placeName> a na lesní <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term> na <placeName
+							ref="http://www.geonames.org/3072699/krivoklat.html">Křivoklátsko</placeName>. I dílny a závody byly vytvořeny a doufali jsme, že jsme se dostali o krok dále. Ale ne na dlouho. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+							>Transporty</term> šly dále.</p>
+					<p>Stovky <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1055" type="subject">statistik</term>, diagramů, písemných podání bylo složeno a bez ustání bylo dokazováno, že v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto"
+							>ghettu</placeName> je takový nedostatek <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovních sil</term>, že by bylo ku příkladu nemožno ošetřovati <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>nemocné</term>, kdyby další <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracovní</term> síly byly <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deportovány</term> na východ, že by tak mohly
+						vzniknouti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nákazy</term>, které by ohrozily celé okolí atd. Probdělé noci, hodně popsaného papíru, důmyslné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1055" type="subject"
+							>statistické</term> kresby a žádný úspěch nebo jen minimální, jednou se podařilo <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinovi</persName> zabrániti <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term> a sem tam docíliti malého časového odkladu,</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">Pracovní tábor</term>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">starých</term>, sídliště <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-283" type="subject">prominentů</term> a jak se jmenovaly všechny ty fáze
+							<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">terezínského</placeName> vývoje, stály pod dojmem <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">polských</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportů</term> a naše práce ve znamení snahy zabrániti <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportům</term> neb alespoň získati čas.</p>
+					<p>A náhle nová naděje: na jaře <date when="1943">1943</date> musely býti otevřeny obchody a otevřena <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-299" type="subject">kavárna</term>. Co to znamenalo? <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> znal odpověď: Měli jsme býti výstavním kouskem, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němci</term> chtěli
+						dokázati, že nezacházejí tak špatně se Židy, a světu chtěli předvésti ilusi židovského města. Opatrně museli jsme těžiti z této situace. Již tehdy <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Němci</term> počítali zřejmě s <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-419" type="subject">návštěvou mezinárodních komisí</orgName>, už se tehdy mluvilo v rozhlase, o filmu a o komedii, kterou jsme měli pravděpodobně hráti před takovými návštěvníky z ciziny.</p>
+					<pb facs="EHRI-ET-JMP011_03.jpg" n="3"/>
+					<p>Jenom <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> se neměl již zúčastniti této komedie. Dne <date when="1943-11-09">9. listopadu 1943</date> byl <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">zatčen</term>, jsa obviněn, že dopomohl židům z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetta</placeName> k <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">útěku</term> do nepřátelské ciziny. Důkaz: hlášení o stavu osazenstva nesouhlasila, byla tu nevysvětlená diference asi 50 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483"
+							type="subject">osob</term>, nastaly těžké dny pro <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487">apel</term> celého <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osazenstva</term> včetně <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">starců</term> v <placeName ref="http://www.geonames.org/3079102/bohusovice-nad-ohri.html">bohušovické kotlině</placeName>, který trval 16 hodin, a to vše v tísnivé předtuše
+						nastávajícího neštěstí. <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Ghetto</placeName> bylo bez <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject">vedení</term>, nebyl tu žádný kontakt
+						mezi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">osazenstvem</term> a novým <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject">vedením</term>, scházela důvěra <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">obyvatele</term> k svým zástupcům.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> sám si nedělal iluse o svém osudu. V <date when="1943-12">prosinci 1943</date> byl zařazen i se svou rodinou do <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term> do <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Osvětími</placeName>. Jeho nejbližší přátelé a spolupracovníci chtěli jeti zase dobrovolně
+						s ním. Židovský dozorce, který zprostředkoval spojení s <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinem</persName> ve <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject"
+							>vězení</term>, vykládal, že <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> plakal nad tímto důkazem přátelství, že však co nejrozhodnějí zakázal, aby někdo jel dobrovolně s ním. Mezitím
+						jsme se dozvěděli důvěrně, že <orgName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</orgName> byl rozsudkem odsouzen k pobytu v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp"
+							>Osvětími</placeName>, víc nám tehdy prozrazeno nebylo.</p>
+					<p>Po <date when="1943-12">prosinci 1943</date> byl <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName> ještě šedší a bezutěšenější. S <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinem</persName> zmizelo z <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetta</placeName> ovzduší důvěry. Současně s ním
+						také celá řada spolupracovníků z oddělení, která mu podléhala, byla nuceně zařazena do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transportu</term>. Od toho dne měli jsme pocit, že schází jakákoliv koncepce, že rozkazy se prostě udělují
+						a provádějí.</p>
+					<p>Jaro <date when="1944">1944</date>. <q><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-298" type="subject"><foreign xml:lang="de">Stadtverschönerung</foreign></term></q>. Všichni ještě vzpomínáme na ten blázinec z léta <date when="1944"
+						>1944</date>. Zakládaly se sady a zelené plochy, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">dětské domovy</term> se všelijakými hračkami, pavilon pro <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824"
+							type="subject">děti</term> se skluzavkou, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-721" type="subject">starobince</term>, vzorné <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">obytné</term> místnosti,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">hudební</term> pavilon, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">jídelny</term>,<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691"
+							type="subject">koncertní</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698" type="subject">divadelní</term> síně. Všechno pro <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419" type="subject">komisi mezinárodního Červeného
+							kříže</orgName>. Nechceme popírati, že jsme některých z těchto nařízení mohli skutečně používati pro sebe a že tím skutečně nastalo určité přechodné ulehčení. Ale byl to tanec na sopce.</p>
+					<p>Právě v těchto dnech jsme se dozvěděli, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">velitel tábora</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000318">Rahm</persName> poslal do <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlína</placeName> podání, ve kterém poukázal na rostoucí nebezpečí v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, poněvadž prý důstojníci jednotlivých národností, zejména <placeName ref="http://www.geonames.org/3077311/czechia.html">čeští</placeName> důstojníci se sdružují ve skupinách.
+						Bylo jasné, že toto obvinění znamenalo velké nebezpečí. Krátce na to byli registrováni důstojníci a pak začaly tak zvané dělnické <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transporty</term>…….</p>
+					<p>Dne <date when="1944-10-28">28. října 1944</date>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezín</placeName> se podobal hřbitovu. Všechno šedé……. Město bez <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>. Protiklad k zářnému létu
+						byl příliš veliký, zima byla přede dveřmi a ještě žádný konec <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">války</term>. Co se stane s našimi <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term>,
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětmi</term>, sourozenci, uvidíme je vůbec ještě? A pak tu byla nutnost vykonati <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práci</term> v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghettu</placeName> za všechny ty, kteří odjeli. Většina <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubikací</term> byla neobyvatelných pro množství
+						zanechaných kufrů, zbytečných věcí, nábytku, kterého už nebylo zapotřebí. Bylo nutno vykliditi skoro všechny <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">ubikace</term>, nábytek musel býti transportován, na nádraží stály nevyprázdněné
+						vagony, přišel rozkaz ke stavbě <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">baráků</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocní</term> museli býti přenášeni atd., atd. A v <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName> jen úplně apatické a zoufalé <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term>. Musíme vydržet, abychom se shledaly se svými
+						rodinnými příslušníky, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">ženy</term> začínají konati nejtěžší <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužské</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">práce</term>. Vrátí se naši <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">muži</term>, věříš tomu? Tisíckrát opakovaná otázka. Musejí se vrátit. Iluse?
+							V <date when="1945-04">dubnu</date> se rozšiřuje v noci náhle pověst, že <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáci</term> odtáhli a že jsme převzati <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419"
+							>Červeným křížem</orgName>. Všechno jde se zpěvem uprostřed noci do ulic a provolává se sláva nové Československé republice. Až……… se objeví <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SSáci</term> se strojními puškami. Také <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobození</term> jen ilusí?</p>
+					<pb facs="EHRI-ET-JMP011_04.jpg" n="4"/>
+					<p>A od <date when="1945-04-20">20. dubna 1945</date> přichází během dvou dnů 15.000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">vyhladovělých</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>nemocných</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">umírajících</term> zbídačených <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">vězňů</term> z různých <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborů</term> po pravém <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">pochodu hladu a smrti</term> do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezína</placeName>. Všechno je na ulicích a hledá mezi těmi hroznými postavami s nadějí a se strachem známý obličej. Strašné hodiny a ještě strašnější jistota. Poslední naděje na návrat <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">mužů</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">dětí</term> a příbuzných mizí……. Zase konec jedné ilusi. Hluboká deprese se zmocňuje <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">tábora</placeName>, v němž je tisíce <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">umírajících</term> a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">nemocných</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">tyfem</term>, musíme se vzchopit a pomáhat, aby byl zachráněn alespoň zbytek, který to přežil, s vypětím poslední síly.</p>
+					<p>Dne <date when="1945-05-08">8. května</date> jsme <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobozeni</term>
+						<orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583">Rudou armádou</orgName>. Žádná pravá radost v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghettu</placeName>, žádný pravý jásot, jen jeden pocit – pozdě,
+						všechno příliš pozdě. Jen v románech přichází <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">osvobození</term> v pravý okamžik.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinova</persName> koncepce – nemusela býti ilusí, kdyby se byla <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">válka</term>
+						skončila alespoň o půl roku dříve, byla by se zachránila většina <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">protektorátních židů</term>. A zbytek zdejších židů, kteří to přežili v <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">koncentračních táborech</term> a v <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Terezíně</placeName>, nevděčí snad tak trochu za svůj život této
+							<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelsteinově</persName> ilusi?</p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-JMP011_01.jpg" n="1"/>
+					<p><persName ref="#ehri_et_ornsteinova_edita">Edita Ohrensteinová</persName> made this available to the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-657" type="subject">documentation campaign</term>.</p>
+					<p>On: <date when="1945-11-06">6.XI.1945</date></p>
+					<p rend="center">The Illusion of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>.</p>
+					<p>The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deportation</term> of Jews from the former <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Protectorate</term> to <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> began in <date when="1941">1941</date>; 5,000 individuals from <placeName ref="http://www.geonames.org/3067696/prague.html">Prague</placeName> and 1,000 from <placeName
+							ref="http://www.geonames.org/3078610/brno.html">Brno</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">were brought</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Polish</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject">ghettos</term>. The leadership of the <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Jewish religious community</orgName> at the time wrote and
+						spoke out to prevent further <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>, and the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> reassured it that after these 6,000 there would be no other <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">transports from
+							the Protectorate</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>.</p>
+					<p>In the meantime, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> continued to work on his concept:</p>
+					<p>He was of the opinion that our only hope in the war was the Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workforce</term>. He tried to convince the Germans that in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080"
+							type="subject">wartime</term>, when a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workforce</term> is vitally needed, it’s far better to put Jews to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject"
+							>work</term> within the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protectorate</placeName>. And in the beginning, it seemed (after the <placeName ref="http://www.geonames.org/3068799/ostrava.html">Ostrava</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> to <placeName ref="http://www.geonames.org/3099434/gdansk.html8">Nisko</placeName> in the fall of <date when="1939">1939</date>) that he had succeeded. While the majority of the
+							<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-278" type="subject">Jewish population in Germany</term> and <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-277" type="subject">Austria</term> that was able to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deported</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html"
+							>Poland</placeName>, in the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Protectorate</term>, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> didn’t begin until
+							<date when="1941-10">October 1941</date>. A special Jewish office within the <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3714">Jewish religious community in Prague</orgName> was established to allocate and guarantee Jews for
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">labor</term>. When our efforts were thwarted by the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans’</term> desire to isolate the Jews from the
+						rest of the population and to concentrate them, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> tried to at least ensure that this concentration would remain within the territory of the
+							<placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protectorate</placeName>. This effort was seemingly effective.</p>
+					<p>When a small group led by <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> and Ing. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-2009255" type="victim"
+							>Zuckr</persName> went to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> on <date when="1941-12-01">December 1st, 1941</date>, all were convinced that they would truly be able to prevent the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">deportation</term> of <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Jews from the Protectorate</term> into <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> if the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt ghetto</placeName> were to be established, as we thought at the time, as a Jewish
+						town. Feverish preparations were already underway; plans were developed down to the smallest details and approved by the <orgName ref="https://portal.ehri-project.eu/keywords/jc-organisations-organisation-jmp-3719">Office of Jewish Resettlement</orgName>. But then everything
+						turned out completely differently than we expected.</p>
+					<p>We built a Jewish town – what an illusion! When the gates of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> barracks closed behind us for the first time, we immediately knew that it was more of a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">prison</term> than a Jewish town. It isn’t necessary to dwell more closely on the conditions at the time. When <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject"
+							>Hauptsturmführer</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000164">Günther</persName> came to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> during the first few days and <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> reproached him for deceiving us with false facts, he answered: <q><foreign xml:lang="de">Jetzt wenn Ihr im Dreck sitzt Juden, zeigt was Ihr
+								könnt!</foreign></q> And we were determined to show what we are capable of. Our most important task was to use all of our strength to wake people up from their lethargy, maintain cleanliness to prevent <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292"
+							type="subject">diseases</term>, establish kitchens to ensure <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">food</term>, acquire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">mattresses</term> and
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">straw mattresses</term> especially for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> and the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, and work our way out of this mess in the literal sense of the word – without the means, but firmly believing that we could do it. And after the first terrible days of shock,
+						mutual hatred, and bitterness, it seemed that we had indeed succeeded. Somehow, a kind of carefree life set in. Every one of us had a place to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">sleep</term> and for his or her things, more or
+						less had a job, and most importantly: there was a peaceful atmosphere. This was one of <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein’s</persName> greatest achievements. He was truly able to gain the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">population</term>’s trust. The initial hatred of him and of his colleagues abated, and people started to like him. He gradually won over everyone’s heart. All of us trusted him, believed that he
+						told the truth, that our affairs were his affairs as well and that he represented our interests before the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term> as nobody else could. Everyone knew that they could come to <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> with any worry or complaint, day or night.</p>
+					<pb facs="EHRI-ET-JMP011_02.jpg" n="2"/>
+					<p>And the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term> rightly knew that <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> presented a danger to
+						them and they feared him as a leader of the people. No matter how hard they tried, they never managed to create an insurmountable barrier between him and the people. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans’</term> method
+						was extremely transparent. <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> often said: They want to give us all kinds of possible and impossible advantages to make us forget that I am the
+						representative of the Jews and to make us feel an affiliation to them, and most of all they want to cultivate hatred for me in the people. A small example to illustrate this. <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">Food</term> was
+						cooked in a communal kitchen. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term> demanded a separate kitchen for the leading coworkers of the so-called <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-2" type="subject">Self-government</term> with the justification that even during military service officers take their meals separately from simple privates. <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> refused and the answer was: <q>Communist methods!</q></p>
+					<p>Then <date when="1942-01">January 1942</date> arrived: the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">execution</term> of several <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">inhabitants</term> of the
+						camp for the barest of violations of the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">camp's</placeName> rules. <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-2" type="subject">The Council of
+							Elders</term>, the Jewish commanders of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">barracks</term>, members of the maintenance service, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1125" type="subject">police
+							officers</term> had to be present. Shortly thereafter, <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> wasn’t present during the second wave of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-541" type="subject">executions</term>. He announced that he wouldn’t look at them and demanded to be released from his position because he could no longer continue to be a <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject">Jewish elder</term> under these circumstances. It was an exceptional act of personal bravery. His resignation wasn’t accepted, but his status with the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term> unsurprisingly didn’t improve.</p>
+					<p><date when="1942-01">January</date> also brought another terrible thing: the first <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-267" type="subject">transports from Theresienstadt</term> to <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName>. All was in vain, the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans’</term> intention was solely to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>
+						<term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Jews from the Protectorate</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> through the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-505" type="subject">transit camp</term> of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. Why did we voluntarily go to <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>? There was no time for such thoughts, we had to help in any way we could. And so we lost another illusion.</p>
+					<p>How would it be possible to prevent the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term>? <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName>
+						continued in his theory of the Jews as a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workforce</term>. We must prove the importance of the Jews’ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">suitability
+							as a workforce</term> for the <placeName ref="https://portal.ehri-project.eu/keywords/terezin-places-place-iti-64">Protectorate</placeName>. In order to combat the intended concentration of Jews, we must send <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workers</term> to locations outside of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> and receive commissions from <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryan</term> companies. We must establish workshops and factories in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>. Hopefully, that
+						would help us. It was an uneven battle against an opponent that outnumbered us. We managed to send a group of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workers</term> to the mines in <placeName
+							ref="http://www.geonames.org/3073699/kladno.html">Kladno</placeName> and <placeName ref="http://www.geonames.org/3068830/oslavany.html ">Oslavany</placeName>, to be part of the crew that constructed the road near <placeName
+							ref="http://www.geonames.org/3077916/ceske-budejovice.html">České Budějovice</placeName>, and to do forest <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in the <placeName ref="http://www.geonames.org/3072699/krivoklat.html"
+							>Křivoklát</placeName> region. Workshops and factories were created and we hoped that we were one step ahead. But not for long. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> continued.</p>
+					<p>Hundreds of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1055" type="subject">statistics</term>, diagrams, and written reports were composed and we continuously provided proof that there was such a shortage of <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workers</term> in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> that, for example, it would be impossible to treat the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> if other <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">workers</term> were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521"
+							type="subject">deported</term> to the east, and so <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">contagions</term> that would threaten the entire surrounding area could emerge, etc. So many sleepless nights, so many reams of paper
+						filled with writing, sophisticated <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1055" type="subject">statistical</term> calculations and yet no success, or only minimal success, as once <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> was able to prevent a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> and here and there gain a short
+						delay.</p>
+					<p>The spectre of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> to <placeName ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> hung over the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-508" type="subject">labor camp</term>, the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">elderly</term>
+						<placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>, the settlement of <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-283" type="subject">prominent persons</term>, and the other names of the
+						phases of the development of <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, and our work consisted in preventing the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject"
+							>transports</term> or to at least gain some time.</p>
+					<p>Suddenly, there was a new hope: in the spring of <date when="1943">1943</date>, shops and a <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-299" type="subject">cafe</term> were to be opened. What did this mean? <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> knew the answer: We were to be items on display. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term>
+						wanted to prove that they weren’t treating the Jews that poorly and present to the world the illusion of a Jewish town. We had to capitalize on this situation very carefully. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">Germans</term>
+						were already expecting the visit of an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">international committee</orgName>. There was talk of having radio, making a film, and putting on a comedy for the foreign visit.</p>
+					<pb facs="EHRI-ET-JMP011_03.jpg" n="3"/>
+					<p>But <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> would never participate in this comedy. On <date when="1943-11-09">November 9th, 1943</date>, <persName
+							ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-598" type="subject">arrested</term> and accused of helping Jews <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term> from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> to the enemy. The evidence: the census report didn’t match; there
+						was an unexplained difference of about 50 individuals. This was a hard time for the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-487"
+							type="subject">roll call</term> of the entire <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">population</term>, including <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> and the <term
+							ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-274" type="subject">elderly</term>, in the <placeName ref="http://www.geonames.org/3079102/bohusovice-nad-ohri.html">Bohušovice basin</placeName> lasted 16 hours. There was an oppressive premonition of
+						impending doom. The <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> had no <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject">leadership</term>; there was no contact
+						between the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">population</term> and the new <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-285" type="subject">leadership</term>; the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">inhabitants</term> didn’t trust their representatives.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> himself had no illusions about his fate. In <date when="1943-12">December 1943</date>, he was slated to be <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transported</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp">Auschwitz</placeName> with his family. His closest friends and colleagues once again
+						volunteered to go with him. The Jewish warden who passed messages on to <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669"
+							type="subject">prison</term> said that <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> wept at hearing this proof of friendship, but resolutely forbade anyone to join him. In the meantime, we
+						learned confidentially that <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName> was sentenced to be sent to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-0" type="camp"
+							>Auschwitz</placeName>, but we never learned more information other than that.</p>
+					<p>After <date when="1943-12">December, 1943</date>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> was even more gray and dreary. The atmosphere of trust disappeared from the <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> along with <persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein</persName>. Many of his colleagues from the
+						section he led left at the same time as he did; they were put on the list of persons to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transported</term>. Ever since that day we had the feeling that there was no concept to anything
+						anymore, that orders were simply dealt and fulfilled.</p>
+					<p>Spring <date when="1944">1944</date>. <q><foreign xml:lang="de"><term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-298" type="subject">Stadtverschönerung</term>.</foreign></q>We all still remember the craziness that was summer <date when="1944"
+							>1944</date>. We founded orchards and green spaces, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-190" type="subject">children’s homes</term> will all kinds of toys, a pavilion for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> with a slide, <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-721" type="subject">a home for the elderly</term>, model <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">residential</term> rooms, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">musical</term> pavilion, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-832" type="subject">dining rooms</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-691" type="subject">concert</term> a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-698"
+							type="subject">theater</term> halls. All for the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">International Committee of the Red Cross</orgName>. We can’t deny that we made use of these amenities ourselves and thereby a temporary period of relief
+						set in. But it was a dance on the mouth of a volcano.</p>
+					<p>It was then that we learned that <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-482" type="subject">camp commander</term>
+						<persName ref="https://portal.ehri-project.eu/authorities/ehri_pers-000318">Rahm</persName> had sent a report to <placeName ref="http://www.geonames.org/2950159/berlin.html">Berlin</placeName>, in which he alerted to the growing danger in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, because officers of various nationalities, especially <placeName ref="http://www.geonames.org/3077311/czechia.html">Czech</placeName> officers, were allegedly meeting
+						in groups. It was clear that this accusation presented a great danger. Shortly thereafter, the officers were registered and then the so-called workers’ <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> began…….</p>
+					<p>On <date when="1944-10-28">October 28th, 1944</date>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> looked like a graveyard. Everything was gray……. A town without <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>. The contrast with the hot summer was too stark; winter was upon us, and still there was no end to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject"
+							>war</term> in sight. What would happen to our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, and siblings? Would we ever see
+						them again? And then there was the necessity to do all of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term> in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName> in
+						place of all of those who have gone. Most of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">quarters</term> were uninhabitable for the number of suitcases left behind, useless things, and furniture that was no longer needed. It was
+						necessary to clear out almost all of the living <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">quarters</term>; the furniture had to be hauled away; loaded railway cars stood at the train station; we received an order to build <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">buildings</term>; the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> had to be transferred, etc., etc. And only apathetic and desperate <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> remained in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>. We had to endure in order to see our family members
+						again, and so <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">women</term> started to perform the most difficult <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>’s <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">work</term>. Would our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term> return, do you believe that? That was a question we asked ourselves a thousand
+						times. They have to return. An illusion? In <date when="1945-04">April</date>, a rumor suddenly spread during the night that the the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term> have withdrawn and that we were now being handled
+						by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-419">Red Cross</orgName>. We sang throughout the night and praised the glory of the new Czechoslovak Republic. Until……… armed <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216"
+							type="subject">SSmen</term> appeared. Was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberation</term> also just an illusion?</p>
+					<pb facs="EHRI-ET-JMP011_04.jpg" n="4"/>
+					<p>Beginning on <date when="1945-04-20">April 20th, 1945</date>, in just two days 15,000 <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-569" type="subject">starving</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject"
+							>sick</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dying</term> wretched <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-483" type="subject">prisoners</term> from various <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term> arrived in <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName> after a torturous <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-517" type="subject">hunger and death march</term>. Everyone was out on the streets and searching among the terrifying figures for a familiar face in hope and fear. Terrible hours and even more terrible certainty. The
+						last hope for the return of our <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">men</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term>, and relatives disappeared……. Again, the end of an
+						illusion. A deep depression took hold in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">camp</placeName>, where there were thousands of people <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject"
+							>dying</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-292" type="subject">sick</term> with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-493" type="subject">typhus</term>. We had to pull ourselves together and help in order to
+						save at least the remainder of those who had survived, using all of the strength we had left.</p>
+					<p>On <date when="1945-05-08">May 8th</date>, we were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberated</term> by the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004583" type="subject">Red Army</orgName>. There was no
+						real joy in the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">ghetto</placeName>, no real jubilation, there was only one feeling – late, everything came too late. Only in books does <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-573" type="subject">liberation</term> arrive at the right time.</p>
+					<p><persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein’s</persName> concept didn’t have to be an illusion — if the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> had
+						ended at least half a year earlier, most of the <term ref="https://portal.ehri-project.eu/keywords/terezin-terms-keyword-jmp-279" type="subject">Jews of the Protectorate</term> would have been saved. And the rest of the Jews here, who survived the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term> and <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="ghetto">Theresienstadt</placeName>, do they not owe their lives just a little to
+							<persName ref="https://portal.ehri-project.eu/authorities/terezin-victims-person-iti-1296855" type="victim">Edelstein’s</persName> illusion?</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

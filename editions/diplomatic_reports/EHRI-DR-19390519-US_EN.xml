@@ -1,68 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19390519-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">John F. Montgomery on the “Hungarian Jew Bill” in 1939</title>
+				<title xml:lang="de">John F. Montgomery über das „Ungarische Judengesetz“ im Jahr 1939</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
-							II</repository>
-						<collection>RG 59 - Records of the Department of State relating to the internal affairs of Hungary 1910-1944, Wilmington, Del.
-							1987</collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration II</orgName><address>
+								<street>8601 Adelphi Road</street>
+								<postCode>MD 20740-6001</postCode>
+								<settlement>Maryland</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection>RG 59 - Records of the Department of State relating to the internal affairs of Hungary 1910-1944, Wilmington, Del. 1987</collection>
 						<idno>Doc. 864.4016/141</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
-				<bibl>National Archives and Records Administration II, RG 59 - Records of the Department of State relating to the internal affairs of
-					Hungary 1910-1944, Wilmington, Del. 1987 (Microfilm), Doc. 864.4016/141.<textLang mainLang="en"> Original in
-					English.</textLang></bibl>
+				<bibl>National Archives and Records Administration II, RG 59 - Records of the Department of State relating to the internal affairs of Hungary 1910-1944, Wilmington, Del. 1987 (Microfilm), Doc. 864.4016/141.<textLang mainLang="en"> Original in English.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1939-05-19">May 19 1939</date>
-				<placeName ref="#budapest">Budapest</placeName>
+				<origDate when="1939-05-19">May 19 1939</origDate>
+				<origPlace ref="http://www.geonames.org/3054643/budapest.html">Budapest</origPlace>
 				<persName ref="#ehri_dr_montgomery_john_f">Montgomery, John F.</persName>
-				<idno>EHRI-DR-19390519-US</idno>
 			</creation>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="0354.jpg" n="2"/>
-				<p><!--{{John F. Montgomery}}, Hungarian Jew Bill, Budapest, 19.5.1939, S. 2:</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="0354.jpg" n="2"/>
+					<p><!--{{John F. Montgomery}}, Hungarian Jew Bill, Budapest, 19.5.1939, S. 2:</p>
       <p>Records of the Department of State relating to internal affairs of Hungary 1930-1944, Washington 1983 (Mikrofilm-Edition): Dokument 864.4016/141.--></p>
-				<p>The Department will note that the <term ref="#t950" type="subject">law</term> was modified substantially. Primarily, the class of
-						<term ref="#t896" type="subject">Jews</term> to be considered officially as <term ref="#t804" type="subject">Christians</term>
-					was enlarged but its <term ref="#t333" type="subject">economic restrictions</term>were increased, thus creating a sort of
-					second-class citizenship. This represents the real compromise made between the two <orgName ref="#g004295">houses of
-						Parliament</orgName>. Also, the idea of placing the <term ref="#t896" type="subject">Jews</term> in a <term ref="#t365"
-						type="subject">distinct category</term> for political purposes was discarded. Instead, the <term ref="#t896" type="subject"
-						>Jews</term> retain free active and passive suffrage, but the conditions of their <term ref="#t335" type="subject"
-						>enfranchisement</term> were made much more severe. Agricultural property may be taken from the <term ref="#t896"
-						type="subject">Jews</term>, their right to acquire real estate is limited, and the restriction of their employment is greatly
-					increased. <term ref="#t712" type="subject">Jewish journalists</term> complain bitterly against the special <term ref="#t1068"
-						type="subject">press</term>
-					<term ref="#t658" type="subject">restriction</term> by which the <term ref="#t950" type="subject">law</term> was amended. It
-					appears that, in practice, <term ref="#t896" type="subject">Jewish</term> youth will suffer the most.</p>
+					<p>The Department will note that the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term> was modified substantially. Primarily, the class of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> to
+						be considered officially as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-804" type="subject">Christians</term> was enlarged but its <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-333" type="subject">economic restrictions</term>were increased,
+						thus creating a sort of second-class citizenship. This represents the real compromise made between the two <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-004295">houses of Parliament</orgName>. Also, the idea of placing the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> in a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-365" type="subject">distinct category</term> for political purposes was discarded. Instead, the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term> retain free active and passive suffrage, but the conditions of their <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-335" type="subject">enfranchisement</term> were made
+						much more severe. Agricultural property may be taken from the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jews</term>, their right to acquire real estate is limited, and the restriction of their employment is greatly increased. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-712" type="subject">Jewish journalists</term> complain bitterly against the special <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1068" type="subject">press</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-658" type="subject">restriction</term> by which the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-950" type="subject">law</term> was amended. It appears that, in practice, <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-896" type="subject">Jewish</term> youth will suffer the most.</p>
+				</div>
 			</div>
 		</body>
 	</text>

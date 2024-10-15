@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="EHRI-NISKO-19400110_DE" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-NISKO-19400110_DE_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="de">Radiotelegramm von Otto Skall in Lemberg an die IKG Wien betreffend einer Intervention wegen Heimkehr</title>
-				<title xml:lang="en">Radio telegram from Otto Skall in Lemberg to the IKG Vienna regarding an intervention about returning
-					home</title>
+				<title xml:lang="en">Radio telegram from Otto Skall in Lemberg to the IKG Vienna regarding an intervention about returning home</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
+					<orgName>Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien ins besetzte Polen deportierten Juden.</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
 					<persName>Winfried Garscha</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Claudia Kuretsidis-Haider</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded by</resp>
+					<resp>Edited by</resp>
 					<persName>Wolfgang Schellenbacher</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Funded by</resp>
-					<name>Zukunftsfonds der Republik Österreich</name>
-				</respStmt>
+				<funder>Zukunftsfonds der Republik Österreich</funder>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<authority>
-					<ref target="https://www.doew.at/">Dokumentationsarchiv des österreichischen Widerstandes</ref>
-				</authority>
+
 				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">Von Wien ins Nirgendwo: Die Nisko Deportationen 1939 und das Schicksal der ersten von Wien
-					ins besetzte Polen deportierten Juden.</title>
+				<title>From Vienna to Nowhere: The 1939 Nisko Deportations</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/at">Österreich</country>
-						<repository ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG)
-							Wien</repository>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/at-001985"> Archiv der Israelitischen Kultusgemeinde (IKG) Wien</orgName><address>
+								<street>Desider-Friedmann-Platz 1</street>
+								<postCode>1010</postCode>
+								<settlement>Vienna</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/at">Austria</country>
+							</address></institution>
 						<idno>A/W 2747</idno>
 					</msIdentifier>
 					<physDesc/>
 				</msDesc>
 				<bibl>Archiv der IKG Wien, Bestand Jerusalem, A/W 2747. <textLang mainLang="de">Original auf Deutsch.</textLang>
 				</bibl>
-
-
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1940-01-10">10. Jänner 1940</date>
+				<origDate when="1940-01-10">10. Jänner 1940</origDate>
 				<persName ref="#ehri_nisko_skall_otto">Otto Skall</persName>
-				<idno>EHRI-NISKO-19400110</idno>
 			</creation>
 			<textClass>
 				<keywords>
@@ -72,20 +76,28 @@
 				<language ident="de">Deutsch</language>
 			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2023" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<p><placeName ref="#vienna">Wien</placeName>, den <date when="1940-01-10">10. Jänner 1940</date></p>
-				<p>0653 <placeName ref="#lviv">LWOW</placeName> 600 25 7 1745 Verzögert in <placeName ref="#EHRI-NISKO-19400110_1"
-					>UDSSR</placeName></p>
-				<p>ELT <orgName ref="#ehri_nisko_ikg_wien">Israelitische Kultusgemeinde Wien</orgName></p>
-				<p><term ref="#t519" type="subject">Teilnehmer</term> beider <placeName ref="#nisko">Niskotransporte</placeName> erbitten dringend
-					notwendige Intervention wegen rascher Heimkehr nur von dort Weiterreise möglich Einreisen teilweise vorhanden</p>
-				<p><persName ref="#ehri_nisko_skall_otto">Otto Skall</persName> hauptpostlagernd</p>
-				<p>an <persName ref="#ehri_nisko_engel_emil">Amtsvorstand Engel</persName></p>
-				<p>je 1 Abschrift an <persName ref="#ehri_nisko_murmelstein_benjamin">Dr. Murmelstein</persName></p>
-				<p>Original an <persName ref="#ehri_nisko_loewenherz_josef">Dr. Löwenherz</persName></p>
+				<div type="original" xml:lang="de">
+					<p><placeName ref="http://www.geonames.org/2761369/vienna.html">Wien</placeName>, den <date when="1940-01-10">10. Jänner 1940</date></p>
+					<p>0653 <placeName ref="http://www.geonames.org/702550/lviv.html">LWOW</placeName> 600 25 7 1745 Verzögert in <placeName ref="#EHRI-NISKO-19400110_1">UDSSR</placeName></p>
+					<p>ELT <orgName ref="#ehri_nisko_ikg_wien">Israelitische Kultusgemeinde Wien</orgName></p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">Teilnehmer</term> beider <placeName ref="http://www.geonames.org/763829/nisko.html">Niskotransporte</placeName> erbitten dringend notwendige Intervention wegen rascher Heimkehr nur von dort
+						Weiterreise möglich Einreisen teilweise vorhanden</p>
+					<p><persName ref="#ehri_nisko_skall_otto">Otto Skall</persName> hauptpostlagernd</p>
+					<p>an <persName ref="#ehri_nisko_engel_emil">Amtsvorstand Engel</persName></p>
+					<p>je 1 Abschrift an <persName ref="#ehri_nisko_murmelstein_benjamin">Dr. Murmelstein</persName></p>
+					<p>Original an <persName ref="#ehri_nisko_loewenherz_josef">Dr. Löwenherz</persName></p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
 			</div>
 		</body>
 	</text>

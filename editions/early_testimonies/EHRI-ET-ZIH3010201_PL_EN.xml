@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="EHRI-ET-ZIH3010201_PL_EN" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Fischer Schaechter, the fate of a boy from Transcarpathia deported to Auschwitz</title>
+				<title xml:lang="de">Fischer Schächter, das Schicksal eines nach Auschwitz deportierten Jungen aus Unterkarpaten</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Michał Czajka</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Marta Wojas</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Dagmara Chełstowska</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/pl-003146">Jewish Historical Institute in Warsaw</orgName><address>
+								<street>Tłomackie 3/5</street>
+								<postCode>00-090</postCode>
+								<settlement>Warsaw</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/pl">Poland</country>
+							</address></institution>
+						<collection ref="https://portal.ehri-project.eu/units/pl-003146-301#desc-pol">Holocaust Survivor Testimonies (coll. 301)</collection>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>Jewish Historical Institute in Warsaw, Holocaust Survivor Testimonies (coll. 301), Fischer Schaechter Testimony (301/201). <textLang mainLang="pl">Original in Polish.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1945">1945</origDate>, <persName ref="#ehri_et_schaechter_fischer">Fischer Schaechter</persName>, <origPlace ref="http://www.geonames.org/688746/vynohradiv.html">Nagyszollos</origPlace>, <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-2"
+					type="camp">Auschwitz</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">medical experiments</term>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">concentration camps</term>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="pl">Polish</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Fischer Schaechter on his deportation from Hungary to Ukraine in 1942 and his return. He was sent to the Nagyszollos Ghetto and later deported to Auschwitz, where he and his twin brother served as guinea pigs for medical experiments.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="pl">
+					<!--<p>Relacja <persName ref="#ehri_et_schaechter_fischer">Fischela Schaechtera</persName> (sygn.
+        301/201) </p>
+      <p>Maszynopis, 1 strona, 210 x 295 mm, język polski </p>-->
+					<p><pb facs="EHRI-ET-ZIH3010201_01.jpg" n="1"/><persName ref="#ehri_et_schaechter_fischer">Fischel Schaechter</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">syn</term>
+						<persName ref="#ehri_et_schaechter_eliasz">Eljasza</persName></p>
+					<p>Urodzony <date when="1933-05-22">22.5.1933 rok</date> w <placeName ref="http://www.geonames.org/712423/berehove.html">Beregsas</placeName><note type="gloss">Właściwie: Beregszasz, obecnie Berehowo (Ukraina)</note> (<placeName ref="http://www.geonames.org/719819/hungary.html"
+							>Węgry</placeName>)</p>
+					<p>W roku <date when="1942">1942</date> został wraz z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">rodziną</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">wysiedlony</term> do polskiej <placeName ref="http://www.geonames.org/690791/ukraine.html">Ukrainy</placeName>. Przeżył <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532"
+							type="subject">zastrzelenia</term> Żydów w <placeName ref="http://www.geonames.org/709034/halych.html">Haliczu</placeName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-346" type="subject">pogrom</term> w <placeName
+							ref="http://www.geonames.org/707471/ivano-frankivsk.html">Stanisławowie</placeName>. Następnie przez jakiś rok wędrował wraz z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">rodziną</term> z jednej miejscowości do drugiej, jako
+							<placeName ref="http://www.geonames.org/690791/ukraine.html">Ukraińcy</placeName>. W połowie roku <date when="1943">1943</date> przybyli do <placeName ref="http://www.geonames.org/688746/vynohradiv.html">Nagymzolos</placeName>. <note type="gloss">właściwie: Nagyszöllos,
+							obecnie Winohradow (Ukraina)</note> Tam się ukrywali jako <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">aryjczycy</term> aż do czasu utworzenia <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545" type="subject"
+							>getta</term>, które zostało utworzone nazajutrz po przybyciu <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Niemców</term> do miasteczka. W <date when="1944-05">maju 1944</date> przybył do <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Oświęcimia (Brzezinki</placeName>). Numer wytatuowany A 5107. Zaraz po przybyciu jego z <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bratem</term> jako <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bliźniaków</term> odstawiono na bok, do <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">szpitala (Krankenbau)</term>. 9 razy <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">odciągnęli</term> mu krew, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">mierzono</term> paznokcie, mierzono wszystkie części pod nadzorem <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1216" type="subject">SS</term>
+						<foreign xml:lang="de">Obersturmführera – Lagerarzta</foreign>. <note type="gloss"><foreign xml:lang="de">SS Obersturmführer</foreign> – nadporucznik; <foreign xml:lang="de">Lagerarzt</foreign> – lekarz obozowy</note> Wiele <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">bliźniaków</term> (przeważnie dziewczęta) zmarło po tych <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">zabiegach</term>. <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">Bliźniacy</term> nie otrzymali nawet normalnej <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">racji żywnościowej</term> i musieli ciężko <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">pracować</term> przy kamieniach.</p>
+				</div>
+				<div type="translation" xml:lang="en">
+					<pb facs="EHRI-ET-ZIH3010201_01.jpg" n="1"/>
+					<!--<p><persName ref="#ehri_et_schaechter_fischer"
+          >Fischer Schaechter</persName> Testimony (doc. 301/201)</p>
+      <p>Typescript, 1 page, 210 x 295 mm, Polish language</p>-->
+					<p><persName ref="#ehri_et_schaechter_fischer">Fischer Schaechter</persName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">son</term> of <persName ref="#ehri_et_schaechter_eliasz">Eliasz</persName>.</p>
+					<p>Born on <date when="1933-05-22">May 22, 1933</date> in <placeName ref="http://www.geonames.org/712423/berehove.html">Beregsas</placeName> (<placeName ref="http://www.geonames.org/719819/hungary.html">Hungary</placeName>).</p>
+					<p>In <date when="1942">1942</date>, he was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> with his <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term> to Polish <placeName
+							ref="http://www.geonames.org/690791/ukraine.html">Ukraine</placeName>. He survived the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-532" type="subject">shootings</term> of Jews in <placeName ref="http://www.geonames.org/709034/halych.html"
+							>Halicz</placeName>, a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-346" type="subject">pogrom</term> in <placeName ref="http://www.geonames.org/707471/ivano-frankivsk.html">Stanisławów</placeName>. Then, for a year or so, he wandered with his <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">family</term> from one place to another, as <term ref="#ehri_et_nationalities_ukrainians" type="subject">Ukrainians</term>. In mid-<date when="1943">1943</date> they arrived in <placeName
+							ref="http://www.geonames.org/688746/vynohradiv.html">Nagymzolos</placeName>. They lived there as <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-373" type="subject">Aryans</term> until the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-545"
+							type="subject">ghetto</term> was created one day after the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1159" type="subject">Germans</term> arrived in the town. In <date when="1944-05">May 1944</date> he arrived at <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-2" type="camp">Oświęcim (Brzezinka)</placeName>. A tattooed <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-411" type="subject">number</term> A 5107. Right after he arrived there with his <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">brother</term>, as twins they were sent aside, to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-491" type="subject">hospital (Krankenbau)</term>. Nine times his blood was <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">drawn</term>, his nails were <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">measured</term>, all parts of his body were measured under the supervision of
+							<foreign xml:lang="de">Obersturmführer – Lagerarzt</foreign>
+						<note type="gloss">Oberstürmführer – SS rank equal to Oberleutnant (lieutenant). Lagerarzt (German) – camp doctor. Research on twins was made by infamous doctor Josef Mengele, having the rank of Hauptstürmführer (captain).</note> Many <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">twins</term>, (mostly girls) died after these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-495" type="subject">experiments</term>. The <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-822" type="subject">twin brothers</term> did not even receive regular <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">food rations</term> and had to <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> hard [moving] stones.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

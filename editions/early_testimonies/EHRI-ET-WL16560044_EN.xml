@@ -1,280 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?teipublisher template="document.html"?>
-<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-ET-WL16560044_EN" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:lang="en">Johanna Fraenkel, persecution as a so-called Mischlinge in Frankfurt-am-Main</title>
-                <title xml:lang="fr">Johanna Fraenkel, persécution en tant que soi-disant Mischlinge à Francfort-sur-le-Main</title>
-                <principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
-                <respStmt>
-                    <resp>Edited by</resp>
-                    <orgName>EHRI Edition of Early Holocaust Testimony</orgName>
-                </respStmt>
-                <respStmt>
-                    <resp>Edited by</resp>
-                    <persName>Christine Schmidt</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Edited by</resp>
-                    <persName>Daniela Bartáková</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Edited by</resp>
-                    <persName>Jessica Green</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.ehri-project.eu">European Holocaust Research Infrastructure</ref>
-                </publisher>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike 4.0 International</licence>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="main">EHRI Edition of Early Holocaust Testimonies</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <location>
-                            <address>
-                                <street>29 Russell Square</street>
-                                <postCode>WC1B 5DP</postCode>
-                                <settlement>London</settlement>
-                                <country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
-                            </address>
-                        </location>
-                        <repository ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and
-                            Genocide</repository>
-                        <collection>Eyewitness testimony Collection (coll. 1656)</collection>
-                    </msIdentifier>
-                    <physDesc/>
-                </msDesc>
-                <bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 44. <textLang
-                        mainLang="en">Original in English.</textLang></bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet 'EHRI Edition of Early Holocaust Testimonies'</p>
-                <p xml:lang="en">The encoding of this document is part of the project 'EHRI Edition of Early Holocaust Testimonies'</p>
-            </projectDesc>
-        </encodingDesc>
-        <profileDesc>
-            <creation><date when="1955">1955</date>, <placeName ref="#frankfurt-am-main">Frankfurt am Main</placeName>
-                <idno>EHRI-ET-WL16560044</idno></creation>
-            <textClass>
-                <keywords>
-                    <term>testimony</term>
-                </keywords>
-            </textClass>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <abstract>
-                <p>Testimony of Johanna Frankel, a non-Jew “with some Jewish blood”, who first married to a non-Jew with a daughter born in 1920. She
-                    later married a Jew who had been in Buchenwald but emigrated to the UK in 1939. She describes discrimination at work. Frankel
-                    unsuccessfully applied for exemption from wearing the yellow star. She divorced her husband to escape deportation. They remarried
-                    in London after the war.</p>
-            </abstract>
-        </profileDesc>
-        <revisionDesc>
-            <change when-iso="2021-10-29" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
-            <change when-iso="2020" who="#ehri">Encoding of the file</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="transcription">
-                <pb facs="EHRI-ET-WL16560044_01.jpg" n="1"/>
-                <p>EW 4 3372-3375</p>
-                <p>MASTER - INDEX (P-Scheme)</p>
-                <p>1. Index Number: P.III.e.No 44</p>
-                <p>2. Title of Document: EXPERIENCES OF A “<term ref="#t374" type="subject"><foreign xml:lang="de">MISCHLING</foreign></term>” IN
-                        <placeName ref="#frankfurt-am-main" type="ehri">FRANKFURT/MAIN</placeName>.</p>
-                <p>3. Date: <date when="1939">1939</date>-<date when="1945">1945</date></p>
-                <p>4. Number of Pages: 4</p>
-                <p>Language: <placeName ref="#england" type="ehri">English</placeName></p>
-                <p>5. Author: Mrs. <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Johanna Fraenkel</persName></p>
-                <p>6. Recorded by: <persName ref="#ehri_et_zadek_peter" type="ehri">Peter Zadek</persName>, <date when="1955-04">April 1955</date></p>
-                <p>7. Form and Contents:</p>
-                <p>Mrs. <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>, a non-Jewish <term ref="#t825" type="subject"
-                        >lady</term> of <term ref="#t374" type="subject">part-Jewish</term> extraction was <term ref="#t741" type="subject"
-                        >married</term>, first to a gentile, then to a Jewish husband. The latter was for a time in <placeName ref="#l43" type="camp"
-                        >BUCHENWALD</placeName>
-                    <term ref="#t496" type="subject">Concentration Camp</term>, and <term ref="#t203" type="subject">emigrated</term> to <placeName
-                        ref="#united-kingdom-of-great-britain-and-northern-ireland" type="ehri">England</placeName> before the outbreak of the <term
-                        ref="#t1080" type="subject">war</term>. Mrs. <persName ref="#ehri_et_fraenkel_johanna" type="ehri">F.</persName> stayed at
-                        <placeName ref="#frankfurt-am-main" type="ehri">FRANKFURT</placeName>, where she was compelled to wear the <term ref="#t338"
-                        type="subject">yellow star</term>. As regards <term ref="#t943" type="subject">work</term>, she was subject to the same <term
-                        ref="#t1033" type="subject">regulations</term> as Jews.</p>
-                <p>In <date when="1942">1942</date> she was about to be <term ref="#t518" type="subject">deported</term>, but saved herself by
-                    starting divorce proceedings. After the <term ref="#t1080" type="subject">war</term> she <term ref="#t741" type="subject"
-                        >remarried</term> Mr. <persName ref="#ehri_et_fraenkel_arnold" type="ehri">Fraenkel</persName> in <placeName ref="#london"
-                        type="ehri">LONDON</placeName>.{See report P.II.d. No.45.}</p>
-                <pb facs="EHRI-ET-WL16560044_02.jpg" n="2"/>
-                <p>The Experiences of Mrs, <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> in <placeName
-                        ref="#frankfurt-am-main" type="ehri">FRANKFURT-am-MAIN</placeName>, <date when="1939">1939</date> - <date when="1945"
-                        >1945</date>.</p>
-                <p>(Reported, <date when="1955-04-15">15th April, 1955</date>. Report by <persName ref="#ehri_et_zadek_peter" type="ehri">Peter
-                        Zadek</persName>)</p>
-                <p>Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was 38 years of age in <date when="1939">1939</date>.
-                    She was a gentile with some Jewish blood who had been <term ref="#t741" type="subject">married</term> to a gentile. This <term
-                        ref="#t741" type="subject">marriage</term> had been dissolved and, in <date when="1939-04">April 1939</date>, Mrs <persName
-                        ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>
-                    <term ref="#t375" type="subject">married</term>
-                    <persName ref="#ehri_et_fraenkel_arnold" type="ehri">Arnold Fraenkel</persName>, who had recently returned from <placeName
-                        ref="#l43" type="camp">Buchenwald</placeName>
-                    <term ref="#t496" type="subject">Concentration Camp</term>. <persName ref="#ehri_et_fraenkel_arnold" type="ehri">Arnold
-                        Fraenkel</persName> managed to get to <placeName ref="#england" type="ehri">England</placeName> before the outbreak of <term
-                        ref="#t1080" type="subject">war</term>, but Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was
-                    unable to get all the necessary <term ref="#t1142" type="subject">papers</term>.</p>
-                <p>At the outbreak of <term ref="#t1080" type="subject">war</term> Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri"
-                        >Fraenkel</persName> was thus left in <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt-am-Main</placeName>, the
-                    (mainly) gentile <term ref="#t825" type="subject">wife</term> of a Jew, living with her 19 year old gentile daughter from her
-                    previous <term ref="#t741" type="subject">marriage</term>.</p>
-                <p>Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> had been employed by <orgName
-                        ref="#ehri_et_voigt_u_heffner" type="ehri">Voigt u. Heffner</orgName>, <term ref="#t923" type="subject"><foreign xml:lang="de"
-                            >Aktiengesellschaft</foreign></term>, <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt-am-Main</placeName> since
-                        <date when="1928">1928</date>. She left the <term ref="#t923" type="subject">company's</term> employ before her <term
-                        ref="#t375" type="subject">marriage</term> in <date when="1928-04">April</date>, preferring to leave before being thrown out.
-                    On the occasion of her leaving, her colleagues gave her a present. This was accompanied by a list of the subscribers to the
-                    present, with their signatures. Several <term ref="#t1179" type="subject">Nazi party</term> members were amongst the signatories.
-                    After it had been presented, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was visited by a
-                    representative of the employees and asked to return the list. However, she had it photocopied before returning it.</p>
-                <p>In <date when="1940">1940</date> Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> obtained employment
-                    with Geb. Roever, <term ref="#t923" type="subject"><foreign xml:lang="de">Aktiengesellschaft</foreign></term>. This gentile <term
-                        ref="#t924" type="subject">firm</term> employed many Jews in separate and <term ref="#t332" type="subject">inferior</term>
-                    departments to the gentile <term ref="#t1057" type="subject">workers</term>. They also received smaller remuneration. Mrs
-                        <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>, as <q><term ref="#t374" type="subject"><foreign
-                                xml:lang="de">Mischling</foreign></term></q>, was, at first, allowed to <term ref="#t943" type="subject">work</term>
-                    together with the gentiles. However, there was an <orgName ref="#g358" type="ehri">SA</orgName> control. Mrs <persName
-                        ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>, who has presumably been denounced by one of her colleagues,
-                    was asked by an <orgName ref="#g358" type="ehri">SA man</orgName> how much she <term ref="#t934" type="subject">earned</term>. An
-                    unpleasant scene ensued and Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was transferred to the
-                        <term ref="#t943" type="subject">sewing department</term> with the full-Jews, where she <term ref="#t934" type="subject"
-                        >earned</term> considerably less.</p>
-                <p>When the <term ref="#t337" type="subject">regulation</term> first came into existence, according to which Jews were forced to wear
-                    a <term ref="#t338" type="subject">yellow star</term>, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri"
-                        >Fraenkel</persName> made an application through her <term ref="#t899" type="subject">lawyer</term> to the <orgName
-                        ref="#g006363" type="ehri">Ministry of the Interior</orgName>, in which she maintained that she did not have to wear a <term
-                        ref="#t338" type="subject">star</term>, in spite of her <term ref="#t375" type="subject">re-marriage</term>. She based this on
-                    a clause in the <term ref="#t337" type="subject">regulation</term> which stated that <q><term ref="#t375" type="subject">Jews
-                            married to gentiles</term>, whose <term ref="#t824" type="subject">children</term> had a <term ref="#t764" type="subject"
-                            >Christian</term> up-bringing, need not wear the <term ref="#t338" type="subject">star</term>, even if the <term
-                            ref="#t375" type="subject">marriage</term> had been dissolved.</q></p>
-                <pb facs="EHRI-ET-WL16560044_03.jpg" n="3"/>
-                <p>There was a time-lapse of three months while her <foreign xml:lang="de">applicatiogestagestn</foreign> was being considered.
-                    Meanwhile Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> did not wear the <term ref="#t338"
-                        type="subject">star</term> and therefore did not suffer the resulting loss of privilege (smaller <term ref="#t834"
-                        type="subject">rations</term> etc). After three months, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri"
-                        >Fraenkel</persName> was summoned to the <orgName ref="#g350" type="ehri">Gestapo</orgName> H.Q. in Lindenstrasse. Here, after
-                    a two hour wait, during which a <orgName ref="#g350" type="ehri">Gestapo</orgName> official accosted and insulted her in the
-                    corridor, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was interviewed by a <orgName ref="#g350"
-                        type="ehri">Gestapo</orgName> official, <persName ref="#ehri_et_schmidt" type="ehri">Schmidt</persName> who seemed to have
-                    more humanity than most of his colleagues. However, he told her that he had received <term ref="#t337" type="subject"
-                        >orders</term> from the <orgName ref="#g006363" type="ehri">Ministry of the Interior</orgName> that she had, in future, to
-                    wear the <term ref="#t338" type="subject">star</term>. During the interview, the <orgName ref="#g350" type="ehri"
-                        >Gestapo</orgName> Commissar entered, shouted at her and told her she would be sent to <term ref="#t652" type="subject"
-                        >prison</term> and <term ref="#t662" type="subject">deported</term>. Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri"
-                        >Fraenkel</persName> answered very quietly and the Commissar left without taking any further action. Meanwhile, at another
-                    table in the same room, another <q><term ref="#t374" type="subject"><foreign xml:lang="de">Mischling</foreign></term></q> was
-                    being interviewed. Her <term ref="#t108" type="subject">children</term> had had a <term ref="#t878" type="subject">Jewish
-                        education</term>. Suddenly the doors were flung open and a <orgName ref="#g350" type="ehri">Gestapo</orgName> officer yelled:
-                        <q>Any more for <term ref="#t669" type="subject">prison</term>?</q> and the <term ref="#t825" type="subject">woman</term> was
-                        <term ref="#t652" type="subject">dragged</term> away.</p>
-                <p>Before allowing Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> to leave, <persName
-                        ref="#ehri_et_schmidt" type="ehri">Schmidt</persName> asked her to send her father to his office, as he, too, now had to wear
-                    a <term ref="#t338" type="subject">star</term>. Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>
-                    asked whether anything would happen to him, and <persName ref="#ehri_et_schmidt" type="ehri">Schmidt</persName> assured her that
-                    he would be sent back. Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> asked whether she could not
-                    simply give her father the message, and <persName ref="#ehri_et_schmidt" type="ehri">Schmidt</persName> finally agreed to her
-                    request.</p>
-                <p><term ref="#t518" type="subject">Deportation</term> in <placeName ref="#frankfurt-am-main" type="ehri"
-                        >Frankfurt-am-Main</placeName></p>
-                <p>The first two <term ref="#t521" type="subject">transports</term>, consisting only of full Jews, had left <placeName
-                        ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> for <placeName ref="#republic-of-poland" type="ehri"
-                        >Poland</placeName> and <placeName ref="#horad-minsk" type="ehri">Minsk</placeName> on <date when="1941-10">October</date> and
-                        <date when="1941-11">November 1941</date>, respectively.</p>
-                <p>In <date when="1942-05">May, 1942</date>, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was leaving
-                    her <term ref="#t837" type="subject">home</term> when she met an officer from the <term ref="#t872" type="subject">Jewish
-                        Community</term> of <placeName ref="#frankfurt-am-main" type="ehri">Frankfurt</placeName> entering the <term ref="#t837"
-                        type="subject">house</term>. As the <term ref="#t872" type="subject">Community</term> had to compile the lists for the <term
-                        ref="#t521" type="subject">transports</term> and had to break the news to the <term ref="#t519" type="subject"
-                        >deportees</term>, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>
-                    <term ref="#t829" type="subject">feared</term> the worst. Indeed, she was on the list of the next <term ref="#t521" type="subject"
-                        >transport</term>. She went immediately to see the lawyer, who represented the <term ref="#t872" type="subject">Jewish
-                        Community</term> and who happened to be a relative of Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri"
-                        >Fraenkel</persName>. The lawyer suggested that the only way to <term ref="#t204" type="subject">escape</term>
-                    <term ref="#t518" type="subject">deportation</term> was to <term ref="#t375" type="subject">divorce her Jewish husband</term>. Mrs
-                        <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel's</persName> brother there upon went to <orgName ref="#g350"
-                        type="ehri">Gestapo</orgName> H.Q. where he was told that if <term ref="#t375" type="subject">divorce</term> proceedings had
-                    been started by that same afternoon, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> would not be
-                        <term ref="#t518" type="subject">deported</term>. The rest of the day was spent in running from office to office (Jews were,
-                    of course, <term ref="#t332" type="subject">not allowed</term> to use public transport) until a document was obtained stating
-                    officially that proceedings had been begun. Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> then
-                    took this to the <orgName ref="#g350" type="ehri">Gestapo</orgName> who, at first refused to accept it and asked why she had
-                    waited until the last moment to begin proceedings and why she had <term ref="#t375" type="subject">married</term>
-                    <pb facs="EHRI-ET-WL16560044_04.jpg" n="4"/> a Jew in the first place. Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri"
-                        >Fraenkel</persName> answered that if they (the <orgName ref="#g350" type="ehri">Gestapo</orgName>) had any humanity
-                            (<q><foreign xml:lang="de">Menschliches Verstaendnis</foreign></q>) at all, they would understand that she wanted to give
-                    her daughter a <term ref="#t837" type="subject">home</term> and had <term ref="#t375" type="subject">married</term> for her sake.
-                    This evidently had some effect on the <orgName ref="#g350" type="ehri">Gestapo</orgName> officers who passed Mrs <persName
-                        ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel's</persName> application not to be <term ref="#t518" type="subject"
-                        >deported</term>, <q>not because of the divorce, but because we do have humanity.</q></p>
-                <p>The next morning, a <orgName ref="#g350" type="ehri">Gestapo</orgName> man came to collect her for the <term ref="#t521"
-                        type="subject">transport</term>. She told him that she was not to go. The <orgName ref="#g350" type="ehri">Gestapo</orgName>
-                    <term ref="#t826" type="subject">man</term> left to get in touch with <orgName ref="#g350" type="ehri">H.Q.</orgName>, telling Mrs
-                        <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> that if he did not return by 12 a.m., she would not
-                    be taken. He did not return, and so Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>
-                    <term ref="#t204" type="subject">escaped</term> almost certain <term ref="#t745" type="subject">death</term>. For nothing was ever
-                    heard again from anyone who left on this <term ref="#t521" type="subject">transport</term>. Amongst other of her acquaintances who
-                    were taken away on this <term ref="#t521" type="subject">transport</term> was an <persName ref="#ehri_et_stern_eduard" type="ehri"
-                        >Eduard Stern</persName>, the Jewish <term ref="#t943" type="subject">hairdresser</term>, whose <term ref="#t943"
-                        type="subject">job</term> it had been to cut the hair of the <term ref="#t519" type="subject">deportees</term> at the
-                    collecting centre. With <persName ref="#ehri_et_stern_eduard" type="ehri">Stern</persName> were his wife and his 10 year-old <term
-                        ref="#t108" type="subject">daughter</term>.</p>
-                <p>In <date when="1942-08">August, 1942</date>, <persName ref="#ehri_et_fraenkel_hermann" type="ehri">Hermann Fraenkel</persName>, Mrs
-                        <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel's</persName> father-in-law, was <term ref="#t518"
-                        type="subject">deported</term> to <placeName ref="#l449" type="camp">Theresienstadt</placeName>. He had previously been sent
-                    to the Jewish <term ref="#t314" type="subject">Old Age Home</term>, Hermesweg. The <term ref="#t837" type="subject">home</term>
-                    was kept in existence after the dissolution of all the others. To be sent to the Hermesweg home meant certain <term ref="#t518"
-                        type="subject">deportation</term>. <persName ref="#ehri_et_fraenkel_hermann" type="ehri">Hermann Fraenkel</persName> was 67
-                    years old at the time.</p>
-                <p>In <date when="1942-09">September, 1942</date>, <persName ref="#p11602461" type="ehri">Arthur Obst</persName>, Mrs <persName
-                        ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel's</persName> uncle, was also sent to <placeName ref="#l449" type="camp"
-                        >Theresienstadt</placeName>. He was also 67 years old. He wrote from the <placeName ref="#l449" type="camp">camp</placeName>,
-                    telling Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> in veiled terms that <persName
-                        ref="#ehri_et_fraenkel_hermann" type="ehri">Hermann Fraenkel</persName> was <term ref="#t745" type="subject">dead</term>.</p>
-                <p>At this time the <term ref="#t872" type="subject">Jewish Community</term> asked <q><term ref="#t374" type="subject"><foreign
-                                xml:lang="de">Mischlinge</foreign></term></q> to help in feeding and caring for the <term ref="#t519" type="subject"
-                        >deportees</term> at the collecting centre. Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName>
-                    volunteered and continued to do this until the last <term ref="#t521" type="subject">transport</term> in <date when="1945"
-                        >1945</date>. The <term ref="#t519" type="subject">deportees</term> slept for one night at the centre. In the morning there
-                    was a luggage check, when <orgName ref="#g350" type="ehri">Gestapo</orgName> officers <term ref="#t660" type="subject"
-                        >stole</term> what they happened to fancy from the luggage. Next, by lorry to the station, where they were herded into the
-                        <term ref="#t522" type="subject">train</term> like cattle. Finally, before the departure, minor <orgName ref="#g350"
-                        type="ehri">Gestapo</orgName> officials walked through the <term ref="#t522" type="subject">trains</term> and <term
-                        ref="#t660" type="subject">stole</term> such things as fountain-pens, cigarette lighters, <term ref="#t836" type="subject"
-                        >hats</term>.</p>
-                <p>Summary.</p>
-                <p>In all, Mrs <persName ref="#ehri_et_fraenkel_johanna" type="ehri">Fraenkel</persName> was remarkably untouched throughout this
-                    period. She suffered the deprivations expected in <term ref="#t1080" type="subject">war-time</term>, accentuated by her <term
-                        ref="#t338" type="subject">yellow star</term>. Her main recollection is of constant nervous strain, of constant <term
-                        ref="#t196" type="subject">fear for her friends and relatives</term>; of stories of terror and brutality, of constant attempts
-                    to <term ref="#t555" type="subject">humiliate</term>
-                    <pb facs="EHRI-ET-WL16560044_05.jpg" n="5"/> her and her Jewish friends and relatives. But apart from petty persecutions at <term
-                        ref="#t943" type="subject">work</term> and verbal insults from Nazis, Mrs <persName ref="#ehri_et_fraenkel_johanna"
-                        type="ehri">Fraenkel</persName> never once witnessed actual <term ref="#t345" type="subject">physical brutality</term>, in
-                    spite of the fact that after <date when="1942">1942</date> she spent a great deal of time with the <term ref="#t519"
-                        type="subject">deportees</term> and their <orgName ref="#g350" type="ehri">Gestapo</orgName>
-                    <term ref="#t480" type="subject">guards</term>.</p>
-                <p>After the <term ref="#t1080" type="subject">war</term> she joined her <q>divorced</q> husband in <placeName ref="#london"
-                        type="ehri">London </placeName>where they <term ref="#t741" type="subject">re-married</term> again.</p>
-            </div>
-        </body>
-    </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Johanna Fraenkel, persecution as a so-called Mischling in Frankfurt-am-Main</title>
+				<title xml:lang="de">Johanna Fraenkel, Verfolgung als sogenannter Mischling in Frankfurt am Main</title>
+				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Early Holocaust Testimony</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Christine Schmidt</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Daniela Bartáková</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>Jessica Green</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
+				</authority>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Early Holocaust Testimonies</title>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/gb-003348">The Wiener Library for the Study of the Holocaust and Genocide</orgName><address>
+								<street>29 Russell Square</street>
+								<postCode>WC1B 5DP</postCode>
+								<settlement>London</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/gb">United Kingdom</country>
+							</address></institution>
+						<collection>Eyewitness testimony Collection (coll. 1656)</collection>
+					</msIdentifier>
+					<physDesc/>
+				</msDesc>
+				<bibl>The Wiener Library for the Study of the Holocaust and Genocide, Eyewitness testimony Collection (coll. 1656), 44. <textLang mainLang="en">Original in English.</textLang></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation><origDate when="1955">1955</origDate>, <origPlace ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt am Main</origPlace>
+			</creation>
+			<textClass>
+				<keywords>
+					<term>testimony</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<abstract>
+				<p>Testimony of Johanna Frankel, a non-Jew “with some Jewish blood”, who first married to a non-Jew with a daughter born in 1920. She later married a Jew who had been in Buchenwald but emigrated to the UK in 1939. She describes discrimination at work. Frankel unsuccessfully applied
+					for exemption from wearing the yellow star. She divorced her husband to escape deportation. They remarried in London after the war.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2020" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="transcription">
+				<div type="original" xml:lang="en">
+					<pb facs="EHRI-ET-WL16560044_01.jpg" n="1"/>
+					<p>EW 4 3372-3375</p>
+					<p>MASTER - INDEX (P-Scheme)</p>
+					<p>1. Index Number: P.III.e.No 44</p>
+					<p>2. Title of Document: EXPERIENCES OF A “<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"><foreign xml:lang="de">MISCHLING</foreign></term>” IN <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html"
+						>FRANKFURT/MAIN</placeName>.</p>
+					<p>3. Date: <date when="1939">1939</date>-<date when="1945">1945</date></p>
+					<p>4. Number of Pages: 4</p>
+					<p>Language: <placeName ref="http://www.geonames.org/6269131/england.html">English</placeName></p>
+					<p>5. Author: Mrs. <persName ref="#ehri_et_fraenkel_johanna">Johanna Fraenkel</persName></p>
+					<p>6. Recorded by: <persName ref="#ehri_et_zadek_peter">Peter Zadek</persName>, <date when="1955-04">April 1955</date></p>
+					<p>7. Form and Contents:</p>
+					<p>Mrs. <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>, a non-Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">lady</term> of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"
+							>part-Jewish</term> extraction was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">married</term>, first to a gentile, then to a Jewish husband. The latter was for a time in <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">BUCHENWALD</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Concentration Camp</term>, and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-203" type="subject">emigrated</term> to <placeName
+							ref="http://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> before the outbreak of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>. Mrs. <persName
+							ref="#ehri_et_fraenkel_johanna">F.</persName> stayed at <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">FRANKFURT</placeName>, where she was compelled to wear the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject"
+							>yellow star</term>. As regards <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term>, she was subject to the same <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1033" type="subject">regulations</term> as Jews.</p>
+					<p>In <date when="1942">1942</date> she was about to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term>, but saved herself by starting divorce proceedings. After the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> she <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">remarried</term> Mr. <persName ref="#ehri_et_fraenkel_arnold">Fraenkel</persName> in <placeName
+							ref="http://www.geonames.org/2643743/london.html">LONDON</placeName>.{See report P.II.d. No.45.}</p>
+					<pb facs="EHRI-ET-WL16560044_02.jpg" n="2"/>
+					<p>The Experiences of Mrs, <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> in <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">FRANKFURT-am-MAIN</placeName>, <date when="1939">1939</date> - <date when="1945">1945</date>.</p>
+					<p>(Reported, <date when="1955-04-15">15th April, 1955</date>. Report by <persName ref="#ehri_et_zadek_peter">Peter Zadek</persName>)</p>
+					<p>Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was 38 years of age in <date when="1939">1939</date>. She was a gentile with some Jewish blood who had been <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">married</term> to a
+						gentile. This <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marriage</term> had been dissolved and, in <date when="1939-04">April 1939</date>, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">married</term>
+						<persName ref="#ehri_et_fraenkel_arnold">Arnold Fraenkel</persName>, who had recently returned from <placeName ref="https://portal.ehri-project.eu/keywords/ehri_camps-43" type="camp">Buchenwald</placeName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-496" type="subject">Concentration Camp</term>. <persName ref="#ehri_et_fraenkel_arnold">Arnold Fraenkel</persName> managed to get to <placeName ref="http://www.geonames.org/6269131/england.html">England</placeName>
+						before the outbreak of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term>, but Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was unable to get all the necessary <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-1142" type="subject">papers</term>.</p>
+					<p>At the outbreak of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was thus left in <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html"
+							>Frankfurt-am-Main</placeName>, the (mainly) gentile <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">wife</term> of a Jew, living with her 19 year old gentile daughter from her previous <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">marriage</term>.</p>
+					<p>Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> had been employed by <orgName ref="#ehri_et_voigt_u_heffner">Voigt u. Heffner</orgName>, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-923" type="subject"><foreign xml:lang="de"
+								>Aktiengesellschaft</foreign></term>, <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt-am-Main</placeName> since <date when="1928">1928</date>. She left the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-923"
+							type="subject">company's</term> employ before her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriage</term> in <date when="1928-04">April</date>, preferring to leave before being thrown out. On the occasion of her leaving, her
+						colleagues gave her a present. This was accompanied by a list of the subscribers to the present, with their signatures. Several <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1179" type="subject">Nazi party</term> members were amongst the signatories. After it
+						had been presented, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was visited by a representative of the employees and asked to return the list. However, she had it photocopied before returning it.</p>
+					<p>In <date when="1940">1940</date> Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> obtained employment with Geb. Roever, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-923" type="subject"><foreign xml:lang="de"
+						>Aktiengesellschaft</foreign></term>. This gentile <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-924" type="subject">firm</term> employed many Jews in separate and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject"
+							>inferior</term> departments to the gentile <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1057" type="subject">workers</term>. They also received smaller remuneration. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>, as <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"><foreign xml:lang="de">Mischling</foreign></term></q>, was, at first, allowed to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> together with the
+						gentiles. However, there was an <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA</orgName> control. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>, who has presumably been denounced by one of her colleagues, was asked by an <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-358">SA man</orgName> how much she <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject">earned</term>. An unpleasant scene ensued and Mrs <persName ref="#ehri_et_fraenkel_johanna"
+							>Fraenkel</persName> was transferred to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">sewing department</term> with the full-Jews, where she <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-934" type="subject"
+							>earned</term> considerably less.</p>
+					<p>When the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">regulation</term> first came into existence, according to which Jews were forced to wear a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">yellow
+							star</term>, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> made an application through her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-899" type="subject">lawyer</term> to the <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-006363">Ministry of the Interior</orgName>, in which she maintained that she did not have to wear a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">star</term>, in spite of her <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">re-marriage</term>. She based this on a clause in the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">regulation</term> which stated that <q><term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">Jews married to gentiles</term>, whose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-824" type="subject">children</term> had a <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-764" type="subject">Christian</term> up-bringing, need not wear the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">star</term>, even if the <term
+								ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">marriage</term> had been dissolved.</q></p>
+					<pb facs="EHRI-ET-WL16560044_03.jpg" n="3"/>
+					<p>There was a time-lapse of three months while her <foreign xml:lang="de">applicatiogestagestn</foreign> was being considered. Meanwhile Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> did not wear the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">star</term> and therefore did not suffer the resulting loss of privilege (smaller <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-834" type="subject">rations</term> etc). After three
+						months, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was summoned to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> H.Q. in Lindenstrasse. Here, after a two hour wait, during which a <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> official accosted and insulted her in the corridor, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was interviewed by a <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> official, <persName ref="#ehri_et_schmidt">Schmidt</persName> who seemed to have more humanity than most of his colleagues. However, he told her that he had received <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">orders</term> from the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-006363">Ministry of the Interior</orgName> that she had, in future, to wear the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">star</term>. During the interview, the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> Commissar entered, shouted at her and told her she would be sent to
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-652" type="subject">prison</term> and <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-662" type="subject">deported</term>. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>
+						answered very quietly and the Commissar left without taking any further action. Meanwhile, at another table in the same room, another <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"><foreign xml:lang="de">Mischling</foreign></term></q> was
+						being interviewed. Her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-108" type="subject">children</term> had had a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-878" type="subject">Jewish education</term>. Suddenly the doors were flung open and
+						a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> officer yelled: <q>Any more for <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-669" type="subject">prison</term>?</q> and the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-825" type="subject">woman</term> was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-652" type="subject">dragged</term> away.</p>
+					<p>Before allowing Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> to leave, <persName ref="#ehri_et_schmidt">Schmidt</persName> asked her to send her father to his office, as he, too, now had to wear a <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">star</term>. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> asked whether anything would happen to him, and <persName ref="#ehri_et_schmidt">Schmidt</persName> assured her that
+						he would be sent back. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> asked whether she could not simply give her father the message, and <persName ref="#ehri_et_schmidt">Schmidt</persName> finally agreed to her request.</p>
+					<p><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">Deportation</term> in <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt-am-Main</placeName></p>
+					<p>The first two <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term>, consisting only of full Jews, had left <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> for <placeName
+							ref="http://www.geonames.org/798544/republic-of-poland.html">Poland</placeName> and <placeName ref="http://www.geonames.org/625143/horad-minsk.html">Minsk</placeName> on <date when="1941-10">October</date> and <date when="1941-11">November 1941</date>, respectively.</p>
+					<p>In <date when="1942-05">May, 1942</date>, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was leaving her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> when she met an officer from the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish Community</term> of <placeName ref="http://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt</placeName> entering the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">house</term>. As the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Community</term> had to compile the lists for the <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transports</term> and had to break the news to the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term>, Mrs <persName ref="#ehri_et_fraenkel_johanna"
+							>Fraenkel</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-829" type="subject">feared</term> the worst. Indeed, she was on the list of the next <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>. She went immediately to see
+						the lawyer, who represented the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish Community</term> and who happened to be a relative of Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>. The lawyer suggested that the only
+						way to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escape</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term> was to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">divorce her Jewish husband</term>. Mrs <persName ref="#ehri_et_fraenkel_johanna"
+							>Fraenkel's</persName> brother there upon went to <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> H.Q. where he was told that if <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">divorce</term>
+						proceedings had been started by that same afternoon, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> would not be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term>. The rest of the day was spent in running from
+						office to office (Jews were, of course, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-332" type="subject">not allowed</term> to use public transport) until a document was obtained stating officially that proceedings had been begun. Mrs <persName
+							ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> then took this to the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> who, at first refused to accept it and asked why she had waited until the last moment to begin proceedings and
+						why she had <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">married</term>
+						<pb facs="EHRI-ET-WL16560044_04.jpg" n="4"/> a Jew in the first place. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> answered that if they (the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>) had any humanity
+								(<q><foreign xml:lang="de">Menschliches Verstaendnis</foreign></q>) at all, they would understand that she wanted to give her daughter a <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> and had <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-375" type="subject">married</term> for her sake. This evidently had some effect on the <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> officers who passed Mrs <persName
+							ref="#ehri_et_fraenkel_johanna">Fraenkel's</persName> application not to be <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term>, <q>not because of the divorce, but because we do have humanity.</q></p>
+					<p>The next morning, a <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> man came to collect her for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>. She told him that she was not to go.
+						The <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-826" type="subject">man</term> left to get in touch with <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">H.Q.</orgName>, telling Mrs <persName ref="#ehri_et_fraenkel_johanna"
+							>Fraenkel</persName> that if he did not return by 12 a.m., she would not be taken. He did not return, and so Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-204" type="subject">escaped</term> almost certain <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">death</term>. For nothing was ever heard again from anyone who left on this <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term>. Amongst other of her acquaintances who were taken away on this <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> was an <persName
+							ref="#ehri_et_stern_eduard">Eduard Stern</persName>, the Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">hairdresser</term>, whose <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">job</term> it had
+						been to cut the hair of the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> at the collecting centre. With <persName ref="#ehri_et_stern_eduard">Stern</persName> were his wife and his 10 year-old <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-108" type="subject">daughter</term>.</p>
+					<p>In <date when="1942-08">August, 1942</date>, <persName ref="#ehri_et_fraenkel_hermann">Hermann Fraenkel</persName>, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel's</persName> father-in-law, was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518"
+							type="subject">deported</term> to <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="camp">Theresienstadt</placeName>. He had previously been sent to the Jewish <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-314" type="subject"
+							>Old Age Home</term>, Hermesweg. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-837" type="subject">home</term> was kept in existence after the dissolution of all the others. To be sent to the Hermesweg home meant certain <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deportation</term>. <persName ref="#ehri_et_fraenkel_hermann">Hermann Fraenkel</persName> was 67 years old at the time.</p>
+					<p>In <date when="1942-09">September, 1942</date>, <persName ref="https://yvng.yadvashem.org/nameDetails.html?itemId=11602461" type="victim">Arthur Obst</persName>, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel's</persName> uncle, was also sent to <placeName
+							ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="camp">Theresienstadt</placeName>. He was also 67 years old. He wrote from the <placeName ref="https://portal.ehri-project.eu/keywords/ehri_ghettos-449" type="camp">camp</placeName>, telling Mrs <persName
+							ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> in veiled terms that <persName ref="#ehri_et_fraenkel_hermann">Hermann Fraenkel</persName> was <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-745" type="subject">dead</term>.</p>
+					<p>At this time the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-872" type="subject">Jewish Community</term> asked <q><term ref="https://portal.ehri-project.eu/keywords/ehri_terms-374" type="subject"><foreign xml:lang="de">Mischlinge</foreign></term></q> to help
+						in feeding and caring for the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> at the collecting centre. Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> volunteered and continued to do this until the last
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-521" type="subject">transport</term> in <date when="1945">1945</date>. The <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> slept for one night at the centre.
+						In the morning there was a luggage check, when <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> officers <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">stole</term> what they happened to fancy from the
+						luggage. Next, by lorry to the station, where they were herded into the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">train</term> like cattle. Finally, before the departure, minor <orgName
+							ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName> officials walked through the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-522" type="subject">trains</term> and <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-660" type="subject">stole</term> such things as fountain-pens, cigarette lighters, <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-836" type="subject">hats</term>.</p>
+					<p>Summary.</p>
+					<p>In all, Mrs <persName ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> was remarkably untouched throughout this period. She suffered the deprivations expected in <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war-time</term>, accentuated
+						by her <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-338" type="subject">yellow star</term>. Her main recollection is of constant nervous strain, of constant <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-196" type="subject">fear for her friends
+							and relatives</term>; of stories of terror and brutality, of constant attempts to <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-555" type="subject">humiliate</term>
+						<pb facs="EHRI-ET-WL16560044_05.jpg" n="5"/> her and her Jewish friends and relatives. But apart from petty persecutions at <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> and verbal insults from Nazis, Mrs <persName
+							ref="#ehri_et_fraenkel_johanna">Fraenkel</persName> never once witnessed actual <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-345" type="subject">physical brutality</term>, in spite of the fact that after <date when="1942">1942</date> she spent a great
+						deal of time with the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-519" type="subject">deportees</term> and their <orgName ref="https://portal.ehri-project.eu/authorities/ehri_cb-350">Gestapo</orgName>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-480" type="subject">guards</term>.</p>
+					<p>After the <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1080" type="subject">war</term> she joined her <q>divorced</q> husband in <placeName ref="http://www.geonames.org/2643743/london.html">London </placeName>where they <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-741" type="subject">re-married</term> again.</p>
+				</div>
+				<div type="translation">
+					<p>No translation is available.</p>
+				</div>
+			</div>
+		</body>
+	</text>
 </TEI>

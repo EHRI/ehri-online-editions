@@ -1,64 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://gitlab.inria.fr/dh-projects/workflow-ehri/-/raw/main/ODD/out/ODD-EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/EHRI/ehri-online-editions/main/ODD/out/ODD_EHRI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="EHRI-DR-19421120-US_EN" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">Leland B. Harrison on the ordinance that imposes forced labor on male Jews in Hungary in 1942</title>
+				<title xml:lang="de">Leland B. Harrison über die Verordnung, die männliche Juden in Ungarn im Jahr 1942 zur Zwangsarbeit auferlegte</title>
 				<principal><affiliation><orgName>European Holocaust Research Infrastructure</orgName></affiliation></principal>
+				<respStmt>
+					<resp>Edited by</resp>
+					<orgName>EHRI Edition of Diplomatic Reports</orgName>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<authority>
 					<ref target="https://www.ehri-project.eu/">European Holocaust Research Infrastructure</ref>
 				</authority>
-				<availability>
-					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</licence>
-				</availability>
 			</publicationStmt>
 			<seriesStmt>
-				<title ref="https://www.ehri-project.eu/">EHRI Edition of Diplomatic Reports</title>
+				<title>Diplomatic Reports</title>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="https://portal.ehri-project.eu/countries/us">United States of America </country>
-						<repository ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration
-							II</repository>
-						<collection>RG 59 - Records of the Department of State relating to internal affairs of Hungary 1930-1944, Washington 1983
-							(Microfilm-Edition): </collection>
+						<institution><orgName ref="https://portal.ehri-project.eu/institutions/us-005522">National Archives and Records Administration II</orgName><address>
+								<street>8601 Adelphi Road</street>
+								<postCode>MD 20740-6001</postCode>
+								<settlement>Maryland</settlement>
+								<country ref="https://portal.ehri-project.eu/countries/us">United States of America</country>
+							</address></institution>
+						<collection>RG 59 - Records of the Department of State relating to internal affairs of Hungary 1930-1944, Washington 1983 (Microfilm-Edition): </collection>
 						<idno>Doc. 864.4016/177</idno>
 					</msIdentifier>
 				</msDesc>
-				<bibl>National Archives and Records Administration II, Records of the Department of State relating to internal affairs of Hungary
-					1930-1944, Washington 1983 (Mikrofilm-Edition): Dokument 864.4016/177, part 1, p. 1, part 2, p. 1 <textLang mainLang="en">Original
-						in English.</textLang></bibl>
+				<bibl>National Archives and Records Administration II, Records of the Department of State relating to internal affairs of Hungary 1930-1944, Washington 1983 (Mikrofilm-Edition): Dokument 864.4016/177, part 1, p. 1, part 2, p. 1 <textLang mainLang="en">Original in
+					English.</textLang></bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du travail sur les éditions en ligne EHRI</p>
+				<p xml:lang="en">The encoding of this document is part of the work on the EHRI Online Editions</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments ist Teil der Arbeit an den EHRI Online Editions</p>
+			</projectDesc>
+		</encodingDesc>
 		<profileDesc>
 			<creation>
-				<date when="1942-11-20">20.11.1942</date>
-				<placeName ref="#bern">Bern</placeName>
+				<origDate when="1942-11-20">20.11.1942</origDate>
+				<origPlace ref="http://www.geonames.org/2661552/bern.html">Bern</origPlace>
 				<persName ref="#ehri_dr_harrison_leland">Harrison, Leland B.</persName>
-				<idno>EHRI-DR-19421120-US</idno>
 			</creation>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
 		</profileDesc>
+		<revisionDesc>
+			<change when-iso="2024-05-27" who="#floriane.chiffoleau">Upgrading TEI encoding</change>
+			<change when-iso="2021" who="#ehri">Encoding of the file</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="transcription">
-				<pb facs="0866" n="1"/>
-				<p><placeName ref="#budapest">Budapest</placeName> reports <term ref="#t1110" type="subject">War Minister</term> ordered <date
-						when="1942-11-19">November 19th</date> mobilization all able bodied <term ref="#t864" type="subject">Jews</term> born <date
-						from="1909" notAfter="1918">1909-1918</date> for duty <term ref="#t943" type="subject">work</term> battalions auxiliary <term
-						ref="#t1086" type="subject">military service</term>. [...]</p>
-				<pb facs="0867" n="1"/>
-				<p>It is believed likely that many of these <term ref="#t864" type="subject">Jews</term> will be sent to occupied <placeName
-						ref="#russian-federation">Russian</placeName> territory for <term ref="#t556" type="subject">manual labor</term> as has been
-					the case with <term ref="#t864" type="subject">Jews </term>from other Danubian countries. The eventual repatriation of <term
-						ref="#t864" type="subject">Jews</term>
-					<term ref="#t518" type="subject">deported</term> to the East would not appear to be envisaged by the present <term
-						ref="#ehri_dr_government_hungarian">Hungarian Government</term> which has recently intensified under Nazi inspiration its
-						<term ref="#t337" type="subject">anti-Jewish program</term>.</p>
+				<div type="original">
+					<p>The original transcription is not available.</p>
+				</div>
+				<div type="translation">
+					<pb facs="0866" n="1"/>
+					<p><placeName ref="http://www.geonames.org/3054643/budapest.html">Budapest</placeName> reports <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1110" type="subject">War Minister</term> ordered <date when="1942-11-19">November 19th</date> mobilization all able bodied
+							<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> born <date from="1909" notAfter="1918">1909-1918</date> for duty <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-943" type="subject">work</term> battalions
+						auxiliary <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-1086" type="subject">military service</term>. [...]</p>
+					<pb facs="0867" n="1"/>
+					<p>It is believed likely that many of these <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term> will be sent to occupied <placeName ref="http://www.geonames.org/2017370/russian-federation.html">Russian</placeName> territory for <term
+							ref="https://portal.ehri-project.eu/keywords/ehri_terms-556" type="subject">manual labor</term> as has been the case with <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews </term>from other Danubian countries. The eventual repatriation
+						of <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-864" type="subject">Jews</term>
+						<term ref="https://portal.ehri-project.eu/keywords/ehri_terms-518" type="subject">deported</term> to the East would not appear to be envisaged by the present <term ref="#ehri_dr_government_hungarian">Hungarian Government</term> which has recently intensified under Nazi
+						inspiration its <term ref="https://portal.ehri-project.eu/keywords/ehri_terms-337" type="subject">anti-Jewish program</term>.</p>
+				</div>
 			</div>
 		</body>
 	</text>
